@@ -244,11 +244,14 @@
 	.section-7-left h4 {
 		margin-top: 60px;
 	}
-	.swiper-slide{
-		left:5%;
-	}
 	.col-sm-offset-1 {
 		margin-left: 0;
+	}
+	.swiper-slide img {
+		width: 100%;
+	}
+	img.sec-6-img{
+		width:100%;
 	}
 }
 @media (min-width: 1024px) and (max-width:1250px) {
