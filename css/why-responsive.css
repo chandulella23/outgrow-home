@@ -443,7 +443,7 @@
 @media (min-width: 1024px) and (max-width:1250px) {
 	.navbar-right {
 		float: left !important;
-		margin-left: -14px;
+		margin-left: 20px;
 	}
 	.container-fluid > .navbar-header{
 		margin-left:-30px;
@@ -457,6 +457,10 @@
 	}
 	#why .section-7-left span i{
 		margin-right:10px;
+	}
+	#why .section-1-left {
+		padding-left: 15px;
+		display: table;
 	}
 }
 
