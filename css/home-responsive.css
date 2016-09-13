@@ -306,6 +306,15 @@
 	.col-sm-offset-1 {
 		margin-left: 0;
 	}
+	.sec10-testimonial div.sec10-tes-inner {
+		margin-left: 40%;
+	}
+	.sec10-testname{
+		margin-left:45%;
+	}
+	.sec10-testimonial-link{
+		margin-left:45%;
+	}
 }
 @media (min-width: 1480px) and (max-width:1800px) {
 	.collag1-img{ min-height: 450px;}
