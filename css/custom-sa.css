@@ -2972,7 +2972,9 @@ button.swiper-pagination-bullet {
     width: 100%; 
 	margin-top:40px;
 }
-
+#feature .test{
+	display:none;
+}
 /*################### Feature css end ###################*/
 
 

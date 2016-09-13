@@ -14,11 +14,11 @@
 	#feature .section-1-left {
 		padding-left: 10px;
 	}
-	#feature .r-hide{
-		display:none;
+	#feature .rs-hide{
+		display:none !important;
 	}
-	#feature .r-show{
-		display:block;
+	#feature .rs-show{
+		display:block !important;
 	}
 	#feature .section-1-right{
 		padding-left: 0px;
@@ -90,8 +90,7 @@
 	}
 	#feature img {
 		width: 100%;
-		/*height: auto;*/
-		margin-top: 40px;
+		margin-top: 0px;
 	}
 	#feature .sec4-2 {
 		left: 50%;
@@ -196,19 +195,86 @@
 	#feature .footer-copyright{
 		display:none;
 	}
+	#feature .custom-navbar.navbar-default{
+		padding-right:0px;
+	}
+	#feature .navbar-toggle{
+		background-image:none;
+		border:none;
+	}
+	#feature .navbar-default .navbar-toggle .icon-bar {
+		background-color: #fb5f66;
+	}
+	#feature .navbar-brand{
+		padding-left:0 !important;
+		margin-left:0px !important;
+	}
+	#feature .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+		background:#fff;
+	}
+	#feature .test{
+		display:block;
+	}
 }
 
-@media (min-width: 440px) and (max-width:768px) {
-	
+@media (min-width: 440px) and (max-width:480px) {
+	#feature .collag-right {
+		width: 224px;
+	}
+	#feature .collag-right .collage-red {
+		width: 224px;
+		height: 224px;
+		padding: 50px;
+	}
+	#feature .collag-left {
+		float: left;
+		width: 224px;
+	}
+	#feature .collag-right {
+		margin-top: 20px;
+		width: 224px;
+		right: 0px;
+	}
+	#feature .collag-left .collage-red {
+		float: left;
+		width: 224px;
+		height: 224px;
+		padding: 50px;
+		margin-right: 0px;
+	}
 }
 
 @media (min-width: 600px) and (max-width:768px) {
-	
+	#feature .collag-right {
+		margin-top: 20px;
+		width: 300px;
+		right: 0px;
+	}
+	#feature .collag-left {
+		float: left;
+		width: 300px;
+	}
+	#feature .collag-right .collage-red {
+		width: 300px;
+		height: 300px;
+		padding: 90px;
+		margin-bottom: 10px;
+	}
+	#feature .collag-left .collage-red {
+		float: left;
+		width: 300px;
+		height: 300px;
+		padding: 90px;
+		margin-right: 0px;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1024px){
+	#feature .section-1-right{
+		padding-right:2% !important;
+	}
 }
 @media (min-width: 1024px) and (max-width:1366px) {
-	.r-show{
-		display:none;
-	}
+	
 }
 
 /*################### Feature Page responsive css end ###################*/
