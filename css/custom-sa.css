@@ -1753,7 +1753,7 @@ label {
 .section-12{
     background: #fb6c73;
     min-height: 150px;
-	margin-bottom:0px;
+	margin-bottom:60px;
     margin-top: 120px;
 }
 .section-13-runningtext{
@@ -3153,9 +3153,11 @@ button.swiper-pagination-bullet {
 #why .section-4-subheading {
     float: none;
     width: 100%;
-    color: rgba(98,105,109,0.8);
+    /* color: rgba(98,105,109,0.8); */
+	color: #62696d;
     font-size: 18px;
-    font-family: montserratultra_light;
+    /* font-family: montserratultra_light; */
+	font-family: montserratlight;
 }
 
 
@@ -3167,9 +3169,13 @@ button.swiper-pagination-bullet {
 }
 #why .sec4-2{
     position: absolute;
-    left: 94%;
+    left: 25%;
     top: 18%;
     box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
+}
+#why .sec4-2-new{
+	margin-left: 100px;
+    margin-top: -30px;
 }
 #why .google-trends {
     margin-top: 50px;
