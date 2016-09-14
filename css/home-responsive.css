@@ -102,7 +102,7 @@
 	.Section-13 .panel-group .panel + .panel{margin:0px;}
 	.Section-13 .panel-title a{    color: #62696d;font-size: 18px;text-transform: uppercase;font-family: montserratlight; width: 100%; padding: 25px 15px; display: block;}
 	.section-1-left h3{font-size:30px;}
-	.section-1-left h4{display:none;}
+	/*.section-1-left h4{display:none;}*/
 	.custom-navbar.navbar-default{padding-right:0px;}
 	.navbar-toggle{border:none;}
 	.navbar-default .navbar-toggle .icon-bar{background-color:#fb5f66;}
@@ -329,7 +329,7 @@
 	.section-1-left .btn-bottominfo label{font-size: 16px;}
 }
 @media (min-width: 1810px) and (max-width:1920px) {
-	.collag1-img{ min-height: 550px;}
+	.collag1-img{ min-height: 610px;}
 	.collag3-img{ min-height: 385px;}
 	.collag4-img{ min-height: 345px;}
 	.section-1-left h3{ font-size: 46px;line-height: 55px; }
@@ -341,13 +341,102 @@
 	.section-1-left .btn-bottominfo label{font-size: 16px;}
 }
 @media (min-width: 1480px) and (max-width:1920px) {
+	.section-7{padding-bottom: 40px;}
 	.section-7 .slider-sa{ min-height:650px;  padding:0px;}
+	.section-8{padding-bottom: 40px;}
 	.section-8 .slider-sa{ min-height:650px;  padding:0px;}
 	.section-9 .slider-sa{ min-height:650px;  padding:0px;}
-	.sec10-testname{margin-left: 34%;padding-left: 11px;}
-	.sec10-testimonial-link{margin-left: 34%;padding-left: 11px;}
+	.sec10-testname{margin-left: 19%;padding-left: 11px;}
+	.sec10-testimonial-link{margin-left: 19%;padding-left: 11px;}
 	.section1-left-cell{ height: 61vh;}
-	
+	.section-1-left .btn-bottominfo{width:57%;}
+	.section-9-left{ margin-top: 120px; padding-left: 11%;}
+	.section-7-left{ margin-top: 100px; padding-left: 150px;}
+	.section-9-left2{ margin-top: 60px;}
+	.sec10-testimonial div.sec10-tes-inner{ margin-left: 15%; width: 70%;}
+	.billing-boxmain{margin-left: 0px;}
+	.billing-grey{width: 340px;}
+	.billing-white{width: 340px;}
+	.section-1{margin-top: 30px;}
 }
+
+
+/* theme resposnive */
+@media only screen and (max-width: 1440px) {
+	#alternatingSizesPortfolioSection .vc_empty_space:first-of-type {
+		margin-top: -100px !important
+	}
+	#cardsSliderSection .vc_empty_space:first-of-type {
+		margin-top: -130px !important
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#alternatingSizesPortfolioSection .vc_empty_space:first-of-type {
+		margin-top: -25px !important
+	}
+	#cardsSliderSection .vc_empty_space:first-of-type {
+		margin-top: -70px !important
+	}
+}
+
+@media only screen and (min-width:1400px) {
+    .qode_grid_1300 .carousel-inner .slider_content_outer,
+    .qode_grid_1300 .container_inner,
+    .qode_grid_1300 .container_inner nav.content_menu,
+    .qode_grid_1300 .footer_bottom_border.in_grid,
+    .qode_grid_1300 .footer_top_border.in_grid,
+    .qode_grid_1300 .full_width .parallax_content,
+    .qode_grid_1300 .grid_section .section_inner,
+    .qode_grid_1300 .title_border_in_grid_holder,
+    .qode_grid_1300 nav.content_menu ul,
+    .qode_grid_1300.boxed .section .section_inner,
+    .qode_grid_1300.boxed nav.content_menu.fixed {
+        width: 1300px
+    }
+    .qode_grid_1300.boxed .carousel-inner,
+    .qode_grid_1300.boxed .header_inner,
+    body.qode_grid_1300.boxed .footer_inner,
+    body.qode_grid_1300.boxed .wrapper_inner {
+        width: 1350px
+    }
+    .qode_grid_1300.boxed.vertical_menu_enabled .carousel-inner {
+        width: 1350px!important
+    }
+    .qode_grid_1300 .drop_down .wide .second ul li {
+        width: 299px
+    }
+	.grid_section .section_inner{ width: 1300px;}
+}
+
+@media only screen and (min-width:1300px) {
+    .qode_grid_1200 .carousel-inner .slider_content_outer,
+    .qode_grid_1200 .container_inner,
+    .qode_grid_1200 .container_inner nav.content_menu,
+    .qode_grid_1200 .footer_bottom_border.in_grid,
+    .qode_grid_1200 .footer_top_border.in_grid,
+    .qode_grid_1200 .full_width .parallax_content,
+    .qode_grid_1200 .grid_section .section_inner,
+    .qode_grid_1200 .title_border_in_grid_holder,
+    .qode_grid_1200 nav.content_menu ul,
+    .qode_grid_1200.boxed .section .section_inner,
+    .qode_grid_1200.boxed nav.content_menu.fixed {
+        width: 1200px
+    }
+    .qode_grid_1200.boxed .carousel-inner,
+    .qode_grid_1200.boxed .header_inner,
+    body.qode_grid_1200.boxed .footer_inner,
+    body.qode_grid_1200.boxed .wrapper_inner {
+        width: 1250px
+    }
+    .qode_grid_1200.boxed.vertical_menu_enabled .carousel-inner {
+        width: 1250px!important
+    }
+    .qode_grid_1200 .drop_down .wide .second ul li {
+        width: 274px
+    }
+}
+
+
 
 /*################### Homepage responsive css end ###################*/
