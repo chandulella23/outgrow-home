@@ -39,7 +39,7 @@
 	}
 	#why .img-2{
 		width: 70%;
-		margin-left: -15%;
+		margin-left: -9%;
 		float: left;
 	}
 	#why  .img-res{
@@ -95,7 +95,7 @@
 		margin-top: -80px;
 	}
 	#why .section-12 {
-		margin-top: -80px;
+		margin-top: -40px;
 	}
 	/* #why .sec10-testname1 img {
 		float: none;
@@ -170,6 +170,22 @@
 	}
 	.last-sec {
 		margin-bottom: -30px;
+	}
+	#why .section-4 img{
+		margin-top:35px;
+	}
+	#why .section-4-left h4 {
+		color: #fb6c73;
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+	iframe {
+		position: absolute;
+		top: 7px;
+		left: 66px;
+		right: 0;
+		width: 140px;
+		height: 79px;
 	}
 }
 @media (min-width: 320px) and (max-width:420px) {
@@ -434,6 +450,7 @@
 	#why .section-12 {
 		margin-top: 70px;
 	}
+	
 }
 @media (min-width: 768px) and (max-width:1200px){
 	#why .section-1-why {

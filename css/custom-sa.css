@@ -3323,7 +3323,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-4 img{
 	/* box-shadow: 4px 4px 32px 0px rgba(0,0,0,0.35); */
-	box-shadow:0px 5px 28px 8px rgba(0,0,0,0.4);
+	box-shadow:-10px 5px 28px 6px rgba(0,0,0,0.4);
 }
 #why .section-4-left span i {
     font-size: 60px;
@@ -3367,7 +3367,7 @@ button.swiper-pagination-bullet {
     box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
 }
 #why .sec4-2-new{
-	margin-left: 100px;
+	margin-left: 0px;
     margin-top: 0px;
 }
 #why .google-trends {
@@ -3385,7 +3385,9 @@ button.swiper-pagination-bullet {
     top: 0%;
     }
 	
-	
+#why .section-4-left span{
+	width:90%;
+}
 
 #why .section-7{
     float: left;
@@ -3485,8 +3487,9 @@ button.swiper-pagination-bullet {
     margin-bottom: 50px;
 }
 #why .section-16 img{
-	/* box-shadow: 4px 4px 32px 0px rgba(0,0,0,0.35); */
-	box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.4);
+	/* box-shadow: 4px 4px 32px 0px rgba(0,0,0,0.35); 
+	box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.4);*/
+	box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
 }
 #why .section-16-left span i {
     font-size: 90px;
@@ -3535,7 +3538,7 @@ button.swiper-pagination-bullet {
 #why .section-16-left span span {
     color: #62696d;
     font-size: 18px;
-    font-family: montserratUltra_light;
+    font-family: montserratlight;
     width: 90%;
     float: left;
     display: block;
@@ -3559,7 +3562,6 @@ button.swiper-pagination-bullet {
 #why .section-heading{
 	margin-top:130px;
 }
-
 #why .timer2{
 	font-size: 20px;
     position: absolute;
@@ -3571,6 +3573,9 @@ button.swiper-pagination-bullet {
 }
 #why .section-4-left h4{
 	width:80%;
+}
+.test1{
+	margin-top:30px;
 }
 .timer-style{
 	float: right;
@@ -3691,21 +3696,36 @@ button.swiper-pagination-bullet {
 	float: left;
 	width: 100%;
 }
+.video-wrapper-1 {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align:center;
+}
+.img-width-1{
+	width: 70%;
+	position: relative;
+}
 .img-width{
 	max-width: 100%;
 	position: relative;
 }
-iframe {
+/* iframe {
 	position: absolute;
     top: 18px;
     left: 66px;
     right: 0;
     width: 62%;
+} */
+iframe{
+	position: absolute;
+    top: 29px;
+    left: 273px;
+    right: 0;
+    width: 600px;
+    height: 338px;
 }
 
-
-
-Send a message
 .pie {
   width: 250px;
   height: 250px;
