@@ -163,7 +163,7 @@ label {
     color: #fb5f66;
 }
 .custom-navbar.navbar-default .navbar-nav > li > a.line-through{
-    text-decoration: line-through;
+    
 }
 .custom-navbar .btn-login{
     background: #fb5f66;
@@ -3845,7 +3845,10 @@ iframe{
 	margin-bottom:90px;
 }
 #pricing .section-1-right{
-	margin-left:50px;
+	padding-left: 21%;
+    padding-top: 15px;
+    position: absolute;
+    top: 30%;
 }
 #pricing .accordion, .accordion * {
 	-webkit-box-sizing:border-box; 
@@ -3952,6 +3955,51 @@ iframe{
 #pricing a.plusminus.active:before {
     content: "\2796";
 }
+
+#pricing .pricing-headingtop{
+    float: left;
+    background: #fb6c73;
+    min-height:485px;
+}
+#pricing .pricing-headingtop h3{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    color: #fff;
+    font-size: 30px;
+    font-family: montserratlight;
+    text-transform: uppercase;
+    width: 100%;
+}
+#pricing .pricing-headingtop p{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top:0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: montserratlight;
+    width: 100%;
+}
+#pricing .billing-white{
+    box-shadow: 0px -8px 19px 3px rgba(60,60,60,0.29);
+}
+#pricing .billing-grey{
+    box-shadow: 0px -8px 19px 3px rgba(60,60,60,0.29);
+    border-top: 1px solid #fff;
+}
+#pricing .custom-navbar.navbar-default{
+    margin-bottom: 0px;
+}
+#pricing .section-faq{
+    margin-top: 35%;
+}
+#pricing .section-faq .section-2-heading{
+    color: #dfe3e6;
+}
+
+
+
+
 
 /*Pricing Page CSS Ends*/
 
