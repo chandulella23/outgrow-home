@@ -2706,7 +2706,7 @@ button.swiper-pagination-bullet {
 #feature .sec4-2 {
     position: absolute;
     left: 50%;
-    top: -2%;
+    top: 3%;
     box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
 }
 
@@ -2776,8 +2776,9 @@ button.swiper-pagination-bullet {
     float: left;
     width: 100%;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
 	background:#fff;
+	padding-top: 0;
 }
 
 #feature .section-7 .section-9-left span span{
@@ -3126,11 +3127,11 @@ button.swiper-pagination-bullet {
     padding-top: 15px;
 }
 
-/* #feature .container.container-center {
+#feature .container.container-center {
     width: 100%;
     padding: 0;
 }
- */
+
 #feature .sec-help .container.container-center {
     margin: 0 auto;
     display: flex;
@@ -3181,7 +3182,7 @@ button.swiper-pagination-bullet {
     width: 100%;
     margin-top: 0px;
     padding-top: 0;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     margin-bottom: 0px;
     background: #fb6c73;
 }
@@ -3193,7 +3194,8 @@ button.swiper-pagination-bullet {
 		font-size: 48px;
 		line-height: 40px;
 		font-family: montserratbold;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
+		margin-top:50px;
 }
 #feature .feature-heading-1 h3{
 	font-size: 30px;
@@ -3201,7 +3203,7 @@ button.swiper-pagination-bullet {
     width: 100%;
     text-transform: uppercase;
 	font-family:montserratlight;
-	margin-top:50px;
+	margin-top:20px;
 }
 #feature .feature-heading-1 h4{
 	font-size: 18px;
@@ -3219,6 +3221,13 @@ button.swiper-pagination-bullet {
 #feature .vc_row {
     margin-left: 0;
     margin-right: 0px;
+	padding-bottom:0px !important;
+}
+#feature .section-4-left {
+    padding-left: 80px;
+}
+#feature .custom-navbar.navbar-default{
+	margin-bottom:0px;
 }
 /*################### Feature css end ###################*/
 
