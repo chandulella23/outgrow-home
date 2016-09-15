@@ -368,9 +368,10 @@
 	.section-1-left .btn-bottominfo label{font-size: 16px;}
 }
 @media (min-width: 1810px) and (max-width:1920px) {
-	.collag1-img{ min-height: 610px;}
-	.collag3-img{ min-height: 385px;}
-	.collag4-img{ min-height: 345px;}
+	.collag1-img{ min-height: 550px;}
+	.collag-left{width: 60%;}
+	.collag3-img{ min-height: 390px;}
+	.collag4-img{ min-height: 360px;}
 	.section-1-left h3{ font-size: 46px;line-height: 55px; }
 	.section-1-left h4{font-size: 34px; line-height: 45px;}
 	.section-1-left .btn-buildcal{ padding: 15px 35px; font-size: 20px;}
@@ -397,6 +398,7 @@
 	.billing-grey{width: 340px;}
 	.billing-white{width: 340px;}
 	.section-1{margin-top: 30px;}
+	.collag-right{margin-top: 80px;}
 }
 
 
