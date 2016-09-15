@@ -2705,8 +2705,8 @@ button.swiper-pagination-bullet {
 
 #feature .sec4-2 {
     position: absolute;
-    left: 51%;
-    top: 6%;
+    left: 50%;
+    top: -2%;
     box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
 }
 
@@ -2718,7 +2718,9 @@ button.swiper-pagination-bullet {
     color: rgba(190,197,201,0.5);
     text-transform: uppercase;
 }
-
+#feature .section-8{
+	background:#fff;
+}
 #feature .section-9-left h4 {
     color: #fb6c73;
     font-size: 36px;
@@ -2775,6 +2777,7 @@ button.swiper-pagination-bullet {
     width: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
+	background:#fff;
 }
 
 #feature .section-7 .section-9-left span span{
@@ -2837,14 +2840,6 @@ button.swiper-pagination-bullet {
     font-size: 26px;
 }
 
-#feature .section .img-container-left {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 0px;
-    margin-left: 90px;
-    width: 1290px;
-}
-
 #feature .section-4 .section-4-left h4 {
     color: #fb6c73;
     font-size: 36px;
@@ -2865,14 +2860,6 @@ button.swiper-pagination-bullet {
     display: block;
     margin: 0px;
     text-transform: uppercase;
-}
-
-#feature .section .img-container-right {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 90px;
-    margin-left: 0;
-    width: 1290px;
 }
 
 #feature .section.section-5 {
@@ -2939,12 +2926,12 @@ button.swiper-pagination-bullet {
     margin: 0 auto;
     padding-top: 15px;
 }
-
+/* 
 #feature .container.container-center {
     width: 100%;
     padding: 0;
 }
-
+ */
 #feature .container.container-center .sec10-testimonial {
     margin: 0 auto;
     width: 100%;
@@ -3019,11 +3006,11 @@ button.swiper-pagination-bullet {
     margin-top: 40px;
 }
 
-#feature .sec-integration .container {
+/* #feature .sec-integration .container {
     width: 100%;
     padding: 0;
 }
-
+ */
 #feature .section.section-6.sec-analytics .container {
     width: 1360px;
     padding: 0;
@@ -3139,14 +3126,13 @@ button.swiper-pagination-bullet {
     padding-top: 15px;
 }
 
-#feature .container.container-center {
+/* #feature .container.container-center {
     width: 100%;
     padding: 0;
 }
-
+ */
 #feature .sec-help .container.container-center {
     margin: 0 auto;
-    width: 100%;
     display: flex;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -3189,6 +3175,50 @@ button.swiper-pagination-bullet {
 }
 #feature .test{
 	display:none;
+}
+#feature .section-13 {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+    background: #fb6c73;
+}
+#feature .feature-heading{
+	    float: left;
+		width: 100%;
+		text-align: center;
+		color: #dfe3e6;
+		font-size: 48px;
+		line-height: 40px;
+		font-family: montserratbold;
+		margin-bottom: 30px;
+}
+#feature .feature-heading-1 h3{
+	font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+	font-family:montserratlight;
+	margin-top:50px;
+}
+#feature .feature-heading-1 h4{
+	font-size: 18px;
+    color: #fff;
+    width: 100%;
+    font-family:montserratlight;
+	margin-bottom:40px;
+}
+#feature .vc_custom_1469808665479{
+	padding-top:0px !important;
+}
+#feature .qode-expanding-images .qode-side-image{
+	box-shadow: 4px -6px 11px 0 rgba(0, 0, 0, .3);
+}
+#feature .vc_row {
+    margin-left: 0;
+    margin-right: 0px;
 }
 /*################### Feature css end ###################*/
 
