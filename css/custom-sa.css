@@ -867,6 +867,7 @@ label {
 }
 .section-7-left1{
 	padding-left:0px;
+    z-index: 9;
 }
 .sec7-test{
     float: left;
@@ -1123,6 +1124,7 @@ label {
 }
 .section-9-right{
     padding-right: 0px;
+    z-index: 9;
 }
 .sec9-test{
     float: left;
