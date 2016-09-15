@@ -3272,7 +3272,7 @@ button.swiper-pagination-bullet {
 
 #why .collag-left{
     float: left;
-    width: 69%;
+    width: 70%;
 	margin-left:20%;
  }
  
@@ -3332,8 +3332,9 @@ button.swiper-pagination-bullet {
 }
 #why .collag-left a.collag4 {
 	box-shadow: 4px 4px 32px 0px rgba(0,0,0,0.35);
+	width:100%;
 }
-.section-4-left {
+#why .section-4-left {
     padding-left: 40px;
 }
 #why .section-4 img{
@@ -3409,6 +3410,7 @@ button.swiper-pagination-bullet {
     width: 100%;
     margin-bottom: 90px;
 	margin-top:50px;
+	background:#fff;
 }
 
 #why .section-7-right {
@@ -3505,6 +3507,7 @@ button.swiper-pagination-bullet {
 	/* box-shadow: 4px 4px 32px 0px rgba(0,0,0,0.35); 
 	box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.4);*/
 	box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
+	width:100%;
 }
 #why .section-16-left span i {
     font-size: 90px;
@@ -3588,6 +3591,9 @@ button.swiper-pagination-bullet {
 }
 #why .section-4-left h4{
 	width:80%;
+}
+#why .sec10-testname{
+	width:100%;
 }
 .test1{
 	margin-top:30px;
