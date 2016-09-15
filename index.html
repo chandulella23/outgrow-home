@@ -140,10 +140,10 @@
     <section class="section section-3">
         <div class="container">
 			<div class="col-xs-12 mobile-sec3 rs-show">
-				<div class="swiper-container">
+				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<div class="col-xs-12 col-sm-3 sec3-box2 mk-animate-element scale-up">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
 								<h3>Add Real Value</h3>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Calculators</h5>
@@ -165,7 +165,7 @@
 							</div>
 						</div>
 						<div class="swiper-slide">
-							<div class="col-xs-12 col-sm-3 sec3-box2 mk-animate-element scale-up">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
 								<h3>CONVERSION RATES</h3>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Calculators</h5>
@@ -187,7 +187,7 @@
 							</div>
 						</div>
 						<div class="swiper-slide">
-							<div class="col-xs-12 col-sm-3 sec3-box2 mk-animate-element scale-up">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
 								<h3>TRAFFIC</h3>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Calculators</h5>
@@ -209,7 +209,7 @@
 							</div>
 						</div>
 						<div class="swiper-slide">
-							<div class="col-xs-12 col-sm-3 sec3-box2 mk-animate-element scale-up">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
 								<h3>DATA</h3>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Calculators</h5>
@@ -554,12 +554,12 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
                     <div class="qode-cards-gallery-holder right rs-hide" data-side=right>
                         <div class="qode-cards-gallery">
                             <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide4.jpg"
+                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide6.jpg"
                                         style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
                                     /> </a>
                             </div>
                             <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide3.jpg"
+                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide5.jpg"
                                         style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
                                     /> </a>
                             </div>
@@ -625,12 +625,12 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
                     <div class="qode-cards-gallery-holder left rs-hide" data-side=left>
                         <div class="qode-cards-gallery">
                             <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide1.jpg"
+                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide3.jpg"
                                         style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
                                     /> </a>
                             </div>
                             <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide2.jpg"
+                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide4.jpg"
                                         style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
                                     /> </a>
                             </div>
@@ -1374,6 +1374,11 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 		
 		// simple slider js //		
 		var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true
+		});
+
+        var swiper = new Swiper('.swiper-container-first', {
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 		});

@@ -1911,6 +1911,13 @@ label {
   /* Fix of Webkit flickering */
   z-index: 1;
 }
+.swiper-container-first {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+}
 .swiper-container-no-flexbox .swiper-slide {
   float: left;
 }
@@ -1989,6 +1996,14 @@ label {
 }
 /* a11y */
 .swiper-container .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+.swiper-container-first .swiper-notification {
   position: absolute;
   left: 0;
   top: 0;
