@@ -14,7 +14,6 @@
 		font-size:16px;
 	}
 	#pricing .section-2-heading {
-		font-family: montserratultra_light;
 		margin-top: -70px;
 		margin-bottom: 0px;
 	}
@@ -36,6 +35,14 @@
 	#pricing .accordion-section-content{
 		margin-left:35px;
 	}
+	#pricing .pricing-headingtop{ min-height: 50px; padding-bottom:25px;}
+	#pricing .section-1-right{
+		position: relative;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	#pricing .section-faq{ margin-top: 15px;}
+	.section-2-heading{ font-family: montserratbold;}
 }
 
 @media (min-width: 440px) and (max-width:768px) {
@@ -44,7 +51,7 @@
 		margin: 0 10px;
 	}
 	#pricing .section-1-right{
-		margin-left:45px;
+		margin-left:0px;
 	}
 }
 @media (min-width: 600px) and (max-width:768px) {
@@ -108,12 +115,13 @@
 	}
 }
 	@media (min-width: 767px) and (max-width:768px) {
+	
 	#pricing .col-sm-4{
 		width:100%;
 		float:left;
 	}
 	#pricing .section-1-right {
-		margin-left: 150px;
+		margin-left:0px;
 	}
 	#pricing .custom-navbar.navbar-default .navbar-nav > li {
 		margin-right: 0px;
