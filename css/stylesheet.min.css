@@ -25530,7 +25530,7 @@ ul.qode_twitter_widget li {
     transform: scale(.9);
     right: -10%;
     box-shadow:0px 5px 28px 8px rgba(0,0,0,0.4);
-    opacity: 0.5;
+    opacity: 0.5 !important;
 }
 
 .qode-cards-gallery-holder.right .card:nth-last-child(1) {

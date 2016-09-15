@@ -282,6 +282,7 @@ label {
 
 .section-1-right{
     padding-right: 0px;
+    padding-left: 35px;
 }
 .collag-left{
     float: left;
@@ -301,15 +302,15 @@ label {
     width: 100%;
     margin-bottom: 2px;
     margin-left: 2px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     box-shadow:-7px 15px 40px 4px rgba(0,0,0,0.7);
     cursor: default;
 }
 
 .collag-right{
     float: left;
-    width: 25%;
-    margin-right: 35px;
+    width: 26%;
+    margin-right: 25px;
     position: relative;
 }
 .collag-right a{
@@ -1234,7 +1235,7 @@ label {
 }
 .sec10-testimonial div.sec10-tes-inner span{
 	color: #fff;
-    font-size: 34px;
+    font-size: 24px;
     font-family: montserratultra_light;
     float: left;
     text-align: left;
@@ -1268,7 +1269,7 @@ label {
 .sec10-testname{
     float: left;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     line-height: 32px;
     position: relative;
     width: 63%;
@@ -1285,7 +1286,7 @@ label {
 }
 .sec10-testname h5{
     float: left;
-    font-size: 22px;
+    font-size: 18px;
     color: #fff;
     font-family: montserratbold;
     margin: 0px;
@@ -1800,7 +1801,7 @@ label {
 .section-12{
     background: #62696d;
     min-height: 150px;
-	margin-bottom:60px;
+	margin-bottom:0px;
     margin-top: 120px;
 }
 .section-13-runningtext{
@@ -2458,6 +2459,7 @@ button.swiper-pagination-bullet {
 
 /* ############# simple slider css end ################ */
 /* ############## theme css #############*/
+.section-13 .section-2-heading{ margin-bottom: 60px;}
 .vc_custom_1470059348084 {
     padding-top: 136px !important
 }
@@ -2468,7 +2470,7 @@ button.swiper-pagination-bullet {
 }
 
 .vc_custom_1469789306140 {
-    padding-bottom: 46px !important
+    padding-bottom: 46px !important;
 }
 
 .vc_custom_1469698979351 {
@@ -2534,7 +2536,7 @@ button.swiper-pagination-bullet {
 }
 
 .vc_custom_1469695103969 {
-    margin-top: -157px !important
+    /*margin-top: -157px !important*/
 }
 
 .vc_custom_1469699403300 {
