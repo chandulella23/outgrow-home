@@ -3248,7 +3248,7 @@ button.swiper-pagination-bullet {
 #why .section-1-why {
     float: left;
     width: 100%;
-    margin-top: 130px;
+    margin-top:0px;
 }
 #why .section-1-left {
     padding-left: 55px;
@@ -3395,7 +3395,10 @@ button.swiper-pagination-bullet {
 #why .why-text{
 	margin-top:30px;
 }
-
+#why .section-4{
+	margin-top:40px;
+	margin-bottom:40px;
+}
 
 #why   .img-2{
 	position: absolute;
@@ -3410,8 +3413,8 @@ button.swiper-pagination-bullet {
 #why .section-7{
     float: left;
     width: 100%;
-    margin-bottom: 90px;
-	margin-top:50px;
+    margin-bottom: 0px;
+	margin-top:0px;
 	background:#fff;
 }
 
