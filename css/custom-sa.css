@@ -3276,14 +3276,14 @@ button.swiper-pagination-bullet {
 
 #why .collag-left{
     float: left;
-    width: 70%;
-	margin-left:20%;
- }
+    width: 90%;
+}
  
 #why .collag3 {
     overflow: hidden;
     cursor: default;
 	margin-top:50px;
+	margin-bottom:2px;
 }
 #why .collag3-img {
     background-image: url(../images/why-graph2.jpg);

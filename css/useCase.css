@@ -39,14 +39,14 @@ body{background:#fff !important;}
     bottom: 0;
     right: 0;
     margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.90);
+    border: none;
+    background-color: none;
     opacity: 1;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 .gallery-content-center .img-outer:hover .portfolio-hover .action-btn { 
-	opacity:1;
+	opacity:0;
 }
 .gallery-content-center .img-outer-text{
 	float:left; 
@@ -313,4 +313,9 @@ body{background:#fff !important;}
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px)
  /* move the element up by 5px */;
+}
+.gallery {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
 }
