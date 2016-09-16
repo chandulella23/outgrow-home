@@ -206,6 +206,9 @@ label {
 	margin-top:30px;
     margin-bottom: 70px;
     padding-bottom: 30px;
+    background: url("../images/watermark-logo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
 }
 .section-1 .container-fluid{
     padding: 0px;
