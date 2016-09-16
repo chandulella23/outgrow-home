@@ -161,6 +161,25 @@
 		position: relative;
 		height: auto;
 	}
+	#why .section-16 {
+		margin-top: 0;
+	}
+	#why .section-16-left span{
+		margin-top:0px;
+	}
+	#why .section-16-text span{
+		padding:0px 20px;
+	}
+	#why .section-16-text h4{
+		padding:0px 20px;
+	}
+	#why .section-16-text{
+		padding-right:0px;
+	}
+	#why .section-16-text span span{
+		margin-bottom:20px;
+		padding:0px;
+	}
 	iframe {
 		position: absolute;
 		top: 7%;
