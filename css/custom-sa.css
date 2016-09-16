@@ -236,6 +236,7 @@ label {
     font-family:montserratlight;
     color: #62696d;
     margin-bottom: 30px;
+    margin-top: 70px;
 }
 .section-1-left input{
     padding: 10px;
@@ -335,7 +336,7 @@ label {
     width: 100%;
     min-height:385px;
     background-size: cover;
-    background-position: center top;
+    background-position: left top;
     /* -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;*/
 }
@@ -389,9 +390,9 @@ label {
     cursor: pointer;
 }
 .collag4-img {
-    background-image: url(../images/new-collag3.jpg);
+    background-image: url(../images/banner3.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     float: left;
     width: 100%;
     min-height: 225px;
@@ -1829,7 +1830,7 @@ label {
     background: #62696d;
     margin: 0px;
     padding-top: 30px;
-    padding-bottom: 30px; 
+    padding-bottom: 10px; 
     min-height: 250px;
 }
 .footer-link{
@@ -1844,10 +1845,24 @@ label {
     margin-bottom: 20px;
 }
 .footer-img{
-    background: #6b7276;
     min-height: 100px;
     float: left;
     margin-bottom: 15px;
+    padding-left: 0px;
+}
+.footer-img2{
+    min-height: 100px;
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+.footer-img2text{
+    float: left;
+    width: 100%;
+    color: #bdc5c8;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 30px;
 }
 .footer-link ul{
     float: left;
@@ -1896,6 +1911,38 @@ label {
     position: relative;
     top: -2px;
 }
+.footer-img-text{
+    font-size: 12px;
+    color: #bdc5c8;
+    margin-top: 5px;
+}
+.footer-social{
+    text-align: center;
+    margin-top: 25px;
+}
+.footer-social ul{
+    display: inline-block;
+    padding-left: 0px;
+}
+.footer-social ul li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-social ul li a{
+    float: left;
+    color: #bdc5c8;
+    font-size: 14px;
+    font-family: montserratlight;
+}
+.footer-social ul li a:hover{
+    color: #fff;
+}
+.footer-copyright{ text-align: center;}
+.footer-copyright i{position: relative; top: 2px;font-size: 14px; margin-right: 5px;}
+.footer-copyright span{margin-right: 10px; font-size: 14px; color: #bdc5c8;}
+
+
 
 .slider-sa{
     min-height: 470px;
