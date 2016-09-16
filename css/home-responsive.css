@@ -120,6 +120,7 @@
 	.Section-13 .panel-group .panel + .panel{margin:0px;}
 	.Section-13 .panel-title a{    color: #62696d;font-size: 18px;text-transform: uppercase;font-family: montserratlight; width: 100%; padding: 25px 15px; display: block;}
 	.section-1-left h3{font-size:30px;}
+	.section-1-left h3.section1-firsthead{font-size:30px;}
 	/*.section-1-left h4{display:none;}*/
 	.custom-navbar.navbar-default{padding-right:0px;}
 	.navbar-toggle{border:none;}
@@ -364,6 +365,7 @@
 	.collag3-img{ min-height: 285px;}
 	.collag4-img{ min-height: 275px;}
 	.section-1-left h3{ font-size: 40px;line-height: 50px; }
+	.section-1-left h3.section1-firsthead{ font-size: 40px;line-height: 50px; }
 	.section-1-left h4{font-size: 30px; line-height: 40px;}
 	.section-1-left .btn-buildcal{ padding: 15px 30px; font-size: 18px;}
 	.custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
@@ -377,7 +379,8 @@
 	.collag3-img{ min-height: 390px;}
 	.collag4-img{ min-height: 300px;}
 	.section-1-left h3{ font-size: 46px;line-height: 55px; }
-	.section-1-left h4{font-size: 34px; line-height: 45px; margin-top:60px;}
+	.section-1-left h3.section1-firsthead{ font-size: 46px;line-height: 55px; }
+    .section-1-left h4{font-size: 34px; line-height: 45px; margin-top:60px;}
 	.section-1-left .btn-buildcal{ padding: 15px 35px; font-size: 20px;}
 	.custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
 	.custom-navbar.navbar-default{ padding-top: 25px;}

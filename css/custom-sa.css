@@ -219,6 +219,16 @@ label {
     height: 61vh;
     vertical-align: middle;
 }
+.section-1-left h3.section1-firsthead{
+    float: left;
+    width: 100%;
+    font-size: 33px;
+    font-family:montserratlight;
+    color: #fb6c73;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 .section-1-left h3{
     float: left;
     width: 100%;
