@@ -2942,7 +2942,7 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section .container.sec-5-container {
-    width: 1350px;
+    width: 100%;
 }
 
 #feature .section-10 {
@@ -3407,6 +3407,14 @@ button.swiper-pagination-bullet {
     position: relative;
     margin-right: 10px;
     float: left;
+}
+#feature .section-17-left span {
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 15px;
 }
 /*################### Feature css end ###################*/
 
