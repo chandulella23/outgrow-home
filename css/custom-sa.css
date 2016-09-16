@@ -3797,8 +3797,9 @@ button.swiper-pagination-bullet {
     margin: 0px;
     text-align: left;
 }
-#why .section-16-right{
-    padding-right: 0px;
+#why .section-16-text {
+    padding-right: 60px;
+    padding-left: 0;
 }
 
 #why .section-16-left h4 {
@@ -3828,6 +3829,79 @@ button.swiper-pagination-bullet {
 }
 #why .sec10-testname{
 	width:100%;
+}
+#why .section-16-text span {
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#why .section-16-text span i {
+    font-size: 60px;
+    color: #fb6c73;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+#why .section-16-text h4 {
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratultra_light;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 0px;
+}
+#why .section-16-text span span {
+    color: #62696d;
+    font-size: 18px;
+    font-family: montserratlight;
+    width: 90%;
+    float: left;
+    display: block;
+    margin: 0px;
+    text-align: left;
+}
+#why .section-2-subheading {
+    color: #62696d;
+    font-size: 18px;
+    font-family: montserratlight;
+    width: 58%;
+    float: none;
+    display: block;
+    /* margin: 0px; */
+    text-align: center;
+    margin-top: 60px !important;
+    margin: 0 auto;
+}
+#why .section-top-why {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background: #fb6c73;
+	padding:30px 0px;
+}
+#why .section-top-why h3{
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    margin-top: 20px;
+    text-align: center;
+}
+#why .section-top-why img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
 }
 .test1{
 	margin-top:30px;
