@@ -2946,33 +2946,38 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section-10 {
-    background: none;
+    /* background: none;
+    margin-top: 40px; */
+	background: #62696d;
     margin-top: 40px;
 }
 
 #feature .section.section-10 i.material-icons {
     font-size: 72px;
-    color: #fb6c73;
+    color: #fff;
     float: left;
     display: block;
     width: 100%;
+    opacity: 0.8;
 }
 
 #feature .section.section-10 span {
-    font-size: 18px;
+   font-size: 18px;
     font-family: montserratlight;
-    color: #62696d;
+    color: #fff;
     text-transform: uppercase;
+    opacity: 0.8;
 }
 
 #feature .section.section-10 p {
     font-size: 14px;
     font-family: montserratlight;
-    color: #62696d;
+    color: #fff;
     line-height: 17px;
     width: 52%;
     margin: 0 auto;
     padding-top: 15px;
+    opacity: 0.8;
 }
 /* 
 #feature .container.container-center {
@@ -2981,18 +2986,18 @@ button.swiper-pagination-bullet {
 }
  */
 #feature .container.container-center .sec10-testimonial {
-    margin: 0 auto;
+   margin: 0 auto;
     width: 100%;
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background: rgba(189, 197, 200, 0.1);
-    min-height: 260px;
-    padding-top: 50px;
+    display: block;
+    /* margin-top: 40px; */
+    /* margin-bottom: 40px; */
+    background: none;
+    min-height: 300px;
+    /* padding-top: 50px; */
 }
 
 #feature .container.container-center h1 {
-    color: #fb6c73 !important;
+    color: #fff !important;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: center;
@@ -3000,7 +3005,8 @@ button.swiper-pagination-bullet {
     float: left;
     display: block;
     text-transform: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #feature .section-7 .section-9-left .btn-buildCalc {
@@ -3321,8 +3327,13 @@ button.swiper-pagination-bullet {
     text-transform: uppercase;
 }
 #feature .section-15-left span i {
-    font-size: 24px;
+    /* font-size: 24px;
     color: #bec5c9;
+    position: relative;
+    margin-right: 10px;
+    float: left; */
+	font-size: 60px;
+    color: #fb6c73;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3358,8 +3369,13 @@ button.swiper-pagination-bullet {
     text-transform: none;
 }
 #feature .section-17-left span i {
-    font-size: 24px;
+   /*  font-size: 24px;
     color: #bec5c9;
+    position: relative;
+    margin-right: 10px;
+    float: left; */
+	font-size: 60px;
+    color: #fb6c73;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3377,6 +3393,20 @@ button.swiper-pagination-bullet {
 #feature .section-9-left {
     padding-right: 90px;
     padding-left: 90px;
+}
+.icon-style{
+	font-size: 60px;
+    color: #fb6c73;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+#feature .section-4-left span i {
+    font-size: 60px;
+    color: #fb6c73;
+    position: relative;
+    margin-right: 10px;
+    float: left;
 }
 /*################### Feature css end ###################*/
 
@@ -3734,7 +3764,7 @@ button.swiper-pagination-bullet {
     font-family: montserratultra_light;
 }
 #why .section-16-left {
-    padding-left: 40px;
+    padding-left: 60px;
     padding-right: 0px;
 }
 #why .section-16-left span {
@@ -3746,8 +3776,13 @@ button.swiper-pagination-bullet {
     margin-bottom: 10px;
 }
 #why .section-16-left span i {
-    font-size: 24px;
+    /* font-size: 24px;
     color: #bec5c9;
+    position: relative;
+    margin-right: 10px;
+    float: left; */
+	font-size: 60px;
+    color: #fb6c73;
     position: relative;
     margin-right: 10px;
     float: left;
