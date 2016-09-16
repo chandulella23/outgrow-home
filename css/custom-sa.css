@@ -3646,7 +3646,9 @@ button.swiper-pagination-bullet {
 	font-family: montserratlight;
 }
 
-
+#why .img-res{
+	margin-top:12px;
+}
 
 #why .sec4-2-1{
     position: relative;
