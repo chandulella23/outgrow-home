@@ -1,7 +1,7 @@
 jQuery(window).load(function () {
 function fn(highlighted) {
 var size = 1;
-var button = 3;
+var button = 1;
 var button_class = "gallery-header-center-right-links-current";
 var normal_size_class = "gallery-content-center-normal";
 var full_size_class = "gallery-content-center-full";
@@ -15,8 +15,12 @@ jQuerycontainer.isotope({itemSelector : '.abc', filter: highlighted,});
 function check_button(){
 	jQuery('.gallery-header-center-right-links').removeClass(button_class);
 	if(button==1){
-		jQuery("#filter-all").addClass(button_class);
+		jQuery("#industry").addClass(button_class);
 		jQuery("#gallery-header-center-left-title").html('All cards'); 
+		}
+	if(button==2){
+		$("#category").addClass(button_class);
+		$("#gallery-header-center-left-title").html('Studio Gallery');
 		}
 	
 }
@@ -35,8 +39,9 @@ function check_size(){
 
 
 	
-jQuery("#filter-all").click(function() { jQuerycontainer.isotope({ filter: '.all' }); button = 1; check_button(); });
-
+jQuery("#filter-all").click(function() { jQuerycontainer.isotope({ filter: '.all' }); button = 0; check_button(); });
+jQuery("#industry").click(function() {  $container.isotope({ filter: '.usecase-industry' }); button = 1; check_button();  });
+jQuery("#category").click(function() {  $container.isotope({ filter: '.usecase-category' }); button = 2; check_button();  });
 jQuery(".gallery-header-center-left-icon").click(function() { if(size==0){size=1;}else if(size==1){size=0;} check_size(); });
 
 

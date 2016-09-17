@@ -319,3 +319,100 @@ body{background:#fff !important;}
     width: 100%;
     margin-top: 20px;
 }
+
+
+.usecase .gallery-content-center .abc{
+    width: 100%;
+}
+
+.usecase .section-usecase1-left h4 {
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: none;
+}
+
+.usecase .section-usecase1-left .section-usecase1-new span{
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.usecase .section-usecase1-left .section-usecase1-new span span {
+    color: #62696d;
+    font-size: 14px;
+    font-family: montserratregular;
+    width: 85%;
+    float: left;
+    display: block;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.usecase .section-usecase1-left .section-usecase1-new span i{
+    font-size: 24px;
+    color: #bec5c9;
+    position: relative;
+    margin-right: 20px;
+    float: left;
+}
+.usecase .section-usecase1-left {
+    padding-left: 120px;
+}
+
+
+
+
+.usecase .gallery-content-center .abc{
+    width: 100%;
+}
+
+.usecase .section-usecase2-left h4 {
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: none;
+}
+
+.usecase .section-usecase2-left .section-usecase2-new span{
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.usecase .section-usecase2-left .section-usecase2-new span span {
+    color: #62696d;
+    font-size: 14px;
+    font-family: montserratregular;
+    width: 85%;
+    float: left;
+    display: block;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.usecase .section-usecase2-left .section-usecase2-new span i{
+    font-size: 24px;
+    color: #bec5c9;
+    position: relative;
+    margin-right: 20px;
+    float: left;
+}
+.usecase .section-usecase2-left {
+    padding-right: 120px;
+}
+.usecase .gallery-header-center-right-links-current{ border: none;}
