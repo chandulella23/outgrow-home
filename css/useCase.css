@@ -335,25 +335,43 @@ body{background:#fff !important;}
     display: block;
     text-transform: none;
 }
+.usecase .section-usecase1-left span {
+    color: #fb6c73;
+    font-size: 14px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: none;
+}
+.usecase .section-usecase1-left p {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #fb6c73;
+    font-family: montserratlight;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 
 .usecase .section-usecase1-left .section-usecase1-new span{
     text-align: left;
     width: 100%;
     float: left;
     display: block;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .usecase .section-usecase1-left .section-usecase1-new span span {
     color: #62696d;
     font-size: 14px;
-    font-family: montserratregular;
+    font-family: montserratlight;
     width: 85%;
     float: left;
     display: block;
     margin: 0px;
-    text-transform: uppercase;
 }
 
 .usecase .section-usecase1-left .section-usecase1-new span i{
@@ -364,9 +382,9 @@ body{background:#fff !important;}
     float: left;
 }
 .usecase .section-usecase1-left {
-    padding-left: 120px;
+    padding-left: 50px;
 }
-
+.usecase .sec9-test{ margin-top: 5px;}
 
 
 
@@ -384,25 +402,43 @@ body{background:#fff !important;}
     display: block;
     text-transform: none;
 }
+.usecase .section-usecase2-left p {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #fb6c73;
+    font-family: montserratlight;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.usecase .section-usecase2-left span {
+    color: #fb6c73;
+    font-size: 14px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: none;
+}
 
 .usecase .section-usecase2-left .section-usecase2-new span{
     text-align: left;
     width: 100%;
     float: left;
     display: block;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .usecase .section-usecase2-left .section-usecase2-new span span {
     color: #62696d;
     font-size: 14px;
-    font-family: montserratregular;
+    font-family: montserratlight;
     width: 85%;
     float: left;
     display: block;
     margin: 0px;
-    text-transform: uppercase;
 }
 
 .usecase .section-usecase2-left .section-usecase2-new span i{
@@ -413,6 +449,6 @@ body{background:#fff !important;}
     float: left;
 }
 .usecase .section-usecase2-left {
-    padding-right: 120px;
+    padding-right: 50px;
 }
 .usecase .gallery-header-center-right-links-current{ border: none;}
