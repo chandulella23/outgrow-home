@@ -2,93 +2,128 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outgrow: Interactive Calculators</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Outgrow: Interactive Calculators</title>
 
 	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
-    <!-- css start -->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="css/bootstrap.css">
+	<!-- css start -->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- homepage css -->
-    <link rel="stylesheet" href="css/custom-sa.css">
-    <link rel="stylesheet" href="css/sahil-hover.css">
+	<link rel="stylesheet" href="css/custom-sa.css">
+	<link rel="stylesheet" href="css/sahil-hover.css">
 	<link rel="stylesheet" href="css/home-responsive.css">
 	<link rel='stylesheet' href='css/stylesheet.min.css' type='text/css' media='all'  />
-	<link rel='stylesheet' href='css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />    
-    <!--<script  type='text/javascript' src='js/jquerycad0.js'></script>  -->
-    
-            
+	<link rel='stylesheet' href='css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />
+	<!--<script  type='text/javascript' src='js/jquerycad0.js'></script>  -->
+
+	<!-- Analytics Tracking Snippets Starts -->
+	<script type="text/javascript" src="https://static.leaddyno.com/js"></script>
+	<script>
+		// If you use multiple sub-domains, set the root domain here
+		LeadDyno.domain = "outgrow.co";
+		LeadDyno.key = "607cbd9bd45338b858d79550ab7f6b05faa01c0f";
+		LeadDyno.recordVisit();
+		LeadDyno.autoWatch();
+	</script>
+
+	<script type="text/javascript">var _kmq = _kmq || [];
+		var _kmk = _kmk || '41ec14671b03954fde573bdbeb2ec11956b53ce7';
+		function _kms(u){
+			setTimeout(function(){
+			var d = document, f = d.getElementsByTagName('script')[0],
+			s = d.createElement('script');
+			s.type = 'text/javascript'; s.async = true; s.src = u;
+			f.parentNode.insertBefore(s, f);
+			}, 1);
+		}
+		_kms('//i.kissmetrics.com/i.js');
+		_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+	</script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		//For Marketing Analytics - N
+		ga('create', 'UA-82638968-1', 'auto', 'markettingteam');
+		ga('markettingteam.send', 'pageview');
+	</script>
+
+	<!-- Analytics Tracking Snippets Ends -->
 </head>
 
-<body class="" > 
-    <!-- svg code -->
-    <!--<svg id="route" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="7293" viewBox="0 0 294.152 7293.492">
-    <path id="path" fill="none" stroke="#fb5f66" stroke-width="3" stroke-linecap="round" d="M689.606,397.606l-684,0l0,428l651,0l0,378l-4,0l0,-374l-651,0l0,-436l684,0l0,-390l4,0l0,394Z" />
-    </svg>-->
-    <!--<svg id="route" xmlns="http://www.w3.org/2000/svg" version="1.1" width="294" height="7293" viewBox="0 0 294.152 7293.492">
-    <path id="path" fill="none" stroke="#fb5f66" stroke-width="3" stroke-linecap="round" d="M157.656 7.212c0 0 100.344 178.906 100.344 321.913 0 271.418-220.792 286.061-220.792 407.951 0 121.889 240.638 175.278 240.638 249.546 0 57.827-52.157 57.26-55.559 127.03 -3.892 79.807 13.039 89.348 12.094 158.324 -0.944 68.977-77.071 136.497-115.275 179.528 -36.022 40.573-93.084 86.74-108.851 132.131 -13.381 38.524-19.24 132.253 67.276 164.471 86.516 32.217 178.575 58.708 207.387 133.319 28.812 74.611-41.038 146.05-92.111 183.308 -51.074 37.257-164.657 113.385-145.163 169.133 19.493 55.748 150.832 34.69 150.832 134.983s49.134 71.002 49.134 135.254 -36.851 200.126-36.851 247.37c0 47.243 50.41 99.401 50.41 172.157 0 72.756-45.686 154.016-45.686 235.275 0 114.331 22.678 205.04 23.622 280.63 1.469 117.537-190.866 112.442-190.866 222.048 0.945 113.385 182.567 178.233 187.958 295.748 13.138 286.299-153.376 635.527-186.667 782.361 -22.621 99.773-19.622 232.261 101.765 229.205 45.046-1.134 78.928-36.449 81.196-76.231 2.034-35.705-34.017-76.437-89.575-66.8 -59.712 10.357-91.345 60.498-106.016 136.087 -7.235 37.278-11.828 98.358-12.739 160.63 -2.394 163.629 76.938 201.007 105.149 220.85 14.682 10.326 106.274 49.377 103.748 94.15 -3.969 70.318-200.126 101.541-196.725 159.904 3.402 58.363 73.126 72.615 65.764 149.072 -7.37 76.535-80.933 101.479-80.933 180.85 0 121.324 78.098 200.126 71.295 283.465 -6.422 78.672-56.126 159.184-38.551 227.904 21.565 84.326 197.38 62.931 192.756 153.072 -3.386 65.994-171.22 82.799-212.599 141.732 -37.417 53.291-1.928 159.781 22.678 235.275 24.944 76.535 89.368 238.621 111.541 297.914"/>
-    </svg>
-    <!-- svg code -->
+<body class="" >
+	<!-- svg code -->
+	<!--<svg id="route" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="7293" viewBox="0 0 294.152 7293.492">
+	<path id="path" fill="none" stroke="#fb5f66" stroke-width="3" stroke-linecap="round" d="M689.606,397.606l-684,0l0,428l651,0l0,378l-4,0l0,-374l-651,0l0,-436l684,0l0,-390l4,0l0,394Z" />
+	</svg>-->
+	<!--<svg id="route" xmlns="http://www.w3.org/2000/svg" version="1.1" width="294" height="7293" viewBox="0 0 294.152 7293.492">
+	<path id="path" fill="none" stroke="#fb5f66" stroke-width="3" stroke-linecap="round" d="M157.656 7.212c0 0 100.344 178.906 100.344 321.913 0 271.418-220.792 286.061-220.792 407.951 0 121.889 240.638 175.278 240.638 249.546 0 57.827-52.157 57.26-55.559 127.03 -3.892 79.807 13.039 89.348 12.094 158.324 -0.944 68.977-77.071 136.497-115.275 179.528 -36.022 40.573-93.084 86.74-108.851 132.131 -13.381 38.524-19.24 132.253 67.276 164.471 86.516 32.217 178.575 58.708 207.387 133.319 28.812 74.611-41.038 146.05-92.111 183.308 -51.074 37.257-164.657 113.385-145.163 169.133 19.493 55.748 150.832 34.69 150.832 134.983s49.134 71.002 49.134 135.254 -36.851 200.126-36.851 247.37c0 47.243 50.41 99.401 50.41 172.157 0 72.756-45.686 154.016-45.686 235.275 0 114.331 22.678 205.04 23.622 280.63 1.469 117.537-190.866 112.442-190.866 222.048 0.945 113.385 182.567 178.233 187.958 295.748 13.138 286.299-153.376 635.527-186.667 782.361 -22.621 99.773-19.622 232.261 101.765 229.205 45.046-1.134 78.928-36.449 81.196-76.231 2.034-35.705-34.017-76.437-89.575-66.8 -59.712 10.357-91.345 60.498-106.016 136.087 -7.235 37.278-11.828 98.358-12.739 160.63 -2.394 163.629 76.938 201.007 105.149 220.85 14.682 10.326 106.274 49.377 103.748 94.15 -3.969 70.318-200.126 101.541-196.725 159.904 3.402 58.363 73.126 72.615 65.764 149.072 -7.37 76.535-80.933 101.479-80.933 180.85 0 121.324 78.098 200.126 71.295 283.465 -6.422 78.672-56.126 159.184-38.551 227.904 21.565 84.326 197.38 62.931 192.756 153.072 -3.386 65.994-171.22 82.799-212.599 141.732 -37.417 53.291-1.928 159.781 22.678 235.275 24.944 76.535 89.368 238.621 111.541 297.914"/>
+	</svg>
+	<!-- svg code -->
 
 	<!-- Homepage header start-->
-    <nav class="navbar custom-navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
-            </div>
+	<nav class="navbar custom-navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+			</div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="why.html">Why Calculators ?</a></li>
-                    <li><a href="feature.html">Features</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="useCase-new.html">Use Cases</a></li>
-                    <li><a href="http://app.outgrow.us">Start Trial</a></li>
-                    <li><a href="http://app.outgrow.us/login" class="link-login">Login</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-    <!-- Homepage header end-->
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="why.html">Why Calculators ?</a></li>
+					<li><a href="feature.html">Features</a></li>
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="useCase-new.html">Use Cases</a></li>
+					<li><a href="http://app.outgrow.us">Start Trial</a></li>
+					<li><a href="http://app.outgrow.us/login" class="link-login">Login</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!-- Homepage header end-->
 	<!-- Homepage section 1 start-->
-    <section class="section section-1">
-        <div class="container-fluid">
-            <div class="col-md-5 col-xs-12 col-sm-6 section-1-left">
-                <div class="section1-left-cell">
-                      <h4 class="mk-animate-element fade-in">
-                        eBooks, blogs & whitepapers giving <b>lukewarm</b> results?
-                    </h4>
-                    <h3 class="mk-animate-element fade-in section1-firsthead">
-                        Boost your marketing with highly converting
-                    </h3>
-                    <h3 class="mk-animate-element fade-in">
-                        interactive calculators.
-                    </h3>
-                  
-                    <div class="form-group mk-animate-element fade-in hide">
-                        <input type="text" placeholder="Email Address" />
-                    </div>
-                    <div class="col-xs-12 col-sm-12 np">
+	<section class="section section-1">
+		<div class="container-fluid">
+			<div class="col-md-5 col-xs-12 col-sm-6 section-1-left">
+				<div class="section1-left-cell">
+					  <h4 class="mk-animate-element fade-in">
+						eBooks, blogs & whitepapers giving <b>lukewarm</b> results?
+					</h4>
+					<h3 class="mk-animate-element fade-in section1-firsthead">
+						Boost your marketing with highly converting
+					</h3>
+					<h3 class="mk-animate-element fade-in">
+						interactive calculators.
+					</h3>
+
+					<div class="form-group mk-animate-element fade-in hide">
+						<input type="text" placeholder="Email Address" />
+					</div>
+					<div class="col-xs-12 col-sm-12 np">
 						<a href="http://app.outgrow.us">
 							<button class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i> I Cannot Wait to Build One!</button>
 						</a>
-                        <div class="btn-bottominfo mk-animate-element fade-in">
-                            <span>Free Plan Available</span>
-                            <label>No Credit Card Required</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
+						<div class="btn-bottominfo mk-animate-element fade-in">
+							<span>Free Plan Available</span>
+							<label>No Credit Card Required</label>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col-xs-12 col-sm-6 rs-show np">
 				<div class="sec1-box-left">
 					<div class="sec1-box1 mk-animate-element left-to-right">
@@ -107,41 +142,41 @@
 					</div>
 				</div>
 			</div>
-            <div class="col-xs-12 col-sm-7 section-1-right">
-                <div class="collag-right rs-hide">
+			<div class="col-xs-12 col-sm-7 section-1-right">
+				<div class="collag-right rs-hide">
 					<a class="collag1 mk-animate-element fade-in" href="javascript:void(0);">
-                        <div class="collag1-img"></div>
-                    </a>
-                </div>
-                <div class="collag-left rs-hide">
-                    <div class="col-sm-12">
-                        <a class="collag3 mk-animate-element fade-in" href="javascript:void(0);">
-                            <div class="collag3-img"></div>
-                        </a>
-                    </div>
-                    <div class="col-sm-12">
-                        <a class="collag4 mk-animate-element fade-in" href="javascript:void(0);">
-                            <div class="collag4-img"></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+						<div class="collag1-img"></div>
+					</a>
+				</div>
+				<div class="collag-left rs-hide">
+					<div class="col-sm-12">
+						<a class="collag3 mk-animate-element fade-in" href="javascript:void(0);">
+							<div class="collag3-img"></div>
+						</a>
+					</div>
+					<div class="col-sm-12">
+						<a class="collag4 mk-animate-element fade-in" href="javascript:void(0);">
+							<div class="collag4-img"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Homepage section 1 end-->
+	<!-- Homepage section 1 end-->
 	<section class="section">
 		<div class="container mobile-container">
 			<div class="section-2-heading mk-animate-element scale-up">
 				Calculators: the next big thing in content marketing.
 			</div>
 		</div>
-    </section>
-    <!-- Homepage section 2 start-->
-    <!-- Homepage section 2 end-->
+	</section>
+	<!-- Homepage section 2 start-->
+	<!-- Homepage section 2 end-->
 	<!-- Homepage section 3 start-->
-    <section class="section section-3">
-        <div class="container">
+	<section class="section section-3">
+		<div class="container">
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -152,13 +187,13 @@
 									<h5>Calculators</h5>
 									<i class="material-icons hide">check_circle</i>
 									<p>Answer your customers most pressing questions.</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Ebooks</h5>
 									<i class="material-icons hide">gesture</i>
 									<p>Sure! But do people really have time to read.</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Landing Pages</h5>
@@ -174,13 +209,13 @@
 									<h5>Calculators</h5>
 									<h4 class="hide">High</h4>
 									<p>Interactivity enhances conversion to over 40-50%</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Ebooks</h5>
 									<h4 class="hide">Uninspiring</h4>
 									<p>No instant gratification only allows for 10-20%.</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Landing Pages</h5>
@@ -196,13 +231,13 @@
 									<h5>Calculators</h5>
 									<h4 class="hide">INHERENTLY VIRAL</h4>
 									<p>Personalized responses encourage sharing.</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Ebooks</h5>
 									<h4 class="hide">Lukewarm</h4>
 									<p>They can get shared. But viral? Probably not.</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Landing Pages</h5>
@@ -218,13 +253,13 @@
 									<h5>Calculators</h5>
 									<h4 class="hide">RICH</h4>
 									<p>Rich responses can help make sales more targeted.</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Ebooks</h5>
 									<h4 class="hide">Little</h4>
 									<p>You can't do much with an email and name.</p>
-                                    <span>V/S</span>
+									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Landing Pages</h5>
@@ -238,7 +273,7 @@
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>
-            <div class="col-xs-12 col-sm-12 np rs-hide">
+			<div class="col-xs-12 col-sm-12 np rs-hide">
 				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
 					<div class="col-xs-12 np sec3-box1inner">
 						<h4>Add Real Value</h4>
@@ -314,24 +349,24 @@
 						<p>When did you last submit a real name, email?</p>
 					</div>
 				</div>
-                <div class="col-xs-12 col-sm-12 text-center">
+				<div class="col-xs-12 col-sm-12 text-center">
 					<button class="btn-buildcal mk-animate-element left-to-right"> <p>Still not convinced?</p> <i class="material-icons">keyboard_arrow_right</i></button>
 				</div>
 			</div>
-        </div>
-    </section>
-    <!-- Homepage section 3 end-->
+		</div>
+	</section>
+	<!-- Homepage section 3 end-->
 	<section class="section">
 		<div class="container mobile-container">
 			<div class="section-2-heading mk-animate-element scale-up ">
 				Beautiful calculators. Without Developers.
 			</div>
-            <div class="section-2-subheading mk-animate-element scale-up">
+			<div class="section-2-subheading mk-animate-element scale-up">
 				 Publish intricate calculators in minutes with our simple, yet versatile development studio.
 			</div>
 		</div>
-    </section>
-    <!--<section>
+	</section>
+	<!--<section>
 		<h3 class="section-runnigheading mk-animate-element scale-up">This simplest, most versatile tool can build the most intricate & beautiful calculators.</h3>
 		<!--<div class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
 			<div class=" full_section_inner clearfix">
@@ -347,128 +382,128 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 				</div>
 			</div>
 		</div>
-    </section>-->
+	</section>-->
 
-    <!-- Homepage section 4 start-->
-    <section class="section section-4">
-        <div class="container mobile-container">
+	<!-- Homepage section 4 start-->
+	<section class="section section-4">
+		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
-                <img src="images/new-collag2.jpg" class="mk-animate-element right-to-left sec4-2-1" />
-                <img class="sec4-2 mk-animate-element left-to-right" src="images/sec4-2.jpg" />
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
-                <h4 class="mk-animate-element right-to-left">
-                    Look Stunning
-                </h4>
-                <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">format_paint</i>
-                    <span><b>Beautiful Templates</b> that Raise Your UX Game</span>
-                </span>
-                <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">view_compact</i>
-                    <span>Uplift Your Brand with <b>Quick Customizations</b> </span>
-                </span>
-                <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">developer_board</i>
-                    <span>Publish Within Minutes, with <b>No IT Headache</b> </span>
-                </span>
-                
-            </div>
-			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
-                <img src="images/sec4-1.jpg" class="mk-animate-element right-to-left sec4-2-1" />
-                <!--<img class="sec4-2 mk-animate-element scale-up" src="images/sec4-2.jpg" />-->
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 4 end-->
+				<img src="images/new-collag2.jpg" class="mk-animate-element right-to-left sec4-2-1" />
+				<img class="sec4-2 mk-animate-element left-to-right" src="images/sec4-2.jpg" />
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
+				<h4 class="mk-animate-element right-to-left">
+					Look Stunning
+				</h4>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">format_paint</i>
+					<span><b>Beautiful Templates</b> that Raise Your UX Game</span>
+				</span>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">view_compact</i>
+					<span>Uplift Your Brand with <b>Quick Customizations</b> </span>
+				</span>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">developer_board</i>
+					<span>Publish Within Minutes, with <b>No IT Headache</b> </span>
+				</span>
 
-    <!-- Homepage section 5 start-->
-    <section class="section section-5">
-        <div class="container mobile-container">
+			</div>
+			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
+				<img src="images/sec4-1.jpg" class="mk-animate-element right-to-left sec4-2-1" />
+				<!--<img class="sec4-2 mk-animate-element scale-up" src="images/sec4-2.jpg" />-->
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 4 end-->
+
+	<!-- Homepage section 5 start-->
+	<section class="section section-5">
+		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-                <img class="mk-animate-element scale-up sec5-2-1" src="images/sec5-1.png" />
-                <img class="sec5-2 mk-animate-element left-to-right" src="images/sec5-2.png" />
-            </div>
+				<img class="mk-animate-element scale-up sec5-2-1" src="images/sec5-1.png" />
+				<img class="sec5-2 mk-animate-element left-to-right" src="images/sec5-2.png" />
+			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
-                <h4 class="mk-animate-element right-to-left">
-                    Publish Anywhere
-                </h4>
-                <span class="mk-animate-element right-to-left" >
-                    <i class="material-icons">public</i>
+				<h4 class="mk-animate-element right-to-left">
+					Publish Anywhere
+				</h4>
+				<span class="mk-animate-element right-to-left" >
+					<i class="material-icons">public</i>
 					<span>Publish on <b>Your Domain</b> or a URL of your choice.</span>
 				</span>
-                <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">check_circle</i>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">check_circle</i>
 					<span>Embed Beautifully on Any <b>App, Webpage or CMS</b>.</span>
-                </span>
-                 <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">check_circle</i>
+				</span>
+				 <span class="mk-animate-element right-to-left">
+					<i class="material-icons">check_circle</i>
 					<span>Present as a <b>Pop-up</b> or as a <b>Slide-in</b>. </span>
-                </span>
-                
-            </div>
+				</span>
+
+			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-                <img class="mk-animate-element scale-up sec5-2-1" src="images/sec5-1.png" />
-                <img class="sec5-2 mk-animate-element left-to-right" src="images/sec5-2.png" />
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 5 end-->
+				<img class="mk-animate-element scale-up sec5-2-1" src="images/sec5-1.png" />
+				<img class="sec5-2 mk-animate-element left-to-right" src="images/sec5-2.png" />
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 5 end-->
 
-    <!-- Homepage section 6 start-->
-    <section class="section section-6">
-        <div class="container img-container">
+	<!-- Homepage section 6 start-->
+	<section class="section section-6">
+		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show ">
-                <img class="mk-animate-element right-to-left sec-6-img" src="images/bank_cal.jpg" />
-                <!--<img class="sec4-2" src="images/sec4-2.jpg" />-->
-            </div>
-            <div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
-                <h4 class="mk-animate-element left-to-right">
-                    Boost Growth
-                </h4>
-                <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">timeline</i>
-                    <span>Targeted Sales with <b>Rich Customer Data</b></span>
-                </span>
-                <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">face</i>
-                    <span>Track <b>Visits, Conversions</b> and Holistic Traffic Stats</span>
-                </span>
-               <!--  <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">reorder</i>
-                    <span>Export Leads</span>
-                </span> -->
-                <span class="mk-animate-element right-to-left">
-                    <i class="material-icons">swap_horiz</i>
-                    <span>Send Leads to <b>Over 500 sales & marketing tools</b></span>
-                </span>
-            </div>
+				<img class="mk-animate-element right-to-left sec-6-img" src="images/bank_cal.jpg" />
+				<!--<img class="sec4-2" src="images/sec4-2.jpg" />-->
+			</div>
+			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
+				<h4 class="mk-animate-element left-to-right">
+					Boost Growth
+				</h4>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">timeline</i>
+					<span>Targeted Sales with <b>Rich Customer Data</b></span>
+				</span>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">face</i>
+					<span>Track <b>Visits, Conversions</b> and Holistic Traffic Stats</span>
+				</span>
+			   <!--  <span class="mk-animate-element right-to-left">
+					<i class="material-icons">reorder</i>
+					<span>Export Leads</span>
+				</span> -->
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">swap_horiz</i>
+					<span>Send Leads to <b>Over 500 sales & marketing tools</b></span>
+				</span>
+			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
-                <img class="mk-animate-element right-to-left sec-6-img" src="images/graph-2.jpg" />
-                <!--<img class="sec4-2" src="images/sec4-2.jpg" />-->
-            </div>
-            <div class="col-xs-12 col-sm-12 text-center rs-hide">
-                <button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button>
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 6 end-->
+				<img class="mk-animate-element right-to-left sec-6-img" src="images/graph-2.jpg" />
+				<!--<img class="sec4-2" src="images/sec4-2.jpg" />-->
+			</div>
+			<div class="col-xs-12 col-sm-12 text-center rs-hide">
+				<button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button>
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 6 end-->
 
-    <section class="section section-7-top">
+	<section class="section section-7-top">
 		<div class="container mobile-container">
 			<div class="section-2-heading mk-animate-element scale-up">
 				 The Outgrow Magic
 			</div>
 		</div>
-    </section>
+	</section>
 	<!-- Homepage section 7 start-->
-    <section class="section section-7">
-        <div class="container-fluid np">
+	<section class="section section-7">
+		<div class="container-fluid np">
 			<section>
 				<span class="section-runnigheading mk-animate-element scale-up hide">Get Inspired..</span>
 			</section>
-            <div class="col-xs-12 col-md-6 col-sm-12 section-9-right col-sm-push-6 ">
-                <div class="col-xs-12 col-sm-12 slider-sa">
+			<div class="col-xs-12 col-md-6 col-sm-12 section-9-right col-sm-push-6 ">
+				<div class="col-xs-12 col-sm-12 slider-sa">
 					<div class="rs-show">
 						<div class="swiper-container  mk-animate-element scale-up rs-show">
 							<div class="swiper-wrapper">
@@ -483,65 +518,65 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 						</div>
 						<div class="swiper-pagination"></div>
 					</div>
-                    <div class="qode-cards-gallery-holder left rs-hide" data-side=left>
-                        <div class="qode-cards-gallery">
-                            <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide2.jpg"
-                                        style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-                                    /> </a>
-                            </div>
-                            <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide1.jpg"
-                                        style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-                                    /> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
+						<div class="qode-cards-gallery">
+							<div class="card" style="background-color:#f3f3f3">
+								<a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide2.jpg"
+										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+									/> </a>
+							</div>
+							<div class="card" style="background-color:#f3f3f3">
+								<a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide1.jpg"
+										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+									/> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 section-9-left col-sm-pull-6 ">
-                <h4 class="mk-animate-element left-to-right">
-                    How Much To Build a Mobile App?
-                </h4>
-                <div class="sec9-test mk-animate-element left-to-right">
-                    <em class="left">“</em>
-                    <p>
+				<h4 class="mk-animate-element left-to-right">
+					How Much To Build a Mobile App?
+				</h4>
+				<div class="sec9-test mk-animate-element left-to-right">
+					<em class="left">“</em>
+					<p>
 						The app cost calculator helped us create a brand centered around transparency. It soon became the go to tool for entrepreneurs to assess app development costs. Today, it is our <b>#1 source of leads</b>.
-                        <em class="right">”</em>
-                    </p>
+						<em class="right">”</em>
+					</p>
 					<span class="text-1">Head of Marketing,</span>
 					<span class="text-2">VenturePact, LLC</span>
 				</div>
-                <div class="col-xs-12 col-sm-12 col-md-11 np">
-                    <div class="circle-value mk-animate-element left-to-right">
-                        <em class="">k</em>
-                        <label class="counter">56</label>
-                        <p>Unique Views</p>
-                    </div>
-                    <div class="circle-value mk-animate-element left-to-right">
-                        <em class="">k</em>
-                        <label class="counter">19</label>
-                        <p>Leads</p>
-                    </div>
-                    <div class="circle-value mk-animate-element left-to-right">
-                        <em class="">%</em>
-                        <label  class="counter">34</label>
-                        <p>Conversion Rate</p>
-                    </div>
-                </div>
+				<div class="col-xs-12 col-sm-12 col-md-11 np">
+					<div class="circle-value mk-animate-element left-to-right">
+						<em class="">k</em>
+						<label class="counter">56</label>
+						<p>Unique Views</p>
+					</div>
+					<div class="circle-value mk-animate-element left-to-right">
+						<em class="">k</em>
+						<label class="counter">19</label>
+						<p>Leads</p>
+					</div>
+					<div class="circle-value mk-animate-element left-to-right">
+						<em class="">%</em>
+						<label  class="counter">34</label>
+						<p>Conversion Rate</p>
+					</div>
+				</div>
 <!-- 				<div class="col-xs-12 col-sm-11 np rs-hide">
 					<button class="btn-buildcal mk-animate-element left-to-right"> <p>more use cases</p> <i class="material-icons">keyboard_arrow_right</i></button>
 				</div> -->
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 7 end-->
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 7 end-->
 
-    <!-- Homepage section 8 start-->
-    <section class="section section-8">
-        <div class="container-fluid np">
-            <div class="col-xs-12 col-sm-12 col-md-6 section-7-left1">
-                <div class="col-xs-12 col-sm-12 slider-sa">
+	<!-- Homepage section 8 start-->
+	<section class="section section-8">
+		<div class="container-fluid np">
+			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left1">
+				<div class="col-xs-12 col-sm-12 slider-sa">
 					<div class="rs-show">
 						<div class="swiper-container  mk-animate-element scale-up">
 							<div class="swiper-wrapper">
@@ -556,65 +591,65 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 						</div>
 						<div class="swiper-pagination"></div>
 					</div>
-                    <div class="qode-cards-gallery-holder right rs-hide" data-side=right>
-                        <div class="qode-cards-gallery">
-                            <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide3.jpg"
-                                        style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-                                    /> </a>
-                            </div>
-                            <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide4.jpg"
-                                        style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-                                    /> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 section-7-left">
-                <h4 class="mk-animate-element right-to-left">
-                    How Long Should it Take for a Payout to be Made on an Insurance Claim?
-                </h4>
+					<div class="qode-cards-gallery-holder right rs-hide" data-side=right>
+						<div class="qode-cards-gallery">
+							<div class="card" style="background-color:#f3f3f3">
+								<a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide3.jpg"
+										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+									/> </a>
+							</div>
+							<div class="card" style="background-color:#f3f3f3">
+								<a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide4.jpg"
+										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+									/> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left">
+				<h4 class="mk-animate-element right-to-left">
+					How Long Should it Take for a Payout to be Made on an Insurance Claim?
+				</h4>
 				<div class="sec9-test mk-animate-element right-to-left">
-                    <em class="left">“</em>
-                    <p>
-					    33% of our support calls were about the timing of payouts against insurance claims. When we launched the calculator, that went down to about 12%. Our <b>organic traffic also increased considerably</b> as "When will I get my payout?" happened to be a hot long tail keyword. 
-                        <em class="right">”</em>
-                    </p>
+					<em class="left">“</em>
+					<p>
+						33% of our support calls were about the timing of payouts against insurance claims. When we launched the calculator, that went down to about 12%. Our <b>organic traffic also increased considerably</b> as "When will I get my payout?" happened to be a hot long tail keyword.
+						<em class="right">”</em>
+					</p>
 					<span class="text-1">Head of Customer Experience,</span>
 					<span class="text-2">IDBI Insurance</span>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-11 np">
-                    <div class="circle-value mk-animate-element right-to-left">
-                        <em class="">k</em>
-                        <label class="counter">22</label>
-                        <p>Unique Visits</p>
-                    </div>
-                    <div class="circle-value mk-animate-element right-to-left">
-                        <em class="">k</em>
-                        <label class="counter">12</label>
-                        <p>Search Traffic</p>
-                    </div>
-                    <div class="circle-value mk-animate-element right-to-left">
-                        <em class="">%</em>
-                        <label  class="counter">98</label>
-                        <p>Completion Rate</p>
-                    </div>
-                </div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-11 np">
+					<div class="circle-value mk-animate-element right-to-left">
+						<em class="">k</em>
+						<label class="counter">22</label>
+						<p>Unique Visits</p>
+					</div>
+					<div class="circle-value mk-animate-element right-to-left">
+						<em class="">k</em>
+						<label class="counter">12</label>
+						<p>Search Traffic</p>
+					</div>
+					<div class="circle-value mk-animate-element right-to-left">
+						<em class="">%</em>
+						<label  class="counter">98</label>
+						<p>Completion Rate</p>
+					</div>
+				</div>
 				<!-- <div class="col-xs-12 col-sm-11 np rs-hide">
 					<button class="btn-buildcal mk-animate-element right-to-left"><p>more use cases</p> <i class="material-icons">keyboard_arrow_right</i></button>
 				</div> -->
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 8 end-->
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 8 end-->
 
-    <!-- Homepage section 9 start-->
-    <section class="section section-9">
-        <div class="container-fluid np">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-sm-push-6 section-9-right">
-                <div class="col-xs-12 col-sm-12 slider-sa">
+	<!-- Homepage section 9 start-->
+	<section class="section section-9">
+		<div class="container-fluid np">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-sm-push-6 section-9-right">
+				<div class="col-xs-12 col-sm-12 slider-sa">
 					<div class="rs-show">
 						<div class="swiper-container  mk-animate-element scale-up rs-show">
 							<div class="swiper-wrapper">
@@ -629,575 +664,575 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 						</div>
 						<div class="swiper-pagination"></div>
 					</div>
-                    <div class="qode-cards-gallery-holder left rs-hide" data-side=left>
-                        <div class="qode-cards-gallery">
-                            <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide6.jpg"
-                                        style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-                                    /> </a>
-                            </div>
-                            <div class="card" style="background-color:#f3f3f3">
-                                <a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide5.jpg"
-                                        style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-                                    /> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
+						<div class="qode-cards-gallery">
+							<div class="card" style="background-color:#f3f3f3">
+								<a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide6.jpg"
+										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+									/> </a>
+							</div>
+							<div class="card" style="background-color:#f3f3f3">
+								<a href="javascript:void(0);" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/slide5.jpg"
+										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+									/> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 section-9-left section-9-left2 col-sm-pull-6">
-                <h4 class="mk-animate-element left-to-right">
-                    Calculate How Much You Can Score in Scholarships!
-                </h4>
-                <div class="sec9-test mk-animate-element left-to-right">
-                    <em class="left">“</em>
-                    <p>
-                        First question students ask is how much they will get in scholarships. Well, the calculator let us asnwer this question up front. <b>Students shared the calculator a lot </b> and <b>bounce rates were < 10% </b>- not something I have seen after spending over $10M in Online Ads.
-                        <em class="right">”</em>
-                    </p>
-                    <span class="text-1">Head of Admissions,</span>
+				<h4 class="mk-animate-element left-to-right">
+					Calculate How Much You Can Score in Scholarships!
+				</h4>
+				<div class="sec9-test mk-animate-element left-to-right">
+					<em class="left">“</em>
+					<p>
+						First question students ask is how much they will get in scholarships. Well, the calculator let us asnwer this question up front. <b>Students shared the calculator a lot </b> and <b>bounce rates were < 10% </b>- not something I have seen after spending over $10M in Online Ads.
+						<em class="right">”</em>
+					</p>
+					<span class="text-1">Head of Admissions,</span>
 					<span class="text-2">Top Ranked Online University</span>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-11 np">
-                    <div class="circle-value mk-animate-element left-to-right">
-                        <em class="">k</em>
-                        <label class="counter">98</label>
-                        <p>Unique Views</p>
-                    </div>
-                    <div class="circle-value mk-animate-element left-to-right">
-                        <em class="">%</em>
-                        <label class="counter">66</label>
-                        <p>Referral Traffic</p>
-                    </div>
-                    <div class="circle-value mk-animate-element left-to-right">
-                        <em class="">%</em>
-                        <label  class="counter">6</label>
-                        <p>Bounce Rate</p>
-                    </div>
-                </div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-11 np">
+					<div class="circle-value mk-animate-element left-to-right">
+						<em class="">k</em>
+						<label class="counter">98</label>
+						<p>Unique Views</p>
+					</div>
+					<div class="circle-value mk-animate-element left-to-right">
+						<em class="">%</em>
+						<label class="counter">66</label>
+						<p>Referral Traffic</p>
+					</div>
+					<div class="circle-value mk-animate-element left-to-right">
+						<em class="">%</em>
+						<label  class="counter">6</label>
+						<p>Bounce Rate</p>
+					</div>
+				</div>
 				<div class="col-xs-12 col-sm-11 np rs-hide">
 					<button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore more use cases</p> <i class="material-icons">keyboard_arrow_right</i></button>
 				</div>
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 9 end-->
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 9 end-->
 
-    <!-- Homepage section 10 start-->
-    <section class="section section-10">
-        <div class="container-fluid">
-            <div class="sec10-testimonial mk-animate-element left-to-right">
+	<!-- Homepage section 10 start-->
+	<section class="section section-10">
+		<div class="container-fluid">
+			<div class="sec10-testimonial mk-animate-element left-to-right">
 				<div class="sec10-testname1 hide">
 					<img src="images/testimonial1.png" />
 				</div>
-                <div class="sec10-tes-inner">
+				<div class="sec10-tes-inner">
 					<em class="sec10-em1">“</em>
 					<span>I am on my third calculator already. The first two were organically shared on a popular industry mailing list and fetched us over 5000 highly targeted leads!</span>
-					
-                </div>
+
+				</div>
 				<div class="sec10-testname">
 					<h5>Hillary Hunt</h5>
 <!-- 					<span>Marketing Manager</span>
  -->				</div>
-                <a class="sec10-testimonial-link">Marketing Manager</a>
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 10 end-->
+				<a class="sec10-testimonial-link">Marketing Manager</a>
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 10 end-->
 	<section class="section">
 		<div class="container">
 			<div class="section-2-heading mk-animate-element scale-up rs-hide">
 				Simple Pricing
-			</div>			
+			</div>
 			<div class="section-2-heading mk-animate-element scale-up rs-show center">
 				Simple Pricing
 
 			</div>
 		</div>
-    </section>
-    <!-- Homepage section 11 start-->
-    <section class="section section-11">
-        <div class="container">
+	</section>
+	<!-- Homepage section 11 start-->
+	<section class="section section-11">
+		<div class="container">
 			<section>
 				<h3 class="section-runnigheading mk-animate-element scale-up hide">Pricing</h3>
 			</section>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-sm-offset-1 billing-boxmain">
-                <div class="col-md-12 col-sm-12 col-xs-12 np billing-table">
-                <!-- Start: Starter Box -->
-                <div class="col-md-4 col-sm-4 col-xs-12 np billing-grey starter-box mk-animate-element left-to-right">
-                    <div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
-                        <h3 class="plan-title">Tinker</h3>
-                        <span class="border-center"></span>
-                        <h3 class="plan-price">Free</h3>
-                        <!--<div class="col-md-12 col-sm-12 col-xs-12 np">
-                            <span class="mat-icon">
-                                <i class="material-icons">check_circle</i>
-                            </span>
-                            <span class="current-plan">&nbsp;Your Current Plan</span>
-                        </div>-->
-                        <p>
-                            For those who want to play around with calculators, but not really use it for business. 
-                        </p>
-                        <div class="col-md-12 col-sm-12 col-xs-12 np">
-                            <button type="" class="btn btn-white-red-outline hvr-sweep-to-right">Sign Up</button>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-bottom rs-hide"> 
-                        <ul class="billing-list">
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;3 Users</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;10 Calculators</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;3 Templates</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Real Time Result</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Lead Generation</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Traffic Analytics</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Get Started CTA</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Integrations</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Embed Anywhere</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Custom Branding</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;24/7 Support</span>
-                                </a>
-                            </li> 
-                        </ul>
-                    </div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-sm-offset-1 billing-boxmain">
+				<div class="col-md-12 col-sm-12 col-xs-12 np billing-table">
+				<!-- Start: Starter Box -->
+				<div class="col-md-4 col-sm-4 col-xs-12 np billing-grey starter-box mk-animate-element left-to-right">
+					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
+						<h3 class="plan-title">Tinker</h3>
+						<span class="border-center"></span>
+						<h3 class="plan-price">Free</h3>
+						<!--<div class="col-md-12 col-sm-12 col-xs-12 np">
+							<span class="mat-icon">
+								<i class="material-icons">check_circle</i>
+							</span>
+							<span class="current-plan">&nbsp;Your Current Plan</span>
+						</div>-->
+						<p>
+							For those who want to play around with calculators, but not really use it for business.
+						</p>
+						<div class="col-md-12 col-sm-12 col-xs-12 np">
+							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">Sign Up</button>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-bottom rs-hide">
+						<ul class="billing-list">
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;3 Users</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;10 Calculators</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;3 Templates</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Real Time Result</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Lead Generation</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Traffic Analytics</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Get Started CTA</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Integrations</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Embed Anywhere</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Custom Branding</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;24/7 Support</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 					<a href="javascript:void(0);" class="toggle-dots-white">
 						<span></span>
 						<span></span>
 						<span></span>
 					</a>
-                </div>
-                <!-- End: Starter Box -->
-                 <!-- Start: Business Box -->
-                <div class="col-md-4 col-sm-4 col-xs-12 np billing-white business-box mk-animate-element scale-up">
-                    <div class="col-md-12 col-sm-12 col-xs-12 np billing-white-top text-center business-box-xshadow">
-                        <span class="ribbon">Most Popular</span>
-                        <h3 class="plan-title">Business</h3>
-                        <span class="border-center"></span>
-                        <h3 class="plan-price">$199 / month</h3>
-                        <p>
-                            Most effective plan that provides access to premium templates, lead generation tools and full service integrations.
-                        </p>
-                        <div class="col-md-12 col-sm-12 col-xs-12 np">
-                            <button type="" class="btn btn-white-red-outline hvr-sweep-to-right">try it</button>
-                            <button type="" class="btn btn-white-red-outline hvr-sweep-to-right">buy</button>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 np billing-white-bottom rs-hide"> 
-                        <ul class="billing-list">
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;5 Users</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;20 Calculators</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;5 Templates</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Real Time Result</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Lead Generation</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Traffic Analytics</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Get Started CTA</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Integrations</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Embed Anywhere</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Custom Branding</span>
-                                </a>
-                            </li>
-                            <li class="unselected">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;24/7 Support</span>
-                                </a>
-                            </li> 
-                            <li class="unselected">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;X000 Leads/Month</span>
-                                </a>
-                            </li> 
-                            <li class="unselected">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Priority Support</span>
-                                </a>
-                            </li> 
-                            <li class="unselected">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Marketing Checklist</span>
-                                </a>
-                            </li>   
-                        </ul>
-                    </div>
+				</div>
+				<!-- End: Starter Box -->
+				 <!-- Start: Business Box -->
+				<div class="col-md-4 col-sm-4 col-xs-12 np billing-white business-box mk-animate-element scale-up">
+					<div class="col-md-12 col-sm-12 col-xs-12 np billing-white-top text-center business-box-xshadow">
+						<span class="ribbon">Most Popular</span>
+						<h3 class="plan-title">Business</h3>
+						<span class="border-center"></span>
+						<h3 class="plan-price">$199 / month</h3>
+						<p>
+							Most effective plan that provides access to premium templates, lead generation tools and full service integrations.
+						</p>
+						<div class="col-md-12 col-sm-12 col-xs-12 np">
+							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">try it</button>
+							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">buy</button>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 np billing-white-bottom rs-hide">
+						<ul class="billing-list">
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;5 Users</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;20 Calculators</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;5 Templates</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Real Time Result</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Lead Generation</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Traffic Analytics</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Get Started CTA</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Integrations</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Embed Anywhere</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Custom Branding</span>
+								</a>
+							</li>
+							<li class="unselected">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;24/7 Support</span>
+								</a>
+							</li>
+							<li class="unselected">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;X000 Leads/Month</span>
+								</a>
+							</li>
+							<li class="unselected">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Priority Support</span>
+								</a>
+							</li>
+							<li class="unselected">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Marketing Checklist</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 					<a href="javascript:void(0);" class="toggle-dots-grey">
 						<span></span>
 						<span></span>
 						<span></span>
 					</a>
-                </div>
-                <!-- End: Business Box -->
+				</div>
+				<!-- End: Business Box -->
 
-                <!-- Start: enterprise Box -->
-                <div class="col-md-4 col-sm-4 col-xs-12 np billing-grey enterprise-box mk-animate-element right-to-left">
-                    <div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
-                        <h3 class="plan-title">Enterprise</h3>
-                        <span class="border-center"></span>
-                        <h3 class="blank"></h3>
-                        <div class="col-md-12 col-sm-12 col-xs-12 np">
-                            <span class="custom-price">&nbsp;Custom Pricing</span>
-                        </div>
-                        <p>
-                            If you're making interactive calculators the center of your marketing agenda, lets talk. We can help with setup, training and advanced integrations.
-                        </p>
-                        <div class="col-md-12 col-sm-12 col-xs-12 np">
-                            <button type="" class="btn btn-white-red-outline hvr-sweep-to-right">Contact us</button>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 np billing-grey2 rs-hide"> 
-                        <ul class="billing-list">
-                             <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Unlimited Users</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Unlimited Calculators</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;6 Templates</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Traffic Analytics</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Get Started CTA</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Integrations</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Embed Anywhere</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Custom Branding</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;24/7 Support</span>
-                                </a>
-                            </li> 
-                            <li class="">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Account Manager</span>
-                                </a>
-                            </li> 
-                            <li class="">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Training</span>
-                                </a>
-                            </li> 
-                            <li class="unselected">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Real Time Result</span>
-                                </a>
-                            </li> 
-                            <li class="unselected">
-                                <a href="javascript:void(0);" class="">
-                                    <span class="mat-icon"></span>
-                                    <span class="list-name">&nbsp;Load Generation</span>
-                                </a>
-                            </li>   
-                        </ul>
-                    </div>
+				<!-- Start: enterprise Box -->
+				<div class="col-md-4 col-sm-4 col-xs-12 np billing-grey enterprise-box mk-animate-element right-to-left">
+					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
+						<h3 class="plan-title">Enterprise</h3>
+						<span class="border-center"></span>
+						<h3 class="blank"></h3>
+						<div class="col-md-12 col-sm-12 col-xs-12 np">
+							<span class="custom-price">&nbsp;Custom Pricing</span>
+						</div>
+						<p>
+							If you're making interactive calculators the center of your marketing agenda, lets talk. We can help with setup, training and advanced integrations.
+						</p>
+						<div class="col-md-12 col-sm-12 col-xs-12 np">
+							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">Contact us</button>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey2 rs-hide">
+						<ul class="billing-list">
+							 <li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Unlimited Users</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Unlimited Calculators</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;6 Templates</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Traffic Analytics</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Get Started CTA</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Integrations</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Embed Anywhere</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Custom Branding</span>
+								</a>
+							</li>
+							<li class="">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;24/7 Support</span>
+								</a>
+							</li>
+							<li class="">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Account Manager</span>
+								</a>
+							</li>
+							<li class="">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Training</span>
+								</a>
+							</li>
+							<li class="unselected">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Real Time Result</span>
+								</a>
+							</li>
+							<li class="unselected">
+								<a href="javascript:void(0);" class="">
+									<span class="mat-icon"></span>
+									<span class="list-name">&nbsp;Load Generation</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 					<a href="javascript:void(0);" class="toggle-dots-white2">
 						<span></span>
 						<span></span>
 						<span></span>
 					</a>
-                </div>
-                <!-- End: enterprise Box -->
-            </div>
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 11 end-->
+				</div>
+				<!-- End: enterprise Box -->
+			</div>
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 11 end-->
 
-    <!-- Homepage section 12 start-->
-    <section class="section section-12">
-        <div class="container-fluid">
-            <div class="sec10-testimonial mk-animate-element right-to-left">
-                <div class="sec10-testname1 hide">
+	<!-- Homepage section 12 start-->
+	<section class="section section-12">
+		<div class="container-fluid">
+			<div class="sec10-testimonial mk-animate-element right-to-left">
+				<div class="sec10-testname1 hide">
 					<img src="images/testimonial2.png" />
 				</div>
-                <div class="sec10-tes-inner">
+				<div class="sec10-tes-inner">
 					<em class="sec10-em1">“</em>
 					<span>We sent a calculator to a prospective customer. Since we were tracking the email, we found that the email was opened over 400 times. I think he was he obsessed with the calculator.</span>
-					
-                </div>
+
+				</div>
 				<div class="sec10-testname">
 					<h5>Paul McIntiere</h5>
 <!-- 					<span></span>
  -->				</div>
-                <a class="sec10-testimonial-link">Sales Territory Manager</a>
-                
-            </div>
-        </div>
-    </section>
-    <!-- homepage section 12 new start -->
-    <div id="alternatingSizesPortfolioSection" class="vc_row wpb_row section vc_row-fluid hide  vc_custom_1469789306140 grid_section"
-        style=' text-align:center;'>
-        <div class=" section_inner clearfix">
-            <div class='section_inner_margin clearfix'>
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner ">
-                        <div class="wpb_wrapper">
-                            <div class="vc_empty_space  vc_custom_1469695103969" style="height: 0px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
-                            </div>
-                            <div class='projects_holder_outer v3 portfolio_with_space portfolio_with_hover_text'>
-                                <div class='projects_holder portfolio_main_holder clearfix v3 alternating_sizes portfolio_landscape_image '>
-                                    <article class='mix portfolio_category_3 ' style=''>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);"
-                                                        style="font-size: 12px">Bridge Original</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Original"
-                                                href="javascript:void(0);"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/0.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/0.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/0-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_2 portfolio_category_9 portfolio_category_7 '
-                                        style=''>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge77.qodeinteractive.com/" style="font-size: 12px">Bridge Modern Furniture</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Modern Furniture"
-                                                href="http://bridge77.qodeinteractive.com/"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/07/77.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="77" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/77.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/77-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge8.qodeinteractive.com/" style="font-size: 12px">Bridge Craftsman</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Craftsman"
-                                                href="http://bridge8.qodeinteractive.com/"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="600" height="380" src="wp-content/uploads/2016/03/8.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/8.jpg 600w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/8-300x190.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_4 portfolio_category_2 portfolio_category_5 '
-                                        style=''>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge10.qodeinteractive.com/" style="font-size: 12px">Bridge Modern Photography</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Modern Photography"
-                                                href="http://bridge10.qodeinteractive.com/"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="600" height="380" src="wp-content/uploads/2016/03/10.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/10.jpg 600w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/10-300x190.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 portfolio_category_5 '
-                                        style=''>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge69.qodeinteractive.com/" style="font-size: 12px">Bridge Resume</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Resume"
-                                                href="http://bridge69.qodeinteractive.com/"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/07/69.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/69.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/69-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
-                                        style=''><span class="qode-portfolio-new-badge">NEW</span>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge38.qodeinteractive.com/" style="font-size: 12px">Bridge Conference</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Conference"
-                                                href="http://bridge38.qodeinteractive.com/"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/landing-demo-image-new-1.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-1.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-1-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0)" style="font-size: 12px">Bridge Consulting</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Consulting"
-                                                href="javascript:void(0)"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/07/74.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/74.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/74-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge9.qodeinteractive.com/" style="font-size: 12px">Bridge Corporation</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge Corporation"
-                                                href="http://bridge9.qodeinteractive.com/"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/landing-demo-image-new-3.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
-                                        style=''><span class="qode-portfolio-new-badge">NEW</span>
-                                        <div class="item_holder flip_from_left">
-                                            <div class="portfolio_title_holder">
-                                                <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge42.qodeinteractive.com/" style="font-size: 12px">Bridge UX/UI Design</a></h5>
-                                            </div>
-                                            <a itemprop="url" class="portfolio_link_class" title="Bridge UX/UI Design"
-                                                href="http://bridge42.qodeinteractive.com/"></a>
-                                            <div class="portfolio_shader"></div>
-                                            <div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/landing-demo-image-new-2.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-2.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-2-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                        </div>
-                                    </article>
-                                    <div class='filler'></div>
-                                    <div class='filler'></div>
-                                    <div class='filler'></div>
-                                </div>
-                            </div>
-                            <div class="vc_empty_space" style="height: 49px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- homepage section 12 new end -->
-    <!-- Homepage section 12 end-->
+				<a class="sec10-testimonial-link">Sales Territory Manager</a>
+
+			</div>
+		</div>
+	</section>
+	<!-- homepage section 12 new start -->
+	<div id="alternatingSizesPortfolioSection" class="vc_row wpb_row section vc_row-fluid hide  vc_custom_1469789306140 grid_section"
+		style=' text-align:center;'>
+		<div class=" section_inner clearfix">
+			<div class='section_inner_margin clearfix'>
+				<div class="wpb_column vc_column_container vc_col-sm-12">
+					<div class="vc_column-inner ">
+						<div class="wpb_wrapper">
+							<div class="vc_empty_space  vc_custom_1469695103969" style="height: 0px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
+							</div>
+							<div class='projects_holder_outer v3 portfolio_with_space portfolio_with_hover_text'>
+								<div class='projects_holder portfolio_main_holder clearfix v3 alternating_sizes portfolio_landscape_image '>
+									<article class='mix portfolio_category_3 ' style=''>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);"
+														style="font-size: 12px">Bridge Original</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Original"
+												href="javascript:void(0);"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/0.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/0.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/0-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_2 portfolio_category_9 portfolio_category_7 '
+										style=''>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge77.qodeinteractive.com/" style="font-size: 12px">Bridge Modern Furniture</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Modern Furniture"
+												href="http://bridge77.qodeinteractive.com/"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/07/77.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="77" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/77.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/77-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge8.qodeinteractive.com/" style="font-size: 12px">Bridge Craftsman</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Craftsman"
+												href="http://bridge8.qodeinteractive.com/"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="600" height="380" src="wp-content/uploads/2016/03/8.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/8.jpg 600w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/8-300x190.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_4 portfolio_category_2 portfolio_category_5 '
+										style=''>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge10.qodeinteractive.com/" style="font-size: 12px">Bridge Modern Photography</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Modern Photography"
+												href="http://bridge10.qodeinteractive.com/"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="600" height="380" src="wp-content/uploads/2016/03/10.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/10.jpg 600w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/10-300x190.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 portfolio_category_5 '
+										style=''>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge69.qodeinteractive.com/" style="font-size: 12px">Bridge Resume</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Resume"
+												href="http://bridge69.qodeinteractive.com/"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/07/69.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/69.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/69-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
+										style=''><span class="qode-portfolio-new-badge">NEW</span>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge38.qodeinteractive.com/" style="font-size: 12px">Bridge Conference</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Conference"
+												href="http://bridge38.qodeinteractive.com/"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/landing-demo-image-new-1.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-1.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-1-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0)" style="font-size: 12px">Bridge Consulting</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Consulting"
+												href="javascript:void(0)"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/07/74.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/74.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/07/74-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge9.qodeinteractive.com/" style="font-size: 12px">Bridge Corporation</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge Corporation"
+												href="http://bridge9.qodeinteractive.com/"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/landing-demo-image-new-3.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+										</div>
+									</article>
+									<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
+										style=''><span class="qode-portfolio-new-badge">NEW</span>
+										<div class="item_holder flip_from_left">
+											<div class="portfolio_title_holder">
+												<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="http://bridge42.qodeinteractive.com/" style="font-size: 12px">Bridge UX/UI Design</a></h5>
+											</div>
+											<a itemprop="url" class="portfolio_link_class" title="Bridge UX/UI Design"
+												href="http://bridge42.qodeinteractive.com/"></a>
+											<div class="portfolio_shader"></div>
+											<div class="image_holder"><span class="image"><img width="700" height="442" src="wp-content/uploads/2016/03/landing-demo-image-new-2.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" srcset="http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-2.jpg 700w, http://bridgelanding.qodeinteractive.com/wp-content/uploads/2016/03/landing-demo-image-new-2-300x189.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+										</div>
+									</article>
+									<div class='filler'></div>
+									<div class='filler'></div>
+									<div class='filler'></div>
+								</div>
+							</div>
+							<div class="vc_empty_space" style="height: 49px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- homepage section 12 new end -->
+	<!-- Homepage section 12 end-->
 	<section class="hide">
 		<span class="section-runnigheading mk-animate-element scale-up rs-show">Find Your Style</span>
-    </section>
-    <!-- Homepage section 13 start-->
+	</section>
+	<!-- Homepage section 13 start-->
 	<div class=" Section-13 col-xs-12 np hide">
 		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 		  <div class="panel panel-default mk-animate-element left-to-right">
@@ -1258,354 +1293,354 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 		  </div>
 		</div>
 	</div>
-    <section class="section section-13">
-        
-        <div id="alternatingSizesPortfolioSection" class="vc_row wpb_row section vc_row-fluid  vc_custom_1469789306140 grid_section mk-animate-element scale-up"
-            style=' text-align:center;'>
-            <div class=" section_inner clearfix">
-                <div class='section_inner_margin clearfix'>
-                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                            <div class="wpb_wrapper">
-                                <div class="vc_empty_space  vc_custom_1469695103969" style="height: 0px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
-                                </div>
-                                <div class='projects_holder_outer v3 portfolio_with_space portfolio_with_hover_text'>
-                                    <div class='projects_holder portfolio_main_holder clearfix v3 alternating_sizes portfolio_landscape_image '>
-                                        <div class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
-                                            Types of Calculators
-                                        </div>
-                                        <article class='mix portfolio_category_3 ' style=''>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);"
-                                                            style="font-size: 12px">Airbnb vs Hotel </a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Airbnb vs Hotel "
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner1.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a"  sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_2 portfolio_category_9 portfolio_category_7 '
-                                            style=''>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Vacation </a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Vacation"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner2.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="77" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Marketing Switch</a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Marketing Switch"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="600" height="380" src="images/new-collag3.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 600px) 100vw, 600px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_4 portfolio_category_2 portfolio_category_5 '
-                                            style=''>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Facebook Engagement</a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Facebook Engagement"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="600" height="380" src="images/banner4.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a"  sizes="(max-width: 600px) 100vw, 600px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 portfolio_category_5 '
-                                            style=''>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Insurance Saving</a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Insurance Saving"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner5.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
-                                            style=''><span class="qode-portfolio-new-badge hide">NEW</span>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Heart Disease</a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Heart Disease"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner6.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Video Campaign</a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Video Campaign"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner7.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Home Loan</a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Home Loan"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner8.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
-                                            style=''><span class="qode-portfolio-new-badge hide">NEW</span>
-                                            <div class="item_holder flip_from_left">
-                                                <div class="portfolio_title_holder">
-                                                    <h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Star Health</a></h5>
-                                                </div>
-                                                <a itemprop="url" class="portfolio_link_class" title="Star Health"
-                                                    href="javascript:void(0);"></a>
-                                                <div class="portfolio_shader"></div>
-                                                <div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner9.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
-                                            </div>
-                                        </article>
-                                        <div class='filler'></div>
-                                        <div class='filler'></div>
-                                        <div class='filler'></div>
-                                    </div>
-                                </div>
-                                <div class="vc_empty_space" style="height: 49px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section section-13 hide">
-        <div class="container-fluid">
-            <div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
-                <div class=" full_section_inner clearfix">
-                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                            <div class="wpb_wrapper">
-                                <div class='qode-expanding-images'>
-                                    <div class='qode-expanding-images-inner'><img class='qode-frame-image' src='images/expanding_images_laptop.png'
-                                            alt='laptop frame' />
-                                    </div>
-                                    <div class='qode-side-images'>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
-                                                data-image='images/expanding-side-image-1.jpg' data-lazy='true'></div>
-                                        </a>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
-                                                data-image='images/expanding-side-image-2.jpg'
-                                                data-lazy='true'></div>
-                                        </a>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-bottom='transform:translate3d(-70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-3 qode-lazy-image qode-side-image-inner'
-                                                data-image='images/expanding-side-image-3.jpg'
-                                                data-lazy='true'></div>
-                                        </a>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-100-bottom='transform:translate3d(-70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-4 qode-lazy-image qode-side-image-inner'
-                                                data-image='images/expanding-side-image-4.jpg'
-                                                data-lazy='true'></div>
-                                        </a>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-bottom='transform:translate3d(180%,35%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-5 qode-lazy-image qode-side-image-outer'
-                                                data-image='images/expanding-side-image-5.jpg'
-                                                data-lazy='true'></div>
-                                        </a>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-100-bottom='transform:translate3d(180%,-35%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-6 qode-lazy-image qode-side-image-outer'
-                                                data-image='images/expanding-side-image-6.jpg'
-                                                data-lazy='true'></div>
-                                        </a>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-bottom='transform:translate3d(-180%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
-                                                data-image='images/expanding-side-image-7.jpg'
-                                                data-lazy='true'></div>
-                                        </a>
-                                        <a class='qode-side-image-link' href=javascript:void(0); target=_blank>
-                                            <div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-                                                class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
-                                                data-image='images/expanding-side-image-8-1.jpg'
-                                                data-lazy='true'></div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 13 end-->
-    <!-- Homepage section 13 start-->
-    <section class="section section-14">
-        <div class="container">
-            <div class="col-xs-12 col-sm-12 np">
-                <div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
-                    <h4>Overview</h4>
-                    <ul>
-                        <li><a href="javascript:void(0);">Features </a></li>
-                        <li><a href="javascript:void(0);">Examples & Use Cases</a></li>
-                        <li><a href="javascript:void(0);">Pricing</a></li>
-                        <li><a href="javascript:void(0);">Resources</a></li>
-                        <li><a href="javascript:void(0);">About</a></li>
-                        <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                        <li><a href="javascript:void(0);">Terms of Services</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in">
-                    <h4>Our Live Calculators</h4>
-                    <div class="footer-img col-xs-6 col-sm-6"><img src="images/footer1.jpg" /></div>
-                    <div class="footer-img col-xs-6 col-sm-6"><img src="images/footer2.jpg" /></div>
-                    <div class="footer-img col-xs-6 col-sm-6"><img src="images/footer4.jpg" /></div>
-                    <div class="footer-img col-xs-6 col-sm-6"><img src="images/footer3.jpg" /></div>
-                </div>
-                <div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in">
-                    <h4 class="footer-img2text">Resources</h4>
-                    <div class="footer-img2 col-xs-6 col-sm-6">
-                        <div class="col-xs-12 np"><img src="images/footer5.jpg" /></div>
-                        <div class="col-xs-12 np footer-img-text">
-                            Make Your Digital Marketing Agency Stand Out
-                        </div>
-                    </div>
-                    <div class="footer-img2 col-xs-6 col-sm-6">
-                        <div class="col-xs-12 np"><img src="images/footer6.jpg" /></div>
-                        <div class="col-xs-12 np footer-img-text">
-                            Ads Don’t Bring Clicks,Experiences Do!
-                        </div>
-                    </div>
-                    <div class="footer-img2 col-xs-6 col-sm-6">
-                        <div class="col-xs-12 np"><img src="images/footer7.jpg" /></div>
-                        <div class="col-xs-12 np footer-img-text">
-                            9 Calculators Every SaaS Company Should Consider
-                        </div>
-                    </div>
-                    <div class="footer-img2 col-xs-6 col-sm-6">
-                        <div class="col-xs-12 np"><img src="images/footer8.jpg" /></div>
-                        <div class="col-xs-12 np footer-img-text">
-                            7 Interactive Calc Every College Needs on Its Website
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 np footer-social">
-                    <ul>
-                        <li><a href="javascript:void(0);">Facebook</a></li>
-                        <li><a href="javascript:void(0);">Linkedin</a></li>
-                        <li><a href="javascript:void(0);">Twitter</a></li>
-                        <li><a href="javascript:void(0);">Contact Us</a></li>
-                        <li><a href="javascript:void(0);">Careers</a></li>
-                    </ul>
-                    <div class="footer-copyright">
-                        <i class="material-icons">copyright</i>
-                        <span>Copyrights</span>
-                        <img src="images/footer-logo.png" />
-                    </div>
-                </div>            
-            </div>
-        </div>
-    </section>
-    <!-- Homepage section 13 end-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<section class="section section-13">
+
+		<div id="alternatingSizesPortfolioSection" class="vc_row wpb_row section vc_row-fluid  vc_custom_1469789306140 grid_section mk-animate-element scale-up"
+			style=' text-align:center;'>
+			<div class=" section_inner clearfix">
+				<div class='section_inner_margin clearfix'>
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner ">
+							<div class="wpb_wrapper">
+								<div class="vc_empty_space  vc_custom_1469695103969" style="height: 0px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
+								</div>
+								<div class='projects_holder_outer v3 portfolio_with_space portfolio_with_hover_text'>
+									<div class='projects_holder portfolio_main_holder clearfix v3 alternating_sizes portfolio_landscape_image '>
+										<div class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
+											Types of Calculators
+										</div>
+										<article class='mix portfolio_category_3 ' style=''>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);"
+															style="font-size: 12px">Airbnb vs Hotel </a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Airbnb vs Hotel "
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner1.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a"  sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_2 portfolio_category_9 portfolio_category_7 '
+											style=''>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Vacation </a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Vacation"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner2.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="77" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Marketing Switch</a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Marketing Switch"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="600" height="380" src="images/new-collag3.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 600px) 100vw, 600px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_4 portfolio_category_2 portfolio_category_5 '
+											style=''>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Facebook Engagement</a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Facebook Engagement"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="600" height="380" src="images/banner4.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a"  sizes="(max-width: 600px) 100vw, 600px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 portfolio_category_5 '
+											style=''>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Insurance Saving</a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Insurance Saving"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner5.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
+											style=''><span class="qode-portfolio-new-badge hide">NEW</span>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Heart Disease</a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Heart Disease"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner6.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Video Campaign</a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Video Campaign"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner7.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_3 portfolio_category_2 ' style=''>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Home Loan</a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Home Loan"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner8.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+											</div>
+										</article>
+										<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 '
+											style=''><span class="qode-portfolio-new-badge hide">NEW</span>
+											<div class="item_holder flip_from_left">
+												<div class="portfolio_title_holder">
+													<h5 itemprop="name" class="portfolio_title entry_title"><a itemprop="url" href="javascript:void(0);" style="font-size: 12px">Star Health</a></h5>
+												</div>
+												<a itemprop="url" class="portfolio_link_class" title="Star Health"
+													href="javascript:void(0);"></a>
+												<div class="portfolio_shader"></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="images/banner9.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+											</div>
+										</article>
+										<div class='filler'></div>
+										<div class='filler'></div>
+										<div class='filler'></div>
+									</div>
+								</div>
+								<div class="vc_empty_space" style="height: 49px"><span class="vc_empty_space_inner"> <span class="empty_space_image"  ></span> </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section section-13 hide">
+		<div class="container-fluid">
+			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
+				<div class=" full_section_inner clearfix">
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner ">
+							<div class="wpb_wrapper">
+								<div class='qode-expanding-images'>
+									<div class='qode-expanding-images-inner'><img class='qode-frame-image' src='images/expanding_images_laptop.png'
+											alt='laptop frame' />
+									</div>
+									<div class='qode-side-images'>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
+												data-image='images/expanding-side-image-1.jpg' data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
+												data-image='images/expanding-side-image-2.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-bottom='transform:translate3d(-70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-3 qode-lazy-image qode-side-image-inner'
+												data-image='images/expanding-side-image-3.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-100-bottom='transform:translate3d(-70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-4 qode-lazy-image qode-side-image-inner'
+												data-image='images/expanding-side-image-4.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-bottom='transform:translate3d(180%,35%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-5 qode-lazy-image qode-side-image-outer'
+												data-image='images/expanding-side-image-5.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-100-bottom='transform:translate3d(180%,-35%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-6 qode-lazy-image qode-side-image-outer'
+												data-image='images/expanding-side-image-6.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-bottom='transform:translate3d(-180%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
+												data-image='images/expanding-side-image-7.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link' href=javascript:void(0); target=_blank>
+											<div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
+												data-image='images/expanding-side-image-8-1.jpg'
+												data-lazy='true'></div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 13 end-->
+	<!-- Homepage section 13 start-->
+	<section class="section section-14">
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 np">
+				<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
+					<h4>Overview</h4>
+					<ul>
+						<li><a href="javascript:void(0);">Features </a></li>
+						<li><a href="javascript:void(0);">Examples & Use Cases</a></li>
+						<li><a href="javascript:void(0);">Pricing</a></li>
+						<li><a href="javascript:void(0);">Resources</a></li>
+						<li><a href="javascript:void(0);">About</a></li>
+						<li><a href="javascript:void(0);">Privacy Policy</a></li>
+						<li><a href="javascript:void(0);">Terms of Services</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in">
+					<h4>Our Live Calculators</h4>
+					<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer1.jpg" /></div>
+					<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer2.jpg" /></div>
+					<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer4.jpg" /></div>
+					<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer3.jpg" /></div>
+				</div>
+				<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in">
+					<h4 class="footer-img2text">Resources</h4>
+					<div class="footer-img2 col-xs-6 col-sm-6">
+						<div class="col-xs-12 np"><img src="images/footer5.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							Make Your Digital Marketing Agency Stand Out
+						</div>
+					</div>
+					<div class="footer-img2 col-xs-6 col-sm-6">
+						<div class="col-xs-12 np"><img src="images/footer6.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							Ads Don’t Bring Clicks,Experiences Do!
+						</div>
+					</div>
+					<div class="footer-img2 col-xs-6 col-sm-6">
+						<div class="col-xs-12 np"><img src="images/footer7.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							9 Calculators Every SaaS Company Should Consider
+						</div>
+					</div>
+					<div class="footer-img2 col-xs-6 col-sm-6">
+						<div class="col-xs-12 np"><img src="images/footer8.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							7 Interactive Calc Every College Needs on Its Website
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 np footer-social">
+					<ul>
+						<li><a href="javascript:void(0);">Facebook</a></li>
+						<li><a href="javascript:void(0);">Linkedin</a></li>
+						<li><a href="javascript:void(0);">Twitter</a></li>
+						<li><a href="javascript:void(0);">Contact Us</a></li>
+						<li><a href="javascript:void(0);">Careers</a></li>
+					</ul>
+					<div class="footer-copyright">
+						<i class="material-icons">copyright</i>
+						<span>Copyrights</span>
+						<img src="images/footer-logo.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 13 end-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script>
-        jQuery.noConflict();
-    </script>
-    <script type='text/javascript' src='js/default_dynamic3f4f.js?ver=1470129303'></script> <!-- image rotate js -->
-	<script type='text/javascript' src='js/plugins.js'></script>        
+		jQuery.noConflict();
+	</script>
+	<script type='text/javascript' src='js/default_dynamic3f4f.js?ver=1470129303'></script> <!-- image rotate js -->
+	<script type='text/javascript' src='js/plugins.js'></script>
 	<script type='text/javascript' src='js/default.min.js'></script>
 	<script type='text/javascript' src='js/jquery.stretch.js'></script> <!-- text marquee -->
 	<script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
 	<script>
 	//window.onresize = function(){ location.reload(); }
-	
-     jQuery(document).ready(function() {
-        jQuery('.mk-animate-element').viewportChecker({
-            classToAdd: 'mk-in-viewport', // Class to add to the elements when they are visible
-        });
-        
-		
+
+	 jQuery(document).ready(function() {
+		jQuery('.mk-animate-element').viewportChecker({
+			classToAdd: 'mk-in-viewport', // Class to add to the elements when they are visible
+		});
+
+
 		jQuery(".toggle-dots-white").click(function(){
 			jQuery(".billing-grey-bottom").slideToggle('slow');
 		});
-		
+
 		jQuery(".toggle-dots-grey").click(function(){
 			jQuery(".billing-white-bottom").slideToggle('slow');
 		});
-		
+
 		jQuery(".toggle-dots-white2").click(function(){
 			jQuery(".billing-grey2").slideToggle('slow');
 		});
-		
-		
-        jQuery('.counter').counterUp({
-            delay: 10,
-            time: 1000
-        });
-		
-		// simple slider js //		
+
+
+		jQuery('.counter').counterUp({
+			delay: 10,
+			time: 1000
+		});
+
+		// simple slider js //
 		var swiper = new Swiper('.swiper-container', {
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 		});
 
-        var swiper = new Swiper('.swiper-container-first', {
+		var swiper = new Swiper('.swiper-container-first', {
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 		});
-		
-		
-        /*jQuery(window).scroll(function() {
-            drawLine( jQuery('#route'),
-                    document.getElementById('path') );
-        });
-        
-        // init the line length
-            drawLine( jQuery('#route'),
-                    document.getElementById('path') );
-
-        //draw the line
-        function drawLine(container, line){
-            
-            var pathLength = line.getTotalLength(),
-                maxScrollTop = jQuery(document).height() - jQuery(window).height(),
-                percentDone = jQuery(window).scrollTop() / maxScrollTop,
-                length = percentDone * pathLength;
-            line.style.strokeDasharray = [ length ,pathLength].join(' ');
-        }*/
 
 
-        // cicluar progress bar 
-        
+		/*jQuery(window).scroll(function() {
+			drawLine( jQuery('#route'),
+					document.getElementById('path') );
+		});
 
-    });
+		// init the line length
+			drawLine( jQuery('#route'),
+					document.getElementById('path') );
 
-    </script>
+		//draw the line
+		function drawLine(container, line){
+
+			var pathLength = line.getTotalLength(),
+				maxScrollTop = jQuery(document).height() - jQuery(window).height(),
+				percentDone = jQuery(window).scrollTop() / maxScrollTop,
+				length = percentDone * pathLength;
+			line.style.strokeDasharray = [ length ,pathLength].join(' ');
+		}*/
+
+
+		// cicluar progress bar
+
+
+	});
+
+	</script>
 	<script>
 		jQuery(window).scroll(function() {
 			if (jQuery(this).scrollTop() > 200) {
@@ -1615,16 +1650,16 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 			}
 		});
 	</script>
-    <script type="text/javascript">
-        (function() {
-        var s = document.createElement("script");
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = '//api.usersnap.com/load/'+
-                '135cb6f0-dc65-4634-b7d8-df48f82e76b1.js';
-        var x = document.getElementsByTagName('script')[0];
-        x.parentNode.insertBefore(s, x);
-        })();
-    </script>
+	<script type="text/javascript">
+		(function() {
+		var s = document.createElement("script");
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = '//api.usersnap.com/load/'+
+				'135cb6f0-dc65-4634-b7d8-df48f82e76b1.js';
+		var x = document.getElementsByTagName('script')[0];
+		x.parentNode.insertBefore(s, x);
+		})();
+	</script>
 </body>
 </html>
