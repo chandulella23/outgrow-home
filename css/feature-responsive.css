@@ -32,7 +32,7 @@
 		margin: 0 5px;
 	}
 	#feature .swiper-slide{
-		margin-top:40px;
+		margin-top:30px;
 	}
 	#feature .section-7 .slider-sa{
 		min-height:250px;
@@ -46,8 +46,15 @@
 		display: block;
 		float:none;
 	}
+	#feature .section-4 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 	#feature .section-4-left {
-		padding: 0 20px;
+		padding: 0px 20px;
+	}
+	#feature .section-4-right-f {
+		margin-top: 20px;
 	}
 	#feature .sec4-2 {
 		position: absolute;
@@ -58,14 +65,15 @@
 		height: auto;
 	}
 	#feature .img-pos{
-		margin-top:50px;
-		margin-left: 40px;
+		margin-top:0px;
+		margin-left: 0px;
 	}
 	#feature .section-15-left {
 		padding: 0 20px;
+		margin-top:20px;
 	}
 	#feature .section-15 {
-		margin-top: 10px;
+		margin-top: 40px;
 		margin-bottom: 50px;
 	}
 	#feature .sec15-2 {
@@ -77,6 +85,7 @@
 	}
 	#feature .section-17-left {
 		padding: 0 20px;
+		margin-top:20px;
 	}
 	#feature .sec17-2-1 {
 		left: 0;
@@ -98,22 +107,62 @@
 		margin-bottom:35px;
 	}
 	#feature .img-style{
-		margin-bottom: 70px;
-		margin-top: 35px;
+		margin-bottom: 50px;
+		margin-top: 0;
 	}
 	#feature .section.section-10 i.material-icons{
 		font-size:48px;
 	}
-	#feature .section-10{
-		padding:0 10px;
-		margin-bottom:0px;
+	#feature .section.section-5{
+		margin-top:30px;
+	}
+	#feature .sec-style{
+		margin-top:0px;
+	}
+	#feature .sec-4-style{
+		margin-top:50px;
+	}
+	#feature .section-6{
+		margin-bottom:50px;
+	}
+	#feature .sec-integration {
+		margin-top: 70px;
 	}
 	#feature .container.container-center h1{
-		padding:0 20px;
-		text-align:left;
+		padding:0px;
+		text-align:center;
+	}
+	#feature .section.section-10 span{
+		font-size:14px;
+	}
+	#feature .section-7 .section-9-left span span{
+		width:80%;
+	}
+	#feature .section-4-left .section-4-new span span{
+		width:80%;
+	}
+	#feature .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: #fff;
+	}
+	#feature .navbar-default .navbar-toggle .icon-bar {
+		background-color: #fb5f66;
+	}
+	#feature .navbar-default .navbar-toggle {
+		border-color: #fff;
 	}
 }
-
+@media (min-width:440px) and (max-width:768px){
+	#feature .section-15 {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+	#feature .sec-4-style {
+		margin-top: 100px;
+	}
+	#feature .sec-integration {
+		margin-top: 110px;
+	}
+}
 @media (min-width: 1480px) and (max-width:1800px) {
 	
 }

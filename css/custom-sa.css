@@ -2866,7 +2866,6 @@ button.swiper-pagination-bullet {
     float: left;
     display: block;
 }
-
 #feature .section-7 .section-9-left p {
     color: #62696d;
     font-size: 14px;
@@ -2884,7 +2883,20 @@ button.swiper-pagination-bullet {
     float: left;
     margin-top: 20px;
 }
-
+#feature .span-style{
+	color: #62696d !important;
+    font-size: 18px !important;
+    font-family: montserratlight !important;
+    width: 85% !important;
+    float: left !important;
+    display: block !important; 
+    margin: 0px !important;
+	text-transform:none !important;
+}
+#feature .section-7 .slider-sa {
+    min-height: 400px;
+    padding-right: 0px;
+}
 #feature .section-7 .section-9-left .btn-exploreTemp div{
     padding: 15px 25px 40px 15px;    
 }
@@ -2974,10 +2986,12 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section-10 {
-    /* background: none;
+    /* background: #62696d;
     margin-top: 40px; */
 	background: #62696d;
     margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px 20px;
 }
 
 #feature .section.section-10 i.material-icons {
@@ -3017,11 +3031,7 @@ button.swiper-pagination-bullet {
    margin: 0 auto;
     width: 100%;
     display: block;
-    /* margin-top: 40px; */
-    /* margin-bottom: 40px; */
     background: none;
-    min-height: 300px;
-    /* padding-top: 50px; */
 }
 
 #feature .container.container-center h1 {
@@ -3034,7 +3044,7 @@ button.swiper-pagination-bullet {
     display: block;
     text-transform: none;
     margin-bottom: 30px;
-    margin-top: 30px;
+	margin-top:0px;
 }
 
 #feature .section-7 .section-9-left .btn-buildCalc {
@@ -3309,10 +3319,11 @@ button.swiper-pagination-bullet {
 }
 #feature .custom-navbar.navbar-default{
 	margin-bottom:0px;
+	padding-right:0px;
 }
 #feature .section-15 {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 #feature .section-15 .section-15-left h4 {
     color: #fb6c73;
@@ -3366,7 +3377,7 @@ button.swiper-pagination-bullet {
     float: left;
 }
 #feature .section-17 {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 #feature .sec17-2 {
