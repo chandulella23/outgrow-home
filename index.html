@@ -757,19 +757,13 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 				<h3 class="section-runnigheading mk-animate-element scale-up hide">Pricing</h3>
 			</section>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-sm-offset-1 billing-boxmain">
-				<div class="col-md-12 col-sm-12 col-xs-12 np billing-table">
+				<div class="col-md-12 col-sm-12 col-xs-12 np billing-table" id="plansList">
 					<!-- Start: Starter Box -->
-					<div class="col-md-4 col-sm-4 col-xs-12 np billing-grey starter-box mk-animate-element left-to-right">
+					<!-- <div class="col-md-4 col-sm-4 col-xs-12 np billing-grey starter-box mk-animate-element left-to-right">
 						<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
 							<h3 class="plan-title">Tinker</h3>
 							<span class="border-center"></span>
 							<h3 class="plan-price">Free</h3>
-							<!--<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<span class="mat-icon">
-									<i class="material-icons">check_circle</i>
-								</span>
-								<span class="current-plan">&nbsp;Your Current Plan</span>
-							</div>-->
 							<p>
 								For those who want to play around with calculators, but not really use it for business.
 							</p>
@@ -852,10 +846,10 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 							<span></span>
 							<span></span>
 						</a>
-					</div>
+					</div> -->
 					<!-- End: Starter Box -->
 					<!-- Start: Business Box -->
-					<div class="col-md-4 col-sm-4 col-xs-12 np billing-white business-box mk-animate-element scale-up">
+					<!-- <div class="col-md-4 col-sm-4 col-xs-12 np billing-white business-box mk-animate-element scale-up">
 						<div class="col-md-12 col-sm-12 col-xs-12 np billing-white-top text-center business-box-xshadow">
 							<span class="ribbon">Most Popular</span>
 							<h3 class="plan-title">Business</h3>
@@ -962,11 +956,11 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 							<span></span>
 							<span></span>
 						</a>
-					</div>
+					</div> -->
 					<!-- End: Business Box -->
 
 					<!-- Start: enterprise Box -->
-					<div class="col-md-4 col-sm-4 col-xs-12 np billing-grey enterprise-box mk-animate-element right-to-left">
+					<!-- <div class="col-md-4 col-sm-4 col-xs-12 np billing-grey enterprise-box mk-animate-element right-to-left">
 						<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
 							<h3 class="plan-title">Enterprise</h3>
 							<span class="border-center"></span>
@@ -1068,7 +1062,7 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 							<span></span>
 							<span></span>
 						</a>
-					</div>
+					</div> -->
 					<!-- End: enterprise Box -->
 				</div>
 			</div>
@@ -1585,6 +1579,171 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 	//window.onresize = function(){ location.reload(); }
 
 	 jQuery(document).ready(function() {
+
+	 	jQuery.ajax({
+            url: 'http://api.outgrow.us/api/v1/plans',
+            success: function(success){
+                console.log(success)
+                var plansList = '';
+                var featureList = '';
+                var fe = '';
+                var pricetag = '';
+                var price = 0;
+                var ulUsers = '',ulCalc = '',ulTemp = '';
+                for(var i = 0; i<success.data.lists.list.length;i++){
+                	pricetag = '';                	
+                	var box = '',mostPopular = '',bil_grey_white = '',bil_top = '',bil_bottom = '', dots = '', period = '', boxShadow = '',planId = '';
+                    if(success.data.lists.list[i].plan.id != 'starter'){
+                    	planId = success.data.lists.list[i].plan.id;
+
+                    	if(success.data.lists.list[i].plan.id.split('_')[1] === 'm'){
+                    		featureList = '';
+                    		console.log(featureList,'ddd');
+                    		for(var j = 0; j < success.data.plans.length;j++){
+								if(success.data.plans[j].plan._id == success.data.lists.list[i].plan.id.split('_')[0]){
+									if(success.data.plans[j].plan.calculators == -1)
+										ulCalc = 'Unlimited';
+									else
+										ulCalc = success.data.plans[j].plan.calculators;
+									
+									if(success.data.plans[j].plan.templates == -1)
+										ulTemp = 'Unlimited';
+									else
+										ulTemp = success.data.plans[j].plan.templates;
+									
+									if(success.data.plans[j].plan.users == -1)
+										ulUsers = 'Unlimited';
+									else
+										ulUsers = success.data.plans[j].plan.users;
+							     	featureList = `
+										<li>
+											<a href="javascript:void(0);" class="">
+												<span class="mat-icon"></span>
+												<span class="list-name">&nbsp;
+												`+ulUsers+` Users
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="">
+												<span class="mat-icon"></span>
+												<span class="list-name">&nbsp;
+												`+ulCalc+` Calculators
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="">
+												<span class="mat-icon"></span>
+												<span class="list-name">&nbsp;
+												`+ulTemp+` Templates
+												</span>
+											</a>
+										</li>`;
+								}
+								for(var k = 0; k < success.data.plans[j].features.length; k++){
+									if(success.data.plans[j].features[k].plan != 'starter')
+										if(success.data.plans[j].features[k].plan == success.data.plans[j].plan._id){
+											console.log(success.data.plans[j].features[k].plan, success.data.plans[j].features[k].feature.name,j);
+									     	featureList += `
+												<li>
+													<a href="javascript:void(0);" class="">
+														<span class="mat-icon"></span>
+														<span class="list-name">&nbsp;
+														`+success.data.plans[j].features[k].feature.name+`
+														</span>
+													</a>
+												</li>`;
+										}	
+								}
+								for(var l = 0;l<success.data.plans[j].cycles.length; l++){
+									if(success.data.plans[j].cycles[l].plan != 'starter' && success.data.plans[j].cycles[l].name == 'm')
+										if(success.data.plans[j].cycles[l].plan == success.data.lists.list[i].plan.id.split('_')[0]){
+											if(success.data.plans[j].cycles[l].coupon_active){
+												if(success.data.plans[j].cycles[l].coupon_type =='PERCENTAGE'){
+													price = success.data.lists.list[i].plan.price/100 - (success.data.lists.list[i].plan.price/100)*success.data.plans[j].cycles[l].coupon_value/100;
+												}
+												else if(success.data.plans[j].cycles[l].coupon_type =='FLAT'){
+													price = success.data.lists.list[i].plan.price/100 - success.data.plans[j].cycles[l].coupon_value;
+												}
+												pricetag = `
+														<h3 class="plan-price">USD <span class="strike-off">`
+														+success.data.lists.list[i].plan.price/100 +
+														`</span> `+price+` / `+period+` `+success.data.lists.list[i].plan.period_unit+`</h3>`;
+											}
+											else{
+												pricetag = `
+														<h3 class="plan-price">USD `
+														+success.data.lists.list[i].plan.price/100 +
+														` / `
+														+period+` `+success.data.lists.list[i].plan.period_unit+
+														`</h3>`;
+											}
+										}
+								}
+							}
+	                    	if(success.data.lists.list[i].plan.id.split('_')[0] == 'business'){
+	                            mostPopular = '<span class="ribbon">Most Popular</span>';
+	                            bil_grey_white = 'billing-white';
+	                            bil_top = 'billing-white-top';
+	                            box = 'business-box';
+	                            dots = 'toggle-dots-grey';
+	                            boxShadow = 'business-box-xshadow';
+	                            bil_bottom = 'billing-white-bottom'
+	                        }
+	                        else if(success.data.lists.list[i].plan.id.split('_')[0] == 'enterprise'){
+	                            mostPopular = '';
+	                            bil_grey_white = 'billing-grey';
+	                            bil_top = 'billing-grey-top';
+	                            box = 'enterprise-box';
+	                            dots = 'toggle-dots-white';
+	                            bil_bottom = 'billing-grey-bottom'
+	                        }
+	                        else{
+	                            mostPopular = '';
+	                            bil_grey_white = 'billing-grey';
+	                            bil_top = 'billing-grey-top';
+	                            box = 'starter-box';
+	                            dots = 'toggle-dots-white';
+	                            bil_bottom = 'billing-grey-bottom'
+	                        }
+	                        if(success.data.lists.list[i].plan.period > 1)
+	                            period = success.data.lists.list[i].plan.period;
+	                        //console.log(pricetag,'asd');
+		                    plansList += `
+		                    	<div class="col-md-4 col-sm-4 col-xs-12 np `+box+` `+bil_grey_white+`">
+									<div class="col-md-12 col-sm-12 col-xs-12 np text-center `+bil_top+` `+boxShadow+`">
+										`+mostPopular+`
+										<h3 class="plan-title">`+success.data.lists.list[i].plan.name+`</h3>
+										<span class="border-center"></span>
+										`+pricetag+`
+										<p>`+success.data.lists.list[i].plan.description+`</p>
+										<div class="col-md-12 col-sm-12 col-xs-12 np">
+											<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">SignUp</button>
+										</div>
+									</div>
+									<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide `+bil_bottom+`" id="`+planId+`">
+										<ul class="billing-list">
+											`+featureList+fe+`
+										</ul>
+									</div>
+									<a href="javascript:void(0);" class="`+dots+`" onclick="show('`+planId+`')">
+										<span></span>
+										<span></span>
+										<span></span>
+									</a>
+								</div>`;
+						}
+					}
+                }
+                jQuery('#plansList').html(plansList);
+            },
+            error:function(err){
+                console.log('err',err)
+            }
+        });
+
+
 		jQuery('.mk-animate-element').viewportChecker({
 			classToAdd: 'mk-in-viewport', // Class to add to the elements when they are visible
 		});
@@ -1665,6 +1824,13 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 		var x = document.getElementsByTagName('script')[0];
 		x.parentNode.insertBefore(s, x);
 		})();
+
+		var show = function(id) {
+			if(jQuery('#'+id).hasClass('rs-hide'))
+				jQuery('#'+id).removeClass('rs-hide');
+			else
+				jQuery('#'+id).addClass('rs-hide');
+		}
 	</script>
 </body>
 </html>

@@ -4322,6 +4322,9 @@ iframe{
     color: #dfe3e6;
 }
 
+.strike-off{
+    text-decoration: line-through;
+}
 
 
 
