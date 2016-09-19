@@ -122,6 +122,7 @@
 	.section-1-left h3{font-size:30px;}
 	.section-1-left h3.section1-firsthead{font-size:30px;}
 	/*.section-1-left h4{display:none;}*/
+    .section-1-left h4{ margin-top: 10px;}
 	.custom-navbar.navbar-default{padding-right:0px;}
 	.navbar-toggle{border:none;}
 	.navbar-default .navbar-toggle .icon-bar{background-color:#fb5f66;}
@@ -140,8 +141,8 @@
 	.circle-value em{left:45px;}
 	.circle-value p{width:73%;}
 	.sec9-test p{    margin-top: 2px;}
-	.sec9-test em {color: #bec5c9;font-size: 30px;font-family: montserratregular;float: left;text-align: center;margin-right: 10px;position: relative;top: 18px;}
-	.sec9-test em.em-close {float: right;top: -40px;left: -185px;}
+	.sec9-test em.left { top:25px;}
+	.sec9-test em.right {}
 	.sec10-em11{display:block !important;}
 	.text-1{    
 		display: block !important;
