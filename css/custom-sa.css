@@ -1435,6 +1435,7 @@ label {
 .billing-white-top .btn-light-grey-outline.hvr-sweep-to-right::before {
     background: #dae2e6 none repeat scroll 0 0;
     color: #62696d !important;
+    text-rendering: optimizeLegibility;
 }
 
 /* End: billing-white-top */
@@ -1475,6 +1476,7 @@ label {
     font-size: 18px;
     display: inline-block;
     float: left;
+    text-rendering: optimizeLegibility;
 }
 
 .billing-white-bottom .billing-list .list-name {
@@ -1491,6 +1493,7 @@ label {
     font-size: 18px;
     display: inline-block;
     float: left;
+    text-rendering: optimizeLegibility;
 }
 
 .billing-white-bottom .billing-list .unselected .list-name {
@@ -1517,6 +1520,7 @@ label {
 .billing-white-top .btn-white-red-outline.hvr-sweep-to-right::before {
     background: #ffb5b8 none repeat scroll 0 0;
     color: #fb545b !important;
+    text-rendering: optimizeLegibility;
 }
 /* End: billing-white-bottom */
 
@@ -1618,6 +1622,7 @@ label {
 .billing-grey-top .btn-white-red-outline.hvr-sweep-to-right::before {
     background: #ffb5b8 none repeat scroll 0 0;
     color: #fb545b !important;
+    text-rendering: optimizeLegibility;
 }
 
 .billing-grey-top .btn-try-it{
@@ -1668,6 +1673,7 @@ label {
     font-size: 18px;
     display: inline-block;
     float: left;
+    text-rendering: optimizeLegibility;
 }
 
 .billing-grey-bottom .billing-list .list-name {
@@ -1684,6 +1690,7 @@ label {
     font-size: 18px;
     display: inline-block;
     float: left;
+    text-rendering: optimizeLegibility;
 }
 
 .billing-grey-bottom .billing-list .unselected .list-name {
@@ -1728,6 +1735,7 @@ label {
     font-size: 18px;
     display: inline-block;
     float: left;
+    text-rendering: optimizeLegibility;
 }
 
 .billing-grey2 .billing-list .list-name {
@@ -1744,6 +1752,7 @@ label {
     font-size: 18px;
     display: inline-block;
     float: left;
+    text-rendering: optimizeLegibility;
 }
 
 .billing-grey2 .billing-list .unselected .list-name {
@@ -1790,6 +1799,7 @@ label {
     border-style: solid;
     border-color: #fb545b transparent transparent transparent;
     bottom: -7px;
+    text-rendering: optimizeLegibility;
 }
 
 .business-box .ribbon:after {
@@ -1802,6 +1812,7 @@ label {
     border-width: 10px 10px;
     border-style: solid;
     border-color: #fb545b #fb545b #fb545b transparent;
+    text-rendering: optimizeLegibility;
 }
 
 /* End: Business sec */
