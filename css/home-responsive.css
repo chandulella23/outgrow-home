@@ -14,12 +14,12 @@
 	.section-1-left .btn-buildcal{ width:100%; font-size:15px;}
 	.section-1-left .btn-bottominfo{ width:96%;}
 	.section-1-right{ padding-left:0px;}
-	.sec1-box-left{ float:left; width:100%; margin-top:40px;}
+	.sec1-box-left{ float:left; width:100%; margin-top:40px;padding: 0 20px;}
 	.sec1-box1{float: left; width: 45%; position: relative; left: -1px; margin-bottom: 2px;}
 	.sec1-box2{float: right; width: 45%; position: relative; left: -1px; margin-bottom: 2px;}
 	.sec1-box3{float: right; width: 100%; position: relative; right: -1px; margin-top: 0px;}
 	.sec1-box4{float: right; width: 100%; position: relative; right: -1px; margin-top: 2px;}
-	.sec1-box-right{ float:right; width:100%;  margin-top:25px;}
+	.sec1-box-right{ float:right; width:100%;  margin-top:25px; padding: 0 20px;}
 	.collag-right{ float:left;} 
 	.section-2{ margin-top:0px;}
 	.section-2-heading{ }
@@ -168,7 +168,7 @@
     .footer-img2text{ padding-left: 0px;}
     .footer-img2{padding-left: 0px;}
     .billingpricing-text p{margin: 0px; margin-bottom: 45px;}
-
+	.vc_row{margin-left:0px !important; margin-right:0px !important;}
 }
 @media (min-width: 440px) and (max-width:768px) {
 	.section-7 .slider-sa{ min-height:350px;  padding:0px;}
