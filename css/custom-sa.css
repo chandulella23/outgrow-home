@@ -3188,6 +3188,7 @@ button.swiper-pagination-bullet {
     float: left;
     display: block;
     width: 100%;
+	padding-top:30px;
 }
 
 #feature .section.section-10.sec-help{
@@ -3225,8 +3226,8 @@ button.swiper-pagination-bullet {
 
 #feature .sec-help .container.container-center {
     margin: 0 auto;
-    display: flex;
-    margin-top: 60px;
+    display: block;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -3317,11 +3318,11 @@ button.swiper-pagination-bullet {
 #feature .section-4-left {
     padding-left: 120px;
 }
-#feature .custom-navbar.navbar-default{
+/* #feature .custom-navbar.navbar-default{
 	margin-bottom:0px;
 	padding-right:0px;
 }
-#feature .section-15 {
+ */#feature .section-15 {
     margin-top: 50px;
     margin-bottom: 60px;
 }
