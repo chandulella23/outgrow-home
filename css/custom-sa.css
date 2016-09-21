@@ -3667,11 +3667,9 @@ button.swiper-pagination-bullet {
 #why .section-4-subheading {
     float: none;
     width: 100%;
-    /* color: rgba(98,105,109,0.8); */
-	color: #62696d;
-    font-size: 18px;
-    /* font-family: montserratultra_light; */
-	font-family: montserratlight;
+    color: #62696d;
+    font-size: 17px;
+    font-family: montserratlight;
 }
 #why .sec4-2-1{
     position: relative;
@@ -3905,6 +3903,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-4-left h4{
 	width:80%;
+    font-family: montserratUltra_light;
 }
 #why .sec10-testname{
 	width:100%;
