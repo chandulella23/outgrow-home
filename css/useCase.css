@@ -328,7 +328,7 @@ body{background:#fff !important;}
 .usecase .section-usecase1-left h4 {
     color: #fb6c73;
     font-size: 30px;
-    font-family: montserratlight;
+    font-family: montserratUltra_light;
     text-align: left;
     width: 100%;
     float: left;
@@ -366,7 +366,7 @@ body{background:#fff !important;}
 
 .usecase .section-usecase1-left .section-usecase1-new span span {
     color: #62696d;
-    font-size: 14px;
+    font-size: 13px;
     font-family: montserratlight;
     width: 85%;
     float: left;
@@ -375,7 +375,7 @@ body{background:#fff !important;}
 }
 
 .usecase .section-usecase1-left .section-usecase1-new span i{
-    font-size: 24px;
+    font-size: 20px;
     color: #bec5c9;
     position: relative;
     margin-right: 20px;
@@ -395,7 +395,7 @@ body{background:#fff !important;}
 .usecase .section-usecase2-left h4 {
     color: #fb6c73;
     font-size: 30px;
-    font-family: montserratlight;
+    font-family: montserratUltra_light;
     text-align: left;
     width: 100%;
     float: left;
@@ -433,7 +433,7 @@ body{background:#fff !important;}
 
 .usecase .section-usecase2-left .section-usecase2-new span span {
     color: #62696d;
-    font-size: 14px;
+    font-size: 13px;
     font-family: montserratlight;
     width: 85%;
     float: left;
@@ -442,7 +442,7 @@ body{background:#fff !important;}
 }
 
 .usecase .section-usecase2-left .section-usecase2-new span i{
-    font-size: 24px;
+    font-size: 20px;
     color: #bec5c9;
     position: relative;
     margin-right: 20px;
