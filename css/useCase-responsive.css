@@ -15,6 +15,9 @@
 	.usecase .section-usecase2-left .section-usecase2-new span i{
 		margin-right:10px;
 	}
+	.useCase-heading{
+		margin-top:10px;
+	}
 }
 
 @media (max-width: 1250px) and (min-width: 1024px){

@@ -29,6 +29,9 @@ body{background:#fff !important;}
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 } */
+.gallery-content{
+	margin-top:0px !important;
+}
 .gallery-content-center .img-outer:hover {
 	 opacity:1;
 }
@@ -384,7 +387,7 @@ body{background:#fff !important;}
 .usecase .section-usecase1-left {
     padding-left: 50px;
 }
-.usecase .sec9-test{ margin-top: 5px;}
+.usecase .sec9-test{ margin-top: 5px; margin-bottom:30px;}
 
 
 

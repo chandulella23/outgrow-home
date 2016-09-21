@@ -3798,7 +3798,8 @@ button.swiper-pagination-bullet {
 	width:100%;
 }
 #why .section-2-heading{
-	font-family: montserratlight;
+	font-family: montserratUltra_light;
+    color: #fb6c73;
 }
 #why .sec4-2{
     position: absolute;
