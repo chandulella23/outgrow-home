@@ -470,9 +470,9 @@ label {
 	float:left;
 	width:100%;
 	text-align:center;
-	color: rgba(251,108,115,0.8);
-    font-size: 36px;
-	line-height:40px;
+	color:#dfe3e6;
+    font-size: 48px;
+	line-height:52px;
     font-family: montserratbold;
 	text-transform:uppercase;
 }
@@ -484,6 +484,8 @@ label {
     font-size: 18px;
     font-family: montserratultra_light;
     margin: 0 auto;
+    position: relative;
+    top: 15px;
 }
 
 
@@ -623,8 +625,8 @@ label {
     top: -60px;
 }
 .section-3 .btn-buildcal{
-    background: #62696d;
-	border:2px solid #62696d;
+    background: #fb6c73;
+	border:2px solid #fb6c73;
     color: #fff;
     float: none;
     font-size: 14px;
@@ -636,8 +638,8 @@ label {
 }
 .section-3 .btn-buildcal:hover{
     background:none;
-	border:2px solid #62696d;
-	color:#62696d;
+	border:2px solid #fb6c73;
+	color:#fb6c73;
 }
 .section-3 .btn-buildcal p{
     float: left;
@@ -817,8 +819,8 @@ label {
     box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.2);
 }
 .section-6 .btn-buildcal{
-    background: #62696d;
-	border:2px solid #62696d;
+    background: #fb6c73;
+	border:2px solid #fb6c73;
     color: #fff;
     float: none;
     font-size: 14px;
@@ -830,8 +832,8 @@ label {
 }
 .section-6 .btn-buildcal:hover{
     background:none;
-	border:2px solid #62696d;
-	color:#62696d;
+	border:2px solid #fb6c73;
+	color:#fb6c73;
 }
 .section-6 .btn-buildcal p{
     float: left;
