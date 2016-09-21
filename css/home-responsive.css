@@ -41,9 +41,9 @@
 	.mobile-sec3 .sec3-box2 span{font-size: 16px; color: #fb6c73;}
 	.sec4-2 {position: absolute; left: 49%; top: -12%; height: 245px; box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);}
 	.section-4-left{ margin-top:0px; padding:0px;}
-	.section-4-left h4{color:#fb6c73; margin-bottom:20px; width: 100%;}
+	.section-4-left h4{color:#fb6c73; margin-bottom:20px; width: 100%; font-size: 24px;}
 	.section-4-right{ border: none;padding: 0px;margin-top: -10px;margin-left: 0px; margin-bottom: 70px;}
-	.section-5-left h4{color:#fb6c73; text-align:left; margin-top:0xp;width: 100%;}
+	.section-5-left h4{color:#fb6c73; text-align:left; margin-top:0xp;width: 100%;  font-size: 24px;}
 	.section-5-left span span{text-align: left; float: right;    text-transform: uppercase; }
 	.section-5-left span i{ float: left; margin-top:4px;}
 	.section-5-right{margin-top:0px; border:none;}
@@ -52,7 +52,7 @@
 	.sec5-2{position: relative; margin-top: -58%; left: 73%; width: 30%; float: left;}
 	.section-6{ margin-top:0px; margin-bottom:30px;}
 	.section-6-left {padding-left: 0px; margin-top: 40px;}
-	.section-6-left h4{color:#fb6c73; width: 100%;}
+	.section-6-left h4{color:#fb6c73; width: 100%; font-size: 24px;}
 	.section-6-left span{ padding-left:10px;}
 	.section-6-right{ border:none; margin-top:40px;}
 	.section-7 { padding-bottom: 30px; margin-top:0px; padding-top:30px;}
@@ -128,7 +128,7 @@
 	.navbar-toggle{border:none;}
 	.navbar-default .navbar-toggle .icon-bar{background-color:#fb5f66;}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
-	.section-2-heading{text-transform: none;font-size:30px;text-align:center;}
+	.section-2-heading{ text-transform: none; line-height: normal; font-size: 24px; text-align: center;}
 	.section-2-subheading{display:none;}
 	.section-4 {margin-top: 40px; margin-bottom: 30px;}
 	.section-4-left span i{margin-top:4px;}
@@ -170,15 +170,17 @@
     .footer-img2{padding-left: 0px;}
     .billingpricing-text p{margin: 0px; margin-bottom: 45px;}
 	.vc_row{margin-left:0px !important; margin-right:0px !important;}
-	.section-9-left h4{margin-top:0px;}
-	.section-7-left h4{margin-top:0px;}
+	.section-9-left h4{margin-top:0px;  font-size: 24px;}
+	.section-7-left h4{margin-top:0px;  font-size: 24px;}
 	.section-13 .section-2-heading {margin-bottom: 30px;}
 	.section-7-top{padding-top:0px;}
     .useCase-heading{ margin-top: 25px; }
-    /* feature resp*/
-    #feature .feature-heading-1 h3{font-size:4.4vw; }
-    #feature .feature-heading-1 h4{font-size:2.3vw; }
-    #feature .section-9-left h4{font-size:4.8vw; }
+    /* why resp*/
+    #why .section-top-why h3{ font-size: 20px;line-height: normal;}
+
+
+
+
 }
 @media (min-width:375px) and (max-width:375px){
 	.section-7 .slider-sa {

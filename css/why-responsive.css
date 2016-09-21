@@ -31,10 +31,13 @@
 		width: 100%;
 		margin: 0 auto;
 		margin-left: 0;
+		margin-top: 40px !important;
+    	margin-bottom: 50px;
+		font-size: 16px;
 	}
 	#why .section-4-left span i{
 		margin-top:40px; 
-		font-size:50px;
+		font-size:40px;
 		margin-right:0px;
 	}
 	#why .img-2 {
@@ -62,10 +65,11 @@
 		font-size:16px;
 		padding: 0 20px;
 		width:100%;
+		margin-bottom: 10px;
 	}
 	#why .section-4{
 		margin-top:0px;
-		margin-bottom:30px;
+		margin-bottom:0px;
 	}
 	#why .section-7-right {
 		padding-right: 0px;
@@ -86,6 +90,7 @@
 	#why .section-7-left span i{
 		margin-top:2px;
 	}
+	#why .section-10{ margin-top: 30px;}
 	#why .sec4-2 {
 		position: absolute;
 		left: 40%;
@@ -111,12 +116,14 @@
 	#why .section-16-left h4 {
 		margin-top: 0px;
 		margin-bottom: 20px;
+		font-size: 24px;
 	}
 	#why .section-16-left span span{
 		margin-top: 2px;
 		width: 100%;
 		margin-bottom: 25px;
 	}
+	#why .section-16-text span i{ font-size: 40px;}
 	#why .sec4-2-1 {
 		position: relative;
 		left: 4%;
@@ -125,8 +132,9 @@
 		width: 92%;
 	}
 	#why .section-16-left span i{
-		margin-bottom:25px;
+		margin-bottom:0px;
 		margin-right:0px;
+		font-size: 40px;
 	}
 	#why .circle-value label {
 		width: 78px;
@@ -139,6 +147,7 @@
 	}
 	#why .last-sec {
 		margin-bottom: 0px;
+		margin-top: 20px;
 	}
 	#why .section-4 img{
 		margin-top:30px;
@@ -185,15 +194,17 @@
 	#why .section-16-text span{
 		padding: 0px 20px;
 		margin-top: 10px;
-		margin-bottom: 25px;
+		margin-bottom:0px;
 	}
 	#why .section-16-text h4{
 		padding:0px 20px;
 		margin-top: 10px;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
+		font-size: 24px;
 	}
 	#why .section-16-text{
 		padding-right:0px;
+		margin-bottom: 25px;
 	}
 	#why .section-16-text span span{
 		margin-bottom:20px;
