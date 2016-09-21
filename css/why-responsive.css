@@ -32,7 +32,7 @@
 		margin: 0 auto;
 		margin-left: 0;
 		margin-top: 40px !important;
-    	margin-bottom: 50px;
+    	margin-bottom: 0px;
 		font-size: 16px;
 	}
 	#why .section-4-left span i{
@@ -121,7 +121,7 @@
 	#why .section-16-left span span{
 		margin-top: 2px;
 		width: 100%;
-		margin-bottom: 25px;
+		margin-bottom: 30px;
 	}
 	#why .section-16-text span i{ font-size: 40px;}
 	#why .sec4-2-1 {
@@ -131,8 +131,11 @@
 		right: 4%;
 		width: 92%;
 	}
+	#why .section-top-why{
+		margin-bottom:0px;
+	}
 	#why .section-16-left span i{
-		margin-bottom:35px;
+		margin-bottom:0px;
 		margin-right:0px;
 		font-size: 40px;
 	}
@@ -146,7 +149,7 @@
 		left: 70px;
 	}
 	#why .last-sec {
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
 	#why .section-4 img{
 		margin-top:0px;
@@ -177,6 +180,7 @@
 	#why .section-4-left {
 		margin-top: 0px;
 		padding: 0px;
+		margin-bottom:30px;
 	}
 	#why .img-width-1 {
 		width: 100%;
@@ -219,6 +223,78 @@
 	} 
 	#why .p-img{
 		padding:0 20px !important;
+	}
+	#why .section-w1 {
+		margin-top: 0;
+		margin-bottom: 0px;
+	}
+	#why .section-w1-left {
+		margin-top: 0px;
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	#why .section-w1-left span {
+		margin-top: 2px;
+		font-size: 16px;
+		padding: 0 20px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#why .section-w1-left span i {
+		margin-top: 40px;
+		font-size: 40px;
+		margin-right: 0px;
+	}
+	#why .section-w1-left h4 {
+		color: #fb6c73;
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 0 20px;
+		margin-top: 0px;
+	}
+	#why .section-w2 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#why .section-w2-left {
+		margin-top: 0px;
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	#why .section-w2-subheading {
+		float: none;
+		width: 100%;
+		color: #62696d;
+		font-size: 17px;
+		font-family: montserratlight;
+	}
+	#why .section-w2-left span {
+		margin-top: 2px;
+		font-size: 16px;
+		padding: 0 20px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#why .section-w2-left h4 {
+		color: #fb6c73;
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 0 20px;
+		margin-top: 0px;
+	}
+	#why .section-w2 img {
+		margin-top: 0px;
+		width: 100%;
+	}
+	#why .section-w3-text {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	#why .section-w3 {
+		margin-top: 0;
+	}
+	#why .section-w3-text span span{
+		margin-bottom:30px;
 	}
 }
 @media (min-width:375px) and (max-width:375px){
