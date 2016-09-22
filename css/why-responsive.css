@@ -31,14 +31,17 @@
 		width: 100%;
 		margin: 0 auto;
 		margin-left: 0;
+		margin-top: 40px !important;
+    	margin-bottom: 0px;
+		font-size: 16px;
 	}
 	#why .section-4-left span i{
 		margin-top:40px; 
-		font-size:50px;
+		font-size:40px;
 		margin-right:0px;
 	}
 	#why .img-2 {
-		width: 66%;
+		width: 58%;
 		margin-left: -9%;
 		float: left;
 	}
@@ -62,10 +65,11 @@
 		font-size:16px;
 		padding: 0 20px;
 		width:100%;
+		margin-bottom: 10px;
 	}
 	#why .section-4{
 		margin-top:0px;
-		margin-bottom:30px;
+		margin-bottom:0px;
 	}
 	#why .section-7-right {
 		padding-right: 0px;
@@ -86,6 +90,7 @@
 	#why .section-7-left span i{
 		margin-top:2px;
 	}
+	#why .section-10{ margin-top: 30px;}
 	#why .sec4-2 {
 		position: absolute;
 		left: 40%;
@@ -106,17 +111,19 @@
 		padding-left: 20px;
 		padding-right: 20px;
 		margin-top: 0px;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 	}
 	#why .section-16-left h4 {
 		margin-top: 0px;
 		margin-bottom: 20px;
+		font-size: 24px;
 	}
 	#why .section-16-left span span{
 		margin-top: 2px;
 		width: 100%;
-		margin-bottom: 25px;
+		margin-bottom: 30px;
 	}
+	#why .section-16-text span i{ font-size: 40px;}
 	#why .sec4-2-1 {
 		position: relative;
 		left: 4%;
@@ -124,9 +131,13 @@
 		right: 4%;
 		width: 92%;
 	}
+	#why .section-top-why{
+		margin-bottom:0px;
+	}
 	#why .section-16-left span i{
-		margin-bottom:25px;
+		margin-bottom:0px;
 		margin-right:0px;
+		font-size: 40px;
 	}
 	#why .circle-value label {
 		width: 78px;
@@ -138,18 +149,18 @@
 		left: 70px;
 	}
 	#why .last-sec {
-		margin-bottom: 0px;
+		margin-bottom: 30px;
 	}
 	#why .section-4 img{
-		margin-top:30px;
+		margin-top:0px;
 		width:100%;
 	}
 	#why .section-4-left h4 {
-		/* color: rgba(251,108,115, 0.8); */
 		color:#fb6c73;
 		margin-bottom: 20px;
 		width:100%;
 		padding:0 20px;
+		margin-top: 0px;
 	}
 	/* iframe {
 		position: absolute;
@@ -169,6 +180,7 @@
 	#why .section-4-left {
 		margin-top: 0px;
 		padding: 0px;
+		margin-bottom:30px;
 	}
 	#why .img-width-1 {
 		width: 100%;
@@ -176,7 +188,7 @@
 		height: auto;
 	}
 	#why .section-16 {
-		margin-top: 10px;
+		margin-top: 0px;
 		margin-bottom:30px;
 	}
 	#why .section-16-left span{
@@ -185,18 +197,20 @@
 	#why .section-16-text span{
 		padding: 0px 20px;
 		margin-top: 10px;
-		margin-bottom: 25px;
+		margin-bottom: 30px;
 	}
 	#why .section-16-text h4{
 		padding:0px 20px;
 		margin-top: 10px;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
+		font-size: 24px;
 	}
 	#why .section-16-text{
 		padding-right:0px;
+		margin-bottom: 25px;
 	}
 	#why .section-16-text span span{
-		margin-bottom:20px;
+		margin-bottom:0px;
 		padding:0px;
 	}
 	iframe {
@@ -207,6 +221,84 @@
 		width: 200px;
 		height: 113px;
 	} 
+	#why .p-img{
+		padding:0 20px !important;
+	}
+	#why .section-w1 {
+		margin-top: 0;
+		margin-bottom: 0px;
+	}
+	#why .section-w1-left {
+		margin-top: 0px;
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	#why .section-w1-left span {
+		margin-top: 2px;
+		font-size: 16px;
+		padding: 0 20px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#why .section-w1-left span i {
+		margin-top: 40px;
+		font-size: 40px;
+		margin-right: 0px;
+	}
+	#why .section-w1-left h4 {
+		color: #fb6c73;
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 0 20px;
+		margin-top: 0px;
+	}
+	#why .section-w2 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#why .section-w2-left {
+		margin-top: 0px;
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	#why .section-w2-subheading {
+		float: none;
+		width: 100%;
+		color: #62696d;
+		font-size: 17px;
+		font-family: montserratlight;
+	}
+	#why .section-w2-left span {
+		margin-top: 2px;
+		font-size: 16px;
+		padding: 0 20px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#why .section-w2-left h4 {
+		color: #fb6c73;
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 0 20px;
+		margin-top: 0px;
+	}
+	#why .section-w2 img {
+		margin-top: 0px;
+		width: 100%;
+	}
+	#why .section-w3-text {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	#why .section-w3 {
+		margin-top: 0;
+	}
+	#why .section-w3-text span span{
+		margin-bottom:30px;
+	}
+	.video-wrapper-1{
+		margin: 20px 0px;
+	}
 }
 @media (min-width:375px) and (max-width:375px){
 	iframe {
@@ -247,7 +339,11 @@
 		width: 200px;
 		height: 113px;
 	} 
-	
+	#why .img-2 {
+		width: 61%;
+		margin-left: -9%;
+		float: left;
+	}
 }
 @media (min-width: 480px) and (max-width:768px) {
 	iframe {
@@ -311,7 +407,13 @@
 	#why .section-1-left {
 		margin-top: 100px;
 	}
+	#why .img-2 {
+		width: 63%;
+		margin-left: -9%;
+		float: left;
+	}
 }
+
 @media (min-width: 1024px) and (max-width:1250px) {
 	iframe{
 		position: absolute;

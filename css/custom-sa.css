@@ -470,9 +470,9 @@ label {
 	float:left;
 	width:100%;
 	text-align:center;
-	color: rgba(251,108,115,0.8);
-    font-size: 36px;
-	line-height:40px;
+	color:#dfe3e6;
+    font-size: 48px;
+	line-height:52px;
     font-family: montserratbold;
 	text-transform:uppercase;
 }
@@ -484,6 +484,8 @@ label {
     font-size: 18px;
     font-family: montserratultra_light;
     margin: 0 auto;
+    position: relative;
+    top: 15px;
 }
 
 
@@ -623,8 +625,8 @@ label {
     top: -60px;
 }
 .section-3 .btn-buildcal{
-    background: #62696d;
-	border:2px solid #62696d;
+    background: #fb6c73;
+	border:2px solid #fb6c73;
     color: #fff;
     float: none;
     font-size: 14px;
@@ -636,8 +638,8 @@ label {
 }
 .section-3 .btn-buildcal:hover{
     background:none;
-	border:2px solid #62696d;
-	color:#62696d;
+	border:2px solid #fb6c73;
+	color:#fb6c73;
 }
 .section-3 .btn-buildcal p{
     float: left;
@@ -817,8 +819,8 @@ label {
     box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.2);
 }
 .section-6 .btn-buildcal{
-    background: #62696d;
-	border:2px solid #62696d;
+    background: #fb6c73;
+	border:2px solid #fb6c73;
     color: #fff;
     float: none;
     font-size: 14px;
@@ -830,8 +832,8 @@ label {
 }
 .section-6 .btn-buildcal:hover{
     background:none;
-	border:2px solid #62696d;
-	color:#62696d;
+	border:2px solid #fb6c73;
+	color:#fb6c73;
 }
 .section-6 .btn-buildcal p{
     float: left;
@@ -1870,7 +1872,6 @@ label {
     text-transform: uppercase;
 }
 .footer-img{
-    min-height: 100px;
     float: left;
     margin-bottom: 15px;
     padding-left: 0px;
@@ -2885,7 +2886,7 @@ button.swiper-pagination-bullet {
 }
 #feature .span-style{
 	color: #62696d !important;
-    font-size: 18px !important;
+    font-size: 15px !important;
     font-family: montserratlight !important;
     width: 85% !important;
     float: left !important;
@@ -2942,7 +2943,7 @@ button.swiper-pagination-bullet {
 
 #feature .section-4 .section-4-left span span {
     color: #62696d;
-    font-size: 18px;
+    font-size: 15px;
     font-family: montserratlight;
     width: 85%;
     float: left;
@@ -3358,7 +3359,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-15 .section-15-left span span {
     color: #62696d;
-    font-size: 18px;
+    font-size: 15px;
     font-family: montserratlight;
     width: 85%;
     float: left;
@@ -3574,7 +3575,164 @@ button.swiper-pagination-bullet {
 #why .section-1-left h4{
 	word-spacing:2px;
 }
+#why .section-w1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#why .section-w1-left {
+    padding-left: 40px;
+}
+#why .section-w1-left span {
+    text-align: left;
+    width: 90%;
+    float: left;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 15px;
+	color: #62696d;
+    font-size: 17px;
+    font-family: montserratlight;
+}
+#why .section-w2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#why .section-w2-left {
+    padding-left: 40px;
+}
+#why .section-w2-subheading {
+    float: none;
+    width: 100%;
+    color: #62696d;
+    font-size: 17px;
+    font-family: montserratlight;
+}
+#why .section-w2-left span {
+    width: 90%;
+	text-align: left;
+    float: left;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+#why .section-w2-left h4 {
+    width: 80%;
+    font-family: montserratUltra_light;
+	color: #fb6c73;
+    font-size: 30px;
+    text-align: left;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+}
+#why .section-w2 img {
+    box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
+}
+#why .secw2-2-new {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#why .section-w2-left span i {
+    font-size: 60px;
+    color: #fb6c73;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+#why .section-w1-left span i {
+    font-size: 60px;
+    color: #fb6c73;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+#why .section-w1-left h4 {
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratUltra_light;
+    text-align: left;
+    width: 80%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+	
+}
+#why .section-w1 img {
+    box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
+}
+#why .section-w3 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#why .section-w3-text {
+    padding-right: 60px;
+    padding-left: 0;
+}
+#why .section-w3-text span {
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#why .section-w3-text h4 {
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratultra_light;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 0px;
+}
+#why .section-w3 img {
+    box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
+    width: 100%;
+}
+#why .section-w3-left span i {
+    font-size: 60px;
+    color: #fb6c73;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+#why .section-w3-text span {
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
+#why .section-w3-text h4 {
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratultra_light;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 0px;
+}
+#why .section-w3-text span i {
+	font-size: 60px;
+    color: #fb6c73;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+#why .section-w3-text span span {
+    color: #62696d;
+    font-size: 18px;
+    font-family: montserratlight;
+    width: 90%;
+    float: left;
+    display: block;
+    margin: 0px;
+    text-align: left;
+}
 #why .collag-left{
     float: left;
     width: 90%;
@@ -3639,6 +3797,50 @@ button.swiper-pagination-bullet {
 	box-shadow: 4px 4px 32px 0px rgba(0,0,0,0.35);
 	width:100%;
 }
+#why .section-2-heading{
+	font-family: montserratUltra_light;
+    color: #fb6c73;
+}
+#why .sec4-2{
+    position: absolute;
+    left: 25%;
+    top: 18%;
+    box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
+}
+#why .sec4-2-new{
+	margin-left: 0px;
+    margin-top: 0px;
+}
+#why .google-trends {
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+#why .why-text{
+	margin-top:30px;
+}
+#why .section-4{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+#why .section-4-left h4{
+	width:80%;
+    font-family: montserratUltra_light;
+}
+#why .section-4-left span{
+	width:90%;
+}
+#why .section-4-subheading {
+    float: none;
+    width: 100%;
+    color: #62696d;
+    font-size: 17px;
+    font-family: montserratlight;
+}
+#why .sec4-2-1{
+    position: relative;
+    left:4%;
+    box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.2);
+}
 #why .section-4-left {
     padding-left: 40px;
 }
@@ -3664,54 +3866,12 @@ button.swiper-pagination-bullet {
 	font-size:18px;
 	font-family:montserratlight;
 }
-#why .section-4-subheading {
-    float: none;
-    width: 100%;
-    /* color: rgba(98,105,109,0.8); */
-	color: #62696d;
-    font-size: 18px;
-    /* font-family: montserratultra_light; */
-	font-family: montserratlight;
-}
-#why .sec4-2-1{
-    position: relative;
-    left:4%;
-    box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.2);
-}
-#why .section-2-heading{
-	font-family: montserratlight;
-}
-#why .sec4-2{
-    position: absolute;
-    left: 25%;
-    top: 18%;
-    box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
-}
-#why .sec4-2-new{
-	margin-left: 0px;
-    margin-top: 0px;
-}
-#why .google-trends {
-    margin-top: 50px;
-    margin-bottom: 130px;
-}
-#why .why-text{
-	margin-top:30px;
-}
-#why .section-4{
-	margin-top:40px;
-	margin-bottom:40px;
-}
-
 #why   .img-2{
 	position: absolute;
     left: 44%;
     top: 0%;
     }
 	
-#why .section-4-left span{
-	width:90%;
-}
 
 #why .section-7{
     float: left;
@@ -3903,9 +4063,7 @@ button.swiper-pagination-bullet {
     /* float: right; */
     color: #eee;
 }
-#why .section-4-left h4{
-	width:80%;
-}
+
 #why .sec10-testname{
 	width:100%;
 }
@@ -4100,6 +4258,7 @@ button.swiper-pagination-bullet {
   stroke-dashoffset: 440;
   transition: all 1s linear;
 }
+
 .video-wrapper {
 	position: relative;
 	float: left;
@@ -4263,6 +4422,9 @@ iframe{
 #pricing .accordion-section a span{
 	float: left;
     width: 90%;
+}
+#pricing .section-1{
+	margin-top:0px;
 }
 #pricing .footer-btn .btn-buildcal{
 	background: #62696d;
