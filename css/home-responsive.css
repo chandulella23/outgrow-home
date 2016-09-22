@@ -265,6 +265,14 @@
 	.sec5-2 {position: relative; margin-top: -58%;left: 72%;width: 30%;float: left;}
 	.sec5-2-1{    width: 90%;float: left;margin-top: 40px;margin-left: -40px;}
 }
+@media (min-width:568px) and (max-width:568px){
+	.section-9-left h4 {
+		margin-top: 30px;
+	}
+	.section-7-left h4 {
+		margin-top: 30px;
+	}
+}
 @media (min-width: 600px) and (max-width:768px) {
 	.section-7 .slider-sa{ min-height:410px;}
 	.section-8 .slider-sa{ min-height:410px;}

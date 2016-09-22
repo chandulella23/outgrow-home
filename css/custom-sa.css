@@ -4864,7 +4864,12 @@ iframe{
     margin-bottom: 0px;
 }
 #pricing .section-faq{
-    margin-top: 40%;
+    /* margin-top: 40%; */
+	margin-top:0px;
+}
+#pricing .pricing-text{
+	position: relative;
+    margin-top: 50%;
 }
 #pricing .section-faq .section-2-heading{
     color: #dfe3e6;
