@@ -31,8 +31,7 @@
 		padding-left: 0px;
 	}
 	#feature .section-f1 .slider-sa {
-		min-height: 270px;
-		padding:0 20px;
+		min-height: 250px;
 	}
 	#feature .section-f2-left {
 		padding: 0px 20px;
@@ -49,13 +48,12 @@
 		height: auto;
 	}
 	#feature .section-f2 {
-		margin-top: 0px;
+		margin-top: 30px;
 		margin-bottom: 30px;
 	}
 	#feature .section-f2 .section-f2-left span span{
 		width:83%;
 	}
-	
 	#feature .section-9-right {
 		padding-right: 0px;
 		padding-left: 0px;
@@ -202,33 +200,6 @@
 	.custom-navbar.navbar-default {
 		padding-right: 0px;
 	}
-	#feature .section-f3-left {
-		padding: 0px 20px;
-	}
-	#feature .section-f3-left .section-f3-new span span {
-		width: 80%;
-	}
-	#feature .secf3-2 {
-		position: absolute;
-		left: 46%;
-		top: 0;
-		box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
-		width: 70%;
-		height: auto;
-	}
-	#feature .section-f4 {
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	#feature .sec-f4-style {
-		margin-top: 50px;
-	}
-	#feature .section-f4-left .section-f4-new span span {
-		width: 80%;
-	}
-	#feature .section-f4-left {
-		padding: 0px 20px;
-	}
 }
 @media (min-width:440px) and (max-width:768px){
 	/* #feature .section-15 {
@@ -241,9 +212,6 @@
 	#feature .sec-integration {
 		margin-top: 110px;
 	} */
-	#feature .section-f1 .slider-sa {
-		min-height: 320px;
-	}
 	#feature .sec4-2{
 		width:58%;
 	}
@@ -254,13 +222,7 @@
 	#feature .sec17-2{
 		top:49%;
 	}
-	#feature .secf3-2 {
-		width: 58%;
-	}
-	#feature .section-f2 {
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
+	
 }
 @media (min-width:768px) and (max-width:768px){
 	#feature .sec4-2 {
@@ -337,8 +299,6 @@
 	#feature .sec-style-left{
 		padding-left:50px;
 	}
-	
-	
 }
 @media (min-width: 1480px) and (max-width:1800px) {
 	
