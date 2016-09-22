@@ -84,15 +84,15 @@ jQuery(document).ready(function() {
 											pricetag = `
 													<h3 class="plan-price">USD <span class="strike-off">`
 													+success.data.lists.list[i].plan.price/100 +
-													`</span> `+price+` / `+period+` `+success.data.lists.list[i].plan.period_unit+`</h3>`;
+													`</span> `+price+` `+period+` `+success.data.lists.list[i].plan.period_unit+`ly</h3>`;
 										}
 										else{
 											pricetag = `
 													<h3 class="plan-price">USD `
 													+success.data.lists.list[i].plan.price/100 +
-													` / `
+													` `
 													+period+` `+success.data.lists.list[i].plan.period_unit+
-													`</h3>`;
+													`ly</h3>`;
 										}
 									}
 							}
