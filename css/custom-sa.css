@@ -4899,3 +4899,106 @@ iframe{
 
 
 
+/* Start: membership-bottom-wrapper billing-plan-list */
+          .billing-plan-list {
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              background: #fff;
+              float: left;
+              width: 50%;
+              margin-top: 30px;
+              margin-bottom: 20px;
+          }
+
+          .billing-plan-list ul{
+              padding: 0px;
+              margin: 0px;
+          }
+
+          .billing-plan-list ul > li{
+              display: table-cell;
+              width: 1%;
+          }
+
+          .billing-plan-list ul > li.active a{
+              background: #f6f8f9 !important;
+              color: #fff;
+          }
+
+          .billing-plan-list ul > li > a{
+              color: #8e989f !important;
+              font-size: 11px;
+              text-transform: uppercase;
+              border: none !important;
+              border-right: 1px solid #ccc !important;
+              border-radius: 0;
+              background: none;
+              padding: 8px 0;
+              line-height: 16px;
+              text-align: center;
+              display: block;
+          }
+
+          .billing-plan-list ul > li > a.hvr-sweep-to-right::before {
+              background: #f6f8f9 none repeat scroll 0 0;
+          }
+
+          .billing-plan-list ul > li:nth-child(1) > a{
+              color: #8e989f;
+              font-size: 11px;
+              text-transform: uppercase;
+              border: none !important;
+              border-right: 1px solid #d7dbdd !important;
+              -webkit-border-top-left-radius: 5px;
+              -webkit-border-bottom-left-radius: 5px;
+              -moz-border-radius-topleft: 5px;
+              -moz-border-radius-bottomleft: 5px;
+              border-top-left-radius: 5px;
+              border-bottom-left-radius: 5px;
+          }
+
+          .billing-plan-list ul > li:nth-child(1) > a.hvr-sweep-to-right::before {
+              background: #f6f8f9 none repeat scroll 0 0;
+              border-top-left-radius: 5px;
+              border-bottom-left-radius: 5px;
+          }
+
+          .billing-plan-list ul > li:nth-child(2) > a{
+              color: #8e989f;
+              font-size: 11px;
+              text-transform: uppercase;
+              border: none !important;
+              /*border-left: 1px solid #d7dbdd !important;*/
+              -webkit-border-top-right-radius: 0px;
+              -webkit-border-bottom-right-radius: 0px;
+              -moz-border-radius-topright: 0px;
+              -moz-border-radius-bottomright: 0px;
+              border-top-right-radius: 0px;
+              border-bottom-right-radius: 0px;
+          }
+
+          .billing-plan-list ul > li:nth-child(2) > a.hvr-sweep-to-right::before {
+              background: #f6f8f9 none repeat scroll 0 0;
+          }
+
+          .billing-plan-list ul > li:nth-child(3) > a{
+              color: #8e989f;
+              font-size: 11px;
+              text-transform: uppercase;
+              border: none !important;
+              border-left: 1px solid #d7dbdd !important;
+              -webkit-border-top-right-radius: 5px;
+              -webkit-border-bottom-right-radius: 5px;
+              -moz-border-radius-topright: 5px;
+              -moz-border-radius-bottomright: 5px;
+              border-top-right-radius: 5px;
+              border-bottom-right-radius: 5px;
+          }
+
+          .billing-plan-list ul > li:nth-child(3) > a.hvr-sweep-to-right::before {
+              background: #f6f8f9 none repeat scroll 0 0;
+              border-top-right-radius: 5px;
+              border-bottom-right-radius: 5px;
+          }
+
+      /* End: membership-bottom-wrapper billing-plan-list */
