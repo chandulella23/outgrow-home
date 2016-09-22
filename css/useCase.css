@@ -324,9 +324,7 @@ body{background:#fff !important;}
 }
 
 
-.usecase .gallery-content-center .abc{
-    width: 100%;
-}
+
 
 .usecase .section-usecase1-left h4 {
     color: #fb6c73;
@@ -393,6 +391,8 @@ body{background:#fff !important;}
 
 .usecase .gallery-content-center .abc{
     width: 100%;
+	float:left;
+	margin-left:0px;
 }
 
 .usecase .section-usecase2-left h4 {
