@@ -56,17 +56,17 @@
 	.section-6-left span{ padding-left:10px;}
 	.section-6-right{ border:none; margin-top:40px;}
 	.section-7 { padding-bottom: 30px; margin-top:0px; padding-top:30px;}
-	.section-7 .slider-sa{ min-height:270px; padding: 0px 20px; margin-top:-30px;}
+	.section-7 .slider-sa{ min-height:200px; padding: 0px 20px; margin-top:-30px;}
 	.section-7 .section-runnigheading{ font-size: 30px; text-align: left;  line-height: 34px;}
 	.section-9-left {padding-right: 20px; padding-left: 20px;}
 	.circle-value{ width:33%;    padding: 0px;}
 	.section-8{ padding-bottom:30px;}
 	.section-9-right{ padding-left:0px;}
-	.section-8 .slider-sa{ min-height:270px; padding: 0px 20px;}
+	.section-8 .slider-sa{ min-height:200px; padding: 0px 20px;}
 	.section-7-left { padding:0px 20px;}
 	.section-7-left1{padding:0px;}
 	.section-9{ padding-bottom:60px; padding-top:0px;}
-	.section-9 .slider-sa{min-height: 270px;padding: 0px 20px;}
+	.section-9 .slider-sa{min-height: 200px;padding: 0px 20px;}
 	.section-10{ margin-bottom:30px; }
 	.sec10-testimonial {margin: 0 auto;width: 100%;display: inline-block; padding-top: 30px; margin-bottom: 40px;text-align: center;}
 	.sec10-testimonial label {float: none;text-align: center;padding-top: 5px;}
@@ -170,8 +170,8 @@
     .footer-img2{padding-left: 0px; min-height: 155px;}
     .billingpricing-text p{margin: 0px; margin-bottom: 45px;}
 	.vc_row{margin-left:0px !important; margin-right:0px !important;}
-	.section-9-left h4{margin-top:0px;  font-size: 24px;}
-	.section-7-left h4{margin-top:0px;  font-size: 24px;}
+	.section-9-left h4{margin-top:30px;  font-size: 24px;}
+	.section-7-left h4{margin-top:30px;  font-size: 24px;}
 	.section-13 .section-2-heading {margin-bottom: 30px;}
 	.section-7-top{padding-top:0px;}
     .useCase-heading{ margin-top: 25px; }
@@ -247,11 +247,11 @@
 }
 
 @media (min-width: 440px) and (max-width:768px) {
-	.section-9-left h4{margin-top:0px;}
-	.section-7-left h4{margin-top:0px;}
-	.section-7 .slider-sa{ min-height:330px;}
-	.section-8 .slider-sa{ min-height:330px;}
-	.section-9 .slider-sa{ min-height:330px;}
+	.section-9-left h4{margin-top:30px;}
+	.section-7-left h4{margin-top:30px;}
+	.section-7 .slider-sa{ min-height:290px;}
+	.section-8 .slider-sa{ min-height:290px;}
+	.section-9 .slider-sa{ min-height:290px;}
 	.sec4-2{height:325px;}
 	.section-4-left span i {margin-top: 0px;}
 	.section-4-left span span{margin-top:2px;}
@@ -298,13 +298,13 @@
 }
 @media (min-width:640px) and (max-width:768px){
 	.section-7 .slider-sa {
-		min-height: 450px;
+		min-height: 390px;
 	}
 	.section-8 .slider-sa {
-		min-height: 450px;
+		min-height: 390px;
 	}
 	.section-9 .slider-sa {
-		min-height: 450px;
+		min-height: 390px;
 	}	
 }
 @media (min-width: 768px) and (max-width:768px){
@@ -352,10 +352,10 @@
 		color: #bec5c9;
 	}
 	.section-9-left h4 {
-		margin-top: 0px;
+		margin-top: 30px;
 	}
 	.section-7-left h4 {
-		margin-top: 0px;
+		margin-top: 30px;
 	}
 	.col-sm-offset-1 {
 		margin-left: 0;
@@ -390,13 +390,13 @@
 	}
 	.mobile-sec3 .sec3-box2{ text-align: center;}
 	.section-7 .slider-sa {
-		min-height: 510px;
+		min-height: 460px;
 	}
 	.section-8 .slider-sa {
-		min-height: 510px;
+		min-height: 460px;
 	}
 	.section-9 .slider-sa {
-		min-height: 510px;
+		min-height: 460px;
 	}
 	.sec5-2 {
 	    margin-top: -54%;

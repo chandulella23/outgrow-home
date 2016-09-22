@@ -4708,14 +4708,14 @@ iframe{
 }
 
 #pricing .billing-grey{
-	margin-right:-60px;
+	margin-right:0px;
 }
 #pricing .billing-white{
-	margin-right:-50px;
+	margin-right:0px;
 	margin-bottom:90px;
 }
 #pricing .section-1-right{
-	padding-left: 21%;
+	padding-left: 17%;
     padding-top: 15px;
     position: absolute;
     top: 30%;

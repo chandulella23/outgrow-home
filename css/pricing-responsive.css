@@ -80,14 +80,14 @@
 		margin-left: -10px;
 	}
 	#pricing .billing-grey{
-		width:240px;
+		width:290px;
 	}
 	#pricing .billing-grey-top{
 		padding:20px 10px;
 	}
 	#pricing .billing-white{
-		width:240px;
-		margin-right: -34px;
+		width:290px;
+		margin-right: 0px;
 	}
 	#pricing .container-faqs {
 		width: 830px;
@@ -95,13 +95,17 @@
 	}
 	#pricing .pricing-text {
 		position: relative;
-		margin-top: 78%;
+		margin-top: 66%;
+	}
+	#pricing .section-1-right {
+		padding-left: 8%;
 	}
 }
 
 @media (min-width: 1200px) and (max-width:1280px) {
 	#pricing .section-1-right {
 		margin-left: 0px;
+		padding-left:15%;
 	}
 }
 	@media (min-width: 767px) and (max-width:768px) {
