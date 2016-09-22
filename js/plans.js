@@ -2,6 +2,7 @@ jQuery(document).ready(function() {
 	jQuery.ajax({
 	    url: 'http://api.outgrow.us/api/v1/plans',
 	    success: function(success){
+	    	console.log(success);
 	        var plansList = '';
 	        var featureList = '';
 	        var fe = '';
@@ -84,7 +85,8 @@ jQuery(document).ready(function() {
 											pricetag = `
 													<h3 class="plan-price">USD <span class="strike-off">`
 													+success.data.lists.list[i].plan.price/100 +
-													`</span> `+price+` `+period+` `+success.data.lists.list[i].plan.period_unit+`ly</h3>`;
+													`</span> `+price+` `+period+` `+success.data.lists.list[i].plan.period_unit+`ly</h3>
+													<span class="apply-coupon">Use Coupon code : `+success.data.plans[j].cycles[l].coupon_name+`</span>`;
 										}
 										else{
 											pricetag = `
