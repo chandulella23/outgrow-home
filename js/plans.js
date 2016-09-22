@@ -133,7 +133,7 @@ jQuery(document).ready(function() {
 									`+pricetag+`
 									<p>`+success.data.lists.list[i].plan.description+`</p>
 									<div class="col-md-12 col-sm-12 col-xs-12 np">
-										<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">SignUp</button>
+										<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right">SignUp</a>
 									</div>
 								</div>
 								<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide `+bil_bottom+`" id="`+planId+`">
