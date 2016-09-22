@@ -53,7 +53,12 @@
 		padding: 0;
 		width:96%;
 	}
-	
+	.usecase .img-res{
+		width:96%;
+	}
+	.gallery-content{
+		margin-top:50px !important;
+	}
 }
 @media (min-width: 1024px) and (max-width:1250px) {
 	.collage-outer{

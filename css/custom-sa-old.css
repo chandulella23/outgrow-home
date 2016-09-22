@@ -2884,22 +2884,6 @@ button.swiper-pagination-bullet {
     float: left;
     margin-top: 20px;
 }
-#feature .section-f1 .section-f1-left p {
-    color: #62696d;
-    font-size: 14px;
-    font-family: montserratlight;
-    text-align: left;
-    width: 100%;
-    float: left;
-    display: block;
-}
-#feature .section-f1 .section-f1-left .btn-exploreTemp {
-    background: #fff;
-    border: 1px solid #fb6c73;
-    color: #fb6c73;
-    float: left;
-    margin-top: 20px;
-}
 #feature .section-f1 {
     float: left;
     width: 100%;
@@ -3062,8 +3046,8 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f2 .section-f2-left span span {
     color: #62696d;
-    font-size: 14px;
-    font-family: montserratregular;
+    font-size: 15px;
+    font-family: montserratlight;
     width: 85%;
     float: left;
     display: block;
@@ -3074,188 +3058,6 @@ button.swiper-pagination-bullet {
     left: 50%;
     top: 3%;
     box-shadow: -1px 7px 11px 2px rgba(0,0,0,0.2);
-}
-#feature .section-f2-right {
-    margin-top: 20px;
-}
-#feature .secf2-2 {
-    position: absolute;
-    left: 46%;
-    top: 0;
-    box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
-   
-}
-#feature .section-f3 {
-	margin-top: 40px;
-	margin-bottom: 50px;
-}
-#feature .section-f3-left {
-	padding-left: 120px;
-}
-#feature .section-f3-left span {
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	margin-bottom: 25px;
-	margin-top: 15px;
-}
-#feature .section-f3-left span i {
-	font-size: 60px;
-	color: #fb6c73;
-	position: relative;
-	margin-right: 10px;
-	float: left;
-}
-#feature .section-f3 .section-f3-left h4 {
-	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none;
-}
-#feature .secf3-test {
-	float: left;
-	width: 100%;
-	margin-bottom: 15px;
-	margin-top: 15px;
-}
-#feature .section-f3-left .section-f3-new span {
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	margin-bottom: 15px;
-	margin-top: 15px;
-}
-#feature .section-f3-left .section-f3-new span i {
-	font-size: 24px;
-	color: #bec5c9;
-	position: relative;
-	margin-right: 20px;
-	float: left;
-}
-#feature .section-f3-left .section-f3-new span span {
-	color: #62696d;
-	font-size: 14px;
-	font-family: montserratregular;
-	width: 85%;
-	float: left;
-	display: block;
-	margin: 0px;
-	text-transform: uppercase;
-}
-#feature .secf3-2 {
-	position: absolute;
-	left: 50%;
-	top: 3%;
-	box-shadow: -1px 7px 11px 2px rgba(0,0,0,0.2);
-}
-#feature .section-f3 .section-f3-left span span {
-    color: #62696d;
-    font-size: 15px;
-    font-family: montserratlight;
-    width: 85%;
-    float: left;
-    display: block;
-    margin: 0px;
-}
-#feature .section-f4 {
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-#feature .secf4-2 {
-    position: absolute;
-    left: 50%;
-    top: 3%;
-    box-shadow: -1px 7px 11px 2px rgba(0,0,0,0.2);
-}
-#feature .section-f4-left {
-    padding-left: 120px;
-}
-#feature .section-f4-left span {
-    text-align: left;
-    width: 100%;
-    float: left;
-    display: block;
-    margin-bottom: 25px;
-    margin-top: 15px;
-}
-#feature .section-f4-left span i {
-    font-size: 60px;
-    color: #fb6c73;
-    position: relative;
-    margin-right: 10px;
-    float: left;
-}
-#feature .section-f4 .section-f4-left h4 {
-    color: #fb6c73;
-    font-size: 36px;
-    font-family: montserratultra_light;
-    text-align: left;
-    width: 100%;
-    float: left;
-    display: block;
-    text-transform: none;
-}
-#feature .secf4-test {
-    float: left;
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-#feature .section-f4-left .section-f4-new span {
-    text-align: left;
-    width: 100%;
-    float: left;
-    display: block;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-#feature .secf4-test span {
-    color: #62696d;
-    font-size: 12px;
-    font-family: montserratlight;
-    float: left;
-    text-align: left;
-    width: 90%;
-}
-#feature .section-f4-left .section-f4-new span i {
-    font-size: 24px;
-    color: #bec5c9;
-    position: relative;
-    margin-right: 20px;
-    float: left;
-}
-#feature .section-f4-left .section-f4-new span span {
-    color: #62696d;
-    font-size: 14px;
-    font-family: montserratregular;
-    width: 85%;
-    float: left;
-    display: block;
-    margin: 0px;
-    text-transform: uppercase;
-}
-#feature .section-f4-left span {
-    text-align: left;
-    width: 100%;
-    float: left;
-    display: block;
-    margin-bottom: 25px;
-    margin-top: 15px;
-}
-#feature .section-f4 .section-f4-left span span {
-    color: #62696d;
-    font-size: 15px;
-    font-family: montserratlight;
-    width: 85%;
-    float: left;
-    display: block;
-    margin: 0px;
 }
 
 #feature .section-7 .slider-sa {
@@ -3722,10 +3524,10 @@ button.swiper-pagination-bullet {
 	margin-left:40px;
 }
 #feature .section-15 .section-15-left span span {
-	color: #62696d;
-    font-size: 18px;
+    color: #62696d;
+    font-size: 15px;
     font-family: montserratlight;
-    width: 100%;
+    width: 85%;
     float: left;
     display: block;
     margin: 0px;
@@ -4708,14 +4510,14 @@ iframe{
 }
 
 #pricing .billing-grey{
-	margin-right:0px;
+	margin-right:-60px;
 }
 #pricing .billing-white{
-	margin-right:0px;
+	margin-right:-50px;
 	margin-bottom:90px;
 }
 #pricing .section-1-right{
-	padding-left: 17%;
+	padding-left: 21%;
     padding-top: 15px;
     position: absolute;
     top: 30%;
@@ -4864,12 +4666,7 @@ iframe{
     margin-bottom: 0px;
 }
 #pricing .section-faq{
-    /* margin-top: 40%; */
-	margin-top:0px;
-}
-#pricing .pricing-text{
-	position: relative;
-    margin-top: 50%;
+    margin-top: 40%;
 }
 #pricing .section-faq .section-2-heading{
     color: #dfe3e6;
@@ -4879,20 +4676,7 @@ iframe{
     text-decoration: line-through;
 }
 
-.apply-coupon{
-  font-size: 12px;
-  color: #fff;
-  opacity: 0.5;
-  display: block;
-  margin-top: 30px;
-}
-.billing-white .apply-coupon{
-  font-size: 12px;
-  color: #000;
-  opacity: 0.5;
-  display: block;
-  margin-top: 30px;
-}
+
 
 
 /*Pricing Page CSS Ends*/

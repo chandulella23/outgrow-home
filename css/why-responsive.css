@@ -122,6 +122,7 @@
 		margin-top: 2px;
 		width: 100%;
 		margin-bottom: 30px;
+		font-size:16px;
 	}
 	#why .section-16-text span i{ font-size: 40px;}
 	#why .sec4-2-1 {
@@ -147,6 +148,15 @@
 	#why .sec7-test em{
 		top: 25px;
 		left: 70px;
+	}
+	#why .section-w3-text span i{
+		font-size:40px;
+	}
+	#why .section-w3-text h4{
+		font-size:24px;
+	}
+	#why .section-w3-text span{
+		font-size:16px;
 	}
 	#why .last-sec {
 		margin-bottom: 30px;
@@ -251,7 +261,12 @@
 		width: 100%;
 		padding: 0 20px;
 		margin-top: 0px;
+		font-size:24px;
 	}
+	#why .section-w2-left span i{
+		font-size:40px;
+	}
+	
 	#why .section-w2 {
 		margin-top: 0px;
 		margin-bottom: 0px;
@@ -279,6 +294,7 @@
 		color: #fb6c73;
 		margin-bottom: 20px;
 		width: 100%;
+		font-size:24px;
 		padding: 0 20px;
 		margin-top: 0px;
 	}
