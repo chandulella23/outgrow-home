@@ -192,7 +192,7 @@ var displayPlans = function(){
 					dots = 'toggle-dots-white';
 					bil_bottom = 'billing-grey-bottom'
 					cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="mailto:randy@venturepact.com" class="btn btn-white-red-outline hvr-sweep-to-right">Contact Us</a>
+								<a href="mailto:randy@outgrow.co" class="btn btn-white-red-outline hvr-sweep-to-right">Contact Us</a>
 							</div>`;
 				}
 				else{
