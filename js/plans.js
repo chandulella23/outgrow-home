@@ -26,6 +26,8 @@ jQuery(document).ready(function() {
 });
 
 var getAllPlans = function () {
+	var plansList = '<img src="./images/logoAnim.gif" alt="loading..." />';
+	jQuery('#plansList').html(plansList);
 	jQuery.ajax({
 		url: 'http://api.outgrow.us/api/v1/plans',
 		success: function(success){
