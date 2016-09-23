@@ -142,14 +142,14 @@ var displayPlans = function(){
 											<h3 class="plan-price">$ <span class="strike-off">`
 											+allPlans.data.lists.list[i].plan.price/100 +
 											`</span> `+price+` Half Yearly</h3>
-											<span class="apply-coupon">Use Coupon code : `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
+											<span class="apply-coupon">Use Coupon: `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
 									}
 									else if(allPlans.data.lists.list[i].plan.period == 1){
 										pricetag = `
 											<h3 class="plan-price">$<span class="strike-off">`
 											+allPlans.data.lists.list[i].plan.price/100 +
 											`</span> `+price+` `+allPlans.data.lists.list[i].plan.period_unit+`ly</h3>
-											<span class="apply-coupon">Use Coupon code : `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
+											<span class="apply-coupon">Use Coupon: `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
 									}
 								}
 								else{
@@ -173,7 +173,7 @@ var displayPlans = function(){
 					}
 				}
 				cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right">Signup</a>
+								<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right">Start Trial</a>
 							</div>`;
 				if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'business'){
 					mostPopular = '<span class="ribbon">Most Popular</span>';
