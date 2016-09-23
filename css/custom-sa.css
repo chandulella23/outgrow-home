@@ -4858,7 +4858,7 @@ iframe{
 }
 #pricing .billing-grey{
     box-shadow: 0px -8px 19px 3px rgba(60,60,60,0.29);
-    border-top: 1px solid #fff;
+    /* border-top: 1px solid #fff; */
 }
 #pricing .custom-navbar.navbar-default{
     margin-bottom: 0px;
