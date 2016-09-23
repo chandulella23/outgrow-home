@@ -4718,7 +4718,7 @@ iframe{
 	padding-left: 17%;
     padding-top: 15px;
     position: absolute;
-    top: 30%;
+    top: 45%;
 }
 #pricing .accordion, .accordion * {
 	-webkit-box-sizing:border-box; 
@@ -4869,7 +4869,7 @@ iframe{
 }
 #pricing .pricing-text{
 	position: relative;
-    margin-top: 50%;
+    margin-top: 65%;
 }
 #pricing .section-faq .section-2-heading{
     color: #dfe3e6;
@@ -4933,7 +4933,7 @@ iframe{
               border-right: 1px solid #ccc !important;
               border-radius: 0;
               background: none;
-              padding: 8px 0;
+              padding: 8px;
               line-height: 16px;
               text-align: center;
               display: block;
