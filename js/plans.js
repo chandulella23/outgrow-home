@@ -11,12 +11,12 @@ jQuery(document).ready(function() {
 				</li>
 				<li class="cycle-tab" id="half-yearly">
 					<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">
-						Half Yearly
+						Semi-Annual
 					</a>
 				</li>
 				<li class="cycle-tab" id="annually">
 					<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('y')">
-						Annually
+						Annual
 					</a>
 				</li>
 			</ul>
@@ -139,14 +139,14 @@ var displayPlans = function(){
 									}
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
 										pricetag = `
-											<h3 class="plan-price">USD <span class="strike-off">`
+											<h3 class="plan-price">$ <span class="strike-off">`
 											+allPlans.data.lists.list[i].plan.price/100 +
 											`</span> `+price+` Half Yearly</h3>
 											<span class="apply-coupon">Use Coupon code : `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
 									}
 									else if(allPlans.data.lists.list[i].plan.period == 1){
 										pricetag = `
-											<h3 class="plan-price">USD <span class="strike-off">`
+											<h3 class="plan-price">$<span class="strike-off">`
 											+allPlans.data.lists.list[i].plan.price/100 +
 											`</span> `+price+` `+allPlans.data.lists.list[i].plan.period_unit+`ly</h3>
 											<span class="apply-coupon">Use Coupon code : `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
@@ -155,13 +155,13 @@ var displayPlans = function(){
 								else{
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
 										pricetag = `
-											<h3 class="plan-price">USD `
+											<h3 class="plan-price">$ `
 											+allPlans.data.lists.list[i].plan.price/100 +
 											` Half Yearly</h3>`;
 									}
 									else if(allPlans.data.lists.list[i].plan.period == 1){
 										pricetag = `
-											<h3 class="plan-price">USD `
+											<h3 class="plan-price">$ `
 											+allPlans.data.lists.list[i].plan.price/100 +
 											` `+allPlans.data.lists.list[i].plan.period_unit+
 											`ly</h3>`;
