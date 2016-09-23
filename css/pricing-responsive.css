@@ -46,7 +46,11 @@
 		padding-right: 25px;
 	}
 	#pricing .section-faq{ margin-top: 15px;}
-	.section-2-heading{ font-family: montserratbold;}
+	#pricin .section-2-heading{ font-family: montserratbold;}
+	#pricing .billing-plan-list{width:100%;}
+	#pricing .billing-plan-list ul > li > a{
+		padding:15px 2px;
+	}
 }
 
 @media (min-width: 440px) and (max-width:768px) {
@@ -66,6 +70,12 @@
 	#pricing .section-1-right{
 		margin-left:0px;
 	}
+	#pricing .billing-plan-list {
+		width: 90%;
+		margin-left: 30px;
+		margin-right: 25px;
+	}
+	
 }
 @media (min-width: 768px) and (max-width:1024px){
 	#pricing .custom-navbar.navbar-default .navbar-nav > li {
@@ -95,7 +105,7 @@
 	}
 	#pricing .pricing-text {
 		position: relative;
-		margin-top: 66%;
+		margin-top: 76%;
 	}
 	#pricing .section-1-right {
 		padding-left: 8%;
@@ -117,13 +127,7 @@
 	#pricing .section-1-right {
 		margin-left:0px;
 	}
-	#pricing .custom-navbar.navbar-default .navbar-nav > li {
-		margin-right: 0px;
-	}
-	#pricing .navbar-right {
-		float: left !important;
-		margin-left: 15px;
-	}
+	
 }
 @media (min-width: 1480px) and (max-width:1800px) {
 	
