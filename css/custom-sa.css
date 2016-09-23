@@ -5000,5 +5000,9 @@ iframe{
               border-top-right-radius: 5px;
               border-bottom-right-radius: 5px;
           }
-
+		
       /* End: membership-bottom-wrapper billing-plan-list */
+	  
+	.err .section-1{
+		margin-top:70px;
+	}
