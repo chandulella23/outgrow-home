@@ -22,7 +22,11 @@ jQuery(document).ready(function() {
 			</ul>
 		</div>
 		`;
+	var freePlan = `<i class="material-icons">not_interested</i>
+				<h4>Casual User?</h4>
+				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
+	jQuery('#freePlan').html(freePlan);
 });
 
 var getAllPlans = function () {
