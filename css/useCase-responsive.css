@@ -101,10 +101,7 @@
 		top: 42%;
 		left: 69%;
 	}
-	.navbar-right {
-		float: left !important;
-		margin-left: -14px;
-	}
+	
 	.container-fluid > .navbar-header{
 		margin-left:-30px;
 	}
