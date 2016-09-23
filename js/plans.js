@@ -44,7 +44,7 @@ var displayPlans = function(){
 	var fe = '';
 	var pricetag = '';
 	var price = 0;
-	var ulUsers = '',ulCalc = '',ulTemp = '';
+	var ulUsers = '',ulCalc = '',ulTemp = '', cta = '';
 	for(var i = 0; i<allPlans.data.lists.list.length;i++){
 		pricetag = '';
 		var box = '',mostPopular = '',bil_grey_white = '',bil_top = '',bil_bottom = '', dots = '', period = '', boxShadow = '',planId = '';
@@ -97,8 +97,20 @@ var displayPlans = function(){
 					}
 					for(var k = 0;k<allPlans.data.plans[j].features.length; k++){
 						if(allPlans.data.plans[j].features[k].plan != 'starter' && allPlans.data.plans[j].features[k].plan == allPlans.data.lists.list[i].plan.id.split('_')[0]){
-							featureList += `
-								<li>
+							if(allPlans.data.plans[j].features[k].active){
+								featureList += `
+									<li>
+										<a href="javascript:void(0);" class="">
+											<span class="mat-icon"></span>
+											<span class="list-name">&nbsp;
+											`+allPlans.data.plans[j].features[k].feature.name+`
+											</span>
+										</a>
+									</li>`;
+							}
+							else if(!allPlans.data.plans[j].features[k].active){
+								featureList += `
+								<li class="unselected">
 									<a href="javascript:void(0);" class="">
 										<span class="mat-icon"></span>
 										<span class="list-name">&nbsp;
@@ -106,6 +118,7 @@ var displayPlans = function(){
 										</span>
 									</a>
 								</li>`;
+							}
 						}
 					}
 					for(var l = 0;l<allPlans.data.plans[j].cycles.length; l++){
@@ -148,9 +161,14 @@ var displayPlans = function(){
 											`ly</h3>`;
 									}
 								}
+								if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise')
+									pricetag = '';
 							}
 					}
 				}
+				cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
+								<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right">Signup</a>
+							</div>`;
 				if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'business'){
 					mostPopular = '<span class="ribbon">Most Popular</span>';
 					bil_grey_white = 'billing-white';
@@ -167,6 +185,9 @@ var displayPlans = function(){
 					box = 'enterprise-box';
 					dots = 'toggle-dots-white';
 					bil_bottom = 'billing-grey-bottom'
+					cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
+								<a href="mailto:randy@venturepact.com" class="btn btn-white-red-outline hvr-sweep-to-right">Contact Us</a>
+							</div>`;
 				}
 				else{
 					mostPopular = '';
@@ -184,9 +205,7 @@ var displayPlans = function(){
 							<span class="border-center"></span>
 							`+pricetag+`
 							<p>`+allPlans.data.lists.list[i].plan.description+`</p>
-							<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right">SignUp</a>
-							</div>
+							`+cta+`
 						</div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide `+bil_bottom+`" id="`+planId+`">
 							<ul class="billing-list">
@@ -214,4 +233,11 @@ var showPlan = function(plan) {
 	else if(plan == 's')
 		jQuery('#annually').addClass('active');
 	displayPlans();
+}
+
+var show = function(id) {
+	if(jQuery('#'+id).hasClass('rs-hide'))
+		jQuery('#'+id).removeClass('rs-hide');
+	else
+		jQuery('#'+id).addClass('rs-hide');
 }
