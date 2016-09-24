@@ -99,14 +99,13 @@
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="why_calculators.html">Why Calculators ?</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="useCase.html" class="active line-through">Use Cases</a></li>
-                    <li><a href="http://app.outgrow.us">Start Trial</a></li>
-                    <li><a href="http://app.outgrow.us/login" class="link-login">Login</a></li>
-                </ul>
+            	<ul class="nav navbar-nav navbar-right">
+					<li><a href="why_calculators.html" onclick="callGA('WHY')">Why Calculators ?</a></li>
+					<li><a href="features.html" onclick="callGA('FEATURES')">Features</a></li>
+					<li><a href="pricing.html" onclick="callGA('PRICING')">Pricing</a></li>
+					<li><a href="useCase.html" onclick="callGA('USECASE')" class="active line-through">Use Cases</a></li>
+					<li><a href="http://app.outgrow.us/login" class="link-login" onclick="callGA('LOGIN')">Login</a></li>
+				</ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -223,7 +222,7 @@
 	<section class="section">
 		<div class="container">
 			<div class="useCase-heading">
-				Explore Calculator Use Cases and Examples
+				There is a Calculator for that!
 			</div>
 		</div>
 	</section>
@@ -236,12 +235,12 @@
 					<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="tab-title active">
-						<a href="#industry" aria-controls="industry" role="tab" data-toggle="tab">
+						<a href="#industry" aria-controls="industry" role="tab" data-toggle="tab" onclick="callGA('TYPE')">
 							<i class="material-icons">done</i> By Type
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a href="#category" aria-controls="category" role="tab" data-toggle="tab">
+						<a href="#category" aria-controls="category" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
 							<i class="material-icons">done</i> By Industry
 						</a>
 					</li>
@@ -306,8 +305,8 @@
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide  mk-animate-element right-to-left">
 													<img src="images/banner2.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element right-to-left">
-													<img src="images/banner2.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show  mk-animate-element right-to-left">
+													<img src="images/banner2.jpg" class= "img-pos box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -315,8 +314,8 @@
 									<div class="usecase-industry abc" >
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/slide5.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/slide5.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -353,8 +352,8 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/slide5.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/slide5.jpg" class= "box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -402,12 +401,12 @@
 													</div>
 
 												</div>
-												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner7.jpg" class= />
+												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/banner7.jpg" class="box-shadow" />
 												</div>
 
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow">
-													<img src="images/banner7.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
+													<img src="images/banner7.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -416,8 +415,8 @@
 									<div class="usecase-industry abc" >
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/banner3.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/banner3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -454,8 +453,8 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/banner3.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/banner3.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -480,7 +479,7 @@
 															<i class="material-icons">check_circle</i>
 															<span>Calculate how your earnings will differ if you decide to skip college.</span>
 														</span>
-														
+
 														<span class="">
 															<i class="material-icons">check_circle</i>
 															<span>Find out how much it would cost to invest on your own as compared to using an advisor.</span>
@@ -497,11 +496,11 @@
 
 												</div>
 
-												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner5.jpg" class= />
+												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/banner5.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element right-to-left">
-													<img src="images/banner5.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
+													<img src="images/banner5.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -511,8 +510,8 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow  mk-animate-element left-to-right">
-													<img src="images/slide3.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/slide3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -555,11 +554,11 @@
 															<i class="material-icons">check_circle</i>
 															<span>How much time does it take to visit all major museums in Berlin?</span>
 														</span>
-														
+
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/slide3.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/slide3.jpg" class="box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -604,11 +603,11 @@
 
 												</div>
 
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner4.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/banner4.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element right-to-left">
-													<img src="images/banner4.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
+													<img src="images/banner4.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -617,8 +616,8 @@
 									<div class="usecase-industry abc" >
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/banner6.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/banner6.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -651,17 +650,17 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/banner6.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
 									</div>
-								
+
 									<div class="usecase-category abc">
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												
+
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element left-to-right">
 													<span class=" mk-in-viewport full-visible hide">
 														<i class="material-icons icon-style">format_paint</i>
@@ -693,12 +692,12 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner8.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/banner8.jpg" class="box-shadow" />
 
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element right-to-left">
-													<img src="images/banner8.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element right-to-left">
+													<img src="images/banner8.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -734,11 +733,11 @@
 													</span>
 
 												</div>
-												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide box-shadow">
-													<img src="images/banner10.jpg" class= />
+												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide">
+													<img src="images/banner10.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow">
-													<img src="images/banner10.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show">
+													<img src="images/banner10.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -762,8 +761,8 @@
 									<div class="usecase-category abc" >
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/new-collag3.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/new-collag3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -799,8 +798,8 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/new-collag3.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/new-collag3.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -840,15 +839,15 @@
 															<i class="material-icons">check_circle</i>
 															<span>Have a in house marketing team? See how well it is doing.</span>
 														</span>
-														
+
 													</div>
 
 												</div>
-												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner7.jpg" class= />
+												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/banner7.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element right-to-left">
-													<img src="images/banner7.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
+													<img src="images/banner7.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -856,8 +855,8 @@
 									<div class="usecase-category abc" >
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/slide5.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/slide5.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -893,8 +892,8 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/slide5.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/slide5.jpg" class="box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -937,11 +936,11 @@
 													</div>
 
 												</div>
-												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner6.jpg" class= />
+												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/banner6.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element right-to-left">
-													<img src="images/banner6.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
+													<img src="images/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -949,8 +948,8 @@
 									<div class="usecase-category abc" >
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/banner5.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/Construction.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -998,8 +997,8 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/banner5.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/Construction.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1042,11 +1041,11 @@
 													</div>
 
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner8.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/banner8.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/banner8.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/banner8.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1054,8 +1053,8 @@
 									<div class="usecase-category abc" >
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/banner2.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/banner2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1087,8 +1086,8 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/banner2.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/banner2.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1114,7 +1113,7 @@
 														</span>
 														<span class="">
 															<i class="material-icons">check_circle</i>
-															<span>How much does it cost to build an aluminium dye?</span>
+															<span>How much does it cost to build an aluminium die?</span>
 														</span>
 														<span class="">
 															<i class="material-icons">check_circle</i>
@@ -1128,15 +1127,15 @@
 															<i class="material-icons">check_circle</i>
 															<span>What is the risk that my Chinese manufacturer will delay the delivery?</span>
 														</span>
-														
+
 													</div>
 
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element right-to-left">
-													<img src="images/banner8.jpg" class= />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
+													<img src="images/manufacturing.jpg" class="box-shadow" />
 												</div>
-												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/banner8.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/manufacturing.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1144,8 +1143,8 @@
 									<div class="usecase-category abc">
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide box-shadow mk-animate-element left-to-right">
-													<img src="images/banner9.jpg" class="" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
+													<img src="images/banner9.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1177,8 +1176,8 @@
 														</span>
 													</div>
 												</div>
-												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show box-shadow mk-animate-element left-to-right">
-													<img src="images/banner9.jpg" class= img-pos" />
+												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
+													<img src="images/banner9.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1199,13 +1198,13 @@
 				<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 					<h4>Overview</h4>
 					<ul>
-						<li><a href="javascript:void(0);">Features </a></li>
-						<li><a href="javascript:void(0);">Examples & Use Cases</a></li>
-						<li><a href="javascript:void(0);">Pricing</a></li>
-						<li><a href="javascript:void(0);">Resources</a></li>
-						<li><a href="javascript:void(0);">About</a></li>
-						<li><a href="javascript:void(0);">Privacy Policy</a></li>
-						<li><a href="javascript:void(0);">Terms of Services</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('FEATURESF')">Features </a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('USECASEF')">Examples & Use Cases</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('PRICINGF')">Pricing</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('RESOURCEF')">Resources</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('ABOUTF')">About</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('PRIVACYF')">Privacy Policy</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('TERMSF')">Terms of Services</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
@@ -1289,7 +1288,7 @@
 	<script src="js/custom.js"></script>
 
 	<!-- Use Case page js -->
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 	<script>
 		 jQuery(document).ready(function() {
 			jQuery('.mk-animate-element').viewportChecker({
@@ -1309,6 +1308,55 @@
 	var x = document.getElementsByTagName('script')[0];
 	x.parentNode.insertBefore(s, x);
 	})();
+	</script>
+
+	<script type="text/javascript">
+		function callGA(str) {
+			switch(str) {
+				case 'TYPE':
+					ga('markettingteam.send', 'event', 'UseCase', 'Click', 'ByIndustry');
+					break;
+				case 'INDUSTRY':
+					ga('markettingteam.send', 'event', 'UseCase', 'Click', 'ByIndustry');
+					break;
+				case 'WHY':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_WhyCalc');
+					break;
+				case 'FEATURES':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_Features');
+					break;
+				case 'PRICING':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_Pricing');
+					break;
+				case 'USECASE':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_UseCases');
+					break;
+				case 'LOGIN':
+					ga('markettingteam.send', 'event', 'Login', 'Click', 'LP_Header_Login');
+					break;
+				case 'FEATURESF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Features');
+					break;
+				case 'USECASEF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_UseCases');
+					break;
+				case 'PRICINGF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Pricing');
+					break;
+				case 'RESOURCEF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Resouces');
+					break;
+				case 'ABOUTF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_About');
+					break;
+				case 'PRIVACYF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Privacy');
+					break;
+				case 'TERMSF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Terms');
+					break;
+			}
+		}
 	</script>
 </body>
 </html>

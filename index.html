@@ -91,12 +91,11 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="why_calculators.html">Why Calculators ?</a></li>
-					<li><a href="features.html">Features</a></li>
-					<li><a href="pricing.html">Pricing</a></li>
-					<li><a href="useCase.html">Use Cases</a></li>
-					<li><a href="http://app.outgrow.us">Start Trial</a></li>
-					<li><a href="http://app.outgrow.us/login" class="link-login">Login</a></li>
+					<li><a href="why_calculators.html" onclick="callGA('WHY')">Why Calculators ?</a></li>
+					<li><a href="features.html" onclick="callGA('FEATURES')">Features</a></li>
+					<li><a href="pricing.html" onclick="callGA('PRICING')">Pricing</a></li>
+					<li><a href="useCase.html" onclick="callGA('USECASE')">Use Cases</a></li>
+					<li><a href="http://app.outgrow.us/login" class="link-login" onclick="callGA('LOGIN')">Login</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -122,7 +121,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 np">
 						<a href="http://app.outgrow.us">
-							<button class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i> I Cannot Wait to Build One!</button>
+							<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i> I Cannot Wait to Build One!</button>
 						</a>
 						<div class="btn-bottominfo mk-animate-element fade-in">
 							<span>Free Plan Available</span>
@@ -196,7 +195,7 @@
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Ebooks</h5>
 									<i class="material-icons hide">gesture</i>
-									<p>Sure! But do people really have time to read.</p>
+									<p>Sure! But do people really have time to read?</p>
 									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
@@ -240,7 +239,7 @@
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Ebooks</h5>
 									<h4 class="hide">Lukewarm</h4>
-									<p>They can get shared. But viral? Probably not.</p>
+									<p>They can get shared. But viral? Hardly!</p>
 									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
@@ -366,7 +365,7 @@
 				Beautiful calculators. Without Developers.
 			</div>
 			<div class="section-2-subheading mk-animate-element scale-up">
-				 Publish intricate calculators in minutes with our simple, yet versatile development studio.
+				 Create beautiful calculators in minutes with our simple, yet powerful development studio.
 			</div>
 		</div>
 	</section>
@@ -458,7 +457,7 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 	<section class="section section-6">
 		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show ">
-				<img class="mk-animate-element right-to-left sec-6-img" src="images/bank_cal.jpg" />
+				<img class="mk-animate-element right-to-left sec-6-img w100" src="images/bank_cal.jpg" />
 				<!--<img class="sec4-2" src="images/sec4-2.jpg" />-->
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
@@ -757,8 +756,8 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 	<!-- Homepage section 11 start-->
 	<section class="section section-11">
 		<div class="container">
-			<section>
-				<h3 class="section-runnigheading mk-animate-element scale-up hide">Pricing</h3>
+			<section id="plan-cycle">
+
 			</section>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-sm-offset-1 billing-boxmain">
 				<div class="col-md-12 col-sm-12 col-xs-12 np billing-table" id="plansList">
@@ -1070,10 +1069,10 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 					<!-- End: enterprise Box -->
 				</div>
 			</div>
-			<div class="col-xs-12 billingpricing-text mk-animate-element left-to-right">
-				<i class="material-icons">not_interested</i>
-				<h4>Not ready to start a trial? </h4>
-				<p><a href="http://app.outgrow.us/signup" target="_blank">Sign up</a> for free and explore core Unbounce features, no credit card required. Your published pages will include an Unbounce branded footer which can be removed by upgrading to any paid plan.</p>
+			<div class="col-xs-12 billingpricing-text mk-animate-element left-to-right" id="freePlan">
+				<!-- <i class="material-icons">not_interested</i>
+				<h4>Casual User?</h4>
+				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a href="http://app.outgrow.us/signup" target="_blank">here</a>.</p> -->
 			</div>
 		</div>
 	</section>
@@ -1507,13 +1506,13 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 				<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 					<h4>Overview</h4>
 					<ul>
-						<li><a href="javascript:void(0);">Features </a></li>
-						<li><a href="javascript:void(0);">Examples & Use Cases</a></li>
-						<li><a href="javascript:void(0);">Pricing</a></li>
-						<li><a href="javascript:void(0);">Resources</a></li>
-						<li><a href="javascript:void(0);">About</a></li>
-						<li><a href="javascript:void(0);">Privacy Policy</a></li>
-						<li><a href="javascript:void(0);">Terms of Services</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('FEATURESF')">Features </a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('USECASEF')">Examples & Use Cases</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('PRICINGF')">Pricing</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('RESOURCEF')">Resources</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('ABOUTF')">About</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('PRIVACYF')">Privacy Policy</a></li>
+						<li><a href="javascript:void(0);" onclick="callGA('TERMSF')">Terms of Services</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
@@ -1641,8 +1640,6 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 		});
-
-
 		/*jQuery(window).scroll(function() {
 			drawLine( jQuery('#route'),
 					document.getElementById('path') );
@@ -1689,7 +1686,7 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 		x.parentNode.insertBefore(s, x);
 		})();
 
-		
+
 	//Usersnap
 	(function() {
 	var s = document.createElement("script");
@@ -1700,12 +1697,51 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 	var x = document.getElementsByTagName('script')[0];
 	x.parentNode.insertBefore(s, x);
 	})();
+	</script>
 
-	var show = function(id) {
-			if(jQuery('#'+id).hasClass('rs-hide'))
-				jQuery('#'+id).removeClass('rs-hide');
-			else
-				jQuery('#'+id).addClass('rs-hide');
+	<script type="text/javascript">
+		function callGA(str) {
+			switch(str) {
+				case 'CANNOT WAIT CTA':
+					ga('markettingteam.send', 'event', 'Signup', 'Click', 'LP_FirstFold');
+					break;
+				case 'WHY':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_WhyCalc');
+					break;
+				case 'FEATURES':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_Features');
+					break;
+				case 'PRICING':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_Pricing');
+					break;
+				case 'USECASE':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_UseCases');
+					break;
+				case 'LOGIN':
+					ga('markettingteam.send', 'event', 'Login', 'Click', 'LP_Header_Login');
+					break;
+				case 'FEATURESF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Features');
+					break;
+				case 'USECASEF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_UseCases');
+					break;
+				case 'PRICINGF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Pricing');
+					break;
+				case 'RESOURCEF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Resouces');
+					break;
+				case 'ABOUTF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_About');
+					break;
+				case 'PRIVACYF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Privacy');
+					break;
+				case 'TERMSF':
+					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Terms');
+					break;
+			}
 		}
 	</script>
 </body>

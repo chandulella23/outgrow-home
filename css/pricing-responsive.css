@@ -3,8 +3,12 @@
 @media (min-width: 320px) and (max-width:768px) {
 	#pricing .section-1-right {
 		padding-left: 0px;
-		margin-left: 30px;
+		margin-left: 0px;
 		margin-top: 100px;
+	}
+	#pricing .pricing-text {
+		position: relative;
+		margin-top: 0%;
 	}
 	#pricing .billing-grey {
 		margin-top: -60px;
@@ -14,8 +18,8 @@
 		font-size:16px;
 	}
 	#pricing .section-2-heading {
-		margin-top: -70px;
-		margin-bottom: 0px;
+		margin-top: -40px;
+		margin-bottom: 50px;
 	}
 	#pricing .accordion{
 		margin-top:-60px;
@@ -42,7 +46,11 @@
 		padding-right: 25px;
 	}
 	#pricing .section-faq{ margin-top: 15px;}
-	.section-2-heading{ font-family: montserratbold;}
+	#pricin .section-2-heading{ font-family: montserratbold;}
+	#pricing .billing-plan-list{width:100%;}
+	#pricing .billing-plan-list ul > li > a{
+		padding:15px 2px;
+	}
 }
 
 @media (min-width: 440px) and (max-width:768px) {
@@ -60,14 +68,16 @@
 		margin: 0 auto;
 	}
 	#pricing .section-1-right{
-		margin-left:60px;
+		margin-left:0px;
 	}
+	#pricing .billing-plan-list {
+		width: 90%;
+		margin-left: 30px;
+		margin-right: 25px;
+	}
+	
 }
 @media (min-width: 768px) and (max-width:1024px){
-	#pricing .navbar-right {
-		float: left !important;
-		margin-left: -14px;
-	}
 	#pricing .custom-navbar.navbar-default .navbar-nav > li {
 		margin-right: 0px;
 	}
@@ -80,38 +90,32 @@
 		margin-left: -10px;
 	}
 	#pricing .billing-grey{
-		width:240px;
+		width:290px;
 	}
 	#pricing .billing-grey-top{
 		padding:20px 10px;
 	}
 	#pricing .billing-white{
-		width:240px;
-		margin-right: -34px;
-	}
-	#pricing .navbar-right {
-		float: left !important;
-		margin-left: -14px;
-	}
-	#pricing .container-fluid > .navbar-header{
-		margin-left:-30px;
-	}
-	#pricing .custom-navbar.navbar-default .navbar-nav > li > a{
-		padding-top: 15px;
-		padding-left: 35px;
-	}
-	#pricing .custom-navbar.navbar-default .navbar-nav > li{
-		margin-right:0px;
+		width:290px;
+		margin-right: 0px;
 	}
 	#pricing .container-faqs {
 		width: 830px;
 		margin: 0 auto;
+	}
+	#pricing .pricing-text {
+		position: relative;
+		margin-top: 76%;
+	}
+	#pricing .section-1-right {
+		padding-left: 8%;
 	}
 }
 
 @media (min-width: 1200px) and (max-width:1280px) {
 	#pricing .section-1-right {
 		margin-left: 0px;
+		padding-left:15%;
 	}
 }
 	@media (min-width: 767px) and (max-width:768px) {
@@ -123,13 +127,7 @@
 	#pricing .section-1-right {
 		margin-left:0px;
 	}
-	#pricing .custom-navbar.navbar-default .navbar-nav > li {
-		margin-right: 0px;
-	}
-	#pricing .navbar-right {
-		float: left !important;
-		margin-left: 15px;
-	}
+	
 }
 @media (min-width: 1480px) and (max-width:1800px) {
 	
