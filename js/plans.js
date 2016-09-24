@@ -27,6 +27,40 @@ jQuery(document).ready(function() {
 				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
+
+	jQuery(document).on('click', '.signupbanners', function(event) {
+		var self = jQuery(this);
+		var title = self.parent().parent().find('.plan-title').html();
+		switch(title) {
+			case "ESSENTIALS (MONTHLY)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Essential_MONTHLY_Pricing_Tile');
+				break;
+			case "BUSINESS (MONTHLY)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Business_MONTHLY_Pricing_Tile');
+				break;
+			case "ENTERPRISE (MONTHLY)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Enterprise_MONTHLY_Pricing_Tile');
+				break;
+			case "ESSENTIALS (SEMI-ANNUAL)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Essential_SEMI_ANNUALLY_Pricing_Tile');
+				break;
+			case "BUSINESS (SEMI-ANNUAL)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Business_SEMI_ANNUALLY_Pricing_Tile');
+				break;
+			case "ENTERPRISE (SEMI-ANNUAL)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Enterprise_SEMI_ANNUALLY_Pricing_Tile');
+				break;
+			case "ESSENTIALS (ANNUAL)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Essential_ANNUALLY_Pricing_Tile');
+				break;
+			case "BUSINESS (ANNUAL)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Business_ANNUALLY_Pricing_Tile');
+				break;
+			case "ENTERPRISE (ANNUAL)":
+				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Enterprise_ANNUALLY_Pricing_Tile');
+				break;
+		}
+	});
 });
 
 var getAllPlans = function () {
@@ -173,7 +207,7 @@ var displayPlans = function(){
 					}
 				}
 				cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right">Start Trial</a>
+								<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners">Start Trial</a>
 							</div>`;
 				if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'business'){
 					mostPopular = '<span class="ribbon">Most Popular</span>';
@@ -192,7 +226,7 @@ var displayPlans = function(){
 					dots = 'toggle-dots-white';
 					bil_bottom = 'billing-grey-bottom'
 					cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="mailto:randy@outgrow.co" class="btn btn-white-red-outline hvr-sweep-to-right">Contact Us</a>
+								<a href="mailto:randy@outgrow.co" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners">Contact Us</a>
 							</div>`;
 				}
 				else{
