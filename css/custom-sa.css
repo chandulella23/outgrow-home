@@ -1445,7 +1445,7 @@ label {
 /* Start: billing-white-bottom */
 
 .billing-white-bottom{
-    padding: 15px 25px 30px;
+    padding: 15px 25px 37px;
 }
 
 .billing-white-bottom ul.billing-list{
@@ -1826,6 +1826,31 @@ label {
     }
 
 /* End: Business sec */
+/*.contact-pricing {
+    margin: 8px 0;
+    float: left;
+    width: 100%;
+}*/
+
+.enterprise-margin {
+    padding-bottom: 15px;
+    background: #f5f5f5;
+}
+
+#pricing .pricing-help .billing-plans-help {
+    font-size: 10px;
+    position: absolute;
+    bottom: -670px;
+}
+
+
+.index-help .billing-plans-help {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 40px;
+}
+
 
 /* End: Billing table */
 
@@ -4721,7 +4746,7 @@ iframe{
 	padding-left: 17%;
     padding-top: 15px;
     position: absolute;
-    top: 45%;
+    top: 40%;
 }
 #pricing .accordion, .accordion * {
 	-webkit-box-sizing:border-box; 
@@ -4872,7 +4897,7 @@ iframe{
 }
 #pricing .pricing-text{
 	position: relative;
-    margin-top: 60%;
+    margin-top: 52%;
 }
 #pricing .section-faq .section-2-heading{
     color: #dfe3e6;

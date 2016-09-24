@@ -28,7 +28,6 @@ jQuery(document).ready(function() {
 				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
-
 	jQuery(document).on('click', '.signupbanners', function(event) {
 		var self = jQuery(this);
 		var title = self.parent().parent().find('.plan-title').html();
@@ -64,14 +63,19 @@ var displayPlans = function(){
 	var pricetag = '';
 	var price = 0;
 	var ulUsers = '',ulLeads = '',ulVisits = '', cta = '';
+	var enterprise = '';
 	for(var i = 0; i<allPlans.data.lists.list.length;i++){
-
+		enterprise = ''
 		if(allPlans.data.lists.list[i].plan.id === 'essentials_m')
 			essentials_m = allPlans.data.lists.list[i].plan.price/100;
 		if(allPlans.data.lists.list[i].plan.id === 'business_m')
 			business_m = allPlans.data.lists.list[i].plan.price/100;
 		if(allPlans.data.lists.list[i].plan.id === 'enterprise_m')
 			enterprise_m = allPlans.data.lists.list[i].plan.price/100;
+		if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise'){
+			enterprise = 'enterprise-margin';
+		}
+
 
 		pricetag = '';
 		var box = '',mostPopular = '',bil_grey_white = '',bil_top = '',bil_bottom = '', dots = '', period = '', boxShadow = '',planId = '';
@@ -202,7 +206,7 @@ var displayPlans = function(){
 									}
 								}
 								if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise')
-									pricetag = '<br/>*Contact us for pricing';
+									pricetag = '<br/><span class="contact-pricing">*Contact us for pricing</span>';
 							}
 					}
 				}
@@ -238,7 +242,7 @@ var displayPlans = function(){
 					bil_bottom = 'billing-grey-bottom'
 				}
 				plansList += `
-					<div class="col-md-4 col-sm-4 col-xs-12 np `+box+` `+bil_grey_white+`">
+					<div class="col-md-4 col-sm-4 col-xs-12 np `+box+` `+bil_grey_white+` `+enterprise+`">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center `+bil_top+` `+boxShadow+`">
 							`+mostPopular+`
 							<h3 class="plan-title">`+allPlans.data.lists.list[i].plan.name.split(' ')[0]+`<br/><h4>`+allPlans.data.lists.list[i].plan.name.split(' ')[1]+`</h4></h3>
