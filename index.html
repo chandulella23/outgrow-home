@@ -122,7 +122,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 np">
 						<a href="http://app.outgrow.us">
-							<button class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i> I Cannot Wait to Build One!</button>
+							<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i> I Cannot Wait to Build One!</button>
 						</a>
 						<div class="btn-bottominfo mk-animate-element fade-in">
 							<span>Free Plan Available</span>
@@ -1670,6 +1670,16 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 	var x = document.getElementsByTagName('script')[0];
 	x.parentNode.insertBefore(s, x);
 	})();
+	</script>
+
+	<script type="text/javascript">
+		function callGA(str) {
+			switch(str) {
+				case 'CANNOT WAIT CTA':
+					ga('markettingteam.send', 'event', 'Signup', 'Click', 'LP_FirstFold');
+					break;
+			}
+		}
 	</script>
 </body>
 </html>
