@@ -33,30 +33,39 @@ jQuery(document).ready(function() {
 		var title = self.parent().parent().find('.plan-title').html();
 		switch(title) {
 			case "ESSENTIALS (MONTHLY)":
+				console.log('LP_Signup_Essential_MONTHLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Essential_MONTHLY_Pricing_Tile');
 				break;
 			case "BUSINESS (MONTHLY)":
+				console.log('LP_Signup_Business_MONTHLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Business_MONTHLY_Pricing_Tile');
 				break;
 			case "ENTERPRISE (MONTHLY)":
+				console.log('LP_Signup_Enterprise_MONTHLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Enterprise_MONTHLY_Pricing_Tile');
 				break;
 			case "ESSENTIALS (SEMI-ANNUAL)":
+				console.log('LP_Signup_Essential_SEMI_ANNUALLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Essential_SEMI_ANNUALLY_Pricing_Tile');
 				break;
 			case "BUSINESS (SEMI-ANNUAL)":
+				console.log('LP_Signup_Business_SEMI_ANNUALLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Business_SEMI_ANNUALLY_Pricing_Tile');
 				break;
 			case "ENTERPRISE (SEMI-ANNUAL)":
+				console.log('LP_Signup_Enterprise_SEMI_ANNUALLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Enterprise_SEMI_ANNUALLY_Pricing_Tile');
 				break;
 			case "ESSENTIALS (ANNUAL)":
+				console.log('LP_Signup_Essential_ANNUALLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Essential_ANNUALLY_Pricing_Tile');
 				break;
 			case "BUSINESS (ANNUAL)":
+				console.log('LP_Signup_Business_ANNUALLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Business_ANNUALLY_Pricing_Tile');
 				break;
 			case "ENTERPRISE (ANNUAL)":
+				console.log('LP_Signup_Enterprise_ANNUALLY_Pricing_Tile');
 				ga('markettingteam.send', 'event', 'Pricing', 'Click', 'LP_Signup_Enterprise_ANNUALLY_Pricing_Tile');
 				break;
 		}
