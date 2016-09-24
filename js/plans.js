@@ -91,10 +91,10 @@ var displayPlans = function(){
 						else
 							ulLeads = allPlans.data.plans[j].plan.leads;
 
-						if(allPlans.data.plans[j].plan.visite == -1)
+						if(allPlans.data.plans[j].plan.visits == -1)
 							ulVisits = 'Unlimited';
 						else
-							ulVisits = allPlans.data.plans[j].plan.templates;
+							ulVisits = allPlans.data.plans[j].plan.visits;
 
 						if(allPlans.data.plans[j].plan.users == -1)
 							ulUsers = 'Unlimited';
