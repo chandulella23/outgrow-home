@@ -1882,6 +1882,9 @@ label {
     margin-bottom: 15px;
     padding-left: 30px;
 }
+.footer-img2 img{
+    border: 1px solid #bdc5c8;
+}
 .footer-img2text{
     float: left;
     width: 100%;
