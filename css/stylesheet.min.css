@@ -25679,7 +25679,8 @@ ul.qode_twitter_widget li {
 .qode-expanding-images .qode-expanding-images-inner {
     display: inline-block;
     position: relative;
-    max-width: 46.875%
+    max-width: 46.875%;
+    z-index:9;
 }
 
 .qode-expanding-images .qode-frame-image {
