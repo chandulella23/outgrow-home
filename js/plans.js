@@ -29,6 +29,7 @@ jQuery(document).ready(function() {
 	jQuery('#freePlan').html(freePlan);
 
 	jQuery(document).on('click', '.signupbanners', function(event) {
+		console.log("Clicked");
 		var self = jQuery(this);
 		var title = self.parent().parent().find('.plan-title').html();
 		switch(title) {
