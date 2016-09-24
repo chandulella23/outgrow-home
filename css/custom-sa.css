@@ -5009,3 +5009,7 @@ iframe{
 	.err .section-1{
 		margin-top:70px;
 	}
+
+    .capitalize{
+        text-transform: capitalize;
+    }
