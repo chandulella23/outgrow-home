@@ -537,9 +537,10 @@
 	.billing-white{width: 340px;}
 	.section-1{margin-top: 70px;}
 	.collag-right{margin-top: 80px;}
-    #pricing .section-1-right{padding-left: 25%; top:21%;}
+    #pricing .section-1-right{padding-left: 25%; top:34%;}
     #pricing .section-1{margin-top: 0px; padding-top: 10px;}
-    #pricing .section-faq{ margin-top: 28%;}
+    #pricing .section-faq{ margin-top: 0%;}
+    #pricing .pricing-text{ margin-top: 40%;}
 }
 
 
