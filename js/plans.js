@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
 		`;
 	var freePlan = `<i class="material-icons">not_interested</i>
 				<h4>Casual User?</h4>
-				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
+				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
 
@@ -34,6 +34,10 @@ jQuery(document).ready(function() {
 		var title = 'LP_Signup_'+title.split(' ').join('_');
 		ga('markettingteam.send', 'event', 'Pricing', 'Click', title);
 		console.log(title);
+	});
+
+	jQuery(document).on('click', '.starter', function(event) {
+		ga('markettingteam.send', 'event', 'Signup', 'Click', 'LP_Signup_Student_Pricing_Tile');
 	});
 });
 
