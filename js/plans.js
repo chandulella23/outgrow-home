@@ -23,9 +23,10 @@ jQuery(document).ready(function() {
 			</ul>
 		</div>
 		`;
-	var freePlan = `<i class="material-icons">not_interested</i>
+	//var freePlan = `<i class="material-icons">not_interested</i>
+	var freePlan = `<i class="material-icons">person</i>
 				<h4>Casual User?</h4>
-				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
+				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. <br/> Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
 	jQuery(document).on('click', '.signupbanners', function(event) {
@@ -42,7 +43,8 @@ jQuery(document).ready(function() {
 });
 
 var getAllPlans = function () {
-	var plansList = '<img src="./images/logoAnim.gif" alt="loading..." />';
+	//var plansList = '<img src="./images/logoAnim.gif" alt="loading..." />';
+	var plansList = '<div class="col-md-9 col-sm-12 col-xs-12 text-center"><i class="material-icons loader">autorenew</i></div>';
 	jQuery('#plansList').html(plansList);
 	jQuery.ajax({
 		url: 'http://api.outgrow.us/api/v1/plans',
