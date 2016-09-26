@@ -89,17 +89,17 @@ var displayPlans = function(){
 						if(allPlans.data.plans[j].plan.leads == -1)
 							ulLeads = 'Unlimited';
 						else
-							ulLeads = allPlans.data.plans[j].plan.leads;
+							ulLeads = allPlans.data.plans[j].plan.leads.toLocaleString();
 
 						if(allPlans.data.plans[j].plan.visits == -1)
 							ulVisits = 'Unlimited';
 						else
-							ulVisits = allPlans.data.plans[j].plan.visits;
+							ulVisits = allPlans.data.plans[j].plan.visits.toLocaleString();
 
 						if(allPlans.data.plans[j].plan.users == -1)
 							ulUsers = 'Unlimited';
 						else
-							ulUsers = allPlans.data.plans[j].plan.users;
+							ulUsers = allPlans.data.plans[j].plan.users.toLocaleString();
 						featureList = `
 							<li>
 								<a href="javascript:void(0);" class="">
