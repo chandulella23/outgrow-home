@@ -188,6 +188,18 @@
 	.err .section-1 {
 		margin-top: 40px;
 	}
+	.Privacy .res-container{
+		padding: 0px 30px;
+	}
+	.Privacy p{
+		line-height: 1.6;
+	}
+	.Privacy h5{
+		line-height: 1.6;
+	}
+	.Privacy .Privacy-heading{
+		margin-top: 40px;
+	}
 
 }
 @media (min-width:375px) and (max-width:375px){
