@@ -164,46 +164,48 @@ var displayPlans = function(){
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'business')
 										strikeOff = `<span class="strike-off">$`+business_m+`/Month</span>`;
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise')
-										strikeOff = `<span class="strike-off">`+enterprise_m+`/Month</span>`;
+										strikeOff = `<span class="strike-off">$`+enterprise_m+`/Month</span>`;
 								}
 								if(allPlans.data.plans[j].cycles[l].coupon_active){
+
 									if(allPlans.data.plans[j].cycles[l].coupon_type =='PERCENTAGE'){
 										price = allPlans.data.lists.list[i].plan.price/100 - (allPlans.data.lists.list[i].plan.price/100)*allPlans.data.plans[j].cycles[l].coupon_value/100;
 									}
 									else if(allPlans.data.plans[j].cycles[l].coupon_type =='FLAT'){
 										price = allPlans.data.lists.list[i].plan.price/100 - allPlans.data.plans[j].cycles[l].coupon_value;
 									}
+
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-										pricetag = `
-											<h3 class="plan-price">$ <span class="strike-off">`
-											+allPlans.data.lists.list[i].plan.price/100 +
-											`</span> `+price+` / `+allPlans.data.lists.list[i].plan.period+` `+allPlans.data.lists.list[i].plan.period_unit+`</h3>
-											<span class="apply-coupon">Use Coupon: `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
+										pricetag = `<br/>`
+												+strikeOff+
+												`<br/><span class="strike-off">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+`/Month</span><h3 class="plan-price">$`+Math.ceil(price/6)+`/Month</h3>`;
 									}
-									else if(allPlans.data.lists.list[i].plan.period == 1){
-										pricetag = `
-											<h3 class="plan-price">$<span class="strike-off">`
-											+allPlans.data.lists.list[i].plan.price/100 +
-											`</span> `+price+` / `+allPlans.data.lists.list[i].plan.period_unit+`</h3>
-											<span class="apply-coupon">Use Coupon: `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
+									if(allPlans.data.lists.list[i].plan.period == 1){
+										pricetag = `<br/>`
+												+strikeOff+
+												`<br/><span class="strike-off">$`+allPlans.data.lists.list[i].plan.price/100+`/Month</span><h3 class="plan-price">$`+price+`/Month</h3>`;
+										if(allPlans.data.lists.list[i].plan.period_unit == 'year'){
+											pricetag = `<br/>`
+												+strikeOff+
+												`<br/><span class="strike-off">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+`/Month</span><h3 class="plan-price">$`+Math.ceil(price/12)+`/Month</h3>`;
+										}
 									}
+
+									pricetag += `<br/><span>Use coupon code:`+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
 								}
 								else{
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
 										pricetag =`<br/>`+strikeOff+`
-											<h3 class="plan-price">$ `+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
-											` / `+allPlans.data.lists.list[i].plan.period_unit+`</h3>`;
+											<h3 class="plan-price">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
+											`/Month</h3>`;
 									}
 									else if(allPlans.data.lists.list[i].plan.period == 1){
 										pricetag =`<br/>`+strikeOff+`
-											<h3 class="plan-price">$ `
-											+allPlans.data.lists.list[i].plan.price/100 +
-											` / `+allPlans.data.lists.list[i].plan.period_unit+`</h3>`;
+											<h3 class="plan-price">$`+allPlans.data.lists.list[i].plan.price/100+
+											`/`+allPlans.data.lists.list[i].plan.period_unit+`</h3>`;
 										if(allPlans.data.lists.list[i].plan.period_unit === 'year'){
 											pricetag = `<br/>`+strikeOff+`
-											<h3 class="plan-price">$ `
-											+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12) +
-											` / Month</h3>`;
+											<h3 class="plan-price">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+`/Month</h3>`;
 										}
 									}
 								}
