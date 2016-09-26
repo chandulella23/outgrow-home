@@ -5137,4 +5137,16 @@ iframe{
 		width:100%;
 		margin-bottom:10px;
 	}
+    .Privacy .section-services{
+        margin-bottom: 60px;
+    }
+    .Privacy p a{
+        color: #fb6c73;
+    }
+    .Privacy p a:hover{
+        text-decoration: none;
+    }
+     .Privacy p a:visited{
+        text-decoration: none;
+    }
 	/*Privacy Policy Page CSS Ends*/
