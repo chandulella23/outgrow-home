@@ -5106,6 +5106,7 @@ iframe{
 		float: left;
 		display: block;
 		text-transform: none;
+        margin-top: 30px;
 	}
 	.Privacy p{
 		color: #62696d;
@@ -5113,7 +5114,7 @@ iframe{
 		font-family: montserratlight;
 		float: left;
 		display: block;
-		margin: 0px;
+		margin: 10px 0px;
 	}
 	.Privacy h5{
 		float: left;
@@ -5121,7 +5122,19 @@ iframe{
 		font-size: 14px;
 		color: #fb6c73;
 		font-family: montserratlight;
-		margin-bottom: 5px;
-		margin-top: 5px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		line-height:1.4;
+	}
+	.Privacy ul, li {
+		list-style: disc;
+	}
+	.Privacy .li-style{
+		color: #62696d;
+		font-size: 13px;
+		font-family: montserratlight;
+		float: left;
+		width:100%;
+		margin-bottom:10px;
 	}
 	/*Privacy Policy Page CSS Ends*/
