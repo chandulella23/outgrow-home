@@ -85,17 +85,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+			<a class="params navbar-brand" href="index.html"><img src="images/logo.png" /></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-                    <li><a href="why_calculators.html" onclick="callGA('WHY')">Why Calculators ?</a></li>
-                    <li><a href="features.html" onclick="callGA('FEATURES')">Features</a></li>
-                    <li><a href="pricing.html" onclick="callGA('PRICING')" class="active">Pricing</a></li>
-                    <li><a href="useCase.html" onclick="callGA('USECASE')">Use Cases</a></li>
-                    <li><a href="http://app.outgrow.us/login" class="link-login" onclick="callGA('LOGIN')">Login</a></li>
+                    <li><a href="why_calculators.html" onclick="callGA('WHY')" class="params">Why Calculators ?</a></li>
+                    <li><a href="features.html" onclick="callGA('FEATURES')" class="params">Features</a></li>
+                    <li><a href="pricing.html" onclick="callGA('PRICING')" class="active params">Pricing</a></li>
+                    <li><a href="useCase.html" onclick="callGA('USECASE')" class="params">Use Cases</a></li>
+                    <li><a href="http://app.outgrow.us/login" class="link-login params" onclick="callGA('LOGIN')">Login</a></li>
                 </ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -646,13 +646,13 @@
 				<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 					<h4>Overview</h4>
 					<ul>
-                        <li><a href="javascript:void(0);" onclick="callGA('FEATURESF')">Features </a></li>
-                        <li><a href="javascript:void(0);" onclick="callGA('USECASEF')">Use Cases</a></li>
-                        <li><a href="javascript:void(0);" onclick="callGA('PRICINGF')">Pricing</a></li>
-                        <li><a href="javascript:void(0);" onclick="callGA('RESOURCEF')">Resources</a></li>
-                        <li><a href="javascript:void(0);" onclick="callGA('ABOUTF')">About</a></li>
-                        <li><a href="javascript:void(0);" onclick="callGA('PRIVACYF')">Privacy Policy</a></li>
-                        <li><a href="javascript:void(0);" onclick="callGA('TERMSF')">Terms of Services</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('FEATURESF')" class="params">Features </a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('USECASEF')" class="params">Use Cases</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('PRICINGF')" class="params">Pricing</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('RESOURCEF')" class="params">Resources</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('ABOUTF')" class="params">About</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('PRIVACYF')" class="params">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('TERMSF')" class="params">Terms of Services</a></li>
                     </ul>
 				</div>
 				<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
@@ -775,164 +775,26 @@
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 		});
-
-		// jQuery.ajax({
-  //           url: 'http://api.outgrow.us/api/v1/plans',
-  //           success: function(success){
-  //               console.log(success)
-  //               var plansList = '';
-  //               for(var i = 0; i<success.data.lists.list.length;i++){
-  //                   if(success.data.lists.list[i].plan.id.split('_')[1] == 'm'){
-  //                       var box = '',mostPopular = '',bil_grey_white = '',bil_top = ''. dots = '', period = '';
-  //                       if(success.data.lists.list[i].plan.id.split('_')[0] == 'business'){
-  //                           mostPopular = '<span class="ribbon">Most Popular</span>';
-  //                           bil_grey_white = 'billing-white';
-  //                           bil_top = 'billing-white-top';
-  //                           box = 'business-box';
-  //                           dots = 'toggle-dots-grey';
-  //                       }
-  //                       else if(success.data.lists.list[i].plan.id.split('_')[0] == 'enterprise'){
-  //                           mostPopular = '';
-  //                           bil_grey_white = 'billing-grey';
-  //                           bil_top = 'billing-grey-top';
-  //                           box = 'enterprise-box';
-  //                           dots = 'toggle-dots-white';
-  //                       }
-  //                       else{
-  //                           mostPopular = '';
-  //                           bil_grey_white = 'billing-grey';
-  //                           bil_top = 'billing-grey-top';
-  //                           box = 'starter-box';
-  //                           dots = 'toggle-dots-white';
-  //                       }
-  //                       if(success.data.lists.list[i].plan.period > 1)
-  //                           period = success.data.lists.list[i].plan.period;
-
-  //                       plansList += `
-  //                       <div class="col-md-4 col-sm-10 col-xs-10 np `+bil_grey_white+` `+box+`">
-  //                           <div class="col-md-12 col-sm-12 col-xs-12 np `+bil_top+` text-center">
-  //                               `+mostPopular+`
-  //                               <h3 class="plan-title">`+success.data.lists.list[i].plan.name+`</h3>
-  //                               <span class="border-center"></span>
-  //                               <h3 class="plan-price">USD `
-  //                                   +success.data.lists.list[i].plan.price/100+
-  //                                   ` / `
-  //                                   +period+` `+success.data.lists.list[i].plan.period_unit+
-  //                               `</h3>
-  //                               <p>`+success.data.lists.list[i].plan.description+`</p>
-  //                               <div class="col-md-12 col-sm-12 col-xs-12 np">
-  //                                   <button type="" class="btn btn-white-red-outline hvr-sweep-to-right">
-  //                                       Change Plan
-  //                                   </button>
-  //                               </div>
-  //                           </div>
-  //                           <div class="col-md-12 col-sm-12 col-xs-12 np billing-white-bottom rs-hide">
-  //                               <ul class="billing-list">
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;5 Users</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;20 Calculators</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;5 Templates</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Real Time Result</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Lead Generation</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Traffic Analytics</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Get Started CTA</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Integrations</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Embed Anywhere</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li>
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Custom Branding</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li class="unselected">
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;24/7 Support</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li class="unselected">
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;X000 Leads/Month</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li class="unselected">
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Priority Support</span>
-  //                                       </a>
-  //                                   </li>
-  //                                   <li class="unselected">
-  //                                       <a href="javascript:void(0);" class="">
-  //                                           <span class="mat-icon"></span>
-  //                                           <span class="list-name">&nbsp;Marketing Checklist</span>
-  //                                       </a>
-  //                                   </li>
-  //                               </ul>
-  //                           </div>
-  //                           <a href="javascript:void(0);" class="`+dots+`">
-  //                               <span></span>
-  //                               <span></span>
-  //                               <span></span>
-  //                           </a>
-  //                       </div>
-  //                       `;
-  //                   }
-  //               }
-  //               jQuery('#plansList').html(plansList);
-  //           },
-  //           error:function(err){
-  //               console.log('err',err)
-  //           }
-  //       });
-
-
+        appendParamsToUrl();
 	});
 
+    function appendParamsToUrl() {
+        var param = '';
+        var url = window.location.href;
+        var paramArray = url.split('?');
+        if(typeof paramArray[1] !== "undefined") {
+            param = '?'+paramArray[1];
+        }
+
+        jQuery('.params').each(function() {
+            var href = jQuery(this).prop('href');
+            var pattern = /javascript/;
+            if(!pattern.test(href)) {
+                href+=param;
+                jQuery(this).prop('href',href);
+            }
+        });
+    }
 	</script>
 	<script>
 		jQuery(window).scroll(function() {

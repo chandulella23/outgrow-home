@@ -95,16 +95,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+            <a class="params navbar-brand" href="index.html"><img src="images/logo.png" /></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             	<ul class="nav navbar-nav navbar-right">
-					<li><a href="why_calculators.html" onclick="callGA('WHY')">Why Calculators ?</a></li>
-					<li><a href="features.html" onclick="callGA('FEATURES')">Features</a></li>
-					<li><a href="pricing.html" onclick="callGA('PRICING')">Pricing</a></li>
-					<li><a href="useCase.html" onclick="callGA('USECASE')" class="active line-through">Use Cases</a></li>
-					<li><a href="http://app.outgrow.us/login" class="link-login" onclick="callGA('LOGIN')">Login</a></li>
+					<li><a href="why_calculators.html" onclick="callGA('WHY')" class="params">Why Calculators ?</a></li>
+					<li><a href="features.html" onclick="callGA('FEATURES')" class="params">Features</a></li>
+					<li><a href="pricing.html" onclick="callGA('PRICING')" class="params">Pricing</a></li>
+					<li><a href="useCase.html" onclick="callGA('USECASE')" class="active line-through params">Use Cases</a></li>
+					<li><a href="http://app.outgrow.us/login" class="link-login params" onclick="callGA('LOGIN')">Login</a></li>
 				</ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -1198,14 +1198,14 @@
 				<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 					<h4>Overview</h4>
 					<ul>
-						<li><a href="javascript:void(0);" onclick="callGA('FEATURESF')">Features </a></li>
-						<li><a href="javascript:void(0);" onclick="callGA('USECASEF')">Use Cases</a></li>
-						<li><a href="javascript:void(0);" onclick="callGA('PRICINGF')">Pricing</a></li>
-						<li><a href="javascript:void(0);" onclick="callGA('RESOURCEF')">Resources</a></li>
-						<li><a href="javascript:void(0);" onclick="callGA('ABOUTF')">About</a></li>
-						<li><a href="javascript:void(0);" onclick="callGA('PRIVACYF')">Privacy Policy</a></li>
-						<li><a href="javascript:void(0);" onclick="callGA('TERMSF')">Terms of Services</a></li>
-					</ul>
+                        <li><a href="javascript:void(0);" onclick="callGA('FEATURESF')" class="params">Features </a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('USECASEF')" class="params">Use Cases</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('PRICINGF')" class="params">Pricing</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('RESOURCEF')" class="params">Resources</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('ABOUTF')" class="params">About</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('PRIVACYF')" class="params">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0);" onclick="callGA('TERMSF')" class="params">Terms of Services</a></li>
+                    </ul>
 				</div>
 				<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
 					<h4>Our Live Calculators</h4>
@@ -1290,12 +1290,29 @@
 	<!-- Use Case page js -->
 	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 	<script>
-		 jQuery(document).ready(function() {
-			jQuery('.mk-animate-element').viewportChecker({
-				classToAdd: 'mk-in-viewport', // Class to add to the elements when they are visible
-			});
+	 jQuery(document).ready(function() {
+		jQuery('.mk-animate-element').viewportChecker({
+			classToAdd: 'mk-in-viewport', // Class to add to the elements when they are visible
 		});
+		appendParamsToUrl();
+	});
+	function appendParamsToUrl() {
+        var param = '';
+        var url = window.location.href;
+        var paramArray = url.split('?');
+        if(typeof paramArray[1] !== "undefined") {
+            param = '?'+paramArray[1];
+        }
 
+        jQuery('.params').each(function() {
+           var href = jQuery(this).prop('href');
+			var pattern = /javascript/;
+			if(!pattern.test(href)) {
+				href+=param;
+				jQuery(this).prop('href',href);
+			}
+        });
+    }
 	</script>
 	<script type="text/javascript">
 	//Usersnap

@@ -76,18 +76,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+			<a class="params navbar-brand" href="index.html"><img src="images/logo.png" /></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="why_calculators.html">Why Calculators ?</a></li>
-					<li><a href="features.html">Features</a></li>
-					<li><a href="pricing.html">Pricing</a></li>
-					<li><a href="useCase.html">Use Cases</a></li>
-					
-					<li><a href="http://app.outgrow.us/login" class="link-login">Login</a></li>
+					<li><a href="why_calculators.html" onclick="callGA('WHY')" class="params">Why Calculators ?</a></li>
+					<li><a href="features.html" onclick="callGA('FEATURES')" class="params">Features</a></li>
+					<li><a href="pricing.html" onclick="callGA('PRICING')" class="params">Pricing</a></li>
+					<li><a href="useCase.html" onclick="callGA('USECASE')" class="params">Use Cases</a></li>
+					<li><a href="http://app.outgrow.us/login" class="link-login params" onclick="callGA('LOGIN')">Login</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -166,33 +165,25 @@
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 		});
-
-
-		/*jQuery(window).scroll(function() {
-			drawLine( jQuery('#route'),
-					document.getElementById('path') );
-		});
-
-		// init the line length
-			drawLine( jQuery('#route'),
-					document.getElementById('path') );
-
-		//draw the line
-		function drawLine(container, line){
-
-			var pathLength = line.getTotalLength(),
-				maxScrollTop = jQuery(document).height() - jQuery(window).height(),
-				percentDone = jQuery(window).scrollTop() / maxScrollTop,
-				length = percentDone * pathLength;
-			line.style.strokeDasharray = [ length ,pathLength].join(' ');
-		}*/
-
-
-		// cicluar progress bar
-
-
+		appendParamsToUrl();
 	});
+	function appendParamsToUrl() {
+        var param = '';
+        var url = window.location.href;
+        var paramArray = url.split('?');
+        if(typeof paramArray[1] !== "undefined") {
+            param = '?'+paramArray[1];
+        }
 
+        jQuery('.params').each(function() {
+            var href = jQuery(this).prop('href');
+			var pattern = /javascript/;
+			if(!pattern.test(href)) {
+				href+=param;
+				jQuery(this).prop('href',href);
+			}
+        });
+    }
 	</script>
 	<script>
 		jQuery(window).scroll(function() {
@@ -213,6 +204,27 @@
 		var x = document.getElementsByTagName('script')[0];
 		x.parentNode.insertBefore(s, x);
 		})();
+	</script>
+	<script type="text/javascript">
+		function callGA(str) {
+			switch(str) {
+				case 'WHY':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_WhyCalc');
+					break;
+				case 'FEATURES':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_Features');
+					break;
+				case 'PRICING':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_Pricing');
+					break;
+				case 'USECASE':
+					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_UseCases');
+					break;
+				case 'LOGIN':
+					ga('markettingteam.send', 'event', 'Login', 'Click', 'LP_Header_Login');
+					break;
+			}
+		}
 	</script>
 </body>
 </html>
