@@ -44,21 +44,19 @@
     src: url("../fonts/montserrat-hairline-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-hairline-webfont.woff2") format("woff2"), url("../fonts/montserrat-hairline-webfont.woff") format("woff"), url("../fonts/montserrat-hairline-webfont.ttf") format("truetype");
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
     src: url(MaterialIcons-Regular.eot);
-    /* For IE6-8 */
     src: local('Material Icons'), local('materialIcons-Regular'), url(../fonts/materialIcons-Regular.woff2) format('woff2'), url(../fonts/materialIcons-Regular.woff) format('woff'), url(../fonts/materialIcons-Regular.ttf) format('truetype');
 }
-
+ 
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
     font-size: 24px;
-    /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -66,15 +64,11 @@
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
-    /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
     text-rendering: optimizeLegibility;
-    /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
-    /* Support for IE. */
     font-feature-settings: 'liga';
-}
+} */
 	
 @font-face {
     font-family: 'montserrat-bold';
@@ -1544,7 +1538,6 @@ label {
     border-bottom: 1px solid #777;
     background: #62696d;
 }
-
 .billing-grey-top h3.plan-title {
     color: #fff;
     font-size: 30px;
@@ -1840,7 +1833,7 @@ label {
 #pricing .pricing-help .billing-plans-help {
     font-size: 10px;
     position: absolute;
-    bottom: -670px;
+    bottom: -680px;
 }
 
 
@@ -4743,10 +4736,12 @@ iframe{
 	margin-bottom:90px;
 }
 #pricing .section-1-right{
-	padding-left: 17%;
+	padding-left: 18%;
     padding-top: 15px;
     position: absolute;
     top: 40%;
+	float:left;
+	width:100%;
 }
 #pricing .accordion, .accordion * {
 	-webkit-box-sizing:border-box; 
@@ -4923,7 +4918,10 @@ iframe{
 }
 
 #pricing .billing-plan-list ul > li > a{
-	padding:15px;
+	padding:8px 0px;
+}
+#pricing .billing-grey-top{
+	min-height:290px;
 }
 
 /*Pricing Page CSS Ends*/
@@ -5037,7 +5035,112 @@ iframe{
 	.err .section-1{
 		margin-top:70px;
 	}
-
-    .capitalize{
+	.loader{
+		color:#fff;
+		text-align:center;
+		-webkit-animation-name: spin;
+		-webkit-animation-duration: 2000ms;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-name: spin;
+		-moz-animation-duration: 2000ms;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-ms-animation-name: spin;
+		-ms-animation-duration: 2000ms;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: linear;
+		
+		animation-name: spin;
+		animation-duration: 2000ms;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+	@-ms-keyframes spin {
+		from { -ms-transform: rotate(0deg); }
+		to { -ms-transform: rotate(360deg); }
+	}
+	@-moz-keyframes spin {
+		from { -moz-transform: rotate(0deg); }
+		to { -moz-transform: rotate(360deg); }
+	}
+	@-webkit-keyframes spin {
+		from { -webkit-transform: rotate(0deg); }
+		to { -webkit-transform: rotate(360deg); }
+	}
+	@keyframes spin {
+		from {
+			transform:rotate(0deg);
+		}
+		to {
+			transform:rotate(360deg);
+		}
+	}
+	.capitalize{
         text-transform: capitalize;
     }
+	
+	/*Privacy Policy Page CSS Starts*/
+	.Privacy .Privacy-heading{
+		float: left;
+		width: 100%;
+		text-align: center;
+		color: #dfe3e6;
+		font-size: 48px;
+		line-height: 40px;
+		font-family: montserratbold;
+		margin-bottom: 30px;
+	}
+	.Privacy .Privacy-subheading{
+		color: #fb6c73;
+		font-size: 30px;
+		font-family: montserratUltra_light;
+		text-align: left;
+		width: 100%;
+		float: left;
+		display: block;
+		text-transform: none;
+        margin-top: 30px;
+	}
+	.Privacy p{
+		color: #62696d;
+		font-size: 13px;
+		font-family: montserratlight;
+		float: left;
+		display: block;
+		margin: 10px 0px;
+	}
+	.Privacy h5{
+		float: left;
+		width: 100%;
+		font-size: 14px;
+		color: #fb6c73;
+		font-family: montserratlight;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		line-height:1.4;
+	}
+	.Privacy ul, li {
+		list-style: disc;
+	}
+	.Privacy .li-style{
+		color: #62696d;
+		font-size: 13px;
+		font-family: montserratlight;
+		float: left;
+		width:100%;
+		margin-bottom:10px;
+	}
+    .Privacy .section-services{
+        margin-bottom: 60px;
+    }
+    .Privacy p a{
+        color: #fb6c73;
+    }
+    .Privacy p a:hover{
+        text-decoration: none;
+    }
+     .Privacy p a:visited{
+        text-decoration: none;
+    }
+	/*Privacy Policy Page CSS Ends*/

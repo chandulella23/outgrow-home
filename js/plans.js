@@ -23,9 +23,10 @@ jQuery(document).ready(function() {
 			</ul>
 		</div>
 		`;
-	var freePlan = `<i class="material-icons">not_interested</i>
+	//var freePlan = `<i class="material-icons">not_interested</i>
+	var freePlan = `<i class="material-icons">person</i>
 				<h4>Casual User?</h4>
-				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
+				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. <br/> Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
 	jQuery(document).on('click', '.signupbanners', function(event) {
@@ -42,7 +43,8 @@ jQuery(document).ready(function() {
 });
 
 var getAllPlans = function () {
-	var plansList = '<img src="./images/logoAnim.gif" alt="loading..." />';
+	//var plansList = '<img src="./images/logoAnim.gif" alt="loading..." />';
+	var plansList = '<div class="col-md-9 col-sm-12 col-xs-12 text-center"><i class="material-icons loader">autorenew</i></div>';
 	jQuery('#plansList').html(plansList);
 	jQuery.ajax({
 		url: 'http://api.outgrow.us/api/v1/plans',
@@ -89,17 +91,17 @@ var displayPlans = function(){
 						if(allPlans.data.plans[j].plan.leads == -1)
 							ulLeads = 'Unlimited';
 						else
-							ulLeads = allPlans.data.plans[j].plan.leads;
+							ulLeads = allPlans.data.plans[j].plan.leads.toLocaleString();
 
 						if(allPlans.data.plans[j].plan.visits == -1)
 							ulVisits = 'Unlimited';
 						else
-							ulVisits = allPlans.data.plans[j].plan.visits;
+							ulVisits = allPlans.data.plans[j].plan.visits.toLocaleString();
 
 						if(allPlans.data.plans[j].plan.users == -1)
 							ulUsers = 'Unlimited';
 						else
-							ulUsers = allPlans.data.plans[j].plan.users;
+							ulUsers = allPlans.data.plans[j].plan.users.toLocaleString();
 						featureList = `
 							<li>
 								<a href="javascript:void(0);" class="">
@@ -162,46 +164,48 @@ var displayPlans = function(){
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'business')
 										strikeOff = `<span class="strike-off">$`+business_m+`/Month</span>`;
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise')
-										strikeOff = `<span class="strike-off">`+enterprise_m+`/Month</span>`;
+										strikeOff = `<span class="strike-off">$`+enterprise_m+`/Month</span>`;
 								}
 								if(allPlans.data.plans[j].cycles[l].coupon_active){
+
 									if(allPlans.data.plans[j].cycles[l].coupon_type =='PERCENTAGE'){
 										price = allPlans.data.lists.list[i].plan.price/100 - (allPlans.data.lists.list[i].plan.price/100)*allPlans.data.plans[j].cycles[l].coupon_value/100;
 									}
 									else if(allPlans.data.plans[j].cycles[l].coupon_type =='FLAT'){
 										price = allPlans.data.lists.list[i].plan.price/100 - allPlans.data.plans[j].cycles[l].coupon_value;
 									}
+
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-										pricetag = `
-											<h3 class="plan-price">$ <span class="strike-off">`
-											+allPlans.data.lists.list[i].plan.price/100 +
-											`</span> `+price+` / `+allPlans.data.lists.list[i].plan.period+` `+allPlans.data.lists.list[i].plan.period_unit+`</h3>
-											<span class="apply-coupon">Use Coupon: `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
+										pricetag = `<br/>`
+												+strikeOff+
+												`<br/><span class="strike-off">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+`/Month</span><h3 class="plan-price">$`+Math.ceil(price/6)+`/Month</h3>`;
 									}
-									else if(allPlans.data.lists.list[i].plan.period == 1){
-										pricetag = `
-											<h3 class="plan-price">$<span class="strike-off">`
-											+allPlans.data.lists.list[i].plan.price/100 +
-											`</span> `+price+` / `+allPlans.data.lists.list[i].plan.period_unit+`</h3>
-											<span class="apply-coupon">Use Coupon: `+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
+									if(allPlans.data.lists.list[i].plan.period == 1){
+										pricetag = `<br/>`
+												+strikeOff+
+												`<br/><span class="strike-off">$`+allPlans.data.lists.list[i].plan.price/100+`/Month</span><h3 class="plan-price">$`+price+`/Month</h3>`;
+										if(allPlans.data.lists.list[i].plan.period_unit == 'year'){
+											pricetag = `<br/>`
+												+strikeOff+
+												`<br/><span class="strike-off">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+`/Month</span><h3 class="plan-price">$`+Math.ceil(price/12)+`/Month</h3>`;
+										}
 									}
+
+									pricetag += `<br/><span>Use coupon code:`+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
 								}
 								else{
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
 										pricetag =`<br/>`+strikeOff+`
-											<h3 class="plan-price">$ `+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
-											` / `+allPlans.data.lists.list[i].plan.period_unit+`</h3>`;
+											<h3 class="plan-price">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
+											`/Month</h3>`;
 									}
 									else if(allPlans.data.lists.list[i].plan.period == 1){
 										pricetag =`<br/>`+strikeOff+`
-											<h3 class="plan-price">$ `
-											+allPlans.data.lists.list[i].plan.price/100 +
-											` / `+allPlans.data.lists.list[i].plan.period_unit+`</h3>`;
+											<h3 class="plan-price">$`+allPlans.data.lists.list[i].plan.price/100+
+											`/`+allPlans.data.lists.list[i].plan.period_unit+`</h3>`;
 										if(allPlans.data.lists.list[i].plan.period_unit === 'year'){
 											pricetag = `<br/>`+strikeOff+`
-											<h3 class="plan-price">$ `
-											+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12) +
-											` / Month</h3>`;
+											<h3 class="plan-price">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+`/Month</h3>`;
 										}
 									}
 								}
