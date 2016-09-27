@@ -200,7 +200,12 @@
 	.Privacy .Privacy-heading{
 		margin-top: 40px;
 	}
-
+	#Testimonial .testimonial-outer {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 60px;
+		margin-top: 60px;
+	}
 }
 @media (min-width:375px) and (max-width:375px){
 	.section-7 .slider-sa {

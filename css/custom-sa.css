@@ -5120,9 +5120,6 @@ iframe{
 		margin-top: 20px;
 		line-height:1.4;
 	}
-	.Privacy ul, li {
-		list-style: disc;
-	}
 	.Privacy .li-style{
 		color: #62696d;
 		font-size: 13px;
@@ -5130,6 +5127,7 @@ iframe{
 		float: left;
 		width:100%;
 		margin-bottom:10px;
+		list-style: disc;
 	}
     .Privacy .section-services{
         margin-bottom: 60px;
@@ -5144,3 +5142,79 @@ iframe{
         text-decoration: none;
     }
 	/*Privacy Policy Page CSS Ends*/
+	
+	/* Testimonial Page CSS Starts*/
+	#Testimonial .section-1{
+		margin-top:0px;
+	}
+	#Testimonial .testimonial-headingtop{
+		float: left;
+		background: #fb6c73;
+		min-height:485px;
+	}
+	#Testimonial .testimonial-headingtop h3{
+		display: inline-block;
+		margin-bottom: 5px;
+		margin-top: 35px;
+		color: #fff;
+		font-size: 30px;
+		font-family: montserratlight;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	#Testimonial .testimonial-headingtop p{
+		display: inline-block;
+		margin-bottom: 15px;
+		margin-top:0px;
+		color: #fff;
+		font-size: 18px;
+		font-family: montserratlight;
+		width: 100%;
+	}
+	#Testimonial .testimonial-outer{
+		width:100%;
+		padding:0 30px;
+		margin-bottom:90px;
+	}
+	#Testimonial .testimonial-inner{
+		width:100%;
+		float:left;
+		background:#e5e8e9;
+		min-height:260px;
+		border-radius:5px;
+		position:relative;
+	}
+	#Testimonial .section-testimonial{
+		margin-bottom:0px;
+	}
+	#Testimonial .section-testimonial h4{
+		font-size:18px;
+		text-align:center;
+		color:#62696d;
+		font-family: montserratbold;
+	}
+	#Testimonial .section-testimonial h3{
+		font-family: montserratlight;
+		color:#62696d;
+		font-size:12px;
+		margin-top:0px;
+	}
+	#Testimonial .section-testimonial p{
+		font-family: montserratregular;
+		color:#62696d;
+		font-size:14px;
+		margin-top:40px;
+	}
+	#Testimonial .testimonial-desc{
+		padding:0 20px;
+		position:relative;
+		top:-30px;
+	}
+	#Testimonial .testimonial-image {
+		position: relative;
+		border-radius: 50%;
+		width: auto;
+		top: -50px;
+		box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.48);
+	}
+	/* Testimonial Page CSS Ends*/
