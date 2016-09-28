@@ -5150,7 +5150,7 @@ iframe{
 	#Testimonial .testimonial-headingtop{
 		float: left;
 		background: #fb6c73;
-		min-height:485px;
+		min-height:425px;
 	}
 	#Testimonial .testimonial-headingtop h3{
 		display: inline-block;
@@ -5216,5 +5216,57 @@ iframe{
 		width: auto;
 		top: -50px;
 		box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.48);
+	}
+	#Testimonial .quote-container {
+		margin: 0 auto;
+		width: 60%;
+		display:block;
+		padding: 30px 10px;
+		margin-top: 20px;
+	}
+	#Testimonial .quote-section{
+		position: absolute;
+		top: 180px;
+	}
+	#Testimonial .quote-01 {
+		position: relative;
+		top: 70px;
+	}
+	#Testimonial .quote-02 {
+		top: 0;
+		position: relative;
+		left: 45px;
+	}
+	#Testimonial .quote-03 {
+		top: 30px;
+		position: relative;
+		left: 85px;
+	}
+	#Testimonial .quote-04 {
+		position: relative;
+		top: -35px;
+		left: 120px;
+	}
+	#Testimonial .quote-05 {
+		position: relative;
+		top: 30px;
+		left: 110px;
+	}
+	#Testimonial .quote-06 {
+		position: relative;
+		top: 50px;
+		left: 150px;
+	}
+	#Testimonial .quote-07 {
+		position: relative;
+		left: 200px;
+		top: 10px;
+	}
+	#Testimonial .quote-08 {
+		position: relative;
+		left: 300px;
+	}
+	#Testimonial .img-style{
+		margin: 0 auto;
 	}
 	/* Testimonial Page CSS Ends*/
