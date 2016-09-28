@@ -4,7 +4,7 @@ var ext = '';
 jQuery(document).ready(function() {
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
-	ext = .substring(p+1);
+	ext = str.substring(p+1);
 	console.log('str',str);
 	console.log('ppppp',p);
 	console.log('extext',ext);
