@@ -4,6 +4,7 @@ var var ext = '';
 jQuery(document).ready(function() {
 	var p = window.location.href.split('//')[1].split('/')[0].lastIndexOf('.');
 	ext = str.substring(p+1);
+	console.log('extext',ext);
 	getAllPlans();
 	var planCycle = `
 		<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">
