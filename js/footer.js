@@ -91,7 +91,7 @@ jQuery(document).ready(function() {
 	//var str = window.location.href.split('//')[1].split('/')[0];
 	//var p = str.lastIndexOf('.');
 	//var ext = str.substring(p+1);
-	var login = `<a href="http://app.outgrow.`+ext+`" class="link-login params" onclick="callGA('LOGIN')">
+	var login = `<a href="http://app.outgrow.`+ext+`/login" class="link-login params" onclick="callGA('LOGIN')">
 				Login
 			</a>`;
 	jQuery('#footer').html(footer);
