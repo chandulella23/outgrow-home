@@ -1,6 +1,6 @@
 var pCycle = 'm', allPlans;
 var essentials_m = 0,business_m = 0,enterprise_m = 0;
-var var ext = '';
+var ext = '';
 jQuery(document).ready(function() {
 	var p = window.location.href.split('//')[1].split('/')[0].lastIndexOf('.');
 	//ext = str.substring(p+1);
