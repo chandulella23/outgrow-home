@@ -50,10 +50,11 @@ jQuery(document).ready(function() {
 
 var getAllPlans = function () {
 	//var plansList = '<img src="./images/logoAnim.gif" alt="loading..." />';
+	var u = 'http://api.outgrow.'+ext+'/api/v1/plans';
 	var plansList = '<div class="col-md-9 col-sm-12 col-xs-12 text-center"><i class="material-icons loader">autorenew</i></div>';
 	jQuery('#plansList').html(plansList);
 	jQuery.ajax({
-		url: 'http://api.outgrow.'+ext+'/api/v1/plans',
+		url: u,
 		success: function(success){
 			allPlans = success;
 			displayPlans();
@@ -62,6 +63,7 @@ var getAllPlans = function () {
 			console.log('err get all plans',err)
 		}
 	});
+	console.log('api',u);
 }
 
 var displayPlans = function(){
