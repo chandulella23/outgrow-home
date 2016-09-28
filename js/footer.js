@@ -90,7 +90,7 @@ var footer = `<div class="container">
 jQuery(document).ready(function() {
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
-	ext = str.substring(p+1);
+	var ext = str.substring(p+1);
 	//var str = window.location.href.split('//')[1].split('/')[0];
 	//var p = str.lastIndexOf('.');
 	//var ext = str.substring(p+1);
