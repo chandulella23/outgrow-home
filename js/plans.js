@@ -2,8 +2,10 @@ var pCycle = 'm', allPlans;
 var essentials_m = 0,business_m = 0,enterprise_m = 0;
 var ext = '';
 jQuery(document).ready(function() {
-	var p = window.location.href.split('//')[1].split('/')[0].lastIndexOf('.');
-	ext = str.substring(p+1);
+	var str = window.location.href.split('//')[1].split('/')[0];
+	var p = str.lastIndexOf('.');
+	ext = .substring(p+1);
+	console.log('str',str);
 	console.log('ppppp',p);
 	console.log('extext',ext);
 	getAllPlans();
