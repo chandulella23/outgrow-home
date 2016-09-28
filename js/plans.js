@@ -1,6 +1,9 @@
 var pCycle = 'm', allPlans;
 var essentials_m = 0,business_m = 0,enterprise_m = 0;
+var var ext = '';
 jQuery(document).ready(function() {
+	var p = window.location.href.split('//')[1].split('/')[0].lastIndexOf('.');
+	ext = str.substring(p+1);
 	getAllPlans();
 	var planCycle = `
 		<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">
@@ -26,7 +29,7 @@ jQuery(document).ready(function() {
 	//var freePlan = `<i class="material-icons">not_interested</i>
 	var freePlan = `<i class="material-icons">person</i>
 				<h4>Casual User?</h4>
-				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. <br/> Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
+				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. <br/> Sign up <a class="starter" href="http://app.outgrow.`+ext+`/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
 	jQuery(document).on('click', '.signupbanners', function(event) {
@@ -34,7 +37,6 @@ jQuery(document).ready(function() {
 		var title = self.parent().parent().find('.plan-title').html();
 		var title = 'LP_Signup_'+title.split(' ').join('_');
 		ga('markettingteam.send', 'event', 'Pricing', 'Click', title);
-		console.log(title);
 	});
 
 	jQuery(document).on('click', '.starter', function(event) {
@@ -215,7 +217,7 @@ var displayPlans = function(){
 					}
 				}
 				cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners">Start Trial</a>
+								<a href="http://app.outgrow.`+ext+`/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners">Start Trial</a>
 							</div>`;
 				if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'business'){
 					mostPopular = '<span class="ribbon">Most Popular</span>';
