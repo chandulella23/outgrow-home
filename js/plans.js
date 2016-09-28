@@ -53,13 +53,13 @@ var getAllPlans = function () {
 	var plansList = '<div class="col-md-9 col-sm-12 col-xs-12 text-center"><i class="material-icons loader">autorenew</i></div>';
 	jQuery('#plansList').html(plansList);
 	jQuery.ajax({
-		url: 'http://api.outgrow.us/api/v1/plans',
+		url: 'http://api.outgrow.'+ext+'/api/v1/plans',
 		success: function(success){
 			allPlans = success;
 			displayPlans();
 		},
 		error:function(err){
-			console.log('err',err)
+			console.log('err get all plans',err)
 		}
 	});
 }
