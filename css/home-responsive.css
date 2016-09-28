@@ -212,9 +212,14 @@
 	#Testimonial .quote-container{
 		width:100%;
 		padding:0px;
-		margin-top:130px;
+		margin-top: 0;
+		margin-bottom: 30px;
 	}
-	#Testimonial  .img-res{width:100%;}
+	#Testimonial  .img-res{
+		/* width:100%; */
+		display: block;
+		margin: 0 auto;
+	}
 }
 @media (min-width:375px) and (max-width:375px){
 	.section-7 .slider-sa {

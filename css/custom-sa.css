@@ -5150,7 +5150,7 @@ iframe{
 	#Testimonial .testimonial-headingtop{
 		float: left;
 		background: #fb6c73;
-		min-height:425px;
+		min-height:400px;
 	}
 	#Testimonial .testimonial-headingtop h3{
 		display: inline-block;
@@ -5221,12 +5221,11 @@ iframe{
 		margin: 0 auto;
 		width: 60%;
 		display:block;
-		padding: 30px 10px;
-		margin-top: 20px;
+		padding: 20px 10px;
+		margin-top: 0px;
 	}
 	#Testimonial .quote-section{
-		position: absolute;
-		top: 180px;
+		
 	}
 	#Testimonial .quote-01 {
 		position: relative;
