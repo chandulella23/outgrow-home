@@ -99,5 +99,4 @@ jQuery(document).ready(function() {
 			</a>`;
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
-	console.log('login',login,ext);
 });

@@ -51,7 +51,6 @@ jQuery(document).ready(function() {
 							<span>Free Plan Available</span>
 							<label>No Credit Card Required</label>
 						</div>`;
-						console.log('btn',btn);
 	jQuery('#btnBuildCalc').html(btn);
 });
 
