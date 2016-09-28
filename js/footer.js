@@ -1,3 +1,6 @@
+var login = `<a href="http://app.outgrow.us/`+ext+`" class="link-login params" onclick="callGA('LOGIN')">
+				Login
+			</a>`;
 var footer = `<div class="container">
 	<div class="col-xs-12 col-sm-12 np">
 		<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
@@ -88,4 +91,6 @@ var footer = `<div class="container">
 </div>`;
 jQuery(document).ready(function() {
 	jQuery('#footer').html(footer);
+	jQuery('#login').html(login);
+	console.log('login',login);
 });
