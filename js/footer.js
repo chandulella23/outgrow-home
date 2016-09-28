@@ -1,6 +1,4 @@
-var login = `<a href="http://app.outgrow.us/`+ext+`" class="link-login params" onclick="callGA('LOGIN')">
-				Login
-			</a>`;
+
 var footer = `<div class="container">
 	<div class="col-xs-12 col-sm-12 np">
 		<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
@@ -90,7 +88,13 @@ var footer = `<div class="container">
 	</div>
 </div>`;
 jQuery(document).ready(function() {
+	//var str = window.location.href.split('//')[1].split('/')[0];
+	//var p = str.lastIndexOf('.');
+	//var ext = str.substring(p+1);
+	var login = `<a href="http://app.outgrow.`+ext+`" class="link-login params" onclick="callGA('LOGIN')">
+				Login
+			</a>`;
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
-	console.log('login',login);
+	console.log('login',login,ext);
 });

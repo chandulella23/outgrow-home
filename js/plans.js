@@ -5,9 +5,6 @@ jQuery(document).ready(function() {
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
 	ext = str.substring(p+1);
-	console.log('str',str);
-	console.log('ppppp',p);
-	console.log('extext',ext);
 	getAllPlans();
 	var planCycle = `
 		<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">
@@ -63,7 +60,6 @@ var getAllPlans = function () {
 			console.log('err get all plans',err)
 		}
 	});
-	console.log('api',u);
 }
 
 var displayPlans = function(){
