@@ -97,14 +97,15 @@ jQuery(document).ready(function() {
 	var loginAnchor = '//app.outgrow.'+ext+'/login';
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
-		document.getElementsByClassName('loginText').text='Dashboard';
-		jQuery(document.getElementById('loginAnchor')).attr('onClick','callGA("DASHBOARD")');
+		document.getElementsById('loginAnchorText').text='Dashboard';
+		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
-		document.getElementsByClassName('loginText').text= 'Login';
-		jQuery(document.getElementById('loginAnchor')).attr('onClick','callGA("LOGIN")');
+		document.getElementsById('loginAnchorText').text= 'Login';
+		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 	}
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
+	document.getElementById('loginAnchorText').href=loginAnchor;
 	document.getElementById('loginAnchor').href=loginAnchor;
 
 	function readCookie(name) {
