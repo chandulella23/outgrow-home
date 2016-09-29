@@ -22,7 +22,7 @@ var footer = `<div class="container">
 			<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer3.jpg" /></div>
 		</div>
 		<div class="col-xs-12 col-sm-10 footer-link mk-animate-element fade-in">
-			<h4 class="footer-img2text">Resources</h4>
+			<h4 class="footer-img2text col-xs-12">Resources</h4>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res1.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
