@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
 		`;
 	var freePlan = `<i class="material-icons">not_interested</i>
 				<h4>Casual User?</h4>
-				<p>Are you a student or a freelancer who wants to explore interactive calculars? We have a limited plan for you to play around with. Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
+				<p>Are you a student or a freelancer who wants to explore interactive calculators? We have a limited plan for you to play around with. Sign up <a class="starter" href="http://app.outgrow.us/signup" target="_blank">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
 
