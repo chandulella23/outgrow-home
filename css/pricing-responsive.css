@@ -102,21 +102,113 @@
 		left: -90px;
 	}
 }
-	@media (min-width: 768px) and (max-width:1024px){
+@media (min-width: 768px) and (max-width:1024px){
 	#pricing .custom-navbar.navbar-default .navbar-nav > li {
 		margin-right: 0px;
 	}
 	#pricing .section1-left-cell{
 		height:50px;
 	}
+	
 }
-@media (min-width: 769px) and (max-width:990px) {
+@media (min-width: 769px) and (max-width:992px) {
+	
 	#pricing .loader{
-		margin-left: -110px;
+		margin-left: 0px;
+		color:#fb6c73;
 	}
 	#pricing .container-faqs {
 		width: 800px;
 		margin: 0 auto;
+	}
+	#pricing .pricing-headingtop {
+    min-height: 50px;
+    padding-bottom: 25px;
+}
+	#pricing .section-1-right {
+		margin-left: 0px;
+	}
+	#pricing .billing-grey {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.toggle-dots-white {
+		float: left;
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background: #62696d;
+	}
+	#pricing .billing-white {
+		margin-right: 0px;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	#pricing .pricing-text {
+		position: relative;
+		margin-top: 10%;
+	}
+	#pricing .pricing-help .billing-plans-help {
+		font-size: 10px;
+		position: absolute;
+		bottom: -40px;
+		left: -90px;
+	}
+	.toggle-dots-white span {
+		width: 8px;
+		height: 8px;
+		display: inline-block;
+		border-radius: 100%;
+		background: #fff;
+	}
+	#pricing .section-1-right {
+		position: relative;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+@media (min-width: 993px) and (max-width:1024px) {
+	
+	#pricing .loader{
+		margin-left: 38%;
+		color:#fb6c73;
+	}
+	#pricing .container-faqs {
+		width: 800px;
+		margin: 0 auto;
+	}
+	#pricing .pricing-headingtop {
+    min-height: 50px;
+    padding-bottom: 25px;
+}
+	#pricing .section-1-right {
+		margin-left: 0px;
+	}
+	#pricing .billing-grey {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	#pricing .billing-white {
+		margin-right: 0px;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	#pricing .pricing-text {
+		position: relative;
+		margin-top: 10px;
+	}
+	#pricing .pricing-help .billing-plans-help {
+		font-size: 10px;
+		position: absolute;
+		bottom: 10px;
+		left: -90px;
+	}
+	#pricing .section-1-right {
+		position: relative;
+		padding-left: 65px;
+		padding-right: 25px;
 	}
 }
 @media (min-width: 1024px) and (max-width:1024px) {

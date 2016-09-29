@@ -550,7 +550,7 @@
 		padding-left: 0px;
 	}
 	#feature .section-f1 .slider-sa {
-		min-height: 220px;
+		min-height: 480px;
 		padding:0 20px;
 	}
 	#feature .section-f2-left {
@@ -877,9 +877,6 @@
 	}
 	#feature .span-style{
 		font-size:16px !important;
-	}
-	#feature .feature-heading-1 h3{
-		font-size:13px;
 	}
 	.custom-navbar.navbar-default {
 		margin-bottom: 0px;

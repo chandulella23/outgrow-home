@@ -56,17 +56,17 @@
 	.section-6-left span{ padding-left:10px;}
 	.section-6-right{ border:none; margin-top:40px;}
 	.section-7 { padding-bottom: 30px; margin-top:0px; padding-top:30px;}
-	.section-7 .slider-sa{ min-height:200px; padding: 0px 20px; margin-top:-30px;}
+	.section-7 .slider-sa{ min-height:170px; padding: 0px 20px; margin-top:-30px;}
 	.section-7 .section-runnigheading{ font-size: 30px; text-align: left;  line-height: 34px;}
 	.section-9-left {padding-right: 20px; padding-left: 20px;}
 	.circle-value{ width:33%;    padding: 0px;}
 	.section-8{ padding-bottom:30px;}
 	.section-9-right{ padding:0px 20px;}
-	.section-8 .slider-sa{ min-height:200px; padding: 0px 20px;}
+	.section-8 .slider-sa{ min-height:170px; padding: 0px 20px;}
 	.section-7-left { padding:0px 20px;}
 	.section-7-left1{padding:0px 20px;}
 	.section-9{ padding-bottom:60px; padding-top:0px;}
-	.section-9 .slider-sa{min-height: 200px;padding: 0px 20px;}
+	.section-9 .slider-sa{min-height: 170px;padding: 0px 20px;}
 	.section-10{ margin-bottom:30px; }
 	.sec10-testimonial {margin: 0 auto;width: 100%;display: inline-block; padding-top: 30px; margin-bottom: 40px;text-align: center;}
 	.sec10-testimonial label {float: none;text-align: center;padding-top: 5px;}
@@ -143,8 +143,9 @@
 	.circle-value p{width:73%;}
 	.sec9-test p{    
 		margin-top: 2px;
+		margin-left:10px;
 	}
-	.sec9-test em.left { top:25px;}
+	.sec9-test em.left { top:25px; margin-left:10px;}
 	.sec9-test em.right {}
 	.sec10-em11{display:block !important;}
 	.text-1{    
@@ -153,7 +154,7 @@
 		font-family: montserratregular !important;
 		float: left !important;
 		width: 90% !important;
-		margin-left: 0px;
+		margin-left: 10px;
 	}
 	.text-2{    
 		display: block !important;
@@ -162,7 +163,7 @@
 		float: left !important;
 		margin-top: 2px !important;
 		width: 90% !important;
-		margin-left: 0px;
+		margin-left: 10px;
 	}
 	.center{text-align:center;}
 	.container.mobile-container{padding:0 20px;}
@@ -301,15 +302,15 @@
 	}
 	.section-9-left h4{margin-top:30px;}
 	.section-7-left h4{margin-top:30px;}
-	.section-7 .slider-sa{ min-height:330px;}
-	.section-8 .slider-sa{ min-height:330px;}
-	.section-9 .slider-sa{ min-height:330px;}
+	.section-7 .slider-sa{ min-height:270px;}
+	.section-8 .slider-sa{ min-height:270px;}
+	.section-9 .slider-sa{ min-height:270px;}
 	.sec4-2{height:325px;}
 	.section-4-left span i {margin-top: 0px;}
 	.section-4-left span span{margin-top:2px;}
 	.section-5-right{margin-top:0px; border:none;}
-	.text-1{display: block !important;font-size: 14px !important;color: #62696d !important;font-family: montserratregular !important;float: left !important;width: 90% !important; margin-left:0px;}
-	.text-2{display: block !important; font-size: 12px !important; font-family: montserratregular !important;float: left !important; margin-top: 3px !important; width:70% !important; margin-left:0px;}
+	.text-1{display: block !important;font-size: 14px !important;color: #62696d !important;font-family: montserratregular !important;float: left !important;width: 90% !important; margin-left:10px;}
+	.text-2{display: block !important; font-size: 12px !important; font-family: montserratregular !important;float: left !important; margin-top: 3px !important; width:70% !important; margin-left:10px;}
 	.circle-value{ width:33%;    padding: 0 30px;}
 	.circle-value em{left:73px;}
 	.sec9-test em.em-close {float: right;top: -40px;left: -45px;}
@@ -369,16 +370,16 @@
 }
 @media (min-width:640px) and (max-width:768px){
 	.section-7 .slider-sa {
-		min-height: 380px;
+		min-height: 360px;
 	}
 	.section-8 .slider-sa {
-		min-height: 380px;
+		min-height: 360px;
 	}
 	.section-9 .slider-sa {
-		min-height: 380px;
+		min-height: 360px;
 	}	
 	.sec4-2 {
-		height: 495px;top: -30px;
+		height: 445px;top: -30px;
 	}
 	.w100{width:100%;}
 }
@@ -821,6 +822,18 @@
 		margin: 0 auto;
 	}
 	
+}
+@media (min-width:990px) and (max-width:1023px){
+	.circle-value {
+		float: left;
+		margin-top: 15px;
+		width: 100px;
+	}
+	.footer-img2 {
+		min-height: 170px;
+		float: left;
+		margin-bottom: 15px;
+	}
 }
 @media (min-width: 1024px) and (max-width:1250px) {
 	.navbar-right {
