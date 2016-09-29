@@ -101,7 +101,7 @@ jQuery(document).ready(function() {
 		jQuery(document.getElementById('loginAnchor')).attr('onClick','callGA("DASHBOARD")');
 	}else{
 		document.getElementById('loginAnchor').text= 'Login';
-		document.getElementById('loginAnchor').attr('onClick','callGA("LOGIN")');
+		jQuery(document.getElementById('loginAnchor')).attr('onClick','callGA("LOGIN")');
 	}
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
