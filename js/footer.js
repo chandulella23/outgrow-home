@@ -97,9 +97,25 @@ jQuery(document).ready(function() {
 	var login = `<a href="http://app.outgrow.`+ext+`/login" class="link-login params" onclick="callGA('LOGIN')">
 				Login
 			</a>`;
-	ext = 'us';
 	var loginAnchor = '//app.outgrow.'+ext+'/login';
+	if(readCookie('storage')){
+		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
+		document.getElementById('loginAnchor').text='Dashboard';
+	}else{
+		document.getElementById('loginAnchor').text= 'Login';
+	}
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
 	document.getElementById('loginAnchor').href=loginAnchor;
+
+	function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
 });
