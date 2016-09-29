@@ -97,7 +97,7 @@ jQuery(document).ready(function() {
 	var loginAnchor = '//app.outgrow.'+ext+'/login';
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
-		document.getElementsById('loginAnchorText').text='Dashboard';
+		document.getElementById('loginAnchorText').text='Dashboard';
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
 		document.getElementsById('loginAnchorText').text= 'Login';
