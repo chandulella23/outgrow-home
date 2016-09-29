@@ -97,16 +97,16 @@ jQuery(document).ready(function() {
 	var loginAnchor = '//app.outgrow.'+ext+'/login';
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
-		document.getElementById('loginAnchorText').text='Dashboard';
+		jQuery(document.getElementById('loginAnchorText')).text='Dashboard';
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
-		document.getElementById('loginAnchorText').text= 'Login';
+		jQuery(document.getElementById('loginAnchorText')).text= 'Login';
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 	}
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
-	document.getElementById('loginAnchorText').href=loginAnchor;
-	document.getElementById('loginAnchor').href=loginAnchor;
+	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
+	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);
 
 	function readCookie(name) {
         var nameEQ = name + "=";
