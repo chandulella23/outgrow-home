@@ -1835,14 +1835,14 @@ label {
 }*/
 
 .enterprise-margin {
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     background: #f5f5f5;
 }
 
 #pricing .pricing-help .billing-plans-help {
     font-size: 10px;
     position: absolute;
-    bottom: -680px;
+    bottom: -600px;
 }
 
 
@@ -3565,17 +3565,21 @@ button.swiper-pagination-bullet {
     float: left;
     margin-right: 10px;
 }
+#feature .f-btn-text{
+	position:relative;
+	top:3px;
+}
 
 #feature .section-6.sec-integration .btn-startBuildingCalc {
     background: #62696d;
     border: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     padding: 15px 25px;
     margin-top: 100px;
     margin-bottom: 20px;
-    font-family: montserratsemibold;
+    font-family: montserratregular;
 }
 
 #feature .section.section-10.sec-help i.material-icons {
@@ -4908,7 +4912,7 @@ iframe{
 }
 #pricing .pricing-text{
 	position: relative;
-    margin-top: 52%;
+    margin-top: 49%;
 }
 #pricing .section-faq .section-2-heading{
     color: #dfe3e6;
