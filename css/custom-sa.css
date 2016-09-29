@@ -3415,6 +3415,7 @@ button.swiper-pagination-bullet {
     margin: 0 auto;
     padding-top: 15px;
     opacity: 0.8;
+    margin-bottom: 15px;
 }
 /* 
 #feature .container.container-center {
@@ -3571,7 +3572,7 @@ button.swiper-pagination-bullet {
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 25px 50px;
+    padding: 15px 25px;
     margin-top: 100px;
     margin-bottom: 20px;
     font-family: montserratsemibold;
@@ -3590,6 +3591,7 @@ button.swiper-pagination-bullet {
     background: #fb6c73;
     margin-bottom: 0px;
     min-height: 290px;
+    margin-top: 0px;
 }
 
 #feature .section.section-10.sec-help span {
@@ -3622,7 +3624,7 @@ button.swiper-pagination-bullet {
 #feature .sec-help .container.container-center {
     margin: 0 auto;
     display: block;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 40px;
 }
 
@@ -4868,7 +4870,8 @@ iframe{
 #pricing .pricing-headingtop{
     float: left;
     background: #fb6c73;
-    min-height:485px;
+    /*min-height:485px;*/
+    min-height: 557px;
 }
 #pricing .pricing-headingtop h3{
     display: inline-block;
