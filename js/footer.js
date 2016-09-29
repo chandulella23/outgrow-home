@@ -97,10 +97,10 @@ jQuery(document).ready(function() {
 	var loginAnchor = '//app.outgrow.'+ext+'/login';
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
-		document.getElementByClassName('loginText').text='Dashboard';
+		document.getElementsByClassName('loginText').text='Dashboard';
 		jQuery(document.getElementById('loginAnchor')).attr('onClick','callGA("DASHBOARD")');
 	}else{
-		document.getElementByClassName('loginText').text= 'Login';
+		document.getElementsByClassName('loginText').text= 'Login';
 		jQuery(document.getElementById('loginAnchor')).attr('onClick','callGA("LOGIN")');
 	}
 	jQuery('#footer').html(footer);
