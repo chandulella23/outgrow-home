@@ -110,7 +110,12 @@
 		height:50px;
 	}
 }
-@media (min-width: 1024px) and (max-width:1200px) {
+@media (min-width: 1024px) and (max-width:1024px) {
+	#pricing .loader{
+		margin-left:26%;
+	}
+}
+	@media (min-width: 1024px) and (max-width:1200px) {
 	#pricing .section-1-right {
 		margin-left: -10px;
 	}
