@@ -1,4 +1,3 @@
-
 var footer = `<div class="container">
 	<div class="col-xs-12 col-sm-12 np">
 		<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
@@ -98,6 +97,9 @@ jQuery(document).ready(function() {
 	var login = `<a href="http://app.outgrow.`+ext+`/login" class="link-login params" onclick="callGA('LOGIN')">
 				Login
 			</a>`;
+	ext = 'us';
+	var loginAnchor = '//app.outgrow.'+ext+'/login';
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
+	document.getElementById('loginAnchor').href=loginAnchor;
 });
