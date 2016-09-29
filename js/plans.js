@@ -69,7 +69,6 @@ var getAllPlans = function () {
 			console.log('err get all plans',err)
 		}
 	});
-	console.log('u',u);
 }
 
 var displayPlans = function(){
