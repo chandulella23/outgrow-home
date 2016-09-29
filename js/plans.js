@@ -30,7 +30,7 @@ jQuery(document).ready(function() {
 	//var freePlan = `<i class="material-icons">not_interested</i>
 	var freePlan = `<i class="material-icons">person</i>
 				<h4>Casual User?</h4>
-				<p>Are you a student or a freelancer who wants to explore interactive calculators? We have a limited plan for you to play around with. <br/> Sign up <a class="starter" href="http://app.outgrow.`+ext+`/signup" target="_blank">here</a>.</p>`;
+				<p>Are you a student or a freelancer who wants to explore interactive calculators? We have a limited plan for you to play around with. <br/> Sign up <a class="starter" href="http://app.outgrow.`+ext+`/signup" target="_blank" class="params">here</a>.</p>`;
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
 	jQuery(document).on('click', '.signupbanners', function(event) {
@@ -228,7 +228,7 @@ var displayPlans = function(){
 					}
 				}
 				cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="http://app.outgrow.`+ext+`/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners">Start Trial</a>
+								<a href="http://app.outgrow.`+ext+`/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners params">Start Trial</a>
 							</div>`;
 				if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'business'){
 					mostPopular = '<span class="ribbon">Most Popular</span>';

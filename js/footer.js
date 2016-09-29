@@ -8,7 +8,7 @@ var footer = `<div class="container">
 				<li><a href="useCase.html" onclick="callGA('USECASEF')" class="params">Use Cases</a></li>
 				<li><a href="pricing.html" onclick="callGA('PRICINGF')" class="params">Pricing</a></li>
 				<li><a href="http://resources.outgrow.co/" onclick="callGA('RESOURCEF')" class="params">Resources</a></li>
-				<li><a href="javascript:void(0);" onclick="callGA('ABOUTF')" class="params">About</a></li>
+				<li><a href="http://resources.outgrow.co/about" onclick="callGA('ABOUTF')" class="params">About</a></li>
 				<li><a href="privacy_policy.html" onclick="callGA('PRIVACYF')" class="params">Privacy Policy</a></li>
 				<li><a href="tos.html" onclick="callGA('TERMSF')" class="params">Terms of Services</a></li>
 			</ul>
@@ -21,7 +21,7 @@ var footer = `<div class="container">
 			<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer3.jpg" /></div>
 		</div>
 		<div class="col-xs-12 col-sm-10 footer-link mk-animate-element fade-in">
-			<h4 class="footer-img2text">Resources</h4>
+			<h4 class="footer-img2text col-xs-12">Resources</h4>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res1.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
@@ -76,8 +76,8 @@ var footer = `<div class="container">
 				<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
 				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
 				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>
-				<li><a href="javascript:void(0);">Contact Us</a></li>
-				<li><a href="http://resources.outgrow.co/about">Careers</a></li>
+				<li><a href="mailto:p@outgrow.co?Subject=Hello%20again" target="_top">Contact Us</a></li>
+				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
