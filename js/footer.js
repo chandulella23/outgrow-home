@@ -91,9 +91,6 @@ jQuery(document).ready(function() {
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
 	var ext = str.substring(p+1);
-	//var str = window.location.href.split('//')[1].split('/')[0];
-	//var p = str.lastIndexOf('.');
-	//var ext = str.substring(p+1);
 	var login = `<a href="http://app.outgrow.`+ext+`/login" class="link-login params" onclick="callGA('LOGIN')">
 				Login
 			</a>`;
@@ -101,8 +98,10 @@ jQuery(document).ready(function() {
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
 		document.getElementById('loginAnchor').text='Dashboard';
+		document.getElementById('loginAnchor').attr('onClick','asdasd');
 	}else{
 		document.getElementById('loginAnchor').text= 'Login';
+		document.getElementById('loginAnchor').attr('onClick','dashboard');
 	}
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
