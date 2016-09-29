@@ -9,7 +9,7 @@ var footer = `<div class="container">
 				<li><a href="useCase.html" onclick="callGA('USECASEF')" class="params">Use Cases</a></li>
 				<li><a href="pricing.html" onclick="callGA('PRICINGF')" class="params">Pricing</a></li>
 				<li><a href="http://resources.outgrow.co/" onclick="callGA('RESOURCEF')" class="params">Resources</a></li>
-				<li><a href="javascript:void(0);" onclick="callGA('ABOUTF')" class="params">About</a></li>
+				<li><a href="http://resources.outgrow.co/about" onclick="callGA('ABOUTF')" class="params">About</a></li>
 				<li><a href="privacy_policy.html" onclick="callGA('PRIVACYF')" class="params">Privacy Policy</a></li>
 				<li><a href="tos.html" onclick="callGA('TERMSF')" class="params">Terms of Services</a></li>
 			</ul>
@@ -77,8 +77,8 @@ var footer = `<div class="container">
 				<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
 				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
 				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>
-				<li><a href="javascript:void(0);">Contact Us</a></li>
-				<li><a href="http://resources.outgrow.co/about">Careers</a></li>
+				<li><a href="mailto:p@outgrow.co?Subject=Hello%20again" target="_top">Contact Us</a></li>
+				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
