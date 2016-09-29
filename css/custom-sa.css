@@ -256,8 +256,17 @@ label {
     float: left;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 15px 25px;
+    padding: 13px 25px;
     margin-top: 20px;
+    border: 2px solid #62696d;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.section-1-left .btn-buildcal:hover
+{
+    background: none;
+    border: 2px solid #62696d;
+    color: #62696d;
 }
 .section-1-left .btn-buildcal i{
     display: inline-block;
