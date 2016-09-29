@@ -1963,6 +1963,8 @@ label {
     color: #bdc5c8;
     margin-top: 5px;
 }
+.footer-img-text a{color: #bdc5c8;}
+.footer-img-text a:hover{color: #fff;}
 .footer-social{
     text-align: center;
     margin-top: 25px;

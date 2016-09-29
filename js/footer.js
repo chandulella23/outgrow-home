@@ -4,6 +4,7 @@ var footer = `<div class="container">
 		<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 			<h4>Overview</h4>
 			<ul>
+				<li><a href="why_calculators.html" onclick="callGA('WHYF')" class="params">Why Calculators </a></li>
 				<li><a href="features.html" onclick="callGA('FEATURESF')" class="params">Features </a></li>
 				<li><a href="useCase.html" onclick="callGA('USECASEF')" class="params">Use Cases</a></li>
 				<li><a href="pricing.html" onclick="callGA('PRICINGF')" class="params">Pricing</a></li>
@@ -25,49 +26,49 @@ var footer = `<div class="container">
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res1.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.
+					<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
 				</div>
 			</div>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/footer5.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					Make Your Digital Marketing Agency Stand Out
+					<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/">Make Your Digital Marketing Agency Stand Out</a>
 				</div>
 			</div>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res3.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					7 Interactive Calculators Every University Needs on Its Website
+					<a href="http://resources.outgrow.co/university-college-calculators/">7 Interactive Calculators Every University Needs on Its Website</a>
 				</div>
 			</div>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res4.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					Lead Retention Made Easy! Activate Cold Leads with Calculators
+					<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
 				</div>
 			</div>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/footer7.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					9 Calculators Every SaaS Company Should Consider
+					<a href="http://resources.outgrow.co/interactive-calculators-saas-companies">9 Calculators Every SaaS Company Should Consider</a>
 				</div>
 			</div>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res7.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					Value Added Marketing With Digital Experiences
+					<a href="http://resources.outgrow.co/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>
 				</div>
 			</div>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res8.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					Lead Generation With Interactive Calculators
+					<a href="http://resources.outgrow.co/course/lead-generation-with-calculators/?utm_source=blog&utm_medium=CTA&utm_campaign=Start%20Course">Lead Generation With Interactive Calculators</a>
 				</div>
 			</div>
 			<div class="footer-img2 col-xs-6 col-sm-3">
 				<div class="col-xs-12 np"><img src="images/res9.jpg" /></div>
 				<div class="col-xs-12 np footer-img-text">
-					How an Interactive Calculator Generated 11,592 Qualified Leads
+					<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
 				</div>
 			</div>
 		</div>
