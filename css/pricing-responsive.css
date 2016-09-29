@@ -110,6 +110,15 @@
 		height:50px;
 	}
 }
+@media (min-width: 769px) and (max-width:990px) {
+	#pricing .loader{
+		margin-left: -110px;
+	}
+	#pricing .container-faqs {
+		width: 800px;
+		margin: 0 auto;
+	}
+}
 @media (min-width: 1024px) and (max-width:1024px) {
 	#pricing .loader{
 		margin-left:26%;

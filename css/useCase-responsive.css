@@ -65,6 +65,15 @@
 		margin-top:50px !important;
 	}
 }
+@media (min-width: 769px) and (max-width:990px) {
+	.useCase-heading{
+		margin-top: 30px;
+	}
+	.usecase .section-usecase1-left{
+		padding-left:15px;
+		padding-right:50px;
+	}
+}
 @media (min-width: 1024px) and (max-width:1250px) {
 	.collage-outer{
 		margin-left:-10px;
