@@ -100,7 +100,7 @@ jQuery(document).ready(function() {
 		document.getElementById('loginAnchorText').text='Dashboard';
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
-		document.getElementsById('loginAnchorText').text= 'Login';
+		document.getElementById('loginAnchorText').text= 'Login';
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 	}
 	jQuery('#footer').html(footer);
