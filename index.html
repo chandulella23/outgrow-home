@@ -1627,11 +1627,11 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 				case 'USECASE':
 					ga('markettingteam.send', 'event', 'Header', 'Click', 'LP_Header_UseCases');
 					break;
-				case 'MULTI':
-					var self = $(this);
-					var a = document.getElementById('loginAnchor').text;
-					console.log('aaaa',a);
-					ga('markettingteam.send', 'event', a, 'Click', 'LP_Header_Login/Dashboard');
+				case 'LOGIN':
+					ga('markettingteam.send', 'event', 'Login', 'Click', 'LP_Header_Login');
+					break;
+				case 'DASHBOARD':
+					ga('markettingteam.send', 'event', 'DASHBOARD', 'Click', 'LP_Header_GO_TO_DASHBOARD');
 					break;
 				case 'FEATURESF':
 					ga('markettingteam.send', 'event', 'Footer', 'Click', 'LP_Footer_Features');

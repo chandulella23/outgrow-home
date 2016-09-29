@@ -98,10 +98,10 @@ jQuery(document).ready(function() {
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
 		document.getElementById('loginAnchor').text='Dashboard';
-		document.getElementById('loginAnchor').attr('onClick','asdasd');
+		jQuery(document.getElementById('loginAnchor')).attr('onClick','callGA("DASHBOARD")');
 	}else{
 		document.getElementById('loginAnchor').text= 'Login';
-		document.getElementById('loginAnchor').attr('onClick','dashboard');
+		document.getElementById('loginAnchor').attr('onClick','callGA("LOGIN")');
 	}
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
