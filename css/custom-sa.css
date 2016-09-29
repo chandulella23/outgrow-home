@@ -44,21 +44,19 @@
     src: url("../fonts/montserrat-hairline-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-hairline-webfont.woff2") format("woff2"), url("../fonts/montserrat-hairline-webfont.woff") format("woff"), url("../fonts/montserrat-hairline-webfont.ttf") format("truetype");
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
     src: url(MaterialIcons-Regular.eot);
-    /* For IE6-8 */
     src: local('Material Icons'), local('materialIcons-Regular'), url(../fonts/materialIcons-Regular.woff2) format('woff2'), url(../fonts/materialIcons-Regular.woff) format('woff'), url(../fonts/materialIcons-Regular.ttf) format('truetype');
 }
-
+ 
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
     font-size: 24px;
-    /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -66,15 +64,11 @@
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
-    /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
     text-rendering: optimizeLegibility;
-    /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
-    /* Support for IE. */
     font-feature-settings: 'liga';
-}
+} */
 	
 @font-face {
     font-family: 'montserrat-bold';
@@ -1445,7 +1439,7 @@ label {
 /* Start: billing-white-bottom */
 
 .billing-white-bottom{
-    padding: 15px 25px 30px;
+    padding: 15px 25px 37px;
 }
 
 .billing-white-bottom ul.billing-list{
@@ -1544,7 +1538,6 @@ label {
     border-bottom: 1px solid #777;
     background: #62696d;
 }
-
 .billing-grey-top h3.plan-title {
     color: #fff;
     font-size: 30px;
@@ -1826,6 +1819,31 @@ label {
     }
 
 /* End: Business sec */
+/*.contact-pricing {
+    margin: 8px 0;
+    float: left;
+    width: 100%;
+}*/
+
+.enterprise-margin {
+    padding-bottom: 15px;
+    background: #f5f5f5;
+}
+
+#pricing .pricing-help .billing-plans-help {
+    font-size: 10px;
+    position: absolute;
+    bottom: -680px;
+}
+
+
+.index-help .billing-plans-help {
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 40px;
+}
+
 
 /* End: Billing table */
 
@@ -1891,7 +1909,7 @@ label {
     color: #bdc5c8;
     font-size: 18px;
     margin-bottom: 20px;
-    padding-left: 30px;
+    padding-left: 0px;
 }
 .footer-link ul{
     float: left;
@@ -1945,6 +1963,8 @@ label {
     color: #bdc5c8;
     margin-top: 5px;
 }
+.footer-img-text a{color: #bdc5c8;}
+.footer-img-text a:hover{color: #fff;}
 .footer-social{
     text-align: center;
     margin-top: 25px;
@@ -4718,10 +4738,12 @@ iframe{
 	margin-bottom:90px;
 }
 #pricing .section-1-right{
-	padding-left: 17%;
+	padding-left: 18%;
     padding-top: 15px;
     position: absolute;
-    top: 45%;
+    top: 40%;
+	float:left;
+	width:100%;
 }
 #pricing .accordion, .accordion * {
 	-webkit-box-sizing:border-box; 
@@ -4872,7 +4894,7 @@ iframe{
 }
 #pricing .pricing-text{
 	position: relative;
-    margin-top: 60%;
+    margin-top: 52%;
 }
 #pricing .section-faq .section-2-heading{
     color: #dfe3e6;
@@ -4898,7 +4920,10 @@ iframe{
 }
 
 #pricing .billing-plan-list ul > li > a{
-	padding:15px;
+	padding:8px 0px;
+}
+#pricing .billing-grey-top{
+	min-height:290px;
 }
 
 /*Pricing Page CSS Ends*/
@@ -5012,7 +5037,237 @@ iframe{
 	.err .section-1{
 		margin-top:70px;
 	}
-
-    .capitalize{
+	.loader{
+		color:#fff;
+		text-align:center;
+		-webkit-animation-name: spin;
+		-webkit-animation-duration: 2000ms;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-name: spin;
+		-moz-animation-duration: 2000ms;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-ms-animation-name: spin;
+		-ms-animation-duration: 2000ms;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: linear;
+		
+		animation-name: spin;
+		animation-duration: 2000ms;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+	@-ms-keyframes spin {
+		from { -ms-transform: rotate(0deg); }
+		to { -ms-transform: rotate(360deg); }
+	}
+	@-moz-keyframes spin {
+		from { -moz-transform: rotate(0deg); }
+		to { -moz-transform: rotate(360deg); }
+	}
+	@-webkit-keyframes spin {
+		from { -webkit-transform: rotate(0deg); }
+		to { -webkit-transform: rotate(360deg); }
+	}
+	@keyframes spin {
+		from {
+			transform:rotate(0deg);
+		}
+		to {
+			transform:rotate(360deg);
+		}
+	}
+	.capitalize{
         text-transform: capitalize;
     }
+	
+	/*Privacy Policy Page CSS Starts*/
+	.Privacy .Privacy-heading{
+		float: left;
+		width: 100%;
+		text-align: center;
+		color: #dfe3e6;
+		font-size: 48px;
+		line-height: 40px;
+		font-family: montserratbold;
+		margin-bottom: 30px;
+	}
+	.Privacy .Privacy-subheading{
+		color: #fb6c73;
+		font-size: 30px;
+		font-family: montserratUltra_light;
+		text-align: left;
+		width: 100%;
+		float: left;
+		display: block;
+		text-transform: none;
+        margin-top: 30px;
+	}
+	.Privacy p{
+		color: #62696d;
+		font-size: 13px;
+		font-family: montserratlight;
+		float: left;
+		display: block;
+		margin: 10px 0px;
+	}
+	.Privacy h5{
+		float: left;
+		width: 100%;
+		font-size: 14px;
+		color: #fb6c73;
+		font-family: montserratlight;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		line-height:1.4;
+	}
+	.Privacy .li-style{
+		color: #62696d;
+		font-size: 13px;
+		font-family: montserratlight;
+		float: left;
+		width:100%;
+		margin-bottom:10px;
+		list-style: disc;
+	}
+    .Privacy .section-services{
+        margin-bottom: 60px;
+    }
+    .Privacy p a{
+        color: #fb6c73;
+    }
+    .Privacy p a:hover{
+        text-decoration: none;
+    }
+     .Privacy p a:visited{
+        text-decoration: none;
+    }
+	/*Privacy Policy Page CSS Ends*/
+	
+	/* Testimonial Page CSS Starts*/
+	#Testimonial .section-1{
+		margin-top:0px;
+	}
+	#Testimonial .testimonial-headingtop{
+		float: left;
+		background: #fb6c73;
+		min-height:400px;
+	}
+	#Testimonial .testimonial-headingtop h3{
+		display: inline-block;
+		margin-bottom: 5px;
+		margin-top: 35px;
+		color: #fff;
+		font-size: 30px;
+		font-family: montserratlight;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	#Testimonial .testimonial-headingtop p{
+		display: inline-block;
+		margin-bottom: 15px;
+		margin-top:0px;
+		color: #fff;
+		font-size: 18px;
+		font-family: montserratlight;
+		width: 100%;
+	}
+	#Testimonial .testimonial-outer{
+		width:100%;
+		padding:0 30px;
+		margin-bottom:90px;
+	}
+	#Testimonial .testimonial-inner{
+		width:100%;
+		float:left;
+		background:#e5e8e9;
+		min-height:260px;
+		border-radius:5px;
+		position:relative;
+	}
+	#Testimonial .section-testimonial{
+		margin-bottom:0px;
+	}
+	#Testimonial .section-testimonial h4{
+		font-size:18px;
+		text-align:center;
+		color:#62696d;
+		font-family: montserratbold;
+	}
+	#Testimonial .section-testimonial h3{
+		font-family: montserratlight;
+		color:#62696d;
+		font-size:12px;
+		margin-top:0px;
+	}
+	#Testimonial .section-testimonial p{
+		font-family: montserratregular;
+		color:#62696d;
+		font-size:14px;
+		margin-top:40px;
+	}
+	#Testimonial .testimonial-desc{
+		padding:0 20px;
+		position:relative;
+		top:-30px;
+	}
+	#Testimonial .testimonial-image {
+		position: relative;
+		border-radius: 50%;
+		width: auto;
+		top: -50px;
+		box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.48);
+	}
+	#Testimonial .quote-container {
+		margin: 0 auto;
+		width: 60%;
+		display:block;
+		padding: 20px 10px;
+		margin-top: 0px;
+	}
+	#Testimonial .quote-section{
+		
+	}
+	#Testimonial .quote-01 {
+		position: relative;
+		top: 70px;
+	}
+	#Testimonial .quote-02 {
+		top: 0;
+		position: relative;
+		left: 45px;
+	}
+	#Testimonial .quote-03 {
+		top: 30px;
+		position: relative;
+		left: 85px;
+	}
+	#Testimonial .quote-04 {
+		position: relative;
+		top: -35px;
+		left: 120px;
+	}
+	#Testimonial .quote-05 {
+		position: relative;
+		top: 30px;
+		left: 110px;
+	}
+	#Testimonial .quote-06 {
+		position: relative;
+		top: 50px;
+		left: 150px;
+	}
+	#Testimonial .quote-07 {
+		position: relative;
+		left: 200px;
+		top: 10px;
+	}
+	#Testimonial .quote-08 {
+		position: relative;
+		left: 300px;
+	}
+	#Testimonial .img-style{
+		margin: 0 auto;
+	}
+	/* Testimonial Page CSS Ends*/

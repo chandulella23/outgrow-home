@@ -188,9 +188,47 @@
 	.err .section-1 {
 		margin-top: 40px;
 	}
-
+	.Privacy .res-container{
+		padding: 0px 30px;
+	}
+	.Privacy p{
+		line-height: 1.6;
+	}
+	.Privacy h5{
+		line-height: 1.6;
+	}
+	.Privacy .Privacy-heading{
+		margin-top: 40px;
+	}
+	#Testimonial .testimonial-outer {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 60px;
+		margin-top: 60px;
+	}
+	#Testimonial .quote-section{
+		padding:0px;
+	} 
+	#Testimonial .quote-container{
+		width:100%;
+		padding:0px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	#Testimonial  .img-res{
+		/* width:100%; */
+		display: block;
+		margin: 0 auto;
+	}
+	
 }
-@media (min-width:375px) and (max-width:375px){
+@media (min-width:320px) and (max-width:320px){
+	.section-14 .footer-img2 {
+		min-height: 162px;
+		padding-left: 0px; 
+	}
+}
+	@media (min-width:375px) and (max-width:375px){
 	.section-7 .slider-sa {
 		min-height: 230px;
 		padding: 0px;
@@ -255,6 +293,10 @@
 }
 
 @media (min-width: 440px) and (max-width:768px) {
+	.footer-img2 {
+		padding-left: 0px;
+		min-height: 165px;
+	}
 	.section-9-left h4{margin-top:30px;}
 	.section-7-left h4{margin-top:30px;}
 	.section-7 .slider-sa{ min-height:330px;}
@@ -272,6 +314,9 @@
 	.img-container{padding:0px !important;}
 	.sec5-2 {position: relative; margin-top: -58%;left: 72%;width: 30%;float: left;}
 	.sec5-2-1{    width: 90%;float: left;margin-top: 40px;margin-left: -40px;}
+	#Testimonial .quote-container{
+		margin-top:50px;
+	}
 }
 @media (min-width:568px) and (max-width:568px){
 	.section-9-left h4 {
@@ -316,6 +361,9 @@
 		margin-left: -60px;
 	}
     .mobile-sec3 .sec3-box2{ text-align: center;}
+	#Testimonial .quote-container {
+		margin-top: 10px;
+	}
 }
 @media (min-width:640px) and (max-width:768px){
 	.section-7 .slider-sa {
@@ -537,10 +585,11 @@
 	.billing-white{width: 340px;}
 	.section-1{margin-top: 70px;}
 	.collag-right{margin-top: 80px;}
-    #pricing .section-1-right{padding-left: 25%; top:34%;}
+    #pricing .section-1-right{padding-left: 22%; top:34%;}
     #pricing .section-1{margin-top: 0px; padding-top: 10px;}
     #pricing .section-faq{ margin-top: 0%;}
     #pricing .pricing-text{ margin-top: 40%;}
+	#pricing .pricing-help .billing-plans-help{left:5%;}
 }
 
 
