@@ -141,7 +141,9 @@
 	.circle-value label{width:78px; height:78px; }
 	.circle-value em{left:45px;}
 	.circle-value p{width:73%;}
-	.sec9-test p{    margin-top: 2px;}
+	.sec9-test p{    
+		margin-top: 2px;
+	}
 	.sec9-test em.left { top:25px;}
 	.sec9-test em.right {}
 	.sec10-em11{display:block !important;}
@@ -330,13 +332,13 @@
 		top: -7%;
 	}
 	.section-7 .slider-sa {
-		min-height: 340px;
+		min-height: 320px;
 	}
 	.section-8 .slider-sa {
-		min-height: 340px;
+		min-height: 320px;
 	}
 	.section-9 .slider-sa {
-		min-height: 340px;
+		min-height: 320px;
 	}
 }
 @media (min-width: 600px) and (max-width:768px) {
@@ -367,13 +369,13 @@
 }
 @media (min-width:640px) and (max-width:768px){
 	.section-7 .slider-sa {
-		min-height: 410px;
+		min-height: 380px;
 	}
 	.section-8 .slider-sa {
-		min-height: 410px;
+		min-height: 380px;
 	}
 	.section-9 .slider-sa {
-		min-height: 410px;
+		min-height: 380px;
 	}	
 	.sec4-2 {
 		height: 495px;top: -30px;
@@ -474,6 +476,23 @@
 	.sec5-2 {
 	    margin-top: -54%;
 	}
+	.sec9-test p{    
+		margin-top: 2px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.sec9-test em.left{
+		left:-7px;
+	}
+	.sec9-test span.text-1{
+		margin-left:10px;
+	}
+	.sec9-test span.text-2{
+		margin-left:10px;
+	}
+}
+
+@media (min-width:1024px) and (max-width:1024px){
 	
 }
 @media (min-width: 1024px) and (max-width:1250px) {
