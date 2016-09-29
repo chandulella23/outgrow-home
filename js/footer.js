@@ -74,11 +74,11 @@ var footer = `<div class="container">
 		</div>
 		<div class="col-xs-12 np footer-social">
 			<ul>
-				<li><a href="javascript:void(0);">Facebook</a></li>
-				<li><a href="javascript:void(0);">Linkedin</a></li>
-				<li><a href="javascript:void(0);">Twitter</a></li>
+				<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
+				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>
 				<li><a href="javascript:void(0);">Contact Us</a></li>
-				<li><a href="javascript:void(0);">Careers</a></li>
+				<li><a href="http://resources.outgrow.co/about">Careers</a></li>
 			</ul>
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
