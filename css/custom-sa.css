@@ -69,7 +69,9 @@
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: 'liga';
 } */
-	
+.material-icons{
+	text-rendering: optimizeLegibility;
+}	
 @font-face {
     font-family: 'montserrat-bold';
     src: url('../fonts/montserrat-bold-webfont.eot');

@@ -56,17 +56,17 @@
 	.section-6-left span{ padding-left:10px;}
 	.section-6-right{ border:none; margin-top:40px;}
 	.section-7 { padding-bottom: 30px; margin-top:0px; padding-top:30px;}
-	.section-7 .slider-sa{ min-height:170px; padding: 0px 20px; margin-top:-30px;}
+	.section-7 .slider-sa{ min-height:200px; padding: 0px 20px; margin-top:-30px;}
 	.section-7 .section-runnigheading{ font-size: 30px; text-align: left;  line-height: 34px;}
 	.section-9-left {padding-right: 20px; padding-left: 20px;}
 	.circle-value{ width:33%;    padding: 0px;}
 	.section-8{ padding-bottom:30px;}
 	.section-9-right{ padding:0px 20px;}
-	.section-8 .slider-sa{ min-height:170px; padding: 0px 20px;}
+	.section-8 .slider-sa{ min-height:200px; padding: 0px 20px;}
 	.section-7-left { padding:0px 20px;}
 	.section-7-left1{padding:0px 20px;}
 	.section-9{ padding-bottom:60px; padding-top:0px;}
-	.section-9 .slider-sa{min-height: 170px;padding: 0px 20px;}
+	.section-9 .slider-sa{min-height: 200px;padding: 0px 20px;}
 	.section-10{ margin-bottom:30px; }
 	.sec10-testimonial {margin: 0 auto;width: 100%;display: inline-block; padding-top: 30px; margin-bottom: 40px;text-align: center;}
 	.sec10-testimonial label {float: none;text-align: center;padding-top: 5px;}
@@ -98,12 +98,12 @@
 	.section-11{ margin-top:0px;}
 	.section-11 .section-runnigheading{ font-size:40px; text-align:center; font-family:montserratultra_light;}
 	.billing-table{ padding-left:0px; margin-top:0px;}
-	.billing-grey {box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.18); width: 100%; margin-bottom:60px;}
+	.billing-grey {box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.18); width: 100%; margin-bottom:30px;}
 	.billing-grey-bottom ul.billing-list{ text-align:center; padding-left:0px;}
 	.billing-grey-bottom .billing-list .mat-icon{ float:none;}
 	.billing-grey-bottom .billing-list .mat-icon:after {display: block; float: none; line-height:normal;}
 	.billing-grey-bottom .billing-list .unselected .mat-icon:after { display: block; float: none;}
-	.billing-white {box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.18); width: 100%; margin-bottom: 30px;margin-top: 30px;}
+	.billing-white {box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.18); width: 100%; margin-bottom: 30px;margin-top: 0px;}
 	.billing-white-bottom ul.billing-list{ text-align:center;  padding-left:0px;}
 	.billing-white-bottom .billing-list .mat-icon{ float:none;}
 	.billing-white-bottom .billing-list .mat-icon:after {display: block; float: none; line-height:normal;}
