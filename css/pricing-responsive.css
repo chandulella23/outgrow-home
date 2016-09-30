@@ -178,7 +178,6 @@
 		margin: 0 auto;
 	}
 	#pricing .pricing-headingtop {
-		min-height: 50px;
 		padding-bottom: 25px;
 	}
 	#pricing .section-1-right {
@@ -228,9 +227,10 @@
 	#pricing .billing-white{
 		width:290px;
 		margin-right: 0px;
+		margin-top:0px;
 	}
 	#pricing .container-faqs {
-		width: 830px;
+		width: 900px;
 		margin: 0 auto;
 	}
 	#pricing .pricing-text {
@@ -239,6 +239,20 @@
 	}
 	#pricing .section-1-right {
 		padding-left: 8%;
+		padding-top: 15px;
+		position: absolute;
+		top: 40%;
+		float: left;
+		width: 100%;
+	}
+	#pricing .pricing-help .billing-plans-help{
+		font-size: 10px;
+		position: absolute;
+		bottom: -600px;
+	}
+	#pricing .pricing-text {
+		position: relative;
+		margin-top: 65%;
 	}
 }
 
