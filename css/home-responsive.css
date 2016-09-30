@@ -387,6 +387,7 @@
 	.section-1-left .btn-buildcal {
 		width: 100%;
 		font-size: 18px;
+        padding: 13px 15px;
 	}
 	.sec4-2 {
 		height: 505px;
@@ -905,7 +906,7 @@
 	.section-1-left h3{ font-size: 40px;line-height: 50px; }
 	.section-1-left h3.section1-firsthead{ font-size: 40px;line-height: 50px; }
 	.section-1-left h4{font-size: 30px; line-height: 40px;}
-	.section-1-left .btn-buildcal{ padding: 15px 30px; font-size: 18px;}
+	.section-1-left .btn-buildcal{ padding: 15px 80px; font-size: 18px;}
 	.custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
 	.custom-navbar.navbar-default{ padding-top: 25px;}
 	.section-1-left .btn-bottominfo span{font-size: 16px;}
@@ -919,7 +920,7 @@
 	.section-1-left h3{ font-size: 46px;line-height: 55px; }
 	.section-1-left h3.section1-firsthead{ font-size: 46px;line-height: 55px; }
     .section-1-left h4{font-size: 34px; line-height: 45px; margin-top:60px;}
-	.section-1-left .btn-buildcal{ padding: 15px 35px; font-size: 20px;}
+	.section-1-left .btn-buildcal{ padding: 15px 105px; font-size: 20px;}
 	.custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
 	.custom-navbar.navbar-default{ padding-top: 25px;}
 	.section-1-left .btn-bottominfo span{font-size: 16px;}
