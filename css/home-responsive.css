@@ -840,6 +840,17 @@
 	}
 	
 }
+@media (min-width:910px) and (max-width:989px){
+	.section-7 .slider-sa {
+		min-height: 560px;
+	}
+	.section-8 .slider-sa {
+		min-height: 560px;
+	}
+	.section-9 .slider-sa {
+		min-height: 560px;
+	}
+}
 @media (min-width:990px) and (max-width:990px){
 	.circle-value {
 		float: left;
