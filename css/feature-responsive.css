@@ -901,6 +901,60 @@
 		padding:7px;
 	}
 }
+@media (min-width:991px) and (max-width:1023px){
+	#feature .section-f1-left {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	#feature .secf2-2{
+		left:36%;
+	}
+	#feature .section-f2-left {
+		padding-left: 60px;
+	}
+	#feature .sec15-2{
+		left:0px;
+	}
+	#feature .section-15-left {
+		padding-right: 60px;
+	}
+	#feature .sec17-2-1 {
+		position: relative;
+		left: 0%;
+	}
+	#feature .section-17-left {
+		padding-left: 50px;
+	}
+	#feature .secf3-2{
+		left:36%;
+	}
+	#feature .section-f3-left {
+		padding-left: 20px;
+	}
+	#feature .section-f4-left {
+		padding-left: 50px;
+	}
+	#feature .section-4-left {
+		padding-left: 20px;
+	}
+	#feature .section-f2-left .section-f2-new span i{
+		margin-right:10px;
+	}
+	#feature .section-f3-left .section-f3-new span i{
+		margin-right:10px;
+	}
+	#feature .section-f4-left .section-f4-new span i{
+		margin-right:10px;
+	}
+	#feature .section-4-left .section-4-new span i{
+		margin-right:10px;
+	}
+	.footer-img2 {
+		min-height: 170px;
+		float: left;
+		margin-bottom: 15px;
+	}
+}
 @media (min-width:1024px) and (max-width:1024px){
 	#feature .section-f1-left {
 		padding-right: 60px;
@@ -932,10 +986,63 @@
 	}
 	.footer-img2 {
 		min-height: 160px;
-	   
+	}
 }
+@media (min-width: 1024px) and (max-width: 1200px) {
+	#feature .section-f1-left {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	#feature .secf2-2{
+		left:36%;
+	}
+	#feature .section-f2-left {
+		padding-left: 60px;
+	}
+	#feature .sec15-2{
+		left:0px;
+	}
+	#feature .section-15-left {
+		padding-right: 60px;
+	}
+	#feature .sec17-2-1 {
+		position: relative;
+		left: 0%;
+	}
+	#feature .section-17-left {
+		padding-left: 50px;
+	}
+	#feature .secf3-2{
+		left:36%;
+	}
+	#feature .section-f3-left {
+		padding-left: 20px;
+	}
+	#feature .section-f4-left {
+		padding-left: 50px;
+	}
+	#feature .section-4-left {
+		padding-left: 20px;
+	}
+	#feature .section-f2-left .section-f2-new span i{
+		margin-right:10px;
+	}
+	#feature .section-f3-left .section-f3-new span i{
+		margin-right:10px;
+	}
+	#feature .section-f4-left .section-f4-new span i{
+		margin-right:10px;
+	}
+	#feature .section-4-left .section-4-new span i{
+		margin-right:10px;
+	}
+	.footer-img2 {
+		min-height: 170px;
+		float: left;
+		margin-bottom: 15px;
+	}
 }
-@media (max-width: 1250px) and (min-width: 1024px){
+@media (min-width: 1024px) and (max-width: 1250px) {
 	.container-fluid > .navbar-header {
 		margin-left: -30px;
 	}

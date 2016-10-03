@@ -15,7 +15,6 @@
 	}
 	#pricing .billing-grey {
 		margin-top: -60px;
-		margin-bottom:0px;
 	}
 	#pricing .billing-grey-bottom .billing-list .list-name{
 		padding-left:0px;
@@ -179,9 +178,8 @@
 		margin: 0 auto;
 	}
 	#pricing .pricing-headingtop {
-    min-height: 50px;
-    padding-bottom: 25px;
-}
+		padding-bottom: 25px;
+	}
 	#pricing .section-1-right {
 		margin-left: 0px;
 	}
@@ -202,8 +200,8 @@
 	#pricing .pricing-help .billing-plans-help {
 		font-size: 10px;
 		position: absolute;
-		bottom: 10px;
-		left: -90px;
+		bottom: 30px;
+		left: -100px;
 	}
 	#pricing .section-1-right {
 		position: relative;
@@ -229,17 +227,32 @@
 	#pricing .billing-white{
 		width:290px;
 		margin-right: 0px;
+		margin-top:0px;
 	}
 	#pricing .container-faqs {
-		width: 830px;
+		width: 900px;
 		margin: 0 auto;
 	}
 	#pricing .pricing-text {
 		position: relative;
-		margin-top: 76%;
+		margin-top: 0%;
 	}
 	#pricing .section-1-right {
 		padding-left: 8%;
+		padding-top: 15px;
+		position: absolute;
+		top: 40%;
+		float: left;
+		width: 100%;
+	}
+	#pricing .pricing-help .billing-plans-help{
+		font-size: 10px;
+		position: absolute;
+		bottom: -600px;
+	}
+	#pricing .pricing-text {
+		position: relative;
+		margin-top: 65%;
 	}
 }
 
@@ -250,7 +263,7 @@
 	}
 	#pricing .pricing-text {
 		position: relative;
-		margin-top: 58%;
+		margin-top: 53%;
 	}
 }
 @media (min-width: 1280px) and (max-width:1280px) {
