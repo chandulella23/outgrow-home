@@ -892,6 +892,14 @@
 	.section-5-left span span{
 		width:75%;
 	}
+	.custom-navbar.navbar-default .navbar-nav > li {
+		margin-right: 10px;
+	}
+	.custom-navbar.navbar-default .navbar-nav > li > a {
+		font-size: 13px;
+		color: #62696d;
+		text-transform: uppercase;
+	}
 }
 @media (min-width: 1024px) and (max-width:1250px) {
 	.navbar-right {

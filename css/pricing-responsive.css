@@ -168,7 +168,6 @@
 	}
 }
 @media (min-width: 993px) and (max-width:1024px) {
-	
 	#pricing .loader{
 		margin-left: 38%;
 		color:#fb6c73;
@@ -179,6 +178,7 @@
 	}
 	#pricing .pricing-headingtop {
 		padding-bottom: 25px;
+		min-height: 200px;
 	}
 	#pricing .section-1-right {
 		margin-left: 0px;
@@ -207,6 +207,10 @@
 		position: relative;
 		padding-left: 65px;
 		padding-right: 25px;
+	}
+	#pricing .loader {
+		margin-left: 32%;
+		color: #fb6c73;
 	}
 }
 @media (min-width: 1024px) and (max-width:1024px) {

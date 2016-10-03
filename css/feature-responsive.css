@@ -954,6 +954,12 @@
 		float: left;
 		margin-bottom: 15px;
 	}
+	#feature .custom-navbar.navbar-default .navbar-nav > li {
+		margin-right: 10px;
+	}
+	#feature .custom-navbar.navbar-default .navbar-nav > li > a {
+		font-size: 13px;
+	}
 }
 @media (min-width:1024px) and (max-width:1024px){
 	#feature .section-f1-left {
