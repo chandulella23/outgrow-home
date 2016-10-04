@@ -1910,8 +1910,8 @@ label {
 	margin-top: 30px;
 }
 .bg1-img{
-	background: url("../images/strtFreetrial.jpg");
-    background-repeat: no-repeat;
+	background: url("../images/strtFreeTrial.jpg");
+	background-repeat: no-repeat;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
