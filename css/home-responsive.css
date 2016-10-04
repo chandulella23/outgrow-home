@@ -170,7 +170,7 @@
 	.mobile-container{padding:0 20px;}
 	.img-container{padding:0px !important;}
     .footer-img2text{ padding-left: 0px;}
-    .footer-img2{padding-left: 0px; min-height: 155px;}
+    .footer-img2{padding-left: 0px; min-height: 165px;}
     .billingpricing-text p{margin: 0px; margin-bottom: 45px;}
 	.vc_row{margin-left:0px !important; margin-right:0px !important;}
 	.section-9-left h4{margin-top:30px;  font-size: 24px;}
@@ -178,6 +178,8 @@
 	.section-13 .section-2-heading {margin-bottom: 30px;}
 	.section-7-top{padding-top:0px;}
     .useCase-heading{ margin-top: 25px; }
+	.start-trial-cta .btn-buildcal { padding: 5px 5px;}
+	.start-trial-cta .btn-buildcal{font-size:12px;}
     /* why resp*/
     #why .section-top-why h3{ font-size: 20px;line-height: normal;}
 	.billing-plan-list{
