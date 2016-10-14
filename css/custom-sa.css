@@ -1855,7 +1855,80 @@ label {
     padding-left: 40px;
 }
 
-
+.portfolio_title_custom{
+	font-size: 12px;
+	box-shadow: 6px 6px 3px rgba(0, 0, 0, .04);
+	opacity: 1;
+	z-index: 10;
+    background-color: #fff;
+    bottom: 5%;
+    left: -4%;
+    position: absolute;
+}
+.projects_holder article a.portfolio_link_class, .projects_masonry_holder article a.portfolio_link_class{
+	cursor:default;
+}
+.start-trial-cta .btn-buildcal {
+    background: #fb6c73;
+    border: 2px solid #fb6c73;
+    color: #fff;
+    float: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 13px 45px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+	vertical-align:middle;
+}
+.start-trial-cta .btn-buildcal:hover {
+   /*  background: none;
+    border: 2px solid #fb6c73;
+    color: #fb6c73; */
+}
+.start-trial-cta .btn-buildcal i {
+	display: inline-block;
+    float: left;
+    margin-right: 10px;
+	position: relative;
+    top: 3px;
+}
+.start-trial-cta  label{
+	float: none;
+    width: 100%;
+    color: #8e989f;
+    font-size: 12px;
+    font-family: montserratlight;
+}
+.start-trial-cta .btn-buildcal p{
+	float: left;
+    margin: 0;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.start-trial-cta{
+	margin:0px;
+	margin-top: 30px;
+}
+.bg1-img{
+	background: url("../images/strtFreeTrial.jpg");
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align:center;
+	padding: 70px 0px;
+}
+.portfolio_main_holder .item_holder .portfolio_title {
+    margin-bottom: 15px;
+    margin: 15px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.portfolio_main_holder .item_holder.flip_from_left .portfolio_title_custom .portfolio_title a {
+    color: #222;
+    vertical-align: middle;
+}
 /* End: Billing table */
 
 .section-12{
@@ -1874,7 +1947,7 @@ label {
     width: 100%;
     margin-top: 0px;
     padding-top: 70px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     margin-bottom: 0px;
     background: #f7f7f8;
 }
@@ -2733,8 +2806,6 @@ button.swiper-pagination-bullet {
 
 /* # sa-animation.css */ 
 
-
-
 /*################### Feature css start ###################*/
 
 #feature .section-1-right{
@@ -3567,11 +3638,11 @@ button.swiper-pagination-bullet {
     float: left;
     margin-right: 10px;
 }
-#feature .f-btn-text{
+/* #feature .f-btn-text{
 	position:relative;
 	top:3px;
 }
-
+ */
 #feature .section-6.sec-integration .btn-startBuildingCalc {
     background: #62696d;
     border: none;
@@ -3631,7 +3702,7 @@ button.swiper-pagination-bullet {
     margin: 0 auto;
     display: block;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 #feature .sec-analytics .dots {
@@ -3884,6 +3955,66 @@ button.swiper-pagination-bullet {
     position: relative;
     margin-right: 20px;
     float: left;
+}
+#feature .img-style{
+	width:80%;
+}
+#feature .section-10 .btn-startBuildingCalc {
+    background: #62696d;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: montserratregular;
+}
+#feature .section-10 .btn-startBuildingCalc i {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+#feature .section.section-10.sec-help .start-trial-cta{
+	margin-top:50px !important;
+}
+#feature .section.section-10.sec-help .start-trial-cta .btn-buildcal {
+	background: #fff;
+    border: none;
+    color: #62696d;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    font-family: montserratregular;
+}
+
+#feature .section.section-10.sec-help .start-trial-cta .btn-buildcal i.material-icons {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 24px;
+    width: auto;
+	padding-top:0px;
+	color: #62696d;
+}
+#feature .section.section-10.sec-help .start-trial-cta  label{
+	float: none;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    font-family: montserratlight;
+}
+#feature .section.section-10.sec-help .start-trial-cta .btn-buildcal p{
+	width: auto;
+    display: inline-block;
+    float: none;
+    line-height: 23px;
+    vertical-align: middle;
+	padding-top:0px;
+	color: #62696d;
 }
 .box-shadow{
     box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.4);
@@ -4660,7 +4791,20 @@ button.swiper-pagination-bullet {
   stroke-dashoffset: 440;
   transition: all 1s linear;
 }
-
+#why .start-trial-cta  label{
+	float: none;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    font-family: montserratlight;
+}
+.usecase .start-trial-cta  label{
+	float: none;
+    width: 100%;
+    color: #fff !important;
+    font-size: 12px;
+    font-family: montserratlight;
+}
 .video-wrapper {
 	position: relative;
 	float: left;
@@ -4734,7 +4878,7 @@ iframe{
 
 
 
-/*Pricing Page CSS Starts*/
+/*Pricing Page CSS Starts */
 #pricing .section-1-left h4{
 	float: left;
     width: 100%;
@@ -4876,8 +5020,7 @@ iframe{
 #pricing .pricing-headingtop{
     float: left;
     background: #fb6c73;
-    /*min-height:485px;*/
-    min-height: 557px;
+     min-height: 557px;
 }
 #pricing .pricing-headingtop h3{
     display: inline-block;
@@ -4903,14 +5046,12 @@ iframe{
 }
 #pricing .billing-grey{
     box-shadow: 0px -8px 19px 3px rgba(60,60,60,0.29);
-    /* border-top: 1px solid #fff; */
 }
 #pricing .custom-navbar.navbar-default{
     margin-bottom: 0px;
 }
 #pricing .section-faq{
-    /* margin-top: 40%; */
-	margin-top:0px;
+   margin-top:0px;
 }
 #pricing .pricing-text{
 	position: relative;
@@ -5291,3 +5432,40 @@ iframe{
 		margin: 0 auto;
 	}
 	/* Testimonial Page CSS Ends*/
+
+.ripple{
+  overflow:hidden;
+}
+.ripple:hover{
+	z-index:1000;
+	box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+	-moz-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+}
+.ripple-effect{
+	position: absolute;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background: white;
+	animation: ripple-animation 2s;
+}
+/* #feature .ripple-effect{
+	position: absolute;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background: #8e989f;
+	animation: ripple-animation 2s;
+}
+ */
+@keyframes ripple-animation {
+    from {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    to {
+      transform: scale(100);
+      opacity: 0;
+    }
+}

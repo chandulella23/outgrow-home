@@ -94,7 +94,9 @@ jQuery(document).ready(function() {
 	var login = `<a href="http://app.outgrow.`+ext+`/login" class="link-login params" onclick="callGA('LOGIN')">
 				Login
 			</a>`;
-	var loginAnchor = '//app.outgrow.'+ext+'/login';
+	var loginAnchor = `//app.outgrow.`+ext+`/login`;
+	var trialAnchor = '//app.outgrow.'+ext+'/';
+	var signUp = `<a id="signUpAnchorText" class="link-login" href="`+trialAnchor+`" class="link-login params">Start trial</a>`;
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
@@ -102,10 +104,12 @@ jQuery(document).ready(function() {
 	}else{
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Login');
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
+		jQuery('#signUp').html(signUp);
 	}
 	jQuery('#footer').html(footer);
 	jQuery('#login').html(login);
 	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
+	jQuery(document.getElementById('trialAnchor')).prop('href',trialAnchor);
 	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);
 
 	function readCookie(name) {

@@ -170,7 +170,7 @@
 	.mobile-container{padding:0 20px;}
 	.img-container{padding:0px !important;}
     .footer-img2text{ padding-left: 0px;}
-    .footer-img2{padding-left: 0px; min-height: 155px;}
+    .footer-img2{padding-left: 0px; min-height: 165px;}
     .billingpricing-text p{margin: 0px; margin-bottom: 45px;}
 	.vc_row{margin-left:0px !important; margin-right:0px !important;}
 	.section-9-left h4{margin-top:30px;  font-size: 24px;}
@@ -178,6 +178,8 @@
 	.section-13 .section-2-heading {margin-bottom: 30px;}
 	.section-7-top{padding-top:0px;}
     .useCase-heading{ margin-top: 25px; }
+	.start-trial-cta .btn-buildcal { padding: 5px 5px;}
+	.start-trial-cta .btn-buildcal{font-size:12px;}
     /* why resp*/
     #why .section-top-why h3{ font-size: 20px;line-height: normal;}
 	.billing-plan-list{
@@ -245,20 +247,20 @@
 		padding: 0px;
 	}	
 }
-/* @media (min-width:380px) and (max-width:439px){
+@media (min-width:380px) and (max-width:439px){
 	.section-7 .slider-sa {
-		min-height: 320px;
+		min-height: 300px;
 		padding: 0px;
 	}
 	.section-8 .slider-sa {
-		min-height: 320px;
+		min-height: 300px;
 		padding: 0px;
 	}
 	.section-9 .slider-sa {
-		min-height: 320px;
+		min-height: 300px;
 		padding: 0px;
 	}	
-} */
+}
 @media (min-width: 384px) and (max-width:384px) {
 	.section-7 .slider-sa {
 		min-height: 230px;
@@ -302,9 +304,9 @@
 	}
 	.section-9-left h4{margin-top:30px;}
 	.section-7-left h4{margin-top:30px;}
-	.section-7 .slider-sa{ min-height:270px;}
-	.section-8 .slider-sa{ min-height:270px;}
-	.section-9 .slider-sa{ min-height:270px;}
+	.section-7 .slider-sa{ min-height:320px;}
+	.section-8 .slider-sa{ min-height:320px;}
+	.section-9 .slider-sa{ min-height:320px;}
 	.sec4-2{height:325px;}
 	.section-4-left span i {margin-top: 0px;}
 	.section-4-left span span{margin-top:2px;}
@@ -370,17 +372,30 @@
 }
 @media (min-width:640px) and (max-width:768px){
 	.section-7 .slider-sa {
-		min-height: 360px;
+		min-height: 390px;
 	}
 	.section-8 .slider-sa {
-		min-height: 360px;
+		min-height: 390px;
 	}
 	.section-9 .slider-sa {
-		min-height: 360px;
+		min-height: 390px;
 	}	
 	.sec4-2 {
 		height: 445px;top: -30px;
 	}
+	.w100{width:100%;}
+}
+@media (min-width:690px) and (max-width:768px){
+	.section-7 .slider-sa {
+		min-height: 440px;
+	}
+	.section-8 .slider-sa {
+		min-height: 440px;
+	}
+	.section-9 .slider-sa {
+		min-height: 440px;
+	}	
+	
 	.w100{width:100%;}
 }
 @media (min-width: 768px) and (max-width:768px){
@@ -493,6 +508,7 @@
 		margin-left:10px;
 	}
 }
+
 
 @media (min-width:769px) and (max-width:990px){
 	.section-1-left .btn-buildcal {
@@ -698,7 +714,9 @@
 	.section-11{ margin-top:0px;}
 	.section-11 .section-runnigheading{ font-size:40px; text-align:center; font-family:montserratultra_light;}
 	.billing-table{ padding-left:0px; margin-top:0px;}
-	.billing-grey {box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.18); width: 100%; margin-bottom:60px;}
+	.billing-grey {box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.18); width: 100%; margin-bottom:0px;}
+	.index-help .billing-plans-help{bottom:-30px;}
+	.billingpricing-text{margin-top:50px;}
 	.billing-grey-bottom ul.billing-list{ text-align:center; padding-left:0px;}
 	.billing-grey-bottom .billing-list .mat-icon{ float:none;}
 	.billing-grey-bottom .billing-list .mat-icon:after {display: block; float: none; line-height:normal;}
@@ -824,7 +842,39 @@
 	}
 	
 }
-@media (min-width:990px) and (max-width:1023px){
+@media (min-width:910px) and (max-width:989px){
+	.section-7 .slider-sa {
+		min-height: 560px;
+	}
+	.section-8 .slider-sa {
+		min-height: 560px;
+	}
+	.section-9 .slider-sa {
+		min-height: 560px;
+	}
+}
+@media (min-width:990px) and (max-width:990px){
+	.circle-value {
+		float: left;
+		margin-top: 15px;
+		width: 15%;
+		padding: 0px 10px;
+	}
+	.circle-value em {
+		left: 53px;
+		color: #bec5c9;
+	}
+	.section-7 .slider-sa {
+		min-height: 570px;
+	}
+	.section-8 .slider-sa {
+		min-height: 570px;
+	}
+	.section-9 .slider-sa {
+		min-height: 570px;
+	}	
+}
+@media (min-width:991px) and (max-width:1023px){
 	.circle-value {
 		float: left;
 		margin-top: 15px;
@@ -834,6 +884,23 @@
 		min-height: 170px;
 		float: left;
 		margin-bottom: 15px;
+	}
+	.section-1-left .btn-buildcal{
+		padding: 13px 65px;
+	}
+	.section-4-left span span{
+		width:75%;
+	}
+	.section-5-left span span{
+		width:75%;
+	}
+	.custom-navbar.navbar-default .navbar-nav > li {
+		margin-right: 10px;
+	}
+	.custom-navbar.navbar-default .navbar-nav > li > a {
+		font-size: 13px;
+		color: #62696d;
+		text-transform: uppercase;
 	}
 }
 @media (min-width: 1024px) and (max-width:1250px) {
