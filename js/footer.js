@@ -9,6 +9,7 @@ var footer = `<div class="container">
 				<li><a href="pricing.html" onclick="callGA('PRICINGF')" class="params">Pricing</a></li>
 				<li><a href="http://resources.outgrow.co/" onclick="callGA('RESOURCEF')" class="params">Resources</a></li>
 				<li><a href="http://resources.outgrow.co/about" onclick="callGA('ABOUTF')" class="params">About</a></li>
+				<li><a href="https://outgrow.leaddyno.com/" onclick="" class="params">Affiliates</a></li>
 				<li><a href="privacy_policy.html" onclick="callGA('PRIVACYF')" class="params">Privacy Policy</a></li>
 				<li><a href="tos.html" onclick="callGA('TERMSF')" class="params">Terms of Services</a></li>
 			</ul>
