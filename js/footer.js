@@ -97,7 +97,7 @@ jQuery(document).ready(function() {
 			</a>`;
 	var loginAnchor = `//app.outgrow.`+ext+`/login`;
 	var trialAnchor = '//app.outgrow.'+ext+'/';
-	var signUp = `<a id="signUpAnchorText" class="link-login" href="`+trialAnchor+`" class="link-login params">Start trial</a>`;
+	var signUp = `<a id="signUpAnchorText" class="link-login" href="`+trialAnchor+`" class="link-login params">Sign up</a>`;
 	if(readCookie('storage')){
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
