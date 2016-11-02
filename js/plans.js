@@ -226,7 +226,7 @@ var displayPlans = function(){
 					}
 				}
 				cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="http://app.outgrow.`+ext+`/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners params">Start Trial</a>
+								<a href="http://app.outgrow.`+ext+`/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners params">Sign up</a>
 							</div>`;
 				if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'business'){
 					mostPopular = '<span class="ribbon">Most Popular</span>';
