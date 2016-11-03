@@ -1,6 +1,10 @@
 var e = document.getElementById('og-iframe-container');
 var u = e.getAttribute('data-url');
 var w = e.getAttribute('data-width');
+var b = document.getElementsByTagName("body")[0];
+
+//Resize function body
+b.setAttribute("onresize", "ogOnLoadHandler();");
 
 //The main Iframe
 var iFrame = document.createElement("iframe");
@@ -8,7 +12,6 @@ iFrame.setAttribute("id","og-iframe");
 iFrame.setAttribute("src", u);
 iFrame.setAttribute("width", w);
 iFrame.setAttribute("onload", "ogOnLoadHandler();");
-iFrame.setAttribute("onresize", "ogOnLoadHandler();");
 e.appendChild(iFrame);
 
 //ogOnLoadHandler
