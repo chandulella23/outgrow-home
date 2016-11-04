@@ -96,7 +96,17 @@
 
 	<script src="https://cdn.optimizely.com/js/7042601109.js"></script>
 
-
+	<!-- Hotjar Tracking Code for https://outgrow.co/ -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:326902,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
 
 	<script type="text/javascript">var _kmq = _kmq || [];
 		var _kmk = _kmk || trackerProp.kissmetrics;
@@ -231,22 +241,22 @@
 		appendParamsToUrl();
 	});
 	function appendParamsToUrl() {
-        var param = '';
-        var url = window.location.href;
-        var paramArray = url.split('?');
-        if(typeof paramArray[1] !== "undefined") {
-            param = '?'+paramArray[1];
-        }
+		var param = '';
+		var url = window.location.href;
+		var paramArray = url.split('?');
+		if(typeof paramArray[1] !== "undefined") {
+			param = '?'+paramArray[1];
+		}
 
-        jQuery('.params').each(function() {
-            var href = jQuery(this).prop('href');
+		jQuery('.params').each(function() {
+			var href = jQuery(this).prop('href');
 			var pattern = /javascript/;
 			if(!pattern.test(href)) {
 				href+=param;
 				jQuery(this).prop('href',href);
 			}
-        });
-    }
+		});
+	}
 	</script>
 	<script>
 		jQuery(window).scroll(function() {
