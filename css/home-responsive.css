@@ -225,6 +225,7 @@
 		display: block;
 		margin: 0 auto;
 	}
+    
 	
 }
 @media (min-width:320px) and (max-width:320px){
@@ -232,12 +233,14 @@
 		min-height: 162px;
 		padding-left: 0px; 
 	}
+   
 }
 	@media (min-width:375px) and (max-width:375px){
 	.section-7 .slider-sa {
 		min-height: 230px;
 		padding: 0px;
 	}
+     
 	.section-8 .slider-sa {
 		min-height: 230px;
 		padding: 0px;
@@ -507,6 +510,7 @@
 	.sec9-test span.text-2{
 		margin-left:10px;
 	}
+    
 }
 
 

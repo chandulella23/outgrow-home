@@ -297,7 +297,15 @@ label {
     font-family: montserratlight;
 }
 
-
+/*.help-text {
+    width: 74%;
+    float: left;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: rgba(98,105,109,1);
+    font-size: 13px;
+    padding: 0 15px;
+}*/
 
 .section-1-right{
     padding-right: 0px;
@@ -642,9 +650,12 @@ label {
     transition: .5s ease-in-out;
 }
 .section-3 .btn-buildcal:hover{
-    background:none;
+    /*background:none;
 	border:2px solid #fb6c73;
-	color:#fb6c73;
+	color:#fb6c73;*/
+    background: #fdb6b9;
+    color: #fb545b;
+    border-color: #fdb6b9;
 }
 .section-3 .btn-buildcal p{
     float: left;
@@ -836,9 +847,12 @@ label {
     transition: .5s ease-in-out;
 }
 .section-6 .btn-buildcal:hover{
-    background:none;
+    /*background:none;
 	border:2px solid #fb6c73;
-	color:#fb6c73;
+	color:#fb6c73;*/
+    background: #fdb6b9;
+    color: #fb545b;
+    border-color: #fdb6b9;
 }
 .section-6 .btn-buildcal p{
     float: left;
@@ -1884,6 +1898,9 @@ label {
    /*  background: none;
     border: 2px solid #fb6c73;
     color: #fb6c73; */
+    background: #fdb6b9;
+    color: #fb545b;
+    border-color: #fdb6b9;
 }
 .start-trial-cta .btn-buildcal i {
 	display: inline-block;
