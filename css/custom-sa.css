@@ -258,8 +258,8 @@ label {
     float: left;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 13px 25px;
-    margin-top: 50px;
+    padding: 13px 85px;
+    margin-top: 20px;
     border: 2px solid #62696d;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
@@ -297,34 +297,7 @@ label {
     font-size: 12px;
     font-family: montserratlight;
 }
-.section-1-left .btn-Launch{
-    background: #fb545b;
-    border: 2px solid #fb6c73;
-    color: #fff;
-    float: none;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 13px 30px;
-    margin-top: 50px;
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-}
-.section-1-left .btn-Launch:hover
-{
-    background: #fdb6b9;
-    color: #fb545b;
-    border-color: #fdb6b9;
-}
-.section-1-left .btn-Launch i {
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-.section-1-left .cta-text{
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
+
 /*.help-text {
     width: 74%;
     float: left;

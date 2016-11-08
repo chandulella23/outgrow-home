@@ -45,19 +45,13 @@ jQuery(document).ready(function() {
 	});
 
 	var btn = `<a href="http://app.outgrow.`+ext+`" class="params">
-							<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal mk-animate-element fade-in">
-								<i class="material-icons">blur_circular</i><div class="cta-text">Calculate ROI</div></button>
+
+							<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let's Build One!</button>
 						</a>
 						<div class="btn-bottominfo mk-animate-element fade-in">
 						</div>`;
 	jQuery('#btnBuildCalc').html(btn);
-	var launch_btn = `<a href="http://app.outgrow.`+ext+`" class="params">
-							<button onclick="callGA('LAUNCH DEMO CTA')" class="btn-Launch mk-animate-element fade-in">
-							<i class="material-icons">call_made</i><div class="cta-text">Launch Demo</div></button>
-						</a>
-						<div class="btn-bottominfo mk-animate-element fade-in">
-						</div>`;
-	jQuery('#btnLaunchDemo').html(launch_btn);
+
 });
 
 var getAllPlans = function () {
