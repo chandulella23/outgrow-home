@@ -11,8 +11,9 @@
 	.section-1-left{ padding-left:20px; padding-right: 20px;}
 	.section-1-left input{ width:100%;}
 	.section1-left-cell{ height: 21vh;}
-	.section-1-left .btn-buildcal i { display: inline-block; float: none; position: relative; margin-right: 10px; top: 5px;}
+	.section-1-left .btn-buildcal i { display: inline-block; float: none; position: relative; margin-right: 10px; top: 5px; font-size:20px;}
 	.section-1-left .btn-buildcal{ width:100%; font-size:15px; padding: 10px;}
+
 	.section-1-left .btn-bottominfo{ width:96%;}
 	.section-1-right{ padding-left:0px;}
 	.sec1-box-left{ float:left; width:100%; margin-top:40px;padding: 0 20px;}
