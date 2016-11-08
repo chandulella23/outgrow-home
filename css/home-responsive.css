@@ -912,22 +912,27 @@
 	}
     .section-1-left .btn-Launch {
         width: 100%;
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 20px;
+        padding: 13px 12px;
     }
     .section-1-left .btn-Launch i {
-        display: inline-block;
+        /*display: inline-block;
         float: none;
         position: relative;
         margin-right: 10px;
-        top: 5px;
+        top: 5px;*/
+        display: inline-block;
+        font-size: 19px;
     }
      .section-1-left .btn-buildcal i {
-        display: inline-block;
+        /*display: inline-block;
         float: none;
         position: relative;
         margin-right: 10px;
-        top: 5px;
+        top: 5px;*/
+        display: inline-block;
+        font-size: 19px;
     }
 	.circle-value {
 		float: left;

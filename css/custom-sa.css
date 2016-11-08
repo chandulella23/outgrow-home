@@ -263,6 +263,7 @@ label {
     border: 2px solid #62696d;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+    margin-left: 10px;
 }
 .section-1-left .btn-buildcal:hover
 {
@@ -316,8 +317,13 @@ label {
 }
 .section-1-left .btn-Launch i {
     display: inline-block;
-    float: left;
     margin-right: 10px;
+    vertical-align: middle;
+}
+.section-1-left .cta-text{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 /*.help-text {
     width: 74%;
