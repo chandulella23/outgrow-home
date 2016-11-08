@@ -275,6 +275,30 @@ label {
     float:left;
     margin-right: 10px;
 }
+.section-1-left .btn-buildcal.red{
+    background: #fb545b;
+    border: none;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 13px 85px;
+    margin-top: 20px;
+    border: 2px solid #fb545b;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.section-1-left .btn-buildcal.red:hover
+{
+    background: none;
+    border: 2px solid #fb545b;
+    color: #fb545b;
+}
+.section-1-left .btn-buildcal.red i{
+    display: inline-block;
+    float:left;
+    margin-right: 10px;
+}
 .section-1-left .btn-bottominfo{
     float: left;
     width: 74%;
