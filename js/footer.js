@@ -99,7 +99,7 @@ jQuery(document).ready(function() {
 	var trialAnchor = '//app.outgrow.'+ext+'/';
 	var signUp = `<a id="signUpAnchorText" class="link-login" href="`+trialAnchor+`" class="link-login params">Sign up</a>`;
 	if(readCookie('storage')){
-		var storage = readCookie('storage');
+		var storage = JSON.parse(readCookie('storage'));
 		console.log('storesdsajdbas dnkhksjd, lsajkdn ,nkbh ',storage);
 		console.log('companies',storage.companyList);
 		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
