@@ -256,13 +256,14 @@ label {
     border: none;
     color: #fff;
     float: left;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
-    padding: 13px 85px;
+    padding: 13px 30px;
     margin-top: 20px;
     border: 2px solid #62696d;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+    margin-right: 20px;
 }
 .section-1-left .btn-buildcal:hover
 {
@@ -274,15 +275,16 @@ label {
     display: inline-block;
     float:left;
     margin-right: 10px;
+    font-size: 20px;
 }
 .section-1-left .btn-buildcal.red{
     background: #fb545b;
     border: none;
     color: #fff;
     float: left;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
-    padding: 13px 85px;
+    padding: 13px 30px;
     margin-top: 20px;
     border: 2px solid #fb545b;
     -webkit-transition: .5s ease-in-out;
@@ -298,6 +300,7 @@ label {
     display: inline-block;
     float:left;
     margin-right: 10px;
+    font-size: 20px;
 }
 .section-1-left .btn-bottominfo{
     float: left;

@@ -13,6 +13,8 @@
 	.section1-left-cell{ height: 21vh;}
 	.section-1-left .btn-buildcal i { display: inline-block; float: none; position: relative; margin-right: 10px; top: 5px; font-size:20px;}
 	.section-1-left .btn-buildcal{ width:100%; font-size:15px; padding: 10px;}
+    .section-1-left .btn-buildcal.red i { display: inline-block; float: none; position: relative; margin-right: 10px; top: 5px; font-size:20px;}
+    .section-1-left .btn-buildcal.red{ width:100%; font-size:15px; padding: 10px;}
 
 	.section-1-left .btn-bottominfo{ width:96%;}
 	.section-1-right{ padding-left:0px;}
@@ -408,6 +410,11 @@
 		font-size: 18px;
         padding: 13px 15px;
 	}
+    .section-1-left .btn-buildcal.red {
+		width: 100%;
+		font-size: 18px;
+        padding: 13px 15px;
+	}
 	.sec4-2 {
 		height: 505px;
 		top: -30px;
@@ -517,6 +524,10 @@
 
 @media (min-width:769px) and (max-width:990px){
 	.section-1-left .btn-buildcal {
+		width: 100%;
+		font-size: 18px;
+	}
+    .section-1-left .btn-buildcal.red {
 		width: 100%;
 		font-size: 18px;
 	}
@@ -634,6 +645,7 @@
 	.section-1-left input{ width:100%;}
 	.section1-left-cell{ height: 21vh;}
 	.section-1-left .btn-buildcal i { display: inline-block; float: none; position: relative; margin-right: 10px; top: 5px;}
+    .section-1-left .btn-buildcal.red i { display: inline-block; float: none; position: relative; margin-right: 10px; top: 5px;}
 	.section-1-left .btn-bottominfo{ width:96%;}
 	.section-1-right{ padding-left:0px;}
 	.sec1-box-left{ float:left; width:100%; margin-top:0px;padding: 0 20px;}
@@ -894,6 +906,9 @@
 	.section-1-left .btn-buildcal{
 		padding: 13px 65px;
 	}
+    .section-1-left .btn-buildcal.red{
+		padding: 13px 65px;
+	}
 	.section-4-left span span{
 		width:75%;
 	}
@@ -979,8 +994,11 @@
 	.section-1-left h3{ font-size: 40px;line-height: 50px; }
 	.section-1-left h3.section1-firsthead{ font-size: 40px;line-height: 50px; }
 	.section-1-left h4{font-size: 30px; line-height: 40px;}
-	.section-1-left .btn-buildcal{ padding: 15px 80px; font-size: 18px;}
-	.custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
+	.section-1-left .btn-buildcal{ padding: 15px 40px; font-size: 18px;}
+    .section-1-left .btn-buildcal i{ font-size:24px;}
+    .section-1-left .btn-buildcal.red{ padding: 15px 40px; font-size: 18px;}
+	.section-1-left .btn-buildcal.red i{ font-size:24px;}
+    .custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
 	.custom-navbar.navbar-default{ padding-top: 25px;}
 	.section-1-left .btn-bottominfo span{font-size: 16px;}
 	.section-1-left .btn-bottominfo label{font-size: 16px;}
@@ -993,8 +1011,11 @@
 	.section-1-left h3{ font-size: 46px;line-height: 55px; }
 	.section-1-left h3.section1-firsthead{ font-size: 46px;line-height: 55px; }
     .section-1-left h4{font-size: 34px; line-height: 45px; margin-top:60px;}
-	.section-1-left .btn-buildcal{ padding: 15px 105px; font-size: 20px;}
-	.custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
+	.section-1-left .btn-buildcal{ padding: 15px 60px; font-size: 20px;}
+    .section-1-left .btn-buildcal i{ font-size:26px;}
+    .section-1-left .btn-buildcal.red{ padding: 15px 60px; font-size: 20px;}
+	.section-1-left .btn-buildcal.red i{ font-size:26px;}
+    .custom-navbar.navbar-default .navbar-nav > li > a{font-size: 16px;}
 	.custom-navbar.navbar-default{ padding-top: 25px;}
 	.section-1-left .btn-bottominfo span{font-size: 16px;}
 	.section-1-left .btn-bottominfo label{font-size: 16px;}
@@ -1024,7 +1045,12 @@
     #pricing .pricing-text{ margin-top: 40%;}
 	#pricing .pricing-help .billing-plans-help{left:5%;}
 }
-
+@media (min-width: 1024px) and (max-width:1330px) {
+    .section-1-left .btn-buildcal{     padding: 15px 25px; font-size:14px;}
+    .section-1-left .btn-buildcal i{ font-size:20px;}
+    .section-1-left .btn-buildcal.red{  padding: 15px 25px;  font-size:14px;}
+	.section-1-left .btn-buildcal.red i{ font-size:20px;}
+}
 
 /* theme resposnive */
 @media only screen and (max-width: 1440px) {
