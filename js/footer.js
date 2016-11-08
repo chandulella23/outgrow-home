@@ -99,7 +99,8 @@ jQuery(document).ready(function() {
 	var trialAnchor = '//app.outgrow.'+ext+'/';
 	var signUp = `<a id="signUpAnchorText" class="link-login" href="`+trialAnchor+`" class="link-login params">Sign up</a>`;
 	if(readCookie('storage')){
-		loginAnchor = '//app.outgrow.'+ext+'/dashboard';
+		var storage = JSON.parse(readCookie('storage'));
+		loginAnchor = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
