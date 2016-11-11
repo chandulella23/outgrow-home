@@ -1766,6 +1766,8 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 			paginationClickable: true
 		});
 		appendParamsToUrl();
+
+		jQuery('#close-popup').click(function(){ jQuery('html').css('overflow','scroll'); });
 	});
 
 	function appendParamsToUrl() {
@@ -1890,7 +1892,6 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 			}, 2000);
 		});
 	});
-
 })(window, jQuery);
   </script>
 	<!-- Google Code for Remarketing Tag -->
@@ -1904,6 +1905,9 @@ This simplest, most versatile tool can build the most intricate & beautiful calc
 		}
 	</script>
 	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+	<script >
+		function toggle() { jQuery('html').css('overflow','hidden'); }
+	</script>
 	<noscript>
 		<div style="display:inline;">
 			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/876549213/?guid=ON&amp;script=0"/>
