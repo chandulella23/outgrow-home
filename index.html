@@ -75,7 +75,9 @@
 	<!-- End Facebook Pixel Code -->
 	<script>
 		urla = window.location.href;
+		var schemaURL = "https://outgrow.co";
 		if (urla.toLowerCase().indexOf("outgrow.co") < 0) { //For .us and local
+			var schemaURL = "http://outgrow.us";
 			var trackerProp = {
 				'ga':"UA-82638968-1",
 				'kissmetrics':"41ec14671b03954fde573bdbeb2ec11956b53ce7",
@@ -158,7 +160,7 @@
 		"@type": "WebSite",
 		"name": "Outgrow",
 		"alternateName": "Outgrowco",
-		"url": "https://outgrow.co"
+		"url": location.protocol+'//'+location.hostname
 	}
 	</script>
 	<script type="application/ld+json">
@@ -166,7 +168,7 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "Outgrow",
-		"url": "https://outgrow.co",
+		"url": location.protocol+'//'+location.hostname,
 		"logo": "https://outgrow.co/images/logo.png",
 		"sameAs": [
 			"https://www.facebook.com/OutgrowCo",
