@@ -152,49 +152,53 @@
 
 	<!-- Analytics Tracking Snippets Ends -->
 	<!-- Schema Org Markup JSON LD -->
-	<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "WebSite",
-		"name": "Outgrow",
-		"alternateName": "Outgrowco",
-		"url": "https://outgrow.co"
-	}
-	</script>
-	<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Outgrow",
-		"url": "https://outgrow.co",
-		"logo": "https://outgrow.co/images/logo.png",
-		"sameAs": [
-			"https://www.facebook.com/OutgrowCo",
-			"https://twitter.com/outgrowco",
-			"https://www.linkedin.com/company/outgrow.co"
-		],
-		"contactPoint": [{
-			"@type": "ContactPoint",
+	<script type="text/javascript">
+		var schemaA = document.createElement('script');
+		schemaA.type = 'application/ld+json';
+		schemaA.text = JSON.stringify({
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"name": "Outgrow",
+			"alternateName": "Outgrowco",
+			"url": window.location.origin
+		});
+		var schemaB = document.createElement('script');
+		schemaB.type = 'application/ld+json';
+		schemaB.text = JSON.stringify({
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"name": "Outgrow",
+			"url": window.location.origin,
+			"logo": "https://outgrow.co/images/logo.png",
+			"sameAs": [
+				"https://www.facebook.com/OutgrowCo",
+				"https://twitter.com/outgrowco",
+				"https://www.linkedin.com/company/outgrow.co"
+			],
+			"contactPoint": [{
+				"@type": "ContactPoint",
+				"telephone": "+1-949-791-7659",
+				"contactType": "Customer Service and Support"
+			}],
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "401 Park Avenue",
+				"addressLocality": "New York",
+				"addressRegion": "NY",
+				"postalCode": "10016-8808",
+				"addressCountry": "US"
+			},
 			"telephone": "+1-949-791-7659",
-			"contactType": "Customer Service and Support"
-		}],
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "401 Park Avenue",
-			"addressLocality": "New York",
-			"addressRegion": "NY",
-			"postalCode": "10016-8808",
-			"addressCountry": "US"
-		},
-		"telephone": "+1-949-791-7659",
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"ratingValue": "4.5",
-			"bestRating": "5",
-			"worstRating": "1",
-			"ratingCount": "20"
-		}
-	}
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.5",
+				"bestRating": "5",
+				"worstRating": "3.9",
+				"ratingCount": "20"
+			}
+		});
+		document.querySelector('head').appendChild(schemaA);
+		document.querySelector('head').appendChild(schemaB);
 	</script>
 </head>
 
@@ -500,23 +504,6 @@
 			</div>
 		</div>
 	</section>
-	<!--<section>
-		<h3 class="section-runnigheading mk-animate-element scale-up">This simplest, most versatile tool can build the most intricate & beautiful calculators.</h3>
-		<!--<div class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
-			<div class=" full_section_inner clearfix">
-				<div class="wpb_column vc_column_container vc_col-sm-12">
-					<div class="vc_column-inner ">
-						<div class="wpb_wrapper">
-							<div class="qode-text-marquee">
-								<div class="qode-text-marquee-wrapper"><span class="qode-text-marquee-title" style="color: #e4e4e4;">
-This simplest, most versatile tool can build the most intricate & beautiful calculators.</span></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>-->
 
 	<!-- Homepage section 4 start-->
 	<section class="section section-4">
