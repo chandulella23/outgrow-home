@@ -153,49 +153,54 @@
 
 	<!-- Analytics Tracking Snippets Ends -->
 	<!-- Schema Org Markup JSON LD -->
-	<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "WebSite",
-		"name": "Outgrow",
-		"alternateName": "Outgrowco",
-		"url": "https://outgrow.co"
-	}
-	</script>
-	<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Outgrow",
-		"url": "https://outgrow.co",
-		"logo": "https://outgrow.co/images/logo.png",
-		"sameAs": [
-			"https://www.facebook.com/OutgrowCo",
-			"https://twitter.com/outgrowco",
-			"https://www.linkedin.com/company/outgrow.co"
-		],
-		"contactPoint": [{
-			"@type": "ContactPoint",
+	<script type="text/javascript">
+		var schemaA = document.createElement('script');
+		schemaA.type = 'application/ld+json';
+		schemaA.text = JSON.stringify({
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"name": "Outgrow",
+			"alternateName": "Outgrowco",
+			"url": window.location.origin
+		});
+		var schemaB = document.createElement('script');
+		schemaB.type = 'application/ld+json';
+		schemaB.text = JSON.stringify({
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"name": "Outgrow",
+			"url": window.location.origin,
+			"logo": "https://outgrow.co/images/logo.png",
+			"email": "mailto:p@outgrow.co",
+			"sameAs": [
+				"https://www.facebook.com/OutgrowCo",
+				"https://twitter.com/outgrowco",
+				"https://www.linkedin.com/company/outgrow.co"
+			],
+			"contactPoint": [{
+				"@type": "ContactPoint",
+				"telephone": "+1-949-791-7659",
+				"contactType": "Customer Service and Support"
+			}],
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "401 Park Avenue",
+				"addressLocality": "New York",
+				"addressRegion": "NY",
+				"postalCode": "10016-8808",
+				"addressCountry": "US"
+			},
 			"telephone": "+1-949-791-7659",
-			"contactType": "Customer Service and Support"
-		}],
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "401 Park Avenue",
-			"addressLocality": "New York",
-			"addressRegion": "NY",
-			"postalCode": "10016-8808",
-			"addressCountry": "US"
-		},
-		"telephone": "+1-949-791-7659",
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"ratingValue": "4.5",
-			"bestRating": "5",
-			"worstRating": "1",
-			"ratingCount": "20"
-		}
-	}
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.5",
+				"bestRating": "5",
+				"worstRating": "3.9",
+				"ratingCount": "20"
+			}
+		});
+		document.querySelector('head').appendChild(schemaA);
+		document.querySelector('head').appendChild(schemaB);
 	</script>
 </head>
 
