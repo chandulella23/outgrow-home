@@ -1,19 +1,18 @@
-var e = document.getElementById('og-iframe-container');
-var u = e.getAttribute('data-url');
-var w = e.getAttribute('data-width');
-var b = document.getElementsByTagName("body")[0];
+var og_e = document.getElementById('og-iframe-container');
+var og_u = og_e.getAttribute('data-url');
+var og_w = og_e.getAttribute('data-width');
 
 var js = document.createElement("script");
 js.setAttribute("type", "text/javascript");
 js.setAttribute("src", "//outgrow.us/js/loader/resizer.js");
 
-e.appendChild(js);
+og_e.appendChild(js);
 
 //The main Iframe
 var iFrame = document.createElement("iframe");
 iFrame.setAttribute("id", "og-iframe");
-iFrame.setAttribute("src", u);
-iFrame.setAttribute("width", w);
+iFrame.setAttribute("src", og_u);
+iFrame.setAttribute("width", og_w);
 iFrame.setAttribute("scrolling", "no");
 
 //ogOnLoadHandler
@@ -23,8 +22,8 @@ var node = document.createTextNode("var screenWidth = screen.width; var screenHe
 ogOnLoadHandler.appendChild(node);
 
 setTimeout(function(){
-    e.appendChild(iFrame);
-    e.appendChild(ogOnLoadHandler);
-},2000);
+    og_e.appendChild(iFrame);
+    og_e.appendChild(ogOnLoadHandler);
+},1500);
 
 
