@@ -25,6 +25,6 @@ ogOnLoadHandler.appendChild(node);
 setTimeout(function(){
     e.appendChild(iFrame);
     e.appendChild(ogOnLoadHandler);
-},1000);
+},2000);
 
 
