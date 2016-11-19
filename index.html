@@ -1709,6 +1709,18 @@
 	//window.onresize = function(){ location.reload(); }
 
 	 jQuery(document).ready(function() {
+
+		 //body scroll js
+		jQuery(".btn-scroll").on("click", function(){
+			jQuery('html').css('overflow-y','hidden');
+		});
+
+		jQuery("#close-popup").on("click", function(){
+			jQuery('html').css('overflow-y','scroll');
+		});
+
+
+
 		//Intercom
 		var url			=	window.location.href;
 		var intercom_id	=	'om2goh5g';
@@ -1754,8 +1766,6 @@
 			paginationClickable: true
 		});
 		appendParamsToUrl();
-
-		jQuery('#close-popup').click(function(){ jQuery('html').css('overflow','scroll'); });
 	});
 
 	function appendParamsToUrl() {
@@ -1893,9 +1903,6 @@
 		}
 	</script>
 	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-	<script >
-		function toggle() { jQuery('html').css('overflow','hidden'); }
-	</script>
 	<noscript>
 		<div style="display:inline;">
 			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/876549213/?guid=ON&amp;script=0"/>
