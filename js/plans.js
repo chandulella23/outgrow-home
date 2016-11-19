@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
 						</a>
 						<a href="javascript:0(void);" class="params">
 
-							<button onclick="togglePopup()" class="btn-buildcal btn-scroll  mk-animate-element fade-in"><i class="material-icons">view_compact</i>Calculate ROI</button>
+							<button onclick="togglePopup()" class="btn-buildcal btn-scroll mk-animate-element fade-in"><i class="material-icons">view_compact</i>Calculate ROI</button>
 						</a>
 						<div class="btn-bottominfo mk-animate-element fade-in">
 						</div>`;
