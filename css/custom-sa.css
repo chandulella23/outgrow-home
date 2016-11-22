@@ -257,14 +257,13 @@ label {
     border: none;
     color: #fff;
     float: left;
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
-    padding: 13px 30px;
+    padding: 13px 85px;
     margin-top: 20px;
     border: 2px solid #62696d;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    margin-right: 20px;
 }
 .section-1-left .btn-buildcal:hover
 {
@@ -276,7 +275,7 @@ label {
     display: inline-block;
     float:left;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 24px;
 }
 .section-1-left .btn-buildcal.red{
     background: #fb545b;
