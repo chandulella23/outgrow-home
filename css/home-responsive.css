@@ -1046,8 +1046,8 @@
 	#pricing .pricing-help .billing-plans-help{left:5%;}
 }
 @media (min-width: 1024px) and (max-width:1330px) {
-    .section-1-left .btn-buildcal{     padding: 15px 25px; font-size:14px;}
-    .section-1-left .btn-buildcal i{ font-size:20px;}
+    /*.section-1-left .btn-buildcal{     padding: 15px 25px; font-size:14px;}*/
+    /*.section-1-left .btn-buildcal i{ font-size:20px;}*/
     .section-1-left .btn-buildcal.red{  padding: 15px 25px;  font-size:14px;}
 	.section-1-left .btn-buildcal.red i{ font-size:20px;}
 }
