@@ -183,12 +183,12 @@ img[data-lazy=true] {
     color: #31c8a2
 }
 
-
+/*
 body {
     overflow-y: scroll;
     overflow-x: hidden!important;
     -webkit-font-smoothing: antialiased
-}
+}*/
 
 
 .right_side_menu_opened .wrapper,

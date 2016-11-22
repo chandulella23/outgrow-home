@@ -589,7 +589,7 @@
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">face</i>
-					<span>Track <b>Visits, Conversions</b> and Traffic from Accross All Channels</span>
+					<span>Track <b>Visits, Conversions</b> and Traffic from Across All Channels</span>
 				</span>
 			   <!--  <span class="mk-animate-element right-to-left">
 					<i class="material-icons">reorder</i>
@@ -1709,6 +1709,18 @@
 	//window.onresize = function(){ location.reload(); }
 
 	 jQuery(document).ready(function() {
+
+		 //body scroll js
+		jQuery(".btn-scroll").on("click", function(){
+			jQuery('html').css('overflow-y','hidden');
+		});
+
+		jQuery("#close-popup").on("click", function(){
+			jQuery('html').css('overflow-y','scroll');
+		});
+
+
+
 		//Intercom
 		var url			=	window.location.href;
 		var intercom_id	=	'om2goh5g';
@@ -1878,7 +1890,6 @@
 			}, 2000);
 		});
 	});
-
 })(window, jQuery);
   </script>
 	<!-- Google Code for Remarketing Tag -->
