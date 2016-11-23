@@ -89,7 +89,9 @@
 body {
     font-family: 'montserratregular';
     color: #8e989f;
-    overflow: auto !important;
+	/* overflow: auto !important; */
+	overflow-y: scroll;
+	overflow-x: hidden!important;
 }
 
 ul,
