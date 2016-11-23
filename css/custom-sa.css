@@ -1253,10 +1253,15 @@ label {
 }
 
 
-.section-10{
+/* .section-10{
     background: #fb6c73;
     margin-bottom: 80px;
     margin-top: 0px;
+} */
+.section-10 {
+    background: #fb6c73;
+    margin-bottom: 80px;
+    margin-top: 40px;
 }
 .sec10-testimonial{
     margin: 0 auto;
