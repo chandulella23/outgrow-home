@@ -2029,12 +2029,12 @@ label {
 }
 .img-1{
     position: relative;
-    left: 5%;
+    left: 20%;
     z-index: 9;
 }
 .img-2{
     position: relative;
-    right: 5%;
+    right: 10%;
     top: 40px;
 }
 .img-1-text{
@@ -2045,6 +2045,8 @@ label {
     position: relative;
     width: 100%;
     float: left;
+    left: 40px;
+    padding: 0 20%;
 }
 
 .img-2-text{
@@ -2056,6 +2058,7 @@ label {
     left: -30px;
     width: 100%;
     float: left;
+    padding: 0 20%;
 }
 .footer-link{
     float: left;

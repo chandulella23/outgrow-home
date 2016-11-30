@@ -188,6 +188,8 @@
 	}
 	.img-1-text{
 		top: -5px;
+		padding: 0;
+    	left: 0;
 	}
 	.img-2 {
 	    right: 0;
@@ -196,6 +198,7 @@
 	.img-2-text {
 	    top: 5px;
 	    left: 0px;
+	    padding: 0px;
 	}
     /* why resp*/
     #why .section-top-why h3{ font-size: 20px;line-height: normal;}
