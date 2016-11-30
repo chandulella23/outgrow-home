@@ -183,6 +183,20 @@
     .useCase-heading{ margin-top: 25px; }
 	.start-trial-cta .btn-buildcal { padding: 5px 5px;}
 	.start-trial-cta .btn-buildcal{font-size:12px;}
+	.img-1{
+		left: 0px;
+	}
+	.img-1-text{
+		top: -5px;
+	}
+	.img-2 {
+	    right: 0;
+	    top: 10px;
+	}
+	.img-2-text {
+	    top: 5px;
+	    left: 0px;
+	}
     /* why resp*/
     #why .section-top-why h3{ font-size: 20px;line-height: normal;}
 	.billing-plan-list{

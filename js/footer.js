@@ -3,7 +3,7 @@ var footer = `<div class="container">
 		<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 			<h4>Overview</h4>
 			<ul>
-				<li><a href="why_calculators.html" onclick="callGA('WHYF')" class="params">Why Calculators </a></li>
+				<li><a href="why_calculators.html" onclick="callGA('WHYF')" class="params">Why Interactive Content</a></li>
 				<li><a href="features.html" onclick="callGA('FEATURESF')" class="params">Features </a></li>
 				<li><a href="examples.html" onclick="callGA('USECASEF')" class="params">Examples</a></li>
 				<li><a href="pricing.html" onclick="callGA('PRICINGF')" class="params">Pricing</a></li>

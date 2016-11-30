@@ -425,7 +425,7 @@ label {
     cursor: pointer;
 }
 .collag3-img {
-    background-image: url(../images/new-collag2.jpg);
+    background-image: url(../images/new-collag2-edited.jpg);
     background-size: cover;
     background-position: center top;
     float: left;
@@ -445,7 +445,7 @@ label {
     cursor: pointer;
 }
 .collag4-img {
-    background-image: url(../images/new-collag3.jpg);
+    background-image: url(../images/new-collag3-edited.jpg);
     background-size: cover;
     background-position: top center;
     float: left;
@@ -2011,6 +2011,51 @@ label {
     padding-top: 30px;
     padding-bottom: 10px; 
     min-height: 250px;
+}
+
+/*.sec4-2-1{
+    position: absolute;
+    left:4%;
+    box-shadow: none;
+}
+.sec4-2 {
+    position: relative;
+    left: 50%;
+    top: 3%;
+    box-shadow: none;
+}*/
+.outer-container{
+    position: relative;
+}
+.img-1{
+    position: relative;
+    left: 5%;
+    z-index: 9;
+}
+.img-2{
+    position: relative;
+    right: 5%;
+    top: 40px;
+}
+.img-1-text{
+    color: #62696d;
+    font-size: 15px;
+    font-family: montserratregular;
+    top: -15px;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.img-2-text{
+    color: #62696d;
+    font-size: 15px;
+    font-family: montserratregular;
+    top: 25px;
+    position: relative;
+    left: -30px;
+    width: 100%;
+    float: left;
 }
 .footer-link{
     float: left;
