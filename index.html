@@ -1418,7 +1418,50 @@
 
 	<script>
 	//window.onresize = function(){ location.reload(); }
+	function loadData() {
+	console.log('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^');
+	var str = window.location.href.split('//')[1].split('/')[0];
+	var p = str.lastIndexOf('.');
+	var ext = str.substring(p+1);
+	var login = `<a href="http://app.outgrow.`+ext+`/login" class="link-login params" onclick="callGA('LOGIN')">
+				Login
+			</a>`;
+	var loginAnchor = `//app.outgrow.`+ext+`/login`;
+	var trialAnchor = '//app.outgrow.'+ext+'/';
+	var signUp = `<a id="signUpAnchorText" class="link-login" href="`+trialAnchor+`" class="link-login params">Sign up</a>`;
+	if(readCookie('storage')){
+		var storage = JSON.parse(readCookie('storage'));
+		if(storage.companyList)
+			loginAnchor = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
+		else
+			loginAnchor = '//app.outgrow.'+ext+'/dashboard';
+		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
+		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
+	}else{
+		jQuery(document.getElementById('loginAnchorText')).prop('text','Login');
+		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
+		jQuery('#signUp').html(signUp);
+	}
+	jQuery('#footer').html(footer);
+	jQuery('#login').html(login);
+	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
+	jQuery(document.getElementById('trialAnchor')).prop('href',trialAnchor);
+	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);
+
+	function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+}
+
 	 jQuery(document).ready(function() {
+	 	console.log('index document ready')
 
 		 //body scroll js
 		jQuery(".btn-scroll").on("click", function(){
