@@ -6,31 +6,29 @@ jQuery(document).ready(function() {
 	var p = str.lastIndexOf('.');
 	ext = str.substring(p+1);
 	getAllPlans();
-	var planCycle = `
-		<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">
-			<ul>
-				<li class="cycle-tab active" id="monthly">
-					<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('m');">
-						Monthly
-					</a>
-				</li>
-				<li class="cycle-tab" id="half-yearly">
-					<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">
-						Semi-Annual
-					</a>
-				</li>
-				<li class="cycle-tab" id="annually">
-					<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('y')">
-						Annual
-					</a>
-				</li>
-			</ul>
-		</div>
-		`;
+	var planCycle = '<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">'+
+						'<ul>'+
+						'<li class="cycle-tab active" id="monthly">'+
+							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('m');">'+
+								'Monthly'+
+							'</a>'+
+						'</li>'+
+						'<li class="cycle-tab" id="half-yearly">'+
+							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">'+
+								'Semi-Annual'+
+							'</a>'+
+						'</li>'+
+						'<li class="cycle-tab" id="annually">'+
+							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('y')">'+
+								'Annual'+
+							'</a>'+
+						'</li>'+
+					'</ul>'+
+				'</div>';
 	//var freePlan = `<i class="material-icons">not_interested</i>
-	var freePlan = `<i class="material-icons">person</i>
-				<h4>Casual User?</h4>
-				<p>Are you a student or a freelancer who wants to explore interactive calculators? We have a limited plan for you to play around with.</p>`;
+	var freePlan = '<i class="material-icons">person</i>'+
+					'<h4>Casual User?</h4>'+
+					'<p>Are you a student or a freelancer who wants to explore interactive calculators? We have a limited plan for you to play around with.</p>';
 	jQuery('#plan-cycle').html(planCycle);
 	jQuery('#freePlan').html(freePlan);
 	jQuery(document).on('click', '.signupbanners', function(event) {
@@ -44,24 +42,16 @@ jQuery(document).ready(function() {
 		ga('markettingteam.send', 'event', 'Signup', 'Click', 'LP_Signup_Student_Pricing_Tile');
 	});
 
-	var btn = `<a href="http://app.outgrow.`+ext+`" class="params">
-
-							<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let's Build One!</button>
-						</a>
-						<div class="btn-bottominfo mk-animate-element fade-in">
-						</div>`;
+	var btn = '<a href="http://app.outgrow.'+ext+'" class="params">'+
+				'<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let\'s Build One!</button>'+'
+			  '</a>'+
+			  '<div class="btn-bottominfo mk-animate-element fade-in"></div>';
 	jQuery('#btnBuildCalc').html(btn);
 
-	var btn1 = `<a href="http://app.outgrow.`+ext+`" class="params">
-
-							<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let's Build One!</button>
-						</a>
-						<!--<a href="javascript:0(void);" class="params">
-
-							<button onclick="togglePopup()" class="btn-buildcal btn-scroll mk-animate-element fade-in"><i class="material-icons">view_compact</i>Calculate ROI</button>
-						</a> -->
-						<div class="btn-bottominfo mk-animate-element fade-in">
-						</div>`;
+	var btn1 = '<a href="http://app.outgrow.'+ext+'" class="params">'+
+				'<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let\'s Build One!</button>'+
+				'</a>'+
+				'<div class="btn-bottominfo mk-animate-element fade-in"></div>';
 	jQuery('#btnBuildCalc1').html(btn1);
 
 });
@@ -127,55 +117,55 @@ var displayPlans = function(){
 							ulUsers = 'Unlimited';
 						else
 							ulUsers = allPlans.data.plans[j].plan.users.toLocaleString();
-						featureList = `
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name capitalize">&nbsp;
-									`+ulUsers+` Users
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name capitalize">&nbsp;
-									`+ulLeads+` Leads
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name capitalize">&nbsp;
-									`+ulVisits+` Visits
-									</span>
-								</a>
-							</li>`;
+						featureList = 
+							'<li>'+
+								'<a href="javascript:void(0);" class="">'+
+									'<span class="mat-icon"></span>'+
+									'<span class="list-name capitalize">&nbsp;'+ulUsers+
+										' Users'+
+									'</span>'+
+								'</a>'+
+							'</li>'+
+							'<li>'+
+								'<a href="javascript:void(0);" class="">'+
+									'<span class="mat-icon"></span>'+
+									'<span class="list-name capitalize">&nbsp;'+
+									ulLeads+' Leads'+
+									'</span>'+
+								'</a>'+
+							'</li>'+
+							'<li>'+
+								'<a href="javascript:void(0);" class="">'+
+									'<span class="mat-icon"></span>'+
+									'<span class="list-name capitalize">&nbsp;'+
+									ulVisits+' Visits'+
+									'</span>'+
+								'</a>'+
+							'</li>';
 					}
 					for(var k = 0;k<allPlans.data.plans[j].features.length; k++){
 						if(allPlans.data.plans[j].features[k].plan != 'starter' && allPlans.data.plans[j].features[k].plan == allPlans.data.lists.list[i].plan.id.split('_')[0]){
 							if(allPlans.data.plans[j].features[k].active){
-								featureList += `
-									<li>
-										<a href="javascript:void(0);" class="">
-											<span class="mat-icon"></span>
-											<span class="list-name capitalize">&nbsp;
-											`+allPlans.data.plans[j].features[k].feature.name+`
-											</span>
-										</a>
-									</li>`;
+								featureList +=
+									'<li>'+
+										'<a href="javascript:void(0);" class="">'+
+											'<span class="mat-icon"></span>'+
+											'<span class="list-name capitalize">&nbsp;'+
+											allPlans.data.plans[j].features[k].feature.name+
+											'</span>'+
+										'</a>'+
+									'</li>';
 							}
 							else if(!allPlans.data.plans[j].features[k].active){
-								featureList += `
-								<li class="unselected">
-									<a href="javascript:void(0);" class="">
-										<span class="mat-icon"></span>
-										<span class="list-name capitalize">&nbsp;
-										`+allPlans.data.plans[j].features[k].feature.name+`
-										</span>
-									</a>
-								</li>`;
+								featureList +=
+								'<li class="unselected">'+
+									'<a href="javascript:void(0);" class="">'+
+										'<span class="mat-icon"></span>'+
+										'<span class="list-name capitalize">&nbsp;'+
+										allPlans.data.plans[j].features[k].feature.name+
+										'</span>'+
+									'</a>'+
+								'</li>';
 							}
 						}
 					}
@@ -185,11 +175,11 @@ var displayPlans = function(){
 								var strikeOff = '';
 								if(allPlans.data.lists.list[i].plan.id.split('_')[1] != 'm'){
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'essentials')
-										strikeOff = `<span class="strike-off">$`+essentials_m+`/Month</span>`;
+										strikeOff = '<span class="strike-off">$'+essentials_m+'/Month</span>';
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'business')
-										strikeOff = `<span class="strike-off">$`+business_m+`/Month</span>`;
+										strikeOff = '<span class="strike-off">$'+business_m+'/Month</span>';
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise')
-										strikeOff = `<span class="strike-off">$`+enterprise_m+`/Month</span>`;
+										strikeOff = '<span class="strike-off">$'+enterprise_m+'/Month</span>';
 								}
 								if(allPlans.data.plans[j].cycles[l].coupon_active){
 
@@ -201,36 +191,36 @@ var displayPlans = function(){
 									}
 
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-										pricetag = `<br/>`
+										pricetag = '<br/>'
 												+strikeOff+
-												`<br/><span class="strike-off">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+`/Month</span><h3 class="plan-price">$`+Math.ceil(price/6)+`/Month</h3>`;
+												'<br/><span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+'/Month</span><h3 class="plan-price">$'+Math.ceil(price/6)+'/Month</h3>';
 									}
 									if(allPlans.data.lists.list[i].plan.period == 1){
-										pricetag = `<br/>`
+										pricetag = '<br/>'
 												+strikeOff+
-												`<br/><span class="strike-off">$`+allPlans.data.lists.list[i].plan.price/100+`/Month</span><h3 class="plan-price">$`+price+`/Month</h3>`;
+												'<br/><span class="strike-off">$'+allPlans.data.lists.list[i].plan.price/100+'/Month</span><h3 class="plan-price">$'+price+'/Month</h3>';
 										if(allPlans.data.lists.list[i].plan.period_unit == 'year'){
-											pricetag = `<br/>`
+											pricetag = '<br/>'
 												+strikeOff+
-												`<br/><span class="strike-off">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+`/Month</span><h3 class="plan-price">$`+Math.ceil(price/12)+`/Month</h3>`;
+												'<br/><span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</span><h3 class="plan-price">$'+Math.ceil(price/12)+'/Month</h3>';
 										}
 									}
 
-									pricetag += `<br/><span>Use coupon code:`+allPlans.data.plans[j].cycles[l].coupon_name+`</span>`;
+									pricetag += '<br/><span>Use coupon code:'+allPlans.data.plans[j].cycles[l].coupon_name+'</span>';
 								}
 								else{
 									if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-										pricetag =`<br/>`+strikeOff+`
-											<h3 class="plan-price">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
-											`/Month</h3>`;
+										pricetag ='<br/>'+strikeOff+
+											'<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
+											'/Month</h3>';
 									}
 									else if(allPlans.data.lists.list[i].plan.period == 1){
-										pricetag =`<br/>`+strikeOff+`
-											<h3 class="plan-price">$`+allPlans.data.lists.list[i].plan.price/100+
-											`/`+allPlans.data.lists.list[i].plan.period_unit+`</h3>`;
+										pricetag ='<br/>'+strikeOff+
+											'<h3 class="plan-price">$'+allPlans.data.lists.list[i].plan.price/100+
+											'/'+allPlans.data.lists.list[i].plan.period_unit+'</h3>';
 										if(allPlans.data.lists.list[i].plan.period_unit === 'year'){
-											pricetag = `<br/>`+strikeOff+`
-											<h3 class="plan-price">$`+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+`/Month</h3>`;
+											pricetag = '<br/>'+strikeOff+
+											'<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</h3>';
 										}
 									}
 								}
@@ -239,9 +229,9 @@ var displayPlans = function(){
 							}
 					}
 				}
-				cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="http://app.outgrow.`+ext+`/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners params">Sign up</a>
-							</div>`;
+				cta = '<div class="col-md-12 col-sm-12 col-xs-12 np">'+
+								'<a href="http://app.outgrow.'+ext+'/signup" target="_blank" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners params">Sign up</a>'+
+							'</div>';
 				if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'business'){
 					mostPopular = '<span class="ribbon">Most Popular</span>';
 					bil_grey_white = 'billing-white';
@@ -258,9 +248,9 @@ var displayPlans = function(){
 					box = 'enterprise-box';
 					dots = 'toggle-dots-white';
 					bil_bottom = 'billing-grey-bottom'
-					cta = `<div class="col-md-12 col-sm-12 col-xs-12 np">
-								<a href="mailto:randy@outgrow.co" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners">Contact Us</a>
-							</div>`;
+					cta = '<div class="col-md-12 col-sm-12 col-xs-12 np">'+
+								'<a href="mailto:randy@outgrow.co" class="btn btn-white-red-outline hvr-sweep-to-right signupbanners">Contact Us</a>'+
+							'</div>';
 				}
 				else{
 					mostPopular = '';
@@ -270,27 +260,23 @@ var displayPlans = function(){
 					dots = 'toggle-dots-white';
 					bil_bottom = 'billing-grey-bottom'
 				}
-				plansList += `
-					<div class="col-md-4 col-sm-4 col-xs-12 np `+box+` `+bil_grey_white+` `+enterprise+`">
-						<div class="col-md-12 col-sm-12 col-xs-12 np text-center `+bil_top+` `+boxShadow+`">
-							`+mostPopular+`
-							<h3 class="plan-title">`+allPlans.data.lists.list[i].plan.name.split(' ')[0]+`<br/><h4>`+allPlans.data.lists.list[i].plan.name.split(' ')[1]+`</h4></h3>
-							<span class="border-center"></span>
-							`+pricetag+`
-							<p>`+allPlans.data.lists.list[i].plan.description+`</p>
-							`+cta+`
-						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide `+bil_bottom+`" id="`+planId+`">
-							<ul class="billing-list">
-								`+featureList+`
-							</ul>
-						</div>
-						<a href="javascript:void(0);" class="`+dots+`" onclick="show('`+planId+`')">
-							<span></span>
-							<span></span>
-							<span></span>
-						</a>
-					</div>`;
+				plansList +=
+					'<div class="col-md-4 col-sm-4 col-xs-12 np '+box+' '+bil_grey_white+' '+enterprise+'">'+
+						'<div class="col-md-12 col-sm-12 col-xs-12 np text-center '+bil_top+' '+boxShadow+'">'+
+							mostPopular+
+							'<h3 class="plan-title">'+allPlans.data.lists.list[i].plan.name.split(' ')[0]+'<br/><h4>'+allPlans.data.lists.list[i].plan.name.split(' ')[1]+'</h4></h3>'+
+							'<span class="border-center"></span>'+pricetag+
+							'<p>'+allPlans.data.lists.list[i].plan.description+'</p>'+cta+
+						'</div>'+
+						'<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide '+bil_bottom+'" id="'+planId+'">'+
+							'<ul class="billing-list">'+featureList+'</ul>'+
+						'</div>'+
+						'<a href="javascript:void(0);" class="'+dots+'" onclick="show(''+planId+'')">'+
+							'<span></span>'+
+							'<span></span>'+
+							'<span></span>'+
+						'</a>'+
+					'</div>';
 			}
 		}
 	}
