@@ -9,17 +9,17 @@ jQuery(document).ready(function() {
 	var planCycle = '<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">'+
 						'<ul>'+
 						'<li class="cycle-tab active" id="monthly">'+
-							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('m');">'+
+							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan(\'m\');">'+
 								'Monthly'+
 							'</a>'+
 						'</li>'+
 						'<li class="cycle-tab" id="half-yearly">'+
-							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">'+
+							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan(\'s\')">'+
 								'Semi-Annual'+
 							'</a>'+
 						'</li>'+
 						'<li class="cycle-tab" id="annually">'+
-							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('y')">'+
+							'<a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan(\'y\')">'+
 								'Annual'+
 							'</a>'+
 						'</li>'+
