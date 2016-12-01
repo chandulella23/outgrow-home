@@ -541,8 +541,12 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
-				<img src="images/sec4-1.jpg" class="mk-animate-element right-to-left sec4-2-1" />
+				<!-- <img src="images/sec4-1.jpg" class="mk-animate-element right-to-left sec4-2-1" /> -->
 				<!--<img class="sec4-2 mk-animate-element scale-up" src="images/sec4-2.jpg" />-->
+				<div class="embed-responsive embed-responsive-16by9">
+					<!-- <iframe width="1324" height="607" id="player" class="embed-responsive-item" src="https://www.youtube.com/embed?v=T6kjuGe_37I&feature=youtu.be%3Fvq%3Dhd720p&play=1&loop=1&autoplay=1&loop=1" frameborder="0"   allowfullscreen></iframe> -->
+					<iframe width="1324" height="607" id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/N-P_8ACSHas?vq=hd720p&play=1&autoplay=1&loop=1&playlist=N-P_8ACSHas&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -1411,9 +1415,9 @@
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/plans.js"></script>
 	<script src="js/footer.js"></script>
+
 	<script>
 	//window.onresize = function(){ location.reload(); }
-
 	 jQuery(document).ready(function() {
 
 		 //body scroll js
@@ -1424,8 +1428,6 @@
 		jQuery("#close-popup").on("click", function(){
 			jQuery('html').css('overflow-y','scroll');
 		});
-
-
 
 		//Intercom
 		var url			=	window.location.href;
@@ -1609,6 +1611,27 @@
 		}
 	</script>
 	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+
+
+
+	// <script type="text/javascript">
+	// 	  var tag = document.createElement('script');
+	// 	  tag.id = 'iframe-demo';
+	// 	  tag.src = 'https://www.youtube.com/iframe_api';
+	// 	  var firstScriptTag = document.getElementsByTagName('script')[0];
+	// 	  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	// 	  var player;
+	// 		function onPlayerReady(event) {
+	// 		  event.player.mute();
+	// 		  console.log("iframe");
+	// 		}
+		 
+	// </script>
+	<script type="text/javascript">
+	    myVid=document.getElementById("player");
+	    myVid.muted=true;
+	</script>
 	<noscript>
 		<div style="display:inline;">
 			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/876549213/?guid=ON&amp;script=0"/>
