@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
 	});
 
 	var btn = '<a href="http://app.outgrow.'+ext+'" class="params">'+
-				'<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let\'s Build One!</button>'+'
+				'<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let\'s Build One!</button>'+
 			  '</a>'+
 			  '<div class="btn-bottominfo mk-animate-element fade-in"></div>';
 	jQuery('#btnBuildCalc').html(btn);
