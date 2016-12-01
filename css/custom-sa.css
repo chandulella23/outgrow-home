@@ -4258,7 +4258,8 @@ button.swiper-pagination-bullet {
     text-transform: uppercase;
 }
 #why .section-w2 img {
-    box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
+    /*box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);*/
+    box-shadow: none;
 }
 #why .secw2-2-new {
     margin-left: 0px;
@@ -4771,6 +4772,9 @@ button.swiper-pagination-bullet {
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
+}
+#why .slider-sa {
+    min-height: 360px;
 }
 .navbar{
 	margin-bottom:0px;
