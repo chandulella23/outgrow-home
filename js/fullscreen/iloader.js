@@ -30,9 +30,13 @@ if(iWidth < 786) {
 	og_button.setAttribute("class","og-iframe-button hide");
 	og_button.setAttribute("onclick","toggleFullScreen()");
 	og_button.setAttribute("style","position: absolute;right: 3%;top: 3%;color: black;text-decoration: none;z-index:9999;");
-	var button_node = document.createTextNode("<img src='https://cdn.filestackcontent.com/IoC6isNQtChoxSMltCMr' alt='close' />");
+	var button_node = document.createTextNode("");
 	og_button.appendChild(button_node);
 	og_b.appendChild(og_button);
+	//Close Image
+	var og_close = document.createElement("img");
+	og_close.setAttribute("src","https://cdn.filestackcontent.com/IoC6isNQtChoxSMltCMr");
+	og_button.appendChild(og_close);
 	//toggleFullScreen
 	var toggleFullScreen = document.createElement("script");
 	toggleFullScreen.setAttribute("type", "text/javascript");
