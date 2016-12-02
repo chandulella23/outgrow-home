@@ -58,7 +58,6 @@ var footer = '<div class="container">'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>'+
 				'</div>'+
-			'<div class="footer-img2 col-xs-6 col-sm-3">'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
 				'<div class="col-xs-12 np"><img src="images/res8.jpg" /></div>'+
@@ -73,7 +72,8 @@ var footer = '<div class="container">'+
 				'</div>'+
 			'</div>'+
 		'</div>'+
-		'<div class="col-xs-12 np footer-social">'+
+	'</div>'+
+	'<div class="col-xs-12 np footer-social">'+
 			'<ul>'+
 				'<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>'+
 				'<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>'+
@@ -87,7 +87,6 @@ var footer = '<div class="container">'+
 				'<img src="images/footer-logo.png" />'+
 			'</div>'+
 		'</div>'+
-	'</div>'+
 '</div>';
 jQuery(document).ready(function() {
 	console.log('footer ready');	
