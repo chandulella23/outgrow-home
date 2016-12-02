@@ -32,7 +32,7 @@ if(iWidth < 786) {
 	og_button.setAttribute("style","position: absolute;right: 3%;top: 3%;color: black;text-decoration: none;z-index:9999;");
 	var button_node = document.createTextNode("Exit Fullscreen");
 	og_button.appendChild(button_node);
-	og_e.appendChild(og_button);
+	og_b.appendChild(og_button);
 	//toggleFullScreen
 	var toggleFullScreen = document.createElement("script");
 	toggleFullScreen.setAttribute("type", "text/javascript");
