@@ -1,1 +1,55 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('2 7=1.i(\'9-6-1k\');2 H=7.J(\'G-1j\');2 I=7.J(\'G-f\');2 E=1.1h("v")[0];E.4("1m","h();");2 b=1.j("6");b.4("t","9-6");b.4("1p",H);b.4("f",I);b.4("1q","h();");b.4("l","-1a-A-1b: 1f;A-y: 1e;");7.5(b);2 N=1c.1d;1o(N<1z){2 w=1.j("l");2 K=1.o("v, 1r {g: m%;1C: 0;A: 1D;}6.M {f: m%;g: m%;u: 1F;p: 0;U: 0;}.n{1E:L;}");w.5(K);7.5(w);2 8=1.j("a");8.4("1A","x:k(0);");8.4("t","9-6-s");8.4("1u","9-6-s n");8.4("T","d()");8.4("l","u: 11;1t: 3%;p: 3%;1s: 1v;z-1w: L;");2 O=1.o("1y 1x");8.5(O);7.5(8);2 d=1.j("S");d.4("12","z/x");2 17=1.o("V d(){2 e=1.v;1.i(\'9-6\').r.q(\'M\'),1.i(\'9-6-s\').r.q(\'n\'),1.i(\'c\').r.q(\'n\'),k 0!==1.C&&B===1.C||k 0!==1.D&&B===1.D||k 0!==1.Q&&!1.Q||k 0!==1.F&&!1.F?e.P?e.P():e.R?e.R():e.16?e.16(1l.1n):e.18&&e.18():1.14?1.14():1.19?1.19():1.13?1.13():1.15&&1.15()}");d.5(17);7.5(d);2 c=1.j("1B");c.4("t","c");c.4("l","u: 11;f: m%;g: m%;p: 0;U: 0;");c.4("T","d()");7.5(c)}2 h=1.j("S");h.4("12","z/x");2 X=1.o("V h(){2 10 = W.f; 2 Z = W.g; 2 Y = 10/Z; 2 f = 1.i(\\"9-6\\").1g; 2 g = f/Y; 1.i(\\"9-6\\").l.g = g+\'1i\';}");h.5(X);7.5(h);',62,104,'|document|var||setAttribute|appendChild|iframe|og_e|og_button|og||iFrame|og_overlay|toggleFullScreen||width|height|ogOnLoadHandler|getElementById|createElement|void|style|100|hide|createTextNode|top|toggle|classList|button|id|position|body|og_style|javascript||text|overflow|null|fullScreenElement|msFullscreenElement|og_b|webkitIsFullScreen|data|og_u|og_w|getAttribute|style_node|none|fullScreen|iWidth|button_node|requestFullScreen|mozFullScreen|mozRequestFullScreen|script|onclick|left|function|screen|node|aspectRatio|screenHeight|screenWidth|absolute|type|webkitCancelFullScreen|cancelFullScreen|msExitFullscreen|webkitRequestFullScreen|toggleFullScreen_node|msRequestFullscreen|mozCancelFullScreen|webkit|scrolling|window|innerWidth|scroll|touch|clientWidth|getElementsByTagName|px|url|container|Element|onresize|ALLOW_KEYBOARD_INPUT|if|src|onload|html|color|right|class|black|decoration|Fullscreen|Exit|786|href|div|margin|hidden|display|fixed'.split('|'),0,{}))
+var og_e = document.getElementById('og-iframe-container');
+var og_u = og_e.getAttribute('data-url');
+var og_w = og_e.getAttribute('data-width');
+var og_b = document.getElementsByTagName("body")[0];
+
+//Resize function body
+og_b.setAttribute("onresize", "ogOnLoadHandler();");
+
+//The main Iframe
+var iFrame = document.createElement("iframe");
+iFrame.setAttribute("id","og-iframe");
+iFrame.setAttribute("src", og_u);
+iFrame.setAttribute("width", og_w);
+iFrame.setAttribute("onload", "ogOnLoadHandler();");
+iFrame.setAttribute("style","-webkit-overflow-scrolling: touch;overflow-y: scroll;");
+og_e.appendChild(iFrame);
+
+//Resize button for mobile
+var iWidth = window.innerWidth;
+if(iWidth > 786) {
+	//CSS
+	var og_style = document.createElement("style");
+	var style_node = document.createTextNode("body, html {height: 100%;margin: 0;overflow: hidden;}iframe.fullScreen {z-index:999;width: 100%;height: 100%;position: fixed;top: 0;left: 0;}.hide{display:none;}");
+	og_style.appendChild(style_node);
+	og_e.appendChild(og_style);
+	//Button
+	var og_button = document.createElement("a");
+	og_button.setAttribute("href","javascript:void(0);");
+	og_button.setAttribute("id","og-iframe-button");
+	og_button.setAttribute("class","og-iframe-button hide");
+	og_button.setAttribute("onclick","toggleFullScreen()");
+	og_button.setAttribute("style","position: absolute;right: 3%;top: 3%;color: black;text-decoration: none;z-index:9999;");
+	var button_node = document.createTextNode("Exit Fullscreen");
+	og_button.appendChild(button_node);
+	og_e.appendChild(og_button);
+	//toggleFullScreen
+	var toggleFullScreen = document.createElement("script");
+	toggleFullScreen.setAttribute("type", "text/javascript");
+	var toggleFullScreen_node = document.createTextNode("function toggleFullScreen(){var e=document.body;document.getElementById('og-iframe').classList.toggle('fullScreen'),document.getElementById('og-iframe-button').classList.toggle('hide'),document.getElementById('og_overlay').classList.toggle('hide'),void 0!==document.fullScreenElement&&null===document.fullScreenElement||void 0!==document.msFullscreenElement&&null===document.msFullscreenElement||void 0!==document.mozFullScreen&&!document.mozFullScreen||void 0!==document.webkitIsFullScreen&&!document.webkitIsFullScreen?(e.requestFullScreen?e.requestFullScreen():e.mozRequestFullScreen?e.mozRequestFullScreen():e.webkitRequestFullScreen?e.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT):e.msRequestFullscreen&&e.msRequestFullscreen(),document.getElementsByTagName('body')[0].appendChild(document.getElementById('og-iframe'))):(document.cancelFullScreen?document.cancelFullScreen():document.mozCancelFullScreen?document.mozCancelFullScreen():document.webkitCancelFullScreen?document.webkitCancelFullScreen():document.msExitFullscreen&&document.msExitFullscreen(),document.getElementById('og-iframe-container').appendChild(document.getElementById('og-iframe')))}");
+	toggleFullScreen.appendChild(toggleFullScreen_node);
+	og_e.appendChild(toggleFullScreen);
+	//Overlay
+	var og_overlay = document.createElement("div");
+	og_overlay.setAttribute("id","og_overlay");
+	og_overlay.setAttribute("style","position: absolute;width: 100%;height: 100%;top: 0;left: 0;");
+	og_overlay.setAttribute("onclick","toggleFullScreen()");
+	og_e.appendChild(og_overlay);
+}
+
+//ogOnLoadHandler
+ var ogOnLoadHandler = document.createElement("script");
+ ogOnLoadHandler.setAttribute("type", "text/javascript");
+ var node = document.createTextNode("function ogOnLoadHandler(){var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight; var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; document.getElementById(\"og-iframe\").style.height = height+'px';}");
+ ogOnLoadHandler.appendChild(node);
+ og_e.appendChild(ogOnLoadHandler);
