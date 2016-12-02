@@ -46,7 +46,7 @@ if(iWidth < 786) {
 	//Overlay
 	var og_overlay = document.createElement("div");
 	og_overlay.setAttribute("id","og_overlay");
-	og_overlay.setAttribute("style","position: absolute;width: 100%;height: 100%;top: 0;left: 0;");
+	og_overlay.setAttribute("style","position: absolute;width: 70%;height: 85%;top: 5%;left: 15%;");
 	og_overlay.setAttribute("onclick","toggleFullScreen()");
 	og_e.appendChild(og_overlay);
 }
