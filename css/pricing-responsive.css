@@ -33,7 +33,7 @@
 		font-size:16px;
 	}
 	#pricing .section-2-heading {
-		margin-top: -40px;
+		margin-top: 20px;
 		margin-bottom: 50px;
 	}
 	#pricing .accordion{
@@ -67,8 +67,29 @@
 		padding:15px 2px;
 	}
 	#pricing .pricing-help .billing-plans-help{
-		bottom: -30px;
+		bottom: 400px;
 		left: 20px;
+	}
+	#pricing .container-enterprise{
+		width: 100%;
+		padding: 0 25px;
+	}
+	#pricing .enterprise-box-new p{
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+	#pricing .enterprise_pos{
+		margin-top: 10px;
+	}
+	#pricing .need-custom-plan{
+		margin-top: 0px;
+	}
+	#pricing .need-custom-plan a{
+		font-size: 12px;
+	}
+	#pricing .need-custom-plan i.material-icons {
+	    font-size: 28px;
+	    top: 10px;
 	}
 }
 
@@ -79,6 +100,9 @@
 	}
 	#pricing .section-1-right{
 		margin-left:0px;
+	}
+	#pricing .pricing-help .billing-plans-help{
+	    bottom: 360px;
 	}
 }
 @media (min-width: 600px) and (max-width:768px) {
@@ -97,7 +121,7 @@
 }
 @media (min-width: 768px) and (max-width:768px){
 	#pricing .pricing-help .billing-plans-help {
-		bottom: -30px;
+		/*bottom: -30px;*/
 		left: -90px;
 	}
 }
@@ -252,11 +276,16 @@
 	#pricing .pricing-help .billing-plans-help{
 		font-size: 10px;
 		position: absolute;
-		bottom: -600px;
+		/*bottom: -600px;*/
+		bottom: 320px;
 	}
 	#pricing .pricing-text {
 		position: relative;
 		margin-top: 65%;
+	}
+	#pricing .enterprise_pos {
+	    position: relative;
+	    margin-top: 90%;
 	}
 }
 
@@ -269,9 +298,16 @@
 		position: relative;
 		margin-top: 53%;
 	}
+	#pricing .enterprise_pos {
+	    position: relative;
+	    margin-top: 47%;
+	}
 }
 @media (min-width: 1280px) and (max-width:1280px) {
-	
+	#pricing .enterprise_pos {
+	    position: relative;
+	    margin-top: 47%;
+	}
 }
 	@media (min-width: 767px) and (max-width:768px) {
 	
