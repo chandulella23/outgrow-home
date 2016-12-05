@@ -4199,7 +4199,10 @@ button.swiper-pagination-bullet {
 
 /*################### Why Page css starts ###################*/
 
-
+#why .container-video{
+    width: 890px;
+    margin:0 auto;
+}
 #why .section-1-why {
     float: left;
     width: 100%;

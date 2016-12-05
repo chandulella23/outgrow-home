@@ -214,6 +214,7 @@
 	}
     /* why resp*/
     #why .section-top-why h3{ font-size: 20px;line-height: normal;}
+    #why .container-video{width: 100%;    padding: 0 20px;}
 	.billing-plan-list{
 		width: 100%;
 		margin-top: 0;
