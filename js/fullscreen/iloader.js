@@ -60,7 +60,7 @@ if(iWidth < 786) {
 //ogOnLoadHandler
 var ogOnLoadHandler = document.createElement("script");
 ogOnLoadHandler.setAttribute("type", "text/javascript");
-var node = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){console.log('Mobile');}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:height})}");
+var node = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"og-iframe\").style.min-height = height+'px';}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:height})}");
 ogOnLoadHandler.appendChild(node);
 
 setTimeout(function(){
