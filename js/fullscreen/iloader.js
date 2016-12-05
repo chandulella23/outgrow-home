@@ -41,7 +41,7 @@ if(iWidth < 786) {
 	//toggleFullScreen
 	var toggleFullScreen = document.createElement("script");
 	toggleFullScreen.setAttribute("type", "text/javascript");
-	var toggleFullScreen_node = document.createTextNode("function toggleFullScreen(){var e=document.body;document.getElementById('body_wrapper').classList.toggle('fullScreen'),document.getElementById('og-iframe-button').classList.toggle('hide'),document.getElementById('og_overlay').classList.toggle('hide'),document.getElementById('body_wrapper').classList.contains('fullScreen')?document.getElementById('body_wrapper').appendChild(document.getElementById('og-iframe')):document.getElementById('og-iframe-container').appendChild(document.getElementById('og-iframe'))}");
+	var toggleFullScreen_node = document.createTextNode("function toggleFullScreen(){var e=document.body;document.getElementById('body_wrapper').classList.toggle('fullScreen'),document.getElementById('og-iframe-button').classList.toggle('hide'),document.getElementById('og_overlay').classList.toggle('hide'),document.getElementById('body_wrapper').classList.contains('fullScreen')?document.getElementById('body_wrapper').appendChild(document.getElementById('og-iframe')):document.getElementById('og-iframe-container').appendChild(document.getElementById('og-iframe')),void 0!==document.fullScreenElement&&null===document.fullScreenElement||void 0!==document.msFullscreenElement&&null===document.msFullscreenElement||void 0!==document.mozFullScreen&&!document.mozFullScreen||void 0!==document.webkitIsFullScreen&&!document.webkitIsFullScreen?e.requestFullScreen?e.requestFullScreen():e.mozRequestFullScreen?e.mozRequestFullScreen():e.webkitRequestFullScreen?e.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT):e.msRequestFullscreen&&e.msRequestFullscreen():document.cancelFullScreen?document.cancelFullScreen():document.mozCancelFullScreen?document.mozCancelFullScreen():document.webkitCancelFullScreen?document.webkitCancelFullScreen():document.msExitFullscreen&&document.msExitFullscreen()}");
 	toggleFullScreen.appendChild(toggleFullScreen_node);
 	og_e.appendChild(toggleFullScreen);
 	//Overlay
@@ -53,7 +53,7 @@ if(iWidth < 786) {
 	//Body Wrapper
 	var body_wrapper = document.createElement("div");
 	body_wrapper.setAttribute("id","body_wrapper");
-	body_wrapper.setAttribute("style","overflow: scroll !important;-webkit-overflow-scrolling:touch !important;");
+	body_wrapper.setAttribute("style","overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);");
 	og_b.appendChild(body_wrapper);
 }
 
