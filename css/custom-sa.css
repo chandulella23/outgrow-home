@@ -534,6 +534,14 @@ label {
 .img-bottom-text{
     position: relative;
     top: 60px;
+    color: #fb6c73;
+    font-size: 24px;
+    font-family: montserratlight;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 40px;
 }
 .section-3{
 	margin-bottom:70px;
