@@ -1017,6 +1017,17 @@
 	.billing-table{padding-left: 20px;}
     .footer-img2{ padding-left: 0px;}
 }
+@media (max-width: 1366px){
+	.billing-grey-top h3.plan-title {
+	    font-size: 20px;
+	}
+	.membership-bottom-wrapper h4 {
+	    font-size: 13px;
+	}
+	.billing-grey-top h3.plan-price {
+		font-size: 18px;
+	}
+}
 @media (min-width: 1480px) and (max-width:1800px) {
 	.collag1-img{ min-height: 450px;}
 	.collag3-img{ min-height: 285px;}

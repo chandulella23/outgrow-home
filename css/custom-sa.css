@@ -1904,7 +1904,7 @@ label {
     font-size: 10px;
     position: absolute;
     /*bottom: -600px;*/
-        bottom: 320px;
+        bottom: 360px;
 }
 #pricing .need-custom-plan {
     margin-top: 20px;
@@ -5251,7 +5251,7 @@ button.swiper-pagination-bullet {
 }
 #pricing .enterprise_pos{
     position: relative;
-    margin-top: 43%;
+    margin-top: 45%;
 }
 
 .strike-off{
