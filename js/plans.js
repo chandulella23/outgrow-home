@@ -81,17 +81,19 @@ var displayPlans = function(){
     var price = 0;
     var ulUsers = '',ulLeads = '',ulVisits = '', cta = '';
     var freelancer = '';
+    var enterprise = '';
     for(var i = 0; i<allPlans.data.lists.list.length;i++){
-        enterprise = ''
+        enterprise = '';
+        freelancer = '';
         if(allPlans.data.lists.list[i].plan.id === 'essentials_m')
             essentials_m = allPlans.data.lists.list[i].plan.price/100;
         if(allPlans.data.lists.list[i].plan.id === 'business_m')
             business_m = allPlans.data.lists.list[i].plan.price/100;
         if(allPlans.data.lists.list[i].plan.id === 'enterprise_m')
             enterprise_m = allPlans.data.lists.list[i].plan.price/100;
-        if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer'){
+        if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer_m'){
             freelancer_m  = allPlans.data.lists.list[i].plan.price/100;
-            console.log(allPlans.data.lists.list[i].plan.id.split('_')[0],'plan prce freelancer',freelancer_m);
+            enterprise = 'enterprise-margin';
             freelancer = 'enterprise-margin';
         }
 
