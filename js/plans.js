@@ -91,7 +91,7 @@ var displayPlans = function(){
             enterprise_m = allPlans.data.lists.list[i].plan.price/100;
         if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer'){
             freelancer_m  = allPlans.data.lists.list[i].plan.price/100;
-            console.log('plan prce freelancer',freelancer_m);
+            console.log(allPlans.data.lists.list[i].plan.id.split('_')[0],'plan prce freelancer',freelancer_m);
             freelancer = 'enterprise-margin';
         }
 
