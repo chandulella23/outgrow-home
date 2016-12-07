@@ -97,8 +97,10 @@ var displayPlans = function(){
         pricetag = '';
         var box = '',mostPopular = '',bil_grey_white = '',bil_top = '',bil_bottom = '', dots = '', period = '', boxShadow = '',planId = '';
         if(allPlans.data.lists.list[i].plan.id != 'starter' && allPlans.data.lists.list[i].plan.id.split('_')[0] != 'enterprise'){
+            console.log('ashggsdhhgdsghdsghsd',allPlans.data.lists.list[i].plan.id);
             planId = allPlans.data.lists.list[i].plan.id;
 
+            console.log('plan Id ashggsdhhgdsghdsghsd',planId);
             if(allPlans.data.lists.list[i].plan.id.split('_')[1] === pCycle){
                 featureList = '';
                 for(var j = 0; j < allPlans.data.plans.length;j++){
