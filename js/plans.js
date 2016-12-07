@@ -113,7 +113,6 @@ var displayPlans = function(){
                             ulVisits = 'Unlimited';
                         else
                             ulVisits = allPlans.data.plans[j].plan.visits.toLocaleString();
-
                         if(allPlans.data.plans[j].plan.users == -1)
                             ulUsers = 'Unlimited';
                         else
@@ -183,6 +182,7 @@ var displayPlans = function(){
                                         strikeOff = '<span class="strike-off">$'+freelancer_m+'/Month</span>';
                                 }
                                 if(allPlans.data.plans[j].cycles[l].coupon_active){
+
 
                                     if(allPlans.data.plans[j].cycles[l].coupon_type =='PERCENTAGE'){
                                         price = allPlans.data.lists.list[i].plan.price/100 - (allPlans.data.lists.list[i].plan.price/100)*allPlans.data.plans[j].cycles[l].coupon_value/100;
