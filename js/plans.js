@@ -282,7 +282,7 @@ var displayPlans = function(){
                     '<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide '+bil_bottom+'" id="'+planId+'">'+
                     '<ul class="billing-list">'+featureList+'</ul>'+
                     '</div>'+
-                    '<a href="javascript:void(0);" class="'+dots+'" onclick="show('+planId+')">'+
+                    '<a href="javascript:void(0);" class="'+dots+'" onclick="show(\''+planId+'\')">'+
                     '<span></span>'+
                     '<span></span>'+
                     '<span></span>'+
