@@ -97,7 +97,6 @@ var displayPlans = function(){
         pricetag = '';
         var box = '',mostPopular = '',bil_grey_white = '',bil_top = '',bil_bottom = '', dots = '', period = '', boxShadow = '',planId = '';
         if(allPlans.data.lists.list[i].plan.id != 'starter' && allPlans.data.lists.list[i].plan.id.split('_')[0] != 'enterprise'){
-            console.log('asjdasjgdhjasdjhasgdahsgdjagd', allPlans.data.lists.list[i].plan.id.split('_')[0]);
             planId = allPlans.data.lists.list[i].plan.id;
 
             if(allPlans.data.lists.list[i].plan.id.split('_')[1] === pCycle){
