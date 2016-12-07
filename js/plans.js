@@ -303,6 +303,7 @@ var showPlan = function(plan) {
 }
 
 var show = function(id) {
+    console.log('ididididid',id);
     if(jQuery('#'+id).hasClass('rs-hide'))
         jQuery('#'+id).removeClass('rs-hide');
     else
