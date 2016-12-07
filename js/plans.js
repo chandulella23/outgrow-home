@@ -218,7 +218,7 @@ var displayPlans = function(){
                                     pricetag += '<br/><span>Use coupon code:'+allPlans.data.plans[j].cycles[l].coupon_name+'</span>';
                                 }
                                 else{
-                                    console.log('assasa',allPlans.data.plans[j],allPlans.data.list[i]);
+                                    console.log('assasa',allPlans.data.plans[j],allPlans.data);
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
                                         console.log(allPlans.data.lists.list[i].plan.id,allPlans.data.lists.list[i].plan.price/100);
                                         pricetag ='<br/>'+strikeOff+
