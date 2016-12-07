@@ -261,7 +261,7 @@ var displayPlans = function(){
                     bil_bottom = 'billing-grey-bottom'
                 }
                 plansList +=
-                    '<div class="col-md-4 col-sm-4 col-xs-12 np '+box+' '+bil_grey_white+' '+enterprise+'">'+
+                    '<div class="col-md-4 col-sm-4 col-xs-12 np '+box+' '+bil_grey_white+' '+freelancer+'">'+
                     '<div class="col-md-12 col-sm-12 col-xs-12 np text-center '+bil_top+' '+boxShadow+'">'+
                     mostPopular+
                     '<h3 class="plan-title">'+allPlans.data.lists.list[i].plan.name.split(' ')[0]+'<br/><h4>'+allPlans.data.lists.list[i].plan.name.split(' ')[1]+'</h4></h3>'+
