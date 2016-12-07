@@ -1,5 +1,5 @@
 var pCycle = 'm', allPlans;
-var essentials_m = 0,business_m = 0,enterprise_m = 0;
+var essentials_m = 0,business_m = 0,enterprise_m = 0, ferrlancer_m = 0;
 var ext = '';
 jQuery(document).ready(function() {
 	var str = window.location.href.split('//')[1].split('/')[0];
@@ -80,7 +80,7 @@ var displayPlans = function(){
 	var pricetag = '';
 	var price = 0;
 	var ulUsers = '',ulLeads = '',ulVisits = '', cta = '';
-	var enterprise = '';
+	var freelancer = '';
 	for(var i = 0; i<allPlans.data.lists.list.length;i++){
 		enterprise = ''
 		if(allPlans.data.lists.list[i].plan.id === 'essentials_m')
@@ -89,14 +89,14 @@ var displayPlans = function(){
 			business_m = allPlans.data.lists.list[i].plan.price/100;
 		if(allPlans.data.lists.list[i].plan.id === 'enterprise_m')
 			enterprise_m = allPlans.data.lists.list[i].plan.price/100;
-		if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise'){
-			enterprise = 'enterprise-margin';
+		if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer'){
+			freelancer = 'enterprise-margin';
 		}
 
 
 		pricetag = '';
 		var box = '',mostPopular = '',bil_grey_white = '',bil_top = '',bil_bottom = '', dots = '', period = '', boxShadow = '',planId = '';
-		if(allPlans.data.lists.list[i].plan.id != 'starter' || allPlans.data.lists.list[i].plan.id.split('_')[0] != 'freelancer'){
+		if(allPlans.data.lists.list[i].plan.id != 'starter' || allPlans.data.lists.list[i].plan.id.split('_')[0] != 'enterprise'){
 			planId = allPlans.data.lists.list[i].plan.id;
 
 			if(allPlans.data.lists.list[i].plan.id.split('_')[1] === pCycle){
@@ -178,8 +178,8 @@ var displayPlans = function(){
 										strikeOff = '<span class="strike-off">$'+essentials_m+'/Month</span>';
 									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'business')
 										strikeOff = '<span class="strike-off">$'+business_m+'/Month</span>';
-									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'enterprise')
-										strikeOff = '<span class="strike-off">$'+enterprise_m+'/Month</span>';
+									if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer')
+										strikeOff = '<span class="strike-off">$'+freelancer_m+'/Month</span>';
 								}
 								if(allPlans.data.plans[j].cycles[l].coupon_active){
 
