@@ -91,7 +91,7 @@ var displayPlans = function(){
             business_m = allPlans.data.lists.list[i].plan.price/100;
         if(allPlans.data.lists.list[i].plan.id === 'enterprise_m')
             enterprise_m = allPlans.data.lists.list[i].plan.price/100;
-        if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer_m'){
+        if(allPlans.data.lists.list[i].plan.id === 'freelancer_m'){
             console.log('allPlans.data.lists.list[i].plan.price',allPlans.data.lists.list[i].plan.price)
             freelancer_m  = allPlans.data.lists.list[i].plan.price/100;
             console.log('freelancer',freelancer_m);
