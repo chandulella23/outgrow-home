@@ -1,5 +1,5 @@
 var pCycle = 'm', allPlans;
-var essentials_m = 0,business_m = 0,enterprise_m = 0, ferrlancer_m = 0;
+var essentials_m = 0,business_m = 0,enterprise_m = 0, freelancer_m = 0;
 var ext = '';
 jQuery(document).ready(function() {
     var str = window.location.href.split('//')[1].split('/')[0];
