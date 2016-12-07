@@ -90,6 +90,7 @@ var displayPlans = function(){
         if(allPlans.data.lists.list[i].plan.id === 'enterprise_m')
             enterprise_m = allPlans.data.lists.list[i].plan.price/100;
         if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer'){
+            freelancer_m  = allPlans.data.lists.list[i].plan.price/100;
             freelancer = 'enterprise-margin';
         }
 
