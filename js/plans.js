@@ -218,8 +218,8 @@ var displayPlans = function(){
                                 }
                                 else{
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
+                                        console.log(allPlans.data.lists.list[i].plan.id,allPlans.data.lists.list[i].plan.price/100);
                                         pricetag ='<br/>'+strikeOff+
-                                                console.log(allPlans.data.lists.list[l].plan.id,(allPlans.data.lists.list[i].plan.price/100));
                                             '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
                                             '/Month</h3>';
                                     }
