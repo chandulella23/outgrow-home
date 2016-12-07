@@ -176,6 +176,7 @@ var displayPlans = function(){
                             }
                         }
                     }
+                    console.log('all plans',allPlans.data.plans[j]);
                     for(var l = 0;l<allPlans.data.plans[j].cycles.length; l++){
                         if(allPlans.data.plans[j].cycles[l].plan != 'starter' && allPlans.data.plans[j].cycles[l].coupon_cycle == pCycle)
                             if(allPlans.data.plans[j].cycles[l].plan == allPlans.data.lists.list[i].plan.id.split('_')[0]){
@@ -215,23 +216,6 @@ var displayPlans = function(){
                                     }
 
                                     pricetag += '<br/><span>Use coupon code:'+allPlans.data.plans[j].cycles[l].coupon_name+'</span>';
-                                }
-                                else if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer'){
-                                    if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-                                        console.log(allPlans.data.lists.list[i].plan.id,allPlans.data.lists.list[i].plan.price/100);
-                                        pricetag ='<br/>'+strikeOff+
-                                            '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
-                                            '/Month</h3>';
-                                    }
-                                    else if(allPlans.data.lists.list[i].plan.period == 1){
-                                        pricetag ='<br/>'+strikeOff+
-                                            '<h3 class="plan-price">$'+allPlans.data.lists.list[i].plan.price/100+
-                                            '/'+allPlans.data.lists.list[i].plan.period_unit+'</h3>';
-                                        if(allPlans.data.lists.list[i].plan.period_unit === 'year'){
-                                            pricetag = '<br/>'+strikeOff+
-                                                '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</h3>';
-                                        }
-                                    }
                                 }
                                 else{
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
