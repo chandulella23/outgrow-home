@@ -121,10 +121,10 @@
 	.container-fluid > .navbar-header{
 		margin-left:-30px;
 	}
-	.custom-navbar.navbar-default .navbar-nav > li > a{
+	/*.custom-navbar.navbar-default .navbar-nav > li > a{
 		padding-top: 15px;
 		padding-left: 35px;
-	}
+	}*/
 	.custom-navbar.navbar-default .navbar-nav > li{
 		margin-right:0px;
 	}

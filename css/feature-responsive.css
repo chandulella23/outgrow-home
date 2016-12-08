@@ -1058,10 +1058,10 @@
 	.custom-navbar.navbar-default .navbar-nav > li {
 		margin-right: 0px;
 	}
-	.custom-navbar.navbar-default .navbar-nav > li > a {
+	/*.custom-navbar.navbar-default .navbar-nav > li > a {
 		padding-top: 15px;
 		padding-left: 25px;
-	}
+	}*/
 	#feature .section-9-left {
 		padding-right: 50px;
 		padding-left: 50px;
