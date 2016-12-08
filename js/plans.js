@@ -277,8 +277,8 @@ var displayPlans = function(){
                     '</div>'+
                     '<a href="javascript:void(0);" class="'+dots+'" onclick="show(\''+planId+'\')">'+
 					'<div>'+
-					'<i class="material-icons" >keyboard_arrow_down</i>'+
-					'<p class="more-info" >More Info</p>'+
+					'<i class="material-icons" id="'+planId+'_arrow">keyboard_arrow_down</i>'+
+					'<p class="more-info" id="'+planId+'_more">More Info</p>'+
 					'</div>'+
 					'</a>'+
                     '</div>';
