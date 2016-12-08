@@ -197,8 +197,52 @@
 				"ratingCount": "20"
 			}
 		});
+		var schemaC = document.createElement('script');
+		schemaC.type = 'application/ld+json';
+		schemaC.text = JSON.stringify({
+			"@context": "http://schema.org",
+			"@type": "Product",
+			"name": "Outgrow",
+			"url": window.location.origin,
+			"logo": "https://outgrow.co/images/logo.png",
+			"sameAs": [
+				"https://www.facebook.com/OutgrowCo",
+				"https://twitter.com/outgrowco",
+				"https://www.linkedin.com/company/outgrow.co"
+			],
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.9",
+				"bestRating": "5",
+				"worstRating": "4.8",
+				"ratingCount": "20"
+			},
+			"offers" : [{
+				"@type" : "Offer",
+				"priceCurrency": "USD",
+				"name" : "FREELANCER",
+				"price" : 35,
+				"availability" : "Available",
+				"url" : "https://outgrow.co/pricing.html"
+			},{
+				"@type" : "Offer",
+				"priceCurrency": "USD",
+				"name" : "ESSENTIALS",
+				"price" : 180,
+				"availability" : "Available",
+				"url" : "https://outgrow.co/pricing.html"
+			},{
+				"@type" : "Offer",
+				"priceCurrency": "USD",
+				"name" : "BUSINESS",
+				"price" : 720,
+				"availability" : "Available",
+				"url" : "https://outgrow.co/pricing.html"
+			}]
+		});
 		document.querySelector('head').appendChild(schemaA);
 		document.querySelector('head').appendChild(schemaB);
+		document.querySelector('head').appendChild(schemaC);
 	</script>
 </head>
 
@@ -563,7 +607,7 @@
 				<!-- End: enterprise Box -->
 
 			</div>
-			
+
 			<div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
 				<div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
 		            <a class="" href="javascrpt:void(0);">
@@ -589,9 +633,9 @@
 				<span class="billing-plans-help">*All plans come with unlimited calculators and templates</span>
 			</div>
 			<!-- <div class="col-xs-12 billingpricing-text mk-animate-element left-to-right pricing-text" id="freePlan">
-					
+
 			</div> -->
-			
+
 		</div>
 	</section>
 
