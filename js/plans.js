@@ -282,11 +282,12 @@ var displayPlans = function(){
                     '<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide '+bil_bottom+'" id="'+planId+'">'+
                     '<ul class="billing-list">'+featureList+'</ul>'+
                     '</div>'+
-                    '<a href="javascript:void(0);" class="'+dots+'" onclick="show(\''+planId+'\')">'+
-                    '<span></span>'+
-                    '<span></span>'+
-                    '<span></span>'+
-                    '</a>'+
+                    '<a href="javascript:void(0);" class="toggle-dots-white">'+
+					'<div>'+
+					'<i class="material-icons">keyboard_arrow_down</i>'+
+					'<p class="more-info">More Info</p>'+
+					'</div>'+
+					'</a>'+
                     '</div>';
             }
         }
