@@ -1904,7 +1904,7 @@ label {
     font-size: 10px;
     position: absolute;
     /*bottom: -600px;*/
-        bottom: 320px;
+        bottom: 310px;
 }
 #pricing .need-custom-plan {
     margin-top: 20px;
@@ -2053,6 +2053,7 @@ label {
 }*/
 .outer-container{
     position: relative;
+    margin-bottom: 20px;
 }
 .img-1{
     position: relative;
