@@ -92,9 +92,7 @@ var displayPlans = function(){
         if(allPlans.data.lists.list[i].plan.id === 'enterprise_m')
             enterprise_m = allPlans.data.lists.list[i].plan.price/100;
         if(allPlans.data.lists.list[i].plan.id === 'freelancer_m'){
-            console.log('allPlans.data.lists.list[i].plan.price',allPlans.data.lists.list[i].plan.price)
             freelancer_m  = allPlans.data.lists.list[i].plan.price/100;
-            console.log('freelancer',freelancer_m);
             enterprise = 'enterprise-margin';
             freelancer = 'enterprise-margin';
         }
@@ -103,10 +101,8 @@ var displayPlans = function(){
         pricetag = '';
         var box = '',mostPopular = '',bil_grey_white = '',bil_top = '',bil_bottom = '', dots = '', period = '', boxShadow = '',planId = '';
         if(allPlans.data.lists.list[i].plan.id != 'starter' && allPlans.data.lists.list[i].plan.id.split('_')[0] != 'enterprise'){
-            console.log('ashggsdhhgdsghdsghsd',allPlans.data.lists.list[i].plan.id);
             planId = allPlans.data.lists.list[i].plan.id;
 
-            console.log('plan Id ashggsdhhgdsghdsghsd',planId);
             if(allPlans.data.lists.list[i].plan.id.split('_')[1] === pCycle){
                 featureList = '';
                 for(var j = 0; j < allPlans.data.plans.length;j++){
@@ -176,7 +172,6 @@ var displayPlans = function(){
                             }
                         }
                     }
-                    console.log('all plans',allPlans.data.plans[j]);
                     for(var l = 0;l<allPlans.data.plans[j].cycles.length; l++){
                         if(allPlans.data.plans[j].cycles[l].plan != 'starter' && allPlans.data.plans[j].cycles[l].coupon_cycle == pCycle)
                             if(allPlans.data.plans[j].cycles[l].plan == allPlans.data.lists.list[i].plan.id.split('_')[0]){
@@ -218,9 +213,7 @@ var displayPlans = function(){
                                     pricetag += '<br/><span>Use coupon code:'+allPlans.data.plans[j].cycles[l].coupon_name+'</span>';
                                 }
                                 else{
-                                    console.log('assasa',allPlans.data.plans[j],allPlans.data);
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-                                        console.log(allPlans.data.lists.list[i].plan.id,allPlans.data.lists.list[i].plan.price/100);
                                         pricetag ='<br/>'+strikeOff+
                                             '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
                                             '/Month</h3>';
@@ -307,15 +300,14 @@ var showPlan = function(plan) {
 }
 
 var show = function(id) {
-    console.log('ididididid',id);
     if(jQuery('#'+id).hasClass('rs-hide')) {
         jQuery('#' + id).removeClass('rs-hide');
-        jQuery('#' + id + '_arrow').html('keyboard_arrow_down');
-        jQuery('#' + id + '_more').html('More Info');
+        jQuery('#' + id + '_arrow').html('keyboard_arrow_up');
+        jQuery('#' + id + '_more').html('Less Info');
     }
     else {
         jQuery('#' + id).addClass('rs-hide');
-        jQuery('#' + id + '_arrow').html('keyboard_arrow_up');
-        jQuery('#' + id + '_more').html('Less Info');
+        jQuery('#' + id + '_arrow').html('keyboard_arrow_down');
+        jQuery('#' + id + '_more').html('More Info');
     }
 }
