@@ -15,7 +15,7 @@
 	.section-1-left .btn-buildcal{ width:100%; font-size:15px; padding: 10px;}
     .section-1-left .btn-buildcal.red i { display: inline-block; float: none; position: relative; margin-right: 10px; top: 5px; font-size:20px;}
     .section-1-left .btn-buildcal.red{ width:100%; font-size:15px; padding: 10px;}
-
+    .img-bottom-text{top: 10px;}
 	.section-1-left .btn-bottominfo{ width:96%;}
 	.section-1-right{ padding-left:0px;}
 	.sec1-box-left{ float:left; width:100%; margin-top:40px;padding: 0 20px;}
@@ -133,6 +133,18 @@
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #fff;}
 	.section-2-heading{ text-transform: none; line-height: normal; font-size: 24px; text-align: center;}
 	.section-2-subheading{display:none;}
+	.section-2-subheading {
+	    float: left;
+	    width: 100%;
+	    text-align: center;
+	    color: rgba(98,105,109,0.8);
+	    font-size: 12px;
+	    font-family: montserratultra_light;
+	    margin: 0 auto;
+	    position: relative;
+	    top: 15px;
+	    padding: 0 15px;
+	}
 	.section-4 {margin-top: 40px; margin-bottom: 30px;}
 	.section-4-left span i{margin-top:4px;}
 	.section-4-left span span{font-size:12px; text-transform:uppercase;}
@@ -202,6 +214,7 @@
 	}
     /* why resp*/
     #why .section-top-why h3{ font-size: 20px;line-height: normal;}
+    #why .container-video{width: 100%;    padding: 0 20px;}
 	.billing-plan-list{
 		width: 100%;
 		margin-top: 0;
@@ -1004,6 +1017,17 @@
 	.billing-table{padding-left: 20px;}
     .footer-img2{ padding-left: 0px;}
 }
+@media (max-width: 1366px){
+	.billing-grey-top h3.plan-title {
+	    font-size: 20px;
+	}
+	.membership-bottom-wrapper h4 {
+	    font-size: 13px;
+	}
+	.billing-grey-top h3.plan-price {
+		font-size: 18px;
+	}
+}
 @media (min-width: 1480px) and (max-width:1800px) {
 	.collag1-img{ min-height: 450px;}
 	.collag3-img{ min-height: 285px;}
@@ -1060,13 +1084,17 @@
     #pricing .section-1{margin-top: 0px; padding-top: 10px;}
     #pricing .section-faq{ margin-top: 0%;}
     #pricing .pricing-text{ margin-top: 40%;}
-	#pricing .pricing-help .billing-plans-help{left:5%;}
+	#pricing .pricing-help .billing-plans-help{left:5%;   bottom: 420px;}
+	#pricing .enterprise_pos {margin-top: 40%;}
 }
 @media (min-width: 1024px) and (max-width:1330px) {
     /*.section-1-left .btn-buildcal{     padding: 15px 25px; font-size:14px;}*/
     /*.section-1-left .btn-buildcal i{ font-size:20px;}*/
     .section-1-left .btn-buildcal.red{  padding: 15px 25px;  font-size:14px;}
 	.section-1-left .btn-buildcal.red i{ font-size:20px;}
+	.custom-navbar.navbar-default .navbar-nav > li > a{
+		padding-left: 20px;
+	}
 }
 
 /* theme resposnive */
