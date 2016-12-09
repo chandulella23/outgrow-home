@@ -1085,7 +1085,7 @@
         	font-size: 18px;
         }
 }
-@media (min-width: 1025px){
+@media (min-width: 1024px){
 	.toggle-dots-white{
 		display: none;
 	}
@@ -1169,13 +1169,13 @@
 	}
 }
 
-@media only screen and (max-width: 1024px) {
-	#alternatingSizesPortfolioSection .vc_empty_space:first-of-type {
-		margin-top: -25px !important
-	}
-	#cardsSliderSection .vc_empty_space:first-of-type {
-		margin-top: -70px !important
-	}
+@media only screen and (max-width: 1023px) {
+		#alternatingSizesPortfolioSection .vc_empty_space:first-of-type {
+			margin-top: -25px !important
+		}
+		#cardsSliderSection .vc_empty_space:first-of-type {
+			margin-top: -70px !important
+		}
 
         .billing-grey-top {
             border-bottom: 1px solid #777;

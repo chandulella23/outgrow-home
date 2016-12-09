@@ -68,7 +68,7 @@
 		padding:15px 2px;
 	}
 	#pricing .pricing-help .billing-plans-help{
-		bottom: 400px;
+		bottom: 420px;
 		left: 20px;
 	}
 	#pricing .container-enterprise{
@@ -103,7 +103,7 @@
 		margin-left:0px;
 	}
 	#pricing .pricing-help .billing-plans-help{
-	    bottom:360px;
+	    bottom:390px;
 	}
 }
 @media (min-width: 600px) and (max-width:768px) {
@@ -148,7 +148,7 @@
 	#pricing .pricing-headingtop {
     min-height: 50px;
     padding-bottom: 25px;
-}
+	}
 	#pricing .section-1-right {
 		margin-left: 0px;
 	}
