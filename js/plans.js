@@ -244,6 +244,7 @@ var displayPlans = function(){
                     dots = 'toggle-dots-grey';
                     boxShadow = 'business-box-xshadow';
                     bil_bottom = 'billing-white-bottom'
+                    console.log(allPlans.data.lists.list[i].plan.id,'asdasdasdasd',dots);
                 }
                 else if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'enterprise'){
                     mostPopular = '';
@@ -275,7 +276,7 @@ var displayPlans = function(){
                     '<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide '+bil_bottom+'" id="'+planId+'">'+
                     '<ul class="billing-list">'+featureList+'</ul>'+
                     '</div>'+
-                    '<a href="javascript:void(0);" class="toggle-dots-white" onclick="show(\''+planId+'\')">'+
+                    '<a href="javascript:void(0);" class="'+dots+'" onclick="show(\''+planId+'\')">'+
 					'<div>'+
 					'<i class="material-icons" id="'+planId+'_arrow">keyboard_arrow_down</i>'+
 					'<p class="more-info" id="'+planId+'_more">More Info</p>'+
