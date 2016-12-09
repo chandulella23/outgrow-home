@@ -177,12 +177,13 @@ var displayPlans = function(){
                             if(allPlans.data.plans[j].cycles[l].plan == allPlans.data.lists.list[i].plan.id.split('_')[0]){
                                 var strikeOff = '';
                                 if(allPlans.data.lists.list[i].plan.id.split('_')[1] != 'm'){
+                                    console.log('business_m',business_m);
                                     if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'essentials')
-                                        strikeOff = '<span class="strike-off">$'+essentials_m+'/Month</span>';
+                                        strikeOff = '<span class="strike-off strike-price">$'+essentials_m+'/Month</span>';
                                     if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'business')
-                                        strikeOff = '<span class="strike-off">$'+business_m+'/Month</span>';
+                                        strikeOff = '<span class="strike-off strike-price">$'+business_m+'/Month</span>';
                                     if(allPlans.data.lists.list[i].plan.id.split('_')[0] === 'freelancer')
-                                        strikeOff = '<span class="strike-off">$'+freelancer_m+'/Month</span>';
+                                        strikeOff = '<span class="strike-off strike-price">$'+freelancer_m+'/Month</span>';
                                 }
                                 if(allPlans.data.plans[j].cycles[l].coupon_active){
 
@@ -243,8 +244,7 @@ var displayPlans = function(){
                     box = 'business-box';
                     dots = 'toggle-dots-grey';
                     boxShadow = 'business-box-xshadow';
-                    bil_bottom = 'billing-white-bottom'
-                    console.log(allPlans.data.lists.list[i].plan.id,'asdasdasdasd',dots);
+                    bil_bottom = 'billing-white-bottom';
                 }
                 else if(allPlans.data.lists.list[i].plan.id.split('_')[0] == 'enterprise'){
                     mostPopular = '';
