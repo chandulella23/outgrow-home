@@ -68,7 +68,7 @@
 		padding:15px 2px;
 	}
 	#pricing .pricing-help .billing-plans-help{
-		bottom: 420px;
+		bottom: 415px;
 		left: 20px;
 	}
 	#pricing .container-enterprise{
@@ -93,7 +93,11 @@
 	    top: 10px;
 	}
 }
-
+@media (min-width: 413px) and (max-width:439px) {
+	#pricing .pricing-help .billing-plans-help {
+	    bottom: 380px !important;
+	}
+}
 @media (min-width: 440px) and (max-width:768px) {
 	#pricing .container-faqs {
 		/*width: 440px;*/
@@ -103,7 +107,7 @@
 		margin-left:0px;
 	}
 	#pricing .pricing-help .billing-plans-help{
-	    bottom:390px;
+	    bottom:380px;
 	}
 }
 @media (min-width: 600px) and (max-width:768px) {
@@ -132,10 +136,9 @@
 	}
 	#pricing .section1-left-cell{
 		height:50px;
-	}
-	
+	}	
 }
-@media (min-width: 769px) and (max-width:992px) {
+@media (min-width: 769px) and (max-width:990px) {
 	
 	#pricing .loader{
 		margin-left: 0px;
@@ -146,28 +149,36 @@
 		margin: 0 auto;
 	}
 	#pricing .pricing-headingtop {
-    min-height: 50px;
-    padding-bottom: 25px;
+	    min-height: 50px;
+	    padding-bottom: 25px;
 	}
 	#pricing .section-1-right {
 		margin-left: 0px;
 	}
-	#pricing .billing-grey {
+	/*#pricing .billing-grey {
 		margin-top: 0px;
 		margin-bottom: 0px;
-	}
+	}*/
 	.toggle-dots-white {
 		float: left;
 		width: 100%;
 		text-align: center;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		background: #62696d;
+		background: rgba(98, 105, 109, 0.8);
+	}
+	.toggle-dots-grey {
+	    float: left;
+	    width: 100%;
+	    text-align: center;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    background: #f2f2f2;
 	}
 	#pricing .billing-white {
 		margin-right: 0px;
 		margin-bottom: 40px;
-		margin-top: 40px;
+		margin-top: 0px;
 	}
 	.toggle-dots-white div {
 	    font-size: 13px;
@@ -194,8 +205,11 @@
 	#pricing .pricing-help .billing-plans-help {
 		font-size: 10px;
 		position: absolute;
-		bottom: -40px;
-		left: -90px;
+	    bottom: 420px;
+    	left: -100px;
+	}
+	#pricing .enterprise_pos {
+	    margin-top: 0;
 	}
 	.toggle-dots-white span {
 		width: 8px;
@@ -209,8 +223,21 @@
 		padding-left: 25px;
 		padding-right: 25px;
 	}
+	.toggle-dots-grey div p.more-info {
+	    position: relative;
+	    top: -5px;
+	    margin-bottom: 0px;
+	    color: #62696d;
+	    display: inline-block;
+	}
+	.toggle-dots-grey div i.material-icons {
+	    position: relative;
+	    top: 3px;
+	    color: #62696d;
+	}	
+	
 }
-@media (min-width: 993px) and (max-width:1024px) {
+@media (min-width: 991px) and (max-width:1024px) {
 	#pricing .loader{
 		margin-left: 38%;
 		color:#fb6c73;
@@ -234,7 +261,7 @@
 	#pricing .billing-white {
 		margin-right: 0px;
 		margin-bottom: 40px;
-		margin-top: 40px;
+		margin-top: 0px;
 	}
 	#pricing .pricing-text {
 		position: relative;
@@ -243,7 +270,7 @@
 	#pricing .pricing-help .billing-plans-help {
 		font-size: 10px;
 		position: absolute;
-		bottom: 30px;
+		/*bottom: 30px;*/
 		left: -100px;
 	}
 	#pricing .section-1-right {
@@ -254,6 +281,12 @@
 	#pricing .loader {
 		margin-left: 32%;
 		color: #fb6c73;
+	}
+	.toggle-dots-white {
+	    display: none;
+	}
+	.toggle-dots-grey {
+	    display: none;
 	}
 }
 @media (min-width: 1024px) and (max-width:1024px) {
