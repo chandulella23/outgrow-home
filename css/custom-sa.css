@@ -5184,6 +5184,13 @@ button.swiper-pagination-bullet {
     text-transform: uppercase;
     float: none;
 }
+#pricing .enterprise-box-new .btn-white-red-outline:hover {
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    background: #fdb6b9!important;
+    color: #fb545b!important;
+    border-color: #fdb6b9!important;
+}
 #pricing .enterprise-box-new span.sub-title {
     font-size: 14px;
     color: #fff;
