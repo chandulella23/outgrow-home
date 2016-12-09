@@ -195,18 +195,25 @@ var displayPlans = function(){
                                     }
 
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-                                        pricetag = '<br/>'
-                                            +strikeOff+
-                                            '<br/><span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+'/Month</span><h3 class="plan-price">$'+Math.ceil(price/6)+'/Month</h3>';
+                                        pricetag = '<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            //'<span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+'/Month</span>'+
+
+                                            '<span>$'+Math.ceil(price/6)+'/Month</span>'+
+                                            '</h3>';
                                     }
                                     if(allPlans.data.lists.list[i].plan.period == 1){
-                                        pricetag = '<br/>'
-                                            +strikeOff+
-                                            '<br/><span class="strike-off">$'+allPlans.data.lists.list[i].plan.price/100+'/Month</span><h3 class="plan-price">$'+price+'/Month</h3>';
+                                        pricetag = '<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            //'<span class="strike-off">$'+allPlans.data.lists.list[i].plan.price/100+'/Month</span>'+
+                                            '<span>$'+price+'/Month</span>'+
+                                            '</h3>';
                                         if(allPlans.data.lists.list[i].plan.period_unit == 'year'){
-                                            pricetag = '<br/>'
-                                                +strikeOff+
-                                                '<br/><span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</span><h3 class="plan-price">$'+Math.ceil(price/12)+'/Month</h3>';
+                                            pricetag = '<br/>'+
+                                                '<h3 class="plan-price">'+strikeOff+
+                                                //'<span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</span>'
+                                                '<span>$'+Math.ceil(price/12)+'/Month</span>'+
+                                                '</h3>';
                                         }
                                     }
 
@@ -214,17 +221,22 @@ var displayPlans = function(){
                                 }
                                 else{
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-                                        pricetag ='<br/>'+strikeOff+
-                                            '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
-                                            '/Month</h3>';
+                                        pricetag ='<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            '<span>$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
+                                            '/Month</span>'+
+                                            '</h3>';
                                     }
                                     else if(allPlans.data.lists.list[i].plan.period == 1){
-                                        pricetag ='<br/>'+strikeOff+
-                                            '<h3 class="plan-price">$'+allPlans.data.lists.list[i].plan.price/100+
-                                            '/'+allPlans.data.lists.list[i].plan.period_unit+'</h3>';
+                                        pricetag ='<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            '<span>$'+allPlans.data.lists.list[i].plan.price/100+'/'+allPlans.data.lists.list[i].plan.period_unit+
+                                            '</h3>';
                                         if(allPlans.data.lists.list[i].plan.period_unit === 'year'){
-                                            pricetag = '<br/>'+strikeOff+
-                                                '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</h3>';
+                                            pricetag = '<br/>'+
+                                                '<h3 class="plan-price">'+strikeOff+
+                                                '<span>$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month'+
+                                                '</h3>';
                                         }
                                     }
                                 }
