@@ -5273,9 +5273,12 @@ button.swiper-pagination-bullet {
 
 .strike-off{
     text-decoration: line-through;
+}
+.strike-price{
     font-size: 18px;
     color: #fff;
     opacity: 0.5;
+    display: block;
 }
 
 .apply-coupon{
