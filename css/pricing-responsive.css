@@ -169,6 +169,24 @@
 		margin-bottom: 40px;
 		margin-top: 40px;
 	}
+	.toggle-dots-white div {
+	    font-size: 13px;
+	    color: #fff;
+	    height: 30px;
+	    font-family: montserratregular;
+	}
+	.toggle-dots-white div i.material-icons {
+	    position: relative;
+	    top: 3px;
+	    color: #fff;
+	}
+	.toggle-dots-white div p.more-info {
+	    position: relative;
+	    top: -5px;
+	    margin-bottom: 0px;
+	    color: #fff;
+	    display: inline-block;
+	}
 	#pricing .pricing-text {
 		position: relative;
 		margin-top: 10%;

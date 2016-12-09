@@ -112,11 +112,18 @@
 	.billing-white-bottom .billing-list .mat-icon:after {display: block; float: none; line-height:normal;}
 	.billing-white-bottom .billing-list .unselected .mat-icon:after { display: block; float: none;}
 	.section-11{ margin-bottom:0px;}
-	.toggle-dots-white{float:left; width:100%;text-align: center; padding-top: 10px;padding-bottom: 10px; background:rgba(98, 105, 109, 0.8); }
+	.toggle-dots-white{float:left; width:100%;text-align: center; padding-top: 5px;padding-bottom: 5px; background:rgba(98, 105, 109, 0.8); }
 	.toggle-dots-white span{ width: 8px; height: 8px;display: inline-block; border-radius: 100%; background:#fff;}
 	.toggle-dots-white2{float:left; width:100%;text-align: center; padding-top: 10px;padding-bottom: 10px; background:#62696d; }
 	.toggle-dots-white2 span{ width: 8px; height: 8px;display: inline-block; border-radius: 100%; background:#fff;} 
-	.toggle-dots-grey{float:left; width:100%;text-align: center; padding-top: 10px;padding-bottom: 10px; background:#fff; }
+	.toggle-dots-grey{
+		float: left;
+	    width: 100%;
+	    text-align: center;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    background: #f2f2f2;
+	}
 	.toggle-dots-grey span{ width: 8px; height: 8px;display: inline-block; border-radius: 100%; background:rgba(251,108,115,0.8);}
 	.section-12{ margin-top:0px;}
 	.Section-13 .panel-heading{padding:0px;}
