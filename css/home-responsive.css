@@ -1096,6 +1096,9 @@
 	.toggle-dots-white{
 		display: none;
 	}
+	.toggle-dots-grey{
+		display: none;
+	}
 }
 @media (min-width: 1480px) and (max-width:1800px) {
 	.collag1-img{ min-height: 450px;}
