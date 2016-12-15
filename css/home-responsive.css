@@ -934,6 +934,12 @@
 		display: block;
 		margin: 0 auto;
 	}
+	.img-2 {
+    	right: 0;
+	}
+	.img-1 {
+	    left: 0;
+	}
 	
 }
 @media (min-width:910px) and (max-width:989px){
