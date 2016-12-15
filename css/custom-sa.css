@@ -2875,7 +2875,10 @@ button.swiper-pagination-bullet {
 }
 
 .boxed .section .section_inner, .grid_section .section_inner{
-    width: 1200px;
+    width: 1200px !important;
+}
+.vc_row {
+    margin-left: 0 !important;
 }
 
 /*################### homepage css end ###################*/

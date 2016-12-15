@@ -1418,7 +1418,7 @@
     .title_border_in_grid_holder,
     div.grid_section .section_inner,
     nav.content_menu ul {
-        width: 950px
+        width: 950px !important;
     }
     .paspartu_enabled .carousel-inner .slider_content_outer,
     .paspartu_enabled .container_inner,
@@ -1673,7 +1673,7 @@
     .title_border_in_grid_holder,
     div.grid_section .section_inner,
     nav.content_menu ul {
-        width: 768px
+        width: 768px !important;
     }
     .vertical_menu_hidden.vertical_menu_enabled.vertical_menu_hidden_with_logo .vertical_menu_area_bottom_logo {
         display: none
@@ -2524,7 +2524,7 @@
     .title_border_in_grid_holder,
     div.grid_section .section_inner,
     nav.content_menu ul {
-        width: 600px
+        width: 600px !important;
     }
     .paspartu_enabled .carousel-inner .slider_content_outer,
     .paspartu_enabled .container_inner,
@@ -3130,7 +3130,7 @@
     .title_border_in_grid_holder,
     div.grid_section .section_inner,
     nav.content_menu ul {
-        width: 420px
+        width: 420px !important;
     }
     .paspartu_enabled .carousel-inner .slider_content_outer,
     .paspartu_enabled .container_inner,
@@ -3713,7 +3713,7 @@
     .steps_holder_inner,
     div.grid_section .section_inner,
     nav.content_menu ul {
-        width: 300px
+        width: 300px !important;
     }
     .paspartu_enabled .carousel-inner .slider_content_outer,
     .paspartu_enabled .container_inner,
@@ -4112,7 +4112,7 @@
     body.boxed footer,
     div.grid_section .section_inner,
     nav.content_menu {
-        width: 95%
+        width: 95% !important;
     }
     body.boxed .footer_inner {
         width: 100%
