@@ -83,7 +83,7 @@ var displayPlans = function(){
     var pricetag = '';
     var price = 0;
     var ulUsers = '',ulLeads = '',ulVisits = '', cta = '',ulCalculators = '';
-    var userText = '',calcText == '';
+    var userText = '',calcText = '';
     var freelancer = '';
     var enterprise = '';
     for(var i = 0; i<allPlans.data.lists.list.length;i++){
