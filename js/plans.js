@@ -83,6 +83,7 @@ var displayPlans = function(){
     var pricetag = '';
     var price = 0;
     var ulUsers = '',ulLeads = '',ulVisits = '', cta = '',ulCalculators = '';
+    var userText = '',calcText == '';
     var freelancer = '';
     var enterprise = '';
     for(var i = 0; i<allPlans.data.lists.list.length;i++){
@@ -125,17 +126,27 @@ var displayPlans = function(){
                         else
                             ulUsers = allPlans.data.plans[j].plan.users.toLocaleString();
 
+                        if(allPlans.data.plans[j].plan.users == 1)
+                            userText = 'User';
+                        else
+                            userText = 'Users';
+
                         if(allPlans.data.plans[j].plan.calculators == -1)
                             ulCalculators = 'Unlimited';
                         else
                             ulCalculators = allPlans.data.plans[j].plan.calculators.toLocaleString();
+
+                        if(allPlans.data.plans[j].plan.users == 1)
+                            calcText = 'Calculator';
+                        else
+                            calcText = 'Calculators';
 
                         featureList =
                             '<li>'+
                             '<a href="javascript:void(0);" class="">'+
                             '<span class="mat-icon"></span>'+
                             '<span class="list-name">&nbsp;'+ulCalculators+
-                            ' Calculator(s)'+
+                            ' '+calcText+
                             '</span>'+
                             '</a>'+
                             '</li>'+
@@ -143,7 +154,7 @@ var displayPlans = function(){
                             '<a href="javascript:void(0);" class="">'+
                             '<span class="mat-icon"></span>'+
                             '<span class="list-name">&nbsp;'+ulUsers+
-                            ' User(s)'+
+                            ' '+userText+
                             '</span>'+
                             '</a>'+
                             '</li>'+
