@@ -4764,6 +4764,18 @@ button.swiper-pagination-bullet {
 #why .slider-sa {
     min-height: 360px;
 }
+
+#why .grey-heading {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #dfe3e6 !important;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: montserratbold !important;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
 .navbar{
 	margin-bottom:0px;
 }
