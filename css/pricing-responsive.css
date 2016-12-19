@@ -329,7 +329,7 @@
 		font-size: 10px;
 		position: absolute;
 		/*bottom: -600px;*/
-		bottom: 340px;
+		bottom: 300px;
 	}
 	#pricing .pricing-text {
 		position: relative;
@@ -352,7 +352,7 @@
 	}
 	#pricing .enterprise_pos {
 	    position: relative;
-	    margin-top: 47%;
+	    margin-top: 50%;
 	}
 }
 @media (min-width: 1280px) and (max-width:1280px) {

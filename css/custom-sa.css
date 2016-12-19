@@ -224,7 +224,7 @@ label {
 .section-1-left h3.section1-firsthead{
     float: left;
     width: 100%;
-    font-size: 33px;
+    font-size: 29px;
     font-family:montserratlight;
     color: #fb6c73;
     text-transform: uppercase;
@@ -234,7 +234,7 @@ label {
 .section-1-left h3{
     float: left;
     width: 100%;
-    font-size: 33px;
+    font-size: 29px;
     font-family:montserratbold;
     color: #fb6c73;
     text-transform: uppercase;
@@ -335,7 +335,9 @@ label {
     font-size: 13px;
     padding: 0 15px;
 }*/
-
+.mt7{
+    margin-top: 7% !important;
+}
 .section-1-right{
     padding-right: 0px;
     padding-left: 35px;
@@ -1851,7 +1853,7 @@ label {
     font-size: 10px;
     position: absolute;
     /*bottom: -600px;*/
-        bottom: 340px;
+        bottom: 300px;
 }
 #pricing .need-custom-plan {
     margin-top: 20px;

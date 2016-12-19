@@ -52,8 +52,8 @@ jQuery(document).ready(function() {
         '<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let\'s Build One!</button>'+
         '</a>'+
         '<div class="btn-bottominfo mk-animate-element fade-in">'+
-            '<span>7 days Free Trial</span>'+
-            '<label>Plan starts at $35</label>'+
+            '<span>Free Trial Available</span>'+
+            '<label>Plans Start at $35</label>'+
         '</div>';
     jQuery('#btnBuildCalc1').html(btn1);
 
