@@ -136,7 +136,7 @@ var displayPlans = function(){
                         else
                             ulCalculators = allPlans.data.plans[j].plan.calculators.toLocaleString();
 
-                        if(allPlans.data.plans[j].plan.users == 1)
+                        if(allPlans.data.plans[j].plan.calculators == 1)
                             calcText = 'Calculator';
                         else
                             calcText = 'Calculators';
