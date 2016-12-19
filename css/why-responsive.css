@@ -316,6 +316,14 @@
 	.video-wrapper-1{
 		margin: 20px 0px;
 	}
+	#why .grey-heading{
+    	text-transform: none;
+	    line-height: normal;
+	    font-size: 24px !important;
+	    text-align: center !important;
+	    margin-bottom: 0 !important;
+	    margin-top: 30px;
+    }
 }
 @media (min-width:375px) and (max-width:375px){
 	iframe {
