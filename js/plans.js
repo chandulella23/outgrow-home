@@ -79,7 +79,7 @@ var displayPlans = function(){
     var fe = '';
     var pricetag = '';
     var price = 0;
-    var ulUsers = '',ulLeads = '',ulVisits = '', cta = '';
+    var ulUsers = '',ulLeads = '',ulVisits = '', cta = '',ulCalculators = '';
     var freelancer = '';
     var enterprise = '';
     for(var i = 0; i<allPlans.data.lists.list.length;i++){
@@ -116,16 +116,31 @@ var displayPlans = function(){
                             ulVisits = 'Unlimited';
                         else
                             ulVisits = allPlans.data.plans[j].plan.visits.toLocaleString();
+
                         if(allPlans.data.plans[j].plan.users == -1)
                             ulUsers = 'Unlimited';
                         else
                             ulUsers = allPlans.data.plans[j].plan.users.toLocaleString();
+
+                        if(allPlans.data.plans[j].plan.calculators == -1)
+                            ulCalculators = 'Unlimited';
+                        else
+                            ulCalculators = allPlans.data.plans[j].plan.calculators.toLocaleString();
+
                         featureList =
                             '<li>'+
                             '<a href="javascript:void(0);" class="">'+
                             '<span class="mat-icon"></span>'+
+                            '<span class="list-name capitalize">&nbsp;'+ulCalculators+
+                            ' Calculator(s)'+
+                            '</span>'+
+                            '</a>'+
+                            '</li>'+
+                            '<li>'+
+                            '<a href="javascript:void(0);" class="">'+
+                            '<span class="mat-icon"></span>'+
                             '<span class="list-name capitalize">&nbsp;'+ulUsers+
-                            ' Users'+
+                            ' User(s)'+
                             '</span>'+
                             '</a>'+
                             '</li>'+
