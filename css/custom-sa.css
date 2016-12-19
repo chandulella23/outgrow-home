@@ -392,14 +392,8 @@ label {
     min-height:385px;
     background-size: cover;
     background-position: center top;
-    /* -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;*/
 }
-/*.collag1:hover .collag1-img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-*/
+
 .collag2 {
     overflow: hidden;
     cursor: pointer;
@@ -411,56 +405,33 @@ label {
     float: left;
     width: 100%;
     min-height: 225px;
-    /* -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;*/
 }
-/*
-.collag2:hover .collag2-img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}*/
-
 .collag3 {
     overflow: hidden;
     cursor: pointer;
 }
 .collag3-img {
     background-image: url(../images/new-collag2-insurance.jpg);
+    /*background-size: cover;
+    background-position: center top;*/
     background-size: cover;
-    background-position: center top;
+    background-position: 85% 50%;
     float: left;
     width: 100%;
     min-height: 275px;
-   /* -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;*/
 }
-/*
-.collag3:hover .collag3-img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}*/
-
 .collag4 {
     overflow: hidden;
     cursor: pointer;
 }
 .collag4-img {
-    background-image: url(../images/new-collag3-soccer.jpg);
+    background-image: url(../images/new-collag3-app.jpg);
     background-size: cover;
     background-position: top center;
     float: left;
     width: 100%;
     min-height: 225px;
-    /* -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;*/
 }
-/*
-.collag4:hover .collag4-img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}*/
-
-
 .section-runnigheading{
     float: left;
     width: 100%;
@@ -706,9 +677,6 @@ label {
     position: relative;
     top: 3px;
 }
-
-
-
 .sec4-2-1{
     position: relative;
     left:4%;
@@ -766,8 +734,6 @@ label {
     margin-right: 10px;
     float: left;
 }
-
-
 .section-5{
     float: left;
     width: 100%;
@@ -817,14 +783,11 @@ label {
     margin-right: 10px;
 	float:left;
 }
-
-
 .sec5-2{
     position: absolute;
     top: 19px;
     right: 45px;
 }
-
 .section-6{
     margin-top: 60px;
     margin-bottom: 70px;
@@ -887,9 +850,6 @@ label {
     transition: .5s ease-in-out;
 }
 .section-6 .btn-buildcal:hover{
-    /*background:none;
-	border:2px solid #fb6c73;
-	color:#fb6c73;*/
     background: #fdb6b9;
     color: #fb545b;
     border-color: #fdb6b9;
@@ -904,7 +864,6 @@ label {
     position: relative;
     top: 3px;
 }
-
 
 .section-7-top{
     margin: 0;
@@ -1060,10 +1019,6 @@ label {
     position: relative;
     top: 3px;
 }
-
-
-
-
 .section-8 .btn-buildcal{
     background: #62696d;
 	border:2px solid #62696d;
@@ -1119,12 +1074,6 @@ label {
     position: relative;
     top: 3px;
 }
-
-
-
-
-
-
 .section-8{
     float: left;
     width: 100%;
@@ -1136,8 +1085,6 @@ label {
     min-height: 470px;
 	padding-left:0px;
 }
-
-
 .new-sec9-h4{
     color: #fb6c73;
     font-size: 36px;
@@ -1262,13 +1209,6 @@ label {
     min-height: 470px;
 	padding-right:0px;
 }
-
-
-/* .section-10{
-    background: #fb6c73;
-    margin-bottom: 80px;
-    margin-top: 0px;
-} */
 .section-10 {
     background: #fb6c73;
     margin-bottom: 80px;
@@ -1394,8 +1334,6 @@ label {
 .sec10-testimonial-link:hover{
 	color:#fff;
 }
-
-
 .section-11{
     float: left;
     width: 100%;
@@ -1483,7 +1421,6 @@ label {
     font-size: 12px;
     line-height: 18px;
     font-family: montserratregular;
-    float: left;
     padding: 15px 10px;
     margin: 0px;
     text-align: center;
@@ -1909,10 +1846,6 @@ label {
     width: 100%;
 }*/
 
-.enterprise-margin {
-    padding-bottom: 0px;
-    background: #f5f5f5;
-}
 
 #pricing .pricing-help .billing-plans-help {
     font-size: 10px;
@@ -2937,7 +2870,16 @@ button.swiper-pagination-bullet {
 }
 /* ############## theme css #############*/
 
+.embed-responsive{
+    box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.4);
+}
 
+.boxed .section .section_inner, .grid_section .section_inner{
+    width: 1200px !important;
+}
+.vc_row {
+    margin-left: 0 !important;
+}
 
 /*################### homepage css end ###################*/
 
@@ -4304,8 +4246,8 @@ button.swiper-pagination-bullet {
     text-transform: uppercase;
 }
 #why .section-w2 img {
-    /*box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);*/
-    box-shadow: none;
+    box-shadow: -10px 5px 28px 6px rgba(0,0,0,0.4);
+    /*box-shadow: none;*/
 }
 #why .secw2-2-new {
     margin-left: 0px;
@@ -5253,6 +5195,13 @@ button.swiper-pagination-bullet {
     text-transform: uppercase;
     float: none;
 }
+#pricing .enterprise-box-new .btn-white-red-outline:hover {
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    background: #fdb6b9!important;
+    color: #fb545b!important;
+    border-color: #fdb6b9!important;
+}
 #pricing .enterprise-box-new span.sub-title {
     font-size: 14px;
     color: #fff;
@@ -5270,14 +5219,22 @@ button.swiper-pagination-bullet {
     position: relative;
     margin-top: 45%;
 }
-
-.strike-off{
+.enterprise-margin {
+    padding-bottom: 0px;
+    background: #f5f5f5;
+}
+#pricing .strike-off{
     text-decoration: line-through;
+}
+#pricing .strike-price{
     font-size: 18px;
     color: #fff;
     opacity: 0.5;
+    display: block;
 }
-
+#pricing .strike-off.strike-price.whitebg {
+    color: #666;
+}
 .apply-coupon{
   font-size: 12px;
   color: #fff;

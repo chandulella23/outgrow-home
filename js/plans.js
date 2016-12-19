@@ -51,7 +51,10 @@ jQuery(document).ready(function() {
     var btn1 = '<a href="http://app.outgrow.'+ext+'" class="params">'+
         '<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in"><i class="material-icons">view_compact</i>Let\'s Build One!</button>'+
         '</a>'+
-        '<div class="btn-bottominfo mk-animate-element fade-in"></div>';
+        '<div class="btn-bottominfo mk-animate-element fade-in">'+
+            '<span>15 days Free Trial</span>'+
+            '<label>Plan starts at $35</label>'+
+        '</div>';
     jQuery('#btnBuildCalc1').html(btn1);
 
 });
@@ -210,18 +213,25 @@ var displayPlans = function(){
                                     }
 
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-                                        pricetag = '<br/>'
-                                            +strikeOff+
-                                            '<br/><span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+'/Month</span><h3 class="plan-price">$'+Math.ceil(price/6)+'/Month</h3>';
+                                        pricetag = '<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            //'<span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6)+'/Month</span>'+
+
+                                            '<span>$'+Math.ceil(price/6)+'/Month</span>'+
+                                            '</h3>';
                                     }
                                     if(allPlans.data.lists.list[i].plan.period == 1){
-                                        pricetag = '<br/>'
-                                            +strikeOff+
-                                            '<br/><span class="strike-off">$'+allPlans.data.lists.list[i].plan.price/100+'/Month</span><h3 class="plan-price">$'+price+'/Month</h3>';
+                                        pricetag = '<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            //'<span class="strike-off">$'+allPlans.data.lists.list[i].plan.price/100+'/Month</span>'+
+                                            '<span>$'+price+'/Month</span>'+
+                                            '</h3>';
                                         if(allPlans.data.lists.list[i].plan.period_unit == 'year'){
-                                            pricetag = '<br/>'
-                                                +strikeOff+
-                                                '<br/><span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</span><h3 class="plan-price">$'+Math.ceil(price/12)+'/Month</h3>';
+                                            pricetag = '<br/>'+
+                                                '<h3 class="plan-price">'+strikeOff+
+                                                //'<span class="strike-off">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</span>'
+                                                '<span>$'+Math.ceil(price/12)+'/Month</span>'+
+                                                '</h3>';
                                         }
                                     }
 
@@ -229,17 +239,22 @@ var displayPlans = function(){
                                 }
                                 else{
                                     if(allPlans.data.lists.list[i].plan.period == 6 && allPlans.data.lists.list[i].plan.period_unit == 'month'){
-                                        pricetag ='<br/>'+strikeOff+
-                                            '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
-                                            '/Month</h3>';
+                                        pricetag ='<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            '<span>$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/6) +
+                                            '/Month</span>'+
+                                            '</h3>';
                                     }
                                     else if(allPlans.data.lists.list[i].plan.period == 1){
-                                        pricetag ='<br/>'+strikeOff+
-                                            '<h3 class="plan-price">$'+allPlans.data.lists.list[i].plan.price/100+
-                                            '/'+allPlans.data.lists.list[i].plan.period_unit+'</h3>';
+                                        pricetag ='<br/>'+
+                                            '<h3 class="plan-price">'+strikeOff+
+                                            '<span>$'+allPlans.data.lists.list[i].plan.price/100+'/'+allPlans.data.lists.list[i].plan.period_unit+
+                                            '</h3>';
                                         if(allPlans.data.lists.list[i].plan.period_unit === 'year'){
-                                            pricetag = '<br/>'+strikeOff+
-                                                '<h3 class="plan-price">$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month</h3>';
+                                            pricetag = '<br/>'+
+                                                '<h3 class="plan-price">'+strikeOff+
+                                                '<span>$'+Math.ceil((allPlans.data.lists.list[i].plan.price/100)/12)+'/Month'+
+                                                '</h3>';
                                         }
                                     }
                                 }
