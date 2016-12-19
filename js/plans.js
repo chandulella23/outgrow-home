@@ -134,7 +134,7 @@ var displayPlans = function(){
                             '<li>'+
                             '<a href="javascript:void(0);" class="">'+
                             '<span class="mat-icon"></span>'+
-                            '<span class="list-name capitalize">&nbsp;'+ulCalculators+
+                            '<span class="list-name">&nbsp;'+ulCalculators+
                             ' Calculator(s)'+
                             '</span>'+
                             '</a>'+
@@ -142,7 +142,7 @@ var displayPlans = function(){
                             '<li>'+
                             '<a href="javascript:void(0);" class="">'+
                             '<span class="mat-icon"></span>'+
-                            '<span class="list-name capitalize">&nbsp;'+ulUsers+
+                            '<span class="list-name">&nbsp;'+ulUsers+
                             ' User(s)'+
                             '</span>'+
                             '</a>'+
