@@ -1,4 +1,5 @@
 Header set Cache-Control "max-age=2628000, public"
+AddType text/javascript .js
 <IfModule mod_expires.c>
 # Enable expirations
 ExpiresActive On 
