@@ -108,10 +108,11 @@ jQuery(document).ready(function() {
 	}else{
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Login');
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
-		jQuery('#signUp').html(signUp);
+		jQuery(document).find('.signUp').html(signUp);
 	}
 	jQuery('#footer').html(footer);
-	jQuery('#login').html(login);
+
+	jQuery(document).find('.login').html(login);
 	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
 	jQuery(document.getElementById('trialAnchor')).prop('href',trialAnchor);
 	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);
