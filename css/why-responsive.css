@@ -340,6 +340,13 @@
 	.p-img{
 		padding:0 20px !important;
 	}
+	.integration-head{
+		margin-top: 10px;
+	    text-transform: none;
+	    line-height: normal;
+	    font-size: 24px;
+	    text-align: center;
+	}
 }
 @media (min-width:375px) and (max-width:375px){
 	iframe {

@@ -47,8 +47,13 @@
   	justify-content: center
 }
 .integration-head{
-    color: #62696d;
-    font-family: montserratregular;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #dfe3e6;
+    font-size: 48px;
+    line-height: 40px;
+    font-family: montserratbold;
 }
 .mt30{
 	margin-top: 30px;
