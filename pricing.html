@@ -226,9 +226,9 @@
 					</li>
 				</ul>
 				<!-- right menu --> 
-				<div class="menu-outer hide">
+				<div class="menu-outer">
 					<div class="top-section">
-					    <a href="#" id="close" class="clear-set">
+					    <a href="#" class="clear-set close-menu">
 					    	<i class="material-icons">clear</i>
 					    </a>
 				  	</div>
@@ -248,7 +248,7 @@
 	                    
 					</ul>
 				</div>
-				<div class="backdrop-custom hide"></div>
+				<div class="backdrop-custom close-menu"></div>
 			</div>
 
 		</div><!-- /.container-fluid -->
@@ -931,14 +931,15 @@
 
 		//navbar open and close                               
 		jQuery( "#open" ).click(function() {
-		  jQuery(".menu-outer").toggleClass("hide");
-		  jQuery(".backdrop-custom").toggleClass("hide");
-		  //jQuery("html").css("overflow","hidden");
+		  	jQuery(".menu-outer").addClass("is-active");
+			jQuery(".backdrop-custom").addClass("is-active");
+			//jQuery("html").css("overflow","hidden");
 		});
 
-		jQuery( "#close" ).click(function() {
-		  jQuery(".menu-outer").addClass("hide");
-		  jQuery(".backdrop-custom").addClass("hide");
+		jQuery( ".close-menu" ).click(function() {
+			jQuery(".menu-outer").removeClass("is-active");
+			jQuery(".backdrop-custom").removeClass("is-active");
+			//jQuery("html").css("overflow","auto");
 		});
 	</script>
 	<!--<script type="text/javascript">

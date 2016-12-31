@@ -189,7 +189,7 @@
                     <li class="res-nav-show"><a href="features.html" onclick="callGA('FEATURES')" class="params">Features</a></li>
                     <li><a href="pricing.html" onclick="callGA('PRICING')" class="params">Pricing</a></li>
                     <li class="res-nav-show"><a href="examples.html" onclick="callGA('USECASE')" class="params">Examples</a></li>
-                   	<li class="res-nav-show"><a href="integrations.html" onclick="callGA('USECASE')" class="params active">Integration</a></li>
+                   	<li class="res-nav-show"><a href="integrations.html" class="params">Integration</a></li>
                    	<li class="login"></li>
               		<li class="signUp"></li>
                     <li class="res-nav-show">
@@ -204,9 +204,9 @@
 					</li>
 				</ul>
 				<!-- right menu --> 
-				<div class="menu-outer hide">
+				<div class="menu-outer">
 					<div class="top-section">
-					    <a href="#" id="close" class="clear-set">
+					    <a href="#" class="clear-set close-menu">
 					    	<i class="material-icons">clear</i>
 					    </a>
 				  	</div>
@@ -214,7 +214,7 @@
 	                    <li><a href="why_calculators.html" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
 	                    <li><a href="features.html" onclick="callGA('FEATURES')" class="params">Features</a></li>
 	                   	<li><a href="examples.html" onclick="callGA('USECASE')" class="params">Examples</a></li>
-	                    <li><a href="integrations.html" onclick="callGA('USECASE')" class="active params">Integrations</a></li>
+	                    <li><a href="integrations.html" onclick="callGA('USECASE')" class="params">Integrations</a></li>
 	                    <li class="login"></li>
               			<li class="signUp"></li>
 	                    <li class="">
@@ -224,7 +224,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="backdrop-custom hide"></div>
+				<div class="backdrop-custom close-menu"></div>
 			</div>
 		</div><!-- /.container-fluid -->
 	</nav>
@@ -368,14 +368,15 @@
 		});
 		//navbar open and close                               
 		jQuery( "#open" ).click(function() {
-		  jQuery(".menu-outer").toggleClass("hide");
-		  jQuery(".backdrop-custom").toggleClass("hide");
-		  //jQuery("html").css("overflow","hidden");
+		  	jQuery(".menu-outer").addClass("is-active");
+			jQuery(".backdrop-custom").addClass("is-active");
+			//jQuery("html").css("overflow","hidden");
 		});
 
-		jQuery( "#close" ).click(function() {
-		  jQuery(".menu-outer").addClass("hide");
-		  jQuery(".backdrop-custom").addClass("hide");
+		jQuery( ".close-menu" ).click(function() {
+			jQuery(".menu-outer").removeClass("is-active");
+			jQuery(".backdrop-custom").removeClass("is-active");
+			//jQuery("html").css("overflow","auto");
 		});
 	</script>
 
