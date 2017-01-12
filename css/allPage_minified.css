@@ -1564,7 +1564,7 @@ label{margin-bottom:0!important;font-weight:400!important}
 .collag1-img,.collag2-img{background-position:center top}
 .collag1-img,.collag2-img,.collag3-img,.collag4-img{background-size:cover}
 .section-1-left .btn-buildcal.red i{display:inline-block;float:left;margin-right:10px;font-size:20px}
-.section-1-left .btn-bottominfo{float:left;width:92%;text-align:left;margin-top:10px}
+.section-1-left .btn-bottominfo{float:left;width:92%;text-align:left;margin-top:20px}
 .section-1-left .btn-bottominfo span{float:none;width:100%;color:#4a4a4a;font-size:13px;font-family:montserratregular;text-align:left;text-transform:uppercase}
 .section-1-left .btn-bottominfo label{float:none;width:100%;color:#8a8a8a;font-size:12px;font-family:montserratlight}
 .mt7{margin-top:7%!important}
@@ -1594,7 +1594,7 @@ label{margin-bottom:0!important;font-weight:400!important}
 .section-3 .sec3-heading{width: 100%;color: #fb5f66;font-size: 26px;font-family: montserratlight;margin-top: 60px}
 .section-3-left h4,.section-3-left span{width:100%;margin-bottom:25px;float:left;display:block;text-align:left}
 .section-3-left{padding-left:40px}
-.sec3-btn {background: #6a6a6a;border: 2px solid #6a6a6a;color: #fff;text-transform: uppercase;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 12px 40px;font-size: 18px;line-height: normal;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45);}
+.sec3-btn {background: #6a6a6a;border: 2px solid #6a6a6a;color: #fff;text-transform: uppercase;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 14px 40px;font-size: 14px;line-height: normal;}
 .sec3-btn:hover {background: #9b9696;color: #fff;}
 .sec3-btn i{font-size: 18px;vertical-align: middle; float: left; margin-right: 10px;}
 .sec3-box2,.sec3-box3,.sec3-box4{min-height:300px;border-left:2px solid #eff0f0;padding-left:25px;padding-right:25px}
@@ -1748,7 +1748,7 @@ label{margin-bottom:0!important;font-weight:400!important}
 .section-13-subheading {float: left;width: 100%;text-align: center;color: #62696d;font-size: 18px;font-family: montserratlight;margin: 0 auto;padding: 20px 0;padding-bottom: 40px;}
 .form-outer{padding: 0 15%;position: relative;top: -105px;left: 60px;}
 .component-outer{background: #fff;padding: 20px 30px;width: 100%;float: left;box-shadow: 4px 5px 32px 0px rgba(0,0,0,0.35);}
-.component-outer input{width: 270px !important;height: 40px;border-radius: 0;}
+.component-outer input{width: 260px !important;height: 40px;border-radius: 0;margin-right: 10px;}
 .component-outer .form-btn{width: 170px;height: 40px;border-radius: 0;background: #fb5f66;font-size: 18px; color: #fff;font-family: montserratlight;}
 .component-outer .form-btn i{font-size: 18px;vertical-align: middle;margin-left: 10px;}
 .billing-table,.section-11,.starter-top{float:left;width:100%}
@@ -3031,8 +3031,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.collag4-img{min-height:275px}
 	.section-1-left h3,.section-1-left h3.section1-firsthead{font-size:40px;line-height:50px}
 	.section-1-left h4{font-size:30px;line-height:40px}
-	.section-1-left .video-btn{padding:13px 33px}
-	.section-1-left .btn-buildcal{font-size:18px;padding:13px 70px}
+	.section-1-left .video-btn{padding:16px 40px}
+	.section-1-left .btn-buildcal{font-size:18px;padding:16px 80px}
 	.section-1-left .btn-buildcal i{font-size:24px}
 	.section-1-left .btn-buildcal.red{padding:15px 40px;font-size:18px}
 	.section-1-left .btn-buildcal.red i{font-size:24px}
