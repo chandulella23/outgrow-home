@@ -352,6 +352,21 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 @media (min-width:768px){
 	.lead{font-size:21px}
 }
+@media (min-width: 0px) and (max-width: 767px){
+	.wrapper {
+		min-height: 480px !important;
+	}
+	.wrapper .h_iframe iframe{
+		min-height: 480px !important;
+	}
+	.wrapper-mobile {
+		width: 100% !important;
+		min-height: 480px !important;
+	}
+	.wrapper-mobile .h_iframe iframe{
+		min-height: 480px !important;
+	}
+}
 .small,small{font-size:85%}
 .mark,mark{padding:.2em;background-color:#fcf8e3}
 .list-inline,.list-unstyled{padding-left:0;list-style:none}
