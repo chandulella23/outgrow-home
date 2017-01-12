@@ -1697,6 +1697,11 @@ label{margin-bottom:0!important;font-weight:400!important}
 .sec10-testname img{width:32px;height:32px;border:2px solid #fff;border-radius:50%;float:left;margin-right:5px}
 .section-13-heading{float: left;width: 100%;text-align: center;color: #dfe3e6; font-size: 48px;line-height: 52px;font-family:montserratbold;text-transform: uppercase;}
 .section-13-subheading {float: left;width: 100%;text-align: center;color: #62696d;font-size: 18px;font-family: montserratlight;margin: 0 auto;padding: 20px 0;padding-bottom: 40px;}
+.form-outer{padding: 0 15%;position: relative;top: -105px;left: 60px;}
+.component-outer{background: #fff;padding: 20px 30px;width: 100%;float: left;box-shadow: 4px 5px 32px 0px rgba(0,0,0,0.35);}
+.component-outer input{width: 270px !important;height: 40px;border-radius: 0;}
+.component-outer .form-btn{width: 170px;height: 40px;border-radius: 0;background: #fb5f66;font-size: 18px; color: #fff;font-family: montserratlight;}
+.component-outer .form-btn i{font-size: 18px;vertical-align: middle;margin-left: 10px;}
 .billing-table,.section-11,.starter-top{float:left;width:100%}
 .sec10-testname h5{float:left;font-size:18px;color:#fff;font-family:montserratbold;margin:0;line-height:32px}
 .sec10-testname span{float:left;font-size:22px;color:#fff;font-family:montserratlight;margin-left:5px}
