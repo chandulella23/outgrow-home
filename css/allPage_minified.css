@@ -1,7 +1,7 @@
 .label,sub,sup{vertical-align:baseline}
 hr,img{border:0}
 body,figure{margin:0}
-.custom-navbar .signUp-style a{border-radius:20px;background:#fb5f66;color:#fff!important;padding:10px 14px;line-height:1;margin-top:9px;font-size:12px!important;border: 2px solid #f8434b !important;}
+.custom-navbar .signUp-style a{border-radius:20px;background:#fb5f66;color:#fff!important;padding:10px 14px;line-height:1;margin-top:6px;font-size:12px!important;border: 2px solid #f8434b !important;}
 .custom-navbar .signUp-style a:hover{opacity: 1;
     background: #fb757b !important;
     color: #fff !important;
@@ -1539,9 +1539,9 @@ label{margin-bottom:0!important;font-weight:400!important}
 .custom-navbar .link-login:hover{background:0 0;color:#fb5f66!important;opacity:.5}
 .nav-boxshadow{box-shadow:0 2px 9px 1px rgba(0,0,0,.2)}
 .section{margin-bottom:30px}
-.section-1{margin-bottom:70px;padding-bottom:30px}
+.section-1{margin-bottom:70px;padding-bottom:30px;margin-top: 120px;}
 .section-1-left h3,.section-1-left h3.section1-firsthead{font-size:29px;color:#fb6c73;text-transform:uppercase;margin-top:0}
-.section-1-left .video-btn{background:#6a6a6a;color:#fff;font-size:18px;padding:13px 20px;border:2px solid #6a6a6a;transition:.5s ease-in-out;line-height:normal;float:left;margin-top:20px;text-transform: uppercase}
+.section-1-left .video-btn{background:#6a6a6a;color:#fff;font-size:18px;padding:13px 20px;border:2px solid #6a6a6a;transition:.5s ease-in-out;line-height:normal;float:left;margin-top:20px;text-transform: uppercase;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
 .video-btn:hover{background:#9b9696; color:#fff;}
 .section-1-left .video-btn i{display:inline-block;float:left;margin-right:10px;font-size:20px}
 .section-1 .container-fluid{padding:0}
