@@ -62,15 +62,15 @@
 		urla = window.location.href;
 		if (urla.toLowerCase().indexOf("outgrow.co") < 0) { //For .us and local
 			var trackerProp = {
-				'ga':"UA-82638968-1",
-				'kissmetrics':"41ec14671b03954fde573bdbeb2ec11956b53ce7"
+				// 'ga':"UA-82638968-1",
+				// 'kissmetrics':"41ec14671b03954fde573bdbeb2ec11956b53ce7"
 			};
 		}
 
 		else { //For .co
 			var trackerProp = {
-				'ga':"UA-85018378-1",
-				'kissmetrics':"0a75a54b2fbeb2fefd728e55b0dc6bff06580cb8",
+				// 'ga':"UA-85018378-1",
+				// 'kissmetrics':"0a75a54b2fbeb2fefd728e55b0dc6bff06580cb8",
 				// 'leaddyno':"41c6592b3fbd4a29945c14f3e766a12a1d796246",
 				'pixel': "1616934098622761",
 			};
@@ -88,7 +88,7 @@
 
 	<!-- <script src="https://cdn.optimizely.com/js/7042601109.js" async defer></script> -->
 
-	<script type="text/javascript">var _kmq = _kmq || [];
+	<!-- <script type="text/javascript">var _kmq = _kmq || [];
 		var _kmk = _kmk || trackerProp.kissmetrics;
 		function _kms(u){
 		  setTimeout(function(){
@@ -100,7 +100,7 @@
 		}
 		_kms('//i.kissmetrics.com/i.js');
 		_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
-	</script>
+	</script> -->
 
 	<!-- <script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -114,7 +114,7 @@
 
 	<!-- Analytics Tracking Snippets Ends -->
 	<!-- Schema Org Markup JSON LD -->
-	<!-- <script type="text/javascript"async defer>
+	<script type="text/javascript"async defer>
 		var schemaA = document.createElement('script');
 		schemaA.type = 'application/ld+json';
 		schemaA.text = JSON.stringify({
@@ -162,7 +162,7 @@
 		});
 		document.querySelector('head').appendChild(schemaA);
 		document.querySelector('head').appendChild(schemaB);
-	</script> -->
+	</script>
 </head>
 <style>
 	.wrapper         {width:100%;height:100%;margin:0 auto;background:#CCC; box-shadow: 0 5px 28px 8px rgba(0,0,0,.4);}
