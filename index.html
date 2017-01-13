@@ -181,7 +181,7 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<!-- Homepage header start-->
-	<nav class="navbar custom-navbar navbar-default">
+	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -1377,13 +1377,13 @@
 		});
 
 
-		jQuery(window).scroll(function() {
-			if (jQuery(this).scrollTop() > 100) {
-				jQuery(".navbar-default").addClass('navbar-fixed-top');
-			} else {
-				jQuery(".navbar-default").removeClass('navbar-fixed-top');
-			}
-		});
+		// jQuery(window).scroll(function() {
+		// 	if (jQuery(this).scrollTop() > 75) {
+		// 		jQuery(".navbar-default").addClass('navbar-fixed-top');
+		// 	} else {
+		// 		jQuery(".navbar-default").removeClass('navbar-fixed-top');
+		// 	}
+		// });
 
 
 		//navbar open and close
