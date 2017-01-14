@@ -357,17 +357,35 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 }
 @media (min-width: 0px) and (max-width: 767px){
 	.wrapper {
-		min-height: 480px !important;
+		min-height: 450px !important;
 	}
 	.wrapper .h_iframe iframe{
 		min-height: 480px !important;
 	}
 	.wrapper-mobile {
-		width: 100% !important;
-		min-height: 480px !important;
+		width: 90% !important;
+		min-height: 450px !important;
 	}
 	.wrapper-mobile .h_iframe iframe{
-		min-height: 480px !important;
+		min-height: 450px !important;
+	}
+	.embed1{
+		right:0 !important;
+	}
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .embed-layout{
+        display: none;
+    }
+	.embed1{
+		right:0 !important;
+	}
+	.section-7 .slider-sa{
+		min-height:630px;
+	}
+	.section-8 .slider-sa{
+		min-height:630px;
 	}
 }
 .small,small{font-size:85%}
@@ -14436,7 +14454,7 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
     width: 678px;
     min-height: 386px;
     padding: 25px;
-    padding-left: 21px;
+    padding-left: 22px;
     padding-right: 11px;
     padding-top: 25px;
 }
