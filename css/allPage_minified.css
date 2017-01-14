@@ -2082,9 +2082,9 @@ label.control-label {
 .section-1-left h3,.section-1-left h3.section1-firsthead{font-size:29px;color:#fb6c73;text-transform:uppercase;margin-top:0}
 .section-1-left .video-btn{background:#6a6a6a;color:#fff;font-size:16px;padding:12px 35px;border:2px solid #6a6a6a;transition:.5s ease-in-out;line-height:normal;float:left;margin-top:20px;text-transform: uppercase;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
 .mb{margin-bottom: -200px;}
-.sec-quiz{background:#e6e8e9;min-height: 240px;margin-top: 40px;}
-.quiz-outer{width: 55%; float: left;padding: 40px;padding-right: 5%;padding-left: 7%;}
-.quiz-img{position: relative;float: right;top: -275px;right: 5%;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
+.sec-quiz{background:#e6e8e9;min-height: 190px;margin-top: 40px;margin-bottom: 40px;}
+.quiz-outer{float: left;padding: 30px 20px;}
+.quiz-img{position: absolute;float: right;top: -20px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
 .sec-quiz-heading{color: #62696d;font-size: 36px;font-family: montserratbold;text-transform: uppercase;line-height: normal}
 .sec-quiz-btn{background: #fb5f66;border: 2px solid #fb5f66;color: #fff;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 10px 40px;font-size: 18px;line-height: normal;}
 .sec-quiz-btn:hover {background: #fb757b;color: #fff;border-color: #f8434b;}
@@ -3197,6 +3197,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.navbar-toggle{border:none}
 	.navbar-default .navbar-toggle .icon-bar{background-color:#fb5f66}
 	.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#fff}
+	.sec-quiz{text-align: center;margin-top: 0;}
+	.sec-quiz-heading{font-size: 24px;}
 	.section-2-heading{text-transform:none;line-height:normal;font-size:24px;text-align:center}
 	.section-2-subheading{display:none;width:100%;color:rgba(98,105,109,.8);font-size:12px;font-family:montserratultra_light;margin:0 auto;position:relative;top:15px;padding:0 15px}
 	.section-4{margin-top:40px;margin-bottom:30px}
@@ -3231,6 +3233,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.img-1-text{top:-5px;padding:0;left:0}
 	.img-2{right:0;top:10px}
 	.img-2-text{top:5px;left:0;padding:0}
+	.quiz-img{display: none;}
+	.mb{margin-bottom: 30px;}
 	#why .section-top-why h3{font-size:20px;line-height:normal}
 	.toggle-dots-grey div,.toggle-dots-white div{font-size:13px;color:#fff;height:30px;font-family:montserratregular}
 	#why .container-video{width:100%;padding:0 20px}
