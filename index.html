@@ -421,7 +421,7 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
-				<img class="mk-animate-element right-to-left sec-6-img" src="images/share-img.png" />
+				<img class="mk-animate-element right-to-left " src="images/share-img.png" />
 				<img class="sec4-2 mk-animate-element left-to-right" src="images/lead-sec.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 text-center rs-hide">
@@ -1064,7 +1064,10 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-6 np">
+				<div class="col-md-6 col-sm-12 col-xs-12 np rs-show text-center">
+					<img class="ebook-img" src="images/ebook-banner.png">
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 np">
 					<div class="ebook-outer">
 						<div class="ebook-head">
 							How an Interactive Calculator generated 11,592 qualified leads
@@ -1094,7 +1097,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 np">
+				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
 					<img class="ebook-img" src="images/ebook-new.png">
 				</div>
 			</div>
@@ -1437,8 +1440,10 @@
 		jQuery(window).scroll(function() {
 			if (jQuery(this).scrollTop() > 80) {
 				jQuery("nav").addClass('nav-boxshadow');
+				jQuery(".custom-navbar.navbar-default").css("padding","5px 25px 5px 10px")
 			} else {
 				jQuery("nav").removeClass('nav-boxshadow');
+				jQuery(".custom-navbar.navbar-default").css("padding","10px 25px 10px 10px")
 			}
 		});
 
