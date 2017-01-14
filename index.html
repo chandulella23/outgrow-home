@@ -453,8 +453,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="embed-layout mk-animate-element scale-up embed1-layout">
-						<a href="javascript:void(0);" class="active em-weblink"><i class="material-icons">desktop_mac</i></a>
+					<div class="embed-layout mk-animate-element scale-up embed1-layout rs-hide">
+						<a href="javascript:void(0);" class="active1 em-weblink"><i class="material-icons">desktop_mac</i></a>
 						<a href="javascript:void(0);" class="em-moblink"><i class="material-icons">phone_iphone</i></a>
 					</div>
 				</div>
@@ -502,8 +502,8 @@
 		<div class="container-fluid np">
 			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left1">
 				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="embed-web mk-animate-element left-to-right"  id="em2">
-						<div class="wrapper leftwrapper">
+					<div class="embed-mobile mk-animate-element left-to-right"  id="em2">
+						<div class="wrapper wrapper-mobile leftwrapper">
 							<div class="h_iframe">
 								<!-- a transparent image is preferable -->
 								<img class="ratio" src="http://placehold.it/16x9"/>
@@ -511,9 +511,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="embed-layout mk-animate-element scale-up embed2-layout">
-						<a href="javascript:void(0);" class="active em-weblink"><i class="material-icons">desktop_mac</i></a>
-						<a href="javascript:void(0);" class="em-moblink"><i class="material-icons">phone_iphone</i></a>
+					<div class="embed-layout mk-animate-element scale-up embed2-layout rs-hide">
+						<a href="javascript:void(0);" class="em-weblink"><i class="material-icons">desktop_mac</i></a>
+						<a href="javascript:void(0);" class="active2 em-moblink"><i class="material-icons">phone_iphone</i></a>
 					</div>
 				</div>
 			</div>
@@ -560,8 +560,8 @@
 		<div class="container-fluid np">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-sm-push-6 section-9-right">
 				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="embed-mobile mk-animate-element left-to-right"  id="em3">
-						<div class="wrapper wrapper-mobile">
+					<div class="embed-web mk-animate-element left-to-right"  id="em3">
+						<div class="wrapper">
 							<div class="h_iframe">
 								<!-- a transparent image is preferable -->
 								<img class="ratio" src="http://placehold.it/16x9"/>
@@ -569,9 +569,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="embed-layout mk-animate-element scale-up embed3-layout">
-						<a href="javascript:void(0);" class="em-weblink" ><i class="material-icons">desktop_mac</i></a>
-						<a href="javascript:void(0);" class="active em-moblink"><i class="material-icons">phone_iphone</i></a>
+					<div class="embed-layout mk-animate-element scale-up embed3-layout rs-hide">
+						<a href="javascript:void(0);" class="active3 em-weblink" ><i class="material-icons">desktop_mac</i></a>
+						<a href="javascript:void(0);" class=" em-moblink"><i class="material-icons">phone_iphone</i></a>
 					</div>
 				</div>
 			</div>
@@ -1234,18 +1234,18 @@
 
 		//embed web mobile js
 		jQuery(".embed1-layout .em-moblink").click(function(){
-			if(!jQuery(this).hasClass('active'))
-			jQuery(this).addClass('active');
-			jQuery('.em-weblink').removeClass('active');
+			if(!jQuery(this).hasClass('active1'))
+			jQuery(this).addClass('active1');
+			jQuery('.em-weblink').removeClass('active1');
 			jQuery("#em1").removeClass('embed-web');
 			jQuery("#em1").addClass('embed-mobile');
 			jQuery("#em1 .wrapper").addClass('wrapper-mobile');
 		});
 
 		jQuery(".embed1-layout .em-weblink").click(function(){
-			if(!jQuery(this).hasClass('active'))
-			jQuery(this).addClass('active');
-			jQuery('.em-moblink').removeClass('active');
+			if(!jQuery(this).hasClass('active1'))
+			jQuery(this).addClass('active1');
+			jQuery('.em-moblink').removeClass('active1');
 			jQuery("#em1").addClass('embed-web');
 			jQuery("#em1").removeClass('embed-mobile');
 			jQuery("#em1 .wrapper").removeClass('wrapper-mobile');
@@ -1253,18 +1253,18 @@
 
 
 		jQuery(".embed2-layout .em-moblink").click(function(){
-			if(!jQuery(this).hasClass('active'))
-			jQuery(this).addClass('active');
-			jQuery('.em-weblink').removeClass('active');
+			if(!jQuery(this).hasClass('active2'))
+			jQuery(this).addClass('active2');
+			jQuery('.em-weblink').removeClass('active2');
 			jQuery("#em2").removeClass('embed-web');
 			jQuery("#em2").addClass('embed-mobile');
 			jQuery("#em2 .wrapper").addClass('wrapper-mobile');
 		});
 
 		jQuery(".embed2-layout .em-weblink").click(function(){
-			if(!jQuery(this).hasClass('active'))
-			jQuery(this).addClass('active');
-			jQuery('.em-moblink').removeClass('active');
+			if(!jQuery(this).hasClass('active2'))
+			jQuery(this).addClass('active2');
+			jQuery('.em-moblink').removeClass('active2');
 			jQuery("#em2").addClass('embed-web');
 			jQuery("#em2").removeClass('embed-mobile');
 			jQuery("#em2 .wrapper").removeClass('wrapper-mobile');
@@ -1273,25 +1273,40 @@
 
 
 		jQuery(".embed3-layout .em-moblink").click(function(){
-			if(!jQuery(this).hasClass('active'))
-			jQuery(this).addClass('active');
-			jQuery('.em-weblink').removeClass('active');
+			if(!jQuery(this).hasClass('active3'))
+			jQuery(this).addClass('active3');
+			jQuery('.em-weblink').removeClass('active3');
 			jQuery("#em3").removeClass('embed-web');
 			jQuery("#em3").addClass('embed-mobile');
 			jQuery("#em3 .wrapper").addClass('wrapper-mobile');
 		});
 
 		jQuery(".embed3-layout .em-weblink").click(function(){
-			if(!jQuery(this).hasClass('active'))
-			jQuery(this).addClass('active');
-			jQuery('.em-moblink').removeClass('active');
+			if(!jQuery(this).hasClass('active3'))
+			jQuery(this).addClass('active3');
+			jQuery('.em-moblink').removeClass('active3');
 			jQuery("#em3").addClass('embed-web');
 			jQuery("#em3").removeClass('embed-mobile');
 			jQuery("#em3 .wrapper").removeClass('wrapper-mobile');
 		});
+		
+		if (document.documentElement.clientWidth < 1024) {
+			jQuery(".embed-web").addClass('embed-mobile');
+			jQuery(".wrapper").addClass('wrapper-mobile');
+		}
+		
+		// responsive embed 
+		jQuery(window).resize(function() { 
+			if (document.documentElement.clientWidth < 1024) {
+				jQuery(".embed-web").addClass('embed-mobile');
+				jQuery(".wrapper").addClass('wrapper-mobile');
+			}else{
+				jQuery(".embed-web").removeClass('embed-mobile');
+				jQuery(".wrapper").removeClass('wrapper-mobile');
+				jQuery(".embed-mobile .wrapper").addClass('wrapper-mobile');
+			}
 
-
-
+		 });
 	 	console.log('index document ready')
 
 		 //body scroll js

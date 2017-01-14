@@ -13921,7 +13921,19 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
     padding-bottom: 1px;
     border-radius: 4px;
 }
-.embed-layout a.active{
+.embed-layout a.active1{
+	background:#f2f2f2;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+.embed-layout a.active2{
+	background:#f2f2f2;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+.embed-layout a.active3{
 	background:#f2f2f2;
 	-moz-box-shadow:    inset 0 0 10px #ccc;
 	-webkit-box-shadow: inset 0 0 10px #ccc;
