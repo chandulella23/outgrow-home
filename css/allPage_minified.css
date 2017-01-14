@@ -2078,10 +2078,31 @@ label.control-label {
 /* custom material css end (sahil) */
 
 /* custom material css end (sahil) */
+/* Float Panel: class="float-panel fixed" */
 
+.nav-boxshadow {
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);  
+    padding:6px 0 !important;
+    animation:slide-down 0.7s;
+    opacity:1;    
+}                  
+.nav-boxshadow .fa-gg {                  
+    transform: rotate(360deg);      
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
 
 .navbar-brand{padding:0;margin-left:30px!important;margin-top:5px}
-.custom-navbar.navbar-default{background:#fff;border:none;padding:10px 25px 10px 10px;z-index:999}
+.custom-navbar.navbar-default{background:#fff;border:none;padding:10px 25px 10px 10px;z-index:999;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out}
 .custom-navbar.navbar-default .navbar-nav>li{margin-right:20px}
 .custom-navbar.navbar-default .navbar-nav>li>a{font-size:14px;color:#62696d;text-transform:uppercase}
 .custom-navbar.navbar-default .navbar-nav>li>a.active,.custom-navbar.navbar-default .navbar-nav>li>a:hover{color:#fb5f66}
