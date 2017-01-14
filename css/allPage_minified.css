@@ -3679,13 +3679,13 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 }
 @media (min-width:1480px) and (max-width:1920px){
 	.section-7,.section-8{padding-bottom:40px}
-	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:530px}
+	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:650px}
 	.sec10-testimonial-link,.sec10-testname{margin-left:19%;padding-left:11px}
 	.section1-left-cell{height:61vh}
 	.section-1-left .btn-bottominfo{width:92%}
-	.section-9-left{margin-top:20px;padding-left:11%}
-	.section-7-left{margin-top:20px;padding-left:150px}
-	.section-9-left2{margin-top:20px}
+	.section-9-left{margin-top:70px;padding-left:11%}
+	.section-7-left{margin-top:30px;padding-left:150px}
+	.section-9-left2{margin-top:60px}
 	.sec10-testimonial div.sec10-tes-inner{margin-left:15%;width:70%}
 	.billing-boxmain{margin-left:0}
 	.billing-grey,.billing-white{width:340px}
