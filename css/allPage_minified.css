@@ -1,7 +1,7 @@
 .label,sub,sup{vertical-align:baseline}
 hr,img{border:0}
 body,figure{margin:0}
-.custom-navbar .signUp-style a{border-radius:20px;background:#fb5f66;color:#fff!important;padding:10px 14px;line-height:1;margin-top:6px;font-size:12px!important;border: 2px solid #f8434b !important;}
+.custom-navbar .signUp-style a{border-radius:20px;background:#fb5f66;color:#fff!important;padding:6px 10px;line-height:1;margin-top:11px;font-size:12px!important;border: 2px solid #f8434b !important;}
 .custom-navbar .signUp-style a:hover{opacity: 1;
     background: #fb757b !important;
     color: #fff !important;
@@ -1773,7 +1773,7 @@ label.control-label {
 }
 .form-group {
   padding-bottom: 7px;
-  margin: 28px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .form-group .form-control {
   margin-bottom: 7px;
@@ -1907,27 +1907,27 @@ label.control-label {
   margin-bottom: 9px;
 }
 .form-group.form-group-lg .form-control::-moz-placeholder {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.3333333;
-  color: #BDBDBD;
+  color: rgba(98,105,109,0.5);
   font-weight: 400;
 }
 .form-group.form-group-lg .form-control:-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.3333333;
-  color: #BDBDBD;
+  color: rgba(98,105,109,0.5);
   font-weight: 400;
 }
 .form-group.form-group-lg .form-control::-webkit-input-placeholder {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.3333333;
-  color: #BDBDBD;
+  color: rgba(98,105,109,0.5);
   font-weight: 400;
 }
 .form-group.form-group-lg .checkbox label,
 .form-group.form-group-lg .radio label,
 .form-group.form-group-lg label {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.3333333;
   color: #BDBDBD;
   font-weight: 400;
@@ -2069,13 +2069,15 @@ label.control-label {
 .quiz-img{position: relative;float: right;top: -275px;right: 5%;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
 .sec-quiz-heading{color: #62696d;font-size: 36px;font-family: montserratbold;text-transform: uppercase;line-height: normal}
 .sec-quiz-btn{background: #fb5f66;border: 2px solid #fb5f66;color: #fff;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 10px 40px;font-size: 18px;line-height: normal;}
+.sec-quiz-btn:hover {background: #fb757b;color: #fff;border-color: #f8434b;}
 .sec-quiz-btn i{display: inline-block;float: right;margin-left: 10px;font-size: 20px;}
-.ebook-outer .form-btn{background:#fb5f66;color: #fff;font-size: 18px;font-family:montserratlight;border-radius: 0px;padding: 6px 40px;margin-top: 30px;}
+.ebook-outer .form-btn{background:#fb5f66;color: #fff;font-size: 18px;font-family:montserratlight;border-radius: 0px;padding: 4px 40px;margin-top: 30px;border: 2px solid #fb5f66;transition: .5s ease-in-out;}
+.ebook-outer .form-btn:hover{background: #fb757b;color: #fff;border-color: #fb5f66;}
 .ebook-outer .form-btn i{vertical-align: middle; margin-left: 10px;font-size: 18px;}
 .ebook-head{ font-size: 36px; color: #fb6c73; font-family: montserratUltra_light; line-height: normal;}
 .ebook-sub-heading{font-size: 16px;color: #62696d;font-family: montserratlight;float: left;width: 100%;text-transform: uppercase;}
 .ebook-container{width:970px !important;}
-.ebook-img{width: 80%; margin-left: 40px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
+.ebook-img{margin-left: 40px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
 .ebook-subhead {font-size: 14px;color: #62696d;font-family: montserratlight;padding-right: 40px;margin: 25px 0;float: left;width: 100%;}
 .ebook-outer{ width: 100%;float: left;padding: 0 30px;padding-right: 80px;}
 .video-btn:hover{background:#9b9696; color:#fff;}
@@ -2212,7 +2214,7 @@ label.control-label {
 .section-6-right{border-left:3px solid #fb5f66;padding-left:35px}
 .sec-6-img{box-shadow:none;}
 .section-6 .btn-buildcal{background:#fb6c73;border:2px solid #fb6c73;color:#fff;float:none;font-size:14px;text-transform:uppercase;padding:7px 40px;margin-top:90px;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
-.section-6 .btn-buildcal:hover{background:#fdb6b9;color:#fb545b;border-color:#fdb6b9}
+.section-6 .btn-buildcal:hover{background: #fb757b;color: #fff;border-color: #f8434b;}
 .section-6 .btn-buildcal p{float:left;margin:0 10px 0 0;line-height:30px}
 .section-6 .btn-buildcal i{position:relative;top:3px}
 .section-7-top{margin:0;padding:30px 0}
@@ -2371,8 +2373,8 @@ label.control-label {
 .portfolio_main_holder .item_holder .portfolio_title{margin:15px 0;padding:0 20px;box-sizing:border-box}
 .portfolio_main_holder .item_holder.flip_from_left .portfolio_title_custom .portfolio_title a{color:#222;vertical-align:middle}
 .section-12{background:#62696d;min-height:150px;margin-bottom:0;margin-top:50px}
-.section-13,.section-13-runningtext{background:#f7f7f8;float:left;width:100%}
-.section-13{margin-top:0;padding-top:70px;padding-bottom:30px;margin-bottom:0}
+.section-13,.section-13-runningtext{float:left;width:100%}
+.section-13{margin-top:0;padding-top:70px;padding-bottom:30px;margin-bottom:90px;}
 .section-14{float:left;width:100%;background:#62696d;margin:0;padding-top:30px;padding-bottom:10px;min-height:250px}
 .img-1-text,.img-2-text{color:#62696d;font-size:15px;font-family:montserratregular;padding:0 20%;float:left;width:100%;position:relative}
 .outer-container{position:relative;margin-bottom:20px}
@@ -3313,8 +3315,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:-30px}
 	.navbar-right{margin-left:0;margin-top:10px}
 	.custom-navbar.navbar-default .navbar-nav>li{margin-left:0;margin-right:1px}
-	.custom-navbar.navbar-default .navbar-nav>li>a{font-size:12px;color:#62696d;text-transform:uppercase;padding:7px}
-	.custom-navbar .signUp-style a{margin-top:4px}
+	.custom-navbar.navbar-default .navbar-nav>li>a{font-size:12px;color:#62696d;text-transform:uppercase;padding:7px 11px}
+	.custom-navbar .signUp-style a{margin-top:0px}
 	.mobile-sec3 .sec3-box2{text-align:center}
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:440px}
 	.sec5-2{margin-top:-54%}
@@ -3322,6 +3324,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec9-test em.left{left:-7px}
 	.sec9-test span.text-1,.sec9-test span.text-2{margin-left:10px}
 	.sec3-btn{width: 50%; padding: 12px 40px;}
+
+	.section-1-left .video-btn i{margin-right: 4px;font-size: 17px;}
 }
 @media(min-width:320px) and (max-width:767px){
 	.menu-outer{display:none}
@@ -3529,9 +3533,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.custom-navbar.navbar-default .navbar-nav>li{margin-right:0}
 	.collag-right{width:30%;margin-right:30px}
 	.collag-left{width:60%}
-	.section-1-left{padding-left:28px;padding-right:2%}
+	.section-1-left{padding-left:28px;}
 	.section-1-left .video-btn{padding:13px 19px}
-	.section-1-left .btn-buildcal{padding:13px 35px}
+	.section-1-left .btn-buildcal{padding:13px 20px}
 	.section-1-left .btn-bottominfo{width:94%}
 	.section-4-left{padding-left:0}
 	.section-7-left,.section-9-left{padding-left:50px}
@@ -3589,6 +3593,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1-left .btn-buildcal.red i{font-size:26px}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:16px}
 	.custom-navbar.navbar-default{padding-top:25px}
+	.custom-navbar .signUp-style a{
+	    padding: 10px 14px;
+	    top: -5px;
+	    font-size: 16px !important;
+	}
 	/*.wrapper-mobile{ min-height:640px !important; }
 	.wrapper-mobile .h_iframe iframe{ min-height:640px !important;}*/
 }
@@ -3604,7 +3613,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec10-testimonial div.sec10-tes-inner{margin-left:15%;width:70%}
 	.billing-boxmain{margin-left:0}
 	.billing-grey,.billing-white{width:340px}
-	.section-1{margin-top:120px}
+	.section-1{margin-top:140px}
 	.collag-right{margin-top:80px}
 	#pricing .section-1-right{padding-left:22%;top:34%}
 	#pricing .section-1{margin-top:0;padding-top:10px}
