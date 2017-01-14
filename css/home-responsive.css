@@ -1,4 +1,10 @@
 @media (min-width:320px) and (max-width:768px) {
+    #feature .section-13{
+        padding-top: 0;
+    }
+    #pricing .section-1{
+        margin-top: 0;
+    }
     .p20 {
         padding: 0 20px !important;
     }
@@ -1048,16 +1054,20 @@
     }
     .navbar-right {
         margin-left: 0;
+        margin-top: 10px;
     }
     .custom-navbar.navbar-default .navbar-nav>li {
         margin-left: 0;
         margin-right: 0px
     }
+    .custom-navbar .signUp-style a {
+        margin-top: 0px;
+    }
     .custom-navbar.navbar-default .navbar-nav>li>a {
-        font-size: 14px;
+        font-size: 12px;
         color: #62696d;
         text-transform: uppercase;
-        padding: 15px
+        padding: 7px 11px;
     }
     .mobile-sec3 .sec3-box2 {
         text-align: center
@@ -1896,8 +1906,8 @@
         margin-left: -30px
     }
     .custom-navbar.navbar-default .navbar-nav>li>a {
-        padding-top: 15px;
-        padding-left: 25px
+        /*padding-top: 15px;
+        padding-left: 25px*/
     }
     .custom-navbar.navbar-default .navbar-nav>li {
         margin-right: 0
