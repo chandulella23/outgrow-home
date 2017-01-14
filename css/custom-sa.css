@@ -5197,8 +5197,9 @@ iframe[name=google_conversion_frame] {
 	margin-top: 110px !important;
 }
 .feature-9-1 img.secf2-2{
-	top:-7px !important;
-	left:60% !important;
+	top: -27px !important;
+    left: 50% !important;
+    box-shadow: none !important;
 }
 
 
