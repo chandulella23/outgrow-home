@@ -24,6 +24,8 @@
 	<!-- css start -->
 	<!-- <link rel="stylesheet" href="css/minified.css"> -->
 	<link rel="stylesheet" href="css/allPage_minified.css">
+
+
 	<!-- Analytics Tracking Snippets Starts -->
 
 	<!-- Google Tag Manager -->
@@ -33,84 +35,6 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-PDL5P5M');</script>
 	<!-- End Google Tag Manager -->
-
-	<!-- <script type="text/javascript">
-	_linkedin_data_partner_id = "35384";
-	</script><script type="text/javascript">
-	(function(){var s = document.getElementsByTagName("script")[0];
-	var b = document.createElement("script");
-	b.type = "text/javascript";b.async = true;
-	b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-	s.parentNode.insertBefore(b, s);})();
-	</script> -->
-
-	<!-- <script type="text/javascript" src="https://static.leaddyno.com/js"></script> -->
-	<!-- Facebook Pixel Code -->
-	<script>
-		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-		document,'script','https://connect.facebook.net/en_US/fbevents.js');
-	</script>
-	<noscript>
-		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1616934098622761&ev=PageView&noscript=1" />
-	</noscript>
-	<!-- DO NOT MODIFY -->
-	<!-- End Facebook Pixel Code -->
-	<script>
-		urla = window.location.href;
-		if (urla.toLowerCase().indexOf("outgrow.co") < 0) { //For .us and local
-			var trackerProp = {
-				// 'ga':"UA-82638968-1",
-				// 'kissmetrics':"41ec14671b03954fde573bdbeb2ec11956b53ce7"
-			};
-		}
-
-		else { //For .co
-			var trackerProp = {
-				// 'ga':"UA-85018378-1",
-				// 'kissmetrics':"0a75a54b2fbeb2fefd728e55b0dc6bff06580cb8",
-				// 'leaddyno':"41c6592b3fbd4a29945c14f3e766a12a1d796246",
-				'pixel': "1616934098622761",
-			};
-
-			/*LeadDyno.domain = "outgrow.co";
-			LeadDyno.key = trackerProp.leaddyno;
-			LeadDyno.recordVisit();
-			LeadDyno.autoWatch();*/
-
-			fbq('init', trackerProp.pixel);
-			fbq('track', 'PageView');
-			fbq('track', 'ViewContent');
-		}
-	</script>
-
-	<!-- <script src="https://cdn.optimizely.com/js/7042601109.js" async defer></script> -->
-
-	<!-- <script type="text/javascript">var _kmq = _kmq || [];
-		var _kmk = _kmk || trackerProp.kissmetrics;
-		function _kms(u){
-		  setTimeout(function(){
-			var d = document, f = d.getElementsByTagName('script')[0],
-			s = d.createElement('script');
-			s.type = 'text/javascript'; s.async = true; s.src = u;
-			f.parentNode.insertBefore(s, f);
-		  }, 1);
-		}
-		_kms('//i.kissmetrics.com/i.js');
-		_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
-	</script> -->
-
-	<!-- <script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', trackerProp.ga, 'auto');
-		ga('send', 'pageview');
-	</script> -->
 
 	<!-- Analytics Tracking Snippets Ends -->
 	<!-- Schema Org Markup JSON LD -->
@@ -165,12 +89,13 @@
 	</script>
 </head>
 <style>
-	.wrapper         {width:100%;height:100%;margin:0 auto;background:#CCC; box-shadow: 0 5px 28px 8px rgba(0,0,0,.4);}
-.h_iframe        {position:relative;}
+.wrapper{width:100%;height:100%;margin:0 auto;background:#CCC;}
+/*.leftwrapper{box-shadow:4px 12px 26px 5px rgba(0,0,0,0.6) !important;}*/
+.h_iframe{position:relative;}
 .h_iframe .ratio {display:block;width:100%;height:auto;}
 .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
-.wrapper-mobile{ width: 50%; min-height: 568px;}
-.wrapper-mobile .h_iframe iframe{ min-height: 568px;}
+.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
+.wrapper-mobile .h_iframe iframe{ min-height:444px;}
 
 
 </style>
@@ -542,13 +467,19 @@
 				<span class="section-runnigheading mk-animate-element scale-up hide">Get Inspired..</span>
 			</section>
 			<div class="col-xs-12 col-md-6 col-sm-12 section-9-right col-sm-push-6 ">
-				<div class="col-xs-12 col-sm-12 slider-sa">
-					<div class="wrapper mk-animate-element right-to-left">
-						<div class="h_iframe">
-							<!-- a transparent image is preferable -->
-							<img class="ratio" src="http://placehold.it/16x9"/>
-							<iframe src="https://namaco.outgrow.co/nama-temp-first" frameborder="0" allowfullscreen></iframe>
+				<div class="col-xs-12 col-sm-12 slider-sa text-center">
+					<div class="embed-web mk-animate-element right-to-left embed1" id="em1">
+						<div class="wrapper ">
+							<div class="h_iframe">
+								<!-- a transparent image is preferable -->
+								<img class="ratio" src="http://placehold.it/16x9"/>
+								<iframe src="https://namaco.outgrow.co/nama-temp-first" frameborder="0" allowfullscreen></iframe>
+							</div>
 						</div>
+					</div>
+					<div class="embed-layout mk-animate-element scale-up embed1-layout">
+						<a href="javascript:void(0);" class="active em-weblink"><i class="material-icons">desktop_mac</i></a>
+						<a href="javascript:void(0);" class="em-moblink"><i class="material-icons">phone_iphone</i></a>
 					</div>
 				</div>
 			</div>
@@ -594,13 +525,19 @@
 	<section class="section section-8">
 		<div class="container-fluid np">
 			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left1">
-				<div class="col-xs-12 col-sm-12 slider-sa">
-					<div class="wrapper mk-animate-element left-to-right">
-						<div class="h_iframe">
-							<!-- a transparent image is preferable -->
-							<img class="ratio" src="http://placehold.it/16x9"/>
-							<iframe src="https://website.outgrow.co/5875396fe62e5172076953fe" frameborder="0" allowfullscreen></iframe>
+				<div class="col-xs-12 col-sm-12 slider-sa text-center">
+					<div class="embed-web mk-animate-element left-to-right"  id="em2">
+						<div class="wrapper leftwrapper">
+							<div class="h_iframe">
+								<!-- a transparent image is preferable -->
+								<img class="ratio" src="http://placehold.it/16x9"/>
+								<iframe src="https://website.outgrow.co/5875396fe62e5172076953fe" frameborder="0" allowfullscreen></iframe>
+							</div>
 						</div>
+					</div>
+					<div class="embed-layout mk-animate-element scale-up embed2-layout">
+						<a href="javascript:void(0);" class="active em-weblink"><i class="material-icons">desktop_mac</i></a>
+						<a href="javascript:void(0);" class="em-moblink"><i class="material-icons">phone_iphone</i></a>
 					</div>
 				</div>
 			</div>
@@ -646,13 +583,19 @@
 	<section class="section section-9">
 		<div class="container-fluid np">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-sm-push-6 section-9-right">
-				<div class="col-xs-12 col-sm-12 slider-sa">
-					<div class="wrapper wrapper-mobile mk-animate-element left-to-right">
-						<div class="h_iframe">
-							<!-- a transparent image is preferable -->
-							<img class="ratio" src="http://placehold.it/16x9"/>
-							<iframe src="https://website.outgrow.co/58714cd1df75740d5cd978e0" frameborder="0" allowfullscreen></iframe>
+				<div class="col-xs-12 col-sm-12 slider-sa text-center">
+					<div class="embed-mobile mk-animate-element left-to-right"  id="em3">
+						<div class="wrapper wrapper-mobile">
+							<div class="h_iframe">
+								<!-- a transparent image is preferable -->
+								<img class="ratio" src="http://placehold.it/16x9"/>
+								<iframe src="https://website.outgrow.co/58714cd1df75740d5cd978e0" frameborder="0" allowfullscreen></iframe>
+							</div>
 						</div>
+					</div>
+					<div class="embed-layout mk-animate-element scale-up embed3-layout">
+						<a href="javascript:void(0);" class="em-weblink" ><i class="material-icons">desktop_mac</i></a>
+						<a href="javascript:void(0);" class="active em-moblink"><i class="material-icons">phone_iphone</i></a>
 					</div>
 				</div>
 			</div>
@@ -1351,6 +1294,65 @@
 			jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
 		});
 
+		//embed web mobile js
+		jQuery(".embed1-layout .em-moblink").click(function(){
+			if(!jQuery(this).hasClass('active'))
+			jQuery(this).addClass('active');
+			jQuery('.em-weblink').removeClass('active');
+			jQuery("#em1").removeClass('embed-web');
+			jQuery("#em1").addClass('embed-mobile');
+			jQuery("#em1 .wrapper").addClass('wrapper-mobile');
+		});
+
+		jQuery(".embed1-layout .em-weblink").click(function(){
+			if(!jQuery(this).hasClass('active'))
+			jQuery(this).addClass('active');
+			jQuery('.em-moblink').removeClass('active');
+			jQuery("#em1").addClass('embed-web');
+			jQuery("#em1").removeClass('embed-mobile');
+			jQuery("#em1 .wrapper").removeClass('wrapper-mobile');
+		});
+
+
+		jQuery(".embed2-layout .em-moblink").click(function(){
+			if(!jQuery(this).hasClass('active'))
+			jQuery(this).addClass('active');
+			jQuery('.em-weblink').removeClass('active');
+			jQuery("#em2").removeClass('embed-web');
+			jQuery("#em2").addClass('embed-mobile');
+			jQuery("#em2 .wrapper").addClass('wrapper-mobile');
+		});
+
+		jQuery(".embed2-layout .em-weblink").click(function(){
+			if(!jQuery(this).hasClass('active'))
+			jQuery(this).addClass('active');
+			jQuery('.em-moblink').removeClass('active');
+			jQuery("#em2").addClass('embed-web');
+			jQuery("#em2").removeClass('embed-mobile');
+			jQuery("#em2 .wrapper").removeClass('wrapper-mobile');
+		});
+
+
+
+		jQuery(".embed3-layout .em-moblink").click(function(){
+			if(!jQuery(this).hasClass('active'))
+			jQuery(this).addClass('active');
+			jQuery('.em-weblink').removeClass('active');
+			jQuery("#em3").removeClass('embed-web');
+			jQuery("#em3").addClass('embed-mobile');
+			jQuery("#em3 .wrapper").addClass('wrapper-mobile');
+		});
+
+		jQuery(".embed3-layout .em-weblink").click(function(){
+			if(!jQuery(this).hasClass('active'))
+			jQuery(this).addClass('active');
+			jQuery('.em-moblink').removeClass('active');
+			jQuery("#em3").addClass('embed-web');
+			jQuery("#em3").removeClass('embed-mobile');
+			jQuery("#em3 .wrapper").removeClass('wrapper-mobile');
+		});
+
+
 
 	 	console.log('index document ready')
 
@@ -1560,17 +1562,6 @@
 	});
 })(window, jQuery);
   </script>
-	<!-- Google Code for Remarketing Tag -->
-	<script type="text/javascript">
-		if (urla.toLowerCase().indexOf("outgrow.co") >= 0) {
-			/* <![CDATA[ */
-			var google_conversion_id = 876549213;
-			var google_custom_params = window.google_tag_params;
-			var google_remarketing_only = true;
-			/* ]]> */
-		}
-	</script>
-	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 	<script type="text/javascript">
 	// 	  var tag = document.createElement('script');
 	// 	  tag.id = 'iframe-demo';
@@ -1595,6 +1586,5 @@
 		</div>
 	</noscript>
 	
-
 </body>
 </html>
