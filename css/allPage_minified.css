@@ -373,7 +373,21 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 		right:0 !important;
 	}
 }
-
+@media (min-width: 0px) and (max-width: 450px){
+	.embed-mobile {
+		background: url(../images/embed-smallmobile.png) no-repeat !important;
+		width: 266px !important;
+		min-height: 436px !important;
+		padding-left: 8px !important;
+		padding-right: 21px !important;
+	}
+	.wrapper {
+		min-height: 327px !important;
+	}
+	.wrapper-mobile .h_iframe iframe {
+		min-height: 327px !important;
+	}
+}
 @media (min-width:768px) and (max-width: 1024px) {
     .embed-layout{
         display: none;
