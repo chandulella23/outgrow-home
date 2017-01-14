@@ -942,7 +942,7 @@
 		padding-left: 80px;
 	}
 	#feature .secf2-2{
-		left:38%;
+		left:38% !important;
 	}
 	#feature .section.section-5 p{
 		padding:0 30px;
@@ -972,7 +972,7 @@
 		padding-left: 50px;
 	}
 	#feature .secf2-2{
-		left:36%;
+		left:36% !important;
 	}
 	#feature .section-f2-left {
 		padding-left: 60px;

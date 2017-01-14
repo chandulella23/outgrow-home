@@ -2121,7 +2121,7 @@ label.control-label {
 .quiz-outer{float: left;padding: 30px 20px;}
 .quiz-img{position: absolute;float: right;top: -20px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
 .sec-quiz-heading{color: #62696d;font-size: 36px;font-family: montserratbold;text-transform: uppercase;line-height: normal}
-.sec-quiz-btn{background: #fb5f66;border: 2px solid #fb5f66;color: #fff;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 10px 40px;font-size: 18px;line-height: normal;}
+.sec-quiz-btn{text-transform:uppercase;background: #fb5f66;border: 2px solid #fb5f66;color: #fff;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 10px 40px;font-size: 18px;line-height: normal;}
 .sec-quiz-btn:hover {background: #fb757b;color: #fff;border-color: #f8434b;}
 .sec-quiz-btn i{display: inline-block;float: right;margin-left: 10px;font-size: 20px;}
 .ebook-outer .form-btn{background:#fb5f66;color: #fff;font-size: 18px;font-family:montserratregular;border-radius: 0px;padding: 4px 40px;margin-top: 30px;border: 2px solid #fb5f66;transition: .5s ease-in-out;text-transform: uppercase}
@@ -3113,6 +3113,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 .menu-outer.is-active{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
 .backdrop-custom.is-active{width:100%;height:100%;opacity:.7;-webkit-transition:opacity .3s;transition:opacity .3s;cursor:default}
 @media (min-width:320px) and (max-width:768px){
+	#video-modal .modal-dialog-video{width: 80% !important;}
 	.get-it-btn{display: block;width: 100%;text-align: center;}
 	.section-5-right{padding-right: 0px;}
 	.sec-quiz-btn{font-size: 15px;padding: 10px 40px;text-transform: uppercase;}

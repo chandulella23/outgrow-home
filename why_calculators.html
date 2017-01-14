@@ -112,7 +112,7 @@
 	<!-- svg code -->
 
 	<!-- Homepage header start-->
-	<nav class="navbar custom-navbar navbar-default">
+	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -1020,10 +1020,13 @@
 	</script>
 	<script>
 		jQuery(window).scroll(function() {
-			if (jQuery(this).scrollTop() > 200) {
+			if (jQuery(this).scrollTop() > 70) {
 				jQuery("nav").addClass('nav-boxshadow');
+
+				//jQuery(".custom-navbar.navbar-default").css("padding","5px 25px 5px 10px")
 			} else {
 				jQuery("nav").removeClass('nav-boxshadow');
+				//jQuery(".custom-navbar.navbar-default").css("padding","10px 25px 10px 10px")
 			}
 		});
 		//navbar open and close
