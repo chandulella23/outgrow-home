@@ -263,11 +263,11 @@
 						<input type="text" placeholder="Email Address" />
 					</div>
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-xs-12 col-sm-7 np" id="btnBuildCalc1">
+						<div class="col-xs-12 col-sm-6 np" id="btnBuildCalc1">
 
 
 						</div>
-						<div class="col-xs-12 col-sm-5 np" id="video-link">
+						<div class="col-xs-12 col-sm-6 np" id="video-link">
 							<!-- <a href="#">
 								<button class="video-btn mk-animate-element fade-in mk-in-viewport full-visible">
 									Video<i class="material-icons">play_circle_outline</i>
@@ -339,7 +339,7 @@
 					<img src="images/sec3-img2-edited.png" class="mk-animate-element left-to-right img-2" />
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 np text-center">
+			<!-- <div class="col-xs-12 col-sm-12 col-md-12 np text-center">
 				<div class="sec3-heading">
 					See of Quizzes and Calculators are for YOU!
 				</div>
@@ -347,10 +347,34 @@
 					<button class="sec3-btn mk-animate-element left-to-right mk-in-viewport full-visible">
 					<i class="material-icons">thumb_up</i>Take the Quiz</button>
 				</a>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<!-- Homepage section 3 end-->
+
+	<!-- Homepage section Take-Quiz start-->
+
+	<section class="section mb">
+		<div class="sec-quiz">
+			<div class="container-fluid">
+				<div class="col-xs-12 col-sm-12 col-md-12 np">
+					<div class="quiz-outer">
+						<div class="sec-quiz-heading mk-animate-element left-to-right">
+							See of Quizzes and Calculators are for YOU!
+						</div>
+						<a href="#">
+							<button class="sec-quiz-btn mk-animate-element left-to-right">
+							<i class="material-icons">arrow_forward</i>Take the Quiz</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="images/quiz.png" class="quiz-img mk-animate-element right-to-left">
+	</section>
+
+	<!-- Homepage section Take-Quiz end-->
+
 	<section class="section">
 		<div class="container mobile-container">
 			<div class="section-2-heading mk-animate-element scale-up ">
@@ -471,7 +495,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
 				<img class="mk-animate-element right-to-left sec-6-img" src="images/share-img.png" />
-				<img class="sec4-2" src="images/lead-sec.png" />
+				<img class="sec4-2 mk-animate-element left-to-right" src="images/lead-sec.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 text-center rs-hide">
 				<a href="features.html"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
@@ -1094,7 +1118,7 @@
 				 Create beautiful experiences in minutes with our simple, yet powerful development studio.
 			</div>
 			</div>
-			<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 				<img src="images/ebook-img.png">
 				<div class="col-md-12 col-sm-12 col-xs-12 np text-center form-outer">
 					<div class="component-outer">
@@ -1108,6 +1132,41 @@
 						  <button type="submit" class="btn btn-default form-btn">Get It<i class="material-icons">arrow_downward</i></button>
 						</form>
 					</div>
+				</div>
+			</div> -->
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="col-md-6 np">
+					<div class="ebook-outer">
+						<div class="ebook-head">
+							How an Interactive Calculator generated 11,592 qualified leads
+						</div>
+						<div class="ebook-subhead">
+							Lorem Ipsum dolor site amet, lorem Ipsum dolor site amet, 
+						</div>
+						<div class="ebook-sub-heading">
+							Download the Ebook
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np sahil-material">
+							<form class="">
+								<div class="form-group label-floating">
+                                    <label class="control-label" for="inputText">Text</label>
+                                    <input class="form-control" id="inputText" type="text">
+                                	<span class="material-input"></span>
+                                </div>
+                                <div class="form-group label-floating">
+                                    <label class="control-label" for="inputEmail">Email</label>
+                                    <input class="form-control" id="inputEmail" type="email">
+                                	<span class="material-input"></span>
+                                </div>
+                            </form>
+                            <a href="#">
+                            	<button type="submit" class="btn btn-default form-btn">Get It<i class="material-icons">arrow_downward</i></button>
+                            </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 np">
+					<img class="ebook-img" src="images/ebook-new.png">
 				</div>
 			</div>
 		</div>
@@ -1237,11 +1296,14 @@
 	<script type='text/javascript' src='js/default.min.js'></script>
 	<!--<script type='text/javascript' src='js/jquery.stretch.js'></script>  text marquee -->
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/material.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/plans.js"></script>
 	<script src="js/footer.js"></script>
-
+	<script>
+	  	jQuery.material.init();
+	</script>
 	<script>
 	//window.onresize = function(){ location.reload(); }
 	function loadData() {
@@ -1291,6 +1353,7 @@
 
 
 	 	console.log('index document ready')
+
 
 		 //body scroll js
 		jQuery(".btn-scroll").on("click", function(){
@@ -1369,7 +1432,7 @@
 	</script>
 	<script>
 		jQuery(window).scroll(function() {
-			if (jQuery(this).scrollTop() > 400) {
+			if (jQuery(this).scrollTop() > 80) {
 				jQuery("nav").addClass('nav-boxshadow');
 			} else {
 				jQuery("nav").removeClass('nav-boxshadow');
@@ -1531,6 +1594,7 @@
 			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/876549213/?guid=ON&amp;script=0"/>
 		</div>
 	</noscript>
+	
 
 </body>
 </html>
