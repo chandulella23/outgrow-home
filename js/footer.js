@@ -102,7 +102,7 @@ jQuery(document).ready(function() {
 			href = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
 		}
 	}
-	var anchorElem = '<a class="link-login" href="'+trialAnchor+'" class="link-login params">'+anchorText+'</a>';
+	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params">'+anchorText+'</a>';
 	jQuery('#anchorParent').html(anchorElem);
 
 	/*console.log('footer ready');
