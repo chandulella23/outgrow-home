@@ -89,14 +89,14 @@ var footer = '<div class="container">'+
 		'</div>'+
 '</div>';
 jQuery(document).ready(function() {
-	console.log('footer ready');	
+	console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
 	var ext = str.substring(p+1);
 	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
 	var loginAnchor = '//app.outgrow.'+ext+'/login';
 	var trialAnchor = '//app.outgrow.'+ext+'/';
-	var signUp = '<a id="signUpAnchorText" class="link-login" href="'+trialAnchor+'" class="link-login params">Sign up</a>';
+	var signUp = '<a id="loginAnchorText" class="link-login" href="'+trialAnchor+'" class="link-login params">Sign up</a>';
 	if(readCookie('storage')){
 		var storage = JSON.parse(readCookie('storage'));
 		if(storage.companyList)
