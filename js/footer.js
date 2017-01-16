@@ -157,8 +157,9 @@ function submitEbookData(e) {
 	var email = jQuery('#ebook-email').val();
 	var name = jQuery('#ebook-name').val();
 	jQuery.ajax({
-		url: 'https://api.mailerlite.com/api/v2/groups/3640549/subscribers',
+		url: 'https://api.mailerlite.com/api/v2/groups/4265413/subscribers',
 		type: 'POST',
+		dataType: 'jsonp',
 		crossDomain: true,
 		headers: {
 			'Content-Type' : 'application/json',
