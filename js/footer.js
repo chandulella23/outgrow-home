@@ -94,17 +94,18 @@ jQuery(document).ready(function() {
 	var ext = str.substring(p+1);
 	var href = "//app.outgrow."+ext+"/"
 	var anchorText = "SIGN UP";
+	var callText = "SIGN UP";
 	if (readCookie('storage')) {
 		anchorText = "DASHBOARD";
+		callText = "LOGIN";
 		href = "//app.outgrow.'+ext+'/dashboard";
 		var storage = JSON.parse(readCookie('storage'));
 		if(storage.companyList) {
 			href = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
 		}
 	}
-	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params">'+anchorText+'</a>';
+	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params" onclick="callGA('+callText+')">'+anchorText+'</a>';
 	jQuery('#anchorParent').html(anchorElem);
-
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
