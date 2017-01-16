@@ -5208,16 +5208,18 @@ iframe[name=google_conversion_frame] {
     left: 50% !important;
     box-shadow: none !important;
 }
+
+/*navbarv slide-down animation*/
+/*
 .nav-boxshadow {
     box-shadow:0 2px 6px rgba(0,0,0,0.2);  
     padding:6px 0 !important;
     animation:slide-down 0.7s;
     opacity:1;    
-}                  
+}
 .nav-boxshadow .fa-gg {                  
     transform: rotate(360deg);      
 }
-
 @keyframes slide-down {
     0% {
         opacity: 0;
@@ -5227,7 +5229,7 @@ iframe[name=google_conversion_frame] {
         opacity: 1;
         transform: translateY(0);
     } 
-}
+}*/
 
 
 
