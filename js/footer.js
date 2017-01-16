@@ -89,7 +89,23 @@ var footer = '<div class="container">'+
 		'</div>'+
 '</div>';
 jQuery(document).ready(function() {
-	console.log('footer ready');
+	var str = window.location.href.split('//')[1].split('/')[0];
+	var p = str.lastIndexOf('.');
+	var ext = str.substring(p+1);
+	var href = "//app.outgrow."+ext+"/"
+	var anchorText = "SIGN UP";
+	if (readCookie('storage')) {
+		anchorText = "DASHBOARD";
+		href = "//app.outgrow.'+ext+'/dashboard";
+		var storage = JSON.parse(readCookie('storage'));
+		if(storage.companyList) {
+			href = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
+		}
+	}
+	var anchorElem = '<a class="link-login" href="'+trialAnchor+'" class="link-login params">'+anchorText+'</a>';
+	jQuery('#parent').html(anchorElem);
+
+	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
 	var ext = str.substring(p+1);
@@ -110,7 +126,8 @@ jQuery(document).ready(function() {
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
 		console.log('No Cookie - Login');
-		jQuery(document.getElementById('loginAnchorText')).html('Login');
+		console.log(jQuery(document).find("#loginAnchorText"));
+		jQuery(document).find("#loginAnchorText").html('Login');
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 		jQuery(document).find('.signUp').html(signUp);
 	}
@@ -119,16 +136,16 @@ jQuery(document).ready(function() {
 	jQuery(document).find('.login').html(login);
 	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
 	jQuery(document.getElementById('trialAnchor')).prop('href',trialAnchor);
-	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);
-
-	function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
+	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);*/
 });
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
