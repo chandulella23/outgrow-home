@@ -157,13 +157,8 @@ function submitEbookData(e) {
 	var email = jQuery('#ebook-email').val();
 	var name = jQuery('#ebook-name').val();
 	jQuery.ajax({
-		url: 'https://api.mailerlite.com/api/v2/groups/3640549/subscribers',
+		url: './ebookhandler.php',
 		type: 'POST',
-		headers: {
-			'Content-Type' : 'application/json',
-			'withCredentials': true,
-			'X-MailerLite-ApiKey' : "07c23594acf5764492d5ecae362ff0af"
-		},
 		data: {
 			'email' : email,
 			'fields': {

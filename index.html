@@ -1207,21 +1207,19 @@
 							Download the Ebook
 						</div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np sahil-material">
-							<form class="" method="POST" action="ebookhandler.php">
+							<form class="">
                                 <div class="form-group label-floating">
                                     <label class="control-label" for="ebook-email">Email</label>
-                                    <input class="form-control" id="ebook-email" type="email" required>
+                                    <input name="ebook-email" class="form-control" id="ebook-email" type="email" required>
                                 	<span class="material-input"></span>
                                 </div>
                                 <div class="form-group label-floating">
                                     <label class="control-label" for="ebook-name">Name</label>
-                                    <input class="form-control" id="ebook-name" type="text" required>
+                                    <input name="ebook-name" class="form-control" id="ebook-name" type="text" required>
                                 	<span class="material-input"></span>
                                 </div>
                             </form>
-                            <a href="#" class="get-it-btn">
-                            	<button class="btn btn-default form-btn" type="submit">Get It<i class="material-icons">arrow_downward</i></button>
-                            </a>
+                        	<button onclick="submitEbookData(event)" class="btn btn-default form-btn">Get It<i class="material-icons">arrow_downward</i></button>
 						</div>
 					</div>
 				</div>
