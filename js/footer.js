@@ -161,6 +161,7 @@ function submitEbookData(e) {
 		type: 'POST',
 		headers: {
 			'Content-Type' : 'application/json',
+			'withCredentials': true,
 			'X-MailerLite-ApiKey' : "07c23594acf5764492d5ecae362ff0af"
 		},
 		data: {
