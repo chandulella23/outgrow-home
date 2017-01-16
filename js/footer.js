@@ -98,14 +98,18 @@ jQuery(document).ready(function() {
 	var trialAnchor = '//app.outgrow.'+ext+'/';
 	var signUp = '<a id="loginAnchorText" class="link-login" href="'+trialAnchor+'" class="link-login params">Sign up</a>';
 	if(readCookie('storage')){
+		console.log('Cookie is there - Dashboard');
 		var storage = JSON.parse(readCookie('storage'));
 		if(storage.companyList)
 			loginAnchor = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
 		else
 			loginAnchor = '//app.outgrow.'+ext+'/dashboard';
+		console.log('CAlled till here');
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
+		jQuery(document.getElementById('loginAnchorText')).attr('href',loginAnchor);
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
+		console.log('No Cookie - Login');
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Login');
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 		jQuery(document).find('.signUp').html(signUp);
