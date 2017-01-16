@@ -106,6 +106,7 @@ jQuery(document).ready(function() {
 	}
 	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params" onclick="callGA('+callText+')">'+anchorText+'</a>';
 	jQuery('#anchorParent').html(anchorElem);
+	jQuery('#footer').html(footer);
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
@@ -132,7 +133,7 @@ jQuery(document).ready(function() {
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 		jQuery(document).find('.signUp').html(signUp);
 	}
-	jQuery('#footer').html(footer);
+
 
 	jQuery(document).find('.login').html(login);
 	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
@@ -149,4 +150,29 @@ function readCookie(name) {
         if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
     }
     return null;
+}
+
+function submitEbookData(e) {
+	e.preventDefault();
+	var email = jQuery('#ebook-email').val();
+	var name = jQuery('#ebook-name').val();
+	jQuery.ajax({
+		url: 'https://api.mailerlite.com/api/v2/groups/3640549/subscribers',
+		type: 'POST',
+		headers: {
+			'Content-Type' : 'application/json',
+			'X-MailerLite-ApiKey' : "07c23594acf5764492d5ecae362ff0af"
+		},
+		data: {
+			'email' : email,
+			'fields': {
+				'name' : name
+			}
+		}
+	}).done(function (response) {
+		console.log(response);
+	}).fail(function (error) {
+		console.log(error);
+	})
+	console.log(email,name);
 }
