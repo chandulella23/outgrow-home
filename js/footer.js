@@ -160,7 +160,6 @@ function submitEbookData(e) {
 		url: 'https://api.mailerlite.com/api/v2/groups/3640549/subscribers',
 		type: 'POST',
 		headers: {
-			'withCredentials': true,
 			'Content-Type' : 'application/json'
 		},
 		data: {
