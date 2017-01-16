@@ -110,7 +110,7 @@ jQuery(document).ready(function() {
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
 		console.log('No Cookie - Login');
-		jQuery(document.getElementById('loginAnchorText')).prop('text','Login');
+		jQuery(document.getElementById('loginAnchorText')).html('Login');
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 		jQuery(document).find('.signUp').html(signUp);
 	}
