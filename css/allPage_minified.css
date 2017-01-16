@@ -3686,7 +3686,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 }
 @media (min-width:1810px) and (max-width:1920px){
 	.collag1-img{min-height:550px}
-	.collag-left{width:60%}
+	.collag-left{width:65%}
 	.collag3-img{min-height:390px}
 	.collag4-img{min-height:300px}
 	.section-1-left h3,.section-1-left h3.section1-firsthead{font-size:46px;line-height:55px}
@@ -3719,7 +3719,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.billing-boxmain{margin-left:0}
 	.billing-grey,.billing-white{width:340px}
 	.section-1{margin-top:140px}
-	.collag-right{margin-top:80px}
+	.collag-right{margin-top:80px;width: 28%;}
 	#pricing .section-1-right{padding-left:22%;top:34%}
 	#pricing .section-1{margin-top:0;padding-top:10px}
 	#pricing .section-faq{margin-top:0}
