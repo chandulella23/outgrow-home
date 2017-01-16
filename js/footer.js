@@ -162,7 +162,8 @@ function submitEbookData(e) {
 		dataType: 'jsonp',
 		crossDomain: true,
 		headers: {
-			'Content-Type' : 'application/json'
+			'Content-Type' : 'application/json',
+			'X-MailerLite-ApiKey' : '07c23594acf5764492d5ecae362ff0af'
 		},
 		data: {
 			'email' : email,
