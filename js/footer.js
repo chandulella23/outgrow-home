@@ -159,7 +159,6 @@ function submitEbookData(e) {
 	jQuery.ajax({
 		url: 'https://api.mailerlite.com/api/v2/groups/3640549/subscribers',
 		type: 'POST',
-		dataType: 'jsonp',
 		crossDomain: true,
 		headers: {
 			'Content-Type' : 'application/json',
