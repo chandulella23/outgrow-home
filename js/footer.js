@@ -156,7 +156,7 @@ function submitEbookData(e) {
 	e.preventDefault();
 	var email = jQuery('#ebook-email').val();
 	var name = jQuery('#ebook-name').val();
-	jQuery.ajax({
+	/*jQuery.ajax({
 		url: 'https://api.mailerlite.com/api/v2/groups/4265413/subscribers',
 		type: 'POST',
 		dataType: 'jsonp',
@@ -175,6 +175,19 @@ function submitEbookData(e) {
 		console.log(response);
 	}).fail(function (error) {
 		console.log(error);
+	})*/
+
+	jQuery.ajax({
+		url: './ebookhandler.php',
+		type: 'POST',
+		data: {
+			'email' : email,
+			'name' : name
+		}
+	}).done(function (res) {
+		console.log(res);
+	}).fail(function (err) {
+		console.log(err);
 	})
 	console.log(email,name);
 }
