@@ -14582,17 +14582,22 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 }
 
 
+.embedmodal-custom{
+	padding-right:0px !important;
+}
 .embedmodal-custom .modal-dialog {
-    height: 96%;
-    margin: 10px;
+    height: 100%;
+    margin: 0px;
     position: relative;
     width: 100%;
 }
 .embedmodal-custom button.close{
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 10px;
+    top: 10px;
     z-index: 99999;
+	color:#fff !important;
+	opacity:0.8;
 }
 
 }
