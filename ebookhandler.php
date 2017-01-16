@@ -2,7 +2,7 @@
 
 require __DIR__."vendor/mailerlite-php-sdk/src/Mailerlite.php";
 
-$groupsApi = (new MailerLite("07c23594acf5764492d5ecae362ff0af"))->groups();
+$groupsApi = (new MailerLiteApi\MailerLite("07c23594acf5764492d5ecae362ff0af"))->groups();
 
 $subscriber = [
     'email' => $_POST['email'],
