@@ -2117,6 +2117,8 @@ label.control-label {
 .section-1-left h3,.section-1-left h3.section1-firsthead{font-size:29px;color:#fb6c73;text-transform:uppercase;margin-top:0}
 .section-1-left .video-btn{background:#6a6a6a;color:#fff;font-size:16px;padding:12px 35px;border:2px solid #6a6a6a;transition:.5s ease-in-out;line-height:normal;float:left;margin-top:20px;text-transform: uppercase;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
 .mb{margin-bottom: -200px;}
+.rs-hide-mb{display: block;}
+.rs-show-mb{display: none;}
 .sec-quiz{background:#e6e8e9;min-height: 120px;margin-top: 40px;margin-bottom: 40px;}
 .quiz-outer{float: left;padding: 30px 20px;}
 .quiz-img{position: absolute;float: right;top: -20px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
@@ -2124,7 +2126,7 @@ label.control-label {
 .sec-quiz-btn{text-transform:uppercase;background: #f8434b;border: 2px solid #f8434b;color: #fff;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 12px 45px;font-size: 16px;line-height: normal;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
 .sec-quiz-btn:hover {background: #fb757b;color: #fff;border-color: #f8434b;}
 .sec-quiz-btn i{display: inline-block;float: right;margin-left: 10px;font-size: 20px;}
-.ebook-outer .form-btn{background:#fb5f66;color: #fff;font-size: 18px;font-family:montserratregular;border-radius: 0px;padding: 7px 40px;margin-top: 30px;border: 2px solid #fb5f66;transition: .5s ease-in-out;text-transform: uppercase}
+.ebook-outer .form-btn{background:#fb5f66;color: #fff;font-size: 18px;font-family:montserratregular;border-radius: 0px;padding: 7px 40px;margin-top: 30px;border: 2px solid #fb5f66;transition: .5s ease-in-out;text-transform: uppercase;    box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45);}
 .ebook-outer .form-btn:hover{background: #fb757b;color: #fff;border-color: #fb5f66;}
 .ebook-outer .form-btn i{vertical-align: middle; margin-left: 10px;font-size: 18px;}
 .ebook-head{ font-size: 36px; color: #fb6c73; font-family: montserratUltra_light; line-height: normal;}
@@ -2147,7 +2149,7 @@ label.control-label {
 .section-1-left h4{font-size:24px;font-family:montserratlight;color:#62696d;margin-top:40px;line-height:1.3}
 .section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{margin-top:20px;-webkit-transition:.5s ease-in-out;float:left;text-transform:uppercase}
 .section-1-left input{padding:10px;width:70%}
-.section-1-left .btn-buildcal{background:#f8434b;color:#fff;font-size:16px;padding:12px 30px;border:2px solid #f8434b;transition:.5s ease-in-out;line-height:normal;box-shadow:-9px 9px 20px 0px rgba(0,0,0,0.45)}
+.section-1-left .btn-buildcal{background:#f8434b;color:#fff;font-size:16px;padding:12px 50px;border:2px solid #f8434b;transition:.5s ease-in-out;line-height:normal;box-shadow:-9px 9px 20px 0px rgba(0,0,0,0.45)}
 .section-1-left .btn-buildcal:hover{background: #fb757b;color: #fff;border-color: #f8434b;}
 .section-1-left .btn-buildcal i{display:inline-block;float:left;margin-right:10px;font-size:20px}
 .section-1-left .btn-buildcal.red{background:#fb545b;color:#fff;font-size:15px;padding:13px 30px;border:2px solid #fb545b;transition:.5s ease-in-out}
@@ -2237,6 +2239,7 @@ label.control-label {
     margin-top: 90px;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+    box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45);
 }
 .section-5 .btn-buildcal:hover{
     background: #fb757b;
@@ -2290,7 +2293,7 @@ label.control-label {
 .circle-value em{color:#62696d;font-size:18px;font-style:normal;left:43px;position:absolute;top:25px}
 .section-7 .btn-buildcal i,.section-8 .btn-buildcal i,.section-9 .btn-buildcal i{position:relative;top:3px}
 .circle-value p{color:#62696d;font-size:11px;float:left;width:70%;text-align:center;margin-top:5px;line-height:11px}
-.section-7 .btn-buildcal,.section-8 .btn-buildcal,.section-9 .btn-buildcal{font-size:14px;padding:7px 20px;border:2px solid #62696d;text-transform:uppercase}
+.section-7 .btn-buildcal,.section-8 .btn-buildcal,.section-9 .btn-buildcal{font-size:14px;padding:7px 20px;border:2px solid #62696d;text-transform:uppercase;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45);}
 .section-7 .btn-buildcal{background:#62696d;color:#fff;float:none;margin-top:40px;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
 .section-7 .btn-buildcal:hover{background: #9b9696;border:2px solid #62696d;color:#fff}
 .section-7 .btn-buildcal p{float:left;margin:0 10px 0 0;line-height:30px}
@@ -3389,6 +3392,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.w100{width:100%}
 }
 @media (min-width:768px) and (max-width:768px){
+	.rs-hide-mb{display: block;}
 	.menu-outer{width:325px}
 	.res-nav-hide{display:block!important}
 	.res-nav-show{display:none!important}
@@ -3424,6 +3428,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 @media(min-width:320px) and (max-width:767px){
 	.menu-outer{display:none}
 	.backdrop-custom{display:none}
+	.rs-show-mb{display: block;}
+	.rs-hide-mb{display: none;}
 }
 @media (min-width:769px) and (max-width:990px){
 	.col-sm-pull-3,.col-sm-pull-6{right:0}
@@ -3671,7 +3677,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1-left h3,.section-1-left h3.section1-firsthead{font-size:40px;line-height:50px}
 	.section-1-left h4{font-size:30px;line-height:40px}
 	.section-1-left .video-btn{font-size:18px; padding:16px 30px}
-	.section-1-left .btn-buildcal{font-size:18px;padding:16px 35px}
+	.section-1-left .btn-buildcal{font-size:18px;padding:16px 65px}
 	/*.section-1-left .btn-buildcal i{font-size:24px}*/
 	.section-1-left .btn-buildcal.red{padding:15px 40px;font-size:18px}
 	.section-1-left .btn-buildcal.red i{font-size:24px}
@@ -3686,7 +3692,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1-left h3,.section-1-left h3.section1-firsthead{font-size:46px;line-height:55px}
 	.section-1-left h4{font-size:34px;line-height:45px;margin-top:60px}
 	.section-1-left .video-btn{padding:13px 50px;font-size:20px}
-	.section-1-left .btn-buildcal{font-size:20px;padding:13px 55px}
+	.section-1-left .btn-buildcal{font-size:20px;padding:13px 75px}
 	.section-1-left .btn-buildcal i{font-size:26px}
 	.section-1-left .btn-buildcal.red{padding:15px 60px;font-size:20px}
 	.section-1-left .btn-buildcal.red i{font-size:26px}
