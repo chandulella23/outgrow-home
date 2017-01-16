@@ -103,7 +103,7 @@ jQuery(document).ready(function() {
 		}
 	}
 	var anchorElem = '<a class="link-login" href="'+trialAnchor+'" class="link-login params">'+anchorText+'</a>';
-	jQuery('#parent').html(anchorElem);
+	jQuery('#anchorParent').html(anchorElem);
 
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
