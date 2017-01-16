@@ -2117,6 +2117,8 @@ label.control-label {
 .section-1-left h3,.section-1-left h3.section1-firsthead{font-size:29px;color:#fb6c73;text-transform:uppercase;margin-top:0}
 .section-1-left .video-btn{background:#6a6a6a;color:#fff;font-size:16px;padding:12px 35px;border:2px solid #6a6a6a;transition:.5s ease-in-out;line-height:normal;float:left;margin-top:20px;text-transform: uppercase;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
 .mb{margin-bottom: -200px;}
+.rs-hide-mb{display: block;}
+.rs-show-mb{display: none;}
 .sec-quiz{background:#e6e8e9;min-height: 120px;margin-top: 40px;margin-bottom: 40px;}
 .quiz-outer{float: left;padding: 30px 20px;}
 .quiz-img{position: absolute;float: right;top: -20px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
@@ -3370,6 +3372,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.w100{width:100%}
 }
 @media (min-width:768px) and (max-width:768px){
+	.rs-hide-mb{display: block;}
 	.menu-outer{width:325px}
 	.res-nav-hide{display:block!important}
 	.res-nav-show{display:none!important}
@@ -3405,6 +3408,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 @media(min-width:320px) and (max-width:767px){
 	.menu-outer{display:none}
 	.backdrop-custom{display:none}
+	.rs-show-mb{display: block;}
+	.rs-hide-mb{display: none;}
 }
 @media (min-width:769px) and (max-width:990px){
 	.col-sm-pull-3,.col-sm-pull-6{right:0}
