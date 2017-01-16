@@ -726,7 +726,7 @@
 									 /> </a>
  							</div>
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="//resources.outgrow.co/example-3" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/em3-2.jpg"	
+ 								<a href="//resources.outgrow.co/example-3" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/em3-2.jpg"
  								 style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"	/> </a>
  							</div>
 						 </div>
@@ -769,7 +769,7 @@
 				<div class="col-xs-12 col-sm-11 np rs-show">
 					<a href="javascript:void(0);" data-toggle="modal" data-target="#embed-modal3" ><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try It</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
@@ -1209,7 +1209,7 @@
 							How an Interactive Calculator generated 11,592 qualified leads
 						</div>
 						<div class="ebook-subhead">
-							Lorem Ipsum dolor site amet, lorem Ipsum dolor site amet, 
+							Lorem Ipsum dolor site amet, lorem Ipsum dolor site amet,
 						</div>
 						<div class="ebook-sub-heading">
 							Download the Ebook
@@ -1368,7 +1368,7 @@
 	</div>
 	<!-- End: Modal Quizer Embed -->
 
-	
+
 	<!-- Start: Modal Embed 1 -->
 	<div id="embed-modal1" class="modal fade embedmodal-custom" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
@@ -1430,46 +1430,6 @@
 	  	jQuery.material.init();
 	</script>
 	<script>
-	//window.onresize = function(){ location.reload(); }
-	function loadData() {
-	var str = window.location.href.split('//')[1].split('/')[0];
-	var p = str.lastIndexOf('.');
-	var ext = str.substring(p+1);
-	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
-	var loginAnchor = '//app.outgrow.'+ext+'/login';
-	var trialAnchor = '//app.outgrow.'+ext+'/';
-	//var signUp = '<a id="signUpAnchorText" class="link-login" href="'+trialAnchor+'" class="link-login params">Sign up</a>';
-	if(readCookie('storage')){
-		var storage = JSON.parse(readCookie('storage'));
-		if(storage.companyList)
-			loginAnchor = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
-		else
-			loginAnchor = '//app.outgrow.'+ext+'/dashboard';
-		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
-		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
-	}else{
-		jQuery(document.getElementById('loginAnchorText')).prop('text','Login');
-		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
-		// jQuery('.signUp').html(signUp);
-	}
-	jQuery('#footer').html(footer);
-	//jQuery('#login').html(login);
-	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
-	jQuery(document.getElementById('trialAnchor')).prop('href',trialAnchor);
-	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);
-
-	function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
-}
-
 	 jQuery(document).ready(function() {
 		 //youtube video
 		 jQuery('.close').click(function(){
@@ -1533,14 +1493,14 @@
 			jQuery("#em3").removeClass('embed-mobile');
 			jQuery("#em3 .wrapper").removeClass('wrapper-mobile');
 		});
-		
+
 		if (document.documentElement.clientWidth < 1024) {
 			jQuery(".embed-web").addClass('embed-mobile');
 			jQuery(".wrapper").addClass('wrapper-mobile');
 		}
-		
-		// responsive embed 
-		jQuery(window).resize(function() { 
+
+		// responsive embed
+		jQuery(window).resize(function() {
 			if (document.documentElement.clientWidth < 1024) {
 				jQuery(".embed-web").addClass('embed-mobile');
 				jQuery(".wrapper").addClass('wrapper-mobile');
@@ -1780,11 +1740,6 @@
 	    myVid=document.getElementById("player");
 	    myVid.muted=true;
 	</script>
-	<noscript>
-		<div style="display:inline;">
-			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/876549213/?guid=ON&amp;script=0"/>
-		</div>
-	</noscript>
-	
+
 </body>
 </html>
