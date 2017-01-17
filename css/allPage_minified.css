@@ -2145,7 +2145,7 @@ label.control-label {
 .ebook-head{ font-size: 36px; color: #fb6c73; font-family: montserratUltra_light; line-height: normal;}
 .ebook-sub-heading{font-size: 16px;color: #62696d;font-family: montserratlight;float: left;width: 100%;text-transform: uppercase;}
 .ebook-container{width:970px !important;}
-.ebook-img{margin-left: 40px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5)}
+.ebook-img{margin-left: 60px;width: 65%;}
 .ebook-subhead {font-size: 14px;color: #62696d;font-family: montserratlight;padding-right: 40px;margin: 25px 0;float: left;width: 100%;}
 .ebook-outer{ width: 100%;float: left;padding: 0 30px;padding-right: 80px;}
 .section1-left-cell h3 b{font-family:montserratbold; }
@@ -2444,7 +2444,7 @@ label.control-label {
 .portfolio_main_holder .item_holder.flip_from_left .portfolio_title_custom .portfolio_title a{color:#222;vertical-align:middle}
 .section-12{background:#62696d;min-height:150px;margin-bottom:0;margin-top:0px}
 .section-13,.section-13-runningtext{float:left;width:100%}
-.section-13{margin-top:0;padding-top:70px;padding-bottom:30px;margin-bottom:90px;}
+.section-13{margin-top:0;padding-top:60px;padding-bottom:30px;}
 .section-14{float:left;width:100%;background:#62696d;margin:0;padding-top:30px;padding-bottom:10px;min-height:250px}
 .img-1-text,.img-2-text{color:#62696d;font-size:15px;font-family:montserratregular;padding:0 20%;float:left;width:100%;position:relative}
 .outer-container{position:relative;margin-bottom:20px}
