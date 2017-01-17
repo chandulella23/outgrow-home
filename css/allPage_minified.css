@@ -14634,6 +14634,8 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 	opacity:0.8;
 	height: 50px;
     width: 50px;
+	background: rgba(0,0,0,0.4);
+    border-radius: 50%;
 }
 
 .embedmodal-custom-quiz{
