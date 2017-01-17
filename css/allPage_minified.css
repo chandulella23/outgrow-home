@@ -3339,19 +3339,22 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		padding-right:0px !important;
 	}
 	.embedmodal-custom-quiz .modal-dialog {
-		position: relative;
-		height: 100%;
-		width: 100%;
+		position: relative !important; 
+		height: 100% !important;
+		width: 100% !important;
+		margin:0px;
 	}
 	.embedmodal-custom-quiz button.close{
-		position: absolute;
-		right: 10px;
-		top: 10px;
+		position: absolute !important;
+		right: 10px !important;
+		top: 10px !important;
 		z-index: 99999 !important;
 		color:#fff !important;
-		opacity:0.8;
-		height: 50px;
-		width: 50px;
+		opacity:0.8 !important;
+		height: 50px !important;
+		width: 50px !important;
+		background: rgba(0,0,0,0.4);
+    	border-radius: 50%;
 	}
 
 }
