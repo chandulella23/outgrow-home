@@ -3411,7 +3411,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.res-nav-hide{display:block!important}
 	.res-nav-show{display:none!important}
 	.col-sm-pull-3,.col-sm-pull-6{right:0}
-	.section-1-left .video-btn{padding:10px 7px;line-height:normal;font-size:13px;margin-left:10px}
+	.section-1-left .video-btn{padding:10px 7px;line-height:normal;font-size:13px;margin-left:10px;margin-top: 50px;}
 	.section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{width:100%;font-size:13px;padding:10px 7px}
 	.sec4-2{height:505px;top:-30px}
 	.sec5-2-1{width:90%;float:left;margin-top:40px;margin-left:-70px}
