@@ -299,7 +299,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 col-xs-12 col-sm-12">
-						<img src="images/quiz.png" class="quiz-img mk-animate-element right-to-left">
+						<img src="images/quizz.jpg" class="quiz-img mk-animate-element right-to-left">
 					</div>
 				</div>
 			</div>
@@ -632,12 +632,12 @@
  					<div class="qode-cards-gallery-holder right rs-hide" data-side=right>
  						<div class="qode-cards-gallery">
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="//resources.outgrow.co/cost-of-video-campaign/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/em2-1.jpg"
+ 								<a href="javascript:void(0);" class="embed-modal2"  data-toggle="modal" data-target="#embed-modal2" > <img src="#" alt="" class="qode-lazy-image" data-image="images/em2-1.jpg"
  										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
  									/> </a>
  							</div>
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="//resources.outgrow.co/cost-of-video-campaign/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="images/em2-2.jpg"
+ 								<a href="javascript:void(0);" class="embed-modal2"   data-toggle="modal" data-target="#embed-modal2" > <img src="#" alt="" class="qode-lazy-image" data-image="images/em2-2.jpg"
  										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true" /> </a>
  							</div>
 						 </div>
@@ -675,7 +675,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-11 np rs-hide">
-					<a href="//resources.outgrow.co/cost-of-video-campaign/" target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try It</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
+					<a href="javascript:void(0);" class="embed-modal2"   data-toggle="modal" data-target="#embed-modal2"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try It</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
 				</div>
 				<div class="col-xs-12 col-sm-11 np rs-show">
 					<a href="javascript:void(0);" data-toggle="modal" data-target="#embed-modal2" ><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
@@ -1515,11 +1515,11 @@
 
 
 		 //body scroll js
-		jQuery(".btn-scroll").on("click", function(){
+		jQuery(".embed-modal2").on("click", function(){
 			jQuery('html').css('overflow-y','hidden');
 		});
 
-		jQuery("#close-popup").on("click", function(){
+		jQuery(".embedmodal-custom button.close").on("click", function(){
 			jQuery('html').css('overflow-y','scroll');
 		});
 
