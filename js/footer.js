@@ -89,7 +89,25 @@ var footer = '<div class="container">'+
 		'</div>'+
 '</div>';
 jQuery(document).ready(function() {
-	console.log('footer ready');
+	var str = window.location.href.split('//')[1].split('/')[0];
+	var p = str.lastIndexOf('.');
+	var ext = str.substring(p+1);
+	var href = "//app.outgrow."+ext+"/"
+	var anchorText = "SIGN UP";
+	var callText = "SIGN UP";
+	if (readCookie('storage')) {
+		anchorText = "DASHBOARD";
+		callText = "LOGIN";
+		href = "//app.outgrow.'+ext+'/dashboard";
+		var storage = JSON.parse(readCookie('storage'));
+		if(storage.companyList) {
+			href = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
+		}
+	}
+	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params" onclick="callGA('+callText+')">'+anchorText+'</a>';
+	jQuery('#anchorParent').html(anchorElem);
+	jQuery('#footer').html(footer);
+	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
 	var ext = str.substring(p+1);
@@ -98,33 +116,78 @@ jQuery(document).ready(function() {
 	var trialAnchor = '//app.outgrow.'+ext+'/';
 	var signUp = '<a id="loginAnchorText" class="link-login" href="'+trialAnchor+'" class="link-login params">Sign up</a>';
 	if(readCookie('storage')){
+		console.log('Cookie is there - Dashboard');
 		var storage = JSON.parse(readCookie('storage'));
 		if(storage.companyList)
 			loginAnchor = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
 		else
 			loginAnchor = '//app.outgrow.'+ext+'/dashboard';
+		console.log('CAlled till here');
 		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
+		jQuery(document.getElementById('loginAnchorText')).attr('href',loginAnchor);
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
 	}else{
-		jQuery(document.getElementById('loginAnchorText')).prop('text','Login');
+		console.log('No Cookie - Login');
+		console.log(jQuery(document).find("#loginAnchorText"));
+		jQuery(document).find("#loginAnchorText").html('Login');
 		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
 		jQuery(document).find('.signUp').html(signUp);
 	}
-	jQuery('#footer').html(footer);
+
 
 	jQuery(document).find('.login').html(login);
 	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
 	jQuery(document.getElementById('trialAnchor')).prop('href',trialAnchor);
-	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);
-
-	function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
+	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);*/
 });
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function submitEbookData(e) {
+	e.preventDefault();
+	var email = jQuery('#ebook-email').val();
+	var name = jQuery('#ebook-name').val();
+	jQuery.ajax({
+		url: 'https://api.mailerlite.com/api/v2/groups/4265413/subscribers',
+		type: 'POST',
+		dataType: 'jsonp',
+		crossDomain: true,
+		headers: {
+			'Content-Type' : 'application/json',
+			'X-MailerLite-ApiKey' : '07c23594acf5764492d5ecae362ff0af'
+		},
+		data: {
+			'email' : email,
+			'fields': {
+				'name' : name
+			}
+		}
+	}).done(function (response) {
+		console.log(response);
+	}).fail(function (error) {
+		console.log(error);
+	})
+
+	/*jQuery.ajax({
+		url: './ebookhandler.php',
+		type: 'POST',
+		data: {
+			'email' : email,
+			'name' : name
+		}
+	}).done(function (res) {
+		console.log(res);
+	}).fail(function (err) {
+		console.log(err);
+	})*/
+	console.log(email,name);
+}
