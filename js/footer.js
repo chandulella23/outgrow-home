@@ -105,7 +105,7 @@ jQuery(document).ready(function() {
 		}
 	}
 	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params" onclick="callGA('+callText+')">'+anchorText+'</a>';
-	jQuery('#anchorParent').html(anchorElem);
+	jQuery('.anchorParent').html(anchorElem);
 	jQuery('#footer').html(footer);
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
