@@ -2148,6 +2148,19 @@ label.control-label {
 .ebook-img{margin-left: 60px;width: 65%;}
 .ebook-subhead {font-size: 14px;color: #62696d;font-family: montserratlight;padding-right: 40px;margin: 25px 0;float: left;width: 100%;}
 .ebook-outer{ width: 100%;float: left;padding: 0 30px;padding-right: 80px;}
+.take-quiz-bg{
+    background: url(../images/take-quiz.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 60px 0;
+}
+.take-quiz-heading {
+    font-size: 36px;
+    color: #fff;
+    font-family: montserratbold;
+}
 .section1-left-cell h3 b{font-family:montserratbold; }
 .video-btn:hover{background:#9b9696; color:#fff;}
 .section-1-left .video-btn i{display:inline-block;float:left;margin-right:10px;font-size:20px}
@@ -3130,6 +3143,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 .menu-outer.is-active{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
 .backdrop-custom.is-active{width:100%;height:100%;opacity:.7;-webkit-transition:opacity .3s;transition:opacity .3s;cursor:default}
 @media (min-width:320px) and (max-width:768px){
+	.take-quiz-heading{font-size: 22px;}
 	.section-7 .btn-buildcal{margin-top: 20px;}
 	.section-8 .btn-buildcal{margin-top: 20px;}
 	#video-modal .modal-dialog-video{width: 80% !important;}
