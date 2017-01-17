@@ -2116,18 +2116,31 @@ label.control-label {
 .section-1{margin-bottom:40px;padding-bottom:30px;margin-top: 105px;}
 .section-1-left h3,.section-1-left h3.section1-firsthead{font-size:29px;color:#fb6c73;text-transform:uppercase;margin-top:0}
 .section-1-left .video-btn{background:#6a6a6a;color:#fff;font-size:16px;padding:12px 35px;border:2px solid #6a6a6a;transition:.5s ease-in-out;line-height:normal;float:left;margin-top:20px;text-transform: uppercase;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
-.mb{margin-bottom: 70px;}
+.mb{margin-bottom: 60px;}
 .rs-hide-mb{display: block;}
 .rs-show-mb{display: none;}
 .sec-quiz{background:#e6e8e9;min-height: 120px;margin-top: 40px;margin-bottom: 40px;}
 .quiz-outer{float: left;padding: 30px 20px;}
-.quiz-img{position: absolute;float: right;top: -20px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
+.quiz-img{position: absolute;float: right;top: -32px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
 .sec-quiz-heading{ color: #62696d; font-size: 30px; font-family: montserratregular; text-transform: uppercase; line-height: normal;}
 .sec-quiz-btn{text-transform:uppercase;background: #f8434b;border: 2px solid #f8434b;color: #fff;margin-top: 20px;font-family: montserratregular;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;padding: 12px 45px;font-size: 16px;line-height: normal;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
 .sec-quiz-btn:hover {background: #fb757b;color: #fff;border-color: #f8434b;}
 .sec-quiz-btn i{display: inline-block;float: right;margin-left: 10px;font-size: 20px;}
-.ebook-outer .form-btn{background:#fb5f66;color: #fff;font-size: 18px;font-family:montserratregular;border-radius: 0px;padding: 7px 40px;margin-top: 30px;border: 2px solid #fb5f66;transition: .5s ease-in-out;text-transform: uppercase;    box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45);}
-.ebook-outer .form-btn:hover{background: #fb757b;color: #fff;border-color: #fb5f66;}
+.ebook-outer .form-btn{
+	background: #f8434b;
+    color: #fff;
+    font-size: 16px;
+    font-family: montserratregular;
+    border-radius: 0px;
+    padding: 7px 30px;
+    margin-top: 30px;
+    border: 2px solid #f8434b;
+    transition: .5s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45);
+    line-height: normal;
+}
+.ebook-outer .form-btn:hover{    background: #fb757b;color: #fff;border-color: #f8434b;}
 .ebook-outer .form-btn i{vertical-align: middle; margin-left: 10px;font-size: 18px;}
 .ebook-head{ font-size: 36px; color: #fb6c73; font-family: montserratUltra_light; line-height: normal;}
 .ebook-sub-heading{font-size: 16px;color: #62696d;font-family: montserratlight;float: left;width: 100%;text-transform: uppercase;}
