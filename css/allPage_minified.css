@@ -2116,7 +2116,7 @@ label.control-label {
 .section-1{margin-bottom:40px;padding-bottom:30px;margin-top: 105px;}
 .section-1-left h3,.section-1-left h3.section1-firsthead{font-size:29px;color:#fb6c73;text-transform:uppercase;margin-top:0}
 .section-1-left .video-btn{background:#6a6a6a;color:#fff;font-size:16px;padding:12px 35px;border:2px solid #6a6a6a;transition:.5s ease-in-out;line-height:normal;float:left;margin-top:20px;text-transform: uppercase;box-shadow: -9px 9px 20px 0px rgba(0,0,0,0.45)}
-.mb{margin-bottom: -200px;}
+.mb{margin-bottom: 70px;}
 .rs-hide-mb{display: block;}
 .rs-show-mb{display: none;}
 .sec-quiz{background:#e6e8e9;min-height: 120px;margin-top: 40px;margin-bottom: 40px;}
@@ -2135,6 +2135,7 @@ label.control-label {
 .ebook-img{margin-left: 40px;box-shadow: 11px 0px 32px 0px rgba(0,0,0,.5);}
 .ebook-subhead {font-size: 14px;color: #62696d;font-family: montserratlight;padding-right: 40px;margin: 25px 0;float: left;width: 100%;}
 .ebook-outer{ width: 100%;float: left;padding: 0 30px;padding-right: 80px;}
+.section1-left-cell h3 b{font-family:montserratbold; }
 .video-btn:hover{background:#9b9696; color:#fff;}
 .section-1-left .video-btn i{display:inline-block;float:left;margin-right:10px;font-size:20px}
 .section-1 .container-fluid{padding:0}
@@ -2145,7 +2146,7 @@ label.control-label {
 .help-icon:hover{color:#fb5f66}
 .section-1-left h3.section1-firsthead{float:left;width:100%;font-family:montserratlight;margin-bottom:0;}
 .section-1-left h3,.section-1-left h4{float:left;width:100%;margin-bottom:30px}
-.section-1-left h3{font-family:montserratbold}
+/*.section-1-left h3{font-family:montserratbold}*/
 .section-1-left h4{font-size:24px;font-family:montserratlight;color:#62696d;margin-top:40px;line-height:1.3}
 .section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{margin-top:20px;-webkit-transition:.5s ease-in-out;float:left;text-transform:uppercase}
 .section-1-left input{padding:10px;width:70%}
@@ -2157,7 +2158,7 @@ label.control-label {
 .collag1-img,.collag2-img{background-position:center top}
 .collag1-img,.collag2-img,.collag3-img,.collag4-img{background-size:cover}
 .section-1-left .btn-buildcal.red i{display:inline-block;float:left;margin-right:10px;font-size:20px}
-.section-1-left .btn-bottominfo{float:left;width:92%;text-align:left;margin-top:20px}
+.section-1-left .btn-bottominfo{float:left;width:90%;text-align:center;margin-top:20px}
 .section-1-left .btn-bottominfo span{float:none;width:100%;color:#4a4a4a;font-size:13px;font-family:montserratregular;text-align:left;text-transform:uppercase}
 .section-1-left .btn-bottominfo label{float:none;width:100%;color:#8a8a8a;font-size:12px;font-family:montserratlight}
 .mt7{margin-top:7%!important}
@@ -3715,9 +3716,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec10-testimonial-link,.sec10-testname{margin-left:19%;padding-left:11px}
 	.section1-left-cell{height:61vh}
 	.section-1-left .btn-bottominfo{width:92%}
-	.section-9-left{margin-top:70px;padding-left:11%}
+	.section-9-left{margin-top:30px;padding-left:11%}
 	.section-7-left{margin-top:30px;padding-left:150px}
-	.section-9-left2{margin-top:60px}
+	.section-9-left2{margin-top:30px}
 	.sec10-testimonial div.sec10-tes-inner{margin-left:15%;width:70%}
 	.billing-boxmain{margin-left:0}
 	.billing-grey,.billing-white{width:340px}
