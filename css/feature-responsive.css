@@ -13,6 +13,13 @@
 	#feature .mobile-container{
 		padding:0px;
 	}
+	#feature .section-f2-left .section-f2-new span{
+	    margin-top: 10px;
+    	margin-bottom: 15px;
+	}
+	#feature .section-f2-left .section-f2-new span i{
+		margin-right: 10px;
+	}
 	#feature .section-9-left {
 		padding-right: 20px;
 		padding-left: 20px;
@@ -25,7 +32,6 @@
 	}
 	#feature .section-6.sec-integration h1{
 		font-size:24px;
-		margin-top:50px;
 	}
 	#feature .section-6.sec-integration p{
 		padding-bottom:30px;
@@ -36,29 +42,32 @@
 		margin-top:50px;
 	}
 	#feature .section-f1 {
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 	#feature .section-f1-left {
 		padding-right: 20px;
 		padding-left: 20px;
 	}
 	#feature .section-f1 .section-f1-left span span {
-		width: 80%;
-		font-size: 16px;
+		width: 85%;
+	    text-align: left;
+	    float: right;
+	    text-transform: uppercase;
+	    font-size: 14px;
 	}
 	#feature .section-f1-right {
 		padding-right: 0px;
 		padding-left: 0px;
 	}
 	#feature .section-f1 .slider-sa {
-		min-height: 220px;
+		min-height: 170px;
 		padding:0 20px;
 	}
 	#feature .section-f2-left {
 		padding: 0px 20px;
 	}
 	#feature .section-f2-right {
-		margin-top: 30px;
+		margin-top: 10px;
 		padding: 0 20px;
 	}
 	#feature .secf2-2 {
@@ -71,15 +80,20 @@
 	}
 	#feature .section-f2 {
 		margin-top: 0px;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 	}
 	#feature .section-f2 .section-f2-left span span{
-		width:83%;
-		font-size:16px;
+		width: 85%;
+	    text-align: left;
+	    float: right;
+	    text-transform: uppercase;
+	    font-size: 14px;
 	}
 	#feature .section-f2-left span{
-		margin-bottom:10px;
+	    margin-bottom: 15px;
+    	margin-top: 10px;
 	}
+	#feature .mb{margin-bottom: 40px;}
 	#feature .section-9-right {
 		padding-right: 0px;
 		padding-left: 0px;
@@ -96,7 +110,7 @@
 		margin: 0 5px;
 	}
 	#feature .swiper-slide{
-		margin-top:30px;
+		margin-top:10px;
 	}
 	#feature .section-7 .slider-sa{
 		min-height:250px;
@@ -130,7 +144,7 @@
 	}
 	#feature .img-pos{
 		margin-top:0px;
-		margin-left: 0px;
+		margin-left: -15px;
 		width:100%;
 	}
 	#feature .section-15-left {
@@ -138,7 +152,7 @@
 		margin-top:20px;
 	}
 	#feature .section-15-right{
-		margin-top:30px;
+		margin-top:10px;
 		padding: 0 20px;
 	}
 	#feature .section-15 {
@@ -175,6 +189,7 @@
 	}
 	#feature .section-17 .section-17-left span span{
 		font-size:16px;
+		width: 100%;
 	}
 	#feature .section-17-left {
 		padding: 0 20px;
@@ -182,7 +197,7 @@
 		margin-bottom:10px;
 	}
 	#feature .section-17-right{
-		margin-top:30px;
+		margin-top:10px;
 		padding: 0 20px;
 	}
 	#feature .sec17-2-1 {
@@ -205,7 +220,7 @@
 	#feature .section.section-5 p{
 		margin-left: 0;
 		width:100%;
-		margin-bottom:40px;
+		margin-bottom:20px;
 		font-size: 16px;
 		margin-top: 10px;
 	}
@@ -214,6 +229,10 @@
 		margin-top: 0;
 		width:100%;
 	}
+	#feature .section-f3-left .section-f3-new span i{
+		margin-right: 10px;
+	}
+
 	#feature .section.section-10 i.material-icons{
 		font-size:48px;
 	}
@@ -249,8 +268,8 @@
 		width:80%;
 	}
 	#feature .section-4-left .section-4-new span span{
-		width:80%;
-		font-size:16px;
+	    width: 85%;
+    	font-size: 14px;
 	}
 	#feature .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background-color: #fff;
@@ -267,14 +286,12 @@
 	.custom-navbar.navbar-default {
 		padding-right: 0px;
 	}
-	#feature .section-4 .section-4-left span span{
-		font-size:16px;
-	}
 	#feature .section-f3-left {
 		padding: 0px 20px;
 	}
 	#feature .section-f3-left .section-f3-new span span {
-		width: 80%;
+		width: 85%;
+    	font-size: 14px;
 	}
 	#feature .secf3-2 {
 		position: absolute;
@@ -286,10 +303,17 @@
 	}
 	#feature .section-f4 {
 		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
+	}
+	#feature .section-4-left span i {
+	    margin-top: 0;
+	    margin-right: 10px !important;
 	}
 	#feature .sec-f4-style {
 		margin-top: 50px;
+	}
+	#feature .section-4-left h4{
+		margin: 10px 0px;
 	}
 	#feature .section-f4-left .section-f4-new span span {
 		width: 80%;
@@ -302,16 +326,19 @@
 		font-size:24px;
 	}
 	#feature .secf1-test {
-		margin-bottom: 10px;
-		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-top: 0px;
 	}
 	#feature .section-f1-left span{
-		margin-bottom:10px;
+	    margin-bottom: 15px;
+    	margin-top: 10px;
 	}
 	#feature .section-f2 .section-f2-left h4{
 		line-height:normal;
 		font-size:24px;
-		margin-top:30px;
+	}
+	#feature .section-f1-left span i{
+		margin-right: 10px;
 	}
 	#feature .secf2-test {
 		margin-bottom: 10px;
@@ -324,18 +351,16 @@
 	#feature .secf3-test{
 		margin:10px 0px;
 	}
-	#feature .section-f3 .section-f3-left span span{
-		font-size:16px;
-	}
 	#feature .section-f3-left .section-f3-new span{
 		margin-bottom:10px;
 	}
 	#feature .section-f3-left span{
-		margin-bottom:10px;
-	}
+		 margin-bottom: 15px;
+    	margin-top: 10px;
+    }
 	#feature .section-f3-right{
 		padding:0 20px;
-		margin-top:30px;
+		margin-top:10px;
 	}
 	#feature .section-f4 .section-f4-left h4{
 		font-size:24px;
@@ -344,17 +369,24 @@
 		margin:10px 0px;
 	}
 	#feature .section-f4-left .section-f4-new span{
-		margin-bottom:10px;
+	    margin-bottom: 15px;
+    	margin-top: 10px;
+	}
+	#feature .section-f4-left .section-f4-new span i{
+		margin-right: 10px;
 	}
 	#feature .section-f4 .section-f4-left span span{
-		font-size:16px;
+	    width: 85%;
+   		font-size: 14px;
 	}
 	#feature .section-f4-left span{
-		margin-bottom:10px;
+		 margin-bottom: 15px;
+    	margin-top: 10px;
+
 	}
 	#feature .section-f4-right{
 		padding:0 20px;
-		margin-top:30px;
+		margin-top:10px;
 	}
 	#feature .section-4 .section-4-left h4{
 		font-size:24px;
@@ -363,11 +395,16 @@
 	#feature .sec9-test{
 		margin:10px 0px;
 	}
-	#feature .section-4-left .section-4-new span{
+	/*#feature .section-4-left .section-4-new span{
 		margin:10px 0px;
+	}*/
+	#feature .section-4-new span{
+		margin-bottom: 15px;
+	    margin-top: 10px;
 	}
 	#feature .section-4-left span{
-		margin-bottom:10px;
+		margin-bottom: 15px;
+    	margin-top: 10px;
 	}
 	#feature .section-4-img{
 		padding:0 20px;
@@ -377,6 +414,7 @@
 		margin-top:0px;
 	}
 	#feature .span-style{
+		width: 100% !important;
 		font-size:16px !important;
 	}
 	#feature .feature-heading-1 h3{
@@ -396,7 +434,7 @@
 		width: 70%;
 	}
 	#feature .section-f1 .slider-sa {
-		min-height: 320px;
+		min-height: 270px;
 	}
 	#feature .sec4-2{
 		width:58%;
