@@ -3036,7 +3036,7 @@ button.swiper-pagination-bullet {
 #feature .section-f2-left .section-f2-new span span {
 	color: #62696d;
 	font-size: 14px;
-	font-family: montserratregular;
+	font-family: montserratregular !important;
 	width: 85%;
 	float: left;
 	display: block;
@@ -3061,7 +3061,7 @@ button.swiper-pagination-bullet {
 #feature .section-f2 .section-f2-left span span {
 	color: #62696d;
 	font-size: 14px;
-	font-family: montserratregular;
+	font-family: montserratlight;
 	width: 85%;
 	float: left;
 	display: block;
