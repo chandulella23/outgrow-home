@@ -179,7 +179,7 @@ function submitEbookData(e) {
 					jQuery('<p>Your course is prepared. We have also emailed a link to your course.</p>').insertBefore('#ebook-submit');
 					jQuery('#ebook-submit').fadeOut();
 					setTimeout(function (){
-						window.location.href="//resources.outgrow.co";
+						window.location.href="//resources.outgrow.co/courses/lead-generation-with-calculators/";
 					}, 500);
 				} else {
 					jQuery('#ebook-error').html('There were some errors in the data you provided');
