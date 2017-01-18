@@ -189,6 +189,7 @@ function submitEbookData(e) {
 				jQuery('#ebook-error').html('We are a little backed right now. Please try again.');
 			},
 			complete: function () {
+				jQuery('#ebook-submit').html('Get Access<i class="material-icons">arrow_downward</i>');
 			}
 		})
 	}
