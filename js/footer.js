@@ -154,40 +154,42 @@ function readCookie(name) {
 
 function submitEbookData(e) {
 	e.preventDefault();
+	jQuery('#ebook-error').html('');
 	var email = jQuery('#ebook-email').val();
 	var name = jQuery('#ebook-name').val();
-	jQuery.ajax({
-		url: 'https://api.mailerlite.com/api/v2/groups/4265413/subscribers',
-		type: 'POST',
-		dataType: 'jsonp',
-		crossDomain: true,
-		headers: {
-			'Content-Type' : 'application/json',
-			'X-MailerLite-ApiKey' : '07c23594acf5764492d5ecae362ff0af'
-		},
-		data: {
-			'email' : email,
-			'fields': {
-				'name' : name
+	if(email == '' || name == '') {
+		jQuery('#ebook-error').html('Please fill in the required fields');
+		return;
+	}
+	else {
+		jQuery.ajax({
+			url: 'ebookhandler.php',
+			type: 'POST',
+			data: {
+				'email' : email,
+				'name' : name,
+				'group_id': 4265413
+			},
+			beforeSend: function () {
+				jQuery('#ebook-submit').html('Please wait ... ');
+			},
+			success: function (res) {
+				var result = JSON.parse(res);
+				if(!result.error) {
+					jQuery('<p>Your course is prepared. We have also emailed a link to your course.</p>').insertBefore('#ebook-submit');
+					jQuery('#ebook-submit').fadeOut();
+					setTimeout(function (){
+						window.location.href="//resources.outgrow.co";
+					}, 500);
+				} else {
+					jQuery('#ebook-error').html('There were some errors in the data you provided');
+				}
+			},
+			error: function (err) {
+				jQuery('#ebook-error').html('We are a little backed right now. Please try again.');
+			},
+			complete: function () {
 			}
-		}
-	}).done(function (response) {
-		console.log(response);
-	}).fail(function (error) {
-		console.log(error);
-	})
-
-	/*jQuery.ajax({
-		url: './ebookhandler.php',
-		type: 'POST',
-		data: {
-			'email' : email,
-			'name' : name
-		}
-	}).done(function (res) {
-		console.log(res);
-	}).fail(function (err) {
-		console.log(err);
-	})*/
-	console.log(email,name);
+		})
+	}
 }
