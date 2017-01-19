@@ -180,19 +180,16 @@ function submitEbookData(e) {
 			success: function (res) {
 				var result = JSON.parse(res);
 				if(!result.error) {
-					jQuery('<p>Your course is prepared. We have also emailed a link to your course.</p>').insertBefore('#ebook-submit');
 					jQuery('#ebook-submit').fadeOut();
 					setTimeout(function (){
-						window.location.href="//resources.outgrow.co/courses/lead-generation-with-calculators/ebook";
-					}, 500);
+						window.location.href="http://resources.outgrow.co/courses/lead-generation-with-calculators/ebook";
+					}, 200);
 				} else {
 					jQuery('#ebook-error').html('There were some errors in the data you provided');
 				}
 			},
 			error: function (err) {
 				jQuery('#ebook-error').html('We are a little backed right now. Please try again.');
-			},
-			complete: function () {
 				jQuery('#ebook-submit').html('Get Access<i class="material-icons">arrow_downward</i>');
 			}
 		})
