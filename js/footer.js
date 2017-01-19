@@ -168,7 +168,7 @@ function submitEbookData(e) {
 			data: {
 				'email' : email,
 				'name' : name,
-				'group_id': 4265413
+				'group_id': 4043919
 			},
 			beforeSend: function () {
 				jQuery('#ebook-submit').html('Preparing your course ... ');
