@@ -171,7 +171,7 @@ function submitEbookData(e) {
 				'group_id': 4265413
 			},
 			beforeSend: function () {
-				jQuery('#ebook-submit').html('Please wait ... ');
+				jQuery('#ebook-submit').html('Preparing your course ... ');
 			},
 			success: function (res) {
 				var result = JSON.parse(res);
