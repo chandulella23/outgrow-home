@@ -14637,12 +14637,16 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 .embedmodal-custom{
 	padding-right:0px !important;
 	padding-left:0px !important;
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
 }
 .embedmodal-custom .modal-dialog {
     height: 100%;
     margin: 0px;
     position: relative;
     width: 100%;
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
 }
 .embedmodal-custom button.close{
     position: absolute;
