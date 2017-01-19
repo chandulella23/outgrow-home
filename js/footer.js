@@ -92,7 +92,9 @@ jQuery(document).ready(function() {
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
 	var ext = str.substring(p+1);
-	var href = "//app.outgrow."+ext+"/"
+	var href = "//app.outgrow."+ext+"/";
+	var trialLink = "//app.outgrow."+ext+"/";
+	var loginLink = "//app.outgrow."+ext+"/login";
 	var anchorText = "SIGN UP";
 	var callText = "SIGN UP";
 	if (readCookie('storage')) {
@@ -106,6 +108,8 @@ jQuery(document).ready(function() {
 	}
 	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params" onclick="callGA('+callText+')">'+anchorText+'</a>';
 	jQuery('.anchorParent').html(anchorElem);
+	jQuery('#trialAnchor').prop('href', trialLink);
+	jQuery('#loginAnchor').prop('href', loginLink);
 	jQuery('#footer').html(footer);
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
