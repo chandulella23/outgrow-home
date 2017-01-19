@@ -3330,7 +3330,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.ebook-head{font-size: 24px;text-align: center}
 	.ebook-subhead{text-align: center;margin: 20px 0;padding:0px;}
 	.ebook-sub-heading{text-align: center;}
-	.ebook-img{margin: 0}
+	.ebook-img{margin: 0;}
 	.ebook-outer .form-btn{font-size: 15px;padding: 10px 40px;}
 	/*.mb30{margin-bottom: 30px;}*/
 	.sec6-2-1{width: 80%;float: left;margin-top: 0px;margin-left: -10px;}
@@ -3418,6 +3418,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:350px}
 	.sec4-2{height:445px;top:-30px}
 	.w100{width:100%}
+	.ebook-img {width: 45%;}
 }
 @media (min-width:690px) and (max-width:768px){
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:440px}
