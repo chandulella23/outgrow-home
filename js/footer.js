@@ -186,6 +186,7 @@ function submitEbookData(e) {
 					}, 200);
 				} else {
 					jQuery('#ebook-error').html('There were some errors in the data you provided');
+					jQuery('#ebook-submit').html('Get Access<i class="material-icons">arrow_downward</i>');
 				}
 			},
 			error: function (err) {
