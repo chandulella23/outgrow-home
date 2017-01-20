@@ -3146,7 +3146,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.take-quiz-heading{font-size: 22px;}
 	.section-7 .btn-buildcal{margin-top: 20px;}
 	.section-8 .btn-buildcal{margin-top: 20px;}
-	#video-modal .modal-dialog-video{width: 80% !important;}
+	#video-modal .modal-dialog-video{/*width: 80% !important;*/margin: 85px auto !important;}
+	#video-modal button.close.btn-close{right: 10px !important;height: 40px !important;width: 40px !important;}
 	.get-it-btn{display: block;width: 100%;text-align: center;}
 	.section-5-right{padding-right: 0px;}
 	.sec-quiz-btn{font-size: 15px;padding: 10px 40px;text-transform: uppercase;}
@@ -14425,8 +14426,13 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 }
 
 #video-modal .modal-dialog-video {
-	width: 780px;
-	margin: 85px auto;
+	/*width: 780px;
+	margin: 85px auto;*/
+	width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #video-modal .modal-content {
@@ -14505,15 +14511,21 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 
 #video-modal button.close.btn-close {
 	position: absolute;
-	top: -30px;
-	right: -50px;
+	/*top: -30px;
+	right: -50px;*/
+	top: 5px;
+    right: 30px;
 	opacity: 0.9;
 	z-index: 9;
+	height: 50px;
+    width: 50px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 50%;
 }
 
 #video-modal button.close.btn-close i.material-icons{
 	font-size: 24px;
-	color: #fff;
+	color: #000;
 	text-shadow: none;
 }
 
