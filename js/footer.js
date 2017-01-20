@@ -56,13 +56,13 @@ var footer = '<div class="container">'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
 				'<div class="col-xs-12 np"><img src="images/res7.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
-					'<a href="http://resources.outgrow.co/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>'+
+					'<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
 				'<div class="col-xs-12 np"><img src="images/res8.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
-					'<a href="http://resources.outgrow.co/course/lead-generation-with-calculators/?utm_source=blog&utm_medium=CTA&utm_campaign=Start%20Course">Lead Generation With Interactive Calculators</a>'+
+					'<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/">Lead Generation With Interactive Calculators</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
