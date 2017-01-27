@@ -2,7 +2,8 @@
 hr,img{border:0}
 body,figure{margin:0}
 .custom-navbar .signUp-style a{border-radius:20px;background:#fb5f66;color:#fff!important;padding:6px 10px;line-height:1;margin-top:11px;font-size:12px!important;border: 2px solid #f8434b !important;}
-.custom-navbar .signUp-style a:hover{opacity: 1;
+.custom-navbar .signUp-style a:hover,.custom-navbar .signUp-style a:focus{
+	opacity: 1;
     background: #fb757b !important;
     color: #fff !important;
     border: 2px solid #f8434b !important;}
@@ -3447,7 +3448,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:-30px}
 	.navbar-right{margin-left:0;margin-top:10px}
 	.custom-navbar.navbar-default .navbar-nav>li{margin-left:0;margin-right:1px}
-	.custom-navbar.navbar-default .navbar-nav>li>a{font-size:12px;color:#62696d;text-transform:uppercase;padding:7px 11px}
+	.custom-navbar.navbar-default .navbar-nav>li>a{font-size:12px;color:#62696d;text-transform:uppercase;padding:7px}
 	.custom-navbar .signUp-style a{margin-top:0px}
 	.mobile-sec3 .sec3-box2{text-align:center}
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:420px}
