@@ -1,4 +1,7 @@
 @media (min-width:320px) and (max-width:768px) {
+    .ex-mb30{
+    margin-bottom: 0px !important; 
+}
     #feature .section-13{
         padding-top: 0;
         margin-bottom: 20px;
@@ -276,12 +279,12 @@
         margin-top: 40px
     }
     .section-7 {
-        padding-bottom: 30px;
+        padding-bottom: 60px;
         margin-top: 0;
-        padding-top: 30px
+        padding-top: 30px;
     }
     .section-7 .slider-sa {
-        min-height: 200px;
+        min-height: 170px;
         padding: 0 20px;
         margin-top: -30px
     }
@@ -299,7 +302,7 @@
         padding: 0
     }
     .section-8 {
-        padding-bottom: 30px
+        padding-bottom: 70px
     }
     .section-7-left,
     .section-7-left1,
@@ -307,7 +310,7 @@
         padding: 0 20px
     }
     .section-8 .slider-sa {
-        min-height: 200px;
+        min-height: 170px;
         padding: 0 20px
     }
     .section-9 {
@@ -315,7 +318,7 @@
         padding-top: 0
     }
     .section-9 .slider-sa {
-        min-height: 200px;
+        min-height: 170px;
         padding: 0 20px
     }
     .sec10-testimonial {
@@ -774,7 +777,7 @@
     .section-7 .slider-sa,
     .section-8 .slider-sa,
     .section-9 .slider-sa {
-        min-height: 300px;
+        min-height: 260px;
         padding: 0
     }
 }
@@ -823,7 +826,7 @@
     .section-7 .slider-sa,
     .section-8 .slider-sa,
     .section-9 .slider-sa {
-        min-height: 320px
+        min-height: 270px
     }
     .sec4-2 {
         height: 325px
@@ -959,7 +962,7 @@
     .section-7 .slider-sa,
     .section-8 .slider-sa,
     .section-9 .slider-sa {
-        min-height: 390px
+        min-height: 350px;
     }
     .sec4-2 {
         height: 445px;
@@ -1076,7 +1079,7 @@
     .section-7 .slider-sa,
     .section-8 .slider-sa,
     .section-9 .slider-sa {
-        min-height: 440px
+        min-height: 420px
     }
     .sec5-2 {
         margin-top: -54%
@@ -2121,15 +2124,15 @@
         width: 57%
     }
     .section-9-left {
-        margin-top: 120px;
+        margin-top: 30px;
         padding-left: 11%
     }
     .section-7-left {
-        margin-top: 100px;
+        margin-top: 30px;
         padding-left: 150px
     }
     .section-9-left2 {
-        margin-top: 60px
+        margin-top: 30px
     }
     .sec10-testimonial div.sec10-tes-inner {
         margin-left: 15%;
