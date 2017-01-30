@@ -1,7 +1,10 @@
 @media (min-width:320px) and (max-width:768px) {
     .ex-mb30{
-    margin-bottom: 0px !important; 
-}
+        margin-bottom: 0px !important; 
+    }
+    .usecase .section-9{
+        padding-bottom: 50px;
+    }
     #feature .section-13{
         padding-top: 0;
         margin-bottom: 20px;
