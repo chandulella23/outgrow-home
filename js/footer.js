@@ -111,6 +111,8 @@ jQuery(document).ready(function() {
 	jQuery('#trialAnchor').prop('href', trialLink);
 	jQuery('#loginAnchor').prop('href', loginLink);
 	jQuery('#footer').html(footer);
+	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
+	jQuery('.login').html(login);
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');

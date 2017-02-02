@@ -4,6 +4,12 @@
 .billing-grey-bottom ul.billing-list li, .billing-grey2 ul.billing-list li, .billing-white-bottom ul.billing-list li, li, ul {
 	list-style: none
 }
+.ex-mb30{
+    margin-bottom: 30px !important; 
+}
+.usecase .section-9{
+	padding-bottom: 10px;
+}
 @font-face {
 	font-family: montserratregular;
 	src: url(../fonts/montserrat-regular-webfont.eot);
@@ -164,7 +170,7 @@ label {
     font-size: 12px!important;
     border: 2px solid #f8434b !important;
 }
-.custom-navbar .signUp-style a:hover {
+.custom-navbar .signUp-style a:hover ,.custom-navbar .signUp-style a:focus{
     opacity: 1;
     background: #fb757b !important;
     color: #fff !important;
@@ -843,7 +849,7 @@ label {
 	margin-left: 5px
 }
 .section-7 .slider-sa {
-	min-height: 470px;
+	min-height: 530px;
 	padding-right: 0
 }
 .circle-value {
@@ -900,9 +906,9 @@ label {
 	transition: .5s ease-in-out
 }
 .section-7 .btn-buildcal:hover {
-	background: 0 0;
-	border: 2px solid #62696d;
-	color: #62696d
+   	background: #9b9696;
+    border: 2px solid #62696d;
+    color: #fff;
 }
 .section-7 .btn-buildcal p {
 	float: left;
@@ -918,9 +924,9 @@ label {
 	transition: .5s ease-in-out
 }
 .section-8 .btn-buildcal:hover {
-	background: 0 0;
-	border: 2px solid #62696d;
-	color: #62696d
+    background: #9b9696;
+    border: 2px solid #62696d;
+    color: #fff;
 }
 .section-8 .btn-buildcal p {
 	float: left;
@@ -940,9 +946,9 @@ label {
 	float: left
 }
 .section-9 .btn-buildcal:hover {
-	background: 0 0;
-	border: 2px solid #62696d;
-	color: #62696d
+    background: #9b9696;
+    border: 2px solid #62696d;
+    color: #fff;
 }
 .section-9 .btn-buildcal p {
 	float: left;
@@ -955,7 +961,7 @@ label {
 	margin: 0
 }
 .section-8 .slider-sa {
-	min-height: 470px;
+	min-height: 530px;
 	padding-left: 0
 }
 .new-sec9-h4 {
@@ -1014,7 +1020,7 @@ label {
 .sec9-test, .sec9-test p {
 	width: 100%;
 	margin-bottom: 15px;
-	margin-top: 15px;
+	margin-top: 0px;
 	float: left
 }
 .section-9-right {
@@ -1034,7 +1040,7 @@ label {
 	color: #8e989f
 }
 .sec9-test em.left {
-	top: 40px;
+	top: 25px;
 	left: -20px
 }
 .sec9-test em.right {
@@ -1067,7 +1073,7 @@ label {
 	margin-left: 5px
 }
 .section-9 .slider-sa {
-	min-height: 470px;
+	min-height: 530px;
 	padding-right: 0
 }
 .section-10 {
