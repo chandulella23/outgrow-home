@@ -2098,6 +2098,7 @@ label.control-label {
 	.sahil-material .claim-cta .form-control{
 		font-size:14px;
 	}
+	.sahil-material .claim-cta .form-group.label-floating.is-focused label.control-label{top:-25px;}
 	.sahil-material .claim-cta .form-group.label-floating:not(.is-empty) label.control-label{
 		top: -25px;
 	}
