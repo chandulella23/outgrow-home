@@ -2093,6 +2093,7 @@ label.control-label {
     	background-image: -webkit-linear-gradient(#fb545b, #fb545b), -webkit-linear-gradient(#c3c3c3, #c3c3c3);
     	background-image: -o-linear-gradient(#fb545b, #fb545b), -o-linear-gradient(#c3c3c3, #c3c3c3);
 		background-image: linear-gradient(#fb545b, #fb545b), linear-gradient(#c3c3c3, #c3c3c3);
+		padding-right:75px;
 	}
 	.sahil-material .claim-cta .form-control{
 		font-size:14px;
@@ -3176,6 +3177,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 .menu-outer.is-active{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
 .backdrop-custom.is-active{width:100%;height:100%;opacity:.7;-webkit-transition:opacity .3s;transition:opacity .3s;cursor:default}
 @media (min-width:320px) and (max-width:768px){
+	.sahil-material .claim-cta .form-group .form-control{padding-right:90px;}
 	.take-quiz-heading{font-size: 22px;}
 	.section-7 .btn-buildcal{margin-top: 20px;}
 	.section-8 .btn-buildcal{margin-top: 20px;}
@@ -3500,6 +3502,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1 {margin-top: 10px;}
 }
 @media (min-width:769px) and (max-width:990px){
+	.sahil-material .claim-cta .form-group .form-control{padding-right:90px;}
 	.col-sm-pull-3,.col-sm-pull-6{right:0}
 	.menu-outer{width:325px}
 	.custom-navbar.navbar-default,.section-1{margin-bottom:0}
@@ -3527,7 +3530,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1{margin-top:30px}
 	.section-1-left{padding-left:20px;padding-right:20px}
 	.section1-left-cell{height:21vh}
-	.section-1-left .btn-buildcal i,.section-1-left .btn-buildcal.red i{display:inline-block;float:none;vertical-align:middle}
+	.section-1-left .btn-buildcal i,.section-1-left .btn-buildcal.red i{display:inline-block;float:none;vertical-align:middle;margin-right: 2px;}
 	.section-1-left .video-btn{padding:12px;margin-left:10px}
 	.section-1-left .btn-bottominfo{width:96%}
 	.section-1-right{padding-left:0}
