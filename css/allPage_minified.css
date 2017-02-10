@@ -2094,6 +2094,9 @@ label.control-label {
     	background-image: -o-linear-gradient(#fb545b, #fb545b), -o-linear-gradient(#c3c3c3, #c3c3c3);
 		background-image: linear-gradient(#fb545b, #fb545b), linear-gradient(#c3c3c3, #c3c3c3);
 	}
+	.sahil-material .claim-cta .form-control{
+		font-size:14px;
+	}
 
 
 /* custom material css end (sahil) */
@@ -3680,7 +3683,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.navbar-right{margin-top:10px}
 	.circle-value{float:left;margin-top:15px;width:100px}
 	.footer-img2{min-height:170px;float:left;margin-bottom:15px}
-	.section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{padding:10px 11px}
+	.section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{padding:10px 6px;font-size:14px;}
+	.section-1-left .btn-buildcal i{margin-right:3px;}
 	.section-1-left .video-btn{padding:10px 11px}
 	.section-4-left span span,.section-5-left span span{width:75%}
 	.custom-navbar.navbar-default .navbar-nav>li{margin-right:0px}
