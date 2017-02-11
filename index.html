@@ -216,7 +216,7 @@
                         </form>
                     	<div class="col-xs-12 col-sm-6 np">
                     		<a href="#" class="params">
-                    			<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal mk-in-viewport animate-element fade-in mk-in-viewport full-visible">
+                    			<button onclick="claim_sub_domain()" class="btn-buildcal mk-in-viewport animate-element fade-in mk-in-viewport full-visible">
                     				<i class="material-icons">touch_app</i>
                     				Claim your domain
                     			</button>
@@ -1638,6 +1638,24 @@
 			}
 		});
 	}
+
+	function claim_sub_domain(){
+		var sub_domain = jQuery('#company-name').val();
+		// console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@",sub_domain);
+		createCookie('claim_sub_domain',sub_domain,3);
+		window.location.href = "https://app.outgrow.co/signup";
+	}
+
+	function createCookie(name,value,days) {
+	    var expires = "";
+	    if (days) {
+	        var date = new Date();
+	        date.setTime(date.getTime() + (days*24*60*60*1000));
+	        expires = "; expires=" + date.toUTCString();
+	    }
+	    document.cookie = name + "=" + value + expires + "; path=/";
+	}
+
 
 	</script>
 	<script>
