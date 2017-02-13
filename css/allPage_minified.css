@@ -3448,6 +3448,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 }
 @media (min-width:320px) and (max-width:320px){
 	.section-14 .footer-img2{min-height:162px;padding-left:0}
+	.sahil-material .claim-cta .form-group .form-control {
+	    padding-right: 80px;
+	}
 }
 @media (min-width:375px) and (max-width:375px){
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:230px;padding:0}
@@ -3463,6 +3466,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:250px;padding:0}
 }
 @media (min-width:440px) and (max-width:768px){
+	.sahil-material .claim-cta .form-group .form-control {
+	    padding-right: 85px;
+	}
 	.text-1,.text-2{display:block!important;font-family:montserratregular!important;float:left!important;margin-left:10px}
 	.footer-img2{padding-left:0;min-height:165px}
 	.section-7-left h4,.section-9-left h4{margin-top:30px}
@@ -3513,10 +3519,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 }
 @media (min-width:768px) and (max-width:768px){
 	.sahil-material .claim-cta .form-group .form-control{
-		min-height: 45px;
+		height: 45px;
 	}
 	.sahil-material .claim-cta .form-group .form-control {
-	    padding-right: 75px;
+	    padding-right: 90px;
 	}
 	.sahil-material .form-group label.in-active {
 	    right: 2%;
@@ -3568,7 +3574,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1 {margin-top: 10px;}
 }
 @media (min-width:769px) and (max-width:990px){
-	.sahil-material .claim-cta .form-group .form-control{padding-right:90px;}
+	.sahil-material .claim-cta .form-group .form-control{padding-right:95px;}
+	.sahil-material .form-group label.in-active{right: 3%;}
 	.col-sm-pull-3,.col-sm-pull-6{right:0}
 	.menu-outer{width:325px}
 	.custom-navbar.navbar-default,.section-1{margin-bottom:0}
