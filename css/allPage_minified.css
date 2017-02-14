@@ -2121,6 +2121,7 @@ label.control-label {
 	.sahil-material .claim-cta input[type="text"]::-moz-placeholder { /* Firefox 19+ */
 		color:rgba(106,106,106,0.5);
 		font-size: 12px;
+		line-height: 25px;
 	}
 	.sahil-material .claim-cta input[type="text"]:-ms-input-placeholder { /* IE 10+ */
 	  	color:rgba(106,106,106,0.5);
@@ -2129,6 +2130,7 @@ label.control-label {
 	.sahil-material .claim-cta input[type="text"]:-moz-placeholder { /* Firefox 18- */
 	  	color:rgba(106,106,106,0.5);
 		font-size: 12px;
+		line-height: 25px;
 	}
 	.sahil-material .claim-cta .form-control{
 		font-size:14px;
@@ -3227,7 +3229,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 .menu-outer.is-active{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
 .backdrop-custom.is-active{width:100%;height:100%;opacity:.7;-webkit-transition:opacity .3s;transition:opacity .3s;cursor:default}
 @media (min-width:320px) and (max-width:768px){
-	.sahil-material .form-group label.in-active{right: 0;}
+	.sahil-material .form-group label.in-active{right: 3%;}
 	.sahil-material .claim-cta .form-group .form-control{padding-right:100px;}
 	.take-quiz-heading{font-size: 22px;}
 	.section-7 .btn-buildcal{margin-top: 20px;}
@@ -3449,7 +3451,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 @media (min-width:320px) and (max-width:320px){
 	.section-14 .footer-img2{min-height:162px;padding-left:0}
 	.sahil-material .claim-cta .form-group .form-control {
-	    padding-right: 80px;
+	    padding-right: 90px;
 	}
 }
 @media (min-width:375px) and (max-width:375px){
@@ -3526,9 +3528,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.sahil-material .claim-cta .form-group .form-control {
 	    padding-right: 90px;
-	}
-	.sahil-material .form-group label.in-active {
-	    right: 2%;
 	}
 	.section-1-left input {
 	    width: 95%;
@@ -3762,7 +3761,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.navbar-right{margin-top:10px}
 	.circle-value{float:left;margin-top:15px;width:100px}
 	.footer-img2{min-height:170px;float:left;margin-bottom:15px}
-	.section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{padding:10px 6px;font-size:14px;}
+	.section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{padding:13px 0px !important;font-size:12px;}
 	.section-1-left .btn-buildcal i{margin-right:3px;}
 	.section-1-left .video-btn{padding:10px 11px}
 	.section-4-left span span,.section-5-left span span{width:75%}
@@ -3868,7 +3867,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 @media (min-width:1480px) and (max-width:1920px){
 	.sahil-material .form-group label.in-active{
 	    right: 8%;
-    	top: 10%;
+    	top: 8%;
 	}
 	.section-7,.section-8{padding-bottom:40px}
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:650px}
