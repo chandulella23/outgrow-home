@@ -2443,13 +2443,13 @@ button.swiper-pagination-bullet {
 	transform: translateZ(0)
 }
 .mk-animate-element {
-	opacity: 0;
+	opacity: 1;
 	-webkit-perspective: 1000
 }
 .no-transform .mk-animate-element {
 	opacity: 1
 }
-.mk-animate-element.mk-in-viewport.fade-in {
+/*.mk-animate-element.mk-in-viewport.fade-in {
 	-webkit-animation: mk_fade .7s 1 cubic-bezier(.445, .05, .55, .95);
 	animation: mk_fade .7s 1 cubic-bezier(.445, .05, .55, .95);
 	opacity: 1
@@ -2519,7 +2519,7 @@ button.swiper-pagination-bullet {
 	display: inline-block;
 	-webkit-animation: spin 1s infinite linear;
 	animation: spin 1s infinite linear
-}
+}*/
 @-webkit-keyframes spin {
 	0% {
 		-webkit-transform: rotate(0)

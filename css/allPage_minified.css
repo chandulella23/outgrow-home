@@ -2694,9 +2694,9 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .boxed .section .section_inner,.grid_section .section_inner{width:1200px!important}
 .vc_row{margin-left:0!important}
 .mk-animate-element,.mk-effect-bg-layer,.mk-fullscreen-search-overlay{-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0)}
-.mk-animate-element{opacity:0;-webkit-perspective:1000}
+.mk-animate-element{opacity:1;-webkit-perspective:1000}
 .no-transform .mk-animate-element{opacity:1}
-.mk-animate-element.mk-in-viewport.fade-in{-webkit-animation:mk_fade .7s 1 cubic-bezier(.445,.05,.55,.95);animation:mk_fade .7s 1 cubic-bezier(.445,.05,.55,.95);opacity:1}
+/*.mk-animate-element.mk-in-viewport.fade-in{-webkit-animation:mk_fade .7s 1 cubic-bezier(.445,.05,.55,.95);animation:mk_fade .7s 1 cubic-bezier(.445,.05,.55,.95);opacity:1}
 .mk-animate-element.mk-in-viewport.scale-up{-webkit-animation:mk_scale .7s 1 cubic-bezier(.445,.05,.55,.95);animation:mk_scale .7s 1 cubic-bezier(.445,.05,.55,.95);opacity:1}
 .mk-animate-element.mk-in-viewport.right-to-left{-webkit-animation:mk_right_to_left .7s 1 cubic-bezier(.77,0,.175,1);animation:mk_right_to_left .7s 1 cubic-bezier(.77,0,.175,1);opacity:1}
 .mk-animate-element.mk-in-viewport.left-to-right{-webkit-animation:mk_left_to_right .7s 1 cubic-bezier(.77,0,.175,1);animation:mk_left_to_right .7s 1 cubic-bezier(.77,0,.175,1);opacity:1}
@@ -2709,6 +2709,7 @@ button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-
 .mk-floating-pulse{-webkit-animation:mk_pulse 2s infinite linear;-moz-animation:mk_pulse 2s infinite linear;-ms-animation:mk_pulse 2s infinite linear;-o-animation:mk_pulse 2s infinite linear}
 .mk-floating-tossing{-webkit-animation:mk_tossing 2s infinite linear;-moz-animation:mk_tossing 2s infinite linear;-ms-animation:mk_tossing 2s infinite linear;-o-animation:mk_tossing 2s infinite linear}
 .mk-icon-spin{display:inline-block;-webkit-animation:spin 1s infinite linear;animation:spin 1s infinite linear}
+*/
 @-webkit-keyframes spin{
 	0%{-webkit-transform:rotate(0)}
 	100%{-webkit-transform:rotate(359deg)}
