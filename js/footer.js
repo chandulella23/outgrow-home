@@ -97,6 +97,7 @@ jQuery(document).ready(function() {
 	var loginLink = "//app.outgrow."+ext+"/login";
 	var anchorText = "SIGN UP";
 	var callText = "SIGN UP";
+	console.log("===================================Himanshu");
 	if (readCookie('storage')) {
 		anchorText = "DASHBOARD";
 		callText = "LOGIN";
@@ -112,7 +113,8 @@ jQuery(document).ready(function() {
 	jQuery('#loginAnchor').prop('href', loginLink);
 	jQuery('#footer').html(footer);
 	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
-	jQuery('.login').html(login);
+	if (!readCookie('storage'))
+		jQuery('.login').html(login);
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
