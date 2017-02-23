@@ -1999,7 +1999,7 @@
     .billing-grey-bottom .billing-list .unselected .list-name,
     .billing-white-bottom .billing-list .list-name,
     .billing-white-bottom .billing-list .unselected .list-name {
-        font-size: 12px
+        font-size: 13px
     }
     .billing-white-top h3.plan-title {
         font-size: 20px
@@ -2159,7 +2159,7 @@
         top: 34%
     }
     #pricing .section-1 {
-        margin-top: 0;
+        margin-top: 90;
         padding-top: 10px
     }
     #pricing .section-faq {

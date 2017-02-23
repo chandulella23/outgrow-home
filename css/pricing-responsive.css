@@ -20,7 +20,9 @@
 		padding-left:0px;
 	}
 	#pricing .billing-grey-bottom ul.billing-list li{
-		margin-bottom:10px;
+		margin-bottom:0px;
+	    float: left;
+    	width: 100%;
 	}
 	#pricing .billing-white-bottom .billing-list .list-name{
 		padding-left:0px;
