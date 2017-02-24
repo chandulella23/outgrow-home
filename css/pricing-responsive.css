@@ -320,7 +320,7 @@
 		margin-top: 0%;
 	}
 	#pricing .section-1-right {
-		padding-left: 8%;
+		padding-left: 7%;
 		padding-top: 15px;
 		position: absolute;
 		top: 40%;
@@ -339,7 +339,7 @@
 	}
 	#pricing .enterprise_pos {
 	    position: relative;
-	    margin-top: 98%;
+	    margin-top: 85%;
 	}
 }
 
@@ -354,7 +354,7 @@
 	}
 	#pricing .enterprise_pos {
 	    position: relative;
-	    margin-top: 50%;
+	    margin-top: 45%;
 	}
 }
 @media (min-width: 1280px) and (max-width:1280px) {
