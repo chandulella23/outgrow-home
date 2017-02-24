@@ -1473,6 +1473,9 @@
 		 jQuery('.close').click(function(){
 			jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
 		});
+		 jQuery('#video-modal').on('hidden.bs.modal', function (event) {
+	     jQuery('#video-modal iframe').attr("src", jQuery("#video-modal  iframe").attr("src"));
+	    });
 
 		//embed web mobile js
 		jQuery(".embed1-layout .em-moblink").click(function(){

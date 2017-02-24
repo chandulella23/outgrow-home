@@ -3246,10 +3246,17 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.take-quiz-heading{font-size: 22px;}
 	.section-7 .btn-buildcal{margin-top: 20px;}
 	.section-8 .btn-buildcal{margin-top: 20px;}
-	#video-modal .modal-dialog-video{width:auto !important;margin: 85px 40px !important;}
+	#video-modal .modal-dialog-video{width:auto !important;margin: 85px auto !important;}
 	#video-modal button.close.btn-close{
-		right: -4% !important;
-   		 top: -17% !important;
+		right: 2% !important;
+    	top: 3% !important;
+	}
+	#video-modal button.close.btn-close i.material-icons{
+	    font-size: 18px !important;
+	}
+	#video-modal button.close.btn-close{
+	    height: 25px !important;
+    	width: 25px !important;
 	}
 	.get-it-btn{display: block;width: 100%;text-align: center;}
 	.section-5-right{padding-right: 0px;}
@@ -3467,10 +3474,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-14 .footer-img2{min-height:162px;padding-left:0}
 	.sahil-material .claim-cta .form-group .form-control {
 	    padding-right: 90px;
-	}
-	#video-modal button.close.btn-close {
-	    right: -11% !important;
-	    top: -30% !important;
 	}
 }
 @media (min-width:375px) and (max-width:375px){
