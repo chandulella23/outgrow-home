@@ -3470,6 +3470,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 
 }
+@media (min-width:0px) and (max-width:767px) and (orientation:landscape) {
+	#video-modal .modal-dialog-video{
+		margin:0px !important;
+	}
+}
 @media (min-width:320px) and (max-width:320px){
 	.section-14 .footer-img2{min-height:162px;padding-left:0}
 	.sahil-material .claim-cta .form-group .form-control {
