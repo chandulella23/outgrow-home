@@ -1652,12 +1652,12 @@ label {
 	z-index: 0;
 	position: relative
 }
-#pricing .pricing-cards{
+/*#pricing .pricing-cards{
 	display: none;
 }
 #pricing .pricing-cards.active{
 	display: block;
-}
+}*/
 #pricing .pricing-help .billing-plans-help {
 	font-size: 10px;
 	position: absolute;
