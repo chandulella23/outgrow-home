@@ -207,323 +207,618 @@
 				<h3>PLANS AND PRICING</h3>
 				<p>Simple pricing, No Hidden costs, No transaction based fees.</p>
 				<section id="plan-cycle">
-
+				    <div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">
+				        <ul>
+				            <li class="cycle-tab" id="monthly"><a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('m');">Monthly</a>
+				            </li>
+				            <li class="cycle-tab" id="half-yearly"><a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">Semi-Annual</a>
+				            </li>
+				            <li class="cycle-tab" id="annually"><a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('y')">Annual</a>
+				            </li>
+				        </ul>
+				    </div>
 				</section>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 section-1-right pricing-cards" id="plansList">
-				<!-- Start: Starter Box -->
-				<!-- <div class="col-md-4 col-sm-10 col-xs-10 np billing-grey starter-box mk-animate-element left-to-right">
-					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
-						<h3 class="plan-title">Starter</h3>
-						<span class="border-center"></span>
-						<h3 class="plan-price">Free</h3>
-						<p>
-							Various versions have evolved over the years, sometimes by accident, sometimes on purpose. (injected humour and the like)
-						</p>
-						<div class="col-md-12 col-sm-12 col-xs-12 np">
-							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">Sign Up</button>
-						</div>
-					</div>
-					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-bottom rs-hide">
-						<ul class="billing-list">
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;3 Users</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;10 Calculators</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;3 Templates</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Real Time Result</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Lead Generation</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Traffic Analytics</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Get Started CTA</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Integrations</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Embed Anywhere</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Custom Branding</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;24/7 Support</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<a href="javascript:void(0);" class="toggle-dots-white">
-						<span></span>
-						<span></span>
-						<span></span>
-					</a>
-				</div>  -->
-				<!-- End: Starter Box -->
-
-				 <!-- Start: Business Box -->
-				<!-- <div class="col-md-4 col-sm-10 col-xs-10 np billing-white business-box mk-animate-element scale-up">
-					<div class="col-md-12 col-sm-12 col-xs-12 np billing-white-top text-center business-box-xshadow">
-						<span class="ribbon">Most Popular</span>
-						<h3 class="plan-title">Business</h3>
-						<span class="border-center"></span>
-						<h3 class="plan-price">$99 / yr</h3>
-						<p>
-							Various versions have evolved over the years, sometimes by accident, sometimes on purpose. (injected humour and the like)
-						</p>
-						<div class="col-md-12 col-sm-12 col-xs-12 np">
-							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">try it</button>
-							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">buy</button>
-						</div>
-					</div>
-					<div class="col-md-12 col-sm-12 col-xs-12 np billing-white-bottom rs-hide">
-						<ul class="billing-list">
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;5 Users</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;20 Calculators</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;5 Templates</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Real Time Result</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Lead Generation</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Traffic Analytics</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Get Started CTA</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Integrations</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Embed Anywhere</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Custom Branding</span>
-								</a>
-							</li>
-							<li class="unselected">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;24/7 Support</span>
-								</a>
-							</li>
-							<li class="unselected">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;X000 Leads/Month</span>
-								</a>
-							</li>
-							<li class="unselected">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Priority Support</span>
-								</a>
-							</li>
-							<li class="unselected">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Marketing Checklist</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-
-					<a href="javascript:void(0);" class="toggle-dots-grey">
-						<span></span>
-						<span></span>
-						<span></span>
-					</a>
-				</div>  -->
-				<!-- End: Business Box -->
-
-				 <!-- Start: enterprise Box -->
-				<!-- <div class="col-md-4 col-sm-10 col-xs-10 np billing-grey enterprise-box mk-animate-element right-to-left">
-					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey-top text-center">
-						<h3 class="plan-title">Enterprise</h3>
-						<span class="border-center"></span>
-						<h3 class="blank"></h3>
-						<div class="col-md-12 col-sm-12 col-xs-12 np">
-							<span class="custom-price">&nbsp;Custom Pricing</span>
-						</div>
-						<p>
-							Various versions have evolved over the years, sometimes by accident, sometimes on purpose. (injected humour and the like)
-						</p>
-						<div class="col-md-12 col-sm-12 col-xs-12 np">
-							<button type="" class="btn btn-white-red-outline hvr-sweep-to-right">Contact us</button>
-						</div>
-					</div>
-					<div class="col-md-12 col-sm-12 col-xs-12 np billing-grey2 rs-hide">
-						<ul class="billing-list">
-							 <li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Unlimited Users</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Unlimited Calculators</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;6 Templates</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Traffic Analytics</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Get Started CTA</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Integrations</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Embed Anywhere</span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Custom Branding</span>
-								</a>
-							</li>
-							<li class="">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;24/7 Support</span>
-								</a>
-							</li>
-							<li class="">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Account Manager</span>
-								</a>
-							</li>
-							<li class="">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Training</span>
-								</a>
-							</li>
-							<li class="unselected">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Real Time Result</span>
-								</a>
-							</li>
-							<li class="unselected">
-								<a href="javascript:void(0);" class="">
-									<span class="mat-icon"></span>
-									<span class="list-name">&nbsp;Load Generation</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-
-					<a href="javascript:void(0);" class="toggle-dots-white2">
-						<span></span>
-						<span></span>
-						<span></span>
-					</a>
-				</div> -->
-
-				<!-- End: enterprise Box -->
-
+			<div class="col-xs-12 col-sm-12 col-md-12 section-1-right pricing-cards active" id="m">
+			    <div class="col-md-4 col-sm-4 col-xs-12 np starter-box billing-grey enterprise-margin">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-grey-top ">
+			            <h3 class="plan-title">Freelancer<br></h3>
+			            <h4>(Monthly)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price"><span>$45/month</span></h3>
+			            <p>For students or freelancers who want to explore interactive calculators</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-grey-bottom" id="freelancer_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;100 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;2000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Calculators or Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Collaborator</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Template</span></a>
+			                </li>
+			                <li>
+			                	<a href="javascript:void(0);" class="">
+			                		<span class="mat-icon"></span>
+			                		<span class="list-name capitalize">&nbsp;Basic Analytics</span>
+			                		<div class="help-tip pricing-helptip">
+							        	<i class="material-icons">info_outline</i>
+							        	<div class="help-checktip">You get access to high level conversion and traffic analytics as well as leads' contact information.</div>
+							        </div>
+			                	</a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Customizations</span>
+							<div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">Use your brand logo, get predefined color palettes and add social share call to actions to drive viral traffic.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Export Spreadsheet</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Support Docs</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
+			            <div><i class="material-icons" id="freelancer_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="freelancer_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-12 np starter-box billing-grey ">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-grey-top ">
+			            <h3 class="plan-title">Essentials<br></h3>
+			            <h4>(Monthly)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price">
+			            	<span class="strike-off strike-price">$180/month</span>
+			            	<span>$45/month</span>
+			            </h3>
+			            <p>For small businesses and startups who are just starting to explore RoI of interactive content.</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-grey-bottom" id="essentials_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;350 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;7000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Unlimited Calculators & Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Collaborators</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Premium Templates</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to detailed conversion and traffic analytics as well as leads' contact information and responses.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Standard Customizations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can show custom messages, have custom call to actions, use your brand colors & use advanced formulas.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Light Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Integrations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can sync user's contact information using Zapier and native integrations.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
+			            <div><i class="material-icons" id="essentials_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="essentials_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-12 np business-box billing-white ">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow"><span class="ribbon">Most Popular</span>
+			            <h3 class="plan-title">Business<br></h3>
+			            <h4>(Monthly)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price"><span>$720/month</span></h3>
+			            <p>For businesses who have made interactive content an integral part of their marketing strategy.</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-white-bottom" id="business_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;5000 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;100,000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Unlimited Calculators & Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;10 Collaborators</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Premium Templates</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to high level conversion and traffic analytics as well as leads' contact information.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Customization</span>
+							<div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can show custom messages, have custom call to actions, use your brand colors & use advanced formulas.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;No Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Integrations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">Send all lead data including contact information and quiz responses.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
+			            <div><i class="material-icons" id="business_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="business_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
 			</div>
-
+			<div class="col-xs-12 col-sm-12 col-md-12 section-1-right pricing-cards " id="s">
+			    <div class="col-md-4 col-sm-4 col-xs-12 np starter-box billing-grey enterprise-margin">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-grey-top ">
+			            <h3 class="plan-title">Freelancer<br></h3>
+			            <h4>(Semi-annual)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price">
+			            	<span class="strike-off strike-price">$45/Month</span>
+			            	<span>$30/Month</span>
+			            </h3>
+			            <p>For students or freelancers who want to explore interactive calculators</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-grey-bottom" id="freelancer_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;100 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;2000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Calculators or Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Collaborator</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Template</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to high level conversion and traffic analytics as well as leads' contact information.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Customizations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">Use your brand logo, get predefined color palettes and add social share call to actions to drive viral traffic.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Export Spreadsheet</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Support Docs</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
+			            <div><i class="material-icons" id="freelancer_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="freelancer_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-12 np starter-box billing-grey ">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-grey-top ">
+			            <h3 class="plan-title">Essentials<br></h3>
+			            <h4>(Semi-annual)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price">
+			            	<span class="strike-off strike-price">$180/Month</span>
+			            	<span>$167/Month</span>
+			            </h3>
+			            <p>For small businesses and startups who are just starting to explore RoI of interactive content.</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-grey-bottom" id="essentials_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;350 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;7000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Unlimited Calculators & Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Collaborators</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Premium Templates</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to detailed conversion and traffic analytics as well as leads' contact information and responses.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Standard Customizations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can show custom messages, have custom call to actions, use your brand colors & use advanced formulas.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Light Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Integrations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can sync user's contact information using Zapier and native integrations.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
+			            <div><i class="material-icons" id="essentials_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="essentials_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-12 np business-box billing-white ">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow"><span class="ribbon">Most Popular</span>
+			            <h3 class="plan-title">Business<br></h3>
+			            <h4>(Semi-annual)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price">
+			            	<span class="strike-off strike-price whitebg">$720/Month</span>
+			            	<span>$667/month</span>
+			            </h3>
+			            <p>For businesses who have made interactive content an integral part of their marketing strategy.</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-white-bottom" id="business_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;5000 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;100,000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Unlimited Calculators & Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;10 Collaborators</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Premium Templates</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to high level conversion and traffic analytics as well as leads' contact information.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Customization</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can show custom messages, have custom call to actions, use your brand colors & use advanced formulas.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;No Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Integrations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">Send all lead data including contact information and quiz responses.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
+			            <div><i class="material-icons" id="business_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="business_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 section-1-right pricing-cards " id="y">
+			    <div class="col-md-4 col-sm-4 col-xs-12 np starter-box billing-grey enterprise-margin">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-grey-top ">
+			            <h3 class="plan-title">Freelancer<br></h3>
+			            <h4>(Annual)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price">
+			            	<span class="strike-off strike-price">$45/Month</span>
+			            	<span>$25/Month</span>
+			            </h3>
+			            <p>For students or freelancers who want to explore interactive calculators</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-grey-bottom" id="freelancer_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;100 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;2000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Calculators or Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Collaborator</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Template</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to high level conversion and traffic analytics as well as leads' contact information.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Customizations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">Use your brand logo, get predefined color palettes and add social share call to actions to drive viral traffic.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Export Spreadsheet</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Support Docs</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
+			            <div><i class="material-icons" id="freelancer_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="freelancer_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-12 np starter-box billing-grey ">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-grey-top ">
+			            <h3 class="plan-title">Essentials<br></h3>
+			            <h4>(Annual)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price">
+			            	<span class="strike-off strike-price">$180/Month</span>
+			            	<span>$150/Month</span>
+			            </h3>
+			            <p>For small businesses and startups who are just starting to explore RoI of interactive content.</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-grey-bottom" id="essentials_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;350 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;7000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Unlimited Calculators & Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Collaborators</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Premium Templates</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to detailed conversion and traffic analytics as well as leads' contact information and responses.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Standard Customizations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can show custom messages, have custom call to actions, use your brand colors & use advanced formulas.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Light Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Integrations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can sync user's contact information using Zapier and native integrations.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
+			            <div><i class="material-icons" id="essentials_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="essentials_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-12 np business-box billing-white ">
+			        <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow"><span class="ribbon">Most Popular</span>
+			            <h3 class="plan-title">Business<br></h3>
+			            <h4>(Annual)</h4><span class="border-center"></span>
+			            <br>
+			            <h3 class="plan-price">
+			            	<span class="strike-off strike-price whitebg">$720/Month</span>
+			            	<span>$600/Month</span>
+			            </h3>
+			            <p>For businesses who have made interactive content an integral part of their marketing strategy.</p>
+			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
+			            </div>
+			        </div>
+			        <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide billing-white-bottom" id="business_m">
+			            <ul class="billing-list">
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;5000 Leads</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name">&nbsp;100,000 Visits</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Unlimited Calculators & Quizzes</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;10 Collaborators</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Premium Templates</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Analytics</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You get access to high level conversion and traffic analytics as well as leads' contact information.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Customization</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">You can show custom messages, have custom call to actions, use your brand colors & use advanced formulas.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;No Outgrow Branding</span></a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Advanced Integrations</span>
+			                <div class="help-tip pricing-helptip">
+					        	<i class="material-icons">info_outline</i>
+					        	<div class="help-checktip">Send all lead data including contact information and quiz responses.</div>
+					        </div>
+			                </a>
+			                </li>
+			                <li><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Remove Outgrow Branding</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Account Manager</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Api Access</span></a>
+			                </li>
+			                <li class="unselected"><a href="javascript:void(0);" class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Training</span></a>
+			                </li>
+			            </ul>
+			        </div>
+			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
+			            <div><i class="material-icons" id="business_m_arrow">keyboard_arrow_down</i>
+			                <p class="more-info" id="business_m_more">More Info</p>
+			            </div>
+			        </a>
+			    </div>
+			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
 				<div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
 		            <a class="" href="javascrpt:void(0);">
@@ -685,78 +980,6 @@
 		</div><!--end .accordion-->
 	</div>
 	</section>
-	<!-- <section class="section mk-animate-element scale-up">
-		<div class="container-faqs">
-		<div class="accordion" id="accordion-1" role="tablist" aria-multiselectable="true">
-			<div class="accordion-section">
-				<div class="panel-heading" role="tab" id="headingOne">
-					<h4 class="panel-title">
-						<a role="button" class="plusminus accordion-section-title" data-toggle="collapse" data-parent="#accordion-1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						 Is there a free tier available?
-						</a>
-					</h4>
-				</div>
-				<div id="collapseOne" class="panel-collapse collapse in " role="tabpanel" aria-labelledby="headingOne">
-				  <div class="panel-body">
-					Yes, there is a free tier available. It allows you to publish unlimited calculators but does not allow for lead generation and provides limited access to analytics and design templates.
-				  </div>
-				</div>
-			</div>
-			<div class="accordion-section">
-				<div class="panel-heading" role="tab" id="headingTwo">
-					<h4 class="panel-title">
-						<a class="collapsed plusminus accordion-section-title" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						What happens during and after the trial period?
-						</a>
-					</h4>
-				</div>
-				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-					<div class="panel-body">
-						When you sign up, you will be assigned to our Business Premium plan. You will have access to this plan for 15 days. Should you choose to continue with the business plan, you will have to add your payment method. If you feel that you do not require interactive content, you will be assigned to our free starter tier.
-					</div>
-				</div>
-			</div>
-			<div class="accordion-section">
-				<div class="panel-heading" role="tab" id="headingThree">
-					<h4 class="panel-title">
-						<a class="collapsed plusminus accordion-section-title" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							What are your billing cycles and payment options?
-						</a>
-					</h4>
-				</div>
-				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-					<div class="panel-body">
-						You have the option to pay monthly, quarterly or annually. Of course, we offer heavy discounts if you buy for a longer duration.
-					</div>
-				</div>
-			</div>
-			<div class="accordion-section">
-				<div class="panel-heading" role="tab" id="headingFour">
-					<h4 class="panel-title">
-						<a class="collapsed plusminus accordion-section-title" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-							What are your billing cycles and payment options?
-						</a>
-					</h4>
-				</div>
-				<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-					<div class="panel-body">
-						You have the option to pay monthly, quarterly or annually. Of course, we offer heavy discounts if you buy for a longer duration.
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section> -->
-
-	<!-- <section class="section">
-		<div class="container">
-			<div class="text-center footer-btn">
-				<a id="loginAnchor">
-					<button class="btn-buildcal mk-animate-element fade-in"><span class="btn-text">Build your Calculator</span><i class="material-icons">keyboard_arrow_right</i> </button>
-				</a>
-			</div>
-		</div>
-	</section> -->
 	<section class="section start-trial-cta">
 		<div class="container-fluid np">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
@@ -789,7 +1012,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
-	<script src="js/plans.js"></script>
+	<!--<script src="js/plans.js"></script> -->
 	<script src="js/footer.js"></script>
 	<script>
 	//window.onresize = function(){ location.reload(); }
@@ -825,17 +1048,17 @@
 			}
 		});
 
-		jQuery(".toggle-dots-white").click(function(){
-			jQuery(".billing-grey-bottom").slideToggle('slow');
-		});
+		// jQuery(".toggle-dots-white").click(function(){
+		// 	jQuery(".billing-grey-bottom").slideToggle('slow');
+		// });
 
-		jQuery(".toggle-dots-grey").click(function(){
-			jQuery(".billing-white-bottom").slideToggle('slow');
-		});
+		// jQuery(".toggle-dots-grey").click(function(){
+		// 	jQuery(".billing-white-bottom").slideToggle('slow');
+		// });
 
-		jQuery(".toggle-dots-white2").click(function(){
-			jQuery(".billing-grey2").slideToggle('slow');
-		});
+		// jQuery(".toggle-dots-white2").click(function(){
+		// 	jQuery(".billing-grey2").slideToggle('slow');
+		// });
 
 
 		jQuery('.counter').counterUp({
@@ -936,6 +1159,26 @@ jQuery(document).ready(function() {
 
 		e.preventDefault();
 	});
+});
+function showPlan(a){
+	if(a=='m'){
+		console.log(a);
+		jQuery('#m').addClass('active').siblings('.pricing-cards').removeClass('active');
+	}
+	else if(a=='s'){
+		console.log(a);
+		jQuery('#s').addClass('active').siblings('.pricing-cards').removeClass('active');
+	}
+	else if(a=='y'){
+		console.log(a);
+		jQuery('#y').addClass('active').siblings('.pricing-cards').removeClass('active');
+	}
+}
+jQuery('a.toggle-dots-white').click(function(e) {
+	jQuery(this).parent().find('.billing-grey-bottom').slideToggle('slow');
+});
+jQuery('a.toggle-dots-grey').click(function(e) {
+	jQuery(this).parent().find('.billing-white-bottom').slideToggle('slow');
 });
 </script>
 

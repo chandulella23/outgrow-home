@@ -1481,7 +1481,7 @@ label {
     margin: 0;
     opacity: .5;
     width: 100%;
-    min-height: 90px;
+    min-height: 93px;
 }
 .billing-grey-top .btn-white-red-outline {
 	color: #fb545b;
@@ -1652,12 +1652,12 @@ label {
 	z-index: 0;
 	position: relative
 }
-/*#pricing .pricing-cards{
+#pricing .pricing-cards{
 	display: none;
 }
 #pricing .pricing-cards.active{
 	display: block;
-}*/
+}
 #pricing .pricing-help .billing-plans-help {
 	font-size: 10px;
 	position: absolute;
@@ -4818,7 +4818,7 @@ button.swiper-pagination-bullet {
     font-size: 14px;
     color: #fff;
     opacity: .5;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     font-family: montserratlight;
 	display: block;
 }
