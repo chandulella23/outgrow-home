@@ -3833,8 +3833,15 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec10-testimonial-link,.sec10-testname{margin-left:11%}
 	.billing-table{padding-left:20px}
 	.footer-img2{padding-left:0}
+	#video-modal button.close.btn-close{
+	    top: -17% !important;
+    	right: -14% !important;
+	}
 }
 @media (min-width:1251px) and (max-width:1280px){
+	#video-modal button.close.btn-close{
+		right: -28% !important;
+	}
 	}
 @media (min-width:1281px) and (max-width:1350px){
 	.section-1-left .btn-buildcal{padding: 13px 14px !important;}
