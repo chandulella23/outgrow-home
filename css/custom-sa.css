@@ -29,19 +29,18 @@
     cursor: pointer;
 }
 .help-checktip {
-    float: left;
+   	float: left;
     background-color: #61696C;
     color: #fff;
     padding: 10px;
     width: 180px;
     font-size: 11px;
     position: absolute;
-    top: -25px;
-    border-radius: 0px;
+    top: 20px;
     visibility: hidden;
     box-shadow: 0 3px 7px 0px #919191;
     text-align: center;
-    left: 23px;
+    left: -87px;
     line-height: 1.42857143;
     text-transform: none;
     border-radius: 5px;
@@ -51,17 +50,17 @@
     z-index: 99;
 }
 .help-checktip:before {
-   	content: '';
-    position: absolute;
-    top: 32%;
-    left: 0;
-    margin-left: -16px;
+   	top: -9px;
+    left: 88px;
     width: 10px;
     height: 10px;
-    border-top: 8px solid transparent;
-    border-right: 8px solid #61696C;
-    border-bottom: 8px solid transparent;
-    border-left: 8px solid transparent;
+    position: absolute;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid #62696d;
+    border-left: 6px solid transparent;
+    border-bottom-color: #62696d;
+    content: '';
 }
 @font-face {
 	font-family: montserratregular;
@@ -4804,7 +4803,7 @@ button.swiper-pagination-bullet {
 }
 #pricing .enterprise_pos {
 	position: relative;
-	margin-top: 43%
+	margin-top: 25%
 }
 .top-sec-example{margin-top: 100px;}
 .enterprise-margin {
