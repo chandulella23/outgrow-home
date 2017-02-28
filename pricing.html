@@ -290,7 +290,7 @@
 			            <br>
 			            <h3 class="plan-price">
 			            	<!-- <span class="strike-off strike-price">$180/month</span> -->
-			            	<span>$45/month</span>
+			            	<span>$180/month</span>
 			            </h3>
 			            <p>For small businesses and startups who are just starting to explore RoI of interactive content.</p>
 			            <div class="col-md-12 col-sm-12 col-xs-12 np"><a href="http://app.outgrow.us/signup" target="_blank" class="btn btn-white-red-outline btn-hover signupbanners params">Start Trial</a>
@@ -1176,9 +1176,25 @@ function showPlan(a){
 }
 jQuery('a.toggle-dots-white').click(function(e) {
 	jQuery(this).parent().find('.billing-grey-bottom').slideToggle('slow');
+	jQuery(this).toggleClass('sliding');
+	if (jQuery(this).hasClass("sliding")) {
+            jQuery('a.toggle-dots-white p').html('Less info');
+            jQuery('a.toggle-dots-white i').html('keyboard_arrow_up');
+        } else {
+            jQuery('a.toggle-dots-white p').html('More info');
+            jQuery('a.toggle-dots-white i').html('keyboard_arrow_down');
+        }
 });
 jQuery('a.toggle-dots-grey').click(function(e) {
 	jQuery(this).parent().find('.billing-white-bottom').slideToggle('slow');
+	jQuery(this).toggleClass('slidings');
+	if (jQuery(this).hasClass("slidings")) {
+            jQuery('a.toggle-dots-grey p').html('Less info');
+            jQuery('a.toggle-dots-grey i').html('keyboard_arrow_up');
+        } else {
+            jQuery('a.toggle-dots-grey p').html('More info');
+            jQuery('a.toggle-dots-grey i').html('keyboard_arrow_down');
+        }
 });
 </script>
 
