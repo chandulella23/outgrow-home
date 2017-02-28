@@ -2006,7 +2006,7 @@
     }
     .billing-grey-top h3.plan-price,
     .billing-white-top h3.plan-price {
-        font-size: 18px
+        font-size: 22px
     }
 }
 
@@ -2158,6 +2158,9 @@
         padding-left: 22%;
         top: 34%
     }
+	#pricing .pricing-headingtop {
+		min-height: 471px;
+	}
     #pricing .section-1 {
         margin-top: 90;
         padding-top: 10px

@@ -391,7 +391,10 @@
 @media (min-width: 1400px) and (max-width:1520px) {
 	#pricing .section-1-right {
 	    padding-left: 14%;
-	    top: 34%;
+	    top: 38%;
+	}
+	#pricing .pricing-headingtop {
+		min-height: 451px;
 	}
 }
 @media (min-width: 1530px) and (max-width:1720px) {
@@ -422,6 +425,9 @@
 	}
 	#pricing .enterprise_pos {
 		margin-top: 17%;
+	}
+	#pricing .pricing-headingtop {
+		min-height: 442px;
 	}
 }
 /*################### Homepage responsive css end ###################*/
