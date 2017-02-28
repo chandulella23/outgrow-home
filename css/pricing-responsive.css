@@ -388,6 +388,18 @@
 @media (min-width: 1480px) and (max-width:1920px) {
 	
 }
+@media (min-width: 1400px) and (max-width:1520px) {
+	#pricing .section-1-right {
+	    padding-left: 14%;
+	    top: 34%;
+	}
+}
+@media (min-width: 1530px) and (max-width:1720px) {
+	#pricing .section-1-right {
+	    padding-left: 19%;
+	    top: 34%;
+	}
+}
 @media (min-width: 1920px) {
 	#pricing .section-1-right{
 		top: 26%;
