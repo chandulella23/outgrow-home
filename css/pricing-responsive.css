@@ -361,6 +361,9 @@
 	    position: relative;
 	    margin-top: 28%;
 	}
+	#pricing .pricing-headingtop {
+	    min-height: 465px;
+	}
 }
 @media (min-width: 1280px) and (max-width:1280px) {
 	#pricing .enterprise_pos {
@@ -394,7 +397,7 @@
 	    top: 38%;
 	}
 	#pricing .pricing-headingtop {
-		min-height: 451px;
+		min-height: 461px;
 	}
 }
 @media (min-width: 1530px) and (max-width:1720px) {
