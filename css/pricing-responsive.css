@@ -408,7 +408,11 @@
 }
 @media (min-width: 1925px) and (max-width:2300px) {
 	#pricing .section-1-right {
-	    padding-left: 29% !important;
+		padding-left: 29% !important;
+		top: 25% !important;
+	}
+	#pricing .pricing-headingtop {
+		min-height: 462px;
 	}
 }
 @media (min-width: 2300px) and (max-width:2450px) {
