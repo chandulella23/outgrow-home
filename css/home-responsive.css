@@ -2156,7 +2156,7 @@
     }
     #pricing .section-1-right {
         padding-left: 22%;
-        top: 34%
+        top: 32% !important;
     }
 	#pricing .pricing-headingtop {
 		min-height: 471px !important ;

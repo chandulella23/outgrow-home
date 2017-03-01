@@ -408,14 +408,14 @@
 }
 @media (min-width: 1920px) {
 	#pricing .section-1-right{
-		top: 28% !important;
+		top: 28%;
 		padding-left: 22%;
 	}
 	#pricing .enterprise_pos {
 		margin-top: 17%;
 	}
 	#pricing .pricing-headingtop {
-		min-height: 440px !important;
+		min-height: 440px;
 	}
 }
 @media (min-width: 1925px) and (max-width:2300px) {
@@ -424,12 +424,13 @@
 		top: 25% !important;
 	}
 	#pricing .pricing-headingtop {
-		min-height: 462px !important;
+		min-height: 455px !important;
 	}
 }
 @media (min-width: 2300px) and (max-width:2450px) {
 	#pricing .section-1-right {
 	    padding-left: 31% !important;
+	    top: 21%;
 	}
 }
 @media (min-width: 2450px) and (max-width:2550px) {
