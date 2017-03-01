@@ -427,7 +427,7 @@
 }
 @media (min-width: 1920px) {
 	#pricing .section-1-right{
-		top: 26%;
+		top: 30% !important;
 		padding-left: 22%;
 	}
 	#pricing .enterprise_pos {
