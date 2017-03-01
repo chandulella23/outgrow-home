@@ -209,7 +209,7 @@
 				<section id="plan-cycle">
 				    <div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">
 				        <ul>
-				            <li class="cycle-tab" id="monthly"><a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('m');">Monthly</a>
+				            <li class="cycle-tab active" id="monthly"><a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('m');">Monthly</a>
 				            </li>
 				            <li class="cycle-tab" id="half-yearly"><a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">Semi-Annual</a>
 				            </li>
@@ -1162,15 +1162,16 @@ jQuery(document).ready(function() {
 });
 function showPlan(a){
 	if(a=='m'){
-		console.log(a);
+		console.log(jQuery(this));
+		jQuery('#monthly').addClass('active').siblings('.cycle-tab').removeClass('active');
 		jQuery('#m').addClass('active').siblings('.pricing-cards').removeClass('active');
 	}
 	else if(a=='s'){
-		console.log(a);
+		jQuery('#half-yearly').addClass('active').siblings('.cycle-tab').removeClass('active');
 		jQuery('#s').addClass('active').siblings('.pricing-cards').removeClass('active');
 	}
 	else if(a=='y'){
-		console.log(a);
+		jQuery('#annually').addClass('active').siblings('.cycle-tab').removeClass('active');
 		jQuery('#y').addClass('active').siblings('.pricing-cards').removeClass('active');
 	}
 }
