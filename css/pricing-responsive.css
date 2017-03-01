@@ -415,7 +415,7 @@
 		margin-top: 17%;
 	}
 	#pricing .pricing-headingtop {
-		min-height: 440px;
+		min-height: 440px !important;
 	}
 }
 @media (min-width: 1925px) and (max-width:2300px) {
