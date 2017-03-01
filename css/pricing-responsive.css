@@ -406,6 +406,18 @@
 	    top: 34%;
 	}
 }
+@media (min-width: 1920px) {
+	#pricing .section-1-right{
+		top: 28% !important;
+		padding-left: 22%;
+	}
+	#pricing .enterprise_pos {
+		margin-top: 17%;
+	}
+	#pricing .pricing-headingtop {
+		min-height: 440px;
+	}
+}
 @media (min-width: 1925px) and (max-width:2300px) {
 	#pricing .section-1-right {
 		padding-left: 29% !important;
@@ -423,18 +435,6 @@
 @media (min-width: 2450px) and (max-width:2550px) {
 	#pricing .section-1-right {
 	    padding-left: 32% !important;
-	}
-}
-@media (min-width: 1920px) {
-	#pricing .section-1-right{
-		top: 30% !important;
-		padding-left: 22%;
-	}
-	#pricing .enterprise_pos {
-		margin-top: 17%;
-	}
-	#pricing .pricing-headingtop {
-		min-height: 420px;
 	}
 }
 /*################### Homepage responsive css end ###################*/
