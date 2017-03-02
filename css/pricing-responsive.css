@@ -438,4 +438,20 @@
 	    padding-left: 32% !important;
 	}
 }
+@media (min-width: 2600px){
+	#pricing .section-1-right {
+		top: 19%;
+		padding-left: 33%;
+	}
+	#pricing .pricing-headingtop {
+		min-height: 437px;
+	}
+	.business-box .ribbon{
+		width:130px;
+	}
+	.business-box .ribbon:after{
+		top:1px;
+	}
+	
+}
 /*################### Homepage responsive css end ###################*/
