@@ -165,8 +165,9 @@
 		margin: 0 auto;
 	}
 	#pricing .pricing-headingtop {
-	    min-height: 50px;
-	    padding-bottom: 25px;
+	    /* min-height: 50px;
+	    padding-bottom: 25px; */
+		    background: linear-gradient(to bottom, #fb6c73 190px, #fff 30px);
 	}
 	#pricing .section-1-right {
 		margin-left: 0px;
@@ -253,7 +254,7 @@
 	}	
 	
 }
-@media (min-width: 769px){
+@media (min-width: 996px){
 	.billing-grey-bottom{display: block !important; }
 	.billing-white-bottom{display: block !important; }
 }
