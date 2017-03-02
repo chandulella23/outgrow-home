@@ -348,6 +348,15 @@
 	}
 }
 
+@media (min-width: 1140px) and (max-width:1198px) {
+	    #pricing .section-1-right{
+	    	padding-top: 15px;
+		    position: absolute;
+		    top: 39%;
+		    padding-left: 13%;
+		}
+}
+
 @media (min-width: 1200px) and (max-width:1280px) {
 	#pricing .section-1-right {
 		margin-left: 0px;
