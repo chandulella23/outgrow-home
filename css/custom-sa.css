@@ -1357,7 +1357,8 @@ label {
 	margin: 0
 }
 .billing-white-bottom ul.billing-list a {
-	line-height: 32px
+	line-height: 32px;
+	cursor:default;
 }
 .billing-white-bottom .billing-list .mat-icon {
 	float: left;
@@ -1532,6 +1533,7 @@ label {
 }
 .billing-grey-bottom ul.billing-list a {
 	line-height: 32px;
+	cursor:default;
 }
 .billing-grey-bottom .billing-list .mat-icon {
 	float: left;
