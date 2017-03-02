@@ -1560,7 +1560,7 @@ label {
 	color: #62696d;
     font-family: montserratlight;
     padding-left: 6px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 .billing-grey-bottom .billing-list .unselected .mat-icon:after {
 	font-family: "Material Icons";
