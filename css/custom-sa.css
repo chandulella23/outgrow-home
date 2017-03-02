@@ -40,7 +40,7 @@
     visibility: hidden;
     box-shadow: 0 3px 7px 0px #919191;
     text-align: center;
-    left: -87px;
+    left: -100px;
     line-height: 1.42857143;
     text-transform: none;
     border-radius: 5px;
@@ -51,7 +51,7 @@
 }
 .help-checktip:before {
    	top: -9px;
-    left: 88px;
+    left: 100px;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -1270,7 +1270,6 @@ label {
 	box-shadow: 0 0 19px rgba(60, 60, 60, .29);
 	position: relative;
 	top: 0;
-	width: 290px;
 	z-index: 2
 }
 .billing-white-top {
@@ -1354,7 +1353,8 @@ label {
 }
 .billing-white-bottom ul.billing-list {
 	padding: 0;
-	margin: 0
+	margin: 0;
+	text-align: left;
 }
 .billing-white-bottom ul.billing-list a {
 	line-height: 32px;
@@ -1424,7 +1424,6 @@ label {
 .billing-grey {
 	background: #fff;
 	box-shadow: 16px 10px 30px rgba(0, 0, 0, .18);
-	width: 290px;
 	margin-bottom: 30px
 }
 .billing-grey-top {
@@ -1519,7 +1518,7 @@ label {
 }
 .billing-list li {
     list-style-type: none;
-    padding: 0 22px;
+    padding: 0 15px;
 }
 .billing-grey-bottom {
 	padding: 10px 25px;
@@ -1529,7 +1528,8 @@ label {
 }
 .billing-grey-bottom ul.billing-list {
 	padding: 0;
-	margin: 0
+	margin: 0;
+	text-align:left;
 }
 .billing-grey-bottom ul.billing-list a {
 	line-height: 32px;
@@ -4597,17 +4597,17 @@ button.swiper-pagination-bullet {
 }
 #pricing .billing-white {
 	margin-right: 0;
-	margin-bottom: 90px;
+	margin-bottom: 10px;
 	padding-bottom: 1px
 }
-#pricing .section-1-right {
+/* #pricing .section-1-right {
 	padding-left: 18%;
 	padding-top: 15px;
 	position: absolute;
 	top: 40%;
 	float: left;
 	width: 100%
-}
+} */
 #pricing .accordion, .accordion * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -4715,7 +4715,7 @@ button.swiper-pagination-bullet {
 	float: left;
 	margin-left: 5px
 }
-#pricing .pricing-headingtop h3, #pricing .pricing-headingtop p {
+#pricing .pricing-headingtop .plans-heading, #pricing .pricing-headingtop .plans-subheading {
 	color: #fff;
 	font-family: montserratlight;
 	width: 100%;
@@ -4726,16 +4726,17 @@ button.swiper-pagination-bullet {
 }
 #pricing .pricing-headingtop {
 	float: left;
-	background: #fb6c73;
-	min-height: 455px
+	/* background: #fb6c73; */
+	/* min-height: 455px; */
+	background: linear-gradient(to bottom, #fb6c73 55%, #fff 45%);
 }
-#pricing .pricing-headingtop h3 {
+#pricing .pricing-headingtop .plans-heading {
 	margin-bottom: 5px;
 	margin-top: 35px;
 	font-size: 30px;
 	text-transform: uppercase
 }
-#pricing .pricing-headingtop p {
+#pricing .pricing-headingtop .plans-subheading {
 	margin-bottom: 15px;
 	margin-top: 0;
 	font-size: 18px
@@ -4819,10 +4820,10 @@ button.swiper-pagination-bullet {
 	width: 600px;
 	margin: 0 auto
 }
-#pricing .enterprise_pos {
+/* #pricing .enterprise_pos {
 	position: relative;
 	margin-top: 25%
-}
+} */
 .top-sec-example{margin-top: 100px;}
 .enterprise-margin {
 	padding-bottom: 0;
@@ -5358,4 +5359,7 @@ iframe[name=google_conversion_frame] {
 .mt10{ margin-top:10px !important; }
 
 
-
+#plan-cycle{
+	z-index: 999;
+    position: relative;
+}

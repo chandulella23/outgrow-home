@@ -58,12 +58,12 @@
 	#pricing .accordion-section-content{
 		margin-left:35px;
 	}
-	#pricing .pricing-headingtop{ min-height: 50px; padding-bottom:25px;}
-	#pricing .section-1-right{
+	/* #pricing .pricing-headingtop{ min-height: 50px; padding-bottom:25px;} */
+	/* #pricing .section-1-right{
 		position: relative;
 		padding-left: 25px;
 		padding-right: 25px;
-	}
+	} */
 	#pricing .section-faq{ margin-top: 15px;}
 	#pricin .section-2-heading{ font-family: montserratbold;}
 	#pricing .billing-plan-list{width:100%;}
@@ -85,9 +85,6 @@
 	#pricing .enterprise_pos{
 		margin-top: 10px;
 	}
-	#pricing .need-custom-plan{
-		margin-top: -50px;
-	}
 	#pricing .need-custom-plan a{
 		font-size: 12px;
 	}
@@ -96,9 +93,22 @@
 	    top: 10px;
 	}
 }
+@media (min-width:320px) and (max-width:330px){
+	#pricing .pricing-headingtop{
+		background: linear-gradient(to bottom, #fb6c73 306px, #fff 50px);
+	}
+	#pricing .section-1-right {
+		margin-top:70px;
+	}
+}
 @media (min-width: 413px) and (max-width:439px) {
 	#pricing .pricing-help .billing-plans-help {
 	    bottom: 380px !important;
+	}
+}
+@media (min-width: 370px) and (max-width:565px) {
+	#pricing .pricing-headingtop{
+		background: linear-gradient(to bottom, #fb6c73 225px, #fff 50px);
 	}
 }
 @media (min-width: 440px) and (max-width:768px) {
@@ -111,6 +121,9 @@
 	}
 	#pricing .pricing-help .billing-plans-help{
 	    bottom:380px;
+	}
+	#pricing .pricing-headingtop{
+		background: linear-gradient(to bottom, #fb6c73 200px, #fff 50px);
 	}
 }
 @media (min-width: 600px) and (max-width:768px) {
@@ -254,11 +267,12 @@
 		margin: 0 auto;
 	}
 	#pricing .pricing-headingtop {
-		padding-bottom: 25px;
-		min-height: 200px;
+		/* padding-bottom: 25px;
+		min-height: 200px; */
 	}
 	#pricing .section-1-right {
 		margin-left: 0px;
+		padding:0px;
 	}
 	#pricing .billing-grey {
 		margin-top: 0px;
@@ -280,11 +294,11 @@
 		/*bottom: 30px;*/
 		left: -100px;
 	}
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 		position: relative;
 		padding-left: 65px;
 		padding-right: 25px;
-	}
+	} */
 	#pricing .loader {
 		margin-left: 32%;
 		color: #fb6c73;
@@ -302,17 +316,26 @@
 	}
 }
 @media (min-width: 1024px) and (max-width:1200px) {
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 		margin-left: -10px;
+	} */
+	.billing-grey-bottom .billing-list .list-name{
+		padding-left:1px;
+	}
+	.billing-list li{
+		padding:0 5px;
+	}
+	.billing-white-bottom .billing-list .list-name{
+		padding-left:1px;
 	}
 	#pricing .billing-grey{
-		width:290px;
+		/* width:290px; */
 	}
 	#pricing .billing-grey-top{
 		padding:20px 10px;
 	}
 	#pricing .billing-white{
-		width:290px;
+		/* width:290px; */
 		margin-right: 0px;
 		margin-top:0px;
 	}
@@ -324,14 +347,14 @@
 		position: relative;
 		margin-top: 0%;
 	}
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 		padding-left: 7%;
 		padding-top: 15px;
 		position: absolute;
 		top: 40%;
 		float: left;
 		width: 100%;
-	}
+	} */
 	#pricing .pricing-help .billing-plans-help{
 		font-size: 10px;
 		position: absolute;
@@ -342,43 +365,10 @@
 		position: relative;
 		margin-top: 65%;
 	}
-	#pricing .enterprise_pos {
+	/* #pricing .enterprise_pos {
 	    position: relative;
 	    margin-top: 67%;
-	}
-}
-
-@media (min-width: 1140px) and (max-width:1198px) {
-	    #pricing .section-1-right{
-	    	padding-top: 15px;
-		    position: absolute;
-		    top: 39%;
-		    padding-left: 13%;
-		}
-}
-
-@media (min-width: 1200px) and (max-width:1280px) {
-	#pricing .section-1-right {
-		margin-left: 0px;
-		padding-left:15%;
-	}
-	#pricing .pricing-text {
-		position: relative;
-		margin-top: 53%;
-	}
-	#pricing .enterprise_pos {
-	    position: relative;
-	    margin-top: 28%;
-	}
-	#pricing .pricing-headingtop {
-	    min-height: 465px;
-	}
-}
-@media (min-width: 1280px) and (max-width:1280px) {
-	#pricing .enterprise_pos {
-	    position: relative;
-	    margin-top: 47%;
-	}
+	} */
 }
 @media (min-width: 767px) and (max-width:768px) {
 
@@ -388,6 +378,8 @@
 	}
 	#pricing .section-1-right {
 		margin-left:0px;
+		padding-left: 0;
+		padding-right: 25px;
 	}
 	
 }
@@ -401,22 +393,22 @@
 	
 }
 @media (min-width: 1400px) and (max-width:1520px) {
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 	    padding-left: 14%;
 	    top: 38%;
 	}
 	#pricing .pricing-headingtop {
 		min-height: 461px;
-	}
+	} */
 }
 @media (min-width: 1530px) and (max-width:1720px) {
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 	    padding-left: 19%;
 	    top: 34%;
-	}
+	} */
 }
 @media (min-width: 1920px) {
-	#pricing .section-1-right{
+	/* #pricing .section-1-right{
 		top: 28%;
 		padding-left: 22%;
 	}
@@ -425,42 +417,41 @@
 	}
 	#pricing .pricing-headingtop {
 		min-height: 440px;
-	}
+	} */
 }
 @media (min-width: 1925px) and (max-width:2300px) {
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 		padding-left: 29% !important;
 		top: 25% !important;
 	}
 	#pricing .pricing-headingtop {
 		min-height: 455px !important;
-	}
+	} */
 }
 @media (min-width: 2300px) and (max-width:2450px) {
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 	    padding-left: 31% !important;
 	    top: 21%;
-	}
+	} */
 }
 @media (min-width: 2450px) and (max-width:2550px) {
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 	    padding-left: 32% !important;
-	}
+	} */
 }
 @media (min-width: 2600px){
-	#pricing .section-1-right {
+	/* #pricing .section-1-right {
 		top: 19%;
 		padding-left: 33%;
 	}
 	#pricing .pricing-headingtop {
 		min-height: 437px;
-	}
+	} */
 	.business-box .ribbon{
 		width:130px;
 	}
 	.business-box .ribbon:after{
 		top:1px;
 	}
-	
 }
 /*################### Homepage responsive css end ###################*/
