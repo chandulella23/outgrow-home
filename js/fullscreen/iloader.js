@@ -21,7 +21,7 @@ var iWidth = window.innerWidth;
 if(iWidth < 786) {
 	//CSS
 	var og_style = document.createElement("style");
-	var style_node = document.createTextNode("body, html {height: 100%;margin: 0;overflow: hidden;}.fullScreen {z-index:999;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100vh !important}");
+	var style_node = document.createTextNode("body, html {height: 100%;margin: 0;overflow: hidden;}.fullScreen {z-index:999;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 91vh !important}");
 	og_style.appendChild(style_node);
 	og_e.appendChild(og_style);
 	//Button
