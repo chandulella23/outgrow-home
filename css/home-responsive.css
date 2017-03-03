@@ -9,9 +9,6 @@
         padding-top: 0;
         margin-bottom: 20px;
     }
-    #pricing .section-1{
-        margin-top: 0;
-    }
     .p20 {
         padding: 0 20px !important;
     }
@@ -1109,8 +1106,16 @@
         display: none;
     }
 }
-
 @media (min-width:769px) and (max-width:990px) {
+    .custom-navbar.navbar-default .navbar-nav>li>a {
+        padding: 15px 8px;
+        font-size: 12px;
+    }
+}
+@media (min-width:769px) and (max-width:990px) {
+    #why .section-top-why{
+        margin-top: 0px;
+    }
     .col-sm-pull-3,
     .col-sm-pull-6 {
         right: 0
@@ -1168,6 +1173,7 @@
     .custom-navbar.navbar-default .navbar-nav>li>a {
         color: #62696d;
         text-transform: uppercase;
+        padding: 15px 9px;
     }
     .mobile-sec3 .sec3-box2 {
         text-align: center
@@ -1349,7 +1355,14 @@
     }
     .billing-grey,
     .billing-white {
-        box-shadow: 0 0 7px 5px rgba(0, 0, 0, .18)
+        box-shadow: 0 0 7px 5px rgba(0, 0, 0, .18);
+        width: 100% !important;
+    }
+    .billing-grey{
+        margin-bottom: 30px;
+    }
+    #pricing .section-1 {
+        margin-top: 0;
     }
     .section-4-left {
         margin-top: 0;
@@ -1554,9 +1567,6 @@
     .billing-table {
         padding-left: 0;
         margin-top: 0
-    }
-    .billing-grey {
-        width: 100%
     }
     .index-help .billing-plans-help {
         bottom: -30px
@@ -2144,22 +2154,18 @@
     .billing-boxmain {
         margin-left: 0
     }
-    /* .billing-grey,
+     .billing-grey,
     .billing-white {
-        width: 340px
-    } */
+        width: 340px !important;
+    } 
     .section-1 {
         margin-top: 70px
     }
     .collag-right {
         margin-top: 80px
     }
-    /* #pricing .section-1-right {
-        padding-left: 22%;
-        top: 32% !important;
-    } */
 	#pricing .pricing-headingtop {
-		min-height: 471px !important ;
+		background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px);
 	}
     #pricing .section-1 {
         margin-top: 90px;
@@ -2168,10 +2174,6 @@
     #pricing .section-faq {
         margin-top: 0
     }
-    /* #pricing .enterprise_pos,
-    #pricing .pricing-text {
-        margin-top: 20%
-    } */
     #pricing .pricing-help .billing-plans-help {
         left: 5%;
         bottom: 420px

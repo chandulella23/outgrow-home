@@ -216,7 +216,7 @@ label {
     border-radius: 20px;
     background: #fb5f66;
     color: #fff!important;
-    padding: 6px 10px;
+    padding: 6px 10px !important;
     line-height: 1;
     margin-top: 11px;
     font-size: 12px!important;
@@ -1424,7 +1424,7 @@ label {
 .billing-grey {
 	background: #fff;
 	box-shadow: 16px 10px 30px rgba(0, 0, 0, .18);
-	margin-bottom: 30px
+	margin-bottom: 0px
 }
 .billing-grey-top {
 	padding: 25px;
@@ -1673,7 +1673,13 @@ label {
 	display: none;
 }
 #pricing .pricing-cards.active{
-	display: block;
+	/*display: block;*/
+    display: flex;
+    justify-content: center;
+}
+#pricing .section-1-right {
+    padding-right: 0;
+    padding-left: 0;
 }
 #pricing .pricing-help .billing-plans-help {
 	font-size: 10px;
@@ -4597,7 +4603,7 @@ button.swiper-pagination-bullet {
 }
 #pricing .billing-white {
 	margin-right: 0;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	padding-bottom: 1px
 }
 /* #pricing .section-1-right {
@@ -4675,6 +4681,7 @@ button.swiper-pagination-bullet {
 }
 #pricing .section-1 {
 	margin-top: 75px;
+	margin-bottom: 60px;
 }
 #pricing .footer-btn .btn-buildcal {
 	background: #62696d;
@@ -4728,7 +4735,7 @@ button.swiper-pagination-bullet {
 	float: left;
 	/* background: #fb6c73; */
 	/* min-height: 455px; */
-	background: linear-gradient(to bottom, #fb6c73 55%, #fff 45%);
+	background: linear-gradient(to bottom, #fb6c73 447px, #fff 100px);
 }
 #pricing .pricing-headingtop .plans-heading {
 	margin-bottom: 5px;
@@ -4743,6 +4750,7 @@ button.swiper-pagination-bullet {
 }
 #pricing .billing-grey, #pricing .billing-white {
 	box-shadow: none;
+	    width: 290px;
 }
 #pricing .billing-white {
 	box-shadow: 0px 0px 12px rgba(60,60,60,0.2);
