@@ -116,8 +116,12 @@
 		background: linear-gradient(to bottom, #fb6c73 255px, #fff 50px);
 	}
 }
+@media (min-width: 340px) and (max-width:369px) {
+	#pricing .pricing-headingtop{
+		background: linear-gradient(to bottom, #fb6c73 225px, #fff 50px);
+	}
+}
 
-	
 @media (min-width: 413px) and (max-width:439px) {
 	#pricing .pricing-help .billing-plans-help {
 	    bottom: 380px !important;
