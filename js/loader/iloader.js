@@ -604,6 +604,7 @@
         };
     a.jQuery && E(jQuery), "function" == typeof define && define.amd ? define([], D) : "object" == typeof module && "object" == typeof module.exports ? module.exports = D() : a.iFrameResize = a.iFrameResize || D()
 }(window || {});
+console.log('In Script');
 var og_e = document.getElementById('og-iframe-container');
 og_e.setAttribute("style", "line-height: 0;");
 var og_u = og_e.getAttribute('data-url');
@@ -622,7 +623,7 @@ og_iFrame.setAttribute("src", og_u);
 og_iFrame.setAttribute("width", og_w);
 og_iFrame.setAttribute("scrolling", "auto");
 var iWidth = window.innerWidth;
-/*if (iWidth < 786) {
+if (iWidth < 786) {
     var og_style = document.createElement("style");
     var style_node = document.createTextNode("body, html {height: 100%;margin: 0;overflow: hidden;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 92vh !important; margin-bottom:-10px;}");
     og_style.appendChild(style_node);
@@ -653,7 +654,7 @@ var iWidth = window.innerWidth;
     body_wrapper.setAttribute("id", "body_wrapper");
     body_wrapper.setAttribute("style", "overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);");
     og_b.appendChild(body_wrapper)
-}*/
+}
 var ogOnLoadHandler = document.createElement("script");
 ogOnLoadHandler.setAttribute("type", "text/javascript");
 var node = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"og-iframe\").style.minHeight = height+'px';}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:height})}");
