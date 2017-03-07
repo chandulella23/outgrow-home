@@ -645,6 +645,7 @@ if (og_check == 0) {
         og_b.appendChild(og_button);
         var og_close = document.createElement("img");
         og_close.setAttribute("src", "https://cdn.filestackcontent.com/HuaIq7oFQwWyS5Fjni9e");
+        og_close.setAttribute("style", "height: 60px; width:60px;");
         og_button.appendChild(og_close);
         var toggleFullScreen = document.createElement("script");
         toggleFullScreen.setAttribute("type", "text/javascript");
