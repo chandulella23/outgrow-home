@@ -631,7 +631,7 @@ if (og_check == 0) {
     var iWidth = window.innerWidth;
     if (iWidth < 786) {
         var og_style = document.createElement("style");
-        var style_node = document.createTextNode("body, html {height: 100%;margin: 0;overflow: hidden;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;} .height-auto{height: calc(92vh + 7px) !important; margin-bottom:-10px;}@media (max-width:375px) { .height-auto{height: 92vh !important; margin-bottom:-10px;} } ");
+        var style_node = document.createTextNode("body, html {height: 100%;margin: 0;overflow: hidden;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;} .height-auto{height: calc(92vh + 7px) !important; margin-bottom:-10px;}@media (max-width:375px) { .height-auto{height: 92vh !important; margin-bottom:-11px;} } ");
         og_style.appendChild(style_node);
         og_e.appendChild(og_style);
         var og_button = document.createElement("a");
