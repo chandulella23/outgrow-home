@@ -184,7 +184,8 @@ function submitEbookData(e) {
 				var result = JSON.parse(res);
 				if(!result.error) {
 					jQuery('#ebook-submit').fadeOut();
-					sendNotification(email, name);
+					if (window.location.href.indexOf('outgrow.co') != -1)
+						sendNotification(email, name);
 					setTimeout(function (){
 						window.location.href="http://resources.outgrow.co/courses/lead-generation-with-calculators/ebook";
 					}, 200);
