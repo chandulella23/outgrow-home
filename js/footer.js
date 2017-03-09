@@ -243,9 +243,9 @@ function initRefersionCookie () {
     }
     else {
     	console.log('undefined refersion');
-    	setInterval(function () {
+    	/*setInterval(function () {
     		initRefersionCookie();
-    	}, 5000)
+    	}, 5000)*/
     }
   }
 
