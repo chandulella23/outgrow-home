@@ -222,20 +222,26 @@ function sendNotification (email, name) {
 
 function initRefersionCookie () {
     if ('undefined' !== typeof _refersion) {
-      let rfsn = {};
-      rfsn['aid'] = localStorage.getItem('rfsn_aid');
-      rfsn['ci'] = localStorage.getItem('rfsn_ci');
-      rfsn['cs'] = localStorage.getItem('rfsn_cs');
-      rfsn['src'] = localStorage.getItem('rfsn_src');
-      for (let key in rfsn) {
-        if (null === rfsn[key]) {
-          rfsn = null;
-          break;
-        }
-      }
-      if (null !== rfsn) {
-        createCookie('rfsn', JSON.stringify(rfsn), 365);
-      }
+		console.log('Refersion defined');
+		let rfsn = {};
+		rfsn['aid'] = localStorage.getItem('rfsn_aid');
+		rfsn['ci'] = localStorage.getItem('rfsn_ci');
+		rfsn['cs'] = localStorage.getItem('rfsn_cs');
+		rfsn['src'] = localStorage.getItem('rfsn_src');
+		for (let key in rfsn) {
+			if (null === rfsn[key]) {
+				rfsn = null;
+				break;
+			}
+		}
+		if (null !== rfsn) {
+			console.log('Refursion not null');
+			createCookie('rfsn', JSON.stringify(rfsn), 365);
+		}
+		else { console.log('Refursion null'); }
+    }
+    else {
+    	console.log('Undefined refursion');
     }
   }
 
@@ -247,5 +253,6 @@ function initRefersionCookie () {
             date.setTime(date.getTime()+(days*24*60*60*1000));
             expires = "; expires="+date.toUTCString();
         }
+        console.log('About to create refursion cookie');
         document.cookie = name+"="+value+expires+"; domain="+domain+"; path=/";
     }
