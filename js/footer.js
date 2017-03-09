@@ -115,38 +115,6 @@ jQuery(document).ready(function() {
 		jQuery('.login').html(login);
 
 	initRefersionCookie();
-	/*console.log('footer ready');
-	var str = window.location.href.split('//')[1].split('/')[0];
-	var p = str.lastIndexOf('.');
-	var ext = str.substring(p+1);
-	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
-	var loginAnchor = '//app.outgrow.'+ext+'/login';
-	var trialAnchor = '//app.outgrow.'+ext+'/';
-	var signUp = '<a id="loginAnchorText" class="link-login" href="'+trialAnchor+'" class="link-login params">Sign up</a>';
-	if(readCookie('storage')){
-		console.log('Cookie is there - Dashboard');
-		var storage = JSON.parse(readCookie('storage'));
-		if(storage.companyList)
-			loginAnchor = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
-		else
-			loginAnchor = '//app.outgrow.'+ext+'/dashboard';
-		console.log('CAlled till here');
-		jQuery(document.getElementById('loginAnchorText')).prop('text','Dashboard'); //.text='Dashboard';
-		jQuery(document.getElementById('loginAnchorText')).attr('href',loginAnchor);
-		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("DASHBOARD")');
-	}else{
-		console.log('No Cookie - Login');
-		console.log(jQuery(document).find("#loginAnchorText"));
-		jQuery(document).find("#loginAnchorText").html('Login');
-		jQuery(document.getElementById('loginAnchorText')).attr('onClick','callGA("LOGIN")');
-		jQuery(document).find('.signUp').html(signUp);
-	}
-
-
-	jQuery(document).find('.login').html(login);
-	jQuery(document.getElementById('loginAnchorText')).prop('href',loginAnchor);
-	jQuery(document.getElementById('trialAnchor')).prop('href',trialAnchor);
-	jQuery(document.getElementById('loginAnchor')).prop('href',loginAnchor);*/
 });
 
 function readCookie(name) {
@@ -222,7 +190,6 @@ function sendNotification (email, name) {
 
 function initRefersionCookie () {
     if ('undefined' !== typeof _refersion) {
-		console.log('Refersion defined');
 		let rfsn = {};
 		rfsn['aid'] = localStorage.getItem('rfsn_aid');
 		rfsn['ci'] = localStorage.getItem('rfsn_ci');
@@ -235,17 +202,14 @@ function initRefersionCookie () {
 			}
 		}
 		if (null !== rfsn) {
-			console.log('Refursion not null');
 			createCookie('rfsn', JSON.stringify(rfsn), 365);
 		}
-		else { console.log('Refursion null'); }
 		return;
     }
     else {
-    	console.log('undefined refersion');
-    	/*setInterval(function () {
+    	setTimeout(function () {
     		initRefersionCookie();
-    	}, 5000)*/
+    	}, 5000);
     }
   }
 
