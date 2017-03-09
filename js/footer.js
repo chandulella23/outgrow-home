@@ -96,7 +96,6 @@ jQuery(document).ready(function() {
 	var loginLink = "//app.outgrow."+ext+"/login";
 	var anchorText = "SIGN UP";
 	var callText = "SIGN UP";
-	console.log("===================================Himanshu");
 	if (readCookie('storage')) {
 		anchorText = "DASHBOARD";
 		callText = "LOGIN";
@@ -114,6 +113,8 @@ jQuery(document).ready(function() {
 	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
 	if (!readCookie('storage'))
 		jQuery('.login').html(login);
+
+	initRefersionCookie();
 	/*console.log('footer ready');
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
@@ -218,3 +219,33 @@ function sendNotification (email, name) {
 		}
 	});
 }
+
+function initRefersionCookie () {
+    if ('undefined' !== typeof _refersion) {
+      let rfsn = {};
+      rfsn['aid'] = localStorage.getItem('rfsn_aid');
+      rfsn['ci'] = localStorage.getItem('rfsn_ci');
+      rfsn['cs'] = localStorage.getItem('rfsn_cs');
+      rfsn['src'] = localStorage.getItem('rfsn_src');
+      for (let key in rfsn) {
+        if (null === rfsn[key]) {
+          rfsn = null;
+          break;
+        }
+      }
+      if (null !== rfsn) {
+        createCookie('rfsn', JSON.stringify(rfsn), 365);
+      }
+    }
+  }
+
+  function createCookie(name ,value, days, domain) {
+        let expires = "";
+        let domain  = window.location.host;
+        if (days) {
+            let date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            expires = "; expires="+date.toUTCString();
+        }
+        document.cookie = name+"="+value+expires+"; domain="+domain+"; path=/";
+    }
