@@ -239,9 +239,13 @@ function initRefersionCookie () {
 			createCookie('rfsn', JSON.stringify(rfsn), 365);
 		}
 		else { console.log('Refursion null'); }
+		return;
     }
     else {
-    	console.log('Undefined refursion');
+    	console.log('undefined refersion');
+    	setInterval(function () {
+    		initRefersionCookie();
+    	}, 5000)
     }
   }
 
