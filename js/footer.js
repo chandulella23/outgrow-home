@@ -105,7 +105,7 @@ jQuery(document).ready(function() {
 			href = '//'+storage.companyList[1]+'.outgrow.'+ext+'/dashboard';
 		}
 	}
-	var anchorElem = '<a class="link-login" href="'+href+'" class="link-login params" onclick="callGA('+callText+')">'+anchorText+'</a>';
+	var anchorElem = '<a href="'+href+'" class="link-login params" onclick="callGA('+callText+')">'+anchorText+'</a>';
 	jQuery('.anchorParent').html(anchorElem);
 	jQuery('#trialAnchor').prop('href', trialLink);
 	jQuery('#loginAnchor').prop('href', loginLink);
@@ -113,8 +113,6 @@ jQuery(document).ready(function() {
 	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
 	if (!readCookie('storage'))
 		jQuery('.login').html(login);
-
-	initRefersionCookie();
 });
 
 function readCookie(name) {
