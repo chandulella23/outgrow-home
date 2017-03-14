@@ -1105,6 +1105,17 @@
     .backdrop-custom {
         display: none;
     }
+    .footer-img-2 {
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+    .rs-hide-mb {
+        display: none !important;
+    }
+    .rs-show-mb {
+        display: block;
+    }
 }
 @media (min-width:769px) and (max-width:990px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {

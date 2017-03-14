@@ -3598,15 +3598,19 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec9-test em.left{left:-7px}
 	.sec9-test span.text-1,.sec9-test span.text-2{margin-left:10px}
 	.sec3-btn{width: 50%; padding: 12px 40px;}
-
 	.section-1-left .video-btn i{margin-right: 4px;font-size: 20px;}
 }
 @media(min-width:320px) and (max-width:767px){
 	.menu-outer{display:none}
 	.backdrop-custom{display:none}
 	.rs-show-mb{display: block;}
-	.rs-hide-mb{display: none;}
+	.rs-hide-mb{display: none !important;}
 	.section-1 {margin-top: 10px;}
+	.footer-img-2{
+	    position: absolute;
+	    right: 0;
+	    top: 20px;
+	}
 }
 @media (min-width:769px) and (max-width:990px){
 	.sahil-material .claim-cta .form-group .form-control{padding-right:95px;border: 2px solid #bdbdbd;}
@@ -14862,5 +14866,9 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 	height: 50px;
     width: 50px;
 }
-
+.footer-copyright img.footer-img-2{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
 
