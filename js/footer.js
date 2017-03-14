@@ -3,7 +3,7 @@ var footer = '<div class="container">'+
 		'<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">'+
 			'<h4>Overview</h4>'+
 			'<ul>'+
-				'<a href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="footer-img-2 rs-show-mb" src="images/comodo_secure.png"></a>'+
+				'<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="footer-img-2 rs-show-mb" src="images/comodo_secure.png"></a>'+
 				'<li><a href="why_calculators.html" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content</a></li>'+
 				'<li><a href="features.html" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>'+
 				'<li><a href="examples.html" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>'+
@@ -85,7 +85,7 @@ var footer = '<div class="container">'+
 				'<i class="material-icons">copyright</i>'+
 				'<span>Copyrights</span>'+
 				'<img src="images/footer-logo.png" />'+
-				'<a href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="footer-img-2 rs-hide-mb" src="images/comodo_secure.png" /></a>'+
+				'<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="footer-img-2 rs-hide-mb" src="images/comodo_secure.png" /></a>'+
 			'</div>'+
 		'</div>'+
 '</div>';

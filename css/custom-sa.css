@@ -5371,10 +5371,11 @@ iframe[name=google_conversion_frame] {
 	z-index: 999;
     position: relative;
 }
-.footer-copyright img.footer-img-2{
+img.footer-img-2{
     position: absolute;
     left: 0px;
-    top: 20px;
+    top: -20px;
+    float: left;
 }
 .rs-show-mb {
     display: none;
