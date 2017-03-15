@@ -74,6 +74,7 @@ var footer = '<div class="container">'+
 		'</div>'+
 	'</div>'+
 	'<div class="col-xs-12 np footer-social">'+
+			'<a href="https://www.instantssl.com/wildcard-ssl.html" id="comodoTL">Wildcard SSL</a>'+
 			'<ul>'+
 				'<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>'+
 				'<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>'+

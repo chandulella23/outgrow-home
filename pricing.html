@@ -2,10 +2,6 @@
 <html lang="en-US">
 
 <head>
-	<script type="text/javascript"> //<![CDATA[ 
-	var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
-	document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
-	//]]>
 </script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,9 +96,11 @@
 		document.querySelector('head').appendChild(schemaA);
 		document.querySelector('head').appendChild(schemaB);
 	</script>
-	<style>
-		
-	</style>
+	<script type="text/javascript">//<![CDATA[
+		var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+		document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+		//]]>
+	</script>
 </head>
 
 <body class="" id="pricing">
@@ -1254,9 +1252,8 @@ for (i = 0; i < acc.length; i++) {
 
 })(window, jQuery);
   </script>
-  <script language="JavaScript" type="text/javascript">
-	TrustLogo("http://outgrow.us/images/comodo_secure.png", "CL1", "none");
+  	<script language="JavaScript" type="text/javascript">
+		TrustLogo("https://outgrow.co/images/comodo_secure.png", "SC5", "none");
 	</script>
-	<a  href="https://ssl.comodo.com/wildcard-ssl-certificates.php" id="comodoTL">Wildcard SSL</a>
 </body>
 </html>
