@@ -1380,6 +1380,7 @@ label {
     display: inline-block;
     float: left;
     text-rendering: optimizeLegibility;
+    font-feature-settings: 'liga';
 }
 .billing-white-bottom .billing-list .list-name {
 	font-size: 14px;
@@ -1555,6 +1556,7 @@ label {
     display: inline-block;
     float: left;
     text-rendering: optimizeLegibility;
+ 	font-feature-settings: 'liga';
 }
 .billing-grey-bottom .billing-list .list-name {
 	color: #62696d;
