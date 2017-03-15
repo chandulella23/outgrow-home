@@ -74,7 +74,7 @@ var footer = '<div class="container">'+
 		'</div>'+
 	'</div>'+
 	'<div class="col-xs-12 np footer-social">'+
-			'<a href="https://www.instantssl.com/wildcard-ssl.html" id="comodoTL">Wildcard SSL</a>'+
+			//'<a href="https://www.instantssl.com/wildcard-ssl.html" id="comodoTL">Wildcard SSL</a>'+
 			'<ul>'+
 				'<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>'+
 				'<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>'+
@@ -90,6 +90,7 @@ var footer = '<div class="container">'+
 			'</div>'+
 		'</div>'+
 '</div>';
+
 jQuery(document).ready(function() {
 	var str = window.location.href.split('//')[1].split('/')[0];
 	var p = str.lastIndexOf('.');
@@ -221,7 +222,7 @@ function initRefersionCookie () {
 
   function createCookie(name ,value, days, domain) {
         let expires = "";
-        let domain  = window.location.host;
+        var domain  = window.location.host;
         if (days) {
             let date = new Date();
             date.setTime(date.getTime()+(days*24*60*60*1000));
