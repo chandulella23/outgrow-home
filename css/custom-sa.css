@@ -1382,6 +1382,16 @@ label {
     text-rendering: optimizeLegibility;
     font-feature-settings: 'liga';
 }
+.billing-whte-bottom ul.billing-list a span.list-name:hover {
+    text-transform: none;
+    color: #62696d;
+    text-decoration: none;
+}
+.billing-grey-bottom ul.billing-list a span.list-name:hover {
+    text-transform: none;
+    color: #62696d;
+    text-decoration: none;
+}
 .billing-white-bottom .billing-list .list-name {
 	font-size: 14px;
 	color: #62696d;
