@@ -5388,7 +5388,13 @@ iframe[name=google_conversion_frame] {
 }
 .footer-img-2{
     position: fixed;
-    left: 0px;
+    left: 55px;
     bottom: 0px;
     z-index: 999;
+    background: #fff;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 5px;
+    box-shadow: 0 1px 18px 0px rgba(0,0,0,.4);
 }

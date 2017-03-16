@@ -373,6 +373,12 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 	.embed1{
 		right:0 !important;
 	}
+	.footer-img-2 {
+	    left: 18px !important;
+	}
+	.footer-social {
+	   padding-bottom: 50px !important;
+	}
 }
 @media (min-width: 0px) and (max-width: 450px){
 	.embed-mobile {
@@ -14861,9 +14867,15 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
     width: 50px;
 }
 .footer-img-2{
-    position: fixed;
-    left: 0px;
+   	position: fixed;
+    left: 55px;
     bottom: 0px;
     z-index: 999;
+    background: #fff;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 5px;
+    box-shadow: 0 1px 18px 0px rgba(0,0,0,.4);
 }
 
