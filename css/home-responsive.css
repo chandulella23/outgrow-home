@@ -1105,11 +1105,6 @@
     .backdrop-custom {
         display: none;
     }
-    .footer-img-2 {
-        position: absolute;
-        right: 0;
-        top: 20px;
-    }
     .rs-hide-mb {
         display: none !important;
     }

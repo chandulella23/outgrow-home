@@ -14866,9 +14866,9 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 	height: 50px;
     width: 50px;
 }
-.footer-copyright img.footer-img-2{
-    position: absolute;
+.footer-img-2{
+    position: fixed;
     left: 0px;
-    top: 20px;
+    bottom: 0px;
 }
 
