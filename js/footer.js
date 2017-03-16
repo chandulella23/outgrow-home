@@ -191,12 +191,12 @@ function sendNotification (email, name) {
 function initRefersionCookie () {
     if ('undefined' !== typeof _refersion) {
 		setTimeout(function () {
-			let rfsn = {};
+			var rfsn = {};
 			rfsn['aid'] = localStorage.getItem('rfsn_aid');
 			rfsn['ci'] = localStorage.getItem('rfsn_ci');
 			rfsn['cs'] = localStorage.getItem('rfsn_cs');
 			rfsn['src'] = localStorage.getItem('rfsn_src');
-			for (let key in rfsn) {
+			for (var key in rfsn) {
 				if (null === rfsn[key]) {
 					rfsn = null;
 					break;
@@ -219,10 +219,10 @@ function initRefersionCookie () {
   }
 
   function createCookie(name ,value, days, domain) {
-        let expires = "";
+        var expires = "";
         var domain  = window.location.host;
         if (days) {
-            let date = new Date();
+            var date = new Date();
             date.setTime(date.getTime()+(days*24*60*60*1000));
             expires = "; expires="+date.toUTCString();
         }
