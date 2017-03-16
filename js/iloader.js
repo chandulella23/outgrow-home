@@ -632,7 +632,7 @@ if (og_check == 0) {
     var iWidth = window.innerWidth;
     if (iWidth < 786) {
         var og_style = document.createElement("style");
-        var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 92vh !important; margin-bottom: -10px;}.ovr-hid{overflow: hidden !important;}");
+        var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100% !important; margin-bottom: -10px;}.ovr-hid{overflow: hidden !important;}");
         og_style.appendChild(style_node);
         og_e.appendChild(og_style);
         var og_button = document.createElement("a");
