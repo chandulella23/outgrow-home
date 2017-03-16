@@ -3606,11 +3606,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.rs-show-mb{display: block;}
 	.rs-hide-mb{display: none !important;}
 	.section-1 {margin-top: 10px;}
-	.footer-img-2{
-	    position: absolute;
-	    right: 0;
-	    top: 20px;
-	}
 }
 @media (min-width:769px) and (max-width:990px){
 	.sahil-material .claim-cta .form-group .form-control{padding-right:95px;border: 2px solid #bdbdbd;}
