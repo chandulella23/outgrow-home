@@ -77,6 +77,7 @@ var footer = '<div class="container">'+
 				'<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>'+
 				'<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>'+
 				'<li><a href="https://twitter.com/outgrowco">Twitter</a></li>'+
+				'<li class="border-left"><a href="http://affiliates.outgrow.co/">Affiliate</a></li>'+
 				'<li><a href="mailto:p@outgrow.co?Subject=Hello%20again" target="_top">Contact Us</a></li>'+
 				'<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>'+
 			'</ul>'+

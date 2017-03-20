@@ -1111,6 +1111,9 @@
     .rs-show-mb {
         display: block;
     }
+    .border-left{
+        border-left: none !important;
+    }
 }
 @media (min-width:769px) and (max-width:990px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {

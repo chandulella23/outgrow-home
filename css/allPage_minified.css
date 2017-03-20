@@ -3608,7 +3608,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.backdrop-custom{display:none}
 	.rs-show-mb{display: block;}
 	.rs-hide-mb{display: none !important;}
-	.section-1 {margin-top: 10px;}}
+	.section-1 {margin-top: 10px;}
+	.border-left{
+        border-left: none !important;
+    }
+}
 @media (min-width:769px) and (max-width:990px){
 	.sahil-material .claim-cta .form-group .form-control{padding-right:95px;border: 2px solid #bdbdbd;}
 	.sahil-material .form-group label.in-active{right: 3%;}
@@ -14876,3 +14880,6 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
     box-shadow: 0 1px 18px 0px rgba(0,0,0,.4);
 }*/
 
+.border-left{
+    border-left: 1px solid #bdc5c8;
+}

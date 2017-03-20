@@ -5398,3 +5398,6 @@ iframe[name=google_conversion_frame] {
     padding: 5px;
     box-shadow: 0 1px 18px 0px rgba(0,0,0,.4);
 }*/
+.border-left{
+    border-left: 1px solid #bdc5c8;
+}
