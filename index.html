@@ -1280,6 +1280,9 @@
 			paginationClickable: true
 		});
 		appendParamsToUrl();
+		var query_params = location.search.split('=');
+		createCookie('referralCode',query_params[1],3);
+		
 	});
 
 	function appendParamsToUrl() {
