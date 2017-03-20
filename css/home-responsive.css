@@ -1111,12 +1111,6 @@
     .rs-show-mb {
         display: block;
     }
-    .footer-img-2 {
-        left: 18px;
-    }
-    .footer-social {
-       padding-bottom: 50px !important;
-    }
 }
 @media (min-width:769px) and (max-width:990px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {
