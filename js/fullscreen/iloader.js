@@ -1,4 +1,4 @@
-! function(a) {
+! function (a) {
     "use strict";
 
     function b(b, c, d) {
@@ -146,7 +146,7 @@
             function d(b, c) {
                 function d() {
                     P[g] ? B(P[g].iframe, g) : e()
-                }["scroll", "resize"].forEach(function(e) {
+                } ["scroll", "resize"].forEach(function (e) {
                     h(g, b + e + " listener for sendPageInfo"), c(a, e, d)
                 })
             }
@@ -195,9 +195,9 @@
                 a.parentIFrame ? a.parentIFrame["scrollTo" + (b ? "Offset" : "")](g.x, g.y) : j(W, "Unable to scroll to requested position, window.parentIFrame not found")
             }
             var f = b ? F(V.iframe) : {
-                    x: 0,
-                    y: 0
-                },
+                x: 0,
+                y: 0
+            },
                 g = d();
             h(W, "Reposition requested from iFrame (offset x:" + f.x + " y:" + f.y + ")"), a.top !== a.self ? e() : c()
         }
@@ -401,10 +401,10 @@
             Function.prototype.bind && (P[w].iframe.iFrameResizer = {
                 close: n.bind(null, P[w].iframe),
                 resize: u.bind(null, "Window resize", "resize", P[w].iframe),
-                moveToAnchor: function(a) {
+                moveToAnchor: function (a) {
                     u("Move to anchor", "moveToAnchor:" + a, P[w].iframe, w)
                 },
-                sendMessage: function(a) {
+                sendMessage: function (a) {
                     a = JSON.stringify(a), u("Send Message", "message:" + a, P[w].iframe, w)
                 }
             })
@@ -445,7 +445,7 @@
     }
 
     function x(a, b) {
-        null === Q && (Q = setTimeout(function() {
+        null === Q && (Q = setTimeout(function () {
             Q = null, a()
         }, b))
     }
@@ -508,11 +508,11 @@
     }
 
     function C() {
-        b(a, "message", l), b(a, "resize", function() {
+        b(a, "message", l), b(a, "resize", function () {
             z("resize")
-        }), b(document, "visibilitychange", A), b(document, "-webkit-visibilitychange", A), b(a, "focusin", function() {
+        }), b(document, "visibilitychange", A), b(document, "-webkit-visibilitychange", A), b(a, "focusin", function () {
             z("focus")
-        }), b(a, "focus", function() {
+        }), b(a, "focus", function () {
             z("focus")
         })
     }
@@ -527,7 +527,7 @@
         }
         var b;
         return d(), C(),
-            function(c, d) {
+            function (c, d) {
                 switch (b = [], typeof d) {
                     case "undefined":
                     case "string":
@@ -544,7 +544,7 @@
     }
 
     function E(a) {
-        a.fn ? a.fn.iFrameResize = function(a) {
+        a.fn ? a.fn.iFrameResize = function (a) {
             function b(b, c) {
                 w(c, a)
             }
@@ -592,87 +592,130 @@
             sizeWidth: !1,
             tolerance: 0,
             widthCalculationMethod: "scroll",
-            closedCallback: function() {},
-            initCallback: function() {},
-            messageCallback: function() {
+            closedCallback: function () { },
+            initCallback: function () { },
+            messageCallback: function () {
                 j("MessageCallback function not defined")
             },
-            resizedCallback: function() {},
-            scrollCallback: function() {
+            resizedCallback: function () { },
+            scrollCallback: function () {
                 return !0
             }
         };
     a.jQuery && E(jQuery), "function" == typeof define && define.amd ? define([], D) : "object" == typeof module && "object" == typeof module.exports ? module.exports = D() : a.iFrameResize = a.iFrameResize || D()
 }(window || {});
+
+// og-code -- START
+
 function initIframe(iframe_id) {
-	var og_check = 0;
-	var og_e = document.getElementById(iframe_id);
-	if (og_e.hasAttribute("data-check")) {
-		og_check = 1
-	} else {
-		og_e.setAttribute("data-check", "1")
-	}
-	if (og_check == 0) {
-		og_e.setAttribute("style", "line-height: 0;");
-		var og_u = og_e.getAttribute('data-url');
-		var og_w = og_e.getAttribute('data-width');
-		var og_b = document.getElementsByTagName("body")[0];
-		var og_h = document.getElementsByTagName("html")[0];
-		og_b.setAttribute("style", "overflow:scroll !important;height: 100%;-webkit-overflow-scrolling: touch !important;");
-		var og_js = document.createElement("script");
-		og_e.parentElement.setAttribute("style", "width:100% !important;");
-		og_js.setAttribute("type", "text/javascript");
-		og_js.setAttribute("src", "https://outgrow.co/js/loader/resizer.js");
-		og_e.appendChild(og_js);
-		var og_iFrame = document.createElement("iframe");
-		og_iFrame.setAttribute("id", "og-iframe-"+iframe_id);
-		og_iFrame.setAttribute("style", "border:none;");
-		og_iFrame.setAttribute("src", og_u);
-		og_iFrame.setAttribute("width", og_w);
-		og_iFrame.setAttribute("scrolling", "auto");
-		var iWidth = window.innerWidth;
-		if (iWidth < 786) {
-			var og_style = document.createElement("style");
-			var IS_IPHONE = (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
-			if (IS_IPHONE) {
-				var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100vh;}.ovr-hid{overflow: hidden !important;}")
-			} else {
-				var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100%; margin-bottom: -10px;}.ovr-hid{overflow: hidden !important;}")
-			}
-			og_style.appendChild(style_node);
-			og_e.appendChild(og_style);
-			var og_button = document.createElement("a");
-			og_button.setAttribute("href", "javascript:void(0);");
-			og_button.setAttribute("id", "og-iframe-button-"+iframe_id);
-			og_button.setAttribute("class", "og-iframe-button hide");
-			og_button.setAttribute("onclick", "toggleFullScreen('"+iframe_id+"')");
-			og_button.setAttribute("style", "position: absolute;right: 2%;top: 3%;color: black;text-decoration: none;z-index:9999;");
-			var button_node = document.createTextNode("");
-			og_button.appendChild(button_node);
-			og_b.appendChild(og_button);
-			var og_close = document.createElement("img");
-			og_close.setAttribute("src", "https://cdn.filestackcontent.com/HuaIq7oFQwWyS5Fjni9e");
-			og_button.appendChild(og_close);
-			var toggleFullScreen = document.createElement("script");
-			toggleFullScreen.setAttribute("type", "text/javascript");
-			var toggleFullScreen_node = document.createTextNode("function toggleFullScreen(iframe_id){console.log(iframe_id);document.getElementsByTagName('html')[0].classList.toggle('ovr-hid');var e=document.body;document.getElementById('body_wrapper').classList.toggle('fullScreen'),document.getElementById(\"og-iframe-"+iframe_id+"\").classList.toggle('height-auto'),document.getElementById('og-iframe-button-"+iframe_id+"').classList.toggle('hide'),document.getElementById('og_overlay_"+iframe_id+"').classList.toggle('hide'),document.getElementById('body_wrapper').classList.contains('fullScreen')?document.getElementById('body_wrapper').appendChild(document.getElementById('og-iframe-"+iframe_id+"')):document.getElementById(iframe_id).appendChild(document.getElementById('og-iframe-"+iframe_id+"')),void 0!==document.fullScreenElement&&null===document.fullScreenElement||void 0!==document.msFullscreenElement&&null===document.msFullscreenElement||void 0!==document.mozFullScreen&&!document.mozFullScreen||void 0!==document.webkitIsFullScreen&&!document.webkitIsFullScreen?e.requestFullScreen?e.requestFullScreen():e.mozRequestFullScreen?e.mozRequestFullScreen():e.webkitRequestFullScreen?e.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT):e.msRequestFullscreen&&e.msRequestFullscreen():document.cancelFullScreen?document.cancelFullScreen():document.mozCancelFullScreen?document.mozCancelFullScreen():document.webkitCancelFullScreen?document.webkitCancelFullScreen():document.msExitFullscreen&&document.msExitFullscreen()}");
-			toggleFullScreen.appendChild(toggleFullScreen_node);
-			og_e.appendChild(toggleFullScreen);
-			var og_overlay = document.createElement("div");
-			og_overlay.setAttribute("id", "og_overlay_"+iframe_id);
-			og_overlay.setAttribute("style", "position: absolute;width: 70%;height: 85%;top: 5%;left: 15%;");
-			og_overlay.setAttribute("onclick", "toggleFullScreen('"+iframe_id+"')");
-			og_e.appendChild(og_overlay);
-			var body_wrapper = document.createElement("div");
-			body_wrapper.setAttribute("id", "body_wrapper");
-			body_wrapper.setAttribute("style", "overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);");
-			og_b.appendChild(body_wrapper)
-		}
-		var ogOnLoadHandler = document.createElement("script");
-		ogOnLoadHandler.setAttribute("type", "text/javascript");
-		var node = document.createTextNode("var iWidth = window.innerWidth; var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe-"+iframe_id+"\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"og-iframe-"+iframe_id+"\").style.minHeight = height+'px';}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:height})}");
-		ogOnLoadHandler.appendChild(node);
-		og_e.appendChild(og_iFrame);
-		og_e.appendChild(ogOnLoadHandler)
-	}
+    var og_check = 0;
+    var iWidth = window.innerWidth;
+    var og_e = document.getElementById(iframe_id);
+    if (og_e.hasAttribute("data-check")) {
+        og_check = 1
+    } else {
+        og_e.setAttribute("data-check", "1")
+    }
+    if (og_check == 0) {
+        og_e.setAttribute("style", "line-height: 0;");
+        var og_u = og_e.getAttribute('data-url');
+        var og_w = og_e.getAttribute('data-width');
+        var og_b = document.getElementsByTagName("body")[0];
+        var og_h = document.getElementsByTagName("html")[0];
+        og_b.setAttribute("style", "overflow:scroll !important;height: 100%;-webkit-overflow-scrolling: touch !important;");
+        var og_js = document.createElement("script");
+        og_e.parentElement.setAttribute("style", "width:100% !important;");
+        if (iWidth < 786) {
+            //Image
+            //var imageUrl = og_u.match('http') ? "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=delay:2000/" + og_u :
+            //     "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=delay:2000/http:" + og_u;
+            var imageUrl = "https://cdn.filestackcontent.com/nVl3MpGdQpOTIumQEJoQ";
+            var og_image = document.createElement("img");
+            og_image.setAttribute("id", "og_image_" + iframe_id);
+            og_image.setAttribute("src", imageUrl);
+            og_image.setAttribute("width", og_w);
+            og_image.setAttribute("onclick", "onImgClick('" + iframe_id + "')");
+            og_e.appendChild(og_image);
+            initMobileFrames(iframe_id);
+            var og_bw = document.getElementById("og_body_wrapper");
+            var og_iFrame = document.createElement("iframe");
+            og_iFrame.setAttribute("id", "og_iframe_" + iframe_id);
+            og_iFrame.setAttribute("style", "border:none;");
+            og_iFrame.setAttribute("class", "hide");
+            og_iFrame.setAttribute("src", og_u);
+            og_iFrame.setAttribute("width", og_w);
+            og_iFrame.setAttribute("scrolling", "auto");
+            og_iFrame.setAttribute("onload", "initHeight('" + iframe_id + "')");
+            og_bw.appendChild(og_iFrame);
+        } else {
+            //loading iFrame
+            var og_iFrame = document.createElement("iframe");
+            og_iFrame.setAttribute("id", "og_iframe_" + iframe_id);
+            og_iFrame.setAttribute("style", "border:none;");
+            og_iFrame.setAttribute("src", og_u);
+            og_iFrame.setAttribute("width", og_w);
+            og_iFrame.setAttribute("scrolling", "auto");
+            og_iFrame.setAttribute("onload", "initHeight('" + iframe_id + "')");
+            og_e.appendChild(og_iFrame);
+        }
+    }
+}
+
+function initHeight(iframe_id) {
+    var iWidth = window.innerWidth;
+    var screenWidth = screen.width;
+    var screenHeight = screen.height;
+    var aspectRatio = screenWidth / screenHeight;
+    var iFrame = document.getElementById("og_iframe_" + iframe_id);
+    var width = iFrame.clientWidth;
+    var height = width / aspectRatio;
+    if (iWidth < 786) {
+        iFrame.style.minHeight = height + 'px';
+    } else {
+        var iframes = iFrameResize({ log: false, autoResize: true, enablePublicMethods: true, minHeight: height })
+    }
+}
+
+function initMobileFrames(iframe_id) {
+    var og_b = document.getElementsByTagName("body")[0];
+    var og_h = document.getElementsByTagName("html")[0];
+    if (!document.getElementById("og_body_wrapper")) {
+        //Body Wrapper
+        var body_wrapper = document.createElement("div");
+        body_wrapper.setAttribute("id", "og_body_wrapper");
+        body_wrapper.setAttribute("style", "overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);");
+        og_b.appendChild(body_wrapper);
+        //Style
+        var og_style = document.createElement("style");
+        var IS_IPHONE = (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
+        if (IS_IPHONE) {
+            var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100vh;}.ovr-hid{overflow: hidden !important;}")
+        } else {
+            var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100%; margin-bottom: -10px;}.ovr-hid{overflow: hidden !important;}")
+        }
+        og_style.appendChild(style_node);
+        og_b.appendChild(og_style);
+    }
+    var og_button = document.createElement("a");
+    og_button.setAttribute("href", "javascript:void(0);");
+    og_button.setAttribute("id", "og_iframe_button_" + iframe_id);
+    og_button.setAttribute("class", "og-iframe-button hide");
+    og_button.setAttribute("onclick", "onImgClick('" + iframe_id + "')");
+    og_button.setAttribute("style", "position: absolute;right: 2%;top: 3%;color: black;text-decoration: none;z-index:9999;");
+    var button_node = document.createTextNode("");
+    og_button.appendChild(button_node);
+    og_b.appendChild(og_button);
+    var og_close = document.createElement("img");
+    og_close.setAttribute("src", "https://cdn.filestackcontent.com/HuaIq7oFQwWyS5Fjni9e");
+    og_button.appendChild(og_close);
+}
+
+function onImgClick(iframe_id) {
+    var e = document.body;
+    document.getElementsByTagName('html')[0].classList.toggle('ovr-hid');
+    document.getElementById('og_body_wrapper').classList.toggle('fullScreen');
+    document.getElementById("og_iframe_" + iframe_id).classList.toggle('hide');
+    document.getElementById("og_iframe_" + iframe_id).classList.toggle('height-auto');
+    document.getElementById('og_iframe_button_' + iframe_id).classList.toggle('hide');
+    void 0 !== document.fullScreenElement && null === document.fullScreenElement || void 0 !== document.msFullscreenElement && null === document.msFullscreenElement || void 0 !== document.mozFullScreen && !document.mozFullScreen || void 0 !== document.webkitIsFullScreen && !document.webkitIsFullScreen ? e.requestFullScreen ? e.requestFullScreen() : e.mozRequestFullScreen ? e.mozRequestFullScreen() : e.webkitRequestFullScreen ? e.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT) : e.msRequestFullscreen && e.msRequestFullscreen() : document.cancelFullScreen ? document.cancelFullScreen() : document.mozCancelFullScreen ? document.mozCancelFullScreen() : document.webkitCancelFullScreen ? document.webkitCancelFullScreen() : document.msExitFullscreen && document.msExitFullscreen();
 }
