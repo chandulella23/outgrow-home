@@ -627,7 +627,7 @@ function initIframe(iframe_id) {
         og_e.parentElement.setAttribute("style", "width:100% !important;");
         if (iWidth < 786) {
             //Image
-            var imageUrl = "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=delay:2000/" + og_u;
+            var imageUrl = "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=agent:mobile,delay:2000,width:"+og_w+"/" + og_u;			
             var og_image = document.createElement("img");
             og_image.setAttribute("id", "og_image_" + iframe_id);
             og_image.setAttribute("src", imageUrl);
