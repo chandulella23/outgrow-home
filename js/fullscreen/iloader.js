@@ -627,7 +627,8 @@ function initIframe(iframe_id) {
         og_e.parentElement.setAttribute("style", "width:100% !important;");
         if (iWidth < 786) {
             //Image
-            var imageUrl = "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=agent:mobile,delay:2000,width:"+iWidth+"/" + og_u;			
+			var randNum  = Number(Math.floor(Math.random()*(3000-2000)+2000));
+            var imageUrl = "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=agent:mobile,delay:"+randNum+",width:"+iWidth+"/" + og_u;			
             var og_image = document.createElement("img");
             og_image.setAttribute("id", "og_image_" + iframe_id);
             og_image.setAttribute("src", imageUrl);
