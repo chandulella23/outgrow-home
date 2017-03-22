@@ -14881,5 +14881,5 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
 }*/
 
 .border-left{
-    border-left: 1px solid #bdc5c8;
+    border-left: 1px solid rgba(189, 197, 200, 0.6);
 }
