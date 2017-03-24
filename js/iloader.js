@@ -645,7 +645,7 @@ if (og_check == 0) {
         og_button.setAttribute("id", "og-iframe-button");
         og_button.setAttribute("class", "og-iframe-button hide");
         og_button.setAttribute("onclick", "toggleFullScreen()");
-        og_button.setAttribute("style", "position: absolute;right: 2%;top: 3%;color: black;text-decoration: none; z-index:9999; height:30px; width:30px;");
+        og_button.setAttribute("style", "position: fixed;right: 3%;top: 3%;color: black;text-decoration: none; z-index:9999; height:30px; width:30px;");
         var button_node = document.createTextNode("");
         og_button.appendChild(button_node);
         og_b.appendChild(og_button);
