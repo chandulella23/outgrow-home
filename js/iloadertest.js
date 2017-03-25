@@ -656,9 +656,7 @@ if (og_check == 0) {
         toggleFullScreen.setAttribute("type", "text/javascript");
         var toggleFullScreen_node = document.createTextNode("function toggleFullScreen(){document.getElementsByTagName('html')[0].classList.toggle('ovr-hid');var e=document.body;document.getElementById('body_wrapper').classList.toggle('fullScreen'),document.getElementById(\"og-iframe\").classList.toggle('height-auto'),document.getElementById('og-iframe-button').classList.toggle('hide'),document.getElementById('og_overlay').classList.toggle('hide'),document.getElementById('body_wrapper').classList.contains('fullScreen')?document.getElementById('body_wrapper').appendChild(document.getElementById('og-iframe')):document.getElementById('og-iframe-container').appendChild(document.getElementById('og-iframe')),void 0!==document.fullScreenElement&&null===document.fullScreenElement||void 0!==document.msFullscreenElement&&null===document.msFullscreenElement||void 0!==document.mozFullScreen&&!document.mozFullScreen||void 0!==document.webkitIsFullScreen&&!document.webkitIsFullScreen?e.requestFullScreen?e.requestFullScreen():e.mozRequestFullScreen?e.mozRequestFullScreen():e.webkitRequestFullScreen?e.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT):e.msRequestFullscreen&&e.msRequestFullscreen():document.cancelFullScreen?document.cancelFullScreen():document.mozCancelFullScreen?document.mozCancelFullScreen():document.webkitCancelFullScreen?document.webkitCancelFullScreen():document.msExitFullscreen&&document.msExitFullscreen()}");
         toggleFullScreen.appendChild(toggleFullScreen_node);
-		var bodyNode = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"body_wrapper\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"body_wrapper\").style.minHeight = height+'px';}else{var iframes = iFrameResize({minHeight:height})}");
 		
-		toggleFullScreen.appendChild(bodyNode);
         og_e.appendChild(toggleFullScreen);
         var og_overlay = document.createElement("div");
         og_overlay.setAttribute("id", "og_overlay");
@@ -668,7 +666,10 @@ if (og_check == 0) {
         var body_wrapper = document.createElement("div");
         body_wrapper.setAttribute("id", "body_wrapper");
         body_wrapper.setAttribute("style", "overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);");
-        og_b.appendChild(body_wrapper)
+        og_b.appendChild(body_wrapper);
+		var bodyNode = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"body_wrapper\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"body_wrapper\").style.minHeight = height+'px';}else{var iframes = iFrameResize({minHeight:height})}");
+		
+		toggleFullScreen.appendChild(bodyNode);
     }
     var ogOnLoadHandler = document.createElement("script");
     ogOnLoadHandler.setAttribute("type", "text/javascript");
