@@ -655,8 +655,9 @@ if (og_check == 0) {
         var toggleFullScreen = document.createElement("script");
         toggleFullScreen.setAttribute("type", "text/javascript");
         var toggleFullScreen_node = document.createTextNode("function toggleFullScreen(){document.getElementsByTagName('html')[0].classList.toggle('ovr-hid');var e=document.body;document.getElementById('body_wrapper').classList.toggle('fullScreen'),document.getElementById(\"og-iframe\").classList.toggle('height-auto'),document.getElementById('og-iframe-button').classList.toggle('hide'),document.getElementById('og_overlay').classList.toggle('hide'),document.getElementById('body_wrapper').classList.contains('fullScreen')?document.getElementById('body_wrapper').appendChild(document.getElementById('og-iframe')):document.getElementById('og-iframe-container').appendChild(document.getElementById('og-iframe')),void 0!==document.fullScreenElement&&null===document.fullScreenElement||void 0!==document.msFullscreenElement&&null===document.msFullscreenElement||void 0!==document.mozFullScreen&&!document.mozFullScreen||void 0!==document.webkitIsFullScreen&&!document.webkitIsFullScreen?e.requestFullScreen?e.requestFullScreen():e.mozRequestFullScreen?e.mozRequestFullScreen():e.webkitRequestFullScreen?e.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT):e.msRequestFullscreen&&e.msRequestFullscreen():document.cancelFullScreen?document.cancelFullScreen():document.mozCancelFullScreen?document.mozCancelFullScreen():document.webkitCancelFullScreen?document.webkitCancelFullScreen():document.msExitFullscreen&&document.msExitFullscreen()}");
-        var bodyNode = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"body_wrapper\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"body_wrapper\").style.minHeight = height+'px';}else{var iframes = iFrameResize({minHeight:height})}");
-		toggleFullScreen.appendChild(toggleFullScreen_node);
+        toggleFullScreen.appendChild(toggleFullScreen_node);
+		var bodyNode = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"body_wrapper\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"body_wrapper\").style.minHeight = height+'px';}else{var iframes = iFrameResize({minHeight:height})}");
+		
 		toggleFullScreen.appendChild(bodyNode);
         og_e.appendChild(toggleFullScreen);
         var og_overlay = document.createElement("div");
@@ -676,27 +677,3 @@ if (og_check == 0) {
     og_e.appendChild(og_iFrame);
     og_e.appendChild(ogOnLoadHandler)
 }
-
-    setTimeout(function () {
-        var startY = 0;
-        var startX = 0;
-        var b = document.body;
-        b.addEventListener('touchstart', function (event) {
-            parent.window.scrollTo(0, 1);
-            startY = event.targetTouches[0].pageY;
-            startX = event.targetTouches[0].pageX;
-        });
-        b.addEventListener('touchmove', function (event) {
-            event.preventDefault();
-            var posy = event.targetTouches[0].pageY;
-            var h = parent.document.getElementById("body_wrapper");
-            var sty = h.scrollTop;
-
-            var posx = event.targetTouches[0].pageX;
-            var stx = h.scrollLeft;
-            h.scrollTop = sty - (posy - startY);
-            h.scrollLeft = stx - (posx - startX);
-            startY = posy;
-            startX = posx;
-        });
-    }, 1000);
