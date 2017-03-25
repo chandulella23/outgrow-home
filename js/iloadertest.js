@@ -625,10 +625,10 @@ if (og_check == 0) {
     og_e.appendChild(og_js);
     var og_iFrame = document.createElement("iframe");
     og_iFrame.setAttribute("id", "og-iframe");
-    og_iFrame.setAttribute("style", "border:none;");
+    og_iFrame.setAttribute("style", "border:none;height:100%;");
     og_iFrame.setAttribute("src", og_u);
     og_iFrame.setAttribute("width", og_w);
-    og_iFrame.setAttribute("scrolling", "auto");
+    og_iFrame.setAttribute("scrolling", "no");
     var iWidth = window.innerWidth;
     if (iWidth < 786) {
         var og_style = document.createElement("style");
