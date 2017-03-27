@@ -617,6 +617,11 @@ function initIframe(iframe_id) {
         og_e.setAttribute("data-check", "1")
     }
     if (og_check == 0) {
+		var screenWidth = screen.width;
+		var screenHeight = screen.height;
+		var aspectRatio = screenWidth / screenHeight;
+		var width = og_e.clientWidth;
+		var height = width / aspectRatio;
         og_e.setAttribute("style", "line-height: 0;");
         var og_u = og_e.getAttribute('data-url');
         var og_w = og_e.getAttribute('data-width');
@@ -627,6 +632,7 @@ function initIframe(iframe_id) {
         og_e.parentElement.setAttribute("style", "width:100% !important;");
 		var og_iFrame = document.createElement("iframe");
 		og_iFrame.setAttribute("id", "og_iframe_" + iframe_id);
+		console.log('height',height);
 		og_iFrame.setAttribute("style", "border:none;");
 		og_iFrame.setAttribute("src", og_u);
 		og_iFrame.setAttribute("width", og_w);
