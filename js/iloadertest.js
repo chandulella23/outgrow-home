@@ -665,14 +665,14 @@ if (og_check == 0) {
         og_e.appendChild(og_overlay);
         var body_wrapper = document.createElement("div");
         body_wrapper.setAttribute("id", "body_wrapper");
-        body_wrapper.setAttribute("style", "overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);height:454px;");
+        body_wrapper.setAttribute("style", "overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);");
         og_b.appendChild(body_wrapper);
 		
 		
     }
     var ogOnLoadHandler = document.createElement("script");
     ogOnLoadHandler.setAttribute("type", "text/javascript");
-    var node = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"og-iframe\").style.Height = '1300px';}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:'1300px'})}");
+    var node = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"og-iframe\").style.minHeight = height+'px';}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:height})}");
     ogOnLoadHandler.appendChild(node);
     og_e.appendChild(og_iFrame);
     og_e.appendChild(ogOnLoadHandler)
