@@ -632,8 +632,7 @@ function initIframe(iframe_id) {
         og_e.parentElement.setAttribute("style", "width:100% !important;");
 		var og_iFrame = document.createElement("iframe");
 		og_iFrame.setAttribute("id", "og_iframe_" + iframe_id);
-		console.log('height',height);
-		og_iFrame.setAttribute("style", "border:none;");
+		og_iFrame.setAttribute("style", "border:none;min-height:"+height+"px;");
 		og_iFrame.setAttribute("src", og_u);
 		og_iFrame.setAttribute("width", og_w);
 		og_iFrame.setAttribute("scrolling", "auto");
