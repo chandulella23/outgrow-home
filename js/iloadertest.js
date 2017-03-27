@@ -672,7 +672,7 @@ if (og_check == 0) {
     }
     var ogOnLoadHandler = document.createElement("script");
     ogOnLoadHandler.setAttribute("type", "text/javascript");
-    var node = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"og-iframe\").style.minHeight = height+'px';}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:height})}");
+    var node = document.createTextNode("var screenWidth = screen.width; var screenHeight = screen.height; var aspectRatio = screenWidth/screenHeight;  var width = document.getElementById(\"og-iframe\").clientWidth; var height = width/aspectRatio; if(iWidth < 786){document.getElementById(\"og-iframe\").style.Height = '1300px';}else{var iframes = iFrameResize({log:false,autoResize:true,enablePublicMethods: true,minHeight:height})}");
     ogOnLoadHandler.appendChild(node);
     og_e.appendChild(og_iFrame);
     og_e.appendChild(ogOnLoadHandler)
