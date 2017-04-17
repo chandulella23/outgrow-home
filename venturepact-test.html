@@ -6,54 +6,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <title>VenturePact Online Test</title>
+    <style>
+    	#no-test {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 99vh;
+			font-family: monospace;
+    	}
+    	.ins {
+    		color: #f07762;
+    	}
+
+    	.ins-cont {
+    		padding-left: 0;
+    		list-style-type: none;
+    	}
+
+    	.ins-cont li {
+    		padding-bottom: 10px;
+    	}
+
+    	.butom {
+    		color: rgba(0,0,0,0.6);
+    		font-weight: 600;
+    		padding: 8px 10px;
+    		background: #f2f2f2;
+    		border: 0.2em solid #d3d3d3;
+    		cursor: pointer;
+    	}
+    </style>
 </head>
+
 <body>
-	<div>
-		<div id='58f490e9c2b61d737a310168' data-url='https://career.outgrow.co/58f490e9c2b61d737a310168' data-width='100%'>
+	<div id="app">
+		<div id="no-test">
+			<div class="par-cont">
+				<h2 class="ins">PLEASE WAIT ... </h2>
+			</div>
+		</div>
+
+		<div class="icalc" id='58f490e9c2b61d737a310168' data-url='https://career.outgrow.co/58f490e9c2b61d737a310168' data-width='100%'>
 
 		</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src='//outgrow.co/js/nloader.js'></script>
-		<script>
-			$(document).ready(function () {
-				console.log('Inside doc');
-				if (!readCookie('vptest')) {
-					console.log('Inside if');
-					createCookie('vptest', { testLocked: false }, 1/24)
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src='//outgrow.co/js/nloader.js'></script>
+	<script>
+		$(document).ready(function () {
+
+			if (!readCookie('vptest')) {
+				$('#no-test .par-cont').empty().append(`
+					<h2 class="ins">INSTRUCTION TO BE READ CAREFULLY</h2>
+					<ul class="ins-cont">
+						<li>Do not try to reload, close or even switch this window after you have clicked START TEST,<br> otherwise your test will be locked and considered as a reattempt.</li>
+						<li>Test consists of 30 questions and all the questions are mandatory.</li>
+						<li>There is no negative marking in this test</li>
+						<li>Total time allotted to complete the test is 30 minutes. Post 30 minutes the test will auto close.</li>
+					</ul>
+					<button class="butom" onclick="setCookie()">START TEST</button>
+               `);
+			}
+			else if (readCookie('vptest')) {
+				var vptest = readCookie('vptest');
+				if (!vptest.testLocked) {
+					$('#no-test').hide();
 					initIframe('58f490e9c2b61d737a310168');
 				}
-
-			});
-
-			$(window).blur(function(e) {
-    			createCookie('vptest', { testLocked: true });
-			});
-
-			createCookie(name, data, days = null) {
-			    data = JSON.stringify(data);
-			    let nameString = name+"="+data;
-			    let date = new Date();
-			    date.setTime(date.getTime() + days*24*60*60*1000);
-			    let expireString = "; expires="+date.toUTCString();
-			    document.cookie = nameString + expireString;
+				else {
+					$('#no-test .par-cont').empty().append(`
+						<h2 class="ins">Your test has been submitted. Kindly Leave</h2>
+	               `);
+				}
 			}
+		});
 
-			readCookie(name) {
-				console.log('Inside readcookie');
-		        let allCookies = document.cookie.split(';');
-		        for (let i=0; i < allCookies.length; i++) {
-		            let cookie = allCookies[i];
-		            if (cookie) {
-		                let cookieName = cookie.split('=')[0].trim();
-		                let cookieValue = cookie.split('=')[1].trim();
-		                if (name === cookieName) return JSON.parse(cookieValue);
-		            }
-		        }
-		        return null;
-		    }
+		$('#og_iframe_58f490e9c2b61d737a310168').on('focus', function () {
+			console.log('ASDASDADS');
+		})
 
+		$(window).blur(function(e) {
+			createCookie('vptest', { testLocked: true }, 1/12);
+			// window.location.reload(true);
+		});
 
-		</script>
-	</div>
+		function setCookie() {
+			createCookie('vptest', { testLocked: false }, 1/12);
+			$(document).find('.butom').html('Please wait ... ');
+			setTimeout(function () {
+				window.location.reload(true)
+			}, 3000);
+			setTimeout(function () {
+				createCookie('vptest', { testLocked: true }, 1/12);
+				window.location.reload(true);
+			}, 30*60*1000);
+		}
+
+		function createCookie(name, data, days = null) {
+		    data = JSON.stringify(data);
+		    let nameString = name+"="+data;
+		    let date = new Date();
+		    date.setTime(date.getTime() + days*24*60*60*1000);
+		    let expireString = "; expires="+date.toUTCString();
+		    document.cookie = nameString + expireString;
+		}
+
+		function readCookie(name) {
+	        let allCookies = document.cookie.split(';');
+	        for (let i=0; i < allCookies.length; i++) {
+	            let cookie = allCookies[i];
+	            if (cookie) {
+	                let cookieName = cookie.split('=')[0].trim();
+	                let cookieValue = cookie.split('=')[1].trim();
+	                if (name === cookieName) return JSON.parse(cookieValue);
+	            }
+	        }
+	        return null;
+	    }
+	</script>
 </body>
 </html>
