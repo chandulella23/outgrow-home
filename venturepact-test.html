@@ -23,11 +23,9 @@
 				}
 			});
 
-			let a = window;
-
-			a.onunload = function () {
-				alert('ASD');
-			}
+			$(window).on('beforeunload', function() {
+			    return 'Your own message goes here...';
+			});
 
 			createCookie(name, data, days = null) {
 			    data = JSON.stringify(data);
