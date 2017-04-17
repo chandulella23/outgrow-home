@@ -18,18 +18,14 @@
 			$(document).ready(function () {
 
 				if (!readCookie('vptest')) {
-
 					createCookie('vptest', { testLocked: false }, 1/24)
+					initIframe('58f490e9c2b61d737a310168');
 				}
+
 			});
 
 			$(window).blur(function(e) {
-    // Do Blur Actions Here
-    			alert("djdjd");
-			});
-			$(window).focus(function(e) {
-			    // Do Focus Actions Here
-			    alert("djdjdd");
+    			createCookie('vptest', { testLocked: true });
 			});
 
 			createCookie(name, data, days = null) {
@@ -54,7 +50,7 @@
 		        return null;
 		    }
 
-			initIframe('58f490e9c2b61d737a310168');
+
 		</script>
 	</div>
 </body>
