@@ -23,9 +23,13 @@
 				}
 			});
 
-			$(window).on('blur', function() {
-				alert("HII");
-			    //return 'Your own message goes here...';
+			$(window).blur(function(e) {
+    // Do Blur Actions Here
+    			alert("djdjd");
+			});
+			$(window).focus(function(e) {
+			    // Do Focus Actions Here
+			    alert("djdjdd");
 			});
 
 			createCookie(name, data, days = null) {
