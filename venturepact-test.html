@@ -23,8 +23,10 @@
 				}
 			});
 
-			window.onunload = function () {
-				alert('ASDASD');
+			let a = window;
+
+			a.onunload = function () {
+				alert('ASD');
 			}
 
 			createCookie(name, data, days = null) {
