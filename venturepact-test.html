@@ -16,8 +16,9 @@
 		<script src='//outgrow.co/js/nloader.js'></script>
 		<script>
 			$(document).ready(function () {
-
+				console.log('Inside doc');
 				if (!readCookie('vptest')) {
+					console.log('Inside if');
 					createCookie('vptest', { testLocked: false }, 1/24)
 					initIframe('58f490e9c2b61d737a310168');
 				}
@@ -38,6 +39,7 @@
 			}
 
 			readCookie(name) {
+				console.log('Inside readcookie');
 		        let allCookies = document.cookie.split(';');
 		        for (let i=0; i < allCookies.length; i++) {
 		            let cookie = allCookies[i];
