@@ -8,6 +8,49 @@
     <title>VenturePact Online Test</title>
 </head>
 <body>
-	<div><div id='58f490e9c2b61d737a310168' data-url='https://career.outgrow.co/58f490e9c2b61d737a310168' data-width='100%'></div><script src='//outgrow.co/js/nloader.js'></script><script>initIframe('58f490e9c2b61d737a310168');</script></div>
+	<div>
+		<div id='58f490e9c2b61d737a310168' data-url='https://career.outgrow.co/58f490e9c2b61d737a310168' data-width='100%'>
+
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src='//outgrow.co/js/nloader.js'></script>
+		<script>
+			$(document).ready(function () {
+
+				if (!readCookie('vptest')) {
+
+					createCookie('vptest', { testLocked: false }, 1/24)
+				}
+			});
+
+			window.onunload = function () {
+				alert('ASDASD');
+			}
+
+			createCookie(name, data, days = null) {
+			    data = JSON.stringify(data);
+			    let nameString = name+"="+data;
+			    let date = new Date();
+			    date.setTime(date.getTime() + days*24*60*60*1000);
+			    let expireString = "; expires="+date.toUTCString();
+			    document.cookie = nameString + expireString;
+			}
+
+			readCookie(name) {
+		        let allCookies = document.cookie.split(';');
+		        for (let i=0; i < allCookies.length; i++) {
+		            let cookie = allCookies[i];
+		            if (cookie) {
+		                let cookieName = cookie.split('=')[0].trim();
+		                let cookieValue = cookie.split('=')[1].trim();
+		                if (name === cookieName) return JSON.parse(cookieValue);
+		            }
+		        }
+		        return null;
+		    }
+
+			initIframe('58f490e9c2b61d737a310168');
+		</script>
+	</div>
 </body>
 </html>
