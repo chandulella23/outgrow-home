@@ -23,8 +23,9 @@
 				}
 			});
 
-			$(window).on('beforeunload', function() {
-			    return 'Your own message goes here...';
+			$(window).on('blur', function() {
+				alert("HII");
+			    //return 'Your own message goes here...';
 			});
 
 			createCookie(name, data, days = null) {
