@@ -235,7 +235,7 @@ function initRefersionCookie () {
     function setUTMRefCookie() {
 	    let search = window.location.search;
 
-	    if ('' !== search && !this._cookieService.readCookie('utm_ref')) {
+	    if ('' !== search && !readCookie('utm_ref')) {
 	      search = search.split('?')[1];
 	      let utmRefCookie = {
 	        'ref': 'UNKNOWN',
@@ -253,6 +253,6 @@ function initRefersionCookie () {
 	      if ('UNKNOWN' === utmRefCookie.ref) {
 	        utmRefCookie.ref = document.referrer ? document.referrer : 'DIRECT';
 	      }
-	      this._cookieService.createCookie('utm_ref', JSON.stringify(utmRefCookie), 365);
+	      createCookie('utm_ref', JSON.stringify(utmRefCookie), 365);
 	    }
 	  }
