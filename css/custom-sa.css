@@ -40,7 +40,7 @@
     visibility: hidden;
     box-shadow: 0 3px 7px 0px #919191;
     text-align: center;
-    left: -100px;
+    left: -110px;
     line-height: 1.42857143;
     text-transform: none;
     border-radius: 5px;
@@ -51,7 +51,7 @@
 }
 .help-checktip:before {
    	top: -9px;
-    left: 100px;
+    left: 110px;
     width: 10px;
     height: 10px;
     position: absolute;
