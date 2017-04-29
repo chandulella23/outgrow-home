@@ -665,8 +665,9 @@ function initHeight(iframe_id) {
     var width = iFrame.clientWidth;
     var height = width / aspectRatio;
     if (iWidth < 786) {
-        iFrame.style.height = height + 'px'
+        iFrame.style.minHeight = height + 'px'
     } else {
+		iFrame.style.height = height + 'px';
         var iframes = iFrameResize({
             log: false,
             autoResize: true,
