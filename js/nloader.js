@@ -652,6 +652,6 @@ function initHeight(iframe_id) {
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
-        minHeight: height
+        //minHeight: height
     }, "#og_iframe_" + iframe_id)
 }
