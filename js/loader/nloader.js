@@ -667,14 +667,14 @@ function initHeight(iframe_id) {
     if (iWidth < 786) {
         iFrame.style.minHeight = height + 'px'
     } else {
-		iFrame.style.height = height + 'px';
         var iframes = iFrameResize({
             log: false,
             autoResize: true,
             enablePublicMethods: true,
             checkOrigin: false,
             //minHeight: height
-        }, "#og_iframe_" + iframe_id)
+        }, "#og_iframe_" + iframe_id);
+		iFrame.style.height = height + 'px';
     }
 }
 
