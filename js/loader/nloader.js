@@ -644,9 +644,14 @@ function initIframe(iframe_id) {
             og_iFrame.setAttribute("onload", "initHeight('" + iframe_id + "')");
             og_bw.appendChild(og_iFrame)
         } else {
+			var screenWidth = screen.width;
+			var screenHeight = screen.height;
+			var aspectRatio = screenWidth / screenHeight;
+			var width = og_e.clientWidth;
+			var height = width / aspectRatio;		
             var og_iFrame = document.createElement("iframe");
             og_iFrame.setAttribute("id", "og_iframe_" + iframe_id);
-            og_iFrame.setAttribute("style", "border:none;");
+            og_iFrame.setAttribute("style", "border:none;height:" + height + "px;");
             og_iFrame.setAttribute("src", og_u);
             og_iFrame.setAttribute("width", og_w);
             og_iFrame.setAttribute("scrolling", "auto");
@@ -672,7 +677,6 @@ function initHeight(iframe_id) {
             autoResize: true,
             enablePublicMethods: true,
             checkOrigin: false,
-			height: height,
             //minHeight: height
         }, "#og_iframe_" + iframe_id);
     }
