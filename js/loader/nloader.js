@@ -672,9 +672,9 @@ function initHeight(iframe_id) {
             autoResize: true,
             enablePublicMethods: true,
             checkOrigin: false,
+			height: height,
             //minHeight: height
         }, "#og_iframe_" + iframe_id);
-		iFrame.style.height = height + 'px';
     }
 }
 
