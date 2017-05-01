@@ -116,6 +116,8 @@ jQuery(document).ready(function() {
 	var login = '<a href="http://app.outgrow.'+ext+'/login" class="link-login params" onclick="callGA(\'LOGIN\')">Login</a>';
 	if (!readCookie('storage'))
 		jQuery('.login').html(login);
+
+	setUTMRefCookie();
 });
 
 function readCookie(name) {
@@ -229,3 +231,28 @@ function initRefersionCookie () {
         }
         document.cookie = name+"="+value+expires+"; domain="+domain+"; path=/";
     }
+
+    function setUTMRefCookie() {
+	    let search = window.location.search;
+
+	    if ('' !== search && !readCookie('utm_ref')) {
+	      search = search.split('?')[1];
+	      let utmRefCookie = {
+	        'ref': 'UNKNOWN',
+	        'utm_source': 'UNKNOWN',
+	        'utm_medium': 'UNKNOWN',
+	        'utm_campaign': 'UNKNOWN',
+	      };
+	      let queryParams = search.split('&');
+	      queryParams.forEach(param => {
+	        let key = param.split('=')[0];
+	        let value = param.split('=')[1];
+	        if ('ref' === key || 'utm_source' === key || 'utm_medium' === key || 'utm_campaign' === key)
+	          utmRefCookie[key] = value;
+	      })
+	      if ('UNKNOWN' === utmRefCookie.ref) {
+	        utmRefCookie.ref = document.referrer ? document.referrer : 'DIRECT';
+	      }
+	      createCookie('utm_ref', JSON.stringify(utmRefCookie), 365);
+	    }
+	  }
