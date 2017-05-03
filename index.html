@@ -817,6 +817,22 @@
 	<script>
 	  	jQuery.material.init();
 	</script>
+	<script type="text/javascript" async defer>
+	$(window).load(function(){
+		$('.lateload').append('\
+			<video autoplay="true" controls="false" loop id="bgvid" class="rs-hide">\
+				<source type="video/webm" src="http://pivot.mediumra.re/video/video.webm">\
+				<source type="video/ogg" src="http://pivot.mediumra.re/video/video.ogv">\
+				<source type="video/mp4" src="http://pivot.mediumra.re/video/video.mp4">\
+			</video>\
+		');
+		
+		$('img').each(function(){
+			$(this).attr('src',$(this).attr('data-src'));
+		});
+		
+	});
+	</script>
 	<script>
 	 jQuery(document).ready(function() {
 		 //youtube video
