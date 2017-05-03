@@ -5,6 +5,7 @@
 @section('css')
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/animations.css">
     <link rel="stylesheet" href="/css/custom-sa.css">
     <link rel="stylesheet" href="/css/sahil-hover.css">
 	<link rel='stylesheet' href='/css/stylesheet.min.css' type='text/css' media='all'  />
