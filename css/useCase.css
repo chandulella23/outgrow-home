@@ -335,6 +335,7 @@ body{background:#fff !important;}
     float: left;
     display: block;
     text-transform: none;
+	margin-top:0px;
 }
 .usecase .section-usecase1-left span {
     color: #fb6c73;
@@ -404,6 +405,7 @@ body{background:#fff !important;}
     float: left;
     display: block;
     text-transform: none;
+	margin-top:0px;
 }
 .usecase .section-usecase2-left p {
     float: left;

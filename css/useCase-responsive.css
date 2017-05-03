@@ -3,7 +3,6 @@
 	.usecase .section-usecase1-left {
 		padding: 0;
 	}
-	
 	.usecase .section-usecase1-left .section-usecase1-new span i{
 		margin-right:10px;
 	}
@@ -31,8 +30,14 @@
 		margin-top: 0px;
 		margin-bottom: 30px !important;
 	}
+	.res-tab{
+		width:180px;
+	}
+	.usecase .gallery-content-center .abc{
+		margin-top:30px;
+	}
 }
-@media (min-width:480px) and (max-width: 768px){
+	@media (min-width:480px) and (max-width: 768px){
 	.section-usecase1 {
 		margin-top: 0px;
 		margin-bottom: 60px !important;
@@ -41,6 +46,7 @@
 		margin-top: 0px;
 		margin-bottom: 60px !important;
 	}
+	
 }
 @media (min-width:768px) and (max-width:768px){
 	.container.mobile-container {
@@ -59,6 +65,15 @@
 	}
 	.gallery-content{
 		margin-top:50px !important;
+	}
+}
+@media (min-width: 769px) and (max-width:990px) {
+	.useCase-heading{
+		margin-top: 30px;
+	}
+	.usecase .section-usecase1-left{
+		padding-left:15px;
+		padding-right:50px;
 	}
 }
 @media (min-width: 1024px) and (max-width:1250px) {
@@ -106,10 +121,10 @@
 	.container-fluid > .navbar-header{
 		margin-left:-30px;
 	}
-	.custom-navbar.navbar-default .navbar-nav > li > a{
+	/*.custom-navbar.navbar-default .navbar-nav > li > a{
 		padding-top: 15px;
 		padding-left: 35px;
-	}
+	}*/
 	.custom-navbar.navbar-default .navbar-nav > li{
 		margin-right:0px;
 	}
