@@ -3,12 +3,12 @@
 @section('title', 'Product Features | Outgrow')
 
 @section('css')
-	<link rel="stylesheet" href="/css/bootstrap.css">
-	<link rel="stylesheet" href="/css/custom-sa.css">
-	<link rel="stylesheet" href="/css/sahil-hover.css">
-	<link rel="stylesheet" href="/css/feature-responsive.css">
-	<link rel='stylesheet' href='/css/stylesheet.min.css' type='text/css' media='all'  />
-	<link rel='stylesheet' href='/css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/bootstrap.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/custom-sa.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/sahil-hover.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/feature-responsive.css">
+	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/stylesheet.min.css" type="text/css" media='all'  />
+	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 @endsection
 
@@ -33,55 +33,55 @@
 						<div class="vc_column-inner ">
 							<div class="wpb_wrapper">
 								<div class='qode-expanding-images'>
-									<div class='qode-expanding-images-inner mk-animate-element scale-up'><img class='qode-frame-image' src='/images/expanding_images_laptop-new.png'
+									<div class='qode-expanding-images-inner mk-animate-element scale-up'><img class='qode-frame-image' src='{{ $page->baseUrl }}/images/expanding_images_laptop-new.png'
 											alt='laptop frame' />
 									</div>
 									<div class='qode-side-images'>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
-												data-image='/images/expanding-side-image-1-new.jpg' data-lazy='true'></div>
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-1-new.jpg' data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
-												data-image='/images/expanding-side-image-2-new.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-2-new.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(-70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-3 qode-lazy-image qode-side-image-inner'
-												data-image='/images/expanding-side-image-3.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-3.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(-70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-4 qode-lazy-image qode-side-image-inner'
-												data-image='/images/expanding-side-image-4-new.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-4-new.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(180%,35%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-5 qode-lazy-image qode-side-image-outer'
-												data-image='/images/expanding-side-image-5.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-5.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(180%,-35%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-6 qode-lazy-image qode-side-image-outer'
-												data-image='/images/expanding-side-image-6.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-6.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(-180%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
-												data-image='/images/expanding-side-image-7.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-7.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
-												data-image='/images/expanding-side-image-8-1-new.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-8-1-new.jpg'
 												data-lazy='true'></div>
 										</a>
 									</div>
@@ -108,12 +108,12 @@
 					<div class="qode-cards-gallery-holder right" data-side=right>
 						<div class="qode-cards-gallery">
 							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/f-slide2.jpg"
+								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/f-slide2.jpg"
 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
 									/> </a>
 							</div>
 							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/f-slide1.jpg"
+								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/f-slide1.jpg"
 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
 									/> </a>
 							</div>
@@ -155,10 +155,10 @@
 						<div class="swiper-container  mk-animate-element scale-up rs-show">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
-									<img src="/images/f-slide2.jpg" alt="" class="qode-lazy-image" />
+									<img src="{{ $page->baseUrl }}/images/f-slide2.jpg" alt="" class="qode-lazy-image" />
 								</div>
 								<div class="swiper-slide">
-									<img src="/images/f-slide1.jpg" alt="" class="qode-lazy-image" />
+									<img src="{{ $page->baseUrl }}/images/f-slide1.jpg" alt="" class="qode-lazy-image" />
 								</div>
 							</div>
 							<!-- Add Pagination -->
@@ -168,12 +168,12 @@
 					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
 						<div class="qode-cards-gallery">
 							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/slide1.jpg"
+								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/slide1.jpg"
 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
 									/> </a>
 							</div>
 							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/slide2.jpg"
+								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/slide2.jpg"
 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
 									/> </a>
 							</div>
@@ -218,10 +218,10 @@
 						<div class="swiper-container  mk-animate-element scale-up rs-show">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
-									<img src="/images/slide1.jpg" alt="" class="qode-lazy-image" />
+									<img src="{{ $page->baseUrl }}/images/slide1.jpg" alt="" class="qode-lazy-image" />
 								</div>
 								<div class="swiper-slide">
-									<img src="/images/slide2.jpg" alt="" class="qode-lazy-image" />
+									<img src="{{ $page->baseUrl }}/images/slide2.jpg" alt="" class="qode-lazy-image" />
 								</div>
 							</div>
 							<!-- Add Pagination -->
@@ -235,12 +235,12 @@
 					<div class="qode-cards-gallery-holder left " data-side=left>
 						<div class="qode-cards-gallery">
 							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/slide1.jpg"
+								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/slide1.jpg"
 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
 									/> </a>
 							</div>
 							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/slide2.jpg"
+								<a href="javascript:void(0);"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/slide2.jpg"
 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
 									/> </a>
 							</div>
@@ -256,8 +256,8 @@
 	<section class="section section-f2">
 		<div class="container img-container-right mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right">
-				<img src="/images/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
-				<img src="/images/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right box-shadow" />
+				<img src="{{ $page->baseUrl }}/images/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
+				<img src="{{ $page->baseUrl }}/images/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right box-shadow" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-f2-left">
 				<span class="mk-animate-element right-to-left hide">
@@ -287,8 +287,8 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-f2-right">
-				<img src="/images/f-sec4-1.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
-				<img src="/images/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right" />
+				<img src="{{ $page->baseUrl }}/images/f-sec4-1.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
+				<img src="{{ $page->baseUrl }}/images/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right" />
 			</div>
 		</div>
 	</section>
@@ -310,12 +310,12 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right section-15-right">
-				<img src="/images/feature-1-2.jpg" class="mk-animate-element left-to-right img-left" />
-				<img class="sec15-2 mk-animate-element left-to-right box-shadow" src="/images/feature-1.jpg" />
+				<img src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="mk-animate-element left-to-right img-left" />
+				<img class="sec15-2 mk-animate-element left-to-right box-shadow" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-15-right">
-				<img src="/images/feature-1-2.jpg" class="mk-animate-element left-to-right img-pos box-shadow " />
-				<img class="sec15-2 mk-animate-element left-to-right box-shadow" src="/images/feature-1.jpg" />
+				<img src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="mk-animate-element left-to-right img-pos box-shadow " />
+				<img class="sec15-2 mk-animate-element left-to-right box-shadow" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
 			</div>
 		</div>
 	</section>
@@ -325,8 +325,8 @@
 	<section class="section section-17">
 		<div class="container img-container-right mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide ">
-				<img src="/images/resultpage.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
-				<img class="sec17-2 mk-animate-element left-to-right box-shadow" src="/images/feature-2-2.jpg" />
+				<img src="{{ $page->baseUrl }}/images/resultpage.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
+				<img class="sec17-2 mk-animate-element left-to-right box-shadow" src="{{ $page->baseUrl }}/images/feature-2-2.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-17-left">
 				<span class="mk-animate-element right-to-left">
@@ -341,10 +341,10 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-17-right">
-				<!-- <img src="/images/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
-				<img class="sec17-2 mk-animate-element left-to-right" src="/images/f-sec4-2.jpg" /> -->
-				 <img src="/images/resultpage.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
-				<img class="sec17-2 mk-animate-element left-to-right box-shadow" src="/images/feature-2-2.jpg" />
+				<!-- <img src="{{ $page->baseUrl }}/images/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
+				<img class="sec17-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/f-sec4-2.jpg" /> -->
+				 <img src="{{ $page->baseUrl }}/images/resultpage.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
+				<img class="sec17-2 mk-animate-element left-to-right box-shadow" src="{{ $page->baseUrl }}/images/feature-2-2.jpg" />
 			</div>
 		</div>
 	</section>
@@ -356,13 +356,13 @@
 			<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
 				<span>Multiple Results</span>
 				<p>Want to show the total cost with a discount, the total savings and how many trees will be saved? No problem!</p>
-				<img class="mk-animate-element scale-up shadow img-style res-img" src="/images/slide6-new1.jpg" />
+				<img class="mk-animate-element scale-up shadow img-style res-img" src="{{ $page->baseUrl }}/images/slide6-new1.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
 				<span>Realtime Results</span>
 				<p>Want to get more interactive & show the results in real time?
 				<br/> One click can let you do that!</p>
-				<img class="mk-animate-element scale-up shadow res-img img-style" src="/images/sec5-4-lg.jpg" />
+				<img class="mk-animate-element scale-up shadow res-img img-style" src="{{ $page->baseUrl }}/images/sec5-4-lg.jpg" />
 			</div>
 		</div>
 	</section>
@@ -433,12 +433,12 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide mk-animate-element left-to-right section-f3-right">
-				<img src="/images/slide6-new.jpg" class="mk-animate-element left-to-right box-shadow" />
-				<img class="secf3-2 mk-animate-element left-to-right" src="/images/f-sec4-3.jpg" />
+				<img src="{{ $page->baseUrl }}/images/slide6-new.jpg" class="mk-animate-element left-to-right box-shadow" />
+				<img class="secf3-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/f-sec4-3.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-f3-right">
-				<img src="/images/slide6-new.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
-				<img class="secf3-2 mk-animate-element left-to-right" src="/images/f-sec4-3.jpg" />
+				<img src="{{ $page->baseUrl }}/images/slide6-new.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
+				<img class="secf3-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/f-sec4-3.jpg" />
 			</div>
 		</div>
 	</section>
@@ -449,7 +449,7 @@
 		<div class="container img-container-right mobile-container">
 
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide mk-animate-element right-to-left">
-				<img src="/images/analytics02.jpg" class="mk-animate-element right-to-left box-shadow" />
+				<img src="{{ $page->baseUrl }}/images/analytics02.jpg" class="mk-animate-element right-to-left box-shadow" />
  -->            </div>
 			 <div class="col-xs-12 col-sm-12 col-md-5 section-f4-left sec-f4-style">
 				<span class="mk-animate-element left-to-right hide">
@@ -479,7 +479,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 rs-show np mk-animate-element left-to-right section-f4-right">
-					<img src="/images/analytics02.jpg" class="mk-animate-element left-to-right box-shadow w100" />
+					<img src="{{ $page->baseUrl }}/images/analytics02.jpg" class="mk-animate-element left-to-right box-shadow w100" />
 			</div>
 		</div>
 	</section>
@@ -512,12 +512,12 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide mk-animate-element right-to-left section-4-img">
-				<img src="/images/f-sec4-1.jpg" class="mk-animate-element right-to-left box-shadow" />
-				<img class="sec4-2 mk-animate-element left-to-right" src="/images/f-sec4-2-1.jpg" />
+				<img src="{{ $page->baseUrl }}/images/f-sec4-1.jpg" class="mk-animate-element right-to-left box-shadow" />
+				<img class="sec4-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/f-sec4-2-1.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element right-to-left section-4-img">
-				<img src="/images/f-sec4-1.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
-				<img class="sec4-2 mk-animate-element left-to-right " src="/images/f-sec4-2-1.jpg" />
+				<img src="{{ $page->baseUrl }}/images/f-sec4-1.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
+				<img class="sec4-2 mk-animate-element left-to-right " src="{{ $page->baseUrl }}/images/f-sec4-2-1.jpg" />
 			</div>
 		</div>
 	</section>
@@ -526,8 +526,8 @@
 	<section class="section section-f2 feature-9-1">
 		<div class="container img-container-right mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide mk-animate-element left-to-right">
-				<img src="/images/share-img.png" class="mk-animate-element left-to-right" />
-				<img src="/images/f-slider3new.png" class="secf2-2 mk-animate-element left-to-right" />
+				<img src="{{ $page->baseUrl }}/images/share-img.png" class="mk-animate-element left-to-right" />
+				<img src="{{ $page->baseUrl }}/images/f-slider3new.png" class="secf2-2 mk-animate-element left-to-right" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-f2-left">
 				<span class="mk-animate-element right-to-left hide">
@@ -552,8 +552,8 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-f2-right">
-				<img src="/images/share-img.png" class="mk-animate-element left-to-right img-pos" />
-				<img src="/images/f-slider3new.png" class="secf2-2 mk-animate-element left-to-right" />
+				<img src="{{ $page->baseUrl }}/images/share-img.png" class="mk-animate-element left-to-right img-pos" />
+				<img src="{{ $page->baseUrl }}/images/f-slider3new.png" class="secf2-2 mk-animate-element left-to-right" />
 			</div>
 		</div>
 	</section>
@@ -567,10 +567,10 @@
 				<p>Send data to over 500 CRMs and marketing tools with 1 easy integration.</p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-hide">
-				<img src="/images/si-iocns-new.jpg" />
+				<img src="{{ $page->baseUrl }}/images/si-iocns-new.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-show text-center">
-				<img src="/images/si-iocns-res.jpg" />
+				<img src="{{ $page->baseUrl }}/images/si-iocns-res.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 np text-center mk-animate-element scale-up rs-hide">
 				<a href="javascript:void(0);" id="loginAnchor">

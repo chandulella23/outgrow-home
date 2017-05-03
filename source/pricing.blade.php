@@ -3,12 +3,12 @@
 @section('title', 'Pricing | Outgrow')
 
 @section('css')
-	<link rel="stylesheet" href="/css/bootstrap.css">
-	<link rel="stylesheet" href="/css/custom-sa.css">
-	<link rel="stylesheet" href="/css/sahil-hover.css">
-	<link rel="stylesheet" href="/css/pricing-responsive.css">
-	<link rel='stylesheet' href='/css/stylesheet.min.css' type='text/css' media='all'  />
-	<link rel='stylesheet' href='/css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/bootstrap.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/custom-sa.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/sahil-hover.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/pricing-responsive.css">
+	<link rel='stylesheet' href='{{ $page->baseUrl }}/css/stylesheet.min.css' type='text/css' media='all'  />
+	<link rel='stylesheet' href='{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 @endsection
 

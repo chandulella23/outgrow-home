@@ -4,15 +4,15 @@
 
 @section('css')
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="/css/bootstrap.css">
-	<link rel="stylesheet" href="/css/animations.css">
-    <link rel="stylesheet" href="/css/custom-sa.css">
-    <link rel="stylesheet" href="/css/sahil-hover.css">
-	<link rel='stylesheet' href='/css/stylesheet.min.css' type='text/css' media='all'  />
-	<link rel='stylesheet' href='/css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />
-	<link rel="stylesheet" href="/css/useCase.css">
-	<link rel="stylesheet" href="/css/animated-masonry-gallery.css" type="text/css" />
-	<link rel="stylesheet" href="css/useCase-responsive.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/bootstrap.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/animations.css">
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/custom-sa.css">
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/sahil-hover.css">
+	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/stylesheet.min.css" type="text/css" media='all'  />
+	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/animated-masonry-gallery.css" type="text/css" />
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase-responsive.css">
 @endsection
 
 @section('pageClass', 'usecase')
@@ -151,10 +151,10 @@
  						<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
  							<div class="swiper-wrapper">
  								<div class="swiper-slide">
- 									<img src="/images/em1-3.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em1-3.jpg" alt="" class="qode-lazy-image" />
  								</div>
  								<div class="swiper-slide">
- 									<img src="/images/em1-2.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em1-2.jpg" alt="" class="qode-lazy-image" />
  								</div>
  							</div>
  							<!-- Add Pagination -->
@@ -226,10 +226,10 @@
  						<div class="swiper-container box-shadow  mk-animate-element scale-up">
  							<div class="swiper-wrapper">
  								<div class="swiper-slide">
- 									<img src="/images/em2-1.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em2-1.jpg" alt="" class="qode-lazy-image" />
  								</div>
  								<div class="swiper-slide">
- 									<img src="/images/em2-2.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em2-2.jpg" alt="" class="qode-lazy-image" />
  								</div>
  							</div>
  							<!-- Add Pagination -->
@@ -301,10 +301,10 @@
  						<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
  							<div class="swiper-wrapper">
  								<div class="swiper-slide">
- 									<img src="/images/em3-3.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em3-3.jpg" alt="" class="qode-lazy-image" />
  								</div>
  								<div class="swiper-slide">
- 									<img src="/images/em3-2.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em3-2.jpg" alt="" class="qode-lazy-image" />
  								</div>
  							</div>
  							<!-- Add Pagination -->
@@ -452,10 +452,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide  mk-animate-element right-to-left">
-													<img src="/images/banner2.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show  mk-animate-element right-to-left">
-													<img src="/images/banner2.jpg" class= "img-pos box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner2.jpg" class= "img-pos box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -464,7 +464,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/slide5-new.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/slide5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -502,7 +502,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/slide5-new.jpg" class= "box-shadow img-res" />
+													<img src="{{ $page->baseUrl }}/images/slide5-new.jpg" class= "box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -551,11 +551,11 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner7-ex.jpg" class="box-shadow" />
 												</div>
 
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner7-ex.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -565,7 +565,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/homepage-2.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/homepage-2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -603,7 +603,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/homepage-2.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/homepage-2.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -646,10 +646,10 @@
 												</div>
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/banner5-new.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="/images/banner5-new.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner5-new.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -660,7 +660,7 @@
 											<div class="container img-container-right mobile-container">
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/slide3.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/slide3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -707,7 +707,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/slide3.jpg" class="box-shadow img-res" />
+													<img src="{{ $page->baseUrl }}/images/slide3.jpg" class="box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -753,10 +753,10 @@
 												</div>
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/banner4-new.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner4-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="/images/banner4-new.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner4-new.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -766,7 +766,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/banner6.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner6.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -800,7 +800,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/banner6.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -842,11 +842,11 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner8-ex.jpg" class="box-shadow" />
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner8-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -883,10 +883,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide">
-													<img src="/images/banner10.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner10.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show">
-													<img src="/images/banner10.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner10.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -911,7 +911,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide">
-													<img src="/images/new-collag3.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/new-collag3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -948,7 +948,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/new-collag3.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/new-collag3.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -993,10 +993,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner7-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner7-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1005,7 +1005,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/slide5-new.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/slide5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1042,7 +1042,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/slide5-new.jpg" class="box-shadow img-res" />
+													<img src="{{ $page->baseUrl }}/images/slide5-new.jpg" class="box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -1086,10 +1086,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/banner6.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner6.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="/images/banner6.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1098,7 +1098,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/Construction.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/Construction.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1147,7 +1147,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/Construction.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/Construction.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1191,10 +1191,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner8-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner8-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1203,7 +1203,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/banner2.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1236,7 +1236,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/banner2.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner2.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1281,10 +1281,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="/images/manufacturing.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/manufacturing.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/manufacturing.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/manufacturing.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1293,7 +1293,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="/images/banner9-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner9-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1326,7 +1326,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="/images/banner9-ex.jpg" class="box-shadow" />
+													<img src="{{ $page->baseUrl }}/images/banner9-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1362,5 +1362,5 @@
 @endsection
 
 @section('tags')
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="{{ $page->baseUrl }}/js/jquery.isotope.min.js"></script>
 @endsection

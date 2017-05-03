@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <head>
-
 	<title>@yield('title')</title>
 
 	<meta charset="utf-8">
@@ -41,14 +40,14 @@
 	@include('_partials.footer')
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src='/js/default_dynamic3f4f.js?ver=1470129303'></script>
-	<script src='/js/plugins.js'></script>
-	<script src='/js/default.min.js'></script>
-	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/material.min.js"></script>
-	<script src="/js/custom.js"></script>
-	<script src="/js/jquery.counterup.min.js"></script>
-	<script src="/js/plans.js"></script>
+	<script src="{{ $page->baseUrl }}/js/default_dynamic3f4f.js?ver=1470129303"></script>
+	<script src="{{ $page->baseUrl }}/js/plugins.js"></script>
+	<script src="{{ $page->baseUrl }}/js/default.min.js"></script>
+	<script src="{{ $page->baseUrl }}/js/bootstrap.min.js"></script>
+	<script src="{{ $page->baseUrl }}/js/material.min.js"></script>
+	<script src="{{ $page->baseUrl }}/js/custom.js"></script>
+	<script src="{{ $page->baseUrl }}/js/jquery.counterup.min.js"></script>
+	<script src="{{ $page->baseUrl }}/js/plans.js"></script>
 	@yield('tags')
 
 	@include('_partials.footerscripts')

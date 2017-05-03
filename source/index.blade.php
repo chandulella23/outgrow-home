@@ -3,7 +3,7 @@
 @section('title', 'Interactive Calculators and Quizzes | Outgrow')
 
 @section('css')
-	<link rel="stylesheet" href="/css/allPage_minified.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 @endsection
 
 @section('pageClass', '')
@@ -57,15 +57,15 @@
 			<div class="col-xs-12 col-sm-6 rs-show np">
 				<div class="sec1-box-left">
 					<div class="sec1-box1 mk-animate-element left-to-right">
-						<img src="/images/new-collag1.jpg" />
+						<img src="{{ $page->baseUrl }}/images/new-collag1.jpg" />
 					</div>
 					<div class="sec1-box2  mk-animate-element left-to-right">
-						<img src="/images/new-collag4_edited.jpg" />
+						<img src="{{ $page->baseUrl }}/images/new-collag4_edited.jpg" />
 					</div>
 				</div>
 				<div class="sec1-box-right">
 					<div class="sec1-box3  mk-animate-element right-to-left">
-						<img src="/images/homepage-soccer1.jpg" />
+						<img src="{{ $page->baseUrl }}/images/homepage-soccer1.jpg" />
 					</div>
 				</div>
 			</div>
@@ -110,13 +110,13 @@
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-12 np outer-container text-center">
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img class="img-1 mk-animate-element right-to-left" src="/images/sec3-img1-edited.png" />
+					<img class="img-1 mk-animate-element right-to-left" src="{{ $page->baseUrl }}/images/sec3-img1-edited.png" />
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img src="/images/sec3-img2-edited.png" class="mk-animate-element left-to-right img-2" />
+					<img src="{{ $page->baseUrl }}/images/sec3-img2-edited.png" class="mk-animate-element left-to-right img-2" />
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-show">
-					<img src="/images/mobile-top2.png" class="mk-animate-element left-to-right img-2" />
+					<img src="{{ $page->baseUrl }}/images/mobile-top2.png" class="mk-animate-element left-to-right img-2" />
 				</div>
 			</div>
 		</div>
@@ -156,7 +156,7 @@
 			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
 				<div class="embed-responsive embed-responsive-16by9">
 					<video width="1324" height="607" autoplay loop>
-						<source src="/images/Outgrow-demo.mp4" type="video/mp4">
+						<source src="{{ $page->baseUrl }}/images/Outgrow-demo.mp4" type="video/mp4">
 					</video>
 				</div>
 			</div>
@@ -181,7 +181,7 @@
 			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
 				<div class="embed-responsive embed-responsive-16by9">
 					<video width="1324" height="607" autoplay loop>
-						<source src="/images/Outgrow-demo.mp4" type="video/mp4">
+						<source src="{{ $page->baseUrl }}/images/Outgrow-demo.mp4" type="video/mp4">
 					</video>
 				</div>
 			</div>
@@ -193,8 +193,8 @@
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="mk-animate-element scale-up sec5-2-1" src="/images/sec5-1.png" />
-				<img class="sec5-2 mk-animate-element left-to-right" src="/images/sec5-2-new.png" />
+				<img class="mk-animate-element scale-up sec5-2-1" src="{{ $page->baseUrl }}/images/sec5-1.png" />
+				<img class="sec5-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/sec5-2-new.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -215,8 +215,8 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="mk-animate-element scale-up sec5-2-1" src="/images/sec5-1.png" />
-				<img class="sec5-2 mk-animate-element left-to-right" src="/images/sec5-2-new.png" />
+				<img class="mk-animate-element scale-up sec5-2-1" src="{{ $page->baseUrl }}/images/sec5-1.png" />
+				<img class="sec5-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/sec5-2-new.png" />
 			</div>
 		</div>
 	</section>
@@ -226,8 +226,8 @@
 	<section class="section section-6">
 		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show ">
-				<img class="mk-animate-element right-to-left sec6-2-1" src="/images/share-img.png" />
-				<img class="sec6-2-2 mk-animate-element left-to-right" src="/images/lead-sec.png" />
+				<img class="mk-animate-element right-to-left sec6-2-1" src="{{ $page->baseUrl }}/images/share-img.png" />
+				<img class="sec6-2-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/lead-sec.png" />
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
 				<h4 class="mk-animate-element left-to-right">
@@ -243,8 +243,8 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
-				<img class="mk-animate-element right-to-left " src="/images/share-img.png" />
-				<img class="sec4-2 mk-animate-element left-to-right" src="/images/lead-sec.png" />
+				<img class="mk-animate-element right-to-left " src="{{ $page->baseUrl }}/images/share-img.png" />
+				<img class="sec4-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/lead-sec.png" />
 			</div>
 		</div>
 	</section>
@@ -253,7 +253,7 @@
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="mk-animate-element scale-up box-shadow" src="/images/graph-2-updated.jpg" />
+				<img class="mk-animate-element scale-up box-shadow" src="{{ $page->baseUrl }}/images/graph-2-updated.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -274,8 +274,8 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="mk-animate-element scale-up box-shadow" src="/images/graph-2-updated.jpg" />
-				<!-- <img class="sec5-2 mk-animate-element left-to-right" src="/images/sec5-2-new.png" /> -->
+				<img class="mk-animate-element scale-up box-shadow" src="{{ $page->baseUrl }}/images/graph-2-updated.jpg" />
+				<!-- <img class="sec5-2 mk-animate-element left-to-right" src="{{ $page->baseUrl }}/images/sec5-2-new.png" /> -->
 			</div>
 
 			<div class="col-xs-12 col-sm-12 text-center rs-hide">
@@ -290,7 +290,7 @@
 		<div class="container-fluid">
 			<div class="sec10-testimonial mk-animate-element left-to-right">
 				<div class="sec10-testname1 hide">
-					<img src="/images/testimonial1.png" />
+					<img src="{{ $page->baseUrl }}/images/testimonial1.png" />
 				</div>
 				<div class="sec10-tes-inner">
 					<em class="sec10-em1">“</em>
@@ -330,10 +330,10 @@
  						<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
  							<div class="swiper-wrapper">
  								<div class="swiper-slide">
- 									<img src="/images/em1-3.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em1-3.jpg" alt="" class="qode-lazy-image" />
  								</div>
  								<div class="swiper-slide">
- 									<img src="/images/em1-2.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em1-2.jpg" alt="" class="qode-lazy-image" />
  								</div>
  							</div>
  						</div>
@@ -342,12 +342,12 @@
  					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
  						<div class="qode-cards-gallery">
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="/images/em1-2.jpg"
+ 								<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em1-2.jpg"
  										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
  									/> </a>
  							</div>
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="/images/em1-3.jpg"
+ 								<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em1-3.jpg"
  										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
  									/> </a>
  							</div>
@@ -405,10 +405,10 @@
  						<div class="swiper-container box-shadow  mk-animate-element scale-up">
  							<div class="swiper-wrapper">
  								<div class="swiper-slide">
- 									<img src="/images/em2-1.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em2-1.jpg" alt="" class="qode-lazy-image" />
  								</div>
  								<div class="swiper-slide">
- 									<img src="/images/em2-2.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em2-2.jpg" alt="" class="qode-lazy-image" />
  								</div>
  							</div>
  							<!-- Add Pagination -->
@@ -418,12 +418,12 @@
  					<div class="qode-cards-gallery-holder right rs-hide" data-side=right>
  						<div class="qode-cards-gallery">
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank" > <img src="#" alt="" class="qode-lazy-image" data-image="/images/em2-1.jpg"
+ 								<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank" > <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em2-1.jpg"
  										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
  									/> </a>
  							</div>
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/em2-2.jpg"
+ 								<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em2-2.jpg"
  										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true" /> </a>
  							</div>
 						 </div>
@@ -480,10 +480,10 @@
  						<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
  							<div class="swiper-wrapper">
  								<div class="swiper-slide">
- 									<img src="/images/em3-3.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em3-3.jpg" alt="" class="qode-lazy-image" />
  								</div>
  								<div class="swiper-slide">
- 									<img src="/images/em3-2.jpg" alt="" class="qode-lazy-image" />
+ 									<img src="{{ $page->baseUrl }}/images/em3-2.jpg" alt="" class="qode-lazy-image" />
  								</div>
  							</div>
  						</div>
@@ -492,12 +492,12 @@
  					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
  						<div class="qode-cards-gallery">
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/em3-3.jpg"
+ 								<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em3-3.jpg"
  									style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
 									 /> </a>
  							</div>
  							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/em3-2.jpg"
+ 								<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em3-2.jpg"
  								 style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"	/> </a>
  							</div>
 						 </div>
@@ -551,7 +551,7 @@
 		<div class="container-fluid">
 			<div class="sec10-testimonial mk-animate-element right-to-left">
 				<div class="sec10-testname1 hide">
-					<img src="/images/testimonial2.png" />
+					<img src="{{ $page->baseUrl }}/images/testimonial2.png" />
 				</div>
 				<div class="sec10-tes-inner">
 					<em class="sec10-em1">“</em>
@@ -779,7 +779,7 @@
 												<a itemprop="url" class="portfolio_link_class" title="Airbnb vs Hotel "
 													href="javascript:void(0);"></a>
 												<div class="portfolio_shader"></div>
-												<div class="image_holder"><span class="image"><img width="700" height="442" src="/images/banner1-new.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a"  sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="{{ $page->baseUrl }}/images/banner1-new.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a"  sizes="(max-width: 700px) 100vw, 700px" /></span></div>
 											</div>
 										</article>
 										<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9 portfolio_category_5'
@@ -788,7 +788,7 @@
 												<a itemprop="url" class="portfolio_link_class" title="Insurance Saving"
 													href="javascript:void(0);"></a>
 												<div class="portfolio_shader"></div>
-												<div class="image_holder"><span class="image"><img width="700" height="442" src="/images/banner5-subhead.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="{{ $page->baseUrl }}/images/banner5-subhead.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
 											</div>
 										</article>
 										<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9'
@@ -797,7 +797,7 @@
 												<a itemprop="url" class="portfolio_link_class" title="Heart Disease"
 													href="javascript:void(0);"></a>
 												<div class="portfolio_shader"></div>
-												<div class="image_holder"><span class="image"><img width="700" height="442" src="/images/banner6-subhead.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="{{ $page->baseUrl }}/images/banner6-subhead.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
 											</div>
 										</article>
 										<article class='mix portfolio_category_3 portfolio_category_2' style=''>
@@ -805,7 +805,7 @@
 												<a itemprop="url" class="portfolio_link_class" title="Video Campaign"
 													href="javascript:void(0);"></a>
 												<div class="portfolio_shader"></div>
-												<div class="image_holder"><span class="image"><img width="700" height="442" src="/images/banner7.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="{{ $page->baseUrl }}/images/banner7.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="a" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
 											</div>
 										</article>
 										<article class='mix portfolio_category_3 portfolio_category_2' style=''>
@@ -813,7 +813,7 @@
 												<a itemprop="url" class="portfolio_link_class" title="Home Loan"
 													href="javascript:void(0);"></a>
 												<div class="portfolio_shader"></div>
-												<div class="image_holder"><span class="image"><img width="700" height="442" src="/images/banner8.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="{{ $page->baseUrl }}/images/banner8.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
 											</div>
 										</article>
 										<article class='mix portfolio_category_3 portfolio_category_4 portfolio_category_2 portfolio_category_9'
@@ -822,7 +822,7 @@
 												<a itemprop="url" class="portfolio_link_class" title="Star Health"
 													href="javascript:void(0);"></a>
 												<div class="portfolio_shader"></div>
-												<div class="image_holder"><span class="image"><img width="700" height="442" src="/images/banner9.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
+												<div class="image_holder"><span class="image"><img width="700" height="442" src="{{ $page->baseUrl }}/images/banner9.jpg" class="attachment-portfolio-landscape size-portfolio-landscape wp-post-image" alt="p" sizes="(max-width: 700px) 100vw, 700px" /></span></div>
 											</div>
 										</article>
 										<div class='filler'></div>
@@ -861,7 +861,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-show text-center">
-					<img class="ebook-img" src="/images/ebook-1.png">
+					<img class="ebook-img" src="{{ $page->baseUrl }}/images/ebook-1.png">
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 np">
 					<div class="ebook-outer">
@@ -893,7 +893,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img class="ebook-img" src="/images/ebook-1.png">
+					<img class="ebook-img" src="{{ $page->baseUrl }}/images/ebook-1.png">
 				</div>
 			</div>
 		</div>
