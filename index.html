@@ -830,16 +830,15 @@
 			jQuery(this).attr('src',jQuery(this).attr('data-src'));
 		});
 		
-	});
-	</script>
-	<script>
-	 jQuery(document).ready(function() {
 		jQuery('.outgrow-video').each(function(){
 			jQuery(this).attr('src',jQuery(this).attr('data-src'));
 			//myVid			=	document.getElementById("player");
 			//myVid.muted	=	true;
 		});
-		
+	});
+	</script>
+	<script>
+	 jQuery(document).ready(function() {
 		 //youtube video
 		 jQuery('.close').click(function(){
 			jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
