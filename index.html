@@ -814,6 +814,33 @@
 	</script>
 	<script type="text/javascript" async defer>
 	jQuery(window).load(function(){
+		/*jQuery('.lazyLoad1').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
+			</video>\
+		');
+	
+		jQuery('.lazyLoad2').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
+			</video>\
+		');
+		
+		jQuery('.outgrow-video').each(function(){
+			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+			//myVid			=	document.getElementById("player");
+			//myVid.muted	=	true;
+		});*/
+		
+		jQuery('img').each(function(){
+			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+		});
+		
+	});
+	</script>
+	<script>
+	 jQuery(document).ready(function() {
+	 
 		jQuery('.lazyLoad1').append('\
 			<video width="1324" height="607" autoplay loop>\
 				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
@@ -832,14 +859,6 @@
 			//myVid.muted	=	true;
 		});
 		
-		jQuery('img').each(function(){
-			jQuery(this).attr('src',jQuery(this).attr('data-src'));
-		});
-		
-	});
-	</script>
-	<script>
-	 jQuery(document).ready(function() {
 		 //youtube video
 		 jQuery('.close').click(function(){
 			jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
