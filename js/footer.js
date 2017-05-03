@@ -85,7 +85,6 @@ var footer = '<div class="container">'+
 				'<i class="material-icons">copyright</i>'+
 				'<span>Copyrights</span>'+
 				'<img src="" data-src="images/footer-logo.png" />'+
-				'<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="footer-img-2 rs-hide-mb" src="" data-src="images/comodo_secure.png" /></a>'+
 			'</div>'+
 		'</div>'+
 '</div>';
