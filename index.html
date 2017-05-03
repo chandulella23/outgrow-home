@@ -261,10 +261,8 @@
 	<section class="section section-4">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
-				<div class="embed-responsive embed-responsive-16by9">
-					<video width="1324" height="607" autoplay loop>
-						<source src="images/Outgrow-demo.mp4" type="video/mp4">
-					</video>
+				<div class="embed-responsive embed-responsive-16by9 lazyLoad1">
+					
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
@@ -286,10 +284,8 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
-				<div class="embed-responsive embed-responsive-16by9">
-					<video width="1324" height="607" autoplay loop>
-						<source src="images/Outgrow-demo.mp4" type="video/mp4">
-					</video>
+				<div class="embed-responsive embed-responsive-16by9 lazyLoad2">
+					
 				</div>
 			</div>
 		</div>
@@ -734,7 +730,7 @@
 							<div class="tab-content">
 								<div id="overview" class="tab-pane fade in active">
 									<div class="embed-responsive embed-responsive-16by9">
-										<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<iframe class="outgrow-video" src="" data-src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>
@@ -818,13 +814,23 @@
 	</script>
 	<script type="text/javascript" async defer>
 	jQuery(window).load(function(){
-		jQuery('.lateload').append('\
-			<video autoplay="true" controls="false" loop id="bgvid" class="rs-hide">\
-				<source type="video/webm" src="http://pivot.mediumra.re/video/video.webm">\
-				<source type="video/ogg" src="http://pivot.mediumra.re/video/video.ogv">\
-				<source type="video/mp4" src="http://pivot.mediumra.re/video/video.mp4">\
+		jQuery('.lazyLoad1').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
 			</video>\
 		');
+	
+		jQuery('.lazyLoad2').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
+			</video>\
+		');
+		
+		jQuery('.outgrow-video').each(function(){
+			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+			//myVid			=	document.getElementById("player");
+			//myVid.muted	=	true;
+		});
 		
 		jQuery('img').each(function(){
 			jQuery(this).attr('src',jQuery(this).attr('data-src'));
@@ -976,7 +982,6 @@
 
 	function claim_sub_domain(){
 		var sub_domain = jQuery('#company-name').val();
-		// console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@",sub_domain);
 		createCookie('claim_sub_domain',sub_domain,3);
 		window.location.href = "https://app.outgrow.co/signup";
 	}
@@ -1020,18 +1025,7 @@
 
 
 	</script>
-	<!--<script type="text/javascript">
-	//Usersnap
-	(function() {
-	var s = document.createElement("script");
-	s.type = "text/javascript";
-	s.async = true;
-	s.src = '//api.usersnap.com/load/'+
-			'261ef3ad-9942-4aa6-8418-c67c79aa25fe.js';
-	var x = document.getElementsByTagName('script')[0];
-	x.parentNode.insertBefore(s, x);
-	})();
-	</script>-->
+	
 
 	<script type="text/javascript">
 		function callGA(str) {
@@ -1116,15 +1110,5 @@
 	});
 })(window, jQuery);
   </script>
-	<script type="text/javascript">
-	    myVid=document.getElementById("player");
-	    myVid.muted=true;
-	</script>
-	<!-- <div class="footer-img-2">
-		<script language="JavaScript" type="text/javascript">
-			TrustLogo("https://outgrow.co/images/comodo_secure.png", "SC5", "none");
-		</script>
-		<a href="https://www.instantssl.com/wildcard-ssl.html" id="comodoTL"></a>
-	</div> -->
 </body>
 </html>
