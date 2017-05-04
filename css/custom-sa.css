@@ -4130,7 +4130,8 @@ button.swiper-pagination-bullet {
 }
 #why .section-2-heading {
 	font-family: montserratUltra_light;
-	color: #fb6c73
+	color: #fb6c73 !important;
+	margin: 0 auto;
 }
 #why .sec4-2 {
 	position: absolute;
@@ -4392,15 +4393,17 @@ button.swiper-pagination-bullet {
 	text-align: left
 }
 #why .section-2-subheading {
-	color: #62696d;
-	font-size: 18px;
-	font-family: montserratlight;
-	width: 100%;
-	float: none;
-	display: block;
-	text-align: center;
-	margin-top: 60px !important;
-	margin: 0 auto
+    color: #62696d;
+    font-size: 18px;
+    font-family: montserratlight;
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+    margin-top: 10px !important;
+    margin: 0 auto;
+    font-weight: normal;
+    line-height: 1.49;
 }
 #why .section-top-why {
 	float: left;
