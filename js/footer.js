@@ -255,3 +255,43 @@ function initRefersionCookie () {
 	      createCookie('utm_ref', JSON.stringify(utmRefCookie), 365);
 	    }
 	  }
+
+	jQuery(window).load(function(){
+		/*GTM*/
+		/*Piwik*/
+			var _paq = _paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+		  _paq.push(["setCookieDomain", "*.outgrow.co"]);
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="//analytics.outgrow.co/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', '2']);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+
+		jQuery('.lazyLoad1').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
+			</video>\
+		');
+
+		jQuery('.lazyLoad2').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
+			</video>\
+		');
+
+		jQuery('img').each(function(){
+			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+		});
+
+		jQuery('.outgrow-video').each(function(){
+			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+			//myVid			=	document.getElementById("player");
+			//myVid.muted	=	true;
+		});
+	});
