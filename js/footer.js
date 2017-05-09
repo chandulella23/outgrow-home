@@ -259,6 +259,7 @@ function initRefersionCookie () {
 	jQuery(window).load(function(){
 		/*GTM*/
 		/*Piwik*/
+			console.log('Window has been loaded');
 			var _paq = _paq || [];
 		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
 		  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
@@ -286,6 +287,7 @@ function initRefersionCookie () {
 		');
 
 		jQuery('img').each(function(){
+			console.log('Changing attr');
 			jQuery(this).attr('src',jQuery(this).attr('data-src'));
 		});
 
