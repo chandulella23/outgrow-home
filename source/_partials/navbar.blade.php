@@ -12,10 +12,10 @@
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-	            <li class=""><a href="/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content?</a></li>
-	            <li class=""><a href="/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
-	            <li><a href="/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
-	            <li class=""><a href="/examples" class="params">Examples</a></li>
+	            <li class=""><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content?</a></li>
+	            <li class=""><a href="{{ $page->baseUrl }}/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
+	            <li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
+	            <li class=""><a href="{{ $page->baseUrl }}/examples" class="params">Examples</a></li>
 	        	<li class="login"></li>
 	            <li class="anchorParent signUp signUp-style res-nav-hide"></li>
 	            <li class="anchorParent signUp res-nav-show"></li>
