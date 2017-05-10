@@ -1358,9 +1358,15 @@
 	</section>
 @endsection
 
-@section('scripts')
-@endsection
-
-@section('tags')
-	<script type="text/javascript" src="{{ $page->baseUrl }}/js/jquery.isotope.min.js"></script>
+@section('pageScripts')
+	const libs = {
+		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"defaultDynamic": "{{ $page->baseUrl }}/js/default_dynamic3f4f.js?ver=1470129303",
+		"plugins": "{{ $page->baseUrl }}/js/plugins.js",
+		"defaultMin": "{{ $page->baseUrl }}/js/default.min.js",
+		"isotope": "{{ $page->baseUrl }}/js/jquery.isotope.min.js",
+		"custom": "{{ $page->baseUrl }}/js/custom.js",
+		"bootstrap": "{{ $page->baseUrl }}/js/bootstrap.min.js",
+		"footer": "{{ $page->baseUrl }}/js/pageScripts/footer.js"
+	}
 @endsection

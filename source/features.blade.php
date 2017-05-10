@@ -621,33 +621,18 @@
 	</section>
 @endsection
 
-@section('scripts')
-	var slideIndex = 1;
-	showDivs(slideIndex);
-
-	function plusDivs(n) {
-	  showDivs(slideIndex += n);
-	}
-
-	function currentDiv(n) {
-	  showDivs(slideIndex = n);
-	}
-
-	function showDivs(n) {
-		var i;
-		var x = document.getElementsByClassName("mySlides");
-		var dots = document.getElementsByClassName("demo");
-		if (n > x.length) {slideIndex = 1}
-		if (n < 1) {slideIndex = x.length}
-		for (i = 0; i < x.length; i++) {
-			x[i].style.display = "none";
-		}
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" w3-white", "");
-		}
-		if(x.length > 0)
-			x[slideIndex-1].style.display = "block";
-		if(dots.length > 0)
-			dots[slideIndex-1].className += " w3-white";
+@section('pageScripts')
+	const libs = {
+		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"defaultDynamic": "{{ $page->baseUrl }}/js/default_dynamic3f4f.js?ver=1470129303",
+		"plugins": "{{ $page->baseUrl }}/js/plugins.js",
+		"defaultMin": "{{ $page->baseUrl }}/js/default.min.js",
+		"stretch": "{{ $page->baseUrl }}/js/jquery.stretch.js",
+		"custom": "{{ $page->baseUrl }}/js/custom.js",
+		"bootstrap": "{{ $page->baseUrl }}/js/bootstrap.min.js",
+		"waypoints": "//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js",
+		"counterup": "{{ $page->baseUrl }}/js/jquery.counterup.min.js",
+		"features": "{{ $page->baseUrl }}/js/pageScripts/features.js",
+		"footer": "{{ $page->baseUrl }}/js/pageScripts/footer.js"
 	}
 @endsection

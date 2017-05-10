@@ -103,7 +103,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="showPlan('freelancer_m')">
 			            <div><i class="material-icons" id="freelancer_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="freelancer_m_more">More Info</p>
 			            </div>
@@ -173,7 +173,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="showPlan('essentials_m')">
 			            <div><i class="material-icons" id="essentials_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="essentials_m_more">More Info</p>
 			            </div>
@@ -241,7 +241,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="showPlan('business_m')">
 			            <div><i class="material-icons" id="business_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="business_m_more">More Info</p>
 			            </div>
@@ -314,7 +314,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="showPlan('freelancer_m')">
 			            <div><i class="material-icons" id="freelancer_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="freelancer_m_more">More Info</p>
 			            </div>
@@ -385,7 +385,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="showPlan('essentials_m')">
 			            <div><i class="material-icons" id="essentials_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="essentials_m_more">More Info</p>
 			            </div>
@@ -456,7 +456,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="showPlan('business_m')">
 			            <div><i class="material-icons" id="business_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="business_m_more">More Info</p>
 			            </div>
@@ -529,7 +529,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="showPlan('freelancer_m')">
 			            <div><i class="material-icons" id="freelancer_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="freelancer_m_more">More Info</p>
 			            </div>
@@ -600,7 +600,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="showPlan('essentials_m')">
 			            <div><i class="material-icons" id="essentials_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="essentials_m_more">More Info</p>
 			            </div>
@@ -671,7 +671,7 @@
 			                </li>
 			            </ul>
 			        </div>
-			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
+			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="showPlan('business_m')">
 			            <div><i class="material-icons" id="business_m_arrow">keyboard_arrow_down</i>
 			                <p class="more-info" id="business_m_more">More Info</p>
 			            </div>
@@ -842,87 +842,40 @@
 			</div>
 		</div>
 	</section>
+	<script>
+		function showPlan(a){
+			if(a=='m'){
+				console.log(jQuery(this));
+				jQuery('#monthly').addClass('active').siblings('.cycle-tab').removeClass('active');
+				jQuery('#m').addClass('active').siblings('.pricing-cards').removeClass('active');
+			}
+			else if(a=='s'){
+				jQuery('#half-yearly').addClass('active').siblings('.cycle-tab').removeClass('active');
+				jQuery('#s').addClass('active').siblings('.pricing-cards').removeClass('active');
+			}
+			else if(a=='y'){
+				jQuery('#annually').addClass('active').siblings('.cycle-tab').removeClass('active');
+				jQuery('#y').addClass('active').siblings('.pricing-cards').removeClass('active');
+			}
+		}
+		function showIntercom() {
+		    console.log('intercom');
+		    jQuery(document).find('.intercom-launcher').click();
+		}
+	</script>
 @endsection
 
-@section('scripts')
-	function showIntercom() {
-	    console.log('intercom');
-	    jQuery(document).find('.intercom-launcher').click();
+@section('pageScripts')
+	const libs = {
+		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"defaultDynamic": "{{ $page->baseUrl }}/js/default_dynamic3f4f.js?ver=1470129303",
+		"plugins": "{{ $page->baseUrl }}/js/plugins.js",
+		"defaultMin": "{{ $page->baseUrl }}/js/default.min.js",
+		"stretch": "{{ $page->baseUrl }}/js/jquery.stretch.js",
+		"custom": "{{ $page->baseUrl }}/js/custom.js",
+		"bootstrap": "{{ $page->baseUrl }}/js/bootstrap.min.js",
+		"counterup": "{{ $page->baseUrl }}/js/jquery.counterup.min.js",
+		"pricing": "{{ $page->baseUrl }}/js/pageScripts/pricing.js",
+		"footer": "{{ $page->baseUrl }}/js/pageScripts/footer.js"
 	}
-
-	function close_accordion_section() {
-		jQuery('.accordion .accordion-section-title').removeClass('active');
-		jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-	}
-
-	function showPlan(a){
-		if(a=='m'){
-			console.log(jQuery(this));
-			jQuery('#monthly').addClass('active').siblings('.cycle-tab').removeClass('active');
-			jQuery('#m').addClass('active').siblings('.pricing-cards').removeClass('active');
-		}
-		else if(a=='s'){
-			jQuery('#half-yearly').addClass('active').siblings('.cycle-tab').removeClass('active');
-			jQuery('#s').addClass('active').siblings('.pricing-cards').removeClass('active');
-		}
-		else if(a=='y'){
-			jQuery('#annually').addClass('active').siblings('.cycle-tab').removeClass('active');
-			jQuery('#y').addClass('active').siblings('.pricing-cards').removeClass('active');
-		}
-	}
-
-	jQuery(document).ready(function() {
-		jQuery('.accordion-section-title').click(function(e) {
-			// Grab current anchor value
-			var currentAttrValue = jQuery(this).attr('href');
-
-			if(jQuery(e.target).is('.active')) {
-				close_accordion_section();
-			}else {
-				close_accordion_section();
-
-				// Add active class to section title
-				jQuery(this).addClass('active');
-				// Open up the hidden content panel
-				jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
-			}
-
-			e.preventDefault();
-		});
-
-		jQuery('a.toggle-dots-white').click(function(e) {
-			jQuery(this).parent().find('.billing-grey-bottom').slideToggle('slow');
-			jQuery(this).toggleClass('sliding');
-			if (jQuery(this).hasClass("sliding")) {
-	            jQuery('a.toggle-dots-white p').html('Less info');
-	            jQuery('a.toggle-dots-white i').html('keyboard_arrow_up');
-	        } else {
-	            jQuery('a.toggle-dots-white p').html('More info');
-	            jQuery('a.toggle-dots-white i').html('keyboard_arrow_down');
-	        }
-		});
-		jQuery('a.toggle-dots-grey').click(function(e) {
-			jQuery(this).parent().find('.billing-white-bottom').slideToggle('slow');
-			jQuery(this).toggleClass('slidings');
-			if (jQuery(this).hasClass("slidings")) {
-	            jQuery('a.toggle-dots-grey p').html('Less info');
-	            jQuery('a.toggle-dots-grey i').html('keyboard_arrow_up');
-	        } else {
-	            jQuery('a.toggle-dots-grey p').html('More info');
-	            jQuery('a.toggle-dots-grey i').html('keyboard_arrow_down');
-	        }
-		});
-
-		var acc = document.getElementsByClassName("plusminus");
-		var i;
-
-		for (i = 0; i < acc.length; i++) {
-			acc[i].onclick = function() {
-				this.classList.toggle("active");
-				this.nextElementSibling.classList.toggle("show");
-		  	}
-		}
-	});
-
-
 @endsection
