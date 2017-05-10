@@ -39,17 +39,25 @@
 
 	@include('_partials.footer')
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src="{{ $page->baseUrl }}/js/default_dynamic3f4f.js?ver=1470129303"></script>
-	<script src="{{ $page->baseUrl }}/js/plugins.js"></script>
-	<script src="{{ $page->baseUrl }}/js/default.min.js"></script>
-	<script src="{{ $page->baseUrl }}/js/bootstrap.min.js"></script>
-	<script src="{{ $page->baseUrl }}/js/material.min.js"></script>
-	<script src="{{ $page->baseUrl }}/js/custom.js"></script>
-	<script src="{{ $page->baseUrl }}/js/jquery.counterup.min.js"></script>
-	<script src="{{ $page->baseUrl }}/js/plans.js"></script>
-	@yield('tags')
+	<script>
+		@yield('pageScripts')
 
-	@include('_partials.footerscripts')
+		const loadedLibs = {}
+		let counter = 0
+		const loadAsync = function(lib) {
+			var http = new XMLHttpRequest()
+			http.open("GET", libs[lib], true)
+			http.onload = () => {
+				loadedLibs[lib] = http.responseText
+				if (++counter == Object.keys(libs).length) startScripts()
+			}
+			http.send()
+		}
+		const startScripts = function() {
+			for (var lib in libs) eval(loadedLibs[lib])
+				console.log("allLoaded")
+		}
+		for (var lib in libs) loadAsync(lib)
+	</script>
 </body>
 </html>
