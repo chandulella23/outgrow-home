@@ -55,7 +55,7 @@
 		}
 		const startScripts = function() {
 			for (var lib in libs) eval(loadedLibs[lib])
-				console.log("allLoaded")
+				console.log("allLoaded", loadedLibs);
 		}
 		for (var lib in libs) loadAsync(lib)
 	</script>
