@@ -15,57 +15,57 @@ var footer = '<div class="container">'+
 		'</div>'+
 		'<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">'+
 			'<h4>Our Live Calculators</h4>'+
-			'<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer1.jpg" /></div>'+
-			'<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer2.jpg" /></div>'+
-			'<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer4.jpg" /></div>'+
-			'<div class="footer-img col-xs-6 col-sm-6"><img src="images/footer3.jpg" /></div>'+
+			'<div class="footer-img col-xs-6 col-sm-6"><img src="" data-src="images/footer1.jpg" /></div>'+
+			'<div class="footer-img col-xs-6 col-sm-6"><img src="" data-src="images/footer2.jpg" /></div>'+
+			'<div class="footer-img col-xs-6 col-sm-6"><img src="" data-src="images/footer4.jpg" /></div>'+
+			'<div class="footer-img col-xs-6 col-sm-6"><img src="" data-src="images/footer3.jpg" /></div>'+
 		'</div>'+
 		'<div class="col-xs-12 col-sm-10 footer-link mk-animate-element fade-in">'+
 			'<h4 class="footer-img2text col-xs-12">Resources</h4>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/res1.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/res1.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/footer5.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/footer5.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/">Make Your Digital Marketing Agency Stand Out</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/res3.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/res3.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/university-college-calculators/">7 Interactive Calculators Every University Needs on Its Website</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/res4.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/res4.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/footer7.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/footer7.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/interactive-calculators-saas-companies">9 Calculators Every SaaS Company Should Consider</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/res7.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/res7.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/res8.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/res8.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/">Lead Generation With Interactive Calculators</a>'+
 				'</div>'+
 			'</div>'+
 			'<div class="footer-img2 col-xs-6 col-sm-3">'+
-				'<div class="col-xs-12 np"><img src="images/res9.jpg" /></div>'+
+				'<div class="col-xs-12 np"><img src="" data-src="images/res9.jpg" /></div>'+
 				'<div class="col-xs-12 np footer-img-text">'+
 					'<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/">How an Interactive Calculator Generated 11,592 Qualified Leads</a>'+
 				'</div>'+
@@ -84,8 +84,7 @@ var footer = '<div class="container">'+
 			'<div class="footer-copyright">'+
 				'<i class="material-icons">copyright</i>'+
 				'<span>Copyrights</span>'+
-				'<img src="images/footer-logo.png" />'+
-				'<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="footer-img-2 rs-hide-mb" src="images/comodo_secure.png" /></a>'+
+				'<img src="" data-src="images/footer-logo.png" />'+
 			'</div>'+
 		'</div>'+
 '</div>';
@@ -233,20 +232,20 @@ function initRefersionCookie () {
     }
 
     function setUTMRefCookie() {
-	    let search = window.location.search;
+	    var search = window.location.search;
 
 	    if ('' !== search && !readCookie('utm_ref')) {
 	      search = search.split('?')[1];
-	      let utmRefCookie = {
+	      var utmRefCookie = {
 	        'ref': 'UNKNOWN',
 	        'utm_source': 'UNKNOWN',
 	        'utm_medium': 'UNKNOWN',
 	        'utm_campaign': 'UNKNOWN',
 	      };
-	      let queryParams = search.split('&');
-	      queryParams.forEach(param => {
-	        let key = param.split('=')[0];
-	        let value = param.split('=')[1];
+	      var queryParams = search.split('&');
+	      queryParams.forEach(function (param) {
+	        var key = param.split('=')[0];
+	        var value = param.split('=')[1];
 	        if ('ref' === key || 'utm_source' === key || 'utm_medium' === key || 'utm_campaign' === key)
 	          utmRefCookie[key] = value;
 	      })
@@ -256,3 +255,45 @@ function initRefersionCookie () {
 	      createCookie('utm_ref', JSON.stringify(utmRefCookie), 365);
 	    }
 	  }
+
+	jQuery(window).load(function(){
+		/*GTM*/
+		/*Piwik*/
+			console.log('Window has been loaded');
+			var _paq = _paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+		  _paq.push(["setCookieDomain", "*.outgrow.co"]);
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="//analytics.outgrow.co/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', '2']);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+
+		jQuery('.lazyLoad1').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
+			</video>\
+		');
+
+		jQuery('.lazyLoad2').append('\
+			<video width="1324" height="607" autoplay loop>\
+				<source src="images/Outgrow-demo.mp4" type="video/mp4">\
+			</video>\
+		');
+
+		jQuery('img').each(function(){
+			console.log('Changing attr');
+			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+		});
+
+		jQuery('.outgrow-video').each(function(){
+			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+			//myVid			=	document.getElementById("player");
+			//myVid.muted	=	true;
+		});
+	});

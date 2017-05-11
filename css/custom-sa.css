@@ -485,23 +485,25 @@ label {
 	float: left;
 	width: 100%;
 	text-align: center;
-	color: #dfe3e6;
+	color: #dfe3e6 !important;
 	font-size: 48px;
 	line-height: 52px;
 	font-family: montserratbold;
-	text-transform: uppercase
+	text-transform: uppercase;
+	margin:0 auto;
 }
 .section-2-subheading {
 	float: left;
 	width: 100%;
 	text-align: center;
-	color: rgba(98, 105, 109, .8);
+	color: rgba(98, 105, 109, .8) !important;
 	font-size: 18px;
 	font-family: montserratultra_light;
 	margin: 0 auto;
 	position: relative;
 	top: 15px;
-	padding: 0 22%
+	padding: 0 22%;
+	margin:0 auto;
 }
 .img-bottom-text {
 	position: relative;
@@ -3394,6 +3396,18 @@ button.swiper-pagination-bullet {
 	display: block;
 	text-transform: none
 }
+#feature .section.section-5 h3 {
+    color: #fb6c73;
+    font-size: 36px;
+    font-family: montserratultra_light;
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: none;
+    margin: 0 auto;
+    line-height: 1.42;
+}
 #feature .section.section-5 p {
 	color: #62696d;
 	font-size: 18px;
@@ -3660,7 +3674,7 @@ button.swiper-pagination-bullet {
 	float: left;
 	width: 100%;
 	text-align: center;
-	color: #dfe3e6;
+	color: #dfe3e6 !important;
 	font-size: 48px;
 	line-height: 40px;
 	font-family: montserratbold;
@@ -4130,7 +4144,8 @@ button.swiper-pagination-bullet {
 }
 #why .section-2-heading {
 	font-family: montserratUltra_light;
-	color: #fb6c73
+	color: #fb6c73 !important;
+	margin: 0 auto;
 }
 #why .sec4-2 {
 	position: absolute;
@@ -4392,15 +4407,17 @@ button.swiper-pagination-bullet {
 	text-align: left
 }
 #why .section-2-subheading {
-	color: #62696d;
-	font-size: 18px;
-	font-family: montserratlight;
-	width: 100%;
-	float: none;
-	display: block;
-	text-align: center;
-	margin-top: 60px !important;
-	margin: 0 auto
+    color: #62696d;
+    font-size: 18px;
+    font-family: montserratlight;
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+    margin-top: 10px !important;
+    margin: 0 auto;
+    font-weight: normal;
+    line-height: 1.49;
 }
 #why .section-top-why {
 	float: left;
@@ -4779,7 +4796,8 @@ button.swiper-pagination-bullet {
 	margin-top: 40px
 }
 #pricing .section-faq .section-2-heading {
-	color: #dfe3e6
+	color: #dfe3e6 !important;
+	margin: 0 auto;
 }
 #pricing .enterprise-box-new {
 	background: #62696d;
