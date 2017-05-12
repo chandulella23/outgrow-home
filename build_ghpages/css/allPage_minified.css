@@ -2217,11 +2217,11 @@ label.control-label {
 }
 .ebook-outer .form-btn:hover{    background: #fb757b;color: #fff;border-color: #f8434b;}
 .ebook-outer .form-btn i{vertical-align: middle; margin-left: 10px;font-size: 18px;}
-.ebook-head{ font-size: 36px; color: #fb6c73; font-family: montserratUltra_light; line-height: normal;}
-.ebook-sub-heading{font-size: 16px;color: #62696d;font-family: montserratlight;float: left;width: 100%;text-transform: uppercase;}
+.ebook-head{ font-size: 36px; color: #fb6c73 !important; font-family: montserratUltra_light; line-height: normal;}
+.ebook-sub-heading{font-size: 16px;color: #62696d;font-family: montserratlight;float: left;width: 100%;text-transform: uppercase;margin: 0 auto;line-height: 1.4;}
 .ebook-container{width:970px !important;}
 .ebook-img{margin-left: 60px;width: 65%;}
-.ebook-subhead {font-size: 14px;color: #62696d;font-family: montserratlight;padding-right: 40px;margin: 25px 0;float: left;width: 100%;}
+.ebook-subhead {font-size: 14px;color: #62696d;font-family: montserratlight;padding-right: 40px;margin: 25px 0;float: left;width: 100%;line-height: 1.49;}
 .ebook-outer{ width: 100%;float: left;padding: 0 30px;padding-right: 80px;}
 .take-quiz-bg{
     background: url(../images/take-quiz.png) no-repeat;
@@ -2307,8 +2307,8 @@ label.control-label {
 .section-2-left span{font-family:montserratlight;text-align:right;width:59%;float:right}
 .section-2-left h4{color:#fb6c73;font-size:36px;font-family:montserratultra_light;text-align:left;width:100%;float:left;display:block}
 .section-2-right img{float:right}
-.section-2-heading{float:left;width:100%;text-align:center;color:#dfe3e6;font-size:48px;line-height:52px;font-family:montserratbold;text-transform:uppercase}
-.section-2-subheading{float:left;width:100%;text-align:center;color:rgba(98,105,109,.8);font-size:18px;font-family:montserratultra_light;margin:0 auto;margin-top:15px;padding:0 22%}
+.section-2-heading{float:left;width:100%;text-align:center;color:#dfe3e6 !important;font-size:48px;line-height:52px;font-family:montserratbold;text-transform:uppercase;margin:0;}
+.section-2-subheading{float:left;width:100%;text-align:center;color:rgba(98,105,109,.8);font-size:18px;font-family:montserratultra_light;margin:0 auto;margin-top:15px;padding:0 22%;line-height: 1.4;}
 .img-bottom-text{position:relative;top:60px;color:#fb6c73;font-size:24px;font-family:montserratlight;width:100%;float:left;display:block;text-transform:uppercase;margin-bottom:40px}
 .section-3{margin-bottom:70px;margin-top:25px}
 .section-3 .sec3-heading{width: 100%;color: #fb5f66;font-size: 26px;font-family: montserratlight;margin-top: 60px}
