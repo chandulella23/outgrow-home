@@ -2,10 +2,28 @@
 
 @section('title', 'Product Features | Outgrow')
 
+@section('metaDescription')
+	<meta name="description" content="Get new customers with powerful and easy to configure interactive calculators."/>
+	<link rel="canonical" href="http://outgrow.co/features.html" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Product Features | Outgrow" />
+	<meta property="og:description" content="Get new customers with powerful and easy to configure interactive calculators." />
+	<meta property="og:url" content="https://outgrow.co/features.html" />
+	<meta property="og:site_name" content="Outgrow" />
+	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
+	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="Get new customers with powerful and easy to configure interactive calculators." />
+	<meta name="twitter:title" content="Product Features | Outgrow" />
+	<meta name="twitter:creator" content="@outgrowco" />
+@endsection
+
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/bootstrap.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/custom-sa.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/sahil-hover.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/home-responsive.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/feature-responsive.css">
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/stylesheet.min.css" type="text/css" media='all'  />
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />

@@ -2,12 +2,30 @@
 
 @section('title', 'Examples | Outgrow')
 
+@section('metaDescription')
+	<meta name="description" content="Services, SAAS, Education, Healthcare, Construction, Travel & Hospitality, Finance, Manufacturing, Publishing. There is a Calculator for that!"/>
+	<link rel="canonical" href="http://outgrow.co/examples.html" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Examples | Outgrow" />
+	<meta property="og:description" content="Services, SAAS, Education, Healthcare, Construction, Travel & Hospitality, Finance, Manufacturing, Publishing. There is a Calculator for that!" />
+	<meta property="og:url" content="https://outgrow.co/examples.html" />
+	<meta property="og:site_name" content="Outgrow" />
+	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
+	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="Services, SAAS, Education, Healthcare, Construction, Travel & Hospitality, Finance, Manufacturing, Publishing. There is a Calculator for that!" />
+	<meta name="twitter:title" content="Examples | Outgrow" />
+	<meta name="twitter:creator" content="@outgrowco" />
+@endsection
+
 @section('css')
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/bootstrap.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/animations.css">
     <link rel="stylesheet" href="{{ $page->baseUrl }}/css/custom-sa.css">
     <link rel="stylesheet" href="{{ $page->baseUrl }}/css/sahil-hover.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/home-responsive.css">
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/stylesheet.min.css" type="text/css" media='all'  />
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase.css">

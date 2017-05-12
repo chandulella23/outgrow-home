@@ -12,15 +12,13 @@
 	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
 	g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 	})();
-</script>
 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PDL5P5M');</script>
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PDL5P5M');
 
-<script type="text/javascript"async defer>
 	var schemaA = document.createElement('script');
 	schemaA.type = 'application/ld+json';
 	schemaA.text = JSON.stringify({
@@ -70,7 +68,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	document.querySelector('head').appendChild(schemaB);
 </script>
 <!-- Analytics Tracking Snippets Ends -->
-
 <style>
 	.wrapper{width:100%;height:100%;margin:0 auto;background:#CCC;}
 	/*.leftwrapper{box-shadow:4px 12px 26px 5px rgba(0,0,0,0.6) !important;}*/

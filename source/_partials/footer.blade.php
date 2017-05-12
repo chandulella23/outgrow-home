@@ -10,8 +10,8 @@
 					<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
 					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
 					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
-					<li><a href="privacy_policy.html" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
-					<li><a href="tos.html" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+					<li><a href="{{ $page->baseUrl }}/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+					<li><a href="{{ $page->baseUrl }}/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
