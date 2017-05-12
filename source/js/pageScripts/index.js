@@ -97,7 +97,4 @@ jQuery.noConflict();
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 		});
-
-		myVid=document.getElementById("player");
-    	myVid.muted=true;
 	});

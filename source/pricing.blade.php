@@ -868,14 +868,7 @@
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"defaultDynamic": "{{ $page->baseUrl }}/js/default_dynamic3f4f.js?ver=1470129303",
-		"plugins": "{{ $page->baseUrl }}/js/plugins.js",
-		"defaultMin": "{{ $page->baseUrl }}/js/default.min.js",
-		"stretch": "{{ $page->baseUrl }}/js/jquery.stretch.js",
-		"custom": "{{ $page->baseUrl }}/js/custom.js",
-		"bootstrap": "{{ $page->baseUrl }}/js/bootstrap.min.js",
-		"counterup": "{{ $page->baseUrl }}/js/jquery.counterup.min.js",
+		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"pricing": "{{ $page->baseUrl }}/js/pageScripts/pricing.js",
-		"footer": "{{ $page->baseUrl }}/js/pageScripts/footer.js"
 	}
 @endsection
