@@ -45,4 +45,7 @@ jQuery(document).ready(function () {
 		pagination: '.swiper-pagination',
 		paginationClickable: true
 	});
+
+	jQuery('#loginAnchor').prop('href', setLoginSignup());
+	jQuery('#trialAnchor').prop('href', setLoginSignup());
 })

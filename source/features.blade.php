@@ -661,7 +661,7 @@
 				<img src="{{ $page->baseUrl }}/images/si-iocns-res.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 np text-center mk-animate-element scale-up rs-hide">
-				<a href="javascript:void(0);" id="loginAnchor">
+				<a href="" id="loginAnchor">
 					<button class="btn-startBuildingCalc" onclick="callGA('STUDIO')"><i class="material-icons">view_compact</i> <span class="f-btn-text">Take Me to The Studio</span></button>
 				</a>
 			</div>

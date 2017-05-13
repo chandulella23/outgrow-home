@@ -85,7 +85,7 @@
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
 				<span>Copyrights</span>
-				<img src="{{ $page->baseUrl }}/images/footer-logo.png" />
+				<img src="{{ $page->baseUrl }}/images/footer-logo-dark.png" />
 				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="footer-img-2 rs-hide-mb" src="{{ $page->baseUrl }}/images/comodo_secure.png" /></a>
 			</div>
 		</div>

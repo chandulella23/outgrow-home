@@ -190,6 +190,10 @@ jQuery(document).ready(function() {
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
+
+	var url = setLoginSignup();
+	console.log(url);
+    jQuery('#btnBuildCalc1 > a').prop('href', url);
 });
 
 jQuery(window).resize(function () {
