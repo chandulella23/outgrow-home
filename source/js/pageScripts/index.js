@@ -25,6 +25,60 @@ window.submitEbookData = function (e) {
     })
 }
 
+window.attachVid = function (type) {
+	var href = window.location.href.split('#')[1];
+	if(!href) {
+		window.location.href = window.location.href + "#video-main"
+	} else {
+		window.location.href = window.location.href.split('#')[0] + '#video-main'
+	}
+	if ('web' === type) changeHeightWeb();
+	if ('mob' === type) changeHeightMob();
+	if ('res' === type) changeHeightRes();
+}
+
+window.changeHeightWeb = function() {
+	console.log('Web');
+	jQuery(".video-img-inner-web").html("<iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe>");
+	var xDiv = document.getElementById('video-main');
+
+	if (xDiv.style.height == '')
+		xDiv.style.height = '580px';
+	else
+		xDiv.style.height = '';
+}
+
+window.changeHeightMob = function() {
+	console.log('Mob');
+	jQuery(".video-img-inner-mob").html(`<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
+						<span class="img-overlay"></span>
+						<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
+						<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
+							<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+						</span>`);
+	var xDiv = document.getElementById('video-main-rs-mob');
+	jQuery('#video-main-rs-mob .btn-close').show();
+}
+
+window.btnClose = function(){
+		jQuery(".video-img-inner-mob").html(`<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
+						<span class="img-overlay"></span>
+						<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
+						<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
+							<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+						</span>`);
+}
+
+window.changeHeightRes = function() {
+	console.log('Res');
+	jQuery(".video-img-inner-res").html("<iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe>");
+	var xDiv = document.getElementById('video-main-rs');
+	if (xDiv.style.height == '')
+		xDiv.style.height = '460px';
+	else
+		xDiv.style.height = '';
+}
+
 window.sendNotification = function (e, o) {
     jQuery.ajax({
         url: "js/mailer.php",
@@ -42,6 +96,17 @@ window.sendNotification = function (e, o) {
     })
 }
 
+window.display = function (url) {
+	console.log('Display called', url)
+	jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
+	var iframes = iFrameResize({
+        log: false,
+        autoResize: true,
+        enablePublicMethods: true,
+        checkOrigin: false,
+    },'#og-iframe');
+}
+
 jQuery.noConflict();
 jQuery.material.init();
 jQuery(document).ready(function() {
@@ -52,81 +117,6 @@ jQuery(document).ready(function() {
     	jQuery('#video-modal iframe').attr("src", jQuery("#video-modal  iframe").attr("src"));
     });
 
-	jQuery(".embed1-layout .em-moblink").click(function(){
-		if(!jQuery(this).hasClass('active1'))
-		jQuery(this).addClass('active1');
-		jQuery('.em-weblink').removeClass('active1');
-		jQuery("#em1").removeClass('embed-web');
-		jQuery("#em1").addClass('embed-mobile');
-		jQuery("#em1 .wrapper").addClass('wrapper-mobile');
-	});
-
-	jQuery(".embed1-layout .em-weblink").click(function(){
-		if(!jQuery(this).hasClass('active1'))
-		jQuery(this).addClass('active1');
-		jQuery('.em-moblink').removeClass('active1');
-		jQuery("#em1").addClass('embed-web');
-		jQuery("#em1").removeClass('embed-mobile');
-		jQuery("#em1 .wrapper").removeClass('wrapper-mobile');
-	});
-
-
-	jQuery(".embed2-layout .em-moblink").click(function(){
-		if(!jQuery(this).hasClass('active2'))
-		jQuery(this).addClass('active2');
-		jQuery('.em-weblink').removeClass('active2');
-		jQuery("#em2").removeClass('embed-web');
-		jQuery("#em2").addClass('embed-mobile');
-		jQuery("#em2 .wrapper").addClass('wrapper-mobile');
-	});
-
-	jQuery(".embed2-layout .em-weblink").click(function(){
-		if(!jQuery(this).hasClass('active2'))
-		jQuery(this).addClass('active2');
-		jQuery('.em-moblink').removeClass('active2');
-		jQuery("#em2").addClass('embed-web');
-		jQuery("#em2").removeClass('embed-mobile');
-		jQuery("#em2 .wrapper").removeClass('wrapper-mobile');
-	});
-
-
-
-	jQuery(".embed3-layout .em-moblink").click(function(){
-		if(!jQuery(this).hasClass('active3'))
-		jQuery(this).addClass('active3');
-		jQuery('.em-weblink').removeClass('active3');
-		jQuery("#em3").removeClass('embed-web');
-		jQuery("#em3").addClass('embed-mobile');
-		jQuery("#em3 .wrapper").addClass('wrapper-mobile');
-	});
-
-	jQuery(".embed3-layout .em-weblink").click(function(){
-		if(!jQuery(this).hasClass('active3'))
-		jQuery(this).addClass('active3');
-		jQuery('.em-moblink').removeClass('active3');
-		jQuery("#em3").addClass('embed-web');
-		jQuery("#em3").removeClass('embed-mobile');
-		jQuery("#em3 .wrapper").removeClass('wrapper-mobile');
-	});
-
-	if (document.documentElement.clientWidth < 1024) {
-		jQuery(".embed-web").addClass('embed-mobile');
-		jQuery(".wrapper").addClass('wrapper-mobile');
-	}
-
-	jQuery(".toggle-dots-white").click(function(){
-		jQuery(".billing-grey-bottom").slideToggle('slow');
-	});
-
-	jQuery(".toggle-dots-grey").click(function(){
-		jQuery(".billing-white-bottom").slideToggle('slow');
-	});
-
-	jQuery(".toggle-dots-white2").click(function(){
-		jQuery(".billing-grey2").slideToggle('slow');
-	});
-
-
 	jQuery('.counter').counterUp({
 		delay: 10,
 		time: 1000
@@ -134,11 +124,103 @@ jQuery(document).ready(function() {
 
 	var swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
-		paginationClickable: true
+		paginationClickable: true,
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+		spaceBetween: 30,
+		slidesPerView: 3,
+		centeredSlides: true,
+		autoplay: 2500,
+		speed:500,
+		autoplayDisableOnInteraction: false
 	});
+	console.log('After slider');
 
 	var swiper = new Swiper('.swiper-container-first', {
 		pagination: '.swiper-pagination',
-		paginationClickable: true
+		paginationClickable: true,
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+		//spaceBetween: 30,
+		//slidesPerView: 3,
+		centeredSlides: true,
+		// autoplay: 2500,
+		speed:500,
+		autoplayDisableOnInteraction: false
 	});
+
+	jQuery('.close').click(function(){
+		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
+	});
+
+ 	jQuery('#video-modal').on('hidden.bs.modal', function (event) {
+		jQuery('#video-modal iframe').attr("src", jQuery("#video-modal  iframe").attr("src"));
+    });
+
+    jQuery('.calc-links a').on('click',function(){
+		jQuery('a').removeClass('active');
+		jQuery(this).addClass('active');
+	});
+
+	//embed web mobile js
+	jQuery(".calcembed").click(function(){
+		jQuery("html").css('overflow','hidden');
+	});
+
+	jQuery(".close").click(function(){
+		jQuery("html").css('overflow','auto');
+	});
+
+	jQuery(document).on('click', '.video-playIcon', function () {
+		console.log('Clicked');
+		if (jQuery(window).width() > 768) {
+			attachVid('web');
+		}
+		if (jQuery(window).width() <= 768 && jQuery(window).width() > 320) {
+			attachVid('res');
+		}
+		if (jQuery(window).width() <= 320) {
+			attachVid('mob');
+		}
+	})
+
+	var iframes = iFrameResize({
+        log: false,
+        autoResize: true,
+        enablePublicMethods: true,
+        checkOrigin: false,
+    },'#og-iframe');
 });
+
+jQuery(window).resize(function () {
+	console.log(jQuery(window).width())
+	if (jQuery(window).width() > 768) {
+		jQuery('.video-img-inner-mob').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
+					<span class="img-overlay"></span>
+					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+
+		jQuery('.video-img-inner-res').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
+					<span class="img-overlay"></span>
+					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+	}
+	if (jQuery(window).width() <= 768 && jQuery(window).width() > 320) {
+		jQuery('.video-img-inner-mob').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
+					<span class="img-overlay"></span>
+					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+
+		jQuery('.video-img-inner-web').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
+					<!--<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+					<span class="img-overlay"></span>
+					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+	}
+	if (jQuery(window).width() <= 320) {
+		jQuery('.video-img-inner-res').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
+					<span class="img-overlay"></span>
+					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+
+		jQuery('.video-img-inner-web').empty(`<img class="video-img" src="images/video-thumbnail.jpg" />
+					<!--<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+					<span class="img-overlay"></span>
+					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+	}
+})

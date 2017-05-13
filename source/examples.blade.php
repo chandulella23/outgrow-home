@@ -39,352 +39,60 @@
 
 @section('content')
 	<!--  top section-->
-	<section class="section top-sec-example rs-hide">
-		<div class="col-md-12 col-xs-12 col-sm-12 np">
-			<div class="container">
-				<div class="collage-outer ">
-					<div class="collage-hollow repeat animated bounceIn slow go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">settings</i>
-							</span>
-							<div class="collage-text text-center">Services
-							</div>
-						</div>
-					</div>
-					<div class="collage-solid s-first animated bounceInUp go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">cloud_queue</i>
-							</span>
-							<div class="collage-text text-center">SaaS
-							</div>
-						</div>
-					</div>
-					<div class="collage-hollow h-sec animated bounceInRight go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">local_library</i>
-							</span>
-							<div class="collage-text text-center">Education
-							</div>
-						</div>
-					</div>
-					<div class="collage-hollow h-third animated bounceInDown go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">local_hospital</i>
-							</span>
-							<div class="collage-text text-center">Healthcare
-							</div>
-						</div>
-					</div>
-					<div class="collage-solid s-sec animated bounceInLeft go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">domain</i>
-							</span>
-							<div class="collage-text text-center">Construction
-							</div>
-						</div>
-					</div>
-					<div class="collage-solid s-third animated fadeInDown go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">airplanemode_active</i>
-							</span>
-							<div class="collage-text text-center">Travel & Hospitality
-							</div>
-						</div>
-					</div>
-					<div class="collage-solid s-fourth animated fadeInUp go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">monetization_on</i>
-							</span>
-							<div class="collage-text text-center">Finance
-							</div>
-						</div>
-					</div>
-					<div class="collage-hollow h-fourth animated growIn go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">send</i>
-							</span>
-							<div class="collage-text text-center">Manufacturing
-							</div>
-						</div>
-					</div>
-					<div class="collage-solid s-fifth animated fadeInDown go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">speaker_notes</i>
-							</span>
-							<div class="collage-text text-center">Publishing
-							</div>
-						</div>
-					</div>
-					<div class="collage-solid s-sixth animated fadeInRight go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">toys</i>
-							</span>
-							<div class="collage-text text-center">Real Estate & Home Furnishing
-							</div>
-						</div>
-					</div>
-					<div class="collage-hollow h-fifth animated bounceIn slow go">
-						<div class="hvr-grow">
-							<span class="mat-icon">
-								<i class="material-icons">more_horiz</i>
-							</span>
-							<div class="collage-text text-center">Others
-							</div>
-						</div>
-					</div>
-				</div>
+	<div class="section-main sec-example">
+		<section class="section section-5 sec-outgrowMagic-title">
+			<div class="container mobile-container">
+				<h1 class="section-2-heading mk-animate-element scale-up">
+					The Outgrow Magic
+				</h1>
+				<h5 class="section-2-subheading mk-animate-element scale-up">
+					Get inspired by some of our most successful calculators & quizzes!
+				</h5>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!-- Homepage section 7 start-->
-	<section class="section section-7-top">
-		<div class="container mobile-container">
-			<div class="section-2-heading mk-animate-element scale-up">
-				 The Outgrow Magic
-			</div>
-			<div class="section-2-subheading mk-animate-element scale-up">
-				 Get inspired by some of our most successful calculators & quizzes!
-			</div>
-		</div>
-	</section>
-	<section class="section section-7 ex-mb30">
-		<div class="container-fluid np">
-			<section>
-				<span class="section-runnigheading mk-animate-element scale-up hide">Get Inspired..</span>
-			</section>
-			<div class="col-xs-12 col-md-6 col-sm-12 section-9-right col-sm-push-6 ">
-				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="rs-show">
- 						<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
- 							<div class="swiper-wrapper">
- 								<div class="swiper-slide">
- 									<img src="{{ $page->baseUrl }}/images/em1-3.jpg" alt="" class="qode-lazy-image" />
- 								</div>
- 								<div class="swiper-slide">
- 									<img src="{{ $page->baseUrl }}/images/em1-2.jpg" alt="" class="qode-lazy-image" />
- 								</div>
- 							</div>
- 							<!-- Add Pagination -->
- 						</div>
- 						<div class="swiper-pagination"></div>
- 					</div>
- 					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
- 						<div class="qode-cards-gallery">
- 							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="/images/em1-2.jpg"
- 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
- 									/> </a>
- 							</div>
- 							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="/images/em1-3.jpg"
- 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
- 									/> </a>
- 							</div>
-						 </div>
+		<section class="section section-5 sec-outgrowMagic">
+			<div class="container-fluid np">
+				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
+					<a href="javascript:void(0);" target="_blank" class="active"
+						onclick="display('https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1')">
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc01.jpg" />
+					</a>
+					<a href="javascript:void(0);" target="_blank" class=""
+						onclick="display('https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1')">
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc02.jpg" />
+					</a>
+					<a href="javascript:void(0);" target="_blank" class=""
+						onclick="display('https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc03.jpg" />
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-9 np">
+					<!--<div id="sticky-anchor"></div>-->
+					<div class="tab-outer-frame col-xs-12 col-md-12 col-sm-12 text-center">
+						<!--<span class="icon-webcam"></span>-->
+						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
+							<iframe id="og-iframe" src="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-9-left col-sm-pull-6 ">
-				<h4 class="mk-animate-element left-to-right">
-					What kind of engineer should you be?
-				</h4>
-				<div class="sec9-test mk-animate-element left-to-right">
-					<em class="left">“</em>
-					<p>
-						The first question prospective students ask is: 'which major is right for me'? This calculator lets us answer such questions and build relationships early on. The bounce rates were < 10% - something I haven't seen after spending over $10M in online ads.
-						<em class="right">”</em>
-					</p>
-					<span class="text-1">Head of Admissions,</span>
-					<span class="text-2">Top Ranked Online University</span>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-11 np">
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">k</em>
-						<label class="counter">22</label>
-						<p>Unique Views</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">k</em>
-						<label class="counter">12</label>
-						<p>Leads</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">%</em>
-						<label  class="counter">98</label>
-						<p>Conversion Rate</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-hide">
-					<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank"> <button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-show">
-					<a href="https://website.outgrow.co/Which-engineering-major-is-right-for-you" target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Quiz</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Homepage section 7 end-->
-	<!-- Homepage section 8 start-->
-	<section class="section section-8">
-		<div class="container-fluid np">
-			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left1">
-				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="rs-show">
- 						<div class="swiper-container box-shadow  mk-animate-element scale-up">
- 							<div class="swiper-wrapper">
- 								<div class="swiper-slide">
- 									<img src="{{ $page->baseUrl }}/images/em2-1.jpg" alt="" class="qode-lazy-image" />
- 								</div>
- 								<div class="swiper-slide">
- 									<img src="{{ $page->baseUrl }}/images/em2-2.jpg" alt="" class="qode-lazy-image" />
- 								</div>
- 							</div>
- 							<!-- Add Pagination -->
- 						</div>
- 						<div class="swiper-pagination"></div>
- 					</div>
- 					<div class="qode-cards-gallery-holder right rs-hide" data-side=right>
- 						<div class="qode-cards-gallery">
- 							<div class="card" style="background-color:#f3f3f3">
- 								<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank" > <img src="#" alt="" class="qode-lazy-image" data-image="/images/em2-1.jpg"
- 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
- 									/> </a>
- 							</div>
- 							<div class="card" style="background-color:#f3f3f3">
- 								<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/em2-2.jpg"
- 										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true" /> </a>
- 							</div>
-						 </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left">
-				<h4 class="mk-animate-element right-to-left">
-					How much should you pay for a video campaign ?
-				</h4>
-				<div class="sec9-test mk-animate-element right-to-left">
-					<em class="left">“</em>
-					<p>
-						The video cost calculator helped us create a brand centered around transparency. It soon became the go-to tool for advertisers to assess production costs (even when they were considering our competitors). Not surprisingly, today, it is our <b>#1 source of leads</b>.
-						<em class="right">”</em>
-					</p>
-					<span class="text-1">Chief Creative Officer, </span>
-					<span class="text-2">Top Hollywood Ad Agency</span>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-11 np">
-					<div class="circle-value mk-animate-element right-to-left">
-						<em class="">k</em>
-						<label class="counter">56</label>
-						<p>Unique Visits</p>
-					</div>
-					<div class="circle-value mk-animate-element right-to-left">
-						<em class="">k</em>
-						<label class="counter">19</label>
-						<p>Search Traffic</p>
-					</div>
-					<div class="circle-value mk-animate-element right-to-left">
-						<em class="">%</em>
-						<label  class="counter">34</label>
-						<p>Completion Rate</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-hide">
-					<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2"  target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-show">
-					<a href="https://website.outgrow.co/5875396fe62e5172076953fe" target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Homepage section 8 end-->
-
-	<!-- Homepage section 9 start-->
-	<section class="section section-9">
-		<div class="container-fluid np">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-sm-push-6 section-9-right">
-				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="rs-show">
- 						<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
- 							<div class="swiper-wrapper">
- 								<div class="swiper-slide">
- 									<img src="{{ $page->baseUrl }}/images/em3-3.jpg" alt="" class="qode-lazy-image" />
- 								</div>
- 								<div class="swiper-slide">
- 									<img src="{{ $page->baseUrl }}/images/em3-2.jpg" alt="" class="qode-lazy-image" />
- 								</div>
- 							</div>
- 							<!-- Add Pagination -->
- 						</div>
- 						<div class="swiper-pagination"></div>
- 					</div>
- 					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
- 						<div class="qode-cards-gallery">
- 							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/em3-3.jpg"
- 									style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									 /> </a>
- 							</div>
- 							<div class="card" style="background-color:#f3f3f3">
- 								<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="/images/em3-2.jpg"
- 								 style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"	/> </a>
- 							</div>
-						 </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-9-left section-9-left2 col-sm-pull-6">
-				<h4 class="mk-animate-element left-to-right">
-					What is your risk of getting a heart disease?
-				</h4>
-				<div class="sec9-test mk-animate-element left-to-right">
-					<em class="left">“</em>
-					<p>
-						Being an age old healthcare company, social media was never a serious marketing channel. But this changed when we launched our series of "What is the risk of getting a ______ disease?" calculators. With these calculators, facebook is now our cheapest source of leads!
-						<em class="right">”</em>
-					</p>
-					<span class="text-1">Head of Customer Experience,</span>
-					<span class="text-2">IDBI Insurance</span>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-11 np">
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">k</em>
-						<label class="counter">98</label>
-						<p>Unique Views</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">%</em>
-						<label class="counter">66</label>
-						<p>Referral Traffic</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">%</em>
-						<label  class="counter">6</label>
-						<p>Bounce Rate</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-hide">
-					<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-show">
-					<a href="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease" target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
 				</div>
 
+				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
+					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
+						<a href="javascript:void(0);" class="col-sm-4 np calcembed active" data-toggle="modal" data-target="#calcEmbed-modal1">
+							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc01.jpg" />
+						</a>
+						<a href="javascript:void(0);" class="col-sm-4 np calcembed"  data-toggle="modal" data-target="#calcEmbed-modal2">
+							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc02.jpg" />
+						</a>
+						<a href="javascript:void(0);" class="col-sm-4 np calcembed" data-toggle="modal" data-target="#calcEmbed-modal3">
+							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc03.jpg" />
+						</a>
+					</div>
+				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Homepage section 9 end-->
+		</section>
+	</div>
 
 	<section class="section">
 		<div class="container">
@@ -1380,5 +1088,7 @@
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
+		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js"
 	}
 @endsection

@@ -28,80 +28,363 @@
 @section('pageId', '')
 
 @section('content')
-	<!-- Homepage section 1 start-->
 	<section class="section section-1">
 		<div class="container-fluid">
-			<div class="col-md-5 col-xs-12 col-sm-6 section-1-left">
+			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
 				<div class="section1-left-cell">
 					  <h4 class="mk-animate-element fade-in">
-						eBooks, blogs & whitepapers giving <b>average</b> results?
+						eBooks, blogs & whitepapers giving average results?
 					</h4>
 					<h3 class="mk-animate-element fade-in section1-firsthead">
-						Boost your marketing with highly converting <b>calculators</b> and viral <b>quizzes</b>.
+						Boost your marketing with highly <br/>converting <b>calculators</b> and viral <b>quizzes</b>.
 					</h3>
-					<!-- Video buttons-->
+					<div class="form-group mk-animate-element fade-in hide">
+						<input type="text" placeholder="Email Address" />
+					</div>
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-xs-12 col-sm-6 np" id="btnBuildCalc1">
-
-
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
 						</div>
-						<div class="col-xs-12 col-sm-6 np" id="video-link">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="video-link">
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 np sahil-material hide">
+						<div class="col-md-7 col-sm-12 col-xs-12 np">
+							<form class="claim-cta">
+	                           <div class="form-group label-floating">
+	                                <i class="material-icons">public</i>
+	                                <input name="company-name" class="form-control" id="company-name" type="text" placeholder="yourcompany">
+	                            	<label class="in-active">.outgrow.co</label>
+	                            </div>
+	                        </form>
+	                    </div>
+                    	<div class="col-xs-12 col-sm-12 col-md-5 np">
+                    		<a href="#" class="params">
+                    			<button onclick="claim_sub_domain()" class="btn-buildcal mk-in-viewport animate-element fade-in mk-in-viewport full-visible">
+                    				<i class="material-icons">touch_app</i>
+                    				Claim your domain
+                    			</button>
+                    		</a>
+                    	</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
+				<div class="video-img-wrapper">
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-mob">
+							<img class="video-img" src="" data-src="{{ $page->baseUrl }}/images/video-thumbnail.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+							</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 rs-show np">
-				<div class="sec1-box-left">
-					<div class="sec1-box1 mk-animate-element left-to-right">
-						<img src="" data-src="{{ $page->baseUrl }}/images/new-collag1.jpg" />
-					</div>
-					<div class="sec1-box2  mk-animate-element left-to-right">
-						<img src="" data-src="{{ $page->baseUrl }}/images/new-collag4_edited.jpg"/>
-					</div>
-				</div>
-				<div class="sec1-box-right">
-					<div class="sec1-box3 mk-animate-element right-to-left">
-						<img src="" data-src="{{ $page->baseUrl }}/images/homepage-soccer1.jpg"/>
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs">
+				<div class="video-img-wrapper">
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-res">
+							<img class="video-img" src="" data-src="{{ $page->baseUrl }}/images/video-thumbnail.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon">
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-7 section-1-right">
-				<div class="collag-right rs-hide">
-					<a class="collag1 mk-animate-element fade-in" href="javascript:void(0);">
-						<div class="collag1-img"></div>
-					</a>
-				</div>
-				<div class="collag-left rs-hide">
-					<div class="col-sm-12">
-						<a class="collag3 mk-animate-element fade-in" href="javascript:void(0);">
-							<div class="collag3-img"></div>
-						</a>
-					</div>
-					<div class="col-sm-12">
-						<a class="collag4 mk-animate-element fade-in" href="javascript:void(0);">
-							<div class="collag4-img"></div>
-						</a>
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
+				<div class="video-img-wrapper">
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-web">
+							<img class="video-img" src="" data-src="{{ $page->baseUrl }}/images/video-thumbnail.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon">
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Homepage section 1 end-->
-	<section class="section section-2">
+	<section class="section section-3 sec-craftedTemps">
+		<div class="container-fluid">
+			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
+				<h1 class="section-2-heading">
+					Beautifully crafted templates
+				</h1>
+				<h5 class="section-2-subheading mk-animate-element scale-up mk-in-viewport full-visible">
+					Get new customers with powerful and easy to configure interactive calculators and quizzes.
+				</h5>
+				<div class=" full_section_inner clearfix">
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner ">
+							<div class="wpb_wrapper">
+								<div class='qode-expanding-images'>
+									<div class='qode-expanding-images-inner mk-animate-element scale-up'>
+										<img class='qode-frame-image' src="{{ $page->baseUrl }}/images/img-craftedtemp-tab.png" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab.png"
+											alt='laptop frame' />
+										<div class="fadein">
+											<img id="f4" src="" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab04.png">
+											<img id="f3" src="" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab03.png">
+											<img id="f2" src="" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab02.png">
+											<img id="f1" src="" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab01.png">
+										</div>
+									</div>
+									<div class='qode-side-images'>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
+												data-image='{{ $page->baseUrl }}/images/ct02.jpg' data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
+												data-image='{{ $page->baseUrl }}/images/ct04.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(-70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-3 qode-lazy-image qode-side-image-inner'
+												data-image='{{ $page->baseUrl }}/images/ct05.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(-70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-4 qode-lazy-image qode-side-image-inner'
+												data-image='{{ $page->baseUrl }}/images/img-craftedtemp-right2.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(180%,35%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-5 qode-lazy-image qode-side-image-outer'
+												data-image='{{ $page->baseUrl }}/images/ct01.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(180%,-35%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-6 qode-lazy-image qode-side-image-outer'
+												data-image='{{ $page->baseUrl }}/images/ct03.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(-180%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
+												data-image='{{ $page->baseUrl }}/images/ct06.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
+												data-image='{{ $page->baseUrl }}/images/img-craftedtemp-right4.jpg'
+												data-lazy='true'></div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
+		Why calculators outperform <br/> ebooks &amp; marketing Pages?
+	</h1>
+	<section class="section section-3 mt7 p20">
+		<div class="container">
+			<div class="col-xs-12 mobile-sec3 rs-show">
+				<div class="swiper-container-first">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
+								<h3>Add Real Value</h3>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Calculators</h5>
+									<i class="material-icons hide">check_circle</i>
+									<p>Answer your customers most pressing questions.</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Ebooks</h5>
+									<i class="material-icons hide">gesture</i>
+									<p>Sure! But do people really have time to read?</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Marketing Pages</h5>
+									<i class="material-icons hide">clear</i>
+									<p>A marketing rant with click baits adds little value.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
+								<h3>CONVERSION RATES</h3>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Calculators</h5>
+									<h4 class="hide">High</h4>
+									<p>Interactivity enhances conversion to over 40-50%</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Ebooks</h5>
+									<h4 class="hide">Uninspiring</h4>
+									<p>No instant gratification only allows for 10-20%.</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Marketing Pages</h5>
+									<h4 class="hide">eh!</h4>
+									<p>You have to work hard to get 3-8%</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
+								<h3>TRAFFIC</h3>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Calculators</h5>
+									<h4 class="hide">INHERENTLY VIRAL</h4>
+									<p>Personalized responses encourage sharing.</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Ebooks</h5>
+									<h4 class="hide">Average </h4>
+									<p>They can get shared. But viral? Hardly!</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Marketing Pages</h5>
+									<h4 class="hide">Dead Cold</h4>
+									<p>When was the last time you shared a landing page?</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
+								<h3>DATA</h3>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Calculators</h5>
+									<h4 class="hide">RICH</h4>
+									<p>Rich responses can help make sales more targeted.</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Ebooks</h5>
+									<h4 class="hide">Little</h4>
+									<p>You can't do much with an email and name.</p>
+									<span>V/S</span>
+								</div>
+								<div class="col-xs-12 np sec3-box2inner">
+									<h5>Marketing Pages</h5>
+									<h4 class="hide">Little</h4>
+									<p>When did you last submit a real email? ;)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 np rs-hide">
+				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
+					<div class="col-xs-12 np sec3-box1inner">
+						<h4>Add Real Value</h4>
+						<p>&nbsp; <br>&nbsp;</p>
+					</div>
+					<div class="col-xs-12 np sec3-box1inner">
+						<h4>Conversion Rates</h4>
+						<p>&nbsp; <br>&nbsp;</p>
+					</div>
+					<div class="col-xs-12 np sec3-box1inner">
+						<h4>Traffic</h4>
+						<p>&nbsp; <br>&nbsp;</p>
+					</div>
+					<div class="col-xs-12 np sec3-box1inner">
+						<h4>Data</h4>
+						<p>&nbsp; <br>&nbsp;</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 sec3-box2 mk-animate-element scale-up">
+					<h3>Calculators</h3>
+					<div class="col-xs-12 np sec3-box2inner">
+						<i class="material-icons">check_circle</i>
+						<p>Answer your customers most pressing questions.</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>High</h4>
+						<p>Interactivity enhances conversion to over 40-50%</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>Inherently Viral</h4>
+						<p>Personalized responses encourage sharing.</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>Rich</h4>
+						<p>Rich responses can help make target sales.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 sec3-box3 mk-animate-element scale-up">
+					<h3>eBooks</h3>
+					<div class="col-xs-12 np sec3-box2inner">
+						<i class="material-icons">gesture</i>
+						<p>Sure! But do people really have time to read.</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>Uninspiring</h4>
+						<p>No instant gratification only allows for 10-20%.</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>Average</h4>
+						<p>They can get shared. But viral? Probably not.</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>Little</h4>
+						<p>You can't do much with an email and name.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 sec3-box4 mk-animate-element scale-up">
+					<h3>Marketing Pages</h3>
+					<div class="col-xs-12 np sec3-box2inner">
+						<i class="material-icons">clear</i>
+						<p>A marketing rant with click baits adds little value.</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>eh!</h4>
+						<p>You have to work hard to get 3-8%</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>Dead Cold</h4>
+						<p>When was the last time you shared a landing page?</p>
+					</div>
+					<div class="col-xs-12 np sec3-box2inner">
+						<h4>Little</h4>
+						<p>When did you last submit a real name, email?</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section section-2 hide">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up">
+			<div class="section-2-heading mk-animate-element scale-up">
 				Where will you click?
-			</h1>
-			<h2 class="section-2-subheading mk-animate-element scale-up show">
+			</div>
+			<div class="section-2-subheading mk-animate-element scale-up show">
 				Customers want to be helped. Not sold to. Quizzes & Calculators build trust by answering your customer's most pressing questions.
-			</h2>
+			</div>
 		</div>
 	</section>
-	<!-- Homepage section 2 start-->
-	<!-- Homepage section 2 end-->
-	<!-- Homepage section 3 start-->
-	<section class="section section-3">
+
+	<section class="section section-3 hide">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-12 np outer-container text-center">
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
@@ -111,20 +394,40 @@
 					<img src="" data-src="{{ $page->baseUrl }}/images/sec3-img2-edited.png" class="mk-animate-element left-to-right img-2" />
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-show">
-					<img src="" data-src="{{ $page->baseUrl }}/images/sec3-img2-edited.png"class="mk-animate-element left-to-right img-2" />
+					<img src="" data-src="{{ $page->baseUrl }}/images/mobile-top2.png" class="mk-animate-element left-to-right img-2" />
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- Homepage section 3 end-->
+
+	<!-- Homepage section Take-Quiz start-->
+
+	<section class="section take-quiz-bg mb hide">
+		<div class="container mobile-container">
+			<div class="col-md-12 col-xs-12 col-sm-12 np text-center">
+				<div class="take-quiz-heading mk-animate-element left-to-right">
+					 How many <b>more</b> customers can you earn with quizzes and calculators?
+				</div>
+				<a href="javascript:void(0);"  data-toggle="modal" data-target="#embed-modal-quizer" >
+					<button class="sec-quiz-btn mk-animate-element left-to-right">
+					<i class="material-icons">arrow_forward</i>FIND OUT NOW</button>
+				</a>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Homepage section Take-Quiz end-->
+
 	<section class="section">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading mk-animate-element scale-up ">
-				Beautiful calculators and quizzes. Without Developers.
+				Beautiful calculators and quizzes. <br/> Without Developers.
 			</h1>
-			<h2 class="section-2-subheading mk-animate-element scale-up">
+			<h5 class="section-2-subheading mk-animate-element scale-up">
 				 Create beautiful experiences in minutes with our simple, yet powerful development studio.
-			</h2>
+			</h5>
 		</div>
 	</section>
 
@@ -132,8 +435,10 @@
 	<section class="section section-4">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
-				<div class="embed-responsive embed-responsive-16by9 lazyLoad1">
-
+				<div class="embed-responsive embed-responsive-16by9">
+					<video width="1324" height="607" autoplay loop>
+						<source src="{{ $page->baseUrl }}/images/Outgrow-demo.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
@@ -150,13 +455,15 @@
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">developer_board</i>
-					<span>Publish Within Minutes, with <b>No IT Headache</b> </span>
+					<span>Publish Within Minutes, with <b>No IT Headache</b> including <b>Charts and Graphs</b></span>
 				</span>
 
 			</div>
 			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
-				<div class="embed-responsive embed-responsive-16by9 lazyLoad2">
-
+				<div class="embed-responsive embed-responsive-16by9">
+					<video width="1324" height="607" autoplay loop>
+						<source src="{{ $page->baseUrl }}/images/Outgrow-demo.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>
 		</div>
@@ -167,8 +474,8 @@
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="mk-animate-element scale-up sec5-2-1" src="" data-src="{{ $page->baseUrl }}/images/sec5-1.png" />
-				<img class="sec5-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/sec5-2-new.png" />
+				<img class="mk-animate-element scale-up sec5-2-1" src="" data-src="{{ $page->baseUrl }}/images/img-publishAnywhere.png" />
+				<!--<img class="sec5-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/sec5-2-new.png" />-->
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -189,8 +496,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="mk-animate-element scale-up sec5-2-1" src="" data-src="{{ $page->baseUrl }}/images/sec5-1.png" />
-				<img class="sec5-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/sec5-2-new.png" />
+				<img class="mk-animate-element scale-up sec5-2-1" src="" data-src="{{ $page->baseUrl }}/images/img-publishAnywhere.png" />
 			</div>
 		</div>
 	</section>
@@ -199,9 +505,9 @@
 	<!-- Homepage section 6 start-->
 	<section class="section section-6">
 		<div class="container img-container">
-			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show ">
-				<img class="mk-animate-element right-to-left sec6-2-1" src="" data-src="{{ $page->baseUrl }}/images/share-img.png"/>
-				<img class="sec6-2-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/lead-sec.png" />
+			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show">
+				<img class="mk-animate-element right-to-left sec6-2-1" src="" data-src="{{ $page->baseUrl }}/images/img-boostgrowth-tab.png" />
+				<img class="sec6-2-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/img-boostgrowth-mobile.png" />
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
 				<h4 class="mk-animate-element left-to-right">
@@ -217,19 +523,17 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
-				<img class="mk-animate-element right-to-left " src="" data-src="{{ $page->baseUrl }}/images/share-img.png"/>
-				<img class="sec4-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/lead-sec.png"/>
+				<img class="mk-animate-element right-to-left" src=""  data-src="{{ $page->baseUrl }}/images/img-boostgrowth-tab.png" />
+				<img class="sec4-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/img-boostgrowth-mobile.png" />
 			</div>
 		</div>
 	</section>
-
-
 
 	<!-- Homepage section 5 start-->
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="mk-animate-element scale-up box-shadow" src="" data-src="{{ $page->baseUrl }}/images/graph-2-updated.jpg"/>
+				<img class="mk-animate-element scale-up" src="" data-src="{{ $page->baseUrl }}/images/img-analyze_improve.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -250,7 +554,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="mk-animate-element scale-up box-shadow" src="" data-src="{{ $page->baseUrl }}/images/graph-2-updated.jpg"/>
+				<img class="mk-animate-element scale-up" src="" data-src="{{ $page->baseUrl }}/images/img-analyze_improve.png" />
 			</div>
 
 			<div class="col-xs-12 col-sm-12 text-center rs-hide">
@@ -260,328 +564,248 @@
 	</section>
 	<!-- Homepage section 5 end-->
 
-
-
-	<!-- Homepage section 10 start-->
-	<section class="section section-10">
-		<div class="container-fluid">
-			<div class="sec10-testimonial mk-animate-element left-to-right">
-				<div class="sec10-tes-inner">
-					<em class="sec10-em1">“</em>
-					<span>I am on my third calculator already. The first two were organically shared on a popular industry mailing list and fetched us over 5000 highly targeted leads!</span>
-
+	<section class="section sec-integrations">
+		<div class="container mobile-container">
+			<h1 class="section-2-heading mk-animate-element scale-up ">
+				Over 500 integrations
+			</h1>
+			<h5 class="section-2-subheading mk-animate-element scale-up">
+				 Easily Integrate with Over 500 sales & marketing tools
+			</h5>
+			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide mk-in-viewport text-center">
+				<!--<img class="mk-animate-element scale-up int-box-shadow" src=""  data-src="{{ $page->baseUrl }}/images/img-integration-full.jpg" />-->
+				<div class="img-int-wrapper">
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-1.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-2.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-3.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-4.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-5.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-6.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-7.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-8.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-9.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-10.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-11.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-12.jpg" />
 				</div>
-				<div class="sec10-testname">
-					<h5>Hillary Hunt</h5>
-					</div>
-				<a class="sec10-testimonial-link">Marketing Manager</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-show text-center mk-in-viewport rs-hide-int-res">
+				<!--<img class="int-box-shadow" src="" data-src="{{ $page->baseUrl }}/images/img-integration-resp.jpg">-->
+				<div class="img-int-wrapper">
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-1.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-2.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-3.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-4.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-5.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-6.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-7.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-8.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-9.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-10.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-11.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-12.jpg" />
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-show text-center mk-in-viewport rs-hide-int-mob">
+				<!--<img class="int-box-shadow" src=""  data-src="{{ $page->baseUrl }}/images/img-integration-mob.jpg">-->
+				<div class="img-int-wrapper">
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-1.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-2.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-3.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-4.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-5.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-6.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-7.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-8.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-9.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-10.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-11.jpg" />
+					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-12.jpg" />
+				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Homepage section 10 end-->
-
-
 	<!-- Homepage section 6 end-->
 
-	<section class="section section-7-top">
-		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up">
-				 The Outgrow Magic
-			</h1>
-			<h2 class="section-2-subheading mk-animate-element scale-up">
-				 Get inspired by some of our most successful calculators & quizzes!
-			</h2>
-		</div>
-	</section>
-	<!-- Homepage section 7 start-->
-	<section class="section section-7">
-		<div class="container-fluid np">
-			<div class="col-xs-12 col-md-6 col-sm-12 section-9-right col-sm-push-6 ">
-				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="rs-show">
-							<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<img src="" data-src="{{ $page->baseUrl }}/images/em1-3.jpg" alt="" class="qode-lazy-image" />
-									</div>
-									<div class="swiper-slide">
-										<img src="" data-src="{{ $page->baseUrl }}/images/em1-2.jpg" alt="" class="qode-lazy-image" />
-									</div>
-								</div>
-								<!-- Add Pagination -->
-							</div>
-							<div class="swiper-pagination"></div>
-						</div>
-						<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
-							<div class="qode-cards-gallery">
-								<div class="card" style="background-color:#f3f3f3">
-									<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em1-2.jpg"
-											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-										/> </a>
-								</div>
-								<div class="card" style="background-color:#f3f3f3">
-									<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank">  <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em1-3.jpg"
-											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-										/> </a>
-								</div>
-						 </div>
-					</div>
-				</div>
+	<!-- Homepage The Outgrow Magic -->
+	<div class="section-main">
+		<section class="section section-5 sec-outgrowMagic-title">
+			<div class="container mobile-container">
+				<h1 class="section-2-heading mk-animate-element scale-up">
+					The Outgrow Magic
+				</h1>
+				<h5 class="section-2-subheading mk-animate-element scale-up">
+					Get inspired by some of our most successful calculators & quizzes!
+				</h5>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-9-left col-sm-pull-6 ">
-				<h4 class="mk-animate-element left-to-right">
-					What kind of engineer should you be?
-				</h4>
-				<div class="sec9-test mk-animate-element left-to-right">
-					<em class="left">“</em>
-					<p>
-						The first question prospective students ask is: 'which major is right for me'? This calculator lets us answer such questions and build relationships early on. The bounce rates were < 10% - something I haven't seen after spending over $10M in online ads.
-						<em class="right">”</em>
-					</p>
-					<span class="text-1">Head of Admissions,</span>
-					<span class="text-2">Top Ranked Online University</span>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-11 np">
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">k</em>
-						<label class="counter">22</label>
-						<p>Unique Views</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">k</em>
-						<label class="counter">12</label>
-						<p>Leads</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">%</em>
-						<label  class="counter">98</label>
-						<p>Conversion Rate</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-hide">
-					<a href="http://resources.outgrow.co/what-kind-of-engineer-you-should-be/ " target="_blank"> <button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-show">
-					<a href="https://website.outgrow.co/Which-engineering-major-is-right-for-you" target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Quiz</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Homepage section 7 end-->
+		</section>
 
-	<!-- Homepage section 8 start-->
-	<section class="section section-8">
-		<div class="container-fluid np">
-			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left1">
-				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="rs-show">
-							<div class="swiper-container box-shadow  mk-animate-element scale-up">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<img src="" data-src="{{ $page->baseUrl }}/images/em2-1.jpg" alt="" class="qode-lazy-image" />
-									</div>
-									<div class="swiper-slide">
-										<img src="" data-src="{{ $page->baseUrl }}/images/em2-2.jpg" alt="" class="qode-lazy-image" />
-									</div>
-								</div>
-								<!-- Add Pagination -->
-							</div>
-							<div class="swiper-pagination"></div>
-						</div>
-						<div class="qode-cards-gallery-holder right rs-hide" data-side=right>
-							<div class="qode-cards-gallery">
-								<div class="card" style="background-color:#f3f3f3">
-									<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank" > <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em2-1.jpg"
-											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-										/> </a>
-								</div>
-								<div class="card" style="background-color:#f3f3f3">
-									<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em2-2.jpg"
-											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true" /> </a>
-								</div>
-						 </div>
-					</div>
+		<section class="section section-5 sec-outgrowMagic">
+			<div class="container-fluid np">
+				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
+					<a href="javascript:void(0);" target="_blank" class="active"
+						onclick="display('https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1')">
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc01.jpg" />
+					</a>
+					<a href="javascript:void(0);" target="_blank" class=""
+						onclick="display('https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1')">
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc02.jpg" />
+					</a>
+					<a href="javascript:void(0);" target="_blank" class=""
+						onclick="display('https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc03.jpg" />
+					</a>
 				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-7-left">
-				<h4 class="mk-animate-element right-to-left">
-					How much should you pay for a video campaign ?
-				</h4>
-				<div class="sec9-test mk-animate-element right-to-left">
-					<em class="left">“</em>
-					<p>
-						The video cost calculator helped us create a brand centered around transparency. It soon became the go-to tool for advertisers to assess production costs (even when they were considering our competitors). Not surprisingly, today, it is our <b>#1 source of leads</b>.
-						<em class="right">”</em>
-					</p>
-					<span class="text-1">Chief Creative Officer, </span>
-					<span class="text-2">Top Hollywood Ad Agency</span>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-11 np">
-					<div class="circle-value mk-animate-element right-to-left">
-						<em class="">k</em>
-						<label class="counter">56</label>
-						<p>Unique Visits</p>
-					</div>
-					<div class="circle-value mk-animate-element right-to-left">
-						<em class="">k</em>
-						<label class="counter">19</label>
-						<p>Search Traffic</p>
-					</div>
-					<div class="circle-value mk-animate-element right-to-left">
-						<em class="">%</em>
-						<label  class="counter">34</label>
-						<p>Completion Rate</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-hide">
-					<a href="https://website.outgrow.co/5875396fe62e5172076953fe" class="embed-modal2"  target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-show">
-					<a href="https://website.outgrow.co/5875396fe62e5172076953fe" target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Homepage section 8 end-->
-
-	<!-- Homepage section 9 start-->
-	<section class="section section-9">
-		<div class="container-fluid np">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-sm-push-6 section-9-right">
-				<div class="col-xs-12 col-sm-12 slider-sa text-center">
-					<div class="rs-show">
-							<div class="swiper-container box-shadow  mk-animate-element scale-up rs-show">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<img src="" data-src="{{ $page->baseUrl }}/images/em3-3.jpg" alt="" class="qode-lazy-image" />
-									</div>
-									<div class="swiper-slide">
-										<img src="" data-src="{{ $page->baseUrl }}/images/em3-2.jpg" alt="" class="qode-lazy-image" />
-									</div>
-								</div>
-								<!-- Add Pagination -->
-							</div>
-							<div class="swiper-pagination"></div>
-						</div>
-						<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
-							<div class="qode-cards-gallery">
-								<div class="card" style="background-color:#f3f3f3">
-									<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em3-3.jpg"
-										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									 /> </a>
-								</div>
-								<div class="card" style="background-color:#f3f3f3">
-									<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <img src="#" alt="" class="qode-lazy-image" data-image="{{ $page->baseUrl }}/images/em3-2.jpg"
-									 style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"	/> </a>
-								</div>
-						 </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-9-left section-9-left2 col-sm-pull-6">
-				<h4 class="mk-animate-element left-to-right">
-					What is your risk of getting a heart disease?
-				</h4>
-				<div class="sec9-test mk-animate-element left-to-right">
-					<em class="left">“</em>
-					<p>
-						Being an age old healthcare company, social media was never a serious marketing channel. But this changed when we launched our series of "What is the risk of getting a ______ disease?" calculators. With these calculators, facebook is now our cheapest source of leads!
-						<em class="right">”</em>
-					</p>
-					<span class="text-1">Head of Customer Experience,</span>
-					<span class="text-2">IDBI Insurance</span>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-11 np">
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">k</em>
-						<label class="counter">98</label>
-						<p>Unique Views</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">%</em>
-						<label class="counter">66</label>
-						<p>Referral Traffic</p>
-					</div>
-					<div class="circle-value mk-animate-element left-to-right">
-						<em class="">%</em>
-						<label  class="counter">6</label>
-						<p>Bounce Rate</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-hide">
-					<a href="http://resources.outgrow.co/risk-of-getting-heart-disease/" target="_blank"> <button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-				<div class="col-xs-12 col-sm-11 np rs-show">
-					<a href="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease" target="_blank"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Try The Calculator</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- Homepage section 9 end-->
-
-	<!-- Homepage section 12 start-->
-	<section class="section section-12">
-		<div class="container-fluid">
-			<div class="sec10-testimonial mk-animate-element right-to-left">
-				<div class="sec10-tes-inner">
-					<em class="sec10-em1">“</em>
-					<span>We sent a calculator to a prospective customer and found that the email was opened over 400 times. Either he was obsessed with the calculator or shared with his entire company.</span>
-
-				</div>
-				<div class="sec10-testname">
-					<h5>Paul McIntiere</h5>
-				</div>
-				<a class="sec10-testimonial-link">Sales Territory Manager</a>
-
-			</div>
-		</div>
-	</section>
-	<!-- Homepage section 12 end-->
-	<section class="hide">
-		<span class="section-runnigheading mk-animate-element scale-up rs-show">Find Your Style</span>
-	</section>
-	<!-- Homepage section 13 start-->
-	<section class="section section-13">
-		<div class="container mobile-container ebook-container">
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-6 col-sm-12 col-xs-12 np rs-show text-center">
-					<img class="ebook-img" src="" data-src="{{ $page->baseUrl }}/images/ebook-1-new.gif">
-				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12 np">
-					<div class="ebook-outer">
-						<h1 class="ebook-head">
-							The Only Guide to Growth Hacking with Calculators!
-						</h1>
-						<h3 class="ebook-subhead">
-							Learn how you can boost lead generation with interactive calculators.
-						</h3>
-						<h4 class="ebook-sub-heading">
-							Get the Ebook
-						</h4>
-						<div class="col-md-12 col-sm-12 col-xs-12 np sahil-material">
-							<form class="">
-	                           <p class="errors" id="ebook-error"></p>
-	                            <div class="form-group label-floating">
-	                                <label class="control-label" for="ebook-name">Name</label>
-	                                <input name="ebook-name" class="form-control" id="ebook-name" type="text" required>
-	                            	<span class="material-input"></span>
-	                            </div>
-	                             <div class="form-group label-floating">
-	                                <label class="control-label" for="ebook-email">Email</label>
-	                                <input name="ebook-email" class="form-control" id="ebook-email" type="email" required>
-	                            	<span class="material-input"></span>
-	                            </div>
-	                        </form>
-	                    	<button id="ebook-submit" onclick="submitEbookData(event)" class="btn btn-default form-btn">Get Access<i class="material-icons">arrow_downward</i></button>
+				<div class="col-xs-12 col-sm-12 col-md-9 np">
+					<!--<div id="sticky-anchor"></div>-->
+					<div class="tab-outer-frame col-xs-12 col-md-12 col-sm-12 text-center">
+						<!--<span class="icon-webcam"></span>-->
+						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
+							<iframe id="og-iframe" src="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img class="ebook-img" src="" data-src="{{ $page->baseUrl }}/images/ebook-1-new.gif">
+
+				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
+					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
+						<a href="javascript:void(0);" class="col-sm-4 np calcembed active" data-toggle="modal" data-target="#calcEmbed-modal1">
+							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc01.jpg" />
+						</a>
+						<a href="javascript:void(0);" class="col-sm-4 np calcembed"  data-toggle="modal" data-target="#calcEmbed-modal2">
+							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc02.jpg" />
+						</a>
+						<a href="javascript:void(0);" class="col-sm-4 np calcembed" data-toggle="modal" data-target="#calcEmbed-modal3">
+							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc03.jpg" />
+						</a>
+					</div>
 				</div>
 			</div>
+		</section>
+	</div>
+
+	<!--section testimonial -->
+	<div class="section-main">
+		<section class="section section-7-top">
+			<div class="container mobile-container">
+				<h1 class="section-2-heading mk-animate-element scale-up">
+					Check what our users have to say!
+				</h1>
+			</div>
+		</section>
+		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-show-less480 ">
+			<div class="swiper-container mk-animate-element scale-up">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile02.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile04.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile05.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile06.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile07.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile08.jpg" alt="" class="qode-lazy-image" />
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
 		</div>
+		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-show rs-hide-less480">
+			<div class="swiper-container mk-animate-element scale-up">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile02.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile04.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile05.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile06.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src=""  data-src="{{ $page->baseUrl }}/images/testimonialsMobile07.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile08.jpg" alt="" class="qode-lazy-image" />
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-hide">
+			<div class="swiper-container mk-animate-element scale-up">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials01.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials02.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials03.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials04.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials05.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials06.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials07.jpg" alt="" class="qode-lazy-image" />
+					</div>
+					<div class="swiper-slide">
+						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials08.jpg" alt="" class="qode-lazy-image" />
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+	</div>
+	<!--section testimonial -->
+
+	<section class="section section-startFreeTrial-btn text-center">
+		<a href="" class="params trialLOL">
+			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
+			<img src="" data-src="{{ $page->baseUrl }}/images/icon-mouse.png">Start Free Trial</button>
+		</a>
+		<div class=""><label>Plans Start at $45/month</label></div>
 	</section>
 	<!-- Homepage section 13 end-->
 
@@ -591,14 +815,14 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
-					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<button type="button" onclick="btnClose()" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="row">
 						<div class="modal-video-full">
 							<div class="tab-content">
 								<div id="overview" class="tab-pane fade in active">
 									<div class="embed-responsive embed-responsive-16by9">
-										<iframe class="outgrow-video" src="" data-src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>
@@ -608,12 +832,65 @@
 			</div>
 		</div>
 	</div>
+	<!-- End: Modal Video -->
+	<!-- Start: Modal calcEmbed1 -->
+	<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-dialog-video">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<i class="material-icons">close</i></button>
+					<div class="col-md-12 np">
+						<iframe src="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End: Modal calcEmbed1 -->
+
+	<!-- Start: Modal calcEmbed2 -->
+	<div id="calcEmbed-modal2" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-dialog-video">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<i class="material-icons">close</i></button>
+					<div class="col-md-12 np">
+						<iframe src="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End: Modal calcEmbed2 -->
+
+	<!-- Start: Modal calcEmbed3 -->
+	<div id="calcEmbed-modal3" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-dialog-video">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<i class="material-icons">close</i></button>
+					<div class="col-md-12 np">
+						<iframe src="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End: Modal calcEmbed3 -->
 @endsection
 
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"swiper": "{{ $page->baseUrl }}/js/swiper.min.js",
+		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 	}
 @endsection

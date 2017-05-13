@@ -1,3 +1,22 @@
+window.showPlan = function (a){
+	if(a=='m'){
+		console.log(jQuery(this));
+		jQuery('#monthly').addClass('active').siblings('.cycle-tab').removeClass('active');
+		jQuery('#m').addClass('active').siblings('.pricing-cards').removeClass('active');
+	}
+	else if(a=='s'){
+		jQuery('#half-yearly').addClass('active').siblings('.cycle-tab').removeClass('active');
+		jQuery('#s').addClass('active').siblings('.pricing-cards').removeClass('active');
+	}
+	else if(a=='y'){
+		jQuery('#annually').addClass('active').siblings('.cycle-tab').removeClass('active');
+		jQuery('#y').addClass('active').siblings('.pricing-cards').removeClass('active');
+	}
+}
+window.showIntercom = function () {
+    console.log('intercom');
+    jQuery(document).find('.intercom-launcher').click();
+}
 window.close_accordion_section = function () {
 	jQuery('.accordion .accordion-section-title').removeClass('active');
 	jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
