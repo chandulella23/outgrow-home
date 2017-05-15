@@ -46,10 +46,12 @@ window.submitEbookData = function (e) {
 
 window.attachVid = function (type) {
 	var href = window.location.href.split('#')[1];
+	var el = document.getElementById('bfrVid')
+	el.style.paddingTop = '100px';
 	if(!href) {
-		window.location.href = window.location.href + "#video-main"
+		window.location.href = window.location.href + "#bfrVid"
 	} else {
-		window.location.href = window.location.href.split('#')[0] + '#video-main'
+		window.location.href = window.location.href.split('#')[0] + '#bfrVid'
 	}
 	if ('web' === type) changeHeightWeb();
 	if ('mob' === type) changeHeightMob();
