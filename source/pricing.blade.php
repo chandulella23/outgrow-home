@@ -71,7 +71,7 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name">&nbsp;6000 Visits</span></a>
 			                </li>
-			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Calculator or Quiz</span></a>
+			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Calculator or Quiz</span></a>
 							</li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Collaborator</span></a>
 			                </li>
@@ -285,7 +285,7 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name">&nbsp;6,000 Visits</span></a>
 			                </li>
-			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Calculator or Quiz</span></a>
+			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Calculator or Quiz</span></a>
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Collaborator</span></a>
 			                </li>
@@ -500,7 +500,7 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name">&nbsp;6,000 Visits</span></a>
 			                </li>
-			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Calculator or Quiz</span></a>
+			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;3 Calculator or Quiz</span></a>
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;1 Collaborator</span></a>
 			                </li>
