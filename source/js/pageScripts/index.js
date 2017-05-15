@@ -1,3 +1,22 @@
+window.onscroll = function () {
+	if (jQuery(window).scrollTop() > 1000) {
+		console.log('Inside if');
+		if (jQuery('body').innerWidth() > 990 && jQuery('#og-iframe').attr('data-calc') !== '') {
+			jQuery('#og-iframe').attr('src', jQuery('#og-iframe').attr('data-calc'));
+			jQuery('#og-iframe').attr('data-calc', '');
+			console.log('Desktop if', jQuery('#og-iframe').attr('data-calc', ''));
+		}
+
+		if (jQuery('body').innerWidth() <= 990 && document.getElementsByClassName('og-iframe-res')[0].dataset.calc !== '') {
+			jQuery('.og-iframe-res').each(function () {
+				jQuery(this).attr('src', jQuery(this).attr('data-calc'));
+				jQuery(this).attr('data-calc', '');
+				console.log('Res if')
+			})
+		}
+	}
+}
+
 window.submitEbookData = function (e) {
     e.preventDefault(), jQuery("#ebook-error").html("");
     var o = jQuery("#ebook-email").val(),
@@ -112,6 +131,7 @@ window.display = function (url) {
 jQuery.noConflict();
 jQuery.material.init();
 jQuery(document).ready(function() {
+
 	jQuery('.close').click(function(){
 		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
 	});
