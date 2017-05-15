@@ -705,9 +705,6 @@
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile02.jpg" alt="" class="qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
@@ -773,9 +770,6 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials01.jpg" alt="" class="qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials02.jpg" alt="" class="qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials03.jpg" alt="" class="qode-lazy-image" />
