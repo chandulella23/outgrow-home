@@ -169,14 +169,14 @@
     .sec3-box2inner h5 {
         font-size: 16px;
         color: rgba(98, 105, 109, .4);
-        text-transform: uppercase
+        text-transform: uppercase;     margin-top: 0px;
     }
     .sec3-box2inner i {
         font-size: 24px
     }
     .sec3-box2 h3 {
         position: relative;
-        top: 0;     font-size: 18px;
+        top: 0;     font-size: 18px;     margin-bottom: 0px;
     }
     .mobile-sec3 .swiper-container {
         padding-bottom: 30px
@@ -2036,6 +2036,7 @@
     .billing-white-top h3.plan-price {
         font-size: 22px
     }
+    #pricing .enterprise-box-new h2.title {font-size: 20px;}
 }
 
 @media (min-width:1024px) {

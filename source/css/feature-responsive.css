@@ -418,7 +418,7 @@
 		font-size:16px !important;
 	}
 	#feature .feature-heading-1 h3{
-		font-size:22px; line-height: 32px;
+		font-size:22px; line-height: 32px; padding-top: 20px;
 	}
 	#feature .feature-heading-1 h4 { font-size: 16px;}
 
@@ -430,9 +430,10 @@
 		}
 		#feature .sec-graphsCharts i.material-icons.icon-style {font-size: 40px;}
 		#feature .sec-graphsCharts .section-f1-left span.subheading {margin-bottom: 15px;}
-		#feature .sec-graphsCharts .section-f1-right { margin-top: 10px;}
+		#feature .sec-graphsCharts .section-f1-right { margin-top: 10px;margin-bottom: 20px;}
 		#feature .section.section-5 h4 {font-size: 22px;}
 		#feature .section.section-10 h4 {font-size: 14px;}
+		#feature .sec-5-text h5{font-size: 22px;}
 
 	/* end: feature page responsive by arti */
 
