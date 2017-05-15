@@ -453,12 +453,12 @@
 	<section class="section section-5">
 		<div class="container sec-5-container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
-				<span>Multiple Results</span>
+				<h5>Multiple Results</h5>
 				<p>Want to show the total cost with a discount, the total savings and how many trees will be saved? No problem!</p>
 				<img class="mk-animate-element scale-up shadow img-style res-img" src="{{ $page->baseUrl }}/images/slide6-new1.jpg" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
-				<span>Realtime Results</span>
+				<h5>Realtime Results</h5>
 				<p>Want to get more interactive & show the results in real time?
 				<br/> One click can let you do that!</p>
 				<img class="mk-animate-element scale-up shadow res-img img-style" src="{{ $page->baseUrl }}/images/sec5-4-lg.jpg" />
