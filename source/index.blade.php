@@ -842,7 +842,7 @@
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="col-md-12 np">
-						<iframe src="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
 					</div>
 				</div>
 			</div>
@@ -859,7 +859,7 @@
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="col-md-12 np">
-						<iframe src="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1"></iframe>
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1"></iframe>
 					</div>
 				</div>
 			</div>
@@ -876,20 +876,12 @@
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="col-md-12 np">
-						<iframe src="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1"></iframe>
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1"></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script>
-		window.onscroll = function () {
-			if (jQuery(window).scrollTop() > 1000 && jQuery('#og-iframe').attr('data-calc') !== '') {
-				jQuery('#og-iframe').attr('src', jQuery('#og-iframe').attr('data-calc'));
-				jQuery('#og-iframe').attr('data-calc', '');
-			}
-		}
-	</script>
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 
