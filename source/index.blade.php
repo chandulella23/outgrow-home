@@ -47,7 +47,7 @@
 								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="images/icon-mouse.png">Start Free Trial</button>
 							</a>
 							<div class="btn-bottominfo fade-in">
-								<label>Plans Start at $45/month</label>
+								<label>Plans Start at $25/month</label>
 							</div>
 						</div>
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="video-link">
@@ -705,9 +705,6 @@
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile02.jpg" alt="" class="qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
@@ -775,9 +772,6 @@
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials01.jpg" alt="" class="qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials02.jpg" alt="" class="qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
 						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials03.jpg" alt="" class="qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
@@ -811,7 +805,7 @@
 			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
 			<img src="" data-src="{{ $page->baseUrl }}/images/icon-mouse.png">Start Free Trial</button>
 		</a>
-		<div class=""><label>Plans Start at $45/month</label></div>
+		<div class=""><label>Plans Start at $25/month</label></div>
 	</section>
 	<!-- Homepage section 13 end-->
 
