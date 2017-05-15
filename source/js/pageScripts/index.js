@@ -110,6 +110,7 @@ window.display = function (url) {
 jQuery.noConflict();
 jQuery.material.init();
 jQuery(document).ready(function() {
+
 	jQuery('.close').click(function(){
 		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
 	});

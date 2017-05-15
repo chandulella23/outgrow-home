@@ -667,7 +667,7 @@
 					<div class="tab-outer-frame col-xs-12 col-md-12 col-sm-12 text-center">
 						<!--<span class="icon-webcam"></span>-->
 						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
-							<iframe id="og-iframe" src="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
+							<iframe id="og-iframe" src="" data-calc="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
 						</div>
 					</div>
 				</div>
@@ -882,6 +882,14 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		window.onscroll = function () {
+			if (jQuery(window).scrollTop() > 1000 && jQuery('#og-iframe').attr('data-calc') !== '') {
+				jQuery('#og-iframe').attr('src', jQuery('#og-iframe').attr('data-calc'));
+				jQuery('#og-iframe').attr('data-calc', '');
+			}
+		}
+	</script>
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 
