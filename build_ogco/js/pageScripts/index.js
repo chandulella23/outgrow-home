@@ -130,8 +130,8 @@ jQuery(document).ready(function() {
 		spaceBetween: 30,
 		slidesPerView: 3,
 		centeredSlides: true,
-		autoplay: 2500,
-		speed:500,
+		// autoplay: 2500,
+		// speed:500,
 		autoplayDisableOnInteraction: false
 	});
 	console.log('After slider');
