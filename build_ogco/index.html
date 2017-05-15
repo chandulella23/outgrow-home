@@ -152,9 +152,7 @@
 					<h3 class="mk-animate-element fade-in section1-firsthead">
 						Boost your marketing with highly <br/>converting <b>calculators</b> and viral <b>quizzes</b>.
 					</h3>
-					<div class="form-group mk-animate-element fade-in hide">
-						<input type="text" placeholder="Email Address" />
-					</div>
+					
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
 							<a href="" class="params">
@@ -163,6 +161,7 @@
 							<div class="btn-bottominfo fade-in">
 								<label>Plans Start at $25/month</label>
 							</div>
+							<div id="bfrVid"></div>
 						</div>
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="video-link">
 						</div>
@@ -956,7 +955,7 @@
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="col-md-12 np">
-						<iframe src="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
 					</div>
 				</div>
 			</div>
@@ -973,7 +972,7 @@
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="col-md-12 np">
-						<iframe src="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1"></iframe>
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1"></iframe>
 					</div>
 				</div>
 			</div>
@@ -990,20 +989,12 @@
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="col-md-12 np">
-						<iframe src="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1"></iframe>
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1"></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script>
-		window.onscroll = function () {
-			if (jQuery(window).scrollTop() > 1000 && jQuery('#og-iframe').attr('data-calc') !== '') {
-				jQuery('#og-iframe').attr('src', jQuery('#og-iframe').attr('data-calc'));
-				jQuery('#og-iframe').attr('data-calc', '');
-			}
-		}
-	</script>
 	<!-- End: Modal calcEmbed3 -->
 
 	<section class="section section-14" id="footer">

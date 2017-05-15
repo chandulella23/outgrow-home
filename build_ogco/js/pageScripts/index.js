@@ -1,3 +1,22 @@
+window.onscroll = function () {
+	if (jQuery(window).scrollTop() > 1000) {
+		console.log('Inside if');
+		if (jQuery('body').innerWidth() > 990 && jQuery('#og-iframe').attr('data-calc') !== '') {
+			jQuery('#og-iframe').attr('src', jQuery('#og-iframe').attr('data-calc'));
+			jQuery('#og-iframe').attr('data-calc', '');
+			console.log('Desktop if', jQuery('#og-iframe').attr('data-calc', ''));
+		}
+
+		if (jQuery('body').innerWidth() <= 990 && document.getElementsByClassName('og-iframe-res')[0].dataset.calc !== '') {
+			jQuery('.og-iframe-res').each(function () {
+				jQuery(this).attr('src', jQuery(this).attr('data-calc'));
+				jQuery(this).attr('data-calc', '');
+				console.log('Res if')
+			})
+		}
+	}
+}
+
 window.submitEbookData = function (e) {
     e.preventDefault(), jQuery("#ebook-error").html("");
     var o = jQuery("#ebook-email").val(),
@@ -27,10 +46,12 @@ window.submitEbookData = function (e) {
 
 window.attachVid = function (type) {
 	var href = window.location.href.split('#')[1];
+	var el = document.getElementById('bfrVid')
+	el.style.paddingTop = '100px';
 	if(!href) {
-		window.location.href = window.location.href + "#video-main"
+		window.location.href = window.location.href + "#bfrVid"
 	} else {
-		window.location.href = window.location.href.split('#')[0] + '#video-main'
+		window.location.href = window.location.href.split('#')[0] + '#bfrVid'
 	}
 	if ('web' === type) changeHeightWeb();
 	if ('mob' === type) changeHeightMob();
