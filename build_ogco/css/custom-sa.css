@@ -3067,14 +3067,14 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f1-left h4 {
 	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	margin-top: 0;
-	display: block;
-	text-transform: none
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-top: 0;
+    display: block;
+    text-transform: uppercase;
 }
 #feature .secf1-test, #feature .section-f1-left span {
 	width: 100%;
@@ -3133,13 +3133,13 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f2 .section-f2-left h4 {
 	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
 }
 #feature .section-f2-left .section-f2-new span {
 	text-align: left;
@@ -3222,13 +3222,13 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f3 .section-f3-left h4 {
 	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
 }
 #feature .section-f3-left .section-f3-new span {
 	text-align: left;
@@ -3284,14 +3284,15 @@ button.swiper-pagination-bullet {
 	float: left
 }
 #feature .section-f4 .section-f4-left h4 {
-	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: center;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none
+    color: #fb6c73;
+    font-size: 32px;
+    font-family: montserratlight;
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    margin: 0;
 }
 #feature .section-f4-left .section-f4-new span {
 	text-align: left;
@@ -3328,16 +3329,20 @@ button.swiper-pagination-bullet {
 	float: left;
 	display: block;
 	margin-bottom: 40px;
-	margin-top: 15px
+	/*margin-top: 15px*/
 }
-#feature .section-f4 .section-f4-left span span {
-	color: #62696d;
-	font-size: 14px !important;
-    font-family: montserratregular !important;
-	width: 85%;
-	float: left;
-	display: block;
-	margin: 0
+#feature .section.section-f4 div.section-f4-left span span {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: rgba(98,105,109,.8) !important;
+    font-size: 18px !important;
+    font-family: montserratultra_light !IMPORTANT;
+    margin-top: 5px !important;
+    padding: 0%;
+    color: #6b696d;
+    position: relative;
+    top: 0;
 }
 #feature .section-7 .section-9-left .btn-exploreTemp div {
 	padding: 15px 25px 40px 15px
@@ -3365,13 +3370,13 @@ button.swiper-pagination-bullet {
 }
 #feature .section-4 .section-4-left h4 {
 	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
 }
 #feature .section-4 .section-4-left span span {
 	color: #62696d;
@@ -3457,8 +3462,8 @@ button.swiper-pagination-bullet {
 }
 #feature .container.container-center h1 {
 	color: #fff !important;
-	font-size: 36px;
-	font-family: montserratultra_light;
+	font-size: 30px;
+	font-family: montserratlight;
 	text-align: center;
 	width: 100%;
 	float: left;
@@ -3540,20 +3545,20 @@ button.swiper-pagination-bullet {
 }
 #feature .section-6.sec-integration h1 {
 	color: #fb6c73 !important;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: center;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none
+    font-size: 32px;
+    font-family: montserratlight;
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
 }
 #feature .section-6.sec-integration p {
-	font-size: 14px;
-	font-family: montserratlight;
-	color: #62696d;
-	width: 100%;
-	padding-bottom: 60px
+	font-size: 18px;
+    font-family: montserratultra_light;
+    color: rgba(98,105,109,.8);
+    width: 100%;
+    padding-bottom: 60px;
 }
 #feature .section-6.sec-integration .btn-startBuildingCalc i {
 	display: inline-block;
@@ -3682,7 +3687,7 @@ button.swiper-pagination-bullet {
 	width: 100%;
 	text-transform: uppercase;
 	font-family: montserratlight;
-	margin-top: 20px
+	margin-top: 0px
 }
 #feature .feature-heading-1 h4 {
 	font-size: 18px;
@@ -3711,13 +3716,13 @@ button.swiper-pagination-bullet {
 }
 #feature .section-15 .section-15-left h4 {
 	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
 }
 #feature .section-15-left {
 	padding-right: 120px
@@ -3771,14 +3776,14 @@ button.swiper-pagination-bullet {
 	box-shadow: 0 5px 28px 8px rgba(0, 0, 0, .2)
 }
 #feature .section-17 .section-17-left h4 {
-	color: #fb6c73;
-	font-size: 36px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
 }
 #feature .section-17-left span i {
 	font-size: 60px;
@@ -4011,7 +4016,7 @@ button.swiper-pagination-bullet {
 	margin-top: 15px
 }
 #why .section-w1-left h4, #why .section-w2-left h4 {
-	font-family: montserratUltra_light;
+	font-family: montserratlight;
 	width: 80%;
 	color: #fb6c73;
 	display: block;
@@ -4034,7 +4039,8 @@ button.swiper-pagination-bullet {
 	float: left
 }
 #why .section-w1-left h4 {
-	font-size: 30px
+	font-size: 30px;
+	font-family: montserratlight;
 }
 #why .section-w3 {
 	margin-top: 40px;
@@ -4067,13 +4073,14 @@ button.swiper-pagination-bullet {
 }
 #why .section-w3-text h4 {
 	color: #fb6c73;
-	font-size: 30px;
-	font-family: montserratultra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	margin-top: 0
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 0;
+    text-transform: uppercase;
 }
 #why .section-w3-text span i {
 	font-size: 60px;
@@ -4138,9 +4145,17 @@ button.swiper-pagination-bullet {
 	width: 100%
 }
 #why .section-2-heading {
-	font-family: montserratUltra_light;
-	color: #fb6c73 !important;
-	margin: 0px;
+	font-family: montserratlight;
+    color: #fb6c73 !important;
+    margin: 0px;
+    font-size: 32px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 44px;
+    font-family: montserratlight;
+    text-transform: uppercase;
+    margin: 0px;
 }
 #why .sec4-2 {
 	position: absolute;
@@ -4165,7 +4180,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-4-left h4 {
 	width: 80%;
-	font-family: montserratUltra_light
+	/*font-family: montserratUltra_light*/
 }
 #why .section-4-left span {
 	width: 90%
@@ -4354,7 +4369,9 @@ button.swiper-pagination-bullet {
 	color: #fb6c73;
 	font-size: 30px;
 	width: 100%;
-	margin-top: 0
+	margin-top: 0;
+	text-transform: uppercase;
+    font-family: montserratlight;
 }
 #why .section-heading {
 	margin-top: 130px
@@ -4402,16 +4419,17 @@ button.swiper-pagination-bullet {
 	text-align: left
 }
 #why .section-2-subheading {
-	color: #62696d;
-	font-size: 18px;
-	font-family: montserratlight;
-	width: 100%;
-	float: none;
-	display: block;
-	text-align: center;
-	margin-top: 60px !important;
-	margin: 0 auto;
-	line-height: 25px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: rgba(98,105,109,.8);
+    font-size: 18px;
+    font-family: montserratultra_light;
+    margin-top: 5px;
+    padding: 0%;
+    color: #6b696d;
+    position: relative;
+    top: 0;
 }
 #why .section-top-why {
 	float: left;
@@ -5071,14 +5089,14 @@ button.swiper-pagination-bullet {
 }
 .Privacy .Privacy-subheading {
 	color: #fb6c73;
-	font-size: 30px;
-	font-family: montserratUltra_light;
-	text-align: left;
-	width: 100%;
-	float: left;
-	display: block;
-	text-transform: none;
-	margin-top: 30px
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: left;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 30px;
 }
 #Testimonial .testimonial-headingtop p, .Privacy .li-style, .Privacy h5, .Privacy p {
 	font-family: montserratlight
@@ -5518,8 +5536,8 @@ iframe[name=google_conversion_frame] {
 		width: 100%;
 		text-align: center;
 		color: #fff !important;
-		font-size: 40px;
-		font-family: montserratregular;
+		font-size: 30px;
+		font-family: montserratlight;
 		text-transform: uppercase;
 		margin: 0px;
 	}
@@ -5630,4 +5648,17 @@ iframe[name=google_conversion_frame] {
 	.navbar-nav{float:left;margin:0}
 	.navbar-nav>li{float:left}*/
 	.navbar-nav>li>a{padding-top:15px;padding-bottom:15px;padding-left:13px;padding-right:13px}
+}
+
+#feature .sec-5-text h5 {
+    color: #fb6c73;
+    font-size: 30px;
+    font-family: montserratlight;
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    margin: 0 auto;
+    line-height: 1.5;
 }

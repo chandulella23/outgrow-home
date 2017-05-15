@@ -329,12 +329,12 @@ body{background:#fff !important;}
 .usecase .section-usecase1-left h4 {
     color: #fb6c73;
     font-size: 30px;
-    font-family: montserratUltra_light;
+    font-family: montserratlight;
     text-align: left;
     width: 100%;
     float: left;
     display: block;
-    text-transform: none;
+    text-transform: uppercase;
 	margin-top:0px;
 }
 .usecase .section-usecase1-left span {
@@ -399,12 +399,12 @@ body{background:#fff !important;}
 .usecase .section-usecase2-left h4 {
     color: #fb6c73;
     font-size: 30px;
-    font-family: montserratUltra_light;
+    font-family: montserratlight;
     text-align: left;
     width: 100%;
     float: left;
     display: block;
-    text-transform: none;
+    text-transform: uppercase;
 	margin-top:0px;
 }
 .usecase .section-usecase2-left p {
