@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'production' => false,
-    'baseUrl' => '//venturepact.github.io/outgrow-home',
+    'production' => true,
+    'baseUrl' => '',
 ];
