@@ -3520,7 +3520,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.section.sec-integrations {margin-bottom: 50px;}
 		.sec-outgrowMagic .tab-outer-frame {right: 0; padding: 0px; display: none;}
 		.sec-integration-title {margin-bottom: 30px;}
-		.sec-integrations .section-2-heading {margin-bottom: 30px;}
+		.sec-integrations .section-2-heading {margin-bottom: 0px;}
 		.sec-targetedSale .float-wrapper {height: auto; 
 			border-radius: 0; 
 			float: left;

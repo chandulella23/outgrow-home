@@ -501,6 +501,18 @@
 		top: 0%;
 	}
 }
+
+@media (max-width: 1330px) and (min-width: 1024px){
+	.sec3-box1inner h4 {
+		font-size: 15px;
+	}
+	.sec3-box2 h3,.sec3-box3 h3,.sec3-box4 h3 {
+		font-size: 19px;
+	}
+}
+
+
+}
 @media (min-width: 1480px) and (max-width:1800px) {
 	
 }
