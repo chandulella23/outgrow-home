@@ -133,6 +133,8 @@ window.display = function (url) {
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
+	console.log('iframes',iframes)
+	jQuery('#og-iframe').addClass('iframeHeight')
 }
 
 jQuery.noConflict();
