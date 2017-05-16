@@ -3363,7 +3363,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-4-left h4{margin-bottom:10px;width:100%}
 	.section-4-right{border:none;padding:0;margin-top:0px;margin-left:0;margin-bottom:30px}
 	.section-5-left h4{text-align:left;margin-top:10px;width:100%}
-	.section-5-left span span{text-align:left;float:right;text-transform:uppercase;font-size: 12px;}
+	.section-5-left span span{text-align:left;float:left;text-transform:uppercase;font-size: 12px;}
 	/*.section-5-left span i{float:left;margin-top:4px}*/
 	.section-5-right{margin-top:0;border:none;padding-left: 0px !important;}
 	.section-5{margin-top:0;margin-bottom:50px;}
@@ -3543,9 +3543,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-outgrowMagic{padding: 0px 20px; /*height: auto !important;*/}
 		img.img-playIcon {width: 13%;}
 		.video-img-wrapper{width: 100% !important;}
-		.video-img-wrapper .video-img-inner {min-height: 315px;}
+		.video-img-wrapper .video-img-inner {min-height: 255px;}
 		#video-main-rs.hide-height {padding: 40px 40px 0px; height: 440px;}
-		.video-img-inner span.video-playIcon {width: 80px; height: 80px; left: 45%; top: 38%;}
+		.video-img-inner span.video-playIcon {width: 80px; height: 80px; left: 45%; top: 30%;}
 		.video-img-inner span.inside-circle {width: 70px; height: 70px; left: 5px; top: 5px; padding-top: 10px; font-size: 34px;}
 		.sec-craftedTemps {margin-top: 50px;}
 		.video-img-wrapper span.icon-webcam {left: 45% !important;}
@@ -3580,7 +3580,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	    padding-right: 90px;
 	}
 	#video-main-rs{display: none !important;}
-	#video-main-rs-mob.hide-height{padding: 25px 0px; height: 200px;display: block !important;}
+	#video-main-rs-mob.hide-height{padding: 25px 0px; height: 205px;display: block !important;}
 	#video-main-rs-mob .video-img-inner span.video-playIcon {
 		width: 35px;
 		height: 35px;
@@ -3697,6 +3697,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec5-2-1{width:100%;float:left;margin-top:40px;margin-left:0px}
 	.mobile-sec3 .sec3-box2{text-align:center}
 	#Testimonial .quote-container{margin-top:10px}
+	.video-img-inner span.video-playIcon {
+		width: 80px;
+		height: 80px;
+		left: 45%;
+		top: 36%;
+	}
 }
 @media (min-width:640px) and (max-width:768px){
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:350px}
@@ -3747,7 +3753,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.swiper-slide img,img.sec-6-img{/*width:100%;*/}
 	.custom-navbar.navbar-default{margin-bottom:0; padding-left: 10px;}
 	.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{margin-right:-15px;margin-left:-30px}
-	.navbar-right{margin-left:0;margin-top:10px}
+	.navbar-right{margin-left:20px;margin-top:10px}
 	.custom-navbar.navbar-default .navbar-nav>li{margin-left:0;margin-right:1px}
 	.custom-navbar.navbar-default .navbar-nav>li>a{font-size:12px;color:#62696d;text-transform:uppercase;padding:7px}
 	.custom-navbar .signUp-style a{margin-top:0px}
@@ -3852,8 +3858,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-4-left h4{margin-bottom:20px;width:100%}
 	.section-4-right{border:none;padding:0;margin-top:-10px;margin-left:0;margin-bottom:70px}
 	.section-5-left h4{text-align:left;margin-top:0xp;width:100%}
-	.section-5-left span span{text-align:left;float:right;text-transform:uppercase}
-	.section-5-left span i{float:left;margin-top:4px}
+	.section-5-left span span{text-align:left;float:left;text-transform:uppercase}
+	.section-5-left span i{float:left;margin-top:0px}
 	.section-5-right{margin-top:0;border:none}
 	.section-5{margin-top:0;margin-bottom:0}
 	.section-10,.section-6{margin-bottom:30px}
@@ -3923,7 +3929,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-2-heading{text-transform:none;line-height:normal;font-size:24px;text-align:center}
 	.section-2-subheading{display:none}
 	.section-4{margin-top:40px;margin-bottom:30px}
-	.section-4-left span i{margin-top:4px}
+	.section-4-left span i{margin-top:0px}
 	.section-4-left span span{font-size:12px;text-transform:uppercase}
 	.section-5-left{padding:0;margin-top:30px}
 	.container.mobile-container,.mobile-container,.section-6-right{padding:0 20px}
@@ -3984,6 +3990,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 		.swiper-container .swiper-slide.swiper-slide-next{display: none;}
 		.swiper-container .swiper-slide.swiper-slide-prev{display: none;}
+		.video-img-wrapper {width: 100% !important;}
+
+
+
 	/* homepage res changes by Arti */
 
 }
@@ -4786,8 +4796,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.video-img-inner span.video-playIcon {
 			width: 50px;
 			height: 50px;
-			left: 45%;
-			top: 23%;
+			/*left: 45%;
+			top: 23%;*/
 		}
 		.video-img-inner span.inside-circle {
 			width: 40px;
@@ -4824,6 +4834,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			padding-bottom: 15px;
 			margin: 0 !important;
 		}
+		#video-main-rs-mob{ height: 270px !important;}
 
 
 	/* end: homeapge responsive css by Arti */
@@ -4911,7 +4922,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			z-index: 999;*/
 		}
 		#video-main-rs{display: none !important;}
-		#video-main-rs-mob{display: block !important;}
+		#video-main-rs-mob{display: block !important;     height: 210px;}
 		#video-main-rs-mob .btn-close {
 			position: absolute;
 			top: 0px;
@@ -4935,6 +4946,28 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 		.swiper-container .swiper-slide.swiper-slide-next{display: none;}
 		.swiper-container .swiper-slide.swiper-slide-prev{display: none;}
+
+		.video-img-inner span.video-playIcon {
+			width: 50px;
+			height: 50px;
+			/*left: 45%;
+			top: 23%;*/
+		}
+		.video-img-inner span.inside-circle {
+			width: 40px;
+			height: 40px;
+			left: 5px;
+			top: 5px;
+			padding-top: 2px;
+			font-size: 24px;
+			border: 1px solid #fb6c73;
+		}		
+		.video-img-inner span.inside-circle i {
+			position: relative;
+			top: 2px;
+			font-size: 20px;
+		}
+
 	/* homapage responsive changes by Arti */
 }
 @media only screen and (max-width:1200px){
