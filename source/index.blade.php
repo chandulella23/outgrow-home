@@ -32,7 +32,7 @@
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
 				<div class="section1-left-cell">
-					  <h4 class="mk-animate-element fade-in">
+					<h4 class="mk-animate-element fade-in">
 						eBooks, blogs & whitepapers giving average results?
 					</h4>
 					<h3 class="mk-animate-element fade-in section1-firsthead">
