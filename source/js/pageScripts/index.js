@@ -14,6 +14,13 @@ window.onscroll = function () {
 				console.log('Res if')
 			})
 		}
+
+		if (document.getElementsByClassName('scrollimg')[0].dataset.scrollImg !== '') {
+			jQuery('.scrollimg').each(function () {
+				jQuery(this).attr('src', jQuery(this).attr('data-scroll-img'))
+				jQuery(this).attr('data-scroll-img', '');
+			})
+		}
 	}
 }
 

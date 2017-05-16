@@ -38,7 +38,7 @@
 					<h3 class="mk-animate-element fade-in section1-firsthead">
 						Boost your marketing with highly <br/>converting <b>calculators</b> and viral <b>quizzes</b>.
 					</h3>
-					
+
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
 							<a href="" class="params">
@@ -52,32 +52,13 @@
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="video-link">
 						</div>
 					</div>
-					<div class="col-md-12 col-sm-12 col-xs-12 np sahil-material hide">
-						<div class="col-md-7 col-sm-12 col-xs-12 np">
-							<form class="claim-cta">
-	                           <div class="form-group label-floating">
-	                                <i class="material-icons">public</i>
-	                                <input name="company-name" class="form-control" id="company-name" type="text" placeholder="yourcompany">
-	                            	<label class="in-active">.outgrow.co</label>
-	                            </div>
-	                        </form>
-	                    </div>
-                    	<div class="col-xs-12 col-sm-12 col-md-5 np">
-                    		<a href="#" class="params">
-                    			<button onclick="claim_sub_domain()" class="btn-buildcal mk-in-viewport animate-element fade-in mk-in-viewport full-visible">
-                    				<i class="material-icons">touch_app</i>
-                    				Claim your domain
-                    			</button>
-                    		</a>
-                    	</div>
-					</div>
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-mob">
-							<img class="video-img" src="" data-src="{{ $page->baseUrl }}/images/video-thumbnail.jpg" />
+							<img class="video-img" src="{{ $page->baseUrl }}/images/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
@@ -130,8 +111,7 @@
 							<div class="wpb_wrapper">
 								<div class='qode-expanding-images'>
 									<div class='qode-expanding-images-inner mk-animate-element scale-up'>
-										<img class='qode-frame-image' src="{{ $page->baseUrl }}/images/img-craftedtemp-tab.png" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab.png"
-											alt='laptop frame' />
+										<img class='qode-frame-image' src="{{ $page->baseUrl }}/images/img-craftedtemp-tab.png" alt='laptop frame' />
 										<div class="fadein">
 											<img id="f4" src="" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab04.png">
 											<img id="f3" src="" data-src="{{ $page->baseUrl }}/images/img-craftedtemp-tab03.png">
@@ -393,13 +373,13 @@
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-12 np outer-container text-center">
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img class="img-1 mk-animate-element right-to-left" src="" data-src="{{ $page->baseUrl }}/images/sec3-img1-edited.png" />
+					<img class="scrollimg img-1 mk-animate-element right-to-left" src="" data-scroll-img="{{ $page->baseUrl }}/images/sec3-img1-edited.png" />
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img src="" data-src="{{ $page->baseUrl }}/images/sec3-img2-edited.png" class="mk-animate-element left-to-right img-2" />
+					<img src="" data-scroll-img="{{ $page->baseUrl }}/images/sec3-img2-edited.png" class="scrollimg mk-animate-element left-to-right img-2" />
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 np rs-show">
-					<img src="" data-src="{{ $page->baseUrl }}/images/mobile-top2.png" class="mk-animate-element left-to-right img-2" />
+					<img src="" data-scroll-img="{{ $page->baseUrl }}/images/mobile-top2.png" class="scrollimg mk-animate-element left-to-right img-2" />
 				</div>
 			</div>
 		</div>
@@ -479,8 +459,7 @@
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="mk-animate-element scale-up sec5-2-1" src="" data-src="{{ $page->baseUrl }}/images/img-publishAnywhere.png" />
-				<!--<img class="sec5-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/sec5-2-new.png" />-->
+				<img class="scrollimg mk-animate-element scale-up sec5-2-1" src="" data-scroll-img="{{ $page->baseUrl }}/images/img-publishAnywhere.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -501,7 +480,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="mk-animate-element scale-up sec5-2-1" src="" data-src="{{ $page->baseUrl }}/images/img-publishAnywhere.png" />
+				<img class="scrollimg mk-animate-element scale-up sec5-2-1" src="" data-scroll-img="{{ $page->baseUrl }}/images/img-publishAnywhere.png" />
 			</div>
 		</div>
 	</section>
@@ -511,8 +490,8 @@
 	<section class="section section-6">
 		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show">
-				<img class="mk-animate-element right-to-left sec6-2-1" src="" data-src="{{ $page->baseUrl }}/images/img-boostgrowth-tab.png" />
-				<img class="sec6-2-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/img-boostgrowth-mobile.png" />
+				<img class="scrollimg mk-animate-element right-to-left sec6-2-1" src="" data-scroll-img="{{ $page->baseUrl }}/images/img-boostgrowth-tab.png" />
+				<img class="scrollimg sec6-2-2 mk-animate-element left-to-right" src="" data-scroll-img="{{ $page->baseUrl }}/images/img-boostgrowth-mobile.png" />
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
 				<h4 class="mk-animate-element left-to-right">
@@ -528,8 +507,8 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
-				<img class="mk-animate-element right-to-left" src=""  data-src="{{ $page->baseUrl }}/images/img-boostgrowth-tab.png" />
-				<img class="sec4-2 mk-animate-element left-to-right" src="" data-src="{{ $page->baseUrl }}/images/img-boostgrowth-mobile.png" />
+				<img class="scrollimg mk-animate-element right-to-left" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-boostgrowth-tab.png" />
+				<img class="scrollimg sec4-2 mk-animate-element left-to-right" src="" data-scroll-img="{{ $page->baseUrl }}/images/img-boostgrowth-mobile.png" />
 			</div>
 		</div>
 	</section>
@@ -538,7 +517,7 @@
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="mk-animate-element scale-up" src="" data-src="{{ $page->baseUrl }}/images/img-analyze_improve.png" />
+				<img class="scrollimg mk-animate-element scale-up" src="" data-scroll-img="{{ $page->baseUrl }}/images/img-analyze_improve.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -559,11 +538,11 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="mk-animate-element scale-up" src="" data-src="{{ $page->baseUrl }}/images/img-analyze_improve.png" />
+				<img class="scrollimg mk-animate-element scale-up" src="" data-scroll-img="{{ $page->baseUrl }}/images/img-analyze_improve.png" />
 			</div>
 
 			<div class="col-xs-12 col-sm-12 text-center rs-hide">
-				<a href="features.html"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
+				<a href="{{ $page->baseUrl }}/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
 			</div>
 		</div>
 	</section>
@@ -580,52 +559,52 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide mk-in-viewport text-center">
 				<!--<img class="mk-animate-element scale-up int-box-shadow" src=""  data-src="{{ $page->baseUrl }}/images/img-integration-full.jpg" />-->
 				<div class="img-int-wrapper">
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-1.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-2.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-3.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-4.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-5.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-6.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-7.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-8.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-9.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-10.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-11.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-12.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-1.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-2.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-3.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-4.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-5.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-6.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-7.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-8.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-9.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-10.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-11.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-12.jpg" />
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-show text-center mk-in-viewport rs-hide-int-res">
 				<!--<img class="int-box-shadow" src="" data-src="{{ $page->baseUrl }}/images/img-integration-resp.jpg">-->
 				<div class="img-int-wrapper">
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-1.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-2.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-3.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-4.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-5.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-6.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-7.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-8.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-9.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-10.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-11.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-12.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-1.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-2.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-3.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-4.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-5.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-6.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-7.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-8.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-9.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-10.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-11.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-12.jpg" />
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-show text-center mk-in-viewport rs-hide-int-mob">
-				<!--<img class="int-box-shadow" src=""  data-src="{{ $page->baseUrl }}/images/img-integration-mob.jpg">-->
+				<!--<img class="int-box-shadow" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-integration-mob.jpg">-->
 				<div class="img-int-wrapper">
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-1.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-2.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-3.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-4.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-5.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-6.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-7.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-8.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-9.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-10.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-11.jpg" />
-					<img class="" src=""  data-src="{{ $page->baseUrl }}/images/img-int-12.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-1.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-2.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-3.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-4.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-5.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-6.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-7.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-8.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-9.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-10.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-11.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="{{ $page->baseUrl }}/images/img-int-12.jpg" />
 				</div>
 			</div>
 		</div>
@@ -650,15 +629,15 @@
 				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
 					<a href="javascript:void(0);" target="_blank" class="active"
 						onclick="display('https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1')">
-						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc01.jpg" />
+						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="{{ $page->baseUrl }}/images/calc01.jpg" />
 					</a>
 					<a href="javascript:void(0);" target="_blank" class=""
 						onclick="display('https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1')">
-						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc02.jpg" />
+						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="{{ $page->baseUrl }}/images/calc02.jpg" />
 					</a>
 					<a href="javascript:void(0);" target="_blank" class=""
 						onclick="display('https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc03.jpg" />
+						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="{{ $page->baseUrl }}/images/calc03.jpg" />
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 np">
@@ -674,13 +653,13 @@
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
 						<a href="javascript:void(0);" class="col-sm-4 np calcembed active" data-toggle="modal" data-target="#calcEmbed-modal1">
-							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc01.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="{{ $page->baseUrl }}/images/calc01.jpg" />
 						</a>
 						<a href="javascript:void(0);" class="col-sm-4 np calcembed"  data-toggle="modal" data-target="#calcEmbed-modal2">
-							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc02.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="{{ $page->baseUrl }}/images/calc02.jpg" />
 						</a>
 						<a href="javascript:void(0);" class="col-sm-4 np calcembed" data-toggle="modal" data-target="#calcEmbed-modal3">
-							<img class="mk-animate-element scale-up thumb-calc" src="" data-src="{{ $page->baseUrl }}/images/calc03.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="{{ $page->baseUrl }}/images/calc03.jpg" />
 						</a>
 					</div>
 				</div>
@@ -701,25 +680,25 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile04.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile05.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile06.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile07.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile08.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -733,28 +712,28 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile02.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile02.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile04.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile05.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile06.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src=""  data-src="{{ $page->baseUrl }}/images/testimonialsMobile07.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonialsMobile08.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -768,25 +747,25 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials01.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonials01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials03.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonials03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials04.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonials04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials05.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonials05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials06.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonials06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials07.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonials07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-src="{{ $page->baseUrl }}/images/testimonials08.jpg" alt="" class="qode-lazy-image" />
+						<img src="" data-scroll-img="{{ $page->baseUrl }}/images/testimonials08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -821,7 +800,7 @@
 							<div class="tab-content">
 								<div id="overview" class="tab-pane fade in active">
 									<div class="embed-responsive embed-responsive-16by9">
-										<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<iframe class="outgrow-video" src="" data-src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>

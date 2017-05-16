@@ -2,5 +2,5 @@
 
 return [
     'production' => false,
-    'baseUrl' => '//outgrow.co',
+    'baseUrl' => '//venturepact.github.io/outgrow-home',
 ];
