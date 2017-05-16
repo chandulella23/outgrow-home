@@ -105,20 +105,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Support Docs</span></a>
 			                </li>
-			                <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
@@ -175,20 +161,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Support</span></a>
 			                </li>
-			               <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
@@ -243,20 +215,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
 			                </li>
-			                <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                 <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
@@ -316,20 +274,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Support Docs</span></a>
 			                </li>
-			               <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
@@ -387,20 +331,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Support</span></a>
 			                </li>
-			               <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                 <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
@@ -458,20 +388,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
 			                </li>
-			                <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                 <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">
@@ -531,20 +447,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Support Docs</span></a>
 			                </li>
-			                <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('freelancer_m')">
@@ -602,20 +504,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Basic Support</span></a>
 			                </li>
-			                <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			                 <!-- <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-white" onclick="show('essentials_m')">
@@ -673,20 +561,6 @@
 			                </li>
 			                <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Priority Support</span></a>
 			                </li>
-			               <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Logic Jump</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Jump questions based on conditions & make your calculators more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
-			               <!--  <li><a class=""><span class="mat-icon"></span><span class="list-name capitalize">&nbsp;Charts & Graphs</span>
-							<div class="help-tip pricing-helptip">
-					        	<i class="material-icons">info_outline</i>
-					        	<div class="help-checktip">Add interactive line, bar and pie charts & make results more interactive.</div>
-					        </div>
-							</a>
-			                </li> -->
 			            </ul>
 			        </div>
 			        <a href="javascript:void(0);" class="toggle-dots-grey" onclick="show('business_m')">

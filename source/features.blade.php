@@ -159,11 +159,7 @@
 						<span>graded quizzes </span>
 					</span>
 				</div>
-			   <!--  <div class="col-xs-12 col-sm-11 np mk-animate-element left-to-right">
-					<p>These  and focus review session. They have seen conversions of over 40-50%.</p>
-				</div> -->
 				  <span class="mk-animate-element right-to-left">
-					<!-- <i class="material-icons">format_paint</i> -->
 					<span class="span-style">Some of our calculators have seen conversions of over 40-50%.</span>
 				</span>
 			</div>
