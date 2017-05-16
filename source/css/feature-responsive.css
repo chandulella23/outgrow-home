@@ -434,11 +434,23 @@
 		#feature .section.section-5 h4 {font-size: 22px;}
 		#feature .section.section-10 h4 {font-size: 14px;}
 		#feature .sec-5-text h5{font-size: 22px;}
+		#feature .rs-hide-int-mob {display: none !important;}
+		#feature .rs-hide-int-res {display: block !important;}
+		.sec-integrations .section-2-heading {font-size: 22px;}
+		.sec-integrations .section-2-subheading {font-size: 14px; display: block;}
+		.sec-integrations .mobile-container{padding: 0 20px !important;}
 
 	/* end: feature page responsive by arti */
 
 
 
+}
+@media (max-width:480px){
+	.rs-hide-int-res {display: none !important;}
+	#feature .rs-hide-int-mob {display: none !important;}
+	.rs-hide-int-mob img.int-box-shadow {box-shadow: none;max-width: none;}
+	.sec-integrations{display: none;}
+	
 }
 @media (min-width:440px) and (max-width:768px){
 	#feature .span-style{
@@ -989,6 +1001,9 @@
 		float: left;
 		margin-bottom: 15px;
 	}
+}
+@media (min-width:768px) and (max-width:990px){
+	#feature .rs-hide-int-mob {display: none !important;}
 }
 @media (min-width:1024px) and (max-width:1024px){
 	#feature .section-f1-left {
