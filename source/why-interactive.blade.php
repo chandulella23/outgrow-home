@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 np p-img">
-				<img class="sec4-2-new mk-animate-element scale-up" src="{{ $page->baseUrl }}/images/google-search-1.jpg" />
+				<img class="sec4-2-new mk-animate-element scale-up" src="https://s3.amazonaws.com/outgrow-assets/site/images/google-search-1.jpg" />
 			</div>
 	</section>
 
@@ -234,8 +234,8 @@
 	<section class="section section-4 rs-hide">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<!-- <img src="{{ $page->baseUrl }}/images/sound-cloud.jpg" class="mk-animate-element left-to-right" /> -->
-				<img src="{{ $page->baseUrl }}/images/banner6-app.jpg" class="mk-animate-element left-to-right" />
+				<!-- <img src="https://s3.amazonaws.com/outgrow-assets/site/images/sound-cloud.jpg" class="mk-animate-element left-to-right" /> -->
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner6-app.jpg" class="mk-animate-element left-to-right" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-4-left">
 				<span class="mk-animate-element right-to-left">
@@ -264,7 +264,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="{{ $page->baseUrl }}/images/banner6-app.jpg" class="mk-animate-element left-to-right" />
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner6-app.jpg" class="mk-animate-element left-to-right" />
 			</div>
 		</div>
 	</section>
@@ -283,7 +283,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img src="{{ $page->baseUrl }}/images/slide5-new.jpg" class="mk-animate-element right-to-left"/>
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide5-new.jpg" class="mk-animate-element right-to-left"/>
 			</div>
 		</div>
 	</section>
@@ -303,15 +303,15 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="{{ $page->baseUrl }}/images/slide5-new.jpg" class="mk-animate-element right-to-left"/>
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide5-new.jpg" class="mk-animate-element right-to-left"/>
 			</div>
 		</div>
 	</section>
 	<section class="section section-7 rs-hide">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img src="{{ $page->baseUrl }}/images/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
-				<img src="{{ $page->baseUrl }}/images/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-4-left test1">
 				<span class="mk-animate-element right-to-left">
@@ -340,8 +340,8 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="{{ $page->baseUrl }}/images/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
-				<img src="{{ $page->baseUrl }}/images/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
 			</div>
 		</div>
 	</section>
@@ -361,7 +361,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img class="secw2-2-new mk-animate-element right-to-left" src="{{ $page->baseUrl }}/images/google-search-1.jpg" />
+				<img class="secw2-2-new mk-animate-element right-to-left" src="https://s3.amazonaws.com/outgrow-assets/site/images/google-search-1.jpg" />
 
 			</div>
 		</div>
@@ -386,7 +386,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img class="secw2-2-new mk-animate-element right-to-left" src="{{ $page->baseUrl }}/images/google-search-1.jpg" />
+				<img class="secw2-2-new mk-animate-element right-to-left" src="https://s3.amazonaws.com/outgrow-assets/site/images/google-search-1.jpg" />
 			</div>
 		</div>
 	</section>
@@ -394,7 +394,7 @@
 		<div class="container-fluid">
 			<div class="sec10-testimonial mk-animate-element left-to-right">
 				<div class="sec10-testname1 hide">
-					<img src="{{ $page->baseUrl }}/images/testimonial1.png" />
+					<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonial1.png" />
 				</div>
 				<div class="sec10-tes-inner">
 					<em class="sec10-em1">“</em>
@@ -411,7 +411,7 @@
 	<section class="section section-16 rs-hide">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img src="{{ $page->baseUrl }}/images/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-16-left">
 				<span class="mk-animate-element right-to-left">
@@ -442,7 +442,7 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="{{ $page->baseUrl }}/images/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
 			</div>
 		</div>
 	</section>
@@ -462,7 +462,7 @@
 					</span>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="{{ $page->baseUrl }}/images/graph-2-updated.jpg" class="mk-animate-element left-to-right" />
+				<img src="https://s3.amazonaws.com/outgrow-assets/site/images/graph-2-updated.jpg" class="mk-animate-element left-to-right" />
 			</div>
 		</div>
 	</section>
@@ -485,7 +485,7 @@
 			<div class="video-wrapper-1">
 				<div class="embed-responsive embed-responsive-16by9">
 					<video width="1324" height="607" autoplay loop>
-						<source src="{{ $page->baseUrl }}/images/Outgrow-demo.mp4" type="video/mp4">
+						<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
 					</video>
 				</div>
 			</div>
