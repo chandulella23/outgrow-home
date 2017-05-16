@@ -72,7 +72,7 @@
 			"ratingValue": "4.9",
 			"bestRating": "5",
 			"worstRating": "4.5",
-			"ratingCount": "20"
+			"ratingCount": "48"
 		}
 	});
 	document.querySelector('head').appendChild(schemaA);

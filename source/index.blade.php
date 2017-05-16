@@ -42,7 +42,7 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
 							<a href="" class="params">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="images/icon-mouse.png">Start Free Trial</button>
+								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
 							</a>
 							<div class="btn-bottominfo fade-in">
 								<label>Plans Start at $25/month</label>
@@ -116,7 +116,7 @@
 											<img id="f4" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png">
 											<img id="f3" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png">
 											<img id="f2" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png">
-											<img id="f1" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab01.png">
+											<img id="f1" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png">
 										</div>
 									</div>
 									<div class='qode-side-images'>
