@@ -1,29 +1,3 @@
-window.onscroll = function () {
-	if (jQuery(window).scrollTop() > 1000) {
-		console.log('Inside if');
-		if (jQuery('body').innerWidth() > 990 && jQuery('#og-iframe').attr('data-calc') !== '') {
-			jQuery('#og-iframe').attr('src', jQuery('#og-iframe').attr('data-calc'));
-			jQuery('#og-iframe').attr('data-calc', '');
-			console.log('Desktop if', jQuery('#og-iframe').attr('data-calc', ''));
-		}
-
-		if (jQuery('body').innerWidth() <= 990 && document.getElementsByClassName('og-iframe-res')[0].dataset.calc !== '') {
-			jQuery('.og-iframe-res').each(function () {
-				jQuery(this).attr('src', jQuery(this).attr('data-calc'));
-				jQuery(this).attr('data-calc', '');
-				console.log('Res if')
-			})
-		}
-
-		if (document.getElementsByClassName('scrollimg')[0].dataset.scrollImg !== '') {
-			jQuery('.scrollimg').each(function () {
-				jQuery(this).attr('src', jQuery(this).attr('data-scroll-img'))
-				jQuery(this).attr('data-scroll-img', '');
-			})
-		}
-	}
-}
-
 window.submitEbookData = function (e) {
     e.preventDefault(), jQuery("#ebook-error").html("");
     var o = jQuery("#ebook-email").val(),
@@ -125,22 +99,24 @@ window.sendNotification = function (e, o) {
 }
 
 window.display = function (url) {
-	console.log('Display called', url)
-	jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
+	// /console.log('Display called', url);
+	//jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
+	document.getElementById('og-iframe').src = url;
+	//calculateMinHeight();
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
-	console.log('iframes',iframes)
+	//console.log('iframes',iframes)
 	jQuery('#og-iframe').addClass('iframeHeight')
 }
 
 jQuery.noConflict();
 jQuery.material.init();
 jQuery(document).ready(function() {
-
+	calculateMinHeight();
 	jQuery('.close').click(function(){
 		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
 	});
