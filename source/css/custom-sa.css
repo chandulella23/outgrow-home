@@ -577,7 +577,7 @@ label {
 }
 .sec3-box2 h3 {
 	color: rgba(98, 105, 109, .8);
-	font-size: 24px;
+	font-size: 21px;
 	text-transform: uppercase;
 	position: absolute;
 	top: -60px
@@ -614,7 +614,7 @@ label {
 }
 .sec3-box3 h3, .sec3-box4 h3 {
 	color: rgba(98, 105, 109, .8);
-	font-size: 24px;
+	font-size: 21px;
 	position: absolute;
 	top: -60px;
 	text-transform: uppercase
@@ -669,7 +669,7 @@ label {
 }
 .section-4-left h4 {
 	color: #fb6c73;
-	font-size: 30px;
+	font-size: 24px;
 	text-align: left;
 	width: 75%;
 	float: left;
@@ -4025,21 +4025,21 @@ button.swiper-pagination-bullet {
 	text-transform: uppercase
 }
 #why .section-w2-left h4 {
-	font-size: 30px
+	font-size: 24px
 }
 #why .secw2-2-new {
 	margin-left: 0;
 	margin-top: 0
 }
 #why .section-w1-left span i, #why .section-w2-left span i {
-	font-size: 60px;
+	font-size: 48px;
 	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
 }
 #why .section-w1-left h4 {
-	font-size: 30px;
+	font-size: 24px;
 	font-family: montserratlight;
 }
 #why .section-w3 {
@@ -4073,7 +4073,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-w3-text h4 {
 	color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -4083,7 +4083,7 @@ button.swiper-pagination-bullet {
     text-transform: uppercase;
 }
 #why .section-w3-text span i {
-	font-size: 60px;
+	font-size: 48px;
 	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
@@ -4204,7 +4204,7 @@ button.swiper-pagination-bullet {
 	padding-left: 40px
 }
 #why .section-4-left span i {
-	font-size: 60px;
+	font-size: 48px;
 	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
@@ -4339,7 +4339,7 @@ button.swiper-pagination-bullet {
 	margin-bottom: 10px
 }
 #why .section-16-left span i {
-	font-size: 60px;
+	font-size: 48px;
 	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
@@ -4367,7 +4367,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-16-left h4 {
 	color: #fb6c73;
-	font-size: 30px;
+	font-size: 24px;
 	width: 100%;
 	margin-top: 0;
 	text-transform: uppercase;

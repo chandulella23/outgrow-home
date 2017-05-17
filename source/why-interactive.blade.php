@@ -70,7 +70,7 @@
 									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Landing Pages</h5>
+									<h5>Marketing Pages</h5>
 									<i class="material-icons hide">clear</i>
 									<p>A marketing rant with click baits adds little value.</p>
 								</div>
@@ -92,7 +92,7 @@
 									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Landing Pages</h5>
+									<h5>Marketing Pages</h5>
 									<h4 class="hide">eh!</h4>
 									<p>You have to work hard to get 3-8%</p>
 								</div>
@@ -114,7 +114,7 @@
 									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Landing Pages</h5>
+									<h5>Marketing Pages</h5>
 									<h4 class="hide">Dead Cold</h4>
 									<p>When was the last time you shared a landing page?</p>
 								</div>
@@ -136,7 +136,7 @@
 									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Landing Pages</h5>
+									<h5>Marketing Pages</h5>
 									<h4 class="hide">Little</h4>
 									<p>When did you last submit a real email? ;)</p>
 								</div>
@@ -204,7 +204,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-3 sec3-box4 mk-animate-element scale-up">
-					<h3>Landing Pages</h3>
+					<h3>Marketing Pages</h3>
 					<div class="col-xs-12 np sec3-box2inner">
 						<i class="material-icons">clear</i>
 						<p>A marketing rant with click baits adds little value.</p>
