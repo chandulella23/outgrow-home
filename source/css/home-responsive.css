@@ -1178,8 +1178,8 @@
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
     .container>.navbar-header {
-        margin-right: 0;
-        margin-left: -30px
+        /*margin-right: 0;
+        margin-left: -30px*/
     }
     .navbar-right {
         margin-left: 0;
