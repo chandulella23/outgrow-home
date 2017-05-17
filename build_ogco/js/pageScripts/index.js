@@ -35,7 +35,7 @@ window.attachVid = function (type) {
 		window.location.href = window.location.href.split('#')[0] + '#bfrVid'
 	}
 	if ('web' === type) changeHeightWeb();
-	if ('mob' === type) changeHeightMob();
+	// if ('mob' === type) changeHeightMob();
 	if ('res' === type) changeHeightRes();
 }
 
@@ -224,14 +224,14 @@ jQuery(window).resize(function () {
 					<span class="img-overlay"></span>
 					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
 	}
-	if (jQuery(window).width() <= 320) {
-		jQuery('.video-img-inner-res').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
-					<span class="img-overlay"></span>
-					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+	// if (jQuery(window).width() <= 320) {
+	// 	jQuery('.video-img-inner-res').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
+	// 				<span class="img-overlay"></span>
+	// 				<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
 
-		jQuery('.video-img-inner-web').empty(`<img class="video-img" src="images/video-thumbnail.jpg" />
-					<!--<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
-					<span class="img-overlay"></span>
-					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
-	}
+	// 	jQuery('.video-img-inner-web').empty(`<img class="video-img" src="images/video-thumbnail.jpg" />
+	// 				<!--<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+	// 				<span class="img-overlay"></span>
+	// 				<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
+	// }
 })
