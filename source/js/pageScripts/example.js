@@ -16,4 +16,10 @@ jQuery(document).ready(function () {
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
+
+    jQuery('.calc-links a').on('click',function(){
+		jQuery('a').removeClass('active');
+		jQuery(this).addClass('active');
+	});
+
 })
