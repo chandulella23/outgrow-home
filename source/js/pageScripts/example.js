@@ -1,6 +1,7 @@
 window.display = function (url) {
-	console.log('Display called', url)
-	jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
+	//console.log('Display called', url)
+	//jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
+	document.getElementById('og-iframe').src = url;
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
@@ -10,6 +11,7 @@ window.display = function (url) {
 }
 
 jQuery(document).ready(function () {
+	calculateMinHeight();
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
