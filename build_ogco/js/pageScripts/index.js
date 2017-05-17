@@ -28,7 +28,7 @@ window.submitEbookData = function (e) {
 window.attachVid = function (type) {
 	var href = window.location.href.split('#')[1];
 	var el = document.getElementById('bfrVid')
-	el.style.paddingTop = '100px';
+	el.style.paddingTop = '80px';
 	if(!href) {
 		window.location.href = window.location.href + "#bfrVid"
 	} else {

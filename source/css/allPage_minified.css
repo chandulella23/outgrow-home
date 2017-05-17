@@ -3544,7 +3544,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		img.img-playIcon {width: 13%;}
 		.video-img-wrapper{width: 100% !important;}
 		.video-img-wrapper .video-img-inner {min-height: 255px;}
-		#video-main-rs.hide-height {padding: 40px 40px 0px; height: 440px;}
+		#video-main-rs.hide-height {padding: 40px 40px 0px; height: 300px;}
 		.video-img-inner span.video-playIcon {width: 80px; height: 80px; left: 45%; top: 30%;}
 		.video-img-inner span.inside-circle {width: 70px; height: 70px; left: 5px; top: 5px; padding-top: 10px; font-size: 34px;}
 		.sec-craftedTemps {margin-top: 50px;}
@@ -3974,7 +3974,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.tab-outer-frame {right: 0px !important;}
 		.sec-outgrowMagic img.thumb-calc {margin-right: 20px;}
 		img.img-playIcon {width: 13%;}
-		#video-main-rs{display: none !important;}
+		#video-main-rs-mob{display: none !important;}
+		#video-main-rs{display: none !important; padding: 0px 40px;}
 		.sec-craftedTemps .full_section_inner{margin: 40px auto 0px !important;}
 		.tab-inner-frame iframe{display: none;}
 		.calc-links a {
@@ -3991,7 +3992,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.swiper-container .swiper-slide.swiper-slide-next{display: none;}
 		.swiper-container .swiper-slide.swiper-slide-prev{display: none;}
 		.video-img-wrapper {width: 100% !important;}
-
+		#video-main.hide-height {height: 450px !important; display: block !important;padding: 0 40px;}
 
 
 	/* homepage res changes by Arti */
@@ -4833,7 +4834,13 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			padding-bottom: 15px;
 			margin: 0 !important;
 		}
-		#video-main-rs-mob{ height: 270px !important;}
+		div#video-main-rs-mob{ height: 270px !important;display: none !important;}
+		#video-main-rs.hide-height {
+			display: block !important;     height: 300px !important;
+		}
+		.video-img-wrapper .video-img-inner {
+			min-height: 215px !important;
+		}
 
 
 	/* end: homeapge responsive css by Arti */
@@ -15624,7 +15631,7 @@ section.section.sec-targetedSale-title {
 }
 .video-img-inner {
     background: #fff;
-    min-height: 510px;
+    /*min-height: 534px;*/
     /*border: 2px solid #e1e1e1;*/
     position: relative;
 }
