@@ -2362,7 +2362,7 @@ label.control-label {
 .section-3-left span span{color:#bec5c9;font-size:14px;width:85%;float:left;display:block;margin:0}
 .section-3 ul,.section-3 ul li{float:left;width:100%}
 .section-3 ul li{font-size:18px;color:rgba(98,105,109,.4);text-transform:uppercase;line-height:80px}
-.sec3-box2 h3{color:rgba(98,105,109,.8);font-size:24px;text-transform:uppercase;position:absolute;top:-60px}
+.sec3-box2 h3{color:rgba(98,105,109,.8);font-size:21px;text-transform:uppercase;position:absolute;top:-60px}
 .sec3-box2inner{padding-top:20px}
 .sec3-box2inner i{color:#fb6c73;font-size:36px;display:block;margin-bottom:10px}
 .sec3-box1inner h4,.sec3-box1inner p,.sec3-box2inner h4,.sec3-box2inner p{margin-bottom:15px;display:block}
@@ -2370,7 +2370,7 @@ label.control-label {
 .sec3-box1inner p{font-size:14px}
 .sec3-box2inner h4{color:#fb6c73;font-size:18px;text-transform:uppercase}
 .sec3-box2inner p{font-size:14px}
-.sec3-box3 h3,.sec3-box4 h3{color:rgba(98,105,109,.8);font-size:24px;position:absolute;top:-60px;text-transform:uppercase}
+.sec3-box3 h3,.sec3-box4 h3{color:rgba(98,105,109,.8);font-size:21px;position:absolute;top:-60px;text-transform:uppercase}
 .section-3 .btn-buildcal{background:#fb6c73;border:2px solid #fb6c73;color:#fff;float:none;font-size:14px;text-transform:uppercase;padding:7px 40px;margin-top:60px;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
 .section-3 .btn-buildcal:hover{background:#fdb6b9;color:#fb545b;border-color:#fdb6b9}
 .section-3 .btn-buildcal p{float:left;margin:0 10px 0 0;line-height:30px}
