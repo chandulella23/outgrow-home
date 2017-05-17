@@ -41,11 +41,11 @@ window.attachVid = function (type) {
 
 window.changeHeightWeb = function() {
 	console.log('Web');
-	jQuery(".video-img-inner-web").html("<iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe>");
+	jQuery(".video-img-inner-web").html("<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>");
 	var xDiv = document.getElementById('video-main');
 
 	if (xDiv.style.height == '')
-		xDiv.style.height = '580px';
+		xDiv.style.height = '600px';
 	else
 		xDiv.style.height = '';
 }
@@ -73,7 +73,7 @@ window.btnClose = function(){
 
 window.changeHeightRes = function() {
 	console.log('Res');
-	jQuery(".video-img-inner-res").html("<iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe>");
+	jQuery(".video-img-inner-res").html("<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>");
 	var xDiv = document.getElementById('video-main-rs');
 	if (xDiv.style.height == '')
 		xDiv.style.height = '460px';
@@ -99,22 +99,24 @@ window.sendNotification = function (e, o) {
 }
 
 window.display = function (url) {
-	console.log('Display called', url)
-	jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
+	// /console.log('Display called', url);
+	//jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
+	document.getElementById('og-iframe').src = url;
+	//calculateMinHeight();
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
-	console.log('iframes',iframes)
+	//console.log('iframes',iframes)
 	jQuery('#og-iframe').addClass('iframeHeight')
 }
 
 jQuery.noConflict();
 jQuery.material.init();
 jQuery(document).ready(function() {
-
+	calculateMinHeight();
 	jQuery('.close').click(function(){
 		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
 	});
