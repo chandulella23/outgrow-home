@@ -172,7 +172,7 @@ label {
 	background: #fff;
 	border: none;
 	padding: 0px 25px 0px 10px;
-	z-index: 99999;
+	z-index: 999;
 	border-bottom: 1px solid #eff0f0;
 }
 .custom-navbar.navbar-default .navbar-nav>li {
