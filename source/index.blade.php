@@ -41,15 +41,13 @@
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
-							<a href="" class="params">
+							<a href="//app.outgrow.co" class="params">
 								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
 							</a>
 							<div class="btn-bottominfo fade-in">
 								<label>Plans Start at $25/month</label>
 							</div>
 							<div id="bfrVid"></div>
-						</div>
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="video-link">
 						</div>
 					</div>
 				</div>
@@ -67,11 +65,12 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-res">
-							<img class="video-img" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
@@ -80,19 +79,33 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-web">
-							<img class="video-img" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+						<div class="video-img-inner video-img-inner-web" id="him1">
+							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
 							</span>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<script>
+				function changeHeightWeb1 () {
+					console.log('Web');
+					document.getElementById("him1").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main');
+
+					if (xDiv.style.height == '')
+						xDiv.style.height = '600px';
+					else
+						xDiv.style.height = '';
+				}
+			</script>
 		</div>
 	</section>
 
@@ -779,7 +792,7 @@
 	<!--section testimonial -->
 
 	<section class="section section-startFreeTrial-btn text-center">
-		<a href="" class="params trialLOL">
+		<a href="//app.outgrow.co" class="params trialLOL">
 			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
 			<img src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
 		</a>
@@ -864,15 +877,15 @@
 @endsection
 
 @section('inlinescripts')
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="{{ $page->baseUrl }}/js/site.min.js"></script>
-<script src="{{ $page->baseUrl }}/js/pageScripts/footer.js"></script>
-<script src="{{ $page->baseUrl }}/js/pageScripts/index.js"></script>
+<script src=""></script>
 @endsection
 
 
 @section('pageScripts')
 	const libs = {
+		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 		"swiper": "{{ $page->baseUrl }}/js/swiper.min.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 	}
