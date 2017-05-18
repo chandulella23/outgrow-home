@@ -28,6 +28,7 @@
 @section('pageId', '')
 
 @section('content')
+	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<section class="section section-1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
@@ -41,15 +42,13 @@
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
-							<a href="" class="params">
+							<a href="//app.outgrow.co" class="params">
 								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
 							</a>
 							<div class="btn-bottominfo fade-in">
 								<label>Plans Start at $25/month</label>
 							</div>
 							<div id="bfrVid"></div>
-						</div>
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="video-link">
 						</div>
 					</div>
 				</div>
@@ -67,11 +66,12 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-res">
-							<img class="video-img" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
@@ -80,19 +80,62 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-web">
-							<img class="video-img" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+						<div class="video-img-inner video-img-inner-web" id="him1">
+							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
 							</span>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<script>
+				function btnclose() {
+					console.log('Btn cloased called');
+					document.getElementsByClassName("video-img-inner-mob")[0].innerHTML = `<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
+						<span class="img-overlay"></span>
+						<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
+						<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
+							<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+						</span>`;
+				}
+				function changeHeightMob () {
+					console.log('Change height mob called');
+					document.getElementsByClassName("video-img-inner-mob")[0].innerHTML = `<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
+										<span class="img-overlay"></span>
+										<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
+										<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
+											<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+										</span>`;
+					var xDiv = document.getElementById('video-main-rs-mob');
+					/*document.getElementById
+					jQuery('#video-main-rs-mob .btn-close').show();*/
+				}
+				function changeHeightRes () {
+					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main-rs');
+					if (xDiv.style.height == '')
+						xDiv.style.height = '460px';
+					else
+						xDiv.style.height = '';
+				}
+				function changeHeightWeb1 () {
+					console.log('Web');
+					document.getElementById("him1").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main');
+
+					if (xDiv.style.height == '')
+						xDiv.style.height = '600px';
+					else
+						xDiv.style.height = '';
+				}
+			</script>
 		</div>
 	</section>
 
@@ -354,7 +397,20 @@
 					</div>
 				</div>
 			</div>
-
+			<script>
+				var swiper = new Swiper('.swiper-container-first', {
+					pagination: '.swiper-pagination',
+					paginationClickable: true,
+					nextButton: '.swiper-button-next',
+					prevButton: '.swiper-button-prev',
+					//spaceBetween: 30,
+					//slidesPerView: 3,
+					centeredSlides: true,
+					// autoplay: 2500,
+					speed:500,
+					autoplayDisableOnInteraction: false
+				});
+			</script>
 		</div>
 	</section>
 
@@ -712,28 +768,28 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile02.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile02.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile02.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile04.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile05.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile06.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile07.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile08.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -747,25 +803,25 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials01.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials01.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials03.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials03.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials04.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials04.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials05.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials05.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials06.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials06.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials07.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials07.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials08.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials08.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -775,11 +831,25 @@
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 		</div>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				spaceBetween: 30,
+				slidesPerView: 3,
+				centeredSlides: true,
+				// autoplay: 2500,
+				// speed:500,
+				autoplayDisableOnInteraction: false
+			});
+		</script>
 	</div>
 	<!--section testimonial -->
 
 	<section class="section section-startFreeTrial-btn text-center">
-		<a href="" class="params trialLOL">
+		<a href="//app.outgrow.co" class="params trialLOL">
 			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
 			<img src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
 		</a>
@@ -793,7 +863,7 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
-					<button type="button" onclick="btnClose()" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<button type="button" id="btn-close-mob" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="row">
 						<div class="modal-video-full">
@@ -863,12 +933,16 @@
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 
+@section('inlinescripts')
+<script src=""></script>
+@endsection
+
+
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
-		"swiper": "{{ $page->baseUrl }}/js/swiper.min.js",
-		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
+		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 	}
 @endsection

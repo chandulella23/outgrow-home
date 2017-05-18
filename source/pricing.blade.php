@@ -19,6 +19,9 @@
 	<meta name="twitter:creator" content="@outgrowco" />
 @endsection
 
+@section('inlinescripts')
+@endsection
+
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/bootstrap.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/custom-sa.css">

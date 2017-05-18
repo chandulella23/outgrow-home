@@ -50,37 +50,6 @@ window.changeHeightWeb = function() {
 		xDiv.style.height = '';
 }
 
-window.changeHeightMob = function() {
-	console.log('Mob');
-	jQuery(".video-img-inner-mob").html(`<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
-						<span class="img-overlay"></span>
-						<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
-						<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
-							<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
-						</span>`);
-	var xDiv = document.getElementById('video-main-rs-mob');
-	jQuery('#video-main-rs-mob .btn-close').show();
-}
-
-window.btnClose = function(){
-		jQuery(".video-img-inner-mob").html(`<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
-						<span class="img-overlay"></span>
-						<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
-						<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
-							<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
-						</span>`);
-}
-
-window.changeHeightRes = function() {
-	console.log('Res');
-	jQuery(".video-img-inner-res").html("<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>");
-	var xDiv = document.getElementById('video-main-rs');
-	if (xDiv.style.height == '')
-		xDiv.style.height = '460px';
-	else
-		xDiv.style.height = '';
-}
-
 window.sendNotification = function (e, o) {
     jQuery.ajax({
         url: "js/mailer.php",
@@ -129,33 +98,6 @@ jQuery(document).ready(function() {
 		time: 1000
 	});
 
-	var swiper = new Swiper('.swiper-container', {
-		pagination: '.swiper-pagination',
-		paginationClickable: true,
-		nextButton: '.swiper-button-next',
-		prevButton: '.swiper-button-prev',
-		spaceBetween: 30,
-		slidesPerView: 3,
-		centeredSlides: true,
-		// autoplay: 2500,
-		// speed:500,
-		autoplayDisableOnInteraction: false
-	});
-	console.log('After slider');
-
-	var swiper = new Swiper('.swiper-container-first', {
-		pagination: '.swiper-pagination',
-		paginationClickable: true,
-		nextButton: '.swiper-button-next',
-		prevButton: '.swiper-button-prev',
-		//spaceBetween: 30,
-		//slidesPerView: 3,
-		centeredSlides: true,
-		// autoplay: 2500,
-		speed:500,
-		autoplayDisableOnInteraction: false
-	});
-
 	jQuery('.close').click(function(){
 		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
 	});
@@ -180,9 +122,6 @@ jQuery(document).ready(function() {
 
 	jQuery(document).on('click', '.video-playIcon', function () {
 		console.log('Clicked');
-		if (jQuery(window).width() > 768) {
-			attachVid('web');
-		}
 		if (jQuery(window).width() <= 768 && jQuery(window).width() > 320) {
 			attachVid('res');
 		}

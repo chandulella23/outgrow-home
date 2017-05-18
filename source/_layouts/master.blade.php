@@ -16,6 +16,8 @@
 	@yield('css')
 
 	@include('_partials.headscripts')
+
+	@yield('inlinescripts')
 </head>
 
 <body class="@yield('pageClass')" id="@yield('pageId')">
