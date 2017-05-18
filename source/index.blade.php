@@ -863,12 +863,17 @@
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 
+@section('inlinescripts')
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="{{ $page->baseUrl }}/js/site.min.js"></script>
+<script src="{{ $page->baseUrl }}/js/pageScripts/footer.js"></script>
+<script src="{{ $page->baseUrl }}/js/pageScripts/index.js"></script>
+@endsection
+
+
 @section('pageScripts')
 	const libs = {
-		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"swiper": "{{ $page->baseUrl }}/js/swiper.min.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
-		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 	}
 @endsection
