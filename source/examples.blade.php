@@ -1082,6 +1082,56 @@
 			</div>
 		</div>
 	</section>
+	<!-- Start: Modal calcEmbed1 -->
+	<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-dialog-video">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<i class="material-icons">close</i></button>
+					<div class="col-md-12 np">
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End: Modal calcEmbed1 -->
+
+	<!-- Start: Modal calcEmbed2 -->
+	<div id="calcEmbed-modal2" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-dialog-video">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<i class="material-icons">close</i></button>
+					<div class="col-md-12 np">
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End: Modal calcEmbed2 -->
+
+	<!-- Start: Modal calcEmbed3 -->
+	<div id="calcEmbed-modal3" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-dialog-video">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<i class="material-icons">close</i></button>
+					<div class="col-md-12 np">
+						<iframe class="og-iframe-res" src="" data-calc="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End: Modal calcEmbed3 -->
 @endsection
 
 @section('pageScripts')

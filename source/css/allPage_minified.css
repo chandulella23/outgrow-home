@@ -323,8 +323,8 @@ td,th{padding:0}
 .glyphicon-menu-down:before{content:"\e259"}
 .glyphicon-menu-up:before{content:"\e260"}
 *,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-html{font-size:10px;-webkit-tap-highlight-color:transparent}
-body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333}
+html{font-size:10px;-webkit-tap-highlight-color:transparent; overflow-y: scroll !important;  -webkit-overflow-scrolling: touch !important;}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333; overflow-y: scroll !important; -webkit-overflow-scrolling: touch !important;}
 button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 a{color:#337ab7;text-decoration:none}
 a:focus,a:hover{color:#23527c;text-decoration:underline}
@@ -3562,6 +3562,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 		.swiper-container .swiper-slide.swiper-slide-next{display: none;}
 		.swiper-container .swiper-slide.swiper-slide-prev{display: none;}
+		.fadein {display: block !important;}
 
 	/* end: homepage responsive by arti */
 
@@ -3605,12 +3606,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		min-height: 110px;
 	}
 	#video-main-rs-mob .video-img-wrapper{/*height: 42vh;*/}	
-	.qode-expanding-images .fadein {
+	/*.qode-expanding-images .fadein {
 		display: block !important;
 		left: -125px !important;
 		top: -175px !important;
 		position: relative;
-	}	
+	}	*/
 	.sec-outgrowMagic img.thumb-calc{width: 85%;}
 	/*.swiper-container .swiper-slide.swiper-slide-active {
 		width: 60% !important;
@@ -4813,12 +4814,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			top: 2px;
 			font-size: 20px;
 		}
-		.fadein {
+		/*.fadein {
 			display: block !important;
 			left: -195px;
 			top: -280px;
 			position: relative;
-		}
+		}*/
 		/*.swiper-slide.swiper-slide-prev {
 			padding: 50px 0px !important;
 		}
@@ -15772,21 +15773,25 @@ iframe.outgrow-video {
 
 	/* fade in images */
 		.fadein {
-			position: relative;
-			z-index: 99;
+			position: absolute;
+			z-index: 99 !important;
 			display: none;
 			max-width: 100%;
 		}
 		.fadein img {
-			position:absolute;
-			/*left:-65px;
-			top:0;*/
+			position:relative;
 			-webkit-animation-name: fade;
 			-webkit-animation-iteration-count: infinite;
 			-webkit-animation-duration: 6s;
 			animation-name: fade;
 			animation-iteration-count: infinite;
 			animation-duration: 6s;
+
+			top: 0 !important;
+			left: 0px !important;
+			right: 0px !important;
+			bottom: 0px !important;
+			position: fixed;
 		}
 
 		@-webkit-keyframes fade {
@@ -15813,7 +15818,7 @@ iframe.outgrow-video {
 			/*background-color: yellow;*/
 		}
 		#f3 {
-			-webkit-animation-delay: -10s;
+			-webkit-animation-delay: -4s;
 			/*background-color: lightgreen;*/
 		}
 		#f4 {
