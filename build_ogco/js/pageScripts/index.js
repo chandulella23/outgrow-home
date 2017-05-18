@@ -170,13 +170,13 @@ jQuery(document).ready(function() {
 	});
 
 	//embed web mobile js
-	jQuery(".calcembed").click(function(){
-		jQuery("html").css('overflow','hidden');
-	});
+	// jQuery(".calcembed").click(function(){
+	// 	jQuery("html").css('overflow','hidden');
+	// });
 
-	jQuery(".close").click(function(){
-		jQuery("html").css('overflow','auto');
-	});
+	// jQuery(".close").click(function(){
+	// 	jQuery("html").css('overflow','scroll !important');
+	// });
 
 	jQuery(document).on('click', '.video-playIcon', function () {
 		console.log('Clicked');
