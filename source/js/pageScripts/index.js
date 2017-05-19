@@ -25,31 +25,6 @@ window.submitEbookData = function (e) {
     })
 }
 
-window.attachVid = function (type) {
-	var href = window.location.href.split('#')[1];
-	var el = document.getElementById('bfrVid')
-	el.style.paddingTop = '80px';
-	if(!href) {
-		window.location.href = window.location.href + "#bfrVid"
-	} else {
-		window.location.href = window.location.href.split('#')[0] + '#bfrVid'
-	}
-	if ('web' === type) changeHeightWeb();
-	// if ('mob' === type) changeHeightMob();
-	if ('res' === type) changeHeightRes();
-}
-
-window.changeHeightWeb = function() {
-	console.log('Web');
-	jQuery(".video-img-inner-web").html("<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>");
-	var xDiv = document.getElementById('video-main');
-
-	if (xDiv.style.height == '')
-		xDiv.style.height = '600px';
-	else
-		xDiv.style.height = '';
-}
-
 window.sendNotification = function (e, o) {
     jQuery.ajax({
         url: "js/mailer.php",
@@ -119,13 +94,6 @@ jQuery(document).ready(function() {
 	// jQuery(".close").click(function(){
 	// 	jQuery("html").css('overflow','scroll !important');
 	// });
-
-	jQuery(document).on('click', '.video-playIcon', function () {
-		console.log('Clicked');
-		if (jQuery(window).width() <= 768 && jQuery(window).width() > 320) {
-			attachVid('res');
-		}
-	})
 
 	var iframes = iFrameResize({
         log: false,
