@@ -61,39 +61,11 @@ jQuery.noConflict();
 jQuery.material.init();
 jQuery(document).ready(function() {
 	calculateMinHeight();
-	jQuery('.close').click(function(){
-		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
-	});
-	jQuery('#video-modal').on('hidden.bs.modal', function (event) {
-    	jQuery('#video-modal iframe').attr("src", jQuery("#video-modal  iframe").attr("src"));
-    });
-
-	jQuery('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
-
-	jQuery('.close').click(function(){
-		jQuery('iframe.outgrow-video').attr('src', jQuery('iframe.outgrow-video').attr('src'));
-	});
-
- 	jQuery('#video-modal').on('hidden.bs.modal', function (event) {
-		jQuery('#video-modal iframe').attr("src", jQuery("#video-modal  iframe").attr("src"));
-    });
 
     jQuery('.calc-links a').on('click',function(){
 		jQuery('a').removeClass('active');
 		jQuery(this).addClass('active');
 	});
-
-	//embed web mobile js
-	// jQuery(".calcembed").click(function(){
-	// 	jQuery("html").css('overflow','hidden');
-	// });
-
-	// jQuery(".close").click(function(){
-	// 	jQuery("html").css('overflow','scroll !important');
-	// });
 
 	var iframes = iFrameResize({
         log: false,
@@ -103,39 +75,8 @@ jQuery(document).ready(function() {
     },'#og-iframe');
 
 	var url = setLoginSignup();
+
 	console.log(url);
+
     jQuery('#btnBuildCalc1 > a').prop('href', url);
 });
-
-jQuery(window).resize(function () {
-	console.log(jQuery(window).width())
-	if (jQuery(window).width() > 768) {
-		jQuery('.video-img-inner-mob').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
-					<span class="img-overlay"></span>
-					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
-
-		jQuery('.video-img-inner-res').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
-					<span class="img-overlay"></span>
-					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
-	}
-	if (jQuery(window).width() <= 768 && jQuery(window).width() > 320) {
-		jQuery('.video-img-inner-mob').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
-					<span class="img-overlay"></span>
-					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
-
-		jQuery('.video-img-inner-web').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
-					<!--<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
-					<span class="img-overlay"></span>
-					<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
-	}
-	// if (jQuery(window).width() <= 320) {
-	// 	jQuery('.video-img-inner-res').empty().append(`<img class="video-img" src="images/video-thumbnail.jpg" />
-	// 				<span class="img-overlay"></span>
-	// 				<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
-
-	// 	jQuery('.video-img-inner-web').empty(`<img class="video-img" src="images/video-thumbnail.jpg" />
-	// 				<!--<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
-	// 				<span class="img-overlay"></span>
-	// 				<span class="video-playIcon"><span class="inside-circle"><i class="material-icons">play_arrow</i></span></span>`);
-	// }
-})
