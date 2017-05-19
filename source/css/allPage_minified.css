@@ -5820,7 +5820,7 @@ img{max-width:100%;height:auto;image-rendering:optimizeQuality}
 }
 .qode-lazy-preloader{font-size:0;position:absolute;top:50%;left:50%;margin:-37.5px 0 0 -37.5px;display:inline-block;line-height:normal;z-index:10;-webkit-animation:outer 6.6s linear infinite;animation:outer 6.6s linear infinite}
 .ajax_loader,.meta{display:none}
-.qode-lazy-preloader svg{-webkit-animation:inner 1.32s linear infinite;animation:inner 1.32s linear infinite}
+.qode-lazy-preloader svg{-webkit-animation:inner 1.32s linear infinite;animation:inner 1.32s linear infinite; width:50px !important; height:50px !important;}
 .qode-lazy-preloader svg circle{fill:none;stroke:#1abc9c;stroke-linecap:round;-webkit-animation:arc 1.32s cubic-bezier(.8,0,.4,.8) infinite;animation:arc 1.32s cubic-bezier(.8,0,.4,.8) infinite}
 img[data-lazy=true]{opacity:0}
 .qode-type1-gradient-left-to-right,.qode-type1-gradient-left-to-right-after:after{background:-webkit-linear-gradient(left,#31c8a2,#ae66fd);background:-o-linear-gradient(right,#31c8a2,#ae66fd);background:-moz-linear-gradient(right,#31c8a2,#ae66fd);background:linear-gradient(to right,#31c8a2,#ae66fd)}
