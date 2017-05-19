@@ -53,6 +53,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
@@ -98,24 +99,10 @@
 			<script>
 				function btnclose() {
 					console.log('Btn cloased called');
-					document.getElementsByClassName("video-img-inner-mob")[0].innerHTML = `<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
-						<span class="img-overlay"></span>
-						<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
-						<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
-							<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
-						</span>`;
-				}
-				function changeHeightMob () {
-					console.log('Change height mob called');
-					document.getElementsByClassName("video-img-inner-mob")[0].innerHTML = `<img class="video-img" src="images/video-thumbnail.jpg" data-src="images/video-thumbnail.jpg" />
-										<span class="img-overlay"></span>
-										<!--<img class="img-playIcon" src="images/video-img-playIcon.png" />-->
-										<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
-											<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
-										</span>`;
-					var xDiv = document.getElementById('video-main-rs-mob');
-					/*document.getElementById
-					jQuery('#video-main-rs-mob .btn-close').show();*/
+					for (var i = 0; i < 5; i++) {
+						if (!document.getElementsByClassName("outgrow-video")[i]) break;
+						document.getElementsByClassName("outgrow-video")[i].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0';
+					}
 				}
 				function changeHeightRes () {
 					window.location.replace('#bfrVid')
@@ -864,7 +851,7 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
-					<button type="button" id="btn-close-mob" class="close btn-close" data-dismiss="modal" aria-label="Close">
+					<button type="button" onclick="btnclose()" id="btn-close-mob" class="close btn-close" data-dismiss="modal" aria-label="Close">
 					<i class="material-icons">close</i></button>
 					<div class="row">
 						<div class="modal-video-full">
