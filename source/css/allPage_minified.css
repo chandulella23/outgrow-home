@@ -324,7 +324,7 @@ td,th{padding:0}
 .glyphicon-menu-up:before{content:"\e260"}
 *,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 html{font-size:10px;-webkit-tap-highlight-color:transparent; overflow-y: scroll;  -webkit-overflow-scrolling: touch !important;}
-body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333; overflow-y: scroll; -webkit-overflow-scrolling: touch !important;}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333; /*overflow-y: scroll;*/ -webkit-overflow-scrolling: touch !important;}
 button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 a{color:#337ab7;text-decoration:none}
 a:focus,a:hover{color:#23527c;text-decoration:underline}
@@ -1586,7 +1586,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:0 0;bor
 @font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(MaterialIcons-Regular.eot);src:local('Material Icons'),local('materialIcons-Regular'),url(../fonts/materialIcons-Regular.woff2) format('woff2'),url(../fonts/materialIcons-Regular.woff) format('woff'),url(../fonts/materialIcons-Regular.ttf) format('truetype')}
 .material-icons{font-family:'Material Icons';font-weight:400;font-style:normal;font-size:24px;display:inline-block;line-height:1;text-transform:none;letter-spacing:normal;word-wrap:normal;white-space:nowrap;direction:ltr;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-feature-settings:'liga';text-rendering:optimizeLegibility}
 @font-face{font-family:montserrat-bold;src:url(../fonts/montserrat-bold-webfont.eot);src:url(../fonts/montserrat-bold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/montserrat-bold-webfont.woff2) format('woff2'),url(../fonts/montserrat-bold-webfont.woff) format('woff'),url(../fonts/montserrat-bold-webfont.ttf) format('truetype');font-weight:400;font-style:normal}
-body{font-family:montserratregular;color:#8e989f;overflow-y:scroll;overflow-x:hidden!important}
+body{font-family:montserratregular;color:#8e989f;/*overflow-y:scroll;*/overflow-x:hidden!important}
 a:focus,button:focus,img:focus,input:focus,select:focus,textarea:focus{outline:0;text-decoration:none}
 a:focus,a:hover{text-decoration:none;color:inherit;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
 label{margin-bottom:0!important;font-weight:400!important}
