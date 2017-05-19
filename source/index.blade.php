@@ -74,7 +74,7 @@
 							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle" onclick="changeHeightRes()"><i class="material-icons">play_arrow</i></span>
 							</span>
 						</div>
 					</div>
@@ -118,6 +118,7 @@
 					jQuery('#video-main-rs-mob .btn-close').show();*/
 				}
 				function changeHeightRes () {
+					window.location.replace('#bfrVid')
 					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main-rs');
 					if (xDiv.style.height == '')
@@ -126,7 +127,7 @@
 						xDiv.style.height = '';
 				}
 				function changeHeightWeb1 () {
-					console.log('Web');
+					window.location.replace('#bfrVid')
 					document.getElementById("him1").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main');
 
@@ -156,10 +157,10 @@
 									<div class='qode-expanding-images-inner mk-animate-element scale-up'>
 										<img class='qode-frame-image' src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" alt='laptop frame' />
 										<div class="fadein">
-											<img id="f4" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png">
-											<img id="f3" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png">
-											<img id="f2" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png">
-											<img id="f1" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png">
+											<img id="f4" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png">
+											<img id="f3" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png">
+											<img id="f2" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png">
+											<img id="f1" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png">
 										</div>
 									</div>
 									<div class='qode-side-images'>
@@ -931,7 +932,6 @@
 @endsection
 
 @section('inlinescripts')
-<script src=""></script>
 @endsection
 
 
