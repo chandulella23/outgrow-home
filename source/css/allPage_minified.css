@@ -15777,6 +15777,10 @@ iframe.outgrow-video {
 			z-index: 99 !important;
 			display: none;
 			max-width: 100%;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
 		}
 		.fadein img {
 			position:relative;
@@ -15791,7 +15795,7 @@ iframe.outgrow-video {
 			left: 0px !important;
 			right: 0px !important;
 			bottom: 0px !important;
-			position: fixed;
+			position: absolute;
 		}
 
 		@-webkit-keyframes fade {
