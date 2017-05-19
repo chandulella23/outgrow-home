@@ -125,9 +125,6 @@ jQuery(document).ready(function() {
 		if (jQuery(window).width() <= 768 && jQuery(window).width() > 320) {
 			attachVid('res');
 		}
-		if (jQuery(window).width() <= 320) {
-			attachVid('mob');
-		}
 	})
 
 	var iframes = iFrameResize({
