@@ -157,10 +157,10 @@
 									<div class='qode-expanding-images-inner mk-animate-element scale-up'>
 										<img class='qode-frame-image' src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" alt='laptop frame' />
 										<div class="fadein">
-											<img id="f4" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png">
-											<img id="f3" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png">
-											<img id="f2" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png">
-											<img id="f1" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png">
+											<img id="f4" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png">
+											<img id="f3" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png">
+											<img id="f2" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png">
+											<img id="f1" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png">
 										</div>
 									</div>
 									<div class='qode-side-images'>
