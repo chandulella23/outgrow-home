@@ -771,9 +771,6 @@
 						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile02.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile02.jpg" alt="" class="scrollimg qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
 						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
