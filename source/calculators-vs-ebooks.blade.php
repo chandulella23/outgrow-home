@@ -1,8 +1,9 @@
 @extends('_layouts.master')
 
-@section('title', 'Calculator Vs Ebook Vs Landing Page')
+@section('title', 'Calculator Vs Ebook Vs Landing Page | Outgrow')
 
 @section('metaDescription')
+	<meta property="og:title" content="Calculator Vs Ebook Vs Landing Page | Outgrow" />
 @endsection
 
 @section('inlinescripts')
