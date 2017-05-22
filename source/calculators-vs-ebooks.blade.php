@@ -24,6 +24,7 @@
 @section('pageId', 'why')
 
 @section('content')
+	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
     <section class="section section-top-why">
 		<div class="container-fluid">
 			<div class="feature-heading-1 mk-animate-element scale-up">
@@ -214,6 +215,20 @@
 
 		</div>
 	</section>
+	<script>
+		var swiper = new Swiper('.swiper-container-first', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			//spaceBetween: 30,
+			//slidesPerView: 3,
+			centeredSlides: true,
+			// autoplay: 2500,
+			speed:500,
+			autoplayDisableOnInteraction: false
+		});
+	</script>
 
     <section class="section start-trial-cta">
 		<div class="container-fluid np">
@@ -234,5 +249,8 @@
 @endsection
 
 @section('pageScripts')
-	
+	const libs = {
+		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+	}
 @endsection
