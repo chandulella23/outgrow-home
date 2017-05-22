@@ -3563,6 +3563,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.swiper-container .swiper-slide.swiper-slide-next{display: none;}
 		.swiper-container .swiper-slide.swiper-slide-prev{display: none;}
 		.fadein {display: block !important;}
+		.sec-grey.section.section-10 i.material-icons {font-size: 48px;}
+		.sec-grey.section-10 {padding: 30px 0px;}
+		.sec-grey span {font-size: 12px; padding-bottom: 15px; display: block;}
 
 	/* end: homepage responsive by arti */
 
