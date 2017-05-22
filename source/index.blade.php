@@ -214,20 +214,30 @@
 				<h1 style="color: rgb(34, 34, 34);">Embed Anywhere</h1>
 			</div>-->
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-4 np text-center">
+				<div class="col-md-4 col-xs-12 np text-center">
 					<i class="material-icons">trending_up</i>
 					<span>GET CONVERSION RATES OF OVER 60%</span>
-					<p class="rs-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
 				</div>
-				<div class="col-md-4 col-xs-4 np text-center">
+				<div class="col-md-4 col-xs-12 np text-center">
 					<i class="material-icons">supervisor_account</i>
 					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
-					<p class="rs-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
 				</div>
-				<div class="col-md-4 col-xs-4 np text-center">
+				<div class="col-md-4 col-xs-12 np text-center">
 					<i class="material-icons">star</i>
 					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="rs-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+				<div class="start-trial-cta">
+					<a href="//app.outgrow.co" id="trialAnchor">
+						<button class="btn-buildcal ripple">
+							<i class="material-icons">view_compact</i>
+							<p>See how calculators comapre to ebooks etc</p>
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
