@@ -16012,7 +16012,7 @@ iframe.outgrow-video {
 	.sec-grey.section-10 {
 		background: #dfe3e6;
 		margin-top: 40px;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 		padding: 30px 20px 50px;
 	}
 	.sec-grey.section.section-10 i.material-icons {
@@ -16083,18 +16083,21 @@ iframe.outgrow-video {
 	}
 	.sec-grey.section-10 .start-trial-cta .btn-buildcal i.material-icons {
 		display: inline-block;
-		float: none;
+		float: left;
 		vertical-align: middle;
 		margin-right: 10px;
 		font-size: 24px;
 		width: auto;
 		padding-top: 0;
 		color: #62696d;
+		position: relative;
+		top: 0;
+		opacity: 0.8;
 	}
 	.sec-grey.section-10 .start-trial-cta .btn-buildcal p {
 		width: auto;
 		display: inline-block;
-		float: none;
+		float: left;
 		line-height: 23px;
 		vertical-align: middle;
 		padding-top: 0;
