@@ -208,6 +208,31 @@
 		</div>
 	</section>
 
+	<section class="section section-10 sec-grey">
+		<div class="container container-center">
+			<!--<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<h1 style="color: rgb(34, 34, 34);">Embed Anywhere</h1>
+			</div>-->
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="col-md-4 col-xs-4 np text-center">
+					<i class="material-icons">trending_up</i>
+					<span>GET CONVERSION RATES OF OVER 60%</span>
+					<p class="rs-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				</div>
+				<div class="col-md-4 col-xs-4 np text-center">
+					<i class="material-icons">supervisor_account</i>
+					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
+					<p class="rs-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				</div>
+				<div class="col-md-4 col-xs-4 np text-center">
+					<i class="material-icons">star</i>
+					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
+					<p class="rs-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
 		Why calculators outperform <br/> ebooks &amp; marketing Pages?
 	</h1>

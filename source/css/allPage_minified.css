@@ -16001,6 +16001,55 @@ iframe.outgrow-video {
 	}
 	/*.iframeHeight{min-height: 62vh;}*/
 
+	.sec-grey.section-10 {
+		background: #62696d;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		padding: 30px 20px
+	}
+	.sec-grey.section.section-10 i.material-icons {
+		font-size: 72px;
+		color: #fff;
+		float: left;
+		display: block;
+		width: 100%;
+		opacity: .8
+	}
+	.sec-grey.section.section-10 h4 {
+		font-size: 18px;
+		font-family: montserratlight;
+		color: #fff;
+		text-transform: uppercase;
+		opacity: .8;
+		float: left;
+		margin-top: 3px;
+		margin-bottom: 18px;
+		text-align: center;
+		width: 100%;
+	}
+	.sec-grey.section.section-10 p {
+		font-size: 14px;
+		font-family: montserratlight;
+		color: #fff;
+		line-height: 17px;
+		width: 52%;
+		margin: 0 auto 15px;
+		padding-top: 15px;
+		opacity: .8
+	}
+	.sec-grey .container.container-center h1{
+		color: #fff !important;
+		font-size: 30px;
+		font-family: montserratlight;
+		text-align: center;
+		width: 100%;
+		float: left;
+		display: block;
+		text-transform: none;
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+
 
 /*end: new css by Arti */
 
