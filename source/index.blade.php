@@ -232,7 +232,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 				<div class="start-trial-cta">
-					<a href="//app.outgrow.co" id="trialAnchor">
+					<a href="/calculators-vs-ebooks">
 						<button class="btn-buildcal ripple">
 							<i class="material-icons">view_compact</i>
 							<p>See how calculators comapre to ebooks etc</p>
@@ -437,52 +437,7 @@
 		</div>
 	</section>
 
-	<section class="section section-2 hide">
-		<div class="container mobile-container">
-			<div class="section-2-heading mk-animate-element scale-up">
-				Where will you click?
-			</div>
-			<div class="section-2-subheading mk-animate-element scale-up show">
-				Customers want to be helped. Not sold to. Quizzes & Calculators build trust by answering your customer's most pressing questions.
-			</div>
-		</div>
-	</section>
-
-	<section class="section section-3 hide">
-		<div class="container mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-12 np outer-container text-center">
-				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img class="scrollimg img-1 mk-animate-element right-to-left" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/sec3-img1-edited.png" />
-				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12 np rs-hide">
-					<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/sec3-img2-edited.png" class="scrollimg mk-animate-element left-to-right img-2" />
-				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12 np rs-show">
-					<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/mobile-top2.png" class="scrollimg mk-animate-element left-to-right img-2" />
-				</div>
-			</div>
-		</div>
-	</section>
 	<!-- Homepage section 3 end-->
-
-	<!-- Homepage section Take-Quiz start-->
-
-	<section class="section take-quiz-bg mb hide">
-		<div class="container mobile-container">
-			<div class="col-md-12 col-xs-12 col-sm-12 np text-center">
-				<div class="take-quiz-heading mk-animate-element left-to-right">
-					 How many <b>more</b> customers can you earn with quizzes and calculators?
-				</div>
-				<a href="javascript:void(0);"  data-toggle="modal" data-target="#embed-modal-quizer" >
-					<button class="sec-quiz-btn mk-animate-element left-to-right">
-					<i class="material-icons">arrow_forward</i>FIND OUT NOW</button>
-				</a>
-			</div>
-		</div>
-
-	</section>
-
-	<!-- Homepage section Take-Quiz end-->
 
 	<section class="section">
 		<div class="container mobile-container">

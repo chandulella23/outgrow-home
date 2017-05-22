@@ -38,6 +38,7 @@
 @section('pageId', 'why')
 
 @section('content')
+	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<section class="section section-top-why">
 		<div class="container-fluid">
 			<div class="feature-heading-1 mk-animate-element scale-up">
@@ -230,7 +231,20 @@
 		</div>
 	</section>
 	<!-- Homepage section 3 end-->
-
+	<script>
+		var swiper = new Swiper('.swiper-container-first', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			//spaceBetween: 30,
+			//slidesPerView: 3,
+			centeredSlides: true,
+			// autoplay: 2500,
+			speed:500,
+			autoplayDisableOnInteraction: false
+		});
+	</script>
 
 
 	<!-- Why Calculator section 4 start-->
