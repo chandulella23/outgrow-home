@@ -2589,10 +2589,10 @@ label.control-label {
 .projects_holder article a.portfolio_link_class,.projects_masonry_holder article a.portfolio_link_class{cursor:default}
 .start-trial-cta .btn-buildcal{background:#fb6c73;border:2px solid #fb6c73;color:#fff;float:none;font-size:14px;text-transform:uppercase;padding:13px 45px;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out;vertical-align:middle}
 .start-trial-cta .btn-buildcal:hover{background:#fdb6b9;color:#fb545b;border-color:#fdb6b9}
-.start-trial-cta .btn-buildcal i{display:inline-block;float:left;margin-right:10px;position:relative;top:3px}
+.start-trial-cta .btn-buildcal i{display:inline-block;float:left;margin-right:10px;position:relative;top:0px}
 .start-trial-cta label{float:none;width:100%;color:#8e989f;font-size:12px;font-family:montserratlight}
 .start-trial-cta .btn-buildcal p{float:left;margin:0 10px 0 0;line-height:30px}
-.start-trial-cta{margin:30px 0 0}
+.start-trial-cta{margin:30px 20px}
 .bg1-img{background:url(../images/strtFreeTrial.jpg) no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding:70px 0}
 .portfolio_main_holder .item_holder .portfolio_title{margin:15px 0;padding:0 20px;box-sizing:border-box}
 .portfolio_main_holder .item_holder.flip_from_left .portfolio_title_custom .portfolio_title a{color:#222;vertical-align:middle}
@@ -3567,10 +3567,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-grey.section-10 {padding: 30px 0px;}
 		.sec-grey span {font-size: 12px; padding-bottom: 15px; display: block;}
 		.sec-grey span {padding-left: 0px !important; padding-right: 0px !important;}
-		.sec-grey.section-10 .start-trial-cta .btn-buildcal{padding: 5px; font-size: 12px;}
-		.sec-grey.section-10 .start-trial-cta .btn-buildcal i.material-icons {width: 100% !important;}
-
-
+		.start-trial-cta .btn-buildcal{font-size: 13px !important; padding: 10px 25px !important;}
 
 	/* end: homepage responsive by arti */
 
@@ -4074,6 +4071,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	    top: -17% !important;
     	right: -14% !important;
 	}
+	.section-6-left {padding-left: 0px;}
 
 
 
@@ -4988,6 +4986,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 		.qode-lazy-preloader{margin:-5px 0 0 -5px !important;left:40% !important;}
 		div.qode-lazy-preloader svg{ width:30px !important; height:30px !important;}
+		.start-trial-cta .btn-buildcal{font-size: 13px !important; padding: 10px 25px !important; line-height: 16px !important;}
 
 	/* homapage responsive changes by Arti */
 }
@@ -16014,13 +16013,13 @@ iframe.outgrow-video {
 	/*.iframeHeight{min-height: 62vh;}*/
 
 	.sec-grey.section-10 {
-		background: #dfe3e6;
+		background: #fafafa;
 		margin-top: 40px;
-		margin-bottom: 60px;
-		padding: 30px 20px 50px;
+		margin-bottom: 0;
+		padding: 25px 0px 50px;
 	}
 	.sec-grey.section.section-10 i.material-icons {
-		font-size: 72px;
+		font-size: 60px;
 		color: #7b8285;
 		float: left;
 		display: block;
@@ -16044,7 +16043,7 @@ iframe.outgrow-video {
 		font-size: 18px;
 		font-family: montserratregular;
 		text-transform: uppercase;
-		padding-top: 30px;
+		padding-top: 20px;
 		display: block;
 		width: 100%;
 		float: left;
@@ -16075,15 +16074,22 @@ iframe.outgrow-video {
 		margin-bottom: 30px;
 		margin-top: 0;
 	}
-	.sec-grey.section-10 .start-trial-cta .btn-buildcal {
-		border: none;
-		font-size: 14px;
-		padding: 15px 25px;
-		margin-bottom: 25px;
+	.start-trial-cta .btn-buildcal {
+		background: #fb5f66;
+		color: #fff;
+		font-size: 15px;
+		padding: 12px 35px;
+		border: 2px solid #fb5f66;
+		transition: .5s ease-in-out;
+		line-height: normal;
+		box-shadow: 0px 9px 18px 0px rgba(251,108,115,0.99);
+		margin-top: 20px;
+		/*margin-bottom: 20px;*/
+		border-radius: 50px;
+		display: inline-flex;
+		float: none;
 		font-family: montserratregular;
-		text-transform: uppercase;
-		background: #fff;
-		color: #62696d;
+		line-height: 24px;
 	}
 	.sec-grey.section-10 .start-trial-cta .btn-buildcal i.material-icons {
 		display: inline-block;
@@ -16109,6 +16115,10 @@ iframe.outgrow-video {
 		font-size: 14px;
 		font-family: montserratlight;
 		margin: 0 auto;
+	}
+	.sec-grey .container.container-center{
+		width: 100%;
+		margin: 0px;
 	}
 
 
