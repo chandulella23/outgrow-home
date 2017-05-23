@@ -16,13 +16,13 @@
                 <li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
                 <li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params">Examples</a></li>
                	<li class="login">
-               		<a href="#" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+               		<a href="//app.outgrow.co" class="link-login params" onclick="callGA('LOGIN')">Login</a>
                	</li>
           		<li class="signUp signUp-style res-nav-hide">
-          			<a href="#" class="link-login params">Signup</a>
+          			<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
           		</li>
                 <li class="signUp res-nav-show">
-                	<a href="#" class="link-login params">Signup</a>
+                	<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
                 </li>
 			</ul>
 		</div>
