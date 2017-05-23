@@ -3880,13 +3880,15 @@ button.swiper-pagination-bullet {
 }
 #feature .section.section-10.sec-help .start-trial-cta .btn-buildcal i.material-icons {
 	display: inline-block;
-	float: none;
+	float: left;
 	vertical-align: middle;
 	margin-right: 10px;
 	font-size: 24px;
 	width: auto;
 	padding-top: 0;
-	color: #62696d
+	color: #62696d;
+	position: relative;
+    top: 0;
 }
 #feature .section.section-10.sec-help .start-trial-cta label {
 	float: none;
@@ -3898,7 +3900,7 @@ button.swiper-pagination-bullet {
 #feature .section.section-10.sec-help .start-trial-cta .btn-buildcal p {
 	width: auto;
 	display: inline-block;
-	float: none;
+	float: left;
 	line-height: 23px;
 	vertical-align: middle;
 	padding-top: 0;

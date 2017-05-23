@@ -590,7 +590,7 @@
 				            <p>
 			             		 Made especially for power users and agencies, this plan gives you full access with a dedicated account manager, API access and team training.
 			            	</p>
-			      			<button class="ic-launcher btn btn-white-red-outline btn-hover intercom_trigger">contact us</button>
+			      			<button class="ic-launcher btn btn-white-red-outline btn-hover" id="intercom_trigger">contact us</button>
 			      		</div>
 		      		</div>
 		      	</div>

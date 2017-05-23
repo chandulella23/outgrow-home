@@ -210,9 +210,6 @@
 
 	<section class="section section-10 sec-grey">
 		<div class="container container-center">
-			<!--<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<h1 style="color: rgb(34, 34, 34);">Embed Anywhere</h1>
-			</div>-->
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-xs-12 np text-center">
 					<i class="material-icons">trending_up</i>
