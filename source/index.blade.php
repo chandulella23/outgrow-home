@@ -230,20 +230,21 @@
 					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
 				</div>
 			</div>
-			<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-				<div class="start-trial-cta">
-					<a href="/calculators-vs-ebooks">
-						<button class="btn-buildcal ripple">
-							<i class="material-icons">view_compact</i>
-							<p>See how calculators comapre to ebooks etc</p>
-						</button>
-					</a>
-				</div>
-			</div>
 		</div>
 	</section>
+	
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+		<div class="start-trial-cta">
+			<a href="/calculators-vs-ebooks">
+				<button class="btn-buildcal">
+					<i class="material-icons">view_compact</i>
+					See how calculators compare to ebooks etc
+				</button>
+			</a>
+		</div>
+	</div>
 
-	<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
+	<!--<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
 		Why calculators outperform <br/> ebooks &amp; marketing Pages?
 	</h1>
 	<section class="section section-3 mt7 p20">
@@ -435,7 +436,7 @@
 				});
 			</script>
 		</div>
-	</section>
+	</section>-->
 
 	<!-- Homepage section 3 end-->
 
