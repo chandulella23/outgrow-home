@@ -3677,12 +3677,13 @@ button.swiper-pagination-bullet {
 }
 #feature .feature-heading {
 	float: left;
-	width: 100%;
-	text-align: center;
-	color: #dfe3e6 !important;
-	font-size: 48px;
-	line-height: 40px;
-	font-family: montserratbold;
+    width: 100%;
+    text-align: center;
+    color: #fb5f66!important;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: montserratlight;
+    text-transform: uppercase;
 	margin-bottom: 40px;
 	margin-top: 50px
 }
@@ -4815,8 +4816,15 @@ button.swiper-pagination-bullet {
 	margin-top: 40px
 }
 #pricing .section-faq .section-2-heading {
-	color: #dfe3e6 !important;
-	margin: 0;
+	float: left;
+    width: 100%;
+    text-align: center;
+    color: #fb5f66!important;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: montserratlight;
+    text-transform: uppercase;
+    margin: 0px;
 }
 #pricing .enterprise-box-new {
 	background: #62696d;
