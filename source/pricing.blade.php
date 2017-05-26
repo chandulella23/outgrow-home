@@ -1363,7 +1363,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12 np rs-text-center">
                 <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
-                        <img src="images/img-allPlans1.png" data-src="images/img-allPlans1.png">
+                        <img src="{{ $page->baseUrl }}/images/img-allPlans1.png" data-src="{{ $page->baseUrl }}/images/img-allPlans1.png">
                     </div>
                     <div class="col-md-9 col-sm-12 col-xs-12 np allPlans-blocks-right">
                         <h4>Email Notification</h4>
@@ -1372,7 +1372,7 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
-                        <img src="images/img-allPlans2.png" data-src="images/img-allPlans2.png">
+                        <img src="{{ $page->baseUrl }}/images/img-allPlans2.png" data-src="{{ $page->baseUrl }}/images/img-allPlans2.png">
                     </div>
                     <div class="col-md-9 col-sm-12 col-xs-12 np allPlans-blocks-right">
                         <h4>Embedding</h4>
@@ -1381,7 +1381,7 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
-                        <img src="images/img-allPlans3.png" data-src="images/img-allPlans3.png">
+                        <img src="{{ $page->baseUrl }}/images/img-allPlans3.png" data-src="{{ $page->baseUrl }}/images/img-allPlans3.png">
                     </div>
                     <div class="col-md-9 col-sm-12 col-xs-12 np allPlans-blocks-right">
                         <h4>Question types</h4>
@@ -1390,7 +1390,7 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
-                        <img src="images/img-allPlans4.png" data-src="images/img-allPlans4.png">
+                        <img src="{{ $page->baseUrl }}/images/img-allPlans4.png" data-src="{{ $page->baseUrl }}/images/img-allPlans4.png">
                     </div>
                     <div class="col-md-9 col-sm-12 col-xs-12 np allPlans-blocks-right">
                         <h4>SEO</h4>
