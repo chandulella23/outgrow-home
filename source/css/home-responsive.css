@@ -494,7 +494,7 @@
         width: 100%;
         padding-top: 5px;
         padding-bottom: 5px;
-        background: #f2f2f2
+        background: #888888
     }
     .toggle-dots-grey span {
         width: 8px;
@@ -693,11 +693,6 @@
         width: 100%;
         padding: 0 20px
     }
-    .billing-plan-list {
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: 40px
-    }
     .Privacy .Privacy-heading,
     .err .section-1 {
         /*margin-top: 80px;
@@ -749,15 +744,16 @@
     .toggle-dots-grey div i.material-icons {
         position: relative;
         top: 3px;
-        color: #62696d
+        color: #fff
     }
     .toggle-dots-grey div p.more-info {
         position: relative;
         top: -5px;
         margin-bottom: 0;
-        color: #62696d;
+        color: #fff;
         display: inline-block
     }
+
 }
 
 @media (min-width:320px) and (max-width:320px) {
@@ -1129,6 +1125,7 @@
     .Privacy .Privacy-heading, .err .section-1 {
         display: none;
     }
+
 }
 @media (min-width:769px) and (max-width:990px) {
     #why .section-top-why{
@@ -1597,12 +1594,17 @@
         padding-left: 0
     }
     .billing-grey-bottom .billing-list .mat-icon {
-        float: none
+        float: none;
+        /*display: inline-block;
+        position: relative;
+        top: 4px;*/
+        display: block;
     }
     .billing-grey-bottom .billing-list .mat-icon:after {
         display: block;
         float: none;
-        line-height: normal
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-grey-bottom .billing-list .unselected .mat-icon:after {
         display: block;
@@ -1618,12 +1620,17 @@
         padding-left: 0
     }
     .billing-white-bottom .billing-list .mat-icon {
-        float: none
+        float: none;
+        /*display: inline-block;
+        position: relative;
+        top: 4px;*/
+        display: block;
     }
     .billing-white-bottom .billing-list .mat-icon:after {
         display: block;
         float: none;
-        line-height: normal
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-white-bottom .billing-list .unselected .mat-icon:after {
         display: block;
@@ -1821,11 +1828,6 @@
         font-size: 20px;
         line-height: normal
     }
-    .billing-plan-list {
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: 40px
-    }
     .Privacy .Privacy-heading,
     .err .section-1 {
         margin-top: 40px
@@ -2018,7 +2020,7 @@
 
 @media (max-width:1366px) {
     .billing-grey-top h3.plan-title {
-        font-size: 20px
+        font-size: 13px
     }
     .actual-price {
         font-size: 18px
@@ -2027,16 +2029,27 @@
     .billing-grey-bottom .billing-list .unselected .list-name,
     .billing-white-bottom .billing-list .list-name,
     .billing-white-bottom .billing-list .unselected .list-name {
-        font-size: 13px
+        font-size: 12px
     }
     .billing-white-top h3.plan-title {
-        font-size: 20px
+        font-size: 13px
     }
     .billing-grey-top h3.plan-price,
     .billing-white-top h3.plan-price {
-        font-size: 22px
+        font-size: 24px
     }
     #pricing .enterprise-box-new h2.title {font-size: 20px;}
+    .billing-grey-top h3.plan-price span sup, .billing-white-top h3.plan-price span sup {
+		font-size: 14px;
+	}
+    #pricing .strike-price {
+        font-size: 14px;
+    }
+    #pricing .strike-price sup {
+		font-size: 10px;
+	}
+    .feature-list a {font-size: 12px;}
+    .help-text {font-size: 12px;}
 }
 
 @media (min-width:1024px) {
@@ -2044,6 +2057,9 @@
     .toggle-dots-white {
         display: none
     }
+}
+@media (max-width:1920px) {
+    .feature-list {margin-top: 175px;}
 }
 
 @media (min-width:1480px) and (max-width:1800px) {
@@ -2197,6 +2213,7 @@
         left: 5%;
         bottom: 420px
     }
+    .feature-list {margin-top: 175px;}
 }
 
 @media (min-width:1024px) and (max-width:1330px) {
