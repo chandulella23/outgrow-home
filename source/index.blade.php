@@ -97,14 +97,15 @@
 			</div>
 
 			<script>
+				document.getElementsByClassName("video-playIcon")[0].onclick = function () {
+					console.log('Some cick');
+					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1'
+				}
 				function btnclose() {
-					console.log('Btn cloased called');
-					for (var i = 0; i < 5; i++) {
-						if (!document.getElementsByClassName("outgrow-video")[i]) break;
-						document.getElementsByClassName("outgrow-video")[i].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0';
-					}
+					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0'
 				}
 				function changeHeightRes () {
+					console.log('Res');
 					window.location.replace('#bfrVid')
 					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main-rs');
@@ -114,6 +115,7 @@
 						xDiv.style.height = '';
 				}
 				function changeHeightWeb1 () {
+					console.log('Tab');
 					window.location.replace('#bfrVid')
 					document.getElementById("him1").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main');
@@ -684,13 +686,13 @@
 
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
-						<a href="javascript:void(0);" class="col-sm-4 np calcembed active" data-toggle="modal" data-target="#calcEmbed-modal1">
+						<a href="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
 							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
 						</a>
-						<a href="javascript:void(0);" class="col-sm-4 np calcembed"  data-toggle="modal" data-target="#calcEmbed-modal2">
+						<a href="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
 							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
 						</a>
-						<a href="javascript:void(0);" class="col-sm-4 np calcembed" data-toggle="modal" data-target="#calcEmbed-modal3">
+						<a href="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
 							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
 						</a>
 					</div>
@@ -843,7 +845,7 @@
 							<div class="tab-content">
 								<div id="overview" class="tab-pane fade in active">
 									<div class="embed-responsive embed-responsive-16by9">
-										<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" data-src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<iframe class="outgrow-video outgrow-video-mob" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" data-src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>
@@ -855,9 +857,8 @@
 	</div>
 	<!-- End: Modal Video -->
 	<!-- Start: Modal calcEmbed1 -->
-	<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+	<!--<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -868,13 +869,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- End: Modal calcEmbed1 -->
 
 	<!-- Start: Modal calcEmbed2 -->
-	<div id="calcEmbed-modal2" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+	<!--<div id="calcEmbed-modal2" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -885,13 +885,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- End: Modal calcEmbed2 -->
 
 	<!-- Start: Modal calcEmbed3 -->
-	<div id="calcEmbed-modal3" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+	<!--<div id="calcEmbed-modal3" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -902,7 +901,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 
