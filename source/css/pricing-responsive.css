@@ -24,6 +24,7 @@
 	#pricing .billing-white {
 		/*margin-top: -60px;*/
 	    width: 100%;
+		border-radius: 8px 8px 0px 0px;
 	}
 	#pricing .billing-grey-bottom .billing-list .list-name{
 		padding-left:0px;
@@ -37,7 +38,7 @@
 		padding-left:0px;
 	}
 	#pricing .billing-white-bottom ul.billing-list li{
-		margin-bottom:10px;
+		/*margin-bottom:10px;*/
 	}
 	#pricing .section-1-left .btn-buildcal{
 		padding:15px;
@@ -111,6 +112,7 @@
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 10px;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
+	#pricing .pricing-cards.active{margin-left: 0px;}
 
 
 
@@ -158,6 +160,9 @@
 		margin-left: 30px;
 		margin-right: 25px;
 	}
+}
+@media (min-width: 640px) and (max-width:768px) {
+	.allPlans-blocks-640{width: 50%;}
 }
 @media (min-width: 768px) and (max-width:768px){
 	#pricing .pricing-help .billing-plans-help {
@@ -212,6 +217,7 @@
 		margin-right: 0px;
 		margin-bottom: 40px;
 		margin-top: 0px;
+		border-radius: 8px 8px 0px 0px;
 	}
 	.toggle-dots-white div {
 	    font-size: 13px;
@@ -253,8 +259,9 @@
 	}
 	#pricing .section-1-right {
 		position: relative;
-		padding-left: 25px;
-		padding-right: 25px;
+		/*padding-left: 25px;
+		padding-right: 25px;*/
+		margin-left: 0px !important;
 	}
 	#pricing .pricing-cards.active {
 	    flex-direction: column;
@@ -266,6 +273,7 @@
 	    /*color: #62696d;*/
 	    display: inline-block;
 		color: #fff; /* new css for popular plan */
+		    font-size: 13px;
 	}
 	.toggle-dots-grey div i.material-icons {
 	    position: relative;
@@ -293,6 +301,7 @@
 	.billing-white-bottom ul.billing-list li {line-height: 0px; padding-top: 35px;}
 	.billing-grey-bottom, .billing-white-bottom{padding: 0px 0px 35px;}
 	.pricing-helptip{display: none;}
+	.pricing-outer.container{padding-right: 30px; padding-left: 30px;}
 
 
 

@@ -52,7 +52,7 @@
                                     <i class="material-icons">check</i> Annual
                                 </a>
                             </li>
-                            <li class="cycle-tab" id="half-yearly">
+                            <li class="cycle-tab hide" id="half-yearly">
                                 <a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">
                                     <i class="material-icons">check</i> Semi-Annual
                                 </a>
@@ -346,7 +346,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="business-box billing-white ">
+                    <div class="business-box billing-white selected-plan">
                         <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow">
                             <span class="ribbon">Most Popular</span>
                             <!--<h4>(Monthly)</h4>
@@ -765,7 +765,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="business-box billing-white ">
+                    <div class="business-box billing-white selected-plan">
                         <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow">
                             <span class="ribbon">Most Popular</span>
                             <!--<h4>(Semi-annual)</h4>
@@ -1187,7 +1187,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="business-box billing-white ">
+                    <div class="business-box billing-white selected-plan">
                         <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow">
                             <span class="ribbon">Most Popular</span>
                             <!--<h4>(Annual)</h4>
@@ -1361,7 +1361,7 @@
                 </h1>
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12 np rs-text-center">
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans1.png" data-src="{{ $page->baseUrl }}/images/img-allPlans1.png">
                     </div>
@@ -1370,7 +1370,7 @@
                         <p>An interactive what you see is what you get builder. No coding required.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans2.png" data-src="{{ $page->baseUrl }}/images/img-allPlans2.png">
                     </div>
@@ -1379,7 +1379,7 @@
                         <p>All plans come with the ability to create any experience, Calculator to graded or outcome quiz.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans3.png" data-src="{{ $page->baseUrl }}/images/img-allPlans3.png">
                     </div>
@@ -1388,7 +1388,7 @@
                         <p>All templates come with an responsive ability.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans4.png" data-src="{{ $page->baseUrl }}/images/img-allPlans4.png">
                     </div>
