@@ -1379,7 +1379,7 @@ label {
 	float: left;
 	text-rendering: optimizeLegibility*/
 	font-family: "Material Icons";
-    content: "add";
+    content: "check";
     /*color: #b1b5b6;*/
     color: #0ead48;
     font-size: 16px;
@@ -1569,7 +1569,7 @@ label {
 	float: left;
 	text-rendering: optimizeLegibility*/
 	font-family: "Material Icons";
-    content: "add";
+    content: "check";
     /*color: #b1b5b6;*/
     color: #0ead48;
     font-size: 16px;
