@@ -1902,7 +1902,8 @@ label {
 .footer-link ul li {
 	float: left;
 	width: 100%;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	list-style: none;
 }
 .footer-link ul li a {
 	float: left;
