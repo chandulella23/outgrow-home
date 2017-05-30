@@ -111,6 +111,7 @@
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 10px;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
+	#pricing .pricing-cards.active{margin-left: 0px;}
 
 
 
@@ -158,6 +159,9 @@
 		margin-left: 30px;
 		margin-right: 25px;
 	}
+}
+@media (min-width: 640px) and (max-width:768px) {
+	.allPlans-blocks-640{width: 50%;}
 }
 @media (min-width: 768px) and (max-width:768px){
 	#pricing .pricing-help .billing-plans-help {

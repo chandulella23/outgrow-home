@@ -2058,7 +2058,7 @@
         display: none
     }
 }
-@media (max-width:1920px) {
+@media (min-width:1920px) {
     .feature-list {margin-top: 175px;}
 }
 

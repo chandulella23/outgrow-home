@@ -1361,7 +1361,7 @@
                 </h1>
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12 np rs-text-center">
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans1.png" data-src="{{ $page->baseUrl }}/images/img-allPlans1.png">
                     </div>
@@ -1370,7 +1370,7 @@
                         <p>An interactive what you see is what you get builder. No coding required.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans2.png" data-src="{{ $page->baseUrl }}/images/img-allPlans2.png">
                     </div>
@@ -1379,7 +1379,7 @@
                         <p>All plans come with the ability to create any experience, Calculator to graded or outcome quiz.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans3.png" data-src="{{ $page->baseUrl }}/images/img-allPlans3.png">
                     </div>
@@ -1388,7 +1388,7 @@
                         <p>All templates come with an responsive ability.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 np allPlans-blocks">
+                <div class="col-md-6 col-sm-6 col-xs-12 np allPlans-blocks allPlans-blocks-640">
                     <div class="col-md-2 col-sm-12 col-xs-12 np">
                         <img src="{{ $page->baseUrl }}/images/img-allPlans4.png" data-src="{{ $page->baseUrl }}/images/img-allPlans4.png">
                     </div>
