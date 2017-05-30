@@ -426,7 +426,8 @@
     .billing-grey-bottom .billing-list .mat-icon:after {
         display: block;
         float: none;
-        line-height: normal
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-grey-bottom .billing-list .unselected .mat-icon:after {
         display: block;
@@ -441,7 +442,11 @@
         padding-left: 0
     }
     .billing-white-bottom .billing-list .mat-icon {
-        float: none
+        float: none;
+        display: block;
+        float: none;
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-white-bottom .billing-list .mat-icon:after {
         display: block;
@@ -474,7 +479,8 @@
         width: 100%;
         padding-top: 5px;
         padding-bottom: 5px;
-        background: rgba(98, 105, 109, .8)
+        /*background: rgba(98, 105, 109, .8);*/
+        background: #888888;
     }
     .toggle-dots-white span {
         width: 8px;
@@ -494,7 +500,8 @@
         width: 100%;
         padding-top: 5px;
         padding-bottom: 5px;
-        background: #888888
+        background: #888888;
+        border-top: 1px solid #999;
     }
     .toggle-dots-grey span {
         width: 8px;
@@ -1672,7 +1679,8 @@
     }
     .toggle-dots-grey {
         width: 100%;
-        background: #fff
+        background: #fff;
+        border-top: 1px solid #999;
     }
     .toggle-dots-grey span {
         width: 8px;

@@ -346,7 +346,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="business-box billing-white ">
+                    <div class="business-box billing-white selected-plan">
                         <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow">
                             <span class="ribbon">Most Popular</span>
                             <!--<h4>(Monthly)</h4>
@@ -765,7 +765,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="business-box billing-white ">
+                    <div class="business-box billing-white selected-plan">
                         <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow">
                             <span class="ribbon">Most Popular</span>
                             <!--<h4>(Semi-annual)</h4>
@@ -1187,7 +1187,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="business-box billing-white ">
+                    <div class="business-box billing-white selected-plan">
                         <div class="col-md-12 col-sm-12 col-xs-12 np text-center billing-white-top business-box-xshadow">
                             <span class="ribbon">Most Popular</span>
                             <!--<h4>(Annual)</h4>
