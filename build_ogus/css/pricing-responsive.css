@@ -24,6 +24,7 @@
 	#pricing .billing-white {
 		/*margin-top: -60px;*/
 	    width: 100%;
+		border-radius: 8px 8px 0px 0px;
 	}
 	#pricing .billing-grey-bottom .billing-list .list-name{
 		padding-left:0px;
@@ -37,7 +38,7 @@
 		padding-left:0px;
 	}
 	#pricing .billing-white-bottom ul.billing-list li{
-		margin-bottom:10px;
+		/*margin-bottom:10px;*/
 	}
 	#pricing .section-1-left .btn-buildcal{
 		padding:15px;
@@ -53,8 +54,9 @@
 		margin: 0 10px;
 	}
 	#pricing .accordion-section-title{
-		font-size:20px;
+		font-size:18px;
 	}
+	#pricing .accordion p {font-size: 14px;}
 	#pricing .accordion-section-title:before{
 		margin-left: -2px;
 		margin-right: 8px;
@@ -72,9 +74,9 @@
 	#pricing .section-faq{ margin-top: 15px;margin-bottom: 15px;}
 	#pricin .section-2-heading{ font-family: montserratbold;}
 	#pricing .billing-plan-list{width:100%;}
-	#pricing .billing-plan-list ul > li > a{
+	/*#pricing .billing-plan-list ul > li > a{
 		padding:15px 2px;
-	}
+	}*/
 	#pricing .pricing-help .billing-plans-help{
 		bottom: 415px;
 		left: 20px;
@@ -101,25 +103,29 @@
 	    /* display: block; */
 	    flex-direction:column;
 	}
+	
+    .rs-text-center{text-align: center;}
+    .allPlans-blocks-right {margin-left: 0px;}
+    .allPlans-blocks p {padding: 0 10px;}
+    .allPlans-blocks img {margin-top: 0px; margin-bottom: 10px;}
+    #pricing .pricing-headingtop .plans-heading {font-size: 22px;}
+    #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 10px;}
+	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
+	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
+	#pricing .pricing-cards.active{margin-left: 0px;}
+
+
+
 }
 @media (min-width:320px) and (max-width:330px){
-	#pricing .pricing-headingtop{
-		background: linear-gradient(to bottom, #fb6c73 306px, #fff 50px);
-	}
 	#pricing .section-1-right {
 		margin-top:70px;
 	}
 }
 
 @media (min-width: 331px) and (max-width:369px) {
-	#pricing .pricing-headingtop{
-		background: linear-gradient(to bottom, #fb6c73 255px, #fff 50px);
-	}
 }
 @media (min-width: 340px) and (max-width:369px) {
-	#pricing .pricing-headingtop{
-		background: linear-gradient(to bottom, #fb6c73 225px, #fff 50px);
-	}
 }
 
 @media (min-width: 413px) and (max-width:439px) {
@@ -128,9 +134,6 @@
 	}
 }
 @media (min-width: 370px) and (max-width:565px) {
-	#pricing .pricing-headingtop{
-		background: linear-gradient(to bottom, #fb6c73 225px, #fff 50px);
-	}
 }
 @media (min-width: 440px) and (max-width:768px) {
 	#pricing .container-faqs {
@@ -142,9 +145,6 @@
 	}
 	#pricing .pricing-help .billing-plans-help{
 	    bottom:380px;
-	}
-	#pricing .pricing-headingtop{
-		background: linear-gradient(to bottom, #fb6c73 200px, #fff 50px);
 	}
 }
 @media (min-width: 600px) and (max-width:768px) {
@@ -160,6 +160,9 @@
 		margin-left: 30px;
 		margin-right: 25px;
 	}
+}
+@media (min-width: 640px) and (max-width:768px) {
+	.allPlans-blocks-640{width: 50%;}
 }
 @media (min-width: 768px) and (max-width:768px){
 	#pricing .pricing-help .billing-plans-help {
@@ -185,11 +188,6 @@
 		width: 800px;
 		margin: 0 auto;
 	}
-	#pricing .pricing-headingtop {
-	    /* min-height: 50px;
-	    padding-bottom: 25px; */
-		    background: linear-gradient(to bottom, #fb6c73 190px, #fff 30px);
-	}
 	#pricing .section-1-right {
 		margin-left: 0px;
 	}
@@ -201,22 +199,25 @@
 		float: left;
 		width: 100%;
 		text-align: center;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 7px;
+		padding-bottom: 7px;
 		background: rgba(98, 105, 109, 0.8);
+		background: #888888;
 	}
 	.toggle-dots-grey {
 	    float: left;
 	    width: 100%;
 	    text-align: center;
-	    padding-top: 5px;
-	    padding-bottom: 5px;
-	    background: #f2f2f2;
+	    padding-top: 7px;
+	    padding-bottom: 7px;
+	    /*background: #f2f2f2;*/
+		background: #888888; /* new css for popular plan */
 	}
 	#pricing .billing-white {
 		margin-right: 0px;
 		margin-bottom: 40px;
 		margin-top: 0px;
+		border-radius: 8px 8px 0px 0px;
 	}
 	.toggle-dots-white div {
 	    font-size: 13px;
@@ -258,8 +259,9 @@
 	}
 	#pricing .section-1-right {
 		position: relative;
-		padding-left: 25px;
-		padding-right: 25px;
+		/*padding-left: 25px;
+		padding-right: 25px;*/
+		margin-left: 0px !important;
 	}
 	#pricing .pricing-cards.active {
 	    flex-direction: column;
@@ -268,15 +270,47 @@
 	    position: relative;
 	    top: -5px;
 	    margin-bottom: 0px;
-	    color: #62696d;
+	    /*color: #62696d;*/
 	    display: inline-block;
+		color: #fff; /* new css for popular plan */
+		    font-size: 13px;
 	}
 	.toggle-dots-grey div i.material-icons {
 	    position: relative;
 	    top: 3px;
-	    color: #62696d;
+	    /*color: #62696d;*/
+		color: #fff; /* new css for popular plan */
 	}	
 	
+    .billing-plan-list {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 40px
+    }
+    .rs-text-center{text-align: center;}
+    .allPlans-blocks-right {margin-left: 0px;}
+    .allPlans-blocks p {padding: 0 10px;}
+    .allPlans-blocks img {margin-top: 0px; margin-bottom: 10px;}
+	.sec-allPlans{margin-top: 30px;}
+	
+}
+@media screen and (max-width:990px){
+	.feature-list {display: none;}
+	.feature-list-name{font-size: 14px; font-family: montserratregular; color: #888888; display: block; line-height: 10px;}
+	.billing-grey-bottom ul.billing-list li, 
+	.billing-white-bottom ul.billing-list li {line-height: 0px; padding-top: 35px;}
+	.billing-grey-bottom, .billing-white-bottom{padding: 0px 0px 35px;}
+	.pricing-helptip{display: none;}
+	.pricing-outer.container{padding-right: 30px; padding-left: 30px;}
+
+
+
+}
+@media screen and (max-width:991px){
+    .rs-text-center{text-align: center;}
+    .allPlans-blocks-right {margin-left: 0px;}
+    .allPlans-blocks p {padding: 0 10px;}
+    .allPlans-blocks img {margin-top: 0px; margin-bottom: 10px;}
 }
 @media (min-width: 996px){
 	.billing-grey-bottom{display: block !important; }
@@ -290,9 +324,6 @@
 	#pricing .container-faqs {
 		width: 800px;
 		margin: 0 auto;
-	}
-	#pricing .pricing-headingtop {
-	   background: linear-gradient(to bottom, #fb6c73 438px, #fff 100px);
 	}
 	#pricing .section-1-right {
 		margin-left: 0px;
@@ -337,9 +368,6 @@
 @media (min-width: 1024px) and (max-width:1024px) {
 	#pricing .loader{
 		margin-left:26%;
-	}
-	#pricing .pricing-headingtop {
-	   background: linear-gradient(to bottom, #fb6c73 447px, #fff 100px);
 	}
 }
 @media (min-width: 1024px) and (max-width:1200px) {
@@ -415,10 +443,6 @@
 @media (min-width: 1920px) {
 	#pricing .billing-grey, #pricing .billing-white {
 	    width: 350px;
-	}
-	#pricing .pricing-headingtop {
-	    float: left;
-	    background: linear-gradient(to bottom, #fb6c73 451px, #fff 100px);
 	}
 }
 @media (min-width: 1925px) and (max-width:2300px) {
