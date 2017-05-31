@@ -24,7 +24,7 @@
 	#pricing .billing-white {
 		/*margin-top: -60px;*/
 	    width: 100%;
-		border-radius: 8px 8px 0px 0px;
+		border-radius: 8px;
 	}
 	#pricing .billing-grey-bottom .billing-list .list-name{
 		padding-left:0px;
@@ -199,25 +199,25 @@
 		float: left;
 		width: 100%;
 		text-align: center;
-		padding-top: 7px;
-		padding-bottom: 7px;
-		background: rgba(98, 105, 109, 0.8);
-		background: #888888;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background: #f6f8f9;
+		border-top: 1px solid #fff;
+
 	}
 	.toggle-dots-grey {
 	    float: left;
 	    width: 100%;
 	    text-align: center;
-	    padding-top: 7px;
-	    padding-bottom: 7px;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
 	    /*background: #f2f2f2;*/
 		background: #888888; /* new css for popular plan */
 	}
 	#pricing .billing-white {
 		margin-right: 0px;
-		margin-bottom: 40px;
+		/*margin-bottom: 40px;*/
 		margin-top: 0px;
-		border-radius: 8px 8px 0px 0px;
 	}
 	.toggle-dots-white div {
 	    font-size: 13px;
@@ -228,13 +228,13 @@
 	.toggle-dots-white div i.material-icons {
 	    position: relative;
 	    top: 3px;
-	    color: #fff;
+	    color: #62696d;
 	}
 	.toggle-dots-white div p.more-info {
 	    position: relative;
 	    top: -5px;
 	    margin-bottom: 0px;
-	    color: #fff;
+	    color: #62696d;
 	    display: inline-block;
 	}
 	#pricing .pricing-text {
