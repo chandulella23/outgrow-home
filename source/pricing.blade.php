@@ -70,21 +70,21 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 section-1-right pricing-cards" id="m">
                     <div class="col-xs-12 col-sm-12 col-md-12 np feature-list">
                         <ul>
-                            <li><a href="">Leads & Visits</a></li>
-                            <li><a href="">No. of Experiences</a></li>
-                            <li><a href="">Collaborators</a></li>
-                            <li><a href="">Lead generation</a></li>
-                            <li><a href="">Domain Hosting</a></li>
-                            <li><a href="">Charts and Graphs</a></li>
-                            <li><a href="">Display Customizations</a></li>
-                            <li><a href="">Branding</a></li>
-                            <li><a href="">Integrations</a></li>
-                            <li><a href="">Templates</a></li>
-                            <li><a href="">Call To Actions</a></li>
-                            <li><a href="">Formulas</a></li>
-                            <li><a href="">Logic Jump</a></li>
-                            <li><a href="">Analytics</a></li>
-                            <li><a href="">Support</a></li>
+                            <li><a href="javascript:void(0);">Leads & Visits</a></li>
+                            <li><a href="javascript:void(0);">No. of Experiences</a></li>
+                            <li><a href="javascript:void(0);">Collaborators</a></li>
+                            <li><a href="javascript:void(0);">Lead generation</a></li>
+                            <li><a href="javascript:void(0);">Domain Hosting</a></li>
+                            <li><a href="javascript:void(0);">Charts and Graphs</a></li>
+                            <li><a href="javascript:void(0);">Display Customizations</a></li>
+                            <li><a href="javascript:void(0);">Branding</a></li>
+                            <li><a href="javascript:void(0);">Integrations</a></li>
+                            <li><a href="javascript:void(0);">Templates</a></li>
+                            <li><a href="javascript:void(0);">Call To Actions</a></li>
+                            <li><a href="javascript:void(0);">Formulas</a></li>
+                            <li><a href="javascript:void(0);">Logic Jump</a></li>
+                            <li><a href="javascript:void(0);">Analytics</a></li>
+                            <li><a href="javascript:void(0);">Support</a></li>
                         </ul>
                     </div>
                     <div class="starter-box billing-grey enterprise-margin">
@@ -490,21 +490,21 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 section-1-right pricing-cards " id="s">
                     <div class="col-xs-12 col-sm-12 col-md-12 np feature-list">
                         <ul>
-                            <li><a href="">Leads & Visits</a></li>
-                            <li><a href="">No. of Experiences</a></li>
-                            <li><a href="">Collaborators</a></li>
-                            <li><a href="">Lead generation</a></li>
-                            <li><a href="">Domain Hosting</a></li>
-                            <li><a href="">Charts and Graphs</a></li>
-                            <li><a href="">Display Customizations</a></li>
-                            <li><a href="">Branding</a></li>
-                            <li><a href="">Integrations</a></li>
-                            <li><a href="">Templates</a></li>
-                            <li><a href="">Call To Actions</a></li>
-                            <li><a href="">Formulas</a></li>
-                            <li><a href="">Logic Jump</a></li>
-                            <li><a href="">Analytics</a></li>
-                            <li><a href="">Support</a></li>
+                            <li><a href="javascript:void(0);">Leads & Visits</a></li>
+                            <li><a href="javascript:void(0);">No. of Experiences</a></li>
+                            <li><a href="javascript:void(0);">Collaborators</a></li>
+                            <li><a href="javascript:void(0);">Lead generation</a></li>
+                            <li><a href="javascript:void(0);">Domain Hosting</a></li>
+                            <li><a href="javascript:void(0);">Charts and Graphs</a></li>
+                            <li><a href="javascript:void(0);">Display Customizations</a></li>
+                            <li><a href="javascript:void(0);">Branding</a></li>
+                            <li><a href="javascript:void(0);">Integrations</a></li>
+                            <li><a href="javascript:void(0);">Templates</a></li>
+                            <li><a href="javascript:void(0);">Call To Actions</a></li>
+                            <li><a href="javascript:void(0);">Formulas</a></li>
+                            <li><a href="javascript:void(0);">Logic Jump</a></li>
+                            <li><a href="javascript:void(0);">Analytics</a></li>
+                            <li><a href="javascript:void(0);">Support</a></li>
                         </ul>
                     </div>
                     <div class="starter-box billing-grey enterprise-margin">
@@ -925,21 +925,21 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 section-1-right pricing-cards active" id="y">
                     <div class="col-xs-12 col-sm-12 col-md-12 np feature-list">
                         <ul>
-                            <li><a href="">Leads & Visits</a></li>
-                            <li><a href="">No. of Experiences</a></li>
-                            <li><a href="">Collaborators</a></li>
-                            <li><a href="">Lead generation</a></li>
-                            <li><a href="">Domain Hosting</a></li>
-                            <li><a href="">Charts and Graphs</a></li>
-                            <li><a href="">Display Customizations</a></li>
-                            <li><a href="">Branding</a></li>
-                            <li><a href="">Integrations</a></li>
-                            <li><a href="">Templates</a></li>
-                            <li><a href="">Call To Actions</a></li>
-                            <li><a href="">Formulas</a></li>
-                            <li><a href="">Logic Jump</a></li>
-                            <li><a href="">Analytics</a></li>
-                            <li><a href="">Support</a></li>
+                            <li><a href="javascript:void(0);">Leads & Visits</a></li>
+                            <li><a href="javascript:void(0);">No. of Experiences</a></li>
+                            <li><a href="javascript:void(0);">Collaborators</a></li>
+                            <li><a href="javascript:void(0);">Lead generation</a></li>
+                            <li><a href="javascript:void(0);">Domain Hosting</a></li>
+                            <li><a href="javascript:void(0);">Charts and Graphs</a></li>
+                            <li><a href="javascript:void(0);">Display Customizations</a></li>
+                            <li><a href="javascript:void(0);">Branding</a></li>
+                            <li><a href="javascript:void(0);">Integrations</a></li>
+                            <li><a href="javascript:void(0);">Templates</a></li>
+                            <li><a href="javascript:void(0);">Call To Actions</a></li>
+                            <li><a href="javascript:void(0);">Formulas</a></li>
+                            <li><a href="javascript:void(0);">Logic Jump</a></li>
+                            <li><a href="javascript:void(0);">Analytics</a></li>
+                            <li><a href="javascript:void(0);">Support</a></li>
                         </ul>
                     </div>
                     <div class="starter-box billing-grey enterprise-margin">
