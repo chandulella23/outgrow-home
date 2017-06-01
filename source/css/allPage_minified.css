@@ -16130,6 +16130,11 @@ iframe.outgrow-video {
 	.ytp-button.ytp-cards-button {
 		display: none;
 	}
+	/* Hide annotations */
+
+		#player .html5-video-player .ytp-button.ytp-cards-button {
+			display: none;
+		}
 
 
 /*end: new css by Arti */
