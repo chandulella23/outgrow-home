@@ -16127,7 +16127,9 @@ iframe.outgrow-video {
 		width: 100%;
 		margin: 0px;
 	}
-
+	.ytp-button.ytp-cards-button {
+		display: none;
+	}
 
 
 /*end: new css by Arti */
