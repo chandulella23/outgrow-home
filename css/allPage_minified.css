@@ -4128,6 +4128,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	#video-modal button.close.btn-close{right:-45% !important;}
 }
+@media (min-width:1920px){
+	.tab-outer-frame{padding: 0px !important; padding-right: 50px !important;}
+	.sec-testimonials .swiper-container {height: 425px;}
+}
 @media (min-width:1810px) and (max-width:1920px){
 	.collag1-img{min-height:550px}
 	.collag-left{width:65%}
