@@ -236,17 +236,17 @@
 		<div class="container container-center">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-xs-12 np text-center">
-					<img src="images/img-table1.png">
+					<img src="{{ $page->baseUrl }}/images/img-table1.png">
 					<span>GET CONVERSION RATES OF OVER 60%</span>
 					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center">
-					<img src="images/img-table2.png">
+					<img src="{{ $page->baseUrl }}/images/img-table2.png">
 					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
 					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center">
-					<img src="images/img-table3.png">
+					<img src="{{ $page->baseUrl }}/images/img-table3.png">
 					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
 					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
 				</div>
