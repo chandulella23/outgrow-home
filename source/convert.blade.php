@@ -41,13 +41,18 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer" id="btnBuildCalc1">
+							<i class="material-icons">email</i>
+							<input class="" name="emailId" type="text" placeholder="Please enter your Email ID">
 							<a href="//app.outgrow.co" class="params">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
+								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in">
+									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
+									Start Free Trial
+								</button>
+								<div class="btn-bottominfo fade-in">
+									<label>*Plans Start at $25/month</label>
+								</div>
 							</a>
-							<div class="btn-bottominfo fade-in">
-								<label>Plans Start at $25/month</label>
-							</div>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
@@ -214,19 +219,19 @@
 		<div class="container container-center">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">trending_up</i>
+					<img src="images/img-table1.png">
 					<span>GET CONVERSION RATES OF OVER 60%</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">supervisor_account</i>
+					<img src="images/img-table2.png">
 					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">star</i>
+					<img src="images/img-table3.png">
 					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
 				</div>
 			</div>
 		</div>

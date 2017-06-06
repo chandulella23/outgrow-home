@@ -210,7 +210,7 @@
 		</div>
 	</section>
 
-	<section class="section section-10 sec-grey">
+	<!--<section class="section section-10 sec-grey">
 		<div class="container container-center">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-xs-12 np text-center">
@@ -230,7 +230,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 		<div class="start-trial-cta">
