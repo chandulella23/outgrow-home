@@ -44,7 +44,7 @@
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer" id="btnBuildCalc1">
 							<i class="material-icons">email</i>
 							<input class="" name="emailId" type="text" placeholder="Please enter your Email ID">
-							<a href="//app.outgrow.co" class="params">
+							<a href="//app.outgrow.co" class="">
 								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in">
 									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
 									Start Free Trial

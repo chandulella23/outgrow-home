@@ -3573,7 +3573,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-grey span {font-size: 12px; padding-bottom: 15px; display: block;}
 		.sec-grey span {padding-left: 0px !important; padding-right: 0px !important;}
 		.start-trial-cta .btn-buildcal{font-size: 13px !important; padding: 10px 25px !important;}
-		.startTrial-outer a.params {
+		.startTrial-outer a {
 			float: left!important;
 			position: relative;
 			top: 0px;
@@ -3672,7 +3672,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		width: 100% !important;
 		padding-right: 20px !important;
 	}
-	.startTrial-outer a.params {
+	.startTrial-outer a {
 		width: 100%;
 	}
 
@@ -4079,7 +4079,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.startTrial-outer i.material-icons { left: 55px !important;}
 	.startTrial-outer input {width: 76% !important;}
-	.startTrial-outer a.params {right: 212px;}
+	.startTrial-outer a {right: 212px;}
 
 
 
@@ -4129,7 +4129,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.startTrial-outer i.material-icons { left: 55px !important;}
 	.startTrial-outer input {width: 50% !important;}
-	.startTrial-outer a.params {right: 212px;}
+	.startTrial-outer a {right: 212px;}
 
 
 }
@@ -4144,7 +4144,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.startTrial-outer i.material-icons { left: 55px !important;}
 	.startTrial-outer input {width: 50% !important;}
-	.startTrial-outer a.params {right: 212px;}
+	.startTrial-outer a {right: 212px;}
 
 }
 @media (min-width:1281px) and (max-width:1350px){
@@ -4220,7 +4220,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	#video-modal button.close.btn-close{right: -60% !important;}
 	/*.wrapper-mobile{ min-height:640px !important; }
 	.wrapper-mobile .h_iframe iframe{ min-height:640px !important;}*/
-	/*#btnBuildCalc1 a.params {right: 280px;}*/
+	/*#btnBuildCalc1 a {right: 280px;}*/
 	.startTrial-outer input.form-control {min-height: 58px !important;}
 	.startTrial-outer .btn-bottominfo label{font-size: 13px;}
 }
@@ -16264,7 +16264,7 @@ iframe.outgrow-video {
     margin-top: 5px;
     margin-bottom: 30px;
 }
-.startTrial-outer a.params {
+.startTrial-outer a{
     float: left;
     position: relative;
     right: 212px;
