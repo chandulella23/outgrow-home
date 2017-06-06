@@ -18,7 +18,7 @@ curl_setopt_array($curl, array(
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => '{"email":"'.$_POST['email'].'", "fields": {"name": "'.$_POST['name'].'"}}',
+  CURLOPT_POSTFIELDS => '{"email":"'.$_POST['email'].'}',
   CURLOPT_HTTPHEADER => array(
     "content-type: application/json",
     "x-mailerlite-apikey: 07c23594acf5764492d5ecae362ff0af"
