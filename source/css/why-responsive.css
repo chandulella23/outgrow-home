@@ -349,6 +349,7 @@
 	    font-size: 24px;
 	    text-align: center;
 	}
+	.sec-grey.section.section-10 p{margin-bottom: 50px;}
 }
 @media (min-width:375px) and (max-width:375px){
 	iframe {
@@ -485,6 +486,9 @@
 		font-size: 20px;
 		line-height: normal;
 	}
+	.sec-grey.section.section-10 p{margin-bottom: 50px;}
+
+
 }
 @media (min-width: 1024px) and (max-width:1250px) {
 	iframe{

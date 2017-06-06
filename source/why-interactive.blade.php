@@ -53,7 +53,7 @@
 	</section>
 
 
-	<section class="section section-3 mt7 p20">
+	<!--<section class="section section-3 mt7 p20">
 		<div class="container">
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
@@ -229,8 +229,43 @@
 			</div>
 
 		</div>
-	</section>
+	</section>-->
 	<!-- Homepage section 3 end-->
+
+	<section class="section section-10 sec-grey">
+		<div class="container container-center">
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="col-md-4 col-xs-12 np text-center">
+					<img src="images/img-table1.png">
+					<span>GET CONVERSION RATES OF OVER 60%</span>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center">
+					<img src="images/img-table2.png">
+					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center">
+					<img src="images/img-table3.png">
+					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit. Lorem ipsum dolor sit amet</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+		<div class="start-trial-cta">
+			<a href="/calculators-vs-ebooks">
+				<button class="btn-buildcal">
+					<i class="material-icons">view_compact</i>
+					See how calculators compare to ebooks etc
+				</button>
+			</a>
+		</div>
+	</div>
+
+
 	<script>
 		var swiper = new Swiper('.swiper-container-first', {
 			pagination: '.swiper-pagination',
