@@ -29,6 +29,7 @@
 
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+	
 	<section class="section section-1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
@@ -41,23 +42,46 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer" id="btnBuildCalc1">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
 							<i class="material-icons">email</i>
-							<input class="" name="emailId" type="text" placeholder="Please enter your Email ID">
-							<a href="//app.outgrow.co" class="">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in">
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your Email ID">
+							<a href="javascript:void(0)" class="">
+								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
 									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
 									Start Free Trial
 								</button>
 								<div class="btn-bottominfo fade-in">
 									<label>*Plans Start at $25/month</label>
 								</div>
-							</a>
+							</span>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<script>
+				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
+					submitLeadForm();
+				}
+				function submitLeadForm () {
+					console.log('Submit lead form called');
+					jQuery.ajax({
+						url: './js/ebookhandler.php',
+						data: { email: jQuery('.lead-form-email').val() },
+						type: 'POST',
+						success: function (res) {
+							console.log(res);
+							window.location.href = '//app.rely.co';
+						},
+
+						error: function (err) {
+							console.log(err);
+							window.location.href = '//app.rely.co';
+						}
+					})
+				}
+			</script>
 
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
