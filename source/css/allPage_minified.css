@@ -4223,6 +4223,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	/*#btnBuildCalc1 a {right: 280px;}*/
 	.startTrial-outer input.form-control {min-height: 58px !important;}
 	.startTrial-outer .btn-bottominfo label{font-size: 13px;}
+	.startTrial-outer {margin-left: 30.4%;}
+	.startTrial-outer input {width: 38% !important;}
+
 }
 @media (min-width:1480px) and (max-width:1920px){
 	.sahil-material .form-group label.in-active{
