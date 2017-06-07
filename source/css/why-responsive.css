@@ -23,9 +23,10 @@
 	#why .section-2-heading{
 		text-align: center;
 		padding-bottom: 0px;
-		text-transform:uppercase;
+		text-transform:none;
 		font-family:montserratlight;
 		font-size: 22px;
+		line-height: normal;
 	}
 	#why .section-2-subheading {
 		text-align: center;
@@ -92,7 +93,7 @@
 	#why .section-7-left span i{
 		margin-top:2px;
 	}
-	#why .section-10{ margin-top: 50px;}
+	#why .section-10{ margin-top: 20px; padding-bottom: 0px;}
 	#why .sec4-2 {
 		position: absolute;
 		left: 40%;
@@ -349,7 +350,13 @@
 	    font-size: 24px;
 	    text-align: center;
 	}
-	.sec-grey.section.section-10 p{margin-bottom: 50px;}
+	.sec-grey.section.section-10 p{margin-bottom: 0px;}
+	.sec-new-table:first-child {margin-top: 0px;}
+	.sec-new-table {margin-top: 30px;}
+	.start-trial-cta {margin: 30px 20px 0px;}
+
+
+
 }
 @media (min-width:375px) and (max-width:375px){
 	iframe {
@@ -486,9 +493,21 @@
 		font-size: 20px;
 		line-height: normal;
 	}
-	.sec-grey.section.section-10 p{margin-bottom: 50px;}
 
 
+}
+
+@media (min-width:769px) and (max-width:991px){
+	.sec-grey.section.section-10 p{margin-bottom: 0px;}
+	.sec-new-table:first-child {margin-top: 0px;}
+	.sec-new-table {margin-top: 30px;}
+	.start-trial-cta {margin: 30px 20px 0px;}
+	.sec-grey.section-10 {padding-bottom: 0px !important;}
+	#why .section-2-heading{    
+		text-transform: none !important;
+		line-height: normal !important;
+		font-size: 24px !important;
+	}
 }
 @media (min-width: 1024px) and (max-width:1250px) {
 	iframe{
