@@ -3327,7 +3327,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.res-nav-hide{display:none!important}
 	.section-1{margin-top:0px; padding-top: 30px;}
 	.section-1-left{/*padding-left:20px;padding-right:20px;margin-bottom: 40px;*/}
-	.section-1-left input{width:70% !important; padding-right: 20px !important;}
+	.section-1-left input{width:100% !important; padding-right: 20px !important;}
 	.section1-left-cell{height:21vh}
 	.section-1-left .btn-buildcal i{float:none;vertical-align:middle;}
 	.section-1-left .btn-buildcal{font-size: 13px; padding: 10px 25px;}
@@ -3578,10 +3578,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			position: relative;
 			top: 0px;
 			right: 0 !important;
-			width: 70%;
+			width: 100%;
 			margin-top: 20px;
 		}
-		.startTrial-outer {margin-left: 70px;}
+		.startTrial-outer {margin-left: 0px;}
 		.sec-grey.section.section-10 p{margin-bottom: 50px;}
 
 	/* end: homepage responsive by arti */
@@ -4123,11 +4123,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.section-6-left {padding-left: 0px;}
 	.startTrial-outer {
-		margin-top: 40px;
+		/*margin-top: 40px;
 		padding-left: 30px;
-		padding-right: 30px;
+		padding-right: 30px;*/
 	}
-	.startTrial-outer i.material-icons { left: 55px !important;}
+	.startTrial-outer i.material-icons { /*left: 55px !important;*/}
 	.startTrial-outer input {width: 50% !important;}
 	.startTrial-outer a {right: 212px;}
 
@@ -4223,6 +4223,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	/*#btnBuildCalc1 a {right: 280px;}*/
 	.startTrial-outer input.form-control {min-height: 58px !important;}
 	.startTrial-outer .btn-bottominfo label{font-size: 13px;}
+	.startTrial-outer {margin-left: 30.4%;}
+	.startTrial-outer input {width: 38% !important;}
+
 }
 @media (min-width:1480px) and (max-width:1920px){
 	.sahil-material .form-group label.in-active{
