@@ -4123,11 +4123,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.section-6-left {padding-left: 0px;}
 	.startTrial-outer {
-		margin-top: 40px;
+		/*margin-top: 40px;
 		padding-left: 30px;
-		padding-right: 30px;
+		padding-right: 30px;*/
 	}
-	.startTrial-outer i.material-icons { left: 55px !important;}
+	.startTrial-outer i.material-icons { /*left: 55px !important;*/}
 	.startTrial-outer input {width: 50% !important;}
 	.startTrial-outer a {right: 212px;}
 
