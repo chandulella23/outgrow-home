@@ -1401,7 +1401,7 @@ label {
 .billing-white-bottom .billing-list .list-name {
 	font-size: 14px;
 	color: #62696d;
-	font-family: montserratregular;
+	font-family: montserratlight;
 	/*padding-left: 6px;*/
 }
 .billing-white-bottom .billing-list .unselected .mat-icon:after {
@@ -1538,7 +1538,7 @@ label {
 }
 .billing-list li {
     list-style-type: none;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .billing-grey-bottom {
 	padding: 10px 25px;
@@ -1580,7 +1580,7 @@ label {
 }
 .billing-grey-bottom .billing-list .list-name {
 	color: #62696d;
-    font-family: montserratregular;
+    font-family: montserratlight;
     /*padding-left: 6px;*/
     text-transform: none;
 	font-size: 14px;
@@ -1597,7 +1597,7 @@ label {
 .billing-grey-bottom .billing-list .unselected .list-name {
 	font-size: 14px;
 	color: #ccc;
-	font-family: montserratregular;
+	font-family: montserratlight;
 	padding-left: 5px;
 	text-decoration: line-through
 }
