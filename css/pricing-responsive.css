@@ -296,10 +296,10 @@
 }
 @media screen and (max-width:990px){
 	.feature-list {display: none;}
-	.feature-list-name{font-size: 14px; font-family: montserratregular; color: #888888; display: block; line-height: 10px;}
+	.feature-list-name{font-size: 14px; font-family: montserratregular; color: #888888; display: block; line-height: 40px;}
 	.billing-grey-bottom ul.billing-list li, 
-	.billing-white-bottom ul.billing-list li {line-height: 0px; padding-top: 35px;}
-	.billing-grey-bottom, .billing-white-bottom{padding: 0px 0px 35px;}
+	.billing-white-bottom ul.billing-list li {line-height: 0px; padding-top: 25px;}
+	.billing-grey-bottom, .billing-white-bottom{padding: 0px 0px 25px;}
 	.pricing-helptip{display: none;}
 	.pricing-outer.container{padding-right: 30px; padding-left: 30px;}
 
@@ -369,6 +369,11 @@
 	#pricing .loader{
 		margin-left:26%;
 	}
+}
+@media (min-width: 991px) and (max-width:1150px) {
+	.feature-list{ width: 370px;}
+	#pricing .billing-grey, #pricing .billing-white{ width: 470px;}
+	#pricing .pricing-cards.active{ margin-left:-30px; }
 }
 @media (min-width: 1024px) and (max-width:1200px) {
 	/* #pricing .section-1-right {
