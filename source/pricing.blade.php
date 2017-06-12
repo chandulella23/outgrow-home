@@ -197,7 +197,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>                                        
                                 </li>
                                 <li>
@@ -285,7 +285,7 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Integration Access</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Excel Export + Integration Access</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -300,7 +300,7 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Follows & Redirects </span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
                                     <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -328,7 +328,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                 </li>
                                 <li>
@@ -365,7 +365,7 @@
                                 <li>
                                     <span class="feature-list-name">Leads & Visits</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name">&nbsp;15,000 & 30,000</span>
+                                    <span class="list-name">&nbsp;15,000 & 3,00000</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">No. of Experiences</span>
@@ -389,7 +389,7 @@
                                     <span class="list-name capitalize">&nbsp;Custom Domain</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
-                                        <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
+                                        <div class="help-checktip">Experiences are hosted on <a href="https://subdomain.yourcompany.co" data-target="_blank" class="text-red">"subdomain.yourcompany.co"</a></div>
                                     </div>
                                 </li>
                                 <li>
@@ -422,7 +422,7 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Webhooks & API</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access + Webhook & API</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access, Webhook & API</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -437,7 +437,7 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Follows & Redirects </span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
                                     <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -465,7 +465,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Funnel Visualisation</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                 </li>
                                 <li>
@@ -622,7 +622,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>                                     
                                 </li>
                                 <li>
@@ -728,7 +728,7 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Follows & Redirects </span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
                                     <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -756,7 +756,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                 </li>
                                 <li>
@@ -796,7 +796,7 @@
                                 <li>
                                     <span class="feature-list-name">Leads & Visits</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name">&nbsp;15,000 & 30,000</span>
+                                    <span class="list-name">&nbsp;15,000 & 3,00000</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">No. of Experiences</span>
@@ -820,7 +820,7 @@
                                     <span class="list-name capitalize">&nbsp;Custom Domain</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
-                                        <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
+                                        <div class="help-checktip">Experiences are hosted on <a href="https://subdomain.yourcompany.co" data-target="_blank" class="text-red">"subdomain.yourcompany.co"</a></div>
                                     </div>
                                 </li>
                                 <li>
@@ -853,7 +853,7 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Webhooks & API</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access + Webhook & API</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access, Webhook & API</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -872,7 +872,7 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Follows & Redirects </span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
                                     <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -900,7 +900,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Funnel Visualisation</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                 </li>
                                 <li>
@@ -1053,7 +1053,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                 </li>
                                 <li>
@@ -1108,6 +1108,10 @@
                                     <span class="feature-list-name">Lead generation</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Standard Access</span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Add lead generation capabilities to any calculator or quiz.</div>
+                                    </div>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Domain Hosting</span>
@@ -1144,7 +1148,7 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Integration Access</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -1159,7 +1163,7 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Follows & Redirects </span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects </span>
                                     <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -1187,7 +1191,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
                                 </li>
                                 <li>
@@ -1227,7 +1231,7 @@
                                 <li>
                                     <span class="feature-list-name">Leads & Visits</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name">&nbsp;15,000 & 30,000</span>
+                                    <span class="list-name">&nbsp;15,000 & 3,00000</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">No. of Experiences</span>
@@ -1251,7 +1255,7 @@
                                     <span class="list-name capitalize">&nbsp;Custom Domain</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
-                                        <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
+                                        <div class="help-checktip">Experiences are hosted on <a href="https://subdomain.yourcompany.co" data-target="_blank" class="text-red">"subdomain.yourcompany.co"</a></div>
                                     </div>
                                 </li>
                                 <li>
@@ -1285,7 +1289,7 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Webhooks & API</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access + Webhook & API</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access, Webhook & API</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -1300,7 +1304,7 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Follows & Redirects </span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
                                     <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
@@ -1328,7 +1332,7 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Funnel Visualisation</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                 </li>
                                 <li>
