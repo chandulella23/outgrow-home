@@ -129,7 +129,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip">
+                                    <div class="help-tip pricing-helptip hide">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -197,8 +197,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>                                        
+                                    <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>                                        
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -254,7 +254,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip">
+                                    <div class="help-tip pricing-helptip hide">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -285,8 +285,8 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export + Integration Access</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Zapier & Native Integrations</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Zapier & Native Integrations</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">You can sync user's contact information using Zapier and native integrations.</div>
@@ -300,8 +300,8 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Follows & Redirects   </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Follows & Redirects </span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages.</div>
@@ -328,8 +328,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -380,7 +380,7 @@
                                 <li>
                                     <span class="feature-list-name">Lead generation</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Email Validation</span>
+                                    <span class="list-name capitalize rs-hide">Standard Access + Email Validation</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Standard Access, Email Validation</span>
                                 </li>
                                 <li>
@@ -422,8 +422,8 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access + Webhook & API</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access, Webhook & API</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;All Integrations, Webhook & API</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration, Webhook & API</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Send all lead data using direct integration, Zapier as well as Webhooks and API.</div>
@@ -437,8 +437,8 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Follows & Redirects   </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Follows & Redirects </span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages and use dynamic variables.</div>
@@ -465,8 +465,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Advanced Analytics Reports</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Advanced Analytics Reports</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -550,7 +550,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip">
+                                    <div class="help-tip pricing-helptip hide">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -622,8 +622,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>                                     
+                                    <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>                                     
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -682,7 +682,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip">
+                                    <div class="help-tip pricing-helptip hide">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -713,8 +713,8 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Integration Access</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export + Integration Access</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Zapier & Native Integrations</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Zapier & Native Integrations</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">You can sync user's contact information using Zapier and native integrations.</div>
@@ -728,8 +728,8 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Follows & Redirects   </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Follows & Redirects </span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages.</div>
@@ -756,8 +756,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -811,7 +811,7 @@
                                 <li>
                                     <span class="feature-list-name">Lead generation</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Email Validation</span>
+                                    <span class="list-name capitalize rs-hide">Standard Access + Email Validation</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Standard Access, Email Validation</span>
                                 </li>
                                 <li>
@@ -853,8 +853,8 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access + Webhook & API</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access, Webhook & API</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;All Integrations, Webhook & API</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration, Webhook & API</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Send all lead data using direct integration, Zapier as well as Webhooks and API.</div>
@@ -872,8 +872,8 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Follows & Redirects   </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Follows & Redirects </span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages and use dynamic variables.</div>
@@ -900,8 +900,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Advanced Analytics Reports</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Advanced Analytics Reports</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -985,7 +985,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip">
+                                    <div class="help-tip pricing-helptip hide">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -1053,8 +1053,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -1117,7 +1117,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip">
+                                    <div class="help-tip pricing-helptip hide">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -1148,8 +1148,8 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Zapier & Native Integrations</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">You can sync user's contact information using Zapier and native integrations.</div>
@@ -1163,8 +1163,8 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects </span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Follows & Redirects  </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Follows & Redirects </span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages.</div>
@@ -1191,8 +1191,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Details, Lead Data and User Responses</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Details, Lead Data and User Responses</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
@@ -1246,7 +1246,7 @@
                                 <li>
                                     <span class="feature-list-name">Lead generation</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Email Validation</span>
+                                    <span class="list-name capitalize rs-hide">Standard Access + Email Validation</span>
                                     <span class="list-name capitalize rs-show">&nbsp;Standard Access, Email Validation</span>
                                 </li>
                                 <li>
@@ -1289,8 +1289,8 @@
                                 <li>
                                     <span class="feature-list-name">Integrations</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Excel Export + Integration Access + Webhook & API</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration Access, Webhook & API</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;All Integrations, Webhook & API</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Excel Export, Integration, Webhook & API</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Send all lead data using direct integration, Zapier as well as Webhooks and API.</div>
@@ -1304,8 +1304,8 @@
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Social Follows & Redirects  </span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Social Follows & Redirects</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Social Shares, Follows & Redirects   </span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Social Shares, Follows & Redirects </span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages and use dynamic variables.</div>
@@ -1332,8 +1332,8 @@
                                 <li>
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
-                                    <span class="list-name capitalize rs-hide">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
-                                    <span class="list-name capitalize rs-show">&nbsp;Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
+                                    <span class="list-name capitalize rs-hide">&nbsp;Advanced Analytics Reports</span>
+                                    <span class="list-name capitalize rs-show">&nbsp;Advanced Analytics Reports</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Support</span>
