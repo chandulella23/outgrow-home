@@ -16331,3 +16331,10 @@ iframe.outgrow-video {
     position: relative;
     right: 202px;
 }
+/********* 9th june 2017 ************/
+.billing-list .mat-icon {
+    display: none;
+}
+.billing-list .help-tip.pricing-helptip {
+    display: none;
+}
