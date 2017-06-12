@@ -6017,6 +6017,12 @@ iframe[name=google_conversion_frame] {
     border-radius: 0px;
 }
 
+/********* 9th june 2017 ************/
+#pricing .billing-list .mat-icon , #pricing .help-text , #pricing .billing-list .help-tip.pricing-helptip{
+    display: none;
+}
+
+
 
 
 
