@@ -129,7 +129,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip hide">
+                                    <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -198,6 +198,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Details, Lead Data and User Responses</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>                                        
                                 </li>
                                 <li>
@@ -254,7 +258,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip hide">
+                                    <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -329,6 +333,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Details, Lead Data and User Responses</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
@@ -365,7 +373,7 @@
                                 <li>
                                     <span class="feature-list-name">Leads & Visits</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name">&nbsp;15,000 & 3,00000</span>
+                                    <span class="list-name">&nbsp;15,000 & 300,000</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">No. of Experiences</span>
@@ -466,6 +474,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Advanced Analytics Reports</span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Advanced Analytics Reports</span>
                                 </li>
                                 <li>
@@ -550,7 +562,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip hide">
+                                    <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -623,6 +635,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Details, Lead Data and User Responses</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>                                     
                                 </li>
                                 <li>
@@ -682,7 +698,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip hide">
+                                    <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -757,6 +773,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Details, Lead Data and User Responses</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
@@ -796,7 +816,7 @@
                                 <li>
                                     <span class="feature-list-name">Leads & Visits</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name">&nbsp;15,000 & 3,00000</span>
+                                    <span class="list-name">&nbsp;15,000 & 300,000</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">No. of Experiences</span>
@@ -901,6 +921,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Advanced Analytics Reports</span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Advanced Analytics Reports</span>
                                 </li>
                                 <li>
@@ -985,7 +1009,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip hide">
+                                    <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -1054,6 +1078,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Details, Lead Data and User Responses</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
@@ -1117,7 +1145,7 @@
                                     <span class="feature-list-name">Domain Hosting</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Outgrow Domain</span>
-                                    <div class="help-tip pricing-helptip hide">
+                                    <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Experiences are hosted on <a href="https://yourcompany.outgrow.co/" data-target="_blank" class="text-red">"yourcompany.outgrow.co"</a></div>
                                     </div>
@@ -1192,6 +1220,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Full Analytics Report </span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Details, Lead Data and User Responses</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Full Analytics Report </span>
                                 </li>
                                 <li>
@@ -1231,7 +1263,7 @@
                                 <li>
                                     <span class="feature-list-name">Leads & Visits</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name">&nbsp;15,000 & 3,00000</span>
+                                    <span class="list-name">&nbsp;15,000 & 300,000</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">No. of Experiences</span>
@@ -1333,6 +1365,10 @@
                                     <span class="feature-list-name">Analytics</span>
                                     <span class="mat-icon"></span>
                                     <span class="list-name capitalize rs-hide">&nbsp;Advanced Analytics Reports</span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</div>
+                                    </div>
                                     <span class="list-name capitalize rs-show">&nbsp;Advanced Analytics Reports</span>
                                 </li>
                                 <li>
