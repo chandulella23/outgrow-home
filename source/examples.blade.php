@@ -98,7 +98,7 @@
 	</div>
 
 	<!-- Start Trial CTA-->
-	<section class="section start-trial-cta">
+	<!--<section class="section start-trial-cta">
 		<div class="container-fluid np">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="bg2-img">
@@ -110,7 +110,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="section">
 		<div class="container">
