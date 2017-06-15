@@ -1401,7 +1401,7 @@ label {
 .billing-white-bottom .billing-list .list-name {
 	font-size: 14px;
 	color: #62696d;
-	font-family: montserratregular;
+	font-family: montserratlight;
 	/*padding-left: 6px;*/
 }
 .billing-white-bottom .billing-list .unselected .mat-icon:after {
@@ -1538,7 +1538,7 @@ label {
 }
 .billing-list li {
     list-style-type: none;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .billing-grey-bottom {
 	padding: 10px 25px;
@@ -1580,7 +1580,7 @@ label {
 }
 .billing-grey-bottom .billing-list .list-name {
 	color: #62696d;
-    font-family: montserratregular;
+    font-family: montserratlight;
     /*padding-left: 6px;*/
     text-transform: none;
 	font-size: 14px;
@@ -1597,7 +1597,7 @@ label {
 .billing-grey-bottom .billing-list .unselected .list-name {
 	font-size: 14px;
 	color: #ccc;
-	font-family: montserratregular;
+	font-family: montserratlight;
 	padding-left: 5px;
 	text-decoration: line-through
 }
@@ -1767,7 +1767,7 @@ label {
 	float: left;
 	margin-right: 10px;
 	position: relative;
-	top: 0px
+	top: 3px
 }
 .start-trial-cta label {
 	float: none;
@@ -1782,7 +1782,7 @@ label {
 	line-height: 30px
 }
 .start-trial-cta {
-	margin: 30px 20px 50px;
+	margin: 30px 0px 50px;
 }
 .bg1-img {
 	background: url(../images/strtFreeTrial.jpg) no-repeat;
@@ -6023,6 +6023,44 @@ iframe[name=google_conversion_frame] {
 }
 
 
+.bg2-img {
+	background: url(../images/bg-gen-ideas.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 40px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+.bg2-img h3 {
+    color: #fb5f66;
+    font-size: 36px;
+    font-family: montserratlight;
+    text-transform: uppercase;
+	margin-top: 0;
+}
+.bg2-img .btn-buildcal {
+    background: #fb5f66;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 40px;
+    border: 2px solid #fb5f66;
+    transition: .5s ease-in-out;
+    line-height: normal;
+    box-shadow: 0px 4px 21px 0px rgba(251,108,115,0.99);
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    border-radius: 50px;
+    display: inline-flex;
+    float: none;
+    font-family: montserratregular;
+    line-height: 24px;
+    font-weight: normal;
+}
+.bg2-img .btn-buildcal img {
+    margin-right: 5px;
+}
 
 
 
