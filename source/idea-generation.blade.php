@@ -35,7 +35,7 @@
             <div class="sec">
                 <div class="logo">
                     <a href="javascript:void(0);">
-                        <img src="images/logo1.png" alt="logo" />
+                        <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
                     </a>
                 </div>
                 <div class="sec-container">
@@ -51,7 +51,7 @@
         </section>
         <div class="logo-top hide">
             <a href="javascript:void(0);">
-                <img src="images/logo1.png" alt="logo" />
+                <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
             </a>
         </div>
         <section class="sec-outr sec2-bg hide">
@@ -135,7 +135,7 @@
             <div class="sec">
                 <div class="logo">
                     <a href="javascript:void(0);">
-                        <img src="images/logo1.png" alt="logo" />
+                        <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
                     </a>
                 </div>
                 <div class="sec-container custom-conatiner">
