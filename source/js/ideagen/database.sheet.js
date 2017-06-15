@@ -131,52 +131,38 @@ function showTitle(){
                     rand = randomNumber();
                     if(!html.top) html.top = "";
                            // html.top.count = ;
-                            html.top += '<div class="item item-selected"><input id="xs-img-top-'+index+'" type="checkbox" name="xs-img-top-'+index+'" value="xs-img-top-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-top-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.top+'</div>     </div></label></div>';
+                            //html.top += '<div class="item item-selected"><input id="xs-img-top-'+index+'" type="checkbox" name="xs-img-top-'+index+'" value="xs-img-top-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-top-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.top+'</div>     </div></label></div>';
+                            html.top += '<li><a href="#">'+data.top+'</a></li>';
                 }
                 if(data.middle && data.middle != ""){
                     rand = randomNumber();
                     if(!html.middle) html.middle = "";
 
-                    html.middle += '<div class="item item-selected"><input id="xs-img-mid-'+index+'" type="checkbox" name="xs-img-mid-'+index+'" value="xs-img-mid-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-mid-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.middle+'</div>     </div></label></div>';
+                    // html.middle += '<div class="item item-selected"><input id="xs-img-mid-'+index+'" type="checkbox" name="xs-img-mid-'+index+'" value="xs-img-mid-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-mid-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.middle+'</div>     </div></label></div>';
+                    html.middle += '<li><a href="#">'+data.middle+'</a></li>';
                 }
                 if(data.bottom && data.bottom != ""){
                     rand = randomNumber();
                     if(!html.bottom) html.bottom = "";
-                        html.bottom += '<div class="item item-selected"><input id="xs-img-bottom-'+index+'" type="checkbox" name="xs-img-bottom'+index+'" value="xs-img-bottom-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-bottom-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.bottom+'</div>     </div></label></div>';
+                        // html.bottom += '<div class="item item-selected"><input id="xs-img-bottom-'+index+'" type="checkbox" name="xs-img-bottom'+index+'" value="xs-img-bottom-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-bottom-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.bottom+'</div>     </div></label></div>';
+                        html.bottom += '<li><a href="#">'+data.bottom+'</a></li>';
                 }
             })
         }
     })
     if(html.top) {
-        $('.top-funnel').empty().append(html.top);
-        reInitCarousel('.top-funnel');
+        $('#top-funnel').empty().append(html.top);
+        // reInitCarousel('.top-funnel');
     }
     if(html.middle) {
-        $('.mid-funnel').empty().append(html.middle);
-        reInitCarousel('.mid-funnel');
+        $('#mid-funnel').empty().append(html.middle);
+        // reInitCarousel('.mid-funnel');
     }
     if(html.bottom) {
-        $('.bottom-funnel').empty().append(html.bottom);
-        reInitCarousel('.bottom-funnel');
+        $('#bottom-funnel').empty().append(html.bottom);
+        // reInitCarousel('.bottom-funnel');
     }
     stopLoader('.result-page-loader');
-}
-
-function reInitCarousel(className){
-    $(className).data('owlCarousel').reinit({
-
-        //autoPlay: 3000, //Set AutoPlay to 3 seconds
-       
-        //items : length,
-        itemsDesktop : [1366,3],
-        itemsDesktopSmall : [979,2],
-        navigation:true,
-        navigationText: [
-        "<i class='material-icons'>keyboard_arrow_left</i>",
-        "<i class='material-icons'>keyboard_arrow_right</i>"
-        ],
-        
-    });
 }
 
 function randomNumber() {

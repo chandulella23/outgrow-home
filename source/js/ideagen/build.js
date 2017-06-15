@@ -60,3 +60,26 @@ function appParams(data, key){
     }
     return params;
 }
+
+function sendResponse(){
+    let data = {
+        timestamp:timestamp,
+        email: email,
+        category:saveData.category,
+        sub_category:saveData.subCat,
+        flag: true 
+    }
+    // requestBuild(data);
+    $.ajax({
+        type:'POST',
+        url: link.getResponseLink(),
+        data: JSON.stringify(data),
+        success:function(response){
+            console.log(response);
+        },
+        error:function(){
+
+        }
+    })
+    flag = true;
+}

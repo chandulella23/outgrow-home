@@ -63,7 +63,7 @@
                 if(verify) {
                     window.email = $("#form-email").val();
                     if(parseData[saveData.category][saveData.subCat] || parseData[saveData.category]['keyCustom'])    showTitle();
-                    $(".sec5-bg").fadeIn("slow", function() {
+                    $(".new-sec-bg").fadeIn("slow", function() {
                         $(this).removeClass("hide");
                     });
                     $(".sec4-bg").fadeOut("slow", function() {
@@ -72,12 +72,14 @@
                     $(".logo-top").removeClass("hide");
                     $('body').css('overflow-y','scroll');
 
+                    sendResponse();
+
                 }
                 else $('.email-validator').removeClass('hide');
             });
 
-            $('.sec-button-update').click(function(){
-                if(parseData[saveData.category][saveData.subCat]){
+            $('.update-btn').click(function(){
+                if(parseData[saveData.category][saveData.subCat] || parseData[saveData.category]['keyCustom']){
                     $('.result-page-loader').removeClass('hide');
                     showTitle();
                 }
@@ -100,19 +102,6 @@
                     saveData.subCat = event;
                 }
             });
-
-            // owl carousel start js
-            $(".owl-demo").owlCarousel({
-               
-                itemsDesktop : [1366,3],
-                itemsDesktopSmall : [979,2],
-                navigation:true,
-                navigationText: [
-                "<i class='material-icons'>keyboard_arrow_left</i>",
-                "<i class='material-icons'>keyboard_arrow_right</i>"
-                ],
-                
-            });
         });
 
         $(document).on('click', '.item-selected', function(event){
@@ -130,29 +119,4 @@
             else {
                  if(!$('.build-btn').hasClass('hide')) $('.build-btn').addClass('hide');
             }
-        })
-
-        $('.build-btn').click(function(){
-            $('.build-btn').addClass('hide');
-            var data = {
-                timestamp:timestamp,
-                email: email,
-                category:saveData.category,
-                sub_category:saveData.subCat,
-                app_selected: buildSelect,
-                flag: flag ? false : true 
-            }
-            requestBuild(data);
-           /* $.ajax({
-                type:'POST',
-                url: link.getResponseLink(),
-                data: JSON.stringify(data),
-                success:function(response){
-                    console.log(JSON.parse(response));
-                },
-                error:function(){
-
-                }
-            })*/
-            flag = true;
         })
