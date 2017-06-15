@@ -1141,3 +1141,9 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     display: none !important;
 }
     .sec-container.custom-conatiner .selectize-input.items.has-options.full.has-items .item {    padding-top: 2px ;    line-height: initial;}
+
+.error{
+   font-size: 11px;
+    padding-left: 2px;
+    color: #fb5f66;
+}

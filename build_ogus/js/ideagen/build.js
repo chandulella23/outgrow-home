@@ -83,3 +83,11 @@ function sendResponse(){
     })
     flag = true;
 }
+
+function showErrors(classname, message) {
+    $('.'+classname).html(message);
+}
+
+function clearErrors() {
+    $('.error').html("");
+}

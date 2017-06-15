@@ -151,18 +151,30 @@ function showTitle(){
         }
     })
     // if(html.top) {
-        $('#top-funnel').empty().append(html.top);
+        
         // reInitCarousel('.top-funnel');
     // }
     // if(html.middle) {
-        $('#mid-funnel').empty().append(html.middle);
+        
         // reInitCarousel('.mid-funnel');
     // }
     // if(html.bottom) {
-        $('#bottom-funnel').empty().append(html.bottom);
+        
         // reInitCarousel('.bottom-funnel');
     // }
+    clearAppendTabData(html);
     stopLoader('.result-page-loader');
+}
+
+function clearAppendTabData (html = null) {
+    $('#top-funnel').empty();
+    $('#mid-funnel').empty();
+    $('#bottom-funnel').empty();
+    if (html) {
+        $('#top-funnel').append(html.top)
+        $('#mid-funnel').append(html.middle)
+        $('#bottom-funnel').append(html.bottom)
+    }
 }
 
 function randomNumber() {
