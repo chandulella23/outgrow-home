@@ -79,6 +79,12 @@
             });
 
             $('.update-btn').click(function(){
+                clearErrors();
+                if (!saveData.subCat) {
+                    clearAppendTabData();
+                    showErrors('update-subcat-error', 'Please choose a sub category');
+                    return;
+                }
                 if(parseData[saveData.category][saveData.subCat] || parseData[saveData.category]['keyCustom']){
                     $('.result-page-loader').removeClass('hide');
                     showTitle();
@@ -103,6 +109,10 @@
                 }
             });
         });
+
+        if(window.location.search.match(/\?get-started/)) {
+            $(".sec1-button").click();
+        }
 
         $(document).on('click', '.item-selected', function(event){
             var index = buildSelect.indexOf($(this).text().trim());

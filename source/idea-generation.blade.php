@@ -34,7 +34,7 @@
         <section class="sec-outr sec1-bg mouse-bg">
             <div class="sec">
                 <div class="logo">
-                    <a href="{{ $page->baseUrl }}">
+                    <a href="{{ $page->baseUrl }}/">
                         <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
                     </a>
                 </div>
@@ -50,7 +50,7 @@
             </div>
         </section>
         <div class="logo-top hide">
-            <a href="{{ $page->baseUrl }}">
+            <a href="{{ $page->baseUrl }}/">
                 <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
             </a>
         </div>
@@ -120,7 +120,7 @@
                         Your Email
                     </div>
                     <div class="sec-catergory">
-                        <input type="text" class="sec-input" id="form-email" placeholder="johnwatson@sh.com" />
+                        <input type="text" class="sec-input" id="form-email" placeholder="johndoe@outgrow.co" />
                         <span class="alert alert-danger email-validator hide">
 						  	<i class="material-icons">error_outline</i> Please enter valid email
 						</span>
@@ -134,7 +134,7 @@
         <section class="sec-outr new-sec-bg mouse-bg hide">
             <div class="sec">
                 <div class="logo">
-                    <a href="javascript:void(0);">
+                    <a href="{{ $page->baseUrl }}/">
                         <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
                     </a>
                 </div>
@@ -148,6 +148,7 @@
                         </div>
                         <div class="sec-catergory  custom-select">
                             <select class="demo-default selectize-sub-category-result" data-placeholder="Choose Sub Category"></select>
+                            <span class="error update-subcat-error"></span>
                         </div>
                         <div class="update-btn">
                             <a href="javascript:void(0)">update</a>
