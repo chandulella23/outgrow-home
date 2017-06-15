@@ -34,7 +34,7 @@
         <section class="sec-outr sec1-bg mouse-bg">
             <div class="sec">
                 <div class="logo">
-                    <a href="javascript:void(0);">
+                    <a href="{{ $page->baseUrl }}">
                         <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
                     </a>
                 </div>
@@ -50,7 +50,7 @@
             </div>
         </section>
         <div class="logo-top hide">
-            <a href="javascript:void(0);">
+            <a href="{{ $page->baseUrl }}">
                 <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
             </a>
         </div>

@@ -104,6 +104,10 @@
             });
         });
 
+        if(window.location.search.match(/\?get-started/)) {
+            $(".sec1-button").click();
+        }
+
         $(document).on('click', '.item-selected', function(event){
             var index = buildSelect.indexOf($(this).text().trim());
             if($(this).children('input').prop('checked')) {

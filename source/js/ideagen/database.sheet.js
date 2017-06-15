@@ -150,18 +150,18 @@ function showTitle(){
             })
         }
     })
-    if(html.top) {
+    // if(html.top) {
         $('#top-funnel').empty().append(html.top);
         // reInitCarousel('.top-funnel');
-    }
-    if(html.middle) {
+    // }
+    // if(html.middle) {
         $('#mid-funnel').empty().append(html.middle);
         // reInitCarousel('.mid-funnel');
-    }
-    if(html.bottom) {
+    // }
+    // if(html.bottom) {
         $('#bottom-funnel').empty().append(html.bottom);
         // reInitCarousel('.bottom-funnel');
-    }
+    // }
     stopLoader('.result-page-loader');
 }
 
