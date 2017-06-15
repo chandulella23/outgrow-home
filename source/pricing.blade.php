@@ -52,7 +52,7 @@
                                     <i class="material-icons">check</i> Annual
                                 </a>
                             </li>
-                            <li class="cycle-tab hide" id="half-yearly">
+                            <li class="cycle-tab" id="half-yearly">
                                 <a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">
                                     <i class="material-icons">check</i> Semi-Annual
                                 </a>
