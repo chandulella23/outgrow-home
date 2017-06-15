@@ -1767,7 +1767,7 @@ label {
 	float: left;
 	margin-right: 10px;
 	position: relative;
-	top: 0px
+	top: 3px
 }
 .start-trial-cta label {
 	float: none;
@@ -6043,13 +6043,13 @@ iframe[name=google_conversion_frame] {
 .bg2-img .btn-buildcal {
     background: #fb5f66;
     color: #fff;
-    font-size: 24px;
-    padding: 12px 45px;
+    font-size: 15px;
+    padding: 12px 40px;
     border: 2px solid #fb5f66;
     transition: .5s ease-in-out;
     line-height: normal;
     box-shadow: 0px 4px 21px 0px rgba(251,108,115,0.99);
-    margin-top: 20px;
+    margin-top: 15px;
     /* margin-bottom: 20px; */
     border-radius: 50px;
     display: inline-flex;
@@ -6057,6 +6057,9 @@ iframe[name=google_conversion_frame] {
     font-family: montserratregular;
     line-height: 24px;
     font-weight: normal;
+}
+.bg2-img .btn-buildcal img {
+    margin-right: 5px;
 }
 
 
