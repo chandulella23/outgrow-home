@@ -5034,7 +5034,7 @@ button.swiper-pagination-bullet {
 	font-size: 11px;
 	text-transform: uppercase;
 	border: none !important;
-	/*border-left: 1px solid #d7dbdd !important;*/
+	border-left: 1px solid #d7dbdd !important;
 	-webkit-border-top-right-radius: 5px;
 	-webkit-border-bottom-right-radius: 5px;
 	-moz-border-radius-topright: 5px;
