@@ -161,6 +161,7 @@
                         <div class="funnel-step top">
                             <figure class="icons-part">                            </figure>
                             <figcaption>
+                               
                                 <h4>TOP OF THE FUNNEL</h4>
                                 <ul id="top-funnel">
                                     <li><a href="javascript:void(0)">Key Role Top Of <br> The Funnel</a></li>

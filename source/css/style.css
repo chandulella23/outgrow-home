@@ -1110,7 +1110,7 @@ figure.icons-part {
 }
 .selectize-control{text-align: left !important}
 .update-btn > a:hover{background-color: #fb5f66; transition:0.5s; color: #fff}
-.funnel-step li a:hover{color: #fb5f66; transition:0.5s;}
+/*.funnel-step li a:hover{color: #fb5f66; transition:0.5s;}*/
 .funnel-step li a {
     color: #222;
     font-family: montserratlight;
@@ -1119,6 +1119,7 @@ figure.icons-part {
     text-decoration: none;
     transition:0.5s;
     display: block;
+    cursor: default;
 }
 .funnel-step li {
     display: inline-block;
