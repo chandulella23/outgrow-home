@@ -132,20 +132,20 @@ function showTitle(){
                     if(!html.top) html.top = "";
                            // html.top.count = ;
                             //html.top += '<div class="item item-selected"><input id="xs-img-top-'+index+'" type="checkbox" name="xs-img-top-'+index+'" value="xs-img-top-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-top-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.top+'</div>     </div></label></div>';
-                            html.top += '<li><a href="#">'+data.top+'</a></li>';
+                            html.top += '<li><a href="javascript:void(0);">'+data.top+'</a></li>';
                 }
                 if(data.middle && data.middle != ""){
                     rand = randomNumber();
                     if(!html.middle) html.middle = "";
 
                     // html.middle += '<div class="item item-selected"><input id="xs-img-mid-'+index+'" type="checkbox" name="xs-img-mid-'+index+'" value="xs-img-mid-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-mid-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.middle+'</div>     </div></label></div>';
-                    html.middle += '<li><a href="#">'+data.middle+'</a></li>';
+                    html.middle += '<li><a href="javascript:void(0);">'+data.middle+'</a></li>';
                 }
                 if(data.bottom && data.bottom != ""){
                     rand = randomNumber();
                     if(!html.bottom) html.bottom = "";
                         // html.bottom += '<div class="item item-selected"><input id="xs-img-bottom-'+index+'" type="checkbox" name="xs-img-bottom'+index+'" value="xs-img-bottom-'+index+'" /><label class="xs-img-hover img img'+rand+'" for="xs-img-bottom-'+index+'"><div class="overlay-outer"><div class="overlay">'+data.bottom+'</div>     </div></label></div>';
-                        html.bottom += '<li><a href="#">'+data.bottom+'</a></li>';
+                        html.bottom += '<li><a href="javascript:void(0);">'+data.bottom+'</a></li>';
                 }
             })
         }
