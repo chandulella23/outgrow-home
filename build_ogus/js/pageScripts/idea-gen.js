@@ -108,6 +108,10 @@
                     saveData.subCat = event;
                 }
             });
+
+
+            $(document).find('.selectize-input input').attr("disabled", true);
+            console.log('>>>>', $(document).find('.selectize-input input').attr("disabled"));
         });
 
         if(window.location.search.match(/\?get-started/)) {

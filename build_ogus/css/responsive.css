@@ -21,7 +21,7 @@
     .funnel-step {
     border-right: 1px solid rgba(136, 136, 136, 0.533);
     flex: 1 1 0;
-    padding: 0 15px 10px;
+    padding: 0 15px 0px;
     text-align: center;
 }
     .sec1-text{ 
@@ -100,7 +100,7 @@
       .bottom figure.icons-part {    background-position: -65px center;}
       .funnel-step h4 {    font-size: 14px;    font-weight: normal;    margin: 20px 0 15px;   }
       .funnel-step li a{ font-size: 14px;  }
-      .funnel-step {    padding: 0 10px 80px;    text-align: center;}
+      .funnel-step {    padding: 0 10px 0px;    text-align: center;}
       .sec1-text h2 {    font-size: 28px;}
       .sec-catergory {    float: left;    width: 60%;    position: relative;}
       .sec2-bg .sec-container, .sec3-bg .sec-container, .sec4-bg .sec-container {    padding-left: 70px;}
