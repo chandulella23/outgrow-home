@@ -62,22 +62,30 @@
 
 			<script>
 				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
-					submitLeadForm();
+					var email = document.getElementsByClassName('lead-form-email')[0].value;
+					if (!email) {
+						alert('Enter an email');
+						return false;
+					}
+					var host = window.location.hostname.match(/localhost/) ? 'rely.co' : window.location.hostname;
+					var signupUrl = '//app.' + host + '/signup?email=' + email;
+					console.log(signupUrl);
+					submitLeadForm(email, signupUrl);
 				}
-				function submitLeadForm () {
+				function submitLeadForm (email, signupUrl) {
 					console.log('Submit lead form called');
 					jQuery.ajax({
 						url: './js/ebookhandler.php',
-						data: { email: jQuery('.lead-form-email').val() },
+						data: { email: email },
 						type: 'POST',
 						success: function (res) {
 							console.log(res);
-							window.location.href = '//app.rely.co';
+							window.location.href = signupUrl;
 						},
 
 						error: function (err) {
 							console.log(err);
-							window.location.href = '//app.rely.co';
+							window.location.href = signupUrl;
 						}
 					})
 				}
