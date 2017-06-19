@@ -3594,7 +3594,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-new-table {margin-top: 30px;}
 		.start-trial-cta {margin: 30px 20px 40px;}
 		.startTrial-outer i.material-icons {left: 45px !important;}
-
+		.sec-grey.section-10{padding-top: 30px !important;}
 	/* end: homepage responsive by arti */
 
 
@@ -4077,7 +4077,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec-grey.section.section-10 p{margin-bottom: 0px;}
 	.sec-new-table:first-child {margin-top: 0px;}
 	.sec-new-table {margin-top: 30px;}
-	.sec-grey.section-10 { padding: 0 !important;}
+	.sec-grey.section-10 { padding: 0 !important; padding-top: 30px !important;}
 	.sec-craftedTemps{margin-bottom: 30px !important;}
 	.sec-grey .section-2-heading{    
 		text-transform: none !important;
