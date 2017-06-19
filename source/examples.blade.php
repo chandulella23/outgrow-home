@@ -1085,7 +1085,7 @@
 	</section>
 	<!-- tab-section end -->
 	<!-- Start Trial CTA-->
-	<section class="section start-trial-cta">
+	<section class="section start-trial-cta mb0">
 		<div class="container-fluid np">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="bg1-img">
