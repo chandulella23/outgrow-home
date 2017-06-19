@@ -194,7 +194,7 @@
 						alert('Enter an email');
 						return false;
 					}
-					var host = window.location.hostname.match(/localhost/) ? 'rely.co' : window.location.hostname;
+					var host = window.location.hostname.match(/localhost|outgrow\.us/) ? 'rely.co' : window.location.hostname;
 					var signupUrl = '//app.' + host + '/signup?email=' + email;
 					console.log(signupUrl);
 					submitLeadForm(email, signupUrl);
