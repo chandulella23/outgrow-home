@@ -260,13 +260,15 @@
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
 					<img src="{{ $page->baseUrl }}/images/img-table2.png">
-					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
-					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
+					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
+					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
+
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
 					<img src="{{ $page->baseUrl }}/images/img-table3.png">
-					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
+					
+					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
+					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
 				</div>
 			</div>
 		</div>
