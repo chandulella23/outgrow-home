@@ -1699,7 +1699,7 @@ label {
 	/*display: block;*/
     display: flex;
     justify-content: center;
-	margin-left: 0px;
+	margin-left: -30px;
 }
 #pricing .section-1-right {
     padding-right: 0;
