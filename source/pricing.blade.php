@@ -52,7 +52,7 @@
                                     <i class="material-icons">check</i> Annual
                                 </a>
                             </li>
-                            <li class="cycle-tab hide" id="half-yearly">
+                            <li class="cycle-tab" id="half-yearly">
                                 <a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('s')">
                                     <i class="material-icons">check</i> Semi-Annual
                                 </a>
@@ -701,6 +701,10 @@
                                     <span class="feature-list-name">Lead generation</span>
                                     <span class="mat-icon vis-hidden"></span>
                                     <span class="list-name capitalize">&nbsp;Full Access</span>
+                                    <div class="help-tip pricing-helptip">
+                                        <i class="material-icons">info_outline</i>
+                                        <div class="help-checktip">Add lead generation capabilities to any calculator or quiz.</div>
+                                    </div>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Domain Hosting</span>

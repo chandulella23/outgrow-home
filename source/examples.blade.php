@@ -98,19 +98,19 @@
 	</div>
 
 	<!-- Start Trial CTA-->
-	<section class="section start-trial-cta">
+	<!--<section class="section start-trial-cta">
 		<div class="container-fluid np">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="bg2-img">
 					<h3>Generate Ideas</h3>
-					<a href="//app.outgrow.co/idea-generation" class="params trialLOL">
+					<a href="{{ $page->baseUrl }}/idea-generation?get-started" class="params trialLOL">
 						<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal">
 						<img src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png"> &nbsp;Get Started</button>
 					</a>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="section">
 		<div class="container">
