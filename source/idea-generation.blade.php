@@ -20,6 +20,7 @@
 @endsection
 
 @section('css')
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/style.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/responsive.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/selectize.default.css">
@@ -33,11 +34,11 @@
 	<div class="main-outr">
         <section class="sec-outr sec1-bg mouse-bg">
             <div class="sec">
-                <div class="logo">
+                <!--<div class="logo">
                     <a href="{{ $page->baseUrl }}/">
                         <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
                     </a>
-                </div>
+                </div>-->
                 <div class="sec-container">
                     <div class="sec1-text">
                         <h1 id="background1" class="mouse-bg1">
@@ -49,11 +50,11 @@
                 </div>
             </div>
         </section>
-        <div class="logo-top hide">
+        <!--<div class="logo-top hide">
             <a href="{{ $page->baseUrl }}/">
                 <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
             </a>
-        </div>
+        </div>-->
         <section class="sec-outr sec2-bg hide">
             <!-- <div class="loader-wrapper category-page-loader">
                     <i class="material-icons loader-anim">autorenew</i>
@@ -133,11 +134,11 @@
         </section>
         <section class="sec-outr new-sec-bg mouse-bg hide">
             <div class="sec">
-                <div class="logo">
+                <!--<div class="logo">
                     <a href="{{ $page->baseUrl }}/">
                         <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
                     </a>
-                </div>
+                </div>-->
                 <div class="sec-container custom-conatiner">
                     <div class="sec1-text">
                         <h2>Here you go!</h2>

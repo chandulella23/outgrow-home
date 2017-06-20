@@ -24,6 +24,8 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
+	@include('_partials.navbar')
+
 	@yield('content')
 
 	<script>
