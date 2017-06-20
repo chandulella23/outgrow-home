@@ -169,7 +169,7 @@
                                 <li>
                                     <span class="feature-list-name">Templates</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize">&nbsp;Basic Templates</span>
+                                    <span class="list-name capitalize">&nbsp;Basic Template</span>
                                 </li>  
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
@@ -602,7 +602,7 @@
                                 <li>
                                     <span class="feature-list-name">Templates</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize">&nbsp;Basic Templates</span>
+                                    <span class="list-name capitalize">&nbsp;Basic Template</span>
                                     <div class="help-tip pricing-helptip">
                                         <i class="material-icons">info_outline</i>
                                         <div class="help-checktip">Use your brand logo and customize look and feel using predefined color palettes.</div>
@@ -1049,7 +1049,7 @@
                                 <li>
                                     <span class="feature-list-name">Templates</span>
                                     <span class="mat-icon vis-hidden"></span>
-                                    <span class="list-name capitalize">&nbsp;Basic Templates</span>
+                                    <span class="list-name capitalize">&nbsp;Basic Template</span>
                                 </li>
                                 <li>
                                     <span class="feature-list-name">Call To Actions</span>
