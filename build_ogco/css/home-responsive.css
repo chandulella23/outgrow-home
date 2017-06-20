@@ -26,7 +26,7 @@
         position: relative
     }
     .navbar-brand {
-        margin-left: 15px!important
+        margin-left: 25px!important
     }
     .res-nav-show {
         display: block !important;
@@ -426,7 +426,8 @@
     .billing-grey-bottom .billing-list .mat-icon:after {
         display: block;
         float: none;
-        line-height: normal
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-grey-bottom .billing-list .unselected .mat-icon:after {
         display: block;
@@ -441,7 +442,11 @@
         padding-left: 0
     }
     .billing-white-bottom .billing-list .mat-icon {
-        float: none
+        float: none;
+        display: block;
+        float: none;
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-white-bottom .billing-list .mat-icon:after {
         display: block;
@@ -474,7 +479,10 @@
         width: 100%;
         padding-top: 5px;
         padding-bottom: 5px;
-        background: rgba(98, 105, 109, .8)
+        /*background: rgba(98, 105, 109, .8);*/
+        background: #f6f8f9;
+        border-radius: 0px 0px 8px 8px;
+        border-top: 1px solid #fff;
     }
     .toggle-dots-white span {
         width: 8px;
@@ -494,7 +502,8 @@
         width: 100%;
         padding-top: 5px;
         padding-bottom: 5px;
-        background: #f2f2f2
+        background: #888888;
+        border-top: 1px solid #999;
     }
     .toggle-dots-grey span {
         width: 8px;
@@ -658,8 +667,9 @@
         margin-top: 25px
     }
     .start-trial-cta .btn-buildcal {
-        padding: 5px;
-        font-size: 12px
+        padding: 10px 25px;
+        font-size: 13px;
+        line-height: 20px;
     }
     .img-1 {
         left: 0
@@ -692,11 +702,6 @@
     #why .container-video {
         width: 100%;
         padding: 0 20px
-    }
-    .billing-plan-list {
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: 40px
     }
     .Privacy .Privacy-heading,
     .err .section-1 {
@@ -737,27 +742,28 @@
     .toggle-dots-white div i.material-icons {
         position: relative;
         top: 3px;
-        color: #fff
+        color: #62696d;
     }
     .toggle-dots-white div p.more-info {
-        position: relative;
-        top: -5px;
-        margin-bottom: 0;
-        color: #fff;
-        display: inline-block
-    }
-    .toggle-dots-grey div i.material-icons {
-        position: relative;
-        top: 3px;
-        color: #62696d
-    }
-    .toggle-dots-grey div p.more-info {
         position: relative;
         top: -5px;
         margin-bottom: 0;
         color: #62696d;
         display: inline-block
     }
+    .toggle-dots-grey div i.material-icons {
+        position: relative;
+        top: 3px;
+        color: #fff
+    }
+    .toggle-dots-grey div p.more-info {
+        position: relative;
+        top: -5px;
+        margin-bottom: 0;
+        color: #fff;
+        display: inline-block
+    }
+
 }
 
 @media (min-width:320px) and (max-width:320px) {
@@ -1057,7 +1063,7 @@
     .container>.navbar-collapse,
     .container>.navbar-header {
         margin-right: 0;
-        margin-left: -30px
+        margin-left: 0px
     }
     .navbar-right {
         margin-left: 0;
@@ -1129,6 +1135,7 @@
     .Privacy .Privacy-heading, .err .section-1 {
         display: none;
     }
+
 }
 @media (min-width:769px) and (max-width:990px) {
     #why .section-top-why{
@@ -1597,12 +1604,17 @@
         padding-left: 0
     }
     .billing-grey-bottom .billing-list .mat-icon {
-        float: none
+        float: none;
+        /*display: inline-block;
+        position: relative;
+        top: 4px;*/
+        display: block;
     }
     .billing-grey-bottom .billing-list .mat-icon:after {
         display: block;
         float: none;
-        line-height: normal
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-grey-bottom .billing-list .unselected .mat-icon:after {
         display: block;
@@ -1618,12 +1630,17 @@
         padding-left: 0
     }
     .billing-white-bottom .billing-list .mat-icon {
-        float: none
+        float: none;
+        /*display: inline-block;
+        position: relative;
+        top: 4px;*/
+        display: block;
     }
     .billing-white-bottom .billing-list .mat-icon:after {
         display: block;
         float: none;
-        line-height: normal
+        line-height: normal;
+        visibility: hidden;
     }
     .billing-white-bottom .billing-list .unselected .mat-icon:after {
         display: block;
@@ -1665,7 +1682,8 @@
     }
     .toggle-dots-grey {
         width: 100%;
-        background: #fff
+        background: #fff;
+        border-top: 1px solid #999;
     }
     .toggle-dots-grey span {
         width: 8px;
@@ -1820,11 +1838,6 @@
     #why .section-top-why h3 {
         font-size: 20px;
         line-height: normal
-    }
-    .billing-plan-list {
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: 40px
     }
     .Privacy .Privacy-heading,
     .err .section-1 {
@@ -2018,7 +2031,7 @@
 
 @media (max-width:1366px) {
     .billing-grey-top h3.plan-title {
-        font-size: 20px
+        font-size: 13px
     }
     .actual-price {
         font-size: 18px
@@ -2027,16 +2040,27 @@
     .billing-grey-bottom .billing-list .unselected .list-name,
     .billing-white-bottom .billing-list .list-name,
     .billing-white-bottom .billing-list .unselected .list-name {
-        font-size: 13px
+        font-size: 12px
     }
     .billing-white-top h3.plan-title {
-        font-size: 20px
+        font-size: 13px
     }
     .billing-grey-top h3.plan-price,
     .billing-white-top h3.plan-price {
-        font-size: 22px
+        font-size: 24px
     }
     #pricing .enterprise-box-new h2.title {font-size: 20px;}
+    .billing-grey-top h3.plan-price span sup, .billing-white-top h3.plan-price span sup {
+		font-size: 14px;
+	}
+    #pricing .strike-price {
+        font-size: 14px;
+    }
+    #pricing .strike-price sup {
+		font-size: 10px;
+	}
+    .feature-list a {font-size: 12px;}
+    .help-text {font-size: 12px;}
 }
 
 @media (min-width:1024px) {
@@ -2044,6 +2068,9 @@
     .toggle-dots-white {
         display: none
     }
+}
+@media (min-width:1920px) {
+    .feature-list {margin-top: 175px;}
 }
 
 @media (min-width:1480px) and (max-width:1800px) {
@@ -2134,7 +2161,7 @@
     }
 }
 
-@media (min-width:1480px) and (max-width:1920px) {
+@media (min-width:1440px) and (max-width:1920px) {
     .section-7,
     .section-8 {
         padding-bottom: 40px
@@ -2187,7 +2214,7 @@
 		background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px);
 	}
     #pricing .section-1 {
-        margin-top: 90px;
+        margin-top: 70px;
         padding-top: 10px
     }
     #pricing .section-faq {
@@ -2197,6 +2224,7 @@
         left: 5%;
         bottom: 420px
     }
+    .feature-list {margin-top: 175px;}
 }
 
 @media (min-width:1024px) and (max-width:1330px) {
@@ -5126,6 +5154,7 @@
     .qode-preview-slider {
         max-width: 100%
     }
+    .start-trial-cta .btn-buildcal p {line-height: 18px;}
 }
 
 @media only screen and (max-width:1024px) {
@@ -5195,6 +5224,11 @@
         bottom: 21%;
         right: 3.3%
     }
+    .start-trial-cta .btn-buildcal{font-size: 13px !important; padding: 10px 25px !important; line-height: 22px !important;}
+    /*.start-trial-cta .btn-buildcal p {line-height: 18px;}*/
+
+
+
 }
 
 @media only screen and (max-width:1200px) {
@@ -5314,3 +5348,74 @@
     }
 }
 /* embed responsive */
+
+
+/* start: top header responsive */
+    .navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:10px;margin-right:15px;margin-bottom:0px;background-color:transparent;border:1px solid transparent;border-radius:4px}
+    .navbar-toggle:focus{outline:0}
+    .navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px}
+    .navbar-toggle .icon-bar+.icon-bar{margin-top:4px}
+    .navbar-nav{margin:7.5px -15px}
+    .navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:25px}
+
+    @media (max-width:1023px){
+        .navbar-header {float: none;}
+        .navbar-default .navbar-toggle {border: none; display: block;}
+        .custom-navbar .signUp-style a {
+            background: none;
+            color: #fb5f66!important;
+            border: none !important;
+            margin-top: 4px;
+        }
+        .custom-navbar .signUp-style a:hover{
+            background: none !important;
+            border: none !important;
+            color: #fb5f66 !important;opacity: 0.5;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #fb5f66 !important;
+        }
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent !important; }
+        .custom-navbar.navbar-default {padding: 0 !important;}
+        .custom-navbar.navbar-default .container-fluid{padding: 0;}
+        .custom-navbar.navbar-default .navbar-nav>li>a{padding-left: 25px;}
+        .navbar-right {float: left !important; width: 100%; margin: 7.5px 0px !important;}
+        .custom-navbar.navbar-default .navbar-nav>li {width: 100%;}
+        .custom-navbar.navbar-default .navbar-nav>li>a {
+            color: #62696d;
+            text-transform: uppercase;
+            padding: 7px 10px;
+        }
+        .custom-navbar .signUp-style a {
+            background: none;
+            color: #fb5f66!important;
+            border: none !important;
+            padding: 7px 0px ;
+        }
+        .navbar-collapse.collapse {display: none !important;}
+        .collapse.in {display: block !important;}
+        .navbar-collapse {
+            padding-right: 15px !important;
+            padding-left: 15px !important;
+            overflow-x: visible;
+            -webkit-overflow-scrolling: touch;
+            border-top: 1px solid transparent;
+            -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+        }
+
+
+
+
+    }
+
+    @media (min-width:1024px){
+        .navbar-toggle{display:none}
+        .navbar-nav{float:left;margin:0}
+        .navbar-nav>li{float:left}
+        .navbar-nav>li>a{padding-top:15px;padding-bottom:15px;padding-left:13px;padding-right:13px}
+    }
+    
+
+
+/* end: top header responsive */
