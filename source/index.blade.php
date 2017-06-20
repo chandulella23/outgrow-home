@@ -29,6 +29,7 @@
 
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+	
 	<section class="section section-1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
@@ -41,18 +42,54 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
-							<a href="//app.outgrow.co" class="params">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
-							</a>
-							<div class="btn-bottominfo fade-in">
-								<label>Plans Start at $25/month</label>
-							</div>
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
+							<i class="material-icons">email</i>
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your Email ID">
+							<a href="javascript:void(0)" class="">
+								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
+									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
+									Start Free Trial
+								</button>
+								<div class="btn-bottominfo fade-in">
+									<label>*Plans Start at $25/month</label>
+								</div>
+							</span>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<script>
+				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
+					var email = document.getElementsByClassName('lead-form-email')[0].value;
+					if (!email) {
+						alert('Enter an email');
+						return false;
+					}
+					var host = window.location.hostname.match(/localhost|outgrow\.us/) ? 'rely.co' : window.location.hostname;
+					var signupUrl = '//app.' + host + '/signup?email=' + email;
+					console.log(signupUrl);
+					submitLeadForm(email, signupUrl);
+				}
+				function submitLeadForm (email, signupUrl) {
+					console.log('Submit lead form called');
+					jQuery.ajax({
+						url: './js/ebookhandler.php',
+						data: { email: email },
+						type: 'POST',
+						success: function (res) {
+							console.log(res);
+							window.location.href = signupUrl;
+						},
+
+						error: function (err) {
+							console.log(err);
+							window.location.href = signupUrl;
+						}
+					})
+				}
+			</script>
 
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
@@ -97,16 +134,17 @@
 			</div>
 
 			<script>
+				document.getElementsByClassName("video-playIcon")[0].onclick = function () {
+					console.log('Some cick');
+					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3'
+				}
 				function btnclose() {
-					console.log('Btn cloased called');
-					for (var i = 0; i < 5; i++) {
-						if (!document.getElementsByClassName("outgrow-video")[i]) break;
-						document.getElementsByClassName("outgrow-video")[i].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0';
-					}
+					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3'
 				}
 				function changeHeightRes () {
+					console.log('Res');
 					window.location.replace('#bfrVid')
-					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
+					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main-rs');
 					if (xDiv.style.height == '')
 						xDiv.style.height = '460px';
@@ -114,8 +152,9 @@
 						xDiv.style.height = '';
 				}
 				function changeHeightWeb1 () {
+					console.log('Tab');
 					window.location.replace('#bfrVid')
-					document.getElementById("him1").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1' frameborder='0' allowfullscreen></iframe></div>";
+					document.getElementById("him1").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main');
 
 					if (xDiv.style.height == '')
@@ -127,7 +166,7 @@
 		</div>
 	</section>
 
-	<section class="section section-3 sec-craftedTemps">
+	<section class="section section-3 sec-craftedTemps hide">
 		<div class="container-fluid">
 			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
 				<h1 class="section-2-heading">
@@ -208,39 +247,45 @@
 		</div>
 	</section>
 
-	<!--<section class="section section-10 sec-grey">
+	<section class="section section-10 sec-grey">
 		<div class="container container-center">
+			<h1 class="section-2-heading">
+				Calculators & quizzes:<br/> The Next Big Thing in Marketing
+			</h1>
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">trending_up</i>
-					<span>GET CONVERSION RATES OF OVER 60%</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table1.png">
+					<span>Achieve Conversion Rates of Over 60%</span>
+					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
 				</div>
-				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">supervisor_account</i>
-					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">star</i>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table2.png">
 					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
+
 				</div>
-			</div>
-			<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-				<div class="start-trial-cta">
-					<a href="/calculators-vs-ebooks">
-						<button class="btn-buildcal ripple">
-							<i class="material-icons">view_compact</i>
-							<p>See how calculators comapre to ebooks etc</p>
-						</button>
-					</a>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table3.png">
+					
+					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
+					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
 				</div>
 			</div>
 		</div>
-	</section>-->
+	</section>
+	
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+		<div class="start-trial-cta">
+			<a href="/calculators-vs-ebooks">
+				<button class="btn-buildcal">
+					<i class="material-icons">view_compact</i>
+					See how calculators compare to ebooks etc
+				</button>
+			</a>
+		</div>
+	</div>
 
-	<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
+	<!--<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
 		Why calculators outperform <br/> ebooks &amp; marketing Pages?
 	</h1>
 	<section class="section section-3 mt7 p20">
@@ -432,7 +477,7 @@
 				});
 			</script>
 		</div>
-	</section>
+	</section>-->
 
 	<!-- Homepage section 3 end-->
 
@@ -683,13 +728,13 @@
 
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
-						<a href="javascript:void(0);" class="col-sm-4 np calcembed active" data-toggle="modal" data-target="#calcEmbed-modal1">
+						<a href="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
 							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
 						</a>
-						<a href="javascript:void(0);" class="col-sm-4 np calcembed"  data-toggle="modal" data-target="#calcEmbed-modal2">
+						<a href="https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
 							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
 						</a>
-						<a href="javascript:void(0);" class="col-sm-4 np calcembed" data-toggle="modal" data-target="#calcEmbed-modal3">
+						<a href="https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
 							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
 						</a>
 					</div>
@@ -842,7 +887,7 @@
 							<div class="tab-content">
 								<div id="overview" class="tab-pane fade in active">
 									<div class="embed-responsive embed-responsive-16by9">
-										<iframe class="outgrow-video" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" data-src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<iframe class="outgrow-video outgrow-video-mob" src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3" data-src="https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>
@@ -854,9 +899,8 @@
 	</div>
 	<!-- End: Modal Video -->
 	<!-- Start: Modal calcEmbed1 -->
-	<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+	<!--<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -867,13 +911,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- End: Modal calcEmbed1 -->
 
 	<!-- Start: Modal calcEmbed2 -->
-	<div id="calcEmbed-modal2" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+	<!--<div id="calcEmbed-modal2" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -884,13 +927,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- End: Modal calcEmbed2 -->
 
 	<!-- Start: Modal calcEmbed3 -->
-	<div id="calcEmbed-modal3" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
+	<!--<div id="calcEmbed-modal3" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -901,7 +943,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 

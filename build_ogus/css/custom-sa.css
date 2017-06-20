@@ -1,8 +1,9 @@
 .img-max, .img-width {
 	max-width: 100%
 }
-.billing-grey-bottom ul.billing-list li, .billing-grey2 ul.billing-list li, .billing-white-bottom ul.billing-list li, li, ul {
-	list-style: none
+.billing-grey-bottom ul.billing-list li, .billing-grey2 ul.billing-list li, .billing-white-bottom ul.billing-list li {
+	list-style: none;
+	line-height: 40px;
 }
 .ex-mb30{
     margin-bottom: 30px !important; 
@@ -171,7 +172,7 @@ label {
 .custom-navbar.navbar-default {
 	background: #fff;
 	border: none;
-	padding: 0px 25px 0px 10px;
+	padding: 0;
 	z-index: 999;
 	border-bottom: 1px solid #eff0f0;
 }
@@ -179,7 +180,7 @@ label {
 	margin-right: 20px
 }
 .custom-navbar.navbar-default .navbar-nav>li>a {
-	font-size: 14px;
+	font-size: 12px;
 	color: #62696d;
 	text-transform: uppercase;
 	line-height: 25px;
@@ -220,9 +221,9 @@ label {
     color: #fff!important;
     padding: 6px 10px !important;
     line-height: 1 !important;
-    margin-top: 13px;
     font-size: 12px!important;
     border: 2px solid #f8434b !important;
+	margin-top: 13px;
 }
 .custom-navbar .signUp-style a:hover ,.custom-navbar .signUp-style a:focus{
     opacity: 1;
@@ -1276,17 +1277,18 @@ label {
 	z-index: 2
 }
 .billing-white-top {
-	padding: 25px !important;
-	border-bottom: 1px solid #e6e7e8;
-	min-height: 220px;
-	border-radius: 13px 13px 0px 0px;
+	padding: 20px !important;
+	border-bottom: none;
+	min-height: 150px;
+	/*border-radius: 8px;*/
+	background: #f6f8f9;
 }
 .billing-white-top h4 {
 	font-size: 16px
 }
 .billing-white-top h3.plan-title {
-	color: #00c853;
-	font-size: 30px;
+	color: #62696d;
+	font-size: 16px;
 	text-transform: uppercase;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -1300,11 +1302,11 @@ label {
 }
 .billing-white-top h3.plan-price {
 	color: #62696d;
-    font-size: 24px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    min-height: 40px;
-	word-wrap: break-word;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 7px;
+    /*min-height: 40px;*/
+    word-wrap: break-word;
 }
 .billing-white-top .mat-icon {
 	float: none;
@@ -1353,6 +1355,7 @@ label {
 	padding: 10px 25px;
     padding-left: 0px !important;
     padding-right: 0px !important;
+	border-radius: 0px 0px 8px 8px;
 }
 .billing-white-bottom ul.billing-list {
 	padding: 0;
@@ -1360,7 +1363,7 @@ label {
 	text-align: left;
 }
 .billing-white-bottom ul.billing-list a {
-	line-height: 32px;
+	line-height: 40px;
 	cursor:default;
 }
 .billing-white-bottom .billing-list .mat-icon {
@@ -1376,10 +1379,10 @@ label {
 	float: left;
 	text-rendering: optimizeLegibility*/
 	font-family: "Material Icons";
-    content: "fiber_manual_record";
+    content: "check";
     /*color: #b1b5b6;*/
-    color: #00c853;
-    font-size: 12px;
+    color: #0ead48;
+    font-size: 16px;
     display: inline-block;
     float: left;
     text-rendering: optimizeLegibility;
@@ -1399,7 +1402,7 @@ label {
 	font-size: 14px;
 	color: #62696d;
 	font-family: montserratlight;
-	padding-left: 6px;
+	/*padding-left: 6px;*/
 }
 .billing-white-bottom .billing-list .unselected .mat-icon:after {
 	font-family: "Material Icons";
@@ -1418,17 +1421,18 @@ label {
 	text-decoration: line-through
 }
 .billing-white-top .btn-white-red-outline {
-	color: #fb545b;
-	background-color: #fff;
-	border-color: #ffb5b8;
-	border-radius: 0;
-	font-size: 11px;
-	padding: 6px 20px;
-	margin: 0;
-	transition: all .3s ease 0s;
-	font-family: montserratregular;
-	text-transform: uppercase;
-	float: none
+	color: #fff;
+    background-color: #fb6c73;
+    border-color: #fb6c73;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 7px 30px;
+    margin: 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-family: montserratregular;
+    text-transform: uppercase;
+    float: none;
 }
 .billing-white-top .btn-white-red-outline.hvr-sweep-to-right::before {
 	background: #ffb5b8;
@@ -1446,11 +1450,12 @@ label {
 	background: #62696d
 }
 .billing-grey-top h3.plan-title {
-	color: #fff;
-	font-size: 30px;
-	text-transform: uppercase;
-	margin-top: 0px;
+	color: #62696d;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 0px;
     margin-bottom: 0px;
+    font-family: montserratregular;
 }
 .billing-grey-top .border-center {
 	border-bottom: 2px solid #fb545b;
@@ -1460,12 +1465,13 @@ label {
 	top: -2px;
 }
 .billing-grey-top h3.plan-price {
-    color: #fff;
-    font-size: 24px;
-    margin-top: 10px;
+    color: #62696d;
+    font-size: 30px;
+    margin-top: 0px;
     word-wrap: break-word;
-    margin-bottom: 0;
-    min-height: 40px;
+    margin-bottom: 7px;
+    /*min-height: 40px;*/
+    font-family: montserratregular;
 }
 .billing-grey-top .mat-icon {
 	float: none;
@@ -1505,12 +1511,12 @@ label {
     min-height: 93px;
 }
 .billing-grey-top .btn-white-red-outline {
-	color: #fb545b;
-    background-color: #fff;
-    border-color: #ffb5b8;
-    border-radius: 0;
+	color: #fff;
+    background-color: #fb6c73;
+    border-color: #fb6c73;
+    border-radius: 50px;
     font-size: 11px;
-    padding: 6px 20px;
+    padding: 7px 30px;
     margin: 0px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -1532,13 +1538,14 @@ label {
 }
 .billing-list li {
     list-style-type: none;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .billing-grey-bottom {
 	padding: 10px 25px;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    background: #f5f5f5;
+    background: #fff;
+	border-radius: 0px 0px 8px 8px;
 }
 .billing-grey-bottom ul.billing-list {
 	padding: 0;
@@ -1546,8 +1553,8 @@ label {
 	text-align:left;
 }
 .billing-grey-bottom ul.billing-list a {
-	line-height: 32px;
-	cursor:default;
+	line-height: 40px;
+	cursor:text;
 }
 .billing-grey-bottom .billing-list .mat-icon {
 	float: left;
@@ -1562,10 +1569,10 @@ label {
 	float: left;
 	text-rendering: optimizeLegibility*/
 	font-family: "Material Icons";
-    content: "fiber_manual_record";
+    content: "check";
     /*color: #b1b5b6;*/
-    color: #00c853;
-    font-size: 12px;
+    color: #0ead48;
+    font-size: 16px;
     display: inline-block;
     float: left;
     text-rendering: optimizeLegibility;
@@ -1574,8 +1581,9 @@ label {
 .billing-grey-bottom .billing-list .list-name {
 	color: #62696d;
     font-family: montserratlight;
-    padding-left: 6px;
+    /*padding-left: 6px;*/
     text-transform: none;
+	font-size: 14px;
 }
 .billing-grey-bottom .billing-list .unselected .mat-icon:after {
 	font-family: "Material Icons";
@@ -1589,7 +1597,7 @@ label {
 .billing-grey-bottom .billing-list .unselected .list-name {
 	font-size: 14px;
 	color: #ccc;
-	font-family: montserratregular;
+	font-family: montserratlight;
 	padding-left: 5px;
 	text-decoration: line-through
 }
@@ -1691,6 +1699,7 @@ label {
 	/*display: block;*/
     display: flex;
     justify-content: center;
+	margin-left: -30px;
 }
 #pricing .section-1-right {
     padding-right: 0;
@@ -1702,7 +1711,7 @@ label {
 	bottom: 300px
 }
 #pricing .need-custom-plan {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 30px
 }
 #pricing .need-custom-plan a {
@@ -1773,7 +1782,7 @@ label {
 	line-height: 30px
 }
 .start-trial-cta {
-	margin: 30px 0 0
+	margin: 30px 0px 50px;
 }
 .bg1-img {
 	background: url(../images/strtFreeTrial.jpg) no-repeat;
@@ -1893,7 +1902,8 @@ label {
 .footer-link ul li {
 	float: left;
 	width: 100%;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	list-style: none;
 }
 .footer-link ul li a {
 	float: left;
@@ -3677,12 +3687,13 @@ button.swiper-pagination-bullet {
 }
 #feature .feature-heading {
 	float: left;
-	width: 100%;
-	text-align: center;
-	color: #dfe3e6 !important;
-	font-size: 48px;
-	line-height: 40px;
-	font-family: montserratbold;
+    width: 100%;
+    text-align: center;
+    color: #fb5f66!important;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: montserratlight;
+    text-transform: uppercase;
 	margin-bottom: 40px;
 	margin-top: 50px
 }
@@ -4162,7 +4173,7 @@ button.swiper-pagination-bullet {
     line-height: 44px;
     font-family: montserratlight;
     text-transform: uppercase;
-    margin: 0px;
+    margin-bottom: 40px;
 }
 #why .sec4-2 {
 	position: absolute;
@@ -4474,7 +4485,8 @@ button.swiper-pagination-bullet {
 	margin-bottom: 100px
 }
 .navbar {
-	margin-bottom: 0
+	margin-bottom: 0; 
+    min-height: 55px;
 }
 .test1 {
 	margin-top: 30px
@@ -4646,13 +4658,15 @@ button.swiper-pagination-bullet {
 	line-height: 28px
 }
 #pricing .billing-grey {
-	margin-right: 15px;
-	border-radius: 13px 13px 0px 0px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 2px solid #f6f8f9;
+    background: #fff;
 }
 #pricing .billing-white {
 	margin-right: 0;
 	margin-bottom: 0px;
-	padding-bottom: 1px
+	/*padding-bottom: 1px*/
 }
 /* #pricing .section-1-right {
 	padding-left: 18%;
@@ -4729,7 +4743,7 @@ button.swiper-pagination-bullet {
 }
 #pricing .section-1 {
 	margin-top: 55px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 #pricing .footer-btn .btn-buildcal {
 	background: #62696d;
@@ -4761,7 +4775,7 @@ button.swiper-pagination-bullet {
 	margin: 0 auto
 }
 .pricing-cards {
-	margin-top: 30px
+	margin-top: 35px
 }
 #pricing a.plusminus:before {
 	content: '\02795';
@@ -4781,13 +4795,13 @@ button.swiper-pagination-bullet {
 }
 #pricing .pricing-headingtop {
 	float: left;
-	/* background: #fb6c73; */
+	 background: #fb6c73; 
 	/* min-height: 455px; */
-	background: linear-gradient(to bottom, #fb6c73 447px, #fff 100px);
+	/*background: linear-gradient(to bottom, #fb6c73 447px, #fff 100px);*/
 }
 #pricing .pricing-headingtop .plans-heading {
 	margin-bottom: 5px;
-	margin-top: 35px;
+	margin-top: 25px;
 	font-size: 30px;
 	text-transform: uppercase
 }
@@ -4798,25 +4812,33 @@ button.swiper-pagination-bullet {
 }
 #pricing .billing-grey, #pricing .billing-white {
 	box-shadow: none;
-	    width: 290px;
+	width: 250px;
 }
 #pricing .billing-white {
-	box-shadow: 0px 0px 12px rgba(60,60,60,0.2);
-	border-radius:13px 13px 0px 0px;
+	/*box-shadow: 0px 0px 12px rgba(60,60,60,0.2);*/
+	border-radius:8px;
+	border: 2px solid #f6f8f9;
 }
 #pricing .custom-navbar.navbar-default {
 	margin-bottom: 0
 }
 #pricing .section-faq {
-	margin-top: 0
+	margin-top: 0; margin-bottom: 0
 }
 #pricing .pricing-text {
 	position: relative;
 	margin-top: 40px
 }
 #pricing .section-faq .section-2-heading {
-	color: #dfe3e6 !important;
-	margin: 0;
+	float: left;
+    width: 100%;
+    text-align: center;
+    color: #fb5f66!important;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: montserratlight;
+    text-transform: uppercase;
+    margin: 0px;
 }
 #pricing .enterprise-box-new {
 	background: #62696d;
@@ -4884,14 +4906,13 @@ button.swiper-pagination-bullet {
 .top-sec-example{margin-top: 100px;}
 .enterprise-margin {
 	padding-bottom: 0;
-	background: #f5f5f5
 }
 #pricing .strike-off {
 	text-decoration: line-through
 }
 #pricing .strike-price {
-    font-size: 14px;
-    color: #fff;
+    font-size: 18px;
+    color: #62696d;
     opacity: .5;
     margin-bottom: 7px;
     font-family: montserratlight;
@@ -4916,11 +4937,11 @@ button.swiper-pagination-bullet {
 	padding: 8px 0
 }
 #pricing .billing-grey-top {
-    padding: 25px !important;
-    border-bottom: 1px solid #777;
-    background: rgba(98, 105, 109, .8);
-    min-height: 220px;
-    border-radius: 13px 13px 0px 0px;
+    padding: 20px !important;
+    border-bottom: none;
+    background: #f6f8f9;
+    min-height: 150px;
+    /*border-radius: 8px;*/
 }
 #pricing .billing-grey-top h4 {
     color: #fff;
@@ -4944,8 +4965,8 @@ button.swiper-pagination-bullet {
 	background: #fff;
 	float: left;
 	width: 50%;
-	margin-top: 30px;
-	margin-bottom: 20px
+	margin-top: 0px;
+	margin-bottom: 30px
 }
 .billing-plan-list ul {
 	padding: 0;
@@ -4960,7 +4981,7 @@ button.swiper-pagination-bullet {
 	color: #fff
 }
 .billing-plan-list ul>li>a {
-	color: #8e989f !important;
+	color: #62696d !important;
 	font-size: 11px;
 	text-transform: uppercase;
 	border: none !important;
@@ -4968,7 +4989,7 @@ button.swiper-pagination-bullet {
 	border-radius: 0;
 	background: 0 0;
 	padding: 8px;
-	line-height: 16px;
+	line-height: 17px;
 	text-align: center;
 	display: block
 }
@@ -5417,7 +5438,7 @@ iframe[name=google_conversion_frame] {
 
 
 #plan-cycle{
-	z-index: 999;
+	z-index: 9;
     position: relative;
 }
 .rs-show-mb {
@@ -5710,5 +5731,338 @@ iframe[name=google_conversion_frame] {
 		margin-left: 25px;
 		margin-bottom: 20px;
 	}
+	
 
 /* end: feature page css */
+
+/* start: pricing page css */
+
+	/* start: new pricing table */
+		.pricing-outer {
+			float: left;
+			width: 100%;
+		}
+		.billing-plan-list ul>li.active a i.material-icons {
+			font-size: 18px;
+			color: #0ead48;
+			vertical-align: middle;
+			padding-right: 3px;
+			display: inline-block;
+		}
+		.billing-plan-list ul>li a i.material-icons {
+			font-size: 18px;
+			color: #62696d;
+			vertical-align: middle;
+			padding-right: 3px;
+			display: none;
+		}
+		.feature-list {
+			width: 250px;
+			margin-top: 162px;
+		}
+		.feature-list ul {
+			margin: 0;
+			padding: 0;
+		}
+		.feature-list ul li{
+			list-style: none;
+			text-align: right;
+			padding-right: 20px;
+			line-height: 40px;
+		}
+		.feature-list a {
+			color: #62696d;
+			font-family: montserratregular;
+			text-transform: uppercase;
+			font-size: 14px;
+			cursor: text;
+		}
+		.billing-grey-top h3.plan-price span sup, .billing-white-top h3.plan-price span sup {
+			text-transform: uppercase;
+			font-size: 18px;
+		}
+		#pricing .strike-price sup {
+			font-size: 12px;
+		}
+		#pricing .selected-plan {
+			border: 2px solid #888888;
+		}
+		#pricing .selected-plan .billing-white-top,
+		#pricing .selected-plan .billing-grey-top {
+			background: #888888;
+		}
+		#pricing .selected-plan .billing-white-top h3.plan-price,
+		#pricing .selected-plan .billing-grey-top h3.plan-price {
+			color: #fff;
+		}
+		#pricing .selected-plan .billing-white-top h3.plan-title, 
+		#pricing .selected-plan .billing-grey-top h3.plan-title  {
+			color: #fff;
+		}
+		#pricing .selected-plan .billing-white-top h3.plan-price .strike-price,
+		#pricing .selected-plan .billing-grey-top h3.plan-price .strike-price {
+			color: #fff;
+		}
+		.feature-list-name{display: none;}
+		.billing-grey-bottom .billing-list .list-name {font-size: 14px;}
+		.feature-list-name {font-size: 16px;}
+
+
+		/* pricing table helptip */
+			.pricing-helptip .help-checktip {
+				float: left;
+				background-color: #fff;
+				color: #62696d;
+				padding: 10px;
+				width: 200px;
+				font-size: 12px;
+				position: absolute;
+				top: 20px;
+				visibility: hidden;
+				box-shadow: 0 5px 16px rgba(0,0,0,0.15);
+				text-align: left;
+				left: -100px;
+				line-height: 18px;
+				text-transform: none;
+				border-radius: 0;
+				z-index: 1;
+				border: 1px solid #cccccc;
+				font-family: montserratlight;
+			}
+			.pricing-helptip.help-tip:hover .help-checktip {
+				visibility: visible;
+				z-index: 99;
+			}
+			.pricing-helptip.help-tip .help-checktip:before {display: none;}
+			.billing-grey-bottom .billing-list .vis-hidden:after,
+			.billing-white-bottom .billing-list .vis-hidden:after {visibility: hidden;}
+			.billing-grey-bottom ul.billing-list .help-tip a,
+			.billing-white-bottom ul.billing-list .help-tip a {color: #fb5f66; cursor: pointer; line-height: normal;}
+
+		/* end: pricing table helptip */
+		
+		.help-text {
+			color: #62696d;
+			font-size: 14px;
+			margin-top: 10px;
+		}
+		.help-text .mat-icon:after {
+			font-family: "Material Icons";
+			content: "add";
+			/* color: #b1b5b6; */
+			color: #0ead48;
+			font-size: 16px;
+			display: inline-block;
+			/* float: left; */
+			text-rendering: optimizeLegibility;
+			font-feature-settings: 'liga';
+			position: relative;
+			top: 4px;
+		}
+
+	/* end: new pricing table */
+	
+	/* start: all plans css */
+		#pricing .sec-allPlans .section-2-heading {
+			float: left;
+			width: 100%;
+			text-align: center;
+			color: #fb5f66!important;
+			font-size: 32px;
+			line-height: 44px;
+			font-family: montserratlight;
+			text-transform: uppercase;
+			margin: 0px;
+			margin-bottom: 30px;
+		}
+		.allPlans-blocks {color: #62696d; font-family: montserratlight;margin-bottom: 25px;}
+		.allPlans-blocks img {margin-top: 10px;}
+		.allPlans-blocks h4 {font-size: 18px;}
+		.allPlans-blocks p {font-size: 14px;padding-right: 55px;}
+		.allPlans-blocks-right {margin-left: 15px;}
+
+
+	/* end: all plans css */
+
+/* end: pricing page css */
+
+
+/* table redesign css */
+	.sec-grey.section-10 {
+		background: #fff;
+		margin-top: 0px;
+		margin-bottom: 0;
+		padding: 25px 0px;
+	}
+	.sec-grey.section.section-10 i.material-icons {
+		font-size: 60px;
+		color: #7b8285;
+		float: left;
+		display: block;
+		width: 100%;
+		/*opacity: .8*/
+		padding-top: 30px;
+	}
+	.sec-grey.section.section-10 h4 {
+		font-size: 18px;
+		font-family: montserratlight;
+		color: #fff;
+		text-transform: uppercase;
+		opacity: .8;
+		float: left;
+		margin-top: 3px;
+		margin-bottom: 18px;
+		text-align: center;
+		width: 100%;
+	}
+	.sec-grey span {
+		font-size: 14px;
+		font-family: montserratsemibold;
+		text-transform: uppercase;
+		padding-top: 20px;
+		display: block;
+		width: 100%;
+		float: left;
+		padding-bottom: 5px;
+		color: #888888;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.sec-grey.section.section-10 p {
+		font-size: 14px;
+		font-family: montserratlight;
+		color: #888;
+		line-height: 22px;
+		width: 100%;
+		/* margin: 0 auto 15px; */
+		/* padding-top: 15px; */
+		/* opacity: .8; */
+		float: left;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.sec-grey .container.container-center h1{
+		color: #fff !important;
+		font-size: 30px;
+		font-family: montserratlight;
+		text-align: center;
+		width: 100%;
+		float: left;
+		display: block;
+		text-transform: none;
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+	.start-trial-cta .btn-buildcal {
+		background: #fb5f66;
+		color: #fff;
+		font-size: 15px;
+		padding: 12px 35px;
+		border: 2px solid #fb5f66;
+		transition: .5s ease-in-out;
+		line-height: normal;
+		box-shadow: 0px 9px 18px 0px rgba(251,108,115,0.99);
+		margin-top: 0px;
+		/*margin-bottom: 20px;*/
+		border-radius: 50px;
+		display: inline-flex;
+		float: none;
+		font-family: montserratregular;
+		line-height: 24px;
+	}
+	.sec-grey.section-10 .start-trial-cta .btn-buildcal i.material-icons {
+		display: inline-block;
+		float: left;
+		vertical-align: middle;
+		margin-right: 10px;
+		font-size: 24px !important;
+		width: auto;
+		padding-top: 0;
+		color: #62696d;
+		position: relative;
+		top: 0;
+		opacity: 0.8;
+	}
+	.sec-grey.section-10 .start-trial-cta .btn-buildcal p {
+		width: auto;
+		display: inline-block;
+		float: left;
+		line-height: 23px;
+		vertical-align: middle;
+		padding-top: 0;
+		color: #62696d;
+		font-size: 14px;
+		font-family: montserratlight;
+		margin: 0 auto;
+	}
+	.sec-grey .container.container-center{
+		width: 100%;
+		margin: 0px;
+	}
+
+/* end: table redesign css */
+
+.bg1-img .btn-buildcal {
+    background: #fb6c73;
+    border: 2px solid #fb6c73;
+    color: #fff;
+    float: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 13px 45px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    vertical-align: middle;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+/********* 9th june 2017 ************/
+#pricing .billing-list .mat-icon , #pricing .help-text{
+    display: none;
+}
+
+
+.bg2-img {
+	background: url(../images/bg-gen-ideas.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 40px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+.bg2-img h3 {
+    color: #fb5f66;
+    font-size: 36px;
+    font-family: montserratlight;
+    text-transform: uppercase;
+	margin-top: 0;
+}
+.bg2-img .btn-buildcal {
+    background: #fb5f66;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 40px;
+    border: 2px solid #fb5f66;
+    transition: .5s ease-in-out;
+    line-height: normal;
+    box-shadow: 0px 4px 21px 0px rgba(251,108,115,0.99);
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    border-radius: 50px;
+    display: inline-flex;
+    float: none;
+    font-family: montserratregular;
+    line-height: 24px;
+    font-weight: normal;
+}
+.bg2-img .btn-buildcal img {
+    margin-right: 5px;
+}
+.mb0{margin-bottom: 0px;}
+
+
+
+

@@ -7,6 +7,7 @@
 					<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content</a></li>
 					<li><a href="{{ $page->baseUrl }}/features" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
 					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
+					<li><a href="{{ $page->baseUrl }}/idea-generation" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generation</a></li>
 					<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
 					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
 					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
