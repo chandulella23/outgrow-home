@@ -1131,8 +1131,29 @@
 @media (min-width: 1810px) and (max-width:1920px) {
 	
 }
-@media (min-width: 1480px) and (max-width:1920px) {
-	
+@media (min-width: 1680px) and (max-width:1920px) {
+	.qode-expanding-images .qode-side-image.qode-side-image-3 {
+		right: 15% !important;
+	}
+	.qode-expanding-images .qode-side-image.qode-side-image-4 {
+		bottom: 0 !important;
+		right: 13% !important;
+	}
+	.qode-expanding-images .qode-side-image.qode-side-image-8 {
+		bottom: 17.5% !important;
+		right: -2% !important;
+		padding: 4% !important;
+		width: 13% !important;
+	}
+	.qode-expanding-images .qode-side-image.qode-side-image-2 {
+		bottom: 2% !important;
+		left: 11% !important;
+		width: 19% !important;
+		padding: 5% !important;
+	}
+
+
+
 }
 
 
