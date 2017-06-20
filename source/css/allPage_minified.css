@@ -4978,6 +4978,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 
 	/* end: homeapge responsive css by Arti */
 }
+@media only screen and (min-width:480px) and (max-width:767px){
+	.footer-link ul li {width: 50%;}
+}
+
 
 @media only screen and (min-width:480px) and (max-width:639px){
 	.startTrial-outer {

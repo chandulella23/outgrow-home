@@ -112,7 +112,7 @@
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 10px;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
-	#pricing .pricing-cards.active{margin-left: 0px;}
+	#pricing .pricing-cards.active{margin-left: 0px; padding-right: 0px;}
 
 
 
@@ -300,7 +300,7 @@
 	.billing-grey-bottom ul.billing-list li, 
 	.billing-white-bottom ul.billing-list li {line-height: 0px; padding-top: 25px;}
 	.billing-grey-bottom, .billing-white-bottom{padding: 0px 0px 25px;}
-	.pricing-helptip{display: none;}
+	.pricing-helptip{display: inline-block;  margin-top: 0px;}
 	.pricing-outer.container{padding-right: 30px; padding-left: 30px;}
 
 
