@@ -3716,7 +3716,8 @@ button.swiper-pagination-bullet {
 	padding-top: 0 !important
 }
 #feature .qode-expanding-images .qode-side-image {
-	box-shadow: 4px -6px 11px 0 rgba(0, 0, 0, .3)
+	box-shadow: 4px -6px 11px 0 rgba(0, 0, 0, .3);
+	cursor: default;
 }
 #feature .sec15-2, #feature .sec17-2 {
 	box-shadow: 2px 0 8px 2px rgba(0, 0, 0, .1)
@@ -3883,7 +3884,7 @@ button.swiper-pagination-bullet {
 	margin-right: 10px
 }
 #feature .section.section-10.sec-help .start-trial-cta {
-	margin-top: 50px !important
+	margin-top: 50px !important; margin-bottom: 20px;
 }
 #feature .section.section-10.sec-help .start-trial-cta .btn-buildcal {
 	background: #fff;
