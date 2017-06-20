@@ -29,6 +29,7 @@
 
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+	
 	<section class="section section-1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
@@ -41,18 +42,54 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
-							<a href="//app.outgrow.co" class="params">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
-							</a>
-							<div class="btn-bottominfo fade-in">
-								<label>Plans Start at $25/month</label>
-							</div>
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
+							<i class="material-icons">email</i>
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your Email ID">
+							<a href="javascript:void(0)" class="">
+								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
+									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
+									Start Free Trial
+								</button>
+								<div class="btn-bottominfo fade-in">
+									<label>*Plans Start at $25/month</label>
+								</div>
+							</span>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<script>
+				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
+					var email = document.getElementsByClassName('lead-form-email')[0].value;
+					if (!email) {
+						alert('Enter an email');
+						return false;
+					}
+					var host = window.location.hostname.match(/localhost|outgrow\.us/) ? 'rely.co' : window.location.hostname;
+					var signupUrl = '//app.' + host + '/signup?email=' + email;
+					console.log(signupUrl);
+					submitLeadForm(email, signupUrl);
+				}
+				function submitLeadForm (email, signupUrl) {
+					console.log('Submit lead form called');
+					jQuery.ajax({
+						url: './js/ebookhandler.php',
+						data: { email: email },
+						type: 'POST',
+						success: function (res) {
+							console.log(res);
+							window.location.href = signupUrl;
+						},
+
+						error: function (err) {
+							console.log(err);
+							window.location.href = signupUrl;
+						}
+					})
+				}
+			</script>
 
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
@@ -129,7 +166,7 @@
 		</div>
 	</section>
 
-	<section class="section section-3 sec-craftedTemps">
+	<section class="section section-3 sec-craftedTemps hide">
 		<div class="container-fluid">
 			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
 				<h1 class="section-2-heading">
@@ -210,27 +247,32 @@
 		</div>
 	</section>
 
-	<!--<section class="section section-10 sec-grey">
+	<section class="section section-10 sec-grey">
 		<div class="container container-center">
+			<h1 class="section-2-heading">
+				Calculators & quizzes:<br/> The Next Big Thing in Marketing
+			</h1>
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">trending_up</i>
-					<span>GET CONVERSION RATES OF OVER 60%</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table1.png">
+					<span>Achieve Conversion Rates of Over 60%</span>
+					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
 				</div>
-				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">supervisor_account</i>
-					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center">
-					<i class="material-icons">star</i>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table2.png">
 					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
+
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table3.png">
+					
+					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
+					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
 				</div>
 			</div>
 		</div>
-	</section>-->
+	</section>
 	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 		<div class="start-trial-cta">
