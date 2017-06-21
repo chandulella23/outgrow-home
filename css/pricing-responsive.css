@@ -435,6 +435,12 @@
 	}
 	
 }
+
+@media (min-width: 1367px) and (max-width:1439px) {
+	.feature-list {margin-top: 176px;}
+}
+
+
 @media (min-width: 1480px) and (max-width:1800px) {
 	
 }
