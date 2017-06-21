@@ -203,16 +203,23 @@
 					console.log('Submit lead form called');
 					jQuery.ajax({
 						url: './js/ebookhandler.php',
-						data: { email: email },
+						data: { 
+							group_id: 7015167,
+							email: email 
+						},
 						type: 'POST',
+						beforeSend: function () {
+						},
 						success: function (res) {
-							console.log(res);
-							window.location.href = signupUrl;
+							// console.log(res);
 						},
 
 						error: function (err) {
-							console.log(err);
-							window.location.href = signupUrl;
+							// console.log(err);
+						},
+
+						complete: function () {
+							window.location.href = signupUrl
 						}
 					})
 				}
