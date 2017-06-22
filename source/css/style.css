@@ -1157,3 +1157,12 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     text-align: center;
     width: 100%;
 }
+
+.error {
+    visibility: hidden;
+    font-size: 12px;
+    color: #fb5f66;
+    text-align: left;
+    display: block;
+    
+}
