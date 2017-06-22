@@ -61,7 +61,15 @@
 			</div>
 
 			<script>
+				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+					if (e.key.match(/Enter/)) {
+						redirectToSignup();
+					}
+				}
 				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
+					redirectToSignup();
+				}
+				function redirectToSignup() {
 					var email = document.getElementsByClassName('lead-form-email')[0].value;
 					if (!email) {
 						alert('Enter an email');
@@ -76,7 +84,7 @@
 					console.log('Submit lead form called');
 					jQuery.ajax({
 						url: './js/ebookhandler.php',
-						data: { email: email },
+						data: { email: email, group_id: 7015167 },
 						type: 'POST',
 						success: function (res) {
 							console.log(res);
