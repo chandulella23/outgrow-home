@@ -1,4 +1,22 @@
+function stepEmail () {
+    var verify = emailValidation($("#form-email").val());
+    if(verify) {
+        window.email = $("#form-email").val();
+        if(parseData[saveData.category][saveData.subCat] || parseData[saveData.category]['keyCustom'])    showTitle();
+        $(".new-sec-bg").fadeIn("slow", function() {
+            $(this).removeClass("hide");
+        });
+        $(".sec4-bg").fadeOut("slow", function() {
+            $(this).addClass("hide");
+        });
+        $(".logo-top").removeClass("hide");
+        $('body').css('overflow-y','scroll');
 
+        sendResponse();
+
+    }
+    else $('.email-validator').removeClass('hide');
+}
         $(document).ready(function(){
             $('#background').mouseParallax({ moveFactor: 5 });
             $('#foreground').mouseParallax({ moveFactor: 1 });
@@ -58,27 +76,17 @@
                 if(!$('.email-validator').hasClass('hide')) $('.email-validator').addClass('hide');
             })
 
-            $(".sec-button").click(function(){
-                var verify = emailValidation($("#form-email").val());
-                if(verify) {
-                    window.email = $("#form-email").val();
-                    if(parseData[saveData.category][saveData.subCat] || parseData[saveData.category]['keyCustom'])    showTitle();
-                    $(".new-sec-bg").fadeIn("slow", function() {
-                        $(this).removeClass("hide");
-                    });
-                    $(".sec4-bg").fadeOut("slow", function() {
-                        $(this).addClass("hide");
-                    });
-                    $(".logo-top").removeClass("hide");
-                    $('body').css('overflow-y','scroll');
-
-                    sendResponse();
-
+            document.getElementById('form-email').onkeypress = function (e) {
+                if (e.key.match(/Enter/)) {
+                    stepEmail()
                 }
-                else $('.email-validator').removeClass('hide');
+            }
+
+            $(".sec-button").click(function(){
+                stepEmail();
             });
 
-            $('.update-btn').click(function(){
+            $('.selectize-sub-category-result').on('change', function () {
                 clearErrors();
                 if (!saveData.subCat) {
                     clearAppendTabData();
@@ -89,6 +97,10 @@
                     $('.result-page-loader').removeClass('hide');
                     showTitle();
                 }
+            })
+
+            $('.update-btn').click(function(){
+                
                 // $('.build-btn').removeClass('hide');
             })
 
