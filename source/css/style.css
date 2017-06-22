@@ -992,11 +992,12 @@ section.mouse-bg.sec-outr.new-sec-bg {
 }
 section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
 .sec-catergory.custom-select {
-    float: left;
+    float: none;
     max-width: 350px;
     padding: 0 10px;
     position: relative;
     width: 46.85%;
+    display: inline-block;
 }
 /*.sec-catergory.custom-select  .selectize-control.single   .selectize-input.input-active input{  width:1px !important; padding: 0px !important}*/
 .sec-catergory.custom-select  .selectize-control.single .selectize-input input {
@@ -1060,7 +1061,7 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
 .funnel-points {
     display: flex;
     float: left;
-    margin: 50px 0 0;
+    margin: 50px 0;
     width: 100%;
 }
 .sec1-text + .sec1-button {
@@ -1150,4 +1151,9 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     .sec-container.custom-conatiner .selectize-input.items.has-options.full.has-items .item {    padding-top: 2px ;    line-height: initial;}
     .selectize-input.focus.input-active .item + input {
     display: none !important;
+}
+.update-section {
+    float: left;
+    text-align: center;
+    width: 100%;
 }
