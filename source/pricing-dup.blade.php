@@ -45,7 +45,7 @@
                 <h3 class="plans-heading">PLANS AND PRICING</h3>
                 <p class="plans-subheading">Simple pricing, No Hidden costs, No transaction based fees.</p>
                 <section id="plan-cycle">
-                    <div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3 np billing-plan-list" id="plans">
+                    <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list" id="plans">
                         <ul>
                             <li class="cycle-tab active" id="annually">
                                 <a href="javascript:void(0);" class="hvr-sweep-to-right view" onclick="showPlan('y')">
@@ -78,16 +78,16 @@
                         <tr>
                             <th>&nbsp;</th>
                             <th>
-                                <h2>Premium</h2>
+                                <h2>Freelancer</h2>
                                 <p>$ 89.95</p>
                             </th>
                             <th>
-                                <h2>Plus</h2>
+                                <h2>Essential</h2>
                                 <p>$ 49.95</p>
                                 <p class="promo">Our most valuable package!</p>
                             </th>
                             <th>
-                                <h2>Basic</h2>
+                                <h2>Business</h2>
                                 <p>$ 19.95</p>
                             </th>
                         </tr>
@@ -96,9 +96,9 @@
                     <tfoot>
                         <tr>
                             <th>&nbsp;</th>
-                            <td><a href="#">Start a free trial</a></td>
-                            <td><a href="#">Start a free trial</a></td>
-                            <td><a href="#">Start a free trial</a></td>
+                            <td><a href="#">Start trial</a></td>
+                            <td><a href="#">Start trial</a></td>
+                            <td><a href="#">Start trial</a></td>
                         </tr>
                     </tfoot>
 
