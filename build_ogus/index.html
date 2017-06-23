@@ -213,14 +213,18 @@
 						url: './js/ebookhandler.php',
 						data: { email: email, group_id: 7015167 },
 						type: 'POST',
+						beforeSend: function () {
+						},
 						success: function (res) {
-							console.log(res);
-							window.location.href = signupUrl;
+							// console.log(res);
 						},
 
 						error: function (err) {
-							console.log(err);
-							window.location.href = signupUrl;
+							// console.log(err);
+						},
+
+						complete: function () {
+							window.location.href = signupUrl
 						}
 					})
 				}
@@ -1163,7 +1167,7 @@
 				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
 				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>
 				<li class="border-left"><a href="http://affiliates.outgrow.co/">Affiliate</a></li>
-				<li><a href="mailto:p@outgrow.co?Subject=Hello%20again" target="_top">Contact Us</a></li>
+				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
 				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
 			<div class="footer-copyright">
