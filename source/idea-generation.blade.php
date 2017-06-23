@@ -198,7 +198,7 @@
     </div>	
 @endsection
 
-@section('inlinescripts').
+@section('inlinescripts')
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/request.sheet.js"></script>
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/database.sheet.js"></script>
