@@ -86,8 +86,16 @@ function sendResponse(){
 
 function showErrors(classname, message) {
     $('.'+classname).html(message);
+    $('.'+classname).css({
+        'visibility': 'visible'
+    })
 }
 
 function clearErrors() {
-    $('.error').html("");
+    $('.error').html("Some error");
+    $('.error').each(function () {
+        $(this).css({
+            'visibility': 'hidden'
+        })
+    })
 }

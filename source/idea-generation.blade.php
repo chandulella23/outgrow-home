@@ -146,10 +146,11 @@
                     <div class="update-section">
                          <div class="sec-catergory  custom-select">
                             <select class="demo-default selectize-category-result" data-placeholder="Choose Category">   </select>
+                            <span class="error update-cat-error">Some error</span>
                         </div>
                         <div class="sec-catergory  custom-select">
                             <select class="demo-default selectize-sub-category-result" data-placeholder="Choose Sub Category"></select>
-                            <span class="error update-subcat-error"></span>
+                            <span class="error update-subcat-error">Some error</span>
                         </div>
                         <!--<div class="update-btn">
                             <a href="javascript:void(0)">update</a>
