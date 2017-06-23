@@ -86,14 +86,18 @@
 						url: './js/ebookhandler.php',
 						data: { email: email, group_id: 7015167 },
 						type: 'POST',
+						beforeSend: function () {
+						},
 						success: function (res) {
-							console.log(res);
-							window.location.href = signupUrl;
+							// console.log(res);
 						},
 
 						error: function (err) {
-							console.log(err);
-							window.location.href = signupUrl;
+							// console.log(err);
+						},
+
+						complete: function () {
+							window.location.href = signupUrl
 						}
 					})
 				}
