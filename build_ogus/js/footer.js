@@ -130,7 +130,7 @@ window.setUTMRefCookie = function() {
         jQuery(this).attr("src", jQuery(this).attr("data-src"))
     })
 }), window.onscroll = function() {
-    jQuery(window).scrollTop() > 1e3 && (console.log("Inside if"), jQuery("body").innerWidth() > 990 && "" !== jQuery("#og-iframe").attr("data-calc") && (jQuery("#og-iframe").attr("src", jQuery("#og-iframe").attr("data-calc")), jQuery("#og-iframe").attr("data-calc", ""), console.log("Desktop if", jQuery("#og-iframe").attr("data-calc", ""))), jQuery("body").innerWidth() <= 990 && "" !== document.getElementsByClassName("og-iframe-res")[0].dataset.calc && jQuery(".og-iframe-res").each(function() {
+    jQuery(window).scrollTop() > 1e3 && (console.log("Inside if"), jQuery("body").innerWidth() > 990 && "" !== jQuery("#og-iframe").attr("data-calc") && (jQuery("#og-iframe").attr("src", jQuery("#og-iframe").attr("data-calc")), jQuery("#og-iframe").attr("data-calc", ""), console.log("Desktop if", jQuery("#og-iframe").attr("data-calc", ""))), jQuery("body").innerWidth() <= 990 && document.getElementsByClassName("og-iframe-res")[0] && "" !== document.getElementsByClassName("og-iframe-res")[0].dataset.calc && jQuery(".og-iframe-res").each(function() {
         jQuery(this).attr("src", jQuery(this).attr("data-calc")), jQuery(this).attr("data-calc", ""), console.log("Res if")
     }), "" !== document.getElementsByClassName("scrollimg")[0].dataset.scrollImg && jQuery(".scrollimg").each(function() {
         jQuery(this).attr("src", jQuery(this).attr("data-scroll-img")), jQuery(this).attr("data-scroll-img", "")
