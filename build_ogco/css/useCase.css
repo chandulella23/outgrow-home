@@ -186,15 +186,15 @@ body{background:#fff !important;}
     margin-top: 10px;
 }
 .useCase-heading{
-	float: left;
+    float: left;
     width: 100%;
     text-align: center;
-    color:#dfe3e6 !important;
-    font-size: 48px;
-    line-height: 40px;
-    font-family:montserratbold;
-    margin-top:30px;
-	margin-bottom:0px;
+    color: #fb5f66!important;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: montserratlight;
+    text-transform: uppercase;
+    margin-top: 30px; 
 }
 .collage-outer .collage-solid{
 	background: #fb6c73;

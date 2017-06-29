@@ -1,13 +1,5 @@
 <?php
 
-/*echo $_POST['group_id'];
-
-require "./mailerlite-api-v2-php-sdk/vendor/autoload.php";
-
-$groupsApi = (new \MailerLiteApi\MailerLite('07c23594acf5764492d5ecae362ff0af'))->groups();
-
-var_dump($groupsApi->get());*/
-
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
@@ -18,7 +10,7 @@ curl_setopt_array($curl, array(
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => '{"email":"'.$_POST['email'].'}',
+  CURLOPT_POSTFIELDS => "{ \"email\": \"".$_POST['email']."\"}",
   CURLOPT_HTTPHEADER => array(
     "content-type: application/json",
     "x-mailerlite-apikey: 07c23594acf5764492d5ecae362ff0af"
