@@ -156,15 +156,13 @@
                             <a href="javascript:void(0)">update</a>
                         </div>-->
                     </div>
-                  
-                </div>
-                <div class="sec-container">
+     
                     <div class="funnel-points">
                         <div class="funnel-step top">
                             <figure class="icons-part">                            </figure>
                             <figcaption>
                                
-                                <h4>TOP OF THE FUNNEL</h4>
+                                <h4>TOP OF THE FUNNEL<span class="info-content" data-content="Your goal with Top Of The Funnel content should be to educate your audience on a specific question, need or pain point that they're looking to address, but without a sales tie-in. "><i class="material-icons">error_outline</i></span></h4>
                                 <ul id="top-funnel">
                                     <li><a href="javascript:void(0)">Key Role Top Of <br> The Funnel</a></li>
                                     <li><a href="javascript:void(0)">Key Role Top Of <br> The Funnel</a></li>
@@ -174,7 +172,7 @@
                         <div class="funnel-step middle">
                             <figure class="icons-part">                            </figure>
                             <figcaption>
-                                <h4>Middle OF THE FUNNEL</h4>
+                                <h4>Middle OF THE FUNNEL<span class="info-content" data-content="Your goal with Top Of The Funnel content should be to educate your audience on a specific question, need or pain point that they're looking to address, but without a sales tie-in. "><i class="material-icons">error_outline</i></span></h4>
                                 <ul id="mid-funnel">
                                     <li><a href="javascript:void(0)">Key Role middle Of  <br> The Funnel</a></li>
                                     <li><a href="javascript:void(0)">Key Role middle Of <br> The Funnel</a></li>
@@ -184,7 +182,7 @@
                         <div class="funnel-step bottom">
                             <figure class="icons-part">                            </figure>
                             <figcaption>
-                                <h4>Bottom OF THE FUNNEL</h4>
+                                <h4>Bottom OF THE FUNNEL<span class="info-content" data-content="Your goal with Top Of The Funnel content should be to educate your audience on a specific question, need or pain point that they're looking to address, but without a sales tie-in. "><i class="material-icons">error_outline</i></span></h4>
                                 <ul id="bottom-funnel">
                                     <li><a href="javascript:void(0)">Key Role bottom Of <br> The Funnel</a></li>
                                     <li><a href="javascript:void(0)">Key Role bottom Of <br> The Funnel</a></li>
