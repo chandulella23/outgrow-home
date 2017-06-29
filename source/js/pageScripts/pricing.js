@@ -73,4 +73,75 @@ jQuery(document).ready(function() {
 			this.nextElementSibling.classList.toggle("show");
 	  	}
 	}
+
+	jQuery(".expand").click( function(event) {
+		var $target = jQuery(event.target);
+		jQuery(this).toggleClass('open');
+		$target.closest(".expand").find(".detail").slideToggle(); 
+	});
+
+	jQuery(".expand-rs").click( function(event) {
+		// jQuery(this).parents('.expand').toggleClass('open');
+		// jQuery(this).parents('.expand').find('.detail').slideToggle();
+		
+		var $target = jQuery(event.target);
+		jQuery(this).toggleClass('open');
+		// jQuery(this).parents('.expand').toggleClass('open');
+		jQuery(this).children(".detail").slideToggle();
+
+		//jQuery('.expand .expand-child > .detail').slideToggle();
+	});
+
+	jQuery('.expand-all').click( function(event){
+		if(jQuery(this).hasClass('open')){
+			jQuery('.expand').removeClass('open');
+			jQuery(".detail").css('display', 'none');
+		}
+		else{
+			jQuery('.expand').addClass('open');
+			jQuery(".detail").slideToggle();
+		}
+		jQuery(this).toggleClass('open');
+	});
+
+
+	jQuery('#monthly').click(function(event){
+		jQuery('.monthly-price').css('display', 'block');
+		jQuery('.annual-price').css('display', 'none');
+		jQuery('.s-annual-price').css('display', 'none');
+	});
+
+	jQuery('#half-yearly').click(function(event){
+		jQuery('.monthly-price').css('display', 'none');
+		jQuery('.annual-price').css('display', 'none');
+		jQuery('.s-annual-price').css('display', 'block');
+	});
+
+	jQuery('#annually').click(function(event){
+		jQuery('.monthly-price').css('display', 'none');
+		jQuery('.annual-price').css('display', 'block');
+		jQuery('.s-annual-price').css('display', 'none');
+	});
+
+	jQuery('.toggle-more').click(function(event){
+		var $target = jQuery(event.target);
+		var d = jQuery(this).children("i").html();
+		if(d === 'add'){
+			jQuery(this).children("i").html('remove');
+			jQuery(this).children("p").html('show less');
+		}
+		else{
+			jQuery(this).children("i").html('add');
+			jQuery(this).children("p").html('show more');
+		}
+		jQuery(this).parents('.pricing-bottom').toggleClass('open');
+		$target.closest(".pricing-bottom").find(".features").slideToggle();  
+	});
+	
+    
+	jQuery('li').click(function() {
+		jQuery(this).addClass('active').siblings().removeClass('active'); 
+	});
+
+
 });
