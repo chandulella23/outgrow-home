@@ -841,12 +841,12 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
 }
 
 .error {
-    visibility: hidden;
     font-size: 12px;
     color: #fb5f66;
     text-align: left;
-    display: block;
-    
+    display: none;
+    float: left;
+    width: 100%;
 }
 .info-content i {
     display: inline-block;

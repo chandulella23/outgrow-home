@@ -10,7 +10,7 @@ function stepEmail () {
             $(this).addClass("hide");
         });
         $(".logo-top").removeClass("hide");
-        $('body').css('overflow-y','scroll');
+        $('body').css('overflow-y','auto');
 
         sendResponse();
 
