@@ -162,7 +162,7 @@
                             <figure class="icons-part">                            </figure>
                             <figcaption>
                                
-                                <h4>TOP OF THE FUNNEL<span class="info-content" data-content="Your goal with Top Of The Funnel content should be to educate your audience on a specific question, need or pain point that they're looking to address, but without a sales tie-in. "><i class="material-icons">error_outline</i></span></h4>
+                                <h4>TOP OF THE FUNNEL<span class="info-content" data-content="Your goal with Top Of The Funnel content should be to educate your audience on a specific question, need or pain point that they're looking to address, but without a sales tie-in. "><i class="material-icons">info_outline</i></span></h4>
                                 <ul id="top-funnel">
                                     <li><a href="javascript:void(0)">Key Role Top Of <br> The Funnel</a></li>
                                     <li><a href="javascript:void(0)">Key Role Top Of <br> The Funnel</a></li>
@@ -172,7 +172,7 @@
                         <div class="funnel-step middle">
                             <figure class="icons-part">                            </figure>
                             <figcaption>
-                                <h4>Middle OF THE FUNNEL<span class="info-content" data-content="In the Middle Of The Funnel stage, your content should continue to educate but also start the process of positioning your company as the solution to the lead's needs and challenges."><i class="material-icons">error_outline</i></span></h4>
+                                <h4>Middle OF THE FUNNEL<span class="info-content" data-content="In the Middle Of The Funnel stage, your content should continue to educate but also start the process of positioning your company as the solution to the lead's needs and challenges."><i class="material-icons">info_outline</i></span></h4>
                                 <ul id="mid-funnel">
                                     <li><a href="javascript:void(0)">Key Role middle Of  <br> The Funnel</a></li>
                                     <li><a href="javascript:void(0)">Key Role middle Of <br> The Funnel</a></li>
@@ -182,7 +182,7 @@
                         <div class="funnel-step bottom">
                             <figure class="icons-part">                            </figure>
                             <figcaption>
-                                <h4>Bottom OF THE FUNNEL<span class="info-content" data-content="Now that the prospect has been engaged and informed about your product or service, in this stage, you can try and position your company/product as the preferred choice for your client."><i class="material-icons">error_outline</i></span></h4>
+                                <h4>Bottom OF THE FUNNEL<span class="info-content" data-content="Now that the prospect has been engaged and informed about your product or service, in this stage, you can try and position your company/product as the preferred choice for your client."><i class="material-icons">info_outline</i></span></h4>
                                 <ul id="bottom-funnel">
                                     <li><a href="javascript:void(0)">Key Role bottom Of <br> The Funnel</a></li>
                                     <li><a href="javascript:void(0)">Key Role bottom Of <br> The Funnel</a></li>
