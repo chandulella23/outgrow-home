@@ -77,7 +77,7 @@ jQuery(document).ready(function() {
 	jQuery(".expand").click( function(event) {
 		var $target = jQuery(event.target);
 		jQuery(this).toggleClass('open');
-		$target.closest(".expand").find(".detail").slideToggle(); 
+		$target.closest(".expand").find(".detail").slideToggle("slow"); 
 	});
 
 	jQuery(".expand-rs").click( function(event) {
@@ -95,7 +95,7 @@ jQuery(document).ready(function() {
 	jQuery('.expand-all').click( function(event){
 		if(jQuery(this).hasClass('open')){
 			jQuery('.expand').removeClass('open');
-			jQuery(".detail").css('display', 'none');
+			jQuery(".detail").slideUp("slow");
 		}
 		else{
 			jQuery('.expand').addClass('open');
