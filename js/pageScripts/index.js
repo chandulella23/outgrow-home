@@ -79,8 +79,4 @@ jQuery(document).ready(function() {
 	console.log(url);
 
     jQuery('#btnBuildCalc1 > a').prop('href', url);
-    console.log('RAN');
-    var a = jQuery('.calc-table');
-    jQuery('.calc-table').parent().remove();
-    jQuery(a).insertAfter('.section-1')
 });
