@@ -933,7 +933,12 @@ label {
 			width: 25%;
 			border: 1px solid #bed4df;
 			box-shadow: 0 0px 10px rgba(0, 0, 0, .10);
-			display: table-column;
+			/* display: table-column; */
+			right: -1px;
+			position: absolute;
+			top: -1px;
+			height: 100%;
+			z-index: -1;
 		}
 
 		thead th {
@@ -1148,10 +1153,23 @@ label {
 			bottom: 100%;
 			height: 8px;
 			width: 225px;
-			left: -1px;
+			left: 0px;
 			background: #fff;
 			border: 1px solid #bed4df;
-			/*box-shadow: 0 0px 10px rgba(0, 0, 0, .10);*/
+			box-shadow: 0 -5px 10px rgba(0, 0, 0, .12);
+			border-bottom: 1px solid transparent;
+		}
+
+		colgroup:after {
+			content: "";
+			position: absolute;
+			bottom: -2px;
+			height: 8px;
+			width: 223px;
+			left: 0px;
+			background: #fff;
+			border-bottom: 1px solid #bed4df !important;
+			/* box-shadow: 0 -5px 10px rgba(0, 0, 0, .12); */
 			border-bottom: 1px solid transparent;
 		}
 
