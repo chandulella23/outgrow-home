@@ -169,10 +169,10 @@
 		color: #fdfeff;
 		text-decoration: none;
 		text-transform: uppercase;
-		display: block;
+		display: inline-block;
 		background: #fb6c73;
 		border-radius: 4px;
-		padding: 11px 20px;
+		padding: 11px 30px;
 		font-size: 13px;
 	}
 	.pricing-bottom {
@@ -187,6 +187,8 @@
 		list-style: none;
 		margin-bottom: 0px;
     	padding: 10px 0px;
+		float: left;
+    	width: 100%;
 	}
 	.pricing-bottom ul li .feature-title {
 		font-size: 13px;
