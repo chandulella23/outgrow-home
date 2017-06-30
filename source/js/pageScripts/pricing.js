@@ -77,7 +77,7 @@ jQuery(document).ready(function() {
 	jQuery(".expand").click( function(event) {
 		var $target = jQuery(event.target);
 		jQuery(this).toggleClass('open');
-		$target.closest(".expand").find(".detail").slideToggle("slow"); 
+		$target.closest(".expand").find(".detail").slideToggle(); 
 	});
 
 	jQuery(".expand-rs").click( function(event) {
