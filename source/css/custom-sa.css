@@ -4469,7 +4469,8 @@ button.swiper-pagination-bullet {
 }
 #why .section-top-why img {
 	margin: 20px auto;
-	display: block
+	display: block;
+	border-radius: 15px;
 }
 #why .slider-sa {
 	min-height: 360px
