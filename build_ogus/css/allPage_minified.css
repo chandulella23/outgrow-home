@@ -3352,7 +3352,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-3-left{padding-left:15px;margin-top:20px}
 	.mobile-sec3,.section-3 .container{padding:0}
 	.section-runnigheading{font-size:26px;font-family:montserratultra_light;color:#fb6c73;text-transform:none;text-align:left;padding-left:15px;padding-right:15px;margin-bottom:50px;line-height:32px}
-	.sec3-box2inner h5{font-size:16px;color:rgba(98,105,109,.4);text-transform:uppercase}
+	.sec3-box2inner h5{font-size:16px;color:rgba(98,105,109,.4);text-transform:uppercase; display: block; margin-top: 0px;}
 	.sec3-box2inner i{font-size:24px}
 	.sec3-box2 h3{position:relative;top:0;font-size: 18px;}
 	.sec3-btn {width: 100%;font-size: 15px;padding: 10px 40px;}
@@ -3595,7 +3595,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.start-trial-cta {margin: 30px 20px 40px;}
 		.startTrial-outer i.material-icons {left: 45px !important;}
 		.sec-grey.section-10{padding-top: 30px !important;}
-
+		
+		.calc-table {margin-top: 40px !important; margin-bottom: 20px !important;}
+		.calc-table .section-2-heading {margin-bottom: 30px !important;}
 	/* end: homepage responsive by arti */
 
 
@@ -3896,7 +3898,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-3-left{padding-left:15px;margin-top:20px}
 	.mobile-sec3,.section-3 .container{padding:0}
 	.section-runnigheading{font-size:26px;font-family:montserratultra_light;color:#fb6c73;text-transform:none;text-align:left;padding-left:15px;padding-right:15px;margin-bottom:50px;line-height:32px}
-	.sec3-box2inner h5{font-size:18px;color:rgba(98,105,109,.4);text-transform:uppercase}
+	.sec3-box2inner h5{font-size:18px;color:rgba(98,105,109,.4);text-transform:uppercase;margin-bottom: 10px !important; display: block; margin-top: 0px;}
 	.sec3-box2inner i{font-size:24px}
 	.sec3-box2 h3{position:relative;top:0}
 	.mobile-sec3 .swiper-container{padding-bottom:30px}
@@ -4053,6 +4055,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.section-1-left input{width:65% !important;}
 		.startTrial-outer {margin-left: 120px;}
 		.startTrial-outer i.material-icons {left: 25px !important;}
+		
+		.calc-table {margin-top: 40px !important; margin-bottom: 20px !important;}
+		.calc-table .section-2-heading {margin-bottom: 30px !important;}
 
 	/* homepage res changes by Arti */
 
@@ -16344,3 +16349,10 @@ iframe.outgrow-video {
     display: none;
 }
 
+.calc-table {
+    margin-bottom: 40px;
+	margin-top: 15px;
+}
+.calc-table-inner {
+    margin-top: 80px;
+}
