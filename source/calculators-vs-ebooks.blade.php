@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 np p-img">
-				<img class="sec4-2-new mk-animate-element scale-up" src="https://s3.amazonaws.com/outgrow-assets/site/images/google-search-1.jpg" />
+				<img class="sec4-2-new mk-animate-element scale-up" src="{{ $page->baseUrl }}/images/google-search-1.png" />
 			</div>
 	</section>
 
