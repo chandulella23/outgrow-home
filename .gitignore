@@ -5,3 +5,4 @@ robots.txt
 /node_modules/
 /vendor/
 /dist/
+npm-debug.log*
