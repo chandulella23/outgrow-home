@@ -4175,6 +4175,7 @@ button.swiper-pagination-bullet {
     font-family: montserratlight;
     text-transform: uppercase;
     margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 #why .sec4-2 {
 	position: absolute;
