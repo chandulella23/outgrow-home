@@ -44,15 +44,15 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
 							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your Email ID">
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
 							<a href="javascript:void(0)" class="">
 								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
 									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
 									Start Free Trial
 								</button>
-								<div class="btn-bottominfo fade-in">
+								<!--<div class="btn-bottominfo fade-in">
 									<label>*Plans Start at $25/month</label>
-								</div>
+								</div>-->
 							</span>
 							<div id="bfrVid"></div>
 						</div>
@@ -242,7 +242,7 @@
 												class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
 												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct06.jpg'
 												data-lazy='true'></div>
-										</a>
+										`</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
@@ -268,19 +268,19 @@
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
 					<img src="{{ $page->baseUrl }}/images/img-table1.png">
 					<span>Achieve Conversion Rates of Over 60%</span>
-					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
+					<p class="">Calculators and quizzes are interactive experiences that engage customers at a psychological level. This leads to never-seen-before conversion rates!</p>
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
 					<img src="{{ $page->baseUrl }}/images/img-table2.png">
 					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
+					<p class="">Calculators and quizzes provide instant gratification and give personalized answers to your customer's most pressing questions.</p>
 
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
 					<img src="{{ $page->baseUrl }}/images/img-table3.png">
 					
 					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
-					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
+					<p class="">Given the engagement, calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
 				</div>
 			</div>
 		</div>
@@ -291,7 +291,7 @@
 			<a href="/calculators-vs-ebooks">
 				<button class="btn-buildcal">
 					<i class="material-icons">view_compact</i>
-					See how calculators compare to ebooks etc
+					See why calculators are better than ebooks
 				</button>
 			</a>
 		</div>
@@ -496,7 +496,7 @@
 	<section class="section">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading mk-animate-element scale-up ">
-				Beautiful calculators and quizzes. <br/> Without Developers.
+				Beautiful calculators and quizzes. <br/> Without developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
 				 Create beautiful experiences in minutes with our simple, yet powerful development studio.
@@ -520,15 +520,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">format_paint</i>
-					<span><b>Appealing Templates</b> that Set Your UX Apart</span>
+					<span><b>Appealing templates</b> that set your UX apart</span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">view_compact</i>
-					<span>Showcase Your Brand with <b>Quick Customizations</b> </span>
+					<span>Showcase your brand with <b>quick customizations</b> </span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">developer_board</i>
-					<span>Publish Within Minutes, with <b>No IT Headache</b> including <b>Charts and Graphs</b></span>
+					<span>Publish in minutes, with <b>no IT headache</b></span>
 				</span>
 
 			</div>
@@ -555,15 +555,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left" >
 					<i class="material-icons">public</i>
-					<span>Publish on <b>Your Domain</b> or a URL of your choice.</span>
+					<span>Publish on <b>your domain</b> or a URL of your choice.</span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Embed Beautifully in Any <b>App, Webpage or CMS</b>.</span>
+					<span>Embed beautifully in any <b>App, Webpage or CMS</b>.</span>
 				</span>
 				 <span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Present as a <b>Pop-up</b> or a <b>Slide-in</b>. </span>
+					<span>Present as a <b>Pop-up</b> or a <b>slide-in</b>. </span>
 				</span>
 
 			</div>
@@ -613,15 +613,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left" >
 					<i class="material-icons">public</i>
-					<span>Hyper-targeted Sales Outreach with <b>Rich Customer Data</b></span>
+					<span>Hyper-targeted sales outreach with <b>rich customer data</b></span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Track <b>Visits, Conversions</b> and Traffic from Across All Channels</span>
+					<span>Track <b>visits, conversions</b> and traffic from across all channels</span>
 				</span>
 				 <span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Easily Integrate with <b>Over 500 sales & marketing tools</b></span>
+					<span>Easily integrate with <b>over 500 sales & marketing tools</b></span>
 				</span>
 
 			</div>
@@ -704,7 +704,7 @@
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
-					The Outgrow Magic
+					Outgrow In Practice
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
 					Get inspired by some of our most successful calculators & quizzes!
