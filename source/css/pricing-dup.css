@@ -679,7 +679,7 @@ label {
 
 /* FAQ & accordion css */
 	#pricing .section-faq {
-		margin-top: 0; 
+		margin-top: 20px; 
 		margin-bottom: 0
 	}	
 	#pricing .container-faqs {
@@ -1111,10 +1111,10 @@ label {
 
 		.detail {
 			display: none;
-			line-height: 18px;
+			line-height: 16px;
 			color: #2b93be;
-			font-size: 12px;
-			padding: 10px 0px 0px;
+			font-size: 11px;
+			padding: 10px 10px 0px 10px;
 			font-family: montserratlight;
 			float: left;
 			width: 100%;

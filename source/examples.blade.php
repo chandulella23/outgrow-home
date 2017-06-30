@@ -57,15 +57,15 @@
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">
 				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
-					<a href="javascript:void(0);" target="_blank" class="active"
+					<a href="javascript:void(0);"  class="active"
 						onclick="display('https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1')">
 						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
 					</a>
-					<a href="javascript:void(0);" target="_blank" class=""
+					<a href="javascript:void(0);"  class=""
 						onclick="display('https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1')">
 						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
 					</a>
-					<a href="javascript:void(0);" target="_blank" class=""
+					<a href="javascript:void(0);"  class=""
 						onclick="display('https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
 						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
 					</a>
