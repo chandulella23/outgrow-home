@@ -1782,7 +1782,7 @@ label {
 	line-height: 30px
 }
 .start-trial-cta {
-	margin: 30px 0px 50px;
+	margin: 30px 0px 0px;
 }
 .bg1-img {
 	background: url(../images/strtFreeTrial.jpg) no-repeat;
@@ -6064,7 +6064,9 @@ iframe[name=google_conversion_frame] {
     margin-right: 5px;
 }
 .mb0{margin-bottom: 0px;}
-
+.btn-compare {
+    margin: 0px 0px 50px;
+}
 
 
 

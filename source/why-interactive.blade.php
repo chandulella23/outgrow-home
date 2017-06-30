@@ -53,7 +53,7 @@
 	</section>
 
 
-	<!--<section class="section section-3 mt7 p20">
+	<section class="section section-3 mt7 p20">
 		<div class="container">
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
@@ -229,10 +229,10 @@
 			</div>
 
 		</div>
-	</section>-->
+	</section>
 	<!-- Homepage section 3 end-->
 
-	<section class="section section-10 sec-grey">
+	<!--<section class="section section-10 sec-grey">
 		<div class="container container-center">
 			<h1 class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing
@@ -257,10 +257,10 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-		<div class="start-trial-cta">
+		<div class="start-trial-cta btn-compare">
 			<a href="/calculators-vs-ebooks">
 				<button class="btn-buildcal">
 					<i class="material-icons">view_compact</i>
