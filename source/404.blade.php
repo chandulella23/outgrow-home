@@ -27,7 +27,7 @@
 @section('content')
 <div>
 	<!-- Homepage section 1 start-->
-    <section class="section section-1">
+    <section class="section section-1 tarun">
         <div class="container-fluid table-inner">
             <div class="col-xs-12 col-sm-6 section-1-left">
                 <div class="section1-left-cell height-res">
