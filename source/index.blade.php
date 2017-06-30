@@ -259,49 +259,11 @@
 		</div>
 	</section>
 
-	<section class="section section-10 sec-grey">
-		<div class="container container-center">
+	<section class="section section-3 p20 calc-table">
+		<div class="container">
 			<h1 class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing
 			</h1>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table1.png">
-					<span>Achieve Conversion Rates of Over 60%</span>
-					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table2.png">
-					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
-
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table3.png">
-					
-					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
-					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-		<div class="start-trial-cta">
-			<a href="/calculators-vs-ebooks">
-				<button class="btn-buildcal">
-					<i class="material-icons">view_compact</i>
-					See how calculators compare to ebooks etc
-				</button>
-			</a>
-		</div>
-	</div>
-
-	<!--<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
-		Why calculators outperform <br/> ebooks &amp; marketing Pages?
-	</h1>
-	<section class="section section-3 mt7 p20">
-		<div class="container">
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -397,7 +359,7 @@
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 np rs-hide">
+			<div class="col-xs-12 col-sm-12 np rs-hide calc-table-inner">
 				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
 					<div class="col-xs-12 np sec3-box1inner">
 						<h4>Add Real Value</h4>
@@ -489,7 +451,47 @@
 				});
 			</script>
 		</div>
+	</section>
+
+	<!--<section class="section section-10 sec-grey">
+		<div class="container container-center">
+			<h1 class="section-2-heading">
+				Calculators & quizzes:<br/> The Next Big Thing in Marketing
+			</h1>
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table1.png">
+					<span>Achieve Conversion Rates of Over 60%</span>
+					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table2.png">
+					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
+					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
+
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table3.png">
+					
+					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
+					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
+				</div>
+			</div>
+		</div>
 	</section>-->
+	
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+		<div class="start-trial-cta">
+			<a href="/calculators-vs-ebooks">
+				<button class="btn-buildcal">
+					<i class="material-icons">view_compact</i>
+					See how calculators compare to ebooks etc
+				</button>
+			</a>
+		</div>
+	</div>
+
+	
 
 	<!-- Homepage section 3 end-->
 
