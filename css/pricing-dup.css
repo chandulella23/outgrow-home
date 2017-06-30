@@ -233,7 +233,7 @@ label {
 		margin-right: 20px
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a {
-		font-size: 12px;
+		font-size: 14px;
 		color: #62696d;
 		text-transform: uppercase;
 		line-height: 25px;
@@ -938,7 +938,7 @@ label {
 			position: absolute;
 			top: -1px;
 			height: 100%;
-			z-index: -1;
+			z-index: 0;
 		}
 
 		thead th {
@@ -1025,6 +1025,8 @@ label {
 			border-radius: 4px;
 			padding: 11px 20px;
 			font-size: 13px;
+			-webkit-transition: .3s ease-in-out;
+    		transition: .3s ease-in-out;
 		}
 
 		tbody th {
@@ -1033,8 +1035,8 @@ label {
 			/* border: 1px solid #eff0f1; */
 			border-top: 1px solid #eff0f1;
 			border-bottom: 1px solid transparent;
-			padding: 10px 0px 10px 10px;
-			/* line-height: 20px; */
+			padding: 10px;
+			line-height: 1px; 
 		}
 
 		tbody th span {
@@ -1048,7 +1050,10 @@ label {
 			/*background: #fff;*/
 			text-align: center;
 			font-family: montserratlight;
-			padding: 9px 0px 0px;
+			padding: 15px;			
+    		line-height: 1;
+			z-index: 2;
+    		position: relative;
 		}
 
 		tbody tr:hover {
@@ -1071,7 +1076,7 @@ label {
 		}
 
 		tbody tr:first-child td {
-			padding-top: 10px;
+			/*padding-top: 10px;*/
 		}
 
 		tbody th i.material-icons {
@@ -1109,8 +1114,10 @@ label {
 			line-height: 18px;
 			color: #2b93be;
 			font-size: 12px;
-			padding: 10px 20px;
+			padding: 10px 0px 0px;
 			font-family: montserratlight;
+			float: left;
+			width: 100%;
 		}
 
 		.expand-child.open .detail {
@@ -1156,12 +1163,12 @@ label {
 			left: 0px;
 			background: #fff;
 			border: 1px solid #bed4df;
-			box-shadow: 0 -5px 10px rgba(0, 0, 0, .12);
-			border-bottom: 1px solid transparent;
+			box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);
+			border-bottom: 0px solid transparent;
 		}
 
 		colgroup:after {
-			content: "";
+			/*content: "";
 			position: absolute;
 			bottom: -2px;
 			height: 8px;
@@ -1169,8 +1176,7 @@ label {
 			left: 0px;
 			background: #fff;
 			border-bottom: 1px solid #bed4df !important;
-			/* box-shadow: 0 -5px 10px rgba(0, 0, 0, .12); */
-			border-bottom: 1px solid transparent;
+			border-bottom: 1px solid transparent;*/
 		}
 
 		tr.not-info:hover {
@@ -1193,3 +1199,20 @@ label {
 	/* end: table */
 
 /**************************************** new pricing table ****************************************/
+
+/*.embed-loader{    
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.98);
+    left: 0;
+}
+.embed-loader img{ 
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: -100px 0 0 -100px;
+}*/
