@@ -233,7 +233,7 @@ label {
 		margin-right: 20px
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a {
-		font-size: 12px;
+		font-size: 14px;
 		color: #62696d;
 		text-transform: uppercase;
 		line-height: 25px;
@@ -1199,3 +1199,20 @@ label {
 	/* end: table */
 
 /**************************************** new pricing table ****************************************/
+
+/*.embed-loader{    
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.98);
+    left: 0;
+}
+.embed-loader img{ 
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: -100px 0 0 -100px;
+}*/
