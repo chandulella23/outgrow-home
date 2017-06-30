@@ -5533,8 +5533,7 @@ iframe[name=google_conversion_frame] {
 		border: 2px solid #e1e1e1 !important; 
 		box-shadow: 0px 11px 24px rgba(0,0,0,.28);
 		border: none;
-		min-height: 74vh;
-		
+		min-height: 74vh;		
 	}
 	.sec-outgrowMagic {
 		/*height: 90vh;*/
@@ -6069,5 +6068,9 @@ iframe[name=google_conversion_frame] {
     margin: 0px 0px 50px;
 }
 
+@-moz-document url-prefix() {
 
+	.tab-inner-frame iframe{ min-height: auto; }
+
+}
 
