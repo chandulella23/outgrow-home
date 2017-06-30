@@ -180,7 +180,7 @@ label {
 	margin-right: 20px
 }
 .custom-navbar.navbar-default .navbar-nav>li>a {
-	font-size: 12px;
+	font-size: 14px;
 	color: #62696d;
 	text-transform: uppercase;
 	line-height: 25px;
@@ -1782,7 +1782,7 @@ label {
 	line-height: 30px
 }
 .start-trial-cta {
-	margin: 30px 0px 50px;
+	margin: 30px 0px 0px;
 }
 .bg1-img {
 	background: url(../images/strtFreeTrial.jpg) no-repeat;
@@ -4469,7 +4469,8 @@ button.swiper-pagination-bullet {
 }
 #why .section-top-why img {
 	margin: 20px auto;
-	display: block
+	display: block;
+	border-radius: 15px;
 }
 #why .slider-sa {
 	min-height: 360px
@@ -5531,7 +5532,7 @@ iframe[name=google_conversion_frame] {
 		border: 2px solid #e1e1e1 !important; 
 		box-shadow: 0px 11px 24px rgba(0,0,0,.28);
 		border: none;
-		/*min-height: 75vh;*/
+		min-height: 74vh;
 		
 	}
 	.sec-outgrowMagic {
@@ -6063,7 +6064,9 @@ iframe[name=google_conversion_frame] {
     margin-right: 5px;
 }
 .mb0{margin-bottom: 0px;}
-
+.btn-compare {
+    margin: 0px 0px 50px;
+}
 
 
 
