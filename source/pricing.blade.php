@@ -982,7 +982,3 @@
 		"pricing": "{{ $page->baseUrl }}/js/pageScripts/pricing.js",
 	}
 @endsection
-<<<<<<< HEAD
-
-=======
->>>>>>> jigsawhome
