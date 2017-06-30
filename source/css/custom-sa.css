@@ -6070,7 +6070,7 @@ iframe[name=google_conversion_frame] {
 
 @-moz-document url-prefix() {
 
-	.tab-inner-frame iframe{ min-height: auto; }
+	.tab-inner-frame iframe{ min-height:400px !important; }
 
 }
 
