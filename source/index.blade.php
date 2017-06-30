@@ -53,7 +53,7 @@
 								<div class="btn-bottominfo fade-in">
 									<label></label>
 								</div>
-							</span>
+							</a>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
@@ -178,130 +178,12 @@
 		</div>
 	</section>
 
-	<section class="section section-3 sec-craftedTemps hide">
-		<div class="container-fluid">
-			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
-				<h1 class="section-2-heading">
-					Beautifully crafted templates
-				</h1>
-				<h5 class="section-2-subheading mk-animate-element scale-up mk-in-viewport full-visible">
-					Get new customers with powerful and easy to configure interactive calculators and quizzes.
-				</h5>
-				<div class=" full_section_inner clearfix">
-					<div class="wpb_column vc_column_container vc_col-sm-12">
-						<div class="vc_column-inner ">
-							<div class="wpb_wrapper">
-								<div class='qode-expanding-images'>
-									<div class='qode-expanding-images-inner mk-animate-element scale-up'>
-										<img class='qode-frame-image' src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" alt='laptop frame' />
-										<div class="fadein">
-											<img id="f4" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png">
-											<!--<img id="f3" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png">-->
-											<img id="f2" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png">
-											<img id="f1" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png">
-										</div>
-									</div>
-									<div class='qode-side-images'>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct02.jpg' data-lazy='true'></div>
-										</a>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct04.jpg'
-												data-lazy='true'></div>
-										</a>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-bottom='transform:translate3d(-70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-3 qode-lazy-image qode-side-image-inner'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct05.jpg'
-												data-lazy='true'></div>
-										</a>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-100-bottom='transform:translate3d(-70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-4 qode-lazy-image qode-side-image-inner'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-right2.jpg'
-												data-lazy='true'></div>
-										</a>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-bottom='transform:translate3d(180%,35%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-5 qode-lazy-image qode-side-image-outer'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct01.jpg'
-												data-lazy='true'></div>
-										</a>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-100-bottom='transform:translate3d(180%,-35%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-6 qode-lazy-image qode-side-image-outer'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct03.jpg'
-												data-lazy='true'></div>
-										</a>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-bottom='transform:translate3d(-180%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct06.jpg'
-												data-lazy='true'></div>
-										`</a>
-										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
-											<div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
-												class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
-												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-right4.jpg'
-												data-lazy='true'></div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section class="section section-10 sec-grey">
-		<div class="container container-center">
+	<section class="section section-3 p20 calc-table">
+		<div class="container">
 			<h1 class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing
 			</h1>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table1.png">
-					<span>Achieve Conversion Rates of Over 60%</span>
-					<p class="">Calculators and quizzes are interactive experiences that engage customers at a psychological level. This leads to never-seen-before conversion rates!</p>
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table2.png">
-					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Calculators and quizzes provide instant gratification and give personalized answers to your customer's most pressing questions.</p>
-
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table3.png">
-					
-					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
-					<p class="">Given the engagement, calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-		<div class="start-trial-cta">
-			<a href="/calculators-vs-ebooks">
-				<button class="btn-buildcal">
-					<i class="material-icons">view_compact</i>
-					See why calculators are better than ebooks
-				</button>
-			</a>
-		</div>
-	</div>
-
-	<!--<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
-		Why calculators outperform <br/> ebooks &amp; marketing Pages?
-	</h1>
-	<section class="section section-3 mt7 p20">
-		<div class="container">
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -397,7 +279,7 @@
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 np rs-hide">
+			<div class="col-xs-12 col-sm-12 np rs-hide calc-table-inner">
 				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
 					<div class="col-xs-12 np sec3-box1inner">
 						<h4>Add Real Value</h4>
@@ -489,7 +371,19 @@
 				});
 			</script>
 		</div>
-	</section>-->
+	</section>
+
+	
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+		<div class="start-trial-cta">
+			<a href="/calculators-vs-ebooks">
+				<button class="btn-buildcal">
+					<i class="material-icons">view_compact</i>
+					See why calculators are better than ebooks
+				</button>
+			</a>
+		</div>
+	</div>
 
 	<!-- Homepage section 3 end-->
 

@@ -48,13 +48,16 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 np p-img">
-				<img class="sec4-2-new mk-animate-element scale-up" src="https://s3.amazonaws.com/outgrow-assets/site/images/google-search-1.jpg" />
+				<img class="sec4-2-new mk-animate-element scale-up" src="{{ $page->baseUrl }}/images/google-search-1.png" />
 			</div>
 	</section>
 
 
-	<!--<section class="section section-3 mt7 p20">
+	<section class="section section-3 p20 calc-table">
 		<div class="container">
+			<h1 class="section-2-heading">
+				Calculators & quizzes:<br/> The Next Big Thing in Marketing
+			</h1>
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -150,7 +153,7 @@
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 np rs-hide">
+			<div class="col-xs-12 col-sm-12 np rs-hide calc-table-inner">
 				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
 					<div class="col-xs-12 np sec3-box1inner">
 						<h4>Add Real Value</h4>
@@ -229,10 +232,10 @@
 			</div>
 
 		</div>
-	</section>-->
+	</section>
 	<!-- Homepage section 3 end-->
 
-	<section class="section section-10 sec-grey">
+	<!--<section class="section section-10 sec-grey">
 		<div class="container container-center">
 			<h1 class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing
@@ -257,10 +260,10 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-		<div class="start-trial-cta">
+		<div class="start-trial-cta btn-compare">
 			<a href="/calculators-vs-ebooks">
 				<button class="btn-buildcal">
 					<i class="material-icons">view_compact</i>

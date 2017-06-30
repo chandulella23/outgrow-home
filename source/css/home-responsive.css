@@ -176,7 +176,7 @@
     }
     .sec3-box2 h3 {
         position: relative;
-        top: 0;     font-size: 18px;     margin-bottom: 0px;
+        top: 0;     font-size: 18px;     margin-bottom: 0px; margin-top: 0px;
     }
     .mobile-sec3 .swiper-container {
         padding-bottom: 30px
@@ -191,7 +191,7 @@
         line-height: normal;     font-size: 13px;
     }
     .mobile-sec3 .sec3-box2 span {
-        font-size: 16px;
+        font-size: 14px;
         color: #fb6c73
     }
     .section-4-left h4,
@@ -1140,6 +1140,8 @@
 @media (min-width:769px) and (max-width:990px) {
     #why .section-top-why{
         margin-top: 0px;
+        margin-bottom: 0px;
+
     }
     .col-sm-pull-3,
     .col-sm-pull-6 {
@@ -1340,14 +1342,16 @@
     .sec3-box2inner h5 {
         font-size: 18px;
         color: rgba(98, 105, 109, .4);
-        text-transform: uppercase
+        text-transform: uppercase;
+        margin-top: 0px;
     }
     .sec3-box2inner i {
         font-size: 24px
     }
     .sec3-box2 h3 {
         position: relative;
-        top: 0
+        top: 0;
+        margin-bottom: 0px;
     }
     .mobile-sec3 .swiper-container {
         padding-bottom: 30px
