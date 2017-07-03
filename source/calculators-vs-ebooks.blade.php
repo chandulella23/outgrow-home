@@ -39,7 +39,7 @@
 			</div>
 	</section>
 
-	<section class="section section-3 mt7 p20">
+	<section class="section section-3 mt7 p20 calc-table">
 		<div class="container">
 			<!--<h1 class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing

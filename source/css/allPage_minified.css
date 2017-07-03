@@ -4103,6 +4103,19 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:570px}
 	.sec-grey.section.section-10 p{margin-bottom: 0px;}
 }
+@media (min-width:991px) and (max-width:991px){
+	.calc-table .container {
+		width: 960px;
+	}
+	.sec3-box2inner {
+		min-height: 140px;
+	}
+	.sec3-box1inner {
+		min-height: 140px;
+	}
+
+}
+
 @media (min-width:991px) and (max-width:1023px){
 	/*.navbar-right{margin-top:10px}*/
 	.circle-value{float:left;margin-top:15px;width:100px}
@@ -4135,6 +4148,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 
 
 }
+@media (min-width:991px) and (max-width:1200px){
+	.sec3-box2inner {min-height: 140px;}
+	.sec3-box1inner {min-height: 140px;}
+
+}
+
 @media (min-width:1024px) and (max-width:1250px){
 	.sec-quiz-heading{font-size: 28px;}
 	.section-7 .slider-sa,.section-8 .slider-sa{min-height:350px}
@@ -16362,5 +16381,6 @@ iframe.outgrow-video {
 @-moz-document url-prefix() {
 
 	.sec3-box2 h3,.sec3-box3 h3, .sec3-box4 h3 { left: 30px;}
+	.section-startFreeTrial-btn .btn-buildcal{display: inline-block;}
 
 }

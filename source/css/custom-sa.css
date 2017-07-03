@@ -1767,7 +1767,7 @@ label {
 	float: left;
 	margin-right: 10px;
 	position: relative;
-	top: 0px
+	top: 3px
 }
 .start-trial-cta label {
 	float: none;
@@ -4048,7 +4048,8 @@ button.swiper-pagination-bullet {
 }
 #why .secw2-2-new {
 	margin-left: 0;
-	margin-top: 0
+	margin-top: 0;
+	border-radius: 15px;
 }
 #why .section-w1-left span i, #why .section-w2-left span i {
 	font-size: 48px;
@@ -4174,8 +4175,8 @@ button.swiper-pagination-bullet {
     line-height: 44px;
     font-family: montserratlight;
     text-transform: uppercase;
-    margin-bottom: 40px;
-	padding-bottom: 40px;
+    /*margin-bottom: 40px;
+	padding-bottom: 40px;*/
 }
 #why .sec4-2 {
 	position: absolute;
@@ -6066,6 +6067,14 @@ iframe[name=google_conversion_frame] {
 .mb0{margin-bottom: 0px;}
 .btn-compare {
     margin: 0px 0px 50px;
+}
+
+.calc-table h1.section-2-heading {
+    margin-bottom: 40px;
+    padding-bottom: 80px;
+}
+.btn-compare i.material-icons {
+    top: 0px;
 }
 
 @-moz-document url-prefix() {
