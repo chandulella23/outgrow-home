@@ -510,14 +510,36 @@
 
 }
 
+@media (min-width:991px) and (max-width:991px){
+	.calc-table .container {
+		width: 960px;
+	}
+	.sec3-box2inner {
+		min-height: 140px;
+	}
+	.sec3-box1inner {
+		min-height: 140px;
+	}
+
+}
+
 @media (min-width:769px) and (max-width:991px){
 	.sec-grey.section.section-10 p{margin-bottom: 0px;}
 	.sec-new-table:first-child {margin-top: 0px;}
 	.sec-new-table {margin-top: 30px;}
-	.start-trial-cta {margin: 0px 20px 30px;}
+	/*.start-trial-cta {margin: 0px 20px 30px;}*/
 	.sec-grey.section-10 {padding-bottom: 0px !important;}
+	.calc-table{margin-bottom: 40px;}
+	.btn-compare {margin: 30px 0px 50px;}
 	
 }
+@media (min-width:991px) and (max-width:1200px){
+	.sec3-box2inner {min-height: 140px;}
+	.sec3-box1inner {min-height: 140px;}
+
+}
+
+
 @media (min-width: 1024px) and (max-width:1250px) {
 	iframe{
 		position: absolute;
