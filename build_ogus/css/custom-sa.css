@@ -6097,7 +6097,7 @@ iframe[name=google_conversion_frame] {
 	bottom: 0;
 	background-color: #fff;
 	/* change if the mask should be a color other than white */
-	z-index: 9999;
+	z-index: 9;
 
 	text-align: center;
 	/* makes sure it stays on top */
