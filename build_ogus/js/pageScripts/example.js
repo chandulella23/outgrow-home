@@ -1,3 +1,9 @@
+window.runTimeout = function() {
+    setTimeout(function () {
+        jQuery('.content-loader').addClass('hide');   
+    }, 5000);
+}
+
 window.display = function (url) {
 	//console.log('Display called', url)
 	//jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
@@ -31,4 +37,5 @@ jQuery(document).ready(function () {
             jQuery(this).attr('data-calc', '');
         }
     })
+    runTimeout();
 })
