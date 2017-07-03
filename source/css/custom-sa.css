@@ -5527,6 +5527,10 @@ iframe[name=google_conversion_frame] {
 	}
 	.sec-outgrowMagic img.thumb-calc{
 		box-shadow: 0px 11px 24px rgba(0,0,0,.28);
+	
+	}
+	.tab-inner-frame {
+		min-height: 400px;
 	}
 	.tab-inner-frame iframe {
 		width: 100%;
@@ -5534,7 +5538,7 @@ iframe[name=google_conversion_frame] {
 		border: 2px solid #e1e1e1 !important; 
 		box-shadow: 0px 11px 24px rgba(0,0,0,.28);
 		border: none;
-		min-height: 74vh;		
+		min-height: 400px !important;
 	}
 	.sec-outgrowMagic {
 		/*height: 90vh;*/
@@ -6077,9 +6081,192 @@ iframe[name=google_conversion_frame] {
     top: 0px;
 }
 
-@-moz-document url-prefix() {
+/*@-moz-document url-prefix() {
 
 	.tab-inner-frame iframe{ min-height:400px !important; }
 
+}*/
+
+
+
+.preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0px;
+	bottom: 0;
+	background-color: #fff;
+	/* change if the mask should be a color other than white */
+	z-index: 9999;
+
+	text-align: center;
+	/* makes sure it stays on top */
+	
+}
+
+.status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	/* centers the loading animation horizontally on the screen */
+	top: 50%;
+	/* centers the loading animation vertically on the screen */
+	background-image: url("../../../assets/images/loaders/loader_out.gif");
+	/* path to your loading animation */
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+	/* is width and height divided by two */
+}
+.status-msg{
+	font-family: "montserratregular";
+	font-size: 12px;
+	color: #FB6066;
+	margin-top: 70px;
+	display: block;
+}
+
+
+@-webkit-keyframes placeHolderShimmer{
+	0%{
+		background-position:-468px 0
+	}
+	100%{
+		background-position:468px 0
+	}
+}
+
+@keyframes placeHolderShimmer{
+	0%{
+	background-position:-468px 0
+	}
+	100%{
+	background-position:468px 0
+	}
+}
+
+.content-loader{
+	border: 1px solid #ececec;
+}
+
+.timeline-item {
+	background: #fff;
+	margin: 0 auto;
+	max-width: 95vw;
+	padding: 40px 20px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-content: stretch;
+}
+
+.animated-background{
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: placeHolderShimmer;
+	animation-name: placeHolderShimmer;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	background: #f6f7f8;
+	background: #eeeeee;
+	background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+	background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	background: linear-gradient(to right,  #eeeeee 8%,#dddddd 18%,#eeeeee 33%);
+	-webkit-background-size: 800px 104px;
+	background-size: 800px 104px;
+}
+.circle-logo {
+	height: 44px;
+	width: 170px;
+}
+.line{
+	height: 30px;
+	margin-top: 30px;
+}
+.line-1{
+	width: 80%;
+}
+.line-2{
+	width: 55%;
+}
+.line-3{
+	width: 20%;
+	height: 60px;
+}  
+.preloader .logo{
+	width: 15%;
+	height: 34px;
+	margin-top: 11%;
+	float: right;
+	position: absolute;
+	right: 5vw;
+	bottom: 20px;
+}
+.line-parent{
+	display: inline-flex;
+	flex-direction: column;
+	height: 80%;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width:1024px) {
+	.line{
+		height: 24px;
+		margin-top: 25px;
+	}
+	.line-3 {
+		width: 30%;
+		height: 59px;
+	}
+}
+@media (max-width:767px) {
+	.circle-logo{
+		height: 35px;
+		width: 130px;
+		margin: 0 auto;
+	}
+	.timeline-item{
+		max-width: 90vw;
+			padding: 30px 20px;
+	}
+	.line{
+		margin: 0 auto;
+		height: 20px;
+		margin-top: 20px;
+	}
+	.line-1{
+		width: 100%;
+	}
+	.line-2{
+		width: 75%;
+	}
+	.line-3{
+		height: 55px;
+		width: 33%;
+	}
+	.preloader .logo {
+		width: 120px;
+		height: 24px;
+		margin-top: 11%;
+		float: right;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	.line-parent{
+		height: 75%;
+	}
+}
+@media (max-width:480px) {
+	.line-3{
+		width: 130px;
+	}
 }
 
