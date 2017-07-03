@@ -76,6 +76,17 @@
 						<!--<span class="icon-webcam"></span>-->
 						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
 							<iframe id="og-iframe" src="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
+							<div class="preloader content-loader">
+								<div class="timeline-item">
+									<div class="circle-logo animated-background"></div>
+									<div class="line-parent">
+										<div class="line line-1 animated-background"></div>
+										<div class="line line-2 animated-background"></div>
+										<div class="line line-3 animated-background"></div>
+									</div>
+									<div class="logo animated-background"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

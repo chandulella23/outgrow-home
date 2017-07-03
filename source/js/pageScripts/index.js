@@ -42,6 +42,12 @@ window.sendNotification = function (e, o) {
     })
 }
 
+window.runTimeout = function() {
+    setTimeout(function () {
+        jQuery('.content-loader').addClass('hide');   
+    }, 5000);
+}
+
 window.display = function (url) {
 	// /console.log('Display called', url);
 	//jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
@@ -79,4 +85,6 @@ jQuery(document).ready(function() {
 	console.log(url);
 
     jQuery('#btnBuildCalc1 > a').prop('href', url);
+
+    runTimeout();
 });
