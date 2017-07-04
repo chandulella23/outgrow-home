@@ -1910,6 +1910,26 @@
     }
 }
 
+@media (min-width:991px) and (max-width:991px){
+	.calc-table .container {
+		width: 960px;
+	}
+	.sec3-box2inner {
+		min-height: 140px;
+	}
+	.sec3-box1inner {
+		min-height: 140px;
+	}
+
+}
+
+@media (min-width:991px) and (max-width:1200px){
+	.sec3-box2inner {min-height: 140px;}
+	.sec3-box1inner {min-height: 140px;}
+
+}
+
+
 @media (min-width:991px) and (max-width:1023px) {
     .circle-value {
         float: left;
