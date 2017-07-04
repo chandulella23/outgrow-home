@@ -3598,6 +3598,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		
 		.calc-table {margin-top: 40px !important; margin-bottom: 20px !important;}
 		.calc-table .section-2-heading {margin-bottom: 30px !important;}
+		.sec-outgrowMagic .mobile-container{padding:0 0px}
 	/* end: homepage responsive by arti */
 
 
@@ -4190,7 +4191,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	    top: -17% !important;
     	right: -14% !important;
 	}
-	.section-6-left {padding-left: 0px;}
+	/*.section-6-left {padding-left: 0px;}*/
 	.startTrial-outer {
 		margin-left: 15%;
 	}
