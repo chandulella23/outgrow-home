@@ -1882,6 +1882,11 @@
     .img-1 {
         left: 0
     }
+    .start-trial-cta {
+        margin-top: 30px;
+    }
+
+
 }
 
 @media (min-width:910px) and (max-width:989px) {
@@ -5191,6 +5196,8 @@
     .qode-preview-slider {
         max-width: 100%
     }
+}
+@media only screen and (max-width:380px) {    
     .start-trial-cta .btn-buildcal p {line-height: 18px;}
 }
 
