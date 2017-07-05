@@ -3647,7 +3647,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		top: -175px !important;
 		position: relative;
 	}	*/
-	.sec-outgrowMagic img.thumb-calc{width: 85%;}
+	/*.sec-outgrowMagic img.thumb-calc{width: 85%;}*/
 	/*.swiper-container .swiper-slide.swiper-slide-active {
 		width: 60% !important;
 		margin-right: 10px !important;
@@ -4190,7 +4190,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	    top: -17% !important;
     	right: -14% !important;
 	}
-	.section-6-left {padding-left: 0px;}
+	/*.section-6-left {padding-left: 0px;}*/
 	.startTrial-outer {
 		margin-left: 15%;
 	}
