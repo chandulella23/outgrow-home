@@ -28,7 +28,7 @@
 		margin: 0 auto;
 		display: block;
 		margin-top: 0;
-		margin-bottom: 40px;
+		margin-bottom: 10px;
 	}
 	#feature .section-6.sec-integration h1{
 		font-size:22px;
@@ -439,6 +439,7 @@
 		.sec-integrations .section-2-heading {font-size: 22px;}
 		.sec-integrations .section-2-subheading {font-size: 14px; display: block;}
 		.sec-integrations .mobile-container{padding: 0 20px !important;}
+		#feature .section.section-10.sec-help .start-trial-cta .btn-buildcal p {line-height: 22px; font-size: 13px;}
 
 	/* end: feature page responsive by arti */
 

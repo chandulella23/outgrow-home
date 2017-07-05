@@ -262,7 +262,7 @@
 		</div>
 	</section>-->
 	
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+	<!--<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 		<div class="start-trial-cta btn-compare">
 			<a href="/calculators-vs-ebooks">
 				<button class="btn-buildcal">
@@ -271,7 +271,7 @@
 				</button>
 			</a>
 		</div>
-	</div>
+	</div>-->
 
 
 	<script>
