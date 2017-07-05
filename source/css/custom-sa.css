@@ -3888,7 +3888,11 @@ button.swiper-pagination-bullet {
 }
 #feature .section.section-10.sec-help .start-trial-cta .btn-buildcal {
 	background: #fff;
-	color: #62696d
+	color: #62696d;
+	opacity: 0.92;
+}
+#feature .section.section-10.sec-help .start-trial-cta .btn-buildcal:hover {
+    opacity: 1;
 }
 #feature .section.section-10.sec-help .start-trial-cta .btn-buildcal i.material-icons {
 	display: inline-block;
