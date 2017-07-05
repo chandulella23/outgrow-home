@@ -1454,7 +1454,7 @@
     }
     .section-6-left {
         padding-left: 0;
-        margin-top: 40px
+        /*margin-top: 40px*/
     }
     .section-6-left h4 {
         width: 100%
@@ -5200,7 +5200,7 @@
     }
 }
 @media only screen and (max-width:380px) {    
-    .start-trial-cta .btn-buildcal p {line-height: 18px;}
+    .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;
 }
 
 @media only screen and (max-width:1024px) {

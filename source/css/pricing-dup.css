@@ -641,7 +641,7 @@ label {
 		float: left;
 		margin-right: 10px;
 		position: relative;
-		top: 0px
+		top: 3px
 	}
 	.start-trial-cta label {
 		float: none;
@@ -670,7 +670,7 @@ label {
 		transition: .5s ease-in-out;
 		vertical-align: middle;
 		box-shadow: none;
-		border-radius: 0px;
+		border-radius: 50px;
 	}
 	.mb0{margin-bottom: 0px;}
 
