@@ -152,7 +152,7 @@
                             <select class="demo-default selectize-sub-category-result" data-placeholder="Choose Sub Category"></select>
                             <span class="error update-subcat-error">Some error</span>
                         </div>
-                        <div class="update-btn">
+                        <div class="update-btn" style="float: none; display: inline-block">
                             <a href="javascript:void(0)">update</a>
                         </div>
                     </div>
