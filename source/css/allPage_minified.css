@@ -1,7 +1,7 @@
 .label,sub,sup{vertical-align:baseline}
 hr,img{border:0}
 body,figure{margin:0}
-.custom-navbar .signUp-style a{border-radius:20px;background:#fb5f66;color:#fff!important;padding:6px 10px;line-height:1;font-size:12px!important;border: 2px solid #f8434b !important;margin-top: 13px;}
+.custom-navbar .signUp-style a{border-radius:20px;background:#fb5f66 !important;color:#fff!important;padding:6px 10px;line-height:1;font-size:12px!important;border: 2px solid #f8434b !important;margin-top: 13px;}
 .custom-navbar .signUp-style a:hover,.custom-navbar .signUp-style a:focus{
 	opacity: 1;
     background: #fb757b !important;
@@ -2215,8 +2215,8 @@ label.control-label {
 .navbar-brand{padding:0;margin-left:30px!important;padding-top: 10px;}
 .custom-navbar.navbar-default{background:#fff;border:none;padding:0px;z-index:999;-webkit-transition: .5s ease-in-out;transition: .5s ease-in-out;/*border-bottom: 1px solid #eff0f0;*/}
 .custom-navbar.navbar-default .navbar-nav>li{margin-right:20px}
-.custom-navbar.navbar-default .navbar-nav>li>a{font-size:14px;color:#62696d;text-transform:uppercase}
-.custom-navbar.navbar-default .navbar-nav>li>a.active,.custom-navbar.navbar-default .navbar-nav>li>a:hover{color:#fb5f66}
+.custom-navbar.navbar-default .navbar-nav>li>a{font-size:14px;color:#62696d;text-transform:uppercase; background: none;}
+.custom-navbar.navbar-default .navbar-nav>li>a.active,.custom-navbar.navbar-default .navbar-nav>li>a:hover{color:#fb5f66; background: none;}
 .custom-navbar .btn-login{background:#fb5f66;color:#fff!important;text-transform:none!important;padding:3px 30px;margin-top:10px;border:2px solid #fb5f66}
 .section,.section-1{margin-top:30px;float:left;width:100%}
 .custom-navbar .btn-login:hover{border:2px solid #fb5f66;background:0 0;color:#fb5f66!important}
