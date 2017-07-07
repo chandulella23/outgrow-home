@@ -805,10 +805,12 @@ figure.icons-part {
     width: 100%;
 }
 .funnel-step li {
+    position: relative;
     display: inline-block;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-bottom: 10px;
+    width: auto;
     padding:0 0px;
+    padding-left: 15px;
     box-sizing: border-box;
 }
 .funnel-step li:last-child {
@@ -889,4 +891,15 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     top: 15px;
     transform: translateX(-50%);
     display: none;
+}
+
+.funnel-step li::after {
+    background: #fb5f66 none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 6px;
 }
