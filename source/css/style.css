@@ -808,7 +808,7 @@ figure.icons-part {
     position: relative;
     display: inline-block;
     margin-bottom: 10px;
-    width: auto;
+    width: 100%;
     padding:0 0px;
     padding-left: 15px;
     box-sizing: border-box;
