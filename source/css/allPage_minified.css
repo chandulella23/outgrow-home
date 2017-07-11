@@ -16552,6 +16552,7 @@ iframe.outgrow-video {
 		display: none;
 	}
 	.btn-signup .btn-buildcal{text-transform: uppercase;}
+	.section-old #video-main-rs.hide-height{height: 100%;}
 
 
 /* end: lpu page */
