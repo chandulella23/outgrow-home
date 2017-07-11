@@ -3597,7 +3597,47 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-grey.section-10{padding-top: 30px !important;}
 		
 		.calc-table {margin-top: 40px !important; margin-bottom: 20px !important;}
-		.calc-table .section-2-heading {margin-bottom: 30px !important;}
+		.calc-table .section-2-heading {margin-bottom: 30px !important;}		
+		.sec-top-heading{margin-top: 40px;}
+		.section-old .section1-left-cell {
+			height: 100% !important; text-align: center;
+		}
+		.startTrial-outer input { width: 83% !important; padding-right: 200px !important;}
+		.section-old .startTrial-outer {
+			margin-left: -10px !important;
+		}
+		.section-old .startTrial-outer input {
+			width: 100% !important;
+			padding-right: 20px !important;
+		}
+		.section-old .startTrial-outer a {
+			margin-top: 70px;
+		}
+		.section-old .section-1-left {
+			padding-left: 25px !important;
+			margin-bottom: 60px !important;
+		}
+		.section-old .section-1-left h3, .section-old .section-1-left h3.section1-firsthead {
+			font-size: 22px;
+			line-height: 32px;
+		}
+		.section-old .section-1-left h4 {
+			margin-top: 10px;
+			font-size: 16px;
+		}
+		.section-old .startTrial-outer input {
+			width: 100% !important;
+			padding-right: 20px !important;
+		}
+		div.btn-signup1{padding: 0px 20px !important;}
+		.btn-signup.startTrial-outer input {
+			width: 100% !important;
+			padding-right: 20px !important;
+		}
+		.btn-signup1.startTrial-outer i.material-icons {
+			left: 45px !important;
+		}
+
 	/* end: homepage responsive by arti */
 
 
@@ -4072,10 +4112,29 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.startTrial-outer a {
 		float: right !important;
-		right: 118px !important;
+		right: 112px !important;
 		width: auto;
 		top: -20px;
 		position: absolute !important;
+	}
+	.section-old .startTrial-outer input{width: 80% !important;}
+	.section-old .startTrial-outer a {
+		right: 68px !important;
+		margin-top: 0px;
+	}
+	.section-old .startTrial-outer {
+		margin-left: 20px !important;
+	}
+	.section-old .section-1-left {
+		margin-bottom: 0px !important;
+	}
+	.btn-signup.startTrial-outer {
+		margin-left: 40px !important;
+		padding: 0px 20px;
+	}
+	.btn-signup.startTrial-outer input {
+		width: 70% !important;
+		padding-right: 20px !important;
 	}
 
 }
@@ -4090,6 +4149,20 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		line-height: normal !important;
 		font-size: 24px !important;
 	}
+	.section-old .startTrial-outer i.material-icons {
+		left: 25px !important;
+	}
+	.section-old .startTrial-outer input {
+		width: 60% !important;
+	}
+	.section-old .section1-left-cell {
+		height: 100% !important;
+	}
+	.section-old .startTrial-outer a {
+		right: 268px !important;
+	}
+
+
 }
 
 
@@ -4143,7 +4216,23 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.startTrial-outer i.material-icons { left: 55px !important;}
 	.startTrial-outer input {width: 76% !important;}
 	.startTrial-outer a {right: 212px;}
-
+	.section-old .startTrial-outer {
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.section-old .startTrial-outer i.material-icons {
+		left: 25px !important;
+	}
+	.section-old .startTrial-outer input {
+		width: 100% !important;
+	}
+	.section-old .section1-left-cell {
+		height: 100% !important;
+	}
+	.section-old .startTrial-outer a {
+		right: 268px !important;
+	}
 
 
 
@@ -4197,6 +4286,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.startTrial-outer i.material-icons { /*left: 55px !important;*/}
 	.startTrial-outer input {width: 65% !important;}
 	.startTrial-outer a {right: 212px;}
+	.section-old .startTrial-outer {
+		margin-left: 0 !important;
+	}	
+	.section-old .startTrial-outer input {
+		width: 100% !important;
+	}
 
 
 }
@@ -4212,6 +4307,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.startTrial-outer i.material-icons { left: 55px !important;}
 	.startTrial-outer input {width: 50% !important;}
 	.startTrial-outer a {right: 212px;}
+	.section-old .startTrial-outer {padding-left: 0; padding-right: 0;}
+	.section-old .startTrial-outer i.material-icons {left: 25px !important;}
+	.section-old .startTrial-outer input {width: 100% !important;}
 
 }
 @media (min-width:1281px) and (max-width:1350px){
@@ -16437,6 +16535,23 @@ iframe.outgrow-video {
 		text-transform: uppercase;
 		line-height: 24px;
 	}
+	.btn-signup {
+		margin-top: 60px;
+	}
+	.btn-signup .startTrial-outer a {
+		float: left;
+		position: relative;
+		right: 175px;
+	}
+	.section-6 .btn-buildcal {
+    	margin-top: 0;
+		line-height: normal; 
+		box-shadow: none;
+	}
+	.startTrial-outer .btn-bottominfo {
+		display: none;
+	}
+	.btn-signup .btn-buildcal{text-transform: uppercase;}
 
 
 /* end: lpu page */

@@ -384,7 +384,7 @@
 
 	<section class="section">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up ">
+			<h1 class="section-2-heading mk-animate-element scale-up sec-top-heading">
 				Beautiful calculators and quizzes. <br/> Without Developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -427,6 +427,20 @@
 						<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
 					</video>
 				</div>
+			</div>
+			<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup">
+				<i class="material-icons">email</i>
+				<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+				<a href="javascript:void(0)" class="">
+					<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
+						<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
+						Start Free Trial
+					</button>
+					<div class="btn-bottominfo fade-in">
+						<label></label>
+					</div>
+				</a>
+				<!--<div id="bfrVid"></div>-->
 			</div>
 		</div>
 	</section>
@@ -487,8 +501,23 @@
 				<img class="scrollimg mk-animate-element right-to-left" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-tab.png" />
 				<img class="scrollimg sec4-2 mk-animate-element left-to-right" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-mobile.png" />
 			</div>
-			<div class="col-xs-12 col-sm-12 text-center rs-hide">
+			<!--<div class="col-xs-12 col-sm-12 text-center rs-hide">
 				<a href="{{ $page->baseUrl }}/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
+			</div>-->
+
+			<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup btn-signup1">
+				<i class="material-icons">email</i>
+				<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+				<a href="javascript:void(0)" class="">
+					<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
+						<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
+						Start Free Trial
+					</button>
+					<div class="btn-bottominfo fade-in">
+						<label></label>
+					</div>
+				</a>
+				<!--<div id="bfrVid"></div>-->
 			</div>
 		</div>
 	</section>
