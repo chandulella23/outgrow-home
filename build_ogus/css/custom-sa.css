@@ -184,9 +184,11 @@ label {
 	color: #62696d;
 	text-transform: uppercase;
 	line-height: 25px;
+	background: none;
 }
 .custom-navbar.navbar-default .navbar-nav>li>a.active, .custom-navbar.navbar-default .navbar-nav>li>a:hover {
-	color: #fb5f66
+	color: #fb5f66;
+	background: none;
 }
 .custom-navbar .btn-login {
 	background: #fb5f66;
@@ -217,13 +219,14 @@ label {
 }
 .custom-navbar .signUp-style a{
     border-radius: 20px;
-    background: #fb5f66;
+    background: #fb5f66 !important;
     color: #fff!important;
     padding: 6px 10px !important;
     line-height: 1 !important;
     font-size: 12px!important;
     border: 2px solid #f8434b !important;
 	margin-top: 13px;
+	margin-right: 20px;
 }
 .custom-navbar .signUp-style a:hover ,.custom-navbar .signUp-style a:focus{
     opacity: 1;
@@ -3888,7 +3891,11 @@ button.swiper-pagination-bullet {
 }
 #feature .section.section-10.sec-help .start-trial-cta .btn-buildcal {
 	background: #fff;
-	color: #62696d
+	color: #62696d;
+	opacity: 0.92;
+}
+#feature .section.section-10.sec-help .start-trial-cta .btn-buildcal:hover {
+    opacity: 1;
 }
 #feature .section.section-10.sec-help .start-trial-cta .btn-buildcal i.material-icons {
 	display: inline-block;
@@ -4047,7 +4054,7 @@ button.swiper-pagination-bullet {
 	font-size: 24px
 }
 #why .secw2-2-new {
-	margin-left: 0;
+	margin-left: 50px;
 	margin-top: 0;
 	border-radius: 15px;
 }

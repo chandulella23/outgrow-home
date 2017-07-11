@@ -114,7 +114,7 @@
     .funnel-step h4 {    font-size: 13px;    font-weight: normal;    margin: 20px 0 15px; text-align:center   }
     .funnel-step li a{ font-size: 13px;  text-align:center}
     .funnel-step li a br{ display: none  }
-    .funnel-step li {margin-bottom: 5px}
+    .funnel-step li {margin-bottom: 5px; width: auto;}
     section.mouse-bg.sec-outr.new-sec-bg .sec {    text-align: center;}
     .sec1-text + .sec1-button {    background-position: 30px center !important;    background-repeat: no-repeat;}
     .funnel-points {    display: block;    float: left;    margin: 50px 0 0;    width: 100%;}

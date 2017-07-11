@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-US">
+@extends('_layouts.master')
 
-<head>
-	<title>Interactive Calculators and Quizzes | Outgrow</title>
-	<script src="//load.sumome.com" data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+@section('title', 'Interactive Calculators and Quizzes | Outgrow')
 
-		<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
+@section('metaDescription')
+	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
@@ -22,141 +17,18 @@
 	<meta name="twitter:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
 	<meta name="twitter:title" content="Interactive Calculators | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
+@endsection
 
-	<link rel="canonical" href="http://outgrow.co/" />
-	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
+@section('css')
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
+@endsection
 
-		<link rel="stylesheet" href="/css/allPage_minified.css">
+@section('pageClass', '')
 
-	<!-- Analytics Tracking Snippets Starts -->
-<script type="text/javascript">
-	var _paq = _paq || [];
-	_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-	_paq.push(["setCookieDomain", "*.outgrow.co"]);
-	_paq.push(['trackPageView']);
-	_paq.push(['enableLinkTracking']);
-	(function() {
-	var u="//analytics.outgrow.co/";
-	_paq.push(['setTrackerUrl', u+'piwik.php']);
-	_paq.push(['setSiteId', '2']);
-	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-	})();
+@section('pageId', '')
 
-	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-PDL5P5M');
-
-	//Intercom
-	var url			=	window.location.href;
-	var intercom_id	=	'om2goh5g';
-	if (url.toLowerCase().indexOf("outgrow.co") >= 0){
-		intercom_id	=	'r841gnag';
-	}
-	window.intercomSettings = {
-		app_id: intercom_id,
-		custom_launcher_selector: '#intercom_trigger'
-	};
-	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r841gnag';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-
-	var schemaA = document.createElement('script');
-	schemaA.type = 'application/ld+json';
-	schemaA.text = JSON.stringify({
-		"@context": "http://schema.org",
-		"@type": "WebSite",
-		"name": "Outgrow",
-		"alternateName": "Outgrowco",
-		"url": window.location.origin
-	});
-	var schemaB = document.createElement('script');
-	schemaB.type = 'application/ld+json';
-	schemaB.text = JSON.stringify({
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Outgrow",
-		"url": window.location.origin,
-		"logo": "https://outgrow.co/images/logo.png",
-		"email": "mailto:p@outgrow.co",
-		"sameAs": [
-			"https://www.facebook.com/OutgrowCo",
-			"https://twitter.com/outgrowco",
-			"https://www.linkedin.com/company/outgrow.co"
-		],
-		"contactPoint": [{
-			"@type": "ContactPoint",
-			"telephone": "+1-949-791-7659",
-			"contactType": "Customer Service and Support"
-		}],
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "401 Park Avenue",
-			"addressLocality": "New York",
-			"addressRegion": "NY",
-			"postalCode": "10016-8808",
-			"addressCountry": "US"
-		},
-		"telephone": "+1-949-791-7659",
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"ratingValue": "4.9",
-			"bestRating": "5",
-			"worstRating": "4.5",
-			"ratingCount": "48"
-		}
-	});
-	document.querySelector('head').appendChild(schemaA);
-	document.querySelector('head').appendChild(schemaB);
-</script>
-<!-- Analytics Tracking Snippets Ends -->
-<style>
-	.wrapper{width:100%;height:100%;margin:0 auto;background:#CCC;}
-	/*.leftwrapper{box-shadow:4px 12px 26px 5px rgba(0,0,0,0.6) !important;}*/
-	.h_iframe{position:relative;}
-	.h_iframe .ratio {display:block;width:100%;height:auto;}
-	.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
-	.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
-	.wrapper-mobile .h_iframe iframe{ min-height:444px;}
-</style>
-	</head>
-
-<body class="" id="">
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="params navbar-brand" href="/"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/logo.png" /></a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-                <li><a href="/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
-                <li><a href="/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
-                <li><a href="/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
-                <li><a href="/examples" onclick="callGA('USECASE')" class="params">Examples</a></li>
-               	<li class="login">
-               		<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
-               	</li>
-          		<li class="signUp signUp-style res-nav-hide">
-          			<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
-          		</li>
-                <li class="signUp res-nav-show">
-                	<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
-                </li>
-			</ul>
-		</div>
-	</div>
-</nav>
-		<script src="/js/swiper.min.js"></script>
-	
+@section('content')
+	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<section class="section section-1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
@@ -169,66 +41,18 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
-							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-							<a href="javascript:void(0)" class="">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
-									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
-									Start Free Trial
-								</button>
-								<div class="btn-bottominfo fade-in">
-									<label></label>
-								</div>
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center" id="btnBuildCalc1">
+							<a href="//app.outgrow.co" class="params">
+								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
 							</a>
+							<div class="btn-bottominfo fade-in">
+								<label>Plans Start at $25/month</label>
+							</div>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			<script>
-				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
-					if (e.key.match(/Enter/)) {
-						redirectToSignup();
-					}
-				}
-				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
-					redirectToSignup();
-				}
-				function redirectToSignup() {
-					var email = document.getElementsByClassName('lead-form-email')[0].value;
-					if (!email) {
-						alert('Enter an email');
-						return false;
-					}
-					var host = window.location.hostname.match(/localhost|outgrow\.us/) ? 'rely.co' : window.location.hostname;
-					var signupUrl = '//app.' + host + '/signup?email=' + email;
-					console.log(signupUrl);
-					submitLeadForm(email, signupUrl);
-				}
-				function submitLeadForm (email, signupUrl) {
-					console.log('Submit lead form called');
-					jQuery.ajax({
-						url: './js/ebookhandler.php',
-						data: { email: email, group_id: 7015167 },
-						type: 'POST',
-						beforeSend: function () {
-						},
-						success: function (res) {
-							// console.log(res);
-						},
-
-						error: function (err) {
-							// console.log(err);
-						},
-
-						complete: function () {
-							window.location.href = signupUrl
-						}
-					})
-				}
-			</script>
 
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
@@ -305,12 +129,125 @@
 		</div>
 	</section>
 
+	<section class="section section-3 sec-craftedTemps">
+		<div class="container-fluid">
+			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
+				<h1 class="section-2-heading">
+					Beautifully crafted templates
+				</h1>
+				<h5 class="section-2-subheading mk-animate-element scale-up mk-in-viewport full-visible">
+					Get new customers with powerful and easy to configure interactive calculators and quizzes.
+				</h5>
+				<div class=" full_section_inner clearfix">
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner ">
+							<div class="wpb_wrapper">
+								<div class='qode-expanding-images'>
+									<div class='qode-expanding-images-inner mk-animate-element scale-up'>
+										<img class='qode-frame-image' src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" alt='laptop frame' />
+										<div class="fadein">
+											<img id="f4" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab04.png">
+											<!--<img id="f3" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab03.png">-->
+											<img id="f2" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab02.png">
+											<img id="f1" src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-tab.png">
+										</div>
+									</div>
+									<div class='qode-side-images'>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct02.jpg' data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct04.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(-70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-3 qode-lazy-image qode-side-image-inner'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct05.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(-70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-4 qode-lazy-image qode-side-image-inner'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-right2.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(180%,35%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-5 qode-lazy-image qode-side-image-outer'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct01.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(180%,-35%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-6 qode-lazy-image qode-side-image-outer'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct03.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-bottom='transform:translate3d(-180%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/ct06.jpg'
+												data-lazy='true'></div>
+										</a>
+										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
+											<div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
+												class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
+												data-image='https://s3.amazonaws.com/outgrow-assets/site/images/img-craftedtemp-right4.jpg'
+												data-lazy='true'></div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-	<!--<section class="section section-3 p20 calc-table">
+	<!--<section class="section section-10 sec-grey">
+		<div class="container container-center">
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="col-md-4 col-xs-12 np text-center">
+					<i class="material-icons">trending_up</i>
+					<span>GET CONVERSION RATES OF OVER 60%</span>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center">
+					<i class="material-icons">supervisor_account</i>
+					<span>GET REFERRAL TRAFFIC LIKE NEVER BEFORE</span>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center">
+					<i class="material-icons">star</i>
+					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
+					<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
+				</div>
+			</div>
+		</div>
+	</section>-->
+	
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+		<div class="start-trial-cta">
+			<a href="/calculators-vs-ebooks">
+				<button class="btn-buildcal">
+					<i class="material-icons">view_compact</i>
+					See how calculators compare to ebooks etc
+				</button>
+			</a>
+		</div>
+	</div>
+
+	<!--<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
+		Why calculators outperform <br/> ebooks &amp; marketing Pages?
+	</h1>
+	<section class="section section-3 mt7 p20">
 		<div class="container">
-			<h1 class="section-2-heading">
-				Calculators & quizzes:<br/> The Next Big Thing in Marketing
-			</h1>
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -406,7 +343,7 @@
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 np rs-hide calc-table-inner">
+			<div class="col-xs-12 col-sm-12 np rs-hide">
 				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
 					<div class="col-xs-12 np sec3-box1inner">
 						<h4>Add Real Value</h4>
@@ -500,51 +437,12 @@
 		</div>
 	</section>-->
 
-	<section class="section section-10 sec-grey">
-		<div class="container container-center">
-			<h1 class="section-2-heading">
-				Calculators & quizzes:<br/> The Next Big Thing in Marketing
-			</h1>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="/images/img-table1.png">
-					<span>Achieve Conversion Rates of Over 60%</span>
-					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="/images/img-table2.png">
-					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
-
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="/images/img-table3.png">
-					
-					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
-					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-		<div class="start-trial-cta">
-			<a href="/calculators-vs-ebooks">
-				<button class="btn-buildcal">
-					<i class="material-icons">view_compact</i>
-					See why calculators are better than ebooks
-				</button>
-			</a>
-		</div>
-	</div>
-
 	<!-- Homepage section 3 end-->
 
 	<section class="section">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading mk-animate-element scale-up ">
-				Beautiful calculators and quizzes. <br/> Without developers.
+				Beautiful calculators and quizzes. <br/> Without Developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
 				 Create beautiful experiences in minutes with our simple, yet powerful development studio.
@@ -568,15 +466,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">format_paint</i>
-					<span><b>Appealing templates</b> that set your UX apart</span>
+					<span><b>Appealing Templates</b> that Set Your UX Apart</span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">view_compact</i>
-					<span>Showcase your brand with <b>quick customizations</b> </span>
+					<span>Showcase Your Brand with <b>Quick Customizations</b> </span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">developer_board</i>
-					<span>Publish in minutes, with <b>no IT headache</b></span>
+					<span>Publish Within Minutes, with <b>No IT Headache</b> including <b>Charts and Graphs</b></span>
 				</span>
 
 			</div>
@@ -603,15 +501,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left" >
 					<i class="material-icons">public</i>
-					<span>Publish on <b>your domain</b> or a URL of your choice.</span>
+					<span>Publish on <b>Your Domain</b> or a URL of your choice.</span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Embed beautifully in any <b>App, Webpage or CMS</b>.</span>
+					<span>Embed Beautifully in Any <b>App, Webpage or CMS</b>.</span>
 				</span>
 				 <span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Present as a <b>Pop-up</b> or a <b>slide-in</b>. </span>
+					<span>Present as a <b>Pop-up</b> or a <b>Slide-in</b>. </span>
 				</span>
 
 			</div>
@@ -661,15 +559,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left" >
 					<i class="material-icons">public</i>
-					<span>Hyper-targeted sales outreach with <b>rich customer data</b></span>
+					<span>Hyper-targeted Sales Outreach with <b>Rich Customer Data</b></span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Track <b>visits, conversions</b> and traffic from across all channels</span>
+					<span>Track <b>Visits, Conversions</b> and Traffic from Across All Channels</span>
 				</span>
 				 <span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Easily integrate with <b>over 500 sales & marketing tools</b></span>
+					<span>Easily Integrate with <b>Over 500 sales & marketing tools</b></span>
 				</span>
 
 			</div>
@@ -678,7 +576,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-12 text-center rs-hide">
-				<a href="/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
+				<a href="{{ $page->baseUrl }}/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
 			</div>
 		</div>
 	</section>
@@ -752,7 +650,7 @@
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
-					Outgrow In Practice
+					The Outgrow Magic
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
 					Get inspired by some of our most successful calculators & quizzes!
@@ -763,15 +661,15 @@
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">
 				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
-					<a href="javascript:void(0);" class="active"
+					<a href="javascript:void(0);" target="_blank" class="active"
 						onclick="display('https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1')">
 						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
 					</a>
-					<a href="javascript:void(0);" class=""
+					<a href="javascript:void(0);" target="_blank" class=""
 						onclick="display('https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1')">
 						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
 					</a>
-					<a href="javascript:void(0);" class=""
+					<a href="javascript:void(0);" target="_blank" class=""
 						onclick="display('https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
 						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
 					</a>
@@ -1005,124 +903,17 @@
 		</div>
 	</div>-->
 	<!-- End: Modal calcEmbed3 -->
+@endsection
 
-	<section class="section section-14" id="footer">
-	<div class="container">
-		<div class="col-xs-12 col-sm-12 np">
-			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
-				<h4>Overview</h4>
-				<ul>
-					<li><a href="/why-interactive" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
-					<li><a href="/features" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
-					<li><a href="/examples" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
-					<li><a href="/idea-generation" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
-					<li><a href="/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
-					<li><a href="http://affiliates.outgrow.co/">Affiliates</a></li>
-					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
-					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
-				</ul>
-			</div>
-			<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
-				<h4>Our Live Calculators</h4>
-				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer1.jpg" src="" /></div>
-				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer2.jpg" src="" /></div>
-				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer4.jpg" src="" /></div>
-				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer3.jpg" src="" /></div>
-			</div>
-			<div class="col-xs-12 col-sm-10 footer-link mk-animate-element fade-in">
-				<h4 class="footer-img2text col-xs-12">Resources</h4>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/res1.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
-					</div>
-				</div>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer5.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/">Make Your Digital Marketing Agency Stand Out</a>
-					</div>
-				</div>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/res3.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/university-college-calculators/">7 Interactive Calculators Every University Needs on Its Website</a>
-					</div>
-				</div>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/res4.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
-					</div>
-				</div>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer7.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies">9 Calculators Every SaaS Company Should Consider</a>
-					</div>
-				</div>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/res7.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>
-					</div>
-				</div>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/res8.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/">Lead Generation With Interactive Calculators</a>
-					</div>
-				</div>
-				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/res9.jpg" src="" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 np footer-social">
-			<ul>
-				<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
-				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
-				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>				
-				<li class="border-left"><a href="/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
-				<li><a href="/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
-				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
-				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
-			</ul>
-			<div class="footer-copyright">
-				<i class="material-icons">copyright</i>
-				<span>Copyrights</span>
-				<img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer-logo-dark.png" src="" />
-				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/comodo_secure.png" src="" /></a>
-			</div>
-		</div>
-	</div>
-</section>
-	<script>
-			const libs = {
+@section('inlinescripts')
+@endsection
+
+
+@section('pageScripts')
+	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"sitemin": "/js/site.min.js",
-		"index": "/js/pageScripts/index.js",
-		"resizer": "/js/loader/resizer.js",
+		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
+		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 	}
-
-		const loadedLibs = {}
-		let counter = 0
-		const loadAsync = function(lib) {
-			var http = new XMLHttpRequest()
-			http.open("GET", libs[lib], true)
-			http.onload = () => {
-				loadedLibs[lib] = http.responseText
-				if (++counter == Object.keys(libs).length) startScripts()
-			}
-			http.send()
-		}
-		const startScripts = function() {
-			for (var lib in libs) eval(loadedLibs[lib])
-		}
-		for (var lib in libs) loadAsync(lib)
-	</script>
-</body>
-</html>
+@endsection
