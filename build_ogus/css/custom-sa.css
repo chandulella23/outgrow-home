@@ -186,7 +186,7 @@ label {
 	line-height: 25px;
 	background: none;
 }
-.custom-navbar.navbar-default .navbar-nav>li>a.active, .custom-navbar.navbar-default .navbar-nav>li>a:hover {
+.custom-navbar.navbar-default .navbar-nav > li > a.active, .custom-navbar.navbar-default .navbar-nav > li >a:hover {
 	color: #fb5f66;
 	background: none;
 }
