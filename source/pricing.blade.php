@@ -267,7 +267,7 @@
                                 <span class="detail">View (or download) lead contact information in a Google spreadsheet.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                Full Access
+                                Standard Access
                                 <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>                             
                             </td>
                             <td class="expand-child">                                

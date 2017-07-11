@@ -10,7 +10,7 @@
 			<a class="params navbar-brand" href="{{ $page->baseUrl }}/"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/logo.png" /></a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
+			<ul class="nav navbar-nav navbar-right" id="navlist">
                 <li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
                 <li><a href="{{ $page->baseUrl }}/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
                 <li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
