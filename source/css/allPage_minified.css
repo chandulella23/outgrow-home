@@ -16551,7 +16551,8 @@ iframe.outgrow-video {
 	.startTrial-outer .btn-bottominfo {
 		display: none;
 	}
-	.btn-signup .btn-buildcal{text-transform: uppercase;}
+	.btn-signup .btn-buildcal{text-transform: uppercase; padding: 14px 70px !important;}
+	.section-old #video-main-rs.hide-height{height: 100%;}
 
 
 /* end: lpu page */
