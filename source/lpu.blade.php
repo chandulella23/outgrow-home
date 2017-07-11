@@ -120,6 +120,15 @@
 					console.log('Some cick');
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3'
 				}
+
+				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+					if (e.key.match(/Enter/)) {
+						redirectToSignup();
+					}
+				}
+				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
+					redirectToSignup();
+				}
 				function btnclose() {
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3'
 				}
@@ -143,6 +152,39 @@
 					// 	xDiv.style.height = '600px';
 					// else
 					// 	xDiv.style.height = '';
+				}
+
+				function redirectToSignup() {
+					var email = document.getElementsByClassName('lead-form-email')[0].value || document.getElementsByClassName('lead-form-email')[1].value || document.getElementsByClassName('lead-form-email')[2].value;;
+					if (!email) {
+						alert('Enter an email');
+						return false;
+					}
+					var host = window.location.hostname.match(/localhost|outgrow\.us/) ? 'rely.co' : window.location.hostname;
+					var signupUrl = '//app.' + host + '/signup?email=' + email;
+					console.log(signupUrl);
+					submitLeadForm(email, signupUrl);
+				}
+				function submitLeadForm (email, signupUrl) {
+					console.log('Submit lead form called');
+					jQuery.ajax({
+						url: '/js/ebookhandler.php',
+						data: { email: email, group_id: 7015167 },
+						type: 'POST',
+						beforeSend: function () {
+						},
+						success: function (res) {
+							// console.log(res);
+						},
+
+						error: function (err) {
+							// console.log(err);
+						},
+
+						complete: function () {
+							window.location.href = signupUrl
+						}
+					})
 				}
 			</script>
 		</div>
@@ -873,6 +915,25 @@
 			</div>
 		</div>
 	</div>-->
+	<script>
+		document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
+			if (e.key.match(/Enter/)) {
+				redirectToSignup();
+			}
+		}
+		document.getElementsByClassName('lead-form-btn')[1].onclick = function (e) {
+			redirectToSignup();
+		}
+
+		document.getElementsByClassName('lead-form-email')[2].onkeypress = function (e) {
+			if (e.key.match(/Enter/)) {
+				redirectToSignup();
+			}
+		}
+		document.getElementsByClassName('lead-form-btn')[2].onclick = function (e) {
+			redirectToSignup();
+		}
+	</script>
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 
