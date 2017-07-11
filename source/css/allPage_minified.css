@@ -16492,8 +16492,8 @@ iframe.outgrow-video {
 		padding-top: 20px;
 		float: left;
 	}
-	.section-old #video-main {margin-top: 30px;}
-	.section-old .video-img-wrapper {width: 700px; box-shadow: none;}
+	.section-old #video-main {margin-top: 30px;  overflow: visible;}
+	.section-old .video-img-wrapper {width: 700px;     box-shadow: 0 5px 28px 8px rgba(0,0,0,.4);}
 	.section-1-left h3, .section-1-left h3.section1-firsthead {font-size: 34px;}
 	.section-old .startTrial-outer input {
 		background: #fff;
@@ -16549,10 +16549,11 @@ iframe.outgrow-video {
 		box-shadow: none;
 	}
 	.startTrial-outer .btn-bottominfo {
-		display: none;
+		/*display: none;*/
 	}
 	.btn-signup .btn-buildcal{text-transform: uppercase; padding: 14px 70px !important;}
 	.section-old #video-main-rs.hide-height{height: 100%;}
+	.section-old .hide-height {overflow: visible;}
 
 
 /* end: lpu page */
