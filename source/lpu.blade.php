@@ -434,7 +434,7 @@
 				<a href="javascript:void(0)" class="">
 					<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
 						<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
-						Start Free Trial
+						Sign Up
 					</button>
 					<div class="btn-bottominfo fade-in">
 						<label></label>
@@ -511,7 +511,7 @@
 				<a href="javascript:void(0)" class="">
 					<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
 						<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
-						Start Free Trial
+						Sign up
 					</button>
 					<div class="btn-bottominfo fade-in">
 						<label></label>
