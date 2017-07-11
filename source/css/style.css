@@ -860,6 +860,7 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     display: inline-block;
     margin: 0 2px;
     position: relative;
+    top: 1px;
 }
 .info-content:hover::after{display: block}
 .info-content:hover::before{display: block}
@@ -880,6 +881,7 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     width: 240px;
     display: none;
     top:25px;
+    z-index: 10;
 }
 .info-content::before {
     border-bottom: 15px solid #62696d;
@@ -891,6 +893,7 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     top: 15px;
     transform: translateX(-50%);
     display: none;
+    z-index: 10;
 }
 
 .funnel-step li::after {
