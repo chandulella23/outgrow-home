@@ -37,7 +37,7 @@
 						eBooks, blogs & whitepapers giving average results?
 					</h4>
 					<h3 class="mk-animate-element fade-in section1-firsthead">
-						Boost your marketing with highly <br/>converting <b>calculators</b> and viral <b>quizzes</b>.
+						Boost your marketing with highly converting <b>calculators</b> and viral <b>quizzes</b>.
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
@@ -470,20 +470,18 @@
 					</video>
 				</div>
 			</div>
-			<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup">
+			<!--<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup">
 				<i class="material-icons">email</i>
 				<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
 				<a href="javascript:void(0)" class="">
 					<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
-						<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
 						Sign Up
 					</button>
 					<div class="btn-bottominfo fade-in">
 						<label></label>
 					</div>
 				</a>
-				<!--<div id="bfrVid"></div>-->
-			</div>
+			</div>-->
 		</div>
 	</section>
 	<!-- Homepage section 4 end-->
@@ -718,7 +716,7 @@
 
 	<!--section testimonial -->
 	<div class="section-main">
-		<section class="section section-7-top">
+		<section class="section section-7-top section-7-top-old">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
 					Check what our users have to say!
