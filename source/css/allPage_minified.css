@@ -4336,10 +4336,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	/*.section-6-left {padding-left: 0px;}*/
 	.startTrial-outer {
-		margin-left: 15%;
+		margin-left: 20%;
 	}
 	.startTrial-outer i.material-icons { /*left: 55px !important;*/}
-	.startTrial-outer input {width: 65% !important;}
+	.startTrial-outer input {width: 60% !important;}
 	.startTrial-outer a {right: 212px;}
 	.section-old .startTrial-outer {
 		margin-left: 0 !important;
@@ -4347,7 +4347,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-old .startTrial-outer input {
 		width: 100% !important;
 	}
-
+	.sec4-2 {
+		left: 59%;
+	}
 
 }
 @media (min-width:1251px) and (max-width:1280px){
