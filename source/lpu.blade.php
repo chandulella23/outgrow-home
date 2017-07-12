@@ -518,7 +518,7 @@
 	<!-- Homepage section 5 end-->
 
 	<!-- Homepage section 6 start-->
-	<section class="section section-6">
+	<section class="section section-6 sec-6-old">
 		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show">
 				<img class="scrollimg mk-animate-element right-to-left sec6-2-1" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-tab.png" />
