@@ -308,7 +308,7 @@ label {
 	}
 	.footer-copyright p, .footer-link ul li a {
 		font-family: montserratregular;
-		font-size: 14px
+		font-size: 13px
 	}
 	.footer-img, .footer-link {
 		padding-left: 0
@@ -390,6 +390,7 @@ label {
 	}
 	.footer-img-text a {
 		color: #62696d;
+		font-family: montserratlight;
 	}
 	.footer-img-text a:hover {
 		color: #fb5f66;
@@ -409,7 +410,7 @@ label {
 	.footer-social ul li a {
 		float: left;
 		color: #62696d;
-		font-size: 14px;
+		font-size: 13px;
 		font-family: montserratregular;
 	}
 	.footer-social ul li a:hover {
