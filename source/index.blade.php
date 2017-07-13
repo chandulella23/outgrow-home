@@ -401,10 +401,13 @@
 	<section class="section section-4">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
-				<div class="embed-responsive embed-responsive-16by9">
-					<video width="1324" height="607" autoplay loop>
-						<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
-					</video>
+				<div class="video-frame">
+					<span class="circle"></span>
+					<div class="embed-responsive embed-responsive-16by9">
+						<video width="1324" height="607" autoplay loop>
+							<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
+						</video>
+					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
@@ -426,10 +429,13 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
-				<div class="embed-responsive embed-responsive-16by9">
-					<video width="1324" height="607" autoplay loop>
-						<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
-					</video>
+				<div class="video-frame">
+					<span class="circle"></span>
+					<div class="embed-responsive embed-responsive-16by9">
+						<video width="1324" height="607" autoplay loop>
+							<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
+						</video>
+					</div>
 				</div>
 			</div>
 		</div>
