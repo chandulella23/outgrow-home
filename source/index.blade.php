@@ -45,11 +45,10 @@
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-							<a href="javascript:void(0)" class="">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
-									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
+							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+								<span class="btn-buildcal fade-in lead-form-btn">
 									Start Free Trial
-								</button>
+								</span>
 								<div class="btn-bottominfo fade-in">
 									<label></label>
 								</div>
@@ -61,45 +60,18 @@
 			</div>
 
 			<script>
+				document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					document.getElementsByClassName('lead-email')[0].href = href + email;
+				}
+
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
-					if (e.key.match(/Enter/)) {
-						redirectToSignup();
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
 					}
-				}
-				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
-					redirectToSignup();
-				}
-				function redirectToSignup() {
-					var email = document.getElementsByClassName('lead-form-email')[0].value;
-					if (!email) {
-						alert('Enter an email');
-						return false;
-					}
-					var host = window.location.hostname.match(/localhost|outgrow\.us/) ? 'rely.co' : window.location.hostname;
-					var signupUrl = '//app.' + host + '/signup?email=' + email;
-					console.log(signupUrl);
-					submitLeadForm(email, signupUrl);
-				}
-				function submitLeadForm (email, signupUrl) {
-					console.log('Submit lead form called');
-					jQuery.ajax({
-						url: './js/ebookhandler.php',
-						data: { email: email, group_id: 7015167 },
-						type: 'POST',
-						beforeSend: function () {
-						},
-						success: function (res) {
-							// console.log(res);
-						},
-
-						error: function (err) {
-							// console.log(err);
-						},
-
-						complete: function () {
-							window.location.href = signupUrl
-						}
-					})
 				}
 			</script>
 
