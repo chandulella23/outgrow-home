@@ -4520,7 +4520,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.collag-left{width:65%}
 	.collag3-img{min-height:390px}
 	.collag4-img{min-height:300px}
-	.section-1-left h3,.section-1-left h3.section1-firsthead{font-size:46px;line-height:55px}
+	.section-1-left h3,.section-1-left h3.section1-firsthead{font-size: 46px !important;;line-height:55px}
 	.section-1-left h4{font-size:34px;line-height:45px;margin-top:60px}
 	.section-1-left .video-btn{padding:13px 50px;font-size:20px}
 	.section-1-left .btn-buildcal{font-size:20px !important;padding:13px 35px !important}
@@ -4560,6 +4560,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-old .section-1-left .section1-left-cell {
 		padding-top: 50px !important;
 	}
+	.section-1.section-old {
+		padding-bottom: 60px !important;
+	}
+
+
 
 }
 @media (min-width:1480px) and (max-width:1920px){
@@ -16685,7 +16690,7 @@ iframe.outgrow-video {
 .startTrial-outer input{
 	background: #fff;
     border: 2px solid #fb5f66;
-    border-radius: 50px;
+    border-radius: 25px;
     min-height: 50px;
     margin: 0;
     width: 47%;
@@ -16776,7 +16781,7 @@ iframe.outgrow-video {
 	.section-old .startTrial-outer input {
 		background: #fff;
 		border: 2px solid #fb5f66;
-		border-radius: 50px;
+		border-radius: 25px;
 		min-height: 50px;
 		margin: 0;
 		width: 100%;
@@ -16806,7 +16811,7 @@ iframe.outgrow-video {
 		line-height: normal;
 		box-shadow: 0px 9px 18px 0px rgba(251,108,115,0.99);
 		margin-top: 80px;
-		border-radius: 50px;
+		border-radius: 25px;
 		display: inline-flex;
 		float: none;
 		font-family: montserratregular;
@@ -16865,7 +16870,7 @@ iframe.outgrow-video {
     padding: 20px;
     border: 2px solid #e1e1e1;
     border-radius: 25px;
-    box-shadow: 0 5px 28px 8px rgba(0,0,0,.4);
+    /*box-shadow: 0 5px 28px 8px rgba(0,0,0,.4);*/
 	position: relative;
 	text-align: center;
 }
