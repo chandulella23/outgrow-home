@@ -228,6 +228,9 @@ label {
 		padding: 0;
 		z-index: 999;
 		border-bottom: 1px solid #eff0f0;
+		padding: 5px 0px;
+		-webkit-transition: .5s ease-in-out;
+		transition: .5s ease-in-out;
 	}
 	.custom-navbar.navbar-default .navbar-nav>li {
 		margin-right: 20px
@@ -285,12 +288,16 @@ label {
 		border: 2px solid #f8434b !important;
 	}
 	.nav-boxshadow {
-		box-shadow: 0 2px 9px 1px rgba(0, 0, 0, .2)
+		box-shadow: 0 2px 9px 1px rgba(0, 0, 0, .2);
+		padding: 0px !important;
 	}
 	#pricing .custom-navbar.navbar-default {
 		margin-bottom: 0
 	}
 	.res-nav-show{display: none !important;}
+	.custom-navbar .signUp-style a {
+		margin-right: 20px;
+	}
 
 /* start: header css */
 
@@ -478,7 +485,7 @@ label {
 	}
 	#pricing .pricing-headingtop .plans-heading {
 		margin-bottom: 5px;
-		margin-top: 25px;
+		margin-top: 35px;
 		font-size: 30px;
 		text-transform: uppercase;
 	}
