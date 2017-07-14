@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.lp')
 
 @section('title', 'Interactive Calculators and Quizzes | Outgrow')
 
@@ -44,11 +44,10 @@
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-							<a href="javascript:void(0)" class="">
-								<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
-									<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
+							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+								<span class="btn-buildcal fade-in lead-form-btn">
 									Start Free Trial
-								</button>
+								</span>
 								<div class="btn-bottominfo fade-in">
 									<label></label>
 								</div>
@@ -58,6 +57,22 @@
 					</div>
 				</div>
 			</div>
+
+			<script>
+				document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					document.getElementsByClassName('lead-email')[0].href = href + email;
+				}
+
+				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
+			</script>
 
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
@@ -121,14 +136,6 @@
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3'
 				}
 
-				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
-					if (e.key.match(/Enter/)) {
-						redirectToSignup();
-					}
-				}
-				document.getElementsByClassName('lead-form-btn')[0].onclick = function (e) {
-					redirectToSignup();
-				}
 				function btnclose() {
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3'
 				}
@@ -152,39 +159,6 @@
 					// 	xDiv.style.height = '600px';
 					// else
 					// 	xDiv.style.height = '';
-				}
-
-				function redirectToSignup() {
-					var email = document.getElementsByClassName('lead-form-email')[0].value || document.getElementsByClassName('lead-form-email')[1].value || document.getElementsByClassName('lead-form-email')[2].value;;
-					if (!email) {
-						alert('Enter an email');
-						return false;
-					}
-					var host = window.location.hostname.match(/localhost|outgrow\.us/) ? 'rely.co' : window.location.hostname;
-					var signupUrl = '//app.' + host + '/signup?email=' + email;
-					console.log(signupUrl);
-					submitLeadForm(email, signupUrl);
-				}
-				function submitLeadForm (email, signupUrl) {
-					console.log('Submit lead form called');
-					jQuery.ajax({
-						url: '/js/ebookhandler.php',
-						data: { email: email, group_id: 7015167 },
-						type: 'POST',
-						beforeSend: function () {
-						},
-						success: function (res) {
-							// console.log(res);
-						},
-
-						error: function (err) {
-							// console.log(err);
-						},
-
-						complete: function () {
-							window.location.href = signupUrl
-						}
-					})
 				}
 			</script>
 		</div>
@@ -553,12 +527,12 @@
 
 			<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup btn-signup1">
 				<i class="material-icons">email</i>
-				<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-				<a href="javascript:void(0)" class="">
-					<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
-						<!--<img src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">-->
-						Sign up
-					</button>
+				<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
+				
+				<a href="//app.outgrow.co/signup/?email=" class="lead-email-1" onclick="callGA('CANNOT WAIT CTA')">
+					<span class="btn-buildcal fade-in lead-form-btn">
+						Start Free Trial
+					</span>
 					<div class="btn-bottominfo fade-in">
 						<label></label>
 					</div>
@@ -566,6 +540,21 @@
 				<!--<div id="bfrVid"></div>-->
 			</div>
 		</div>
+		<script>
+			document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
+				let email = e.target.value;
+				let href = "//app.outgrow.co/signup/?email=";
+				document.getElementsByClassName('lead-email-1')[0].href = href + email;
+			}
+
+			document.getElementsByClassName('lead-form-email-1')[0].onkeypress = function (e) {
+				let email = e.target.value;
+				let href = "//app.outgrow.co/signup/?email=";
+				if (e.keyCode == 13) {
+					window.location.href = href+email;
+				}
+			}
+		</script>
 	</section>
 
 	<!-- Homepage section 5 start-->
@@ -921,25 +910,6 @@
 			</div>
 		</div>
 	</div>-->
-	<script>
-		document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
-			if (e.key.match(/Enter/)) {
-				redirectToSignup();
-			}
-		}
-		document.getElementsByClassName('lead-form-btn')[1].onclick = function (e) {
-			redirectToSignup();
-		}
-
-		document.getElementsByClassName('lead-form-email')[2].onkeypress = function (e) {
-			if (e.key.match(/Enter/)) {
-				redirectToSignup();
-			}
-		}
-		document.getElementsByClassName('lead-form-btn')[2].onclick = function (e) {
-			redirectToSignup();
-		}
-	</script>
 	<!-- End: Modal calcEmbed3 -->
 @endsection
 
