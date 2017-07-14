@@ -4212,6 +4212,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.lp-sign.startTrial-outer {
 			margin-left: 135px !important;
 		}
+		.btn-signup a {
+			right: 183px !important;
+			position: absolute !important;
+		}
 
 	/* homepage res changes by Arti */
 
@@ -4372,8 +4376,19 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		width: 515px !important;
 		margin-right: 20px !important;
 	}
-
-
+	.btn-signup a {
+		right: 240px !important;
+		position: absolute !important;
+	}
+	.startTrial-outer.lp-sign {
+		margin-left: 13% !important;
+	}
+	.lp-sign.startTrial-outer input {
+		width: 71% !important;
+	}
+	.btn-signup .btn-buildcal {
+		padding: 14px 35px !important;
+	}
 
 }
 @media (min-width:991px) and (max-width:1200px){
@@ -4583,7 +4598,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	/*#btnBuildCalc1 a {right: 280px;}*/
 	.startTrial-outer input.form-control {min-height: 58px !important;}
 	.startTrial-outer .btn-bottominfo label{font-size: 13px;}
-	.startTrial-outer {margin-left: 30%;}
+	.startTrial-outer {margin-left: 25%;}
 	.startTrial-outer input {width: 50% !important;}
 	.section-old .startTrial-outer {
 		margin-left: 0;
@@ -4604,7 +4619,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1.section-old {
 		padding-bottom: 60px !important;
 	}
-
+	.startTrial-outer.lp-sign {
+		margin-left: 35% !important;
+	}
+	.lp-sign.startTrial-outer input {
+		width: 31% !important;
+	}
 
 
 }
@@ -16818,7 +16838,8 @@ iframe.outgrow-video {
 /* lpu page */
 	.section-old.section-1 {
 		padding-bottom: 50px;
-    	padding-top: 25px;
+    	padding-top: 15px;
+		margin-top: 0px;
 	}
 	.section-old .section-1-left{padding-left: 55px;}	
 	.section-old .section-1-left .section1-left-cell {
@@ -16888,7 +16909,7 @@ iframe.outgrow-video {
 	.startTrial-outer .btn-bottominfo {
 		/*display: none;*/
 	}
-	.btn-signup .btn-buildcal{text-transform: uppercase; padding: 14px 60px !important;}
+	.btn-signup .btn-buildcal{text-transform: uppercase; /*padding: 14px 60px !important;*/}
 	.section-old #video-main-rs.hide-height{height: 100%;}
 	.section-old .hide-height {overflow: visible;}
 	.btn-signup.startTrial-outer .btn-bottominfo {
