@@ -167,7 +167,7 @@ label {
 .navbar-brand {
 	padding: 0;
 	margin-left: 30px !important;
-	padding-top: 10px;
+	padding-top: 8px;
 }
 .custom-navbar.navbar-default {
 	background: #fff;
@@ -4502,7 +4502,6 @@ button.swiper-pagination-bullet {
 }
 .navbar {
 	margin-bottom: 0; 
-    min-height: 55px;
 }
 .test1 {
 	margin-top: 30px
@@ -5477,7 +5476,7 @@ iframe[name=google_conversion_frame] {
 }
 
 /* new css changes by Arti */
-	.navbar-brand>img {width: 90%;}
+	.navbar-brand>img {width: 100%;}
 	#feature .section-f4-left {
 		padding-left: 0px; padding-right: 0px;
 	}
