@@ -34,7 +34,7 @@
 		@yield('pageScripts')
 
 		const loadedLibs = {}
-		let counter = 0
+		var counter = 0
 		const loadAsync = function(lib) {
 			var http = new XMLHttpRequest()
 			http.open("GET", libs[lib], true)
