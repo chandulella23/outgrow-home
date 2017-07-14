@@ -1772,14 +1772,14 @@
 	</div>
 </section>
 	<script>
-			const libs = {
-		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"sitemin": "/js/site.min.js",
-		"pricing": "/js/pageScripts/pricing.js",
-	}
+        const libs = {
+            "jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+            "sitemin": "/js/site.min.js",
+            "pricing": "/js/pageScripts/pricing.js",
+        }
 
-		const loadedLibs = {}
-		let counter = 0
+		const loadedLibs = {};
+		var counter = 0;
 		const loadAsync = function(lib) {
 			var http = new XMLHttpRequest()
 			http.open("GET", libs[lib], true)
