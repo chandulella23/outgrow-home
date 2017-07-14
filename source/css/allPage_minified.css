@@ -3676,6 +3676,18 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			top: 5px !important;
 			border: 2px solid #e1e1e1 !important;
 		}
+		.startTrial-outer.lp-sign {
+			margin-left: 0 !important;
+			padding: 0px 20px !important;
+		}
+		.lp-sign.startTrial-outer .btn-buildcal {
+			font-size: 12px !important;
+			padding: 12px 35px !important;
+		}
+		.lp-sign.startTrial-outer i.material-icons {
+			left: 45px !important;
+		}
+
 
 	/* end: homepage responsive by arti */
 
@@ -3874,6 +3886,15 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	section .btn-signup.startTrial-outer a {
 		right: 168px !important;
 	}
+	.startTrial-outer.lp-sign{margin-left: 10% !important;}
+	.lp-sign.startTrial-outer input {
+		width: 80% !important;
+	}
+	.lp-sign.startTrial-outer a {right: 135px !important;}
+	.lp-sign.startTrial-outer .btn-buildcal {
+		font-size: 12px !important;
+		padding: 15px 35px !important;
+	}
 	
 }
 
@@ -3951,6 +3972,14 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		margin-right: 8px;
 		margin-bottom: 30px;
 	}
+	.startTrial-outer.lp-sign{margin-left: 10% !important;}
+	.lp-sign.startTrial-outer input { width: 75% !important;}
+	.lp-sign.startTrial-outer a{right: 198px !important;}
+	.lp-sign.startTrial-outer .btn-buildcal {
+		padding: 15px 35px !important;
+	}
+
+
 }
 @media(min-width:320px) and (max-width:767px){
 	.menu-outer{display:none}
@@ -4180,6 +4209,13 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.img-int-wrapper {
 			margin-top: 20px !important;
 		}
+		.lp-sign.startTrial-outer {
+			margin-left: 135px !important;
+		}
+		.btn-signup a {
+			right: 183px !important;
+			position: absolute !important;
+		}
 
 	/* homepage res changes by Arti */
 
@@ -4223,8 +4259,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		padding-right: 20px !important;
 	}
 	.btn-signup.startTrial-outer a {right: 198px !important;}
-
-
+	.startTrial-outer.lp-sign{margin-left: 10% !important;     margin-bottom: 50px;}
 
 
 }
@@ -4341,8 +4376,19 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		width: 515px !important;
 		margin-right: 20px !important;
 	}
-
-
+	.btn-signup a {
+		right: 240px !important;
+		position: absolute !important;
+	}
+	.startTrial-outer.lp-sign {
+		margin-left: 13% !important;
+	}
+	.lp-sign.startTrial-outer input {
+		width: 71% !important;
+	}
+	.btn-signup .btn-buildcal {
+		padding: 14px 35px !important;
+	}
 
 }
 @media (min-width:991px) and (max-width:1200px){
@@ -4407,6 +4453,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		font-size: 26px;
 		line-height: 36px;
 	}
+	.startTrial-outer.lp-sign {
+		margin-left: 25% !important;
+	}
+	.lp-sign.startTrial-outer input{width: 56% !important;}
 
 }
 @media (min-width:1251px) and (max-width:1280px){
@@ -4442,6 +4492,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	section.section-old .section-1-left {
 		margin-top: 25px;
 		padding-left: 45px !important;
+	}
+	.startTrial-outer.lp-sign {
+		margin-left: 27% !important;
+	}
+	.lp-sign.startTrial-outer input {
+		width: 46% !important;
 	}
 
 }
@@ -4542,7 +4598,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	/*#btnBuildCalc1 a {right: 280px;}*/
 	.startTrial-outer input.form-control {min-height: 58px !important;}
 	.startTrial-outer .btn-bottominfo label{font-size: 13px;}
-	.startTrial-outer {margin-left: 30%;}
+	.startTrial-outer {margin-left: 25%;}
 	.startTrial-outer input {width: 50% !important;}
 	.section-old .startTrial-outer {
 		margin-left: 0;
@@ -4563,7 +4619,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1.section-old {
 		padding-bottom: 60px !important;
 	}
-
+	.startTrial-outer.lp-sign {
+		margin-left: 35% !important;
+	}
+	.lp-sign.startTrial-outer input {
+		width: 31% !important;
+	}
 
 
 }
@@ -5366,6 +5427,17 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1-left .btn-bottominfo {
 		margin-bottom: 0px !important;
 	}
+	.startTrial-outer.lp-sign {
+		margin-left: 0% !important;
+	}
+	.lp-sign.startTrial-outer input {
+		width: 100% !important;
+	}
+	.lp-sign.startTrial-outer .btn-buildcal{
+		font-size: 12px !important;
+    	padding: 10px 25px !important;
+	}
+
 }
 
 @media only screen and (max-width:480px){
@@ -16715,6 +16787,8 @@ iframe.outgrow-video {
     display: inline-flex;
     float: none;
     font-family: montserratregular;
+	text-transform: uppercase;
+
 }
 .startTrial-outer i.material-icons {
     position: absolute;
@@ -16764,7 +16838,8 @@ iframe.outgrow-video {
 /* lpu page */
 	.section-old.section-1 {
 		padding-bottom: 50px;
-    	padding-top: 25px;
+    	padding-top: 15px;
+		margin-top: 0px;
 	}
 	.section-old .section-1-left{padding-left: 55px;}	
 	.section-old .section-1-left .section1-left-cell {
@@ -16834,7 +16909,7 @@ iframe.outgrow-video {
 	.startTrial-outer .btn-bottominfo {
 		/*display: none;*/
 	}
-	.btn-signup .btn-buildcal{text-transform: uppercase; padding: 14px 60px !important;}
+	.btn-signup .btn-buildcal{text-transform: uppercase; /*padding: 14px 60px !important;*/}
 	.section-old #video-main-rs.hide-height{height: 100%;}
 	.section-old .hide-height {overflow: visible;}
 	.btn-signup.startTrial-outer .btn-bottominfo {
@@ -16890,4 +16965,11 @@ span.circle {
     border-radius: 10px;
     top: 7px;
     border: 3px solid #e1e1e1;
+}
+
+.startTrial-outer.lp-sign {
+    margin-left: 29%;
+}
+.lp-sign.startTrial-outer input {
+    width: 40%;
 }

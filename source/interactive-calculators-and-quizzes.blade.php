@@ -7,7 +7,7 @@
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Interactive Calculators | Outgrow" />
+	<meta property="og:title" content="Interactive Calculators and Quizzes | Outgrow" />
 	<meta property="og:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
 	<meta property="og:url" content="https://outgrow.co/" />
 	<meta property="og:site_name" content="Outgrow" />
@@ -831,18 +831,10 @@
 	</div>
 	<!--section testimonial -->
 
-	<!--<section class="section section-startFreeTrial-btn text-center">
-		<a href="//app.outgrow.co" class="params trialLOL">
-			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
-			<img src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
-		</a>
-		<div class=""><label>Plans Start at $25/month</label></div>
-	</section>-->
-
 	<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer lp-sign">
 		<i class="material-icons">email</i>
-		<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-		<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+		<input class="lead-form-email-2" name="emailId" type="email" placeholder="Please enter your email address">
+		<a href="//app.outgrow.co/signup/?email=" class="lead-email-2" onclick="callGA('CANNOT WAIT CTA')">
 			<span class="btn-buildcal fade-in lead-form-btn">
 				Start Free Trial
 			</span>
@@ -852,7 +844,21 @@
 		</a>
 		<div id="bfrVid"></div>
 	</div>
+	<script>
+		document.getElementsByClassName('lead-form-email-2')[0].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/signup/?email=";
+			document.getElementsByClassName('lead-email-2')[0].href = href + email;
+		}
 
+		document.getElementsByClassName('lead-form-email-2')[0].onkeypress = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/signup/?email=";
+			if (e.keyCode == 13) {
+				window.location.href = href+email;
+			}
+		}
+	</script>
 	<!-- Homepage section 13 end-->
 
 	<!-- Start: Modal Video -->
