@@ -31,23 +31,29 @@
 	@include('_partials.footer')
 
 	<script>
-		@yield('pageScripts')
+		@yield('pageScripts');
 
-		var loadedLibs = {}
-		var counter = 0
+		var loadedLibs = {};
+		var counter = 0;
 		var loadAsync = function(lib) {
-			var http = new XMLHttpRequest()
-			http.open("GET", libs[lib], true)
+			var http = new XMLHttpRequest();
+			http.open("GET", libs[lib], true);
 			http.onload = function () {
-				loadedLibs[lib] = http.responseText
-				if (++counter == Object.keys(libs).length) startScripts()
+				loadedLibs[lib] = http.responseText;
+				if (++counter == Object.keys(libs).length) {
+					startScripts();
+				}
 			}
-			http.send()
+			http.send();
 		}
 		var startScripts = function() {
-			for (var lib in libs) eval(loadedLibs[lib])
+			for (var lib in libs) {
+				eval(loadedLibs[lib]);
+			}
 		}
-		for (var lib in libs) loadAsync(lib)
+		for (var lib in libs) {
+			loadAsync(lib);
+		} 
 	</script>
 </body>
 </html>
