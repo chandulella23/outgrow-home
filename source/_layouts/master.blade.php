@@ -33,9 +33,9 @@
 	<script>
 		@yield('pageScripts')
 
-		const loadedLibs = {}
-		let counter = 0
-		const loadAsync = function(lib) {
+		var loadedLibs = {}
+		var counter = 0
+		var loadAsync = function(lib) {
 			var http = new XMLHttpRequest()
 			http.open("GET", libs[lib], true)
 			http.onload = () => {
@@ -44,7 +44,7 @@
 			}
 			http.send()
 		}
-		const startScripts = function() {
+		var startScripts = function() {
 			for (var lib in libs) eval(loadedLibs[lib])
 		}
 		for (var lib in libs) loadAsync(lib)
