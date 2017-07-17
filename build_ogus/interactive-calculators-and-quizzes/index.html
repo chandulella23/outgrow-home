@@ -941,18 +941,17 @@
 	</div>
 	<!--section testimonial -->
 
-	<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer lp-sign">
-		<i class="material-icons">email</i>
-		<input class="lead-form-email-2" name="emailId" type="email" placeholder="Please enter your email address">
-		<a href="//app.outgrow.co/signup/?email=" class="lead-email-2" onclick="callGA('CANNOT WAIT CTA')">
-			<span class="btn-buildcal fade-in lead-form-btn">
-				Start Free Trial
-			</span>
-			<div class="btn-bottominfo fade-in">
-				<label></label>
-			</div>
-		</a>
-		<div id="bfrVid"></div>
+	<div class="col-md-12 col-xs-12 col-sm-12 np startTrial-outer lp-sign">
+		<div class="lp-sign-inner">
+			<i class="material-icons">email</i>
+			<input class="lead-form-email-2" name="emailId" type="email" placeholder="Please enter your email address">
+			<a href="//app.outgrow.co/signup/?email=" class="lead-email-2" onclick="callGA('CANNOT WAIT CTA')">
+				<span class="btn-buildcal fade-in lead-form-btn">
+					Start Free Trial
+				</span>
+			</a>
+		</div>
+		<!--<div id="bfrVid"></div>-->
 	</div>
 	<script>
 		document.getElementsByClassName('lead-form-email-2')[0].onchange = function (e) {
