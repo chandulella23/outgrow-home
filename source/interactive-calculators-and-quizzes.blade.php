@@ -883,6 +883,12 @@
 			</div>
 		</div>
 	</div>
+	<div class="footer-copyright">
+		<i class="material-icons">copyright</i>
+		<span>Copyright 2017</span>
+		<img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer-logo-dark.png" src="" />
+		<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/comodo_secure.png" src="" /></a>
+	</div>
 	<!-- End: Modal Video -->
 	<!-- Start: Modal calcEmbed1 -->
 	<!--<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
