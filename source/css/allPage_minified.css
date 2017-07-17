@@ -4497,6 +4497,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		margin-top: 60px !important;
 	}
 	.lp-sign.startTrial-outer input {width: 48% !important;	}
+	.btn-signup.startTrial-outer input{ width: 50%;}
 
 
 
@@ -4547,6 +4548,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	div.swiper-container .swiper-slide.swiper-slide-active {
 		width: 62% !important;
+	}
+	.startTrial-outer i.material-icons {left: 55px !important;}
+	.startTrial-outer.lp-sign.startTrial-outer i.material-icons {
+		left: 25px !important;
 	}
 
 }
@@ -4776,6 +4781,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-old .btn-signup .btn-buildcal {
 		padding: 15px 70px !important;
 	}
+	.startTrial-outer input{width: 50% !important; padding-right: 200px !important;}
 
 }
 @media only screen and (max-width:1023px){
@@ -17030,3 +17036,8 @@ span.circle {
     width: 40%;
 }
 .section-old-testi{margin-bottom: 0px;}
+.lp-sign .btn-buildcal:hover {
+    background: #fb757b;
+    color: #fff;
+    border-color: #f8434b;
+}
