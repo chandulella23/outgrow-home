@@ -17041,3 +17041,10 @@ span.circle {
     color: #fff;
     border-color: #f8434b;
 }
+.footer-copyright.footer-lp {
+    margin-top: -1px !important;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
