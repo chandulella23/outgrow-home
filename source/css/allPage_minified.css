@@ -4657,8 +4657,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		padding-bottom: 60px !important;
 	}
 	.lp-sign.startTrial-outer input {
-		width: 31% !important;
+		width: 45% !important;
 	}
+	.lp-sign-inner {margin-left: 180px !important;}
 
 
 }
