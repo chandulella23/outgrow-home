@@ -3699,6 +3699,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin-left: 0 !important;
 			position: initial !important;
 		}
+		.section-old-testi {
+			margin-bottom: 70px !important;
+		}
 
 
 	/* end: homepage responsive by arti */
@@ -4018,6 +4021,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			background: none !important;
 			text-align: center;
 			margin-left: 0px !important;
+			min-height: auto !important;
+			margin-bottom: 50px;
 		}
 	/* homepage resp changes by arti */
 }
@@ -4243,7 +4248,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			right: 183px !important;
 			position: absolute !important;
 		}
-		.lp-sign-inner {
+		.lp-sign .lp-sign-inner{
 			margin-top: 70px !important;
 		}
 		.lp-sign.startTrial-outer .btn-buildcal {padding: 14px 22px !important;}
@@ -5490,7 +5495,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.qode-expanding-images .qode-side-image.qode-side-image-4{bottom:21%;right:3.3%}
 
 	/* homapage responsive changes by Arti */
-		.rs-show-less480{display: block!important;}
+		.rs-show-less480{display: block!important; margin-bottom: 70px !important;}
 		.rs-hide-less480{display:none !important;}
 		.qode-expanding-images .qode-expanding-images-inner {max-width: 50%;}
 		.sec-craftedTemps .qode-expanding-images .qode-side-image.qode-side-image-1 {
@@ -17018,3 +17023,4 @@ span.circle {
 .lp-sign.startTrial-outer input {
     width: 40%;
 }
+.section-old-testi{margin-bottom: 0px;}
