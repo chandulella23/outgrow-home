@@ -435,8 +435,8 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 	}
 	.section-4-left h4, .section-5-left h4,.section-6-left h4  {font-size: 22px !important;}
 	div.startTrial-outer.lp-sign{background-size: 43% !important; min-height: 120px !important;}
-	.lp-sign .lp-sign-inner {
-		margin-top: 50px !important;
+	div.lp-sign .lp-sign-inner {
+		margin-top: 45px !important;
 		margin-left: 20px !important;
 		position: relative !important;
 	}
@@ -4539,6 +4539,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.startTrial-outer.lp-sign {
 		/*margin-left: 27% !important;*/
 		background-size: 50% !important; 
+		min-height: 239px;
 	}
 	.lp-sign.startTrial-outer input {
 		width: 46% !important;
