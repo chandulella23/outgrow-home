@@ -434,7 +434,7 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 		margin-top: 10px;
 	}
 	.section-4-left h4, .section-5-left h4,.section-6-left h4  {font-size: 22px !important;}
-	div.startTrial-outer.lp-sign{background-size: 43% !important; min-height: 160px !important;}
+	div.startTrial-outer.lp-sign{background-size: 43% !important; min-height: 120px !important;}
 	.lp-sign .lp-sign-inner {
 		margin-top: 50px !important;
 		margin-left: 20px !important;
@@ -3699,9 +3699,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin-left: 0 !important;
 			position: initial !important;
 		}
-		.section-old-testi {
-			margin-bottom: 70px !important;
-		}
 
 
 	/* end: homepage responsive by arti */
@@ -4023,6 +4020,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin-left: 0px !important;
 			min-height: auto !important;
 			margin-bottom: 50px;
+		}		
+		.section-old-testi {
+			margin-bottom: 70px !important;
 		}
 	/* homepage resp changes by arti */
 }
@@ -4249,7 +4249,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			position: absolute !important;
 		}
 		.lp-sign .lp-sign-inner{
-			margin-top: 70px !important;
+			margin-top: 50px !important;
 		}
 		.lp-sign.startTrial-outer .btn-buildcal {padding: 14px 22px !important;}
 		.lp-sign.startTrial-outer a { right: 172px !important;}
@@ -4492,7 +4492,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	/*.lp-sign.startTrial-outer input{width: 56% !important;}*/
 	.startTrial-outer.lp-sign{background-size: 50% !important;}
-	.lp-sign-inner {margin-left: 30px !important;}
+	.lp-sign .lp-sign-inner {
+		margin-left: 30px !important;
+		margin-top: 60px !important;
+	}
 	.lp-sign.startTrial-outer input {width: 48% !important;	}
 
 
@@ -4541,6 +4544,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.lp-sign-inner {
 		margin-left: 30px !important;
+	}
+	div.swiper-container .swiper-slide.swiper-slide-active {
+		width: 62% !important;
 	}
 
 }
