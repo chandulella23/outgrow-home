@@ -4492,13 +4492,13 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	/*.lp-sign.startTrial-outer input{width: 56% !important;}*/
 	.startTrial-outer.lp-sign{background-size: 50% !important;}
-	.lp-sign .lp-sign-inner {
+	div.lp-sign .lp-sign-inner {
 		margin-left: 30px !important;
-		margin-top: 60px !important;
+		margin-top: 80px !important;
 	}
 	.lp-sign.startTrial-outer input {width: 48% !important;	}
 	.btn-signup.startTrial-outer input{ width: 50%;}
-
+	div.startTrial-outer.lp-sign{min-height: 173px !important;}
 
 
 }
@@ -4539,7 +4539,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.startTrial-outer.lp-sign {
 		/*margin-left: 27% !important;*/
 		background-size: 50% !important; 
-		min-height: 239px;
+		min-height: 239px !important;
 	}
 	.lp-sign.startTrial-outer input {
 		width: 46% !important;
