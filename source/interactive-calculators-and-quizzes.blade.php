@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.lp')
 
 @section('title', 'Interactive Calculators and Quizzes | Outgrow')
 
@@ -7,7 +7,7 @@
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Interactive Calculators | Outgrow" />
+	<meta property="og:title" content="Interactive Calculators and Quizzes | Outgrow" />
 	<meta property="og:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
 	<meta property="og:url" content="https://outgrow.co/" />
 	<meta property="og:site_name" content="Outgrow" />
@@ -29,20 +29,19 @@
 
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
-	
-	<section class="section section-1">
+	<section class="section section-1 section-old">
 		<div class="container-fluid">
-			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
+			<div class="col-md-5 col-sm-12 col-xs-12 section-1-left">
 				<div class="section1-left-cell">
 					<h4 class="mk-animate-element fade-in">
 						eBooks, blogs & whitepapers giving average results?
 					</h4>
 					<h3 class="mk-animate-element fade-in section1-firsthead">
-						Boost your marketing with highly <br/>converting <b>calculators</b> and viral <b>quizzes</b>.
+						Boost your marketing with highly converting <b>calculators</b> and viral <b>quizzes</b>.
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
 							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
@@ -53,7 +52,7 @@
 									<label></label>
 								</div>
 							</a>
-							<div id="bfrVid"></div>
+							<!--<div id="bfrVid"></div>-->
 						</div>
 					</div>
 				</div>
@@ -103,7 +102,21 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
+			<!--<div class="col-md-7 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
+				<div class="video-img-wrapper">
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-web" id="him1">
+							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon">
+								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>-->
+
+			<div class="col-md-7 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1">
@@ -122,40 +135,78 @@
 					console.log('Some cick');
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3'
 				}
+
 				function btnclose() {
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3'
 				}
 				function changeHeightRes () {
 					console.log('Res');
-					window.location.replace('#bfrVid')
+					// window.location.replace('#bfrVid')
 					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main-rs');
-					if (xDiv.style.height == '')
-						xDiv.style.height = '460px';
-					else
-						xDiv.style.height = '';
+					// if (xDiv.style.height == '')
+					// 	xDiv.style.height = '460px';
+					// else
+					// 	xDiv.style.height = '';
 				}
 				function changeHeightWeb1 () {
 					console.log('Tab');
-					window.location.replace('#bfrVid')
+					// window.location.replace('#bfrVid')
 					document.getElementById("him1").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main');
 
-					if (xDiv.style.height == '')
-						xDiv.style.height = '600px';
-					else
-						xDiv.style.height = '';
+					// if (xDiv.style.height == '')
+					// 	xDiv.style.height = '600px';
+					// else
+					// 	xDiv.style.height = '';
 				}
 			</script>
 		</div>
 	</section>
 
-
-	<!--<section class="section section-3 p20 calc-table">
-		<div class="container">
+	<section class="section section-10 sec-grey">
+		<div class="container container-center">
 			<h1 class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing
 			</h1>
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table1.png">
+					<span>Achieve Conversion Rates of Over 60%</span>
+					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table2.png">
+					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
+					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
+
+				</div>
+				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
+					<img src="{{ $page->baseUrl }}/images/img-table3.png">
+					
+					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
+					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+		<div class="start-trial-cta">
+			<a href="/calculators-vs-ebooks">
+				<button class="btn-buildcal">
+					<i class="material-icons">view_compact</i>
+					See how calculators compare to ebooks etc
+				</button>
+			</a>
+		</div>
+	</div>-->
+
+	<!--<h1 class="section-2-heading mk-animate-element scale-up mk-in-viewport full-visible">
+		Why calculators outperform <br/> ebooks &amp; marketing Pages?
+	</h1>
+	<section class="section section-3 mt7 p20">
+		<div class="container">
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -251,7 +302,7 @@
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 np rs-hide calc-table-inner">
+			<div class="col-xs-12 col-sm-12 np rs-hide">
 				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
 					<div class="col-xs-12 np sec3-box1inner">
 						<h4>Add Real Value</h4>
@@ -345,51 +396,12 @@
 		</div>
 	</section>-->
 
-	<section class="section section-10 sec-grey">
-		<div class="container container-center">
-			<h1 class="section-2-heading">
-				Calculators & quizzes:<br/> The Next Big Thing in Marketing
-			</h1>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table1.png">
-					<span>Achieve Conversion Rates of Over 60%</span>
-					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table2.png">
-					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
-
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table3.png">
-					
-					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
-					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-		<div class="start-trial-cta">
-			<a href="/calculators-vs-ebooks">
-				<button class="btn-buildcal">
-					<i class="material-icons">view_compact</i>
-					See why calculators are better than ebooks
-				</button>
-			</a>
-		</div>
-	</div>
-
 	<!-- Homepage section 3 end-->
 
 	<section class="section">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up ">
-				Beautiful calculators and quizzes. <br/> Without developers.
+			<h1 class="section-2-heading mk-animate-element scale-up sec-top-heading">
+				Beautiful calculators and quizzes. <br/> Without Developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
 				 Create beautiful experiences in minutes with our simple, yet powerful development studio.
@@ -416,15 +428,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">format_paint</i>
-					<span><b>Appealing templates</b> that set your UX apart</span>
+					<span><b>Appealing Templates</b> that Set Your UX Apart</span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">view_compact</i>
-					<span>Showcase your brand with <b>quick customizations</b> </span>
+					<span>Showcase Your Brand with <b>Quick Customizations</b> </span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">developer_board</i>
-					<span>Publish in minutes, with <b>no IT headache</b></span>
+					<span>Publish Within Minutes, with <b>No IT Headache</b> including <b>Charts and Graphs</b></span>
 				</span>
 
 			</div>
@@ -438,6 +450,18 @@
 					</div>
 				</div>
 			</div>
+			<!--<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup">
+				<i class="material-icons">email</i>
+				<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+				<a href="javascript:void(0)" class="">
+					<button onclick="callGA('CANNOT WAIT CTA')" class="btn-buildcal fade-in lead-form-btn">
+						Sign Up
+					</button>
+					<div class="btn-bottominfo fade-in">
+						<label></label>
+					</div>
+				</a>
+			</div>-->
 		</div>
 	</section>
 	<!-- Homepage section 4 end-->
@@ -454,15 +478,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left" >
 					<i class="material-icons">public</i>
-					<span>Publish on <b>your domain</b> or a URL of your choice.</span>
+					<span>Publish on <b>Your Domain</b> or a URL of your choice.</span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Embed beautifully in any <b>App, Webpage or CMS</b>.</span>
+					<span>Embed Beautifully in Any <b>App, Webpage or CMS</b>.</span>
 				</span>
 				 <span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Present as a <b>Pop-up</b> or a <b>slide-in</b>. </span>
+					<span>Present as a <b>Pop-up</b> or a <b>Slide-in</b>. </span>
 				</span>
 
 			</div>
@@ -474,7 +498,7 @@
 	<!-- Homepage section 5 end-->
 
 	<!-- Homepage section 6 start-->
-	<section class="section section-6">
+	<section class="section section-6 sec-6-old">
 		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show">
 				<img class="scrollimg mk-animate-element right-to-left sec6-2-1" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-tab.png" />
@@ -497,11 +521,44 @@
 				<img class="scrollimg mk-animate-element right-to-left" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-tab.png" />
 				<img class="scrollimg sec4-2 mk-animate-element left-to-right" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-mobile.png" />
 			</div>
+			<!--<div class="col-xs-12 col-sm-12 text-center rs-hide">
+				<a href="{{ $page->baseUrl }}/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
+			</div>-->
+
+			<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup btn-signup1">
+				<i class="material-icons">email</i>
+				<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
+				
+				<a href="//app.outgrow.co/signup/?email=" class="lead-email-1" onclick="callGA('CANNOT WAIT CTA')">
+					<span class="btn-buildcal fade-in lead-form-btn">
+						Start Free Trial
+					</span>
+					<div class="btn-bottominfo fade-in">
+						<label></label>
+					</div>
+				</a>
+				<!--<div id="bfrVid"></div>-->
+			</div>
 		</div>
+		<script>
+			document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
+				let email = e.target.value;
+				let href = "//app.outgrow.co/signup/?email=";
+				document.getElementsByClassName('lead-email-1')[0].href = href + email;
+			}
+
+			document.getElementsByClassName('lead-form-email-1')[0].onkeypress = function (e) {
+				let email = e.target.value;
+				let href = "//app.outgrow.co/signup/?email=";
+				if (e.keyCode == 13) {
+					window.location.href = href+email;
+				}
+			}
+		</script>
 	</section>
 
 	<!-- Homepage section 5 start-->
-	<section class="section section-5">
+	<!--<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
 				<img class="scrollimg mk-animate-element scale-up" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-analyze_improve.png" />
@@ -512,15 +569,15 @@
 				</h4>
 				<span class="mk-animate-element right-to-left" >
 					<i class="material-icons">public</i>
-					<span>Hyper-targeted sales outreach with <b>rich customer data</b></span>
+					<span>Hyper-targeted Sales Outreach with <b>Rich Customer Data</b></span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Track <b>visits, conversions</b> and traffic from across all channels</span>
+					<span>Track <b>Visits, Conversions</b> and Traffic from Across All Channels</span>
 				</span>
 				 <span class="mk-animate-element right-to-left">
 					<i class="material-icons">check_circle</i>
-					<span>Easily integrate with <b>over 500 sales & marketing tools</b></span>
+					<span>Easily Integrate with <b>Over 500 sales & marketing tools</b></span>
 				</span>
 
 			</div>
@@ -532,7 +589,7 @@
 				<a href="{{ $page->baseUrl }}/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<!-- Homepage section 5 end-->
 
 	<section class="section sec-integrations">
@@ -599,11 +656,11 @@
 	<!-- Homepage section 6 end-->
 
 	<!-- Homepage The Outgrow Magic -->
-	<div class="section-main">
+	<!--<div class="section-main">
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
-					Outgrow In Practice
+					The Outgrow Magic
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
 					Get inspired by some of our most successful calculators & quizzes!
@@ -614,23 +671,21 @@
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">
 				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
-					<a href="javascript:void(0);" class="active"
+					<a href="javascript:void(0);" target="_blank" class="active"
 						onclick="display('https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1')">
 						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
 					</a>
-					<a href="javascript:void(0);" class=""
+					<a href="javascript:void(0);" target="_blank" class=""
 						onclick="display('https://website.outgrow.co/Cost-of-a-video-campaign-4?vHeight=1')">
 						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
 					</a>
-					<a href="javascript:void(0);" class=""
+					<a href="javascript:void(0);" target="_blank" class=""
 						onclick="display('https://website.outgrow.co/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
 						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 np">
-					<!--<div id="sticky-anchor"></div>-->
 					<div class="tab-outer-frame col-xs-12 col-md-12 col-sm-12 text-center">
-						<!--<span class="icon-webcam"></span>-->
 						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
 							<iframe id="og-iframe" src="" data-calc="https://website.outgrow.co/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
 						</div>
@@ -652,11 +707,11 @@
 				</div>
 			</div>
 		</section>
-	</div>
+	</div>-->
 
 	<!--section testimonial -->
 	<div class="section-main">
-		<section class="section section-7-top">
+		<section class="section section-7-top section-7-top-old">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
 					Check what our users have to say!
@@ -695,7 +750,7 @@
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 		</div>
-		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-show rs-hide-less480">
+		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-show rs-hide-less480 section-old-testi">
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
@@ -727,7 +782,7 @@
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 		</div>
-		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-hide">
+		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-hide section-old-testi">
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
@@ -776,13 +831,40 @@
 	</div>
 	<!--section testimonial -->
 
-	<section class="section section-startFreeTrial-btn text-center">
-		<a href="//app.outgrow.co" class="params trialLOL">
-			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
-			<img src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
-		</a>
-		<div class=""><label>Plans Start at $25/month</label></div>
-	</section>
+	<div class="col-md-12 col-xs-12 col-sm-12 np startTrial-outer lp-sign">
+		<div class="lp-sign-inner">
+			<i class="material-icons">email</i>
+			<input class="lead-form-email-2" name="emailId" type="email" placeholder="Please enter your email address">
+			<a href="//app.outgrow.co/signup/?email=" class="lead-email-2" onclick="callGA('CANNOT WAIT CTA')">
+				<span class="btn-buildcal fade-in lead-form-btn">
+					Start Free Trial
+				</span>
+			</a>
+		</div>
+		<!--<div id="bfrVid"></div>-->
+	</div>
+
+	<div class="footer-copyright footer-lp">
+		<i class="material-icons">copyright</i>
+		<span>Copyright 2017</span>
+		<img class="scrollimg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/footer-logo-dark.png" src="" />
+		<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/comodo_secure.png" src="" /></a>
+	</div>
+	<script>
+		document.getElementsByClassName('lead-form-email-2')[0].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/signup/?email=";
+			document.getElementsByClassName('lead-email-2')[0].href = href + email;
+		}
+
+		document.getElementsByClassName('lead-form-email-2')[0].onkeypress = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/signup/?email=";
+			if (e.keyCode == 13) {
+				window.location.href = href+email;
+			}
+		}
+	</script>
 	<!-- Homepage section 13 end-->
 
 	<!-- Start: Modal Video -->

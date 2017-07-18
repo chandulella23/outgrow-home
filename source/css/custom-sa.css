@@ -167,7 +167,7 @@ label {
 .navbar-brand {
 	padding: 0;
 	margin-left: 30px !important;
-	padding-top: 10px;
+	padding-top: 8px;
 }
 .custom-navbar.navbar-default {
 	background: #fff;
@@ -175,6 +175,9 @@ label {
 	padding: 0;
 	z-index: 999;
 	border-bottom: 1px solid #eff0f0;
+	padding: 5px 0px;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .custom-navbar.navbar-default .navbar-nav>li {
 	margin-right: 20px
@@ -235,7 +238,8 @@ label {
     border: 2px solid #f8434b !important;
 }
 .nav-boxshadow {
-	box-shadow: 0 2px 9px 1px rgba(0, 0, 0, .2)
+	box-shadow: 0 2px 9px 1px rgba(0, 0, 0, .2);
+	padding: 0px !important;
 }
 .section {
 	margin-bottom: 30px
@@ -1863,7 +1867,7 @@ label {
 }
 .footer-copyright p, .footer-link ul li a {
 	font-family: montserratregular;
-	font-size: 14px
+	font-size: 13px
 }
 .footer-img, .footer-link {
 	padding-left: 0
@@ -1945,6 +1949,7 @@ label {
 }
 .footer-img-text a {
 	color: #62696d;
+	font-family: montserratlight;
 }
 .footer-img-text a:hover {
 	color: #fb5f66;
@@ -1964,7 +1969,7 @@ label {
 .footer-social ul li a {
 	float: left;
 	color: #62696d;
-	font-size: 14px;
+	font-size: 13px;
 	font-family: montserratregular;
 }
 .footer-social ul li a:hover {
@@ -4465,7 +4470,7 @@ button.swiper-pagination-bullet {
     margin-top: 50px;
 	margin-bottom: 30px;
 	background: #fb6c73;
-	padding: 30px 0
+	padding: 35px 0
 }
 #why .section-top-why h3 {
 	font-size: 30px;
@@ -4497,7 +4502,6 @@ button.swiper-pagination-bullet {
 }
 .navbar {
 	margin-bottom: 0; 
-    min-height: 55px;
 }
 .test1 {
 	margin-top: 30px
@@ -5472,7 +5476,7 @@ iframe[name=google_conversion_frame] {
 }
 
 /* new css changes by Arti */
-	.navbar-brand>img {width: 90%;}
+	.navbar-brand>img {width: 100%;}
 	#feature .section-f4-left {
 		padding-left: 0px; padding-right: 0px;
 	}
