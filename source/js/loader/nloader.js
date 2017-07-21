@@ -625,6 +625,7 @@ function initIframe(iframe_id) {
         og_e.parentElement.setAttribute("style", "width:100% !important;");
         if (iWidth < 786) {
             var randNum = Number(Math.floor(Math.random() * (3000 - 2000) + 2000));
+			randNum = 7500;
 			var imageUrl = "http://api.screenshotmachine.com/?key=d56ff2&device=phone&timeout=" + randNum + "&url=" + og_u;
             //var imageUrl = "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=agent:mobile,delay:" + randNum + ",width:" + iWidth + "/" + og_u;
             var og_image = document.createElement("img");
