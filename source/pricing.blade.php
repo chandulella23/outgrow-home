@@ -525,6 +525,7 @@
 
                     <!-- essential -->
                     <div class="col-md-12 col-sm-12 col-xs-12 np pricing-block">
+                        <span class="ribbon">Most Popular</span>
                         <div class="pricing-top">
                             <h3>Essential</h3>
                             <span class="annual-price">
