@@ -932,21 +932,32 @@ label {
 			border:0 none;
 		}
 
-		colgroup:nth-child(2),colgroup:nth-child(3) {
+		colgroup:nth-child(2){
 			width:25%;
 			border:1px solid #eff0f1;
 		}
 
-		colgroup:nth-child(4) {
+		colgroup:nth-child(3) {
 			width: 25%;
 			border: 1px solid #bed4df;
 			box-shadow: 0 0px 10px rgba(0, 0, 0, .10);
 			/* display: table-column; */
-			right: -1px;
+			right: 224px;
+			position: absolute;
+			top: -1px;
+			height: 100%;
+			z-index: 1;
+			border-top: none;
+		}
+
+		colgroup:nth-child(4) {
+			right: 0;
 			position: absolute;
 			top: -1px;
 			height: 100%;
 			z-index: 0;
+			width: 25%;
+			border: 1px solid #eff0f1;
 		}
 
 		thead th {
@@ -1061,7 +1072,8 @@ label {
 			padding: 15px;			
     		line-height: 1;
 			z-index: 2;
-    		position: relative;
+			position: relative;
+			width: 25%;
 		}
 
 		tbody tr:hover {
@@ -1173,6 +1185,7 @@ label {
 			border: 1px solid #bed4df;
 			box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);
 			border-bottom: 0px solid transparent;
+			z-index: 1;
 		}
 
 		colgroup:after {
@@ -1201,7 +1214,8 @@ label {
 			background-color: #fb545b;
 			text-transform: uppercase;
 			top: -18px;
-			right: -7px;
+			right: -7px;			
+			z-index: 1;
 		}
 
 	/* end: table */
