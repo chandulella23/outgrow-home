@@ -2437,7 +2437,7 @@ label.control-label {
     border: 2px solid #fb5f66;
     transition: .5s ease-in-out;
     line-height: normal;
-    box-shadow: 0px 9px 18px 0px rgba(251,108,115,0.99);
+    box-shadow: 0px 9px 18px 0px rgba(216,199,200,0.99);
     margin-top: 80px;
     border-radius: 50px;
     display: inline-flex;
@@ -2625,7 +2625,11 @@ label.control-label {
 .portfolio_title_custom{font-size:12px;box-shadow:6px 6px 3px rgba(0,0,0,.04);opacity:1;z-index:10;background-color:#fff;bottom:5%;left:-4%;position:absolute}
 .projects_holder article a.portfolio_link_class,.projects_masonry_holder article a.portfolio_link_class{cursor:default}
 .start-trial-cta .btn-buildcal{background:#fb6c73;border:2px solid #fb6c73;color:#fff;float:none;font-size:14px;text-transform:uppercase;padding:13px 45px;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out;vertical-align:middle}
-.start-trial-cta .btn-buildcal:hover{background:#fdb6b9;color:#fb545b;border-color:#fdb6b9}
+.start-trial-cta .btn-buildcal:hover{
+	background: #fb757b;
+    color: #fff;
+	border-color: #f8434b;
+}
 .start-trial-cta .btn-buildcal i{display:inline-block;float:left;margin-right:10px;position:relative;top:0px}
 .start-trial-cta label{float:none;width:100%;color:#8e989f;font-size:12px;font-family:montserratlight}
 .start-trial-cta .btn-buildcal p{float:left;margin:0 10px 0 0;line-height:30px}
