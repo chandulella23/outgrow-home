@@ -1219,6 +1219,13 @@ label {
 			right: -7px;			
 			z-index: 1;
 		} */
+		th.active {
+			cursor: text;
+			z-index: 9;
+		}
+		thead span a{
+			z-index: 9;
+		}
 
 	/* end: table */
 
