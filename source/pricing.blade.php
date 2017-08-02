@@ -399,7 +399,7 @@
                                 <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
                                 <p class="price">$45<sub>mo.</sub></p>
                             </span>
-                            <span class=""><a href="javascript:void(0);" target="_blank" class="btn-hover">Start trial</a></span>
+                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
@@ -543,7 +543,7 @@
                                 <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
                                 <p class="price">$115<sub>mo.</sub></p>
                             </span>
-                            <span class=""><a href="javascript:void(0);" target="_blank" class="btn-hover">Start trial</a></span>
+                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
@@ -686,7 +686,7 @@
                                 <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
                                 <p class="price">$720<sub>mo.</sub></p>
                             </span>
-                            <span class=""><a href="javascript:void(0);" target="_blank" class="btn-hover">Start trial</a></span>
+                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
