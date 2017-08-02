@@ -155,7 +155,7 @@
 					</span>
 					<span class="">
 						<i class="material-icons">ac_unit</i>
-						<span>Outcome calculators</span>
+						<span>Outcome quizzes</span>
 					</span>
 					<span class="">
 						<i class="material-icons">devices</i>
