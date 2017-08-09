@@ -768,8 +768,6 @@
 				spaceBetween: 30,
 				slidesPerView: 3,
 				centeredSlides: true,
-				// autoplay: 2500,
-				// speed:500,
 				autoplayDisableOnInteraction: false
 			});
 		</script>
@@ -783,9 +781,7 @@
 		</a>
 		<div class=""><label>Plans Start at $25/month</label></div>
 	</section>
-	<!-- Homepage section 13 end-->
-
-	<!-- Start: Modal Video -->
+	
 	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
 			<!-- Modal content-->
