@@ -848,15 +848,16 @@ label {
 			font-size: 11px;
 			text-transform: uppercase;
 			border: none !important;
-			-webkit-border-top-right-radius: 0;
-			-webkit-border-bottom-right-radius: 0;
-			-moz-border-radius-topright: 0;
-			-moz-border-radius-bottomright: 0;
-			border-top-right-radius: 0;
-			border-bottom-right-radius: 0
+			-webkit-border-top-right-radius: 25px;
+			-webkit-border-bottom-right-radius: 25px;
+			-moz-border-radius-topright: 25px;
+			-moz-border-radius-bottomright: 25px;
+			border-top-right-radius: 25px;
+			border-bottom-right-radius: 25px
 		}
 		.billing-plan-list ul>li:nth-child(2)>a.hvr-sweep-to-right::before {
-			background: #f6f8f9
+			background: #f6f8f9;
+			border-radius: 0px 25px 25px 0px;
 		}
 		.billing-plan-list ul>li:nth-child(3)>a {
 			color: #8e989f;
