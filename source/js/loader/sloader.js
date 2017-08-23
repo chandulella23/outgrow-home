@@ -625,7 +625,7 @@ function initIframe(iframe_id) {
         var og_js = document.createElement("script");
         og_e.parentElement.setAttribute("style", "width:100% !important;");
         if (iWidth < 786) {
-            var randNum = Number(Math.floor(Math.random() * (3000 - 2000) + 5000));
+            var randNum = Number(Math.floor(Math.random() * (3000 - 2000) + 9000));
             var imageUrl = "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=agent:mobile,delay:" + randNum + ",width:" + iWidth + "/" + og_su;
             var og_image = document.createElement("img");
             og_image.setAttribute("id", "og_image_" + iframe_id);
