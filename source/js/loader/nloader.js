@@ -1,1 +1,720 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('!4(a){"5f 5e";4 b(b,c,d){"4g"18 a?b.4g(c,d,!1):"3Q"18 a&&b.3Q("2w"+c,d)}4 c(b,c,d){"45"18 a?b.45(c,d,!1):"3s"18 a&&b.3s("2w"+c,d)}4 d(){5 b,c=["6k","1U","o","6g"];1g(b=0;b<c.2m&&!N;b+=1)N=a[c[b]+"3k"];N||h("4e","3k 1a 5W")}4 e(b){5 c="3x 1l: "+b;Y a.1o!==a.2S&&(c=a.1q&&a.1q.3D?a.1q.3D()+": "+b:"5G 44 1l: "+b),c}4 f(a){Y K+"["+e(a)+"]"}4 g(a){Y P[a]?P[a].1O:G}4 h(a,b){k("1O",a,b,g(a))}4 i(a,b){k("5I",a,b,g(a))}4 j(a,b){k("5D",a,b,!0)}4 k(b,c,d,e){!0===e&&"1S"==1p a.4h&&4h[b](f(c),d)}4 l(d){4 e(){4 a(){s(V),p(W)}g("3Z"),g("3X"),t(a,V,"1J")}4 f(){5 a=U.2n(L).2c(":");Y{X:P[a[0]].X,12:a[0],13:a[1],15:a[2],1n:a[3]}}4 g(a){5 b=1i(P[W]["1D"+a]),c=1i(P[W]["2q"+a]),d=a.5S(),e=1i(V[d]);h(W,"39 "+d+" 1E 18 5U "+c+"-"+b),c>e&&(e=c,h(W,"2o "+d+" 1h 2q 3u")),e>b&&(e=b,h(W,"2o "+d+" 1h 1D 3u")),V[d]=""+e}4 k(){4 a(){4 a(){5 a=0,d=!1;1g(h(W,"39 4n 1E 1Z 5P 5O 2s 5M: "+c);a<c.2m;a++)19(c[a]===b){d=!0;1c}Y d}4 d(){5 a=P[W].2G;Y h(W,"39 4n 1E 1Z: "+a),b===a}Y c.6c===3E?a():d()}5 b=d.6b,c=P[W].25;19(c&&""+b!="11"&&!a())1F 1w 3M("3m 1x 6f 1Z: "+b+" 1g "+V.X.12+". 2F 3G: "+d.1z+". 68 52 3T 3Y 3U 2z 56 5d 25: 2e 5j 5v 2z 5n 2s 5w 2s 4V 4W.");Y!0}4 l(){Y K===(""+U).2n(0,L)&&U.2n(L).2c(":")[0]18 P}4 w(){5 a=V.1n 18{"3d":1,"2e":1,46:1};Y a&&h(W,"58 1J 1x 1Z 55 2Q 1l"),a}4 y(a){Y U.2n(U.57(":")+J+a)}4 z(a){h(W,"4s 4Y: {X: "+V.X.12+", 1x: "+a+"}"),N("4w",{X:V.X,1x:2H.54(a)}),h(W,"--")}4 A(){5 b=7.1G.2N(),c=V.X.2N();Y 2H.43({53:c.13,65:c.15,4G:1P.1D(7.2a.4G,a.67||0),3c:1P.1D(7.2a.3c,a.2K||0),61:4x(c.1o-b.1o,10),5x:4x(c.1X-b.1X,10),3h:a.2B,3J:a.2J})}4 B(a,b){4 c(){u("3i 3y 69","3I:"+A(),a,b)}x(c,32)}4 C(){4 d(b,c){4 d(){P[g]?B(P[g].X,g):e()}["1L","1s"].3p(4(e){h(g,b+e+" 4f 1g 6a"),c(a,e,d)})}4 e(){d("6h ",c)}4 f(){d("6i ",b)}5 g=W;f(),P[g].2b=e}4 D(){P[W]&&P[W].2b&&(P[W].2b(),2C P[W].2b)}4 E(){5 a=!0;Y 11===V.X&&(j(W,"2h ("+V.12+") 1a 1I"),a=!1),a}4 F(a){5 b=a.2N();Y o(W),{x:1P.2v(1i(b.1X)+1i(M.x)),y:1P.2v(1i(b.1o)+1i(M.y))}}4 G(b){4 c(){M=g,H(),h(W,"--")}4 d(){Y{x:1i(V.15)+f.x,y:1i(V.13)+f.y}}4 e(){a.1q?a.1q["2A"+(b?"6e":"")](g.x,g.y):j(W,"3t 1h 1L 1h 2d 1A, 1H.1q 1a 1I")}5 f=b?F(V.X):{x:0,y:0},g=d();h(W,"5X 2d 1Z 1f (5L x:"+f.x+" y:"+f.y+")"),a.1o!==a.2S?e():c()}4 H(){!1!==N("4v",M)?p(W):q()}4 I(b){4 c(){5 a=F(g);h(W,"62 1h 18 1l 2T (#"+e+") 5N x: "+a.x+" y: "+a.y),M={x:a.x,y:a.y},H(),h(W,"--")}4 d(){a.1q?a.1q.2I(e):h(W,"3B 1l 2T #"+e+" 1a 1I 5Q 1H.1q 1a 1I")}5 e=b.2c("#")[1]||"",f=5R(e),g=7.1d(f)||7.5V(f)[0];g?c():a.1o!==a.2S?d():h(W,"3B 1l 2T #"+e+" 1a 1I")}4 N(a,b){Y m(W,a,b)}4 O(){47(P[W].1Y&&T(),V.1n){1e"3V":n(V.X);1c;1e"1x":z(y(6));1c;1e"2A":G(!1);1c;1e"5T":G(!0);1c;1e"3I":B(P[W].X,W),C();1c;1e"5K":D();1c;1e"5J":I(y(9));1c;1e"28":r(V);1c;1e"1J":e(),N("4z",V.X),N("2L",V);1c;3o:e(),N("2L",V)}}4 Q(a){5 b=!0;Y P[a]||(b=!1,j(V.1n+" 5C 5B 1g "+a+". 2F 3G: "+U)),b}4 S(){1g(5 a 18 P)u("1f 2d 1J",v(a),7.1d(a),a)}4 T(){P[W].1Y=!1}5 U=d.1z,V={},W=11;"[5A]5y"===U?S():l()?(V=f(),W=R=V.12,!w()&&Q(W)&&(h(W,"5z: "+U),E()&&k()&&O())):i(W,"49: "+U)}4 m(a,b,c){5 d=11,e=11;19(P[a]){19(d=P[a][b],"4"!=1p d)1F 1w 23(b+" 2w 1f["+a+"] 1E 1a a 4");e=d(c)}Y e}4 n(a){5 b=a.12;h(b,"5E 1f: "+b),a.5H.5F(a),m(b,"4r",b),h(b,"--"),2C P[b]}4 o(b){11===M&&(M={x:1y 0!==a.2J?a.2J:7.2a.3J,y:1y 0!==a.2B?a.2B:7.2a.3h},h(b,"6d 1l 1A: "+M.x+","+M.y))}4 p(b){11!==M&&(a.2A(M.x,M.y),h(b,"2o 1l 1A: "+M.x+","+M.y),q())}4 q(){M=11}4 r(a){4 b(){s(a),u("28","28",a.X,a.12)}h(a.12,"6j 28 2d 2z "+("1J"===a.1n?"44 1l":"1f")),o(a.12),t(b,a,"28")}4 s(a){4 b(b){a.X.1b[b]=a[b]+"1R",h(a.12,"2h ("+e+") "+b+" 60 1h "+a[b]+"1R")}4 c(b){H||"0"!==a[b]||(H=!0,h(e,"5Y 1f 5Z, 63 64 4f"),y())}4 d(a){b(a),c(a)}5 e=a.X.12;P[e]&&(P[e].4R&&d("13"),P[e].2M&&d("15"))}4 t(a,b,c){c!==b.1n&&N?(h(b.12,"66 6l 5r"),N(a)):a()}4 u(a,b,c,d){4 e(){5 e=P[d].2E;h(d,"["+a+"] 51 50 1h X["+d+"] ("+b+") 2E: "+e),c.2D.4Z(K+b,e)}4 f(){i(d,"["+a+"] 2h("+d+") 1a 1I"),P[d]&&2C P[d]}4 g(){c&&"2D"18 c&&11!==c.2D?e():f()}d=d||c.12,P[d]&&g()}4 v(a){Y a+":"+P[a].2U+":"+P[a].2M+":"+P[a].1O+":"+P[a].4D+":"+P[a].3e+":"+P[a].2g+":"+P[a].1C+":"+P[a].2V+":"+P[a].3A+":"+P[a].42+":"+P[a].4o+":"+P[a].4J+":"+P[a].2R+":"+P[a].4q}4 w(a,c){4 d(){4 b(b){1/0!==P[w][b]&&0!==P[w][b]&&(a.1b[b]=P[w][b]+"1R",h(w,"2o "+b+" = "+P[w][b]+"1R"))}4 c(a){19(P[w]["2q"+a]>P[w]["1D"+a])1F 1w 3M("4X 1g 2q"+a+" 3T 1a 3Y 5p 5o 1D"+a)}c("3Z"),c("3X"),b("4N"),b("2i"),b("4T"),b("4S")}4 e(){5 a=c&&c.12||S.12+F++;Y 11!==7.1d(a)&&(a+=F++),a}4 f(b){Y R=b,""===b&&(a.12=b=e(),G=(c||{}).1O,R=b,h(b,"5m 5q X 59: "+b+" ("+a.1N+")")),b}4 g(){h(w,"2h 1j "+(P[w].1j?"5u":"3U")+" 1g "+w),a.1b.1B=!1===P[w].1j?"2r":"1Q",a.1j=!1===P[w].1j?"5t":"5s"}4 i(){("5l"==1p P[w].1C||"0"===P[w].1C)&&(P[w].2U=P[w].1C,P[w].1C=""+P[w].1C+"1R")}4 k(){5 b=P[w].1Y,c=P[w].2V 18 O;!b&&c&&r({X:a,13:0,15:0,1n:"1J"})}4 l(){5k.3l.26&&(P[w].X.2W={3V:n.26(11,P[w].X),1s:u.26(11,"3N 1s","1s",P[w].X),2I:4(a){u("5c 1h 5b","2I:"+a,P[w].X,w)},5a:4(a){a=2H.43(a),u("3i 2F","1x:"+a,P[w].X,w)}})}4 m(c){4 d(){u("1f.2t",c,a),k()}b(a,"5i",d),u("1J",c,a)}4 o(a){19("1S"!=1p a)1F 1w 23("5h 1E 1a 5g 1S")}4 p(a){1g(5 b 18 S)S.4y(b)&&(P[w][b]=a.4y(b)?a[b]:S[b])}4 q(a){Y""===a||"6D://"===a?"*":a}4 s(b){b=b||{},P[w]={1Y:!0,X:a,2G:a.1N.2c("/").7J(0,3).7H("/")},o(b),p(b),P[w].2E=!0===P[w].25?q(P[w].2G):"*"}4 t(){Y w 18 P&&"2W"18 a}5 w=f(a.12);t()?j(w,"49 1f, 7N 4e."):(s(c),g(),d(),i(),m(v(w)),l())}4 x(a,b){11===Q&&(Q=7m(4(){Q=11,a()},b))}4 y(){4 b(){4 a(a){4 b(b){Y"4F"===P[a].X.1b[b]}4 c(a){Y 11!==a.7y}c(P[a].X)&&(b("13")||b("15"))&&u("7x 40","1s",P[a].X,a)}1g(5 b 18 P)a(b)}4 c(a){h("1H","7w 7v: "+a[0].7z+" "+a[0].1n),x(b,16)}4 d(){5 a=7.7r("1G"),b={7q:!0,7C:!1,7O:!0,7M:!1,7P:!0,7Q:!0},d=1w e(c);d.7S(a,b)}5 e=a.7L||a.7t;e&&d()}4 z(a){4 b(){B("3N "+a,"1s")}h("1H","3P 3R: "+a),x(b,16)}4 A(){4 a(){B("7I 7F","1s")}"2r"!==7.7K&&(h("7","3P 3R: 7R 40"),x(a,16))}4 B(a,b){4 c(a){Y"2Q"===P[a].2R&&P[a].2g&&!P[a].1Y}1g(5 d 18 P)c(d)&&u(a,b,7.1d(d),d)}4 C(){b(a,"1x",l),b(a,"1s",4(){z("1s")}),b(7,"4d",A),b(7,"-1U-4d",A),b(a,"7B",4(){z("2y")}),b(a,"2y",4(){z("2y")})}4 D(){4 a(a,c){4 d(){19(!c.2x)1F 1w 23("7p 1E 1a a 7o 7A 7T");19("48"!==c.2x.7u())1F 1w 23("7s <48> 7n, 1I <"+c.2x+">")}c&&(d(),w(c,a),b.7l(c))}5 b;Y d(),C(),4(c,d){47(b=[],1p d){1e"46":1e"7E":3E.3l.3p.7D(7.7G(d||"X"),a.26(1y 0,c));1c;1e"1S":a(c,d);1c;3o:1F 1w 23("3m 1z 1n ("+1p d+")")}Y b}}4 E(a){a.3f?a.3f.2j=4(a){4 b(b,c){w(c,a)}Y 7j.6m("X").6G(b).6H()}:i("","3t 1h 26 1h 2O, 6F 1E 1a 6E 6C.")}5 F=0,G=!1,H=!1,I="1x",J=I.2m,K="[7k]",L=K.2m,M=11,N=a.6I,O={1D:1,1L:1,6J:1,6O:1},P={},Q=11,R="3x 3y",S={2g:!0,3A:11,1C:11,2U:8,42:11,25:!0,4J:!1,3e:!0,2V:"6N",12:"2W",4D:32,1O:!1,4N:1/0,4T:1/0,2i:0,4S:0,2R:"2Q",1j:!1,4R:!0,2M:!1,4o:0,4q:"1L",4r:4(){},4z:4(){},4w:4(){j("4s 4 1a 6M")},2L:4(){},4v:4(){Y!0}};a.2O&&E(2O),"4"==1p 2P&&2P.6K?2P([],D):"1S"==1p 2X&&"1S"==1p 2X.4P?2X.4P=D():a.2j=a.2j||D()}(1H||{});4 6L(14){5 2Y=0;5 20=1H.2K;5 1k=7.1d(14);19(1k.6B("1z-4t")){2Y=1}2f{1k.Z("1z-4t","1")}19(2Y==0){1k.Z("1b","6A-13: 0; 1A:6r;");5 2l=1k.4l(\'1z-6s\');5 2p=1k.4l(\'1z-15\');5 1T=7.24("1G")[0];5 4O=7.24("27")[0];1T.Z("1b","1B:1L !1u;13: 1t%;-1U-1B-1j: 4I !1u;");5 6q=7.1v("6p");1k.6n.Z("1b","15:1t% !1u;");19(20<4E){5 4i=1i(1P.2v(1P.6o()*(6t-6u)+6z));5 4k="6y://6x.6v.3K/6w/6P=6Q:7a,7b:"+4i+",15:"+20+"/"+2l;5 1K=7.1v("3n");1K.Z("12","79"+14);1K.Z("1N",4k);1K.Z("15",2p);1K.Z("3w","3b(\'"+14+"\')");1k.1m(1K);4U(14);5 4A=7.1d("2k");5 17=7.1v("X");17.Z("12","1V"+14);17.Z("1b","4B:22;");17.Z("3z","1M");17.Z("1N",2l);17.Z("15",2p);17.Z("1j","1Q");17.Z("2t","2u(\'"+14+"\')");4A.1m(17)}2f{5 17=7.1v("X");17.Z("12","1V"+14);17.Z("1b","4B:22;");17.Z("1N",2l);17.Z("15",2p);17.Z("1j","1Q");17.Z("2t","2u(\'"+14+"\')");1k.1m(17)}}}4 2u(14){5 20=1H.2K;5 4K=4H.15;5 3F=4H.13;5 4C=4K/3F;5 1f=7.1d("1V"+14);5 15=1f.3c;5 13=15/4C;19(20<4E){1f.1b.2i=13+\'1R\'}2f{5 78=2j({1O:2e,2g:3d,3e:3d,25:2e,2i:13},"#1V"+14)}}4 4U(14){5 1T=7.24("1G")[0];5 4O=7.24("27")[0];19(!7.1d("2k")){5 29=7.1v("76");29.Z("12","2k");29.Z("1b","1B: 1L !1u;-1U-1B-1j:4I !1u;-1U-4L: 77(4F);-1U-4L: 7c(0,0,0);");1T.1m(29);5 36=7.1v("1b");5 4m=(4Q.4p.4M(/7d/i)!=11)||(4Q.4p.4M(/7i/i)!=11);19(4m){5 38=7.2Z("1G, 27 {13: 1t%;34: 0;}.3a {z-35:4j;15: 1t%;13: 1t% !1u;1A: 37;1o: 0;1X: 0;}.1M{4u:22;}.13-1Q{13: 7h;}.31-33{1B: 2r !1u;}")}2f{5 38=7.2Z("1G, 27 {13: 1t%;34: 0;}.3a {z-35:4j;15: 1t%;13: 1t% !1u;1A: 37;1o: 0;1X: 0;}.1M{4u:22;}.13-1Q{13: 1t%; 34-7g: -7e;}.31-33{1B: 2r !1u;}")}36.1m(38);1T.1m(36)}5 1r=7.1v("a");1r.Z("7f","75:1y(0);");1r.Z("12","4c"+14);1r.Z("3z","74-X-6V 1M");1r.Z("3w","3b(\'"+14+"\')");1r.Z("1b","1A: 37;6W: 3%;1o: 3%;6U: 6T;6R-6S: 22;z-35:6X; 13:3g; 15:3g;");5 3q=7.2Z("");1r.1m(3q);1T.1m(1r);5 30=7.1v("3n");30.Z("1N","6Y://73.72.3K/71");1r.1m(30)}4 3b(14){5 e=7.1G;7.24(\'27\')[0].1W.21(\'31-33\');7.1d(\'2k\').1W.21(\'3a\');7.1d("1V"+14).1W.21(\'1M\');7.1d("1V"+14).1W.21(\'13-1Q\');7.1d(\'4c\'+14).1W.21(\'1M\');1y 0!==7.4a&&11===7.4a||1y 0!==7.4b&&11===7.4b||1y 0!==7.41&&!7.41||1y 0!==7.3O&&!7.3O?e.3L?e.3L():e.3S?e.3S():e.3W?e.3W(6Z.70):e.3j&&e.3j():7.3H?7.3H():7.3C?7.3C():7.3v?7.3v():7.3r&&7.3r()}',62,490,'||||function|var||document||||||||||||||||||||||||||||||||||||||||||||||||||||iframe|return|setAttribute||null|id|height|iframe_id|width||og_iFrame|in|if|not|style|break|getElementById|case|iFrame|for|to|Number|scrolling|og_e|page|appendChild|type|top|typeof|parentIFrame|og_button|resize|100|important|createElement|new|message|void|data|position|overflow|bodyMargin|max|is|throw|body|window|found|init|og_image|scroll|hide|src|log|Math|auto|px|object|og_b|webkit|og_iframe_|classList|left|firstRun|from|iWidth|toggle|none|TypeError|getElementsByTagName|checkOrigin|bind|html|reset|body_wrapper|documentElement|stopPageInfo|split|requested|false|else|autoResize|IFrame|minHeight|iFrameResize|og_body_wrapper|og_u|length|substr|Set|og_w|min|hidden|of|onload|initHeight|floor|on|tagName|focus|by|scrollTo|pageYOffset|delete|contentWindow|targetOrigin|Message|remoteHost|JSON|moveToAnchor|pageXOffset|innerWidth|resizedCallback|sizeWidth|getBoundingClientRect|jQuery|define|parent|resizeFrom|self|link|bodyMarginV1|heightCalculationMethod|iFrameResizer|module|og_check|createTextNode|og_close|ovr||hid|margin|index|og_style|fixed|style_node|Checking|fullScreen|onImgClick|clientWidth|true|enablePublicMethods|fn|30px|scrollTop|Send|msRequestFullscreen|RequestAnimationFrame|prototype|Unexpected|img|default|forEach|button_node|msExitFullscreen|detachEvent|Unable|value|webkitCancelFullScreen|onclick|Host|Page|class|bodyBackground|In|mozCancelFullScreen|getId|Array|screenHeight|was|cancelFullScreen|pageInfo|scrollLeft|com|requestFullScreen|Error|Window|webkitIsFullScreen|Trigger|attachEvent|event|mozRequestFullScreen|can|disabled|close|webkitRequestFullScreen|Width|be|Height|change|mozFullScreen|bodyPadding|stringify|host|removeEventListener|undefined|switch|IFRAME|Ignored|fullScreenElement|msFullscreenElement|og_iframe_button_|visibilitychange|setup|listener|addEventListener|console|randNum|9990|imageUrl|getAttribute|IS_IPHONE|connection|tolerance|userAgent|widthCalculationMethod|closedCallback|MessageCallback|check|display|scrollCallback|messageCallback|parseInt|hasOwnProperty|initCallback|og_bw|border|aspectRatio|interval|786|0px|clientHeight|screen|touch|inPageLinks|screenWidth|transform|match|maxHeight|og_h|exports|navigator|sizeHeight|minWidth|maxWidth|initMobileFrames|trusted|domains|Value|passed|postMessage|msg|Sending|error|iframeHeight|parse|meta|setting|indexOf|Ignoring|ID|sendMessage|anchor|Move|the|strict|use|an|Options|load|option|Function|number|Added|providing|than|greater|missing|frame|yes|no|enabled|or|array|offsetLeft|Ready|Received|iFrameResizerChild|settings|No|warn|Removing|removeChild|Nested|parentNode|info|inPageLink|pageInfoStop|offset|origins|at|list|allowed|and|decodeURIComponent|toLowerCase|scrollToOffset|range|getElementsByName|supported|Reposition|Hidden|detected|set|offsetTop|Moving|creating|visibility|iframeWidth|Requesting|innerHeight|This|Info|sendPageInfo|origin|constructor|Get|Offset|received|ms|Remove|Add|Size|moz|animation|filter|parentElement|random|script|og_js|relative|url|3000|2000|filestackapi|A3ygIw4hISSCdApqW4SAwz|process|http|5000|line|hasAttribute|loaded|file|fully|it|each|end|requestAnimationFrame|bodyScroll|amd|initIframe|defined|bodyOffset|documentElementScroll|urlscreenshot|agent|text|decoration|black|color|button|right|9999|https|Element|ALLOW_KEYBOARD_INPUT|HuaIq7oFQwWyS5Fjni9e|filestackcontent|cdn|og|javascript|div|translateZ|iframes|og_image_|mobile|delay|translate3d|iPhone|10px|href|bottom|100vh|iPod|this|iFrameSizer|push|setTimeout|tag|valid|Object|attributes|querySelector|Expected|WebKitMutationObserver|toUpperCase|observed|Mutation|Visibility|offsetParent|target|DOM|focusin|attributeOldValue|call|string|Visable|querySelectorAll|join|Tab|slice|visibilityState|MutationObserver|characterDataOldValue|already|characterData|childList|subtree|Visiblity|observe|element'.split('|'),0,{}))
+! function(a) {
+    "use strict";
+
+    function b(b, c, d) {
+        "addEventListener" in a ? b.addEventListener(c, d, !1) : "attachEvent" in a && b.attachEvent("on" + c, d)
+    }
+
+    function c(b, c, d) {
+        "removeEventListener" in a ? b.removeEventListener(c, d, !1) : "detachEvent" in a && b.detachEvent("on" + c, d)
+    }
+
+    function d() {
+        var b, c = ["moz", "webkit", "o", "ms"];
+        for (b = 0; b < c.length && !N; b += 1) N = a[c[b] + "RequestAnimationFrame"];
+        N || h("setup", "RequestAnimationFrame not supported")
+    }
+
+    function e(b) {
+        var c = "Host page: " + b;
+        return a.top !== a.self && (c = a.parentIFrame && a.parentIFrame.getId ? a.parentIFrame.getId() + ": " + b : "Nested host page: " + b), c
+    }
+
+    function f(a) {
+        return K + "[" + e(a) + "]"
+    }
+
+    function g(a) {
+        return P[a] ? P[a].log : G
+    }
+
+    function h(a, b) {
+        k("log", a, b, g(a))
+    }
+
+    function i(a, b) {
+        k("info", a, b, g(a))
+    }
+
+    function j(a, b) {
+        k("warn", a, b, !0)
+    }
+
+    function k(b, c, d, e) {
+        !0 === e && "object" == typeof a.console && console[b](f(c), d)
+    }
+
+    function l(d) {
+        function e() {
+            function a() {
+                s(V), p(W)
+            }
+            g("Height"), g("Width"), t(a, V, "init")
+        }
+
+        function f() {
+            var a = U.substr(L).split(":");
+            return {
+                iframe: P[a[0]].iframe,
+                id: a[0],
+                height: a[1],
+                width: a[2],
+                type: a[3]
+            }
+        }
+
+        function g(a) {
+            var b = Number(P[W]["max" + a]),
+                c = Number(P[W]["min" + a]),
+                d = a.toLowerCase(),
+                e = Number(V[d]);
+            h(W, "Checking " + d + " is in range " + c + "-" + b), c > e && (e = c, h(W, "Set " + d + " to min value")), e > b && (e = b, h(W, "Set " + d + " to max value")), V[d] = "" + e
+        }
+
+        function k() {
+            function a() {
+                function a() {
+                    var a = 0,
+                        d = !1;
+                    for (h(W, "Checking connection is from allowed list of origins: " + c); a < c.length; a++)
+                        if (c[a] === b) {
+                            d = !0;
+                            break
+                        }
+                    return d
+                }
+
+                function d() {
+                    var a = P[W].remoteHost;
+                    return h(W, "Checking connection is from: " + a), b === a
+                }
+                return c.constructor === Array ? a() : d()
+            }
+            var b = d.origin,
+                c = P[W].checkOrigin;
+            if (c && "" + b != "null" && !a()) throw new Error("Unexpected message received from: " + b + " for " + V.iframe.id + ". Message was: " + d.data + ". This error can be disabled by setting the checkOrigin: false option or by providing of array of trusted domains.");
+            return !0
+        }
+
+        function l() {
+            return K === ("" + U).substr(0, L) && U.substr(L).split(":")[0] in P
+        }
+
+        function w() {
+            var a = V.type in {
+                "true": 1,
+                "false": 1,
+                undefined: 1
+            };
+            return a && h(W, "Ignoring init message from meta parent page"), a
+        }
+
+        function y(a) {
+            return U.substr(U.indexOf(":") + J + a)
+        }
+
+        function z(a) {
+            h(W, "MessageCallback passed: {iframe: " + V.iframe.id + ", message: " + a + "}"), N("messageCallback", {
+                iframe: V.iframe,
+                message: JSON.parse(a)
+            }), h(W, "--")
+        }
+
+        function A() {
+            var b = document.body.getBoundingClientRect(),
+                c = V.iframe.getBoundingClientRect();
+            return JSON.stringify({
+                iframeHeight: c.height,
+                iframeWidth: c.width,
+                clientHeight: Math.max(document.documentElement.clientHeight, a.innerHeight || 0),
+                clientWidth: Math.max(document.documentElement.clientWidth, a.innerWidth || 0),
+                offsetTop: parseInt(c.top - b.top, 10),
+                offsetLeft: parseInt(c.left - b.left, 10),
+                scrollTop: a.pageYOffset,
+                scrollLeft: a.pageXOffset
+            })
+        }
+
+        function B(a, b) {
+            function c() {
+                u("Send Page Info", "pageInfo:" + A(), a, b)
+            }
+            x(c, 32)
+        }
+
+        function C() {
+            function d(b, c) {
+                function d() {
+                    P[g] ? B(P[g].iframe, g) : e()
+                }["scroll", "resize"].forEach(function(e) {
+                    h(g, b + e + " listener for sendPageInfo"), c(a, e, d)
+                })
+            }
+
+            function e() {
+                d("Remove ", c)
+            }
+
+            function f() {
+                d("Add ", b)
+            }
+            var g = W;
+            f(), P[g].stopPageInfo = e
+        }
+
+        function D() {
+            P[W] && P[W].stopPageInfo && (P[W].stopPageInfo(), delete P[W].stopPageInfo)
+        }
+
+        function E() {
+            var a = !0;
+            return null === V.iframe && (j(W, "IFrame (" + V.id + ") not found"), a = !1), a
+        }
+
+        function F(a) {
+            var b = a.getBoundingClientRect();
+            return o(W), {
+                x: Math.floor(Number(b.left) + Number(M.x)),
+                y: Math.floor(Number(b.top) + Number(M.y))
+            }
+        }
+
+        function G(b) {
+            function c() {
+                M = g, H(), h(W, "--")
+            }
+
+            function d() {
+                return {
+                    x: Number(V.width) + f.x,
+                    y: Number(V.height) + f.y
+                }
+            }
+
+            function e() {
+                a.parentIFrame ? a.parentIFrame["scrollTo" + (b ? "Offset" : "")](g.x, g.y) : j(W, "Unable to scroll to requested position, window.parentIFrame not found")
+            }
+            var f = b ? F(V.iframe) : {
+                    x: 0,
+                    y: 0
+                },
+                g = d();
+            h(W, "Reposition requested from iFrame (offset x:" + f.x + " y:" + f.y + ")"), a.top !== a.self ? e() : c()
+        }
+
+        function H() {
+            !1 !== N("scrollCallback", M) ? p(W) : q()
+        }
+
+        function I(b) {
+            function c() {
+                var a = F(g);
+                h(W, "Moving to in page link (#" + e + ") at x: " + a.x + " y: " + a.y), M = {
+                    x: a.x,
+                    y: a.y
+                }, H(), h(W, "--")
+            }
+
+            function d() {
+                a.parentIFrame ? a.parentIFrame.moveToAnchor(e) : h(W, "In page link #" + e + " not found and window.parentIFrame not found")
+            }
+            var e = b.split("#")[1] || "",
+                f = decodeURIComponent(e),
+                g = document.getElementById(f) || document.getElementsByName(f)[0];
+            g ? c() : a.top !== a.self ? d() : h(W, "In page link #" + e + " not found")
+        }
+
+        function N(a, b) {
+            return m(W, a, b)
+        }
+
+        function O() {
+            switch (P[W].firstRun && T(), V.type) {
+                case "close":
+                    n(V.iframe);
+                    break;
+                case "message":
+                    z(y(6));
+                    break;
+                case "scrollTo":
+                    G(!1);
+                    break;
+                case "scrollToOffset":
+                    G(!0);
+                    break;
+                case "pageInfo":
+                    B(P[W].iframe, W), C();
+                    break;
+                case "pageInfoStop":
+                    D();
+                    break;
+                case "inPageLink":
+                    I(y(9));
+                    break;
+                case "reset":
+                    r(V);
+                    break;
+                case "init":
+                    e(), N("initCallback", V.iframe), N("resizedCallback", V);
+                    break;
+                default:
+                    e(), N("resizedCallback", V)
+            }
+        }
+
+        function Q(a) {
+            var b = !0;
+            return P[a] || (b = !1, j(V.type + " No settings for " + a + ". Message was: " + U)), b
+        }
+
+        function S() {
+            for (var a in P) u("iFrame requested init", v(a), document.getElementById(a), a)
+        }
+
+        function T() {
+            P[W].firstRun = !1
+        }
+        var U = d.data,
+            V = {},
+            W = null;
+        "[iFrameResizerChild]Ready" === U ? S() : l() ? (V = f(), W = R = V.id, !w() && Q(W) && (h(W, "Received: " + U), E() && k() && O())) : i(W, "Ignored: " + U)
+    }
+
+    function m(a, b, c) {
+        var d = null,
+            e = null;
+        if (P[a]) {
+            if (d = P[a][b], "function" != typeof d) throw new TypeError(b + " on iFrame[" + a + "] is not a function");
+            e = d(c)
+        }
+        return e
+    }
+
+    function n(a) {
+        var b = a.id;
+        h(b, "Removing iFrame: " + b), a.parentNode.removeChild(a), m(b, "closedCallback", b), h(b, "--"), delete P[b]
+    }
+
+    function o(b) {
+        null === M && (M = {
+            x: void 0 !== a.pageXOffset ? a.pageXOffset : document.documentElement.scrollLeft,
+            y: void 0 !== a.pageYOffset ? a.pageYOffset : document.documentElement.scrollTop
+        }, h(b, "Get page position: " + M.x + "," + M.y))
+    }
+
+    function p(b) {
+        null !== M && (a.scrollTo(M.x, M.y), h(b, "Set page position: " + M.x + "," + M.y), q())
+    }
+
+    function q() {
+        M = null
+    }
+
+    function r(a) {
+        function b() {
+            s(a), u("reset", "reset", a.iframe, a.id)
+        }
+        h(a.id, "Size reset requested by " + ("init" === a.type ? "host page" : "iFrame")), o(a.id), t(b, a, "reset")
+    }
+
+    function s(a) {
+        function b(b) {
+            a.iframe.style[b] = a[b] + "px", h(a.id, "IFrame (" + e + ") " + b + " set to " + a[b] + "px")
+        }
+
+        function c(b) {
+            H || "0" !== a[b] || (H = !0, h(e, "Hidden iFrame detected, creating visibility listener"), y())
+        }
+
+        function d(a) {
+            b(a), c(a)
+        }
+        var e = a.iframe.id;
+        P[e] && (P[e].sizeHeight && d("height"), P[e].sizeWidth && d("width"))
+    }
+
+    function t(a, b, c) {
+        c !== b.type && N ? (h(b.id, "Requesting animation frame"), N(a)) : a()
+    }
+
+    function u(a, b, c, d) {
+        function e() {
+            var e = P[d].targetOrigin;
+            h(d, "[" + a + "] Sending msg to iframe[" + d + "] (" + b + ") targetOrigin: " + e), c.contentWindow.postMessage(K + b, e)
+        }
+
+        function f() {
+            i(d, "[" + a + "] IFrame(" + d + ") not found"), P[d] && delete P[d]
+        }
+
+        function g() {
+            c && "contentWindow" in c && null !== c.contentWindow ? e() : f()
+        }
+        d = d || c.id, P[d] && g()
+    }
+
+    function v(a) {
+        return a + ":" + P[a].bodyMarginV1 + ":" + P[a].sizeWidth + ":" + P[a].log + ":" + P[a].interval + ":" + P[a].enablePublicMethods + ":" + P[a].autoResize + ":" + P[a].bodyMargin + ":" + P[a].heightCalculationMethod + ":" + P[a].bodyBackground + ":" + P[a].bodyPadding + ":" + P[a].tolerance + ":" + P[a].inPageLinks + ":" + P[a].resizeFrom + ":" + P[a].widthCalculationMethod
+    }
+
+    function w(a, c) {
+        function d() {
+            function b(b) {
+                1 / 0 !== P[w][b] && 0 !== P[w][b] && (a.style[b] = P[w][b] + "px", h(w, "Set " + b + " = " + P[w][b] + "px"))
+            }
+
+            function c(a) {
+                if (P[w]["min" + a] > P[w]["max" + a]) throw new Error("Value for min" + a + " can not be greater than max" + a)
+            }
+            c("Height"), c("Width"), b("maxHeight"), b("minHeight"), b("maxWidth"), b("minWidth")
+        }
+
+        function e() {
+            var a = c && c.id || S.id + F++;
+            return null !== document.getElementById(a) && (a += F++), a
+        }
+
+        function f(b) {
+            return R = b, "" === b && (a.id = b = e(), G = (c || {}).log, R = b, h(b, "Added missing iframe ID: " + b + " (" + a.src + ")")), b
+        }
+
+        function g() {
+            h(w, "IFrame scrolling " + (P[w].scrolling ? "enabled" : "disabled") + " for " + w), a.style.overflow = !1 === P[w].scrolling ? "hidden" : "auto", a.scrolling = !1 === P[w].scrolling ? "no" : "yes"
+        }
+
+        function i() {
+            ("number" == typeof P[w].bodyMargin || "0" === P[w].bodyMargin) && (P[w].bodyMarginV1 = P[w].bodyMargin, P[w].bodyMargin = "" + P[w].bodyMargin + "px")
+        }
+
+        function k() {
+            var b = P[w].firstRun,
+                c = P[w].heightCalculationMethod in O;
+            !b && c && r({
+                iframe: a,
+                height: 0,
+                width: 0,
+                type: "init"
+            })
+        }
+
+        function l() {
+            Function.prototype.bind && (P[w].iframe.iFrameResizer = {
+                close: n.bind(null, P[w].iframe),
+                resize: u.bind(null, "Window resize", "resize", P[w].iframe),
+                moveToAnchor: function(a) {
+                    u("Move to anchor", "moveToAnchor:" + a, P[w].iframe, w)
+                },
+                sendMessage: function(a) {
+                    a = JSON.stringify(a), u("Send Message", "message:" + a, P[w].iframe, w)
+                }
+            })
+        }
+
+        function m(c) {
+            function d() {
+                u("iFrame.onload", c, a), k()
+            }
+            b(a, "load", d), u("init", c, a)
+        }
+
+        function o(a) {
+            if ("object" != typeof a) throw new TypeError("Options is not an object")
+        }
+
+        function p(a) {
+            for (var b in S) S.hasOwnProperty(b) && (P[w][b] = a.hasOwnProperty(b) ? a[b] : S[b])
+        }
+
+        function q(a) {
+            return "" === a || "file://" === a ? "*" : a
+        }
+
+        function s(b) {
+            b = b || {}, P[w] = {
+                firstRun: !0,
+                iframe: a,
+                remoteHost: a.src.split("/").slice(0, 3).join("/")
+            }, o(b), p(b), P[w].targetOrigin = !0 === P[w].checkOrigin ? q(P[w].remoteHost) : "*"
+        }
+
+        function t() {
+            return w in P && "iFrameResizer" in a
+        }
+        var w = f(a.id);
+        t() ? j(w, "Ignored iFrame, already setup.") : (s(c), g(), d(), i(), m(v(w)), l())
+    }
+
+    function x(a, b) {
+        null === Q && (Q = setTimeout(function() {
+            Q = null, a()
+        }, b))
+    }
+
+    function y() {
+        function b() {
+            function a(a) {
+                function b(b) {
+                    return "0px" === P[a].iframe.style[b]
+                }
+
+                function c(a) {
+                    return null !== a.offsetParent
+                }
+                c(P[a].iframe) && (b("height") || b("width")) && u("Visibility change", "resize", P[a].iframe, a)
+            }
+            for (var b in P) a(b)
+        }
+
+        function c(a) {
+            h("window", "Mutation observed: " + a[0].target + " " + a[0].type), x(b, 16)
+        }
+
+        function d() {
+            var a = document.querySelector("body"),
+                b = {
+                    attributes: !0,
+                    attributeOldValue: !1,
+                    characterData: !0,
+                    characterDataOldValue: !1,
+                    childList: !0,
+                    subtree: !0
+                },
+                d = new e(c);
+            d.observe(a, b)
+        }
+        var e = a.MutationObserver || a.WebKitMutationObserver;
+        e && d()
+    }
+
+    function z(a) {
+        function b() {
+            B("Window " + a, "resize")
+        }
+        h("window", "Trigger event: " + a), x(b, 16)
+    }
+
+    function A() {
+        function a() {
+            B("Tab Visable", "resize")
+        }
+        "hidden" !== document.visibilityState && (h("document", "Trigger event: Visiblity change"), x(a, 16))
+    }
+
+    function B(a, b) {
+        function c(a) {
+            return "parent" === P[a].resizeFrom && P[a].autoResize && !P[a].firstRun
+        }
+        for (var d in P) c(d) && u(a, b, document.getElementById(d), d)
+    }
+
+    function C() {
+        b(a, "message", l), b(a, "resize", function() {
+            z("resize")
+        }), b(document, "visibilitychange", A), b(document, "-webkit-visibilitychange", A), b(a, "focusin", function() {
+            z("focus")
+        }), b(a, "focus", function() {
+            z("focus")
+        })
+    }
+
+    function D() {
+        function a(a, c) {
+            function d() {
+                if (!c.tagName) throw new TypeError("Object is not a valid DOM element");
+                if ("IFRAME" !== c.tagName.toUpperCase()) throw new TypeError("Expected <IFRAME> tag, found <" + c.tagName + ">")
+            }
+            c && (d(), w(c, a), b.push(c))
+        }
+        var b;
+        return d(), C(),
+            function(c, d) {
+                switch (b = [], typeof d) {
+                    case "undefined":
+                    case "string":
+                        Array.prototype.forEach.call(document.querySelectorAll(d || "iframe"), a.bind(void 0, c));
+                        break;
+                    case "object":
+                        a(c, d);
+                        break;
+                    default:
+                        throw new TypeError("Unexpected data type (" + typeof d + ")")
+                }
+                return b
+            }
+    }
+
+    function E(a) {
+        a.fn ? a.fn.iFrameResize = function(a) {
+            function b(b, c) {
+                w(c, a)
+            }
+            return this.filter("iframe").each(b).end()
+        } : i("", "Unable to bind to jQuery, it is not fully loaded.")
+    }
+    var F = 0,
+        G = !1,
+        H = !1,
+        I = "message",
+        J = I.length,
+        K = "[iFrameSizer]",
+        L = K.length,
+        M = null,
+        N = a.requestAnimationFrame,
+        O = {
+            max: 1,
+            scroll: 1,
+            bodyScroll: 1,
+            documentElementScroll: 1
+        },
+        P = {},
+        Q = null,
+        R = "Host Page",
+        S = {
+            autoResize: !0,
+            bodyBackground: null,
+            bodyMargin: null,
+            bodyMarginV1: 8,
+            bodyPadding: null,
+            checkOrigin: !0,
+            inPageLinks: !1,
+            enablePublicMethods: !0,
+            heightCalculationMethod: "bodyOffset",
+            id: "iFrameResizer",
+            interval: 32,
+            log: !1,
+            maxHeight: 1 / 0,
+            maxWidth: 1 / 0,
+            minHeight: 0,
+            minWidth: 0,
+            resizeFrom: "parent",
+            scrolling: !1,
+            sizeHeight: !0,
+            sizeWidth: !1,
+            tolerance: 0,
+            widthCalculationMethod: "scroll",
+            closedCallback: function() {},
+            initCallback: function() {},
+            messageCallback: function() {
+                j("MessageCallback function not defined")
+            },
+            resizedCallback: function() {},
+            scrollCallback: function() {
+                return !0
+            }
+        };
+    a.jQuery && E(jQuery), "function" == typeof define && define.amd ? define([], D) : "object" == typeof module && "object" == typeof module.exports ? module.exports = D() : a.iFrameResize = a.iFrameResize || D()
+}(window || {});
+
+function initIframe(iframe_id) {
+    var og_check = 0;
+    var iWidth = window.innerWidth;
+    var og_e = document.getElementById(iframe_id);
+    if (og_e.hasAttribute("data-check")) {
+        og_check = 1
+    } else {
+        og_e.setAttribute("data-check", "1")
+    }
+    if (og_check == 0) {
+        og_e.setAttribute("style", "line-height: 0; position:relative;");
+        var og_u = og_e.getAttribute('data-url');
+        var og_w = og_e.getAttribute('data-width');
+        var og_b = document.getElementsByTagName("body")[0];
+        var og_h = document.getElementsByTagName("html")[0];
+        og_b.setAttribute("style", "overflow:scroll !important;height: 100%;-webkit-overflow-scrolling: touch !important;");
+        var og_js = document.createElement("script");
+        og_e.parentElement.setAttribute("style", "width:100% !important;");
+        if (iWidth < 786) {
+            var randNum = Number(Math.floor(Math.random() * (3000 - 2000) + 5000));
+            var imageUrl = "http://process.filestackapi.com/A3ygIw4hISSCdApqW4SAwz/urlscreenshot=agent:mobile,delay:" + randNum + ",width:" + iWidth + "/" + og_u;
+            var og_image = document.createElement("img");
+            og_image.setAttribute("id", "og_image_" + iframe_id);
+            og_image.setAttribute("src", imageUrl);
+            og_image.setAttribute("width", og_w);
+            og_image.setAttribute("onclick", "onImgClick('" + iframe_id + "')");
+            og_e.appendChild(og_image);
+            initMobileFrames(iframe_id);
+            var og_bw = document.getElementById("og_body_wrapper");
+            var og_iFrame = document.createElement("iframe");
+            og_iFrame.setAttribute("id", "og_iframe_" + iframe_id);
+            og_iFrame.setAttribute("style", "border:none;");
+            og_iFrame.setAttribute("class", "hide");
+            og_iFrame.setAttribute("src", og_u);
+            og_iFrame.setAttribute("width", og_w);
+            og_iFrame.setAttribute("scrolling", "auto");
+            og_iFrame.setAttribute("onload", "initHeight('" + iframe_id + "')");
+            og_bw.appendChild(og_iFrame)
+        } else {
+            var og_iFrame = document.createElement("iframe");
+            og_iFrame.setAttribute("id", "og_iframe_" + iframe_id);
+            og_iFrame.setAttribute("style", "border:none;");
+            og_iFrame.setAttribute("src", og_u);
+            og_iFrame.setAttribute("width", og_w);
+            og_iFrame.setAttribute("scrolling", "auto");
+            og_iFrame.setAttribute("onload", "initHeight('" + iframe_id + "')");
+            og_e.appendChild(og_iFrame)
+        }
+    }
+}
+
+function initHeight(iframe_id) {
+    var iWidth = window.innerWidth;
+    var screenWidth = screen.width;
+    var screenHeight = screen.height;
+    var aspectRatio = screenWidth / screenHeight;
+    var iFrame = document.getElementById("og_iframe_" + iframe_id);
+    var width = iFrame.clientWidth;
+    var height = width / aspectRatio;
+    if (iWidth < 786) {
+        iFrame.style.minHeight = height + 'px'
+    } else {
+        var iframes = iFrameResize({
+            log: false,
+            autoResize: true,
+            enablePublicMethods: true,
+            checkOrigin: false,
+            minHeight: height
+        }, "#og_iframe_" + iframe_id)
+    }
+}
+
+function initMobileFrames(iframe_id) {
+    var og_b = document.getElementsByTagName("body")[0];
+    var og_h = document.getElementsByTagName("html")[0];
+    if (!document.getElementById("og_body_wrapper")) {
+        var body_wrapper = document.createElement("div");
+        body_wrapper.setAttribute("id", "og_body_wrapper");
+        body_wrapper.setAttribute("style", "overflow: scroll !important;-webkit-overflow-scrolling:touch !important;-webkit-transform: translateZ(0px);-webkit-transform: translate3d(0,0,0);");
+        og_b.appendChild(body_wrapper);
+        var og_style = document.createElement("style");
+        var IS_IPHONE = (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
+        if (IS_IPHONE) {
+            var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100vh;}.ovr-hid{overflow: hidden !important;}")
+        } else {
+            var style_node = document.createTextNode("body, html {height: 100%;margin: 0;}.fullScreen {z-index:9990;width: 100%;height: 100% !important;position: fixed;top: 0;left: 0;}.hide{display:none;}.height-auto{height: 100%; margin-bottom: -10px;}.ovr-hid{overflow: hidden !important;}")
+        }
+        og_style.appendChild(style_node);
+        og_b.appendChild(og_style)
+    }
+    var og_button = document.createElement("a");
+    og_button.setAttribute("href", "javascript:void(0);");
+    og_button.setAttribute("id", "og_iframe_button_" + iframe_id);
+    og_button.setAttribute("class", "og-iframe-button hide");
+    og_button.setAttribute("onclick", "onImgClick('" + iframe_id + "')");
+    og_button.setAttribute("style", "position: fixed;right: 3%;top: 3%;color: black;text-decoration: none;z-index:9999; height:30px; width:30px;");
+    var button_node = document.createTextNode("");
+    og_button.appendChild(button_node);
+    og_b.appendChild(og_button);
+    var og_close = document.createElement("img");
+    og_close.setAttribute("src", "https://cdn.filestackcontent.com/HuaIq7oFQwWyS5Fjni9e");
+    og_button.appendChild(og_close)
+}
+
+function onImgClick(iframe_id) {
+    var e = document.body;
+    document.getElementsByTagName('html')[0].classList.toggle('ovr-hid');
+    document.getElementById('og_body_wrapper').classList.toggle('fullScreen');
+    document.getElementById("og_iframe_" + iframe_id).classList.toggle('hide');
+    document.getElementById("og_iframe_" + iframe_id).classList.toggle('height-auto');
+    document.getElementById('og_iframe_button_' + iframe_id).classList.toggle('hide');
+    void 0 !== document.fullScreenElement && null === document.fullScreenElement || void 0 !== document.msFullscreenElement && null === document.msFullscreenElement || void 0 !== document.mozFullScreen && !document.mozFullScreen || void 0 !== document.webkitIsFullScreen && !document.webkitIsFullScreen ? e.requestFullScreen ? e.requestFullScreen() : e.mozRequestFullScreen ? e.mozRequestFullScreen() : e.webkitRequestFullScreen ? e.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT) : e.msRequestFullscreen && e.msRequestFullscreen() : document.cancelFullScreen ? document.cancelFullScreen() : document.mozCancelFullScreen ? document.mozCancelFullScreen() : document.webkitCancelFullScreen ? document.webkitCancelFullScreen() : document.msExitFullscreen && document.msExitFullscreen()
+}
