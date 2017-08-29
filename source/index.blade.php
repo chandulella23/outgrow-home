@@ -28,6 +28,7 @@
 @section('pageId', '')
 
 @section('content')
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	
 	<section class="section section-1">
@@ -43,6 +44,7 @@
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center  startTrial-outer">
+							<span style="font-size: 13px; margin-bottom: 2px; color: #fb5f66; display: none;" class="col col-md-12 col-sm-12 col-lg-12 error email-err">Please enter your email</span>
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
 							<div class="col-md-12 col-xs-12 col-sm-12 np home-btns">
@@ -54,8 +56,8 @@
 										<label></label>
 									</div> -->
 								</a>
-								<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
-									<span class="btn-buildcal fade-in lead-form-btn btn-liveDemo">
+								<a href="//app.rely.co/builder-demo" class="lead-email-demo" onclick="callGA('CANNOT WAIT CTA')">
+									<span class="btn-buildcal fade-in btn-liveDemo">
 										Take a Live Demo
 									</span>
 									<!-- <div class="btn-bottominfo fade-in">
@@ -74,14 +76,46 @@
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
 					document.getElementsByClassName('lead-email')[0].href = href + email;
+					document.getElementsByClassName('lead-email-demo')[0].href = href + email;
 				}
 
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
 					if (e.keyCode == 13) {
-						window.location.href = href+email;
+						// window.location.href = href+email;
 					}
+				}
+
+				document.getElementsByClassName('lead-email-demo')[0].onclick = function (e) {
+					e.preventDefault();
+					document.querySelector('.email-err').style.display = 'none';
+					var href = '//app.rely.co/builder-demo';
+					var storage = readCookie('storage');
+					if (storage) {
+						storage = JSON.parse(storage);
+						var company = storage.companyList[1];
+						href = '//' + company + '.rely.co/builder-demo';
+					}
+					var email = document.getElementsByClassName('lead-form-email')[0].value;
+					if (!email) {
+						document.querySelector('.email-err').style.display = 'block';
+						return;
+					}
+					jQuery.ajax({
+						url: './js/ebookhandler.php',
+						type: 'POST',
+						data: {
+							group_id: "7687041",
+							email: email
+						},
+						beforeSend: function () {
+							document.querySelector('.lead-email-demo > span').innerHTML = "Launching ..."
+						},
+						complete: function () {
+							window.location.href = href;
+						}
+					});
 				}
 			</script>
 
