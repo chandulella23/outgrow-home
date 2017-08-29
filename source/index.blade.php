@@ -420,13 +420,13 @@
 				<div class="col-md-6 col-xs-12 np text-center">				
 					<!-- normal -->
 					<div class="ih-item square effect13 bottom_to_top">
-						<a href="#">
+						<a href="javascript:void(0);">
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case1.jpg" alt="img">
 							</div>
 							<div class="info">
-								<h3>Heading here</h3>
-								<p>Description goes here</p>
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>VenturePact, a software consulting shop, generated over 11,000 leads with  their "How much to build an app?" cost calculator.</p>
 							</div>
 						</a>
 					</div>
@@ -435,13 +435,13 @@
 				<div class="col-md-6 col-xs-12 np text-center">				
 					<!-- normal -->
 					<div class="ih-item square effect13 bottom_to_top">
-						<a href="#">
+						<a href="javascript:void(0);">
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case2.jpg" alt="img">
 							</div>
-							<div class="info">
-								<h3>Heading here</h3>
-								<p>Description goes here</p>
+							<div class="info info-peach">
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>NY Times most successful article is actually a calculator not a quiz!</p>
 							</div>
 						</a>
 					</div>
@@ -450,13 +450,13 @@
 				<div class="col-md-6 col-xs-12 np text-center">				
 					<!-- normal -->
 					<div class="ih-item square effect13 bottom_to_top">
-						<a href="#">
+						<a href="javascript:void(0);">
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case3.jpg" alt="img">
 							</div>
-							<div class="info">
-								<h3>Heading here</h3>
-								<p>Description goes here</p>
+							<div class="info info-peach">
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>7 of the 20 most shared articles on Buzzfeed are quizzes!</p>
 							</div>
 						</a>
 					</div>
@@ -465,13 +465,13 @@
 				<div class="col-md-6 col-xs-12 np text-center">				
 					<!-- normal -->
 					<div class="ih-item square effect13 bottom_to_top">
-						<a href="#">
+						<a href="javascript:void(0);">
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case4.jpg" alt="img">
 							</div>
 							<div class="info">
-								<h3>Heading here</h3>
-								<p>Description goes here</p>
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>Several calculators have received over 500 upvotes on Product Hunt.</p>
 							</div>
 						</a>
 					</div>
