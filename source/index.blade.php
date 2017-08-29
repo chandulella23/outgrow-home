@@ -42,17 +42,27 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center  startTrial-outer">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
-								<span class="btn-buildcal fade-in lead-form-btn">
-									Start Free Trial
-								</span>
-								<div class="btn-bottominfo fade-in">
-									<label></label>
-								</div>
-							</a>
+							<div class="col-md-12 col-xs-12 col-sm-12 np home-btns">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+									<span class="btn-buildcal fade-in lead-form-btn">
+										Start Free Trial
+									</span>
+									<!-- <div class="btn-bottominfo fade-in">
+										<label></label>
+									</div> -->
+								</a>
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+									<span class="btn-buildcal fade-in lead-form-btn btn-liveDemo">
+										Take a Live Demo
+									</span>
+									<!-- <div class="btn-bottominfo fade-in">
+										<label></label>
+									</div> -->
+								</a>
+							</div>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
