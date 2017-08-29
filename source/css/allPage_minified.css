@@ -17265,6 +17265,21 @@ span.circle {
 	@media (min-width:320px) and (max-width:768px){
 		.ih-item.square{width: 100%; height: auto;}
 	}
+	.error.email-error {
+		font-size: 12px;
+		margin-bottom: 2px;
+		color: rgb(251, 95, 102);
+		display: block;
+		position: relative;
+		top: -20px;
+	}
+	.error.email-error i.material-icons {
+		text-align: left;
+		left: 0px;
+		font-size: 11px;
+		top: 1px;
+		margin-right: 5px;
+	}
 
 
 /* section case studies */

@@ -44,9 +44,11 @@
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center  startTrial-outer">
-							<span style="font-size: 13px; margin-bottom: 2px; color: #fb5f66; display: none;" class="col col-md-12 col-sm-12 col-lg-12 error email-err">Please enter your email</span>
-							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+							<div class="startTrial-inner">							
+								<i class="material-icons">email</i>
+								<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+								<span class="col-md-12 col-sm-12 col-xs-12 error email-error">Please enter your email</span>
+							</div>
 							<div class="col-md-12 col-xs-12 col-sm-12 np home-btns">
 								<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
 									<span class="btn-buildcal fade-in lead-form-btn">
