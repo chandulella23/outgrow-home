@@ -382,7 +382,6 @@
 		</div>
 	</section>
 
-	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 		<div class="start-trial-cta">
 			<a href="/calculators-vs-ebooks">
@@ -393,6 +392,95 @@
 			</a>
 		</div>
 	</div>
+
+	<!-- 4 case studies section  -->
+	<section class="section section-10 sec-4caseStudies">
+		<div class="container container-center">
+			<h1 class="section-2-heading">
+				Success Studies
+			</h1>
+			<h5 class="section-2-subheading">
+				 Get inspired by some of the most successful case studies!
+			</h5>
+			<div class="col-md-12 col-sm-12 col-xs-12 np sec-4caseStudies-block">
+				<!-- <div class="col-md-6 col-xs-12 np text-center">
+					<img src="{{ $page->baseUrl }}/images/img-case1.jpg">
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">
+					<img src="{{ $page->baseUrl }}/images/img-case2.jpg">
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">
+					<img src="{{ $page->baseUrl }}/images/img-case3.jpg">
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">
+					<img src="{{ $page->baseUrl }}/images/img-case4.jpg">
+				</div> -->
+
+				<!-- Bottom to top-->
+				<div class="col-md-6 col-xs-12 np text-center">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="#">
+							<div class="img">
+								<img src="{{ $page->baseUrl }}/images/img-case1.jpg" alt="img">
+							</div>
+							<div class="info">
+								<h3>Heading here</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="#">
+							<div class="img">
+								<img src="{{ $page->baseUrl }}/images/img-case2.jpg" alt="img">
+							</div>
+							<div class="info">
+								<h3>Heading here</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="#">
+							<div class="img">
+								<img src="{{ $page->baseUrl }}/images/img-case3.jpg" alt="img">
+							</div>
+							<div class="info">
+								<h3>Heading here</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="#">
+							<div class="img">
+								<img src="{{ $page->baseUrl }}/images/img-case4.jpg" alt="img">
+							</div>
+							<div class="info">
+								<h3>Heading here</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<!-- end Bottom to top-->
+		</div>
+	</section>
+	<!-- end: 4 case studies section  -->
 
 	<!-- Homepage section 3 end-->
 
