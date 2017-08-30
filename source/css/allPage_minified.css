@@ -17288,12 +17288,19 @@ span.circle {
 			width: 8%;
 		}
 	}
+	@media (min-width:769px) and (max-width:990px){
+		.sec-4caseStudies {
+			margin-top: -30px !important;
+			margin-bottom: -30px;
+		}
+
+	}
 	@media (min-width:320px) and (max-width:990px){
 		.sec-4caseStudies {margin-top: 0;}
 		.ih-item.square{margin-bottom: 30px; height: auto;}
 		sec-4caseStudies{margin-top: 0px;}
 		.sec-4caseStudies-block {margin-top: 40px; margin-bottom: 30px;}
-		.ih-item.square:last-child {margin-bottom: 20px;}		
+		.ih-item.square:last-child {margin-bottom: 30px;}		
 	}
 	@media (min-width:990px) and (max-width:1200px){
 		.ih-item.square {
