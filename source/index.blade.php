@@ -82,13 +82,14 @@
 				}
 
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+					document.querySelector('.email-error').style.display = 'none';
 					let email = document.getElementsByClassName('lead-form-email')[0].value;
-					if (!email) {
-						document.querySelector('.email-error').style.display = 'block';
-						return;
-					}
 					let href = "//app.outgrow.co/signup/?email=";
 					if (e.keyCode == 13) {
+						if (!email) {
+							document.querySelector('.email-error').style.display = 'block';
+							return;
+						}
 						window.location.href = href+email;
 					}
 				}
