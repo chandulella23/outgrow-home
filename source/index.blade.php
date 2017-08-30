@@ -475,7 +475,7 @@
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case2.jpg" alt="img">
 							</div>
-							<div class="info info-peach">
+							<div class="info info-peach info-height">
 								<img src="/images/icon-case-link.png" alt="img">
 								<p>NY Times most successful article is actually a calculator not a quiz!</p>
 							</div>
@@ -490,7 +490,7 @@
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case3.jpg" alt="img">
 							</div>
-							<div class="info info-peach">
+							<div class="info info-peach info-height">
 								<img src="/images/icon-case-link.png" alt="img">
 								<p>7 of the 20 most shared articles on Buzzfeed are quizzes!</p>
 							</div>
@@ -505,7 +505,7 @@
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case4.jpg" alt="img">
 							</div>
-							<div class="info">
+							<div class="info info-height">
 								<img src="/images/icon-case-link.png" alt="img">
 								<p>Several calculators have received over 500 upvotes on Product Hunt.</p>
 							</div>
