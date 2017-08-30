@@ -486,7 +486,7 @@
 				<div class="col-md-6 col-xs-12 np text-center rs-show">				
 					<!-- normal -->
 					<div class="ih-item square effect13 bottom_to_top">
-						<a href="javascript:void(0);">
+						<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content">
 							<div class="img">
 								<img src="{{ $page->baseUrl }}/images/img-case4.jpg" alt="img">
 							</div>
