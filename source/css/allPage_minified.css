@@ -17096,9 +17096,10 @@ span.circle {
 
 /* section case studies */
 	.sec-4caseStudies {
-		background: #fff;
+		background: #fafafa;
 		margin-top: 30px;
-		margin-bottom: 0px;
+		margin-bottom: 30px;
+		padding: 40px 0px 0px;
 	}
 	.sec-4caseStudies-block {
 		margin-top: 50px;
@@ -17290,8 +17291,9 @@ span.circle {
 	}
 	@media (min-width:769px) and (max-width:990px){
 		.sec-4caseStudies {
-			margin-top: -30px !important;
-			margin-bottom: -30px;
+			/* margin-top: -30px !important;
+			margin-bottom: -30px; */
+			padding: 0px;
 		}
 
 	}
