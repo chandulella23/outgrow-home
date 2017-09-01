@@ -7,7 +7,9 @@ window.runTimeout = function() {
 window.display = function (url) {
     document.getElementById('og-iframe').src = url;
     jQuery('#og-iframe').addClass('iframeHeight')
-	calculateMinHeight();
+    calculateMinHeight();
+    
+    setTimeout(calculateMinHeight, 2000);
 }
 
 jQuery(document).ready(function () {
@@ -18,7 +20,7 @@ jQuery(document).ready(function () {
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
-    
+
     calculateMinHeight();
 
     jQuery('.calc-links a').on('click',function(){
