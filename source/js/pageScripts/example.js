@@ -5,15 +5,11 @@ window.runTimeout = function() {
 }
 
 window.display = function (url) {
-	//console.log('Display called', url)
-	//jQuery('.hrefTarget').empty().append('<iframe id="og-iframe" src="'+url+'"></iframe>');
-	document.getElementById('og-iframe').src = url;
-	var iframes = iFrameResize({
-        log: false,
-        autoResize: true,
-        enablePublicMethods: true,
-        checkOrigin: false,
-    },'#og-iframe');
+    document.getElementById('og-iframe').src = url;
+    jQuery('#og-iframe').addClass('iframeHeight')
+    calculateMinHeight();
+    
+    setTimeout(calculateMinHeight, 2000);
 }
 
 jQuery(document).ready(function () {
