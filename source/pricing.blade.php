@@ -283,7 +283,7 @@
                             <td>All templates </td>
                             <td>All templates</td>
                         </tr>
-                        <tr class="expand">
+                        <!-- <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i> 
@@ -301,7 +301,7 @@
                                 Advanced CTAs
                                 <span class="detail">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages and use dynamic variables.</span>                             
                             </td>
-                        </tr>
+                        </tr> -->
                         <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
@@ -472,7 +472,7 @@
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle">Basic Template</span>
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -480,7 +480,7 @@
                                     </span>
                                     <span class="feature-subtitle">Basic CTAs</span>
                                     <span class="detail">Add Facebook, Twitter and Linkedin share buttons to power viral sharing.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -616,7 +616,7 @@
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle">All Templates</span>
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -624,7 +624,7 @@
                                     </span>
                                     <span class="feature-subtitle">Advanced CTAs</span>
                                     <span class="detail">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -761,7 +761,7 @@
                                     <span class="feature-subtitle">All Templates</span>
                                     <!--<span class="detail"></span>-->
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -769,7 +769,7 @@
                                     </span>
                                     <span class="feature-subtitle">Advanced CTAs</span>
                                     <span class="detail">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages and use dynamic variables.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
