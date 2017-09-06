@@ -155,7 +155,8 @@
 		</div>
 	</div>
 </nav>
-		<script src="/js/swiper.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="/js/swiper.min.js"></script>
 	
 	<section class="section section-1">
 		<div class="container-fluid">
@@ -169,17 +170,30 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
-							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
-								<span class="btn-buildcal fade-in lead-form-btn">
-									Start Free Trial
-								</span>
-								<div class="btn-bottominfo fade-in">
-									<label></label>
-								</div>
-							</a>
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center  startTrial-outer">
+							<div class="startTrial-inner">							
+								<i class="material-icons">email</i>
+								<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+								<span class="col-md-12 col-sm-12 col-xs-12 error email-error" style="display:none;">Please enter your email</span>
+							</div>
+							<div class="col-md-12 col-xs-12 col-sm-12 np home-btns">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+									<span class="btn-buildcal fade-in lead-form-btn">
+										Start Free Trial
+									</span>
+									<!-- <div class="btn-bottominfo fade-in">
+										<label></label>
+									</div> -->
+								</a>
+								<a href="//app.rely.co/builder-demo" class="lead-email-demo" onclick="callGA('CANNOT WAIT CTA')">
+									<span class="btn-buildcal fade-in btn-liveDemo">
+										Take a Live Demo
+									</span>
+									<!-- <div class="btn-bottominfo fade-in">
+										<label></label>
+									</div> -->
+								</a>
+							</div>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
@@ -191,14 +205,64 @@
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
 					document.getElementsByClassName('lead-email')[0].href = href + email;
+					document.getElementsByClassName('lead-email-demo')[0].href = href + email;
 				}
 
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
-					let email = e.target.value;
+					document.querySelector('.email-error').style.display = 'none';
+					let email = document.getElementsByClassName('lead-form-email')[0].value;
 					let href = "//app.outgrow.co/signup/?email=";
 					if (e.keyCode == 13) {
+						if (!email) {
+							document.querySelector('.email-error').style.display = 'block';
+							return;
+						}
 						window.location.href = href+email;
 					}
+				}
+
+				document.getElementsByClassName('lead-email')[0].onclick = function (e) {
+					e.preventDefault();
+					document.querySelector('.email-error').style.display = 'none';
+					let href = "//app.outgrow.co/signup/?email=";
+					var email = document.getElementsByClassName('lead-form-email')[0].value;
+					if (!email) {
+						document.querySelector('.email-error').style.display = 'block';
+						return;
+					}
+					href += email;
+					window.location.href = href;
+				}
+
+				document.getElementsByClassName('lead-email-demo')[0].onclick = function (e) {
+					e.preventDefault();
+					document.querySelector('.email-error').style.display = 'none';
+					var href = '//app.rely.co/builder-demo';
+					var storage = readCookie('storage');
+					if (storage) {
+						storage = JSON.parse(storage);
+						var company = storage.companyList[1];
+						href = '//' + company + '.rely.co/builder-demo';
+					}
+					var email = document.getElementsByClassName('lead-form-email')[0].value;
+					if (!email) {
+						document.querySelector('.email-error').style.display = 'block';
+						return;
+					}
+					jQuery.ajax({
+						url: './js/ebookhandler.php',
+						type: 'POST',
+						data: {
+							group_id: "7687041",
+							email: email
+						},
+						beforeSend: function () {
+							document.querySelector('.lead-email-demo > span').innerHTML = "Launching ..."
+						},
+						complete: function () {
+							window.location.href = href;
+						}
+					});
 				}
 			</script>
 
@@ -499,7 +563,6 @@
 		</div>
 	</section>
 
-	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 		<div class="start-trial-cta">
 			<a href="/calculators-vs-ebooks">
@@ -510,6 +573,110 @@
 			</a>
 		</div>
 	</div>
+
+	<!-- 4 case studies section  -->
+	<section class="section section-10 sec-4caseStudies">
+		<div class="container container-center">
+			<h1 class="section-2-heading">
+				Success Studies
+			</h1>
+			<h5 class="section-2-subheading">
+				 Get inspired by some of the most successful case studies!
+			</h5>
+			<div class="col-md-12 col-sm-12 col-xs-12 np sec-4caseStudies-block">
+				<!-- <div class="col-md-6 col-xs-12 np text-center">
+					<img src="/images/img-case1.jpg">
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">
+					<img src="/images/img-case2.jpg">
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">
+					<img src="/images/img-case3.jpg">
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">
+					<img src="/images/img-case4.jpg">
+				</div> -->
+
+				<!-- Bottom to top-->
+				<div class="col-md-6 col-xs-12 np text-center">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/">
+							<div class="img">
+								<img src="/images/img-case1.jpg" alt="img">
+							</div>
+							<div class="info">
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>VenturePact, a software consulting shop, generated over 11,000 leads with  their "How much to build an app?" cost calculator.</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="http://resources.outgrow.co/top-viral-calculators">
+							<div class="img">
+								<img src="/images/img-case2.jpg" alt="img">
+							</div>
+							<div class="info info-peach info-height">
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>NY Times most successful article is actually a calculator not a quiz!</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center rs-show">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content">
+							<div class="img">
+								<img src="/images/img-case4.jpg" alt="img">
+							</div>
+							<div class="info info-height">
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>Several calculators have received over 500 upvotes on Product Hunt.</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="http://resources.outgrow.co/interactive-content-future">
+							<div class="img">
+								<img src="/images/img-case3.jpg" alt="img">
+							</div>
+							<div class="info info-peach info-height">
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>7 of the 20 most shared articles on Buzzfeed are quizzes!</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<div class="col-md-6 col-xs-12 np text-center rs-hide">				
+					<!-- normal -->
+					<div class="ih-item square effect13 bottom_to_top">
+						<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content">
+							<div class="img">
+								<img src="/images/img-case4.jpg" alt="img">
+							</div>
+							<div class="info info-height">
+								<img src="/images/icon-case-link.png" alt="img">
+								<p>Several calculators have received over 500 upvotes on Product Hunt.</p>
+							</div>
+						</a>
+					</div>
+					<!-- end normal -->				
+				</div>
+				<!-- end Bottom to top-->
+		</div>
+	</section>
+	<!-- end: 4 case studies section  -->
 
 	<!-- Homepage section 3 end-->
 

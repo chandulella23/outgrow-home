@@ -13,13 +13,15 @@ window.display = function (url) {
 }
 
 jQuery(document).ready(function () {
-	calculateMinHeight();
+	
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
+
+    calculateMinHeight();
 
     jQuery('.calc-links a').on('click',function(){
 		jQuery('a').removeClass('active');
