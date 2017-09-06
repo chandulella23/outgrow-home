@@ -58,20 +58,21 @@ window.display = function (url) {
 
 jQuery.noConflict();
 jQuery.material.init();
+
 jQuery(document).ready(function() {
+    var iframes = iFrameResize({
+        log: false,
+        autoResize: true,
+        enablePublicMethods: true,
+        checkOrigin: false,
+    },'#og-iframe');
+
 	calculateMinHeight();
 
     jQuery('.calc-links a').on('click',function(){
 		jQuery('a').removeClass('active');
 		jQuery(this).addClass('active');
 	});
-
-	var iframes = iFrameResize({
-        log: false,
-        autoResize: true,
-        enablePublicMethods: true,
-        checkOrigin: false,
-    },'#og-iframe');
 
 	var url = setLoginSignup();
 
