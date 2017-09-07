@@ -58,7 +58,7 @@
 										<label></label>
 									</div> -->
 								</a>
-								<a href="//app.rely.co/builder-demo" class="lead-email-demo" onclick="callGA('CANNOT WAIT CTA')">
+								<a href="//sample.rely.co/builder-demo" class="lead-email-demo" onclick="callGA('CANNOT WAIT CTA')">
 									<span class="btn-buildcal fade-in btn-liveDemo">
 										Take a Live Demo
 									</span>
@@ -110,7 +110,7 @@
 				document.getElementsByClassName('lead-email-demo')[0].onclick = function (e) {
 					e.preventDefault();
 					document.querySelector('.email-error').style.display = 'none';
-					var href = '//app.rely.co/builder-demo';
+					var href = '//sample.rely.co/builder-demo';
 					var storage = readCookie('storage');
 					if (storage) {
 						storage = JSON.parse(storage);
