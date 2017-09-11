@@ -63,7 +63,7 @@ background:none!important;
 @media (min-width:0px) and (max-width:767px){
 	
 	.disc-set{
-	margin-top:0px!important;
+	padding-top:0px!important;
 }
 .t1-result-top{ display:inline-block;}
 .t1-result-top .t1-result-inner{position:relative !important;}
