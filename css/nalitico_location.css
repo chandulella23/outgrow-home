@@ -39,6 +39,15 @@ background:none!important;
 	display:none!important;
 }
 
+.t1-result-main{ margin-top:0px !important;}
+
+@media (min-width:768px) and (max-width:1023px){
+	.disc-set{
+	margin-top:0px!important;
+}
+	
+}
+
 @media only screen and (max-width:480px){
 	.disc-set{
 	margin-top:0px!important;
@@ -57,5 +66,13 @@ background:none!important;
 	margin-top:0px!important;
 }
 .t1-result-top{ display:inline-block;}
+.t1-result-top .t1-result-inner{position:relative !important;}
+.t1-result-disclaimer {
+    padding: 0 30px 0;
+    margin: 0 0 6px !important;
+    position: absolute !important;
+    bottom: 0px !important;
+}
 	
 }
+
