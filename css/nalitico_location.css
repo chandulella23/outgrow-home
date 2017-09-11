@@ -39,7 +39,7 @@ background:none!important;
 	display:none!important;
 }
 
-.t1-result-main{ margin-top:0px !important;}
+.t1-result-main{ padding-top:0px !important;}
 
 @media (min-width:768px) and (max-width:1023px){
 	.disc-set{
@@ -63,7 +63,7 @@ background:none!important;
 @media (min-width:0px) and (max-width:767px){
 	
 	.disc-set{
-	padding-top:0px!important;
+	margin-top:0px!important;
 }
 .t1-result-top{ display:inline-block;}
 .t1-result-top .t1-result-inner{position:relative !important;}
