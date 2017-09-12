@@ -97,6 +97,37 @@
 			<p>
 				We may change any aspect of the service we want, or even stop it, at any time without giving you notice. We can also terminate or restrict access to it at any time, in our sole discretion. Termination of your access and use of Outgrow Services shall not relieve you of any obligations arising or accruing before the termination.
 			</p>
+			<h4 class="Privacy-subheading">FEES, PAYMENTS & CANCELLATION POLICY</h4>
+			<p>
+				You agree to pay for the Services you use on the Outgrow Site in accordance the pricing and payment terms presented to you for that service. Fees paid by you are non-refundable.
+			</p>
+			<p>
+				For subscriptions, you will be billed in advance on a recurring cycle for the period you have selected (monthly or annually or quarterly) at the beginning of that period. Your subscription will automatically renew at the end of each period unless you cancel automatic renewal at least 48 hours before your next renewal date. 
+			</p>
+			<p>
+				Outgrow may change the fees charged for Services at any time, provided that, for subscription Services, the change will become effective only upon the next renewal date.
+			</p>
+			<h4 class="Privacy-subheading">CANCELLATION POLICY</h4>
+			<p>
+				Your subscription will automatically renew at the end of each period unless you cancel automatic renewal at least 48 hours before your next renewal date. If you decide to cancel, no refund will be provided for fees paid or past bills and your service will remain active through the end of the existing license period.
+			</p>
+			<p>
+				At the end of the license period, you will no longer be charged. If you cancel within 48 hours of your next renewal date, the next renewal will go through but that will be your last renewal and the cancellation will take effect on the following renewal as it is required that you cancel at least 48 hours prior to the renewal date. Note: The length of your license can be longer than your billing period for example an annual license, billed semi-annually would mean that a cancellation on month 4 will take effect at the end of the annual license and the second semiannual bill on month 6 will continue as well as the remaining 8 months of the subscription.  
+			</p>
+			<h4 class="Privacy-subheading">Upgrades</h4>
+			<p>
+				An upgrade is when a paying customer decides to change their current plan to a more expensive paid plan.
+			</p>
+			<p>
+				When upgrading in the middle of a billing period, you will be given a pro-rated credit (not a refund) for the current plan which will be applied to the pro-rated charges for the upgraded plan. At the end of the billing period, the upgraded plan will auto-renew.
+			</p>
+			<h4 class="Privacy-subheading">Downgrades</h4>
+			<p>
+				A downgrade is when a paying customer chooses to change their plan from a more expensive to a less expensive (but still paid) plan.
+			</p>
+			<p>
+				When downgrading in the middle of a billing period, your account downgrade will apply at the end of the period and to the following period but will not impact the existing billing period.
+			</p>
 			<h4 class="Privacy-subheading">Miscellaneous</h4>
 			<p>
 				This Agreement constitutes the entire agreement between Outgrow and you concerning the subject matter hereof, and they may only be modified by a written amendment signed by an authorized executive of Outgrow, or by the posting by Outgrow of a revised version. Except to the extent applicable law, if any, provides otherwise, this Agreement, any access to or use of the Site will be governed by the laws of the state of Delaware, U.S.A. Except for claims for injunctive or equitable relief or claims regarding intellectual property rights (which may be brought in any competent court without the posting of a bond), any dispute arising under this Agreement shall be finally settled in accordance with the Comprehensive Arbitration Rules of the Judicial Arbitration and Mediation Service, Inc. (“JAMS”) by three arbitrators appointed in accordance with such Rules. The arbitration shall take place in Delaware, in the English language and the arbitral decision may be enforced in any court. The prevailing party in any action or proceeding to enforce this Agreement shall be entitled to costs and attorneys’ fees. If any part of this Agreement is held invalid or unenforceable, that part will be construed to reflect the parties’ original intent, and the remaining portions will remain in full force and effect. A waiver by either party of any term or condition of this Agreement or any breach thereof, in any one instance, will not waive such term or condition or any subsequent breach thereof. You may assign your rights under this Agreement to any party that consents to, and agrees to be bound by, its terms and conditions; Outgrow may assign its rights under this Agreement without condition. This Agreement will be binding upon and will inure to the benefit of the parties, their successors and permitted assigns.
