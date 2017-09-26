@@ -79,7 +79,7 @@
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-mob">
-							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
@@ -93,7 +93,7 @@
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-res">
-							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
 								<span class="inside-circle" onclick="changeHeightRes()"><i class="material-icons">play_arrow</i></span>
@@ -107,7 +107,7 @@
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1">
-							<img class="video-img" src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/video-thumbnail.jpg" />
+							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
 								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
@@ -352,18 +352,18 @@
 			</h1>
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table1.png">
+					<img src="//dzvexx2x036l1.cloudfront.net/img-table1.png">
 					<span>Achieve Conversion Rates of Over 60%</span>
 					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table2.png">
+					<img src="//dzvexx2x036l1.cloudfront.net/img-table2.png">
 					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
 					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
 
 				</div>
 				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="{{ $page->baseUrl }}/images/img-table3.png">
+					<img src="//dzvexx2x036l1.cloudfront.net/img-table3.png">
 					
 					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
 					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
@@ -405,7 +405,7 @@
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
 						<video width="1324" height="607" autoplay loop>
-							<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
+							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.mp4" type="video/mp4">
 						</video>
 					</div>
 				</div>
@@ -433,7 +433,7 @@
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
 						<video width="1324" height="607" autoplay loop>
-							<source src="https://s3.amazonaws.com/outgrow-assets/site/images/Outgrow-demo.mp4" type="video/mp4">
+							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.mp4" type="video/mp4">
 						</video>
 					</div>
 				</div>
@@ -446,7 +446,7 @@
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="scrollimg mk-animate-element scale-up sec5-2-1" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-publishAnywhere.png" />
+				<img class="scrollimg mk-animate-element scale-up sec5-2-1" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-publishAnywhere.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -467,7 +467,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="scrollimg mk-animate-element scale-up sec5-2-1" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-publishAnywhere.png" />
+				<img class="scrollimg mk-animate-element scale-up sec5-2-1" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-publishAnywhere.png" />
 			</div>
 		</div>
 	</section>
@@ -477,8 +477,8 @@
 	<section class="section section-6">
 		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show">
-				<img class="scrollimg mk-animate-element right-to-left sec6-2-1" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-tab.png" />
-				<img class="scrollimg sec6-2-2 mk-animate-element left-to-right" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-mobile.png" />
+				<img class="scrollimg mk-animate-element right-to-left sec6-2-1" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-tab.png" />
+				<img class="scrollimg sec6-2-2 mk-animate-element left-to-right" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-mobile.png" />
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
 				<h4 class="mk-animate-element left-to-right">
@@ -494,8 +494,8 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
-				<img class="scrollimg mk-animate-element right-to-left" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-tab.png" />
-				<img class="scrollimg sec4-2 mk-animate-element left-to-right" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-boostgrowth-mobile.png" />
+				<img class="scrollimg mk-animate-element right-to-left" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-tab.png" />
+				<img class="scrollimg sec4-2 mk-animate-element left-to-right" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-mobile.png" />
 			</div>
 		</div>
 	</section>
@@ -504,7 +504,7 @@
 	<section class="section section-5">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-show">
-				<img class="scrollimg mk-animate-element scale-up" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-analyze_improve.png" />
+				<img class="scrollimg mk-animate-element scale-up" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-analyze_improve.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
 				<h4 class="mk-animate-element right-to-left">
@@ -525,7 +525,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-9 col-sm-pull-3 np section-5-right mk-animate-element fade-in rs-hide">
-				<img class="scrollimg mk-animate-element scale-up" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-analyze_improve.png" />
+				<img class="scrollimg mk-animate-element scale-up" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-analyze_improve.png" />
 			</div>
 
 			<div class="col-xs-12 col-sm-12 text-center rs-hide">
@@ -544,54 +544,54 @@
 				 Easily Integrate with Over 500 sales & marketing tools
 			</h5>
 			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide mk-in-viewport text-center">
-				<!--<img class="mk-animate-element scale-up int-box-shadow" src=""  data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-integration-full.jpg" />-->
+				<!--<img class="mk-animate-element scale-up int-box-shadow" src=""  data-src="//dzvexx2x036l1.cloudfront.net/img-integration-full.jpg" />-->
 				<div class="img-int-wrapper">
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-1.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-2.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-3.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-4.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-5.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-6.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-7.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-8.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-9.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-10.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-11.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-12.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-1.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-2.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-3.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-4.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-5.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-6.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-7.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-8.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-9.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-10.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-11.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-12.jpg" />
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-show text-center mk-in-viewport rs-hide-int-res">
-				<!--<img class="int-box-shadow" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/img-integration-resp.jpg">-->
+				<!--<img class="int-box-shadow" src="" data-src="//dzvexx2x036l1.cloudfront.net/img-integration-resp.jpg">-->
 				<div class="img-int-wrapper">
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-1.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-2.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-3.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-4.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-5.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-6.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-7.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-8.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-9.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-10.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-11.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-12.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-1.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-2.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-3.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-4.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-5.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-6.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-7.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-8.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-9.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-10.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-11.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-12.jpg" />
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np mk-animate-element scale-up rs-show text-center mk-in-viewport rs-hide-int-mob">
-				<!--<img class="int-box-shadow" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-integration-mob.jpg">-->
+				<!--<img class="int-box-shadow" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-integration-mob.jpg">-->
 				<div class="img-int-wrapper">
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-1.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-2.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-3.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-4.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-5.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-6.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-7.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-8.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-9.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-10.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-11.jpg" />
-					<img class="scrollimg" src=""  data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/img-int-12.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-1.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-2.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-3.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-4.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-5.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-6.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-7.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-8.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-9.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-10.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-11.jpg" />
+					<img class="scrollimg" src=""  data-scroll-img="//dzvexx2x036l1.cloudfront.net/img-int-12.jpg" />
 				</div>
 			</div>
 		</div>
@@ -616,15 +616,15 @@
 				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
 					<a href="javascript:void(0);" class="active"
 						onclick="display('//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1')">
-						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
+						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1')">
-						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
+						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
+						<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 np">
@@ -640,13 +640,13 @@
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
 						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
-							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 						</a>
 					</div>
 				</div>
@@ -667,25 +667,25 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -699,25 +699,25 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile01.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile03.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile04.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile04.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile05.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile05.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile06.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile06.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile07.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile07.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile08.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile08.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonialsMobile08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -731,25 +731,25 @@
 			<div class="swiper-container mk-animate-element scale-up">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials01.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials01.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonials01.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonials01.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials03.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials03.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonials03.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonials03.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials04.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials04.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonials04.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonials04.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials05.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials05.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonials05.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonials05.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials06.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials06.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonials06.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonials06.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials07.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials07.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonials07.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonials07.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 					<div class="swiper-slide">
-						<img src="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials08.jpg" data-scroll-img="https://s3.amazonaws.com/outgrow-assets/site/images/testimonials08.jpg" alt="" class="scrollimg qode-lazy-image" />
+						<img src="//dzvexx2x036l1.cloudfront.net/testimonials08.jpg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/testimonials08.jpg" alt="" class="scrollimg qode-lazy-image" />
 					</div>
 				</div>
 			</div>
@@ -777,7 +777,7 @@
 	<section class="section section-startFreeTrial-btn text-center">
 		<a href="//app.outgrow.co" class="params trialLOL">
 			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
-			<img src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png">Start Free Trial</button>
+			<img src="" data-src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
 		</a>
 		<div class=""><label>Plans Start at $25/month</label></div>
 	</section>

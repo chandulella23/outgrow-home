@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="params navbar-brand" href="{{ $page->baseUrl }}/"><img src="https://s3.amazonaws.com/outgrow-assets/site/images/logo.png" /></a>
+			<a class="params navbar-brand" href="{{ $page->baseUrl }}/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" /></a>
 		</div>
 	</div>
 </nav>
