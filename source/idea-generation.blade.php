@@ -36,7 +36,7 @@
             <div class="sec">
                 <!--<div class="logo">
                     <a href="{{ $page->baseUrl }}/">
-                        <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
+                        <img src="//dzvexx2x036l1.cloudfront.net/logo1.png" alt="logo" />
                     </a>
                 </div>-->
                 <div class="sec-container">
@@ -52,7 +52,7 @@
         </section>
         <!--<div class="logo-top hide">
             <a href="{{ $page->baseUrl }}/">
-                <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
+                <img src="//dzvexx2x036l1.cloudfront.net/logo1.png" alt="logo" />
             </a>
         </div>-->
         <section class="sec-outr sec2-bg hide">
@@ -136,7 +136,7 @@
             <div class="sec">
                 <!--<div class="logo">
                     <a href="{{ $page->baseUrl }}/">
-                        <img src="{{ $page->baseUrl }}/images/logo1.png" alt="logo" />
+                        <img src="//dzvexx2x036l1.cloudfront.net/logo1.png" alt="logo" />
                     </a>
                 </div>-->
                 <div class="sec-container custom-conatiner">

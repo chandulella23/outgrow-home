@@ -46,6 +46,10 @@ window.runTimeout = function() {
     setTimeout(function () {
         jQuery('.content-loader').addClass('hide');   
     }, 5000);
+    setTimeout(function () {
+        console.log('Loading timeout calculate height');
+        calculateMinHeight();
+    }, 500);
 }
 
 window.display = function (url) {

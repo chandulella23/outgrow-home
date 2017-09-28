@@ -59,15 +59,15 @@
 				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
 					<a href="javascript:void(0);"  class="active"
 						onclick="display('//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1')">
-						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 					</a>
 					<a href="javascript:void(0);"  class=""
 						onclick="display('//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1')">
-						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 					</a>
 					<a href="javascript:void(0);"  class=""
 						onclick="display('//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
+						<img class="mk-animate-element scale-up thumb-calc" src="" data-src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 np">
@@ -94,13 +94,13 @@
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
 						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
-							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="https://s3.amazonaws.com/outgrow-assets/site/images/calc01.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="https://s3.amazonaws.com/outgrow-assets/site/images/calc02.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="https://s3.amazonaws.com/outgrow-assets/site/images/calc03.jpg" />
+							<img class="scrollimg mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 						</a>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 					<h3>Generate Ideas</h3>
 					<a href="{{ $page->baseUrl }}/idea-generation?get-started" class="params trialLOL">
 						<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal">
-						<img src="" data-src="https://s3.amazonaws.com/outgrow-assets/site/images/icon-mouse.png"> &nbsp;Get Started</button>
+						<img src="" data-src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png"> &nbsp;Get Started</button>
 					</a>
 				</div>
 			</div>
@@ -207,10 +207,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide  mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner2.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show  mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner2.jpg" class= "img-pos box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class= "img-pos box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -219,7 +219,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide5-new.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -257,7 +257,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide5-new.jpg" class= "box-shadow img-res" />
+													<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class= "box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -306,11 +306,11 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 												</div>
 
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -320,7 +320,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/homepage-2.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/homepage-2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -358,7 +358,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/homepage-2.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/homepage-2.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -401,10 +401,10 @@
 												</div>
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner5-new.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner5-new.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner5-new.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -415,7 +415,7 @@
 											<div class="container img-container-right mobile-container">
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide3.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/slide3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -462,7 +462,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide3.jpg" class="box-shadow img-res" />
+													<img src="//dzvexx2x036l1.cloudfront.net/slide3.jpg" class="box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -508,10 +508,10 @@
 												</div>
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner4-new.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner4-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner4-new.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner4-new.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -521,7 +521,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner6.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -555,7 +555,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner6.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -597,11 +597,11 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -638,10 +638,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner10.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner10.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner10.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner10.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -666,7 +666,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/new-collag3.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/new-collag3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -703,7 +703,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/new-collag3.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/new-collag3.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -748,10 +748,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner7-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -760,7 +760,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide5-new.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -797,7 +797,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/slide5-new.jpg" class="box-shadow img-res" />
+													<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -841,10 +841,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner6.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner6.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -853,7 +853,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/Construction.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/Construction.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -902,7 +902,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/Construction.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/Construction.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -946,10 +946,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner8-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -958,7 +958,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner2.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -991,7 +991,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner2.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1036,10 +1036,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/manufacturing.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/manufacturing.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/manufacturing.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/manufacturing.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1048,7 +1048,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner9-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner9-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1081,7 +1081,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="https://s3.amazonaws.com/outgrow-assets/site/images/banner9-ex.jpg" class="box-shadow" />
+													<img src="//dzvexx2x036l1.cloudfront.net/banner9-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>

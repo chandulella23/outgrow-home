@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 np p-img">
-				<img class="sec4-2-new mk-animate-element scale-up" src="{{ $page->baseUrl }}/images/google-search-1.png" />
+				<img class="sec4-2-new mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" />
 			</div>
 	</section>
 
