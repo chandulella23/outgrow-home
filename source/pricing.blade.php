@@ -149,21 +149,21 @@
                     <tbody>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                            <td>300 & 6000</td>
-                            <td>1,000 & 20,000</td>
-                            <td>15,000 & 300,000</td>
+                            <td><span class="quater"></span>300 & 6000</td>
+                            <td  class="active-bg"><span class="half"></span>1,000 & 20,000</td>
+                            <td><span class="full"></span>15,000 & 300,000</td>
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
-                            <td>3</td>
-                            <td>Unlimited</td>
-                            <td>Unlimited</td>
+                            <td><span class="quater"></span>3</td>
+                            <td class="active-bg"><span class="full"></span>Unlimited</td>
+                            <td><span class="full"></span>Unlimited</td>
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Collaborators</th>
-                            <td>1</td>
-                            <td>3</td>
-                            <td>10</td>
+                            <td><span class="quater"></span>1</td>
+                            <td class="active-bg"><span class="half"></span>3</td>
+                            <td><span class="full"></span>10</td>
                         </tr>
                         <tr class="expand">
                             <th>
@@ -172,15 +172,15 @@
                                 Lead Generation
                             </th>
                             <td class="expand-child">
-                                Full Access 
+                                <span class="half"></span>Full Access 
+                                <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>Full Access
                                 <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
                             </td>
                             <td class="expand-child">
-                                Full Access
-                                <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
-                            </td>
-                            <td class="expand-child">
-                                Advanced Access
+                                <span class="full"></span>Advanced Access
                                 <span class="detail">Ensure each lead's authenticity & reduce "fake" leads via advanced email validation.</span>
                             </td>                            
                         </tr>
@@ -191,15 +191,15 @@
                                 Domain Hosting
                             </th>
                             <td class="expand-child">
-                                Outgrow Domain
+                                <span class="half"></span>Outgrow Domain
+                                <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>Outgrow Domain
                                 <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                             </td>
                             <td class="expand-child">
-                                Outgrow Domain
-                                <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
-                            </td>
-                            <td class="expand-child">
-                                Custom Domain
+                                <span class="full"></span>Custom Domain
                                 <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
                             </td>
                         </tr>
@@ -210,13 +210,13 @@
                                 Charts and Graphs
                             </th>
                             <td>
-                                No Access
+                                <span class="none"></span>No Access
                             </td>
-                            <td>
-                                No Access
+                            <td class="active-bg">
+                                <span class="none"></span>No Access
                             </td>
                             <td class="expand-child">
-                                Full Access
+                                <span class="full"></span>Full Access
                                 <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
                             </td>
                         </tr>
@@ -227,15 +227,15 @@
                                 Display Customizations
                             </th>
                             <td class="expand-child">
-                                Standard Access
+                                <span class="half"></span>Standard Access
+                                <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>Standard Access
                                 <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
                             </td>
                             <td class="expand-child">
-                                Standard Access
-                                <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
-                            </td>
-                            <td class="expand-child">
-                                Full Access
+                                <span class="full"></span>Full Access
                                 <span class="detail">Use your brand logo, customize look & feel using custom colors, tinges and add custom HTML.</span>
                             </td>
                         </tr>
@@ -246,15 +246,15 @@
                                 Branding
                             </th>
                             <td class="expand-child">
-                                Outgrow Branding
+                                <span class="quater"></span>Outgrow Branding
                                 <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
                             </td>
-                            <td class="expand-child">
-                                Light Outgrow Branding
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>Light Outgrow Branding
                                 <span class="detail">A small discreet Outgrow logo at the bottom of the screen.</span>
                             </td>
                             <td class="expand-child">
-                                No Outgrow Branding
+                                <span class="full"></span>No Outgrow Branding
                                 <span class="detail">No Outgrow branding is displayed on any screen.</span>
                             </td>
                         </tr>
@@ -265,23 +265,23 @@
                                 Integrations
                             </th>
                             <td class="expand-child">                                
-                                Excel Export
+                                <span class="quater"></span>Excel Export
                                 <span class="detail">View (or download) lead contact information in a Google spreadsheet.</span>                             
                             </td>
-                            <td class="expand-child">                                
-                                Standard Access
+                            <td class="expand-child active-bg">                                
+                                <span class="half"></span>Standard Access
                                 <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                Advanced Access
+                                <span class="full"></span>Advanced Access
                                 <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
                             </td>
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i>Templates</th>
-                            <td>Basic Template</td>
-                            <td>All templates </td>
-                            <td>All templates</td>
+                            <td><span class="half"></span>Basic Template</td>
+                            <td class="active-bg"><span class="full"></span>All templates </td>
+                            <td><span class="full"></span>All templates</td>
                         </tr>
                         <!-- <tr class="expand">
                             <th>
@@ -309,15 +309,15 @@
                                 Formulas
                             </th>
                             <td class="expand-child">                                
-                                Basic Operators
+                                <span class="quater"></span>Basic Operators
                                 <span class="detail">You can use basic mathematical operators like +,-, x and /.</span>                             
                             </td>
-                            <td class="expand-child">                                
-                                Advanced Operators
+                            <td class="expand-child active-bg">                                
+                                <span class="full"></span>Advanced Operators
                                 <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                Advanced Operators
+                                <span class="full"></span>Advanced Operators
                                 <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>                             
                             </td>
                         </tr>
@@ -328,14 +328,14 @@
                                 Logic Jump
                             </th>
                             <td>
-                                No Access   
+                                <span class="none"></span>No Access   
                             </td>
-                            <td class="expand-child">  
-                                Full Access
+                            <td class="expand-child active-bg">  
+                                <span class="full"></span>Full Access
                                 <span class="detail">Apply logic jump to supported templates to improve personalization.</span>    
                             </td>
                             <td class="expand-child">  
-                                Full Access
+                                <span class="full"></span>Full Access
                                 <span class="detail">Apply logic jump to supported templates to improve personalization.</span>    
                             </td>
                         </tr>
@@ -346,15 +346,15 @@
                                 Analytics
                             </th>
                             <td class="expand-child">                                
-                                Full Analytics Report
+                                <span class="half"></span>Full Analytics Report
+                                <span class="detail">Traffic Details, Lead Data and User Responses</span>                             
+                            </td>
+                            <td class="expand-child active-bg">                                
+                                <span class="half"></span>Full Analytics Report
                                 <span class="detail">Traffic Details, Lead Data and User Responses</span>                             
                             </td>
                             <td class="expand-child">                                
-                                Full Analytics Report
-                                <span class="detail">Traffic Details, Lead Data and User Responses</span>                             
-                            </td>
-                            <td class="expand-child">                                
-                                Advanced Analytics Report
+                                <span class="full"></span>Advanced Analytics Report
                                 <span class="detail">Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>                             
                             </td>
                         </tr>
@@ -365,15 +365,15 @@
                                 Support
                             </th>
                             <td class="expand-child">                                
-                                Support Docs
+                                <span class="quater"></span>Support Docs
                                 <span class="detail">You will have access to support docs.</span>                             
                             </td>
-                            <td class="expand-child">                                
-                                Basic
+                            <td class="expand-child active-bg">                                
+                                <span class="half"></span>Basic
                                 <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                Priority
+                                <span class="full"></span>Priority
                                 <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
                             </td>
                         </tr>
@@ -405,15 +405,15 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle">300 & 6000</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle">3</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>3</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Collaborators</span>
-                                    <span class="feature-subtitle">1</span>
+                                    <span class="feature-subtitle"><span class="full"></span>1</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -421,7 +421,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Lead Generation
                                     </span>
-                                    <span class="feature-subtitle">Full Access </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Full Access </span>
                                     <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -430,7 +430,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Domain Hosting
                                     </span>
-                                    <span class="feature-subtitle">Outgrow Domain </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
                                     <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li>
                                 <li>
@@ -438,7 +438,7 @@
                                         <!--<i class="material-icons plus">add</i>-->
                                         Charts and Graphs
                                     </span>
-                                    <span class="feature-subtitle">No Access</span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                     <!--<span class="detail"></span>-->
                                 </li>
                                 <li class="expand-rs">
@@ -447,7 +447,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Display Customizations
                                     </span>
-                                    <span class="feature-subtitle">Standard Access</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -456,7 +456,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Branding
                                     </span>
-                                    <span class="feature-subtitle">Outgrow Branding</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Outgrow Branding</span>
                                     <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -465,12 +465,12 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle">Excel Export</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Excel Export</span>
                                     <span class="detail">View (or download) lead contact information in a Google spreadsheet.</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Templates</span>
-                                    <span class="feature-subtitle">Basic Template</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic Template</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -487,7 +487,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Formulas
                                     </span>
-                                    <span class="feature-subtitle">Basic Operators</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Operators</span>
                                     <span class="detail">You can use basic mathematical operators like +,-, x and /.</span>
                                 </li>
                                 <li>
@@ -495,7 +495,7 @@
                                         <!--<i class="material-icons plus">add</i>-->
                                         Logic Jump
                                     </span>
-                                    <span class="feature-subtitle">No Access</span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                     <!--<span class="detail"></span>-->
                                 </li>
                                 <li class="expand-rs">
@@ -504,7 +504,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Analytics
                                     </span>
-                                    <span class="feature-subtitle">Full Analytics Report</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Full Analytics Report</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses</span>
                                 </li>
                                 <li class="expand-rs">
@@ -513,7 +513,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
-                                    <span class="feature-subtitle">Support Docs</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
                                     <span class="detail">You will have access to support docs.</span>
                                 </li>
                             </ul>
@@ -549,15 +549,15 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle">1,000 & 20,000</span>
+                                    <span class="feature-subtitle"><span class="half"></span>1,000 & 20,000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle">Unlimited</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Collaborators</span>
-                                    <span class="feature-subtitle">3</span>
+                                    <span class="feature-subtitle"><span class="half"></span>3</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -565,7 +565,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Lead Generation
                                     </span>
-                                    <span class="feature-subtitle">Full Access </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Full Access </span>
                                     <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -574,7 +574,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Domain Hosting
                                     </span>
-                                    <span class="feature-subtitle">Outgrow Domain </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
                                     <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li>
                                 <li>
@@ -582,7 +582,7 @@
                                         <!--<i class="material-icons plus">add</i>-->
                                         Charts and Graphs
                                     </span>
-                                    <span class="feature-subtitle">No Access</span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                     <!--<span class="detail"></span>-->
                                 </li>
                                 <li class="expand-rs">
@@ -591,7 +591,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Display Customizations
                                     </span>
-                                    <span class="feature-subtitle">Standard Access</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -600,7 +600,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Branding
                                     </span>
-                                    <span class="feature-subtitle">Light Outgrow Branding</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Light Outgrow Branding</span>
                                     <span class="detail">A small discreet Outgrow logo at the bottom of the screen.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -609,12 +609,12 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle">Full Access</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Full Access</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Templates</span>
-                                    <span class="feature-subtitle">All Templates</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Templates</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -631,7 +631,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Formulas
                                     </span>
-                                    <span class="feature-subtitle">Advanced Operators</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Operators</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -640,7 +640,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Logic Jump
                                     </span>
-                                    <span class="feature-subtitle">Full Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Apply logic jump to supported templates to improve personalization.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -649,7 +649,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Analytics
                                     </span>
-                                    <span class="feature-subtitle">Full Analytics Report</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Full Analytics Report</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses</span>
                                 </li>
                                 <li class="expand-rs">
@@ -658,7 +658,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
-                                    <span class="feature-subtitle">Basic</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic</span>
                                     <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>
                                 </li>
                             </ul>
@@ -692,15 +692,15 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle">15,000 & 300,000</span>
+                                    <span class="feature-subtitle"><span class="full"></span>15,000 & 300,000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle">Unlimited</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Collaborators</span>
-                                    <span class="feature-subtitle">10</span>
+                                    <span class="feature-subtitle"><span class="full"></span>10</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -708,7 +708,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Lead Generation
                                     </span>
-                                    <span class="feature-subtitle">Advanced Access </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access </span>
                                     <span class="detail">Ensure each lead's authenticity & reduce "fake" leads via advanced email validation.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -717,7 +717,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Domain Hosting
                                     </span>
-                                    <span class="feature-subtitle">Custom Domain </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Custom Domain </span>
                                     <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
                                 </li>
                                 <li class="expand-rs">
@@ -726,7 +726,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Charts and Graphs
                                     </span>
-                                    <span class="feature-subtitle">Full Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -735,7 +735,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Display Customizations
                                     </span>
-                                    <span class="feature-subtitle">Full Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Use your brand logo, customize look & feel using custom colors, tinges and add custom HTML.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -744,7 +744,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Branding
                                     </span>
-                                    <span class="feature-subtitle">No Outgrow Branding</span>
+                                    <span class="feature-subtitle"><span class="full"></span>No Outgrow Branding</span>
                                     <span class="detail">No Outgrow branding is displayed on any screen.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -753,12 +753,12 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle">Advanced Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
                                     <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Templates</span>
-                                    <span class="feature-subtitle">All Templates</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Templates</span>
                                     <!--<span class="detail"></span>-->
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -776,7 +776,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Formulas
                                     </span>
-                                    <span class="feature-subtitle">Advanced Operators</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Operators</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -785,7 +785,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Logic Jump
                                     </span>
-                                    <span class="feature-subtitle">Full Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Apply logic jump to supported templates to improve personalization.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -794,7 +794,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Analytics
                                     </span>
-                                    <span class="feature-subtitle">Advanced Analytics Report</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Analytics Report</span>
                                     <span class="detail">Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -803,7 +803,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
-                                    <span class="feature-subtitle">Priority</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Priority</span>
                                     <span class="detail">You will have access to support docs, email support as well as live chat.</span>
                                 </li>
                             </ul>
