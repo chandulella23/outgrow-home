@@ -1001,37 +1001,45 @@ label {
 		}*/
 
 		thead th h2 {
-			font-size: 22px;
-			color: #2b93be;
+			font-size: 15px;
+			color: #62696d;
 			font-family: montserratlight;
+			text-transform: uppercase;
 			margin-top: 35px;
 		}
 		
 		thead th sub {
 			font-size: 14px;
 			bottom: 0px;
-			font-family: montserratregular;
-			left: 3px;
+			font-family: montserratlight;
+			left: 0px;
 		}
 
 		thead th p.price {
-			color: #777;
-			font-size: 30px;
-			font-family: montserratlight;
+			font-size: 36px !important;
+			color: #009ad8;
+			font-family: montserratsemibold !important;
 			line-height: normal;
+			text-align: center;
+		}
+		thead th p.price sup {
+			font-size: 20px;
+			font-family: montserratlight;
 		}
 
 		thead th p.strike-price {
 			color: #abb7bc;
-			font-size: 14px;
+			font-size: 12px;
 			font-family: montserratlight;
 			text-decoration: line-through;
 			margin: 0px;
 			line-height: normal;
+			margin-bottom: 5px;
 		}
 
 		thead th p.strike-price sub {
 			font-family: montserratlight;
+			font-size: 75%;
 		}
 
 		thead span {

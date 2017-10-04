@@ -87,16 +87,16 @@
                             <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>mo.</sub></p>
-                                    <p class="price">$25<sub>mo.</sub></p>
+                                    <p class="strike-price">$45<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>mo.</sub></p>
-                                    <p class="price">$30<sub>mo.</sub></p>
+                                    <p class="strike-price">$45<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
                                     <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                    <p class="price">$45<sub>mo.</sub></p>
+                                    <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -105,32 +105,32 @@
                                 <span class="label-popularPlan">Most Popular</span>
                                 <h2>Essential</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$115<sub>mo.</sub></p>
-                                    <p class="price">$95<sub>mo.</sub></p>
+                                    <p class="strike-price">$115<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$115<sub>mo.</sub></p>
-                                    <p class="price">$105<sub>mo.</sub></p>
+                                    <p class="strike-price">$115<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                    <p class="price">$115<sub>mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
                             <th>
                                 <h2>Business</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$720<sub>mo.</sub></p>
-                                    <p class="price">$600<sub>mo.</sub></p>
+                                    <p class="strike-price">$720<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$720<sub>mo.</sub></p>
-                                    <p class="price">$667<sub>mo.</sub></p>
+                                    <p class="strike-price">$720<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                    <p class="price">$720<sub>mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -388,16 +388,16 @@
                         <div class="pricing-top">
                             <h3>Freelancer</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$45<sub>mo.</sub></p>
-                                <p class="price">$25<sub>mo.</sub></p>
+                                <p class="strike-price">$45<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$45<sub>mo.</sub></p>
-                                <p class="price">$30<sub>mo.</sub></p>
+                                <p class="strike-price">$45<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                <p class="price">$45<sub>mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -532,16 +532,16 @@
                         <div class="pricing-top">
                             <h3>Essential</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>mo.</sub></p>
-                                <p class="price">$95<sub>mo.</sub></p>
+                                <p class="strike-price">$115<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$115<sub>mo.</sub></p>
-                                <p class="price">$105<sub>mo.</sub></p>
+                                <p class="strike-price">$115<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                <p class="price">$115<sub>mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -675,16 +675,16 @@
                         <div class="pricing-top">
                             <h3>Business</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$720<sub>mo.</sub></p>
-                                <p class="price">$600<sub>mo.</sub></p>
+                                <p class="strike-price">$720<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$720<sub>mo.</sub></p>
-                                <p class="price">$667<sub>mo.</sub></p>
+                                <p class="strike-price">$720<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                <p class="price">$720<sub>mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
