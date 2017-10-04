@@ -1333,3 +1333,6 @@ tr.expand.open td.active-bg {
 tr.not-info:hover td.active-bg {
     background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
 }
+tbody tr:last-child td.active-bg {
+    border-bottom: 1px solid #bed4df;
+}
