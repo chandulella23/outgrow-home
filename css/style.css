@@ -778,7 +778,7 @@ figure.icons-part {
     height: 120px;
     width: 120px;
 }
-.funnel-step h4 {    color: #81878a;    float: left;    font-family: 'montserratregular';    font-size: 16px;    font-weight: normal;    margin: 25px 0 30px;    text-transform: uppercase;    width: 100%;    text-align: left;}
+.funnel-step h4 {    color: #81878a;    float: left;    font-family: 'montserratregular';    font-size: 16px;    font-weight: normal;    margin: 25px 0 30px;    text-transform: uppercase;    width: 100%;    text-align: center;}
 .sec-catergory.custom-select .selectize-control.single .selectize-input {    box-shadow: none;}
 .funnel-step {    border-right: 1px solid #d9dad3;;    flex: 1 1 0;    padding: 0 15px 0px;    text-align: center;}
    .middle figure.icons-part {    background-position: -175px center;}
@@ -849,6 +849,17 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     display: none;
     float: left;
     width: 100%;
+}
+.sec-catergory.custom-select .error {
+    font-size: 12px;
+    color: #fb5f66;
+    text-align: left;
+    display: none;
+    float: left;
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
 }
 .info-content i {
     display: inline-block;
