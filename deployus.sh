@@ -1,6 +1,6 @@
 git add . && git commit -am "Source commit"
 
-git push
+git push origin current-staging-source
 
 git checkout current-staging-source
 
