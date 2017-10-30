@@ -34,28 +34,49 @@
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
 				<div class="section1-left-cell">
-					<h4 class="mk-animate-element fade-in">
+					<!-- <h4 class="mk-animate-element fade-in">
 						eBooks, blogs & whitepapers giving average results?
-					</h4>
-					<h3 class="mk-animate-element fade-in section1-firsthead">
-						Boost your marketing with highly <br/>converting <b>calculators</b> and viral <b>quizzes</b>.
+					</h4> -->
+					<h3 class="section1-firsthead">
+						<span class="font-semibold">Boost</span> Your Marketing with <span class="font-semibold">Highly Interactive Content</span>
 					</h3>
 
+					<div class="col-md-12 col-sm-12 col-xs-12 np home-imgs">
+						<ul>	
+							<li><img src="images/img-home-calc.png">Calculator</li>
+							<li><img src="images/img-home-quizzes.png">Quizzes</li>
+							<li><img src="images/img-home-assessments.png">Assessments </li>
+							<li><img src="images/img-home-graders.png">Graders</li>
+							<li><img src="images/img-home-polls.png">Polls</li>
+						</ul>
+					</div>
+
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
 							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
 								<span class="btn-buildcal fade-in lead-form-btn">
 									Start Free Trial
 								</span>
-								<div class="btn-bottominfo fade-in">
-									<label></label>
-								</div>
 							</a>
 							<div id="bfrVid"></div>
+							<span class="live-demo">OR <a href="javascript:void(0);" class="">TAKE A LIVE DEMO</a></span>
 						</div>
 					</div>
+
+					<!-- <div class="col-md-12 col-sm-12 col-xs-12 np">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
+							<i class="material-icons">email</i>
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+								<span class="btn-buildcal fade-in lead-form-btn btn-claimSubDomain">
+									Claim your Sub Domain
+								</span>
+							</a>
+							<div id="bfrVid"></div>
+					</div> -->
+
 				</div>
 			</div>
 
@@ -75,7 +96,7 @@
 				}
 			</script>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-mob">
@@ -89,7 +110,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs">
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-res">
@@ -103,7 +124,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height video-img-shadow" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1">
@@ -150,6 +171,73 @@
 		</div>
 	</section>
 
+	<section class="section sec-clients-logos">
+		<div class="container mobile-container">
+			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide text-center">
+				<div class="img-wrapper">
+					<img class="scrollimg1"  src="images/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="images/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="images/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="images/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="images/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="images/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="images/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="images/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="images/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="images/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="images/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="images/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="images/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="images/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="images/clients-logos/temcoUK.png" />
+
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 np scale-up rs-show text-center rs-hide-int-res">
+				<div class="img-wrapper">
+					<img class="scrollimg1"  src="images/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="images/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="images/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="images/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="images/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="images/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="images/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="images/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="images/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="images/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="images/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="images/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="images/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="images/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="images/clients-logos/temcoUK.png" />
+
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 np rs-show text-center rs-hide-int-mob">
+				<div class="img-wrapper">
+					<img class="scrollimg1"  src="images/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="images/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="images/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="images/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="images/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="images/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="images/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="images/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="images/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="images/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="images/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="images/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="images/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="images/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="images/clients-logos/temcoUK.png" />
+
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!--<section class="section section-3 p20 calc-table">
 		<div class="container">
@@ -384,6 +472,22 @@
 		</div>
 	</div>
 
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
+		<div class="container mobile-container">
+			<img src="images/img-buzzfeed.jpg">
+			<div class="case-breathers-rightSide">
+				<h1 class="heading">Buzzfeed</h1>
+				<h5 class="subheading">
+					<span class="font-semibold">7</span> 
+					of the <span class="font-semibold">20</span> 
+					most shared articles on <span class="font-semibold">Buzzfeed</span> are 
+					<span class="font-semibold">quizzes!</span>
+				</h5>
+				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
+			</div>
+		</div>
+	</div>
+
 	<!-- Homepage section 3 end-->
 
 	<section class="section">
@@ -528,14 +632,30 @@
 				<img class="scrollimg1 mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/img-analyze_improve.png" />
 			</div>
 
-			<div class="col-xs-12 col-sm-12 text-center rs-hide">
+			<!-- <div class="col-xs-12 col-sm-12 text-center rs-hide">
 				<a href="{{ $page->baseUrl }}/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<!-- Homepage section 5 end-->
 
-	<section class="section sec-integrations">
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-breathers-imgRight">
+		<div class="container mobile-container">
+			<img src="images/img-newyorktimes.jpg" class="rs-show">
+			<div class="case-breathers-rightSide">
+				<h1 class="heading">New York Times</h1>
+				<h5 class="subheading">
+					<span class="font-semibold">NY Times,</span> 
+					most successful article is a <span class="font-semibold">calculator </span> 
+					not a <span class="font-semibold">Quiz.</span>
+				</h5>
+				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
+			</div>
+			<img src="images/img-newyorktimes.jpg" class="rs-hide">
+		</div>
+	</div>
+
+	<section class="section sec-integrations hide">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading mk-animate-element scale-up ">
 				Over 500 integrations
@@ -613,40 +733,62 @@
 
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">
-				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
+				<div class="col-xs-12 col-sm-12 col-md-12 np">
+					<!--<div id="sticky-anchor"></div>-->
+					<div class="tab-outer-frame col-xs-12 col-md-10 col-sm-12 text-center">
+						<!--<span class="icon-webcam"></span>-->
+						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
+							<iframe id="og-iframe" data-calc="//website.outgrow.us/build-a-startup?vHeight=1"></iframe>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-12 col-sm-12 mobile-container rs-hide calc-links text-center">
 					<a href="javascript:void(0);" class="active"
+						onclick="display('//website.outgrow.us/build-a-startup?vHeight=1')">
+						<img class="thumb-calc" src="images/calc06.jpg" />
+					</a>
+					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1')">
-						<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1')">
-						<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+						<img class="thumb-calc" src="images/calc03.jpg" />
 					</a>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-9 np">
-					<!--<div id="sticky-anchor"></div>-->
-					<div class="tab-outer-frame col-xs-12 col-md-12 col-sm-12 text-center">
-						<!--<span class="icon-webcam"></span>-->
-						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
-							<iframe id="og-iframe" data-calc="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
-						</div>
-					</div>
+					<a href="javascript:void(0);" class=""
+						onclick="display('//website.outgrow.us/outgrow-roi?vHeight=1')">
+						<img class="thumb-calc" src="images/calc04.jpg" />
+					</a>
+					<a href="javascript:void(0);" class=""
+						onclick="display('//website.outgrow.us/build-an-app?vHeight=1')">
+						<img class="thumb-calc" src="images/calc05.jpg" />
+					</a>
 				</div>
 
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
-						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
-							<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
+						<a href="//website.outgrow.us/build-a-startup?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
+							<img class="thumb-calc" src="images/calc06.jpg" />
+						</a>
+						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+						</a>
+						<a href="//website.outgrow.us/outgrow-roi?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
+						</a>
+						<a href="//website.outgrow.us/build-an-app" class="col-sm-4 np calcembed" target="_blank">
+							<img class="thumb-calc" src="images/calc05.jpg" />
 						</a>
 					</div>
 				</div>
@@ -654,8 +796,22 @@
 		</section>
 	</div>
 
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-productHunt">
+		<div class="container mobile-container">
+			<img src="images/img-productHunt.jpg">
+			<div class="case-breathers-rightSide">
+				<h1 class="heading">Product Hunt</h1>
+				<h5 class="subheading">
+					Several calculators have recieved over <span class="font-semibold">500 upvotes</span> 
+					on <span class="font-semibold">Product Hunt</span>
+				</h5>
+				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
+			</div>
+		</div>
+	</div>
+
 	<!--section testimonial -->
-	<div class="section-main">
+	<div class="section-main hide">
 		<section class="section section-7-top">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
@@ -771,6 +927,37 @@
 				autoplayDisableOnInteraction: false
 			});
 		</script>
+	</div>
+	<!--section testimonial -->
+
+	<!--section testimonial -->
+	<div class="section-main hide">
+		<section class="section section-7-top">
+			<div class="container mobile-container">
+				<h1 class="section-2-heading">
+					Top Notch Reviews!
+				</h1>
+			</div>
+		</section>
+		<div class="col-xs-12 col-sm-12 np text-center social-embeds">
+			<!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10';
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+			<!-- Your embedded comments code -->
+			<div class="fb-comment-embed">
+				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftristinroney%2Fposts%2F10103889216820289%3A0&width=500" width="500" height="455" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftristinroney%2Fposts%2F10103889216820289%3A0&width=500" width="500" height="455" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcarlosrenato.dias%2Fposts%2F1901387873205496%3A0&width=500" width="500" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkawika.maszak%2Fposts%2F10212326308887611%3A0&width=500" width="500" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			</div>
+		</div>
 	</div>
 	<!--section testimonial -->
 
