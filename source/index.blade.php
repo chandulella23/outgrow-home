@@ -931,7 +931,7 @@
 	<!--section testimonial -->
 
 	<!--section testimonial -->
-	<div class="section-main hide">
+	<div class="section-main">
 		<section class="section section-7-top">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading">
@@ -950,13 +950,65 @@
 			fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
 
-			<!-- Your embedded comments code -->
-			<div class="fb-comment-embed">
-				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftristinroney%2Fposts%2F10103889216820289%3A0&width=500" width="500" height="455" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftristinroney%2Fposts%2F10103889216820289%3A0&width=500" width="500" height="455" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcarlosrenato.dias%2Fposts%2F1901387873205496%3A0&width=500" width="500" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkawika.maszak%2Fposts%2F10212326308887611%3A0&width=500" width="500" height="537" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			<div class="swiper-container">
+				<!-- Your embedded comments code -->
+				<div class="fb-comment-embed swiper-wrapper">
+					<div class="swiper-slide">
+						<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftristinroney%2Fposts%2F10103889216820289%3A0&width=350&show_text=true&height=507&appId" width="350" height="507" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+					<div class="swiper-slide">
+						<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcarlosrenato.dias%2Fposts%2F1901387873205496%3A0&width=350&show_text=true&height=482&appId" width="350" height="482" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+					<div class="swiper-slide">
+						<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkawika.maszak%2Fposts%2F10212326308887611%3A0&width=350&show_text=true&height=608&appId" width="350" height="608" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+					<div class="swiper-slide">
+						<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fweflyfishdude%2Fposts%2F10213020644965378%3A0&width=350&show_text=true&height=532&appId" width="350" height="532" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+					<div class="swiper-slide">
+						<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Famy.mcmurray.9%2Fposts%2F984728605556%3A0&width=350&show_text=true&height=463&appId" width="350" height="463" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+					<div class="swiper-slide">
+						<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FEddieOneMoment%2Fposts%2F10154798800971921%3A0&width=350&show_text=true&height=482&appId" width="350" height="482" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+				</div>
 			</div>
+			<!-- Add Pagination -->
+			<!-- <div class="swiper-pagination"></div> -->
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+
+			<!-- <script>
+				var swiper = new Swiper('.swiper-container', {
+					pagination: '.swiper-pagination',
+					paginationClickable: true,
+					nextButton: '.swiper-button-next',
+					prevButton: '.swiper-button-prev',
+					spaceBetween: 30,
+					slidesPerView: 3,
+					centeredSlides: true,
+					autoplayDisableOnInteraction: false
+				});
+			</script>  -->
+
+			 <!-- Initialize Swiper -->
+			<script>
+				var swiper = new Swiper('.swiper-container', {
+					pagination: '.swiper-pagination',
+					paginationClickable: true,
+					nextButton: '.swiper-button-next',
+					prevButton: '.swiper-button-prev',
+					slidesPerView: 3,
+					spaceBetween: 30,
+					centeredSlides: true,
+					// pagination: {
+					// 	el: '.swiper-pagination',
+					// 	clickable: true,
+					// },
+				});
+			</script>
+
 		</div>
 	</div>
 	<!--section testimonial -->
