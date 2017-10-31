@@ -844,7 +844,7 @@
 	<section class="section section-faq">
 		<div class="container">
 			<h1 class="section-2-heading mk-animate-element scale-up">
-				FREQUENTLY ASKED QUESTIONS
+				Frequently Asked Questions
 			</h1>
 		</div>
 	</section>

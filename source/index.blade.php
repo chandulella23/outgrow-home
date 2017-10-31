@@ -54,14 +54,14 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
 							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
-								<span class="btn-buildcal fade-in lead-form-btn">
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">							
+							<span class="lead-form-btn">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA')">
 									Start Free Trial
-								</span>
-							</a>
+								</a>
+								<span class="live-demo">OR <a href="javascript:void(0);" class="">TAKE A LIVE DEMO</a></span>
+							</span>
 							<div id="bfrVid"></div>
-							<span class="live-demo">OR <a href="javascript:void(0);" class="">TAKE A LIVE DEMO</a></span>
 						</div>
 					</div>
 
@@ -776,16 +776,16 @@
 							<img class="thumb-calc" src="images/calc06.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
+							<img class="thumb-calc" src="images/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
+							<img class="thumb-calc" src="images/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+							<img class="thumb-calc" src="images/calc03.jpg" />
 						</a>
 						<a href="//website.outgrow.us/outgrow-roi?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
+							<img class="thumb-calc" src="images/calc04.jpg" />
 						</a>
 						<a href="//website.outgrow.us/build-an-app" class="col-sm-4 np calcembed" target="_blank">
 							<img class="thumb-calc" src="images/calc05.jpg" />
@@ -931,7 +931,7 @@
 	<!--section testimonial -->
 
 	<!--section testimonial -->
-	<div class="section-main">
+	<div class="section-main hide">
 		<section class="section section-7-top">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading">
