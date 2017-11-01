@@ -24,7 +24,7 @@
 		text-align: center;
 		padding-bottom: 0px;
 		text-transform:none;
-		font-family:montserratlight;
+		font-family:montserratultra_light;
 		font-size: 22px;
 		line-height: normal;
 	}
@@ -37,6 +37,7 @@
 		color: rgba(98,105,109,.8);
 		font-size: 12px;
 		font-family: montserratultra_light;
+		margin-top: 15px;
 	}
 	#why .section-4-left span i{
 		margin-top:40px; 

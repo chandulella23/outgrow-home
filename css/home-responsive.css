@@ -1738,11 +1738,12 @@
     .section-2-heading {
         text-transform: none;
         line-height: normal;
-        font-size: 24px;
+        font-size: 28px !important;
         text-align: center
     }
     .section-2-subheading {
-        display: none
+        display: block;
+        font-size: 16px !important;
     }
     .section-4 {
         margin-top: 40px;
@@ -1888,6 +1889,7 @@
     .start-trial-cta {
         margin-top: 30px;
     }
+    #feature .section-13 {padding-top: 35px !important;}
 
 
 }

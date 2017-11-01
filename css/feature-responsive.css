@@ -375,9 +375,9 @@
 	#feature .section-f4-left .section-f4-new span i{
 		margin-right: 10px;
 	}
-	#feature .section-f4 .section-f4-left span span{
+	#feature .section.section-f4 .section-f4-left span span.span-style{
 	    width: 85%;
-   		font-size: 14px;
+   		font-size: 14px !important;
 	}
 	#feature .section-f4-left span{
 		 margin-bottom: 15px;
@@ -907,7 +907,7 @@
 		margin-top:30px;
 	}
 	#feature .section-f4 .section-f4-left h4{
-		font-size:24px;
+		font-size:28px;
 	}
 	#feature .secf4-test{
 		margin:10px 0px;
