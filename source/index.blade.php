@@ -1020,23 +1020,6 @@
 		</a>
 		<div class=""><label>Plans Start at $25/month</label></div>
 	</section>
-
-	<!-- Begin Repuso widget code -->
-	<div data-repuso-inline="4319" data-website-id="0"></div>
-	<script type="text/javascript" src="https://repuso.com/widgets/inline.js"></script>
-	<!-- End Repuso widget code -->
-
-	<!-- Begin Repuso widget code -->
-	<div data-repuso-photoset="4318" data-website-id="0"></div>
-	<script type="text/javascript" src="https://repuso.com/widgets/photoset.js"></script>
-	<!-- End Repuso widget code -->
-
-	<br><br>
-
-	<!-- Begin Repuso widget code -->
-	<div data-repuso-grid="4320" data-website-id="0"></div>
-	<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
-	<!-- End Repuso widget code -->
 	
 	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
