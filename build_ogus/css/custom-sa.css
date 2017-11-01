@@ -3303,14 +3303,15 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f4 .section-f4-left h4 {
     color: #fb6c73;
-    font-size: 32px;
-    font-family: montserratlight;
+    font-size: 42px;
+    font-family: montserratultra_light;
     text-align: center;
     width: 100%;
     float: left;
     display: block;
-    text-transform: uppercase;
-    margin: 0;
+    text-transform: none;
+	margin: 0;
+	/* line-height: 52px; */
 }
 #feature .section-f4-left .section-f4-new span {
 	text-align: left;
@@ -3698,10 +3699,10 @@ button.swiper-pagination-bullet {
     width: 100%;
     text-align: center;
     color: #fb5f66!important;
-    font-size: 32px;
-    line-height: 44px;
-    font-family: montserratlight;
-    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 52px;
+    font-family: montserratultra_light;
+    text-transform: none;
 	margin-bottom: 40px;
 	margin-top: 50px
 }
@@ -4177,16 +4178,15 @@ button.swiper-pagination-bullet {
 	width: 100%
 }
 #why .section-2-heading {
-	font-family: montserratlight;
+	font-family: montserratultra_light;
     color: #fb6c73 !important;
     margin: 0px;
-    font-size: 32px;
+    font-size: 42px;
     float: left;
     width: 100%;
     text-align: center;
-    line-height: 44px;
-    font-family: montserratlight;
-    text-transform: uppercase;
+    line-height: 52px;
+    text-transform: none;
     /*margin-bottom: 40px;
 	padding-bottom: 40px;*/
 }
@@ -5132,13 +5132,13 @@ button.swiper-pagination-bullet {
 }
 .Privacy .Privacy-subheading {
 	color: #fb6c73;
-    font-size: 30px;
-    font-family: montserratlight;
+    font-size: 42px;
+    font-family: montserratultra_light;
     text-align: left;
     width: 100%;
     float: left;
     display: block;
-    text-transform: uppercase;
+    text-transform: none;
     margin-top: 30px;
 }
 #Testimonial .testimonial-headingtop p, .Privacy .li-style, .Privacy h5, .Privacy p {
@@ -5717,10 +5717,10 @@ iframe[name=google_conversion_frame] {
 		width: 100%;
 		text-align: center;
 		color: #fb5f66!important;
-		font-size: 32px;
-		line-height: 44px;
-		font-family: montserratlight;
-		text-transform: uppercase;
+		font-size: 42px;
+		line-height: 52px;
+		font-family: montserratultra_light;
+		text-transform: none;
 		margin: 0px;
 	}
 	.sec-integrations .section-2-subheading {

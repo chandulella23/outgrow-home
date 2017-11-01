@@ -190,10 +190,10 @@ body{background:#fff !important;}
     width: 100%;
     text-align: center;
     color: #fb5f66!important;
-    font-size: 32px;
+    font-size: 42px;
     line-height: 44px;
-    font-family: montserratlight;
-    text-transform: uppercase;
+    font-family: montserratultra_light;
+    text-transform: none;
     margin-top: 30px; 
 }
 .collage-outer .collage-solid{
