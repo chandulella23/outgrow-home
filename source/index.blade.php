@@ -46,13 +46,13 @@
 							<li><img src="images/img-home-calc.png">Calculator</li>
 							<li><img src="images/img-home-quizzes.png">Quizzes</li>
 							<li><img src="images/img-home-assessments.png">Assessments </li>
-							<li><img src="images/img-home-graders.png">Graders</li>
+							<li><img src="images/THUMB.png">Recommendation <span class="recom">Engines</span></li>
 							<li><img src="images/img-home-polls.png">Polls</li>
 						</ul>
 					</div>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">							
 							<span class="lead-form-btn">
@@ -1155,21 +1155,25 @@
 	</section> -->
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 		<div class="container  mobile-container">
-			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase">
+			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase;font-weight: 600;">
 				Top Notch Reviews!
 			</h1>
 			<div class="social-media-section">
 				<div class="each-arrow-section">
 						<div class="arrow_box">
-								gfhhgf
+								<img src="{{ $page->baseUrl }}/images/facebookim.png"/> 
+								 <img src="{{ $page->baseUrl }}/images/facebookh.png" class="over1"/>  
 						</div>
 				   <div class="each-arrow-section">
 						<div class="arrow_box">
-								gfhgf
+								<img src="{{ $page->baseUrl }}/images/capterraimg.png"/>
+								<img src="{{ $page->baseUrl }}/images/capterah.png" class="over2"/>  
 						</div>
 				   <div class="each-arrow-section">
 						<div class="arrow_box">
-                              gfhgfhgfhgf
+							  <img src="{{ $page->baseUrl }}/images/crowd.png"/> 
+							  <img src="{{ $page->baseUrl }}/images/crowdh.png" class="over3"/> 
+							  
 						</div>
 				</div>
 			</div>
