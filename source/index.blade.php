@@ -625,7 +625,7 @@
 
 	<section class="section">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up ">
+			<h1 class="section-2-heading mk-animate-element scale-up uppercase">
 				Beautiful calculators and quizzes. <br/> Without developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -855,7 +855,7 @@
 	<div class="section-main">
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
-				<h1 class="section-2-heading mk-animate-element scale-up">
+				<h1 class="section-2-heading mk-animate-element scale-up  uppercase">
 					Outgrow In Practice
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -1155,7 +1155,7 @@
 	</section> -->
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 		<div class="container  mobile-container">
-			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase;font-weight: 600;">
+			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase;">
 				Top Notch Reviews!
 			</h1>
 			<div class="social-media-section">
@@ -1178,7 +1178,45 @@
 				</div>
 			</div>
 		</div>
+		<!--Protfolio-section  -->
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+			<div class="container  mobile-container protfolio-section">
+				<div class="protfolio-inner-section">
+					<div class="protfolio-each-section">
+						hgjhjhg
+					</div>
+					<div class="protfolio-each-section">
+						hgjhjhg
+					</div>
+					<div class="protfolio-each-section">
+						hgjhjhg
+					</div>
+				</div>
+			
+				<div class="button-section">
+					<a href="javascript:void(0);" class="more-posts">More Posts</a>
+				</div>
+
+			</div>
+		</div>
 	</div>
+	</div>
+	<section class="section start-trial-cta free-trail mb0">
+		<div class="start-free-trail np">
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="">
+					<div class="bg1-img">
+						<a href="https://app.outgrow.co/" class="params trialLOL">
+								<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal btn-buildcal1 mk-animate-element fade-in">
+								<img src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
+						</a>
+						<div class=""><label>Plans Start at $25/month</label></div>
+						<!-- <label>No Credit Card Required</label> -->
+					</div>
+				</div>
+			</div>
+	</section>
+	
 	
 	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
