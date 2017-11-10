@@ -1,3 +1,13 @@
+.testhide {     
+	overflow: hidden;
+	height: 0; 
+}
+.testshow {
+	height: auto;
+}
+.testactive .over {
+	display: block;
+}
 .label,sub,sup{vertical-align:baseline}
 hr,img{border:0}
 body,figure{margin:0}
