@@ -1122,42 +1122,35 @@
 			</h1>
 			<div class="social-media-section">
 				<div class="each-arrow-section">
-						<div class="arrow_box" onclick="openTestimonial('fb')">
-							<img src="{{ $page->baseUrl }}/images/facebookim.png"/> 
-							<img src="{{ $page->baseUrl }}/images/facebookh.png" class="over1"/>  
-						</div>
-				   <div class="each-arrow-section">
-						<div class="arrow_box" onclick="openTestimonial('capterra')">
-							<img src="{{ $page->baseUrl }}/images/capterraimg.png"/>
-							<img src="{{ $page->baseUrl }}/images/capterah.png" class="over2"/>  
-						</div>
-				   <div class="each-arrow-section">
-						<div class="arrow_box" onclick="openTestimonial('g2')">
-							<img src="{{ $page->baseUrl }}/images/crowd.png"/> 
-							<img src="{{ $page->baseUrl }}/images/crowdh.png" class="over3"/> 
-						</div>
+					<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
+						<img src="{{ $page->baseUrl }}/images/facebookim.png"/> 
+						<img src="{{ $page->baseUrl }}/images/facebookh.png" class="over over1"/>  
+					</div>
+		
+					<div id="capterra-img" class="arrow_box" onclick="openTestimonial('capterra')">
+						<img src="{{ $page->baseUrl }}/images/capterraimg.png"/>
+						<img src="{{ $page->baseUrl }}/images/capterah.png" class="over over2"/>  
+					</div>
+		
+					<div id="g2-img" class="arrow_box" onclick="openTestimonial('g2')">
+						<img src="{{ $page->baseUrl }}/images/crowd.png"/> 
+						<img src="{{ $page->baseUrl }}/images/crowdh.png" class="over over3"/> 
+					</div>
 				</div>
 			</div>
 		</div>
 		<!--Protfolio-section  -->
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
-			<div class="container  mobile-container protfolio-section">
-				<div id="fb" class="protfolio-inner-section">
-					<div data-repuso-grid="4406" data-website-id="0"></div>
-					<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
-				</div>
+			<div class="container mobile-container protfolio-section">
+				
+				<div id="fb" class="protfolio-inner-section" data-repuso-grid="4406" data-website-id="0"></div>
 
-				<div id="capterra" class="protfolio-inner-section ">
-					<div data-repuso-grid="4407" data-website-id="0"></div>
-					<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
-				</div>
+				<div id="capterra" class="protfolio-inner-section testhide" data-repuso-grid="4407" data-website-id="0"></div>
 
-				<div id="g2" class="protfolio-inner-section">
-					<div data-repuso-grid="4320" data-website-id="0"></div>
-					<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
-				</div>
+				<div id="g2" class="protfolio-inner-section testhide" data-repuso-grid="4320" data-website-id="0"></div>
 			</div>
 		</div>
+		<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
 	</div>
 	</div>
 	<section class="section start-trial-cta free-trail mb0">
