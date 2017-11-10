@@ -46,7 +46,7 @@
 							<li><img src="images/img-home-calc.png">Calculator</li>
 							<li><img src="images/img-home-quizzes.png">Quizzes</li>
 							<li><img src="images/img-home-assessments.png">Assessments </li>
-							<li><img src="images/THUMB.png">Recommendation <span class="recom">Engines</span></li>
+							<li class="recmd"><img src="images/THUMB.png">Recommendation<br>Engines</br></li>
 							<li><img src="images/img-home-polls.png">Polls</li>
 						</ul>
 					</div>
@@ -500,7 +500,7 @@
 								</div>
 								<div class="interactive-subinner-right-section">
 									<div class="interactive-content">
-											<span class="tag1">Extract Audience Analytics</span>
+											<span class="tag1 sit">Extract Audience Analytics</span>
 											<span class="main-content">
 											Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
 											</span>
@@ -606,17 +606,19 @@
 	</div>
 
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
-		<div class="container mobile-container">
-			<img src="images/img-buzzfeed.jpg">
+		<div class="container custom-container  mobile-container">
+			<div class="buzzfeed-left-section">
+			  <img src="images/img-buzzfeed.jpg">
+			</div>
 			<div class="case-breathers-rightSide">
 				<h1 class="heading">Buzzfeed</h1>
 				<h5 class="subheading">
-					<span class="font-semibold">7</span> 
-					of the <span class="font-semibold">20</span> 
-					most shared articles on <span class="font-semibold">Buzzfeed</span> are 
-					<span class="font-semibold">quizzes!</span>
+					<span class="font-semibold">7</span>
+					of the <span class="font-semibold"> 20</span>
+					most shared articles on <span class="font-semibold"> Buzzfeed</span> are 
+				    <span class="font-semibold">quizzes!</span>
 				</h5>
-				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
+				<button class="btn-readmore mg">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
 		</div>
 	</div>
@@ -648,7 +650,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
-				<h4 class="mk-animate-element right-to-left">
+				<h4 class="mk-animate-element right-to-left capt">
 					Build Beautiful
 				</h4>
 				<span class="mk-animate-element right-to-left">
@@ -686,7 +688,7 @@
 				<img class="scrollimg1 mk-animate-element scale-up sec5-2-1" src="//dzvexx2x036l1.cloudfront.net/img-publishAnywhere.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
-				<h4 class="mk-animate-element right-to-left">
+				<h4 class="mk-animate-element right-to-left publish">
 					Publish Anywhere
 				</h4>
 				<span class="mk-animate-element right-to-left" >
@@ -718,7 +720,7 @@
 				<img class="scrollimg1 sec6-2-2 mk-animate-element left-to-right" src="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-mobile.png" />
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
-				<h4 class="mk-animate-element left-to-right">
+				<h4 class="mk-animate-element left-to-right ">
 					Boost Growth
 				</h4>
 				<span class="mk-animate-element right-to-left">
@@ -744,7 +746,7 @@
 				<img class="scrollimg1 mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/img-analyze_improve.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
-				<h4 class="mk-animate-element right-to-left">
+				<h4 class="mk-animate-element right-to-left publish">
 					Analyze & Improve
 				</h4>
 				<span class="mk-animate-element right-to-left" >
@@ -773,18 +775,22 @@
 	<!-- Homepage section 5 end-->
 
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-breathers-imgRight">
-		<div class="container mobile-container">
-			<img src="images/img-newyorktimes.jpg" class="rs-show">
+		<div class="container  custom-container mobile-container">
+			
+			   <img src="images/img-newyorktimes.jpg" class="rs-show">
+			
 			<div class="case-breathers-rightSide">
 				<h1 class="heading">New York Times</h1>
 				<h5 class="subheading">
 					<span class="font-semibold">NY Times,</span> 
-					most successful article is a <span class="font-semibold">calculator </span> 
-					not a <span class="font-semibold">Quiz.</span>
+					most successful article is a <span class="font-semibold">calculator
+					not a Quiz.</span>
 				</h5>
 				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
-			<img src="images/img-newyorktimes.jpg" class="rs-hide">
+			<div class="left-sec">
+			   <img src="images/img-newyorktimes.jpg" class="rs-hide">
+			</div>
 		</div>
 	</div>
 
@@ -930,13 +936,14 @@
 	</div>
 
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-productHunt">
-		<div class="container mobile-container">
-			<img src="images/img-productHunt.jpg">
+		<div class="container  custom-container  mobile-container">
+			<div class="product-hunt-left">
+			     <img src="images/img-productHunt.jpg">
+			</div>
 			<div class="case-breathers-rightSide">
 				<h1 class="heading">Product Hunt</h1>
 				<h5 class="subheading">
-					Several calculators have recieved over <span class="font-semibold">500 upvotes</span> 
-					on <span class="font-semibold">Product Hunt</span>
+					Several calculators have recieved over <span class="font-semibold">500 upvotes on Product Hunt</span>
 				</h5>
 				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
