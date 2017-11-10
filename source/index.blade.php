@@ -944,7 +944,7 @@
 	</div>
 
 	<!--section testimonial -->
-	<div class="section-main hide">
+	<!-- <div class="section-main hide">
 		<section class="section section-7-top">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
@@ -978,9 +978,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- Add Pagination -->
 			<div class="swiper-pagination"></div>
-			<!-- Add Arrows -->
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 		</div>
@@ -1010,9 +1008,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- Add Pagination -->
 			<div class="swiper-pagination"></div>
-			<!-- Add Arrows -->
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 		</div>
@@ -1042,9 +1038,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- Add Pagination -->
 			<div class="swiper-pagination"></div>
-			<!-- Add Arrows -->
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 		</div>
@@ -1060,11 +1054,9 @@
 				autoplayDisableOnInteraction: false
 			});
 		</script>
-	</div>
-	<!--section testimonial -->
+	</div> -->
 
-	<!--section testimonial -->
-	<div class="section-main hide">
+	<!-- <div class="section-main hide">
 		<section class="section section-7-top">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading">
@@ -1073,7 +1065,6 @@
 			</div>
 		</section>
 		<div class="col-xs-12 col-sm-12 np text-center social-embeds">
-			<!-- Load Facebook SDK for JavaScript -->
 			<div id="fb-root"></div>
 			<script>(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
@@ -1084,7 +1075,6 @@
 			}(document, 'script', 'facebook-jssdk'));</script>
 
 			<div class="swiper-container">
-				<!-- Your embedded comments code -->
 				<div class="fb-comment-embed swiper-wrapper">
 					<div class="swiper-slide">
 						<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftristinroney%2Fposts%2F10103889216820289%3A0&width=350&show_text=true&height=507&appId" width="350" height="507" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
@@ -1106,26 +1096,9 @@
 					</div>
 				</div>
 			</div>
-			<!-- Add Pagination -->
-			<!-- <div class="swiper-pagination"></div> -->
-			<!-- Add Arrows -->
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 
-			<!-- <script>
-				var swiper = new Swiper('.swiper-container', {
-					pagination: '.swiper-pagination',
-					paginationClickable: true,
-					nextButton: '.swiper-button-next',
-					prevButton: '.swiper-button-prev',
-					spaceBetween: 30,
-					slidesPerView: 3,
-					centeredSlides: true,
-					autoplayDisableOnInteraction: false
-				});
-			</script>  -->
-
-			 <!-- Initialize Swiper -->
 			<script>
 				var swiper = new Swiper('.swiper-container', {
 					pagination: '.swiper-pagination',
@@ -1135,24 +1108,13 @@
 					slidesPerView: 3,
 					spaceBetween: 30,
 					centeredSlides: true,
-					// pagination: {
-					// 	el: '.swiper-pagination',
-					// 	clickable: true,
-					// },
 				});
 			</script>
 
 		</div>
-	</div>
-	<!--section testimonial -->
-
-	<!-- <section class="section section-startFreeTrial-btn text-center">
-		<a href="//app.outgrow.co" class="params trialLOL">
-			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
-			<img src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
-		</a>
-		<div class=""><label>Plans Start at $25/month</label></div>
-	</section> -->
+	</div> -->
+	
+	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 		<div class="container  mobile-container">
 			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase;">
@@ -1160,20 +1122,19 @@
 			</h1>
 			<div class="social-media-section">
 				<div class="each-arrow-section">
-						<div class="arrow_box">
-								<img src="{{ $page->baseUrl }}/images/facebookim.png"/> 
-								 <img src="{{ $page->baseUrl }}/images/facebookh.png" class="over1"/>  
+						<div class="arrow_box" onclick="openTestimonial('fb')">
+							<img src="{{ $page->baseUrl }}/images/facebookim.png"/> 
+							<img src="{{ $page->baseUrl }}/images/facebookh.png" class="over1"/>  
 						</div>
 				   <div class="each-arrow-section">
-						<div class="arrow_box">
-								<img src="{{ $page->baseUrl }}/images/capterraimg.png"/>
-								<img src="{{ $page->baseUrl }}/images/capterah.png" class="over2"/>  
+						<div class="arrow_box" onclick="openTestimonial('capterra')">
+							<img src="{{ $page->baseUrl }}/images/capterraimg.png"/>
+							<img src="{{ $page->baseUrl }}/images/capterah.png" class="over2"/>  
 						</div>
 				   <div class="each-arrow-section">
-						<div class="arrow_box">
-							  <img src="{{ $page->baseUrl }}/images/crowd.png"/> 
-							  <img src="{{ $page->baseUrl }}/images/crowdh.png" class="over3"/> 
-							  
+						<div class="arrow_box" onclick="openTestimonial('g2')">
+							<img src="{{ $page->baseUrl }}/images/crowd.png"/> 
+							<img src="{{ $page->baseUrl }}/images/crowdh.png" class="over3"/> 
 						</div>
 				</div>
 			</div>
@@ -1181,22 +1142,20 @@
 		<!--Protfolio-section  -->
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 			<div class="container  mobile-container protfolio-section">
-				<div class="protfolio-inner-section">
-					<div class="protfolio-each-section">
-						hgjhjhg
-					</div>
-					<div class="protfolio-each-section">
-						hgjhjhg
-					</div>
-					<div class="protfolio-each-section">
-						hgjhjhg
-					</div>
-				</div>
-			
-				<div class="button-section">
-					<a href="javascript:void(0);" class="more-posts">More Posts</a>
+				<div id="fb" class="protfolio-inner-section">
+					<div data-repuso-grid="4406" data-website-id="0"></div>
+					<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
 				</div>
 
+				<div id="capterra" class="protfolio-inner-section ">
+					<div data-repuso-grid="4407" data-website-id="0"></div>
+					<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
+				</div>
+
+				<div id="g2" class="protfolio-inner-section">
+					<div data-repuso-grid="4320" data-website-id="0"></div>
+					<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
+				</div>
 			</div>
 		</div>
 	</div>

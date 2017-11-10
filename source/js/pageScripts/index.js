@@ -1,3 +1,24 @@
+window.initTestimonial = function () {
+    var sections = document.querySelectorAll('.protfolio-inner-section');
+    sections.forEach(function (section) {
+        setTimeout(function () {
+            section.classList.add('hide');
+        }, 4000);
+    });
+    var showSection = document.getElementById('capterra');
+    setTimeout(function () {
+        showSection.classList.remove('hide');
+    }, 4200);
+}
+
+window.openTestimonial = function (sectionId) {
+    var sections = document.querySelectorAll('.protfolio-inner-section');
+    sections.forEach(function (section) {
+        section.classList.add('hide');
+    });
+    var showSection = document.getElementById(sectionId);
+    showSection.classList.remove('hide');
+}
 window.submitEbookData = function (e) {
     e.preventDefault(), jQuery("#ebook-error").html("");
     var o = jQuery("#ebook-email").val(),
@@ -84,4 +105,5 @@ jQuery(document).ready(function() {
     jQuery('#btnBuildCalc1 > a').prop('href', url);
 
     runTimeout();
+    initTestimonial();
 });
