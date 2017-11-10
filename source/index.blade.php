@@ -46,13 +46,13 @@
 							<li><img src="images/img-home-calc.png">Calculator</li>
 							<li><img src="images/img-home-quizzes.png">Quizzes</li>
 							<li><img src="images/img-home-assessments.png">Assessments </li>
-							<li><img src="images/img-home-graders.png">Graders</li>
+							<li><img src="images/THUMB.png">Recommendation <span class="recom">Engines</span></li>
 							<li><img src="images/img-home-polls.png">Polls</li>
 						</ul>
 					</div>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">							
 							<span class="lead-form-btn">
@@ -432,8 +432,88 @@
 			</script>
 		</div>
 	</section>-->
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+		<div class="container custom-container  mobile-container">
+			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase">
+				Interactive Content
+			</h1>
+			<br><span class="marketing-tool">A New Marketing Toolset</span></br>
+			<div class="interactive-outer-section">
+				<div class="each-row">
+						<div class="case-interactive-left-side">
+								<div class="interactive-subinner-left-section">
+									<span class="site-image">
+									  <img src="{{ $page->baseUrl }}/images/scale.jpg"/> 
+									</span>
+								</div>
+								<div class="interactive-subinner-right-section">
+										<div class="interactive-content">
+											<span class="tag1">For Boosting Lead Generation</span>
+											<span class="tag2">Conversions</span>
+											<span class="main-content">
+												Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
+											</span>
+										</div>
+								</div>
+						</div>
+						<div class="case-interactive-right-Side">
+								<div class="interactive-subinner-left-section">
+									<div class="interactive-subinner-left-section">
+									 <span class="site-image">
+										<img src="{{ $page->baseUrl }}/images/scale2.jpg"/> 
+									 </span>
+								</div>
+								</div>
+								<div class="interactive-subinner-right-section">
+									<div class="interactive-content">
+											<span class="tag1">For Boosting Lead Generation</span>
+											<span class="main-content">
+												Calculators give personalized answers to your customer’s most pressing questions about your industry.
+											</span>
+									</div>
+								</div>
+							
+						</div>
+				</div>
+				<div class="each-row">
+						<div class="case-interactive-left-side">
+								<div class="interactive-subinner-left-section">
+									 <span class="site-image sitemg">
+										<img src="{{ $page->baseUrl }}/images/scale3.png"/> 
+									 </span>
+								</div>
+								<div class="interactive-subinner-right-section">
+										<div class="interactive-content">
+											<span class="tag1">For Enhancing Social Virality</span>
+											<span class="main-content">
+												Quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.
+										</div>
+								</div>
+						</div>
+						<div class="case-interactive-right-Side">
+								<div class="interactive-subinner-left-section">
+									<div class="interactive-subinner-left-section">
+                                      <span class="site-image">
+										  <img src="{{ $page->baseUrl }}/images/scale10.jpg"/> 
+									  </span>
+								</div>
+								</div>
+								<div class="interactive-subinner-right-section">
+									<div class="interactive-content">
+											<span class="tag1">Extract Audience Analytics</span>
+											<span class="main-content">
+											Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
+											</span>
+									</div>
+								</div>
+							
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	<section class="section section-10 sec-grey">
+	<!-- <section class="section section-10 sec-grey">
 		<div class="container container-center">
 			<h1 class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing
@@ -458,9 +538,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
-	
+<!-- 	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 		<div class="start-trial-cta">
 			<a href="/calculators-vs-ebooks">
@@ -469,6 +549,59 @@
 					See why calculators are better than ebooks
 				</button>
 			</a>
+		</div>
+	</div> -->
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+		<div class="container custom-container  mobile-container">
+			<div class="site-bottom-section">
+               <div class="each-content-section">
+				    <span  class="site-image1">
+					 <img src="{{ $page->baseUrl }}/images/scale5.png"/>
+					</span>
+				   <div class="inner-figure">
+					   <span class="figure-head">Run Recommendation Engines</span>
+					   <span class="outer-boundary">
+							<span class="bottom-figure-content">
+								You can Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+							</span>
+						</span>
+				   </div>
+			   </div>
+			    <div class="each-content-section">
+					<span  class="site-image1">
+					   <img src="{{ $page->baseUrl }}/images/scale7.png"/>
+					</span>
+				    <div class="inner-figure">
+					  <span class="figure-head">Engage with Contests</span>
+					    <span class="bottom-figure-content">
+						 Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60%. consistently!
+					    </span>
+				   </div>
+			   </div>
+			    <div class="each-content-section">
+					<span  class="site-image1">
+						<img src="{{ $page->baseUrl }}/images/scale8.png"/>
+					</span>
+				    <div class="inner-figure">
+					   <span class="figure-head">Provide self serve quoting</span>
+					    <span class="bottom-figure-content">
+						   Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
+					   </span>
+				   </div>
+			   </div>
+			    <div class="each-content-section">
+					<span  class="site-image1">
+						 <img src="{{ $page->baseUrl }}/images/scale9.png"/>
+					</span>
+				   <div class="inner-figure">
+					  <span class="figure-head">Create Polls</span>
+					  <span class="bottom-figure-content">
+						  Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60%. consistently!
+					 </span>
+				   </div>
+			   </div>
+			   
+			</div>
 		</div>
 	</div>
 
@@ -492,7 +625,7 @@
 
 	<section class="section">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up ">
+			<h1 class="section-2-heading mk-animate-element scale-up uppercase">
 				Beautiful calculators and quizzes. <br/> Without developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -722,7 +855,7 @@
 	<div class="section-main">
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
-				<h1 class="section-2-heading mk-animate-element scale-up">
+				<h1 class="section-2-heading mk-animate-element scale-up  uppercase">
 					Outgrow In Practice
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -1013,13 +1146,77 @@
 	</div>
 	<!--section testimonial -->
 
-	<section class="section section-startFreeTrial-btn text-center">
+	<!-- <section class="section section-startFreeTrial-btn text-center">
 		<a href="//app.outgrow.co" class="params trialLOL">
 			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
 			<img src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
 		</a>
 		<div class=""><label>Plans Start at $25/month</label></div>
+	</section> -->
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+		<div class="container  mobile-container">
+			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase;">
+				Top Notch Reviews!
+			</h1>
+			<div class="social-media-section">
+				<div class="each-arrow-section">
+						<div class="arrow_box">
+								<img src="{{ $page->baseUrl }}/images/facebookim.png"/> 
+								 <img src="{{ $page->baseUrl }}/images/facebookh.png" class="over1"/>  
+						</div>
+				   <div class="each-arrow-section">
+						<div class="arrow_box">
+								<img src="{{ $page->baseUrl }}/images/capterraimg.png"/>
+								<img src="{{ $page->baseUrl }}/images/capterah.png" class="over2"/>  
+						</div>
+				   <div class="each-arrow-section">
+						<div class="arrow_box">
+							  <img src="{{ $page->baseUrl }}/images/crowd.png"/> 
+							  <img src="{{ $page->baseUrl }}/images/crowdh.png" class="over3"/> 
+							  
+						</div>
+				</div>
+			</div>
+		</div>
+		<!--Protfolio-section  -->
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+			<div class="container  mobile-container protfolio-section">
+				<div class="protfolio-inner-section">
+					<div class="protfolio-each-section">
+						hgjhjhg
+					</div>
+					<div class="protfolio-each-section">
+						hgjhjhg
+					</div>
+					<div class="protfolio-each-section">
+						hgjhjhg
+					</div>
+				</div>
+			
+				<div class="button-section">
+					<a href="javascript:void(0);" class="more-posts">More Posts</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+	<section class="section start-trial-cta free-trail mb0">
+		<div class="start-free-trail np">
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="">
+					<div class="bg1-img">
+						<a href="https://app.outgrow.co/" class="params trialLOL">
+								<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal btn-buildcal1 mk-animate-element fade-in">
+								<img src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
+						</a>
+						<div class=""><label>Plans Start at $25/month</label></div>
+						<!-- <label>No Credit Card Required</label> -->
+					</div>
+				</div>
+			</div>
 	</section>
+	
 	
 	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
