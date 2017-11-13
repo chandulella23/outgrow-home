@@ -17604,7 +17604,7 @@ span.recom {
 	.custom-container {padding: 0!important;width: 767px!important;}
 	.site-image {width: 155px!important;height: 140px!important;}
 	span.marketing-tool{font-size:14px!important;}
-	.buzzfeed-left-section{width:100%!important}
+	.buzzfeed-left-section{width:100%!important;padding:0!important;}
 	.product-hunt-left{width:100%!important}
 	.img-wrapper img{width:17%!important;}
 	.section-2-subheading {font-size: 15px;font-family: montserratlight!important;}
@@ -17625,7 +17625,7 @@ span.recom {
 	/* .buzzfeed-left-section{padding:25px 0 0 0!important;} */
 	span.tag2{line-height:10px!important}
 	.left-sec{padding:8px 0 0 0!important;}
-	.product-hunt-left{padding:10px 0 0 40px!important;}
+	.product-hunt-left{padding:10px 0 0 0!important;}
 	
 	
 	
