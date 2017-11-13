@@ -17187,7 +17187,7 @@ span.live-demo a {
     float: left;
     width:48%;
     text-align: left;
-    margin-top:60px;
+    margin-top:90px;
     margin-left:15px;
 }
 .case-breathers-rightSide h1.heading {
@@ -17239,7 +17239,7 @@ button.btn-readmore:hover {
     border-color: #f8434b;
 }
 .case-breathers-imgRight .case-breathers-rightSide {
-	margin-top: 47px;
+	margin-top:90px;
     margin-left: 0;
     margin-right:95px;
 	width: 46%;
@@ -17252,7 +17252,7 @@ button.btn-readmore:hover {
     margin-top: 30px;
 }
 .case-productHunt .case-breathers-rightSide {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 .btn-claimSubDomain{margin-bottom: 10px;}
 
@@ -17280,7 +17280,7 @@ button.btn-readmore:hover {
 		font-size: 14px;
     	line-height: normal;
 	}
-	.case-breathers-imgRight .case-breathers-rightSide {margin-top: 25px;}
+	.case-breathers-imgRight .case-breathers-rightSide {margin-top:10px;}
 
 
 }
@@ -18110,7 +18110,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.fnt-chnge{font-family: montserratlight!important;}
 	 section .section-2-heading{text-transform: uppercase!important;line-height: 40px;}
 	.section-2-heading{line-height:30px!important}
-	.case-breathers-rightSide h1.heading{text-transform: uppercase!important;margin-top: 20px;}
+	.case-breathers-rightSide h1.heading{text-transform: uppercase!important;margin-top: 30px;}
 	.section-2-heading{text-transform:uppercase!important;}
      /* button.btn-readmore.space { margin-bottom:20px;} */
 }
