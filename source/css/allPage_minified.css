@@ -17257,7 +17257,7 @@ button.btn-readmore:hover {
 .btn-claimSubDomain{margin-bottom: 10px;}
 
 @media (min-width:320px) and (max-width:990px){
-	.case-breathers img{float: none; width: auto; margin: 0 auto !important;}
+	.case-breathers img{float: none; width: auto; margin: 0 auto !important;padding-top:20px;}
 	.case-breathers-rightSide{
 		float: none;
 		text-align: center;
@@ -17286,7 +17286,7 @@ button.btn-readmore:hover {
 }
 @media (min-width:990px) and (max-width:1280px){
 	.case-breathers-rightSide {    
-			margin-top: 25px;
+			margin-top: 100px;
 			margin-left: 40px;
 			width:45%;
 		}
@@ -17601,7 +17601,7 @@ span.recom {
 	span.bottom-figure-content{font-sixe:12px!important;}
 	span.tag1{font-size:12px!important;font-weight:600;}
 	span.tag2{font-size:12px!important;font-weight:600;}
-	.custom-container {padding: 0!important;width: 750px!important;}
+	.custom-container {padding: 0!important;width: 767px!important;}
 	.site-image {width: 155px!important;height: 140px!important;}
 	span.marketing-tool{font-size:14px!important;}
 	.buzzfeed-left-section{width:100%!important}
@@ -17622,8 +17622,10 @@ span.recom {
 	.site-bottom-section{padding:50px 15px 80px 15px!important;}
 	.figure-head{font-size:13px!important;}
 	span.bottom-figure-content{font-size:12px;line-height:20px!important;}
-	.buzzfeed-left-section{padding:25px 0 0 0!important;}
+	/* .buzzfeed-left-section{padding:25px 0 0 0!important;} */
 	span.tag2{line-height:10px!important}
+	.left-sec{padding:8px 0 0 0!important;}
+	.product-hunt-left{padding:10px 0 0 40px!important;}
 	
 	
 	
@@ -17704,6 +17706,12 @@ span.recom {
 	.home-imgs ul{padding: 15px 0 0 0!important;}
 	.over3,.over2,.over1{left:0px !important;}
 	span.tag2{line-height:10px!important}
+	.buzzfeed-left-section{padding:0!important;}
+	.product-hunt-left{padding:25px 0 0 0!important;}
+	.left-sec{padding:0!important;}
+	.site-bottom-section{padding:0!important;}
+	img.uni1{top:13px!important;}
+	.interactive-outer-section{padding-left:0!important;}
 	
 }
 @media(max-width:320px)
@@ -17743,6 +17751,7 @@ span.recom {
 	.site-bottom-section{padding-left:0!important;}
 	.buzzfeed-left-section{padding:24px 0 0 0!important;}
 	.product-hunt-left{padding:25px 0 0 0!important;}
+	.left-sec{padding:0!important;}
 }
 
 .startTrial-outer1
@@ -18103,7 +18112,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.section-2-heading{line-height:30px!important}
 	.case-breathers-rightSide h1.heading{text-transform: uppercase!important;margin-top: 20px;}
 	.section-2-heading{text-transform:uppercase!important;}
-     button.btn-readmore.space { margin-bottom:20px;}
+     /* button.btn-readmore.space { margin-bottom:20px;} */
 }
 img.uni1 {
     position: relative;
