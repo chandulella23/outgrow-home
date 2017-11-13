@@ -634,7 +634,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
 		<div class="container custom-container  mobile-container">
 			<div class="buzzfeed-left-section">
-			  <img src="images/uni.png" class="uni1">
+			  <img src="images/uni6.png" class="uni1">
 			</div>
 			<div class="case-breathers-rightSide">
 				<h1 class="heading fnt-chnge">Buzzfeed</h1>
@@ -966,8 +966,8 @@
 			<div class="product-hunt-left">
 			     <img src="images/uni4.png">
 			</div>
-			<div class="case-breathers-rightSide">
-				<h1 class="heading fnt-chnge">Product Hunt</h1>
+			<div class="case-breathers-rightSide product-outer">
+				<h1 class="heading fnt-chnge product-hunt">Product Hunt</h1>
 				<h5 class="subheading">
 					Several calculators have recieved over <span class="font-semibold">500 upvotes on Product Hunt</span>
 				</h5>
