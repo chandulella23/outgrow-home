@@ -5,3 +5,6 @@ robots.txt
 /node_modules/
 /vendor/
 /dist/
+/source/.htaccess
+/build_ogps/.htaccess
+/build_ogus/.htaccess
