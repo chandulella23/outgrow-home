@@ -1220,11 +1220,14 @@ label {
 			background: none;
 			cursor: text;
 		}
+		
 		th.active {
 			cursor: text;
-			z-index: 0;
 			background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
+			z-index: 3;
+			border-left: 1px solid #bed4df;
 		}
+		
 		thead span a{
 			z-index: 9;
 		}
