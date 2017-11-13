@@ -460,7 +460,7 @@
 	</section>-->
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 		<div class="container custom-container  mobile-container">
-			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase">
+			<h1 class="section-2-heading marg fnt-chnge" style="color: rgb(34, 34, 34); text-transform:uppercase">
 				Interactive Content
 			</h1>
 			<br><span class="marketing-tool">A New Marketing Toolset</span></br>
@@ -492,7 +492,7 @@
 								</div>
 								<div class="interactive-subinner-right-section">
 									<div class="interactive-content">
-											<span class="tag1">For Boosting Lead Generation</span>
+											<span class="tag1">For Educating Prospects</span>
 											<span class="main-content">
 												Calculators give personalized answers to your customer’s most pressing questions about your industry.
 											</span>
@@ -637,7 +637,7 @@
 			  <img src="images/img-buzzfeed.jpg">
 			</div>
 			<div class="case-breathers-rightSide">
-				<h1 class="heading">Buzzfeed</h1>
+				<h1 class="heading fnt-chnge">Buzzfeed</h1>
 				<h5 class="subheading">
 					<span class="font-semibold">7</span>
 					of the <span class="font-semibold"> 20</span>
@@ -653,7 +653,7 @@
 
 	<section class="section">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up uppercase">
+			<h1 class="section-2-heading mk-animate-element scale-up uppercase fnt-chnge">
 				Beautiful calculators and quizzes. <br/> Without developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -806,13 +806,13 @@
 			   <img src="images/img-newyorktimes.jpg" class="rs-show">
 			
 			<div class="case-breathers-rightSide">
-				<h1 class="heading">New York Times</h1>
+				<h1 class="heading fnt-chnge">New York Times</h1>
 				<h5 class="subheading">
 					<span class="font-semibold">NY Times,</span> 
 					most successful article is a <span class="font-semibold">calculator
 					not a Quiz.</span>
 				</h5>
-				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
+				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
 			<div class="left-sec">
 			   <img src="images/img-newyorktimes.jpg" class="rs-hide">
@@ -887,7 +887,7 @@
 	<div class="section-main">
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
-				<h1 class="section-2-heading mk-animate-element scale-up  uppercase">
+				<h1 class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
 					Outgrow In Practice
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -967,11 +967,11 @@
 			     <img src="images/img-productHunt.jpg">
 			</div>
 			<div class="case-breathers-rightSide">
-				<h1 class="heading">Product Hunt</h1>
+				<h1 class="heading fnt-chnge">Product Hunt</h1>
 				<h5 class="subheading">
 					Several calculators have recieved over <span class="font-semibold">500 upvotes on Product Hunt</span>
 				</h5>
-				<button class="btn-readmore">Read more<i class="material-icons">arrow_forward</i></button>
+				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
 		</div>
 	</div>
@@ -1149,8 +1149,8 @@
 	
 	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
-		<div class="container  mobile-container">
-			<h1 class="section-2-heading" style="color: rgb(34, 34, 34); text-transform:uppercase;">
+		<div class="container  mobile-container padg">
+			<h1 class="section-2-heading fnt-chnge" style="color: rgb(34, 34, 34); text-transform:uppercase;">
 				Top Notch Reviews!
 			</h1>
 			<div class="social-media-section">
