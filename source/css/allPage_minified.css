@@ -16336,7 +16336,7 @@ section.section.sec-targetedSale-title {
     width: 950px;
     margin: 0 auto;
 	cursor: pointer;
-	margin-top: 30px;
+	margin-top: 40px;
 	box-shadow: 0px 11px 24px rgba(0,0,0,.28);
 }
 .video-img-inner {
@@ -17171,15 +17171,14 @@ span.live-demo a {
 .case-breathers 
 {
     background: #f3f8fb;
-	padding-top: 30px;
 	margin-bottom: 30px;
 }
 .case-breathers img 
 {
     float: left;
 	/* width: 35%; */
-	box-shadow: 0px -2px 30px -5px rgba(0,0,0,.15);
-	margin-top:12px;
+	/* box-shadow: 0px -2px 30px -5px rgba(0,0,0,.15); */
+	 margin-top:12px; 
 }
 .case-breathers-imgRight img {
     /* width: 37%; */
@@ -17407,7 +17406,7 @@ span.tag2
 }
 span.main-content
 {
-    width: 100%;
+    width:95%;
     float: left;
     font-size: 14px;
     line-height: 22px;
@@ -17875,7 +17874,7 @@ li.recmd
 {
 	width:50%;
 	float:left;
-	padding:24px 0 0 25px;
+	padding:0px 0 0 25px;
 }
 button.btn-readmore.mg {
     margin-top:15px;
@@ -17901,6 +17900,7 @@ h4.mk-animate-element.right-to-left.publish {
 {
 	width:43%;
 	float:left;
+	padding:30px 0 0 0 ;
 }
 .col-xs-12.np.abc
  {
@@ -17924,3 +17924,8 @@ h4.mk-animate-element.right-to-left.publish {
 	.section-2-heading{text-transform:uppercase!important;}
      button.btn-readmore.space { margin-bottom:20px;}
 }
+	img.uni1 {
+    position: relative;
+    top: 32px;
+}
+	

@@ -608,7 +608,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
 		<div class="container custom-container  mobile-container">
 			<div class="buzzfeed-left-section">
-			  <img src="images/img-buzzfeed.jpg">
+			  <img src="images/uni.png" class="uni1">
 			</div>
 			<div class="case-breathers-rightSide">
 				<h1 class="heading fnt-chnge">Buzzfeed</h1>
@@ -777,7 +777,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-breathers-imgRight">
 		<div class="container  custom-container mobile-container">
 			
-			   <img src="images/img-newyorktimes.jpg" class="rs-show">
+			   <img src="images/uni3.png" class="rs-show">
 			
 			<div class="case-breathers-rightSide">
 				<h1 class="heading fnt-chnge">New York Times</h1>
@@ -789,7 +789,7 @@
 				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
 			<div class="left-sec">
-			   <img src="images/img-newyorktimes.jpg" class="rs-hide">
+			   <img src="images/uni3.png" class="rs-hide">
 			</div>
 		</div>
 	</div>
@@ -938,7 +938,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-productHunt">
 		<div class="container  custom-container  mobile-container">
 			<div class="product-hunt-left">
-			     <img src="images/img-productHunt.jpg">
+			     <img src="images/uni4.png">
 			</div>
 			<div class="case-breathers-rightSide">
 				<h1 class="heading fnt-chnge">Product Hunt</h1>
