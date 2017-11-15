@@ -47,7 +47,7 @@
 							<li><img src="images/img-home-quizzes.png">Quizzes</li>
 							<li><img src="images/img-home-assessments.png">Assessments </li>
 							<li class="recmd"><img src="images/THUMB.png">Recommendation<br>Engines</br></li>
-							<li><img src="images/img-home-polls.png">Polls</li>
+							<li><img src="images/img-home-polls.png" class="polls">Polls</li>
 						</ul>
 					</div>
 
@@ -474,8 +474,8 @@
 								</div>
 								<div class="interactive-subinner-right-section">
 										<div class="interactive-content">
-											<span class="tag1">For Boosting Lead Generation</span>
-											<span class="tag2">Conversions</span>
+											<span class="tag1">For Boosting Lead Generation Conversions</span>
+											<span class="tag2"></span>
 											<span class="main-content">
 												Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
 											</span>
@@ -595,7 +595,7 @@
 			   </div>
 			    <div class="each-content-section">
 					<span  class="site-image1">
-					   <img src="{{ $page->baseUrl }}/images/scale7.png"/>
+					   <img src="{{ $page->baseUrl }}/images/8.png"/>
 					</span>
 				    <div class="inner-figure">
 					  <span class="figure-head">Engage with Contests</span>
@@ -637,7 +637,7 @@
 			  <img src="images/uni6.png" class="uni1">
 			</div>
 			<div class="case-breathers-rightSide">
-				<h1 class="heading fnt-chnge">Buzzfeed</h1>
+				<h1 class="heading fnt-chnge bu">Buzzfeed</h1>
 				<h5 class="subheading">
 					<span class="font-semibold">7</span>
 					of the <span class="font-semibold"> 20</span>
@@ -653,7 +653,7 @@
 
 	<section class="section">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up uppercase fnt-chnge">
+			<h1 class="section-2-heading mk-animate-element scale-up uppercase fnt-chnge fnt1">
 				Beautiful calculators and quizzes. <br/> Without developers.
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
@@ -803,9 +803,9 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-breathers-imgRight">
 		<div class="container  custom-container mobile-container">
 			
-			   <img src="images/uni3.png" class="rs-show">
+			   <img src="images/uni3.png" class="rs-show uni3">
 			
-			<div class="case-breathers-rightSide">
+			<div class="case-breathers-rightSide new-yk">
 				<h1 class="heading fnt-chnge">New York Times</h1>
 				<h5 class="subheading">
 					<span class="font-semibold">NY Times,</span> 
@@ -967,7 +967,7 @@
 			     <img src="images/uni4.png">
 			</div>
 			<div class="case-breathers-rightSide product-outer">
-				<h1 class="heading fnt-chnge product-hunt">Product Hunt</h1>
+				<h1 class="heading fnt-chnge product-hunt hunt1">Product Hunt</h1>
 				<h5 class="subheading">
 					Several calculators have recieved over <span class="font-semibold">500 upvotes on Product Hunt</span>
 				</h5>
