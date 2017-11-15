@@ -637,7 +637,7 @@
 			  <img src="images/uni6.png" class="uni1">
 			</div>
 			<div class="case-breathers-rightSide">
-				<h1 class="heading fnt-chnge bu">Buzzfeed</h1>
+				<h1 class="heading fnt-chnge bu">Did you know?</h1>
 				<h5 class="subheading">
 					<span class="font-semibold">7</span>
 					of the <span class="font-semibold"> 20</span>
@@ -806,11 +806,10 @@
 			   <img src="images/uni3.png" class="rs-show uni3">
 			
 			<div class="case-breathers-rightSide new-yk">
-				<h1 class="heading fnt-chnge">New York Times</h1>
+				<h1 class="heading fnt-chnge">Who could have guessed?</h1>
 				<h5 class="subheading">
-					<span class="font-semibold">NY Times,</span> 
-					most successful article is a <span class="font-semibold">calculator
-					not a Quiz.</span>
+					<span class="font-semibold">New York Times,</span> 
+					most successful content is actually a <span class="font-semibold">quiz!</span>
 				</h5>
 				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
@@ -967,9 +966,9 @@
 			     <img src="images/uni4.png">
 			</div>
 			<div class="case-breathers-rightSide product-outer">
-				<h1 class="heading fnt-chnge product-hunt hunt1">Product Hunt</h1>
+				<h1 class="heading fnt-chnge product-hunt hunt1">It's your turn now!</h1>
 				<h5 class="subheading">
-					Several calculators have recieved over <span class="font-semibold">500 upvotes on Product Hunt</span>
+					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
 				</h5>
 				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
