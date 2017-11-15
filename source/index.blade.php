@@ -47,7 +47,7 @@
 							<li><img src="images/img-home-quizzes.png">Quizzes</li>
 							<li><img src="images/img-home-assessments.png">Assessments </li>
 							<li class="recmd"><img src="images/THUMB.png">Recommendation<br>Engines</br></li>
-							<li><img src="images/img-home-polls.png">Polls</li>
+							<li><img src="images/img-home-polls.png" class="polls">Polls</li>
 						</ul>
 					</div>
 
