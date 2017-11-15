@@ -1262,12 +1262,13 @@
 /* ##### new navbar responsive ##### */
 
 @media (min-width:1921px) and (max-width:6500px){
+	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
 	    padding: 10px 14px;
-		top: -8px;
+		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
 	}
