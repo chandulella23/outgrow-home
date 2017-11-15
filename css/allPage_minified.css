@@ -17987,6 +17987,7 @@ h4.mk-animate-element.right-to-left.publish {
     margin-left: -9px;
 }
 @media (min-width:1921px) and (max-width:6500px){
+	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.collag1-img{min-height:550px}
 	.collag-left{width:65%}
 	.collag3-img{min-height:390px}
@@ -18013,7 +18014,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
 	    padding: 10px 14px;
-		top: -8px;
+		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
 	}
@@ -18229,3 +18230,9 @@ img.uni1 {
 	.case-breathers-imgRight .case-breathers-rightSide{padding-bottom:40px!important;} 
 	.left-sec {margin-top: 28px;}
 }
+@media(min-width:320px) and (max-width:640px)
+{ 
+   .section-6-left {padding: 0px 20px 0 16px !important;}
+   .case-breathers-rightSide.new-yk { margin-top: 30px!important;}
+}
+
