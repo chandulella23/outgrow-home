@@ -803,7 +803,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-breathers-imgRight">
 		<div class="container  custom-container mobile-container">
 			
-			   <img src="images/uni3.png" class="rs-show uni3">
+			   <img src="images/s1.png" class="rs-show uni3">
 			
 			<div class="case-breathers-rightSide new-yk">
 				<h1 class="heading fnt-chnge">Who could have guessed?</h1>
@@ -814,7 +814,7 @@
 				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
 			<div class="left-sec">
-			   <img src="images/uni3.png" class="rs-hide">
+			   <img src="images/s2.png" class="rs-hide">
 			</div>
 		</div>
 	</div>
