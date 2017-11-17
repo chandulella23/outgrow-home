@@ -69,7 +69,7 @@
 				<div class="col-xs-12 col-md-12 col-sm-12 mobile-container rs-hide calc-links text-center">
 					<a href="javascript:void(0);" class="active"
 						onclick="display('//website.outgrow.us/build-a-startup?vHeight=1')">
-						<img class="thumb-calc" src="images/calc06.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1')">
@@ -81,37 +81,37 @@
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="thumb-calc" src="images/calc03.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/outgrow-roi?vHeight=1')">
-						<img class="thumb-calc" src="images/calc04.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/build-an-app?vHeight=1')">
-						<img class="thumb-calc" src="images/calc05.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
 					</a>
 				</div>
 
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
 						<a href="//website.outgrow.us/build-a-startup?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
-							<img class="thumb-calc" src="images/calc06.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc01.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc02.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc03.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 						</a>
 						<a href="//website.outgrow.us/outgrow-roi?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc04.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
 						</a>
 						<a href="//website.outgrow.us/build-an-app" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc05.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
 						</a>
 					</div>
 				</div>
