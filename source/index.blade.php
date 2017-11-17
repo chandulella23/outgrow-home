@@ -43,11 +43,11 @@
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np home-imgs">
 						<ul>	
-							<li><img src="images/img-home-calc.png">Calculator</li>
-							<li><img src="images/img-home-quizzes.png">Quizzes</li>
-							<li><img src="images/img-home-assessments.png">Assessments </li>
-							<li class="recmd"><img src="images/THUMB.png">Recommendation<br>Engines</br></li>
-							<li><img src="images/img-home-polls.png" class="polls">Polls</li>
+							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-calc.png">Calculator</li>
+							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes.png">Quizzes</li>
+							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-assessments.png">Assessments </li>
+							<li class="recmd"><img src="//dzvexx2x036l1.cloudfront.net/THUMB.png">Recommendation<br>Engines</br></li>
+							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-polls.png" class="polls">Polls</li>
 						</ul>
 					</div>
 
@@ -201,64 +201,64 @@
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide text-center">
 				<div class="img-wrapper">
-					<img class="scrollimg1"  src="images/clients-logos/adobe.png" />
-					<img class="scrollimg1"  src="images/clients-logos/datavail.png" />
-					<img class="scrollimg1"  src="images/clients-logos/statefarm.png" />
-					<img class="scrollimg1"  src="images/clients-logos/florida-capital-bank.png" />
-					<img class="scrollimg1"  src="images/clients-logos/catapult-system.png" />
-					<img class="scrollimg1"  src="images/clients-logos/mulesoft.png" />
-					<img class="scrollimg1"  src="images/clients-logos/radius.png" />
-					<img class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
-					<img class="scrollimg1"  src="images/clients-logos/agl.png" />
-					<img class="scrollimg1"  src="images/clients-logos/the-offshore-group.png" />
-					<img class="scrollimg1"  src="images/clients-logos/canvas-medical.png" />
-					<img class="scrollimg1"  src="images/clients-logos/black-hawk.png" />
-					<img class="scrollimg1"  src="images/clients-logos/sm.png" />
-					<img class="scrollimg1"  src="images/clients-logos/currencyfair.png" />
-					<img class="scrollimg1"  src="images/clients-logos/pinpoint-software.png" />
-					<img class="scrollimg1"  src="images/clients-logos/temcoUK.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
 
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np scale-up rs-show text-center rs-hide-int-res">
 				<div class="img-wrapper">
-					<img class="scrollimg1"  src="images/clients-logos/adobe.png" />
-					<img class="scrollimg1"  src="images/clients-logos/datavail.png" />
-					<img class="scrollimg1"  src="images/clients-logos/statefarm.png" />
-					<img class="scrollimg1"  src="images/clients-logos/florida-capital-bank.png" />
-					<img class="scrollimg1"  src="images/clients-logos/catapult-system.png" />
-					<img class="scrollimg1"  src="images/clients-logos/mulesoft.png" />
-					<img class="scrollimg1"  src="images/clients-logos/radius.png" />
-					<img class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
-					<img class="scrollimg1"  src="images/clients-logos/agl.png" />
-					<img class="scrollimg1"  src="images/clients-logos/the-offshore-group.png" />
-					<img class="scrollimg1"  src="images/clients-logos/canvas-medical.png" />
-					<img class="scrollimg1"  src="images/clients-logos/black-hawk.png" />
-					<img class="scrollimg1"  src="images/clients-logos/sm.png" />
-					<img class="scrollimg1"  src="images/clients-logos/currencyfair.png" />
-					<img class="scrollimg1"  src="images/clients-logos/pinpoint-software.png" />
-					<img class="scrollimg1"  src="images/clients-logos/temcoUK.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
 
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 np rs-show text-center rs-hide-int-mob">
 				<div class="img-wrapper">
-					<img class="scrollimg1"  src="images/clients-logos/adobe.png" />
-					<img class="scrollimg1"  src="images/clients-logos/datavail.png" />
-					<img class="scrollimg1"  src="images/clients-logos/statefarm.png" />
-					<img class="scrollimg1"  src="images/clients-logos/florida-capital-bank.png" />
-					<img class="scrollimg1"  src="images/clients-logos/catapult-system.png" />
-					<img class="scrollimg1"  src="images/clients-logos/mulesoft.png" />
-					<img class="scrollimg1"  src="images/clients-logos/radius.png" />
-					<img class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
-					<img class="scrollimg1"  src="images/clients-logos/agl.png" />
-					<img class="scrollimg1"  src="images/clients-logos/the-offshore-group.png" />
-					<img class="scrollimg1"  src="images/clients-logos/canvas-medical.png" />
-					<img class="scrollimg1"  src="images/clients-logos/black-hawk.png" />
-					<img class="scrollimg1"  src="images/clients-logos/sm.png" />
-					<img class="scrollimg1"  src="images/clients-logos/currencyfair.png" />
-					<img class="scrollimg1"  src="images/clients-logos/pinpoint-software.png" />
-					<img class="scrollimg1"  src="images/clients-logos/temcoUK.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
 
 				</div>
 			</div>
@@ -634,7 +634,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
 		<div class="container custom-container  mobile-container">
 			<div class="buzzfeed-left-section">
-			  <img src="images/uni6.png" class="uni1">
+			  <img src="//dzvexx2x036l1.cloudfront.net/uni6.png" class="uni1">
 			</div>
 			<div class="case-breathers-rightSide">
 				<h1 class="heading fnt-chnge bu">Did you know?</h1>
@@ -803,7 +803,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-breathers-imgRight">
 		<div class="container  custom-container mobile-container">
 			
-			   <img src="images/s1.png" class="rs-show uni3">
+			   <img src="//dzvexx2x036l1.cloudfront.net/s1.png" class="rs-show uni3">
 			
 			<div class="case-breathers-rightSide new-yk">
 				<h1 class="heading fnt-chnge">Who could have guessed?</h1>
@@ -814,7 +814,7 @@
 				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
 			<div class="left-sec">
-			   <img src="images/s2.png" class="rs-hide">
+			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png" class="rs-hide">
 			</div>
 		</div>
 	</div>
@@ -910,7 +910,7 @@
 				<div class="col-xs-12 col-md-12 col-sm-12 mobile-container rs-hide calc-links text-center">
 					<a href="javascript:void(0);" class="active"
 						onclick="display('//website.outgrow.us/build-a-startup?vHeight=1')">
-						<img class="thumb-calc" src="images/calc06.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1')">
@@ -922,37 +922,37 @@
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="thumb-calc" src="images/calc03.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/outgrow-roi?vHeight=1')">
-						<img class="thumb-calc" src="images/calc04.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/build-an-app?vHeight=1')">
-						<img class="thumb-calc" src="images/calc05.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
 					</a>
 				</div>
 
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
 						<a href="//website.outgrow.us/build-a-startup?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
-							<img class="thumb-calc" src="images/calc06.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc01.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc02.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc03.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 						</a>
 						<a href="//website.outgrow.us/outgrow-roi?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc04.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
 						</a>
 						<a href="//website.outgrow.us/build-an-app" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="images/calc05.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
 						</a>
 					</div>
 				</div>
@@ -963,7 +963,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-productHunt">
 		<div class="container  custom-container  mobile-container">
 			<div class="product-hunt-left">
-			     <img src="images/uni4.png">
+			     <img src="//dzvexx2x036l1.cloudfront.net/uni4.png">
 			</div>
 			<div class="case-breathers-rightSide product-outer">
 				<h1 class="heading fnt-chnge product-hunt hunt1">It's your turn now!</h1>
