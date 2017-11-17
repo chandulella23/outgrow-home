@@ -4298,9 +4298,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin-top: 0 !important;
 			margin-bottom: 0 !important;
 		}
-		.case-breathers {margin-bottom: 50px !important;}
+		/* .case-breathers {margin-bottom: 50px !important;} */
 		div.case-breathers.case-breathers-imgRight {margin: 50px 0px 10px !important; padding-bottom: 0px;}
-		.sec-clients-logos {margin-bottom: 20px;}
+		.sec-clients-logos {margin-bottom: 0px;}
 
 	/* homepage res changes by Arti */
 
@@ -17364,16 +17364,14 @@ button.btn-readmore:hover {
 	padding-bottom:15px;
 	padding-left:20px;
 }
-span.marketing-tool 
-{
+span.marketing-tool {
     font-size: 18px;
     margin: 0;
     padding: 0;
     width: 100%;
     font-weight: 300;
-    font-family: montserratlight;
-	line-height:40px;
-	color:#62696d;
+    font-family: montserratultra_light;
+    color: #62696d;
 }
 .interactive-subinner-left-section 
 {
@@ -17647,15 +17645,16 @@ span.recom {
 	/* .buzzfeed-left-section{padding:25px 0 0 0!important;} */
 	span.tag2{line-height:10px!important}
 	.left-sec{padding:8px 0 0 0!important;}
-	.product-hunt-left{padding: 35px 0 0 0!important;}
+	.product-hunt-left{padding: 20px 0 0 0!important;}
 	img.rs-show.uni3{margin: 20px auto 0!important;}
 	h1.heading.fnt-chnge.product-hunt.hunt1 {padding-top: 30px!important;}
 	.case-breathers-rightSide.new-yk {margin-top: 0!important;}
 	h1.heading.fnt-chnge.bu {padding-top: 60px!important;}
-	h1.section-2-heading.mk-animate-element.scale-up.uppercase.fnt-chnge.fnt1 {padding-top: 0px!important;margin-top: 0px !important;}
+	h1.section-2-heading.mk-animate-element.scale-up.uppercase.fnt-chnge.fnt1 {padding-top: 0px!important;}
 	.home-imgs li {margin: 12px 22px 10px!important;}
 	.video-img-wrapper{margin-top:30px!important}
 	.marg { margin-top: 50px!important;}
+	.case-productHunt {padding-bottom: 0px !important;}
 
 
 	
@@ -18032,7 +18031,7 @@ h4.mk-animate-element.right-to-left.publish {
 	/*#btnBuildCalc1 a {right: 280px;}*/
 	.startTrial-outer input.form-control {min-height: 58px !important;}
 	.startTrial-outer .btn-bottominfo label{font-size: 13px;}
-	.startTrial-outer input {width: 38% !important; min-height: 80px; border-radius: 50px; font-size: 30px; padding-left: 70px;}
+	.startTrial-outer input {width: 100% !important; min-height: 80px; border-radius: 50px; font-size: 30px; padding-left: 70px;}
 	.startTrial-outer i.material-icons {
 		top: 26px;
     	font-size: 30px;
@@ -18064,7 +18063,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.startTrial-outer input:-ms-input-placeholder{font-size: 30px !important;}
 	.startTrial-outer input::-webkit-input-placeholder{font-size: 30px !important;}
 	.startTrial-outer a {right: 350px;}
-	.startTrial-outer {margin-top: 80px; margin-left: 31%;}
+	.startTrial-outer {margin-top: 80px; max-width: 1200px;}
 	#video-main {display: none;}
 	#video-main-xl {display: block !important; margin-top: 40px;;}
 	.video-img-wrapper {width: 1900px;}
@@ -18103,7 +18102,7 @@ h4.mk-animate-element.right-to-left.publish {
 		margin-bottom: 40px;
 	}
 	.section-2-subheading {font-size: 68px; margin-top: 0px; margin-bottom: 60px !important;}
-	.container {width: 50%;}
+	.sec-clients-logos .container.mobile-container.container {width: 50% !important;}
 
 	.section-4-left h4, .section-5-left h4, .section-6-left h4 {font-size: 76px;}
 	.section-4-left span, .section-5-left span, .section-6-left span {margin-bottom: 35px; margin-top: 30px;font-size: 44px;}
@@ -18170,6 +18169,28 @@ h4.mk-animate-element.right-to-left.publish {
 
 	.section-1-left {margin: 120px 0px 0px;}
 	.home-imgs li {font-size: 44px;}
+	span.marketing-tool {font-size: 44px;}
+	.container.custom-container.mobile-container .section-2-heading {margin-bottom: 0px;}
+	.container.mobile-container {width: 50% !important;}
+	span.site-image {
+		width: 100%;
+		height: 100%;
+		overflow: visible;
+	}
+	.interactive-subinner-right-section {
+		width: 62%;
+	}
+	span.tag1 {
+		font-size: 44px;
+		line-height: 44px;
+		margin-bottom: 10px;
+	}
+	span.main-content {
+    	width: 100%;
+		font-size: 44px;
+		line-height: 44px;
+	}
+	.interactive-subinner-left-section img {width: 90%;}
 
 
 }
@@ -18251,6 +18272,6 @@ img.uni1 {
 @media(min-width:320px) and (max-width:640px)
 { 
    .section-6-left {padding: 0px 20px 0 16px !important;}
-   .case-breathers-rightSide.new-yk { margin-top: 30px!important;}
+   /* .case-breathers-rightSide.new-yk { margin-top: 30px!important;} */
 }
 

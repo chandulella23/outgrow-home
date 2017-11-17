@@ -138,7 +138,8 @@
 	}
 	#why .section-top-why{
 		margin-bottom:0px;
-	    margin-top: 0;
+		margin-top: 0;
+		padding: 0px 0px 10px;
 	}
 	#why .section-16-left span i{
 		margin-bottom:0px;
