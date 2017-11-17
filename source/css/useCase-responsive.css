@@ -46,6 +46,7 @@
 		.sec-outgrowMagic img.thumb-calc {
 			margin-right: 8px;
 			margin-bottom: 30px;
+			width: auto;
 		}
 		.sec-outgrowMagic img.thumb-calc {
 			margin-right: 8px;
@@ -57,8 +58,8 @@
 		.sec-example .sec-outgrowMagic-title {padding: 20px 0px 30px;}
 		.sec-example .section-2-heading { font-size: 22px;}
 		.sec-example .section-2-subheading {font-size: 14px; top: 10px;    line-height: 1.42857143;}
-		.usecase .section-usecase2-left h4 {font-size: 22px;}
-		.usecase .section-usecase1-left h4 {font-size: 22px;}
+		.usecase .section-usecase2-left h4 {font-size: 20px;}
+		.usecase .section-usecase1-left h4 {font-size: 20px;}
 		.tab-section .nav-tabs {margin-bottom: 20px;}		
 		.bg2-img h3 {font-size: 22px; margin-bottom: 0px;}
 		.bg1-img{padding: 70px 0px;}
