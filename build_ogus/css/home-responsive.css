@@ -27,7 +27,7 @@
     }
     .navbar-brand {
         margin-left: 25px!important;
-        padding-top: 5px;
+        padding-top: 10px;
     }
     .res-nav-show {
         display: block !important;
@@ -765,6 +765,7 @@
         display: inline-block
     }
     .tab-inner-frame{display: none;}
+    .sec-outgrowMagic .section-6-left {margin: 0;}
 
 }
 
