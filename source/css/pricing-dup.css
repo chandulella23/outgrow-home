@@ -486,9 +486,9 @@ label {
 	}
 	#pricing .pricing-headingtop .plans-heading {
 		margin-bottom: 5px;
-		margin-top: 35px;
+		margin-top: 50px;
 		font-size: 30px;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 	#pricing .pricing-headingtop .plans-heading, #pricing .pricing-headingtop .plans-subheading {
 		color: #fff;
@@ -786,6 +786,7 @@ label {
 	#plan-cycle{
 		z-index: 9;
 		position: relative;
+		margin-bottom: 35px;
 	}
 
 	/* billing plan list css */

@@ -202,3 +202,88 @@
 
 
 /*################### Feature Page responsive css end ###################*/
+
+@media (min-width:1921px) and (max-width:6500px){
+	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
+	.navbar-brand {padding-top: 12px;}
+	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
+	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
+	.custom-navbar .signUp-style a{
+	    padding: 10px 14px;
+		top: -5px;
+		font-size: 20px !important;
+		border-radius: 25px;
+	}
+	#footer{padding-top: 80px; padding-bottom: 30px;}
+	.footer-link h4 {font-size: 36px; margin-bottom: 40px;}
+	.footer-copyright p, .footer-link ul li a {font-size: 23px;}
+	.footer-img-text {font-size: 22px;}
+	.footer-social ul li a {font-size: 23px;}
+	.footer-copyright {margin-bottom: 30px;}
+	.footer-copyright i {font-size: 24px;}
+	.footer-copyright span {font-size: 24px;}
+	.footer-copyright img {width: 5%;}
+	.container {width: 60%;}
+
+	.sec-example .section-2-heading{font-size: 96px; margin-top: 120px; margin-bottom: 30px;}
+	.sec-example .section-2-subheading {font-size: 68px; padding: 0;margin-bottom: 50px !important;}
+	.useCase-heading {font-size: 96px;}
+	.sec-example .sec-outgrowMagic-title {margin: 80px 0px;}
+	.usecase .section-usecase2-left h4 {font-size: 76px; margin-bottom: 20px;}
+	.usecase .section-usecase2-left p {font-size: 44px; margin-bottom: 15px; margin-top: 15px;}
+	.usecase .section-usecase2-left .section-usecase2-new span i {
+		font-size: 44px;
+		margin-top: 10px;
+		margin-right: 40px;
+	}
+	.usecase .section-usecase2-left .section-usecase2-new span span {font-size: 43px;}
+	.usecase img.box-shadow {width: 100%;}
+	.usecase .section-usecase2-left {padding-right: 60px;}
+	.tab-section .nav-tabs {margin: 80px 0px 40px;}
+	.tab-section .nav-tabs > li > a{padding: 30px 100px; font-size: 34px !important;}
+	.tab-section .nav-tabs > li.active i {
+		left: 35px;
+		top: 34px;
+		font-size: 44px;
+	}
+	.usecase .section-usecase1-left h4 {font-size: 76px;}
+	.usecase .section-usecase1-left p {
+		font-size: 44px;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.usecase .section-usecase1-left .section-usecase1-new span span {font-size: 43px;}
+	.usecase .section-usecase2-left .section-usecase2-new span,
+	.usecase .section-usecase1-left .section-usecase1-new span{
+		margin-bottom: 15px; 
+		margin-top: 15px;
+	}
+	.usecase .section-usecase1-left .section-usecase1-new span i {
+		font-size: 44px;
+		margin-right: 40px;
+		margin-top: 8px;
+	}
+	.usecase .section-usecase1-left {padding-left: 100px;}
+	.gallery-content-center .abc { margin-bottom: 60px;}
+	.bg1-img {padding: 120px 0;}
+	.bg1-img .btn-buildcal{
+		font-size: 45px;
+		padding: 52px 75px;
+		border-radius: 80px;
+		line-height: 54px;
+	}
+	.start-trial-cta .btn-buildcal i{
+		margin-right: 30px;
+		font-size: 54px;
+		top: 0;
+	}
+	.start-trial-cta .btn-buildcal p {line-height: normal;}
+	.sec-example .sec-outgrowMagic {
+		margin-bottom: 100px;
+    	margin-top: 50px;
+	}
+	.calc-links {margin-top: 90px;}
+
+
+
+}
