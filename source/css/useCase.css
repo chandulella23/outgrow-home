@@ -194,7 +194,6 @@ body{background:#fff !important;}
     line-height: 44px;
     font-family: montserratultra_light;
     text-transform: none;
-    margin-top: 30px; 
 }
 .collage-outer .collage-solid{
 	background: #fb6c73;
@@ -328,7 +327,7 @@ body{background:#fff !important;}
 
 .usecase .section-usecase1-left h4 {
     color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -398,7 +397,7 @@ body{background:#fff !important;}
 
 .usecase .section-usecase2-left h4 {
     color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
