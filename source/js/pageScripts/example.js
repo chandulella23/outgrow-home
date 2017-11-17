@@ -13,7 +13,8 @@ window.display = function (url) {
 }
 
 jQuery(document).ready(function () {
-	calculateMinHeight();
+    calculateMinHeight();
+    
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
@@ -25,13 +26,13 @@ jQuery(document).ready(function () {
 		jQuery('a').removeClass('active');
 		jQuery(this).addClass('active');
 	});
-    jQuery('.og-iframe-res').each(function () {
-        console.log('Examples og');
-        if (jQuery(this).attr('data-calc')) {
-            console.log('Examples og if');
-            jQuery(this).attr('src', jQuery(this).attr('data-calc'));
-            jQuery(this).attr('data-calc', '');
-        }
-    })
+    // jQuery('.og-iframe-res').each(function () {
+    //     console.log('Examples og');
+    //     if (jQuery(this).attr('data-calc')) {
+    //         console.log('Examples og if');
+    //         jQuery(this).attr('src', jQuery(this).attr('data-calc'));
+    //         jQuery(this).attr('data-calc', '');
+    //     }
+    // })
     runTimeout();
 })
