@@ -18220,7 +18220,8 @@ h4.mk-animate-element.right-to-left.publish {
 	}
 	.interactive-subinner-left-section img {width: 90%;}
 	.case-breathers-rightSide h1.heading {font-size: 94px; line-height: 114px;}
-	.case-breathers img { width: 90%;}
+	.case-breathers img { width: 90%; top: 0 !important;}
+	.case-breathers {padding-top: 40px;}
 	.case-breathers-rightSide h5.subheading {font-size: 44px;}
 	.figure-head{
 		font-size: 44px;
@@ -18243,8 +18244,8 @@ h4.mk-animate-element.right-to-left.publish {
 		line-height: 44px;
 	}
 	.container.img-container, .container {width: 50%;}
-	.case-breathers-imgRight .case-breathers-rightSide {width: 53%;}
-	.left-sec {width: 43%;}
+	.case-breathers-imgRight .case-breathers-rightSide {width: 51%;}
+	.left-sec {width: 45%;}
 	.interactive-outer-section {
 		padding-top: 65px;
 		padding-bottom: 35px;
@@ -18259,6 +18260,7 @@ h4.mk-animate-element.right-to-left.publish {
 	span.site-image1 {width: 100%; height: auto;}
 	.site-image1 img {width: 100%;}
 	/* .interactive-subinner-left-section {width: 100%;} */
+	.protfolio-section {float: none; margin: 0 auto;}
 
 
 }
