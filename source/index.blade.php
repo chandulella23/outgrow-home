@@ -505,7 +505,7 @@
 						<div class="case-interactive-left-side">
 								<div class="interactive-subinner-left-section">
 									 <span class="site-image sitemg">
-										<img src="{{ $page->baseUrl }}/images/scale3.png"/> 
+										<img class="img3" src="{{ $page->baseUrl }}/images/scale3.png"/> 
 									 </span>
 								</div>
 								<div class="interactive-subinner-right-section">
@@ -520,7 +520,7 @@
 								<div class="interactive-subinner-left-section">
 									<div class="interactive-subinner-left-section">
                                       <span class="site-image">
-										  <img src="{{ $page->baseUrl }}/images/scale10.jpg"/> 
+										  <img class="img4" src="{{ $page->baseUrl }}/images/scale10.jpg"/> 
 									  </span>
 								</div>
 								</div>
