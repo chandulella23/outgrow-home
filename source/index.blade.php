@@ -669,10 +669,10 @@
 				<div class="video-frame">
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
-						<video width="1324" height="607" autoplay loop>
+						<!-- <video width="1324" height="607" autoplay loop>
 							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.webm" type="video/webm">
-						</video>
-						<!-- <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div> -->
+						</video> -->
+						<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 					</div>
 				</div>
 			</div>
@@ -698,10 +698,10 @@
 				<div class="video-frame">
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
-						<video width="1324" height="607" autoplay loop>
+						<!-- <video width="1324" height="607" autoplay loop>
 							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.webm" type="video/webm">
-						</video>
-						<!-- <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div> -->
+						</video> -->
+						<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 					</div>
 				</div>
 			</div>
