@@ -17663,7 +17663,7 @@ span.recom {
 	button.btn-readmore.space {margin-bottom: 40px;}
 	/* .interactive-subinner-left-section{width:50%!important;}
 	.interactive-subinner-right-section{width:50%!important;} */
-	.interactive-outer-section{padding:15px!important; }
+	.interactive-outer-section{padding:15px!important;     padding-top: 20px !important;}
 	span.main-content{line-height:18px!important;}
 	.site-bottom-section{padding:50px 15px 15px 15px!important;     margin-left: 35px;}
 	.figure-head{font-size:13px!important;}
@@ -17716,7 +17716,7 @@ span.recom {
 	/* .buzzfeed-left-section{padding:25px 0 0 0!important;} */
 	span.tag2{line-height:10px!important}
 	.custom-navbar.navbar-default .navbar-nav>li>a{}
-	.interactive-outer-section{padding-top:0px!important;padding-left: 0!important;padding-bottom: 0px;}
+	.interactive-outer-section{padding-top:10px!important;padding-left: 0!important;padding-bottom: 0px;}
 	span.bottom-figure-content{padding:0 10px 0 0!important;}
 	/* .marg{margin-top:45px!important;} */
 	h1.heading.fnt-chnge.bu {padding-top: 40px!important;}
