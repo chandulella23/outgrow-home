@@ -386,6 +386,9 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 	/*.footer-img-2 {
 	    left: 18px !important;
 	}*/
+	.bg1-img {background-position: -200px 0px !important;}
+
+
 }
 @media (min-width: 0px) and (max-width: 450px){
 	.embed-mobile {
@@ -17627,6 +17630,7 @@ span.recom {
 	.case-productHunt {padding-bottom: 0px !important;}
 	.product-hunt-left {width: 47% !important;}
 	.interactive-subinner-right-section {margin-left: 12px;}
+	.case-interactive-left-side {margin-bottom: 20px;}
 
 }
 @media(min-width:768px) and (max-width:997px)
@@ -18263,6 +18267,9 @@ h4.mk-animate-element.right-to-left.publish {
 	.site-image1 img {width: 100%;}
 	/* .interactive-subinner-left-section {width: 100%;} */
 	.protfolio-section {float: none; margin: 0 auto;}
+	.home-imgs li img.rs-hide {display: block !important;}
+	.home-imgs li img {display: none !important;}
+	span.live-demo {font-size: 20px;}
 
 
 }
@@ -18364,3 +18371,5 @@ img.uni1 {
 
 
 }
+
+.home-imgs li img.rs-hide {display: none;}
