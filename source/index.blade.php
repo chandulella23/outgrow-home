@@ -498,12 +498,10 @@
 								</div>
 						</div>
 						<div class="case-interactive-right-Side">
-								<div class="interactive-subinner-left-section">
 									<div class="interactive-subinner-left-section">
 									 <span class="site-image">
 										<img src="//dzvexx2x036l1.cloudfront.net/scale2.jpg"/> 
 									 </span>
-								</div>
 								</div>
 								<div class="interactive-subinner-right-section">
 									<div class="interactive-content">
@@ -532,12 +530,10 @@
 								</div>
 						</div>
 						<div class="case-interactive-right-Side">
-								<div class="interactive-subinner-left-section">
 									<div class="interactive-subinner-left-section">
                                       <span class="site-image">
 										  <img class="img4" src="//dzvexx2x036l1.cloudfront.net/scale10.jpg"/> 
 									  </span>
-								</div>
 								</div>
 								<div class="interactive-subinner-right-section">
 									<div class="interactive-content">
