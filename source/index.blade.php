@@ -45,23 +45,23 @@
 						<ul>	
 							<li>
 								<img src="//dzvexx2x036l1.cloudfront.net/img-home-calc.png"> 
-								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-calc1.png">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-calc1.png">
 								Calculator</li>
 							<li>
 								<img src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes.png">
-								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-quizzes1.png">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes1.png">
 								Quizzes</li>
 							<li>
 								<img src="//dzvexx2x036l1.cloudfront.net/img-home-assessments.png">
-								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-assessments1.png">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-assessments1.png">
 								Assessments </li>
 							<li class="recmd">
 								<img src="//dzvexx2x036l1.cloudfront.net/THUMB.png">
-								<img class="rs-hide" src="{{ $page->baseUrl }}/images/THUMB1.png">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/THUMB1.png">
 								Recommendation<br>Engines</br></li>
 							<li>
 								<img src="//dzvexx2x036l1.cloudfront.net/img-home-polls.png" class="polls">
-								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-polls1.png" class="polls">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-polls1.png" class="polls">
 								Polls</li>
 						</ul>
 					</div>
@@ -484,7 +484,7 @@
 						<div class="case-interactive-left-side">
 								<div class="interactive-subinner-left-section">
 									<span class="site-image">
-									  <img src="{{ $page->baseUrl }}/images/scale.jpg"/> 
+									  <img src="//dzvexx2x036l1.cloudfront.net/scale.jpg"/> 
 									</span>
 								</div>
 								<div class="interactive-subinner-right-section">
@@ -501,7 +501,7 @@
 								<div class="interactive-subinner-left-section">
 									<div class="interactive-subinner-left-section">
 									 <span class="site-image">
-										<img src="{{ $page->baseUrl }}/images/scale2.jpg"/> 
+										<img src="//dzvexx2x036l1.cloudfront.net/scale2.jpg"/> 
 									 </span>
 								</div>
 								</div>
@@ -520,7 +520,7 @@
 						<div class="case-interactive-left-side">
 								<div class="interactive-subinner-left-section">
 									 <span class="site-image sitemg">
-										<img class="img3" src="{{ $page->baseUrl }}/images/scale3.png"/> 
+										<img class="img3" src="//dzvexx2x036l1.cloudfront.net/scale3.png"/> 
 									 </span>
 								</div>
 								<div class="interactive-subinner-right-section">
@@ -535,7 +535,7 @@
 								<div class="interactive-subinner-left-section">
 									<div class="interactive-subinner-left-section">
                                       <span class="site-image">
-										  <img class="img4" src="{{ $page->baseUrl }}/images/scale10.jpg"/> 
+										  <img class="img4" src="//dzvexx2x036l1.cloudfront.net/scale10.jpg"/> 
 									  </span>
 								</div>
 								</div>
@@ -597,7 +597,7 @@
 			<div class="site-bottom-section">
                <div class="each-content-section">
 				    <span  class="site-image1">
-					 <img src="{{ $page->baseUrl }}/images/scale5.png"/>
+					 <img src="//dzvexx2x036l1.cloudfront.net/scale5.png"/>
 					</span>
 				   <div class="inner-figure">
 					   <span class="figure-head">Run Recommendation Engines</span>
@@ -610,7 +610,7 @@
 			   </div>
 			    <div class="each-content-section">
 					<span  class="site-image1">
-					   <img src="{{ $page->baseUrl }}/images/8.png"/>
+					   <img src="//dzvexx2x036l1.cloudfront.net/8.png"/>
 					</span>
 				    <div class="inner-figure">
 					  <span class="figure-head">Engage with Contests</span>
@@ -621,7 +621,7 @@
 			   </div>
 			    <div class="each-content-section">
 					<span  class="site-image1">
-						<img src="{{ $page->baseUrl }}/images/scale8.png"/>
+						<img src="//dzvexx2x036l1.cloudfront.net/scale8.png"/>
 					</span>
 				    <div class="inner-figure">
 					   <span class="figure-head">Provide self serve quoting</span>
@@ -632,7 +632,7 @@
 			   </div>
 			    <div class="each-content-section">
 					<span  class="site-image1">
-						 <img src="{{ $page->baseUrl }}/images/scale9.png"/>
+						 <img src="//dzvexx2x036l1.cloudfront.net/scale9.png"/>
 					</span>
 				   <div class="inner-figure">
 					  <span class="figure-head">Create Polls</span>
@@ -1172,18 +1172,18 @@
 			<div class="social-media-section">
 				<div class="each-arrow-section">
 					<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
-						<img src="{{ $page->baseUrl }}/images/facebookim.png"/> 
-						<img src="{{ $page->baseUrl }}/images/facebookh.png" class="over over1"/>  
+						<img src="//dzvexx2x036l1.cloudfront.net/facebookim.png"/> 
+						<img src="//dzvexx2x036l1.cloudfront.net/facebookh.png" class="over over1"/>  
 					</div>
 		
 					<div id="capterra-img" class="arrow_box" onclick="openTestimonial('capterra')">
-						<img src="{{ $page->baseUrl }}/images/capterraimg.png"/>
-						<img src="{{ $page->baseUrl }}/images/capterah.png" class="over over2"/>  
+						<img src="//dzvexx2x036l1.cloudfront.net/capterraimg.png"/>
+						<img src="//dzvexx2x036l1.cloudfront.net/capterah.png" class="over over2"/>  
 					</div>
 		
 					<div id="g2-img" class="arrow_box" onclick="openTestimonial('g2')">
-						<img src="{{ $page->baseUrl }}/images/crowd.png"/> 
-						<img src="{{ $page->baseUrl }}/images/crowdh.png" class="over over3"/> 
+						<img src="//dzvexx2x036l1.cloudfront.net/crowd.png"/> 
+						<img src="//dzvexx2x036l1.cloudfront.net/crowdh.png" class="over over3"/> 
 					</div>
 				</div>
 			</div>
