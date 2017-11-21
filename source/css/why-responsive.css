@@ -606,7 +606,7 @@
 	.calc-table .container {width: 60%;}
 	.container {width: 50%;}
 	#why .section-2-heading {
-		font-size: 94px;
+		font-size: 108px;
 		line-height: 114px;
 		margin-bottom: 40px;
 	}
@@ -657,7 +657,7 @@
 	#why .section-16-left span i, #why .section-w3-text span i {font-size: 98px;}
 	#why .section-16-left h4, #why .section-w3-text h4 {font-size: 76px;}
 	#why .section-16-left span span {font-size: 44px;}
-	#why .section-2-subheading {font-size: 68px; margin-bottom: 60px;}
+	#why .section-2-subheading {font-size: 58px; margin-bottom: 60px;    line-height: 70px;}
 	.last-sec {margin-top: 100px;}
 	#why .container-video {width: 50%;}
 	.start-trial-cta {margin: 100px 0px 0px;}

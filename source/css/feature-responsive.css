@@ -1294,7 +1294,7 @@
 	.qode-expanding-images .qode-expanding-images-inner { width: 100%;}
 	.qode-expanding-images .qode-frame-image {width: 100%;}
 	#feature .feature-heading{
-		font-size: 94px;
+		font-size: 104px;
 		line-height: 114px;
 		margin-bottom: 80px;
 		margin-top: 100px;
@@ -1347,8 +1347,8 @@
 	#feature .section-f3 .section-f3-left h4 {font-size: 76px;}
 	#feature .section-f3 .section-f3-left span span {font-size: 44px;}
 	#feature .section-f3-left .section-f3-new span i {font-size: 44px;}
-	#feature .section-f4 .section-f4-left h4 {font-size: 76px;}
-	#feature .section.section-f4 div.section-f4-left span span {font-size: 44px !important;}
+	#feature .section-f4 .section-f4-left h4 {font-size: 104px;line-height: 114px; margin-bottom: 40px;}
+	#feature .section.section-f4 div.section-f4-left span span {font-size: 54px !important;     line-height: 70px;}
 	#feature .section-f3 {margin-top: 160px; margin-bottom: 160px;}
 	#feature .section-f4 .img-pad-left {padding-right: 55px;}
 	#feature .section-f4 .img-pad-right {padding-left: 55px;}
@@ -1360,8 +1360,8 @@
 	.section-4-img img.right-to-left {width: 100%;}
 	#feature .sec4-2 {width: 53%;}
 	.section-4 {margin-bottom: 160px;}
-	.sec-integrations .section-2-heading {font-size: 76px;}
-	.sec-integrations .section-2-subheading {margin-bottom: 60px; font-size: 44px; margin-top: 25px;}
+	.sec-integrations .section-2-heading {    font-size: 104px;   line-height: 114px;     margin-bottom: 40px;}
+	.sec-integrations .section-2-subheading {margin-bottom: 60px; font-size: 54px;     line-height: 70px;}
 	.img-int-wrapper img {width: 12%;}
 	.sec-integrations {margin-bottom: 140px;}
 	#feature .section.section-10.sec-help i.material-icons {font-size: 98px;}
@@ -1388,6 +1388,7 @@
 	#feature .section-f2.feature-9-1 {margin-bottom: 180px;}
 	#feature .secf3-2{width: 50%;}
 	#feature .section-f4 img.box-shadow {width: 100%;}
+	#feature .section.section-10.sec-help .start-trial-cta { margin-top: 100px !important;}
 
 
 
