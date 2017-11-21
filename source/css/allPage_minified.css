@@ -3617,7 +3617,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			width: 100%;
 			margin-top: 20px;
 		}
-		.startTrial-outer {margin-left: 0px; padding: 0px 20px;}
+		.startTrial-outer {margin-left: 0px; padding: 0px 20px;     margin-left: 0px !important;}
 		.sec-grey.section.section-10 p{margin-bottom: 0px;}
 		.sec-grey .container.container-center h1 {
 			text-transform: uppercase !important;
@@ -4236,7 +4236,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-grey span {font-size: 12px; padding-bottom: 15px; display: block;}
 		.sec-grey span {padding-left: 0px !important; padding-right: 0px !important;}
 		.section-1-left input{width:65% !important;}
-		.startTrial-outer {margin-left: 120px;}
+		.startTrial-outer {margin-left: 120px !important;}
 		.startTrial-outer i.material-icons {left: 25px !important;}
 		
 		.calc-table {margin-top: 40px !important; margin-bottom: 20px !important;}
@@ -4514,6 +4514,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		margin-top: 40px;
 		padding-left: 30px;
 		padding-right: 30px;
+		margin-left: 23% !important;
 	}
 	/*.startTrial-outer i.material-icons { left: 55px !important;}*/
 	.startTrial-outer input {width: 50% !important;}
@@ -4658,6 +4659,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.startTrial-outer input.form-control {min-height: 58px !important;}
 	.startTrial-outer .btn-bottominfo label{font-size: 13px;}
 	.startTrial-outer input {width: 50% !important;}
+	.startTrial-outer {
+		margin-left: 32% !important;
+		width: 68%;
+	}
 	.section-old .startTrial-outer {
 		margin-left: 0;
 	}
@@ -4786,7 +4791,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-old .btn-signup .btn-buildcal {
 		padding: 15px 70px !important;
 	}
-	.startTrial-outer input{width: 50% !important; padding-right: 200px !important;}
+	.startTrial-outer input{width: 70% !important; padding-right: 200px !important;}
 
 }
 @media only screen and (max-width:1023px){
@@ -16810,7 +16815,8 @@ iframe.outgrow-video {
 /*end: new css by Arti */
 
 .startTrial-outer {
-    margin-top: 40px;
+	margin-top: 40px;
+	margin-left: 26%;
 }
 .startTrial-outer .form-group {
     margin: 0;
@@ -16822,7 +16828,7 @@ iframe.outgrow-video {
     border-radius: 25px;
     min-height: 50px;
     margin: 0;
-    width: 47%;
+    width: 60%;
     float: left;
     box-shadow: 0px 9px 18px 0px rgba(216,199,200,0.99);
     padding-left: 50px;
