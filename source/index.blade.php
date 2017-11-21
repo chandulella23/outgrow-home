@@ -42,7 +42,7 @@
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer">
+						<div class="col-md-9 col-xs-12 col-sm-12 np text-center startTrial-outer">
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
 							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
@@ -103,7 +103,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
+			 <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1">
@@ -111,6 +111,20 @@
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
 								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div> 
+
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main-xl">
+				<div class="video-img-wrapper">
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-web" id="him1-xl">
+							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon">
+								<span class="inside-circle" onclick="changeHeightWebXL()"><i class="material-icons">play_arrow</i></span>
 							</span>
 						</div>
 					</div>
@@ -143,6 +157,18 @@
 
 					if (xDiv.style.height == '')
 						xDiv.style.height = '600px';
+					else
+						xDiv.style.height = '';
+				}
+
+				function changeHeightWebXL () {
+					console.log('Tab');
+					window.location.replace('#bfrVid')
+					document.getElementById("him1-xl").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main-xl');
+
+					if (xDiv.style.height == '')
+						xDiv.style.height = '1160px';
 					else
 						xDiv.style.height = '';
 				}
