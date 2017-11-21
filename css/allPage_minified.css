@@ -3856,7 +3856,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		width: 100%;
 	} */
 	.home-imgs li {margin: 40px 20px 10px 10px;}
-
+	.case-productHunt {padding-bottom: 0px !important;}
 
 }
 @media (min-width:380px) and (max-width:439px){
@@ -17389,6 +17389,9 @@ span.marketing-tool {
     font-weight: 300;
     font-family: montserratlight;
     color: #62696d;
+    margin-top: 15px;
+    display: block;
+    float: left;
 }
 .interactive-subinner-left-section 
 {
@@ -17655,14 +17658,14 @@ span.recom {
 	.product-hunt-left{padding-bottom:30px!important;}
 	.footer-img-text a{padding:0!important;}
 	.footer-link ul li a{text-align:left;}
-	.each-row{padding:0 5px;}
+	.each-row{padding:0 5px;     margin-left: 35px;}
 	button.btn-readmore.mg{margin:0 0 25px 0!important;}
 	button.btn-readmore.space {margin-bottom: 40px;}
 	/* .interactive-subinner-left-section{width:50%!important;}
 	.interactive-subinner-right-section{width:50%!important;} */
-	.interactive-outer-section{padding:15px!important;}
+	.interactive-outer-section{padding:15px!important; }
 	span.main-content{line-height:18px!important;}
-	.site-bottom-section{padding:50px 15px 15px 15px!important;}
+	.site-bottom-section{padding:50px 15px 15px 15px!important;     margin-left: 35px;}
 	.figure-head{font-size:13px!important;}
 	span.bottom-figure-content{font-size:12px;line-height:20px!important;}
 	/* .buzzfeed-left-section{padding:25px 0 0 0!important;} */
@@ -17830,7 +17833,7 @@ span.recom {
 	.each-arrow-section{display: inherit!important;}
 	.arrow_box { width: 100%!important;margin:10px 0 25px 0 !important;}
 	span.marketing-tool{font-size:14px!important;}
-	.over3,.over2,.over1{left:75px !important;}
+	.over3,.over2,.over1{left:67px !important;}
 	.site-image1{float:none!important;}
 	.buzzfeed-left-section,.product-hunt-left{width:100%!important;}
 	.img-wrapper img{width:24%!important;}
@@ -18293,7 +18296,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.section-2-heading{line-height:35px!important;font-size: 30px !important;}
 	/* .case-breathers-rightSide h1.heading{text-transform: uppercase!important;} */
 	.section-2-heading{text-transform:none!important;font-size: 30px!important;margin-top: 40px!important;}
-	span.marketing-tool{font-size:15px!important;}
+	span.marketing-tool{font-size:15px!important;    margin-top: 8px;}
 	.section-2-subheading{margin-top:8px!important;}
 	.case-breathers-rightSide h1.heading{font-size:30px!important; padding-top: 30px;}
 	.case-breathers-rightSide h5.subheading{font-size:15px!important;}
