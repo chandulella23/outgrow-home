@@ -43,11 +43,26 @@
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np home-imgs">
 						<ul>	
-							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-calc.png">Calculator</li>
-							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes.png">Quizzes</li>
-							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-assessments.png">Assessments </li>
-							<li class="recmd"><img src="//dzvexx2x036l1.cloudfront.net/THUMB.png">Recommendation<br>Engines</br></li>
-							<li><img src="//dzvexx2x036l1.cloudfront.net/img-home-polls.png" class="polls">Polls</li>
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-calc.png"> 
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-calc1.png">
+								Calculator</li>
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes.png">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-quizzes1.png">
+								Quizzes</li>
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-assessments.png">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-assessments1.png">
+								Assessments </li>
+							<li class="recmd">
+								<img src="//dzvexx2x036l1.cloudfront.net/THUMB.png">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/THUMB1.png">
+								Recommendation<br>Engines</br></li>
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-polls.png" class="polls">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-polls1.png" class="polls">
+								Polls</li>
 						</ul>
 					</div>
 
