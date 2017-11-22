@@ -18133,12 +18133,12 @@ h4.mk-animate-element.right-to-left.publish {
 	.section-2-heading{
 		font-size: 104px;
 		line-height: 114px;
-		margin-bottom: 40px;
+		margin-bottom: 40px !important;
 	}
 	.section-2-subheading {font-size: 58px; margin-top: 0px; margin-bottom: 60px !important;     line-height: 70px;}
 	.sec-clients-logos .container.mobile-container.container {width: 50% !important;}
 
-	.section-4-left h4, .section-5-left h4, .section-6-left h4 {font-size: 76px;}
+	.section-4-left h4, .section-5-left h4, .section-6-left h4 {font-size: 66px; line-height: 80px;}
 	.section-4-left span, .section-5-left span, .section-6-left span {margin-bottom: 35px; margin-top: 30px;font-size: 44px;}
 	.section-4-left span i, .section-5-left span i, .section-6-left span i {font-size: 44px; margin-right: 20px;margin-top: 10px;}
 	.section-4-left span span, .section-5-left span span, .section-6-left span span {font-size: 44px;}
@@ -18178,7 +18178,7 @@ h4.mk-animate-element.right-to-left.publish {
 		text-align: center;
 	}
 	.btn-buildcal img {
-		margin-right: 20px;
+		margin-right: 30px;
 		width: 7%;
 	}
 	.section-startFreeTrial-btn label {font-size: 32px;}
@@ -18209,7 +18209,12 @@ h4.mk-animate-element.right-to-left.publish {
 	li.recmd {top: 60px;}
 	.home-imgs {margin-bottom: 40px;}
 	.sec-clients-logos {padding-top: 20px; padding-bottom: 20px;}
-	span.marketing-tool {font-size: 58px;     line-height: 70px;}
+	span.marketing-tool {
+		font-size: 58px;
+		line-height: 70px;
+		margin-top: 0px !important;
+		margin-bottom: 60px;
+	}
 	.container.custom-container.mobile-container .section-2-heading {margin-bottom: 0px; margin-top: 60px;}
 	.container.mobile-container {width: 50% !important;}
 	span.site-image {
@@ -18234,22 +18239,23 @@ h4.mk-animate-element.right-to-left.publish {
 	.interactive-subinner-left-section img {width: 100%;}
 	.case-breathers-rightSide h1.heading {font-size: 94px; line-height: 114px;}
 	.case-breathers img { width: 90%; top: 0 !important;}
-	.case-breathers {padding-top: 40px;}
-	.case-breathers-rightSide h5.subheading {font-size: 44px;}
+	.case-breathers {padding-top: 50px;}
+	.case-breathers-rightSide h5.subheading {font-size: 44px; line-height: 60px;}
 	.figure-head{
 		font-size: 44px;
 		line-height: 54px;
    			margin-bottom: 20px;
 	}
 	button.btn-readmore{    
-		font-size: 45px;
-		padding: 40px 75px;
+		font-size: 33px;
+		padding: 30px 54px;
 		border-radius: 80px;
-		line-height: 54px;
+		vertical-align: middle;
 	}
 	button.btn-readmore i.material-icons {
-		font-size: 58px;
-		margin-left: 25px;
+		font-size: 37px;
+		margin-left: 15px;
+		margin-top: 5px;
 	}
 	span.bottom-figure-content{
 		width: 100%;
@@ -18257,8 +18263,8 @@ h4.mk-animate-element.right-to-left.publish {
 		line-height: 54px;
 	}
 	.container.img-container, .container {width: 50%;}
-	.case-breathers-imgRight .case-breathers-rightSide {width: 51%;}
-	.left-sec {width: 45%;}
+	.case-breathers-imgRight .case-breathers-rightSide {width: 51%; margin-left: 0px !important; margin-right: 0px;}
+	.left-sec {width: 49%;}
 	.interactive-outer-section {
 		padding-top: 65px;
 		padding-bottom: 35px;
@@ -18277,13 +18283,14 @@ h4.mk-animate-element.right-to-left.publish {
 	.home-imgs li img.rs-hide {display: block !important;}
 	.home-imgs li img {display: none !important;}
 	span.live-demo {font-size: 20px;}
-	.each-row {padding-bottom: 80px;}
+	.each-row {padding-bottom: 100px;}
 	h4.mk-animate-element.right-to-left.publish {width: 85%;}
 	.section-4-right, .section-5-right, .section-6-right {padding-left: 50px;}
 	.section-5-left {padding-left: 75px;}
-	.product-hunt-left, .buzzfeed-left-section{padding-left:0px;}
+	.product-hunt-left, .buzzfeed-left-section{padding-left:0px;     padding-top: 30px;}
 	.interactive-subinner-left-section { width: 35%;}
 	.inner-figure {padding-right: 100px;}
+	.case-breathers-rightSide {width: 49%;     margin-top: 140px;}
 
 
 }
