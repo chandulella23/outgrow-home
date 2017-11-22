@@ -6310,8 +6310,8 @@ iframe[name=google_conversion_frame] {
 	.footer-copyright span {font-size: 24px;}
 	.footer-copyright img {width: 5%;}
 	.container {width: 60%;}
-	.Privacy .Privacy-subheading {font-size: 104px; margin-top: 60px; margin-bottom: 30px;}
-	.Privacy p {font-size: 44px;}
+	.Privacy .Privacy-subheading {font-size: 104px; margin-top: 100px; margin-bottom: 50px; }
+	.Privacy p {font-size: 44px; line-height: 64px;}
 	.Privacy h5 {font-size: 44px; margin-bottom: 40px; margin-top: 40px;}
 	.Privacy .li-style {font-size: 44px;}
 	.Privacy .section-services {margin-top: 100px; margin-bottom: 120px;}
