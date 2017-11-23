@@ -660,7 +660,7 @@
 					most shared articles on <span class="font-semibold"> Buzzfeed</span> are 
 				    <span class="font-semibold">quizzes!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" class="btn btn-readmore mg">Read more<i class="material-icons">arrow_forward</i></a>
+				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore mg">Read more<i class="material-icons">arrow_forward</i></a>
 			</div>
 		</div>
 	</div>
@@ -829,7 +829,7 @@
 					<span class="font-semibold">New York Times,</span> 
 					most successful content is actually a <span class="font-semibold">quiz!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/interactive-content-future" class="btn btn-readmore space">Read more<i class="material-icons">arrow_forward</i></a>
+				<a href="http://resources.outgrow.co/interactive-content-future" target="_blank" class="btn btn-readmore space">Read more<i class="material-icons">arrow_forward</i></a>
 			</div>
 			<div class="left-sec rs-hide">
 			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png">
@@ -988,7 +988,7 @@
 				<h5 class="subheading">
 					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
 				</h5>
-				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" class="btn btn-readmore space">Read more<i class="material-icons">arrow_forward</i></a>
+				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore space">Read more<i class="material-icons">arrow_forward</i></a>
 			</div>
 		</div>
 	</div>

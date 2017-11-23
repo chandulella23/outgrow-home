@@ -17289,10 +17289,11 @@ span.live-demo a {
     margin-left: 5px;
     vertical-align: bottom;
 }
-.btn-readmore:hover {
+.btn-readmore:hover, .btn-readmore:focus {
     background: #fb757b;
     color: #fff;
-    border-color: #f8434b;
+	border-color: #f8434b;
+	    outline: none;
 }
 .case-breathers-imgRight .case-breathers-rightSide {
 	margin-top:40px;
