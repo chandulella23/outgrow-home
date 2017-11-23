@@ -44,24 +44,24 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 np home-imgs">
 						<ul>	
 							<li>
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-calc.png"> 
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-calc1.png">
-								Calculator</li>
+								<img src="images/img-home-calc.png"> 
+								<img class="rs-hide" src="images/img-home-calc1.png">
+								Calculators</li>
 							<li>
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes.png">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes1.png">
+								<img src="images/img-home-quizzes.png">
+								<img class="rs-hide" src="images/img-home-quizzes1.png">
 								Quizzes</li>
 							<li>
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-assessments.png">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-assessments1.png">
+								<img src="images/img-home-assessments.png">
+								<img class="rs-hide" src="images/img-home-assessments1.png">
 								Assessments </li>
 							<li class="recmd">
-								<img src="//dzvexx2x036l1.cloudfront.net/THUMB.png">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/THUMB1.png">
-								Recommendation<br>Engines</br></li>
+								<img src="images/img-home-recom.png">
+								<img class="rs-hide" src="images/img-home-recom1.png">
+								Recommendations</li>
 							<li>
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-polls.png" class="polls">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-polls1.png" class="polls">
+								<img src="images/img-home-polls.png" class="polls">
+								<img class="rs-hide" src="images/img-home-polls1.png" class="polls">
 								Polls</li>
 						</ul>
 					</div>
@@ -69,7 +69,7 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
 							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">							
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">							
 							<span class="lead-form-btn">
 								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA')">
 									Start Free Trial
@@ -120,6 +120,7 @@
 							<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
+							<img class="video-arrow" src="images/video-arrow.png" />
 						</div>
 					</div>
 				</div>
@@ -134,6 +135,7 @@
 							<span class="video-playIcon">
 								<span class="inside-circle" onclick="changeHeightRes()"><i class="material-icons">play_arrow</i></span>
 							</span>
+							<img class="video-arrow" src="images/video-arrow.png" />
 						</div>
 					</div>
 				</div>
@@ -148,6 +150,7 @@
 							<span class="video-playIcon">
 								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
 							</span>
+							<img class="video-arrow" src="images/video-arrow.png" />
 						</div>
 					</div>
 				</div>
@@ -224,6 +227,7 @@
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="images/clients-logos/abl.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
@@ -232,6 +236,7 @@
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
+					<img class="scrollimg1"  src="images/clients-logos/ladder.png" />
 
 				</div>
 			</div>
@@ -476,20 +481,20 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 		<div class="container custom-container  mobile-container">
 			<h1 class="section-2-heading marg fnt-chnge" style="color: rgb(34, 34, 34);">
-				Interactive Content
+				A New Marketing Toolkit
 			</h1>
-			<span class="marketing-tool">A New Marketing Toolset</span>
+			<!-- <span class="marketing-tool">A New Marketing Toolset</span> -->
 			<div class="interactive-outer-section">
 				<div class="each-row">
 						<div class="case-interactive-left-side">
 								<div class="interactive-subinner-left-section">
 									<span class="site-image">
-									  <img src="//dzvexx2x036l1.cloudfront.net/scale.jpg"/> 
+									  <img src="images/img-table1.png"/> 
 									</span>
 								</div>
 								<div class="interactive-subinner-right-section">
 										<div class="interactive-content">
-											<span class="tag1">For Boosting Lead Generation Conversions</span>
+											<span class="tag1">Boost Lead Generation</span>
 											<span class="tag2"></span>
 											<span class="main-content">
 												Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
@@ -500,12 +505,12 @@
 						<div class="case-interactive-right-Side">
 									<div class="interactive-subinner-left-section">
 									 <span class="site-image">
-										<img src="//dzvexx2x036l1.cloudfront.net/scale2.jpg"/> 
+										<img src="images/img-table2.png"/> 
 									 </span>
 								</div>
 								<div class="interactive-subinner-right-section">
 									<div class="interactive-content">
-											<span class="tag1">For Educating Prospects</span>
+											<span class="tag1">Go Viral</span>
 											<span class="main-content">
 												Calculators give personalized answers to your customer’s most pressing questions about your industry.
 											</span>
@@ -517,13 +522,13 @@
 				<div class="each-row">
 						<div class="case-interactive-left-side">
 								<div class="interactive-subinner-left-section">
-									 <span class="site-image sitemg">
-										<img class="img3" src="//dzvexx2x036l1.cloudfront.net/scale3.png"/> 
+									 <span class="site-image">
+										<img src="images/img-table3.png"/> 
 									 </span>
 								</div>
 								<div class="interactive-subinner-right-section">
 										<div class="interactive-content">
-											<span class="tag1">For Enhancing Social Virality</span>
+											<span class="tag1">Add Value</span>
 											<span class="main-content">
 												Quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.
 										</div>
@@ -532,15 +537,15 @@
 						<div class="case-interactive-right-Side">
 									<div class="interactive-subinner-left-section">
                                       <span class="site-image">
-										  <img class="img4" src="//dzvexx2x036l1.cloudfront.net/scale10.jpg"/> 
+										  <img src="images/img-table4.png"/> 
 									  </span>
 								</div>
 								<div class="interactive-subinner-right-section">
 									<div class="interactive-content">
-											<span class="tag1 sit">Extract Audience Analytics</span>
-											<span class="main-content">
-											Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
-											</span>
+										<span class="tag1 sit">Extract Intelligent Analytics</span>
+										<span class="main-content">
+											Which prospect is an Eagles fan? Who have more than 20 employees? Get customer insights without being pushy!
+										</span>
 									</div>
 								</div>
 							
@@ -588,7 +593,7 @@
 			</a>
 		</div>
 	</div> -->
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+	<!-- <div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 		<div class="container custom-container  mobile-container">
 			<div class="site-bottom-section">
                <div class="each-content-section">
@@ -640,7 +645,7 @@
 			   
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
 		<div class="container custom-container  mobile-container">
@@ -665,7 +670,7 @@
 	<section class="section">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading mk-animate-element scale-up uppercase fnt-chnge fnt1">
-				Beautiful calculators and quizzes. <br/> Without developers.
+				Beautiful Engaging Experiences <br/>Without Developers
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
 				 Create beautiful experiences in minutes with our simple, yet powerful development studio.
@@ -826,8 +831,8 @@
 				</h5>
 				<button class="btn-readmore space">Read more<i class="material-icons">arrow_forward</i></button>
 			</div>
-			<div class="left-sec">
-			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png" class="rs-hide">
+			<div class="left-sec rs-hide">
+			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png">
 			</div>
 		</div>
 	</div>
@@ -900,10 +905,10 @@
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
-					Outgrow In Practice
+					Plain Beautiful Outgrow In Practice
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
-					Get inspired by some of our most successful calculators & quizzes!
+					Presenting our highly optimized design layouts
 				</h5>
 			</div>
 		</section>
@@ -1163,7 +1168,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading fnt-chnge" style="color: rgb(34, 34, 34);">
-				Top Notch Reviews!
+				Critically Acclaimed
 			</h1>
 			<div class="social-media-section">
 				<div class="each-arrow-section">
