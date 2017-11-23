@@ -3637,7 +3637,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin: 0px !important;
 			margin-top: 20px !important;
 		}
-		.startTrial-outer {margin-left: 0px; padding: 0px 20px;}
+		.startTrial-outer {margin-left: 0px; padding: 0px 20px;     margin-top: 10px !important;}
 		.sec-grey.section.section-10 p{margin-bottom: 0px;}
 		.sec-grey .container.container-center h1 {
 			text-transform: none !important;
@@ -5478,6 +5478,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			width: 50px;
 			height: 50px;
 			top: 40% !important;
+			left: 45% !important;
 		}
 		.video-img-inner span.inside-circle {
 			width: 40px;
@@ -5526,6 +5527,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 		.video-img-wrapper{margin-top: 0px;}
 		div img.rs-show {margin-top: 0px !important;}
+		.video-img-inner span.video-playIcon {
+			top: 40% !important; 
+			left: 45% !important;
+		}
 
 	/* end: homeapge responsive css by Arti */
 }
@@ -17733,8 +17738,8 @@ span.recom {
 @media(min-width:480px) and (max-width:767px)
 {
 	.custom-container {padding: 0 25px!important;width:100%!important}
-	.case-interactive-left-side{width:100%!important;padding-top:10px;}
-	.case-interactive-right-Side{width:100%!important;padding-top:20px; padding-bottom: 20px;}
+	.case-interactive-left-side{width:100%!important;margin-bottom: 25px;}
+	.case-interactive-right-Side{width:100%!important; margin-bottom: 25px;}
 	.each-content-section {width: 100%;padding-bottom:35px;float: left; text-align: center;}
 	.site-image1{float:none!important;}
 	 span.site-image.sitemg {height: 161px;padding: initial!important;}
@@ -17746,8 +17751,8 @@ span.recom {
 	.product-hunt-left{width:100%!important}
 	.img-wrapper img{width:18%!important;}
 	.interactive-subinner-left-section{width: 100%!important;display: flex;justify-content: center;}
-	.interactive-subinner-right-section{width:100%!important;     margin-left: 0px;}
-	.interactive-content{text-align:center!important; width:100%;}
+	.interactive-subinner-right-section{width:100%!important;     margin-left: 0px; margin-top: 7px;}
+	.interactive-content{text-align:center!important; width:100%; margin-top: 0px;}
 	/* .buzzfeed-left-section{margin-bottom:20px;} */
 	.left-sec{margin-bottom:12px;}
 	img.rs-show {width: 85%;}
@@ -17779,6 +17784,10 @@ span.recom {
 		left: 60% !important;
 		width: 7% !important;
 	}
+	span.main-content {
+		padding: 2px 0!important;
+		width: 100%;
+	}
 
 	
 	
@@ -17792,8 +17801,8 @@ span.recom {
 	.interactive-subinner-right-section{width:100%!important;}
 	.each-content-section{width:100%!important;     padding-bottom: 20px;}
 	span.main-content{font-size:13px!important;}
-	.case-interactive-left-side{width:100%!important; padding-top: 10px;}
-	.case-interactive-right-Side{width:100%!important;padding-top: 10px;}
+	.case-interactive-left-side{width:100%!important;     margin-bottom: 25px;}
+	.case-interactive-right-Side{width:100%!important;margin-bottom: 25px;;}
 	/* .interactive-content{padding:0 0 0 10px;} */
     span.tag1{font-size:14px!important;}
 	span.tag2{font-size:14px!important;}
@@ -17814,7 +17823,7 @@ span.recom {
 	.product-hunt-left{width:100%!important}
 	.img-wrapper img{width:24%!important;}
 	.interactive-subinner-left-section{width: 100%!important;display: flex;justify-content: center;}
-	.interactive-subinner-right-section{width:100%!important; margin-bottom: 15px;     margin-left: 0px;     margin-top: 15px;}
+	.interactive-subinner-right-section{width:100%!important;   margin-left: 0px;     margin-top: 7px;}
 	.interactive-content{text-align:center!important;}
 	.each-content-section {width: 100%;float: left; text-align: center;}
 	.site-image1{float:none!important;}
@@ -18356,7 +18365,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.section-2-subheading{margin-top:8px!important;}
 	.case-breathers-rightSide h1.heading{font-size:30px!important; padding-top: 30px;}
 	.case-breathers-rightSide h5.subheading{font-size:15px!important;}
-	.section-4-left h4, .section-5-left h4, .section-6-left h4 {font-size: 20px !important;}
+	.section-4-left h4, .section-5-left h4, .section-6-left h4 {font-size: 18px !important; line-height: 24px;}
 	section .section-2-heading{font-size:30px!important;}
 	.site-image1{width:154px!important;height:98px!important;}
 	.each-row{padding-bottom:0px!important;}
