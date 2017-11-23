@@ -17267,7 +17267,7 @@ span.live-demo a {
     float: left;
     width: 100%;
 }
-button.btn-readmore {
+.btn-readmore {
 	background: transparent;
     color: #fb5f66;
     font-size: 11px;
@@ -17284,12 +17284,12 @@ button.btn-readmore {
     text-transform: none;
     /* box-shadow: 0px 0px 20px rgba(0,0,0,0.20); */
 }
-button.btn-readmore i.material-icons {
+.btn-readmore i.material-icons {
     font-size: 15px;
     margin-left: 5px;
-    vertical-align: sub;
+    vertical-align: bottom;
 }
-button.btn-readmore:hover {
+.btn-readmore:hover {
     background: #fb757b;
     color: #fff;
     border-color: #f8434b;
