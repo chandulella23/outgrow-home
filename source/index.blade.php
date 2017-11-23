@@ -227,7 +227,7 @@
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
-					<img class="scrollimg1"  src="images/clients-logos/abl.png" />
+					<img class="scrollimg1 abl"  src="images/clients-logos/abl.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
@@ -236,7 +236,7 @@
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
 					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
-					<img class="scrollimg1"  src="images/clients-logos/ladder.png" />
+					<img class="scrollimg1 abl"  src="images/clients-logos/ladder.png" />
 
 				</div>
 			</div>

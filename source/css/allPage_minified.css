@@ -17219,10 +17219,10 @@ span.live-demo a {
     text-align: center;
 }
 .img-wrapper img {
-    margin-right: 0;
-    margin-left: 0;
+	margin-right: 10px;
+    margin-left: 10px;
 	margin-bottom: 12px;
-	width: 10%;
+	width: 9%;
 	filter: grayscale(1);
 	opacity:0.5;
 }
@@ -18019,6 +18019,7 @@ span.recom {
 .free-trail
 {
 	margin:0!important;
+	margin-top: 30px !important;
 }
 .start-trial-cta .btn-buildcal1
 {
@@ -18454,4 +18455,4 @@ img.uni1 {
 
 
 .home-imgs li img.rs-hide {display: none;}
-
+.img-wrapper img.abl { opacity: 1 !important;}
