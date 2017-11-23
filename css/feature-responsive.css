@@ -1290,80 +1290,89 @@
 	}
 
 	#feature .feature-heading-1 h3{font-size: 96px; margin-top: 120px;}
-	#feature .feature-heading-1 h4{font-size: 68px; margin-top: 0px; margin-bottom: 100px !important;}
+	#feature .feature-heading-1 h4{font-size: 58px; margin-top: 30px; margin-bottom: 100px !important;}
 	.qode-expanding-images .qode-expanding-images-inner { width: 100%;}
 	.qode-expanding-images .qode-frame-image {width: 100%;}
 	#feature .feature-heading{
-		font-size: 94px;
+		font-size: 104px;
 		line-height: 114px;
 		margin-bottom: 80px;
 		margin-top: 100px;
 	}
 	.qode-cards-gallery-holder img{width: 100% !important;}
-	#feature .section-f1-left {padding-left: 120px;}
-	#feature .section-f1 {margin-bottom: 200px;}
+	#feature .section-f1-left {padding-left: 215px;}
+	#feature .section-f1 {margin-bottom: 120px;}
 	
 	#feature .section-f1-left h4, #feature .section-f2 .section-f2-left h4
 	#feature .section-f1 .section-f1-left span span, #feature .section-f2 .section-f2-left span span
-	#feature .section-f1-left span i, #feature .section-f2-left .section-f2-new span i	{font-size: 76px;}
-	#feature .section-f1 .section-f1-left span span {font-size: 44px;}
+	#feature .section-f1-left span i, #feature .section-f2-left .section-f2-new span i	{    font-size: 66px;    line-height: 80px;       margin-top: 30px;    margin-bottom: 40px;}
+	#feature .section-f1 .section-f1-left span span {font-size: 44px; width: 90%;}
 	#feature .section-f1-left span i {font-size: 44px; margin-top: 8px;}
 	#feature .span-style {font-size: 44px !important;}
-	#feature .section-f1-left span{margin-bottom: 25px; margin-top: 25px;}
-	#feature .section-f2 .section-f2-left h4 {font-size: 76px;}
-	.section-f2 .left-to-right img {width: 90%;}
-	.section-f2 .left-to-right img.secf2-2 {width: 60%; top: -60px !important; left: 45% !important;}
+	#feature .section-f1-left span{margin-bottom: 35px; margin-top: 25px;}
+	#feature .section-f2 .section-f2-left h4 {font-size: 66px; line-height: 80px; margin-bottom: 40px; margin-top: 0px;}
+	.section-f2 .left-to-right img {width: 100%;}
+	.section-f2 .left-to-right img.secf2-2 {    
+		width: 52%;
+		top: -30px !important;
+		left: 47% !important;
+	}
 	#feature .section-f2 .section-f2-left span span {font-size: 44px;}
-	#feature .section-f2-left .section-f2-new span i {font-size: 44px !important;}
+	#feature .section-f2-left .section-f2-new span i {font-size: 44px !important; margin-bottom: 0px;     line-height: normal;    margin-top: 5px;}
 	#feature .section-15-left span i {font-size: 98px;}
-	#feature .section-15 .section-15-left h4 {font-size: 76px;}
+	#feature .section-15 .section-15-left h4 {    font-size: 66px; line-height: 80px;     margin-bottom: 40px; margin-top: 30px;}
 	feature .section-15 .section-15-left span span {font-size: 44px;}
 	#feature .section-f2 {margin-bottom: 200px;}
 	.section-15-right img.img-left {width: 97%;}
 	#feature .sec15-2 {width: 38%;}
 	#feature .section-15-left {padding-right: 200px;}
-	#feature .section-15 {margin-bottom: 200px;}
-	#feature .section-17 .section-17-left h4 {font-size: 76px;}
+	#feature .section-15 {margin-bottom: 160px;}
+	#feature .section-17 .section-17-left h4 {    font-size: 66px; line-height: 80px;     margin-top: 30px;    margin-bottom: 40px;}
 	#feature .section-17-left span i {font-size: 98px;}
 	#feature .section-17 .section-17-left span span {font-size: 44px; width: 100%;}
 	#feature .sec17-2-1 {left: 0; width: 100%;}
-	#feature .sec17-2 {left: -70px; width: 65%;}
+	#feature .sec17-2 {left: -100px; width: 65%;}
 	#feature .section-17 {margin-bottom: 200px;}
-	#feature .sec-graphsCharts i.material-icons.icon-style {font-size: 98px;}
+	#feature .sec-graphsCharts i.material-icons.icon-style {font-size: 98px;     margin-bottom: 20px;}
 	.sec-graphsCharts img.qode-lazy-image {width: 100%;}
-	#feature .sec-graphsCharts .section-f1-left {padding-left: 0;}
-	#feature .sec-5-text h5 {font-size: 76px;}
+	#feature .sec-graphsCharts .section-f1-left {padding-left: 0;padding-right: 60px;}
+	#feature .sec-5-text h5 {    font-size: 66px; line-height: 80px; margin-bottom: 20px;}
 	#feature .section.section-5 p {font-size: 44px;}
 	#feature section.sec-graphsCharts {margin-bottom: 50px;}
 	#feature .section.section-5 p {margin-bottom: 70px;}
 	.swiper-pagination-bullet {width: 18px; height: 18px;}
 	#feature .sec-graphsCharts .swiper-pagination {margin-top: 30px;}
 	#feature .section.section-5 {margin-bottom: 120px;}
-	#feature .container.container-center h1 {font-size: 76px; margin-bottom: 60px;}
-	#feature .section.section-10 i.material-icons {font-size: 98px; margin-bottom: 15px;}
+	#feature .container.container-center h1 {font-size: 66px; margin-bottom: 80px;}
+	#feature .section.section-10 i.material-icons {font-size: 170px; margin-bottom: 15px;}
 	#feature .section-10 span {font-size: 44px;}
-	#feature .section.section-10 p {font-size: 44px; line-height: 57px;}
+	#feature .section.section-10 p {
+		font-size: 44px;
+		line-height: 60px;
+		margin-bottom: 80px;
+		margin-top: 30px;
+	}
 	#feature .section-10 {padding: 80px 20px 40px;}
-	#feature .section-f3 .section-f3-left h4 {font-size: 76px;}
+	#feature .section-f3 .section-f3-left h4 {font-size: 66px;    line-height: 80px; margin-bottom: 40px;}
 	#feature .section-f3 .section-f3-left span span {font-size: 44px;}
-	#feature .section-f3-left .section-f3-new span i {font-size: 44px;}
-	#feature .section-f4 .section-f4-left h4 {font-size: 76px;}
-	#feature .section.section-f4 div.section-f4-left span span {font-size: 44px !important;}
-	#feature .section-f3 {margin-top: 160px; margin-bottom: 160px;}
+	#feature .section-f3-left .section-f3-new span i {font-size: 44px; line-height: normal;    margin-top: 5px;}
+	#feature .section-f4 .section-f4-left h4 {font-size: 104px;line-height: 114px; margin-bottom: 40px;}
+	#feature .section.section-f4 div.section-f4-left span span {font-size: 54px !important;     line-height: 70px;}
+	#feature .section-f3 {margin-top: 160px; margin-bottom: 120px;}
 	#feature .section-f4 .img-pad-left {padding-right: 55px;}
 	#feature .section-f4 .img-pad-right {padding-left: 55px;}
 	#feature .section-f4-left {margin-bottom: 50px;}
 	#feature .section-f4 {margin-bottom: 160px;}
-	#feature .section-4 .section-4-left h4 {font-size: 76px;}
+	#feature .section-4 .section-4-left h4 {font-size: 66px;  line-height: 80px;     margin-bottom: 40px;}
 	#feature .section-4-left .section-4-new span span {font-size: 44px;}
 	#feature .section-4-left .section-4-new span i {font-size: 44px; margin-top: 8px;}
 	.section-4-img img.right-to-left {width: 100%;}
 	#feature .sec4-2 {width: 53%;}
-	.section-4 {margin-bottom: 160px;}
-	.sec-integrations .section-2-heading {font-size: 76px;}
-	.sec-integrations .section-2-subheading {margin-bottom: 60px; font-size: 44px; margin-top: 25px;}
+	.section-4 {margin-bottom: 200px;}
+	.sec-integrations .section-2-heading {    font-size: 104px;   line-height: 114px;     margin-bottom: 20px;}
+	.sec-integrations .section-2-subheading {margin-bottom: 60px; font-size: 54px;     line-height: 70px;}
 	.img-int-wrapper img {width: 12%;}
-	.sec-integrations {margin-bottom: 140px;}
+	.sec-integrations {margin-bottom: 160px;}
 	#feature .section.section-10.sec-help i.material-icons {font-size: 98px;}
 	#feature .section.section-10.sec-help span {font-size: 44px;}
 	#feature .section.section-10.sec-help p {font-size: 44px; line-height: 57px;}
@@ -1384,10 +1393,35 @@
 		margin: 0 10px 0 0;
 		line-height: normal;
 	}
-	#feature .section-f2 {margin-bottom: 300px;}
-	#feature .section-f2.feature-9-1 {margin-bottom: 180px;}
-	#feature .secf3-2{width: 50%;}
+	#feature .section-f2 {margin-bottom: 160px;}
+	#feature .section-f2.feature-9-1 {margin-bottom: 160px;}
+	#feature .secf3-2{width: 53%;}
 	#feature .section-f4 img.box-shadow {width: 100%;}
+	#feature .section.section-10.sec-help .start-trial-cta { margin-top: 100px !important;}
+	#feature .section-15 .section-15-left span span {font-size: 44px;}
+	#feature .secf1-test, #feature .section-f1-left span {margin-bottom: 35px; margin-top: 35px;}
+	.section-f1-new .section-f1-left {padding-left: 0px !important;}
+	#feature .section-f2-left, #feature .section-f3-left {padding-left: 152px;}
+	#feature .secf2-test {
+    	margin-bottom: 35px;
+		margin-top: 35px;
+	}
+	#feature .section-f2-left .section-f2-new span{margin-top: 35px;  margin-bottom: 35px;} 
+	#feature .section-17-left, #feature .section-4-left {padding-left: 152px;}
+	.sec-graphsCharts .section-f1-left span.right-to-left {margin: 0px !important;}
+	#feature .secf3-test, #feature .section-f3-left .section-f3-new span {margin-bottom: 35px; margin-top: 35px;}
+	.section-f3-right img { width: 100%;}
+	.sec-style-left {padding-left: 0px !important;     padding-right: 200px;}
+	.sec9-test, .sec9-test p { margin-bottom: 35px; margin-top: 35px;}
+	#feature .section-4-left .section-4-new span {margin-bottom: 35px;  margin-top: 35px;}
+	.feature-9-1.section-f2 .left-to-right img.secf2-2 {    
+		width: 66%;
+		top: -70px !important;
+		left: 40% !important;
+	}
+
+
+
 
 
 
