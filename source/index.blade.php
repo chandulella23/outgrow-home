@@ -830,7 +830,7 @@
 					<span class="font-semibold">New York Times,</span> 
 					most successful content is actually a <span class="font-semibold">quiz!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/interactive-content-future" target="_blank" class="btn btn-readmore-link">Read more</a>
+				<a href="http://resources.outgrow.co/top-viral-calculators" target="_blank" class="btn btn-readmore-link">Read more</a>
 			</div>
 			<div class="left-sec rs-hide">
 			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png">
