@@ -242,10 +242,10 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-mob">
+						<div class="video-img-inner video-img-inner-mob" data-toggle="modal" data-target="#video-modal">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
-							<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
+							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
 							<!-- <img class="video-arrow" src="images/video-arrow.png" /> -->
@@ -257,11 +257,11 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-res">
+						<div class="video-img-inner video-img-inner-res" onclick="changeHeightRes()">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle" onclick="changeHeightRes()"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
 							<!-- <img class="video-arrow" src="images/video-arrow.png" /> -->
 						</div>
@@ -272,11 +272,11 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height video-img-shadow" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-web" id="him1">
+						<div class="video-img-inner video-img-inner-web" id="him1" onclick="changeHeightWeb1()">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
 							<!-- <img class="video-arrow" src="images/video-arrow.png" /> -->
 						</div>
@@ -287,11 +287,11 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main-xl">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-web" id="him1-xl">
+						<div class="video-img-inner video-img-inner-web" id="him1-xl" onclick="changeHeightWebXL()">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle" onclick="changeHeightWebXL()"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
 						</div>
 					</div>
@@ -789,7 +789,7 @@
 					most shared articles on <span class="font-semibold"> Buzzfeed</span> are 
 				    <span class="font-semibold">quizzes!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore-link">Read more</a>
+				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 		</div>
 	</div>
@@ -958,7 +958,7 @@
 					<span class="font-semibold">New York Times,</span> 
 					most successful content is actually a <span class="font-semibold">quiz!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/top-viral-calculators" target="_blank" class="btn btn-readmore-link">Read more</a>
+				<a href="http://resources.outgrow.co/top-viral-calculators" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 			<div class="left-sec rs-hide">
 			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png">
@@ -1117,7 +1117,7 @@
 				<h5 class="subheading">
 					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
 				</h5>
-				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore-link">Read more</a>
+				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 		</div>
 	</div>
