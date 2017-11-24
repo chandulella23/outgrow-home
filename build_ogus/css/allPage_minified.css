@@ -2653,7 +2653,7 @@ label.control-label {
 .start-trial-cta label{float:none;width:100%;color:#fff;font-size:13px;font-family:montserratregular;padding:12px 0 0 0;}
 .start-trial-cta .btn-buildcal p{float:left;margin:0 10px 0 0;line-height:30px}
 .start-trial-cta{margin:30px 20px 70px;}
-.bg1-img{background:url(../images/strtFreeTrial.jpg) no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding:70px 0}
+.bg1-img{background:url('//dmv1wz7tu975y.cloudfront.net/strtFreeTrial.jpg') no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding:70px 0}
 .portfolio_main_holder .item_holder .portfolio_title{margin:15px 0;padding:0 20px;box-sizing:border-box}
 .portfolio_main_holder .item_holder.flip_from_left .portfolio_title_custom .portfolio_title a{color:#222;vertical-align:middle}
 .section-12{background:#62696d;min-height:150px;margin-bottom:0;margin-top:0px}
@@ -17203,7 +17203,7 @@ span.live-demo a {
 .startTrial-outer input::-webkit-input-placeholder{color:#b4b4b4;}
 
 .video-img-shadow{
-	background: url(../images/video-img-shadow.png) no-repeat center bottom;
+	background: url('//dmv1wz7tu975y.cloudfront.net/video-img-shadow.png') no-repeat center bottom;
     position: relative;
     top: 0px;
 }
@@ -18462,7 +18462,7 @@ img.uni1 {
 
 .home-imgs li img.rs-hide {display: none;}
 .img-wrapper img.abl { opacity: 1 !important;}
-.video-img-inner:hover {cursor: url(../images/video-arrow.png), auto;}
+.video-img-inner:hover {cursor: url('//dmv1wz7tu975y.cloudfront.net/video-arrow.png'), auto;}
 .btn-readmore-link {
 	color: #fb5f66;
     font-size: 13px;
