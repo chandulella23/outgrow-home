@@ -195,7 +195,7 @@
 					var xDiv = document.getElementById('video-main');
 
 					if (xDiv.style.height == '')
-						xDiv.style.height = '600px';
+						xDiv.style.height = '574px';
 					else
 						xDiv.style.height = '';
 				}
