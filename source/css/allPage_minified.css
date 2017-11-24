@@ -3604,7 +3604,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		img.img-playIcon {width: 13%;}
 		.video-img-wrapper{width: 100% !important;}
 		/* .video-img-wrapper .video-img-inner {min-height: 255px;} */
-		#video-main-rs.hide-height {padding: 0px 40px 0px; /* height:288px;*/ height: auto;}
+		#video-main-rs.hide-height {padding: 0px 40px 0px; /* height:288px;*/ height: auto !important;}
 		.video-img-inner span.video-playIcon {width: 80px; height: 80px; left: 45%; top: 30%;}
 		.video-img-inner span.inside-circle {width: 70px; height: 70px; left: 5px; top: 5px; padding-top: 10px; font-size: 34px;}
 		.sec-craftedTemps {margin-top: 50px;}
@@ -4273,7 +4273,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.swiper-container .swiper-slide.swiper-slide-next{display: none;}
 		.swiper-container .swiper-slide.swiper-slide-prev{display: none;}
 		.video-img-wrapper {width: 100% !important;}
-		#video-main.hide-height {height: 415px !important; display: block !important;padding: 0 40px;}
+		#video-main.hide-height {height: auto !important; display: block !important;padding: 0 40px;}
 		
 		.sec-grey.section.section-10 i.material-icons {font-size: 48px !important;}
 		.sec-grey.section-10 {padding: 30px 0px;}
@@ -5518,7 +5518,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 		div#video-main-rs-mob{ height: 270px !important;display: none !important;}
 		#video-main-rs.hide-height {
-			display: block !important;     height:235px !important;
+			display: block !important;     height:auto !important;
 		}
 		.video-img-wrapper .video-img-inner {
 			min-height: 215px !important;
@@ -5538,7 +5538,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 @media (min-width:481px) and (max-width:540px){
 	#video-main-rs.hide-height {
 		/* height: 300px !important; */
-		height: auto;
+		height: auto !important;
 	}
 }
 @media only screen and (min-width:480px) and (max-width:767px){
@@ -18464,10 +18464,17 @@ img.uni1 {
 .img-wrapper img.abl { opacity: 1 !important;}
 .video-img-inner:hover {cursor: url(../images/video-arrow.png), auto;}
 .btn-readmore-link {
-    color: #888;
-    font-size: 11px;
+	color: #fb5f66;
+    font-size: 13px;
     padding: 0;
+    font-family: montserratlight;
 }
-.btn-readmore-link:hover {
+.btn-readmore-link:hover, .btn-readmore-link:focus{
     color: #fb5f66;
+    text-decoration: underline;
+}
+.btn-readmore-link i.material-icons {
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: 0;
 }
