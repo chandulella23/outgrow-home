@@ -120,7 +120,7 @@
 							<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
-							<img class="video-arrow" src="images/video-arrow.png" />
+							<!-- <img class="video-arrow" src="images/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 							<span class="video-playIcon">
 								<span class="inside-circle" onclick="changeHeightRes()"><i class="material-icons">play_arrow</i></span>
 							</span>
-							<img class="video-arrow" src="images/video-arrow.png" />
+							<!-- <img class="video-arrow" src="images/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
@@ -150,7 +150,7 @@
 							<span class="video-playIcon">
 								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
 							</span>
-							<img class="video-arrow" src="images/video-arrow.png" />
+							<!-- <img class="video-arrow" src="images/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
@@ -510,10 +510,10 @@
 								</div>
 								<div class="interactive-subinner-right-section">
 									<div class="interactive-content">
-											<span class="tag1">Go Viral</span>
-											<span class="main-content">
-												Calculators give personalized answers to your customer’s most pressing questions about your industry.
-											</span>
+										<span class="tag1">Go Viral</span>											
+										<span class="main-content">
+											Quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.
+										</span>
 									</div>
 								</div>
 							
@@ -530,7 +530,8 @@
 										<div class="interactive-content">
 											<span class="tag1">Add Value</span>
 											<span class="main-content">
-												Quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.
+												Calculators give personalized answers to your customer’s most pressing questions about your industry.
+											</span>
 										</div>
 								</div>
 						</div>
@@ -544,7 +545,7 @@
 									<div class="interactive-content">
 										<span class="tag1 sit">Extract Intelligent Analytics</span>
 										<span class="main-content">
-											Which prospect is an Eagles fan? Who have more than 20 employees? Get customer insights without being pushy!
+											Which prospect is an Eagles fan? Who has more than 20 employees? Get customer insights without being pushy!
 										</span>
 									</div>
 								</div>
@@ -660,7 +661,7 @@
 					most shared articles on <span class="font-semibold"> Buzzfeed</span> are 
 				    <span class="font-semibold">quizzes!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore mg">Read more<i class="material-icons">arrow_forward</i></a>
+				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore-link">Read more</a>
 			</div>
 		</div>
 	</div>
@@ -829,7 +830,7 @@
 					<span class="font-semibold">New York Times,</span> 
 					most successful content is actually a <span class="font-semibold">quiz!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/interactive-content-future" target="_blank" class="btn btn-readmore space">Read more<i class="material-icons">arrow_forward</i></a>
+				<a href="http://resources.outgrow.co/interactive-content-future" target="_blank" class="btn btn-readmore-link">Read more</a>
 			</div>
 			<div class="left-sec rs-hide">
 			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png">
@@ -988,7 +989,7 @@
 				<h5 class="subheading">
 					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
 				</h5>
-				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore space">Read more<i class="material-icons">arrow_forward</i></a>
+				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore-link">Read more</a>
 			</div>
 		</div>
 	</div>
