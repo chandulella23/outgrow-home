@@ -27,7 +27,7 @@
     }
     .navbar-brand {
         margin-left: 25px!important;
-        padding-top: 5px;
+        padding-top: 10px;
     }
     .res-nav-show {
         display: block !important;
@@ -765,6 +765,7 @@
         display: inline-block
     }
     .tab-inner-frame{display: none;}
+    .sec-outgrowMagic .section-6-left {margin: 0;}
 
 }
 
@@ -1738,11 +1739,12 @@
     .section-2-heading {
         text-transform: none;
         line-height: normal;
-        font-size: 24px;
+        font-size: 28px !important;
         text-align: center
     }
     .section-2-subheading {
-        display: none
+        display: block;
+        font-size: 16px !important;
     }
     .section-4 {
         margin-top: 40px;
@@ -1888,6 +1890,7 @@
     .start-trial-cta {
         margin-top: 30px;
     }
+    #feature .section-13 {padding-top: 35px !important;}
 
 
 }
