@@ -4,7 +4,12 @@ RewriteRule http://localhost:8000/(.*)\.html$ http://localhost:8000/$1
 
 <FilesMatch ".*">
     <ifModule mod_headers.c>
-        Header unset ETag
         Header set X-UA-Compatible "ie-edge"
+    </ifModule>
+</FilesMatch>
+
+<FilesMatch ".(js|css)$">
+    <ifModule mod_headers.c>
+        Header set Cache-Control "max-age=2628200, public"
     </ifModule>
 </FilesMatch>
