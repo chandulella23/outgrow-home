@@ -28,34 +28,70 @@
 @section('pageId', '')
 
 @section('content')
-	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+	<!-- <script src="{{ $page->baseUrl }}/js/swiper.min.js"></script> -->
 	
 	<section class="section section-1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
 				<div class="section1-left-cell">
-					<h4 class="mk-animate-element fade-in">
+					<!-- <h4 class="mk-animate-element fade-in">
 						eBooks, blogs & whitepapers giving average results?
-					</h4>
-					<h3 class="mk-animate-element fade-in section1-firsthead">
-						Boost your marketing with highly <br/>converting <b>calculators</b> and viral <b>quizzes</b>.
+					</h4> -->
+					<h3 class="section1-firsthead">
+						<span class="font-semibold">Boost</span> Your Marketing with <span class="font-semibold">Highly Interactive Content</span>
 					</h3>
 
+					<div class="col-md-12 col-sm-12 col-xs-12 np home-imgs">
+						<ul>	
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-calc.png"> 
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-calc1.png">
+								Calculators</li>
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes.png">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes1.png">
+								Quizzes</li>
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-assessments.png">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-assessments1.png">
+								Assessments </li>
+							<li class="recmd">
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-recom.png">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-recom1.png">
+								Recommendations</li>
+							<li>
+								<img src="//dzvexx2x036l1.cloudfront.net/img-home-polls.png" class="polls">
+								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-polls1.png" class="polls">
+								Polls</li>
+						</ul>
+					</div>
+
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
-						<div class="col-md-9 col-xs-12 col-sm-12 np text-center startTrial-outer">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
 							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
-							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
-								<span class="btn-buildcal fade-in lead-form-btn">
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">							
+							<span class="lead-form-btn">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA')">
 									Start Free Trial
-								</span>
-								<div class="btn-bottominfo fade-in">
-									<label></label>
-								</div>
-							</a>
+								</a>
+								<span class="live-demo">OR <a href="https://sample.outgrow.co/builder-demo/sample-calculator" class="">TAKE A LIVE DEMO</a></span>
+							</span>
 							<div id="bfrVid"></div>
 						</div>
 					</div>
+
+					<!-- <div class="col-md-12 col-sm-12 col-xs-12 np">
+						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer">
+							<i class="material-icons">email</i>
+							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">
+							<a href="//app.outgrow.co/signup/?email=" class="lead-email" onclick="callGA('CANNOT WAIT CTA')">
+								<span class="btn-buildcal fade-in lead-form-btn btn-claimSubDomain">
+									Claim your Sub Domain
+								</span>
+							</a>
+							<div id="bfrVid"></div>
+					</div> -->
+
 				</div>
 			</div>
 
@@ -75,43 +111,46 @@
 				}
 			</script>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs-mob">
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-mob">
+						<div class="video-img-inner video-img-inner-mob" data-toggle="modal" data-target="#video-modal">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
-							<span class="video-playIcon" data-toggle="modal" data-target="#video-modal">
+							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
+							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height" id="video-main-rs">
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-res">
+						<div class="video-img-inner video-img-inner-res" onclick="changeHeightRes()">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle" onclick="changeHeightRes()"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
+							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
 			</div>
 
-			 <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main">
+			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height video-img-shadow" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-web" id="him1">
+						<div class="video-img-inner video-img-inner-web" id="him1" onclick="changeHeightWeb1()">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle" onclick="changeHeightWeb1()"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
+							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
@@ -120,11 +159,11 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main-xl">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-web" id="him1-xl">
+						<div class="video-img-inner video-img-inner-web" id="him1-xl" onclick="changeHeightWebXL()">
 							<img class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
-								<span class="inside-circle" onclick="changeHeightWebXL()"><i class="material-icons">play_arrow</i></span>
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
 						</div>
 					</div>
@@ -156,7 +195,7 @@
 					var xDiv = document.getElementById('video-main');
 
 					if (xDiv.style.height == '')
-						xDiv.style.height = '600px';
+						xDiv.style.height = '574px';
 					else
 						xDiv.style.height = '';
 				}
@@ -176,237 +215,169 @@
 		</div>
 	</section>
 
+	<section class="section sec-clients-logos">
+		<div class="container mobile-container">
+			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide text-center">
+				<div class="img-wrapper">
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/abl.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
+					<img class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/ladder.png" />
 
-	<!--<section class="section section-3 p20 calc-table">
-		<div class="container">
-			<h1 class="section-2-heading">
-				Calculators & quizzes:<br/> The Next Big Thing in Marketing
-			</h1>
-			<div class="col-xs-12 mobile-sec3 rs-show">
-				<div class="swiper-container-first">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
-								<h3>Add Real Value</h3>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Calculators</h5>
-									<i class="material-icons hide">check_circle</i>
-									<p>Answer your customers most pressing questions.</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Ebooks</h5>
-									<i class="material-icons hide">gesture</i>
-									<p>Sure! But do people really have time to read?</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Marketing Pages</h5>
-									<i class="material-icons hide">clear</i>
-									<p>A marketing rant with click baits adds little value.</p>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
-								<h3>CONVERSION RATES</h3>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Calculators</h5>
-									<h4 class="hide">High</h4>
-									<p>Interactivity enhances conversion to over 40-50%</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Ebooks</h5>
-									<h4 class="hide">Uninspiring</h4>
-									<p>No instant gratification only allows for 10-20%.</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Marketing Pages</h5>
-									<h4 class="hide">eh!</h4>
-									<p>You have to work hard to get 3-8%</p>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
-								<h3>TRAFFIC</h3>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Calculators</h5>
-									<h4 class="hide">INHERENTLY VIRAL</h4>
-									<p>Personalized responses encourage sharing.</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Ebooks</h5>
-									<h4 class="hide">Average </h4>
-									<p>They can get shared. But viral? Hardly!</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Marketing Pages</h5>
-									<h4 class="hide">Dead Cold</h4>
-									<p>When was the last time you shared a landing page?</p>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xs-12 sec3-box2 mk-animate-element scale-up">
-								<h3>DATA</h3>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Calculators</h5>
-									<h4 class="hide">RICH</h4>
-									<p>Rich responses can help make sales more targeted.</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Ebooks</h5>
-									<h4 class="hide">Little</h4>
-									<p>You can't do much with an email and name.</p>
-									<span>V/S</span>
-								</div>
-								<div class="col-xs-12 np sec3-box2inner">
-									<h5>Marketing Pages</h5>
-									<h4 class="hide">Little</h4>
-									<p>When did you last submit a real email? ;)</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-pagination"></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 np rs-hide calc-table-inner">
-				<div class="col-xs-12 col-sm-3 mk-animate-element scale-up">
-					<div class="col-xs-12 np sec3-box1inner">
-						<h4>Add Real Value</h4>
-						<p>&nbsp; <br>&nbsp;</p>
-					</div>
-					<div class="col-xs-12 np sec3-box1inner">
-						<h4>Conversion Rates</h4>
-						<p>&nbsp; <br>&nbsp;</p>
-					</div>
-					<div class="col-xs-12 np sec3-box1inner">
-						<h4>Traffic</h4>
-						<p>&nbsp; <br>&nbsp;</p>
-					</div>
-					<div class="col-xs-12 np sec3-box1inner">
-						<h4>Data</h4>
-						<p>&nbsp; <br>&nbsp;</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-3 sec3-box2 mk-animate-element scale-up">
-					<h3>Calculators</h3>
-					<div class="col-xs-12 np sec3-box2inner">
-						<i class="material-icons">check_circle</i>
-						<p>Answer your customers most pressing questions.</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>High</h4>
-						<p>Interactivity enhances conversion to over 40-50%</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>Inherently Viral</h4>
-						<p>Personalized responses encourage sharing.</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>Rich</h4>
-						<p>Rich responses can help make target sales.</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-3 sec3-box3 mk-animate-element scale-up">
-					<h3>eBooks</h3>
-					<div class="col-xs-12 np sec3-box2inner">
-						<i class="material-icons">gesture</i>
-						<p>Sure! But do people really have time to read.</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>Uninspiring</h4>
-						<p>No instant gratification only allows for 10-20%.</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>Average</h4>
-						<p>They can get shared. But viral? Probably not.</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>Little</h4>
-						<p>You can't do much with an email and name.</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-3 sec3-box4 mk-animate-element scale-up">
-					<h3>Marketing Pages</h3>
-					<div class="col-xs-12 np sec3-box2inner">
-						<i class="material-icons">clear</i>
-						<p>A marketing rant with click baits adds little value.</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>eh!</h4>
-						<p>You have to work hard to get 3-8%</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>Dead Cold</h4>
-						<p>When was the last time you shared a landing page?</p>
-					</div>
-					<div class="col-xs-12 np sec3-box2inner">
-						<h4>Little</h4>
-						<p>When did you last submit a real name, email?</p>
-					</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 np scale-up rs-show text-center rs-hide-int-res">
+				<div class="img-wrapper">
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
+
 				</div>
 			</div>
-			<script>
-				var swiper = new Swiper('.swiper-container-first', {
-					pagination: '.swiper-pagination',
-					paginationClickable: true,
-					nextButton: '.swiper-button-next',
-					prevButton: '.swiper-button-prev',
-					//spaceBetween: 30,
-					//slidesPerView: 3,
-					centeredSlides: true,
-					// autoplay: 2500,
-					speed:500,
-					autoplayDisableOnInteraction: false
-				});
-			</script>
-		</div>
-	</section>-->
+			<div class="col-xs-12 col-sm-12 col-md-12 np rs-show text-center rs-hide-int-mob">
+				<div class="img-wrapper">
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/adobe.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/datavail.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/statefarm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/florida-capital-bank.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/golf-avenue.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/canvas-medical.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
+					<img class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
 
-	<section class="section section-10 sec-grey">
-		<div class="container container-center">
-			<h1 class="section-2-heading">
-				Calculators & quizzes:<br/> The Next Big Thing in Marketing
-			</h1>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="//dzvexx2x036l1.cloudfront.net/img-table1.png">
-					<span>Achieve Conversion Rates of Over 60%</span>
-					<p class="">Calculators and quizzes are interactive experiences that engage the customers at a psychological level. This leads to record, never-seen-before conversion rates!</p>
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="//dzvexx2x036l1.cloudfront.net/img-table2.png">
-					<span>ADD VALUE TO CUSTOMERS, INSTANTLY.</span>
-					<p class="">Calculators and quizzes provide instant gratification and give personalized answers & recommendations to your customer's most pressing questions.</p>
-
-				</div>
-				<div class="col-md-4 col-xs-12 np text-center sec-new-table">
-					<img src="//dzvexx2x036l1.cloudfront.net/img-table3.png">
-					
-					<span>GENERATE VIRAL REFERRAL TRAFFIC</span>
-					<p class="">Given the engagement, quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
-		<div class="start-trial-cta">
-			<a href="/calculators-vs-ebooks">
-				<button class="btn-buildcal">
-					<i class="material-icons">view_compact</i>
-					See why calculators are better than ebooks
-				</button>
-			</a>
+		<div class="container custom-container  mobile-container">
+			<h1 class="section-2-heading marg fnt-chnge" style="color: rgb(34, 34, 34);">
+				A New Marketing Toolkit
+			</h1>
+			<!-- <span class="marketing-tool">A New Marketing Toolset</span> -->
+			<div class="interactive-outer-section">
+				<div class="each-row">
+						<div class="case-interactive-left-side">
+								<div class="interactive-subinner-left-section">
+									<span class="site-image">
+									  <img src="//dzvexx2x036l1.cloudfront.net/img-table1.png"/> 
+									</span>
+								</div>
+								<div class="interactive-subinner-right-section">
+										<div class="interactive-content">
+											<span class="tag1">Boost Lead Generation</span>
+											<span class="tag2"></span>
+											<span class="main-content">
+												Calculators & quizzes engage customers at a psychological level. This leads to record conversion rates of over 60% consistently!
+											</span>
+										</div>
+								</div>
+						</div>
+						<div class="case-interactive-right-Side">
+									<div class="interactive-subinner-left-section">
+									 <span class="site-image">
+										<img src="//dzvexx2x036l1.cloudfront.net/img-table2.png"/> 
+									 </span>
+								</div>
+								<div class="interactive-subinner-right-section">
+									<div class="interactive-content">
+										<span class="tag1">Go Viral</span>											
+										<span class="main-content">
+											Quizzes and calculators tend to go viral. You reach a wider audience, your brand gets noticed, and your referral traffic shoots through the roof.
+										</span>
+									</div>
+								</div>
+							
+						</div>
+				</div>
+				<div class="each-row">
+						<div class="case-interactive-left-side">
+								<div class="interactive-subinner-left-section">
+									 <span class="site-image">
+										<img src="//dzvexx2x036l1.cloudfront.net/img-table3.png"/> 
+									 </span>
+								</div>
+								<div class="interactive-subinner-right-section">
+										<div class="interactive-content">
+											<span class="tag1">Add Value</span>
+											<span class="main-content">
+												Calculators give personalized answers to your customer’s most pressing questions about your industry.
+											</span>
+										</div>
+								</div>
+						</div>
+						<div class="case-interactive-right-Side">
+									<div class="interactive-subinner-left-section">
+                                      <span class="site-image">
+										  <img src="//dzvexx2x036l1.cloudfront.net/img-table4.png"/> 
+									  </span>
+								</div>
+								<div class="interactive-subinner-right-section">
+									<div class="interactive-content">
+										<span class="tag1 sit">Extract Intelligent Analytics</span>
+										<span class="main-content">
+											Which prospect is an Eagles fan? Who has more than 20 employees? Get customer insights without being pushy!
+										</span>
+									</div>
+								</div>
+							
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
+		<div class="container custom-container  mobile-container">
+			<div class="buzzfeed-left-section">
+			  <img src="//dzvexx2x036l1.cloudfront.net/uni6.png" class="uni1">
+			</div>
+			<div class="case-breathers-rightSide">
+				<h1 class="heading fnt-chnge bu">Did you know?</h1>
+				<h5 class="subheading">
+					<span class="font-semibold">7</span>
+					of the <span class="font-semibold"> 20</span>
+					most shared articles on <span class="font-semibold"> Buzzfeed</span> are 
+				    <span class="font-semibold">quizzes!</span>
+				</h5>
+				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+			</div>
 		</div>
 	</div>
 
@@ -414,8 +385,8 @@
 
 	<section class="section">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up ">
-				Beautiful calculators and quizzes. <br/> Without developers.
+			<h1 class="section-2-heading mk-animate-element scale-up uppercase fnt-chnge fnt1">
+				Beautiful Engaging Experiences <br/>Without Developers
 			</h1>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
 				 Create beautiful experiences in minutes with our simple, yet powerful development studio.
@@ -430,14 +401,15 @@
 				<div class="video-frame">
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
-						<video width="1324" height="607" autoplay loop>
-							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.mp4" type="video/mp4">
-						</video>
+						<!-- <video width="1324" height="607" autoplay loop>
+							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.webm" type="video/webm">
+						</video> -->
+						<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
-				<h4 class="mk-animate-element right-to-left">
+				<h4 class="mk-animate-element right-to-left capt">
 					Build Beautiful
 				</h4>
 				<span class="mk-animate-element right-to-left">
@@ -458,9 +430,10 @@
 				<div class="video-frame">
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
-						<video width="1324" height="607" autoplay loop>
-							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.mp4" type="video/mp4">
-						</video>
+						<!-- <video width="1324" height="607" autoplay loop>
+							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.webm" type="video/webm">
+						</video> -->
+						<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 					</div>
 				</div>
 			</div>
@@ -475,7 +448,7 @@
 				<img class="scrollimg1 mk-animate-element scale-up sec5-2-1" src="//dzvexx2x036l1.cloudfront.net/img-publishAnywhere.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
-				<h4 class="mk-animate-element right-to-left">
+				<h4 class="mk-animate-element right-to-left publish">
 					Publish Anywhere
 				</h4>
 				<span class="mk-animate-element right-to-left" >
@@ -507,7 +480,7 @@
 				<img class="scrollimg1 sec6-2-2 mk-animate-element left-to-right" src="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-mobile.png" />
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
-				<h4 class="mk-animate-element left-to-right">
+				<h4 class="mk-animate-element left-to-right ">
 					Boost Growth
 				</h4>
 				<span class="mk-animate-element right-to-left">
@@ -533,7 +506,7 @@
 				<img class="scrollimg1 mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/img-analyze_improve.png" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-sm-push-9 col-md-3 section-5-left">
-				<h4 class="mk-animate-element right-to-left">
+				<h4 class="mk-animate-element right-to-left publish">
 					Analyze & Improve
 				</h4>
 				<span class="mk-animate-element right-to-left" >
@@ -554,14 +527,33 @@
 				<img class="scrollimg1 mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/img-analyze_improve.png" />
 			</div>
 
-			<div class="col-xs-12 col-sm-12 text-center rs-hide">
+			<!-- <div class="col-xs-12 col-sm-12 text-center rs-hide">
 				<a href="{{ $page->baseUrl }}/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<!-- Homepage section 5 end-->
 
-	<section class="section sec-integrations">
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-breathers-imgRight">
+		<div class="container  custom-container mobile-container">
+			
+			   <img src="//dzvexx2x036l1.cloudfront.net/s1.png" class="rs-show uni3">
+			
+			<div class="case-breathers-rightSide new-yk">
+				<h1 class="heading fnt-chnge">Who could have guessed?</h1>
+				<h5 class="subheading">
+					<span class="font-semibold">New York Times,</span> 
+					most successful content is actually a <span class="font-semibold">quiz!</span>
+				</h5>
+				<a href="http://resources.outgrow.co/top-viral-calculators" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+			</div>
+			<div class="left-sec rs-hide">
+			   <img src="//dzvexx2x036l1.cloudfront.net/s2.png">
+			</div>
+		</div>
+	</div>
+
+	<section class="section sec-integrations hide">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading mk-animate-element scale-up ">
 				Over 500 integrations
@@ -628,51 +620,73 @@
 	<div class="section-main">
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
-				<h1 class="section-2-heading mk-animate-element scale-up">
-					Outgrow In Practice
+				<h1 class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
+					Plain Beautiful Outgrow In Practice
 				</h1>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
-					Get inspired by some of our most successful calculators & quizzes!
+					Presenting our highly optimized design layouts
 				</h5>
 			</div>
 		</section>
 
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">
-				<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container rs-hide calc-links">
+				<div class="col-xs-12 col-sm-12 col-md-12 np">
+					<!--<div id="sticky-anchor"></div>-->
+					<div class="tab-outer-frame col-xs-12 col-md-10 col-sm-12 text-center">
+						<!--<span class="icon-webcam"></span>-->
+						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
+							<iframe id="og-iframe" data-calc="//website.outgrow.us/build-a-startup?vHeight=1"></iframe>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-12 col-sm-12 mobile-container rs-hide calc-links text-center">
 					<a href="javascript:void(0);" class="active"
+						onclick="display('//website.outgrow.us/build-a-startup?vHeight=1')">
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
+					</a>
+					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1')">
-						<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1')">
-						<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 					</a>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-9 np">
-					<!--<div id="sticky-anchor"></div>-->
-					<div class="tab-outer-frame col-xs-12 col-md-12 col-sm-12 text-center">
-						<!--<span class="icon-webcam"></span>-->
-						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
-							<iframe id="og-iframe" data-calc="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1"></iframe>
-						</div>
-					</div>
+					<a href="javascript:void(0);" class=""
+						onclick="display('//website.outgrow.us/outgrow-roi?vHeight=1')">
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
+					</a>
+					<a href="javascript:void(0);" class=""
+						onclick="display('//website.outgrow.us/build-an-app?vHeight=1')">
+						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
+					</a>
 				</div>
 
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
-						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
-							<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
+						<a href="//website.outgrow.us/build-a-startup?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
+						</a>
+						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="scrollimg1 mk-animate-element scale-up thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+						</a>
+						<a href="//website.outgrow.us/outgrow-roi?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
+						</a>
+						<a href="//website.outgrow.us/build-an-app" class="col-sm-4 np calcembed" target="_blank">
+							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
 						</a>
 					</div>
 				</div>
@@ -680,133 +694,75 @@
 		</section>
 	</div>
 
-	<!--section testimonial -->
-	<div class="section-main">
-		<section class="section section-7-top">
-			<div class="container mobile-container">
-				<h1 class="section-2-heading mk-animate-element scale-up">
-					Check what our users have to say!
-				</h1>
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-productHunt">
+		<div class="container  custom-container  mobile-container">
+			<div class="product-hunt-left">
+			     <img src="//dzvexx2x036l1.cloudfront.net/uni4.png">
 			</div>
-		</section>
-		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-show-less480 ">
-			<div class="swiper-container mk-animate-element scale-up">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile01.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile03.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile04.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile05.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile06.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile07.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile08.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-				</div>
+			<div class="case-breathers-rightSide product-outer">
+				<h1 class="heading fnt-chnge product-hunt hunt1">It's your turn now!</h1>
+				<h5 class="subheading">
+					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
+				</h5>
+				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
-			<!-- Add Pagination -->
-			<div class="swiper-pagination"></div>
-			<!-- Add Arrows -->
-			<div class="swiper-button-next"></div>
-			<div class="swiper-button-prev"></div>
 		</div>
-		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-show rs-hide-less480">
-			<div class="swiper-container mk-animate-element scale-up">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile01.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile01.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile03.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile03.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile04.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile04.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile05.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile05.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile06.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile06.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile07.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile07.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile08.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonialsMobile08.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-				</div>
-			</div>
-			<!-- Add Pagination -->
-			<div class="swiper-pagination"></div>
-			<!-- Add Arrows -->
-			<div class="swiper-button-next"></div>
-			<div class="swiper-button-prev"></div>
-		</div>
-		<div class="col-xs-12 col-sm-12 np slider-sa text-center sec-testimonials rs-hide">
-			<div class="swiper-container mk-animate-element scale-up">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonials01.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonials01.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonials03.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonials03.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonials04.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonials04.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonials05.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonials05.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonials06.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonials06.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonials07.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonials07.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-					<div class="swiper-slide">
-						<img src="//dzvexx2x036l1.cloudfront.net/testimonials08.jpg" src="//dzvexx2x036l1.cloudfront.net/testimonials08.jpg" alt="" class="scrollimg1 qode-lazy-image" />
-					</div>
-				</div>
-			</div>
-			<!-- Add Pagination -->
-			<div class="swiper-pagination"></div>
-			<!-- Add Arrows -->
-			<div class="swiper-button-next"></div>
-			<div class="swiper-button-prev"></div>
-		</div>
-		<script>
-			var swiper = new Swiper('.swiper-container', {
-				pagination: '.swiper-pagination',
-				paginationClickable: true,
-				nextButton: '.swiper-button-next',
-				prevButton: '.swiper-button-prev',
-				spaceBetween: 30,
-				slidesPerView: 3,
-				centeredSlides: true,
-				autoplayDisableOnInteraction: false
-			});
-		</script>
 	</div>
-	<!--section testimonial -->
+	
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+		<div class="container mobile-container">
+			<h1 class="section-2-heading fnt-chnge" style="color: rgb(34, 34, 34);">
+				Critically Acclaimed
+			</h1>
+			<div class="social-media-section">
+				<div class="each-arrow-section">
+					<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
+						<img src="//dzvexx2x036l1.cloudfront.net/facebookim.png"/> 
+						<img src="//dzvexx2x036l1.cloudfront.net/facebookh.png" class="over over1"/>  
+					</div>
+		
+					<div id="capterra-img" class="arrow_box" onclick="openTestimonial('capterra')">
+						<img src="//dzvexx2x036l1.cloudfront.net/capterraimg.png"/>
+						<img src="//dzvexx2x036l1.cloudfront.net/capterah.png" class="over over2"/>  
+					</div>
+		
+					<div id="g2-img" class="arrow_box" onclick="openTestimonial('g2')">
+						<img src="//dzvexx2x036l1.cloudfront.net/crowd.png"/> 
+						<img src="//dzvexx2x036l1.cloudfront.net/crowdh.png" class="over over3"/> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Protfolio-section  -->
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+			<div class="container mobile-container protfolio-section">
+				
+				<div id="fb" class="protfolio-inner-section" data-repuso-grid="4406" data-website-id="0"></div>
 
-	<section class="section section-startFreeTrial-btn text-center">
-		<a href="//app.outgrow.co" class="params trialLOL">
-			<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal mk-animate-element fade-in">
-			<img src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
-		</a>
-		<div class=""><label>Plans Start at $25/month</label></div>
+				<div id="capterra" class="protfolio-inner-section testhide" data-repuso-grid="4407" data-website-id="0"></div>
+
+				<div id="g2" class="protfolio-inner-section testhide" data-repuso-grid="4320" data-website-id="0"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
+	</div>
+	</div>
+	<section class="section start-trial-cta free-trail mb0">
+		<div class="start-free-trail np">
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="">
+					<div class="bg1-img">
+						<a href="https://app.outgrow.co/" class="params trialLOL">
+								<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal btn-buildcal1 mk-animate-element fade-in">
+								<img src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
+						</a>
+						<div class=""><label>Plans Start at $25/month</label></div>
+						<!-- <label>No Credit Card Required</label> -->
+					</div>
+				</div>
+			</div>
 	</section>
+	
 	
 	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">

@@ -42,7 +42,7 @@
 	<section class="section section-1">
         <div class="container-fluid">
             <div class="col-xs-12 col-sm-12 text-center pricing-headingtop">
-                <h3 class="plans-heading">PLANS AND PRICING</h3>
+                <h3 class="plans-heading">Plans and Pricing</h3>
                 <p class="plans-subheading">Simple pricing, No Hidden costs, No transaction based fees.</p>
                 <section id="plan-cycle">
                     <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list" id="plans">
@@ -844,7 +844,7 @@
 	<section class="section section-faq">
 		<div class="container">
 			<h1 class="section-2-heading mk-animate-element scale-up">
-				FREQUENTLY ASKED QUESTIONS
+				Frequently Asked Questions
 			</h1>
 		</div>
 	</section>

@@ -486,9 +486,9 @@ label {
 	}
 	#pricing .pricing-headingtop .plans-heading {
 		margin-bottom: 5px;
-		margin-top: 35px;
+		margin-top: 50px;
 		font-size: 30px;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 	#pricing .pricing-headingtop .plans-heading, #pricing .pricing-headingtop .plans-subheading {
 		color: #fff;
@@ -699,10 +699,10 @@ label {
 		width: 100%;
 		text-align: center;
 		color: #fb5f66!important;
-		font-size: 32px;
+		font-size: 42px;
 		line-height: 44px;
-		font-family: montserratlight;
-		text-transform: uppercase;
+		font-family: montserratultra_light;
+		text-transform: none;
 		margin: 0px;
 	}
 	#pricing .accordion, .accordion * {
@@ -786,6 +786,7 @@ label {
 	#plan-cycle{
 		z-index: 9;
 		position: relative;
+		margin-bottom: 35px;
 	}
 
 	/* billing plan list css */
@@ -1220,12 +1221,14 @@ label {
 			background: none;
 			cursor: text;
 		}
+		
 		th.active {
 			cursor: text;
 			background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
 			z-index: 3;
 			border-left: 1px solid #bed4df;
 		}
+		
 		thead span a{
 			z-index: 9;
 		}

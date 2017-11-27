@@ -103,13 +103,15 @@ function initIframe(id) {
 }
 
 function ogOnLoadHandler(id) {
-	console.log("popup-iframe-"+id);
-	var screenWidth = screen.width;
-	var screenHeight = screen.height;
-	var aspectRatio = screenWidth/screenHeight;
-	var width = document.getElementById("popup-iframe-"+id).clientWidth;
-	var height = width/aspectRatio;
-	document.getElementById("popup-iframe-"+id).style.height = height+'px';
+	if(id) {
+		console.log("popup-iframe-"+id);
+		var screenWidth = screen.width;
+		var screenHeight = screen.height;
+		var aspectRatio = screenWidth/screenHeight;
+		var width = document.getElementById("popup-iframe-"+id).clientWidth;
+		var height = width/aspectRatio;
+		document.getElementById("popup-iframe-"+id).style.height = height+'px';
+	}
 }
 
 function toggleDrawer(id) {

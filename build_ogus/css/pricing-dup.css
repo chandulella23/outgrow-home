@@ -486,9 +486,9 @@ label {
 	}
 	#pricing .pricing-headingtop .plans-heading {
 		margin-bottom: 5px;
-		margin-top: 35px;
+		margin-top: 50px;
 		font-size: 30px;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 	#pricing .pricing-headingtop .plans-heading, #pricing .pricing-headingtop .plans-subheading {
 		color: #fff;
@@ -699,10 +699,10 @@ label {
 		width: 100%;
 		text-align: center;
 		color: #fb5f66!important;
-		font-size: 32px;
+		font-size: 42px;
 		line-height: 44px;
-		font-family: montserratlight;
-		text-transform: uppercase;
+		font-family: montserratultra_light;
+		text-transform: none;
 		margin: 0px;
 	}
 	#pricing .accordion, .accordion * {
@@ -786,6 +786,7 @@ label {
 	#plan-cycle{
 		z-index: 9;
 		position: relative;
+		margin-bottom: 35px;
 	}
 
 	/* billing plan list css */
@@ -970,6 +971,7 @@ label {
 			color: #2b93be;
 			font-size: 30px;
 			font-family: montserratlight;
+			padding-bottom: 15px;
 		}
 
 		thead th:nth-child(1) {
@@ -985,12 +987,14 @@ label {
 			padding: 0;
 			text-align: left;
 			cursor: pointer;
+			width: auto;
 		}
 
 		thead th:nth-child(1) i.material-icons {
 			vertical-align: middle;
 			position: relative;
 			top: -2px;
+			font-size: 20px;
 		}
 
 		/*thead th:nth-child(3) {
@@ -998,43 +1002,52 @@ label {
 		}*/
 
 		thead th h2 {
-			font-size: 22px;
-			color: #797f83;
+			font-size: 15px;
+			color: #62696d;
 			font-family: montserratlight;
+			text-transform: uppercase;
 			margin-top: 35px;
 		}
 		
 		thead th sub {
 			font-size: 14px;
 			bottom: 0px;
-			font-family: montserratregular;
-			left: 3px;
+			font-family: montserratlight;
+			left: 0px;
 		}
 
 		thead th p.price {
-			color: #2b93be;
-			font-size: 30px;
-			font-family: montserratlight;
+			font-size: 36px !important;
+			color: #009ad8;
+			font-family: montserratsemibold !important;
 			line-height: normal;
+			text-align: center;
+		}
+		thead th p.price sup {
+			font-size: 20px;
+			font-family: montserratlight;
 		}
 
 		thead th p.strike-price {
 			color: #abb7bc;
-			font-size: 14px;
+			font-size: 12px;
 			font-family: montserratlight;
 			text-decoration: line-through;
 			margin: 0px;
 			line-height: normal;
+			margin-bottom: 5px;
 		}
 
 		thead th p.strike-price sub {
 			font-family: montserratlight;
+			font-size: 75%;
 		}
 
 		thead span {
 			text-align: center;
-			padding: 0px 30px;
 			display: block;
+			width: 50%;
+			margin:0 auto;
 		}
 
 		thead span a {
@@ -1044,7 +1057,7 @@ label {
 			display: block;
 			background: #fb6c73;
 			border-radius: 4px;
-			padding: 9px 20px;
+			padding: 9px 10px;
 			font-size: 13px;
 			-webkit-transition: .3s ease-in-out;
     		transition: .3s ease-in-out;
@@ -1069,7 +1082,7 @@ label {
 
 		tbody td {
 			/*background: #fff;*/
-			text-align: center;
+			text-align: left;
 			font-family: montserratlight;
 			padding: 15px;			
     		line-height: 1;
@@ -1108,6 +1121,7 @@ label {
 			top: -2px;
 			visibility: visible;
 			padding-right: 5px;
+			font-size: 20px;
 		}
 
 		/*tbody th i.material-icons:after {
@@ -1207,10 +1221,14 @@ label {
 			background: none;
 			cursor: text;
 		}
+		
 		th.active {
 			cursor: text;
-			z-index: 9;
+			background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
+			z-index: 3;
+			border-left: 1px solid #bed4df;
 		}
+		
 		thead span a{
 			z-index: 9;
 		}
@@ -1258,4 +1276,67 @@ span.label-popularPlan {
     top: -7px;
 	left: 0px;
 	z-index: 1;
+}
+.quater{
+    background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
+    width: 13px;
+    height: 13px;
+    background-position: center;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.half{
+    background: url(https://cdn.filestackcontent.com/WIbfARSQyq4KqKfJGLx4) no-repeat;
+    width: 13px;
+    height: 13px;
+    background-position: center;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.full{
+    background: url(https://cdn.filestackcontent.com/Mcu6lZxSdC4be8yWuAm5) no-repeat;
+    width: 13px;
+    height: 13px;
+    background-position: center;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.none{
+    background: url(https://cdn.filestackcontent.com/xyAejZc9RR2cLQNSTqnP) no-repeat;
+    width: 13px;
+    height: 13px;
+    background-position: center;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+td.active-bg {
+    background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
+	border-left: 1px solid #bed4df;
+}
+tbody tr:hover td.active-bg {
+    background: #fdffcc;
+    cursor: pointer;
+}
+.not-info td.active-bg:hover {
+    background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
+}
+tr.expand.open td.expand-child.active-bg {
+    background: #fdffcc;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
+    border-bottom: 1px solid #f1f3c4;
+}
+tr.expand.open td.active-bg {
+    background: #fdffcc;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
+    border-bottom: 1px solid #f1f3c4;
+}
+tr.not-info:hover td.active-bg {
+    background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
+}
+tbody tr:last-child td.active-bg {
+    border-bottom: 1px solid #bed4df;
 }

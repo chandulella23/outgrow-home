@@ -3085,7 +3085,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f1-left h4 {
 	color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -3151,7 +3151,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f2 .section-f2-left h4 {
 	color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -3240,7 +3240,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f3 .section-f3-left h4 {
 	color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -3303,14 +3303,15 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f4 .section-f4-left h4 {
     color: #fb6c73;
-    font-size: 32px;
-    font-family: montserratlight;
+    font-size: 42px;
+    font-family: montserratultra_light;
     text-align: center;
     width: 100%;
     float: left;
     display: block;
-    text-transform: uppercase;
-    margin: 0;
+    text-transform: none;
+	margin: 0;
+	/* line-height: 52px; */
 }
 #feature .section-f4-left .section-f4-new span {
 	text-align: left;
@@ -3388,7 +3389,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-4 .section-4-left h4 {
 	color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -3485,7 +3486,7 @@ button.swiper-pagination-bullet {
 }
 #feature .container.container-center h1 {
 	color: #fff !important;
-	font-size: 30px;
+	font-size: 24px;
 	font-family: montserratlight;
 	text-align: center;
 	width: 100%;
@@ -3698,10 +3699,10 @@ button.swiper-pagination-bullet {
     width: 100%;
     text-align: center;
     color: #fb5f66!important;
-    font-size: 32px;
-    line-height: 44px;
-    font-family: montserratlight;
-    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 52px;
+    font-family: montserratultra_light;
+    text-transform: none;
 	margin-bottom: 40px;
 	margin-top: 50px
 }
@@ -3709,7 +3710,7 @@ button.swiper-pagination-bullet {
 	font-size: 30px;
 	color: #fff;
 	width: 100%;
-	text-transform: uppercase;
+	text-transform: none;
 	font-family: montserratlight;
 	margin-top: 0px
 }
@@ -3741,7 +3742,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-15 .section-15-left h4 {
 	color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -3802,7 +3803,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-17 .section-17-left h4 {
     color: #fb6c73;
-    font-size: 30px;
+    font-size: 24px;
     font-family: montserratlight;
     text-align: left;
     width: 100%;
@@ -4177,16 +4178,15 @@ button.swiper-pagination-bullet {
 	width: 100%
 }
 #why .section-2-heading {
-	font-family: montserratlight;
+	font-family: montserratultra_light;
     color: #fb6c73 !important;
     margin: 0px;
-    font-size: 32px;
+    font-size: 42px;
     float: left;
     width: 100%;
     text-align: center;
-    line-height: 44px;
-    font-family: montserratlight;
-    text-transform: uppercase;
+    line-height: 52px;
+    text-transform: none;
     /*margin-bottom: 40px;
 	padding-bottom: 40px;*/
 }
@@ -4476,7 +4476,7 @@ button.swiper-pagination-bullet {
 	font-size: 30px;
 	color: #fff;
 	width: 100%;
-	text-transform: uppercase;
+	text-transform: none;
 	font-family: montserratlight;
 	margin-top: 20px;
 	text-align: center
@@ -5132,13 +5132,13 @@ button.swiper-pagination-bullet {
 }
 .Privacy .Privacy-subheading {
 	color: #fb6c73;
-    font-size: 30px;
-    font-family: montserratlight;
+    font-size: 42px;
+    font-family: montserratultra_light;
     text-align: left;
     width: 100%;
     float: left;
     display: block;
-    text-transform: uppercase;
+    text-transform: none;
     margin-top: 30px;
 }
 #Testimonial .testimonial-headingtop p, .Privacy .li-style, .Privacy h5, .Privacy p {
@@ -5515,7 +5515,9 @@ iframe[name=google_conversion_frame] {
 		padding: 20px;*/
 		/*right: -9px;*/
 		/*right: 5px;*/
-		padding: 0px 50px 0px 20px;
+		padding: 0px 90px;
+		margin: 0 auto;
+		float: none;
 	}
 	.tab-inner-frame {
 		background: #fff;
@@ -5538,18 +5540,19 @@ iframe[name=google_conversion_frame] {
 	}
 	.sec-outgrowMagic img.thumb-calc{
 		box-shadow: 0px 11px 24px rgba(0,0,0,.28);
+		width: 10%;
 	
 	}
-	.tab-inner-frame {
+	/* .tab-inner-frame {
 		min-height: 400px;
-	}
+	} */
 	.tab-inner-frame iframe {
 		width: 100%;
 		height: 100%;
 		border: 2px solid #e1e1e1 !important; 
 		box-shadow: 0px 11px 24px rgba(0,0,0,.28);
 		border: none;
-		min-height: 400px !important;
+		/* min-height: 400px !important; */
 	}
 	.sec-outgrowMagic {
 		/*height: 90vh;*/
@@ -5584,7 +5587,7 @@ iframe[name=google_conversion_frame] {
 		color: #fff !important;
 		font-size: 30px;
 		font-family: montserratlight;
-		text-transform: uppercase;
+		text-transform: none;
 		margin: 0px;
 	}
 	.sec-example .section-2-subheading {
@@ -5674,13 +5677,18 @@ iframe[name=google_conversion_frame] {
 			opacity: 1;
 		}
 	/* End: Modal embed */
-
+	.calc-links {
+		margin-top: 45px;
+		margin-bottom: 45px;
+	}
 	.calc-links a {
-		float: left;
+		float: none;
 		width: 100%;
 		margin-bottom: 30px;
+		margin-right: 25px;
 	}
 	.calc-links a{border: 2px solid transparent;}
+	.calc-links a:last-child {margin-right: 0px;}
 	.calc-links a.active img {border: 2px solid #fb5f66;}
 	.section-main.sec-example {
 		float: left;
@@ -5699,7 +5707,7 @@ iframe[name=google_conversion_frame] {
 /* feature page css */
 	#feature .sec-5-text h5 {
 		color: #fb6c73;
-		font-size: 30px;
+		font-size: 24px;
 		font-family: montserratlight;
 		text-align: center;
 		width: 100%;
@@ -5717,10 +5725,10 @@ iframe[name=google_conversion_frame] {
 		width: 100%;
 		text-align: center;
 		color: #fb5f66!important;
-		font-size: 32px;
-		line-height: 44px;
-		font-family: montserratlight;
-		text-transform: uppercase;
+		font-size: 42px;
+		line-height: 52px;
+		font-family: montserratultra_light;
+		text-transform: none;
 		margin: 0px;
 	}
 	.sec-integrations .section-2-subheading {
@@ -6278,5 +6286,38 @@ iframe[name=google_conversion_frame] {
 	.line-3{
 		width: 130px;
 	}
+}
+
+
+@media (min-width:1921px) and (max-width:6500px){
+	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
+	.navbar-brand {padding-top: 12px;}
+	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
+	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
+	.custom-navbar .signUp-style a{
+	    padding: 10px 14px;
+		top: -5px;
+		font-size: 20px !important;
+		border-radius: 25px;
+	}
+	#footer{padding-top: 80px; padding-bottom: 30px;}
+	.footer-link h4 {font-size: 36px; margin-bottom: 40px;}
+	.footer-copyright p, .footer-link ul li a {font-size: 23px;}
+	.footer-img-text {font-size: 22px;}
+	.footer-social ul li a {font-size: 23px;}
+	.footer-copyright {margin-bottom: 30px;}
+	.footer-copyright i {font-size: 24px;}
+	.footer-copyright span {font-size: 24px;}
+	.footer-copyright img {width: 5%;}
+	.container {width: 60%;}
+	.Privacy .Privacy-subheading {font-size: 104px; margin-top: 100px; margin-bottom: 50px; }
+	.Privacy p {font-size: 44px; line-height: 64px;}
+	.Privacy h5 {font-size: 44px; margin-bottom: 40px; margin-top: 40px;}
+	.Privacy .li-style {font-size: 44px;}
+	.Privacy .section-services {margin-top: 100px; margin-bottom: 120px;}
+	.Privacy ul {margin-left: 80px;}
+
+
+
 }
 
