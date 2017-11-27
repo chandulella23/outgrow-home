@@ -24,7 +24,7 @@
 		text-align: center;
 		padding-bottom: 0px;
 		text-transform:none;
-		font-family:montserratlight;
+		font-family:montserratultra_light;
 		font-size: 22px;
 		line-height: normal;
 	}
@@ -37,6 +37,7 @@
 		color: rgba(98,105,109,.8);
 		font-size: 12px;
 		font-family: montserratultra_light;
+		margin-top: 15px;
 	}
 	#why .section-4-left span i{
 		margin-top:40px; 
@@ -137,7 +138,8 @@
 	}
 	#why .section-top-why{
 		margin-bottom:0px;
-	    margin-top: 0;
+		margin-top: 0;
+		padding: 0px 0px 10px;
 	}
 	#why .section-16-left span i{
 		margin-bottom:0px;
@@ -582,12 +584,13 @@
 }
 
 @media (min-width:1921px) and (max-width:6500px){
+	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
 	    padding: 10px 14px;
-		top: -8px;
+		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
 	}
@@ -603,7 +606,7 @@
 	.calc-table .container {width: 60%;}
 	.container {width: 50%;}
 	#why .section-2-heading {
-		font-size: 94px;
+		font-size: 108px;
 		line-height: 114px;
 		margin-bottom: 40px;
 	}
@@ -627,16 +630,16 @@
 	.sec3-box2inner h4 {font-size: 48px;}
 	#why .section-4 img{width: 100%;}
 	#why .section-4-left span i {font-size: 98px;}
-	.section-4-left h4 {font-size: 76px;}
+	.section-4-left h4 {font-size: 66px; line-height: 80px;}
 	#why .section-4-left span {width: 100%; font-size: 44px;}
 	#why .section-w1-left span i, #why .section-w2-left span i {font-size: 98px;}
-	#why .section-w1-left h4 {font-size: 76px;}
+	#why .section-w1-left h4 {    font-size: 66px;    line-height: 80px;}
 	#why .section-w1-left span, #why .section-w2-subheading {font-size: 44px;}
 	#why .section-4 {margin-bottom: 100px;}
 	.section-7 img.left-to-right{width: 40%;}
 	#why .section-4-left {margin-top: 100px;}
 	#why .secw2-2-new {border-radius: 35px; width: 100%;}
-	#why .section-w2-left h4 {font-size: 76px;}
+	#why .section-w2-left h4 {font-size: 66px;    line-height: 80px;}
 	.section-10 {margin-bottom: 130px; margin-top: 90px;}
 	.sec10-testimonial {margin: 60px auto 60px;}
 	.sec10-testimonial div.sec10-tes-inner {width: 100%; margin-left: 15%;}
@@ -652,9 +655,9 @@
 	.sec10-testimonial-link {margin-left: 17%; font-size: 44px;}
 	.sec3-box2inner {padding-top: 40px;}
 	#why .section-16-left span i, #why .section-w3-text span i {font-size: 98px;}
-	#why .section-16-left h4, #why .section-w3-text h4 {font-size: 76px;}
+	#why .section-16-left h4, #why .section-w3-text h4 {font-size: 66px;  line-height: 80px;}
 	#why .section-16-left span span {font-size: 44px;}
-	#why .section-2-subheading {font-size: 68px; margin-bottom: 60px;}
+	#why .section-2-subheading {font-size: 58px; margin-bottom: 60px;    line-height: 70px;}
 	.last-sec {margin-top: 100px;}
 	#why .container-video {width: 50%;}
 	.start-trial-cta {margin: 100px 0px 0px;}
@@ -676,7 +679,8 @@
 		line-height: normal;
 	}
 	#why .section-16-left, #why .section-4-left {padding-left: 80px;}
-
+	#why .section-w3-text span span {font-size: 44px;}
+	#why .section-16 {margin-bottom: 100px;}
 
 
 
