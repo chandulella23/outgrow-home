@@ -28,7 +28,7 @@
 @section('pageId', '')
 
 @section('content')
-	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+	<!-- <script src="{{ $page->baseUrl }}/js/swiper.min.js"></script> -->
 	
 	<section class="section section-1">
 		<div class="container-fluid">
