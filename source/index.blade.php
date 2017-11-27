@@ -33,11 +33,11 @@
 	<section class="section section-1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12 col-sm-12 section-1-left text-center">
-				<div class="section1-left-cell">
+				<div class="section1-left-cellnoab">
 					<!-- <h4 class="mk-animate-element fade-in">
 						eBooks, blogs & whitepapers giving average results?
 					</h4> -->
-					<h3 class="section1-firsthead">
+					<h3 class="section1-firstheadnoab">
 						<span class="font-semibold">Boost</span> Your Marketing with <span class="font-semibold">Highly Interactive Content</span>
 					</h3>
 
