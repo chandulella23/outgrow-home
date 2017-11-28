@@ -3363,8 +3363,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	    font-size: 18px !important;
 	}
 	#video-modal button.close.btn-close{
-	    height: 25px !important;
-    	width: 25px !important;
+	    /* height: 25px !important;
+    	width: 25px !important; */
 	}
 	.get-it-btn{display: block;width: 100%;text-align: center;}
 	.section-5-right{padding-right: 0px;}
@@ -15888,7 +15888,7 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{dis
     top: -15%;
     right: -35%;
     opacity: 0.9;
-    z-index: 999;
+    z-index: 99999;
     height: 35px;
     width: 35px;
     background: rgba(0,0,0,0.4);
