@@ -752,7 +752,7 @@
 		<section class="section section-7-top">
 			<div class="container mobile-container">
 				<h1 class="section-2-heading mk-animate-element scale-up">
-					Check what our users have to say!
+					Check What Our Users Have To Say!
 				</h1>
 			</div>
 		</section>
