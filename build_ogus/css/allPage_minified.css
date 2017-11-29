@@ -16163,7 +16163,7 @@ span.colon {
 	margin-bottom: 50px;
 }
 .sec-testimonials .swiper-container {
-    background: #fafafa;
+    background: #fff;
     min-height: auto;
 }
 .sec-testimonials .swiper-pagination {
@@ -16767,21 +16767,21 @@ iframe.outgrow-video {
 	.swiper-container .swiper-slide:first-child {
 		/*margin-left: -170px !important;*/
 	}
-	/* .swiper-container .swiper-slide.swiper-slide-active {
+	.swiper-container .swiper-slide.swiper-slide-active {
 		width: 60% !important;
-	} */
-	/* .swiper-container .swiper-slide.swiper-slide-prev {
+	}
+	.swiper-container .swiper-slide.swiper-slide-prev {
 		width: 20% !important;
 		height: 100%;
 		padding: 140px 0px;
 		opacity: 0.5;
-	} */
-	/* .swiper-container .swiper-slide.swiper-slide-next {
+	}
+	.swiper-container .swiper-slide.swiper-slide-next {
 		width: 20% !important;
 		height: 100%;
 		padding: 140px 0px;
 		opacity: 0.5;
-	} */
+	}
 	.img-int-wrapper {
 		box-shadow: 0px 11px 40px rgba(0,0,0,.37);
 		padding: 70px 50px;
@@ -17417,22 +17417,12 @@ span.live-demo a {
 	height: 100%;
 }
 .swiper-slide {
-	text-align: center;
-	font-size: 18px;
-	background: #fff;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	/* -webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center; */
+	-webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 .case-interactive-left-side
 {
