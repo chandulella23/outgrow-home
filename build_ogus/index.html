@@ -826,7 +826,7 @@
 		</div>
 	</div>
 	
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading fnt-chnge" style="color: rgb(34, 34, 34);">
 				Critically Acclaimed
@@ -861,11 +861,10 @@
 				<div id="g2" class="protfolio-inner-section testhide" data-repuso-grid="4320" data-website-id="0"></div>
 			</div>
 		</div>
-		<script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
 	</div>
 
 	<!-- start static HTML of fb, capterra and g2 crowd -->
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds hide">
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds" id="staticReviews">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading fnt-chnge" style="color: rgb(34, 34, 34);">
 				Critically Acclaimed
@@ -1322,6 +1321,38 @@
 		</div>		
 	</div>
 	<!-- end static HTML of fb, capterra and g2 crowd -->
+
+	<script>
+		function triggerLiveStaticReviews () {
+			var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
+			var live = document.querySelector('#liveReviews');
+			var static = document.querySelector('#staticReviews');
+
+			var xhr = new XMLHttpRequest;
+			xhr.onreadystatechange = function () {
+				console.log('Ready state changed');
+				if (this.status == 200) {
+					live.classList.remove('hide');
+					static.classList.add('hide');
+				}
+				else {
+					static.classList.remove('hide');
+					live.classList.add('hide');
+				}
+			}
+			xhr.open("GET", url, true);
+			xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+			xhr.send();
+		}
+
+		var gridJS = document.createElement('script');
+		gridJS.src = 'https://repuso.com/widgets/grid.js';
+
+		gridJS.onload = triggerLiveStaticReviews;
+
+		var head = document.querySelector('head');
+		head.appendChild(gridJS);
+	</script>
 
 	<!--section testimonial -->
 	<!-- <div class="section-main">
