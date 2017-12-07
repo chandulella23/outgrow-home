@@ -280,8 +280,14 @@
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i>Templates</th>
                             <td><span class="half"></span>Basic Template</td>
-                            <td class="active-bg"><span class="full"></span>All templates </td>
-                            <td><span class="full"></span>All templates</td>
+                            <td class="active-bg"><span class="full"></span>All Templates </td>
+                            <td><span class="full"></span>All Templates</td>
+                        </tr>
+                        <tr class="not-info">
+                            <th><i class="material-icons vis-hide">add</i>Layouts</th>
+                            <td><span class="half"></span>Basic Layout</td>
+                            <td class="active-bg"><span class="full"></span>All Layouts </td>
+                            <td><span class="full"></span>All Layouts</td>
                         </tr>
                         <!-- <tr class="expand">
                             <th>
@@ -472,6 +478,10 @@
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Template</span>
                                 </li>
+                                <li>
+                                    <span class="feature-title">Layouts</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic Layout</span>
+                                </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -616,6 +626,10 @@
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates</span>
                                 </li>
+                                <li>
+                                    <span class="feature-title">Layouts</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Layouts</span>
+                                </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -759,6 +773,11 @@
                                 <li>
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates</span>
+                                    <!--<span class="detail"></span>-->
+                                </li>
+                                <li>
+                                    <span class="feature-title">Layouts</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Layouts</span>
                                     <!--<span class="detail"></span>-->
                                 </li>
                                 <!-- <li class="expand-rs">
