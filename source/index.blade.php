@@ -414,7 +414,7 @@
 				</h4>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">format_paint</i>
-					<span><b>Appealing templates</b> that set your UX apart</span>
+					<span><b>Appealing layouts</b> that set your UX apart</span>
 				</span>
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons">view_compact</i>
@@ -812,7 +812,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
 							<div class="testimonial-quote"></div>
 							<!-- <div class="testimonial-question">What do you like best?</div> -->
-							<div class="testimonial-answer">Great calculator quiz building tool with various field types and well-designed modern templates. The resources section and support is great too. Very happy with the software.</div>
+							<div class="testimonial-answer">Great calculator quiz building tool with various field types and well-designed modern layouts. The resources section and support is great too. Very happy with the software.</div>
 							<div class="testimonial-bottom">
 								<div class="testimonial-bottom-left">								
 									<i class="material-icons">star_rate</i>
@@ -960,7 +960,7 @@
 							<!-- <div class="testimonial-question">What do you like best?</div> -->
 							<div class="testimonial-answer">Easy to Set-up, Great Converter
 							Pros: Converting visitors to leads at a rate of 10x vs. not using Outgrow. Further, we're dropping these leads into a drip campaign specific to the results of their quiz.
-							Cons: Cosmetically the template we are using has shadows. Outgrow was quick to suggest an alternative template.</div>
+							Cons: Cosmetically the layout we are using has shadows. Outgrow was quick to suggest an alternative layout.</div>
 							<div class="testimonial-bottom">
 								<div class="testimonial-bottom-left">								
 									<i class="material-icons">star_rate</i>
@@ -985,7 +985,7 @@
 							<!-- <div class="testimonial-question">What do you like best?</div> -->
 							<div class="testimonial-answer">Outgrow is on to having a great product!
 							Pros: I love that I can build a quiz in minutes. I love that I can mix different types of questions: Multiple choice, open ended, or select all that apply.
-							Cons: I would like more page editing features rather than to depend on templates. Also, when I want to embed the Quiz on one of my pages I cannot (I don't know CSS or am a programmer) change the background color of the Quiz to reflect my site colors. This would be nice to do. I hear the new version coming out may solve this...
+							Cons: I would like more page editing features rather than to depend on layouts. Also, when I want to embed the Quiz on one of my pages I cannot (I don't know CSS or am a programmer) change the background color of the Quiz to reflect my site colors. This would be nice to do. I hear the new version coming out may solve this...
 							Overall: Quizzes are the future of internet marketing. People love quizzes and they help you build a relationship with someone easier. If you don't use quizzes you are missing a great tool to market your products.</div>
 							<div class="testimonial-bottom">
 								<div class="testimonial-bottom-left">								
@@ -1156,7 +1156,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
 							<div class="testimonial-quote"></div>
 							<div class="testimonial-question">What do you like best?</div> 
-							<div class="testimonial-answer">This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results. Plus the customer support team was extremely helpful in getting our calculator perfected before launch. </div>
+							<div class="testimonial-answer">This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of layouts and designs as well as the flexibility of making our own formulated results. Plus the customer support team was extremely helpful in getting our calculator perfected before launch. </div>
 							<div class="testimonial-bottom">
 								<div class="testimonial-bottom-left">								
 									<i class="material-icons">star_rate</i>
@@ -1179,7 +1179,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
 							<div class="testimonial-quote"></div>
 							<div class="testimonial-question">What do you like best?</div> 
-							<div class="testimonial-answer">Their customization was really great, their template selection was excellent as it let me customize my quiz exactly the way I wanted. Their drag and drip feature made it really easy for anyone in my team to be able to modify the quiz and customize it to our needs. At one point I had some questions about the platform and needed technical support, they were very helpful through the phone and were willing to work with me. The fact that the sales rep had researched my company prior to our call and gave us suggestions as to how to better implement Outgrow into our website to increase our leads was impressive. I don't think I've had a company do its research on a customer before jumping on a call. It also really helped in terms of context, since I avoided having to explain who we are and what we do. </div>
+							<div class="testimonial-answer">Their customization was really great, their layout selection was excellent as it let me customize my quiz exactly the way I wanted. Their drag and drip feature made it really easy for anyone in my team to be able to modify the quiz and customize it to our needs. At one point I had some questions about the platform and needed technical support, they were very helpful through the phone and were willing to work with me. The fact that the sales rep had researched my company prior to our call and gave us suggestions as to how to better implement Outgrow into our website to increase our leads was impressive. I don't think I've had a company do its research on a customer before jumping on a call. It also really helped in terms of context, since I avoided having to explain who we are and what we do. </div>
 							<div class="testimonial-bottom">
 								<div class="testimonial-bottom-left">								
 									<i class="material-icons">star_rate</i>
