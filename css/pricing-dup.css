@@ -821,7 +821,8 @@ label {
 			padding: 8px;
 			line-height: 17px;
 			text-align: center;
-			display: block
+			display: block;
+			overflow: hidden;
 		}
 		.billing-plan-list ul>li>a.hvr-sweep-to-right::before {
 			background: #f6f8f9
