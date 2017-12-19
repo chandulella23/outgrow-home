@@ -277,17 +277,55 @@
                                 <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
                             </td>
                         </tr>
-                        <tr class="not-info">
+                        <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i>Templates</th>
-                            <td><span class="half"></span>Basic Template</td>
+                            <td><span class="half"></span>Basic Templates</td>
                             <td class="active-bg"><span class="full"></span>All Templates </td>
                             <td><span class="full"></span>All Templates</td>
+                        </tr> -->
+                        <tr class="expand">
+                            <th>
+                                <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i> 
+                                Templates
+                            </th>
+                            <td class="expand-child">                                
+                                <span class="quater"></span>Basic Templates
+                                <span class="detail">You get access to all pre-made calculators and quizzes built using our basic design layout (The Chicago).</span>                             
+                            </td>
+                            <td class="expand-child active-bg">                                
+                                <span class="half"></span>All Templates
+                                <span class="detail">You get access to all pre-made calculators and quizzes built using any of our design layouts.</span>                             
+                            </td>
+                            <td class="expand-child">                                
+                                <span class="full"></span>All Templates
+                                <span class="detail">You get access to all pre-made calculators and quizzes built using any of our design layouts.</span>                             
+                            </td>
                         </tr>
-                        <tr class="not-info">
+                        <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i>Layouts</th>
                             <td><span class="half"></span>Basic Layout</td>
                             <td class="active-bg"><span class="full"></span>All Layouts </td>
                             <td><span class="full"></span>All Layouts</td>
+                        </tr> -->
+                        <tr class="expand">
+                            <th>
+                                <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i> 
+                                Layouts
+                            </th>
+                            <td class="expand-child">                                
+                                <span class="quater"></span>Basic Layouts
+                                <span class="detail">You get access to our basic, yet the most versatile layout: The Chicago.</span>                             
+                            </td>
+                            <td class="expand-child active-bg">                                
+                                <span class="half"></span>All Layouts
+                                <span class="detail">You get access to all of design layouts.</span>                             
+                            </td>
+                            <td class="expand-child">                                
+                                <span class="full"></span>All Layouts
+                                <span class="detail">You get access to all of design layouts.</span>                             
+                            </td>
                         </tr>
                         <!-- <tr class="expand">
                             <th>
@@ -474,13 +512,31 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Excel Export</span>
                                     <span class="detail">View (or download) lead contact information in a Google spreadsheet.</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Template</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Templates
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Templates</span>
+                                    <span class="detail">You get access to all pre-made calculators and quizzes built using our basic design layout (The Chicago).</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Layouts</span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Layout</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Layouts
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Layouts</span>
+                                    <span class="detail">You get access to our basic, yet the most versatile layout: The Chicago.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -622,13 +678,31 @@
                                     <span class="feature-subtitle"><span class="half"></span>Full Access</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Templates
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>All Templates</span>
+                                    <span class="detail">You get access to all pre-made calculators and quizzes built using any of our design layouts.</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Layouts</span>
                                     <span class="feature-subtitle"><span class="full"></span>All Layouts</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Layouts
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>All Layouts</span>
+                                    <span class="detail">You get access to all of design layouts.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -770,15 +844,31 @@
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
                                     <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Templates</span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates</span>
-                                    <!--<span class="detail"></span>-->
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Templates
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Templates</span>
+                                    <span class="detail">You get access to all pre-made calculators and quizzes built using any of our design layouts.</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Layouts</span>
                                     <span class="feature-subtitle"><span class="full"></span>All Layouts</span>
-                                    <!--<span class="detail"></span>-->
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Layouts
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>All Layouts</span>
+                                    <span class="detail">You get access to all of design layouts.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
