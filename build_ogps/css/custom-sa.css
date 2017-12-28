@@ -5121,24 +5121,25 @@ button.swiper-pagination-bullet {
 	text-transform: capitalize
 }
 .Privacy .Privacy-heading {
-	float: left;
-	width: 100%;
-	text-align: center;
-	color: #dfe3e6;
-	font-size: 48px;
-	line-height: 0px;
-	font-family: montserratbold;
-	margin-bottom: 40px
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fb5f66!important;
+    font-size: 42px;
+    line-height: 0px;
+    font-family: montserratultra_light;
+    margin-bottom: 40px;
+    margin-top: 100px;
 }
 .Privacy .Privacy-subheading {
-	color: #fb6c73;
-    font-size: 42px;
-    font-family: montserratultra_light;
+    color: #fb6c73;
+    font-size: 24px;
+    font-family: montserratlight;
     text-align: left;
     width: 100%;
     float: left;
     display: block;
-    text-transform: none;
+    text-transform: uppercase;
     margin-top: 30px;
 }
 #Testimonial .testimonial-headingtop p, .Privacy .li-style, .Privacy h5, .Privacy p {
