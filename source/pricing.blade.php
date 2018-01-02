@@ -315,16 +315,16 @@
                                 Layouts
                             </th>
                             <td class="expand-child">                                
-                                <span class="quater"></span>Basic Layouts
+                                <span class="quater"></span>Basic Layout
                                 <span class="detail">You get access to our basic, yet the most versatile layout: The Chicago.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>All Layouts
-                                <span class="detail">You get access to all of design layouts.</span>                             
+                                <span class="detail">You get access to all of the design layouts.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>All Layouts
-                                <span class="detail">You get access to all of design layouts.</span>                             
+                                <span class="detail">You get access to all of the design layouts.</span>                             
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -535,7 +535,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Layouts
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Basic Layouts</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Layout</span>
                                     <span class="detail">You get access to our basic, yet the most versatile layout: The Chicago.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -702,7 +702,7 @@
                                         Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>All Layouts</span>
-                                    <span class="detail">You get access to all of design layouts.</span>
+                                    <span class="detail">You get access to all of the design layouts.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -868,7 +868,7 @@
                                         Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>All Layouts</span>
-                                    <span class="detail">You get access to all of design layouts.</span>
+                                    <span class="detail">You get access to all of the design layouts.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">

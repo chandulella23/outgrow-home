@@ -12,6 +12,33 @@ window.display = function (url) {
     setTimeout(calculateMinHeight, 2000);
 }
 
+window.calc = {
+    'Auto Loan Calculator': {
+        belongsTo: ['Auto', 'All']
+    },
+    'Early Payment Calculator': {
+        belongsTo: ['Auto', 'All']
+    },
+    'How much should I put down?': {
+        belongsTo: ['Auto', 'All']
+    },
+    'Student Budget Calculator': {
+        belongsTo: ['Education', 'All']
+    },
+    'What is a good enough score to get into Harvard with your background?': {
+        belongsTo: ['Education', 'All']
+    },
+    'Home Budget Calculator': {
+        belongsTo: ['Finance', 'All']
+    },
+    'Weight Loss Calculator': {
+        belongsTo: ['Health & Fitness', 'All']
+    },
+    "How will Trump's tax plan affect you?": {
+        belongsTo: ['Publishing', 'All']
+    }
+}
+
 jQuery(document).ready(function () {
     calculateMinHeight();
     

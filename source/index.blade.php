@@ -29,6 +29,7 @@
 
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+	<!-- <script src="{{ $page->baseUrl }}/js/jssor.min.js"></script>  -->
 	
 	<section class="section section-1">
 		<div class="container-fluid">
@@ -1380,6 +1381,254 @@
 		</script>
 	</div> -->
 	<!--section testimonial -->
+
+	<!--section ranking -->
+	<div class="section-main section-ranking hide">
+		<section class="section section-7-top">
+			<div class="container mobile-container">
+				<h1 class="section-2-heading mk-animate-element scale-up">
+					Lorem Ipsum Ranking
+				</h1>
+			</div>
+		</section>
+
+		<div class="col-xs-12 col-sm-12 np text-center">
+			<div class="swiper-container swiper-container4">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-slide-first">
+						<img src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" alt="" class="scrollimg1 qode-lazy-image" />
+						<div class="swiper-content">
+							<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+							<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" alt="" class="scrollimg1 qode-lazy-image" />
+						<div class="swiper-content">
+							<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+							<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" alt="" class="scrollimg1 qode-lazy-image" />
+						<div class="swiper-content">
+							<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+							<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" alt="" class="scrollimg1 qode-lazy-image" />
+						<div class="swiper-content">
+							<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+							<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" alt="" class="scrollimg1 qode-lazy-image" />
+						<div class="swiper-content">
+							<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+							<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="swiper-pagination swiper-pagination4"></div>
+			
+			<div class="swiper-button-next swiper-button-next4"></div>
+			<div class="swiper-button-prev swiper-button-prev4"></div>
+		</div> 
+		<script>
+
+			var swiper = new Swiper('.swiper-container4', {
+				pagination: '.swiper-pagination4',
+				paginationClickable: true,
+				nextButton: '.swiper-button-next4',
+				prevButton: '.swiper-button-prev4',
+				spaceBetween: 30,
+				slidesPerView: 3,
+				centeredSlides: true,
+				// freeMode: true
+				// autoplayDisableOnInteraction: false
+
+			});
+		</script>
+	</div> 
+	<!--section ranking -->
+
+	<div class="section-main section-ranking hide">
+		<section class="section section-7-top">
+			<div class="container mobile-container">
+				<h1 class="section-2-heading mk-animate-element scale-up">
+					Lorem Ipsum Ranking
+				</h1>
+			</div>
+		</section>
+	    <div id="jssor_1" class="jssor-wrapper">
+			<div data-u="slides" class="jssor-slides">
+
+				<div data-p="137.50" class="jssor-slide-image i1 jssor-active">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="jssor-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div data-p="137.50" class="jssor-slide-image i2">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="jssor-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div data-p="137.50" class="jssor-slide-image i3">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="jssor-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+			</div>
+			<!-- Bullet Navigator -->
+			<div data-u="navigator" class="navigator-parent jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+				<div data-u="prototype" class="i" style="width:16px;height:16px;">
+					<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+						<circle class="b" cx="8000" cy="8000" r="5800"></circle>
+					</svg>
+				</div>
+			</div>
+			<!-- Arrow Navigator -->
+			<!-- <div onclick="onNavigatorClick()" data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:35px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+				<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+					<polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+				</svg>
+			</div>
+			<div onclick="onNavigatorClick()" data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:35px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+				<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+					<polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+				</svg>
+			</div> -->
+		</div>
+	</div>
+
+	<div class="section-main section-ranking">
+		<section class="section section-7-top">
+			<div class="container mobile-container">
+				<h1 class="section-2-heading mk-animate-element scale-up">
+					Top Ranked Content Marketing Tool
+				</h1>
+			</div>
+		</section>
+		<div class="swiper-container-ranking rs-hide">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" data-history="1">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 2">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 3">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 4">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<!-- <div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div> -->
+		</div>
+		<script>
+			var swiper = new Swiper('.swiper-container-ranking', {
+				spaceBetween: 50,
+				slidesPerView: 2,
+				centeredSlides: true,
+				loop: true,
+				slideToClickedSlide: true,
+				autoplay: 2500,
+				paginationClickable: true,
+				autoplayDisableOnInteraction: false,
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				pagination: '.swiper-pagination',
+				// history: 'slide',
+				
+			});
+		</script>
+
+		<div class="swiper-container-ranking-res rs-show">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" data-history="1">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 2">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 3">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 4">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/ranking-swiper-img1.jpg" />
+					<div class="swiper-content">
+						<h3>Mste natus error sit voluptatem accusantium doloremque laudantium</h3>
+						<span>Lorem ipsum dolor in reprehenderit in voluptate velit esse cillum dolore eu</span>
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<!-- <div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div> -->
+		</div>
+		<script>
+			var swiper = new Swiper('.swiper-container-ranking-res', {
+				spaceBetween: 50,
+				slidesPerView: 1,
+				centeredSlides: true,
+				slideToClickedSlide: true,
+				autoplay: 2500,
+				paginationClickable: true,
+				autoplayDisableOnInteraction: false,
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				pagination: '.swiper-pagination',
+				// history: 'slide',
+				
+			});
+		</script>
+
+	</div>
 	
 	<section class="section start-trial-cta free-trail mb0">
 		<div class="start-free-trail np">
@@ -1430,6 +1679,7 @@
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"jssor": "{{ $page->baseUrl }}/js/jssor.min.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 	}
