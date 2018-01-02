@@ -57,7 +57,7 @@
 		.sec-example .sec-outgrowMagic {margin-bottom: 0px;}
 		.sec-example .sec-outgrowMagic-title {padding: 20px 0px;}
 		.sec-example .section-2-heading { font-size: 22px;}
-		.sec-example .section-2-subheading {font-size: 14px; line-height: 1.42857143;margin-top: 0px;}
+		.sec-example .section-2-subheading {font-size: 14px; line-height: normal;margin-top: 5px; padding: 0 15px;}
 		.usecase .section-usecase2-left h4 {font-size: 20px;}
 		.usecase .section-usecase1-left h4 {font-size: 20px;}
 		.tab-section .nav-tabs {margin-bottom: 20px !important;}		

@@ -9,12 +9,11 @@
 		color:#FB6C73;
 	}
 	#pricing .section-2-heading {
-		margin-top: 20px;
-		margin-bottom: 0px;
+		font-size: 22px;
 	}
 	#pricing .container-faqs {
-        width: 95%;
-		margin: 0 10px;
+		width: 100%;
+		padding: 0px 30px;
 	}
 	#pricing .accordion-section-title{
 		font-size:18px;
@@ -28,7 +27,7 @@
 	#pricing .accordion-section-content{
 		margin-left:35px;
 	}
-	#pricing .section-faq{ margin-top: 15px;margin-bottom: 15px;}
+	#pricing .section-faq{ margin-top: 15px;margin-bottom: 0px; padding-top: 40px;}
 	#pricin .section-2-heading{ font-family: montserratbold;}
 	#pricing .billing-plan-list{width:100%;}
 	/*#pricing .billing-plan-list ul > li > a{
@@ -58,7 +57,7 @@
     .allPlans-blocks p {padding: 0 10px;}
     .allPlans-blocks img {margin-top: 0px; margin-bottom: 10px;}
     #pricing .pricing-headingtop .plans-heading {font-size: 22px; margin-top: 20px;}
-    #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 10px;}
+    #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 5px; padding: 0 15px; line-height: normal;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
 	#plan-cycle {margin-bottom: 20px;}
@@ -86,6 +85,9 @@
 		vertical-align: middle !important;
 		margin-top: -3px;
 	}
+	#pricing .pricing-headingtop {margin-top: 0px !important; padding: 20px 0px; margin-bottom: 0px;}
+	.pricing-switch {margin-bottom: 30px;}
+	.faq-section {margin-right: 0;}
 
 }
 
@@ -98,7 +100,6 @@
 @media (min-width: 440px) and (max-width:768px) {
 	#pricing .container-faqs {
 		/*width: 440px;*/
-		margin: 0 10px;
 	}
 }
 
@@ -140,6 +141,13 @@
 		vertical-align: middle !important;
 		margin-top: -4px;
 	}
+	#pricing .pricing-headingtop {margin-top: 0px !important; margin-bottom: 0px;}
+	.pricing-switch {margin-bottom: 30px;}
+	#pricing .container-faqs {
+		width: 100%;
+		padding: 0px 25px;
+	}
+	#pricing .section-faq {padding-top: 40px;}
 	
 }
 @media screen and (max-width:990px){
@@ -242,7 +250,7 @@
 		color: #2b93be;
 		background: #eff0f1;
 		padding: 3px;
-		margin-top: 7px;
+		/* margin-top: 7px; */
 	}
 	.pricing-bottom a.toggle-more i {
 		vertical-align: middle;
@@ -269,9 +277,9 @@
 		cursor: pointer;
 	}
 	.expand-rs.open {
-		background: #fdffcc;
+		background: #f5fbff;
 		box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-		border-bottom: 1px solid #f1f3c4;
+		border-top: 1px solid #e0f2fe;
 		cursor: pointer;
 	}
 
@@ -296,7 +304,6 @@
 	}
 	#pricing .container-faqs {
 		width: 800px;
-		margin: 0 auto;
 	}
 }
 
@@ -311,7 +318,6 @@
 @media (min-width: 1024px) and (max-width:1200px) {
 	#pricing .container-faqs {
 		width: 900px;
-		margin: 0 auto;
 	}
 	
 }
