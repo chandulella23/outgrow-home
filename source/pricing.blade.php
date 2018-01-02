@@ -606,7 +606,7 @@
                     <!-- freelancer-->
 
                     <!-- essential -->
-                    <div class="col-md-12 col-sm-12 col-xs-12 np pricing-block most-popular">
+                    <div class="col-md-12 col-sm-12 col-xs-12 np pricing-block most-popular-plan">
                         <!-- <span class="ribbon">Most Popular</span> -->
                         <span class="label-popularPlan">Most Popular</span>
                         <div class="pricing-top">
