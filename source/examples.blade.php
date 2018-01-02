@@ -1155,38 +1155,54 @@
 								<div class="status">&nbsp;</div>
 							</div> -->
 							<div class="premade-template">
-								<ul class="pre-temp-cat">
+								<ul class="pre-temp-cat" id="calc-cats">
+									<li>
+										<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
+									</li>
 									<li class="active">
-										<a href="javascript:void(0)" id="filter-financial">Auto</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-financial">Education</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-financial">Finance</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-fitness">Health & Fitness</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-fitness">Publishing</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-all">All</a>
+										<a href="javascript:void(0)" id="filter-all" onclick="shuffleCalcs('filter-all')">All</a>
 									</li>
 								</ul>
 								<div class="pre-temp-cont">
 									<ul class="pre-temp-list" id="gallery-content-center">
-										<li class="active">
+
+										<li class="active filter-all filter-auto" id="calc-auto-loan">
 											<a href="javascript:void(0)">Auto Loan Calculator</a>
 										</li>
-										<li class="All Financia "><a href="javascript:void(0)">Early Payment Calculator</a></li>
-										<li class="All Math"><a href="javascript:void(0)">How much should I put down?</a></li>
-										<li class="All Others"> <a href="javascript:void(0)">Student Budget Calculator</a></li>
-										<li class="All Math"><a href="javascript:void(0)">What is a good enough score to get into Harvard with your background?</a></li>
-										<li class="All Math"><a href="javascript:void(0)">Home Budget Calculator</a></li>
-										<li class="All Others"><a href="javascript:void(0)">Weight Loss Calculator</a></li>
-										<li class="All Financial"><a href="javascript:void(0)">How will Trump's tax plan affect you?</a></li>
+										<li class="All Financia filter-all filter-auto" id="calc-early-payment">
+											<a href="javascript:void(0)">Early Payment Calculator</a>
+										</li>
+										<li class="All Math filter-all filter-auto" id="calc-downpayment">
+											<a href="javascript:void(0)">How much should I put down?</a>
+										</li>
+										<li class="All Others filter-all filter-education" id="calc-student-budget"> 
+											<a href="javascript:void(0)">Student Budget Calculator</a>
+										</li>
+										<li class="All Math filter-all filter-education" id="calc-harward-score">
+											<a href="javascript:void(0)">What is a good enough score to get into Harvard with your background?</a>
+										</li>
+										<li class="All Math filter-all filter-finance" id="calc-home-budget">
+											<a href="javascript:void(0)">Home Budget Calculator</a>
+										</li>
+										<li class="All Others filter-all filter-health" id="calc-weight-loss">
+											<a href="javascript:void(0)">Weight Loss Calculator</a>
+										</li>
+										<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
+											<a href="javascript:void(0)">How will Trump's tax plan affect you?</a>
+										</li>
+
 									</ul>
 									<div class="pre-temp-view">
 										<div class="temp-preview">

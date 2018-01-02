@@ -12,31 +12,76 @@ window.display = function (url) {
     setTimeout(calculateMinHeight, 2000);
 }
 
-window.calc = {
-    'Auto Loan Calculator': {
-        belongsTo: ['Auto', 'All']
+window.calcs = [
+    {
+        'id': 'calc-auto-loan',
+        filters: ['filter-all', 'filter-auto']
     },
-    'Early Payment Calculator': {
-        belongsTo: ['Auto', 'All']
+    {
+        'id': 'calc-early-payment',
+        filters: ['filter-all', 'filter-auto']
     },
-    'How much should I put down?': {
-        belongsTo: ['Auto', 'All']
+    {
+        'id': 'calc-downpayment',
+        filters: ['filter-all', 'filter-auto']
     },
-    'Student Budget Calculator': {
-        belongsTo: ['Education', 'All']
+    {
+        'id': 'calc-student-budget',
+        filters: ['filter-all', 'filter-education']
     },
-    'What is a good enough score to get into Harvard with your background?': {
-        belongsTo: ['Education', 'All']
+    {
+        'id': 'calc-harward-score',
+        filters: ['filter-all', 'filter-education']
     },
-    'Home Budget Calculator': {
-        belongsTo: ['Finance', 'All']
+    {
+        'id': 'calc-home-budget',
+        filters: ['filter-all', 'filter-finance']
     },
-    'Weight Loss Calculator': {
-        belongsTo: ['Health & Fitness', 'All']
+    {
+        'id': 'calc-weight-loss',
+        filters: ['filter-all', 'filter-health']
     },
-    "How will Trump's tax plan affect you?": {
-        belongsTo: ['Publishing', 'All']
+    {
+        'id': "calc-trump-plan",
+        filters: ['filter-all', 'filter-publishing']
     }
+];
+
+window.changeActiveCalcCategory = function (id) {
+    var currentActiveCat = document.querySelector('#calc-cats li.active');
+    currentActiveCat.classList.remove('active');
+
+    var tobeActiveCat = document.querySelector('#' + id);
+    tobeActiveCat.parentElement.classList.add('active');
+}
+
+window.shuffleCalcs = function (filterName) {
+    changeActiveCalcCategory(filterName);
+    var hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
+    hiddenCalcs.forEach(function (calc) {
+        calc.classList.remove('hide');
+    })
+    window.calcs
+        .filter(function (calc) {
+            return !calc.filters.includes(filterName);
+        })
+        .forEach(function (calc) {
+            var calc = document.querySelector('#'+calc.id);
+            calc.classList.add('hide');
+        })
+
+    var activeCalc = document.querySelector('#gallery-content-center li.active');
+    if (activeCalc)
+        activeCalc.classList.remove('active');
+
+    var allCalcs = document.querySelectorAll('#gallery-content-center li');
+    let sflag = true;
+    allCalcs.forEach(function (calc) {
+        if (!calc.classList.contains('hide') && sflag) {
+            calc.classList.add('active');
+            sflag = false;
+        }
+    })
 }
 
 jQuery(document).ready(function () {
