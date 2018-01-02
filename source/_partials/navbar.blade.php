@@ -28,3 +28,13 @@
 		</div>
 	</div>
 </nav>
+
+<!-- <script>
+	jQuery(document).ready(function() {
+		jQuery('.navbar-nav li a').on('click',function(){
+			jQuery('li a').removeClass('active');
+			jQuery(this).addClass('active');
+		});
+
+	});
+</script> -->

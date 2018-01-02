@@ -134,6 +134,18 @@
 		</div>
 	</section> -->
 
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
+		<div class="container custom-container mobile-container">
+			<div class="case-breathers-leftSide">
+			  <img src="images/example-breather-img.png" class="uni1">
+			</div>
+			<div class="case-breathers-rightSide">
+				<h1 class="heading">Generate interactive content ideas for your company using our idea worksheet</h1>
+				<a href="" target="_blank" class="btn btn-download btn-hover">Download Excel Idea Generator Sheet <i class="material-icons">arrow_forward</i></a>
+			</div>
+		</div>
+	</div>
+
 	<section class="section">
 		<div class="container">
 			<div class="useCase-heading">
@@ -144,7 +156,7 @@
     <!--  section end-->
 
 	<!-- tab-section Start -->
-	<section class="section">
+	<section class="section hide">
 		<div class="tab-section">
 			<div class="container-fluid">
 					<!-- Nav tabs -->
@@ -1106,6 +1118,103 @@
 		</div>
 	</section>
 	<!-- tab-section end -->
+
+	<!-- start: example calc -->
+	<section class="section example-calc">
+		<div class="tab-section">
+			<div class="container-fluid">
+					<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="tab-title active">
+						<a href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab" onclick="callGA('TYPE')">
+							Numerical Calculator
+						</a>
+					</li>
+					<li role="presentation" class="tab-title">
+						<a href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+							Outcome Quiz
+						</a>
+					</li>
+					<li role="presentation" class="tab-title">
+						<a href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+							Graded Quiz
+						</a>
+					</li>
+					<li role="presentation" class="tab-title">
+						<a href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+							Poll
+						</a>
+					</li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content usecase">
+					<div role="tabpanel" class="tab-pane active" id="numeric-calc">
+						<div class="col-md-12 col-sm-12 col-xs-12 new-cards-section pre-card">
+							<!-- <div class="preloader">
+								<div class="status">&nbsp;</div>
+							</div> -->
+							<div class="premade-template">
+								<ul class="pre-temp-cat">
+									<li class="active">
+										<a href="javascript:void(0)" id="filter-financial">Auto</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-financial">Education</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-financial">Finance</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-fitness">Health & Fitness</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-fitness">Publishing</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-all">All</a>
+									</li>
+								</ul>
+								<div class="pre-temp-cont">
+									<ul class="pre-temp-list" id="gallery-content-center">
+										<li class="active">
+											<a href="javascript:void(0)">Auto Loan Calculator</a>
+										</li>
+										<li class="All Financia "><a href="javascript:void(0)">Early Payment Calculator</a></li>
+										<li class="All Math"><a href="javascript:void(0)">How much should I put down?</a></li>
+										<li class="All Others"> <a href="javascript:void(0)">Student Budget Calculator</a></li>
+										<li class="All Math"><a href="javascript:void(0)">What is a good enough score to get into Harvard with your background?</a></li>
+										<li class="All Math"><a href="javascript:void(0)">Home Budget Calculator</a></li>
+										<li class="All Others"><a href="javascript:void(0)">Weight Loss Calculator</a></li>
+										<li class="All Financial"><a href="javascript:void(0)">How will Trump's tax plan affect you?</a></li>
+									</ul>
+									<div class="pre-temp-view">
+										<div class="temp-preview">
+											<span class="image-bg1">
+												<span class="image-scroll1">
+													<img src="https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif" />
+												</span>
+											</span>
+											<div class="content temp-info">
+												<h3>
+													<p><i class="material-icons">&#xE80E;</i>AUTO LOAN CALCULATOR</p>
+													<span><strong> Layout:</strong> The Londoner </span>
+												</h3>
+												<button class="btn btn-red btn-hover" type="button">Preview</button>
+												<button class="btn btn-red btn-hover" type="button">Build your own</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end: example calc -->
+	
 	<!-- Start Trial CTA-->
 	<section class="section start-trial-cta mb0">
 		<div class="container-fluid np">
