@@ -3825,19 +3825,16 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-clients-logos {margin-bottom: 0px;}
 		.video-img-inner:hover {cursor: url(../images/video-arrow-sm.png), auto !important;}
 		.rs-hide.calc-links {display: none !important;}
-
-
-
-
-}
-
+		.section-7-top {
+			margin-top: 0;
+			padding-top: 0;
+			padding-bottom: 15px;
+		}
 
 	/* end: homepage responsive by arti */
 
-
-
-
 }
+
 @media (min-width:0px) and (max-width:767px) and (orientation:landscape) {
 	#video-modal .modal-dialog-video{
 		margin:0px !important;
@@ -4323,7 +4320,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.vc_row{margin-left:0!important;margin-right:0!important}
 	.section-7-left h4,.section-9-left h4{font-size:24px}
 	.section-13 .section-2-heading{margin-bottom:30px}
-	.section-7-top{padding-top:0 !important}
+	.section-7-top{padding-top:0 !important; padding-bottom: 15px;}
 	.useCase-heading{margin-top:25px}
 	#why .section-top-why h3{font-size:20px;line-height:normal}
 	.billing-plan-list{width:100%;margin-top:0;margin-bottom:40px}
