@@ -125,9 +125,9 @@ jQuery(document).ready(function() {
 	if (!hostName.endsWith('outgrow.co')) {
 		STUrl = '//app.rely.co/signup';
 	}
-	console.log(cookie, '=----------------------');
 	if (cookie) {
-		STUrl = STUrl.split('/signup')[0] + '/settings/membership';
+		cookie = JSON.parse(cookie);
+		STUrl = '//' + cookie.currentCompany + '.' + window.location.hostname + '/settings/membership';
 		var signupLink = document.getElementById('b-signup');
 		signupLink.href = STUrl;
 		signupLink.textContent = 'BUY NOW';
