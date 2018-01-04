@@ -1223,7 +1223,7 @@
 													</span>
 												</h3>
 												<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-												<a class="btn btn-red btn-hover" href="//app.outgrow.co">Build your own</button>
+												<a class="btn btn-red btn-hover" href="//app.outgrow.co">Build your own</a>
 											</div>
 										</div>
 									</div>
