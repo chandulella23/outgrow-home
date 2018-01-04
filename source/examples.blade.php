@@ -1179,28 +1179,28 @@
 									<ul class="pre-temp-list" id="gallery-content-center">
 
 										<li class="active filter-all filter-auto" id="calc-auto-loan">
-											<a href="javascript:void(0)">Auto Loan Calculator</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
 										</li>
 										<li class="All Financia filter-all filter-auto" id="calc-early-payment">
-											<a href="javascript:void(0)">Early Payment Calculator</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
 										</li>
 										<li class="All Math filter-all filter-auto" id="calc-downpayment">
-											<a href="javascript:void(0)">How much should I put down?</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
 										</li>
 										<li class="All Others filter-all filter-education" id="calc-student-budget"> 
-											<a href="javascript:void(0)">Student Budget Calculator</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
 										</li>
 										<li class="All Math filter-all filter-education" id="calc-harward-score">
-											<a href="javascript:void(0)">What is a good enough score to get into Harvard with your background?</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
 										</li>
 										<li class="All Math filter-all filter-finance" id="calc-home-budget">
-											<a href="javascript:void(0)">Home Budget Calculator</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
 										</li>
 										<li class="All Others filter-all filter-health" id="calc-weight-loss">
-											<a href="javascript:void(0)">Weight Loss Calculator</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
 										</li>
 										<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
-											<a href="javascript:void(0)">How will Trump's tax plan affect you?</a>
+											<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
 										</li>
 
 									</ul>
@@ -1208,16 +1208,22 @@
 										<div class="temp-preview">
 											<span class="image-bg1">
 												<span class="image-scroll1">
-													<img src="https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif" />
+													<img id="premade-gif" src="https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif" />
 												</span>
 											</span>
 											<div class="content temp-info">
 												<h3>
-													<p><i class="material-icons">&#xE80E;</i>AUTO LOAN CALCULATOR</p>
-													<span><strong> Layout:</strong> The Londoner </span>
+													<p id="premade-calc-name">
+														<i class="material-icons">&#xE80E;</i>
+														AUTO LOAN CALCULATOR
+													</p>
+													<span id="premade-calc-layout">
+														<strong>Layout:</strong> 
+														The Londoner 
+													</span>
 												</h3>
-												<button class="btn btn-red btn-hover" type="button">Preview</button>
-												<button class="btn btn-red btn-hover" type="button">Build your own</button>
+												<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
+												<a class="btn btn-red btn-hover" href="//app.outgrow.co">Build your own</button>
 											</div>
 										</div>
 									</div>
