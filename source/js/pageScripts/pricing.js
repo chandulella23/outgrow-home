@@ -118,6 +118,21 @@ jQuery(document).ready(function() {
 		jQuery('.s-annual-price').css('display', 'none');
 	}
 
+	var cookie = window.readCookie('storage');
+	var hostName = window.location.hostname;
+	var STUrl = '//app.outgrow.co/signup';
+
+	if (!hostName.endsWith('outgrow.co')) {
+		STUrl = '//app.rely.co/signup';
+	}
+	console.log(cookie, '=----------------------');
+	if (cookie) {
+		STUrl = STUrl.split('/signup')[0] + '/settings/membership';
+		var signupLink = document.getElementById('b-signup');
+		signupLink.href = STUrl;
+		signupLink.textContent = 'BUY NOW';
+	}
+
 
 	/*jQuery('#monthly').click(function(event){
 		jQuery('.monthly-price').css('display', 'block');

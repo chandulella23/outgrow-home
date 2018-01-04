@@ -144,7 +144,7 @@
                                     <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
                                 </span>
                                 <span class="">
-                                    <a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a>                                    
+                                    <a href="//app.outgrow.co" target="_blank" id="b-signup" class="signuplink params btn-hover">Start trial</a>                                    
                                     <a href="javascript:void(0);" class="link-contact intercom_trigger">Contact us</a>
                                 </span>
                             </th>
