@@ -54,9 +54,9 @@
 	}
 	window.intercomSettings = {
 		app_id: intercom_id,
-		custom_launcher_selector: '#intercom_trigger'
+		custom_launcher_selector: '.intercom_trigger'
 	};
-	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r841gnag';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',window.intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/'+intercom_id;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
 	var schemaA = document.createElement('script');
 	schemaA.type = 'application/ld+json';
@@ -152,6 +152,16 @@
 		</div>
 	</div>
 </nav>
+
+<!-- <script>
+	jQuery(document).ready(function() {
+		jQuery('.navbar-nav li a').on('click',function(){
+			jQuery('li a').removeClass('active');
+			jQuery(this).addClass('active');
+		});
+
+	});
+</script> -->
 		<script src="/js/swiper.min.js"></script>
 	<section class="section section-top-why">
 		<div class="container-fluid">
@@ -766,7 +776,7 @@
 				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>				
 				<li class="border-left"><a href="/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
 				<li><a href="/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
-				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
+				<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact Us</a></li>
 				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
 			<div class="footer-copyright">
