@@ -104,8 +104,22 @@ jQuery(document).ready(function() {
 		jQuery(this).toggleClass('open');
 	});
 
+	var cycleSwitch = document.getElementById('myonoffswitch');
+	cycleSwitch.onchange = function () {
+		if (this.checked) {
+			jQuery('.monthly-price').css('display', 'block');
+			jQuery('.annual-price').css('display', 'none');
+			jQuery('.s-annual-price').css('display', 'none');
+			return;
+		}
 
-	jQuery('#monthly').click(function(event){
+		jQuery('.monthly-price').css('display', 'none');
+		jQuery('.annual-price').css('display', 'block');
+		jQuery('.s-annual-price').css('display', 'none');
+	}
+
+
+	/*jQuery('#monthly').click(function(event){
 		jQuery('.monthly-price').css('display', 'block');
 		jQuery('.annual-price').css('display', 'none');
 		jQuery('.s-annual-price').css('display', 'none');
@@ -121,7 +135,7 @@ jQuery(document).ready(function() {
 		jQuery('.monthly-price').css('display', 'none');
 		jQuery('.annual-price').css('display', 'block');
 		jQuery('.s-annual-price').css('display', 'none');
-	});
+	});*/
 
 	jQuery('.toggle-more').click(function(event){
 		var $target = jQuery(event.target);
