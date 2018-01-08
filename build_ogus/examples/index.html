@@ -57,9 +57,9 @@
 	}
 	window.intercomSettings = {
 		app_id: intercom_id,
-		custom_launcher_selector: '#intercom_trigger'
+		custom_launcher_selector: '.intercom_trigger'
 	};
-	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r841gnag';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',window.intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/'+intercom_id;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
 	var schemaA = document.createElement('script');
 	schemaA.type = 'application/ld+json';
@@ -155,6 +155,16 @@
 		</div>
 	</div>
 </nav>
+
+<!-- <script>
+	jQuery(document).ready(function() {
+		jQuery('.navbar-nav li a').on('click',function(){
+			jQuery('li a').removeClass('active');
+			jQuery(this).addClass('active');
+		});
+
+	});
+</script> -->
 		<!--  top section-->
 	<div class="section-main sec-example">
 		<section class="section section-5 sec-outgrowMagic-title">
@@ -248,6 +258,18 @@
 		</div>
 	</section> -->
 
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
+		<div class="container custom-container mobile-container">
+			<div class="case-breathers-leftSide">
+			  <img src="images/example-breather-img.png" class="uni1">
+			</div>
+			<div class="case-breathers-rightSide">
+				<h1 class="heading">Generate interactive content ideas for your company using our idea worksheet</h1>
+				<a href="" target="_blank" class="btn btn-download btn-hover">Download Excel Idea Generator Sheet <i class="material-icons">arrow_forward</i></a>
+			</div>
+		</div>
+	</div>
+
 	<section class="section">
 		<div class="container">
 			<div class="useCase-heading">
@@ -258,7 +280,7 @@
     <!--  section end-->
 
 	<!-- tab-section Start -->
-	<section class="section">
+	<section class="section hide">
 		<div class="tab-section">
 			<div class="container-fluid">
 					<!-- Nav tabs -->
@@ -1220,6 +1242,125 @@
 		</div>
 	</section>
 	<!-- tab-section end -->
+
+	<!-- start: example calc -->
+	<section class="section example-calc">
+		<div class="tab-section">
+			<div class="container-fluid">
+					<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="tab-title active">
+						<a href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab" onclick="callGA('TYPE')">
+							Numerical Calculator
+						</a>
+					</li>
+					<li role="presentation" class="tab-title">
+						<a href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+							Outcome Quiz
+						</a>
+					</li>
+					<li role="presentation" class="tab-title">
+						<a href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+							Graded Quiz
+						</a>
+					</li>
+					<li role="presentation" class="tab-title">
+						<a href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+							Poll
+						</a>
+					</li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content usecase">
+					<div role="tabpanel" class="tab-pane active" id="numeric-calc">
+						<div class="col-md-12 col-sm-12 col-xs-12 new-cards-section pre-card">
+							<!-- <div class="preloader">
+								<div class="status">&nbsp;</div>
+							</div> -->
+							<div class="premade-template">
+								<ul class="pre-temp-cat" id="calc-cats">
+									<li>
+										<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
+									</li>
+									<li class="active">
+										<a href="javascript:void(0)" id="filter-all" onclick="shuffleCalcs('filter-all')">All</a>
+									</li>
+								</ul>
+								<div class="pre-temp-cont">
+									<ul class="pre-temp-list" id="gallery-content-center">
+
+										<li class="active filter-all filter-auto" id="calc-auto-loan">
+											<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
+										</li>
+										<li class="All Financia filter-all filter-auto" id="calc-early-payment">
+											<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
+										</li>
+										<li class="All Math filter-all filter-auto" id="calc-downpayment">
+											<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
+										</li>
+										<li class="All Others filter-all filter-education" id="calc-student-budget"> 
+											<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
+										</li>
+										<li class="All Math filter-all filter-education" id="calc-harward-score">
+											<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
+										</li>
+										<li class="All Math filter-all filter-finance" id="calc-home-budget">
+											<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
+										</li>
+										<li class="All Others filter-all filter-health" id="calc-weight-loss">
+											<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
+										</li>
+										<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
+											<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
+										</li>
+
+									</ul>
+									<div class="pre-temp-view">
+										<div class="temp-preview">
+											<span class="image-bg1">
+												<span class="image-scroll1">
+													<img id="premade-gif" src="https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif" />
+												</span>
+											</span>
+											<div class="content temp-info">
+												<h3>
+													<p id="premade-calc-name">
+														<i class="material-icons">&#xE80E;</i>
+														AUTO LOAN CALCULATOR
+													</p>
+													<span id="premade-calc-layout">
+														<strong>Layout:</strong> 
+														The Londoner 
+													</span>
+												</h3>
+												<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
+												<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end: example calc -->
+	
 	<!-- Start Trial CTA-->
 	<section class="section start-trial-cta mb0">
 		<div class="container-fluid np">
@@ -1369,7 +1510,7 @@
 				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>				
 				<li class="border-left"><a href="/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
 				<li><a href="/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
-				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
+				<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact Us</a></li>
 				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
 			<div class="footer-copyright">
