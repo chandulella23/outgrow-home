@@ -4863,6 +4863,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	#pricing .section-faq{margin-top:0}
 	#pricing .enterprise_pos,#pricing .pricing-text{margin-top:40%}
 	#pricing .pricing-help .billing-plans-help{left:5%;bottom:420px}
+	.swiper-container-ranking .swiper-slide img {width: 100% !important;}
 
 }
 @media (min-width:991px) and (max-width:1024px){
