@@ -467,6 +467,7 @@ label {
 	#pricing .section-1 {
 		margin-top: 0px;
 		margin-bottom: 0px;
+		padding-bottom: 50px;
 	}
 	#pricing .pricing-headingtop {
 		background: #f3f8fb;
@@ -1489,6 +1490,10 @@ a.link-contact.intercom_trigger {
     padding: 0;
 	padding-top: 7px;
 	display: block;
+}
+a.link-contact.intercom_trigger:hover {
+    color: #e83640;
+    opacity: 0.8;
 }
 .most-popular-plan {
     border: 1px solid #bed4df !important;
