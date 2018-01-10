@@ -380,7 +380,7 @@
 	thead th sub {font-size: 34px;}
 	thead th:nth-child(1) i.material-icons {font-size: 40px;}
 	tbody th i.material-icons {font-size: 40px;}
-	#pricing .pricing-headingtop {margin-bottom: 80px;}
+	#pricing .pricing-headingtop {margin-bottom: 80px; margin-top: 160px;}
 	.enterprise_pos {margin-top: 80px;}
 	#pricing .section-faq .section-2-heading {font-size: 104px;}
 	#pricing .need-custom-plan a {font-size: 44px;}
