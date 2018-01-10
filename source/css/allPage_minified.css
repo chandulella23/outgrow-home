@@ -4864,6 +4864,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	#pricing .enterprise_pos,#pricing .pricing-text{margin-top:40%}
 	#pricing .pricing-help .billing-plans-help{left:5%;bottom:420px}
 	.swiper-container-ranking .swiper-slide img {width: 100% !important;}
+	.swiper-container-ranking .swiper-slide.swiper-slide-prev,
+	div.swiper-container-ranking .swiper-slide.swiper-slide-next {
+		margin-top: 65px !important;
+		width: 43% !important;
+	}
 
 }
 @media (min-width:991px) and (max-width:1024px){
@@ -4969,6 +4974,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 }
 @media only screen and (max-width:1440px){
 	#cardsSliderSection .vc_empty_space:first-of-type{margin-top:-130px!important}
+	div.swiper-container-ranking .swiper-slide.swiper-slide-active {
+		width: 54% !important;
+	}
 }
 @media only screen and (max-width:1024px){
 	#alternatingSizesPortfolioSection .vc_empty_space:first-of-type{margin-top:-25px!important}
@@ -19009,5 +19017,14 @@ img.uni1 {
 	}
 	.swiper-container-ranking .swiper-pagination-bullet,
 	.swiper-container-ranking-res .swiper-pagination-bullet {width: 11px; height: 11px;}
+	.swiper-container-ranking .swiper-slide.swiper-slide-active {
+		width: 57% !important;
+	}
+	.swiper-container-ranking .swiper-slide.swiper-slide-next, 
+	.swiper-container-ranking .swiper-slide.swiper-slide-prev {
+		opacity: 0.6;
+		width: 42% !important;
+		margin-top: 40px;
+	}
 	
 /* end: swiper slider for ranking section */
