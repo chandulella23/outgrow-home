@@ -4864,7 +4864,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	#pricing .enterprise_pos,#pricing .pricing-text{margin-top:40%}
 	#pricing .pricing-help .billing-plans-help{left:5%;bottom:420px}
 	.swiper-container-ranking .swiper-slide img {width: 100% !important;}
-	.swiper-container-ranking .swiper-slide.swiper-slide-prev,
+	div.swiper-container-ranking .swiper-slide.swiper-slide-prev,
 	div.swiper-container-ranking .swiper-slide.swiper-slide-next {
 		margin-top: 65px !important;
 		width: 43% !important;
@@ -4973,10 +4973,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.qode_grid_1200 .drop_down .wide .second ul li{width:274px}
 }
 @media only screen and (max-width:1440px){
-	#cardsSliderSection .vc_empty_space:first-of-type{margin-top:-130px!important}
-	div.swiper-container-ranking .swiper-slide.swiper-slide-active {
-		width: 54% !important;
-	}
+	#cardsSliderSection .vc_empty_space:first-of-type{margin-top:-130px!important}	
+}
+@media only screen and (min-width:1440px) and (max-width:1440px){
+	 div.swiper-container-ranking .swiper-slide img{
+		width: 100% !important;
+	} 
 }
 @media only screen and (max-width:1024px){
 	#alternatingSizesPortfolioSection .vc_empty_space:first-of-type{margin-top:-25px!important}
@@ -19023,7 +19025,7 @@ img.uni1 {
 	.swiper-container-ranking .swiper-slide.swiper-slide-next, 
 	.swiper-container-ranking .swiper-slide.swiper-slide-prev {
 		opacity: 0.6;
-		width: 42% !important;
+		width: 42.3% !important;
 		margin-top: 30px;
 	}
 	
