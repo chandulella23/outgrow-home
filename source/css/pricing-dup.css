@@ -1492,8 +1492,7 @@ a.link-contact.intercom_trigger {
 	display: block;
 }
 a.link-contact.intercom_trigger:hover {
-    color: #e83640;
-    opacity: 0.8;
+    color: #ea101d;
 }
 .most-popular-plan {
     border: 1px solid #bed4df !important;
