@@ -2217,7 +2217,7 @@
     }
     #feature .section-13 {margin-top: 30px;}
     #why .section-top-why {margin-top: 80px;}
-    #pricing .section-1 {margin-top: 90px !important;}
+    #pricing .section-1 {margin-top: 90px !important;margin-bottom: 30px !important;}
     .section-main.sec-example {margin-top: 40px;}
     .Privacy .section-services { margin-top: 80px;}
 
@@ -2273,7 +2273,7 @@
         margin-top: 80px
     }
 	#pricing .pricing-headingtop {
-		background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px);
+        margin-top: 0px;
 	}
     #pricing .section-1 {
         margin-top: 45px;
