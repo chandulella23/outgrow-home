@@ -1563,7 +1563,7 @@
 				centeredSlides: true,
 				loop: true,
 				slideToClickedSlide: true,
-				// autoplay: 2500,
+				autoplay: 2500,
 				paginationClickable: true,
 				autoplayDisableOnInteraction: false,
 				nextButton: '.swiper-button-next',
