@@ -1558,7 +1558,7 @@
 		</div>
 		<script>
 			var swiper = new Swiper('.swiper-container-ranking', {
-				spaceBetween: 50,
+				spaceBetween: 80,
 				slidesPerView: 2,
 				centeredSlides: true,
 				loop: true,

@@ -3,7 +3,8 @@
 @media (min-width: 320px) and (max-width:768px) {
 	#pricing .section-1{
         margin-top: 0;
-        margin-bottom: 0;
+		margin-bottom: 0;
+		padding-bottom: 40px;
     }
 	#pricing .loader{
 		color:#FB6C73;
