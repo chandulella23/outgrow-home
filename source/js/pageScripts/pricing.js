@@ -128,9 +128,11 @@ jQuery(document).ready(function() {
 	if (cookie) {
 		cookie = JSON.parse(cookie);
 		STUrl = '//' + cookie.currentCompany + '.' + window.location.hostname + '/settings/membership';
-		var signupLink = document.getElementById('b-signup');
-		signupLink.href = STUrl;
-		signupLink.textContent = 'BUY NOW';
+		var signupLinks = document.querySelectorAll('span > a.signuplink');
+		signupLinks.forEach(signupLink => {
+			signupLink.href = STUrl;
+			signupLink.textContent = 'BUY NOW';
+		});
 	}
 
 
