@@ -137,7 +137,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers">
 		<div class="container custom-container mobile-container">
 			<div class="case-breathers-leftSide">
-			  <img src="images/example-breather-img.png" class="uni1">
+			  <img src="{{ $page->baseUrl }}/images/example-breather-img.png" class="uni1">
 			</div>
 			<div class="case-breathers-rightSide">
 				<h1 class="heading">Generate interactive content ideas for your company using our idea worksheet</h1>
