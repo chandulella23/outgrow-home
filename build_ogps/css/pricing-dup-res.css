@@ -333,7 +333,7 @@
 
 /* ################### pricing responsive css end ################### */
 
-@media (min-width:1921px) and (max-width:6500px){
+@media (min-width:3000px) and (max-width:6500px){
 	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
@@ -353,7 +353,10 @@
 	.footer-copyright i {font-size: 24px;}
 	.footer-copyright span {font-size: 24px;}
 	.footer-copyright img {width: 5%;}
-	.container {width: 50%;}
+	.pricing-outer.container {
+		/* width: 50%; */
+		width: 2500px;
+	}
 
 	#pricing .pricing-headingtop .plans-heading{font-size: 96px; margin-top: 170px;}
 	#pricing .pricing-headingtop .plans-subheading {font-size: 58px; margin-top: 20px;}
