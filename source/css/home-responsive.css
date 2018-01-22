@@ -768,6 +768,11 @@
     }
     .tab-inner-frame{display: none;}
     .sec-outgrowMagic .section-6-left {margin: 0;}
+    .badge-g2crowd{
+		margin: 0 !important;
+		text-align: center;
+	}
+	.badge-g2crowd img.g2crowd {width: 20%;}
 
 }
 
@@ -2074,7 +2079,8 @@
         padding-left: 20px
     }
     .footer-img2 {
-        padding-left: 0
+        padding-left: 0;
+        min-height: 160px;
     }
 }
 

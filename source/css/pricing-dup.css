@@ -1516,3 +1516,7 @@ a.link-contact.intercom_trigger:hover {
 	line-height: 26px;
 	margin-bottom: 30px;
 }
+.badge-g2crowd {
+    margin-top: 45px;
+    padding-right: 0px !important;
+}
