@@ -182,7 +182,7 @@
 	
 	#pricing .loader{
 		margin-left: 0px;
-		color:#fb6c73;
+		color:#fb5f66;
 	}
 	#pricing .container-faqs {
 		width: 800px;
@@ -319,7 +319,7 @@
 @media (min-width: 991px) and (max-width:1024px) {
 	#pricing .loader{
 		margin-left: 38%;
-		color:#fb6c73;
+		color:#fb5f66;
 	}
 	#pricing .container-faqs {
 		width: 800px;
@@ -356,7 +356,7 @@
 	} */
 	#pricing .loader {
 		margin-left: 32%;
-		color: #fb6c73;
+		color: #fb5f66;
 	}
 	.toggle-dots-white {
 	    display: none;
