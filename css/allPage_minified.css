@@ -3592,7 +3592,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.center{text-align:center}
 	.img-container{padding:0!important}
 	.footer-img2,.footer-img2text{padding-left:0}
-	.footer-img2{min-height:165px}
+	.footer-img2{min-height:150px}
 	.billingpricing-text p{margin:0 0 45px}
 	.vc_row{margin-left:0!important;margin-right:0!important}
 	.section-7-left h4,.section-9-left h4{margin-top:30px;font-size:24px}
@@ -3832,6 +3832,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 
 	/* end: homepage responsive by arti */
+	.badge-g2crowd{
+		margin: 0 !important;
+		text-align: center;
+	}
+	.badge-g2crowd img.g2crowd {width: 20%;}
 
 }
 
@@ -4624,7 +4629,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec10-testimonial div.sec10-tes-inner{margin-left:3%}
 	.sec10-testimonial-link,.sec10-testname{margin-left:11%}
 	.billing-table{padding-left:20px}
-	.footer-img2{padding-left:0}
+	.footer-img2{padding-left:0; min-height: 160px;}
 	#video-modal button.close.btn-close{
 	    top: -17% !important;
     	right: -14% !important;
@@ -19030,3 +19035,8 @@ img.uni1 {
 	}
 	
 /* end: swiper slider for ranking section */
+
+.badge-g2crowd {
+	margin-top: 45px;
+    padding-right: 0px !important;
+}
