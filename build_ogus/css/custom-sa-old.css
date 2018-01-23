@@ -179,7 +179,7 @@ label {
     color: #fb5f66 !important;
 }
 .custom-navbar .link-login{
-    color: #fb6c73 !important;
+    color: #fb5f66 !important;
     /*padding: 3px 30px;
     margin-top: 10px;
     border: 2px solid #fff;*/
@@ -227,7 +227,7 @@ label {
     width: 100%;
     font-size: 33px;
     font-family:montserratlight;
-    color: #fb6c73;
+    color: #fb5f66;
     text-transform: uppercase;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -237,7 +237,7 @@ label {
     width: 100%;
     font-size: 33px;
     font-family:montserratbold;
-    color: #fb6c73;
+    color: #fb5f66;
     text-transform: uppercase;
     margin-bottom: 30px;
     margin-top: 0px;
@@ -279,7 +279,7 @@ label {
 .section-1-left .btn-bottominfo span{
     float: none;
     width: 100%;
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 12px;
     font-family: montserratbold;
     text-align: left;
@@ -455,7 +455,7 @@ label {
     display: block;
 }
 .section-2-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -499,7 +499,7 @@ label {
 	padding-left:40px;
 }
 .section-3-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -564,7 +564,7 @@ label {
 	padding-top:20px;
 }
 .sec3-box2inner i{
-	color:#fb6c73;
+	color:#fb5f66;
 	font-size:36px;
 	display:block;
 	margin-bottom:10px;
@@ -583,7 +583,7 @@ label {
 	margin-bottom:15px;
 }
 .sec3-box2inner h4{
-	color:#fb6c73;
+	color:#fb5f66;
 	font-size:18px;
 	display:block;
 	margin-bottom:15px;
@@ -625,8 +625,8 @@ label {
     top: -60px;
 }
 .section-3 .btn-buildcal{
-    background: #fb6c73;
-	border:2px solid #fb6c73;
+    background: #fb5f66;
+	border:2px solid #fb5f66;
     color: #fff;
     float: none;
     font-size: 14px;
@@ -638,8 +638,8 @@ label {
 }
 .section-3 .btn-buildcal:hover{
     background:none;
-	border:2px solid #fb6c73;
-	color:#fb6c73;
+	border:2px solid #fb5f66;
+	color:#fb5f66;
 }
 .section-3 .btn-buildcal p{
     float: left;
@@ -677,7 +677,7 @@ label {
 	padding-left:0px;
 }
 .section-4-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratlight;
     text-align: left;
@@ -726,7 +726,7 @@ label {
 	padding-right:0px;
 }
 .section-5-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratlight;
     text-align: left;
@@ -778,7 +778,7 @@ label {
 	padding-right:35px;
 }
 .section-6-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratlight;
     text-align: left;
@@ -819,8 +819,8 @@ label {
     box-shadow: 0px 5px 28px 8px rgba(0,0,0,0.2);
 }
 .section-6 .btn-buildcal{
-    background: #fb6c73;
-	border:2px solid #fb6c73;
+    background: #fb5f66;
+	border:2px solid #fb5f66;
     color: #fff;
     float: none;
     font-size: 14px;
@@ -832,8 +832,8 @@ label {
 }
 .section-6 .btn-buildcal:hover{
     background:none;
-	border:2px solid #fb6c73;
-	color:#fb6c73;
+	border:2px solid #fb5f66;
+	color:#fb5f66;
 }
 .section-6 .btn-buildcal p{
     float: left;
@@ -872,7 +872,7 @@ label {
     display: block;
 }
 .section-7-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -947,7 +947,7 @@ label {
 .circle-value label{
     width: 76px;
     height: 76px;
-    border: 2px solid #fb6c73;
+    border: 2px solid #fb5f66;
     border-radius: 50%;
     color: #62696d;
     font-size: 18px;
@@ -1080,7 +1080,7 @@ label {
 
 
 .new-sec9-h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -1127,7 +1127,7 @@ label {
     display: block;
 }
 .section-9-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -1206,7 +1206,7 @@ label {
 
 
 .section-10{
-    background: #fb6c73;
+    background: #fb5f66;
     margin-bottom: 80px;
     margin-top: 0px;
 }
@@ -1506,7 +1506,7 @@ label {
     text-decoration: line-through;
 }
 .billing-white-top .btn-white-red-outline {
-    color: #fb545b;
+    color: #fb5f66;
     background-color: #fff;
     border-color: #ffb5b8;
     border-radius: 0;
@@ -1521,7 +1521,7 @@ label {
 
 .billing-white-top .btn-white-red-outline.hvr-sweep-to-right::before {
     background: #ffb5b8 none repeat scroll 0 0;
-    color: #fb545b !important;
+    color: #fb5f66 !important;
     text-rendering: optimizeLegibility;
 }
 /* End: billing-white-bottom */
@@ -1553,7 +1553,7 @@ label {
 }
 
 .billing-grey-top .border-center{
-    border-bottom: 2px solid #fb545b;
+    border-bottom: 2px solid #fb5f66;
     display: inline-block;
     width: 28px;
     position: relative;
@@ -1608,7 +1608,7 @@ label {
 }
 
 .billing-grey-top .btn-white-red-outline {
-    color: #fb545b;
+    color: #fb5f66;
     background-color: #fff;
     border-color: #ffb5b8;
     border-radius: 0;
@@ -1623,7 +1623,7 @@ label {
 
 .billing-grey-top .btn-white-red-outline.hvr-sweep-to-right::before {
     background: #ffb5b8 none repeat scroll 0 0;
-    color: #fb545b !important;
+    color: #fb5f66 !important;
     text-rendering: optimizeLegibility;
 }
 
@@ -1785,7 +1785,7 @@ label {
     font-size: 10px;
     padding: 3px 5px;
     color: #fff;
-    background-color: #fb545b;
+    background-color: #fb5f66;
     text-transform: uppercase;
     top: -5px;
     right: -7px;
@@ -1799,7 +1799,7 @@ label {
     position: absolute;
     display: block;
     border-style: solid;
-    border-color: #fb545b transparent transparent transparent;
+    border-color: #fb5f66 transparent transparent transparent;
     bottom: -7px;
     text-rendering: optimizeLegibility;
 }
@@ -1813,7 +1813,7 @@ label {
     top: 0;
     border-width: 10px 10px;
     border-style: solid;
-    border-color: #fb545b #fb545b #fb545b transparent;
+    border-color: #fb5f66 #fb5f66 #fb5f66 transparent;
     text-rendering: optimizeLegibility;
 }
 
@@ -1978,7 +1978,7 @@ label {
 .billingpricing-text i{font-size: 54px;color: rgba(251,108,115,0.8);} 
 .billingpricing-text h4{font-size: 22px;} 
 .billingpricing-text p{	margin-left: 110px;	margin-right: 110px;} 
-.billingpricing-text p a{color: #fb545b;} 
+.billingpricing-text p a{color: #fb5f66;} 
 
 
 #route {
@@ -2206,7 +2206,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: rgba(251,108,115,0.8);
+  background: fb5f66;
 }
 .swiper-pagination-white .swiper-pagination-bullet-active {
   background: #fff;
@@ -2717,7 +2717,7 @@ button.swiper-pagination-bullet {
 
 #feature .collag-left .collage-red{
     float: right;
-    background: #fb6c73;
+    background: #fb5f66;
     width: 184px;
     height: 184px;
     padding: 35px 18px;
@@ -2734,7 +2734,7 @@ button.swiper-pagination-bullet {
 
 #feature .collag-right .collage-red{
     float: right;
-    background: #fb6c73;
+    background: #fb5f66;
     width: 184px;
     height: 184px;
     padding: 35px;
@@ -2764,13 +2764,13 @@ button.swiper-pagination-bullet {
     width: 100%;
     font-size: 48px;
     font-family: montserratbold;
-    color: #fb6c73;
+    color: #fb5f66;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
 #feature .section-4-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratlight;
     text-align: left;
@@ -2799,7 +2799,7 @@ button.swiper-pagination-bullet {
 	background:#fff;
 }
 #feature .section-9-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -2811,7 +2811,7 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section-9-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -2879,8 +2879,8 @@ button.swiper-pagination-bullet {
 
 #feature .section-7 .section-9-left .btn-exploreTemp {
     background: #fff;
-    border: 1px solid #fb6c73;
-    color: #fb6c73;
+    border: 1px solid #fb5f66;
+    color: #fb5f66;
     float: left;
     margin-top: 20px;
 }
@@ -2897,7 +2897,7 @@ button.swiper-pagination-bullet {
     padding-left: 90px;
 }
 #feature .section-f1-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -2975,7 +2975,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f2-left span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -2989,7 +2989,7 @@ button.swiper-pagination-bullet {
     margin-top: 15px;
 }
 #feature .section-f2 .section-f2-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -3039,7 +3039,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f2-left span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3077,12 +3077,12 @@ button.swiper-pagination-bullet {
 
 #feature .section-7 .section-9-left .btn-exploreTemp.hvr-sweep-to-right:before {
     color: #fff !important;
-    background: #fb6c73 none repeat scroll 0 0 !important;
+    background: #fb5f66 none repeat scroll 0 0 !important;
 }
 
 #feature .section-7 .section-9-left .btn-exploreTemp span {
     float: left;
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 14px;
     text-transform: uppercase;
     font-family: montserratsemibold;
@@ -3091,13 +3091,13 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section-7 .section-9-left .btn-exploreTemp i.material-icons{
-    color: #fb6c73;
+    color: #fb5f66;
     float: left;
     font-size: 26px;
 }
 
 #feature .section-4 .section-4-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -3125,7 +3125,7 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section.section-5 span {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: center;
@@ -3216,8 +3216,8 @@ button.swiper-pagination-bullet {
 
 #feature .section-7 .section-9-left .btn-buildCalc {
     background: #fff;
-    border: 1px solid #fb6c73;
-    color: #fb6c73;
+    border: 1px solid #fb5f66;
+    color: #fb5f66;
     float: left;
     margin-top: 20px;
     padding: 0;
@@ -3228,14 +3228,14 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section-7 .section-9-left .btn-buildCalc i.material-icons {
-    color: #fb6c73;
+    color: #fb5f66;
     float: left;
     font-size: 26px;
 }
 
 #feature .section-7 .section-9-left .btn-buildCalc span {
     float: left;
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 14px;
     text-transform: uppercase;
     font-family: montserratsemibold;
@@ -3245,7 +3245,7 @@ button.swiper-pagination-bullet {
 
 #feature .section-7 .section-9-left .btn-buildCalc div:hover,
 #feature .section-7 .section-9-left .btn-buildCalc div.active{
-    background: #fb6c73 none repeat scroll 0 0 !important;
+    background: #fb5f66 none repeat scroll 0 0 !important;
     color: #fff;
 }
 
@@ -3258,7 +3258,7 @@ button.swiper-pagination-bullet {
 
 #feature .section-7 .section-9-left .btn-buildCalc.hvr-sweep-to-right:before {
     color: #fff !important;
-    background: #fb6c73 none repeat scroll 0 0 !important;
+    background: #fb5f66 none repeat scroll 0 0 !important;
 }
 
 #feature .sec-integration{
@@ -3280,7 +3280,7 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section-6.sec-analytics h1 {
-    color: #fb6c73 !important;
+    color: #fb5f66 !important;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: center;
@@ -3306,7 +3306,7 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section-6.sec-integration h1 {
-    color: #fb6c73 !important;
+    color: #fb5f66 !important;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: center;
@@ -3359,7 +3359,7 @@ button.swiper-pagination-bullet {
 }
 
 #feature .section.section-10.sec-help{
-    background: #fb6c73;
+    background: #fb5f66;
     margin-bottom: 0px;
     min-height: 290px;
 }
@@ -3403,7 +3403,7 @@ button.swiper-pagination-bullet {
 }
 
 #feature .sec-analytics span.circle.active {
-    background: #fb6c73;
+    background: #fb5f66;
     width: 6px;
     height: 6px;
     float: left;
@@ -3443,7 +3443,7 @@ button.swiper-pagination-bullet {
     padding-top: 0;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    background: #fb6c73;
+    background: #fb5f66;
 }
 #feature .feature-heading{
 	    float: left;
@@ -3494,7 +3494,7 @@ button.swiper-pagination-bullet {
     margin-bottom: 60px;
 }
 #feature .section-15 .section-15-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -3539,7 +3539,7 @@ button.swiper-pagination-bullet {
     margin-right: 10px;
     float: left; */
 	font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3565,7 +3565,7 @@ button.swiper-pagination-bullet {
     padding-left: 120px;
 }
 #feature .section-17 .section-17-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -3581,7 +3581,7 @@ button.swiper-pagination-bullet {
     margin-right: 10px;
     float: left; */
 	font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3601,14 +3601,14 @@ button.swiper-pagination-bullet {
 }
 .icon-style{
 	font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
 }
 #feature .section-4-left span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3668,7 +3668,7 @@ button.swiper-pagination-bullet {
     width: 100%;
     font-size: 72px;
     font-family: montserratsemibold;
-    color: #fb6c73;
+    color: #fb5f66;
     text-transform: uppercase;
     margin-bottom:0px;
     margin-top: 0px;
@@ -3784,7 +3784,7 @@ button.swiper-pagination-bullet {
 #why .section-w2-left h4 {
     width: 80%;
     font-family: montserratUltra_light;
-	color: #fb6c73;
+	color: #fb5f66;
     font-size: 30px;
     text-align: left;
     float: left;
@@ -3800,20 +3800,20 @@ button.swiper-pagination-bullet {
 }
 #why .section-w2-left span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
 }
 #why .section-w1-left span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
 }
 #why .section-w1-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratUltra_light;
     text-align: left;
@@ -3843,7 +3843,7 @@ button.swiper-pagination-bullet {
     margin-bottom: 10px;
 }
 #why .section-w3-text h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratultra_light;
     text-align: left;
@@ -3858,7 +3858,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-w3-left span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3873,7 +3873,7 @@ button.swiper-pagination-bullet {
 }
 
 #why .section-w3-text h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratultra_light;
     text-align: left;
@@ -3884,7 +3884,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-w3-text span i {
 	font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -3953,7 +3953,7 @@ button.swiper-pagination-bullet {
 
 #why .collag-left i{
 	margin-top: 4%;
-    color: #fb6c73;
+    color: #fb5f66;
 }
 
 #why .collag-left a.collag3 {
@@ -3965,7 +3965,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-2-heading{
 	font-family: montserratUltra_light;
-    color: #fb6c73;
+    color: #fb5f66;
 }
 #why .sec4-2{
     position: absolute;
@@ -4016,7 +4016,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-4-left span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -4064,7 +4064,7 @@ button.swiper-pagination-bullet {
     display: block;
 }
 #why .section-7-left h4{
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 36px;
     font-family: montserratultra_light;
     text-align: left;
@@ -4145,7 +4145,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-16-left span i {
     font-size: 90px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -4187,7 +4187,7 @@ button.swiper-pagination-bullet {
     margin-right: 10px;
     float: left; */
 	font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
@@ -4208,7 +4208,7 @@ button.swiper-pagination-bullet {
 }
 
 #why .section-16-left h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratultra_light;
     text-align: left;
@@ -4243,13 +4243,13 @@ button.swiper-pagination-bullet {
 }
 #why .section-16-text span i {
     font-size: 60px;
-    color: #fb6c73;
+    color: #fb5f66;
     position: relative;
     margin-right: 10px;
     float: left;
 }
 #why .section-16-text h4 {
-    color: #fb6c73;
+    color: #fb5f66;
     font-size: 30px;
     font-family: montserratultra_light;
     text-align: left;
@@ -4287,7 +4287,7 @@ button.swiper-pagination-bullet {
     padding-top: 0;
     padding-bottom: 0px;
     margin-bottom: 30px;
-    background: #fb6c73;
+    background: #fb5f66;
 	padding:30px 0px;
 }
 #why .section-top-why h3{
@@ -4537,7 +4537,7 @@ iframe{
 #pricing .accordion-section-title {
 	background-color: #fff;
 	display:inline-block;
-    color: #fb6c73;
+    color: #fb5f66;
     cursor: pointer;
     padding: 15px;
     width: 100%;
@@ -4633,7 +4633,7 @@ iframe{
 
 #pricing .pricing-headingtop{
     float: left;
-    background: #fb6c73;
+    background: #fb5f66;
     min-height:485px;
 }
 #pricing .pricing-headingtop h3{

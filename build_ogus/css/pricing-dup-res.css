@@ -119,7 +119,7 @@
 	
 	#pricing .loader{
 		margin-left: 0px;
-		color:#fb6c73;
+		color:#fb5f66;
 	}
     .rs-text-center{text-align: center;}
     .allPlans-blocks-right {margin-left: 0px;}
@@ -214,7 +214,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		display: inline-block;
-		background: #fb6c73;
+		background: #fb5f66;
 		border-radius: 4px;
 		padding: 11px 30px;
 		font-size: 13px;
@@ -301,7 +301,7 @@
 @media (min-width: 991px) and (max-width:1024px) {
 	#pricing .loader{
 		margin-left: 38%;
-		color:#fb6c73;
+		color:#fb5f66;
 	}
 	#pricing .container-faqs {
 		width: 800px;

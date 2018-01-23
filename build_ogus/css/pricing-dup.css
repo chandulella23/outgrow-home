@@ -106,7 +106,7 @@ label {
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     background: #fdb6b9 !important;
-    color: #fb545b !important;
+    color: #fb5f66 !important;
     border-color: #fdb6b9 !important;
 }
 
@@ -182,7 +182,7 @@ label {
 		font-size: 10px;
 		padding: 3px 5px;
 		color: #fff;
-		background-color: #fb545b;
+		background-color: #fb5f66;
 		text-transform: uppercase;
 		top: -5px;
 		right: -7px
@@ -194,7 +194,7 @@ label {
 		position: absolute;
 		display: block;
 		border-style: solid;
-		border-color: #fb545b transparent transparent;
+		border-color: #fb5f66 transparent transparent;
 		bottom: -7px;
 		text-rendering: optimizeLegibility
 	}
@@ -207,7 +207,7 @@ label {
 		top: 0;
 		border-width: 10px;
 		border-style: solid;
-		border-color: #fb545b #fb545b #fb545b transparent;
+		border-color: #fb5f66 #fb5f66 #fb5f66 transparent;
 		text-rendering: optimizeLegibility
 	}
 /* ribbon */
@@ -263,7 +263,7 @@ label {
 		color: #fb5f66 !important
 	}
 	.custom-navbar .link-login {
-		color: #fb6c73 !important;
+		color: #fb5f66 !important;
 		font-family: montserratbold
 	}
 	.custom-navbar .link-login:hover {
@@ -278,14 +278,14 @@ label {
 		padding: 6px 10px !important;
 		line-height: 1 !important;
 		font-size: 12px!important;
-		border: 2px solid #f8434b !important;
+		border: 2px solid #fb5f66 !important;
 		margin-top: 13px;
 	}
 	.custom-navbar .signUp-style a:hover ,.custom-navbar .signUp-style a:focus{
 		opacity: 1;
 		background: #fb757b !important;
 		color: #fff !important;
-		border: 2px solid #f8434b !important;
+		border: 2px solid #fb5f66 !important;
 	}
 	.nav-boxshadow {
 		box-shadow: 0 2px 9px 1px rgba(0, 0, 0, .2);
@@ -481,7 +481,7 @@ label {
 		float: left;
 		width: 100%;
 		text-align: center;
-		color: #fa5d64 !important;
+		color: #fb5f66 !important;
 		font-size: 38px;
 		font-family: montserratsemibold;
 		text-transform: none;
@@ -518,7 +518,7 @@ label {
 		text-align: center
 	}
 	#pricing .enterprise-box-new span.border-center {
-		border-bottom: 2px solid #fb545b;
+		border-bottom: 2px solid #fb5f66;
 		display: inline-block;
 		width: 28px;
 		position: relative;
@@ -534,7 +534,7 @@ label {
 	}
 	#pricing .enterprise-box-new .btn-white-red-outline {
 		color: #fff;
-		background-color: #fb545b;
+		background-color: #fb5f66;
 		border-color: #ffb5b8;
 		border-radius: 0;
 		font-size: 11px;
@@ -550,7 +550,7 @@ label {
 		transition: .5s ease-in-out;
 		background: #fb757b !important;
 		color: #fff !important;
-		border-color: #f8434b !important;
+		border-color: #fb5f66 !important;
 	}
 	#pricing .enterprise-box-new span.sub-title {
 		font-size: 14px;
@@ -632,8 +632,8 @@ label {
 		text-align: center;
 	}
 	.start-trial-cta .btn-buildcal {
-		background: #fb6c73;
-		border: 2px solid #fb6c73;
+		background: #fb5f66;
+		border: 2px solid #fb5f66;
 		color: #fff;
 		float: none;
 		font-size: 14px;
@@ -646,7 +646,7 @@ label {
 	.start-trial-cta .btn-buildcal:hover {
 		background: #fb757b;
 		color: #fff;
-		border-color: #f8434b;
+		border-color: #fb5f66;
 	}
 	.start-trial-cta .btn-buildcal i {
 		display: inline-block;
@@ -671,8 +671,8 @@ label {
 		margin: 0px 0px 50px;
 	}
 	.bg1-img .btn-buildcal {
-		background: #fb6c73;
-		border: 2px solid #fb6c73;
+		background: #fb5f66;
+		border: 2px solid #fb5f66;
 		color: #fff;
 		float: none;
 		font-size: 14px;
@@ -726,7 +726,7 @@ label {
 	#pricing .accordion-section-title {
 		background-color: #fff;
 		display: inline-block;
-		color: #fb6c73;
+		color: #fb5f66;
 		cursor: pointer;
 		padding: 15px;
 		width: 100%;
@@ -1064,7 +1064,7 @@ label {
 			text-decoration: none;
 			text-transform: uppercase;
 			display: block;
-			background: #fb6c73;
+			background: #fb5f66;
 			border-radius: 4px;
 			padding: 9px 10px;
 			font-size: 13px;
@@ -1474,7 +1474,7 @@ tbody tr:last-child td.active-bg {
     float: left;
     width: 100%;
     text-align: center;
-    color: #fa5d64 !important;
+    color: #fb5f66 !important;
     font-size: 38px;
     font-family: montserratsemibold;
     text-transform: none;
@@ -1483,7 +1483,7 @@ tbody tr:last-child td.active-bg {
 }
 a.link-contact.intercom_trigger {
     font-size: 11px;
-    color: #f66b74;
+    color: #fb5f66;
     text-decoration: underline;
     text-transform: uppercase;
     background: transparent;
@@ -1515,4 +1515,8 @@ a.link-contact.intercom_trigger:hover {
     color: #98a1a7;
 	line-height: 26px;
 	margin-bottom: 30px;
+}
+.badge-g2crowd {
+    margin-top: 45px;
+    padding-right: 0px !important;
 }
