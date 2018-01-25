@@ -4876,6 +4876,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		margin-top: 65px !important;
 		width: 43% !important;
 	}
+	.sec-outgrowMagic img.thumb-calc {height: 110px;}
 
 }
 @media (min-width:991px) and (max-width:1024px){
@@ -19045,4 +19046,8 @@ img.uni1 {
 .badge-g2crowd {
 	margin-top: 45px;
     padding-right: 0px !important;
+}
+.iframe-outer {
+    width: 100%;
+    float: left;
 }
