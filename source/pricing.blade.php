@@ -862,9 +862,9 @@
 
 	<section class="section section-faq">
 		<div class="container">
-			<h1 class="section-2-heading mk-animate-element scale-up">
+			<div class="section-2-heading mk-animate-element scale-up">
 				Frequently Asked Questions
-			</h1>
+			</div>
 		</div>
 	</section>
 	<section class="section mk-animate-element scale-up">

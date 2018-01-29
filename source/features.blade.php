@@ -648,9 +648,9 @@
 
 	<section class="section sec-integrations">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up ">
+			<div class="section-2-heading mk-animate-element scale-up ">
 				Over 500 Integrations
-			</h1>
+			</div>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
 				 Easily Integrate with Over 500 sales & marketing tools
 			</h5>

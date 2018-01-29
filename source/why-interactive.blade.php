@@ -55,9 +55,9 @@
 
 	<section class="section section-3 p20 calc-table">
 		<div class="container">
-			<h1 class="section-2-heading">
+			<div class="section-2-heading">
 				Calculators & quizzes:<br/> The Next Big Thing in Marketing
-			</h1>
+			</div>
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -530,9 +530,9 @@
 	<!-- Section-16 why calculators ends -->
 	<section class="section last-sec">
 		<div class="container mobile-container">
-			<h1 class="section-2-heading mk-animate-element scale-up">
+			<div class="section-2-heading mk-animate-element scale-up">
 				Easy to Create
-			</h1>
+			</div>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
 				Now create calculators in just 10 mins. A lot less than what goes into writing a respectable blog post.
 			</h5>

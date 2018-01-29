@@ -45,9 +45,9 @@
 	<div class="section-main sec-example">
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
-				<h1 class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
+				<div class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
 					Outgrow In Practice
-				</h1>
+				</div>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
 					Get inspired by some of our most successful calculators & quizzes!
 				</h5>
