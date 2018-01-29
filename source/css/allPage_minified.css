@@ -19021,11 +19021,11 @@ img.uni1 {
 	.swiper-container-ranking .swiper-content span,
 	.swiper-container-ranking-res .swiper-content span
 	 {
-		font-size: 13px;
+		font-size: 14px;
 		color: #fff;
 		font-family: montserratlight;
 		display: block;
-		opacity: 0.7;
+		 /* opacity: 0.7;  */
 	}
 	.swiper-container-ranking .swiper-pagination-bullet-active,
 	.swiper-container-ranking-res .swiper-pagination-bullet-active{
