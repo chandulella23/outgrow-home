@@ -3484,7 +3484,7 @@ button.swiper-pagination-bullet {
 	display: block;
 	background: 0 0
 }
-#feature .container.container-center h1 {
+#feature .container.container-center h4{
 	color: #fff !important;
 	font-size: 24px;
 	font-family: montserratlight;
@@ -3494,7 +3494,8 @@ button.swiper-pagination-bullet {
 	display: block;
 	text-transform: none;
 	margin-bottom: 30px;
-	margin-top: 0
+	margin-top: 0;
+	opacity: 1;
 }
 #feature .section-7 .section-9-left .btn-buildCalc {
 	background: #fff;
