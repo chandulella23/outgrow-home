@@ -9,3 +9,5 @@ robots.txt
 /source/.htaccess
 /build_ogps/.htaccess
 /build_ogus/.htaccess
+/blog
+/resources

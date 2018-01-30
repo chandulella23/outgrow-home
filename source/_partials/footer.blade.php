@@ -72,6 +72,9 @@
 					</div>
 				</div>
 			</div>
+			<!-- <div class="col-xs-12 col-sm-1 footer-link badge-g2crowd">
+				<img class="g2crowd"  src="{{ $page->baseUrl }}/images/badge_g2crowd.svg">
+			</div> -->
 		</div>
 		<div class="col-xs-12 np footer-social">
 			<ul>
@@ -80,7 +83,7 @@
 				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>				
 				<li class="border-left"><a href="{{ $page->baseUrl }}/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
 				<li><a href="{{ $page->baseUrl }}/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
-				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
+				<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact Us</a></li>
 				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
 			<div class="footer-copyright">
