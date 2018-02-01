@@ -644,7 +644,7 @@
         padding-left: 0
     }
     .footer-img2 {
-        min-height: 165px
+        min-height: 140px
     }
     .billingpricing-text p {
         margin: 0 0 45px
@@ -772,7 +772,10 @@
 		margin: 0 !important;
 		text-align: center;
 	}
-	.badge-g2crowd img.g2crowd {width: 20%;}
+    .badge-g2crowd img.g2crowd {
+        width: 30% !important;
+    }
+     .col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;}
 
 }
 
@@ -847,7 +850,7 @@
     }
     .footer-img2 {
         padding-left: 0;
-        min-height: 165px
+        min-height: 155px
     }
     .section-7-left h4,
     .section-9-left h4 {
@@ -1001,6 +1004,7 @@
     .w100 {
         width: 100%
     }
+    .badge-g2crowd img.g2crowd {width: 15% !important;}
 }
 
 @media (min-width:690px) and (max-width:768px) {
@@ -1841,7 +1845,7 @@
         padding-left: 0
     }
     .footer-img2 {
-        min-height: 165px
+        min-height: 140px
     }
     .billingpricing-text p {
         margin: 0 0 45px
@@ -3547,6 +3551,15 @@
     }
 }
 
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .badge-g2crowd img {
+        width: 12% !important;
+    }
+
+
+
+}
+
 @media only screen and (min-width:601px) and (max-width:1000px) {
     .full_screen_holder {
         margin-top: -50px
@@ -5226,7 +5239,9 @@
 @media only screen and (max-width:380px) {    
     .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;
 }
-
+@media only screen and (min-width:480px) and (max-width:767px){
+	.footer-link ul li {width: 50% !important;}
+}
 @media only screen and (max-width:1024px) {
     .cards,
     .cards .card {
@@ -5246,9 +5261,7 @@
         right: 30px
     }
 }
-@media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50%;}
-}
+
 
 @media only screen and (max-width:480px) {
     .qode-card-slider-holder-outer .controls.arrows .button,
@@ -5495,5 +5508,4 @@
 
 
 /* end: top header responsive */
-
 
