@@ -173,11 +173,29 @@
                             <td class="active-bg"><span class="full"></span>Unlimited</td>
                             <td><span class="full"></span>Unlimited</td>
                         </tr>
-                        <tr class="not-info">
+                        <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Collaborators</th>
                             <td><span class="quater"></span>1</td>
                             <td class="active-bg"><span class="half"></span>3</td>
                             <td><span class="full"></span>10</td>
+                        </tr> -->
+                        <tr class="expand">
+                            <th>
+                                <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i> Templates and Layouts
+                            </th>
+                            <td class="expand-child">
+                                <span class="quater"></span>Basic Templates & Layout
+                                <span class="detail">Only the classic "Chicago" layout and templates.</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>All Templates & Layouts
+                                <span class="detail">All layouts and templates are unlocked.</span>
+                            </td>
+                            <td class="expand-child">
+                                <span class="full"></span>All Templates & Layouts
+                                <span class="detail">All layouts and templates are unlocked.</span>
+                            </td>
                         </tr>
                         <tr class="expand">
                             <th>
@@ -419,6 +437,24 @@
                         <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i> Advanced Features
+                            </th>
+                            <td class="expand-child">
+                                <span class="none"></span>No Access
+                                <!-- <span class="detail"></span> -->
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
+                            </td>
+                            <td class="expand-child">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
+                            </td>           
+                        </tr>
+                        <tr class="expand">
+                            <th>
+                                <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i> 
                                 Support
                             </th>
@@ -469,9 +505,18 @@
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="quater"></span>3</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="full"></span>1</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Templates and Layouts
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
+                                    <span class="detail">Only the classic "Chicago" layout and templates.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -587,6 +632,15 @@
                                     <span class="feature-subtitle"><span class="half"></span>Full Analytics Report</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses</span>
                                 </li>
+                                <li>
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Advanced Features
+                                    </span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
+                                    <!-- <span class="detail"></span> -->
+                                </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -635,9 +689,18 @@
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Templates and Layouts
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>All Templates & Layouts </span>
+                                    <span class="detail">All layouts and templates are unlocked.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -758,6 +821,15 @@
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
+                                        Advanced Features
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                     <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic</span>
@@ -803,9 +875,18 @@
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="full"></span>10</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Templates and Layouts
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>All Templates & Layouts </span>
+                                    <span class="detail">All layouts and templates are unlocked.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -927,6 +1008,15 @@
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
+                                        Advanced Features
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                     <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Priority</span>
@@ -969,9 +1059,9 @@
     <!-- old faq -->
 	<section class="section section-faq hide">
 		<div class="container">
-			<h1 class="section-2-heading mk-animate-element scale-up">
+			<div class="section-2-heading mk-animate-element scale-up">
 				Frequently Asked Questions
-			</h1>
+			</div>
 		</div>
 	</section>
 	<section class="section hide">
