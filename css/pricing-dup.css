@@ -332,7 +332,7 @@ label {
 		min-height: 100px
 	}
 	.footer-img2 img {
-		border: 1px solid #bdc5c8
+		/* border: 1px solid #bdc5c8 */
 	}
 	.footer-img2text {
 		float: left;
@@ -448,7 +448,7 @@ label {
 		width: 100%;
 		background: #fafafa;
 		margin: 0;
-		padding-top: 30px;
+		padding-top: 85px;
 		padding-bottom: 10px;
 		min-height: 250px;
 	}
@@ -458,7 +458,7 @@ label {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		padding: 70px 0
+		padding: 70px 0 90px;
 	}
 /* end: section */
 
@@ -1516,7 +1516,44 @@ a.link-contact.intercom_trigger:hover {
 	line-height: 26px;
 	margin-bottom: 30px;
 }
+.col-sm-2.footer-link {
+    width: 20%;
+}
+.col-sm-4.footer-link {
+    width: 40%;
+}
+.footer-social ul li.social-icons {
+    padding: 0 3px;
+}
+i.zmdi.zmdi-facebook-box {
+    font-size: 16px;
+    color: #3f529c;
+}
+i.zmdi.zmdi-linkedin-box {
+    font-size: 16px;
+    color: #0077b7;
+}
+i.zmdi.zmdi-twitter-box {
+    font-size: 16px;
+    color: #55acee;
+}
+.footer-social ul li:nth-child(4) {
+    padding-left: 17px;
+}
+.footer-social ul li.social-icons a i {
+    vertical-align: middle;
+}
 .badge-g2crowd {
-    margin-top: 45px;
+    /* margin-top: 45px; */
     padding-right: 0px !important;
+    position: absolute;
+    top: -142px;
+    padding: 0px;
+    margin: 0 auto;
+    float: none;
+	width: 100%;
+	text-align: center;
+}
+.badge-g2crowd img{
+	width: 8%;
 }
