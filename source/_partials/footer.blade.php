@@ -43,13 +43,13 @@
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-tools1.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Calculate the ROI of using Outgrow</a>
+						<a href="https://influencers.outgrow.us/roi-of-outgrow">Calculate the ROI of using Outgrow</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-tools2.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Generate ideas for quizzes and calculators</a>
+						<a href="https://outgrow.co/idea-generation/">Generate ideas for quizzes and calculators</a>
 					</div>
 				</div>
 			</div>
@@ -58,25 +58,25 @@
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog1.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Highest-performing Interactive Quizzes and Calculators</a>
+						<a href="https://outgrow.co/blog/top-10-interactive-quizzes-calculators-2017">Highest-performing Interactive Quizzes and Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog2.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">How to Make Quizzes and Calculators Engaging</a>
+						<a href="https://outgrow.co/blog/interactive-content-engagement-tips">How to Make Quizzes and Calculators Engaging</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog3.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Get Paid for your Pad Interactive Marketing Success Story</a>
+						<a href="https://outgrow.co/blog/get-paid-for-your-pad-interactive-marketing-success-story">Get Paid for your Pad Interactive Marketing Success Story</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog4.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">How an interactive calculator generated 11,592 qualified leads</a>
+						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/">How an interactive calculator generated 11,592 qualified leads</a>
 					</div>
 				</div>
 			</div>
