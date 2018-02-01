@@ -21,6 +21,7 @@
 
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
 @endsection
 
 @section('pageClass', '')
@@ -30,6 +31,7 @@
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<!-- <script src="{{ $page->baseUrl }}/js/jssor.min.js"></script>  -->
+	
 	
 	<section class="section section-1">
 		<div class="container-fluid">
