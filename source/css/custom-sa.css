@@ -3618,7 +3618,8 @@ button.swiper-pagination-bullet {
 	background: #fb5f66;
 	margin-bottom: 0;
 	min-height: 290px;
-	margin-top: 0
+	margin-top: 0;
+	padding-bottom: 50px;
 }
 #feature .section.section-10.sec-help span {
 	font-size: 18px;
@@ -5171,7 +5172,7 @@ button.swiper-pagination-bullet {
 	list-style: disc
 }
 .Privacy .section-services {
-	margin-bottom: 60px
+	margin-bottom: 90px
 }
 .Privacy p a {
 	color: #fb5f66
@@ -6410,18 +6411,10 @@ iframe[name=google_conversion_frame] {
     padding: 0px 0 0 15px;
 }
 .badge-g2crowd {
-    /* margin-top: 45px; */
-    padding-right: 0px !important;
     position: absolute;
-    top: -142px;
-    padding: 0px;
-    margin: 0 auto;
-    float: none;
-	width: 100%;
-	text-align: center;
-}
-.badge-g2crowd img{
-	width: 8%;
+    top: -150px;
+    width: 100px;
+    left: 46%;
 }
 
 .col-sm-2.footer-link {

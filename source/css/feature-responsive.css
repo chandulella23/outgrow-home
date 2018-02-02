@@ -243,6 +243,7 @@
 	#feature .section-10{
 		margin-top:0px;
 		margin-bottom:30px;
+		padding-bottom: 35px !important;
 	}
 	#feature .sec-style{
 		margin-top:0px;
@@ -793,6 +794,7 @@
 	#feature .section-10{
 		margin-top:30px;
 		margin-bottom:50px;
+		padding-bottom: 0px !important;
 	}
 	#feature .sec-style{
 		margin-top:0px;

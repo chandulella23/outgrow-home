@@ -1544,16 +1544,8 @@ i.zmdi.zmdi-twitter-box {
     vertical-align: middle;
 }
 .badge-g2crowd {
-    /* margin-top: 45px; */
-    padding-right: 0px !important;
     position: absolute;
-    top: -142px;
-    padding: 0px;
-    margin: 0 auto;
-    float: none;
-	width: 100%;
-	text-align: center;
-}
-.badge-g2crowd img{
-	width: 8%;
+    top: -150px;
+    width: 100px;
+    left: 46%;
 }

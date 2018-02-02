@@ -2,6 +2,9 @@
 <section class="section section-14" id="footer">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 np">
+			<div class="badge-g2crowd">
+				<img class="g2crowd"  src="{{ $page->baseUrl }}/images/badge_g2crowd.svg">
+			</div> 
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 				<h4>Menu</h4>
 				<ul>
@@ -80,9 +83,6 @@
 					</div>
 				</div>
 			</div>
-			 <div class="col-xs-12 col-sm-1 badge-g2crowd">
-				<img class="g2crowd"  src="{{ $page->baseUrl }}/images/badge_g2crowd.svg">
-			</div> 
 		</div>
 		<div class="col-xs-12 np footer-social">
 			<ul>
