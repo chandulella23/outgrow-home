@@ -18998,7 +18998,8 @@ img.uni1 {
 	.swiper-container-ranking-res .swiper-slide {padding: 20px 20px 0;}
 	.swiper-container-ranking .swiper-slide img,
 	.swiper-container-ranking-res .swiper-slide img {
-		  box-shadow: 0 5px 20px rgba(0,0,0,.10); 
+		box-shadow: 0 5px 20px rgba(0,0,0,.10); 
+		border-radius: 5px 5px 0px 0px;
 	} 
 	.swiper-container-ranking .swiper-pagination,
 	.swiper-container-ranking-res .swiper-pagination {
@@ -19042,7 +19043,7 @@ img.uni1 {
 	.swiper-container-ranking .swiper-pagination-bullet,
 	.swiper-container-ranking-res .swiper-pagination-bullet {width: 11px; height: 11px;}
 	.swiper-container-ranking .swiper-slide.swiper-slide-active {
-		width: 57% !important;
+		width: 58% !important;
 	}
 	.swiper-container-ranking .swiper-slide.swiper-slide-next, 
 	.swiper-container-ranking .swiper-slide.swiper-slide-prev {
