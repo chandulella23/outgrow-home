@@ -545,7 +545,7 @@
 			<div class="case-breathers-rightSide new-yk">
 				<div class="heading fnt-chnge">Who could have guessed?</div>
 				<h5 class="subheading">
-					<span class="font-semibold">New York Times,</span> 
+					<span class="font-semibold">New York Times'</span> 
 					most successful content is actually a <span class="font-semibold">quiz!</span>
 				</h5>
 				<a href="http://resources.outgrow.co/top-viral-calculators" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>

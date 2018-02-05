@@ -92,12 +92,12 @@
 				<li class=""><a href="{{ $page->baseUrl }}/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
 				<li><a href="{{ $page->baseUrl }}/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
 				<!-- <li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact Us</a></li> -->
-				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>				
+				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
 			<ul>
-				<li class="social-icons"><a href="javascript:void(0);"><i class="zmdi zmdi-facebook-box"></i></a></li>
-				<li class="social-icons"><a href="javascript:void(0);"><i class="zmdi zmdi-linkedin-box"></i></a></li>
-				<li class="social-icons"><a href="javascript:void(0);"><i class="zmdi zmdi-twitter-box"></i></a></li>
+				<li class="social-icons"><a href="https://www.facebook.com/OutgrowCo/" target="_blank"><i class="zmdi zmdi-facebook-box"></i></a></li>
+				<li class="social-icons"><a href="https://www.linkedin.com/company/7966190/" target="_blank"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+				<li class="social-icons"><a href="https://twitter.com/outgrowco" target="_blank"><i class="zmdi zmdi-twitter-box"></i></a></li>
 			</ul>
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>

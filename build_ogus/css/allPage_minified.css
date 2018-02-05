@@ -3592,7 +3592,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.center{text-align:center}
 	.img-container{padding:0!important}
 	.footer-img2,.footer-img2text{padding-left:0}
-	.footer-img2{min-height:150px}
+	.footer-img2{min-height:160px}
 	.billingpricing-text p{margin:0 0 45px}
 	.vc_row{margin-left:0!important;margin-right:0!important}
 	.section-7-left h4,.section-9-left h4{margin-top:30px;font-size:24px}
@@ -3833,12 +3833,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			padding-bottom: 15px;
 		}
 
-	/* end: homepage responsive by arti */
-	.badge-g2crowd{
-		margin: 0 !important;
-		text-align: center;
-	}
-	.badge-g2crowd img.g2crowd {width: 30% !important;}
+	/* end: homepage responsive by arti */	
 	.footer-social ul li {
 		padding-left: 7px !important;
 		padding-right: 7px !important;
@@ -3853,7 +3848,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 }
 
 @media (min-width:320px) and (max-width:320px){
-	.section-14 .footer-img2{min-height:162px;padding-left:0}
+	.section-14 .footer-img2{min-height:135px;padding-left:0}
 	.sahil-material .claim-cta .form-group .form-control {
 	    padding-right: 90px;
 	}
@@ -3969,12 +3964,15 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec4-2{position:absolute;left:52%;top:-4%;height:275px;box-shadow:2px 0 8px 2px rgba(0,0,0,.1)}
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:250px;padding:0}
 }
+@media (min-width:320px) and (max-width:440px){
+	.badge-g2crowd {left: 35% !important;}
+}
 @media (min-width:440px) and (max-width:768px){
 	.sahil-material .claim-cta .form-group .form-control {
 	    padding-right: 95px;
 	}
 	.text-1,.text-2{display:block!important;font-family:montserratregular!important;float:left!important;margin-left:10px}
-	.footer-img2{padding-left:0;min-height:155px}
+	.footer-img2{padding-left:0;min-height:160px; width: 50%;}
 	.section-7-left h4,.section-9-left h4{margin-top:30px}
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:270px}
 	.sec4-2{height:325px}
@@ -3991,6 +3989,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec5-2-1{width:100%;float:left;margin-top:0px;margin-left:0px}
 	#Testimonial .quote-container{margin-top:50px}
 	.section-2-subheading {font-size: 15px;font-family: montserratlight!important;}
+	.badge-g2crowd {left: 42% !important;}
 }
 @media (min-width:568px) and (max-width:568px){
 	.section-7-left h4,.section-9-left h4{margin-top:30px}
@@ -4068,7 +4067,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.swiper-slide.swiper-slide-next {
 		padding: 68px 0px !important;
 	}*/
-	.badge-g2crowd img.g2crowd {width: 15% !important;}
 
 
 }
@@ -4417,6 +4415,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 
 	/* homepage res changes by Arti */
 
+	.badge-g2crowd {left: 43% !important;}
+
 }
 @media (min-width:640px) and (max-width:768px){
 	/* .startTrial-outer {
@@ -4534,9 +4534,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		width: 7%;
 		top: 48% !important; 
 		left: 57% !important;
-	}
-	.badge-g2crowd img {
-		width: 12% !important;
 	}
 
 
@@ -18998,7 +18995,7 @@ img.uni1 {
 	.swiper-container-ranking .swiper-slide.swiper-slide-next, .swiper-container-ranking-res .swiper-slide.swiper-slide-next, .swiper-container-ranking .swiper-slide.swiper-slide-prev, .swiper-container-ranking-res .swiper-slide.swiper-slide-prev{
 		opacity: 0.6;
 	}
-	.swiper-container-ranking-res .swiper-slide {padding: 20px;}
+	.swiper-container-ranking-res .swiper-slide {padding: 20px 20px 0;}
 	.swiper-container-ranking .swiper-slide img,
 	.swiper-container-ranking-res .swiper-slide img {
 		  box-shadow: 0 5px 20px rgba(0,0,0,.10); 
@@ -19057,15 +19054,10 @@ img.uni1 {
 /* end: swiper slider for ranking section */
 
 .badge-g2crowd {
-    /* margin-top: 45px; */
-    padding-right: 0px !important;
     position: absolute;
-    top: -142px;
-    padding: 0px;
-    margin: 0 auto;
-    float: none;
-	width: 100%;
-	text-align: center;
+    top: -150px;
+    width: 100px;
+    left: 46%;
 }
 .iframe-outer {
     width: 100%;
@@ -19097,7 +19089,4 @@ i.zmdi.zmdi-twitter-box {
 }
 .footer-social ul li.social-icons a i {
     vertical-align: middle;
-}
-.badge-g2crowd img{
-	width: 8%;
 }
