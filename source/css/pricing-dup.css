@@ -1556,7 +1556,7 @@ i.zmdi.zmdi-twitter-box {
 }
 .ltd-plan h2 {
 	color: #fb545b;
-	min-height: 37px;
+	/*min-height: 37px;*/
 }
 .ltd-plan h3 {
     color: #fb545b !important;
