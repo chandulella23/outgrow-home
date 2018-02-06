@@ -172,7 +172,7 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the classic "Chicago" layout and templates.</span>
+                                <span class="detail">Only the classic Chicago and Londoner layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="half"></span>All Templates & Layouts
@@ -254,7 +254,7 @@
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
-                                <span class="detail">Use your brand logo, customize look & feel using custom colors, tinges and add custom HTML.</span>
+                                <span class="detail">Use your brand logo and customize look and feel using custom color tinges.</span>
                             </td>
                         </tr>
                         <tr class="expand">
@@ -464,7 +464,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the classic "Chicago" layout and templates.</span>
+                                    <span class="detail">Only the classic Chicago and Londoner layout and templates. </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -831,7 +831,7 @@
                                         Display Customizations
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">Use your brand logo, customize look & feel using custom colors, tinges and add custom HTML.</span>
+                                    <span class="detail">Use your brand logo and customize look and feel using custom color tinges.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
