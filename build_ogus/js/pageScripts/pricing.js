@@ -104,8 +104,39 @@ jQuery(document).ready(function() {
 		jQuery(this).toggleClass('open');
 	});
 
+	var cycleSwitch = document.getElementById('myonoffswitch');
+	cycleSwitch.onchange = function () {
+		if (this.checked) {
+			jQuery('.monthly-price').css('display', 'block');
+			jQuery('.annual-price').css('display', 'none');
+			jQuery('.s-annual-price').css('display', 'none');
+			return;
+		}
 
-	jQuery('#monthly').click(function(event){
+		jQuery('.monthly-price').css('display', 'none');
+		jQuery('.annual-price').css('display', 'block');
+		jQuery('.s-annual-price').css('display', 'none');
+	}
+
+	var cookie = window.readCookie('storage');
+	var hostName = window.location.hostname;
+	var STUrl = '//app.outgrow.co/signup';
+
+	if (!hostName.endsWith('outgrow.co')) {
+		STUrl = '//app.rely.co/signup';
+	}
+	if (cookie) {
+		cookie = JSON.parse(cookie);
+		STUrl = '//' + cookie.currentCompany + '.' + window.location.hostname + '/settings/membership';
+		var signupLinks = document.querySelectorAll('span > a.signuplink');
+		signupLinks.forEach(signupLink => {
+			signupLink.href = STUrl;
+			signupLink.textContent = 'BUY NOW';
+		});
+	}
+
+
+	/*jQuery('#monthly').click(function(event){
 		jQuery('.monthly-price').css('display', 'block');
 		jQuery('.annual-price').css('display', 'none');
 		jQuery('.s-annual-price').css('display', 'none');
@@ -121,7 +152,7 @@ jQuery(document).ready(function() {
 		jQuery('.monthly-price').css('display', 'none');
 		jQuery('.annual-price').css('display', 'block');
 		jQuery('.s-annual-price').css('display', 'none');
-	});
+	});*/
 
 	jQuery('.toggle-more').click(function(event){
 		var $target = jQuery(event.target);

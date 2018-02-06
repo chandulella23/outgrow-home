@@ -159,7 +159,7 @@
     .section-runnigheading {
         font-size: 26px;
         font-family: montserratultra_light;
-        color: #fb6c73;
+        color: #fb5f66;
         text-transform: none;
         text-align: left;
         padding-left: 15px;
@@ -193,13 +193,13 @@
     }
     .mobile-sec3 .sec3-box2 span {
         font-size: 14px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .section-4-left h4,
     .section-5-left h4,
     .section-6-left h4 {
         font-size: 24px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .sec4-2 {
         position: absolute;
@@ -393,7 +393,7 @@
         height: 70px;
         text-align: center;
         background: #fff;
-        color: #fb6c73;
+        color: #fb5f66;
         padding-right: 5px
     }
     .sec10-em2 {
@@ -644,7 +644,7 @@
         padding-left: 0
     }
     .footer-img2 {
-        min-height: 165px
+        min-height: 160px
     }
     .billingpricing-text p {
         margin: 0 0 45px
@@ -768,6 +768,11 @@
     }
     .tab-inner-frame{display: none;}
     .sec-outgrowMagic .section-6-left {margin: 0;}
+    .col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;}
+    .footer-social ul li {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
 
 }
 
@@ -784,7 +789,7 @@
 
 @media (min-width:320px) and (max-width:320px) {
     .section-14 .footer-img2 {
-        min-height: 162px;
+        min-height: 135px;
         padding-left: 0
     }
 }
@@ -832,6 +837,11 @@
     }
 }
 
+@media (max-width: 440px) and (min-width: 320px){
+    .badge-g2crowd {
+        left: 35% !important;
+    }
+}
 @media (min-width:440px) and (max-width:768px) {
     .text-1,
     .text-2 {
@@ -842,7 +852,7 @@
     }
     .footer-img2 {
         padding-left: 0;
-        min-height: 165px
+        min-height: 155px
     }
     .section-7-left h4,
     .section-9-left h4 {
@@ -907,6 +917,11 @@
     #Testimonial .quote-container {
         margin-top: 50px
     }
+    .badge-g2crowd {
+        left: 42% !important;
+    }
+
+
 }
 
 @media (min-width:568px) and (max-width:568px) {
@@ -1349,7 +1364,7 @@
     .section-runnigheading {
         font-size: 26px;
         font-family: montserratultra_light;
-        color: #fb6c73;
+        color: #fb5f66;
         text-transform: none;
         text-align: left;
         padding-left: 15px;
@@ -1385,13 +1400,13 @@
     }
     .mobile-sec3 .sec3-box2 span {
         font-size: 16px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .section-4-left h4,
     .section-5-left h4,
     .section-6-left h4 {
         font-size: 24px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .sec4-2 {
         position: absolute;
@@ -1591,7 +1606,7 @@
         height: 70px;
         text-align: center;
         background: #fff;
-        color: #fb6c73;
+        color: #fb5f66;
         padding-right: 5px
     }
     .sec10-em2 {
@@ -1836,7 +1851,7 @@
         padding-left: 0
     }
     .footer-img2 {
-        min-height: 165px
+        min-height: 140px
     }
     .billingpricing-text p {
         margin: 0 0 45px
@@ -1902,7 +1917,7 @@
         left: 0
     }
     .start-trial-cta {
-        margin-top: 30px;
+        margin-top: 0px;
     }
     #feature .section-13 {padding-top: 35px !important;}
 
@@ -2074,7 +2089,8 @@
         padding-left: 20px
     }
     .footer-img2 {
-        padding-left: 0
+        padding-left: 0;
+        min-height: 160px;
     }
 }
 
@@ -2217,7 +2233,7 @@
     }
     #feature .section-13 {margin-top: 30px;}
     #why .section-top-why {margin-top: 80px;}
-    #pricing .section-1 {margin-top: 90px !important;}
+    #pricing .section-1 {margin-top: 90px !important;margin-bottom: 30px !important;}
     .section-main.sec-example {margin-top: 40px;}
     .Privacy .section-services { margin-top: 80px;}
 
@@ -2273,7 +2289,7 @@
         margin-top: 80px
     }
 	#pricing .pricing-headingtop {
-		background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px);
+        margin-top: 0px;
 	}
     #pricing .section-1 {
         margin-top: 45px;
@@ -3539,6 +3555,12 @@
     .grid2.two_columns_66_33 .blog_holder.blog_single article .post_description .post_description_right {
         float: none
     }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+
+
 }
 
 @media only screen and (min-width:601px) and (max-width:1000px) {
@@ -5220,7 +5242,9 @@
 @media only screen and (max-width:380px) {    
     .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;
 }
-
+@media only screen and (min-width:480px) and (max-width:767px){
+	.footer-link ul li {width: 50% !important;}
+}
 @media only screen and (max-width:1024px) {
     .cards,
     .cards .card {
@@ -5240,9 +5264,7 @@
         right: 30px
     }
 }
-@media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50%;}
-}
+
 
 @media only screen and (max-width:480px) {
     .qode-card-slider-holder-outer .controls.arrows .button,
@@ -5489,3 +5511,4 @@
 
 
 /* end: top header responsive */
+
