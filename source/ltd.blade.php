@@ -17,6 +17,7 @@
 	<meta name="twitter:description" content="Simple pricing, No Hidden costs, No transaction based fees." />
 	<meta name="twitter:title" content="Pricing | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
+
 @endsection
 
 @section('inlinescripts')
@@ -1104,12 +1105,12 @@
 			</div>
 		</div>
 	</section>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="{{ $page->baseUrl }}/js/site.min.js"></script>
+    <script src="{{ $page->baseUrl }}/js/pageScripts/pricing.js"></script>
 @endsection
 
 @section('pageScripts')
 	const libs = {
-		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
-		"pricing": "{{ $page->baseUrl }}/js/pageScripts/pricing.js",
-	}
+	};
 @endsection
