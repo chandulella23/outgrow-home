@@ -88,15 +88,15 @@
                             <!-- <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>25<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>30<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>45<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th> -->
@@ -104,16 +104,16 @@
                                 <!-- <span class="label-popularPlan">Most Popular</span> -->
                                 <h2>Essential</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>95<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
+                                    <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -122,15 +122,15 @@
                                 <span class="label-popularPlan">Limited Time</span>
                                 <h2>Lifetime Deal</h2>
                                 <span class="annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                    <p class="price"><sup>$</sup>99<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>99</p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                    <p class="price"><sup>$</sup>99<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>99</p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
+                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
                                     <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
@@ -138,16 +138,16 @@
                             <th>
                                 <h2>Business</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>600<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>667<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
+                                    <p class="price"><sup>$</sup>720<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -176,6 +176,12 @@
                             <td class="active-bg"><span class="half"></span>10</td>
                             <td><span class="full"></span>Unlimited</td>
                         </tr>
+                        <tr class="not-info">
+                            <th><i class="material-icons vis-hide">add</i> Type of Experiences</th>
+                            <td class=""><span class="full"></span>All Experiences</td>
+                            <td class="active-bg"><span class="half"></span>Outcome quiz</td>
+                            <td><span class="full"></span>All Experiences</td>
+                        </tr>
                         <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Collaborators</th>
                             <td><span class="quater"></span>1</td>
@@ -193,7 +199,7 @@
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Basic Templates & Layouts
-                                 <span class="detail">All layouts and templates except 'The Stockholm' and 'The Seattle' are unlocked.</span> 
+                                 <span class="detail">All layouts and templates except 'The seattle' and 'The venice' are unlocked.</span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>All Templates & Layouts
@@ -286,7 +292,7 @@
                                 <span class="detail">A small discreet Outgrow logo at the bottom of the screen.</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="quater"></span>Outgrow Branding
+                                <span class="half"></span>Light Outgrow Branding
                                 <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
                             </td>
                             <td class="expand-child">
@@ -430,7 +436,7 @@
                                 <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Priority
+                                <span class="half"></span>Basic
                                 <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
                             </td>
                             <td class="expand-child">                                
@@ -451,16 +457,16 @@
                         <div class="pricing-top">
                             <h3>Essential</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>95<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
+                                <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -473,6 +479,10 @@
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                </li>
+                                <li>
+                                    <span class="feature-title">Type of Experiences</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Experiences</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -616,16 +626,16 @@
                         <div class="pricing-top">
                             <h3>Life Time Deal</h3>
                             <span class="annual-price">
-                                <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                <p class="price"><sup>$</sup>99<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                <p class="price"><sup>$</sup>99</p>
                             </span>
                             <span class="s-annual-price">
-                                <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                <p class="price"><sup>$</sup>99<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                <p class="price"><sup>$</sup>99</p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
+                                <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
                         </div>
@@ -637,7 +647,11 @@
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="full"></span>10</span>
+                                    <span class="feature-subtitle"><span class="half"></span>10</span>
+                                </li>
+                                <li>
+                                    <span class="feature-title">Type of Experiences</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Outcome quiz</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -650,7 +664,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Basic Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates except 'The Stockholm' and 'The Seattle' are unlocked.</span>
+                                    <span class="detail">All layouts and templates except 'The seattle' and 'The venice' are unlocked.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -694,7 +708,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Outgrow Branding</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Light Outgrow Branding</span>
                                     <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -765,7 +779,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Priority</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic</span>
                                     <span class="detail">You will have access to support docs, email support as well as live chat.</span>
                                 </li>
                             </ul>
@@ -782,16 +796,16 @@
                         <div class="pricing-top">
                             <h3>Business</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>600<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>667<sub>/yr</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
+                                <p class="price"><sup>$</sup>720<sub>/yr</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -804,6 +818,10 @@
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                </li>
+                                <li>
+                                    <span class="feature-title">Type of Experiences</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Experiences</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
