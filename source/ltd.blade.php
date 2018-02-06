@@ -44,8 +44,8 @@
         <div class="container-fluid">
             <div class="col-xs-12 col-sm-12 text-center pricing-headingtop">
                 <h3 class="plans-heading">Plans and Pricing</h3>
-                <p class="plans-subheading">Simple pricing, No Hidden costs, No transaction based fees.</p>
-                <section id="plan-cycle">
+                <!-- <p class="plans-subheading">Simple pricing, No Hidden costs, No transaction based fees.</p> -->
+                <section id="plan-cycle" class="hide">
                     <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list" id="plans">
                         <ul>
                             <li class="cycle-tab active" id="annually">
@@ -88,15 +88,15 @@
                             <!-- <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>25<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>30<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
+                                    <p class="price"><sup>$</sup>45<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th> -->
@@ -104,50 +104,50 @@
                                 <!-- <span class="label-popularPlan">Most Popular</span> -->
                                 <h2>Essential</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>95<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
+                                    <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
                             <th class="active ltd-plan">
                                 <!-- <span class="ribbon">Most Popular</span> -->
-                                <span class="label-popularPlan">Life Time Deal</span>
-                                <h2>Life Time Deal</h2>
+                                <span class="label-popularPlan">Limited Time</span>
+                                <h2>Lifetime Deal</h2>
                                 <span class="annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                    <p class="price"><sup>$</sup>99<sub>/mo.</sub></p>
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>99</p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                    <p class="price"><sup>$</sup>99<sub>/mo.</sub></p>
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>99</p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
+                                    <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
                             </th>
                             <th>
                                 <h2>Business</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>600<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>667<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
+                                    <p class="price"><sup>$</sup>720<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -173,8 +173,14 @@
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
                             <td class=""><span class="full"></span>Unlimited</td>
-                            <td class="active-bg"><span class="full"></span>10</td>
+                            <td class="active-bg"><span class="half"></span>10</td>
                             <td><span class="full"></span>Unlimited</td>
+                        </tr>
+                        <tr class="not-info">
+                            <th><i class="material-icons vis-hide">add</i> Type of Experiences</th>
+                            <td class=""><span class="full"></span>All Experiences</td>
+                            <td class="active-bg"><span class="half"></span>Outcome quiz</td>
+                            <td><span class="full"></span>All Experiences</td>
                         </tr>
                         <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Collaborators</th>
@@ -193,7 +199,7 @@
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Basic Templates & Layouts
-                                 <span class="detail">All layouts and templates except 'The Stockholm' and 'The Seattle' are unlocked.</span> 
+                                 <span class="detail">All layouts and templates except 'The seattle' and 'The venice' are unlocked.</span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>All Templates & Layouts
@@ -238,7 +244,7 @@
                                 <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
                             </td>
                         </tr>
-                        <tr class="expand">
+                        <!-- <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>
@@ -255,7 +261,7 @@
                                 <span class="full"></span>Full Access
                                 <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
                             </td>
-                        </tr>
+                        </tr> -->
                         <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
@@ -286,7 +292,7 @@
                                 <span class="detail">A small discreet Outgrow logo at the bottom of the screen.</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="quater"></span>Outgrow Branding
+                                <span class="half"></span>Light Outgrow Branding
                                 <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
                             </td>
                             <td class="expand-child">
@@ -344,7 +350,7 @@
                                 <span class="detail">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages and use dynamic variables.</span>                             
                             </td>
                         </tr> -->
-                        <tr class="expand">
+                        <!-- <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>  
@@ -362,7 +368,7 @@
                                 <span class="full"></span>Advanced Operators
                                 <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>                             
                             </td>
-                        </tr>
+                        </tr> -->
                         <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
@@ -430,7 +436,7 @@
                                 <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Priority
+                                <span class="half"></span>Basic
                                 <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
                             </td>
                             <td class="expand-child">                                
@@ -451,16 +457,16 @@
                         <div class="pricing-top">
                             <h3>Essential</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>95<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
+                                <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -473,6 +479,10 @@
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                </li>
+                                <li>
+                                    <span class="feature-title">Type of Experiences</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Experiences</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -505,14 +515,12 @@
                                     <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
                                     <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">
-                                        <!--<i class="material-icons plus">add</i>-->
                                         Charts and Graphs
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                    <!--<span class="detail"></span>-->
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -557,7 +565,7 @@
                                     <span class="feature-subtitle">Advanced CTAs</span>
                                     <span class="detail">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages.</span>
                                 </li> -->
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -565,7 +573,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Operators</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -618,16 +626,16 @@
                         <div class="pricing-top">
                             <h3>Life Time Deal</h3>
                             <span class="annual-price">
-                                <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                <p class="price"><sup>$</sup>99<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                <p class="price"><sup>$</sup>99</p>
                             </span>
                             <span class="s-annual-price">
-                                <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
-                                <p class="price"><sup>$</sup>99<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                <p class="price"><sup>$</sup>99</p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
+                                <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
                         </div>
@@ -639,7 +647,11 @@
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="full"></span>10</span>
+                                    <span class="feature-subtitle"><span class="half"></span>10</span>
+                                </li>
+                                <li>
+                                    <span class="feature-title">Type of Experiences</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Outcome quiz</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -652,7 +664,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Basic Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates except 'The Stockholm' and 'The Seattle' are unlocked.</span>
+                                    <span class="detail">All layouts and templates except 'The seattle' and 'The venice' are unlocked.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -672,7 +684,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>Custom Domain </span>
                                     <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -680,7 +692,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full access</span>
                                     <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -696,7 +708,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Outgrow Branding</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Light Outgrow Branding</span>
                                     <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -725,7 +737,7 @@
                                     <span class="feature-subtitle">Advanced CTAs</span>
                                     <span class="detail">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages.</span>
                                 </li> -->
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -733,7 +745,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Operators</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -767,7 +779,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Priority</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic</span>
                                     <span class="detail">You will have access to support docs, email support as well as live chat.</span>
                                 </li>
                             </ul>
@@ -784,16 +796,16 @@
                         <div class="pricing-top">
                             <h3>Business</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>600<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub>/yr</sub></p>
+                                <p class="price"><sup>$</sup>667<sub>/yr</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
+                                <p class="price"><sup>$</sup>720<sub>/yr</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -806,6 +818,10 @@
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                </li>
+                                <li>
+                                    <span class="feature-title">Type of Experiences</span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Experiences</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -838,7 +854,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>Custom Domain </span>
                                     <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -846,7 +862,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -891,7 +907,7 @@
                                     <span class="feature-subtitle">Advanced CTAs</span>
                                     <span class="detail">Add Facebook, Twitter and Linkedin share buttons as well as Facebook like and Twitter Follow buttons to improve social following. You can also redirect users to external web pages and use dynamic variables.</span>
                                 </li> -->
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -899,7 +915,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Operators</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
