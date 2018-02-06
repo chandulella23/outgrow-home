@@ -474,7 +474,7 @@ label {
 		margin-bottom: 40px;
 	}
 	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 5px;
+		margin-bottom: 35px;
 		margin-top: 25px;
 		font-size: 30px;
 		text-transform: uppercase
@@ -485,7 +485,7 @@ label {
 		font-size: 18px
 	}
 	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 5px;
+		margin-bottom: 35px;
 		margin-top: 50px;
 		font-size: 30px;
 		text-transform: none;
