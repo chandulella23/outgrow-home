@@ -478,12 +478,17 @@ label {
 		width: 100%;
 	}
 	#pricing .pricing-headingtop .plans-heading {
+
+		margin-bottom: 35px;
+		margin-top: 50px;
+		font-size: 30px;
 		float: left;
 		width: 100%;
 		text-align: center;
 		color: #fb5f66 !important;
 		font-size: 38px;
 		font-family: montserratsemibold;
+
 		text-transform: none;
 		margin: 0px;
 		line-height: normal;
@@ -1551,7 +1556,7 @@ i.zmdi.zmdi-twitter-box {
 }
 .ltd-plan h2 {
 	color: #fb545b;
-	min-height: 37px;
+	/*min-height: 37px;*/
 }
 .ltd-plan h3 {
     color: #fb545b !important;
