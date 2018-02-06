@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@section('title', 'Lifetime Deals | Outgrow')
+@section('title', 'Pricing - Lifetime Deal | Outgrow')
 
 @section('metaDescription')
 	<meta name="description" content="Simple pricing, No Hidden costs, No transaction based fees."/>
