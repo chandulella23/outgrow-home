@@ -198,7 +198,7 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the classic "Chicago" layout and templates.</span>
+                                <span class="detail">Only the Classic "Chicago" layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Basic Templates & Layouts
@@ -270,7 +270,7 @@
                             </td>
                             <td class="expand-child">
                                 <span class="half"></span>Outgrow Domain
-                                <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
+                                <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -519,7 +519,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the classic "Chicago" layout and templates. </span>
+                                    <span class="detail">Only the Classic "Chicago" layout and templates. </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
