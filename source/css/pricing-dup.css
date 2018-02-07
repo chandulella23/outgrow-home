@@ -465,7 +465,7 @@ label {
 
 /*pricing top panel */
 	#pricing .section-1 {
-		margin-top: 55px;
+		margin-top: 65px;
 		margin-bottom: 0px;
 	}
 	#pricing .pricing-headingtop {
@@ -485,8 +485,8 @@ label {
 		font-size: 18px
 	}
 	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 5px;
-		margin-top: 50px;
+		margin-bottom: 20px;
+		margin-top: 40px;
 		font-size: 30px;
 		text-transform: none;
 	}

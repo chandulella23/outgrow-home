@@ -104,11 +104,11 @@
                                 <!-- <span class="label-popularPlan">Most Popular</span> -->
                                 <h2>Essential</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$115<sub>/yr</sub></p>
-                                    <p class="price"><sup>$</sup>95<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>1140<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$115<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
                                     <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
@@ -138,11 +138,11 @@
                             <th>
                                 <h2>Business</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$720<sub>/yr</sub></p>
-                                    <p class="price"><sup>$</sup>600<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$720<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>7200<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$720<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$720<sub>/yr</sub></p> -->
                                     <p class="price"><sup>$</sup>667<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
@@ -199,7 +199,7 @@
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Basic Templates & Layouts
-                                 <span class="detail">All layouts and templates except 'The seattle' and 'The venice' are unlocked.</span> 
+                                 <span class="detail">All layouts and templates except 'The Seattle' and 'The Venice' are unlocked.</span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>All Templates & Layouts
@@ -437,7 +437,7 @@
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Basic
-                                <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
+                                <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Priority
@@ -457,8 +457,8 @@
                         <div class="pricing-top">
                             <h3>Essential</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>/yr</sub></p>
-                                <p class="price"><sup>$</sup>95<sub>/yr</sub></p>
+                                <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                <p class="price"><sup>$</sup>1140<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
                                 <p class="strike-price">$115<sub>/yr</sub></p>
@@ -664,7 +664,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Basic Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates except 'The seattle' and 'The venice' are unlocked.</span>
+                                    <span class="detail">All layouts and templates except 'The Seattle' and 'The Venice' are unlocked.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -780,7 +780,7 @@
                                         Support
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic</span>
-                                    <span class="detail">You will have access to support docs, email support as well as live chat.</span>
+                                    <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>
                                 </li>
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
@@ -796,11 +796,11 @@
                         <div class="pricing-top">
                             <h3>Business</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$720<sub>/yr</sub></p>
-                                <p class="price"><sup>$</sup>600<sub>/yr</sub></p>
+                                <!-- <p class="strike-price">$720<sub>/yr</sub></p> -->
+                                <p class="price"><sup>$</sup>7200<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$720<sub>/yr</sub></p>
+                                <!-- <p class="strike-price">$720<sub>/yr</sub></p> -->
                                 <p class="price"><sup>$</sup>667<sub>/yr</sub></p>
                             </span>
                             <span class="monthly-price">

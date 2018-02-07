@@ -43,7 +43,7 @@
         <div class="container-fluid">
             <div class="col-xs-12 col-sm-12 text-center pricing-headingtop">
                 <h3 class="plans-heading">Plans and Pricing </h3>
-                <p class="plans-subheading">Simple pricing, No Hidden costs, No transaction based fees.</p>
+                <!-- <p class="plans-subheading">Simple pricing, No Hidden costs, No transaction based fees.</p> -->
                 <section id="plan-cycle">
                     <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list" id="plans">
                         <ul>
