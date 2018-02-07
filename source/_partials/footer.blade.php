@@ -13,8 +13,10 @@
 					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
 					<!-- <li><a href="{{ $page->baseUrl }}/idea-generation" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li> -->
 					<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
-					<li><a href="http://affiliates.outgrow.co/">Affiliates</a></li>
+
+					<!-- <li><a href="http://affiliates.outgrow.co/">Affiliates</a></li> -->
 					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Blog</a></li>
+
 					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
 					<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
 				</ul>
