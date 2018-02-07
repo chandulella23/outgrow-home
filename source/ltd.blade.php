@@ -116,7 +116,7 @@
                                     <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
                                     <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                                 </span>
-                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
+                                <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th>                            
                             <th class="">
                                 <!-- <span class="label-popularPlan">Most Popular</span> -->
@@ -654,7 +654,7 @@
                                 <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
                                 <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                             </span>
-                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
+                            <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
