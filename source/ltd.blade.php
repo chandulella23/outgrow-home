@@ -102,7 +102,7 @@
                             </th> -->
                             <th class="">
                                 <!-- <span class="label-popularPlan">Most Popular</span> -->
-                                <h2>Essential</h2>
+                                <h2>Essentials</h2>
                                 <span class="annual-price">
 
                                     <!--<p class="strike-price">$115<sub>/yr</sub></p>-->
@@ -459,7 +459,7 @@
                         <!-- <span class="ribbon">Most Popular</span> -->
                         <!-- <span class="label-popularPlan">Most Popular</span> -->
                         <div class="pricing-top">
-                            <h3>Essential</h3>
+                            <h3>Essentials</h3>
                             <span class="annual-price">
 
                                 <!--<p class="strike-price">$115<sub>/yr</sub></p>-->
@@ -995,14 +995,14 @@
 
   
 
-	<section class="section section-faq">
+	<!-- <section class="section section-faq">
 		<div class="container">
 			<div class="section-2-heading mk-animate-element scale-up">
 				Frequently Asked Questions
 			</div>
 		</div>
-	</section>
-	<section class="section mk-animate-element scale-up">
+	</section> -->
+	<section class="section mk-animate-element scale-up hide">
 		<div class="container-faqs">
 		<div class="accordion"><div class="accordion-section">
 				<a class="accordion-section-title" href="#accordion-2">
