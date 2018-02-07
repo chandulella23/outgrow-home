@@ -172,7 +172,7 @@
 		margin-top: 15px;
 	}
 	.pricing-top p.price{	
-		font-size: 36px !important;
+		font-size: 30px !important;
 		color: #009ad8;
 		font-family: montserratsemibold !important;
 		line-height: normal;
@@ -452,4 +452,10 @@
 
 
 
+}
+@media only screen and (max-width: 767px) and (min-width: 480px){
+	.footer-link ul li {
+		width: 50%;
+	}
+	
 }
