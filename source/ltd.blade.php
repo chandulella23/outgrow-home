@@ -88,11 +88,11 @@
                              <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$45<sub>/yr</sub></p> -->
                                     <p class="price"><sup>$</sup>25<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$45<sub>/yr</sub></p> -->
                                     <p class="price"><sup>$</sup>30<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
@@ -481,11 +481,11 @@
                         <div class="pricing-top">
                             <h3>Freelancer</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
                                 <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
                                 <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
                             </span>
                             <span class="monthly-price">
