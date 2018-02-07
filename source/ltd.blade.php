@@ -202,7 +202,7 @@
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Basic Templates & Layouts
-                                 <span class="detail">All layouts and templates except "The Seattle" and "The Venice" are unlocked.</span> 
+                                 <span class="detail">All layouts and templates except "The Stockholm" and "The Venice" are unlocked.</span> 
                             </td>
                             <td class="expand-child">
                                 <span class="half"></span>All Templates & Layouts
@@ -681,7 +681,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Basic Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates except "The Seattle" and "The Venice" are unlocked.</span>
+                                    <span class="detail">All layouts and templates except "The Stockholm" and "The Venice" are unlocked.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
