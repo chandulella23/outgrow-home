@@ -303,7 +303,7 @@
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>Full Access
-                                <span class="detail">Use your brand logo, customize look & feel using custom colors and tinges.</span>
+                                <span class="detail">Use your brand logo and customize look & feel using custom colors and tinges.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="half"></span>Standard Access
@@ -726,7 +726,7 @@
                                         Display Customizations
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">Use your brand logo, customize look & feel using custom colors and tinges.</span>
+                                    <span class="detail">Use your brand logo and customize look & feel using custom colors and tinges.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
