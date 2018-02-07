@@ -971,7 +971,7 @@
 
                 <!-- end: for responsive -->
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
+            <!-- <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
                 <div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
                     <a class="" href="javascrpt:void(0);">
                         <i class="material-icons">headset_mic</i>need enterprise grade features? Contact us.
@@ -989,7 +989,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
