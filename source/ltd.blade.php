@@ -183,7 +183,7 @@
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Type of Experiences</th>
                             <td class=""><span class="full"></span>All Experiences</td>
-                            <td class="active-bg"><span class="half"></span>Outcome quiz</td>
+                            <td class="active-bg"><span class="half"></span>Outcome Quiz</td>
                             <td><span class="full"></span>All Experiences</td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -657,7 +657,7 @@
                                 </li>
                                 <li>
                                     <span class="feature-title">Type of Experiences</span>
-                                    <span class="feature-subtitle"><span class="full"></span>Outcome quiz</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Outcome Quiz</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
