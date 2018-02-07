@@ -179,7 +179,7 @@
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Type of Experiences</th>
                             <td class=""><span class="full"></span>All Experiences</td>
-                            <td class="active-bg"><span class="half"></span>Outcome quiz</td>
+                            <td class="active-bg"><span class="half"></span>Outcome Quiz</td>
                             <td><span class="full"></span>All Experiences</td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -224,6 +224,24 @@
                                 <span class="full"></span>Advanced Access
                                 <span class="detail">Ensure each lead's authenticity & reduce "fake" leads via advanced email validation.</span>
                             </td>                            
+                        </tr>                        
+                        <tr class="expand">
+                            <th>
+                                <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i> Advanced Features
+                            </th>
+                            <td class="expand-child">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
+                            </td>
+                            <td class="expand-child">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
+                            </td>           
                         </tr>
                         <tr class="expand">
                             <th>
@@ -236,8 +254,8 @@
                                 <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="full"></span>Custom Domain
-                                <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
+                                <span class="half"></span>Outgrow Domain
+                                <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Custom Domain
@@ -407,30 +425,12 @@
                                 <span class="detail">Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>                             
                             </td>
                         </tr>
-                        <tr class="expand">
-                            <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> Advanced Features
-                            </th>
-                            <td class="expand-child">
-                                <span class="full"></span>Full Access
-                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
-                            </td>
-                            <td class="expand-child active-bg">
-                                <span class="full"></span>Full Access
-                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
-                            </td>
-                            <td class="expand-child">
-                                <span class="full"></span>Full Access
-                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
-                            </td>           
-                        </tr>
-                        <tr class="expand">
-                            <th>
+                        <!-- <tr class="expand">
+                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i> 
                                 Support
-                            </th>
+                            </th> 
                             <td class="expand-child">                                
                                 <span class="half"></span>Basic
                                 <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
@@ -443,7 +443,7 @@
                                 <span class="full"></span>Priority
                                 <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
                             </td>
-                        </tr>
+                        </tr> -->
                     </tbody>
 
                 </table>
@@ -505,6 +505,15 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Full Access </span>
                                     <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
+                                </li>                                
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Advanced Features
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                     <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -592,16 +601,7 @@
                                     <span class="feature-subtitle"><span class="half"></span>Full Analytics Report</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses</span>
                                 </li>
-                                <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Advanced Features
-                                    </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                     <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
-                                </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -609,7 +609,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic</span>
                                     <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>
-                                </li>
+                                </li> -->
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
                                 <i class="material-icons">add</i>
@@ -651,7 +651,7 @@
                                 </li>
                                 <li>
                                     <span class="feature-title">Type of Experiences</span>
-                                    <span class="feature-subtitle"><span class="full"></span>Outcome quiz</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Outcome Quiz</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -679,10 +679,19 @@
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
+                                        Advanced Features
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                     <span class="detail">Advanced Features Include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
                                         Domain Hosting
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Custom Domain </span>
-                                    <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
+                                    <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -764,16 +773,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Analytics Report</span>
                                     <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization.</span>
                                 </li>
-                                <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Advanced Features
-                                    </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                     <span class="detail">Advanced Features Include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
-                                </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -781,7 +781,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic</span>
                                     <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>
-                                </li>
+                                </li> -->
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
                                 <i class="material-icons">add</i>
@@ -844,6 +844,15 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access </span>
                                     <span class="detail">Ensure each lead's authenticity & reduce "fake" leads via advanced email validation.</span>
+                                </li>                                
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Advanced Features
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                     <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -851,8 +860,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Domain Hosting
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Custom Domain </span>
-                                    <span class="detail">Experiences are hosted on "subdomain.yourcompany.co"</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
+                                    <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -934,16 +943,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Analytics Report</span>
                                     <span class="detail">Traffic Detiails, Lead Data, User Responses & Funnel Visualization.</span>
                                 </li>
-                                <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Advanced Features
-                                    </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                     <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span> 
-                                </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -951,7 +951,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Priority</span>
                                     <span class="detail">You will have access to support docs, email support as well as live chat.</span>
-                                </li>
+                                </li> -->
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
                                 <i class="material-icons">add</i>
@@ -963,7 +963,7 @@
 
                 <!-- end: for responsive -->
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
+            <!-- <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
                 <div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
                     <a class="" href="javascrpt:void(0);">
                         <i class="material-icons">headset_mic</i>need enterprise grade features? Contact us.
@@ -981,20 +981,20 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
   
 
-	<section class="section section-faq">
+	<!-- <section class="section section-faq">
 		<div class="container">
 			<div class="section-2-heading mk-animate-element scale-up">
 				Frequently Asked Questions
 			</div>
 		</div>
-	</section>
-	<section class="section mk-animate-element scale-up">
+	</section> -->
+	<section class="section mk-animate-element scale-up hide">
 		<div class="container-faqs">
 		<div class="accordion"><div class="accordion-section">
 				<a class="accordion-section-title" href="#accordion-2">
