@@ -103,7 +103,7 @@
                             <th class="active">
                                 <!-- <span class="ribbon">Most Popular</span> -->
                                 <span class="label-popularPlan">Most Popular</span>
-                                <h2>Essential</h2>
+                                <h2>Essentials</h2>
                                 <span class="annual-price">
                                     <p class="strike-price">$115<sub>/mo.</sub></p>
                                     <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
@@ -594,7 +594,7 @@
                         <!-- <span class="ribbon">Most Popular</span> -->
                         <span class="label-popularPlan">Most Popular</span>
                         <div class="pricing-top">
-                            <h3>Essential</h3>
+                            <h3>Essentials</h3>
                             <span class="annual-price">
                                 <p class="strike-price">$115<sub>/mo.</sub></p>
                                 <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
