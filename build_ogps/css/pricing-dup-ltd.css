@@ -465,7 +465,7 @@ label {
 
 /*pricing top panel */
 	#pricing .section-1 {
-		margin-top: 65px;
+		margin-top: 55px;
 		margin-bottom: 0px;
 	}
 	#pricing .pricing-headingtop {
@@ -485,8 +485,8 @@ label {
 		font-size: 18px
 	}
 	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 40px;
-		margin-top:40px;
+		margin-bottom: 35px;
+		margin-top: 50px;
 		font-size: 30px;
 		text-transform: none;
 	}
@@ -1018,7 +1018,7 @@ label {
 		}
 
 		thead th p.price {
-			font-size: 30px !important;
+			font-size: 36px !important;
 			color: #009ad8;
 			font-family: montserratsemibold !important;
 			line-height: normal;
@@ -1343,7 +1343,7 @@ tbody tr:last-child td.active-bg {
 }
 .ltd-plan h2 {
 	color: #fb545b;
-	/*min-height: 37px;*/
+	min-height: 37px;
 }
 .ltd-plan h3 {
     color: #fb545b !important;
