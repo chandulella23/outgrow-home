@@ -88,11 +88,11 @@
                              <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$45<sub>/yr</sub></p> -->
                                     <p class="price"><sup>$</sup>300<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>/yr</sub></p>
+                                    <!-- <p class="strike-price">$45<sub>/yr</sub></p> -->
                                     <p class="price"><sup>$</sup>30<sub>/yr</sub></p>
                                 </span>
                                 <span class="monthly-price">
@@ -116,7 +116,7 @@
                                     <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
                                     <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                                 </span>
-                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
+                                <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th>                            
                             <th class="">
                                 <!-- <span class="label-popularPlan">Most Popular</span> -->
@@ -198,11 +198,11 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the classic Chicago and Londoner layout and templates.</span>
+                                <span class="detail">Only the classic "Chicago" layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Basic Templates & Layouts
-                                 <span class="detail">All layouts and templates except 'The Seattle' and 'The Venice' are unlocked.</span> 
+                                 <span class="detail">All layouts and templates except "The Seattle" and "The Venice" are unlocked.</span> 
                             </td>
                             <td class="expand-child">
                                 <span class="half"></span>All Templates & Layouts
@@ -481,11 +481,11 @@
                         <div class="pricing-top">
                             <h3>Freelancer</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
                                 <p class="price"><sup>$</sup>300<sub>/mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
                                 <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
                             </span>
                             <span class="monthly-price">
@@ -519,7 +519,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the classic Chicago and Londoner layout and templates. </span>
+                                    <span class="detail">Only the classic "Chicago" layout and templates. </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -654,7 +654,7 @@
                                 <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
                                 <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                             </span>
-                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
+                            <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
@@ -681,7 +681,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Basic Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates except 'The Seattle' and 'The Venice' are unlocked.</span>
+                                    <span class="detail">All layouts and templates except "The Seattle" and "The Venice" are unlocked.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
