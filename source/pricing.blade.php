@@ -371,11 +371,11 @@
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Full Analytics Report
-                                <span class="detail">Traffic Details, Lead Data and User Responses</span>                             
+                                <span class="detail">Traffic Details, Lead Data and User Responses.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Full Analytics Report
-                                <span class="detail">Traffic Details, Lead Data and User Responses</span>                             
+                                <span class="detail">Traffic Details, Lead Data and User Responses.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Advanced Analytics Report

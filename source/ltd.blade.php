@@ -85,7 +85,7 @@
                                      &nbsp;Show Detailed Pricing
                                 </span>
                             </th>
-                            <!-- <th>
+                             <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
                                     <p class="strike-price">$45<sub>/yr</sub></p>
@@ -99,24 +99,7 @@
                                     <p class="price"><sup>$</sup>45<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
-                            </th> -->
-                            <th class="">
-                                <!-- <span class="label-popularPlan">Most Popular</span> -->
-                                <h2>Essentials</h2>
-                                <span class="annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>1140<sub>/yr</sub></p>
-                                </span>
-                                <span class="s-annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
-                                </span>
-                                <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
-                                </span>
-                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
-                            </th>
+                            </th> 
                             <th class="active ltd-plan">
                                 <!-- <span class="ribbon">Most Popular</span> -->
                                 <span class="label-popularPlan">Limited Time</span>
@@ -134,8 +117,25 @@
                                     <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Buy Now</a></span>
+                            </th>                            
+                            <th class="">
+                                <!-- <span class="label-popularPlan">Most Popular</span> -->
+                                <h2>Essentials</h2>
+                                <span class="annual-price">
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>1140<sub>/yr</sub></p>
+                                </span>
+                                <span class="s-annual-price">
+                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
+                                    <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
+                                </span>
+                                <span class="monthly-price">
+                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
+                                    <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
+                                </span>
+                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
-                            <th>
+                            <th class="hide">
                                 <h2>Business</h2>
                                 <span class="annual-price">
                                     <!-- <p class="strike-price">$720<sub>/yr</sub></p> -->
@@ -166,21 +166,24 @@
                     <tbody>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                            <td class=""><span class="half"></span>1,000 & 20,000</td>
+                            <td><span class="quater"></span>300 & 6000</td>
                             <td class="active-bg"><span class="full"></span>Unlimited</td>
-                            <td><span class="full"></span>15,000 & 300,000</td>
+                            <td class=""><span class="full"></span>Unlimited</td>
+                            <!-- <td><span class="full"></span>15,000 & 300,000</td> -->
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
-                            <td class=""><span class="full"></span>Unlimited</td>
-                            <td class="active-bg"><span class="half"></span>10</td>
-                            <td><span class="full"></span>Unlimited</td>
+                            <td><span class="quater"></span>3</td>
+                            <td class=""><span class="half"></span>10</td>
+                            <td class="active-bg"><span class="full"></span>Unlimited</td>
+                            <!-- <td><span class="full"></span>Unlimited</td> -->
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Type of Experiences</th>
                             <td class=""><span class="full"></span>All Experiences</td>
                             <td class="active-bg"><span class="half"></span>Outcome Quiz</td>
-                            <td><span class="full"></span>All Experiences</td>
+                            <td class=""><span class="full"></span>All Experiences</td>
+                            <!-- <td><span class="full"></span>All Experiences</td> -->
                         </tr>
                         <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Collaborators</th>
@@ -194,8 +197,8 @@
                                 <i class="material-icons minus">remove</i> Templates and Layouts
                             </th>
                             <td class="expand-child">
-                                <span class="half"></span>All Templates & Layouts
-                                <span class="detail">All layouts and templates are unlocked.</span>
+                                <span class="quater"></span>Basic Templates & Layout
+                                <span class="detail">Only the classic Chicago and Londoner layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Basic Templates & Layouts
@@ -221,9 +224,13 @@
                                 <span class="detail">Ensure each lead's authenticity & reduce "fake" leads via advanced email validation.</span>
                             </td>
                             <td class="expand-child">
+                                <span class="half"></span>Full Access 
+                                <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
+                            </td>
+                            <!-- <td class="expand-child">
                                 <span class="full"></span>Advanced Access
                                 <span class="detail">Ensure each lead's authenticity & reduce "fake" leads via advanced email validation.</span>
-                            </td>                            
+                            </td>                             -->
                         </tr>                        
                         <tr class="expand">
                             <th>
@@ -231,8 +238,8 @@
                                 <i class="material-icons minus">remove</i> Advanced Features
                             </th>
                             <td class="expand-child">
-                                <span class="full"></span>Full Access
-                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
+                                <span class="none"></span>No Access
+                                <!-- <span class="detail"></span> -->
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>Full Access
@@ -241,7 +248,11 @@
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
                                 <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
-                            </td>           
+                            </td>
+                            <!-- <td class="expand-child">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Advanced features include Custom Call To Actions, Conditional Messaging and Email Embeds.</span>
+                            </td>            -->
                         </tr>
                         <tr class="expand">
                             <th>
@@ -295,10 +306,14 @@
                                 <span class="detail">Use your brand logo, customize look & feel using custom colors and tinges.</span>
                             </td>
                             <td class="expand-child">
+                                <span class="half"></span>Standard Access
+                                <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
+                            </td>
+                            <!-- <td class="expand-child">
                                 <span class="full"></span>Full Access
                                 <span class="detail">Use your brand logo, customize look & feel using custom colors, tinges and add custom HTML.</span>
                             </td>
-                        </tr>
+                        </tr> -->
                         <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
@@ -306,17 +321,21 @@
                                 Branding
                             </th>
                             <td class="expand-child">
-                                <span class="half"></span>Light Outgrow Branding
-                                <span class="detail">A small discreet Outgrow logo at the bottom of the screen.</span>
+                                <span class="quater"></span>Outgrow Branding
+                                <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="half"></span>Light Outgrow Branding
-                                <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
+                                <span class="detail">A small discreet Outgrow logo at the bottom of the screen.</span>
                             </td>
                             <td class="expand-child">
+                                <span class="half"></span>Light Outgrow Branding
+                                <span class="detail">A small discreet Outgrow logo at the bottom of the screen and a subtle plug in social shares.</span>
+                            </td>
+                            <!-- <td class="expand-child">
                                 <span class="full"></span>No Outgrow Branding
                                 <span class="detail">No Outgrow branding is displayed on any screen.</span>
-                            </td>
+                            </td> -->
                         </tr>
                         <tr class="expand">
                             <th>
@@ -325,17 +344,21 @@
                                 Integrations
                             </th>
                             <td class="expand-child">                                
-                                <span class="half"></span>Standard Access
-                                <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>                             
-                            </td>
+                                <span class="quater"></span>Excel Export
+                                <span class="detail">View (or download) lead contact information in a Google spreadsheet.</span>                             
+                            </td>                            
                             <td class="expand-child active-bg">                                
                                 <span class="full"></span>Advanced Access
                                 <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
                             </td>
                             <td class="expand-child">                                
+                                <span class="half"></span>Standard Access
+                                <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>                             
+                            </td>
+                            <!-- <td class="expand-child">                                
                                 <span class="full"></span>Advanced Access
                                 <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
-                            </td>
+                            </td> -->
                         </tr>
                         <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i>Templates</th>
@@ -393,9 +416,8 @@
                                 <i class="material-icons minus">remove</i>  
                                 Logic Jump
                             </th>
-                            <td class="expand-child">  
-                                <span class="full"></span>Full Access
-                                <span class="detail">Apply logic jump to supported templates to improve personalization.</span>    
+                            <td>
+                                <span class="none"></span>No Access   
                             </td>
                             <td class="expand-child active-bg">  
                                 <span class="full"></span>Full Access
@@ -405,6 +427,10 @@
                                 <span class="full"></span>Full Access
                                 <span class="detail">Apply logic jump to supported templates to improve personalization.</span>    
                             </td>
+                            <!-- <td class="expand-child">  
+                                <span class="full"></span>Full Access
+                                <span class="detail">Apply logic jump to supported templates to improve personalization.</span>    
+                            </td> -->
                         </tr>
                         <tr class="expand">
                             <th>
@@ -414,7 +440,7 @@
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Full Analytics Report
-                                <span class="detail">Traffic Details, Lead Data and User Responses</span>                             
+                                <span class="detail">Traffic Details, Lead Data and User Responses.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="full"></span>Advanced Analytics Report
