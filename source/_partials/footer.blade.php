@@ -75,7 +75,7 @@
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog3.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/get-paid-for-your-pad-interactive-marketing-success-story">Get Paid for your Pad Interactive Marketing Success Story</a>
+						<a href="https://outgrow.co/blog/get-paid-for-your-pad-interactive-marketing-success-story">Get Paid for your Paid: Interactive Marketing Success Story</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-6">
