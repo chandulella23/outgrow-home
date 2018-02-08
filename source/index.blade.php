@@ -1576,7 +1576,7 @@
 				centeredSlides: true,
 				loop: true,
 				slideToClickedSlide: true,
-				// autoplay: 2500,
+				autoplay: 2500,
 				paginationClickable: true,
 				autoplayDisableOnInteraction: false,
 				nextButton: '.swiper-button-next',
@@ -1694,12 +1694,12 @@
 		</div>
 		<script>
 			var swiper = new Swiper('.swiper-container-ranking-lg', {
-				spaceBetween: 80,
+				spaceBetween: 90,
 				slidesPerView: 3,
 				centeredSlides: true,
 				loop: true,
 				slideToClickedSlide: true,
-				// autoplay: 2500,
+				autoplay: 2500,
 				paginationClickable: true,
 				autoplayDisableOnInteraction: false,
 				nextButton: '.swiper-button-next',
