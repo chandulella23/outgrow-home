@@ -1648,6 +1648,68 @@
 			});
 		</script>
 
+		<div class="swiper-container-ranking-lg rs-hide">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" data-history="1">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/top_ranked_img_1.jpg" />
+					<div class="swiper-content">
+						<!-- <h3>Outgrow has the highest overall Usability Score among content marketing software</h3> -->
+						<span>Outgrow has the highest overall Usability Score among content marketing software</span> 
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 2">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/top_ranked_img_2.jpg" />
+					<div class="swiper-content">
+						<!-- <h3>Outgrow is the highest rated content marketing software among G2 Crowd reviewers with a Satisfaction Score of 100%</h3> -->
+						<span>Outgrow is the highest rated content marketing software among G2 Crowd reviewers with a Satisfaction Score of 100%</span> 
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 3">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/top_ranked_img_3.jpg" />
+					<div class="swiper-content">
+						<!-- <h3>Outgrow listed as the most ROI-friendly Content Marketing Software</h3> -->
+						<span>Outgrow listed as the most ROI-friendly Content Marketing Software</span> 
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 4">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/top_ranked_img_4.jpg" />
+					<div class="swiper-content">
+						<!-- <h3>Outgrow is listed as the number 1 content marketing software for small business</h3> -->
+						<span>Outgrow is listed as the number 1 content marketing software for small business</span> 
+					</div>
+				</div>
+				<div class="swiper-slide" data-history="Slide 5">
+					<img data-u="image" src="{{ $page->baseUrl }}/images/top_ranked_img_5.jpg" />
+					<div class="swiper-content">
+						<!-- <h3>Outgrow ranks 1st when it comes to Ease-of-Implementation among content marketing software</h3> -->
+						<span>Outgrow ranks 1st when it comes to Ease-of-Implementation among content marketing software</span> 
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<!-- <div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div> -->
+		</div>
+		<script>
+			var swiper = new Swiper('.swiper-container-ranking-lg', {
+				spaceBetween: 80,
+				slidesPerView: 3,
+				centeredSlides: true,
+				loop: true,
+				slideToClickedSlide: true,
+				// autoplay: 2500,
+				paginationClickable: true,
+				autoplayDisableOnInteraction: false,
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				pagination: '.swiper-pagination',
+				// history: 'slide',
+				
+			});
+		</script>
+
 	</div>
 	
 	<section class="section start-trial-cta free-trail mb0">

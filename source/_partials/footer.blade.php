@@ -33,13 +33,13 @@
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-ebook1.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies">Interactive content marketing for digital agencies</a>
+						<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies">Interactive Content Marketing for Digital Agencies</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-ebook2.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators">Creative's guide to building viral quizzes and calculators</a>
+						<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators">Creative's Guide to building Viral Quizzes and Calculators</a>
 					</div>
 				</div>
 			</div>
@@ -54,7 +54,7 @@
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-tools2.jpg" src="" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/idea-generation/">Generate ideas for Quizzes and Calculators</a>
+						<a href="https://outgrow.co/idea-generation/">Generate Ideas for Quizzes and Calculators</a>
 					</div>
 				</div>
 			</div>
