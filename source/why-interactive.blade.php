@@ -48,7 +48,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 np p-img">
-				<img class="sec4-2-new mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" />
+				<img class="sec4-2-new mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" alt="Google search image" />
 			</div>
 	</section>
 
@@ -295,7 +295,7 @@
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
 				<!-- <img src="//dzvexx2x036l1.cloudfront.net/sound-cloud.jpg" class="mk-animate-element left-to-right" /> -->
-				<img src="//dzvexx2x036l1.cloudfront.net/banner6-app.jpg" class="mk-animate-element left-to-right" />
+				<img src="//dzvexx2x036l1.cloudfront.net/banner6-app.jpg" class="mk-animate-element left-to-right" alt="Calculators and Quizzes add real value" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-4-left">
 				<span class="mk-animate-element right-to-left">
@@ -324,7 +324,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="//dzvexx2x036l1.cloudfront.net/banner6-app.jpg" class="mk-animate-element left-to-right" />
+				<img src="//dzvexx2x036l1.cloudfront.net/banner6-app.jpg" class="mk-animate-element left-to-right" alt="Calculators and Quizzes add real value" />
 			</div>
 		</div>
 	</section>
@@ -343,7 +343,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="mk-animate-element right-to-left"/>
+				<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="mk-animate-element right-to-left" alt="Offer Immersive Engagement" />
 			</div>
 		</div>
 	</section>
@@ -363,15 +363,15 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="mk-animate-element right-to-left"/>
+				<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="mk-animate-element right-to-left" alt="Offer Immersive Engagement" />
 			</div>
 		</div>
 	</section>
 	<section class="section section-7 rs-hide">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img src="//dzvexx2x036l1.cloudfront.net/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
-				<img src="//dzvexx2x036l1.cloudfront.net/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
+				<img alt="Bring Referral Traffic" src="//dzvexx2x036l1.cloudfront.net/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
+				<img alt="Bring Referral Traffic" src="//dzvexx2x036l1.cloudfront.net/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-4-left test1">
 				<span class="mk-animate-element right-to-left">
@@ -400,8 +400,8 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="//dzvexx2x036l1.cloudfront.net/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
-				<img src="//dzvexx2x036l1.cloudfront.net/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
+				<img alt="Bring Referral Traffic" src="//dzvexx2x036l1.cloudfront.net/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
+				<img alt="Bring Referral Traffic" src="//dzvexx2x036l1.cloudfront.net/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
 			</div>
 		</div>
 	</section>
@@ -421,7 +421,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img class="secw2-2-new mk-animate-element right-to-left" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" />
+				<img class="secw2-2-new mk-animate-element right-to-left" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" alt="Google search image" />
 
 			</div>
 		</div>
@@ -446,7 +446,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img class="secw2-2-new mk-animate-element right-to-left" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" />
+				<img class="secw2-2-new mk-animate-element right-to-left" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" alt="Google search image" />
 			</div>
 		</div>
 	</section>
@@ -454,7 +454,7 @@
 		<div class="container-fluid">
 			<div class="sec10-testimonial mk-animate-element left-to-right">
 				<div class="sec10-testname1 hide">
-					<img src="//dzvexx2x036l1.cloudfront.net/testimonial1.png" />
+					<img alt="user image" src="//dzvexx2x036l1.cloudfront.net/testimonial1.png" />
 				</div>
 				<div class="sec10-tes-inner">
 					<em class="sec10-em1">“</em>
@@ -471,7 +471,7 @@
 	<section class="section section-16 rs-hide">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img src="//dzvexx2x036l1.cloudfront.net/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
+				<img alt="Engagement increases conversion" src="//dzvexx2x036l1.cloudfront.net/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-16-left">
 				<span class="mk-animate-element right-to-left">
@@ -502,7 +502,7 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="//dzvexx2x036l1.cloudfront.net/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
+				<img alt="Engagement increases conversion" src="//dzvexx2x036l1.cloudfront.net/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
 			</div>
 		</div>
 	</section>
@@ -522,7 +522,7 @@
 					</span>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img src="//dzvexx2x036l1.cloudfront.net/graph-2-updated.jpg" class="mk-animate-element left-to-right" />
+				<img alt="Enable Targeted Sales" src="//dzvexx2x036l1.cloudfront.net/graph-2-updated.jpg" class="mk-animate-element left-to-right" />
 			</div>
 		</div>
 	</section>

@@ -69,49 +69,49 @@
 				<div class="col-xs-12 col-md-12 col-sm-12 mobile-container rs-hide calc-links text-center">
 					<a href="javascript:void(0);" class="active"
 						onclick="display('//website.outgrow.us/build-a-startup?vHeight=1')">
-						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
+						<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1')">
-						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
+						<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1')">
-						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
+						<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1')">
-						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+						<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/outgrow-roi?vHeight=1')">
-						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
+						<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
 					</a>
 					<a href="javascript:void(0);" class=""
 						onclick="display('//website.outgrow.us/build-an-app?vHeight=1')">
-						<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
+						<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
 					</a>
 				</div>
 
 				<div class="col-xs-12 col-md-12 col-sm-12 section-6-left mobile-container rs-show text-center">
 					<div class="col-md-12 col-sm-12 col-xs-12 np calc-links">
 						<a href="//website.outgrow.us/build-a-startup?vHeight=1" class="col-sm-4 np calcembed active" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
+							<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc06.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Which-engineering-major-is-right-for-you?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
+							<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc01.jpg" />
 						</a>
 						<a href="//website.outgrow.us/Cost-of-a-video-campaign-4?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
+							<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc02.jpg" />
 						</a>
 						<a href="//website.outgrow.us/What-is-your-risk-of-getting-a-heart-disease?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
+							<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc03.jpg" />
 						</a>
 						<a href="//website.outgrow.us/outgrow-roi?vHeight=1" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
+							<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc04.jpg" />
 						</a>
 						<a href="//website.outgrow.us/build-an-app" class="col-sm-4 np calcembed" target="_blank">
-							<img class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
+							<img alt="Calculator thumb image" class="thumb-calc" src="//dzvexx2x036l1.cloudfront.net/calc05.jpg" />
 						</a>
 					</div>
 				</div>
@@ -218,10 +218,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide  mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
+													<img alt="Cost Calculators" src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show  mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class= "img-pos box-shadow" />
+													<img alt="Cost Calculators" src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class= "img-pos box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -230,7 +230,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="box-shadow" />
+													<img alt="Savings Calculators" src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -268,7 +268,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class= "box-shadow img-res" />
+													<img alt="Savings Calculators" src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class= "box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -317,11 +317,11 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
+													<img alt="Diagnostic Calculators" src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 												</div>
 
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
+													<img alt="Diagnostic Calculators" src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -331,7 +331,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/homepage-2.jpg" class="box-shadow" />
+													<img alt="Competitor Calculators" src="//dzvexx2x036l1.cloudfront.net/homepage-2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -369,7 +369,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/homepage-2.jpg" class="box-shadow" />
+													<img alt="Competitor Calculators" src="//dzvexx2x036l1.cloudfront.net/homepage-2.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -412,10 +412,10 @@
 												</div>
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner5-new.jpg" class="box-shadow" />
+													<img alt="Alternate Choice Calculators" src="//dzvexx2x036l1.cloudfront.net/banner5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner5-new.jpg" class="box-shadow" />
+													<img alt="Alternate Choice Calculators" src="//dzvexx2x036l1.cloudfront.net/banner5-new.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -426,7 +426,7 @@
 											<div class="container img-container-right mobile-container">
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/slide3.jpg" class="box-shadow" />
+													<img alt="Time Calculators" src="//dzvexx2x036l1.cloudfront.net/slide3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -473,7 +473,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/slide3.jpg" class="box-shadow img-res" />
+													<img alt="Time Calculators" src="//dzvexx2x036l1.cloudfront.net/slide3.jpg" class="box-shadow img-res" />
 												</div>
 											</div>
 										</section>
@@ -519,10 +519,10 @@
 												</div>
 
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner4-new.jpg" class="box-shadow" />
+													<img alt="Grade Based Calculators" src="//dzvexx2x036l1.cloudfront.net/banner4-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner4-new.jpg" class="box-shadow" />
+													<img alt="Grade Based Calculators" src="//dzvexx2x036l1.cloudfront.net/banner4-new.jpg" class="box-shadow" />
 
 												</div>
 											</div>
@@ -532,7 +532,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
+													<img alt="Risk Calculators" src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -566,7 +566,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
+													<img alt="Risk Calculators" src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -608,11 +608,11 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
+													<img alt="Industry Metrics Calculators" src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
+													<img alt="Industry Metrics Calculators" src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -649,10 +649,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-7 col-sm-12 np rs-hide">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner10.jpg" class="box-shadow" />
+													<img alt="Customize as per your Brand" src="//dzvexx2x036l1.cloudfront.net/banner10.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner10.jpg" class="box-shadow" />
+													<img alt="Customize as per your Brand" src="//dzvexx2x036l1.cloudfront.net/banner10.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -677,7 +677,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide">
-													<img src="//dzvexx2x036l1.cloudfront.net/new-collag3.jpg" class="box-shadow" />
+													<img alt="Software as a Service" src="//dzvexx2x036l1.cloudfront.net/new-collag3.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -759,10 +759,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
+													<img alt="Marketing Agency" src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
+													<img alt="Marketing Agency" src="//dzvexx2x036l1.cloudfront.net/banner7-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -771,7 +771,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="box-shadow" />
+													<img alt="Education" src="//dzvexx2x036l1.cloudfront.net/slide5-new.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -852,10 +852,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
+													<img alt="Healthcare & Insurance" src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
+													<img alt="Healthcare & Insurance" src="//dzvexx2x036l1.cloudfront.net/banner6.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -864,7 +864,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/Construction.jpg" class="box-shadow" />
+													<img alt="Construction & Real Estate" src="//dzvexx2x036l1.cloudfront.net/Construction.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -913,7 +913,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/Construction.jpg" class="box-shadow" />
+													<img alt="Construction & Real Estate" src="//dzvexx2x036l1.cloudfront.net/Construction.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -957,10 +957,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
+													<img alt="Finance" src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
+													<img alt="Finance" src="//dzvexx2x036l1.cloudfront.net/banner8-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -969,7 +969,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
+													<img alt="Travel & Hospitality" src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1002,7 +1002,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
+													<img alt="Travel & Hospitality" src="//dzvexx2x036l1.cloudfront.net/banner2.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1047,10 +1047,10 @@
 
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element right-to-left">
-													<img src="//dzvexx2x036l1.cloudfront.net/manufacturing.jpg" class="box-shadow" />
+													<img alt="Manufacturing" src="//dzvexx2x036l1.cloudfront.net/manufacturing.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-8 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/manufacturing.jpg" class="box-shadow" />
+													<img alt="Manufacturing" src="//dzvexx2x036l1.cloudfront.net/manufacturing.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
@@ -1059,7 +1059,7 @@
 										<section class="section section-usecase1">
 											<div class="container img-container-right mobile-container">
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-hide mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner9-ex.jpg" class="box-shadow" />
+													<img alt="Publishing" src="//dzvexx2x036l1.cloudfront.net/banner9-ex.jpg" class="box-shadow" />
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 section-usecase1-left mk-animate-element right-to-left">
 													<span class=" mk-in-viewport full-visible hide">
@@ -1092,7 +1092,7 @@
 													</div>
 												</div>
 												<div class="col-xs-12 col-md-6 col-sm-12 np rs-show mk-animate-element left-to-right">
-													<img src="//dzvexx2x036l1.cloudfront.net/banner9-ex.jpg" class="box-shadow" />
+													<img alt="Publishing" src="//dzvexx2x036l1.cloudfront.net/banner9-ex.jpg" class="box-shadow" />
 												</div>
 											</div>
 										</section>
