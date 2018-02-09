@@ -2767,7 +2767,7 @@ label.control-label {
 .footer-social{margin-top:25px}
 .footer-social ul{display:inline-block;padding-left:0}
 .footer-social ul li{display:inline-block;padding-left:17px;padding-right:17px}
-.footer-social ul li a{float:left;color:#62696d;font-size:13px;font-family:montserratregular}
+.footer-social ul li a{float:left;color:#626883;font-size:13px;font-family:montserratregular}
 .footer-social ul li a:hover{color:#fb5f66}
 .footer-copyright i{position:relative;top:2px;font-size:14px;margin-right:5px;color:#62696d;}
 .footer-copyright span{margin-right:10px;font-size:14px;color:#62696d}
@@ -19141,3 +19141,19 @@ i.zmdi.zmdi-twitter-box {
 	.swiper-container-ranking-lg {display: block;}
 
 } 
+
+.footer-img2 a {
+    color: #62696d;
+    font-family: montserratlight;
+    width: 100%;
+    float: left;
+    text-align: left;
+	margin: 0;
+}
+.footer-img2 a:hover span {
+    color: #fb5f66;
+	-webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+
