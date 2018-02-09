@@ -17391,8 +17391,8 @@ span.live-demo a {
     text-align: center;
 }
 .img-wrapper img {
-	margin-right: 10px;
-    margin-left: 10px;
+	margin-right: 15px;
+    margin-left: 15px;
 	margin-bottom: 12px;
 	width: 9%;
 	filter: grayscale(1);
@@ -17984,10 +17984,10 @@ span.recom {
 	.arrow_box{min-width:100px!important}
 	span.marketing-tool{font-size:14px!important;}
 	/* span.tag1.sit {padding-right: 20px;} */
-	.home-imgs li img {margin: 0 auto 5px;!important}
+	.home-imgs li img {margin: 0 auto 5px !important;}
 	.buzzfeed-left-section{width:100%!important}
 	.product-hunt-left{width:100%!important}
-	.img-wrapper img{width:24%!important;}
+	.img-wrapper img{width:24%!important; margin: 0px 10px 12px;}
 	.interactive-subinner-left-section{width: 100%!important;display: flex;justify-content: center;}
 	.interactive-subinner-right-section{width:100%!important;   margin-left: 0px;     margin-top: 7px;}
 	.interactive-content{text-align:center!important;}
