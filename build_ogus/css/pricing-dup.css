@@ -409,7 +409,7 @@ label {
 	}
 	.footer-social ul li a {
 		float: left;
-		color: #62696d;
+		color: #626883;
 		font-size: 13px;
 		font-family: montserratregular;
 	}
@@ -1555,4 +1555,17 @@ i.zmdi.zmdi-twitter-box {
 }
 .ltd-plan h3 {
     color: #fb545b !important;
+}
+.footer-img2 a {
+    color: #62696d;
+    font-family: montserratlight;
+    width: 100%;
+    float: left;
+    text-align: left;
+	margin: 0;
+}
+.footer-img2 a:hover span {
+    color: #fb5f66;
+	-webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
 }
