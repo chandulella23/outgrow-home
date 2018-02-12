@@ -441,7 +441,7 @@
                                 <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
                                 <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
                             </span>
-                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                            <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
@@ -607,7 +607,7 @@
                                 <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
                                 <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
                             </span>
-                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                            <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
