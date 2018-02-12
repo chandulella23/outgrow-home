@@ -482,7 +482,7 @@
                             <h3>Freelancer</h3>
                             <span class="annual-price">
                                 <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
-                                <p class="price"><sup>$</sup>300<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>300<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
                                 <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
