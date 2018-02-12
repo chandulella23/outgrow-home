@@ -19,10 +19,10 @@
                		<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
                	</li>
           		<li class="signUp signUp-style res-nav-hide">
-          			<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
+          			<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
           		</li>
                 <li class="signUp res-nav-show">
-                	<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
+                	<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
                 </li>
 			</ul>
 		</div>
