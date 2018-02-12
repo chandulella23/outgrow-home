@@ -1349,3 +1349,7 @@ tbody tr:last-child td.active-bg {
 .ltd-plan h3 {
     color: #fb545b !important;
 }
+
+.pricing-outer-ltd1 thead th p.price {
+    font-size: 30px !important;
+}

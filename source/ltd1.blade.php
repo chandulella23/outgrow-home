@@ -42,9 +42,9 @@
 	<section class="section section-1">
         <div class="container-fluid">
             <div class="col-xs-12 col-sm-12 text-center pricing-headingtop">
-                <h3 class="plans-heading">Plans and Pricing </h3>
+                <h3 class="plans-heading" style="margin-bottom: 40px;">Plans and Pricing </h3>
                 <!-- <p class="plans-subheading">Simple pricing, No Hidden costs, No transaction based fees.</p> -->
-                <section id="plan-cycle">
+                <section id="plan-cycle" class="hide">
                     <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list" id="plans">
                         <ul>
                             <li class="cycle-tab active" id="annually">
@@ -67,7 +67,7 @@
                     </div>
                 </section>
             </div>
-            <div class="pricing-outer container">
+            <div class="pricing-outer container pricing-outer-ltd1">
                 <table>
 
                     <colgroup></colgroup>
@@ -87,8 +87,8 @@
                             <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                    <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
+                                    <p class="price"><sup>$</sup>100<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
                                     <p class="strike-price">$45<sub>/mo.</sub></p>
@@ -98,15 +98,15 @@
                                     <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
                                     <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
                                 </span>
-                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                                <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="btn-hover">Buy Now</a></span>
                             </th>
                             <th class="active">
                                 <!-- <span class="ribbon">Most Popular</span> -->
                                 <span class="label-popularPlan">Most Popular</span>
                                 <h2>Essentials</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                    <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
+                                    <p class="price"><sup>$</sup>420<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
                                     <p class="strike-price">$115<sub>/mo.</sub></p>
@@ -116,13 +116,13 @@
                                     <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
                                     <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
                                 </span>
-                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                                <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="btn-hover">Buy Now</a></span>
                             </th>
                             <th>
                                 <h2>Business</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                    <!-- <p class="strike-price">$720<sub>/mo.</sub></p> -->
+                                    <p class="price"><sup>$</sup>7200<sub>/yr</sub></p>
                                 </span>
                                 <span class="s-annual-price">
                                     <p class="strike-price">$720<sub>/mo.</sub></p>
@@ -430,8 +430,8 @@
                         <div class="pricing-top">
                             <h3>Freelancer</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$45<sub>/mo.</sub></p> -->
+                                <p class="price"><sup>$</sup>100<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
                                 <p class="strike-price">$45<sub>/mo.</sub></p>
@@ -596,8 +596,8 @@
                         <div class="pricing-top">
                             <h3>Essentials</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$115<sub>/mo.</sub></p> -->
+                                <p class="price"><sup>$</sup>420<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
                                 <p class="strike-price">$115<sub>/mo.</sub></p>
@@ -761,8 +761,8 @@
                         <div class="pricing-top">
                             <h3>Business</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                <!-- <p class="strike-price">$720<sub>/mo.</sub></p> -->
+                                <p class="price"><sup>$</sup>7200<sub>/yr</sub></p>
                             </span>
                             <span class="s-annual-price">
                                 <p class="strike-price">$720<sub>/mo.</sub></p>
