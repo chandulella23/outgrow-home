@@ -178,6 +178,9 @@
 		line-height: normal;
 		text-align: center;
 	}
+	.pricing-outer-ltd1 .pricing-top p.price {
+		font-size: 30px !important;
+	}
 	.pricing-top p.price sup {
 		font-size: 20px;
 		font-family: montserratlight;
@@ -277,6 +280,8 @@
 
 	.expand-rs .minus, .expand-rs.open .plus{display: none;}
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
+
+	
 
 
 }
