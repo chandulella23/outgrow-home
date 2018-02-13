@@ -120,8 +120,8 @@
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
 				<span>Copyright 2018</span>
-				<img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer-logo-dark.png" src="" />
-				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" /></a>
+				<img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer-logo-dark.png" src="" alt="Footer logo" />
+				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
 			</div>
 		</div>
 	</div>

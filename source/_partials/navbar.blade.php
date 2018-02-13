@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="params navbar-brand" href="{{ $page->baseUrl }}/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" /></a>
+			<a class="params navbar-brand" href="{{ $page->baseUrl }}/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right" id="navlist">
@@ -19,10 +19,10 @@
                		<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
                	</li>
           		<li class="signUp signUp-style res-nav-hide">
-          			<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
+          			<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
           		</li>
                 <li class="signUp res-nav-show">
-                	<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
+                	<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
                 </li>
 			</ul>
 		</div>
