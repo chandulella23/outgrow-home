@@ -190,7 +190,7 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the classic Chicago and Londoner layout and templates.</span>
+                                <span class="detail">Only the Classic "Chicago" layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="half"></span>All Templates & Layouts
@@ -520,7 +520,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the classic Chicago and Londoner layout and templates. </span>
+                                    <span class="detail">Only the Classic "Chicago" layout and templates. </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
