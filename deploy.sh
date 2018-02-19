@@ -1,9 +1,11 @@
-git add . && git commit -am "Source commit"
+echo "Don't use this build script !!!!"
 
-git pull origin jigsawhome && git commit -am "Pulled changes"
+#git add . && git commit -am "Source commit"
 
-git push origin jigsawhome
+#git pull origin jigsawhome && git commit -am "Pulled changes"
 
-jigsaw build ogco && git add build_ogco && git commit -am "Build for production"
+#git push origin jigsawhome
 
-git subtree push --prefix build_ogco origin gh-pages
+#jigsaw build ogco && git add build_ogco && git commit -am "Build for production"
+
+#git subtree push --prefix build_ogco origin gh-pages
