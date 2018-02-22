@@ -358,21 +358,17 @@
                                 Integrations
                             </th>
                             <td class="expand-child">                                
-                                <span class="quater"></span>Excel Export
-                                <span class="detail">View (or download) lead contact information in a Google spreadsheet.</span>                             
-                            </td>                            
+                                <span class="half"></span>Standard access
+                                <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>                             
+                            </td>
                             <td class="expand-child active-bg">                                
                                 <span class="full"></span>Advanced Access
-                                <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
+                                <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>                             
                             </td>
                             <td class="expand-child">                                
-                                <span class="half"></span>Standard Access
-                                <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>                             
-                            </td>
-                            <!-- <td class="expand-child">                                
                                 <span class="full"></span>Advanced Access
-                                <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
-                            </td> -->
+                                <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier.</span>                             
+                            </td>
                         </tr>
                         <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i>Templates</th>
@@ -660,8 +656,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Excel Export</span>
-                                    <span class="detail">View (or download) lead contact information in a Google spreadsheet.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Standard Access</span>
+                                    <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -892,8 +888,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Advanced Access</span>
+                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1095,8 +1091,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
-                                    <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like MailChimp, Aweber, Hubspot, Marketo etc.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
+                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1304,7 +1300,7 @@
                                         Integrations
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>
+                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
