@@ -89,51 +89,27 @@
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
                                     <!-- <p class="strike-price">$45<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>300<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>125<sub>/yr</sub></p>
                                 </span>
-                                <span class="s-annual-price">
-                                    <!-- <p class="strike-price">$45<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>30<sub>/yr</sub></p>
-                                </span>
-                                <span class="monthly-price">
-                                    <p class="price"><sup>$</sup>45<sub>/yr</sub></p>
-                                </span>
-                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                                <span class=""><a onClick="return selectPlan('freelancer')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th> 
                             <th class="active ltd-plan">
                                 <!-- <span class="ribbon">Most Popular</span> -->
                                 <span class="label-popularPlan">Limited Time</span>
                                 <h2>Lifetime Deal</h2>
                                 <span class="annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>99</p>
+                                    <p class="price"><sup>$</sup>49</p>
                                 </span>
-                                <span class="s-annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>99</p>
-                                </span>
-                                <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
-                                </span>
-                                <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                                <span class=""><a onClick="return selectPlan('ltd')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th>                            
                             <th class="">
                                 <!-- <span class="label-popularPlan">Most Popular</span> -->
                                 <h2>Essentials</h2>
                                 <span class="annual-price">
                                     <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>1140<sub>/yr</sub></p>
+                                    <p class="price"><sup>$</sup>420<sub>/yr</sub></p>
                                 </span>
-                                <span class="s-annual-price">
-                                    <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                    <p class="price"><sup>$</sup>105<sub>/yr</sub></p>
-                                </span>
-                                <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/yr</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
-                                </span>
-                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                                <span class=""><a onClick="return selectPlan('essentials')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th>
                             <th class="hide">
                                 <h2>Business</h2>
