@@ -145,14 +145,14 @@
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
                             <td><span class="quater"></span>300 & 6000</td>
-                            <td class="active-bg"><span class="full"></span>Unlimited</td>
+                            <td><span class="half"></span>300 & 6000</td>
                             <!-- <td class=""><span class="full"></span>Unlimited</td> -->
-                             <td><span class="full"></span>1,000 & 20,000</td> 
+                             <td><span class="full"></span>350 & 7,000</td>
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
-                            <td><span class="quater"></span>3</td>
-                            <td class="active-bg"><span class="half"></span>10</td>
+                            <td><span class="quater"></span>6</td>
+                            <td class="active-bg"><span class="half"></span>3</td>
                             <td class=""><span class="full"></span>Unlimited</td>
                             <!-- <td><span class="full"></span>Unlimited</td> -->
                         </tr>
@@ -178,11 +178,11 @@
                                 <span class="detail">Only the Classic "Chicago" layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="quater"></span>Basic Templates & Layouts
-                                 <span class="detail">All layouts and templates except "The Stockholm" and "The Venice" are unlocked.</span> 
+                                <span class="half"></span>Basic Templates & Layouts
+                                 <span class="detail">Only the Classic "Chicago" layout and templates.</span>
                             </td>
                             <td class="expand-child">
-                                <span class="half"></span>All Templates & Layouts
+                                <span class="full"></span>All Templates & Layouts
                                 <span class="detail">All layouts and templates are unlocked.</span>
                             </td>
                         </tr>                        
@@ -193,15 +193,15 @@
                                 Hosting and Embedding
                             </th>
                             <td class="expand-child">
-                                <span class="half"></span>Embed Anywhere
+                                <span class="quater"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="full"></span>Custom Access
-                                <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
+                                <span class="half"></span>Embed Anywhere
+                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>  
                             <td class="expand-child">
-                                <span class="half"></span>Embed Anywhere
+                                <span class="full"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>                          
                         </tr>
@@ -214,9 +214,8 @@
                             <td>
                                 <span class="none"></span>No Access
                             </td>                            
-                            <td class="expand-child active-bg">
-                                <span class="full"></span>Full Access
-                                <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
+                            <td class="active-bg">
+                                <span class="none"></span>No Access
                             </td>
                             <td class="">
                                 <span class="none"></span>No Access
@@ -344,11 +343,11 @@
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="half"></span>Standard Access
+                                <span class="half"></span>Limited Access
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child">
-                                <span class="quater"></span>Limited Access
+                                <span class="full"></span>Limited Access
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                         </tr>
@@ -454,8 +453,8 @@
                                 <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Full Access
-                                <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>                             
+                                <span class="half"></span>Limited Access
+                                <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Full Access
@@ -473,11 +472,11 @@
                                 <span class="detail">Traffic Details, Lead Data and User Responses.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Advanced Access
-                                <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>                             
+                                <span class="half"></span>Limited Access
+                                <span class="detail">Traffic Details, Lead Data and User Responses.</span>
                             </td>
                             <td class="expand-child">                                
-                                <span class="half"></span>Standard Access
+                                <span class="full"></span>Standard Access
                                 <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
                             </td>
                         </tr>
@@ -491,11 +490,10 @@
                                 <!-- <span class="detail"></span> -->
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="full"></span>Advanced Access
-                                <span class="detail">Access to conditional messaging, email embeds, email validation, custom HTML/CSS/JS and custom notifications.</span>
+                                <span class="none"></span>No Access
                             </td>   
                             <td class="expand-child">
-                                <span class="quater"></span>Limited Access
+                                <span class="full"></span>Limited Access
                                 <span class="detail">Access to conditional messaging.</span>
                             </td>        
                         </tr>
@@ -510,8 +508,8 @@
                                 <span class="detail">You will have access to support docs.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Priority
-                                <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
+                                <span class="half"></span>Support Docs
+                                <span class="detail">You will have access to support docs.</span>
                             </td>
                             <td class="expand-child">                                
                                 <span class="half"></span>Basic
