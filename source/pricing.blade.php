@@ -1428,6 +1428,18 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 np">        
+                <div class="col-md-6 col-sm-12 col-xs-12 np">
+                    <div class="faq-section">
+                        <div class="faq-section-title">
+                            Which native integrations do you have?
+                        </div>
+                        <div class="faq-section-content">
+                            <p>We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 	</section>
 
