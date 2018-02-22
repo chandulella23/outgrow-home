@@ -23,7 +23,7 @@ window.close_accordion_section = function () {
 }
 
 window.selectPlan = function(plantype) {
-	window.createCookie('ltd', plantype, 365, '.' + window.location.hostname);
+	createCookie('ltd', plantype, 365, '.' + window.location.hostname);
 	return true;
 }
 jQuery(document).ready(function() {
