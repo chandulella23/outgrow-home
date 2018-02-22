@@ -561,28 +561,19 @@
                         <div class="pricing-top">
                             <h3>Freelancer</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>125<sub>/yr</sub></p>
                             </span>
-                            <span class="s-annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
-                            </span>
-                            <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
-                            </span>
-                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                            <span class=""><a onClick="return selectPlan('freelancer')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>50 & 1000</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>1</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>6</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -594,7 +585,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Templates and Layouts
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Templates & Layout </span>
                                     <span class="detail">Only the Classic "Chicago" layout and templates. </span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -612,7 +603,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Hosting and Embedding
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -761,28 +752,19 @@
                         <div class="pricing-top">
                             <h3>Life Time Deal</h3>
                             <span class="annual-price">
-                                <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                <p class="price"><sup>$</sup>99</p>
+                                <p class="price"><sup>$</sup>49</p>
                             </span>
-                            <span class="s-annual-price">
-                                <!-- <p class="strike-price">$115<sub>/yr</sub></p> -->
-                                <p class="price"><sup>$</sup>99</p>
-                            </span>
-                            <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/yr</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/yr</sub></p>
-                            </span>
-                            <span class=""><a href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                            <span class=""><a onClick="return selectPlan('ltd')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                    <span class="feature-subtitle"><span class="full"></span>300 &amp; 6000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="half"></span>10</span>
+                                    <span class="feature-subtitle"><span class="half"></span>3</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Type of Experiences</span>
@@ -799,7 +781,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Basic Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates except "The Stockholm" and "The Venice" are unlocked.</span>
+                                    <span class="detail">Only the Classic "Chicago" layout and templates..</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -861,8 +843,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Hosting and Embedding
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Custom Access </span>
-                                    <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
+                                    <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -870,8 +852,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Charts and Graphs
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -879,8 +860,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. You can also remove the Outgrow Logo.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited Access</span>
+                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -888,8 +869,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Advanced Access</span>
-                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard access</span>
+                                    <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc. </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -897,8 +878,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Formula and Logic Jump
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited Access </span>
+                                    <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -906,8 +887,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Analytics and Tracking
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited Access</span>
+                                    <span class="detail">Traffic Details, Lead Data and User Responses.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -915,8 +896,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Advanced Features
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">Access to conditional messaging, email embeds, email validation, custom HTML/CSS/JS and custom notifications.</span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -924,8 +904,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Priority</span>
-                                    <span class="detail">You will have access to support docs, email support as well as live chat.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Support Docs</span>
+                                    <span class="detail">You will have access to support docs.</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -996,18 +976,9 @@
                         <div class="pricing-top">
                             <h3>Essentials</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                <p class="price"><sup>$</sup>420<sub>/yr.</sub></p>
                             </span>
-                            <span class="s-annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
-                            </span>
-                            <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
-                            </span>
-                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                            <span class=""><a onClick="return selectPlan('essentials')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
