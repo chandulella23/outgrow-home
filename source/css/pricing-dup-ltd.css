@@ -938,13 +938,16 @@ label {
 
 		colgroup:nth-child(2){
 			width:25%;
-			border:1px solid #eff0f1;
+			/* border:1px solid #eff0f1; */
+			border: 1px solid #bed4df;
+    		box-shadow: 0 0px 10px rgba(0, 0, 0, .10);
 		}
 
 		colgroup:nth-child(3) {
 			width: 25%;
-			border: 1px solid #bed4df;
-			box-shadow: 0 0px 10px rgba(0, 0, 0, .10);
+			/* border: 1px solid #bed4df; */
+			border: 1px solid #eff0f1;
+			/* box-shadow: 0 0px 10px rgba(0, 0, 0, .10); */
 			/* display: table-column; */
 			right: 224px;
 			position: absolute;
@@ -1201,7 +1204,7 @@ label {
 			left: 0px;
 			background: #fff;
 			border: 1px solid #bed4df;
-			box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);
+			/* box-shadow: 0 -6px 10px rgba(0, 0, 0, .10); */
 			border-bottom: 0px solid transparent;
 			z-index: 1;
 			
@@ -1278,6 +1281,7 @@ span.label-popularPlan {
     top: -7px;
 	left: 0px;
 	z-index: 1;
+	min-height: 20px;
 }
 .quater{
     background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
@@ -1394,4 +1398,33 @@ i.zmdi.zmdi-twitter-box {
     color: #fb5f66;
 	-webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+}
+.asterix-text {
+    text-align: center;
+    font-size: 12px;
+    font-family: montserratlight;
+    opacity: 0.85;
+    margin-top: 10px;
+}
+.ltd-plan span.label-popularPlan {
+	top: -8px;
+	left: -1px;
+    width: 226px;
+}
+/* span.label-popularPlan:nth-child(1) {
+    border-right: 1px solid #fff;
+} */
+thead th p.price small, 
+.pricing-block span.annual-price small{
+    font-size: 20px;
+    top: -7px;
+    position: relative;
+}
+.ltd-plan span.annual-price {
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+span.label-popularPlan::after {
+    background: red;
+    padding: 60px;
 }
