@@ -767,7 +767,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 text-center np rating-block-inner">
 							<div class="col-md-5 col-sm-5 col-xs-12 text-center np rating-block-left">
 								<div class="rating-table-cell">
-									<img src="images/review_page_capterra.jpg" alt="Capterra logo image" />
+									<img src="{{ $page->baseUrl }}/images/review_page_capterra.jpg" alt="Capterra logo image" />
 									<div class="rating-icons">
 										<i class="material-icons">star_rate</i>
 										<i class="material-icons">star_rate</i>
@@ -780,7 +780,7 @@
 							</div>
 							<div class="col-md-7 col-sm-7 col-xs-12 text-center np rating-block-right">
 								<div class="rating-table-cell">
-									<img src="images/review_page_capterra_rating.jpg" alt="Capterra rating image" />
+									<img src="{{ $page->baseUrl }}/images/review_page_capterra_rating.jpg" alt="Capterra rating image" />
 								</div>
 							</div>
 						</div>
@@ -798,7 +798,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 text-center np rating-block-inner">
 							<div class="col-md-5 col-sm-5 col-xs-12 text-center np rating-block-left">
 								<div class="rating-table-cell">
-									<img src="images/review_page_g2crowd.jpg" alt="g2 crowd logo image" />
+									<img src="{{ $page->baseUrl }}/images/review_page_g2crowd.jpg" alt="g2 crowd logo image" />
 									<div class="rating-icons">
 										<i class="material-icons">star_rate</i>
 										<i class="material-icons">star_rate</i>
@@ -811,7 +811,7 @@
 							</div>
 							<div class="col-md-7 col-sm-7 col-xs-12 text-center np rating-block-right">
 								<div class="rating-table-cell">
-									<img src="images/review_page_g2crowd_rating.jpg" alt="g2 crowd rating image" />
+									<img src="{{ $page->baseUrl }}/images/review_page_g2crowd_rating.jpg" alt="g2 crowd rating image" />
 								</div>
 							</div>
 						</div>
@@ -829,7 +829,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 text-center np rating-block-inner">
 							<div class="col-md-5 col-sm-5 col-xs-12 text-center np rating-block-left">
 								<div class="rating-table-cell">
-									<img src="images/review_page_fb.jpg" alt="Fb logo image" />
+									<img src="{{ $page->baseUrl }}/images/review_page_fb.jpg" alt="Fb logo image" />
 									<div class="rating-icons">
 										<i class="material-icons">star_rate</i>
 										<i class="material-icons">star_rate</i>
@@ -842,7 +842,7 @@
 							</div>
 							<div class="col-md-7 col-sm-7 col-xs-12 text-center np rating-block-right">
 								<div class="rating-table-cell">
-									<img src="images/review_page_fb_rating.jpg" alt="Fb rating image" />
+									<img src="{{ $page->baseUrl }}/images/review_page_fb_rating.jpg" alt="Fb rating image" />
 								</div>
 							</div>
 						</div>
@@ -856,10 +856,10 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center np am">
 				<div class="container mobile-container protfolio-section">
-					<div class="col-md-8 np"><img src="images/review_page_am.png" alt="am review image" /></div>
+					<div class="col-md-8 np"><img src="{{ $page->baseUrl }}/images/review_page_am.png" alt="am review image" /></div>
 					<div class="col-md-3 np pull-right">
 						<div class="am-review">
-							<img src="images/review_page_amlogo.jpg" alt="am review image" />
+							<img src="{{ $page->baseUrl }}/images/review_page_amlogo.jpg" alt="am review image" />
 							<span>Outgrow Review <br/>Honest Review by <br/><span>Danny & Special Bonuses </span>
 						</div>
 						<p>
