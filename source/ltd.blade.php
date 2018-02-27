@@ -98,7 +98,7 @@
                                 <span class="label-popularPlan">Limited Time**</span>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                     <p class="strike-price">$300<sub>/yr</sub></p> 
+                                     <!-- <p class="strike-price">$300<sub>/yr</sub></p>  -->
                                     <p class="price"><sup>$</sup>125<small>*</small><sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a onClick="return selectPlan('freelancer')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
@@ -107,7 +107,7 @@
                                 <span class="label-popularPlan"></span>
                                 <h2>Essentials</h2>
                                 <span class="annual-price">
-                                     <p class="strike-price">$1140<sub>/yr</sub></p> 
+                                     <!-- <p class="strike-price">$1140<sub>/yr</sub></p>  -->
                                     <p class="price"><sup>$</sup>420<small>*</small><sub>/yr</sub></p>
                                 </span>
                                 <span class=""><a onClick="return selectPlan('essentials')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
@@ -359,16 +359,16 @@
                                 Integrations
                             </th>
                             <td class="expand-child active-bg">                                
-                                <span class="half"></span>Standard access
+                                <span class="half"></span>Standard Integrations
                                 <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>
                             </td>
                             <td class="expand-child">                                
-                                <span class="quater"></span>Standard access
-                                <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>                             
+                                <span class="quater"></span>Standard Integrations
+                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                <span class="full"></span>Advanced Access
-                                <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
+                                <span class="full"></span>Standard Integration
+                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
                             </td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -680,7 +680,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Standard access</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc. </span>
                                 </li>
                                 <li class="expand-rs">
@@ -785,7 +785,7 @@
                         <div class="pricing-top">
                             <span class="label-popularPlan">Limited Time**</span>
                             <h3>Freelancer</h3>                            
-                            <p class="strike-price">$300<sub>/mo.</sub></p>
+                            <!-- <p class="strike-price">$300<sub>/mo.</sub></p> -->
                             <span class="annual-price">
                                 <p class="price"><sup>$</sup>125<small>*</small><sub>/yr</sub></p>
                             </span>
@@ -873,7 +873,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Standard Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>
                                 </li>
                                 <!-- <li>
@@ -978,7 +978,7 @@
                         <div class="pricing-top">
                             <span class="label-popularPlan">Limited Time**</span>
                             <h3>Essentials</h3>
-                            <p class="strike-price">$1140<sub>/mo.</sub></p>
+                            <!-- <p class="strike-price">$1140<sub>/mo.</sub></p> -->
                             <span class="annual-price">
                                 <p class="price"><sup>$</sup>420<small>*</small><sub>/yr.</sub></p>
                             </span>
@@ -1066,8 +1066,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Standard Integrations</span>
+                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1274,8 +1274,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Standard Integration</span>
+                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1341,7 +1341,9 @@
 
                 <!-- end: for responsive -->
             </div>
-            <div class="asterix-text">* Only for new customers <br/>Avaiable for 2 weeks only</div>
+            <div class="asterix-text">
+                *Only for new customers, who have never signed up for Outgrow before
+                <br/>**Offer is available for 2 weeks only</div>
             <!-- <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
                 <div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
                     <a class="" href="javascrpt:void(0);">

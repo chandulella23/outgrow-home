@@ -320,16 +320,16 @@
                                 Integrations
                             </th>
                             <td class="expand-child">                                
-                                <span class="half"></span>Standard Access
-                                <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>                             
+                                <span class="half"></span>Standard Integrations
+                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Advanced Access
-                                <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>                             
+                                <span class="full"></span>Standard Integrations
+                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>                             
                             </td>
                             <td class="expand-child">                                
-                                <span class="full"></span>Advanced Access
-                                <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier.</span>                             
+                                <span class="full"></span>Advanced Integration
+                                <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
                             </td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -619,8 +619,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Standard Access</span>
-                                    <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Standard Integrations</span>
+                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -819,8 +819,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Advanced Access</span>
-                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
+                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1024,8 +1024,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Integration</span>
+                                    <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API. </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>

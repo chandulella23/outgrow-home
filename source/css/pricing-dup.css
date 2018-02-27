@@ -1289,6 +1289,7 @@ span.label-popularPlan {
     top: -7px;
 	left: 0px;
 	z-index: 1;
+	box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);
 }
 .quater{
     background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
