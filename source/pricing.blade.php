@@ -1435,7 +1435,7 @@
                             Which integrations do you have?
                         </div>
                         <div class="faq-section-content">
-                            <p>We have over 1000 integrations and our current list of native integrations are: marketo, salesforce, hubspot, mailchimp, slack, campaign monitor, aweber, drip.co, myemma, get response, unbounce, listrak, sendlane, zoho, intercom, fb messenger, pardot, active campaign, zapier. </p>
+                            <p>We support over 1000 integrations using Zapier and our current list of native integrations includes: Marketo, Salesforce, Hubspot, Mailchimp, Slack, Campaign Monitor, Aweber, drip.co, Myemma, Get Response, Unbounce, Listrak, Sendlane, Zoho, Intercom, Facebook messenger, Pardot, Active Campaign.</p>
                         </div>
                     </div>
                 </div>

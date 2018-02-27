@@ -781,7 +781,7 @@ label {
 		width: 100%;*/
 		clear: both;
 		margin-top: 40px;
-		width: 900px;
+		width: 925px;
 		padding: 0;
 	}	
 	#plan-cycle{
@@ -949,11 +949,11 @@ label {
 			border: 1px solid #eff0f1;
 			/* box-shadow: 0 0px 10px rgba(0, 0, 0, .10); */
 			/* display: table-column; */
-			right: 224px;
+			right: 230px;
 			position: absolute;
 			top: -1px;
 			height: 100%;
-			z-index: 1;
+			/* z-index: 1; */
 			border-top: none;
 		}
 
@@ -1155,7 +1155,7 @@ label {
 			line-height: 16px;
 			color: #2b93be;
 			font-size: 11px;
-			padding: 10px 10px 0px 10px;
+			padding: 10px 0px 0px 10px;
 			font-family: montserratlight;
 			float: left;
 			width: 100%;
@@ -1281,7 +1281,9 @@ span.label-popularPlan {
     top: -7px;
 	left: 0px;
 	z-index: 1;
-	min-height: 20px;
+    min-height: 21px;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);
+    border-top: 1px solid #bed4df;
 }
 .quater{
     background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
@@ -1409,7 +1411,7 @@ i.zmdi.zmdi-twitter-box {
 .ltd-plan span.label-popularPlan {
 	top: -8px;
 	left: -1px;
-    width: 226px;
+    width: 232px;
 }
 /* span.label-popularPlan:nth-child(1) {
     border-right: 1px solid #fff;

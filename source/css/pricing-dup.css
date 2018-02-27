@@ -788,7 +788,7 @@ label {
 		width: 100%;*/
 		clear: both;
 		margin-top: 40px;
-		width: 900px;
+		width: 950px;
 		padding: 0;
 	}	
 	#plan-cycle{
@@ -954,7 +954,7 @@ label {
 			border: 1px solid #bed4df;
 			box-shadow: 0 0px 10px rgba(0, 0, 0, .10);
 			/* display: table-column; */
-			right: 224px;
+			right: 236px;
 			position: absolute;
 			top: -1px;
 			height: 100%;
@@ -1161,7 +1161,7 @@ label {
 			line-height: 16px;
 			color: #2b93be;
 			font-size: 11px;
-			padding: 10px 10px 0px 10px;
+			padding: 10px 0px 0px 10px;
 			font-family: montserratlight;
 			float: left;
 			width: 100%;
@@ -1208,8 +1208,8 @@ label {
 			position: absolute;
 			bottom: 100%;
 			height: 8px;
-			width: 225px;
-			left: 0px;
+			width: 238px;
+			left: -1px;
 			background: #fff;
 			border: 1px solid #bed4df;
 			box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);

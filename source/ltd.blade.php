@@ -206,10 +206,10 @@
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>                          
                         </tr>
-                        <tr class="expand">
+                        <tr class="not-info">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i>
+                                <i class="material-icons vis-hide">add</i>
+                                <!-- <i class="material-icons minus">remove</i>  -->
                                 Charts and Graphs
                             </th>                          
                             <td class="active-bg">
