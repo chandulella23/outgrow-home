@@ -174,7 +174,7 @@
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
                             <td><span class="quater"></span>1</td>
-                            <td class="active-bg"><span class="full"></span>Unlimited</td>
+                            <td class="active-bg"><span class="half"></span>25</td>
                             <td><span class="full"></span>Unlimited</td>
                         </tr>
                         <!-- <tr class="not-info">

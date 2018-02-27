@@ -145,24 +145,37 @@
                     <tbody>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                            <td class="active-bg"><span class="half"></span>300 & 6000</td>
+                            <td class="active-bg"><span class="quater"></span>300 & 6000</td>
                             <td><span class="quater"></span>300 & 6000</td>
                             <!-- <td class=""><span class="full"></span>Unlimited</td> -->
                              <td><span class="full"></span>350 & 7,000</td>
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
-                            <td class="active-bg"><span class="half"></span>3</td>
-                            <td><span class="quater"></span>6</td>
+                            <td class="active-bg"><span class="quater"></span>3</td>
+                            <td><span class="half"></span>6</td>
                             <td class=""><span class="full"></span>Unlimited</td>
                             <!-- <td><span class="full"></span>Unlimited</td> -->
                         </tr>
-                        <!-- <tr class="not-info">
-                             <th><i class="material-icons vis-hide">add</i> Type of Experiences</th> 
-                            <td class=""><span class="full"></span>All Experiences</td>
-                            <td class="active-bg"><span class="half"></span>Outcome Quiz</td>
-                            <td class=""><span class="full"></span>All Experiences</td>
-                        </tr> -->
+                         <tr class="expand">
+                             <th>
+                                <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i> 
+                                Type of Experiences
+                            </th> 
+                            <td class="active-bg">
+                                <span class="quater"></span>Limited Access
+                                <span class="detail">Only Outcome Quizzes </span>
+                            </td>
+                            <td class="">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                            </td>
+                            <td class="">
+                                <span class="full"></span>Full Access
+                                <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                            </td>
+                        </tr> 
                         <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Collaborators</th>
                             <td><span class="quater"></span>1</td>
@@ -175,8 +188,8 @@
                                 <i class="material-icons minus">remove</i> Templates and Layouts
                             </th>
                             <td class="expand-child active-bg">
-                                <span class="half"></span>Basic Templates & Layouts
-                                 <span class="detail">Only the Classic "Chicago" layout and templates.</span>
+                                <span class="quater"></span>Basic Templates & Layouts
+                                <span class="detail">Only the Classic "Chicago" layout and templates.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
@@ -194,7 +207,7 @@
                                 Hosting and Embedding
                             </th>
                             <td class="expand-child active-bg">
-                                <span class="half"></span>Embed Anywhere
+                                <span class="quater"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>  
                             <td class="expand-child">
@@ -340,7 +353,7 @@
                                 Custom Branding
                             </th>
                             <td class="expand-child active-bg">
-                                <span class="half"></span>Limited Access
+                                <span class="quater"></span>Limited Access
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child">
@@ -348,7 +361,7 @@
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child">
-                                <span class="full"></span>Limited Access
+                                <span class="quater"></span>Limited Access
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                         </tr>
@@ -363,11 +376,11 @@
                                 <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>
                             </td>
                             <td class="expand-child">                                
-                                <span class="quater"></span>Standard Integrations
+                                <span class="half"></span>Standard Integrations
                                 <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                <span class="full"></span>Standard Integration
+                                <span class="half"></span>Standard Integrations
                                 <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
                             </td>
                         </tr>
@@ -446,7 +459,7 @@
                                 Formula and Logic Jump
                             </th>
                             <td class="expand-child active-bg">                                
-                                <span class="half"></span>Limited Access
+                                <span class="quater"></span>Limited Access
                                 <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
                             </td>
                             <td class="expand-child">                                
@@ -465,7 +478,7 @@
                                 Analytics and Tracking
                             </th>
                             <td class="expand-child active-bg">                                
-                                <span class="half"></span>Limited Access
+                                <span class="quater"></span>Limited Access
                                 <span class="detail">Traffic Details, Lead Data and User Responses.</span>
                             </td>
                             <td class="expand-child">                                
@@ -473,7 +486,7 @@
                                 <span class="detail">Traffic Details, Lead Data and User Responses.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                <span class="full"></span>Standard Access
+                                <span class="half"></span>Standard Access
                                 <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
                             </td>
                         </tr>
@@ -490,7 +503,7 @@
                                 <!-- <span class="detail"></span> -->
                             </td> 
                             <td class="expand-child">
-                                <span class="full"></span>Limited Access
+                                <span class="quater"></span>Limited Access
                                 <span class="detail">Access to conditional messaging.</span>
                             </td>        
                         </tr>
@@ -501,7 +514,7 @@
                                 Support
                             </th>
                             <td class="expand-child active-bg">                                
-                                <span class="half"></span>Support Docs
+                                <span class="quater"></span>Support Docs
                                 <span class="detail">You will have access to support docs.</span>
                             </td>
                             <td class="expand-child">                                
@@ -577,10 +590,15 @@
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
                                 </li>
-                                <!-- <li>
-                                    <span class="feature-title">Type of Experiences</span>
-                                    <span class="feature-subtitle"><span class="half"></span>Outcome Quiz</span>
-                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Type of Experiences
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                    <span class="detail">Only Outcome Quizzes </span>
+                                </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
@@ -671,7 +689,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Limited Access</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -689,7 +707,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Formula and Logic Jump
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Limited Access </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access </span>
                                     <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -698,7 +716,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Analytics and Tracking
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Limited Access</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -715,7 +733,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Support
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Support Docs</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
                                     <span class="detail">You will have access to support docs.</span>
                                 </li>
                                 <!-- <li>
@@ -801,6 +819,15 @@
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="quater"></span>6</span>
                                 </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Type of Experiences
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                    <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                                </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="full"></span>1</span>
@@ -873,7 +900,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Standard Integrations</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span>
                                 </li>
                                 <!-- <li>
@@ -994,6 +1021,15 @@
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Type of Experiences
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                    <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                                </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
@@ -1022,7 +1058,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Hosting and Embedding
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -1066,7 +1102,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Standard Integrations</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>
                                 </li>
                                 <!-- <li>
@@ -1197,10 +1233,10 @@
                                     <span class="feature-title">No. of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
-                                <!-- <li>
+                                <li>
                                     <span class="feature-title">Type of Experiences</span>
                                     <span class="feature-subtitle"><span class="full"></span>All Experiences</span>
-                                </li> -->
+                                </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="full"></span>10</span>
@@ -1274,7 +1310,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Standard Integration</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
                                 </li>
                                 <!-- <li>
