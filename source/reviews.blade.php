@@ -793,7 +793,7 @@
 				Outgrow Review By <span>“G2 Crowd” </span>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center np g2">
-				<div class="container mobile-container protfolio-section">
+				<div class="container mobile-container">
 					<div class="rating-block-outer">
 						<div class="col-md-12 col-sm-12 col-xs-12 text-center np rating-block-inner">
 							<div class="col-md-5 col-sm-5 col-xs-12 text-center np rating-block-left">

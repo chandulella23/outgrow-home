@@ -4151,7 +4151,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.lp-sign .lp-sign-inner {
 		margin-left: 0px !important;
 	}
-	.rating-block-outer {width: 88% !important;}
 
 
 }
@@ -4425,7 +4424,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	/* homepage res changes by Arti */
 
 	.badge-g2crowd {left: 43% !important;}
-	.rating-block-outer {width: 90% !important;}
 
 }
 @media (min-width:640px) and (max-width:768px){
@@ -4811,7 +4809,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	/* .tab-outer-frame{padding: 0px !important; padding-right: 50px !important;} */
 	.sec-testimonials .swiper-container {height: 425px;}
 	.sec-clients-logos .container.mobile-container {width: 1366px !important;}
-	.rating-block-outer {width: 35% !important;}
 	.am .col-md-3.pull-right{float: left !important;}
 	.am-review{float: left !important; width: 100%;}
 	
@@ -4952,7 +4949,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-old .btn-signup .btn-buildcal {
 		padding: 15px 70px !important;
 	}
-	.rating-block-outer {width: 70% !important;}
 }
 @media (min-width:1024px) and (max-width:1330px){
 	.section-1-left .btn-buildcal.red{padding:15px 25px;font-size:14px}
@@ -4996,7 +4992,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		padding: 15px 70px !important;
 	}
 	/* .startTrial-outer input{width: 70% !important; padding-right: 200px !important;} */
-	.rating-block-outer {width: 65% !important;}
 
 }
 @media only screen and (max-width:1023px){
@@ -18606,7 +18601,6 @@ img.uni1 {
 	/* img.uni1{top:50px!important;}  */
 	.case-breathers-imgRight .case-breathers-rightSide{padding-bottom:40px!important;     margin-top: 40px;}  
 	/* .left-sec {margin-top: 28px;} */
-	.rating-block-outer {width: 55% !important;}
 }
 
 @media(min-width:320px) and (max-width:640px) { 
@@ -19188,9 +19182,10 @@ i.zmdi.zmdi-twitter-box {
     font-family: montserratsemibold;
 }
 .rating-block-outer {
-    width: 52%;
+    /* width: 52%; */
     float: none;
-    margin: 25px auto 0px;
+	margin: 25px auto 0px;
+	max-width: 572px;
 }
 .rating-block-left {
     background: #2979bd;
@@ -19253,9 +19248,6 @@ i.zmdi.zmdi-twitter-box {
 	padding-top: 60px;
 	margin-top: 40px;
 }
-.rating-block-outer {
-    width: 51%;
-}
 .fb .rating-block-left {
 	background: #405695;
 	min-height: 247px;
@@ -19272,9 +19264,6 @@ i.zmdi.zmdi-twitter-box {
 .fb .rating-block-right {
     min-height: 247px;
 }
-/* .fb .rating-block-outer {
-    width: 48%;
-} */
 .am {
 	background: #f3f8fb;
 	padding-bottom: 100px;
