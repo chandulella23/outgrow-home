@@ -289,6 +289,7 @@
 
 	.expand-rs .minus, .expand-rs.open .plus{display: none;}
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
+	.detail {padding: 10px 10px 0px 10px;}
 
 	
 

@@ -279,6 +279,7 @@
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
 	.pricing-block.most-popular-plan {margin-bottom: 0px;}
 	.ltd-plan span.label-popularPlan {width: 100%; left:0;}
+	.detail {padding: 10px 10px 0px 10px;}
 
 
 }
