@@ -1421,8 +1421,8 @@ thead th p.price small,
     position: relative;
 }
 .ltd-plan span.annual-price {
-	padding-top: 10px;
-    padding-bottom: 10px;
+	padding-top: 19px;
+    /* padding-bottom: 10px; */
 }
 span.label-popularPlan::after {
     background: red;

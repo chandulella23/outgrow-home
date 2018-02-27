@@ -427,6 +427,9 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 	.swiper-container-ranking .swiper-content span {font-size: 12px;}
 	.rating-block-outer {width: 100% !important;}
 	.rating-block-left {width: 100% !important;}
+	.rating-block-left {min-height: 180px !important; padding-top: 12px !important; display: inline-grid !important;}
+	.g2 .rating-block-left {padding-top: 30px !important;}
+	.fb .rating-block-left {padding-top: 25px !important;}
 
 }
 @media (min-width: 0px) and (max-width: 450px){
@@ -4993,7 +4996,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		padding: 15px 70px !important;
 	}
 	/* .startTrial-outer input{width: 70% !important; padding-right: 200px !important;} */
-	.rating-block-outer {width: 70% !important;}
+	.rating-block-outer {width: 65% !important;}
 
 }
 @media only screen and (max-width:1023px){
