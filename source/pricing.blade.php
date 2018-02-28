@@ -324,7 +324,7 @@
                                 <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Standard Integrations
+                                <span class="half"></span>Standard Integrations
                                 <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>                             
                             </td>
                             <td class="expand-child">                                
@@ -619,7 +619,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Standard Integrations</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
                                 </li>
                                 <!-- <li>
