@@ -168,8 +168,8 @@
                                 <span class="detail">Only Outcome Quizzes </span>
                             </td>
                             <td class="">
-                                <span class="full"></span>Full Access
-                                <span class="detail">Includes Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span>
+                                <span class="half"></span>Standard Access
+                                <span class="detail">Numerical Calc and Outcome Quiz </span>
                             </td>
                             <td class="">
                                 <span class="full"></span>Full Access
@@ -823,8 +823,8 @@
                                         <i class="material-icons minus">remove</i> 
                                         Type of Experiences
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">Includes Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
+                                    <span class="detail">Numerical Calc and Outcome Quiz </span>
                                 </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
