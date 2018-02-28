@@ -154,7 +154,7 @@
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
                             <td class="active-bg"><span class="quater"></span>3</td>
                             <td><span class="half"></span>6</td>
-                            <td class=""><span class="full"></span>Unlimited</td>
+                            <td class=""><span class="full"></span>25</td>
                             <!-- <td><span class="full"></span>Unlimited</td> -->
                         </tr>
                          <tr class="expand">
@@ -169,11 +169,11 @@
                             </td>
                             <td class="">
                                 <span class="full"></span>Full Access
-                                <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                                <span class="detail">Includes Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span>
                             </td>
                             <td class="">
                                 <span class="full"></span>Full Access
-                                <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                                <span class="detail">Includes Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls  </span>
                             </td>
                         </tr> 
                         <!-- <tr class="not-info">
@@ -219,10 +219,8 @@
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>                          
                         </tr>
-                        <tr class="not-info">
+                        <!-- <tr class="not-info">
                             <th>
-                                <i class="material-icons vis-hide">add</i>
-                                <!-- <i class="material-icons minus">remove</i>  -->
                                 Charts and Graphs
                             </th>                          
                             <td class="active-bg">
@@ -234,7 +232,7 @@
                             <td class="">
                                 <span class="none"></span>No Access
                             </td>
-                        </tr>
+                        </tr> -->
                         <!-- <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
@@ -452,7 +450,7 @@
                                 <span class="detail">Apply logic jump to supported templates to improve personalization.</span>    
                             </td>
                         </tr> -->
-                        <tr class="expand">
+                        <!-- <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>  
@@ -470,7 +468,7 @@
                                 <span class="full"></span>Full Access
                                 <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>                             
                             </td>
-                        </tr>
+                        </tr> -->
                         <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
@@ -675,14 +673,14 @@
                                     <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
                                         Charts and Graphs
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -701,7 +699,7 @@
                                     <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc. </span>
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -709,7 +707,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access </span>
                                     <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -826,7 +824,7 @@
                                         Type of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                                    <span class="detail">Includes Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span>
                                 </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -868,14 +866,12 @@
                                     <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
                                     <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li> -->
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">
-                                        <!--<i class="material-icons plus">add</i>-->
                                         Charts and Graphs
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                    <!--<span class="detail"></span>-->
-                                </li>
+                                </li> -->
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -953,7 +949,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                 </li> -->
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -961,7 +957,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -1019,7 +1015,7 @@
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                    <span class="feature-subtitle"><span class="full"></span>25</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1028,7 +1024,7 @@
                                         Type of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">Includes Numerical Calculators, Outcome Quiz, Graded Quiz and Polls </span>
+                                    <span class="detail">Includes Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span>
                                 </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -1070,14 +1066,12 @@
                                     <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
                                     <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li> -->
-                                <li>
+                                <!-- <li>
                                     <span class="feature-title">
-                                        <!--<i class="material-icons plus">add</i>-->
                                         Charts and Graphs
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                    <!--<span class="detail"></span>-->
-                                </li>
+                                </li> -->
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -1158,7 +1152,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Apply logic jump to supported templates to improve personalization.</span>
                                 </li> -->
-                                <li class="expand-rs">
+                                <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -1166,7 +1160,7 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
-                                </li>
+                                </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
