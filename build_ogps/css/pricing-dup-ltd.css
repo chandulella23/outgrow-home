@@ -920,7 +920,7 @@ label {
 
 		th,td {
 			font-family: montserratregular;
-			font-size: 13px;
+			font-size: 12px;
 			/* line-height: 1.45; */
 			color: #797f83;
 			vertical-align: top;
@@ -1353,7 +1353,7 @@ tbody tr:last-child td.active-bg {
 tbody td span {
     float: left;
     width: 91%;
-    line-height: 14px;
+    line-height: 16px;
 }
 .ltd-plan h3 {
     color: #fb545b !important;
