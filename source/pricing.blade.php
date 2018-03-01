@@ -1253,6 +1253,14 @@
 				<div id="accordion-13" class="accordion-section-content">
 					<p>Sure. If you are an agency that works with multiple clients, we can figure out a mutually beneficial partnership. Feel free to email us at support@outgrow.co.</p>
 				</div><!--end .accordion-section-content-->
+            </div><!--end .accordion-section-->
+            <div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-14">
+					Which integrations do you have?
+				</a>
+				<div id="accordion-14" class="accordion-section-content">
+					<p>We support over 1000 integrations using Zapier and our current list of native integrations includes: Marketo, Salesforce, Hubspot, Mailchimp, Slack, Campaign Monitor, Aweber, drip.co, Myemma, Get Response, Unbounce, Listrak, Sendlane, Zoho, Intercom, Facebook messenger, Pardot, Active Campaign. </p>
+				</div><!--end .accordion-section-content-->
 			</div><!--end .accordion-section-->
 		</div><!--end .accordion-->
 	</div>
