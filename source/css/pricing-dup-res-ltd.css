@@ -234,7 +234,8 @@
 	.pricing-bottom ul li .feature-subtitle {
 		font-size: 12px;
 		color: #797f83;
-    	font-family: montserratlight;
+		font-family: montserratlight;
+		padding: 0px 10px;
 	}
 	.pricing-bottom a.toggle-more {
 		float: left;
