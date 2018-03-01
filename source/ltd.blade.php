@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@section('title', 'Pricing - Lifetime Deal | Outgrow')
+@section('title', 'Pricing-Special Deal | Outgrow')
 
 @section('metaDescription')
 	<meta name="description" content="Simple pricing, No Hidden costs, No transaction based fees."/>
@@ -201,7 +201,7 @@
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>
-                                <span>All layouts and templates </span>
+                                <span>All Layouts and Templates </span>
                                 <!-- <span class="detail">All layouts and templates are unlocked.</span> -->
                             </td>
                         </tr>                        
@@ -212,12 +212,12 @@
                                 Formula and Logic Jump
                             </th>
                             <td class="expand-child active-bg">                                
-                                <span class="quater"></span>Limited Access
-                                <span class="detail">Logic jump is not included.</span>
+                                <span class="none"></span>No Access
+                                <!-- <span class="detail">Logic jump is not included.</span> -->
                             </td>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included. </span>                             
+                                <span class="detail">You can use basic mathematical operators like +,-, x and /.  </span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Full Access
@@ -250,15 +250,15 @@
                                 Hosting and Embedding
                             </th>
                             <td class="expand-child active-bg">
-                                <span class="quater"></span>Embed Anywhere
+                                <span class="half"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>  
                             <td class="expand-child">
-                                <span class="quater"></span>Embed Anywhere
+                                <span class="half"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>
                             <td class="expand-child">
-                                <span class="quater"></span>Embed Anywhere
+                                <span class="half"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>                          
                         </tr>
@@ -615,14 +615,14 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Classic Layout and Templates </span>
                                     <!-- <span class="detail">Only the Classic "Chicago" layout and templates.</span> -->
                                 </li>
-                                <li class="expand-rs">
+                                <li class="">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
                                         Formula and Logic Jump
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access </span>
-                                    <span class="detail">Logic jump is not included.</span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access </span>
+                                    <!-- <span class="detail">Logic jump is not included.</span> -->
                                 </li> 
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -693,7 +693,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Hosting and Embedding
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Embed Anywhere </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -849,7 +849,7 @@
                                         Formula and Logic Jump
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail"> You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
+                                    <span class="detail"> You can use basic mathematical operators like +,-, x and /. </span>
                                 </li> 
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -875,7 +875,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Hosting and Embedding
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Embed Anywhere </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -1036,7 +1036,7 @@
                                         <!-- <i class="material-icons minus">remove</i>  -->
                                        Layouts and Templates  
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>All layouts and templates </span>
+                                    <span class="feature-subtitle"><span class="full"></span>All Layouts and Templates </span>
                                     <!-- <span class="detail">All layouts and templates are unlocked.</span> -->
                                 </li>
                                 
@@ -1073,7 +1073,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Hosting and Embedding
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Embed Anywhere </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -1242,7 +1242,7 @@
                                         <!-- <i class="material-icons minus">remove</i>  -->
                                        Layouts and Templates  
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>All layouts and templates </span>
+                                    <span class="feature-subtitle"><span class="half"></span>All Layouts and Templates </span>
                                     <!-- <span class="detail">All layouts and templates are unlocked.</span> -->
                                 </li>
                                 <!-- <li class="expand-rs">
