@@ -615,6 +615,24 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Classic Layout and Templates </span>
                                     <!-- <span class="detail">Only the Classic "Chicago" layout and templates.</span> -->
                                 </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Formula and Logic Jump
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access </span>
+                                    <span class="detail">Logic jump is not included.</span>
+                                </li> 
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Analytics and Tracking
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                    <span class="detail">Traffic Details, Lead Data and User Responses.</span>
+                                </li>                                
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -703,24 +721,6 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
                                     <!-- <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc. </span> -->
-                                </li>
-                                 <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Formula and Logic Jump
-                                    </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access </span>
-                                    <span class="detail">Logic jump is not included.</span>
-                                </li> 
-                                <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Analytics and Tracking
-                                    </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses.</span>
                                 </li>
                                 <!-- <li class="">
                                     <span class="feature-title">
@@ -842,6 +842,24 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Classic Layout and Templates</span>
                                     <!-- <span class="detail">Only the Classic "Chicago" layout and templates. </span> -->
                                 </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Formula and Logic Jump
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                    <span class="detail"> You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
+                                </li> 
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Analytics and Tracking
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                    <span class="detail">Traffic Details, Lead Data and User Responses.</span>
+                                </li>                                
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
@@ -952,24 +970,6 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                 </li> -->
-                                 <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Formula and Logic Jump
-                                    </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail"> You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
-                                </li> 
-                                <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Analytics and Tracking
-                                    </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses.</span>
-                                </li>
                                 <!-- <li>
                                     <span class="feature-title">
                                         Advanced Features
@@ -1023,7 +1023,7 @@
                                         <!-- <i class="material-icons minus">remove</i>  -->
                                         Type of Experiences
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls <br/> Polls </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls </span>
                                     <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span> -->
                                 </li> 
                                 <!-- <li>
@@ -1038,6 +1038,25 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All layouts and templates </span>
                                     <!-- <span class="detail">All layouts and templates are unlocked.</span> -->
+                                </li>
+                                
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Formula and Logic Jump
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
+                                    <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
+                                </li> 
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Analytics and Tracking
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Full Access</span>
+                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1152,24 +1171,6 @@
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Apply logic jump to supported templates to improve personalization.</span>
                                 </li> -->
-                                 <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Formula and Logic Jump
-                                    </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
-                                </li> 
-                                <li class="expand-rs">
-                                    <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Analytics and Tracking
-                                    </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Full Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
-                                </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
