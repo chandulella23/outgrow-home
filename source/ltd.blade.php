@@ -92,7 +92,7 @@
                                 <span class="annual-price">
                                     <p class="price"><sup>$</sup>49<small>*</small></p>
                                 </span>
-                                <span class=""><a onClick="return selectPlan('ltd')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                                <span class=""><a onClick="return selectPlan('ltd')" href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th>   
                             <th>
                                 <span class="label-popularPlan">Limited Time**</span>
@@ -101,7 +101,7 @@
                                      <!-- <p class="strike-price">$300<sub>/yr</sub></p>  -->
                                     <p class="price"><sup>$</sup>125<small>*</small><sub>/yr</sub></p>
                                 </span>
-                                <span class=""><a onClick="return selectPlan('freelancer')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                                <span class=""><a onClick="return selectPlan('freelancer')" href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th>                          
                             <th class="">
                                 <span class="label-popularPlan"></span>
@@ -110,7 +110,7 @@
                                      <!-- <p class="strike-price">$1140<sub>/yr</sub></p>  -->
                                     <p class="price"><sup>$</sup>420<small>*</small><sub>/yr</sub></p>
                                 </span>
-                                <span class=""><a onClick="return selectPlan('essentials')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                                <span class=""><a onClick="return selectPlan('essentials')" href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                             </th>
                             <th class="hide">
                                 <h2>Business</h2>
@@ -581,7 +581,7 @@
                             <span class="annual-price">
                                 <p class="price"><sup>$</sup>49<small>*</small></p>
                             </span>
-                            <span class=""><a onClick="return selectPlan('ltd')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                            <span class=""><a onClick="return selectPlan('ltd')" href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
@@ -808,7 +808,7 @@
                             <span class="annual-price">
                                 <p class="price"><sup>$</sup>125<small>*</small><sub>/yr</sub></p>
                             </span>
-                            <span class=""><a onClick="return selectPlan('freelancer')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                            <span class=""><a onClick="return selectPlan('freelancer')" href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
@@ -1005,7 +1005,7 @@
                             <span class="annual-price">
                                 <p class="price"><sup>$</sup>420<small>*</small><sub>/yr.</sub></p>
                             </span>
-                            <span class=""><a onClick="return selectPlan('essentials')" href="//app.rely.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
+                            <span class=""><a onClick="return selectPlan('essentials')" href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
