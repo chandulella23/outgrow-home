@@ -284,6 +284,9 @@
 	.pricing-block.most-popular-plan {
 		margin-bottom: 0px;
 	}
+	.detail {
+		padding: 10px 10px 0px 10px;
+	}
 
 
 }
