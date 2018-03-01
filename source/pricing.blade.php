@@ -134,7 +134,7 @@
                                 </span>
                                 <span class="">
                                     <a href="//app.outgrow.co" target="_blank" id="b-signup" class="signuplink params btn-hover">Start trial</a>                                    
-                                    <a href="javascript:void(0);" class="link-contact intercom_trigger">Contact us</a>
+                                    <a href="javascript:void(0);" class="link-contact intercom_trigger" id="intercom_trigger">Contact us</a>
                                 </span>
                             </th>
                         </tr>
@@ -923,7 +923,7 @@
                             </span>
                             <span class="">
                                 <a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a>
-                                <a href="javascript:void(0);" target="_blank" class="link-contact intercom_trigger">Contact us</a>
+                                <a href="javascript:void(0);" target="_blank" class="link-contact intercom_trigger" id="intercom_trigger">Contact us</a>
                             </span>
                         </div>
                         <div class="pricing-bottom">
@@ -1126,7 +1126,7 @@
                             <p>
                                 Made especially for power users and agencies, this plan gives you full access with a dedicated account manager, API access and team training.
                             </p>
-                            <button class="ic-launcher btn btn-white-red-outline btn-hover" id="intercom_trigger">contact us</button>
+                            <button class="ic-launcher btn btn-white-red-outline btn-hover" id="intercom_trigger" id="intercom_trigger">contact us</button>
                         </div>
                     </div>
                 </div>
