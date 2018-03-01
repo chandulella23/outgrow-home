@@ -1353,7 +1353,7 @@ tbody tr:last-child td.active-bg {
 tbody td span {
     float: left;
     width: 91%;
-    line-height: 14px;
+    line-height: 16px;
 }
 .ltd-plan h3 {
     color: #fb545b !important;
