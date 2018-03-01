@@ -158,7 +158,7 @@
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
-                            <td><span class="quater"></span>1</td>
+                            <td><span class="quater"></span>3</td>
                             <td class="active-bg"><span class="full"></span>Unlimited</td>
                             <td><span class="full"></span>Unlimited</td>
                         </tr>
@@ -530,7 +530,7 @@
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>1</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>3</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
