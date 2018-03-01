@@ -172,7 +172,7 @@
 		margin-top: 15px;
 	}
 	.pricing-top p.price{	
-		font-size: 36px !important;
+		font-size: 30px !important;
 		color: #009ad8;
 		font-family: montserratsemibold !important;
 		line-height: normal;
@@ -269,14 +269,21 @@
 		cursor: pointer;
 	}
 	.expand-rs.open {
-		background: #fdffcc;
+		background: #f5fbff;
 		box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-		border-bottom: 1px solid #f1f3c4;
+		border-top: 1px solid #e0f2fe;
 		cursor: pointer;
 	}
 
 	.expand-rs .minus, .expand-rs.open .plus{display: none;}
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
+	.ltd-plan span.label-popularPlan {
+		width: 100%;
+		left: 0px;
+	}
+	.pricing-block.most-popular-plan {
+		margin-bottom: 0px;
+	}
 
 
 }
