@@ -220,7 +220,7 @@
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>
                             <td class="expand-child">
-                                <span class="full"></span>Custom Access
+                                <span class="full"></span>Custom Domain
                                 <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
                             </td>                            
                         </tr>
