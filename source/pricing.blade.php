@@ -152,9 +152,9 @@
                     <tbody>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                            <td><span class="quater"></span>50 & 1000</td>
-                            <td  class="active-bg"><span class="half"></span>350 & 7000</td>
-                            <td><span class="full"></span>5000 & 100,000</td>
+                            <td><span class="quater"></span>300 & 6000</td>
+                            <td  class="active-bg"><span class="half"></span>1,000 & 20,000</td>
+                            <td><span class="full"></span>15,000 & 300,000</td>
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
@@ -526,7 +526,7 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>50 & 1000</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
@@ -726,7 +726,7 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="half"></span>350 & 7000</span>
+                                    <span class="feature-subtitle"><span class="half"></span>1,000 & 20,000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
@@ -930,7 +930,7 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="full"></span>5000 & 100,000</span>
+                                    <span class="feature-subtitle"><span class="full"></span>15,000 & 300,000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
