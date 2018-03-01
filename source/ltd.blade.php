@@ -239,7 +239,7 @@
                                 <span class="detail">Traffic Details, Lead Data and User Responses.</span>                             
                             </td>
                             <td class="expand-child">                                
-                                <span class="half"></span>Full Access
+                                <span class="full"></span>Full Access
                                 <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
                             </td>
                         </tr>                       
@@ -1055,7 +1055,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Analytics and Tracking
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Full Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
