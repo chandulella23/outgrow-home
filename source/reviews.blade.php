@@ -851,7 +851,7 @@
 				</div>
 			</div>
 
-			<div class="section-2-heading am" style="color: rgb(34, 34, 34);">
+			<!-- <div class="section-2-heading am" style="color: rgb(34, 34, 34);">
 				Outgrow Review By <span>"AM Review" </span>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center np am">
@@ -871,7 +871,7 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 
 		</div>

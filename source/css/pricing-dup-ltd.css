@@ -1102,7 +1102,7 @@ label {
 		}
 
 		tbody tr:last-child th {
-			border-bottom: 1px solid #eff0f1;
+			 border-bottom: 1px solid #eff0f1; 
 			/*padding-bottom: 20px;*/
 		}
 
@@ -1187,7 +1187,7 @@ label {
 		
 		tbody tr.expand.open th {
 			vertical-align: top;
-			border-bottom: 1px solid #e0f2fe;
+			border-bottom: 1px solid #e0f2fe; 
 			border-top: 1px solid #e0f2fe;
 		}
 		.pricing-block {
