@@ -1184,7 +1184,7 @@ label {
 		
 		tbody tr.expand.open th {
 			vertical-align: top;
-			border-bottom: 1px solid #f1f3c4;
+			border-bottom: 1px solid #e0f2fe;
 		}
 		.pricing-block {
 			display: none;
