@@ -313,7 +313,7 @@
                                 <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>                             
                             </td>
                             <td class="expand-child">                                
-                                <span class="full"></span>Advanced Integration
+                                <span class="full"></span>Advanced Integrations
                                 <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
                             </td>
                         </tr>
@@ -1009,7 +1009,7 @@
                                         <i class="material-icons minus">remove</i> 
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Advanced Integration</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Advanced Integrations</span>
                                     <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API. </span>
                                 </li>
                                 <!-- <li>
