@@ -1376,3 +1376,34 @@ thead th p.price small, .pricing-block span.annual-price small {
     top: -7px;
     position: relative;
 }
+.custom-navbar a.link-login {
+    font-size: 14px;
+    font-family: montserratregular;
+}
+@media (max-width:1023px){
+	.navbar-default .navbar-toggle {border: none; }
+	.custom-navbar .signUp-style a {
+		background: none;
+		color: #fff!important;
+		border: none !important;
+		display: inline-block;
+	}
+	.custom-navbar .signUp-style a:hover{
+		background: none !important;
+		border: none !important;
+		color: #fb5f66 !important;opacity: 0.5;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fb5f66 !important;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent !important; }
+	.custom-navbar.navbar-default {padding: 0 !important;}
+	.custom-navbar.navbar-default .container-fluid{padding: 0;}
+	.navbar-right {
+		float: left !important;
+		width: 100%;
+		margin: 7.5px 0px !important;
+	}
+	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;}
+
+}

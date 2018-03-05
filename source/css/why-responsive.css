@@ -229,14 +229,14 @@
 		margin-bottom:0px;
 		padding:0px;
 	}
-	iframe {
+	/* iframe {
 		position: absolute;
 		top: 7%;
 		left: 14%;
 		right: 0;
 		width: 200px;
 		height: 113px;
-	} 
+	}  */
 	#why .p-img{
 		padding:0 20px !important;
 	}
@@ -396,14 +396,14 @@
 	}
 }
 @media (min-width: 440px) and (max-width:768px) {
-	iframe {
+	/* iframe {
 		position: absolute;
 		top: 9px;
 		left: 37px;
 		right: 0;
 		width: 200px;
 		height: 113px;
-	} 
+	}  */
 	#why .img-2 {
 		width: 61%;
 		margin-left: -9%;
@@ -417,14 +417,14 @@
 	}
 }
 @media (min-width: 480px) and (max-width:768px) {
-	iframe {
+	/* iframe {
 		position: absolute;
 		top: 14px;
 		left: 56px;
 		right: 0;
 		width: 323px;
 		height: 182px;
-	}	
+	}	 */
 }
 @media (min-width:568px) and (max-width:568px){
 	iframe{
