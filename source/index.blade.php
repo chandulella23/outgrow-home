@@ -740,6 +740,12 @@
 						<img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowd.png"/> 
 						<img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowdh.png" class="over over3"/> 
 					</div>
+
+					<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
+						<img alt="G2 Crowd image" src="images/google_logo.png"/> 
+						<img alt="G2 Crowd image" src="images/google_hover.png" class="over over4"/> 
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -752,6 +758,8 @@
 				<div id="capterra" class="protfolio-inner-section testhide" data-repuso-grid="4407" data-website-id="0"></div>
 
 				<div id="g2" class="protfolio-inner-section testhide" data-repuso-grid="4320" data-website-id="0"></div>
+
+				<div id="google" class="protfolio-inner-section testhide" data-repuso-grid="5402" data-website-id="0"></div>
 			</div>
 		</div>
 	</div>
