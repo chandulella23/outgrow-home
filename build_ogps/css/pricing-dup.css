@@ -1277,9 +1277,11 @@ span.label-popularPlan {
     color: #fff;
     background-color: #8c8283;
     text-transform: uppercase;
-    top: -7px;
+    top: -8px;
 	left: 0px;
 	z-index: 1;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px -6px 10px;
+    border-top: 1px solid rgb(190, 212, 223);
 }
 .quater{
     background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
