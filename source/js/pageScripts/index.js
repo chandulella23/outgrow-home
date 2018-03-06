@@ -175,32 +175,73 @@ window.changeActiveCalcCategory = function (id) {
 }
 
 window.shuffleCalcs = function (filterName) {
+    changeActiveCalcCategory(filterName);
 
+    var hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
+    hiddenCalcs.forEach(function (calc) {
+        calc.classList.remove('hide');
+    });
+
+    window.calcs
+        .filter(function (calc) {
+            return !calc.filters.includes(filterName);
+        })
+        .forEach(function (calc) {
+            var calc = document.querySelector('#'+calc.id);
+            calc.classList.add('hide');
+        })
+
+    var activeCalc = document.querySelector('#gallery-content-center li.active');
+    if (activeCalc)
+        activeCalc.classList.remove('active');
+
+    var allCalcs = document.querySelectorAll('#gallery-content-center li');
+    var sflag = true;
+    allCalcs.forEach(function (calc) {
+        if (!calc.classList.contains('hide') && sflag) {
+            calc.classList.add('active');
+            
+            var activeCal = window.calcs.find(function (cal) {
+                return cal.id === calc.id;
+            });
+
+            var premadeGif = document.getElementById('premade-gif');
+            var premadePreview = document.getElementById('premade-preview-link');
+            var premadeName = document.getElementById('premade-calc-name');
+            var premadeLayout = document.getElementById('premade-calc-layout')
+
+            premadeGif.src = activeCal.gif;
+            premadePreview.href = activeCal.calcLink;
+            premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.name;
+            premadeLayout.innerHTML = '<strong>Layout:</strong> ' + activeCal.layout;
+            sflag = false;
+        }
+    });
+}
 jQuery.noConflict();
 jQuery.material.init();
 jQuery(document).ready(function() {
-	calculateMinHeight();
+    calculateMinHeight();
 
     jQuery('.calc-links a').on('click',function(){
-		jQuery('a').removeClass('active');
-		jQuery(this).addClass('active');
-	});
+        jQuery('a').removeClass('active');
+        jQuery(this).addClass('active');
+    });
 
-	var iframes = iFrameResize({
+    var iframes = iFrameResize({
         log: false,
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
     },'#og-iframe');
 
-	var url = setLoginSignup();
+    var url = setLoginSignup();
 
-	console.log(url);
+    console.log(url);
 
     jQuery('#btnBuildCalc1 > a').prop('href', url);
 
     runTimeout();
     // initTestimonial();
 
-
-});
+})

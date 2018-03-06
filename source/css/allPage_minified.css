@@ -18756,11 +18756,13 @@ img.scrollimg1.wo {
 		transform: rotate(-12deg);
 	} */
 	.section-banner {
-		background: url(../images/lp-banner-bg.png) no-repeat !important;
+		background: url(../images/lp-banner-bg.png);
 		height: 610px;
 		margin: 0px;
 		float: left;
 		width: 100%;
+		background-size: cover;
+		background-color: #fff;
 	}
 	.section-banner h1.main-heading {
 		margin-top: 100px;
@@ -19195,4 +19197,12 @@ img.scrollimg1.wo {
 
 /* end: landing pages css */
 
+/* start responsive : landing pages css */
+	@media (min-width:1920px){
+		.section-banner {height: 840px;}
+
+
+	}
+
+/* end responsive : landing pages css */
 
