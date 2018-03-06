@@ -461,6 +461,7 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 	div.lp-sign.startTrial-outer i.material-icons {
 		left: 25px !important;
 	}
+	.sec-clients-logos .img-wrapper { width: 100% !important;}
 
 }
 .small,small{font-size:85%}
@@ -1118,7 +1119,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	/*.navbar>.container .navbar-brand,.navbar>.container-fluid .navbar-brand{margin-left:40px !important;}*/
 	/*.navbar-brand {margin-left: 40px!important;}*/
 }
-.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:10px;margin-right:15px;margin-bottom:0px;background-color:transparent;border:1px solid transparent;border-radius:4px}
+.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:8px;margin-right:15px;margin-bottom:0px;background-color:transparent;border:1px solid transparent;border-radius:4px}
 .navbar-toggle:focus{outline:0}
 .navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px}
 .navbar-toggle .icon-bar+.icon-bar{margin-top:4px}
@@ -2281,7 +2282,7 @@ label.control-label {
 .section,.section-1{margin-top:30px;float:left;width:100%}
 .custom-navbar .btn-login:hover{border:2px solid #fb5f66;background:0 0;color:#fb5f66!important}
 .custom-navbar .link-login{color:#fb6c73!important;font-family:montserratbold}
-.custom-navbar .signUp a {border-radius: 20px;background: #fb5f66 !important;display: inline-block;color: #fff!important;padding: 7px 10px!important;line-height: 1;margin-left: 6px;font-size: 12px!important;}
+.custom-navbar .signUp a {border-radius: 20px;background: #fb5f66 !important;display: inline-block;color: #fff!important;padding: 5px 10px!important;line-height: 1;margin-left: 6px;font-size: 13px!important; font-family: montserratregular;}
 .custom-navbar .link-login:hover{background:0 0;color:#fb5f66!important;opacity:.5}
 .nav-boxshadow{box-shadow:0 2px 9px 1px rgba(0,0,0,.2); padding: 0px 0px !important;}
 .section{margin-bottom:30px}
@@ -3381,7 +3382,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1-left .video-btn{width:100%;font-size:15px;padding:15px 40px;margin-top: 20px;}
 	.section-1-left .video-btn i{float:none;vertical-align:middle}
 	.p20{padding:0 20px!important}
-	.custom-navbar.navbar-default,.section-1{margin-bottom:0}
+	.custom-navbar.navbar-default,.section-1{margin-bottom:0px}
 	.rs-hide{display:none!important}
 	.rs-show{display:block!important}
 	.custom-navbar.navbar-fixed-top{position:relative}
@@ -3756,6 +3757,17 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.sec-clients-logos {margin-bottom: 0px;}
 		.video-img-inner:hover {cursor: url(../images/video-arrow-sm.png), auto !important;}
 		.rs-hide.calc-links {display: none !important;}
+		.custom-navbar .signUp a {
+			font-size: 14px!important;
+			font-family: montserratregular;
+			background: transparent !important;
+			color: #fb6c73!important;
+			margin-left: 0;
+		}
+		li.signUp.res-nav-show {
+			margin-bottom: 10px;
+			margin-top: 7px;
+		}
 
 
 
@@ -4589,6 +4601,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.lp-sign.startTrial-outer input {width: 50% !important;	}
 	.btn-signup.startTrial-outer input{ width: 50%;}
 	div.startTrial-outer.lp-sign{min-height: 173px !important;}
+	.sec-clients-logos .img-wrapper { width: 100% !important;}
 
 
 }
@@ -17260,7 +17273,7 @@ span.live-demo a {
 .sec-clients-logos .img-wrapper {
     padding: 35px 0px;
     float: none;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
@@ -17268,7 +17281,7 @@ span.live-demo a {
 	margin-right: 15px;
     margin-left: 15px;
 	margin-bottom: 12px;
-	width: 9%;
+	width: 11%;
 	filter: grayscale(1);
 	opacity:0.5;
 }
@@ -17785,7 +17798,7 @@ span.recom {
 	 span.site-image.sitemg {height: 161px;padding: initial!important;}
 	.arrow_box{min-width:100px!important; margin: 0px 10px;}
 	span.marketing-tool{font-size:14px!important;}
-	.over3,.over2,.over1,.over4 {left:1px !important;}
+	.over3,.over2,.over1,.over4{left:1px !important;}
 	span.site-image.sitemg{margin-top:-30px;margin-bottom:15px;}
 	.buzzfeed-left-section{width:100%!important}
 	.product-hunt-left{width:100%!important}
@@ -17958,6 +17971,7 @@ span.recom {
  .startTrial-outer i.material-icons {position: absolute !important;top: 15px !important;left:37px!important;}
  .lead-form-btn{position:relative!important;}
  .section-6 .section-6-right{padding-left: 25px !important; padding-right: 20px;}
+ .sec-clients-logos .img-wrapper { width: 100%;}
  
 }
 .over1
@@ -18706,8 +18720,10 @@ img.scrollimg1.wo {
     margin-right: 20px;
 }
 
-
-
+.custom-navbar a.link-login {
+    font-size: 14px;
+    font-family: montserratregular;
+}
 
 /* start: landing pages css */
 
@@ -19126,7 +19142,7 @@ img.scrollimg1.wo {
 		position: absolute;
 		left: 10px;
 		top:5px;
-}
+	}
 
 	blockquote::after{		
 
@@ -19177,5 +19193,6 @@ img.scrollimg1.wo {
 	}
 
 
-
 /* end: landing pages css */
+
+
