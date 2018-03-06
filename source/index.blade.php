@@ -742,8 +742,8 @@
 					</div>
 
 					<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
-						<img alt="G2 Crowd image" src="images/google_logo.png"/> 
-						<img alt="G2 Crowd image" src="images/google_hover.png" class="over over4"/> 
+						<img alt="Google image" src="images/google_logo.png"/> 
+						<img alt="Google image" src="images/google_hover.png" class="over over4"/> 
 					</div>
 
 				</div>
