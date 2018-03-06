@@ -18694,3 +18694,155 @@ img.scrollimg1.wo {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+
+
+/* start: landing pages css */
+
+	.header-logo {
+		float: left;
+		width: 100%;
+		position: relative; 
+	}
+	.header-logo img {
+		position: absolute;
+	}
+	/* .header-logo a {
+		background: #fff;
+		border-radius: 35px;
+		width: 340px;
+		height: 130px;
+		-ms-transform: rotate(12deg);
+		-webkit-transform: rotate(12deg);
+		transform: rotate(12deg);
+		position: absolute;
+		top: -65px;
+		left: -30px;
+	}
+	.header-logo a img {
+    	position: absolute;
+		top: 67px;
+		left: 150px;
+		-ms-transform: rotate(-12deg);
+		-webkit-transform: rotate(-12deg);
+		transform: rotate(-12deg);
+	} */
+	.section-banner {
+		background: url(../images/lp-banner-bg.png) no-repeat !important;
+		height: 610px;
+		margin: 0px;
+		float: left;
+		width: 100%;
+	}
+	.section-banner h1.main-heading {
+		margin-top: 100px;
+		display: block;
+		font-size: 42px;
+		color: #fff !important;
+		font-family: montserratregular;
+		padding: 0px 160px;
+		line-height: 48px;
+	}
+	.section-banner p {
+		font-size: 15px;
+		color: #fff;
+		font-family: montserratlight;
+		line-height: 24px;
+	}
+	.banner-inner {
+		margin-top: 30px;
+	}
+	.banner-jacket {
+		/* margin-left: 110px; */
+	}
+	.banner-jacket img {
+		box-shadow: 0px 20px 40px rgba(0,0,0,.10);
+	}
+	.banner-content {
+		color: #fff;
+		font-family: montserratlight;
+		margin-top: 25px;
+		margin-left: -10px;
+	}
+	span.profile-detail {
+		font-size: 13px;
+		color: #fff;
+		opacity: 0.7;
+	}
+	.company-detail {
+		font-size: 15px;
+		font-family: montserratregular;
+		background: rgba(175,42,50, 0.1);
+		border-radius: 8px;
+		padding: 10px;
+		line-height: 25px;
+		font-style: italic;
+		margin-top: 15px;
+	}
+	.btn-white {
+		background: #fff;
+		font-size: 16px;
+		color: #fb5f66;
+		font-family: montserratregular;
+		border-radius: 25px;
+		padding: 14px 84px 14px 30px;
+		margin-top: 35px;
+		position: relative;
+		box-shadow: 0px 0px 50px rgba(0,0,0,.25);
+		transition: .3s ease-in-out;
+	}
+	.btn-white i.material-icons {
+		font-size: 18px;
+		background: #fb5f66;
+		background: linear-gradient(117deg, #ff8187, #fb5f66);
+		border-radius: 25px;
+		padding: 13px;
+		color: #fff;
+		position: absolute;
+		right: 3px;
+		top: 3px;
+	}
+	.btn-white:hover, .btn-white:focus, .btn-white:active {
+		color: #fb5f66;
+		outline: none !important;
+		background: #f3f8fb;
+	}
+	.section-second {
+		margin-top: 60px;
+	}
+	.section-heading {
+		font-size: 42px;
+		color: #fb5f66;
+		font-family: montserratultra_light;
+		line-height: normal;
+    	margin-bottom: 25px;
+	}
+	.section-second ul {
+		margin: 0;
+		padding: 0;
+		width: 80%;
+    	float: left;
+	}
+	.section-second ul li {
+		font-size: 16px;
+		color: #61696c;
+		font-family: montserratlight;
+		line-height: 34px;
+	}
+	.section-second ul li i {
+		font-size: 16px;
+		vertical-align: middle;
+	}
+	.section-second img {
+		float: right;
+		position: relative;
+		top: -60px;
+	}
+	.section-premade-temp{
+		float: left;
+		width: 100%;
+		background: #f3f8fb;
+	}
+
+/* end: landing pages css */

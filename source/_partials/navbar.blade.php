@@ -1,15 +1,15 @@
-<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
+<!-- <nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			</button>
+			</button> 
 			<a class="params navbar-brand" href="{{ $page->baseUrl }}/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
 		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right" id="navlist">
                 <li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
                 <li><a href="{{ $page->baseUrl }}/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
@@ -25,6 +25,12 @@
                 	<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
                 </li>
 			</ul>
-		</div>
+		</div> 
 	</div>
-</nav>
+</nav> -->
+
+
+<div class="header-logo">
+	<!-- <a class="" href="{{ $page->baseUrl }}/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a> -->
+	<img src="images/lp-header-logo.png" alt="lp-header-logo image">
+</div>
