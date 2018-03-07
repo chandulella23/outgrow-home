@@ -19257,6 +19257,31 @@ img.scrollimg1.wo {
 	.section-six-roi img {
 		top: 60px;
 	}
+
+	.section-quotes_CR blockquote::before {
+		left: 260px;
+	}
+	.section-quotes_CR blockquote::after {
+		right: 260px;
+	}
+	.section-quotes-survey blockquote::before {
+		left: -20px;
+	}
+	.section-quotes-survey blockquote::after {
+		right: -20px;
+	}
+	.section-quotes_increase-sales blockquote::before{
+		left: -15px;
+	}
+	.section-quotes_increase-sales blockquote::after{
+		right: -15px;
+	}
+	.section-quotes-roi blockquote::before {
+		left: 360px;
+	}
+	.section-quotes-roi blockquote::after {
+		right: 360px;
+	}
 	
 
 
