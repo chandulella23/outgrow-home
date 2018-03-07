@@ -18788,6 +18788,7 @@ img.scrollimg1.wo {
 	}
 	.banner-jacket img {
 		box-shadow: 0px 20px 40px rgba(0,0,0,.10);
+		border-radius: 20px;
 	}
 	.banner-content {
 		color: #fff;
