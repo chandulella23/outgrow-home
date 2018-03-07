@@ -765,7 +765,7 @@
 		</div>
 	</section>
 
-	<section class="section section-quotes">
+	<section class="section section-quotes section-quotes_CR">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
 				<blockquote>One of the most exciting tools to boost conversion and engagement. </blockquote>

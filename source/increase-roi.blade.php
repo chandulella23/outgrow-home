@@ -765,7 +765,7 @@
 		</div>
 	</section>
 
-	<section class="section section-quotes">
+	<section class="section section-quotes section-quotes-roi">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
 				<blockquote>Helps us close leads into paying customers </blockquote>

@@ -768,7 +768,7 @@
 		</div>
 	</section>
 
-	<section class="section section-quotes">
+	<section class="section section-quotes section-quotes-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
 				<blockquote>Outgrow allow you to create highly effective custom experiences that engage prospects and customers. The flexibility and creativity it allows is unmatched in any other single resource. Integration with autoresponder and e-mail management systems makes it easy to create an effective funnel. </blockquote>

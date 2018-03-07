@@ -765,7 +765,7 @@
 		</div>
 	</section>
 
-	<section class="section section-quotes">
+	<section class="section section-quotes section-quotes_increase-sales">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
 				<blockquote>If you are currently generating leads using other products, you will see a slight dip in the volume of leads you gain but, a significantly higher yield in the quality of the leads. All in all, you would much rather call 10 and make 8 sales rather than calling 100 to make the same 8 sales. It's a winner. </blockquote>
