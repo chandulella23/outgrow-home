@@ -37,16 +37,16 @@
 				<h1 class="main-heading">Generate More Leads And Traffic With Outgrow’s Interactive Quiz Builder</h1>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
-				<div class="col-md-8 col-sm-8 col-xs-12 banner-jacket">
+				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
 					<img src="images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 np banner-content">
+				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy. </p>
 					<span class="profile-detail">Nathan Windsor, Founder, Macroscape</span>
 					<div class="company-detail">
 						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
 					</div>
-					<button type="button" class="btn btn-white">Create Your First Interactive Quiz <i class="material-icons">arrow_forward</i></button>
+					<button type="button" class="btn btn-white-new">Create Your First Interactive Quiz <i class="material-icons">arrow_forward</i></button>
 				</div>
 			</div>
 		</div>
@@ -56,14 +56,15 @@
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading">Easily Build Interactive Quizzes With Outgrow’s Intuitive, User-Friendly Platform </div>
+				<img class="rs-show" src="images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> Ready-to-use, customizable templates so that you don’t have to worry about design and code </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> Customizable forms to boost lead generation and conversions </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> Seamless social media integrations and an exhaustive promotional checklist to make your quiz go viral </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> Track visits, conversions, and traffic across all channels </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> Send and receive data from over 1000 apps with our powerful integrations </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Customizable forms to boost lead generation and conversions </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Seamless social media integrations and an exhaustive promotional checklist to make your quiz go viral </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions, and traffic across all channels </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
 				</ul>
-				<img class="" src="images/lp-section-second-img.png" alt="lp-section-second-img image"> 
+				<img class="rs-hide" src="images/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
 		</div>
 	</section>
@@ -697,24 +698,25 @@
 	<section class="section section-bg-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 			<a href="https://app.outgrow.co/" class="params trialLOL">
-				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white">Try Outgrow for Free <i class="material-icons">arrow_forward</i></button>
+				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white-new">Try Outgrow for Free <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
 	</section>
 
-	<section class="section section-second section-six">
+	<section class="section section-six">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-10 col-xs-12">
 					<div class="section-heading">A Creative’s Guide To Building Viral Calculators & Quizzes </div>
+					<img class="rs-show" src="images/lp-section-six-img.png" alt="lp-section-six-img image"> 
 					<ul>
-						<li><i class="material-icons">keyboard_arrow_right</i> What makes certain Quizzes and Calculators go viral. </li>
-						<li><i class="material-icons">keyboard_arrow_right</i> Actionable tips that any marketer can follow to create viral Quizzes and Calculators that are shared like crazy! </li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>What makes certain Quizzes and Calculators go viral. </span> </li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>Actionable tips that any marketer can follow to create viral Quizzes and Calculators that are shared like crazy! </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to promote your Quizzes and Calculators to increase their chances of going viral with our Promotional Checklist. </span></li>
 					</ul>
-					<button class="btn btn-red">Learn More <i class="material-icons">arrow_forward</i></button>
+					<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 				</div>
-				<img class="" src="images/lp-section-six-img.png" alt="lp-section-six-img image"> 
+				<img class="rs-hide" src="images/lp-section-six-img.png" alt="lp-section-six-img image"> 
 			</div>
 		</div>
 	</section>
@@ -725,31 +727,31 @@
 				<div class="section-heading text-center">Related Reading </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="col-md-4 col-sm-4 col-xs-4 np reading-content">
+				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
 						<img src="images/lp-reading1.png" alt="lp-reading1 image"> 
 					</div>
-					<div class="col-md-12 np reading-content-inner">
+					<div class="col-md-12 np reading-content">
 						<h4>How to make Buzzfeed-style quizzes</h4>
 						<p>Is there a magical formula to creating BuzzFeed's wildly popular quizzes? Of course there is and here's our guide on how to make them. </p>
 						<a href="javascript:void(0);" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-4 np reading-content">
+				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
 						<img src="images/lp-reading2.png" alt="lp-reading2 image"> 
 					</div>
-					<div class="col-md-12 np reading-content-inner">
+					<div class="col-md-12 np reading-content">
 						<h4>Using the Principles of Persuasion to Make Engaging Interactive Content </h4>
 						<p>Find out what each principle means and learn how to apply those principles to get more results out of quizzes. </p>
 						<a href="javascript:void(0);" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-4 np reading-content">
+				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
 						<img src="images/lp-reading3.png" alt="lp-reading3 image"> 
 					</div>
-					<div class="col-md-12 np reading-content-inner">
+					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] How TAG Livros Generated 55K+ Leads Within a Month </h4>
 						<p>In this interactive marketing success story, find out how a book signing club, generated more than 55K leads using interactive content. </p>
 						<a href="javascript:void(0);" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
@@ -772,7 +774,7 @@
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 			<span>Plans start at $25 per month. No credit card required. </span>
 			<a href="https://app.outgrow.co/" class="params trialLOL">
-				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-red">Start your Free Trial! <i class="material-icons">arrow_forward</i></button>
+				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-red-new">Start your Free Trial! <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
 	</section>

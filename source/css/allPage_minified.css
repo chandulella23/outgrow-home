@@ -18756,7 +18756,7 @@ img.scrollimg1.wo {
 		transform: rotate(-12deg);
 	} */
 	.section-banner {
-		background: url(../images/lp-banner-bg.png);
+		background: url(../images/lp-banner-bg.png) no-repeat;
 		height: 610px;
 		margin: 0px;
 		float: left;
@@ -18809,7 +18809,7 @@ img.scrollimg1.wo {
 		font-style: italic;
 		margin-top: 15px;
 	}
-	.btn-white {
+	.btn-white-new {
 		background: #fff;
 		font-size: 16px;
 		color: #fb5f66;
@@ -18821,7 +18821,7 @@ img.scrollimg1.wo {
 		box-shadow: 0px 0px 50px rgba(0,0,0,.25);
 		transition: .3s ease-in-out;
 	}
-	.btn-white i.material-icons {
+	.btn-white-new i.material-icons {
 		font-size: 18px;
 		background: #fb5f66;
 		background: linear-gradient(117deg, #ff8187, #fb5f66);
@@ -18832,7 +18832,7 @@ img.scrollimg1.wo {
 		right: 3px;
 		top: 3px;
 	}
-	.btn-white:hover, .btn-white:focus, .btn-white:active {
+	.btn-white-new:hover, .btn-white-new:focus, .btn-white-new:active {
 		color: #fb5f66;
 		outline: none !important;
 		background: #f3f8fb;
@@ -18854,14 +18854,22 @@ img.scrollimg1.wo {
     	float: left;
 	}
 	.section-second ul li {
+		float: left;
+		width: 100%;
 		font-size: 16px;
 		color: #61696c;
 		font-family: montserratlight;
 		line-height: 34px;
 	}
+	.section-second ul li span {
+		float: left;
+		width: 95%;
+	}
 	.section-second ul li i {
 		font-size: 16px;
 		vertical-align: middle;
+		float: left;
+    	margin-top: 8px;
 	}
 	.section-second img {
 		float: right;
@@ -18998,7 +19006,7 @@ img.scrollimg1.wo {
 		padding: 70px 0;
 		margin: 0;
 	}
-	.section-bg-btn .btn-white {
+	.section-bg-btn .btn-white-new {
 		margin: 0;
 	}
 	.section-six{
@@ -19016,6 +19024,15 @@ img.scrollimg1.wo {
 		width: 100%;
 		float: left;
 	}
+
+	.section-six ul li {
+		float: left;
+		width: 100%;
+		font-size: 16px;
+		color: #61696c;
+		font-family: montserratlight;
+		line-height: 34px;
+	}
 	.section-six ul li i {
 		font-size: 16px;
 		float: left;
@@ -19031,7 +19048,7 @@ img.scrollimg1.wo {
 		top: -10px;
 		right: 20px;
 	}
-	.btn-red {
+	.btn-red-new {
 		background: #fb5f66;
 		font-size: 16px;
 		color: #fff;
@@ -19043,7 +19060,7 @@ img.scrollimg1.wo {
 		box-shadow: 0px 10px 30px rgba(251,95,102, 0.3);
 		transition: .3s ease-in-out;
 	}
-	.btn-red i.material-icons {
+	.btn-red-new i.material-icons {
 		font-size: 18px;
 		background: #fb5f66;
 		background: linear-gradient(117deg, #fff, #f3f8fb);
@@ -19054,7 +19071,7 @@ img.scrollimg1.wo {
 		right: 3px;
 		top: 3px;
 	}
-	.btn-red:hover, .btn-red:focus, .btn-red:active {
+	.btn-red-new:hover, .btn-red-new:focus, .btn-red-new:active {
 		background: #fdb6b9!important;
 		color: #fb545b!important;
 	}
@@ -19064,8 +19081,9 @@ img.scrollimg1.wo {
 		background: #f3f8fb;
 		padding-top: 70px;
 		padding-bottom: 90px;
+		margin-bottom: 0px;
 	}
-	.reading-content {
+	.reading-block {
 		float: left;
 		width: 345px;
 		background: #fff;
@@ -19073,13 +19091,13 @@ img.scrollimg1.wo {
 		transition: .3s ease-in-out; 
 		margin-right: 45px;
 	}
-	.reading-content:last-child {
+	.reading-block:last-child {
 		margin-right: 0px;
 	}
-	.reading-content:hover {
+	.reading-block:hover {
 		box-shadow: 0px 10px 40px rgba(73,142,182, 0.3); 
 	}
-	.reading-content-inner {
+	.reading-content {
 		color: #62696d;
 		font-family: montserratlight;
 		padding: 30px 20px 30px 25px;
@@ -19088,14 +19106,14 @@ img.scrollimg1.wo {
 		font-size: 16px;	
 		line-height: 24px;	
 	}
-	.reading-content h4:first-child {
+	.reading-block h4:first-child {
 		padding-right: 20px;
 	}
 	.reading-content p {
 		font-size: 14px;
 		opacity: 0.7;
 		padding-top: 10px;
-		min-height: 100px;
+		min-height: 106px;
 		line-height: 24px;	
 	}
 	.img-scaler {
@@ -19119,6 +19137,8 @@ img.scrollimg1.wo {
 		width: 100%;
 		text-align: center;
 		margin-bottom: 10px;
+		margin-top: 0px;
+		padding-top: 70px;
 	}
 	.section-quotes blockquote {
 		font-size: 16px;
@@ -19190,7 +19210,7 @@ img.scrollimg1.wo {
 		opacity: 0.7;
 		display: block;
 	}
-	.section-btn .btn-red {
+	.section-btn .btn-red-new {
 		margin-top: 15px;
 	}
 
@@ -19200,6 +19220,236 @@ img.scrollimg1.wo {
 /* start responsive : landing pages css */
 	@media (min-width:1920px){
 		.section-banner {height: 840px;}
+
+	}
+	@media (max-width:1024px){
+		ul.pre-temp-cat{float: left; width: 100%;padding: 0;        margin: 0px 0 20px; text-align: center}
+		ul.pre-temp-cat li{float: none; display: inline-block; width: auto; }
+		.pre-temp-cont{float: left; width: 100%; padding: 0}
+	}
+	@media (max-width:767px){
+		.pre-temp-view{float: left; width: 100%; max-width: 100%; margin: 25px 0px;}
+		ul.pre-temp-list{float: left; width: 100%; padding: 0}
+		.heading-content h3{font-size: 16px; line-height: 22px}
+		.heading-content p{font-size: 13px; line-height: 22px;}
+	}
+	@media (max-width:580px){
+		ul.nav.nav-tabs.template-tab li a{border: 2px solid #fff !important; border-radius: 4px }
+		ul.nav.nav-tabs.template-tab li{margin-bottom: 15px}
+		ul.nav.nav-tabs.template-tab li:last-child{margin: 0}
+		.new-template-choose .top-heading{padding: 15px 0; height: auto}
+		ul.pre-temp-cat li{margin:0 5px 5px}
+		.content.temp-info h3 {font-size: 13px;padding: 0; margin-bottom: 10px; width:100%;}
+		.content.temp-info{display: block; text-align: center}
+		.content.temp-info .btn.btn-red{float: none !important; display: inline-block !important;}
+		.content.temp-info h3 span {
+			float: none;
+			margin-left: 0;
+			text-align: center;
+		}
+		.pre-temp-view .content.temp-info .btn.btn-red{margin-left: 5px; margin-bottom: 10px;}
+
+	}
+
+	@media (min-width:320px) and (max-width:768px){
+		.header-logo img {
+			position: absolute;
+			left: -70px;
+		}
+		.section-banner {height: auto;} 
+		.section-banner h1.main-heading{
+			margin-top: 120px;
+			font-size: 22px;
+			padding: 0;
+			line-height: 26px;
+		}
+		.banner-inner {
+			margin-top: 20px;
+		}
+		.section-banner p {
+			color: #61696c; 
+			font-size: 14px; 
+			line-height: 22px;
+		}
+		.company-detail {
+			font-size: 14px;
+			background: #F3F8FB;
+			color: #61696c;
+			line-height: 22px;
+		}
+		.section-heading {
+			font-size: 22px;
+			padding: 0;
+			line-height: 26px;
+		}
+		.section-second ul, .section-six ul {
+			width: 100%;
+		}
+		.section-second ul li, .section-six ul li {
+			font-size: 14px;
+			line-height: 24px;
+   	 		margin-bottom: 15px;
+		}
+		.section-second ul li i, .section-six ul li i {
+			font-size: 14px;
+			margin-top: 5px;
+		}
+		.section-second ul li span, .section-six ul li span {
+			line-height: 24px;
+		}
+		.section-second img {
+			width: auto;
+			float: none;
+			position: relative;
+			top: -10px;
+			margin: 0 auto;
+		}
+		.section-premade-temp, .section-embeds, .section-second, .section-six, .section-reading, .section-quotes {
+			padding-top: 50px;
+			margin-top: 0px;
+		}
+		.premade-template {
+			padding-bottom: 50px;
+		}
+		.section-six {
+			height: auto;
+			margin-bottom: 50px;
+		}
+		.section-six img{
+			width: auto;
+			float: none;
+			position: relative;
+			top: 0px;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		.section-reading {
+			padding-bottom: 30px;
+		}
+		.reading-block{
+			float: none;
+			margin: 0 auto 45px !important;
+		}
+		.section-quotes blockquote{
+			padding: 0px 30px 14px;
+		}
+		.section-btn {
+			margin-top: 30px;
+		}
+		.btn-white-new, .btn-red-new {
+			font-size: 13px;
+			padding: 13px 65px 13px 25px;
+		}
+		.btn-white-new i.material-icons, .btn-red-new i.material-icons  {
+			font-size: 14px;
+			top: 2px;
+			right: 2px;
+		}
+	
+
+
+
+	}
+	
+	@media (min-width:768px) and (max-width:1200px){
+		.header-logo img {
+			position: absolute;
+			left: -70px;
+		}
+		.section-banner {height: auto;} 
+		.section-banner h1.main-heading{
+			margin-top: 120px;
+			font-size: 22px;
+			padding: 0;
+			line-height: 26px;
+		}
+		.banner-inner {
+			margin-top: 20px;
+		}
+		.section-banner p {
+			font-size: 14px; 
+			line-height: 22px;
+		}
+		.company-detail {
+			font-size: 14px;
+			background: #F3F8FB;
+			color: #61696c;
+			line-height: 22px;
+		}
+		.section-heading {
+			font-size: 32px;
+			padding: 0;
+			line-height: 38px;
+		}
+		.section-second ul, .section-six ul {
+			width: 80%;
+		}
+		.section-second ul li, .section-six ul li {
+			font-size: 14px;
+			line-height: 24px;
+   	 		margin-bottom: 15px;
+		}
+		.section-second ul li i, .section-six ul li i {
+			font-size: 14px;
+			margin-top: 5px;
+		}
+		.section-second ul li span, .section-six ul li span {
+			line-height: 24px;
+		}
+		.section-second img {
+		}
+		.section-premade-temp, .section-embeds, .section-second, .section-six, .section-reading, .section-quotes {
+			padding-top: 50px;
+			margin-top: 0px;
+		}
+		.premade-template {
+			padding-bottom: 50px;
+		}
+		.section-six {
+			/* height: auto; */
+			margin-bottom: 50px;
+		}
+		.section-six img {
+			right: -100px;
+    		top: 20px;
+		}
+		.section-reading {
+			padding-bottom: 30px;
+		}
+		.reading-block{
+			width: 30%;
+    		margin: 0px 14px;
+		}
+		.section-quotes blockquote{
+			padding: 0px 30px 14px;
+		}
+		.section-btn {
+			margin-top: 30px;
+		}
+		.btn-white-new, .btn-red-new {
+			font-size: 13px;
+			padding: 13px 65px 13px 25px;
+		}
+		.btn-white-new i.material-icons, .btn-red-new i.material-icons  {
+			font-size: 14px;
+			top: 2px;
+			right: 2px;
+		}
+		.section-premade-temp .container, 
+		.section-embeds .container,
+		.section-second .container, 
+		.section-six .container, 
+		.section-reading .container, 
+		.section-quotes .container,
+		.section-banner .container {
+			width: 100%;
+		}
+		.banner-content {
+			margin-top: 0px;
+			margin-left: 0px;
+		}
+	
+
 
 
 	}
