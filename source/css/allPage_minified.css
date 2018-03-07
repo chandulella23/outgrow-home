@@ -19155,7 +19155,7 @@ img.scrollimg1.wo {
 		margin-bottom: 0px;
 	}
 	blockquote::before{
-		content: "\201C"; /*Unicode for Left Double Quote*/
+		content: "“"; /*Unicode for Left Double Quote*/
 		
 		/*Font*/
 		font-family: Satisfy, serif;
@@ -19172,7 +19172,7 @@ img.scrollimg1.wo {
 	blockquote::after{		
 
 		/*Reset to make sure*/
-		content: "\201C"; /*Unicode for Left Double Quote*/
+		content: "“"; /*Unicode for Left Double Quote*/
 
 		/*Font*/
 		font-family: Satisfy, serif;
@@ -19434,6 +19434,9 @@ img.scrollimg1.wo {
 			top: 2px;
 			right: 2px;
 		}
+		.banner-jacket {
+			padding: 0px;
+		}
 	
 
 
@@ -19461,8 +19464,6 @@ img.scrollimg1.wo {
 		}
 		.company-detail {
 			font-size: 14px;
-			background: #F3F8FB;
-			color: #61696c;
 			line-height: 22px;
 		}
 		.section-heading {
