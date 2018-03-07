@@ -38,7 +38,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy." </p>
@@ -58,7 +58,7 @@
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading">Easily Build Interactive Quizzes With Outgrow’s Intuitive, User-Friendly Platform </div>
-				<img class="rs-show" src="images/lp-section-second-img.png" alt="lp-section-second-img image">
+				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Customizable forms to boost lead generation and conversions </span> </li>
@@ -66,7 +66,7 @@
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions, and traffic across all channels </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
 				</ul>
-				<img class="rs-hide" src="images/lp-section-second-img.png" alt="lp-section-second-img image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
 		</div>
 	</section>
@@ -181,8 +181,8 @@
 						</div>
 
 						<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
-							<img alt="Google image" src="images/google_logo.png"/> 
-							<img alt="Google image" src="images/google_hover.png" class="over over4"/> 
+							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_logo.png"/> 
+							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_hover.png" class="over over4"/> 
 						</div>
 
 					</div>
@@ -710,7 +710,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-10 col-xs-12">
 					<div class="section-heading">A Creative’s Guide To Building Viral Calculators & Quizzes </div>
-					<img class="rs-show" src="images/lp-section-six-img.png" alt="lp-section-six-img image"> 
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img.png" alt="lp-section-six-img image"> 
 					<ul>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>What makes certain Quizzes and Calculators go viral. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Actionable tips that any marketer can follow to create viral Quizzes and Calculators that are shared like crazy! </span> </li>
@@ -720,7 +720,7 @@
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="images/lp-section-six-img.png" alt="lp-section-six-img image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img.png" alt="lp-section-six-img image"> 
 			</div>
 		</div>
 	</section>
@@ -733,7 +733,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="images/lp-reading1.png" alt="lp-reading1 image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1.png" alt="lp-reading1 image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>How to make Buzzfeed-style quizzes</h4>
@@ -743,7 +743,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="images/lp-reading2.png" alt="lp-reading2 image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2.png" alt="lp-reading2 image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Using the Principles of Persuasion to Make Engaging Interactive Content </h4>
@@ -753,7 +753,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="images/lp-reading3.png" alt="lp-reading3 image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3.png" alt="lp-reading3 image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] How TAG Livros Generated 55K+ Leads Within a Month </h4>

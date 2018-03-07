@@ -38,7 +38,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results. Plus the customer support team was extremely helpful in getting our calculator perfected before launch.” </p>
@@ -58,7 +58,7 @@
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading">Generate more revenue and leads by using Outgrow’s sophisticated quizzes, calculators and assessments. </div>
-				<img class="rs-show" src="images/lp-section-second-img.png" alt="lp-section-second-img image">
+				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>All templates have been heavily optimize to improve conversion on both desktop and mobile </span> </li>
@@ -66,7 +66,7 @@
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions and traffic across all channels </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
 				</ul>
-				<img class="rs-hide" src="images/lp-section-second-img.png" alt="lp-section-second-img image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
 		</div>
 	</section>
@@ -181,8 +181,8 @@
 						</div>
 
 						<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
-							<img alt="Google image" src="images/google_logo.png"/> 
-							<img alt="Google image" src="images/google_hover.png" class="over over4"/> 
+							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_logo.png"/> 
+							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_hover.png" class="over over4"/> 
 						</div>
 
 					</div>
@@ -710,7 +710,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-10 col-xs-12">
 					<div class="section-heading">Guide: Generate a New Revenue Stream with Interactive Content Marketing </div>
-					<img class="rs-show" src="images/lp-section-six-img_increase-sales.png" alt="lp-section-six-img_increase-sales image"> 
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="lp-section-six-img_increase-sales image"> 
 					<ul>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Why Agencies Should Offer Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
@@ -720,7 +720,7 @@
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="images/lp-section-six-img_increase-sales.png" alt="lp-section-six-img_increase-sales image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="lp-section-six-img_increase-sales image"> 
 			</div>
 		</div>
 	</section>
@@ -733,7 +733,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="images/lp-reading1_increase-sales.png" alt="lp-reading1_increase-sales image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1_increase-sales.png" alt="lp-reading1_increase-sales image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>5 Signs You’re Being Too ‘Salesy’ and How to Sell Better </h4>
@@ -743,7 +743,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="images/lp-reading2_increase_sales.png" alt="lp-reading2_increase-sales image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2_increase_sales.png" alt="lp-reading2_increase-sales image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Value Based Selling: How to Sell by Not Selling </h4>
@@ -753,7 +753,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="images/lp-reading3_increase_sales.png" alt="lp-reading3_increase-sales image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase_sales.png" alt="lp-reading3_increase-sales image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] How Macroscape Helped Its Client Clock a Conversion Rate of 36% </h4>
