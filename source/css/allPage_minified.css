@@ -18770,7 +18770,7 @@ img.scrollimg1.wo {
 		font-size: 42px;
 		color: #fff !important;
 		font-family: montserratregular;
-		padding: 0px 160px;
+		padding: 0px 140px;
 		line-height: 48px;
 	}
 	.section-banner p {
@@ -19213,6 +19213,51 @@ img.scrollimg1.wo {
 	.section-btn .btn-red-new {
 		margin-top: 15px;
 	}
+	.section-second-CR img {
+		top: 100px;
+	}
+	.section-six-CR{
+		height: auto;
+		margin-bottom: 30px;
+	}
+	.section-six-CR img {
+		top: 50px;
+	}
+
+	.section-second-survey .section-heading {
+		width: 80%;
+	}
+	.section-six-survey {
+		height: auto;
+		margin-bottom: 30px;
+	}
+	.section-second-survey img {
+		top: 100px;
+	}
+	.section-six-survey img {
+		top: 50px;
+	}
+
+
+	.section-banner-sales h1.main-heading {
+		padding: 0px 100px;
+	}
+	.section-banner-roi h1.main-heading {
+		padding: 0px 100px;
+	}
+	.section-banner-sales .banner-content {
+		margin-top: 0px;
+	}
+
+	.section-six-roi {
+		height: 355px;
+		margin-bottom: 0px;
+		background-position: 100% -100px;
+	}
+	.section-six-roi img {
+		top: 60px;
+	}
+	
 
 
 /* end: landing pages css */
