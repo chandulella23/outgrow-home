@@ -18734,6 +18734,7 @@ img.scrollimg1.wo {
 	}
 	.header-logo img {
 		position: absolute;
+		z-index: 999;
 	}
 	/* .header-logo a {
 		background: #fff;
@@ -18845,7 +18846,8 @@ img.scrollimg1.wo {
 		color: #fb5f66;
 		font-family: montserratultra_light;
 		line-height: normal;
-    	margin-bottom: 25px;
+		margin-bottom: 25px;
+		text-transform: capitalize;
 	}
 	.section-second ul {
 		margin: 0;
@@ -19281,6 +19283,22 @@ img.scrollimg1.wo {
 	}
 	.section-quotes-roi blockquote::after {
 		right: 360px;
+	}
+	.section-quotes-calc blockquote::before {
+		left: 100px;
+	}
+	.section-quotes-calc blockquote::after {
+		right: 100px;
+	}
+	.section-six-calc img {
+		top: 50px;
+	}
+	.section-six-calc {
+		height: auto;
+		margin-bottom: 50px;
+	}
+	.section-second-calc img {
+		top: 100px;
 	}
 	
 
