@@ -19155,7 +19155,7 @@ img.scrollimg1.wo {
 		margin-bottom: 0px;
 	}
 	blockquote::before{
-		content: "\201C"; /*Unicode for Left Double Quote*/
+		content: "“"; /*Unicode for Left Double Quote*/
 		
 		/*Font*/
 		font-family: Satisfy, serif;
@@ -19172,7 +19172,7 @@ img.scrollimg1.wo {
 	blockquote::after{		
 
 		/*Reset to make sure*/
-		content: "\201C"; /*Unicode for Left Double Quote*/
+		content: "“"; /*Unicode for Left Double Quote*/
 
 		/*Font*/
 		font-family: Satisfy, serif;
