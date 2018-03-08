@@ -28,6 +28,7 @@
 	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
 
 		<link rel="stylesheet" href="/css/allPage_minified.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Analytics Tracking Snippets Starts -->
 <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
@@ -819,19 +820,403 @@
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
 
-
+            window.calcs = [
+                {
+                    "id": "auto-loan",
+                    "Name": "Auto Loan Calculator",
+                    "Published Link": "https://premade.outgrow.us/Auto-Loan-Calc",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Londoner",
+                    "Industry": "Auto",
+                    "Description": "Find out how much monthly installment you'll be paying on your auto loan.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "auto-lease",
+                    "Name": "Auto Lease Calculator",
+                    "Published Link": "https://premade.outgrow.us/Car-Lease-Calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/car+lease+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Londoner",
+                    "Industry": "Auto",
+                    "Description": "Calculate the monthly lease payment on your next car.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "early-payment",
+                    "Name": "Early Payment Calculator",
+                    "Published Link": "https://premade.outgrow.us/Early-Payment-Calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/early+payment+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Tokyo",
+                    "Industry": "Auto",
+                    "Description": "How much extra monthly payment will you need to make to shorten your car loan term?",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "put-down",
+                    "Name": "How much should I put down?",
+                    "Published Link": "https://premade.outgrow.us/Downpayment-Calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/downpayment+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Londoner",
+                    "Industry": "Auto",
+                    "Description": "Find out the downpayment amount you'll need to purchase your new home.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "calculate-net-cost",
+                    "Name": "Calculate the total REAL net cost of your college degree.",
+                    "Published Link": "https://premade.outgrow.us/Real-NET-college-degree-cost",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+is+college+really+going+to+cost+you.gif",
+                    "Type": "Calculator",
+                    "Layout": "Madrid",
+                    "Industry": "Education",
+                    "Description": "Find out how much is college really going to cost you.",
+                    "filters": [
+                        "filter-auto",
+                        "Education"
+                    ]
+                },
+                {
+                    "id": "student-budget",
+                    "Name": "Student Budget Calculator",
+                    "Published Link": "https://premade.outgrow.us/student-budget-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+student+budget.gif",
+                    "Type": "Calculator",
+                    "Layout": "Madrid",
+                    "Industry": "Education",
+                    "Description": "Use this calculator to calculate your budget as a full-time student.",
+                    "filters": [
+                        "filter-auto",
+                        "Education"
+                    ]
+                },
+                {
+                    "id": "harvard-background",
+                    "Name": "What is a good enough score to get into Harvard with your background?",
+                    "Published Link": "https://premade.outgrow.us/Harvard-Minimum-Score-Calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/chances+of+getting+into+harvard.gif",
+                    "Type": "Calculator",
+                    "Layout": "Greek",
+                    "Industry": "Education",
+                    "Description": "Find out if your SAT or ACT scores are good enough to land you in Harvard.",
+                    "filters": [
+                        "filter-auto",
+                        "Education"
+                    ]
+                },
+                {
+                    "id": "mortgage-calc",
+                    "Name": "The quintessential mortage calculator!",
+                    "Published Link": "https://premade.outgrow.us/Copy-of-The-quintessential-mortgage-calculator-1",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/mortgage+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Londoner",
+                    "Industry": "Finance",
+                    "Description": "Calculate your monthly mortgage payment.",
+                    "filters": [
+                        "filter-auto",
+                        "Finance"
+                    ]
+                },
+                {
+                    "id": "home-budget",
+                    "Name": "Home Budget Calculator",
+                    "Published Link": "https://premade.outgrow.us/Home-Budget-Calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+monthly+home+budget.gif",
+                    "Type": "Calculator",
+                    "Layout": "Tokyo",
+                    "Industry": "Finance",
+                    "Description": "Calculate your monthly home budget and find how much you are saving each month.",
+                    "filters": [
+                        "filter-auto",
+                        "Finance"
+                    ]
+                },
+                {
+                    "id": "retire-need",
+                    "Name": "How much do you need to retire?",
+                    "Published Link": "https://premade.outgrow.us/How-much-do-you-need-to-retire",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+do+you+need+to+retire.gif",
+                    "Type": "Calculator",
+                    "Layout": "Tokyo",
+                    "Industry": "Finance",
+                    "Description": "How much money do you need if you want to retire?",
+                    "filters": [
+                        "filter-auto",
+                        "Finance"
+                    ]
+                },
+                {
+                    "id": "save-million",
+                    "Name": "SAVE A MILLION DOLLARS CALCULATOR",
+                    "Published Link": "https://premade.outgrow.us/When-can-you-become-a-millionaire",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/when+can+you+become+a+millionaire.gif",
+                    "Type": "Calculator",
+                    "Layout": "Tokyo",
+                    "Industry": "Finance",
+                    "Description": "Find out when you will become a millionaire!",
+                    "filters": [
+                        "filter-auto",
+                        "Finance"
+                    ]
+                },
+                {
+                    "id": "saving-goal",
+                    "Name": "Savings goal calculator",
+                    "Published Link": "https://premade.outgrow.us/Saving-goal-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/savings+goal+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Londoner",
+                    "Industry": "Finance",
+                    "Description": "Set your savings goal today and find out how much you need to invest every month to achieve that goal.",
+                    "filters": [
+                        "filter-auto",
+                        "Finance"
+                    ]
+                },
+                {
+                    "id": "retirement-balance",
+                    "Name": "What will be my 401(k) balance at retirement?",
+                    "Published Link": "https://premade.outgrow.us/401k-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+will+be+my+401k+balance+at+retirement.gif",
+                    "Type": "Calculator",
+                    "Layout": "Seattle",
+                    "Industry": "Finance",
+                    "Description": "Find out how much balance will you have in your 401(k) at retirement.",
+                    "filters": [
+                        "filter-auto",
+                        "Finance"
+                    ]
+                },
+                {
+                    "id": "credit-card",
+                    "Name": "How long will it take to pay off my credit card?",
+                    "Published Link": "https://premade.outgrow.us/credit-card-pay-off-calc",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+long+will+it+take+to+payoff+my+credit+card.gif",
+                    "Type": "Calculator",
+                    "Layout": "Seattle",
+                    "Industry": "Finance",
+                    "Description": "Find out how long will you take to payoff your credit card.",
+                    "filters": [
+                        "filter-auto",
+                        "Finance"
+                    ]
+                },
+                {
+                    "id": "calc-weight",
+                    "Name": "Weight Loss Calculator",
+                    "Published Link": "https://premade.outgrow.us/weightloss-calc",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Weightloss+Calc.gif",
+                    "Type": "Calculator",
+                    "Layout": "Greek",
+                    "Industry": "health-fitness",
+                    "Description": "Set your weight loss target and find out how much calories you need to reduce every day.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "calories-calc",
+                    "Name": "Calories Calculator",
+                    "Published Link": "https://premade.outgrow.us/calories-calc",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calories+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Tokyo",
+                    "Industry": "health-fitness",
+                    "Description": "FInd out the ideal number of calories you should be consuming every day.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "heart-disease",
+                    "Name": "What is your risk of getting a heart disease?",
+                    "Published Link": "https://premade.outgrow.us/heart-disease-calc",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+is+your+risk+of+getting+a+heart+disease.gif",
+                    "Type": "Calculator",
+                    "Layout": "Greek",
+                    "Industry": "health-fitness",
+                    "Description": "Find out if you are at risk of a heart attack or a stroke.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "protein-need",
+                    "Name": "How much daily protein do I need?",
+                    "Published Link": "https://premade.outgrow.us/daily-protein-requirement-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+daily+protein+do+i+need.gif",
+                    "Type": "Calculator",
+                    "Layout": "Seattle",
+                    "Industry": "health-fitness",
+                    "Description": "Get your recommended daily protein intake.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "ideal-weight-calc",
+                    "Name": "Ideal Weight Calculator",
+                    "Published Link": "https://premade.outgrow.us/ideal-weight-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/ideal+weight+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Seattle",
+                    "Industry": "health-fitness",
+                    "Description": "Find your ideal bodyweight.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "consultant-house",
+                    "Name": "Calculate how much hiring an expert consultant will save you versus running PPC in house.",
+                    "Published Link": "https://premade.outgrow.us/ppc-agency-vs-inhouse-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/PPC+vs+in-house.gif",
+                    "Type": "Calculator",
+                    "Layout": "Chicago",
+                    "Industry": "marketing-advertising",
+                    "Description": "Find out whether you should go for a PPC agency or build an in-house team.",
+                    "filters": [
+                        "filter-auto",
+                        "marketing-advertising"
+                    ]
+                },
+                {
+                    "id": "paid-advertising",
+                    "Name": "How much should you spend on paid advertising?",
+                    "Published Link": "https://premade.outgrow.us/how-much-should-you-spend-on-paid-advertising",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+should+you+spend+on+paid+advertising.gif",
+                    "Type": "Calculator",
+                    "Layout": "Tokyo",
+                    "Industry": "marketing-advertising",
+                    "Description": "Find out how much you should spend on Paid Advertising.",
+                    "filters": [
+                        "filter-auto",
+                        "marketing-advertising"
+                    ]
+                },
+                {
+                    "id": "marketing-roi",
+                    "Name": "ROI of your Marketing Strategy",
+                    "Published Link": "https://premade.outgrow.us/ROI-of-your-Email-Marketing-Strategy",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/roi+of+your+email+marketing+strategy.gif",
+                    "Type": "Calculator",
+                    "Layout": "Londoner",
+                    "Industry": "marketing-advertising",
+                    "Description": "Estimate the ROI of your current email marketing strategy.",
+                    "filters": [
+                        "filter-auto",
+                        "marketing-advertising"
+                    ]
+                },
+                {
+                    "id": "blogging-frequency",
+                    "Name": "Blogging Frequency Calculator",
+                    "Published Link": "https://premade.outgrow.us/blogging-frequency-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+often+should+you+blog.gif",
+                    "Type": "Calculator",
+                    "Layout": "Chicago",
+                    "Industry": "marketing-advertising",
+                    "Description": "Find out how often you should be blogging and how much you stand to gain from it.",
+                    "filters": [
+                        "filter-auto",
+                        "marketing-advertising"
+                    ]
+                },
+                {
+                    "id": "roi-outgrow",
+                    "Name": "Check how high of a ROI you can get with Outgrow!",
+                    "Published Link": "https://premade.outgrow.us/roi-of-using-outgrow",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/roi+of+using+outgrow.gif",
+                    "Type": "Calculator",
+                    "Layout": "Londoner",
+                    "Industry": "Quintessential",
+                    "Description": "Estimate the ROI you will get from using Outgrow.",
+                    "filters": [
+                        "filter-auto",
+                        "Quintessential"
+                    ]
+                },
+                {
+                    "id": "resale-property",
+                    "Name": "Find out the resale value of your property",
+                    "Published Link": "https://premade.outgrow.us/how-much-will-you-make-by-selling-your-property",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+will+you+make+from+selling+your+property.gif",
+                    "Type": "Calculator",
+                    "Layout": "Stockholm",
+                    "Industry": "Real Estate & Construction",
+                    "Description": "Enter some details about your property and find out how much you will make by selling it.",
+                    "filters": [
+                        "filter-auto",
+                        "Real Estate & Construction"
+                    ]
+                },
+                {
+                    "Name": "How much does it cost to build a pool?",
+                    "Published Link": "https://premade.outgrow.us/cost-of-building-a-pool",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/cost+of+building+a+pool.gif",
+                    "Type": "Calculator",
+                    "Layout": "Chicago",
+                    "Industry": "construction",
+                    "Description": "Find out how much you will need to shell out for your dream pool.",
+                    "filters": [
+                        "filter-auto",
+                        "construction"
+                    ]
+                },
+                {
+                    "id": "house-afford",
+                    "Name": "How much house can I afford?",
+                    "Published Link": "https://premade.outgrow.us/how-much-house-can-I-afford",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+house+can+i+afford.gif",
+                    "Type": "Calculator",
+                    "Layout": "Greek",
+                    "Industry": "construction",
+                    "Description": "Enter your details to find out the house value that fits within your budget.",
+                    "filters": [
+                        "filter-auto",
+                        "construction"
+                    ]
+                },
+                {
+                    "id": "rent-buy-home",
+                    "Name": "See how much it would cost you to rent instead of buying a home.",
+                    "Published Link": "https://premade.outgrow.us/renting-vs-buying-cost-calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/buying+vs+renting+calculator.gif",
+                    "Type": "Calculator",
+                    "Layout": "Madrid",
+                    "Industry": "construction",
+                    "Description": "See how much it would cost you to rent instead of buying a house.",
+                    "filters": [
+                        "filter-auto",
+                        "construction"
+                    ]
+                }
+            ];
 
             window.onload = function () {
-                var xmlHttp = new XMLHttpRequest();
-                xmlHttp.onreadystatechange = function () {
-                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
-                        window.calcs = JSON.parse(xmlHttp.responseText).data;
-                        setPremade();
-                        shuffleCalcs('Auto');
-                    }
-                }
-                xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/calculator-landing', true);
-                xmlHttp.send(null);
+                setPremade();
+                shuffleCalcs('Auto');
             }
 		</script>
 
