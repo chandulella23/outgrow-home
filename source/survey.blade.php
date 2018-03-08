@@ -94,7 +94,7 @@
 
 
 						<li>
-							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Finance</a>
+							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Health & Fitness</a>
 						</li>
 						<li>
 							<a href="javascript:void(0)" id="marketing-advertising"
