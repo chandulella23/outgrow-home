@@ -87,20 +87,31 @@
 				</div> -->
 				<div class="premade-template">
 					<ul class="pre-temp-cat" id="calc-cats">
-						<li>
-							<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
+						<li class="active">
+							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
+							<a href="javascript:void(0)" id="Education"
+							   onclick="shuffleCalcs('Education')">Education</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
+							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Finance</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
+							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
+								Estate & Construction</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
+							<a href="javascript:void(0)" id="Travel" onclick="shuffleCalcs('Travel')">Travel</a>
+						</li>
+
+						<li>
+							<a href="javascript:void(0)" id="Entertainment" onclick="shuffleCalcs('Entertainment')">TV
+								and Entertainment</a>
+						</li>
+
+						<li>
+							<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Tredning')">Trending</a>
 						</li>
 
 					</ul>
@@ -696,6 +707,224 @@
 
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
+            window.calcs = [
+                {
+                    "id": "used-car-new-car",
+                    "Name": "New Car vs Used Car",
+                    "Published Link": "https://premade.outgrow.us/New-Car-vs-Used-Car",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/new+car+vs+used+car.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Auto",
+                    "Description": "Find out whether you should buy a used card or a new one.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "car-rent-buy",
+                    "Name": "Should i buy or rent a car?",
+                    "Published Link": "https://premade.outgrow.us/Buy-Or-Lease-Calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/should+you+buy+or+lease+your+next+car.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Auto",
+                    "Description": "Answer 6 questions to find out whether you should buy or lease your next car.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "type-car",
+                    "Name": "Which type of car is best suited to my use case?",
+                    "Published Link": "http://premade.outgrow.us/what-car-should-you-go-for",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+kind+of+car+should+you+buy.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Auto",
+                    "Description": "Find out which car suits you the best.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "ivy-league",
+                    "Name": "Which Ivy League is best for me?",
+                    "Published Link": "https://premade.outgrow.us/which-ivy-league-is-best-for-you",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+ivy+league+is+best+for+you.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Education",
+                    "Description": "Answer 9 simple questions to find out which Ivy League college is best for you.",
+                    "filters": [
+                        "filter-auto",
+                        "Education"
+                    ]
+                },
+                {
+                    "id": "study-major",
+                    "Name": "Which major should I study?",
+                    "Published Link": "https://premade.outgrow.us/What-major-should-i-study",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+major.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "Education",
+                    "Description": "Find out which major should you study.",
+                    "filters": [
+                        "filter-auto",
+                        "Education"
+                    ]
+                },
+                {
+                    "id": "sport-right",
+                    "Name": "Which sport is right for my fitness goals?",
+                    "Published Link": "https://premade.outgrow.us/sport-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Sports+quiz.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "health-fitness",
+                    "Description": "Find out which sport will be best suited for you.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "yoga-right",
+                    "Name": "Which type of Yoga is right for me?",
+                    "Published Link": "https://premade.outgrow.us/yoga",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+type+of+yoga+is+right+for+me.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "health-fitness",
+                    "Description": "Find out which yoga practice will deliver the results you want and is best suited for your physical condition",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "rent-buy",
+                    "Name": "Should I buy or rent?",
+                    "Published Link": "https://premade.outgrow.us/should-i-buy-or-rent",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Buy+Or+Rent.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "construction",
+                    "Description": "Find out if you should buy or rent your next accomodation.",
+                    "filters": [
+                        "filter-auto",
+                        "construction"
+                    ]
+                },
+                {
+                    "id": "summer-quiz",
+                    "Name": "The ultimate summer destination quiz!",
+                    "Published Link": "https://premade.outgrow.us/ultimate-summer-destination-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/ultimate+summer+destination+quiz.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Travel",
+                    "Description": "Find out which summer destination should you be heading out to.",
+                    "filters": [
+                        "filter-auto",
+                        "Travel"
+                    ]
+                },
+                {
+                    "id": "friends-character",
+                    "Name": "Which Friends character are you?",
+                    "Published Link": "https://premade.outgrow.us/which-friends-character-are-you",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+friends+character+are+you.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "TV and Entertainment",
+                    "Description": "Find out which Friends character are you most like.",
+                    "filters": [
+                        "filter-auto",
+                        "TV and Entertainment"
+                    ]
+                },
+                {
+                    "id": "olympic-controversy",
+                    "Name": "Which 2018 Winter Olympics Controversy Are You?",
+                    "Published Link": "https://premade.outgrow.us/premade-839",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+2018+Winter+Olympics+Controversy+Are+You.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Description": "The 2018 Winter Olympics has been in the storm of controversies. Find out which one would you be!",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "destination-quiz",
+                    "Name": "The Ultimate Expat Destination Quiz",
+                    "Published Link": "https://premade.outgrow.us/premade-838",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/The+Ultimate+Expat+Destination+Quiz.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Description": "Find out the expat destination most suitable for you!",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "oscar-nominee",
+                    "Name": "Which Oscar Best Picture Nominee are you?",
+                    "Published Link": "https://premade.outgrow.us/premade-842",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+Oscar+Best+Picture+Nominee+are+you.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Description": "There are 9 Best Picture nominations this year. Find out which of them are you likely to be!",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "chinese-flower",
+                    "Name": "Find out your Chinese New Year Flower",
+                    "Published Link": "https://premade.outgrow.us/premade-847",
+                    "GIF": "https://drive.google.com/file/d/1kWJBSzNTSOg_NjOaDB4Qb5IzQvAS1iES/view?usp=sharing",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Tier": "",
+                    "Description": "The Lunar New Year celebrations involve a lot of floral decorations. Find out which one suits you the best. ",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "black-panther",
+                    "Name": "Are you as Posh as Black Panther?",
+                    "Published Link": "https://premade.outgrow.us/premade-873",
+                    "GIF": "https://drive.google.com/file/d/1ZL9jSGbn-yml6L1_Jw-lz4eY-rYecqFb/view?usp=sharing",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "Trending",
+                    "Description": "Find out how posh you are compared to one of the wealthiest fictional characters of all time.",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                }
+            ];
+
+            window.onload = function () {
+                setPremade();
+                shuffleCalcs('Auto');
+            }
 		</script>
 
 	</section>
