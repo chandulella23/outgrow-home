@@ -1302,7 +1302,7 @@
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>5 Signs You’re Being Too ‘Salesy’ and How to Sell Better </h4>
-						<p>As a salesperson, you may not realize when you cross the thin line between selling and pushing your product/service into the prospect’s face. This post talks about how to avoid being too salesy </p>
+						<p>As a salesperson, you may not realize when you cross the thin line between selling and pushing your product/service into the prospect’s face. This post talks about how to avoid being too salesy. </p>
 						<a href="https://outgrow.co/blog/how-to-sell-better/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
@@ -1312,7 +1312,7 @@
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Value Based Selling: How to Sell by Not Selling </h4>
-						<p>How do you inform a prospect about your product, gauge their interest, and finally close the sale, if not through the traditional sales pitch? Find out how </p>
+						<p>How do you inform a prospect about your product, gauge their interest, and finally close the sale, if not through the traditional sales pitch? Find out how. </p>
 						<a href="https://outgrow.co/blog/value-based-selling/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
@@ -1322,7 +1322,7 @@
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] How Macroscape Helped Its Client Get a 36% Conversion Rate </h4>
-						<p>Find out how a marketing consulting firm helped one of its clients clock 36% conversion rate using a quiz </p>
+						<p>Find out how a marketing consulting firm helped one of its clients clock 36% conversion rate using a quiz. </p>
 						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>

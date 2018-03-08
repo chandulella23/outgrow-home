@@ -1294,7 +1294,7 @@
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>How to Build a ROI Calculator in Outgrow </h4>
-						<p>Want to build a ROI Calculator but don’t know where to start? This post explains the process </p>
+						<p>Want to build a ROI Calculator but don’t know where to start? This post explains the process. </p>
 						<a href="https://outgrow.co/blog/roi-calculator?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>

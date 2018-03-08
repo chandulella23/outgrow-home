@@ -1299,7 +1299,7 @@
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>How Macroscape Helped Its Client Clock a Conversion Rate of 36% </h4>
-						<p>Find out how a marketing consulting firm helped one of its clients clock 36% conversion rate using a quiz </p>
+						<p>Find out how a marketing consulting firm helped one of its clients clock 36% conversion rate using a quiz. </p>
 						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
