@@ -729,7 +729,7 @@
 	<section class="section section-six section-six-roi">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="col-md-10 col-sm-10 col-xs-12">
+				<div class="col-md-10 col-sm-10 col-xs-12 np">
 					<div class="section-heading">Interactive Calculator: Find out the ROI of using Outgrow </div>
 					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-roi.png" alt="lp-section-six-img_increase-roi image"> 
 					<!-- <ul>

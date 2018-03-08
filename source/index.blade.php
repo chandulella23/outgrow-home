@@ -711,7 +711,7 @@
 	<section class="section section-six">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="col-md-10 col-sm-10 col-xs-12">
+				<div class="col-md-10 col-sm-10 col-xs-12 np">
 					<div class="section-heading">A Creative’s Guide To Building Viral Calculators & Quizzes </div>
 					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img.png" alt="lp-section-six-img image"> 
 					<ul>
