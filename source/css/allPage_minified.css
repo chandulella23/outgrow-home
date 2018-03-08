@@ -19148,11 +19148,13 @@ img.scrollimg1.wo {
 		color: #fb5f66;
 		font-family: montserratlight;
 		line-height: 26px;
-		position: relative;
 		border: none;
-		padding-left: 20px;
 		padding-top: 0px;
 		margin-bottom: 0px;
+		display: block;
+		max-width: 80%;
+		margin: 0 auto;
+		padding: 0px 30px 14px;
 	}
 	blockquote::before{
 		content: "“"; /*Unicode for Left Double Quote*/
@@ -19165,14 +19167,14 @@ img.scrollimg1.wo {
 
 		/*Positioning*/
 		position: absolute;
-		left: 10px;
-		top:5px;
+		left: -10px;
+		top: 5px;
 	}
 
 	blockquote::after{		
 
 		/*Reset to make sure*/
-		content: "“"; /*Unicode for Left Double Quote*/
+		content: "”"; /*Unicode for Left Double Quote*/
 
 		/*Font*/
 		font-family: Satisfy, serif;
@@ -19182,12 +19184,8 @@ img.scrollimg1.wo {
 
 		/*Positioning*/
 		position: absolute;
-		right: 10px;
-		top: -15px;
-
-		-moz-transform: rotate(-180deg);
-		-webkit-transform: rotate(-180deg);
-		transform: rotate(-180deg);
+		right: -5px;
+		top: 5px;
 	}
 	.section-quotes span {
 		color: #62696d;
@@ -19261,7 +19259,7 @@ img.scrollimg1.wo {
 		top: 60px;
 	}
 
-	.section-quotes_CR blockquote::before {
+	/* .section-quotes_CR blockquote::before {
 		left: 260px;
 	}
 	.section-quotes_CR blockquote::after {
@@ -19290,7 +19288,7 @@ img.scrollimg1.wo {
 	}
 	.section-quotes-calc blockquote::after {
 		right: 100px;
-	}
+	} */
 	.section-six-calc img {
 		top: 50px;
 	}
@@ -19300,8 +19298,16 @@ img.scrollimg1.wo {
 	}
 	.section-second-calc img {
 		top: 100px;
+	}	
+	.section-banner-calc .banner-content {
+		margin-top: 0px;
 	}
-	
+	.section-quotes-roi blockquote {
+		max-width: 37%;
+	}
+	.section-quotes_CR blockquote {
+		max-width: 55%;
+	}
 
 
 /* end: landing pages css */
@@ -19337,6 +19343,18 @@ img.scrollimg1.wo {
 			text-align: center;
 		}
 		.pre-temp-view .content.temp-info .btn.btn-red{margin-left: 5px; margin-bottom: 10px;}
+		.section-quotes-roi blockquote {
+			max-width: 85%;
+		}
+		.section-quotes_CR blockquote {
+			max-width: 85%;
+		}
+
+	}
+	@media (min-width:580px) and (max-width:990px){
+		.section-quotes-roi blockquote {
+			max-width: 55%;
+		}
 
 	}
 
@@ -19418,9 +19436,6 @@ img.scrollimg1.wo {
 		.reading-block{
 			float: none;
 			margin: 0 auto 45px !important;
-		}
-		.section-quotes blockquote{
-			padding: 0px 30px 14px;
 		}
 		.section-btn {
 			margin-top: 30px;
@@ -19509,9 +19524,6 @@ img.scrollimg1.wo {
 		.reading-block{
 			width: 30%;
     		margin: 0px 14px;
-		}
-		.section-quotes blockquote{
-			padding: 0px 30px 14px;
 		}
 		.section-btn {
 			margin-top: 30px;

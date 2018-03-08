@@ -31,7 +31,7 @@
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 
 	<!-- start: landing page HTML  -->
-	<section class="section section-banner">
+	<section class="section section-banner section-banner-calc">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
 				<h1 class="main-heading">Generate more leads and revenue with Outgrow’s Interactive Calculators </h1>
