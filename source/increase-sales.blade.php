@@ -88,52 +88,60 @@
 				<div class="premade-template">
 					<ul class="pre-temp-cat" id="calc-cats">
 						<li>
-							<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
+							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
+							<a href="javascript:void(0)" id="Education"
+							   onclick="shuffleCalcs('Education')">Education</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
+							<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
+							<a href="javascript:void(0)" id="marketing-advertising"
+							   onclick="shuffleCalcs('marketing-advertising')">Marketing & Advertising</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
+							<a href="javascript:void(0)" id="Quintessential" onclick="shuffleCalcs('Quintessential')">Quintessential</a>
 						</li>
-						<li class="active">
-							<a href="javascript:void(0)" id="filter-all" onclick="shuffleCalcs('filter-all')">All</a>
+						<li>
+							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
+								Estate & Construction</a>
 						</li>
+						<li>
+							<a href="javascript:void(0)" id="Technology"
+							   onclick="shuffleCalcs('Technology')">Technology</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="Entertainment" onclick="shuffleCalcs('Entertainment')">TV
+								and Entertainment</a>
+						</li>
+
 					</ul>
 					<div class="pre-temp-cont">
 						<ul class="pre-temp-list" id="gallery-content-center">
 
-							<li class="active filter-all filter-auto" id="calc-auto-loan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
+							<li class="filter-all Auto active" id="new-car-used-car">
+								<a href="javascript:void(0)" onclick="markAsActive('new-car-used-car')">
+									Find out whether you should buy a used card or a new one.</a></li>
+							<li class="filter-all Auto" id="buy-rent">
+								<a href="javascript:void(0)" onclick="markAsActive('buy-rent')">
+									Answer 6 questions to find out whether you should buy or lease your next car.</a>
 							</li>
-							<li class="All Financia filter-all filter-auto" id="calc-early-payment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
+							<li class="filter-all Auto" id="auto-loan">
+								<a href="javascript:void(0)" onclick="markAsActive('auto-loan')">
+									Find out how much monthly installment you'll be paying on your auto loan.</a></li>
+							<li class="filter-all Auto" id="early-payment">
+								<a href="javascript:void(0)" onclick="markAsActive('early-payment')">
+									How much extra monthly payment will you need to make to shorten your car loan
+									term?</a></li>
+							<li class="filter-all Auto" id="put-down">
+								<a href="javascript:void(0)" onclick="markAsActive('put-down')">
+									Find out the downpayment amount you'll need to purchase your new home.</a></li>
+							<li class="filter-all Auto" id="type-car">
+								<a href="javascript:void(0)" onclick="markAsActive('type-car')">
+									Find out which car suits you the best.</a>
 							</li>
-							<li class="All Math filter-all filter-auto" id="calc-downpayment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
-							</li>
-							<li class="All Others filter-all filter-education" id="calc-student-budget"> 
-								<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
-							</li>
-							<li class="All Math filter-all filter-education" id="calc-harward-score">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
-							</li>
-							<li class="All Math filter-all filter-finance" id="calc-home-budget">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
-							</li>
-							<li class="All Others filter-all filter-health" id="calc-weight-loss">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
-							</li>
-							<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
-							</li>
-
 						</ul>
 						<div class="pre-temp-view">
 							<div class="temp-preview">
@@ -698,6 +706,22 @@
 
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
+
+            var head = document.querySelector('head');
+            head.appendChild(gridJS);
+
+            window.onload = function () {
+                var xmlHttp = new XMLHttpRequest();
+                xmlHttp.onreadystatechange = function () {
+                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                        window.calcs = JSON.parse(xmlHttp.responseText).data;
+                        setPremade();
+                        shuffleCalcs('Auto');
+                    }
+                }
+                xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/conversion-landing', true);
+                xmlHttp.send(null);
+            }
 		</script>
 
 	</section>
