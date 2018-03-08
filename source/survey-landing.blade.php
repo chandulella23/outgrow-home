@@ -51,7 +51,7 @@
 					<!-- <div class="company-detail">
 						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
 					</div> -->
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" target="_blank">
+					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page">
 						<button type="button" class="btn btn-white-new">Build your First Online Survey <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
@@ -704,7 +704,7 @@
 
 	<section class="section section-bg-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<a target="_blank" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white-new">Try Outgrow for Free <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
@@ -724,7 +724,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Web and Mobile Games </span></li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Virtual and Augmented Reality </span></li>
 					</ul>
-					<a target="_blank" href="https://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="">
+					<a href="https://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>

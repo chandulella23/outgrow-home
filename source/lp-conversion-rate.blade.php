@@ -51,7 +51,7 @@
 					<div class="company-detail">
 						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
 					</div>
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank">
+					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page">
 						<button type="button" class="btn btn-white-new">Create Your First Interactive Experience <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
@@ -704,7 +704,7 @@
 
 	<section class="section section-bg-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<a target="_blank" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white-new">Try Outgrow for Free <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
@@ -721,7 +721,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Lead generation hacks divided across 9 different categories, to help you ramp up your marketing efforts and get more business. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Real-life examples of how businesses like Hubspot, GAP, Copyblogger, and Hot Jaruse these techniques to get more leads from their websites, social media and other properties. </span></li>
 					</ul>
-					<a target="_blank" href="https://get.outgrow.co/ebook-70-lead-generation-tips/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="">
+					<a href="https://get.outgrow.co/ebook-70-lead-generation-tips/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
