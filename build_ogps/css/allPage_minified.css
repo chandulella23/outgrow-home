@@ -19377,6 +19377,7 @@ img.scrollimg1.wo {
 		}
 		.banner-jacket {
 			padding-right: 0px;
+			width: 100% !important;
 		}
 		.banner-jacket img {
 			border-radius: 0px;
@@ -19385,6 +19386,7 @@ img.scrollimg1.wo {
 			padding: 0px 15px;
 			margin-left: 0px;
 			margin-top: 25px !important;
+			width: 100%;
 		}
 		.section-banner p {
 			color: #61696c; 
