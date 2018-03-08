@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="Improve your marketing and sales ROI"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“Their focus on conversion and ROI. They optimize their templates for conversion and add new templates regularly to help improve our conversion rates and ROI.” </p>
@@ -1267,7 +1267,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">Interactive Calculator: Find out the ROI of using Outgrow </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-roi.png" alt="lp-section-six-img_increase-roi image"> 
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-roi.png" alt="Find out the ROI of using Outgrow"> 
 					<!-- <ul>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Why Agencies Should Offer Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
@@ -1277,7 +1277,7 @@
 						<button class="btn btn-red-new">Get your ROI <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-roi.png" alt="lp-section-six-img_increase-roi image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-roi.png" alt="Find out the ROI of using Outgrow"> 
 			</div>
 		</div>
 	</section>
@@ -1290,7 +1290,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_increase-sales.png" alt="lp-reading1_increase-sales image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1_increase-sales.png" alt="How to Build a ROI Calculator"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>How to Build a ROI Calculator in Outgrow </h4>
@@ -1300,7 +1300,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_increase-roi.png" alt="lp-reading2_increase-roi image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2_increase-roi.png" alt="Why you Need a ROI Calculator on your Website"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Why you Need a ROI Calculator on your Website </h4>
@@ -1310,7 +1310,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase-roi.png" alt="lp-reading3_increase-roi image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase-roi.png" alt="VenturePact case study"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] VenturePact generated 11,592 leads with a Calculator </h4>

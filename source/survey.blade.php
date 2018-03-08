@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="Outgrow's Online Survey Builder"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“I really like the ability to simply create what is basically a pop up survey that creates user engagement.” </p>
@@ -805,7 +805,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">Course: Best Interactive Lead Generation Techniques </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_survey.png" alt="lp-section-six-img_survey image"> 
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_survey.png" alt="Course on Interactive Lead Generation Techniques"> 
 					<ul>
 						<li>Learn how to generate leads with </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive Calculators </span> </li>
@@ -818,7 +818,7 @@
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_survey.png" alt="lp-section-six-img_survey image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_survey.png" alt="Course on Interactive Lead Generation Techniques"> 
 			</div>
 		</div>
 	</section>
@@ -831,7 +831,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_survey.png" alt="lp-reading1_survey image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1_survey.png" alt="Customer Engagement 101 using Interactive Content"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Customer Engagement 101 using Interactive Content </h4>
@@ -841,7 +841,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_survey.png" alt="lp-reading2_survey image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2_survey.png" alt="3 Ingenious Ways to Capture Leads Through Content"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>3 Ingenious Ways to Capture Leads Through Content </h4>
@@ -851,7 +851,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_survey.png" alt="lp-reading3_survey image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3_survey.png" alt="Re-energize Marketing Automation with Interactive Content"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Re-energize Marketing Automation with Interactive Content </h4>

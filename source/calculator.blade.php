@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="Outgrow's Interactive and Business Calculators"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>"This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results." </p>
@@ -1111,7 +1111,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">A Short Course On Lead Generation With Calculators </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_calc.png" alt="lp-section-six-img_calc image"> 
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_calc.png" alt="Course on Lead Generation with Calculators"> 
 					<ul>
 						<li>Learn how to generate qualified & relevant leads using Price, ROI and Savings calculators.</li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Why calculators are great for lead generation? </span> </li>
@@ -1123,7 +1123,7 @@
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_calc.png" alt="lp-section-six-img_calc image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_calc.png" alt="Course on Lead Generation with Calculators"> 
 			</div>
 		</div>
 	</section>
@@ -1136,7 +1136,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_calc.png" alt="lp-reading1_calc image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1_calc.png" alt="5 companies using Calculators on Product Hunt"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>5 Companies killing it on Product Hunt with Interactive Calculators</h4>
@@ -1146,7 +1146,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_calc.png" alt="lp-reading2_calc image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2_calc.png" alt="Why you need an ROI Calculator on your Website"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Why you need an ROI Calculator on your Website </h4>
@@ -1156,7 +1156,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_cal.png" alt="lp-reading3_calc image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3_cal.png" alt="VenturePact case study"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] VenturePact generated 11,592 leads with a Calculator</h4>
