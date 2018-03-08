@@ -111,7 +111,7 @@
 						</li>
 
 						<li>
-							<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Tredning')">Trending</a>
+							<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">Trending</a>
 						</li>
 
 					</ul>
@@ -841,11 +841,11 @@
                     "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+friends+character+are+you.gif",
                     "Type": "Outcome Quiz",
                     "Layout": "Chicago",
-                    "Industry": "TV and Entertainment",
+                    "Industry": "Entertainment",
                     "Description": "Find out which Friends character are you most like.",
                     "filters": [
                         "filter-auto",
-                        "TV and Entertainment"
+                        "Entertainment"
                     ]
                 },
                 {
