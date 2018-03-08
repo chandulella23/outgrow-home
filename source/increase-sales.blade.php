@@ -1,20 +1,20 @@
 @extends('_layouts.master')
 
-@section('title', 'Interactive Calculators and Quizzes | Outgrow')
+@section('title', 'Increase Online Sales | Outgrow')
 
 @section('metaDescription')
-	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
+	<meta name="description" content="Increase your online sales with interactive quizzes, calculators and assessments. Build your first interactive experience. Start your free trial."/>
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Interactive Calculators | Outgrow" />
-	<meta property="og:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta property="og:description" content="Increase your online sales with interactive quizzes, calculators and assessments. Build your first interactive experience. Start your free trial." />
 	<meta property="og:url" content="https://outgrow.co/" />
 	<meta property="og:site_name" content="Outgrow" />
 	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta name="twitter:description" content="Increase your online sales with interactive quizzes, calculators and assessments. Build your first interactive experience. Start your free trial." />
 	<meta name="twitter:title" content="Interactive Calculators | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 @endsection
@@ -28,7 +28,12 @@
 @section('pageId', '')
 
 @section('content')
-	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+
+	<div class="header-logo">		
+		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_sales_page" class="" target="_blank">
+			<img src="{{ $page->baseUrl }}/images/lp-header-logo.png" alt="lp-header-logo image">
+		</a>
+	</div>
 
 	<!-- start: landing page HTML  -->
 	<section class="section section-banner section-banner-sales">
@@ -46,7 +51,7 @@
 					<div class="company-detail">
 						Katya’s company made over $10,000 in revenue in just a month of using an Outgrow business calculator.
 					</div>
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
+					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
 						<button type="button" class="btn btn-white-new">Build Your First Interactive Experience <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
@@ -57,7 +62,7 @@
 	<section class="section section-second section-second-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Generate more revenue and leads by using Outgrow’s sophisticated quizzes, calculators and assessments. </div>
+				<div class="section-heading">Generate More Revenue And Leads By Using Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
 				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
@@ -74,7 +79,7 @@
 	<section class="section section-premade-temp">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples of revenue-generating Outgrow quizzes, calculators and assessments </div>
+				<div class="section-heading text-center">Examples Of Revenue-Generating Outgrow Quizzes, Calculators Aand Assessments </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<!-- <div class="preloader">
@@ -83,52 +88,60 @@
 				<div class="premade-template">
 					<ul class="pre-temp-cat" id="calc-cats">
 						<li>
-							<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
+							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
+							<a href="javascript:void(0)" id="Education"
+							   onclick="shuffleCalcs('Education')">Education</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
+							<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
+							<a href="javascript:void(0)" id="marketing-advertising"
+							   onclick="shuffleCalcs('marketing-advertising')">Marketing & Advertising</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
+							<a href="javascript:void(0)" id="Quintessential" onclick="shuffleCalcs('Quintessential')">Quintessential</a>
 						</li>
-						<li class="active">
-							<a href="javascript:void(0)" id="filter-all" onclick="shuffleCalcs('filter-all')">All</a>
+						<li>
+							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
+								Estate & Construction</a>
 						</li>
+						<li>
+							<a href="javascript:void(0)" id="Technology"
+							   onclick="shuffleCalcs('Technology')">Technology</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="Entertainment" onclick="shuffleCalcs('Entertainment')">TV
+								and Entertainment</a>
+						</li>
+
 					</ul>
 					<div class="pre-temp-cont">
 						<ul class="pre-temp-list" id="gallery-content-center">
 
-							<li class="active filter-all filter-auto" id="calc-auto-loan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
+							<li class="filter-all Auto active" id="new-car-used-car">
+								<a href="javascript:void(0)" onclick="markAsActive('new-car-used-car')">
+									Find out whether you should buy a used card or a new one.</a></li>
+							<li class="filter-all Auto" id="buy-rent">
+								<a href="javascript:void(0)" onclick="markAsActive('buy-rent')">
+									Answer 6 questions to find out whether you should buy or lease your next car.</a>
 							</li>
-							<li class="All Financia filter-all filter-auto" id="calc-early-payment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
+							<li class="filter-all Auto" id="auto-loan">
+								<a href="javascript:void(0)" onclick="markAsActive('auto-loan')">
+									Find out how much monthly installment you'll be paying on your auto loan.</a></li>
+							<li class="filter-all Auto" id="early-payment">
+								<a href="javascript:void(0)" onclick="markAsActive('early-payment')">
+									How much extra monthly payment will you need to make to shorten your car loan
+									term?</a></li>
+							<li class="filter-all Auto" id="put-down">
+								<a href="javascript:void(0)" onclick="markAsActive('put-down')">
+									Find out the downpayment amount you'll need to purchase your new home.</a></li>
+							<li class="filter-all Auto" id="type-car">
+								<a href="javascript:void(0)" onclick="markAsActive('type-car')">
+									Find out which car suits you the best.</a>
 							</li>
-							<li class="All Math filter-all filter-auto" id="calc-downpayment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
-							</li>
-							<li class="All Others filter-all filter-education" id="calc-student-budget"> 
-								<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
-							</li>
-							<li class="All Math filter-all filter-education" id="calc-harward-score">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
-							</li>
-							<li class="All Math filter-all filter-finance" id="calc-home-budget">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
-							</li>
-							<li class="All Others filter-all filter-health" id="calc-weight-loss">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
-							</li>
-							<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
-							</li>
-
 						</ul>
 						<div class="pre-temp-view">
 							<div class="temp-preview">
@@ -149,7 +162,7 @@
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">Build your own</a>
 								</div>
 							</div>
 						</div>
@@ -693,13 +706,29 @@
 
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
+
+            var head = document.querySelector('head');
+            head.appendChild(gridJS);
+
+            window.onload = function () {
+                var xmlHttp = new XMLHttpRequest();
+                xmlHttp.onreadystatechange = function () {
+                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                        window.calcs = JSON.parse(xmlHttp.responseText).data;
+                        setPremade();
+                        shuffleCalcs('Auto');
+                    }
+                }
+                xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/conversion-landing', true);
+                xmlHttp.send(null);
+            }
 		</script>
 
 	</section>
 
 	<section class="section section-bg-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<a target="_blank" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white-new">Start your journey to more sales with Outgrow <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
@@ -716,7 +745,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to Pitch Interactive Content Marketing to Clients with Ready-to-Use Sales Email Templates, Case Studies, Decks & More. </span></li>
 					</ul>
-					<a target="_blank" href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies/" class="">
+					<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" class="">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
@@ -756,7 +785,7 @@
 						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase_sales.png" alt="lp-reading3_increase-sales image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>[Case Study] How Macroscape Helped Its Client Clock a Conversion Rate of 36% </h4>
+						<h4>[Case Study] How Macroscape Helped Its Client Get a 36% Conversion Rate </h4>
 						<p>Find out how a marketing consulting firm helped one of its clients clock 36% conversion rate using a quiz </p>
 						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>

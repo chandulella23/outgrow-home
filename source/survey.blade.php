@@ -1,20 +1,20 @@
 @extends('_layouts.master')
 
-@section('title', 'Interactive Calculators and Quizzes | Outgrow')
+@section('title', 'Online Surveys | Outgrow')
 
 @section('metaDescription')
-	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
+	<meta name="description" content="Create online surveys within minutes with Outgrow, no coding required. Build your first online survey. Start your free trial."/>
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Interactive Calculators | Outgrow" />
-	<meta property="og:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta property="og:description" content="Create online surveys within minutes with Outgrow, no coding required. Build your first online survey. Start your free trial." />
 	<meta property="og:url" content="https://outgrow.co/" />
 	<meta property="og:site_name" content="Outgrow" />
 	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta name="twitter:description" content="Create online surveys within minutes with Outgrow, no coding required. Build your first online survey. Start your free trial." />
 	<meta name="twitter:title" content="Interactive Calculators | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 @endsection
@@ -28,42 +28,47 @@
 @section('pageId', '')
 
 @section('content')
-	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+
+	<div class="header-logo">		
+		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_survey_page" class="" target="_blank">
+			<img src="{{ $page->baseUrl }}/images/lp-header-logo.png" alt="lp-header-logo image">
+		</a>
+	</div>
 
 	<!-- start: landing page HTML  -->
 	<section class="section section-banner">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
-				<h1 class="main-heading">Boost Online Conversions by >30% with Outgrow’s Interactive Content Tools </h1>
+				<h1 class="main-heading">Create Online Surveys within minutes with Outgrow, No Coding Required </h1>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
 					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
-					<p>“Outgrow is spectacular. I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy.” </p>
-					<span class="profile-detail">Nathan Windsor, Founder, Macroscape</span>
-					<div class="company-detail">
+					<p>“I really like the ability to simply create what is basically a pop up survey that creates user engagement.” </p>
+					<span class="profile-detail">Charles Dohs, Marketing Coordinator - Digital, Commerce Home Mortgage</span>
+					<!-- <div class="company-detail">
 						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
-					</div>
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank">
-						<button type="button" class="btn btn-white-new">Create Your First Interactive Experience <i class="material-icons">arrow_forward</i></button>
+					</div> -->
+					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page">
+						<button type="button" class="btn btn-white-new">Build your First Online Survey <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section section-second section-second-CR">
+	<section class="section section-second section-second-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Increase conversions and improve the ROI of your marketing with Outgrow’s sophisticated quizzes, calculators and assessments. </div>
+				<div class="section-heading">Use Outgrow To Build Engagement Survey, Customer Satisfaction Survey, Product Awareness Survey, etc. </div>
 				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>All templates have been optimized to improve conversion on both desktop and mobile </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>See record conversion rates with interactive lead generation forms </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions and traffic across all channels </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code  </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Customizable forms to increase survey conversion rate and capture more leads </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Publish on your own domain or a separate URL of your choice. Embed anywhere or present as a pop-up </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions, and traffic across all channels </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
 				</ul>
 				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image"> 
@@ -74,7 +79,7 @@
 	<section class="section section-premade-temp">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples of high-converting Outgrow quizzes, calculators and assessments </div>
+				<div class="section-heading text-center">Examples Of Surveys You Can Make With Outgrow </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<!-- <div class="preloader">
@@ -82,51 +87,34 @@
 				</div> -->
 				<div class="premade-template">
 					<ul class="pre-temp-cat" id="calc-cats">
-						<li>
-							<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
-						</li>
 						<li class="active">
-							<a href="javascript:void(0)" id="filter-all" onclick="shuffleCalcs('filter-all')">All</a>
+							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
+						</li>
+
+
+						<li>
+							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Finance</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="marketing-advertising"
+							   onclick="shuffleCalcs('marketing-advertising')">Marketing & Advertising</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="Publishing"
+							   onclick="shuffleCalcs('Publishing')">Publishing</a>
+						</li>
+
+						<li>
+							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
+								Estate & Construction</a>
 						</li>
 					</ul>
 					<div class="pre-temp-cont">
 						<ul class="pre-temp-list" id="gallery-content-center">
 
-							<li class="active filter-all filter-auto" id="calc-auto-loan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
-							</li>
-							<li class="All Financia filter-all filter-auto" id="calc-early-payment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
-							</li>
-							<li class="All Math filter-all filter-auto" id="calc-downpayment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
-							</li>
-							<li class="All Others filter-all filter-education" id="calc-student-budget"> 
-								<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
-							</li>
-							<li class="All Math filter-all filter-education" id="calc-harward-score">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
-							</li>
-							<li class="All Math filter-all filter-finance" id="calc-home-budget">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
-							</li>
-							<li class="All Others filter-all filter-health" id="calc-weight-loss">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
-							</li>
-							<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
+							<li class="filter-all Auto active" id="car-game">
+								<a href="javascript:void(0)" onclick="markAsActive('car-game')">
+									Find out if you're ready to buy a car.</a>
 							</li>
 
 						</ul>
@@ -149,7 +137,7 @@
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page">Build your own</a>
 								</div>
 							</div>
 						</div>
@@ -693,34 +681,51 @@
 
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
+
+
+            window.onload = function () {
+                var xmlHttp = new XMLHttpRequest();
+                xmlHttp.onreadystatechange = function () {
+                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                        window.calcs = JSON.parse(xmlHttp.responseText).data;
+                        setPremade();
+                        shuffleCalcs('Auto');
+                    }
+                }
+                xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/survey-landing', true);
+                xmlHttp.send(null);
+            }
 		</script>
 
 	</section>
 
 	<section class="section section-bg-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<a target="_blank" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white-new">Try Outgrow for Free <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
 	</section>
 
-	<section class="section section-six section-six-CR">
+	<section class="section section-six section-six-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-10 col-xs-12">
-					<div class="section-heading">70+ Lead Generation Hacks to Boost Your Marketing in 2018 </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_CR.png" alt="lp-section-six-img_CR image"> 
+					<div class="section-heading">Course: Best Interactive Lead Generation Techniques </div>
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_survey.png" alt="lp-section-six-img_survey image"> 
 					<ul>
-						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to create a customer-first lead generation strategy that focuses on providing value to your target audience. </span> </li>
-						<li><i class="material-icons">keyboard_arrow_right</i> <span>Lead generation hacks divided across 9 different categories, to help you ramp up your marketing efforts and get more business. </span> </li>
-						<li><i class="material-icons">keyboard_arrow_right</i> <span>Real-life examples of how businesses like Hubspot, GAP, Copyblogger, and Hot Jaruse these techniques to get more leads from their websites, social media and other properties. </span></li>
+						<li>Learn how to generate leads with </li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive Calculators </span> </li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>Graders and Scanners </span> </li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>Communities and Forums </span></li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>Web and Mobile Games </span></li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>Virtual and Augmented Reality </span></li>
 					</ul>
-					<a target="_blank" href="https://get.outgrow.co/ebook-70-lead-generation-tips/" class="">
+					<a href="https://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_CR.png" alt="lp-section-six-img_CR image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_survey.png" alt="lp-section-six-img_survey image"> 
 			</div>
 		</div>
 	</section>
@@ -733,43 +738,43 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_CR.png" alt="lp-reading1_CR image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1_survey.png" alt="lp-reading1_survey image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>How Macroscape Helped Its Client Clock a Conversion Rate of 36% </h4>
-						<p>Find out how a marketing consulting firm helped one of its clients clock 36% conversion rate using a quiz </p>
-						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>Customer Engagement 101 using Interactive Content </h4>
+						<p>Learn how to use surveys, quizzes and calculators to bring your customer engagement strategy into 2018. </p>
+						<a href="https://outgrow.co/blog/customer-engagement-using-interactive-content?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_CR.png" alt="lp-reading2_CR image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2_survey.png" alt="lp-reading2_survey image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>TAG Livros used Outgrow to Generate 55K+ Leads Within a Month </h4>
-						<p>In this interactive marketing success story, find out how a book signing club, generated more than 55K leads using interactive content. </p>
-						<a href="https://outgrow.co/blog/tag-livros-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>3 Ingenious Ways to Capture Leads Through Content </h4>
+						<p>Read about three ingenious ways to capture leads by making your content more engaging: interactive content, gated visual content and direct prospect engagement. </p>
+						<a href="https://outgrow.co/blog/how-to-generate-leads-content-marketing?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_CR.png" alt="lp-reading3_CR image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3_survey.png" alt="lp-reading3_survey image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>How an Interactive Calculator helped VenturePact generate 11,592 leads </h4>
-						<p>VenturePact partnered with Outgrow to build a calculator that boosted traffic by 15% and increased conversion rate by 28%. </p>
-						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>Re-energize Marketing Automation with Interactive Content </h4>
+						<p>Stay ahead of the curve by including interactive elements in your marketing automation machine. </p>
+						<a href="https://outgrow.co/blog/marketing-automation-interactive-content?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section section-quotes section-quotes_CR">
+	<section class="section section-quotes section-quotes-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
-				<blockquote>One of the most exciting tools to boost conversion and engagement. </blockquote>
-				<span>- Santiago Blasco, Founder, IGT Ventures Asia </span>
+				<blockquote>Outgrow allow you to create highly effective custom experiences that engage prospects and customers. The flexibility and creativity it allows is unmatched in any other single resource. Integration with autoresponder and e-mail management systems makes it easy to create an effective funnel. </blockquote>
+				<span>- Dana S., Founder and CEO, Entrepreneurs Without Limits, LLC </span>
 			</div>
 		</div>
 	</section>
@@ -777,7 +782,7 @@
 	<section class="section section-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 			<span>Plans start at $25 per month. No credit card required. </span>
-			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-red-new">Start your Free Trial! <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
