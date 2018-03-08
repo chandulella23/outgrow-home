@@ -30,9 +30,8 @@
 </nav> -->
 
 
-<div class="header-logo">
-	<!-- <a class="" href="{{ $page->baseUrl }}/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a> -->
+<!-- <div class="header-logo">
 	<a href="https://outgrow.co/" class="">
 		<img src="{{ $page->baseUrl }}/images/lp-header-logo.png" alt="lp-header-logo image">
 	</a>
-</div>
+</div> -->

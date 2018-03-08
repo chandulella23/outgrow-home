@@ -28,7 +28,12 @@
 @section('pageId', '')
 
 @section('content')
-	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+
+	<div class="header-logo">		
+		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_calculator_page" class="" target="_blank">
+			<img src="{{ $page->baseUrl }}/images/lp-header-logo.png" alt="lp-header-logo image">
+		</a>
+	</div>
 
 	<!-- start: landing page HTML  -->
 	<section class="section section-banner section-banner-calc">
