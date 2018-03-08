@@ -18881,6 +18881,7 @@ img.scrollimg1.wo {
 		position: absolute;
 		top: 50px;
 		right: 0;
+		margin: 0 !important;
 	}
 	.section-premade-temp{
 		float: left;
@@ -19235,7 +19236,7 @@ img.scrollimg1.wo {
 		width: 80%;
 	}
 	.section-six-survey {
-		height: auto;
+		/* height: auto; */
 		margin-bottom: 30px;
 	}
 	.section-second-survey img {
@@ -19299,7 +19300,7 @@ img.scrollimg1.wo {
 		top: 50px;
 	}
 	.section-six-calc {
-		height: auto;
+		/* height: auto; */
 		margin-bottom: 40px;
 	}
 	.section-second-calc img {
@@ -19380,7 +19381,7 @@ img.scrollimg1.wo {
 			width: 100% !important;
 		}
 		.banner-jacket img {
-			border-radius: 0px;
+			border-radius: 15px;
 		}
 		.banner-content {
 			padding: 0px 15px;
@@ -19401,6 +19402,7 @@ img.scrollimg1.wo {
 		}
 		span.profile-detail {
 			color: #61696c;
+			display: block;
 		}
 		.section-heading {
 			font-size: 22px;
@@ -19430,7 +19432,7 @@ img.scrollimg1.wo {
 			float: none;
 			position: relative;
 			top: -10px;
-			margin: 0 auto;
+			margin: 0 auto !important;
 		}
 		.section-premade-temp, .section-embeds, .section-second, .section-six, .section-reading, .section-quotes {
 			padding-top: 50px;
@@ -19569,7 +19571,6 @@ img.scrollimg1.wo {
 			margin-bottom: 50px;
 		}
 		.section-six img {
-			right: -100px;
     		top: 20px;
 		}
 		.section-reading {
@@ -19604,11 +19605,27 @@ img.scrollimg1.wo {
 			margin-top: 0px;
 			margin-left: 0px;
 		}
+		.section-second-calc img {
+			top: 60px !important;
+		}
+		.section-six-calc .section-six img {
+			top: 50px;
+			right: 80px;
+		}
 	
 
 
 
 	}
+
+	@media (min-width:1200px) and (max-width:1280px){
+		.section-six ul li span {
+			float: left;
+			width: 90%;
+		}
+		
+	}
+
 
 /* end responsive : landing pages css */
 
