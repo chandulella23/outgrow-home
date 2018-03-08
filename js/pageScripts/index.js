@@ -77,31 +77,31 @@ window.display = function (url) {
     setTimeout(calculateMinHeight, 2000);
 }
 
+
 jQuery.noConflict();
 jQuery.material.init();
-jQuery(document).ready(function() {
-	calculateMinHeight();
 
-    jQuery('.calc-links a').on('click',function(){
-		jQuery('a').removeClass('active');
-		jQuery(this).addClass('active');
-	});
+jQuery(document).ready(function () {
+    calculateMinHeight();
 
-	var iframes = iFrameResize({
+    jQuery('.calc-links a').on('click', function () {
+        jQuery('a').removeClass('active');
+        jQuery(this).addClass('active');
+    });
+
+    var iframes = iFrameResize({
         log: false,
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
-    },'#og-iframe');
+    }, '#og-iframe');
 
-	var url = setLoginSignup();
+    var url = setLoginSignup();
 
-	console.log(url);
+    console.log(url);
 
     jQuery('#btnBuildCalc1 > a').prop('href', url);
 
     runTimeout();
     // initTestimonial();
-
-
-});
+})
