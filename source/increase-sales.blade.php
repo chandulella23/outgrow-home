@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/banner_img_sales.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="Increase your online sales with Outgrow"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>"This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results."  </p>
@@ -1275,7 +1275,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">Guide: Generate a New Revenue Stream with Interactive Content Marketing </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="lp-section-six-img_increase-sales image"> 
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="Interactive Content Marketing for Digital Agencies"> 
 					<ul>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Why Agencies Should Offer Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
@@ -1285,7 +1285,7 @@
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="lp-section-six-img_increase-sales image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="Interactive Content Marketing for Digital Agencies"> 
 			</div>
 		</div>
 	</section>
@@ -1298,7 +1298,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_increase-sales.png" alt="lp-reading1_increase-sales image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1_increase-sales.png" alt="5 Signs You’re Being Too ‘Salesy"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>5 Signs You’re Being Too ‘Salesy’ and How to Sell Better </h4>
@@ -1308,7 +1308,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_increase_sales.png" alt="lp-reading2_increase-sales image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2_increase_sales.png" alt="Value Based Selling"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Value Based Selling: How to Sell by Not Selling </h4>
@@ -1318,7 +1318,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase_sales.png" alt="lp-reading3_increase-sales image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase_sales.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] How Macroscape Helped Its Client Get a 36% Conversion Rate </h4>

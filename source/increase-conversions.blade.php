@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/banner_img_conversion.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="Boost online conversions with Outgrow"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“Outgrow is spectacular. I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy.” </p>
@@ -1272,7 +1272,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">70+ Lead Generation Hacks to Boost Your Marketing in 2018 </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_CR.png" alt="lp-section-six-img_CR image"> 
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_CR.png" alt="Ebook: 70+ Lead Generation Hacks"> 
 					<ul>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to create a customer-first lead generation strategy that focuses on providing value to your target audience. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Lead generation hacks divided across 9 different categories, to help you ramp up your marketing efforts and get more business. </span> </li>
@@ -1282,7 +1282,7 @@
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_CR.png" alt="lp-section-six-img_CR image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_CR.png" alt="Ebook: 70+ Lead Generation Hacks"> 
 			</div>
 		</div>
 	</section>
@@ -1295,7 +1295,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_CR.png" alt="lp-reading1_CR image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1_CR.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>How Macroscape Helped Its Client Clock a Conversion Rate of 36% </h4>
@@ -1305,7 +1305,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_CR.png" alt="lp-reading2_CR image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2_CR.png" alt="TAG Livros case study"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>TAG Livros used Outgrow to Generate 55K+ Leads Within a Month </h4>
@@ -1315,7 +1315,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_CR.png" alt="lp-reading3_CR image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3_CR.png" alt="VenturePact case study"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>How an Interactive Calculator helped VenturePact generate 11,592 leads </h4>
