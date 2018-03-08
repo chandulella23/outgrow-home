@@ -87,51 +87,47 @@
 				</div> -->
 				<div class="premade-template">
 					<ul class="pre-temp-cat" id="calc-cats">
-						<li>
-							<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
-						</li>
 						<li class="active">
-							<a href="javascript:void(0)" id="filter-all" onclick="shuffleCalcs('filter-all')">All</a>
+							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="Education"
+							   onclick="shuffleCalcs('Education')">Education</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Finance</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="marketing-advertising"
+							   onclick="shuffleCalcs('marketing-advertising')">Marketing & Advertising</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="Quintessential" onclick="shuffleCalcs('Quintessential')">Quintessential</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
+								Estate & Construction</a>
 						</li>
 					</ul>
 					<div class="pre-temp-cont">
 						<ul class="pre-temp-list" id="gallery-content-center">
 
-							<li class="active filter-all filter-auto" id="calc-auto-loan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
-							</li>
-							<li class="All Financia filter-all filter-auto" id="calc-early-payment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
-							</li>
-							<li class="All Math filter-all filter-auto" id="calc-downpayment">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
-							</li>
-							<li class="All Others filter-all filter-education" id="calc-student-budget"> 
-								<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
-							</li>
-							<li class="All Math filter-all filter-education" id="calc-harward-score">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
-							</li>
-							<li class="All Math filter-all filter-finance" id="calc-home-budget">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
-							</li>
-							<li class="All Others filter-all filter-health" id="calc-weight-loss">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
-							</li>
-							<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
-								<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
+							<li class="filter-all Auto active" id="auto-loan">
+								<a href="javascript:void(0)" onclick="markAsActive('auto-loan')">
+									Find out how much monthly installment you'll be paying on your auto loan.</a></li>
+							<li class="filter-all Auto" id="auto-lease">
+								<a href="javascript:void(0)" onclick="markAsActive('auto-lease')">
+									Calculate the monthly lease payment on your next car.</a></li>
+							<li class="filter-all Auto" id="early-payment">
+								<a href="javascript:void(0)" onclick="markAsActive('early-payment')">
+									How much extra monthly payment will you need to make to shorten your car loan
+									term?</a></li>
+							<li class="filter-all Auto" id="put-down">
+								<a href="javascript:void(0)" onclick="markAsActive('put-down')">
+									Find out the downpayment amount you'll need to purchase your new home.</a>
 							</li>
 
 						</ul>
@@ -698,6 +694,21 @@
 
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
+
+
+
+            window.onload = function () {
+                var xmlHttp = new XMLHttpRequest();
+                xmlHttp.onreadystatechange = function () {
+                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                        window.calcs = JSON.parse(xmlHttp.responseText).data;
+                        setPremade();
+                        shuffleCalcs('Auto');
+                    }
+                }
+                xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/calculator-landing', true);
+                xmlHttp.send(null);
+            }
 		</script>
 
 	</section>
