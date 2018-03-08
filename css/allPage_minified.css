@@ -19120,7 +19120,7 @@ img.scrollimg1.wo {
 		font-size: 14px;
 		opacity: 0.7;
 		padding-top: 10px;
-		min-height: 106px;
+		min-height: 130px;
 		line-height: 24px;	
 	}
 	.img-scaler {
@@ -19482,6 +19482,14 @@ img.scrollimg1.wo {
 		}
 		.section-six-roi img.rs-show {
 			margin-bottom: 0px;
+		}
+		/* .section-bg-btn-sales .btn-white-new {
+			width: 90%;
+			white-space: normal;
+			border-radius: 50px;
+		} */
+		.section-six-roi .btn-red-new {
+			margin-top: 15px;
 		}
 
 
