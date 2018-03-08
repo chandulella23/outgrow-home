@@ -43,7 +43,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image">
+					<img src="{{ $page->baseUrl }}/images/banner_img_quiz.png" alt="lp-banner-og-builder image">
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy." </p>
@@ -940,7 +940,7 @@
 	<section class="section section-six">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="col-md-10 col-sm-10 col-xs-12">
+				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">A Creative’s Guide To Building Viral Calculators & Quizzes </div>
 					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img.png" alt="lp-section-six-img image">
 					<ul>

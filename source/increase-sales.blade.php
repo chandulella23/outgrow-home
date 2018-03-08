@@ -43,7 +43,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
+					<img src="{{ $page->baseUrl }}/images/banner_img_sales.png" alt="lp-banner-og-builder image"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>"This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results."  </p>
