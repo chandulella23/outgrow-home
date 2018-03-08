@@ -87,7 +87,7 @@
 				</div> -->
 				<div class="premade-template">
 					<ul class="pre-temp-cat" id="calc-cats">
-						<li>
+						<li class="active">
 							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 						</li>
 						<li>
@@ -709,6 +709,7 @@
                     if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
                         window.calcs = JSON.parse(xmlHttp.responseText).data;
                         setPremade();
+                        shuffleCalcs('Auto');
                     }
                 }
                 xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/increase-roi', true);
