@@ -3,18 +3,18 @@
 @section('title', 'Increase Online Sales | Outgrow')
 
 @section('metaDescription')
-	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
+	<meta name="description" content="Increase your online sales with interactive quizzes, calculators and assessments. Build your first interactive experience. Start your free trial."/>
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Interactive Calculators | Outgrow" />
-	<meta property="og:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta property="og:description" content="Increase your online sales with interactive quizzes, calculators and assessments. Build your first interactive experience. Start your free trial." />
 	<meta property="og:url" content="https://outgrow.co/" />
 	<meta property="og:site_name" content="Outgrow" />
 	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta name="twitter:description" content="Increase your online sales with interactive quizzes, calculators and assessments. Build your first interactive experience. Start your free trial." />
 	<meta name="twitter:title" content="Interactive Calculators | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 @endsection
