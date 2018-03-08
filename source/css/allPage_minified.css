@@ -19377,6 +19377,16 @@ img.scrollimg1.wo {
 		}
 		.banner-inner {
 			margin-top: 20px;
+			padding: 0;
+			text-align: center;
+		}
+		.banner-jacket img {
+			border-radius: 0px;
+		}
+		.banner-content {
+			padding: 0px 15px;
+			margin-left: 0px;
+			margin-top: 25px !important;
 		}
 		.section-banner p {
 			color: #61696c; 
@@ -19389,10 +19399,15 @@ img.scrollimg1.wo {
 			color: #61696c;
 			line-height: 22px;
 		}
+		span.profile-detail {
+			color: #61696c;
+		}
 		.section-heading {
 			font-size: 22px;
 			padding: 0;
 			line-height: 26px;
+			text-align: center;
+			width: 100% !important;
 		}
 		.section-second ul, .section-six ul {
 			width: 100%;
@@ -19432,6 +19447,7 @@ img.scrollimg1.wo {
 			float: none;
 			position: relative;
 			top: 0px;
+			right: 0px;
 			margin: 0 auto;
 			margin-bottom: 20px;
 		}
@@ -19445,7 +19461,11 @@ img.scrollimg1.wo {
 		.section-btn {
 			margin-top: 30px;
 		}
-		.btn-white-new, .btn-red-new {
+		.btn-white-new {
+			font-size: 13px;
+			padding: 13px 50px 13px 15px;
+		}
+		.btn-red-new {
 			font-size: 13px;
 			padding: 13px 65px 13px 25px;
 		}
@@ -19454,10 +19474,15 @@ img.scrollimg1.wo {
 			top: 2px;
 			right: 2px;
 		}
-		.banner-jacket {
-			padding: 0px;
+		.section-six a {
+			width: 100%;
+			float: left;
+			margin: 0 auto;
+			text-align: center;
 		}
-	
+		.section-six-roi img.rs-show {
+			margin-bottom: 0px;
+		}
 
 
 
