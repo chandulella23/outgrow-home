@@ -735,7 +735,7 @@
 	<section class="section section-six section-six-CR">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="col-md-10 col-sm-10 col-xs-12 np">
+				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">70+ Lead Generation Hacks to Boost Your Marketing in 2018 </div>
 					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_CR.png" alt="lp-section-six-img_CR image"> 
 					<ul>
