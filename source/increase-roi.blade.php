@@ -87,7 +87,7 @@
 				</div> -->
 				<div class="premade-template">
 					<ul class="pre-temp-cat" id="calc-cats">
-						<li>
+						<li class="active">
 							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 						</li>
 						<li>
@@ -709,6 +709,7 @@
                     if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
                         window.calcs = JSON.parse(xmlHttp.responseText).data;
                         setPremade();
+                        shuffleCalcs('Auto');
                     }
                 }
                 xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/increase-roi', true);
@@ -729,7 +730,7 @@
 	<section class="section section-six section-six-roi">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="col-md-10 col-sm-10 col-xs-12">
+				<div class="col-md-10 col-sm-10 col-xs-12 np">
 					<div class="section-heading">Interactive Calculator: Find out the ROI of using Outgrow </div>
 					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-roi.png" alt="lp-section-six-img_increase-roi image"> 
 					<!-- <ul>

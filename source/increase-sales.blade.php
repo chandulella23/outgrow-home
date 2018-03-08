@@ -46,7 +46,7 @@
 					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
-					<p>“This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results. Plus the customer support team was extremely helpful in getting our calculator perfected before launch.” </p>
+					<p>"This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results."  </p>
 					<span class="profile-detail">Katya S., Owner, Reach and Make Millions</span>
 					<div class="company-detail">
 						Katya’s company made over $10,000 in revenue in just a month of using an Outgrow business calculator.
@@ -737,7 +737,7 @@
 	<section class="section section-six section-six-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="col-md-10 col-sm-10 col-xs-12">
+				<div class="col-md-10 col-sm-10 col-xs-12 np">
 					<div class="section-heading">Guide: Generate a New Revenue Stream with Interactive Content Marketing </div>
 					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="lp-section-six-img_increase-sales image"> 
 					<ul>
