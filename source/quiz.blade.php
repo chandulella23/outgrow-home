@@ -21,6 +21,7 @@
 
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 
 @section('pageClass', '')
@@ -894,7 +895,7 @@
                     "id": "chinese-flower",
                     "Name": "Find out your Chinese New Year Flower",
                     "Published Link": "https://premade.outgrow.us/premade-847",
-                    "GIF": "https://drive.google.com/file/d/1kWJBSzNTSOg_NjOaDB4Qb5IzQvAS1iES/view?usp=sharing",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Find+out+your+Chinese+New+Year+Flower.gif",
                     "Type": "Outcome Quiz",
                     "Layout": "Chicago",
                     "Industry": "Trending",
@@ -909,7 +910,7 @@
                     "id": "black-panther",
                     "Name": "Are you as Posh as Black Panther?",
                     "Published Link": "https://premade.outgrow.us/premade-873",
-                    "GIF": "https://drive.google.com/file/d/1ZL9jSGbn-yml6L1_Jw-lz4eY-rYecqFb/view?usp=sharing",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Are+you+as+Posh+as+Black+Panther.gif",
                     "Type": "Outcome Quiz",
                     "Layout": "Stockholm",
                     "Industry": "Trending",
