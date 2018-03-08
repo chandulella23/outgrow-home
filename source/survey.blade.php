@@ -21,6 +21,7 @@
 
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 
 @section('pageClass', '')
@@ -682,18 +683,110 @@
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
 
+            window.calcs = [
+                {
+                    "id": "car-game",
+                    "Name": "Are you ready to buy a car? Find out if you truly understand the game!",
+                    "Published Link": "https://premade.outgrow.us/Are-You-Ready-to-Buy-a-Car",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/are+you+ready+to+buy+a+car.gif",
+                    "Type": "Graded Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Auto",
+                    "Description": "Find out if you're ready to buy a car.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "fitness-regime",
+                    "Name": "You need to take this quiz before starting your fitness regime. If you fail maybe you'll break your back.",
+                    "Published Link": "https://premade.outgrow.us/fitness-regime-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/fitness+regime+quiz.gif",
+                    "Type": "Graded Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "health-fitness",
+                    "Description": "Find out if you know enough before jumping into your new fitness regime.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "digital-quotient",
+                    "Name": "What is your digital quotient?",
+                    "Published Link": "https://premade.outgrow.us/digital-quotient-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/find+out+your+digital+quotient.gif",
+                    "Type": "Graded Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "marketing-advertising",
+                    "Description": "Find out your Digital Quotient.",
+                    "filters": [
+                        "filter-auto",
+                        "marketing-advertising"
+                    ]
+                },
+                {
+                    "id": "marketers-quiz",
+                    "Name": "Find out where you stand amongst 5000 marketers on this SEO quiz!",
+                    "Published Link": "https://premade.outgrow.us/grade_your_seo_knowledge",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/SEO+knowledge+quiz.gif",
+                    "Type": "Graded Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "marketing-advertising",
+                    "Description": "Find out if your SEO knowledge stacks up against top the 150 marketers with this 12-question SEO quiz.",
+                    "filters": [
+                        "filter-auto",
+                        "marketing-advertising"
+                    ]
+                },
+                {
+                    "id": "facebook-marketing",
+                    "Name": "You think you are a Facebook Marketing expert? Take this quiz to really find out!",
+                    "Published Link": "https://premade.outgrow.us/facebook-marketing-expert-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/are+you+really+a+facebook+marketing+expert.gif",
+                    "Type": "Graded Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "marketing-advertising",
+                    "Description": "Take this quiz to find out if you are a Facebook Marketing Expert.",
+                    "filters": [
+                        "filter-auto",
+                        "marketing-advertising"
+                    ]
+                },
+                {
+                    "id": "global-warming",
+                    "Name": "How much do you know about global warming?",
+                    "Published Link": "https://premade.outgrow.us/global-warming-1",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/global+warming+quiz.gif",
+                    "Type": "Graded Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Publishing",
+                    "Description": "Find out how much you know about global warming.",
+                    "filters": [
+                        "filter-auto",
+                        "Publishing"
+                    ]
+                },
+                {
+                    "id": "real-estate-quiz",
+                    "Name": "You shouldn't buy real estate unless you pass this ultimate buyer quiz!",
+                    "Published Link": "https://premade.outgrow.us/ultimate-buyer-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/real+estate+buying+quiz.gif",
+                    "Type": "Graded Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "construction",
+                    "Description": "Take this quiz to find out if you are ready to buy a house.",
+                    "filters": [
+                        "filter-auto",
+                        "construction"
+                    ]
+                }
+            ];
 
             window.onload = function () {
-                var xmlHttp = new XMLHttpRequest();
-                xmlHttp.onreadystatechange = function () {
-                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
-                        window.calcs = JSON.parse(xmlHttp.responseText).data;
-                        setPremade();
-                        shuffleCalcs('Auto');
-                    }
-                }
-                xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/survey-landing', true);
-                xmlHttp.send(null);
+                setPremade();
+                shuffleCalcs('Auto');
             }
 		</script>
 
