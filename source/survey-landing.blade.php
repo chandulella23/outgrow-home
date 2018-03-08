@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@section('title', 'Interactive Calculators and Quizzes | Outgrow')
+@section('title', 'Online Surveys | Outgrow')
 
 @section('metaDescription')
 	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
@@ -48,9 +48,9 @@
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“I really like the ability to simply create what is basically a pop up survey that creates user engagement.” </p>
 					<span class="profile-detail">Charles Dohs, Marketing Coordinator - Digital, Commerce Home Mortgage</span>
-					<div class="company-detail">
+					<!-- <div class="company-detail">
 						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
-					</div>
+					</div> -->
 					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" target="_blank">
 						<button type="button" class="btn btn-white-new">Build your First Online Survey <i class="material-icons">arrow_forward</i></button>
 					</a>
@@ -62,7 +62,7 @@
 	<section class="section section-second section-second-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Use Outgrow to build engagement survey, customer satisfaction survey, product awareness survey, etc. </div>
+				<div class="section-heading">Use Outgrow To Build Engagement Survey, Customer Satisfaction Survey, Product Awareness Survey, etc. </div>
 				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code  </span> </li>
@@ -79,7 +79,7 @@
 	<section class="section section-premade-temp">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples of surveys you can make with Outgrow </div>
+				<div class="section-heading text-center">Examples Of Surveys You Can Make With Outgrow </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<!-- <div class="preloader">
@@ -154,7 +154,7 @@
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page">Build your own</a>
 								</div>
 							</div>
 						</div>

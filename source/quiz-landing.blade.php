@@ -154,7 +154,7 @@
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page">Build your own</a>
 								</div>
 							</div>
 						</div>

@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@section('title', 'Interactive Calculators and Quizzes | Outgrow')
+@section('title', 'Boost Online Conversions by >30% | Outgrow')
 
 @section('metaDescription')
 	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
@@ -62,7 +62,7 @@
 	<section class="section section-second section-second-CR">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Increase conversions and improve the ROI of your marketing with Outgrow’s sophisticated quizzes, calculators and assessments. </div>
+				<div class="section-heading">Increase Conversions And Improve The ROI Of Your Marketing With Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
 				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
@@ -79,7 +79,7 @@
 	<section class="section section-premade-temp">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples of high-converting Outgrow quizzes, calculators and assessments </div>
+				<div class="section-heading text-center">Examples Of High-Converting Outgrow Quizzes, Calculators And Assessments </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<!-- <div class="preloader">
@@ -154,7 +154,7 @@
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page">Build your own</a>
 								</div>
 							</div>
 						</div>
@@ -721,7 +721,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Lead generation hacks divided across 9 different categories, to help you ramp up your marketing efforts and get more business. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Real-life examples of how businesses like Hubspot, GAP, Copyblogger, and Hot Jaruse these techniques to get more leads from their websites, social media and other properties. </span></li>
 					</ul>
-					<a target="_blank" href="https://get.outgrow.co/ebook-70-lead-generation-tips/" class="">
+					<a target="_blank" href="https://get.outgrow.co/ebook-70-lead-generation-tips/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
