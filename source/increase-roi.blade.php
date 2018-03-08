@@ -1,20 +1,20 @@
 @extends('_layouts.master')
 
-@section('title', 'Interactive Calculators and Quizzes | Outgrow')
+@section('title', 'Improve Marketing and Sales ROI | Outgrow')
 
 @section('metaDescription')
-	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
+	<meta name="description" content="Improve your marketing and sales ROI with Outgrow’s interactive content tools. Build your first interactive experience. Start your free trial."/>
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Interactive Calculators | Outgrow" />
-	<meta property="og:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta property="og:description" content="Improve your marketing and sales ROI with Outgrow’s interactive content tools. Build your first interactive experience. Start your free trial." />
 	<meta property="og:url" content="https://outgrow.co/" />
 	<meta property="og:site_name" content="Outgrow" />
 	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators." />
+	<meta name="twitter:description" content="Improve your marketing and sales ROI with Outgrow’s interactive content tools. Build your first interactive experience. Start your free trial." />
 	<meta name="twitter:title" content="Interactive Calculators | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 @endsection
@@ -48,10 +48,10 @@
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“Their focus on conversion and ROI. They optimize their templates for conversion and add new templates regularly to help improve our conversion rates and ROI.” </p>
 					<span class="profile-detail">Robert Harris, General Manager, Lightbeam Health Solutions</span>
-					<div class="company-detail">
+					<!-- <div class="company-detail">
 						Katya’s company made over $10,000 in revenue in just a month of using an Outgrow business calculator.
-					</div>
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank">
+					</div> -->
+					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page">
 						<button type="button" class="btn btn-white-new">Build Your First Interactive Experience <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
@@ -62,7 +62,7 @@
 	<section class="section section-second section-second-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Generate more revenue and get better ROI with Outgrow’s sophisticated quizzes, calculators and assessments. </div>
+				<div class="section-heading">Generate More Revenue And Get Better ROI With Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
 				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
@@ -79,7 +79,7 @@
 	<section class="section section-premade-temp">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples of highest-ROI quizzes, calculators and assessments </div>
+				<div class="section-heading text-center">Examples Of Highest-ROI Quizzes, Calculators And Assessments </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<!-- <div class="preloader">
@@ -158,7 +158,7 @@
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page">Build your own</a>
 								</div>
 							</div>
 						</div>
@@ -720,7 +720,7 @@
 
 	<section class="section section-bg-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<a target="_blank" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white-new">Try Outgrow for Free <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
@@ -737,7 +737,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to Pitch Interactive Content Marketing to Clients with Ready-to-Use Sales Email Templates, Case Studies, Decks & More. </span></li>
 					</ul> -->
-					<a target="_blank" href="https://influencers.outgrow.us/roi-of-outgrow" class="">
+					<a href="https://influencers.outgrow.us/roi-of-outgrow?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" class="">
 						<button class="btn btn-red-new">Get your ROI <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
@@ -757,7 +757,7 @@
 						<img src="{{ $page->baseUrl }}/images/lp-reading1_increase-sales.png" alt="lp-reading1_increase-sales image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>How to Build a ROI Calculator </h4>
+						<h4>How to Build a ROI Calculator in Outgrow </h4>
 						<p>Want to build a ROI Calculator but don’t know where to start? This post explains the process </p>
 						<a href="https://outgrow.co/blog/roi-calculator?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
@@ -777,7 +777,7 @@
 						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase-roi.png" alt="lp-reading3_increase-roi image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>[Case Study] How an Interactive Calculator helped VenturePact generate 11,592 leads </h4>
+						<h4>[Case Study] VenturePact generated 11,592 leads with a Calculator </h4>
 						<p>VenturePact partnered with Outgrow to build a calculator that boosted traffic by 15% and increased conversion rate by 28%. </p>
 						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
