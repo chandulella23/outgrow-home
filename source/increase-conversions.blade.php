@@ -953,7 +953,7 @@
                     "id": "balance-retirement",
                     "Name": "What will be my 401(k) balance at retirement?",
                     "Published Link": "https://premade.outgrow.us/401k-calculator",
-                    "GIF": "https://drive.google.com/file/d/1WF2C86XxVArX4mLsKGvre_DWw8Fl3bvt/view?usp=sharing",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+will+be+my+401k+balance+at+retirement.gif",
                     "Type": "Calculator",
                     "Layout": "Seattle",
                     "Industry": "Finance",
