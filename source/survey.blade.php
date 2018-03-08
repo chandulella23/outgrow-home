@@ -37,14 +37,14 @@
 	</div>
 
 	<!-- start: landing page HTML  -->
-	<section class="section section-banner">
+	<section class="section section-banner section-banner-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
 				<h1 class="main-heading">Create Online Surveys within minutes with Outgrow, No Coding Required </h1>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="Outgrow's Online Survey Builder"> 
+					<img src="{{ $page->baseUrl }}/images/banner_img_survey.png" alt="Outgrow's Online Survey Builder"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“I really like the ability to simply create what is basically a pop up survey that creates user engagement.” </p>

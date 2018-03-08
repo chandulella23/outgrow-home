@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="Improve your marketing and sales ROI"> 
+					<img src="{{ $page->baseUrl }}/images/banner_img_ROI.png" alt="Improve your marketing and sales ROI"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“Their focus on conversion and ROI. They optimize their templates for conversion and add new templates regularly to help improve our conversion rates and ROI.” </p>

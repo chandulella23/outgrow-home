@@ -19497,6 +19497,12 @@ img.scrollimg1.wo {
 		.reading-content p {
 			min-height: auto;
 		}
+		.section-banner-survey {
+			background-position: 0px -70px;
+		}
+		.section-banner-roi {
+			background-position: 0px -80px;
+		}
 
 
 
