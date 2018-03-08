@@ -1,20 +1,20 @@
 @extends('_layouts.master')
 
-@section('title', 'Interactive, Business Calculators | Outgrow')
+@section('title', 'Interactive Quizzes | Outgrow')
 
 @section('metaDescription')
-	<meta name="description" content="Generate more leads and revenue with Outgrow’s interactive calculators. Build your first business calculator. Start your free trial."/>
+	<meta name="description" content="Generate more leads and traffic with Outgrow’s interactive quiz builder. Create your first interactive quiz. Start your free trial."/>
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Interactive Calculators | Outgrow" />
-	<meta property="og:description" content="Generate more leads and revenue with Outgrow’s interactive calculators. Build your first business calculator. Start your free trial." />
+	<meta property="og:description" content="Generate more leads and traffic with Outgrow’s interactive quiz builder. Create your first interactive quiz. Start your free trial." />
 	<meta property="og:url" content="https://outgrow.co/" />
 	<meta property="og:site_name" content="Outgrow" />
 	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="Generate more leads and revenue with Outgrow’s interactive calculators. Build your first business calculator. Start your free trial." />
+	<meta name="twitter:description" content="Generate more leads and traffic with Outgrow’s interactive quiz builder. Create your first interactive quiz. Start your free trial." />
 	<meta name="twitter:title" content="Interactive Calculators | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 @endsection
@@ -29,45 +29,45 @@
 
 @section('content')
 
-	<div class="header-logo">		
-		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_calculator_page" class="" target="_blank">
+	<div class="header-logo">		 
+		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_quiz_page" class="" target="_blank">
 			<img src="{{ $page->baseUrl }}/images/lp-header-logo.png" alt="lp-header-logo image">
 		</a>
 	</div>
 
 	<!-- start: landing page HTML  -->
-	<section class="section section-banner section-banner-calc">
+	<section class="section section-banner">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
-				<h1 class="main-heading">Generate more leads and revenue with Outgrow’s Interactive Calculators </h1>
+				<h1 class="main-heading">Generate More Leads And Traffic With Outgrow’s Interactive Quiz Builder</h1>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
 					<img src="{{ $page->baseUrl }}/images/lp-banner-og-builder.png" alt="lp-banner-og-builder image"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
-					<p>"This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results." </p>
-					<span class="profile-detail">Katya S., Owner, Reach and Make Millions </span>
+					<p>“I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy." </p>
+					<span class="profile-detail">Nathan Windsor, Founder, Macroscape</span>
 					<div class="company-detail">
-						Katya’s company made over $10,000 in revenue in just a month of using an Outgrow business calculator.
+						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
 					</div>
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_calculator_page">
-						<button type="button" class="btn btn-white-new">Build Your First Calculator <i class="material-icons">arrow_forward</i></button>
+					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_quiz_page">
+						<button type="button" class="btn btn-white-new">Create Your First Interactive Quiz <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section section-second section-second-calc">
+	<section class="section section-second">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Use Outgrow To Make ROI Calculator, Pricing Calculator, Growth Calculator, Website Calculator, etc. </div>
+				<div class="section-heading">Easily Build Interactive Quizzes With Outgrow’s Intuitive, User-Friendly Platform </div>
 				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Customizable forms to boost lead generation and conversions </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Seamless social media integrations and an exhaustive promotional checklist to make your calculator reach your targeted audience </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Seamless social media integrations and an exhaustive promotional checklist to make your quiz go viral </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions, and traffic across all channels </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
 				</ul>
@@ -79,7 +79,7 @@
 	<section class="section section-premade-temp">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples Of Calculators You Can Make With Outgrow </div>
+				<div class="section-heading text-center">Examples Of Quizzes You Can Make With Outgrow </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<!-- <div class="preloader">
@@ -95,39 +95,52 @@
 							   onclick="shuffleCalcs('Education')">Education</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
-						</li>
-						<li>
 							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Finance</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="marketing-advertising"
-							   onclick="shuffleCalcs('marketing-advertising')">Marketing & Advertising</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="Quintessential" onclick="shuffleCalcs('Quintessential')">Quintessential</a>
 						</li>
 						<li>
 							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
 								Estate & Construction</a>
 						</li>
+						<li>
+							<a href="javascript:void(0)" id="Travel" onclick="shuffleCalcs('Travel')">Travel</a>
+						</li>
+
+						<li>
+							<a href="javascript:void(0)" id="Entertainment" onclick="shuffleCalcs('Entertainment')">TV
+								and Entertainment</a>
+						</li>
+
+						<li>
+							<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Tredning')">Trending</a>
+						</li>
+
 					</ul>
 					<div class="pre-temp-cont">
 						<ul class="pre-temp-list" id="gallery-content-center">
 
-							<li class="filter-all Auto active" id="auto-loan">
-								<a href="javascript:void(0)" onclick="markAsActive('auto-loan')">
-									Find out how much monthly installment you'll be paying on your auto loan.</a></li>
-							<li class="filter-all Auto" id="auto-lease">
-								<a href="javascript:void(0)" onclick="markAsActive('auto-lease')">
-									Calculate the monthly lease payment on your next car.</a></li>
-							<li class="filter-all Auto" id="early-payment">
-								<a href="javascript:void(0)" onclick="markAsActive('early-payment')">
-									How much extra monthly payment will you need to make to shorten your car loan
-									term?</a></li>
-							<li class="filter-all Auto" id="put-down">
-								<a href="javascript:void(0)" onclick="markAsActive('put-down')">
-									Find out the downpayment amount you'll need to purchase your new home.</a>
+							<li class="active filter-all filter-auto" id="calc-auto-loan">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
+							</li>
+							<li class="All Financia filter-all filter-auto" id="calc-early-payment">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
+							</li>
+							<li class="All Math filter-all filter-auto" id="calc-downpayment">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
+							</li>
+							<li class="All Others filter-all filter-education" id="calc-student-budget"> 
+								<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
+							</li>
+							<li class="All Math filter-all filter-education" id="calc-harward-score">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
+							</li>
+							<li class="All Math filter-all filter-finance" id="calc-home-budget">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
+							</li>
+							<li class="All Others filter-all filter-health" id="calc-weight-loss">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
+							</li>
+							<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
 							</li>
 
 						</ul>
@@ -150,7 +163,7 @@
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page">Build your own</a>
+									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page">Build your own</a>
 								</div>
 							</div>
 						</div>
@@ -694,20 +707,223 @@
 
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
-
-
+            window.calcs = [
+                {
+                    "id": "used-car-new-car",
+                    "Name": "New Car vs Used Car",
+                    "Published Link": "https://premade.outgrow.us/New-Car-vs-Used-Car",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/new+car+vs+used+car.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Auto",
+                    "Description": "Find out whether you should buy a used card or a new one.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "car-rent-buy",
+                    "Name": "Should i buy or rent a car?",
+                    "Published Link": "https://premade.outgrow.us/Buy-Or-Lease-Calculator",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/should+you+buy+or+lease+your+next+car.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Auto",
+                    "Description": "Answer 6 questions to find out whether you should buy or lease your next car.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "type-car",
+                    "Name": "Which type of car is best suited to my use case?",
+                    "Published Link": "http://premade.outgrow.us/what-car-should-you-go-for",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+kind+of+car+should+you+buy.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Auto",
+                    "Description": "Find out which car suits you the best.",
+                    "filters": [
+                        "filter-auto",
+                        "Auto"
+                    ]
+                },
+                {
+                    "id": "ivy-league",
+                    "Name": "Which Ivy League is best for me?",
+                    "Published Link": "https://premade.outgrow.us/which-ivy-league-is-best-for-you",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+ivy+league+is+best+for+you.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Education",
+                    "Description": "Answer 9 simple questions to find out which Ivy League college is best for you.",
+                    "filters": [
+                        "filter-auto",
+                        "Education"
+                    ]
+                },
+                {
+                    "id": "study-major",
+                    "Name": "Which major should I study?",
+                    "Published Link": "https://premade.outgrow.us/What-major-should-i-study",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+major.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "Education",
+                    "Description": "Find out which major should you study.",
+                    "filters": [
+                        "filter-auto",
+                        "Education"
+                    ]
+                },
+                {
+                    "id": "sport-right",
+                    "Name": "Which sport is right for my fitness goals?",
+                    "Published Link": "https://premade.outgrow.us/sport-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Sports+quiz.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "health-fitness",
+                    "Description": "Find out which sport will be best suited for you.",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "yoga-right",
+                    "Name": "Which type of Yoga is right for me?",
+                    "Published Link": "https://premade.outgrow.us/yoga",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+type+of+yoga+is+right+for+me.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "health-fitness",
+                    "Description": "Find out which yoga practice will deliver the results you want and is best suited for your physical condition",
+                    "filters": [
+                        "filter-auto",
+                        "health-fitness"
+                    ]
+                },
+                {
+                    "id": "rent-buy",
+                    "Name": "Should I buy or rent?",
+                    "Published Link": "https://premade.outgrow.us/should-i-buy-or-rent",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Buy+Or+Rent.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "construction",
+                    "Description": "Find out if you should buy or rent your next accomodation.",
+                    "filters": [
+                        "filter-auto",
+                        "construction"
+                    ]
+                },
+                {
+                    "id": "summer-quiz",
+                    "Name": "The ultimate summer destination quiz!",
+                    "Published Link": "https://premade.outgrow.us/ultimate-summer-destination-quiz",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/ultimate+summer+destination+quiz.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Travel",
+                    "Description": "Find out which summer destination should you be heading out to.",
+                    "filters": [
+                        "filter-auto",
+                        "Travel"
+                    ]
+                },
+                {
+                    "id": "friends-character",
+                    "Name": "Which Friends character are you?",
+                    "Published Link": "https://premade.outgrow.us/which-friends-character-are-you",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+friends+character+are+you.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "TV and Entertainment",
+                    "Description": "Find out which Friends character are you most like.",
+                    "filters": [
+                        "filter-auto",
+                        "TV and Entertainment"
+                    ]
+                },
+                {
+                    "id": "olympic-controversy",
+                    "Name": "Which 2018 Winter Olympics Controversy Are You?",
+                    "Published Link": "https://premade.outgrow.us/premade-839",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+2018+Winter+Olympics+Controversy+Are+You.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Description": "The 2018 Winter Olympics has been in the storm of controversies. Find out which one would you be!",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "destination-quiz",
+                    "Name": "The Ultimate Expat Destination Quiz",
+                    "Published Link": "https://premade.outgrow.us/premade-838",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/The+Ultimate+Expat+Destination+Quiz.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Description": "Find out the expat destination most suitable for you!",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "oscar-nominee",
+                    "Name": "Which Oscar Best Picture Nominee are you?",
+                    "Published Link": "https://premade.outgrow.us/premade-842",
+                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+Oscar+Best+Picture+Nominee+are+you.gif",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Description": "There are 9 Best Picture nominations this year. Find out which of them are you likely to be!",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "chinese-flower",
+                    "Name": "Find out your Chinese New Year Flower",
+                    "Published Link": "https://premade.outgrow.us/premade-847",
+                    "GIF": "https://drive.google.com/file/d/1kWJBSzNTSOg_NjOaDB4Qb5IzQvAS1iES/view?usp=sharing",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Chicago",
+                    "Industry": "Trending",
+                    "Tier": "",
+                    "Description": "The Lunar New Year celebrations involve a lot of floral decorations. Find out which one suits you the best. ",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                },
+                {
+                    "id": "black-panther",
+                    "Name": "Are you as Posh as Black Panther?",
+                    "Published Link": "https://premade.outgrow.us/premade-873",
+                    "GIF": "https://drive.google.com/file/d/1ZL9jSGbn-yml6L1_Jw-lz4eY-rYecqFb/view?usp=sharing",
+                    "Type": "Outcome Quiz",
+                    "Layout": "Stockholm",
+                    "Industry": "Trending",
+                    "Description": "Find out how posh you are compared to one of the wealthiest fictional characters of all time.",
+                    "filters": [
+                        "filter-auto",
+                        "Trending"
+                    ]
+                }
+            ];
 
             window.onload = function () {
-                var xmlHttp = new XMLHttpRequest();
-                xmlHttp.onreadystatechange = function () {
-                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
-                        window.calcs = JSON.parse(xmlHttp.responseText).data;
-                        setPremade();
-                        shuffleCalcs('Auto');
-                    }
-                }
-                xmlHttp.open("GET", 'https://outgrow-api.herokuapp.com/api/v1/admin/getPreMadeTemp/calculator-landing', true);
-                xmlHttp.send(null);
+                setPremade();
+                shuffleCalcs('Auto');
             }
 		</script>
 
@@ -715,30 +931,28 @@
 
 	<section class="section section-bg-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_calculator_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_quiz_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-white-new">Try Outgrow for Free <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
 	</section>
 
-	<section class="section section-six section-six-calc">
+	<section class="section section-six">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-10 col-xs-12 np">
-					<div class="section-heading">A Short Course On Lead Generation With Calculators </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_calc.png" alt="lp-section-six-img_calc image"> 
+					<div class="section-heading">A Creative’s Guide To Building Viral Calculators & Quizzes </div>
+					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img.png" alt="lp-section-six-img image"> 
 					<ul>
-						<li>Learn how to generate qualified & relevant leads using Price, ROI and Savings calculators.</li>
-						<li><i class="material-icons">keyboard_arrow_right</i> <span>Why calculators are great for lead generation? </span> </li>
-						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to design an effective calculator? </span> </li>
-						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to promote and maximize traffic? </span></li>
-						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to manage and follow up with leads? </span></li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>What makes certain Quizzes and Calculators go viral. </span> </li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>Actionable tips that any marketer can follow to create viral Quizzes and Calculators that are shared like crazy! </span> </li>
+						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to promote your Quizzes and Calculators to increase their chances of going viral with our Promotional Checklist. </span></li>
 					</ul>
-					<a href="https://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" class="">
+					<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page" class="">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_calc.png" alt="lp-section-six-img_calc image"> 
+				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img.png" alt="lp-section-six-img image"> 
 			</div>
 		</div>
 	</section>
@@ -751,43 +965,43 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_calc.png" alt="lp-reading1_calc image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading1.png" alt="lp-reading1 image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>5 Companies killing it on Product Hunt with Interactive Calculators</h4>
-						<p>Read how smart companies are receiving 1000s of upvotes and referral traffic by submitting calculators to Product Hunt. </p>
-						<a href="https://outgrow.co/blog/product-hunt-promotions-interactive-content?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>How to make Buzzfeed-style quizzes</h4>
+						<p>Is there a magical formula to creating BuzzFeed's wildly popular quizzes? Of course there is and here's our guide on how to make them. </p>
+						<a href="https://outgrow.co/blog/how-to-make-buzzfeed-style-quizzes?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_calc.png" alt="lp-reading2_calc image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading2.png" alt="lp-reading2 image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>Why you need an ROI Calculator on your Website </h4>
-						<p>Hubspot is using it, and so are Pardot and Graphisoft. But what makes these top companies rely on ROI (Return on Investment) calculators? Let’s understand why. </p>
-						<a href="https://outgrow.co/blog/roi-calculator-website?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>Using the Principles of Persuasion to Make Engaging Interactive Content </h4>
+						<p>Find out what each principle means and learn how to apply those principles to get more results out of quizzes. </p>
+						<a href="https://outgrow.co/blog/interactive-content-engagement-tips?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_cal.png" alt="lp-reading3_calc image"> 
+						<img src="{{ $page->baseUrl }}/images/lp-reading3.png" alt="lp-reading3 image"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>[Case Study] VenturePact generated 11,592 leads with a Calculator</h4>
-						<p>VenturePact partnered with Outgrow to build a calculator that boosted traffic by 15% and increased conversion rate by 28%. </p>
-						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>[Case Study] How TAG Livros Generated 55K+ Leads Within a Month </h4>
+						<p>In this interactive marketing success story, find out how a book signing club, generated more than 55K leads using interactive content. </p>
+						<a href="https://outgrow.co/blog/tag-livros-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section section-quotes section-quotes-calc">
+	<section class="section section-quotes">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
-				<blockquote>I really like how easy it is to build calculators! It helps us stand out & is great for capturing data on new leads. </blockquote>
-				<span>- Amy Dano, Manager, Learn2</span>
+				<blockquote>This is the best quiz maker out there for any serious marketer who is looking for something easy, quick, and full of features. They are constantly adding more to the platform as well. </blockquote>
+				<span>- Jennifer Dean, Director of Marketing and Digital Content, <br/>Ona Connect</span>
 			</div>
 		</div>
 	</section>
@@ -795,7 +1009,7 @@
 	<section class="section section-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 			<span>Plans start at $25 per month. No credit card required. </span>
-			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_calculator_page" class="params trialLOL">
+			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_quiz_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-red-new">Start your Free Trial! <i class="material-icons">arrow_forward</i></button>
 			</a>
 		</div>		
