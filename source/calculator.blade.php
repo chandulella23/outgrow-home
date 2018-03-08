@@ -52,7 +52,7 @@
 						Katya’s company made over $10,000 in revenue in just a month of using an Outgrow business calculator.
 					</div>
 					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_calculator_page">
-						<button type="button" class="btn btn-white-new">Build your First Calculator <i class="material-icons">arrow_forward</i></button>
+						<button type="button" class="btn btn-white-new">Build Your First Calculator <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
 			</div>
