@@ -19047,7 +19047,7 @@ img.scrollimg1.wo {
 	}
 	.section-six ul li span {
 		float: left;
-		width: 95%;
+		width: 90%;
 	}
 	.section-six img {
 		float: right;
@@ -19226,7 +19226,7 @@ img.scrollimg1.wo {
 	}
 	.section-six-CR{
 		height: auto;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 	}
 	.section-six-CR img {
 		top: 50px;
@@ -19237,7 +19237,7 @@ img.scrollimg1.wo {
 	}
 	.section-six-survey {
 		/* height: auto; */
-		margin-bottom: 30px;
+		margin-bottom: 15px;
 	}
 	.section-second-survey img {
 		top: 100px;
@@ -19263,7 +19263,7 @@ img.scrollimg1.wo {
 		background-position: 100% -100px;
 	}
 	.section-six-roi img {
-		top: 60px;
+		top: 40px;
 	}
 
 	/* .section-quotes_CR blockquote::before {
@@ -19301,7 +19301,7 @@ img.scrollimg1.wo {
 	}
 	.section-six-calc {
 		/* height: auto; */
-		margin-bottom: 40px;
+		margin-bottom: 50px;
 	}
 	.section-second-calc img {
 		top: 100px;
@@ -19315,7 +19315,13 @@ img.scrollimg1.wo {
 	.section-quotes_CR blockquote {
 		max-width: 55%;
 	}
-
+	.survey1 {
+		/* height: auto; */
+		margin-bottom: 80px;
+	}
+	.section-six-quiz {
+		margin-bottom: 50px;
+	}
 
 /* end: landing pages css */
 

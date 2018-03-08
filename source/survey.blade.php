@@ -800,7 +800,7 @@
 		</div>		
 	</section>
 
-	<section class="section section-six section-six-survey">
+	<section class="section section-six section-six-survey survey1">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-12 col-xs-12 np">
