@@ -1,4 +1,4 @@
-<!-- <nav class="navbar custom-navbar navbar-default navbar-fixed-top">
+ <nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -27,7 +27,7 @@
 			</ul>
 		</div> 
 	</div>
-</nav> -->
+</nav> 
 
 
 <!-- <div class="header-logo">
