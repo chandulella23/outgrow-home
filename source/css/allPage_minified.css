@@ -3890,7 +3890,16 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.testi-content, span.testi-desig, .view-post {width: 50px !important;}
 	.view-post img {display: none;}
 	.custom-embeds .nav-tabs>li {margin-right: 5px;}
-	.custom-embeds .nav-tabs>li:nth-child(3) {margin-right: 0px !important;}
+	.custom-embeds .nav-tabs>li:nth-child(4) {margin-right: 0px !important;}
+	/* .custom-embeds .nav-tabs{display: block !important;}
+	.custom-embeds .nav-tabs>li {
+		margin-right: 0;
+		width: 100%;
+	}
+	.custom-embeds .nav-tabs>li>a {
+		float: none;
+		margin: 0 auto !important;
+	} */
 
 }
 
@@ -18510,7 +18519,9 @@ img.uni1 {
 	.custom-embeds .nav-tabs>li.active:nth-child(2)>a, 
 	.custom-embeds .nav-tabs>li:nth-child(2)>a:hover,
 	.custom-embeds .nav-tabs>li.active:nth-child(3)>a, 
-	.custom-embeds .nav-tabs>li:nth-child(3)>a:hover {
+	.custom-embeds .nav-tabs>li:nth-child(3)>a:hover,
+	.custom-embeds .nav-tabs>li.active:nth-child(4)>a, 
+	.custom-embeds .nav-tabs>li:nth-child(4)>a:hover {
 		background-size: 100px 55px;
 	}
 	.custom-embeds .tab-content { margin-top: -10px !important;}
@@ -18592,6 +18603,13 @@ img.uni1 {
 		background-repeat: no-repeat;
 		width: 142px;
 		height: 77px;
+	}
+	.custom-embeds .nav-tabs>li:nth-child(4)>a {
+		background-image: url(../images/google_logo.png);
+		/* background-size: 142px 62px; */
+		background-repeat: no-repeat;
+		width: 142px;
+		height: 77px;
 		margin-right: 0px;
 	}
 	.custom-embeds .nav-tabs>li.active:nth-child(1)>a {
@@ -18603,6 +18621,9 @@ img.uni1 {
 	.custom-embeds .nav-tabs>li.active:nth-child(3)>a {
 		background-image: url(../images/crowdh.png);
 	}
+	.custom-embeds .nav-tabs>li.active:nth-child(4)>a {
+		background-image: url(../images/google_hover.png);
+	}
 	.custom-embeds .nav-tabs>li:nth-child(1)>a:hover {
 		background-image: url(../images/facebookh.png);
 	}
@@ -18611,6 +18632,9 @@ img.uni1 {
 	}
 	.custom-embeds .nav-tabs>li:nth-child(3)>a:hover {
 		background-image: url(../images/crowdh.png);
+	}
+	.custom-embeds .nav-tabs>li:nth-child(4)>a:hover {
+		background-image: url(../images/google_hover.png);
 	}
 	.custom-embeds .nav-tabs>li>a:hover {
 		background-color: transparent;
