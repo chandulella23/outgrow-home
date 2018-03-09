@@ -18823,6 +18823,7 @@ img.scrollimg1.wo {
 		position: relative;
 		box-shadow: 0px 0px 50px rgba(0,0,0,.25);
 		transition: .3s ease-in-out;
+		text-transform: capitalize;
 	}
 	.btn-white-new i.material-icons {
 		font-size: 18px;
@@ -19066,6 +19067,7 @@ img.scrollimg1.wo {
 		position: relative;
 		box-shadow: 0px 10px 30px rgba(251,95,102, 0.3);
 		transition: .3s ease-in-out;
+		text-transform: capitalize;
 	}
 	.btn-red-new i.material-icons {
 		font-size: 18px;
@@ -19638,6 +19640,27 @@ img.scrollimg1.wo {
 		
 	}
 
+	@media (min-width:1024px) and (max-width:1024px){
+		.reading-content p {
+			min-height: auto; 
+			overflow: hidden;
+			text-overflow: ellipsis;
+			-webkit-box-orient: vertical;
+			display: -webkit-box;
+			-webkit-line-clamp: 5;
+		}
+		.section-reading-survey .reading-block:first-child .reading-content p {
+			min-height: 130px;
+		}
+		.section-reading-survey .reading-block:last-child .reading-content p {
+			min-height: 106px;
+		}
+		.section-reading-roi .reading-block:first-child .reading-content p {
+			min-height: 130px;
+		}
+
+
+	}
 
 /* end responsive : landing pages css */
 

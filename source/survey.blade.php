@@ -53,7 +53,7 @@
 						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
 					</div> -->
 					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page">
-						<button type="button" class="btn btn-white-new">Build your First Online Survey <i class="material-icons">arrow_forward</i></button>
+						<button type="button" class="btn btn-white-new">Build Your First Online Survey <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
 			</div>
@@ -823,7 +823,7 @@
 		</div>
 	</section>
 
-	<section class="section section-reading">
+	<section class="section section-reading section-reading-survey">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="section-heading text-center">Related Reading </div>
