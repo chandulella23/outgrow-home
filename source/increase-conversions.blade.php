@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.lp')
 
 @section('title', 'Boost Online Conversions by >30% | Outgrow')
 

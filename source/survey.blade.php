@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.lp')
 
 @section('title', 'Online Surveys | Outgrow')
 
