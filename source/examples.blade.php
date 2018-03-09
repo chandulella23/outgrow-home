@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/animated-masonry-gallery.css" type="text/css" />
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase-responsive.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 
 @section('pageClass', 'usecase')
@@ -147,7 +148,7 @@
 	</div>
 
 	<section class="section">
-		<div class="container">
+		<div id="premade-heading" class="container hide">
 			<div class="useCase-heading">
 				There is a Calculator for that!
 			</div>
@@ -1120,28 +1121,32 @@
 	<!-- tab-section end -->
 
 	<!-- start: example calc -->
+
 	<section class="section example-calc">
-		<div class="tab-section">
+		<div id="premade-loader" class="preloader">
+			<div class="status">&nbsp;</div>
+		</div>
+		<div id="premade-content" class="tab-section hide">
 			<div class="container-fluid">
 					<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="tab-title active">
-						<a href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab" onclick="callGA('TYPE')">
+						<a href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab" onclick="callGA('TYPE');changeTab('Calculator')">
 							Numerical Calculator
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+						<a href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('OutcomeQuiz')">
 							Outcome Quiz
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+						<a href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('GradedQuiz')">
 							Graded Quiz
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY')">
+						<a href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('Poll')">
 							Poll
 						</a>
 					</li>
@@ -1156,23 +1161,54 @@
 							</div> -->
 							<div class="premade-template">
 								<ul class="pre-temp-cat" id="calc-cats">
-									<li>
-										<a href="javascript:void(0)" id="filter-auto" onclick="shuffleCalcs('filter-auto')">Auto</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-education" onclick="shuffleCalcs('filter-education')">Education</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-finance" onclick="shuffleCalcs('filter-finance')">Finance</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-health" onclick="shuffleCalcs('filter-health')">Health & Fitness</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="filter-publishing" onclick="shuffleCalcs('filter-publishing')">Publishing</a>
-									</li>
 									<li class="active">
-										<a href="javascript:void(0)" id="filter-all" onclick="shuffleCalcs('filter-all')">All</a>
+										<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="MarketingAdvertising"
+										   onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="HealthFitness"
+										   onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Legal"
+										   onclick="shuffleCalcs('Legal')">Legal</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Quintessential"
+										   onclick="shuffleCalcs('Quintessential')">Quintessential</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="RealEstateConstruction"
+										   onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
+											Construction</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Technology"
+										   onclick="shuffleCalcs('Technology')">Technology</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Travel"
+										   onclick="shuffleCalcs('Travel')">Travel</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Publishing"
+										   onclick="shuffleCalcs('Publishing')">Publishing</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="TVandEntertainment"
+										   onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">Trending</a>
 									</li>
 								</ul>
 								<div class="pre-temp-cont">

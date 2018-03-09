@@ -12,146 +12,112 @@ window.display = function (url) {
     setTimeout(calculateMinHeight, 2000);
 }
 
-window.calcs = [
-    {
-        'id': 'calc-auto-loan',
-        filters: ['filter-all', 'filter-auto'],
-        calcLink: 'https://premade.outgrow.us/Auto-Loan-Calc',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif',
-        name: 'AUTO LOAN CALCULATOR',
-        layout: 'The Londoner'
-    },
-    {
-        'id': 'calc-early-payment',
-        filters: ['filter-all', 'filter-auto'],
-        calcLink: 'https://premade.outgrow.us/Early-Payment-Calculator',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/early+payment+calculator.gif',
-        name: 'EARLY PAYMENT CALCULATOR',
-        layout: 'The Tokyo'
-    },
-    {
-        'id': 'calc-downpayment',
-        filters: ['filter-all', 'filter-auto'],
-        calcLink: 'https://premade.outgrow.us/Downpayment-Calculator',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/downpayment+calculator.gif',
-        name: 'HOW MUCH SHOULD I PUT DOWN?',
-        layout: 'The Londoner'
-    },
-    {
-        'id': 'calc-student-budget',
-        filters: ['filter-all', 'filter-education'],
-        calcLink: 'https://premade.outgrow.us/student-budget-calculator',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+student+budget.gif',
-        name: 'STUDENT BUDGET CALCULATOR',
-        layout: 'The Madrid'
-    },
-    {
-        'id': 'calc-harward-score',
-        filters: ['filter-all', 'filter-education'],
-        calcLink: 'https://premade.outgrow.us/Harvard-Minimum-Score-Calculator',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/chances+of+getting+into+harvard.gif',
-        name: 'What is a good enough score to get into Harvard with your background?',
-        layout: 'The Greek'
-    },
-    {
-        'id': 'calc-home-budget',
-        filters: ['filter-all', 'filter-finance'],
-        calcLink: 'https://premade.outgrow.us/Home-Budget-Calculator',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+monthly+home+budget.gif',
-        name: 'HOME BUDGET CALCULATOR',
-        layout: 'The Tokyo'
-    },
-    {
-        'id': 'calc-weight-loss',
-        filters: ['filter-all', 'filter-health'],
-        calcLink: 'https://premade.outgrow.us/weightloss-calc',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/Weightloss+Calc.gif',
-        name: 'WEIGHT LOSS CALCULATOR',
-        layout: 'The Greek'
-    },
-    {
-        'id': "calc-trump-plan",
-        filters: ['filter-all', 'filter-publishing'],
-        calcLink: 'https://premade.outgrow.us/How-will-Trump-tax-plan-affect-you',
-        gif: 'https://dzvexx2x036l1.cloudfront.net/calc_images/how+will+trumps+tax+plan+affect+you.gif',
-        name: 'HOW WILL TRUMP\'S TAX PLAN AFFECT YOU?',
-        layout: 'The Madrid'
+function getTemplateName(template) {
+    let templates = [{id: 'template-eight', text: 'The Venice'},
+        {id: 'template-seven', text: 'The Seattle'}, {id: 'one-page-card-new', text: 'The Chicago'},
+        {id: 'sound-cloud-v3', text: 'The Londoner'}, {id: 'inline-temp-new', text: 'The Greek'},
+        {id: 'experian', text: 'The Tokyo'}, {id: 'template-five', text: 'The Madrid'},
+        {id: 'template-six', text: 'The Stockholm'}];
+    console.log('hello', templates.find(t => t.id.includes(template)));
+    return templates.find(t => t.id.includes(template));
+}
+
+window.setPremade = function () {
+    let premadeTemplateList = jQuery('#gallery-content-center');
+    let innerHTML = '';
+    for (let i = 0; i < window.calcs.length; i++) {
+        let id = `${window.calcs[i].id}`;
+        let className = window.calcs[i].Industry;
+        if (i === 0) {
+            innerHTML += `<li class="active filter-all ${className}" id="${id}">
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')">
+                    ${window.calcs[i].Description}</a></li>`
+        } else {
+            innerHTML += `<li class="filter-all ${className}" id="${id}">
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')">
+                    ${window.calcs[i].Description}</a></li>`
+        }
     }
-];
+    premadeTemplateList.html(innerHTML)
+}
 
 window.markAsActive = function (calcId) {
+    console.log(calcId);
     var currentActiveCalc = document.querySelector('#gallery-content-center li.active');
     currentActiveCalc.classList.remove('active');
-
     var tobeActiveCalc = document.querySelector('#' + calcId);
     tobeActiveCalc.classList.add('active');
-
-    toBeActiveCalc = window.calcs.find(function (calc) {
-        return calc.id === calcId;
+    let calc = window.calcs.find(function (calc) {
+        return calc.id === calcId
     });
-    
+    console.log(calc)
     var premadeGif = document.getElementById('premade-gif');
     var premadePreview = document.getElementById('premade-preview-link');
     var premadeName = document.getElementById('premade-calc-name');
     var premadeLayout = document.getElementById('premade-calc-layout')
-
-    premadeGif.src = toBeActiveCalc.gif;
-    premadePreview.href = toBeActiveCalc.calcLink;
-    premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + toBeActiveCalc.name;
-    premadeLayout.innerHTML = '<strong>Layout:</strong> ' + toBeActiveCalc.layout;
-};
+    premadeGif.src = calc.GIF;
+    premadePreview.href = calc['Published Link'];
+    premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + calc.Name;
+    premadeLayout.innerHTML = '<strong>Layout:</strong> ' + calc.Layout
+}
 
 window.changeActiveCalcCategory = function (id) {
     var currentActiveCat = document.querySelector('#calc-cats li.active');
     currentActiveCat.classList.remove('active');
-
+    console.log(id)
     var tobeActiveCat = document.querySelector('#' + id);
-    tobeActiveCat.parentElement.classList.add('active');
+    tobeActiveCat.parentElement.classList.add('active')
 }
 
 window.shuffleCalcs = function (filterName) {
+    console.log(filterName);
     changeActiveCalcCategory(filterName);
-
     var hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
     hiddenCalcs.forEach(function (calc) {
-        calc.classList.remove('hide');
+        calc.classList.remove('hide')
     });
-
-    window.calcs
-        .filter(function (calc) {
-            return !calc.filters.includes(filterName);
-        })
-        .forEach(function (calc) {
-            var calc = document.querySelector('#'+calc.id);
-            calc.classList.add('hide');
-        })
-
+    window.calcs.filter(function (calc) {
+        return !calc.filters.includes(filterName)
+    }).forEach(function (calc) {
+        var calc = document.querySelector('#' + calc.id);
+        calc.classList.add('hide')
+    })
     var activeCalc = document.querySelector('#gallery-content-center li.active');
     if (activeCalc)
         activeCalc.classList.remove('active');
-
     var allCalcs = document.querySelectorAll('#gallery-content-center li');
-    var sflag = true;
+    var sflag = !0;
     allCalcs.forEach(function (calc) {
         if (!calc.classList.contains('hide') && sflag) {
             calc.classList.add('active');
-            
             var activeCal = window.calcs.find(function (cal) {
-                return cal.id === calc.id;
+                return cal.id === calc.id
             });
-
+            console.log(activeCal)
             var premadeGif = document.getElementById('premade-gif');
             var premadePreview = document.getElementById('premade-preview-link');
             var premadeName = document.getElementById('premade-calc-name');
             var premadeLayout = document.getElementById('premade-calc-layout')
-
-            premadeGif.src = activeCal.gif;
-            premadePreview.href = activeCal.calcLink;
-            premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.name;
-            premadeLayout.innerHTML = '<strong>Layout:</strong> ' + activeCal.layout;
-            sflag = false;
+            premadeGif.src = activeCal.GIF;
+            premadePreview.href = activeCal['Published Link'];
+            premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.Name;
+            premadeLayout.innerHTML = '<strong>Layout:</strong> ' + activeCal.Layout;
+            sflag = !1
         }
+    })
+}
+
+window.changeTab = function(className) {
+    let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
+    hiddenCalcs.forEach(function (calc) {
+        calc.classList.remove('hide')
     });
+    window.calcs.filter(function (calc) {
+        return !calc.filters.includes(className)
+    }).forEach(function (calc) {
+        var calc = document.querySelector('#' + calc.id);
+        calc.classList.add('hide')
+    })
 }
 
 jQuery(document).ready(function () {
@@ -177,4 +143,30 @@ jQuery(document).ready(function () {
     //     }
     // })
     runTimeout();
+    jQuery.post('http://outgrow-api.herokuapp.com/api/v1/admin/getCalculators',
+        function (data, status) {
+            console.log(status, data);
+            if (status === 'success') {
+                window.calcs = data.data.calculators;
+                window.calcs.forEach(calc => {
+
+                    calc['filters'] = ['filter-auto', calc.industry, calc.template.replace(/\s/g,'')];
+                    calc['GIF'] = calc.media;
+                    calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+                    calc['Name'] = calc.title;
+                    calc['id'] = 'id' + calc._id;
+                    calc['Description'] = calc.description;
+                    let layout = getTemplateName(calc.template);
+                    calc['Layout'] = layout ? layout.text : 'Stockholm';
+                    calc['Published Link'] = calc.liveApp.url;
+
+                });
+                jQuery('#premade-content').removeClass('hide');
+                jQuery('#premade-header').removeClass('hide');
+                jQuery('#premade-loader').addClass('hide');
+                setPremade();
+                shuffleCalcs('Auto');
+                console.log(calcs);
+            }
+        });
 })
