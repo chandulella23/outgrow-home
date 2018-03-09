@@ -19117,7 +19117,7 @@ img.scrollimg1.wo {
 		font-size: 16px;	
 		line-height: 24px;	
 	}
-	.reading-block h4:first-child {
+	.reading-block:first-child h4 {
 		padding-right: 20px;
 	}
 	.reading-content p {
