@@ -148,8 +148,8 @@
 	</div>
 
 	<section class="section">
-		<div id="premade-heading" class="container hide">
-			<div class="useCase-heading">
+		<div class="container">
+			<div id="premade-heading" class="useCase-heading hide">
 				There is a Calculator for that!
 			</div>
 		</div>
