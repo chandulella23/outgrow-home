@@ -3890,7 +3890,20 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.testi-content, span.testi-desig, .view-post {width: 50px !important;}
 	.view-post img {display: none;}
 	.custom-embeds .nav-tabs>li {margin-right: 5px;}
-	.custom-embeds .nav-tabs>li:nth-child(3) {margin-right: 0px !important;}
+	.custom-embeds .nav-tabs>li:nth-child(4) {margin-right: 0px !important;}
+	div.custom-embeds .nav-tabs>li {
+		min-width: 68px !important;
+	}
+	.custom-embeds .nav-tabs>li>a {
+		background-size: 68px 34px !important;
+	}
+	.custom-embeds .nav-tabs>li.active:nth-child(1)>a, 	.custom-embeds .nav-tabs>li:nth-child(1)>a:hover, 
+	.custom-embeds .nav-tabs>li.active:nth-child(2)>a, 	.custom-embeds .nav-tabs>li:nth-child(2)>a:hover, 
+	.custom-embeds .nav-tabs>li.active:nth-child(3)>a, 	.custom-embeds .nav-tabs>li:nth-child(3)>a:hover, 
+	.custom-embeds .nav-tabs>li.active:nth-child(4)>a,  .custom-embeds .nav-tabs>li:nth-child(4)>a:hover {
+		background-size: 68px 40px !important;
+	}
+
 
 }
 
@@ -18510,7 +18523,9 @@ img.uni1 {
 	.custom-embeds .nav-tabs>li.active:nth-child(2)>a, 
 	.custom-embeds .nav-tabs>li:nth-child(2)>a:hover,
 	.custom-embeds .nav-tabs>li.active:nth-child(3)>a, 
-	.custom-embeds .nav-tabs>li:nth-child(3)>a:hover {
+	.custom-embeds .nav-tabs>li:nth-child(3)>a:hover,
+	.custom-embeds .nav-tabs>li.active:nth-child(4)>a, 
+	.custom-embeds .nav-tabs>li:nth-child(4)>a:hover {
 		background-size: 100px 55px;
 	}
 	.custom-embeds .tab-content { margin-top: -10px !important;}

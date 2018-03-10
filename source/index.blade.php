@@ -1338,7 +1338,7 @@
 	</div>
 	<!-- end static HTML of fb, capterra and g2 crowd -->
 
-	<!-- <script>
+	 <script>
 		function triggerLiveStaticReviews () {
 			var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
 			var live = document.querySelector('#liveReviews');
@@ -1368,7 +1368,7 @@
 
 		var head = document.querySelector('head');
 		head.appendChild(gridJS);
-	</script> -->
+	</script> 
 
 	<!--section testimonial -->
 	<!-- <div class="section-main">
