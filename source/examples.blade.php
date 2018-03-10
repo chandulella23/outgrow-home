@@ -1129,24 +1129,27 @@
 		<div id="premade-content" class="tab-section hide">
 			<div class="container-fluid">
 					<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
+				<ul class="nav nav-tabs premade-calc" role="tablist">
 					<li role="presentation" class="tab-title active">
-						<a href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab" onclick="callGA('TYPE');changeTab('Calculator')">
+						<a id="Calculator" href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab"
+						   onclick="callGA('TYPE');changeTab('Calculator')">
 							Numerical Calculator
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('OutcomeQuiz')">
+						<a id="OutcomeQuiz" href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab"
+						   onclick="callGA('INDUSTRY');changeTab('OutcomeQuiz')">
 							Outcome Quiz
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('GradedQuiz')">
+						<a id="GradedQuiz" href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab"
+						   onclick="callGA('INDUSTRY');changeTab('GradedQuiz')">
 							Graded Quiz
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('Poll')">
+						<a id="Poll" href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('Poll')">
 							Poll
 						</a>
 					</li>

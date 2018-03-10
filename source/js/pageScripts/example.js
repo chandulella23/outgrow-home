@@ -18,7 +18,6 @@ function getTemplateName(template) {
         {id: 'sound-cloud-v3', text: 'The Londoner'}, {id: 'inline-temp-new', text: 'The Greek'},
         {id: 'experian', text: 'The Tokyo'}, {id: 'template-five', text: 'The Madrid'},
         {id: 'template-six', text: 'The Stockholm'}];
-    console.log('hello', templates.find(t => t.id.includes(template)));
     return templates.find(t => t.id.includes(template));
 }
 
@@ -42,7 +41,6 @@ window.setPremade = function () {
 }
 
 window.markAsActive = function (calcId) {
-    console.log(calcId);
     var currentActiveCalc = document.querySelector('#gallery-content-center li.active');
     currentActiveCalc.classList.remove('active');
     var tobeActiveCalc = document.querySelector('#' + calcId);
@@ -50,7 +48,6 @@ window.markAsActive = function (calcId) {
     let calc = window.calcs.find(function (calc) {
         return calc.id === calcId
     });
-    console.log(calc)
     var premadeGif = document.getElementById('premade-gif');
     var premadePreview = document.getElementById('premade-preview-link');
     var premadeName = document.getElementById('premade-calc-name');
@@ -64,20 +61,20 @@ window.markAsActive = function (calcId) {
 window.changeActiveCalcCategory = function (id) {
     var currentActiveCat = document.querySelector('#calc-cats li.active');
     currentActiveCat.classList.remove('active');
-    console.log(id)
     var tobeActiveCat = document.querySelector('#' + id);
     tobeActiveCat.parentElement.classList.add('active')
 }
 
 window.shuffleCalcs = function (filterName) {
-    console.log(filterName);
     changeActiveCalcCategory(filterName);
+    let selectedTab = jQuery('.nav.nav-tabs.premade-calc li.active').children().attr('id');
+    console.log(filterName, selectedTab);
     var hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
     hiddenCalcs.forEach(function (calc) {
         calc.classList.remove('hide')
     });
     window.calcs.filter(function (calc) {
-        return !calc.filters.includes(filterName)
+        return !(calc.filters.includes(filterName) && calc.filters.includes(selectedTab))
     }).forEach(function (calc) {
         var calc = document.querySelector('#' + calc.id);
         calc.classList.add('hide')
@@ -93,7 +90,6 @@ window.shuffleCalcs = function (filterName) {
             var activeCal = window.calcs.find(function (cal) {
                 return cal.id === calc.id
             });
-            console.log(activeCal)
             var premadeGif = document.getElementById('premade-gif');
             var premadePreview = document.getElementById('premade-preview-link');
             var premadeName = document.getElementById('premade-calc-name');
@@ -107,17 +103,42 @@ window.shuffleCalcs = function (filterName) {
     })
 }
 
-window.changeTab = function(className) {
+window.changeTab = function (tabName) {
     let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
+    let selectedCat = jQuery('#calc-cats li.active').children().attr('id')
+    console.log('tabname=', tabName, selectedCat);
     hiddenCalcs.forEach(function (calc) {
         calc.classList.remove('hide')
     });
+    let categorySet = new Set();
     window.calcs.filter(function (calc) {
-        return !calc.filters.includes(className)
-    }).forEach(function (calc) {
-        var calc = document.querySelector('#' + calc.id);
+        return !(calc.filters.includes(tabName) && calc.filters.includes(selectedCat));
+    }).forEach(function (cal) {
+        var calc = document.querySelector('#' + cal.id);
         calc.classList.add('hide')
-    })
+    });
+
+    window.calcs.filter(function (calc) {
+        return calc.filters.includes(tabName);
+    }).forEach(function (cal) {
+        categorySet.add(cal.Industry);
+    });
+
+    console.log(categorySet);
+    let categoryContainer = jQuery('#calc-cats').children();
+    let categories = categoryContainer.children();
+    console.log(categories);
+    for (let i = 0; i < categories.length; i++) {
+        if (categorySet.has(categories[i].id)) {
+            console.log(categories[i].id,'removing hide');
+            categoryContainer[i].classList.remove('hide');
+            shuffleCalcs('Auto')
+        } else {
+            console.log(categories[i].id,'adding hide')
+            categoryContainer[i].classList.add('hide');
+        }
+    }
+
 }
 
 jQuery(document).ready(function () {
@@ -150,7 +171,6 @@ jQuery(document).ready(function () {
                 window.calcs = data.data.calculators;
                 window.calcs.forEach(calc => {
 
-                    calc['filters'] = ['filter-auto', calc.industry, calc.template.replace(/\s/g,'')];
                     calc['GIF'] = calc.media;
                     calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
                     calc['Name'] = calc.title;
@@ -159,6 +179,7 @@ jQuery(document).ready(function () {
                     let layout = getTemplateName(calc.template);
                     calc['Layout'] = layout ? layout.text : 'Stockholm';
                     calc['Published Link'] = calc.liveApp.url;
+                    calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
 
                 });
                 jQuery('#premade-content').removeClass('hide');
@@ -166,7 +187,7 @@ jQuery(document).ready(function () {
                 jQuery('#premade-loader').addClass('hide');
                 setPremade();
                 shuffleCalcs('Auto');
-                console.log(calcs);
+                changeTab('Calculator');
             }
         });
 })
