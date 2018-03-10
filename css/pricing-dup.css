@@ -781,7 +781,7 @@ label {
 		width: 100%;*/
 		clear: both;
 		margin-top: 40px;
-		width: 900px;
+		width: 950px;
 		padding: 0;
 	}	
 	#plan-cycle{
@@ -920,7 +920,7 @@ label {
 
 		th,td {
 			font-family: montserratregular;
-			font-size: 13px;
+			font-size: 12px;
 			/* line-height: 1.45; */
 			color: #797f83;
 			vertical-align: top;
@@ -946,7 +946,7 @@ label {
 			border: 1px solid #bed4df;
 			box-shadow: 0 0px 10px rgba(0, 0, 0, .10);
 			/* display: table-column; */
-			right: 224px;
+			right: 236px;
 			position: absolute;
 			top: -1px;
 			height: 100%;
@@ -1094,7 +1094,7 @@ label {
 		}
 
 		tbody tr:hover {
-			background: #fdffcc;
+			background: #f5fbff;
 			cursor: pointer;
 		}
 
@@ -1152,7 +1152,7 @@ label {
 			line-height: 16px;
 			color: #2b93be;
 			font-size: 11px;
-			padding: 10px 10px 0px 10px;
+			padding: 10px 0px 0px 10px;
 			font-family: montserratlight;
 			float: left;
 			width: 100%;
@@ -1167,9 +1167,10 @@ label {
 		.expand.open th > .minus , .expand th > .plus {display: inline-block;}
 
 		tr.expand.open {
-			background: #fdffcc;
+			background: #f5fbff;
 			box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-			border-bottom: 1px solid #f1f3c4;
+			border-bottom: 1px solid #e0f2fe;
+			border-top: 1px solid #e0f2fe;
 		}
 
 		.expand-all > .minus , .expand-all.open > .plus {display: none;}
@@ -1183,7 +1184,8 @@ label {
 		
 		tbody tr.expand.open th {
 			vertical-align: top;
-			border-bottom: 1px solid #f1f3c4;
+			border-bottom: 1px solid #e0f2fe;
+			border-top: 1px solid #e0f2fe;
 		}
 		.pricing-block {
 			display: none;
@@ -1197,8 +1199,8 @@ label {
 			position: absolute;
 			bottom: 100%;
 			height: 8px;
-			width: 225px;
-			left: 0px;
+			width: 238px;
+			left: -1px;
 			background: #fff;
 			border: 1px solid #bed4df;
 			box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);
@@ -1320,21 +1322,21 @@ td.active-bg {
 	border-left: 1px solid #bed4df;
 }
 tbody tr:hover td.active-bg {
-    background: #fdffcc;
+    background: #f5fbff;
     cursor: pointer;
 }
 .not-info td.active-bg:hover {
     background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
 }
 tr.expand.open td.expand-child.active-bg {
-    background: #fdffcc;
+    background: #f5fbff;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-    border-bottom: 1px solid #f1f3c4;
+    border-bottom: 1px solid #f5fbff;
 }
 tr.expand.open td.active-bg {
-    background: #fdffcc;
+    background: #f5fbff;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-    border-bottom: 1px solid #f1f3c4;
+    border-bottom: 1px solid #f5fbff;
 }
 tr.not-info:hover td.active-bg {
     background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
@@ -1352,4 +1354,20 @@ tbody tr:last-child td.active-bg {
 
 .pricing-outer-ltd1 thead th p.price {
     font-size: 30px !important;
+<<<<<<< HEAD
+=======
+}
+a.link-contact.intercom_trigger {
+    font-size: 11px;
+    color: #fb5f66;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0;
+	padding-top: 7px;
+	display: block;
+}
+a.link-contact.intercom_trigger:hover {
+    color: #ea101d;
+>>>>>>> production-stable-source
 }

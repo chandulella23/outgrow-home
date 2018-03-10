@@ -781,7 +781,7 @@ label {
 		width: 100%;*/
 		clear: both;
 		margin-top: 40px;
-		width: 900px;
+		width: 925px;
 		padding: 0;
 	}	
 	#plan-cycle{
@@ -920,7 +920,7 @@ label {
 
 		th,td {
 			font-family: montserratregular;
-			font-size: 13px;
+			font-size: 12px;
 			/* line-height: 1.45; */
 			color: #797f83;
 			vertical-align: top;
@@ -938,19 +938,19 @@ label {
 
 		colgroup:nth-child(2){
 			width:25%;
-			border:1px solid #eff0f1;
+			border:1px solid #bed4df;
 		}
 
 		colgroup:nth-child(3) {
 			width: 25%;
-			border: 1px solid #bed4df;
-			box-shadow: 0 0px 10px rgba(0, 0, 0, .10);
+			border: 1px solid #eff0f1;
+			/* box-shadow: 0 0px 10px rgba(0, 0, 0, .10); */
 			/* display: table-column; */
-			right: 224px;
+			right: 230px;
 			position: absolute;
 			top: -1px;
 			height: 100%;
-			z-index: 1;
+			/* z-index: 1; */
 			border-top: none;
 		}
 
@@ -1094,7 +1094,7 @@ label {
 		}
 
 		tbody tr:hover {
-			background: #fdffcc;
+			background: #f5fbff;
 			cursor: pointer;
 		}
 
@@ -1152,7 +1152,7 @@ label {
 			line-height: 16px;
 			color: #2b93be;
 			font-size: 11px;
-			padding: 10px 10px 0px 10px;
+			padding: 10px 0px 0px 10px;
 			font-family: montserratlight;
 			float: left;
 			width: 100%;
@@ -1167,9 +1167,10 @@ label {
 		.expand.open th > .minus , .expand th > .plus {display: inline-block;}
 
 		tr.expand.open {
-			background: #fdffcc;
+			background: #f5fbff;
 			box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-			border-bottom: 1px solid #f1f3c4;
+			border-bottom: 1px solid #e0f2fe;
+			border-top: 1px solid #e0f2fe;
 		}
 
 		.expand-all > .minus , .expand-all.open > .plus {display: none;}
@@ -1183,7 +1184,7 @@ label {
 		
 		tbody tr.expand.open th {
 			vertical-align: top;
-			border-bottom: 1px solid #f1f3c4;
+			border-bottom: 1px solid #e0f2fe;
 		}
 		.pricing-block {
 			display: none;
@@ -1201,7 +1202,7 @@ label {
 			left: 0px;
 			background: #fff;
 			border: 1px solid #bed4df;
-			box-shadow: 0 -6px 10px rgba(0, 0, 0, .10);
+			/* box-shadow: 0 -6px 10px rgba(0, 0, 0, .10); */
 			border-bottom: 0px solid transparent;
 			z-index: 1;
 			
@@ -1268,16 +1269,19 @@ label.save-per {
 }
 
 span.label-popularPlan {
-    position: absolute;
+	position: absolute;
     width: 100%;
     font-size: 10px;
-    padding: 3px 5px;
-    color: #fff;
-    background-color: #8c8283;
+    color: rgb(255, 255, 255);
+    background-color: rgb(140, 130, 131);
     text-transform: uppercase;
     top: -7px;
-	left: 0px;
-	z-index: 1;
+    left: 0px;
+    z-index: 1;
+    min-height: 21px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -6px 10px;
+    padding: 3px 5px;
+    border-top: 1px solid rgb(190, 212, 223);
 }
 .quater{
     background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
@@ -1320,21 +1324,21 @@ td.active-bg {
 	border-left: 1px solid #bed4df;
 }
 tbody tr:hover td.active-bg {
-    background: #fdffcc;
+    background: #f5fbff;
     cursor: pointer;
 }
 .not-info td.active-bg:hover {
     background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
 }
 tr.expand.open td.expand-child.active-bg {
-    background: #fdffcc;
+	background: #f5fbff;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-    border-bottom: 1px solid #f1f3c4;
+    border-bottom: 1px solid #f5fbff;
 }
 tr.expand.open td.active-bg {
-    background: #fdffcc;
+    background: #f5fbff;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
-    border-bottom: 1px solid #f1f3c4;
+    border-bottom: 1px solid #f5fbff;
 }
 tr.not-info:hover td.active-bg {
     background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
@@ -1345,7 +1349,33 @@ tbody tr:last-child td.active-bg {
 .ltd-plan h2 {
 	color: #fb545b;
 	/* min-height: 37px; */
+<<<<<<< HEAD
+=======
+}
+tbody td span {
+    float: left;
+    width: 91%;
+    line-height: 16px;
+>>>>>>> production-stable-source
 }
 .ltd-plan h3 {
     color: #fb545b !important;
+}
+.asterix-text {
+    text-align: center;
+    font-size: 12px;
+    font-family: montserratlight;
+    opacity: 0.85;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.ltd-plan span.label-popularPlan {
+    top: -8px;
+    left: -1px;
+    width: 232px;
+}
+thead th p.price small, .pricing-block span.annual-price small {
+    font-size: 20px;
+    top: -7px;
+    position: relative;
 }
