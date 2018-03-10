@@ -430,6 +430,8 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 	.rating-block-left {min-height: 180px !important; padding-top: 12px !important; display: inline-grid !important;}
 	.g2 .rating-block-left {padding-top: 30px !important;}
 	.fb .rating-block-left {padding-top: 25px !important;}
+	.rating-block-right {width: 100% !important;}
+	.rating-block-left {border-right: none !important;}
 
 }
 @media (min-width: 0px) and (max-width: 450px){
@@ -19113,9 +19115,9 @@ img.uni1 {
     width: 100%;
     float: left;
 }
-.col-sm-2.footer-link {
+/* .col-sm-2.footer-link {
     width: 20%;
-}
+} */
 .col-sm-4.footer-link {
     width: 40%;
 }
@@ -19185,7 +19187,7 @@ i.zmdi.zmdi-twitter-box {
     /* width: 52%; */
     float: none;
 	margin: 25px auto 0px;
-	max-width: 572px;
+	max-width: 605px;
 }
 .rating-block-left {
     background: #2979bd;
@@ -19193,11 +19195,13 @@ i.zmdi.zmdi-twitter-box {
 	float: left;
 	min-height: 238px;
 	width: 235px;
+	border-right: 1px solid #d9dee1;
 }
 .rating-block-right {
     display: table;
 	float: left;
-	min-height: 220px;
+	min-height: 230px;
+	width: 368px;
 }
 .rating-icons {
     float: left;
@@ -19242,7 +19246,8 @@ i.zmdi.zmdi-twitter-box {
 .g2 .rating-block-right {
     display: table;
     float: left;
-    min-height: 309px;
+	min-height: 309px;
+	width: 368px;
 }
 .section-2-heading.g2 {
 	padding-top: 60px;
@@ -19262,7 +19267,8 @@ i.zmdi.zmdi-twitter-box {
     margin-top: 60px;
 }
 .fb .rating-block-right {
-    min-height: 247px;
+	min-height: 247px;
+	width: 308px;
 }
 .am {
 	background: #f3f8fb;
@@ -19312,4 +19318,10 @@ img.scrollimg1.wo {
 }
 .am .col-md-3.pull-right {
     margin-top: 17px;
+}
+.fb .rating-block-outer {
+    max-width: 545px;
+}
+.fb {
+    padding-bottom: 70px;
 }
