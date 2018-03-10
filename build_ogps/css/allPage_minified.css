@@ -18688,3 +18688,9 @@ img.uni1 {
 	}
 
 /* css start static HTML of fb, capterra and g2 crowd  */
+
+img.scrollimg1.wo {
+    width: auto !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}

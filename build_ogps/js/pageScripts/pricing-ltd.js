@@ -22,6 +22,11 @@ window.close_accordion_section = function () {
 	jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
 }
 
+window.selectPlan = function(plantype) {
+createCookie('ltd', plantype, 365, '.' + window.location.hostname);
+return true;
+}
+
 jQuery(document).ready(function() {
 	jQuery('.accordion-section-title').click(function(e) {
 		// Grab current anchor value

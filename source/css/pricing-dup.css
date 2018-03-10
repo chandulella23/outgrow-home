@@ -928,7 +928,7 @@ label {
 
 		th,td {
 			font-family: montserratregular;
-			font-size: 13px;
+			font-size: 12px;
 			/* line-height: 1.45; */
 			color: #797f83;
 			vertical-align: top;
@@ -1333,7 +1333,7 @@ td.active-bg {
 }
 tbody tr:hover td.active-bg {
     background: #f5fbff;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 .not-info td.active-bg:hover {
     background: url(https://cdn.filestackcontent.com/I9cqiZQTQyKo3uGT28WZ);
@@ -1518,9 +1518,9 @@ a.link-contact.intercom_trigger:hover {
 	line-height: 26px;
 	margin-bottom: 30px;
 }
-.col-sm-2.footer-link {
+/* .col-sm-2.footer-link {
     width: 20%;
-}
+} */
 .col-sm-4.footer-link {
     width: 40%;
 }
@@ -1573,4 +1573,17 @@ i.zmdi.zmdi-twitter-box {
 }
 .pricing-outer-ltd1 thead th p.price {
     font-size: 30px !important;
+}
+a.link-contact.intercom_trigger {
+    font-size: 11px;
+    color: #fb5f66;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0;
+	padding-top: 7px;
+	display: block;
+}
+a.link-contact.intercom_trigger:hover {
+    color: #ea101d;
 }
