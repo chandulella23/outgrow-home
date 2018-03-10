@@ -18592,6 +18592,13 @@ img.uni1 {
 		background-repeat: no-repeat;
 		width: 142px;
 		height: 77px;
+	}
+	.custom-embeds .nav-tabs>li:nth-child(4)>a {
+		background-image: url(../images/google_logo.png);
+		/* background-size: 142px 62px; */
+		background-repeat: no-repeat;
+		width: 142px;
+		height: 77px;
 		margin-right: 0px;
 	}
 	.custom-embeds .nav-tabs>li.active:nth-child(1)>a {
@@ -18603,6 +18610,9 @@ img.uni1 {
 	.custom-embeds .nav-tabs>li.active:nth-child(3)>a {
 		background-image: url(../images/crowdh.png);
 	}
+	.custom-embeds .nav-tabs>li.active:nth-child(4)>a {
+		background-image: url(../images/google_hover.png);
+	}
 	.custom-embeds .nav-tabs>li:nth-child(1)>a:hover {
 		background-image: url(../images/facebookh.png);
 	}
@@ -18611,6 +18621,9 @@ img.uni1 {
 	}
 	.custom-embeds .nav-tabs>li:nth-child(3)>a:hover {
 		background-image: url(../images/crowdh.png);
+	}
+	.custom-embeds .nav-tabs>li:nth-child(4)>a:hover {
+		background-image: url(../images/google_hover.png);
 	}
 	.custom-embeds .nav-tabs>li>a:hover {
 		background-color: transparent;
