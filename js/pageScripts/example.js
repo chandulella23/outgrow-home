@@ -104,6 +104,25 @@ window.shuffleCalcs = function (filterName) {
 }
 
 window.changeTab = function (tabName) {
+    let text = '';
+
+    switch (tabName) {
+        case 'Calculator':
+            text = 'There is a Calculator for that!';
+            break;
+        case 'OutcomeQuiz':
+            text = 'There is an Outcome quiz for that!';
+            break;
+        case 'GradedQuiz':
+            text = 'There is a Graded quiz for that!';
+            break;
+        case 'Poll':
+            text = 'There is a Poll for that!';
+            break;
+        default :
+            break;
+    }
+    jQuery('#premade-heading').text(text);
     let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
     let selectedCat = jQuery('#calc-cats li.active').children().attr('id')
     console.log('tabname=', tabName, selectedCat);
@@ -183,7 +202,7 @@ jQuery(document).ready(function () {
 
                 });
                 jQuery('#premade-content').removeClass('hide');
-                jQuery('#premade-header').removeClass('hide');
+                jQuery('#premade-heading').removeClass('hide');
                 jQuery('#premade-loader').addClass('hide');
                 setPremade();
                 shuffleCalcs('Auto');
