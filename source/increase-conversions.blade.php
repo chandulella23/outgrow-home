@@ -1392,7 +1392,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Lead generation hacks divided across 9 different categories, to help you ramp up your marketing efforts and get more business. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Real-life examples of how businesses like Hubspot, GAP, Copyblogger, and Hot Jaruse these techniques to get more leads from their websites, social media and other properties. </span></li>
 					</ul>
-					<a href="https://get.outgrow.co/ebook-70-lead-generation-tips/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class="">
+					<a href="https://get.outgrow.co/ebook-70-lead-generation-tips/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class=""  target="_blank">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>

@@ -1388,7 +1388,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to Pitch Interactive Content Marketing to Clients with Ready-to-Use Sales Email Templates, Case Studies, Decks & More. </span></li>
 					</ul> -->
-					<a href="https://influencers.outgrow.us/roi-of-outgrow?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" class="">
+					<a href="https://influencers.outgrow.us/roi-of-outgrow?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" class=""  target="_blank">
 						<button class="btn btn-red-new">Get your ROI <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>

@@ -929,7 +929,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Web and Mobile Games </span></li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Virtual and Augmented Reality </span></li>
 					</ul>
-					<a href="https://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class="">
+					<a href="https://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=website&utm_medium=link&utm_campaign=outgrow_survey_page" class=""  target="_blank">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>

@@ -1234,7 +1234,7 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to promote and maximize traffic? </span></li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to manage and follow up with leads? </span></li>
 					</ul>
-					<a href="https://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" class="">
+					<a href="https://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" class=""  target="_blank">
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
