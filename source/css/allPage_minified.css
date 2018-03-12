@@ -19356,7 +19356,20 @@ img.scrollimg1.wo {
 
 /* start responsive : landing pages css */
 	@media (min-width:1920px){
-		.section-banner {height: 840px;}
+		.section-banner {
+			/* height: 840px; */
+			background-position: 0px -235px;
+		}
+		.section-six {
+		background: url(../images/lp-section-six-bg-lg-img.png) no-repeat top right;
+    		height: 463px;
+		}
+
+	}
+	@media (min-width:1680px) and (max-width:1680px){
+		.section-banner {
+			background-position: 0px -127px;
+		}
 
 	}
 	@media (max-width:1024px){
@@ -19600,7 +19613,9 @@ img.scrollimg1.wo {
 		}
 		.section-second img {
 		}
-		.section-premade-temp, .section-embeds, .section-second, .section-six, .section-reading, .section-quotes {
+		.section-premade-temp, .section-embeds, 
+		.section-second, .section-six, 
+		.section-reading, .section-quotes {
 			padding-top: 50px;
 			margin-top: 0px;
 		}
@@ -19615,7 +19630,7 @@ img.scrollimg1.wo {
     		top: 20px;
 		}
 		.section-reading {
-			padding-bottom: 30px;
+			padding-bottom: 70px;
 		}
 		.reading-block{
 			width: 30%;
@@ -19634,7 +19649,7 @@ img.scrollimg1.wo {
 			right: 2px;
 		}
 		.section-premade-temp .container, 
-		.section-embeds .container,
+		/* .section-embeds .container, */
 		.section-second .container, 
 		.section-six .container, 
 		.section-reading .container, 
