@@ -83,6 +83,9 @@
 				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
 				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
+			<div class="company-address">
+				401 park ave, 10th floor, New York 10016
+			</div>
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
 				<span>Copyright 2018</span>

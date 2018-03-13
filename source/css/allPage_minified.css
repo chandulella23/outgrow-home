@@ -2689,7 +2689,7 @@ label.control-label {
 .footer-link ul li{float:left;width:100%;margin-bottom:20px}
 .footer-link ul li a{float:left;width:auto;color:#62696d}
 .footer-link ul li a:hover{color:#fb5f66}
-.footer-copyright{margin-top:15px;margin-bottom:10px}
+.footer-copyright{margin-top:10px;margin-bottom:10px}
 .footer-copyright p{display:inline;color:#bdc5c8;margin-right:5px}
 .footer-copyright p i{display:inline;color:#bdc5c8;font-size:14px;position:relative;top:2px;margin-right:3px}
 .footer-copyright img{display:inline;position:relative;top:-2px}
@@ -19712,3 +19712,10 @@ img.scrollimg1.wo {
 
 /* end responsive : landing pages css */
 
+
+.company-address {
+    font-family: montserratlight;
+	font-size: 12px;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
