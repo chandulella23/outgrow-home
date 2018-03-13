@@ -236,7 +236,7 @@
 					<img alt="black-hawk" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
 					<img alt="sm" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
 					<img alt="currencyfair" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
-					<img alt="winter-olympics" class="scrollimg1 wo"  src="images/clients-logos/winter-olympics.png" />
+					<img alt="winter-olympics" class="scrollimg1 wo"  src="https://dzvexx2x036l1.cloudfront.net/winter-olympics.png" />
 					<img alt="pinpoint-software" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
 					<img alt="temcoUK" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
 					<img alt="ladder" class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/ladder.png" />
@@ -261,7 +261,7 @@
 					<img alt="black-hawk" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
 					<img alt="sm" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
 					<img alt="currencyfair" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
-					<img alt="winter-olympics" class="scrollimg1 wo"  src="images/clients-logos/winter-olympics.png" />
+					<img alt="winter-olympics" class="scrollimg1 wo"  src="https://dzvexx2x036l1.cloudfront.net/winter-olympics.png" />
 					<img alt="pinpoint-software" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
 					<img alt="temcoUK" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
 					<img alt="ladder" class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/ladder.png" />
@@ -286,7 +286,7 @@
 					<img alt="black-hawk" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/black-hawk.png" />
 					<img alt="sm" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/sm.png" />
 					<img alt="currencyfair" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/currencyfair.png" />
-					<img alt="winter-olympics" class="scrollimg1 wo"  src="images/clients-logos/winter-olympics.png" />
+					<img alt="winter-olympics" class="scrollimg1 wo"  src="https://dzvexx2x036l1.cloudfront.net/winter-olympics.png" />
 					<img alt="pinpoint-software" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/pinpoint-software.png" />
 					<img alt="temcoUK" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/temcoUK.png" />
 					<img alt="ladder" class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/ladder.png" />
@@ -798,10 +798,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Dapo Bankole</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-dapo.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-dapo.png">
 								</div>
 							</div>
 						</div>
@@ -821,10 +821,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Jonathan Naccache</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-jona.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-jona.png">
 								</div>
 							</div>
 						</div>
@@ -844,10 +844,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Va Barber Hua</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-va.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-va.png">
 								</div>
 							</div>
 						</div>
@@ -867,10 +867,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Bryce York</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-bryce.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-bryce.png">
 								</div>
 							</div>
 						</div>
@@ -890,10 +890,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Rachel Kornak</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-rachel.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-rachel.png">
 								</div>
 							</div>
 						</div>
@@ -913,7 +913,7 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Jake Anderson</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
 									<img alt="user image" src="images/testimonial-userImg-jake.png">
@@ -942,10 +942,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Verified Reviewer</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									<!-- <img alt="user image" src="images/testimonial-userImg1.jpg"> -->
+									<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 								</div>
 							</div>
 						</div>
@@ -967,10 +967,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Verified Reviewer</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									<!-- <img alt="user image" src="images/testimonial-userImg1.jpg"> -->
+									<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 								</div>
 							</div>
 						</div>
@@ -992,10 +992,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Ryan Zagata</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									<!-- <img alt="user image" src="images/testimonial-userImg1.jpg"> -->
+									<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 								</div>
 							</div>
 						</div>
@@ -1018,10 +1018,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Ed Ferrigan</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									 <img alt="user image" src="images/testimonial-userImg-ed.png"> 
+									 <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-ed.png"> 
 								</div>
 							</div>
 						</div>
@@ -1043,10 +1043,10 @@
 									<div class="testi-content">
 										<!-- <span class="testi-desig ellipsis"></span> -->
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									 <!-- <img alt="user image" src="images/testimonial-userImg1.jpg">  -->
+									 <!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">  -->
 								</div>
 							</div>
 						</div>
@@ -1069,10 +1069,10 @@
 									<div class="testi-content">
 										 <span class="testi-desig ellipsis">Jake Anderson</span> 
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									 <!-- <img alt="user image" src="images/testimonial-userImg1.jpg">  -->
+									 <!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">  -->
 								</div>
 							</div>
 						</div>
@@ -1096,10 +1096,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2Crwod logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2Crwod logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg1.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">
 								</div>
 							</div>
 						</div>
@@ -1119,10 +1119,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg2.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg2.jpg">
 								</div>
 							</div>
 						</div>
@@ -1142,10 +1142,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg3.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg3.jpg">
 								</div>
 							</div>
 						</div>
@@ -1165,10 +1165,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg4.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg4.jpg">
 								</div>
 							</div>
 						</div>
@@ -1188,10 +1188,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg5.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg5.jpg">
 								</div>
 							</div>
 						</div>
@@ -1211,10 +1211,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg6.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg6.jpg">
 								</div>
 							</div>
 						</div>
@@ -1237,10 +1237,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Reena Jadhav</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="/images/testimonial-userImg-reenaJ.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-reenaJ.png">
 								</div>
 							</div>
 						</div>
@@ -1259,10 +1259,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Robert Peters</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="/images/testimonial-userImg-robertP.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-robertP.png">
 								</div>
 							</div>
 						</div>
@@ -1281,10 +1281,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Vicky Singh</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="/images/testimonial-userImg-vickyS.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-vickyS.png">
 								</div>
 							</div>
 						</div>
@@ -1303,10 +1303,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Joakim Thörn</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="/images/testimonial-userImg-joakimT.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-joakimT.png">
 								</div>
 							</div>
 						</div>
@@ -1325,10 +1325,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Tom Lyons </span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="/images/testimonial-userImg-tomL.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-tomL.png">
 								</div>
 							</div>
 						</div>

@@ -32,7 +32,7 @@
 
 	<div class="header-logo">		
 		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_sales_page" class="" target="_blank">
-			<img src="{{ $page->baseUrl }}/images/lp-header-logo.png" alt="lp-header-logo image">
+			<img src="https://dzvexx2x036l1.cloudfront.net/lp-header-logo.png" alt="lp-header-logo image">
 		</a>
 	</div>
 
@@ -64,7 +64,7 @@
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading">Generate More Revenue And Leads By Using Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
-				<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image">
+				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>All templates have been heavily optimize to improve conversion on both desktop and mobile </span> </li>
@@ -72,7 +72,7 @@
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions and traffic across all channels </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
 				</ul>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-second-img.png" alt="lp-section-second-img image"> 
+				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
 		</div>
 	</section>
@@ -251,10 +251,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Dapo Bankole</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="Facebook logo image" src="{{ $page->baseUrl }}/images/testimonial-fb-mini.png">
+												<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-dapo.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-dapo.png">
 									</div>
 								</div>
 							</div>
@@ -274,10 +274,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Jonathan Naccache</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="Facebook logo image" src="{{ $page->baseUrl }}/images/testimonial-fb-mini.png">
+												<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-jona.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-jona.png">
 									</div>
 								</div>
 							</div>
@@ -297,10 +297,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Va Barber Hua</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="Facebook logo image" src="{{ $page->baseUrl }}/images/testimonial-fb-mini.png">
+												<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-va.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-va.png">
 									</div>
 								</div>
 							</div>
@@ -320,10 +320,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Bryce York</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="Facebook logo image" src="{{ $page->baseUrl }}/images/testimonial-fb-mini.png">
+												<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-bryce.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-bryce.png">
 									</div>
 								</div>
 							</div>
@@ -343,10 +343,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Rachel Kornak</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="Facebook logo image" src="{{ $page->baseUrl }}/images/testimonial-fb-mini.png">
+												<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-rachel.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-rachel.png">
 									</div>
 								</div>
 							</div>
@@ -366,10 +366,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Jake Anderson</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="Facebook logo image" src="{{ $page->baseUrl }}/images/testimonial-fb-mini.png">
+												<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-jake.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-jake.png">
 									</div>
 								</div>
 							</div>
@@ -395,10 +395,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Verified Reviewer</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<!-- <img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg"> -->
+												<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 											</a>
 										</div>
-										<!-- <img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg1.jpg"> -->
+										<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 									</div>
 								</div>
 							</div>
@@ -420,10 +420,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Verified Reviewer</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<!-- <img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg"> -->
+												<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 											</a>
 										</div>
-										<!-- <img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg1.jpg"> -->
+										<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 									</div>
 								</div>
 							</div>
@@ -445,10 +445,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Ryan Zagata</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<!-- <img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg"> -->
+												<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 											</a>
 										</div>
-										<!-- <img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg1.jpg"> -->
+										<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 									</div>
 								</div>
 							</div>
@@ -471,10 +471,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Ed Ferrigan</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<!-- <img alt="G2Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg"> -->
+												<!-- <img alt="G2Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-ed.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-ed.png">
 									</div>
 								</div>
 							</div>
@@ -496,10 +496,10 @@
 										<div class="testi-content">
 											<!-- <span class="testi-desig ellipsis"></span> -->
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<!-- <img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg"> -->
+												<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 											</a>
 										</div>
-										<!-- <img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg1.jpg">  -->
+										<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">  -->
 									</div>
 								</div>
 							</div>
@@ -522,10 +522,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Jake Anderson</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<!-- <img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg"> -->
+												<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 											</a>
 										</div>
-										<!-- <img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg1.jpg">  -->
+										<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">  -->
 									</div>
 								</div>
 							</div>
@@ -549,10 +549,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="G2Crwod logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg">
+												<img alt="G2Crwod logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg1.jpg">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">
 									</div>
 								</div>
 							</div>
@@ -572,10 +572,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="G2Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg">
+												<img alt="G2Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg2.jpg">
+										<img alt="user image" src="{{ $page->baseUrl }}/https://dzvexx2x036l1.cloudfront.net/testimonial-userImg2.jpg">
 									</div>
 								</div>
 							</div>
@@ -595,10 +595,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg">
+												<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg3.jpg">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg3.jpg">
 									</div>
 								</div>
 							</div>
@@ -618,10 +618,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg">
+												<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg4.jpg">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg4.jpg">
 									</div>
 								</div>
 							</div>
@@ -641,10 +641,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg">
+												<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg5.jpg">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg5.jpg">
 									</div>
 								</div>
 							</div>
@@ -664,10 +664,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="G2 Crowd logo image" src="{{ $page->baseUrl }}/images/testimonial-g2crowd-mini.jpg">
+												<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg6.jpg">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg6.jpg">
 									</div>
 								</div>
 							</div>
@@ -690,10 +690,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Reena Jadhav</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="gplus logo image" src="{{ $page->baseUrl }}/images/testimonial-gplus-mini.jpg">
+												<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-reenaJ.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-reenaJ.png">
 									</div>
 								</div>
 							</div>
@@ -712,10 +712,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Robert Peters</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="gplus logo image" src="{{ $page->baseUrl }}/images/testimonial-gplus-mini.jpg">
+												<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-robertP.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-robertP.png">
 									</div>
 								</div>
 							</div>
@@ -734,10 +734,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Vicky Singh</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="gplus logo image" src="{{ $page->baseUrl }}/images/testimonial-gplus-mini.jpg">
+												<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-vickyS.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-vickyS.png">
 									</div>
 								</div>
 							</div>
@@ -756,10 +756,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Joakim Thörn</span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="gplus logo image" src="{{ $page->baseUrl }}/images/testimonial-gplus-mini.jpg">
+												<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-joakimT.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-joakimT.png">
 									</div>
 								</div>
 							</div>
@@ -778,10 +778,10 @@
 										<div class="testi-content">
 											<span class="testi-desig ellipsis">Tom Lyons </span>
 											<a href="javascript:void(0);" class="view-post ellipsis">View Post
-												<img alt="gplus logo image" src="{{ $page->baseUrl }}/images/testimonial-gplus-mini.jpg">
+												<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
 											</a>
 										</div>
-										<img alt="user image" src="{{ $page->baseUrl }}/images/testimonial-userImg-tomL.png">
+										<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-tomL.png">
 									</div>
 								</div>
 							</div>
@@ -1390,7 +1390,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="col-md-10 col-sm-12 col-xs-12 np">
 					<div class="section-heading">Guide: Generate a New Revenue Stream with Interactive Content Marketing </div>
-					<img class="rs-show" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="Interactive Content Marketing for Digital Agencies"> 
+					<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-six-img_increase-sales.png" alt="Interactive Content Marketing for Digital Agencies"> 
 					<ul>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Why Agencies Should Offer Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
@@ -1400,7 +1400,7 @@
 						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
 					</a>
 				</div>
-				<img class="rs-hide" src="{{ $page->baseUrl }}/images/lp-section-six-img_increase-sales.png" alt="Interactive Content Marketing for Digital Agencies"> 
+				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-six-img_increase-sales.png" alt="Interactive Content Marketing for Digital Agencies"> 
 			</div>
 		</div>
 	</section>
@@ -1413,7 +1413,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading1_increase-sales.png" alt="5 Signs You’re Being Too ‘Salesy"> 
+						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading1_increase-sales.png" alt="5 Signs You’re Being Too ‘Salesy"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>5 Signs You’re Being Too ‘Salesy’ and How to Sell Better </h4>
@@ -1423,7 +1423,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading2_increase_sales.png" alt="Value Based Selling"> 
+						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading2_increase_sales.png" alt="Value Based Selling"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>Value Based Selling: How to Sell by Not Selling </h4>
@@ -1433,7 +1433,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/lp-reading3_increase_sales.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
+						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading3_increase_sales.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
 					<div class="col-md-12 np reading-content">
 						<h4>[Case Study] How Macroscape Helped Its Client Get a 36% Conversion Rate </h4>

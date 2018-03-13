@@ -18784,7 +18784,7 @@ img.scrollimg1.wo {
 		transform: rotate(-12deg);
 	} */
 	.section-banner {
-		background: url(../images/lp-banner-bg.png) no-repeat;
+		background: url('https://dzvexx2x036l1.cloudfront.net/lp-banner-bg.png') no-repeat;
 		height: 610px;
 		margin: 0px;
 		float: left;
@@ -19047,7 +19047,7 @@ img.scrollimg1.wo {
 	.section-six{
 		float: left;
 		width: 100%;
-		background: url(../images/lp-section-six-bg-img.png) no-repeat top right;
+		background: url('https://dzvexx2x036l1.cloudfront.net/lp-section-six-bg-img.png') no-repeat top right;
 		height: 445px;
 		margin-top: 0px;
 		padding-top: 70px;
@@ -19361,7 +19361,7 @@ img.scrollimg1.wo {
 			background-position: 0px -235px;
 		}
 		.section-six {
-		background: url(../images/lp-section-six-bg-lg-img.png) no-repeat top right;
+		background: url('https://dzvexx2x036l1.cloudfront.net/lp-section-six-bg-lg-img.png') no-repeat top right;
     		height: 463px;
 		}
 
