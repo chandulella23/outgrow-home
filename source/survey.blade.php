@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 banner-inner">
 				<div class="col-md-8 col-sm-7 col-xs-12 banner-jacket">
-					<img src="{{ $page->baseUrl }}/images/banner_img_survey.png" alt="Outgrow's Online Survey Builder"> 
+					<img src="https://dzvexx2x036l1.cloudfront.net/banner_img_survey.png" alt="Outgrow's Online Survey Builder"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
 					<p>“I really like the ability to simply create what is basically a pop up survey that creates user engagement.” </p>
@@ -170,8 +170,8 @@
 						</div>
 
 						<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
-							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_logo.png"/> 
-							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_hover.png" class="over over4"/> 
+							<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_logo.png"/> 
+							<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_hover.png" class="over over4"/> 
 						</div>
 
 					</div>

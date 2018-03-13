@@ -228,7 +228,7 @@
 					<img alt="catapult-system" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
 					<img alt="mulesoft" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
 					<img alt="radius" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
-					<img alt="golf-avenue" class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
+					<img alt="golf-avenue" class="scrollimg1"  src="https://dzvexx2x036l1.cloudfront.net/golf-avenue.png" />
 					<img alt="abl" class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/abl.png" />
 					<img alt="agl" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
 					<img alt="the-offshore-group" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
@@ -253,7 +253,7 @@
 					<img alt="catapult-system" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
 					<img alt="mulesoft" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
 					<img alt="radius" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
-					<img alt="golf-avenue" class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
+					<img alt="golf-avenue" class="scrollimg1"  src="https://dzvexx2x036l1.cloudfront.net/golf-avenue.png" />
 					<img alt="abl" class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/abl.png" />
 					<img alt="agl" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
 					<img alt="the-offshore-group" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
@@ -278,7 +278,7 @@
 					<img alt="catapult-system" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/catapult-system.png" />
 					<img alt="mulesoft" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/mulesoft.png" />
 					<img alt="radius" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/radius.png" />
-					<img alt="golf-avenue" class="scrollimg1"  src="images/clients-logos/golf-avenue.png" />
+					<img alt="golf-avenue" class="scrollimg1"  src="https://dzvexx2x036l1.cloudfront.net/golf-avenue.png" />
 					<img alt="abl" class="scrollimg1 abl"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/abl.png" />
 					<img alt="agl" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/agl.png" />
 					<img alt="the-offshore-group" class="scrollimg1"  src="//dzvexx2x036l1.cloudfront.net/clients-logos/the-offshore-group.png" />
@@ -743,8 +743,8 @@
 					</div>
 
 					<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
-						<img alt="Google image" src="images/google_logo.png"/> 
-						<img alt="Google image" src="images/google_hover.png" class="over over4"/> 
+						<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_logo.png"/> 
+						<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_hover.png" class="over over4"/> 
 					</div>
 
 				</div>

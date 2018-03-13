@@ -183,8 +183,8 @@
 						</div>
 
 						<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
-							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_logo.png"/> 
-							<img alt="Google image" src="{{ $page->baseUrl }}/images/google_hover.png" class="over over4"/> 
+							<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_logo.png"/> 
+							<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_hover.png" class="over over4"/> 
 						</div>
 
 					</div>
