@@ -363,7 +363,7 @@ label {
 		color: #fb5f66;
 	}
 	.footer-copyright {
-		margin-top: 15px;
+		margin-top: 10px;
 		margin-bottom: 10px
 	}
 	.footer-copyright p {
@@ -1406,4 +1406,11 @@ thead th p.price small, .pricing-block span.annual-price small {
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;}
 
+}
+
+.company-address {
+    font-family: montserratlight;
+	font-size: 12px;
+	margin-top: 10px;
+	text-transform: capitalize;
 }
