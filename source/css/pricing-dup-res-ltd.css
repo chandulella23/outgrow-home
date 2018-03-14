@@ -287,6 +287,29 @@
 	.detail {
 		padding: 10px 10px 0px 10px;
 	}
+	.pricing-outer-ltdSales .ltd-plan span.label-popularPlan {
+		width: 100% !important;
+		left: 0px !important;
+	}
+	.pricing-outer-ltdSales .pricing-top h3 {
+		margin-top: 25px;
+	}
+	.pricing-outer-ltdSales .pricing-block {
+		display: block;
+		text-align: center;
+		background: #fff;
+		border: 1px solid #eff0f1;
+		margin-bottom: 0;
+	}
+	.faq-section-ltd {
+		margin-right: 30px;
+		margin-left: 30px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	.ltdSales-wrapper .asterix-text {
+		padding: 0px 20px;
+	}
 
 
 }
@@ -307,6 +330,14 @@
 	#pricing .container-faqs {
 		width: 800px;
 		margin: 0 auto;
+	}
+	.ltdSales-wrapper {
+		padding: 0px 15px;
+	}
+	.pricing-outer-ltdSales .ltd-plan span.label-popularPlan {
+		top: -1px;
+		left: -1px;
+		width: 238px;
 	}
 }
 
