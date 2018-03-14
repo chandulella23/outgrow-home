@@ -1416,7 +1416,7 @@ thead th p.price small, .pricing-block span.annual-price small {
 }
 
 .ltdSales-wrapper {
-    max-width: 980px;
+    max-width: 1005px;
     margin: 0 auto;
     float: none;
 }
@@ -1429,7 +1429,8 @@ thead th p.price small, .pricing-block span.annual-price small {
     color: #fb5f66;
     font-family: montserratlight;
     margin-top: 0;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	text-align: center;
 }
 .faq-section-ltd {
     margin-left: 40px;
@@ -1454,7 +1455,7 @@ thead th p.price small, .pricing-block span.annual-price small {
 .pricing-outer-ltdSales .ltd-plan span.label-popularPlan {
     top: -1px;
     left: -1px;
-    width: 245px;
+    width: 252px;
 }
 .pricing-outer-ltdSales thead th.active:before {
     content: "";
@@ -1469,4 +1470,7 @@ thead th p.price small, .pricing-block span.annual-price small {
     border-bottom: 0px solid transparent;
     z-index: 1;
     top: -1px;
+}
+.faq-section-ltd .faq-section-content:last-child p {
+    margin-bottom: 0px;
 }
