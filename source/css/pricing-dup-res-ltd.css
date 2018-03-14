@@ -332,13 +332,17 @@
 		margin: 0 auto;
 	}
 	.ltdSales-wrapper {
-		padding: 0px 15px;
+		padding: 0px 30px;
 	}
 	.pricing-outer-ltdSales .ltd-plan span.label-popularPlan {
 		top: -1px;
 		left: -1px;
-		width: 238px;
+		width: 237px;
 	}
+	.faq-section-ltd {
+   		margin-left: 30px;
+	}
+
 }
 
 @media (min-width: 1024px) and (max-width:1024px) {
