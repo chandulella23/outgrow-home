@@ -21,7 +21,7 @@
 				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer4.jpg" src="" alt="Our Live Calculators footer image" /></div>
 				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer3.jpg" src="" alt="Our Live Calculators footer image" /></div>
 			</div>
-			<div class="col-xs-12 col-sm-10 footer-link mk-animate-element fade-in">
+			<div class="col-xs-12 col-sm-10 np footer-link mk-animate-element fade-in">
 				<h4 class="footer-img2text col-xs-12">Resources</h4>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
