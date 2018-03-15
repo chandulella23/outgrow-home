@@ -1418,7 +1418,7 @@
                                             </span>
                                         </th>
                                         <th class="active ltd-plan">
-                                            <span class="label-popularPlan">Limited Time**</span>
+                                            <span class="label-popularPlan">Limited Time*</span>
                                             <h2>Lifetime Deal</h2>
                                             <span class="annual-price">
                                                 <p class="price"><sup>$</sup>49</p>
@@ -2430,7 +2430,7 @@
                         </div>
                         <!-- ltd design for sales pages -->
                         <div class="asterix-text">
-                        **Offer is available for 2 weeks only
+                        *Offer is available for 2 weeks only
                         </div>
                     </div>
 
