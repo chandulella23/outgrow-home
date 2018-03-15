@@ -645,7 +645,7 @@
         padding-left: 0
     }
     .footer-img2 {
-        min-height: 165px
+        min-height: 170px
     }
     .billingpricing-text p {
         margin: 0 0 45px
@@ -785,7 +785,7 @@
 
 @media (min-width:320px) and (max-width:320px) {
     .section-14 .footer-img2 {
-        min-height: 162px;
+        min-height: 170px;
         padding-left: 0
     }
 }
@@ -1143,6 +1143,9 @@
     .Privacy .Privacy-subheading {
         font-size: 18px !important;
         line-height: 24px;
+    }
+    .navbar-collapse.collapse {
+        float: none !important;
     }
 }
 @media (min-width:769px) and (max-width:990px) {
