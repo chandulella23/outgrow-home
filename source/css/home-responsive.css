@@ -1091,7 +1091,7 @@
         margin-right: 0px
     }
     .custom-navbar .signUp-style a {
-        margin-top: 0px;
+        /* margin-top: 0px; */
     }
     .custom-navbar.navbar-default .navbar-nav>li>a {
         font-size: 12px;
