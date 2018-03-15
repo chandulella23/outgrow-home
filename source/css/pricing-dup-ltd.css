@@ -1495,7 +1495,8 @@ thead th p.price small, .pricing-block span.annual-price small {
 }
 .pricing-outer-ltdSales th.active {
     /* border-left: 1px solid #bed4df; */
-    border: 1px solid #bed4df;
+	border: 1px solid #bed4df;
+	border-bottom: none;
 }
 .pricing-outer-ltdSales td.active-bg {
     border-right: 1px solid #bed4df;
