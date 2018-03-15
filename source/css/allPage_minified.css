@@ -2692,7 +2692,7 @@ label.control-label {
 .footer-copyright{margin-top:10px;margin-bottom:10px}
 .footer-copyright p{display:inline;color:#bdc5c8;margin-right:5px}
 .footer-copyright p i{display:inline;color:#bdc5c8;font-size:14px;position:relative;top:2px;margin-right:3px}
-.footer-copyright img{display:inline;position:relative;top:-2px}
+.footer-copyright img{display:inline;position:relative;top:-2px; max-width: 105px;}
 .footer-img-text{font-size:12px;color:#62696d;margin-top:5px}
 .footer-img-text a{color:#62696d; font-family: montserratlight;width: 100%;float: left;text-align: left;margin: 0;}
 .footer-img-text a:hover{color:#fb5f66}
@@ -2701,8 +2701,8 @@ label.control-label {
 .footer-social ul li{display:inline-block;padding-left:10px;padding-right:10px}
 .footer-social ul li a{float:left;color:#62696d;font-size:13px;font-family:montserratregular}
 .footer-social ul li a:hover{color:#fb5f66}
-.footer-copyright i{position:relative;top:2px;font-size:14px;margin-right:5px;color:#62696d;}
-.footer-copyright span{margin-right:10px;font-size:14px;color:#62696d}
+.footer-copyright i{position:relative;top:3px;font-size:14px;margin-right:3px;color:#62696d;}
+.footer-copyright span{margin-right:5px;font-size:14px;color:#62696d}
 .slider-sa{min-height:530px}
 #feature .section-7 .slider-sa,#feature .section-f1 .slider-sa{min-height:400px;padding-right:0}
 .billingpricing-text i{font-size:54px;color:rgba(251,108,115,.8)}

@@ -382,7 +382,8 @@ label {
 	.footer-copyright img {
 		display: inline;
 		position: relative;
-		top: -2px
+		top: -2px;
+		max-width: 105px;
 	}
 	.footer-img-text {
 		font-size: 12px;
@@ -419,13 +420,13 @@ label {
 	}
 	.footer-copyright i {
 		position: relative;
-		top: 2px;
+		top: 3px;
 		font-size: 14px;
-		margin-right: 5px;
+		margin-right: 3px;
 		color: #62696d;
 	}
 	.footer-copyright span {
-		margin-right: 10px;
+		margin-right: 5px;
 		font-size: 14px;
 		color: #62696d
 	}
