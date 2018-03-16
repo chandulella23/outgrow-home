@@ -2679,10 +2679,17 @@ label.control-label {
 .img-2-text{top:25px;left:-30px}
 .footer-copyright p,.footer-link ul li a{font-family:montserratregular;font-size:13px}
 .footer-img,.footer-link{padding-left:0}
-.footer-link{float:left}
+.footer-link { /* to make the row height equal */
+	float: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
 .footer-link h4{float:left;width:100%;color:#fb5f66;font-size:16px;margin-bottom:20px;text-transform:uppercase;text-align:left;}
 .footer-img,.footer-img2{margin-bottom:15px;float:left}
-.footer-img2{min-height:100px}
+/* .footer-img2{min-height:100px} */
 .footer-img2 img{border:1px solid #bdc5c8}
 .footer-img2text{float:left;width:100%;color:#bdc5c8;font-size:18px;margin-bottom:20px}
 .footer-link ul{float:left;width:100%;margin:0;padding:0}
@@ -3524,7 +3531,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.center{text-align:center}
 	.img-container{padding:0!important}
 	.footer-img2,.footer-img2text{padding-left:0}
-	.footer-img2{min-height:170px}
+	 .footer-img2{
+		/* min-height:170px */
+	} 
 	.billingpricing-text p{margin:0 0 45px}
 	.vc_row{margin-left:0!important;margin-right:0!important}
 	.section-7-left h4,.section-9-left h4{margin-top:30px;font-size:24px}
@@ -3788,7 +3797,10 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 }
 
 @media (min-width:320px) and (max-width:320px){
-	.section-14 .footer-img2{min-height:170px;padding-left:0}
+	.section-14 .footer-img2{
+		/* min-height:170px; */
+		padding-left:0
+	}
 	.sahil-material .claim-cta .form-group .form-control {
 	    padding-right: 90px;
 	}
@@ -3921,7 +3933,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	    padding-right: 95px;
 	}
 	.text-1,.text-2{display:block!important;font-family:montserratregular!important;float:left!important;margin-left:10px}
-	.footer-img2{padding-left:0;min-height:165px}
+	.footer-img2{padding-left:0;
+		/* min-height:165px */
+	}
 	.section-7-left h4,.section-9-left h4{margin-top:30px}
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:270px}
 	.sec4-2{height:325px}
@@ -4273,7 +4287,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.center{text-align:center}
 	.img-container{padding:0!important}
 	.footer-img2,.footer-img2text{padding-left:0}
-	.footer-img2{min-height:165px}
+	/* .footer-img2{min-height:165px} */
 	.billingpricing-text p{margin:0 0 45px}
 	.vc_row{margin-left:0!important;margin-right:0!important}
 	.section-7-left h4,.section-9-left h4{font-size:24px}
@@ -4484,7 +4498,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 @media (min-width:991px) and (max-width:1023px){
 	/*.navbar-right{margin-top:10px}*/
 	.circle-value{float:left;margin-top:15px;width:100px}
-	.footer-img2{min-height:170px;float:left;margin-bottom:15px}
+	.footer-img2{
+		/* min-height:170px; */
+		float:left;margin-bottom:15px}
 	.section-1-left .btn-buildcal,.section-1-left .btn-buildcal.red{/*padding:13px 0px !important;font-size:12px;*/}
 	.section-1-left .btn-buildcal i{margin-right:3px;}
 	.section-1-left .video-btn{padding:10px 11px}

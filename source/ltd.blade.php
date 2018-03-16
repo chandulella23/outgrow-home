@@ -1594,7 +1594,7 @@
                                         <td class="expand-child active-bg">
                                             <!-- <span class="full"></span>Limited -->
                                             <span class="check"><i class="material-icons">check_circle</i></span>Limited Access
-                                            <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discretely at the bottom. </span> 
+                                            <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                         </td>
                                         <!-- <td class="expand-child">
                                             <span class="full"></span>Allowed
@@ -1649,7 +1649,7 @@
                                         </th>
                                         <td class="expand-child active-bg">                                
                                             <!-- <span class="quater"></span>Limited Access -->
-                                            <span class="check"><i class="material-icons">check_circle</i></span>Limited Access
+                                            <span class="check"><i class="material-icons">check_circle</i></span>No Access
                                             <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span>
                                         </td>
                                         <!-- <td class="expand-child">                                
@@ -1810,7 +1810,7 @@
                                                     Custom Branding
                                                 </span>
                                                 <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Limited Access</span>
-                                                <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discretely at the bottom. </span> 
+                                                <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                             </li>
                                             <li class="expand-rs">
                                                 <span class="feature-title">
@@ -1842,7 +1842,7 @@
                                                     <i class="material-icons minus">remove</i> 
                                                     Advanced Features
                                                 </span>
-                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Limited Access</span>
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>No Access</span>
                                                 <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span>
                                             </li>
                                             <!-- <li>
