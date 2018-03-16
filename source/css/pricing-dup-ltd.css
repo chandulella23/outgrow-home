@@ -1526,3 +1526,36 @@ thead th p.price small, .pricing-block span.annual-price small {
     border: 1px solid transparent;
 	border-radius: 4px;
 }
+
+.pricing-outer-ltdSales td span.check {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+	margin-right: 5px;
+	margin-top: 3px;
+}
+.pricing-outer-ltdSales td span.check i {
+    color: #2b93be;
+    font-size: 14px;
+}
+.pricing-outer-ltdSales tbody td {
+    /* background: #fff; */
+    text-align: left;
+    font-family: montserratlight;
+    padding: 10px 15px;
+	line-height: 21px;
+}
+.pricing-outer-ltdSales li span.check {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: sub;
+}
+.pricing-outer-ltdSales li span.check i {
+    color: #2b93be;
+    font-size: 14px;
+}
+.pricing-outer-ltdSales thead th h2 {
+    margin-top: 40px;
+}

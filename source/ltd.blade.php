@@ -1465,25 +1465,37 @@
                                 <tbody>
                                     <tr class="not-info">
                                         <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                                        <td class="active-bg"><span class="quater"></span>300 & 6000</td>
+                                        <td class="active-bg">
+                                            <!-- <span class="quater"></span>300 & 6000/month -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>300 & 6000/month
+                                        </td>
                                         <!-- <td><span class="quater"></span>300 & 6000</td>
                                         <td><span class="full"></span>1,000 & 20,000</td> -->
                                     </tr>
-                                    <tr class="not-info">
-                                        <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
-                                        <td class="active-bg"><span class="quater"></span>3</td>
+                                    <tr class="expand">
+                                        <th>
+                                            <i class="material-icons plus">add</i>
+                                            <i class="material-icons minus">remove</i> 
+                                            No. of Experiences
+                                        </th>                                   
+                                        <td class="active-bg expand-child">
+                                            <!-- <span class="quater"></span>3 -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>3
+                                            <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                        </td>
                                         <!-- <td><span class="half"></span>6</td>
                                         <td class=""><span class="full"></span>25</td> -->
                                     </tr>
-                                    <tr class="not-info">
+                                    <tr class="expand">
                                         <th>
-                                            <i class="material-icons vis-hide">add</i>
-                                            <!-- <i class="material-icons minus">remove</i>  -->
+                                            <i class="material-icons plus">add</i>
+                                            <i class="material-icons minus">remove</i> 
                                             Type of Experiences
                                         </th> 
                                         <td class="active-bg">
-                                            <span class="quater"></span>Only Outcome Quizzes
-                                            <!-- <span class="detail">Only Outcome Quizzes </span> -->
+                                            <!-- <span class="quater"></span>Outcome Quizzes -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>Outcome Quizzes
+                                            <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span> 
                                         </td>
                                         <!-- <td class="">
                                             <span class="half"></span>                                
@@ -1494,15 +1506,16 @@
                                             <span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls </span>
                                         </td> -->
                                     </tr> 
-                                    <tr class="not-info">
+                                    <tr class="expand">
                                         <th>
-                                            <i class="material-icons vis-hide">add</i>
-                                            <!-- <i class="material-icons minus">remove</i>--> Layouts and Templates   
+                                            <i class="material-icons plus">add</i>
+                                            <i class="material-icons minus">remove</i> 
+                                            Layouts and Templates   
                                         </th>
                                         <td class="expand-child active-bg">
-                                            <span class="quater"></span>
-                                            <span>Classic Layout and Templates</span>
-                                            <!-- <span class="detail">Only the Classic "Chicago" layout and templates.</span> -->
+                                            <!-- <span class="quater"></span> Classic Layout and Templates -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>Classic Layout and Templates
+                                            <span class="detail">You can create outcome quizzes using our highly customizable & classic ‘Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
                                         </td>
                                         <!-- <td class="expand-child">
                                             <span class="quater"></span>
@@ -1513,7 +1526,7 @@
                                             <span>All Layouts and Templates </span>
                                         </td> -->
                                     </tr>                        
-                                    <tr class="not-info">
+                                    <tr class="not-info hide">
                                         <th>
                                             <i class="material-icons plus vis-hide">add</i>
                                             <!-- <i class="material-icons minus">remove</i>   -->
@@ -1539,7 +1552,8 @@
                                             Analytics and Tracking
                                         </th>
                                         <td class="expand-child active-bg">                                
-                                            <span class="quater"></span>Limited Access
+                                            <!-- <span class="quater"></span>Limited Access -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>Limited Access
                                             <span class="detail">Traffic Details, Lead Data and User Responses.</span>
                                         </td>
                                         <!-- <td class="expand-child">                                
@@ -1558,7 +1572,8 @@
                                             Hosting and Embedding
                                         </th>
                                         <td class="expand-child active-bg">
-                                            <span class="half"></span>Embed Anywhere
+                                            <!-- <span class="half"></span>Embed Anywhere -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>Embed Anywhere
                                             <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                         </td>  
                                         <!-- <td class="expand-child">
@@ -1570,15 +1585,16 @@
                                             <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                         </td>                           -->
                                     </tr>
-                                    <tr class="not-info">
+                                    <tr class="expand">
                                         <th>
-                                            <i class="material-icons vis-hide">add</i>
-                                            <!-- <i class="material-icons minus">remove</i>  -->
+                                            <i class="material-icons plus">add</i>
+                                            <i class="material-icons minus">remove</i> 
                                             Custom Branding
                                         </th>
                                         <td class="expand-child active-bg">
-                                            <span class="full"></span>Allowed
-                                            <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
+                                            <!-- <span class="full"></span>Limited -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>Limited Access
+                                            <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discretely at the bottom. </span> 
                                         </td>
                                         <!-- <td class="expand-child">
                                             <span class="full"></span>Allowed
@@ -1587,15 +1603,16 @@
                                             <span class="full"></span>Allowed
                                         </td> -->
                                     </tr>
-                                    <tr class="not-info">
+                                    <tr class="expand">
                                         <th>
-                                            <i class="material-icons vis-hide">add</i>
-                                            <!-- <i class="material-icons minus">remove</i>  -->
+                                            <i class="material-icons plus">add</i>
+                                            <i class="material-icons minus">remove</i> 
                                             Integrations
                                         </th>
                                         <td class="expand-child active-bg">                                
-                                            <span class="full"></span>Zapier + Native
-                                            <!-- <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span> -->
+                                            <!-- <span class="full"></span>Zapier + Native -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span> Zapier + Native
+                                            <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
                                         </td>
                                         <!-- <td class="expand-child">                                
                                             <span class="full"></span>Zapier + Native
@@ -1611,8 +1628,29 @@
                                             Support
                                         </th>
                                         <td class="expand-child active-bg">                                
-                                            <span class="quater"></span>Support Docs
+                                            <!-- <span class="quater"></span>Support Docs -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>Support Docs
                                             <span class="detail">You will have access to support docs.</span>
+                                        </td>
+                                        <!-- <td class="expand-child">                                
+                                            <span class="quater"></span>Support Docs
+                                            <span class="detail">You will have access to support docs.</span>                             
+                                        </td>
+                                        <td class="expand-child">                                
+                                            <span class="half"></span>Basic
+                                            <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
+                                        </td> -->
+                                    </tr>
+                                    <tr class="expand">
+                                        <th>
+                                            <i class="material-icons plus">add</i>
+                                            <i class="material-icons minus">remove</i> 
+                                            Advanced Features
+                                        </th>
+                                        <td class="expand-child active-bg">                                
+                                            <!-- <span class="quater"></span>Limited Access -->
+                                            <span class="check"><i class="material-icons">check_circle</i></span>Limited Access
+                                            <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span>
                                         </td>
                                         <!-- <td class="expand-child">                                
                                             <span class="quater"></span>Support Docs
@@ -1631,11 +1669,11 @@
                                 <!-- lifetime -->
                                 <div class="col-md-12 col-sm-12 col-xs-12 np pricing-block ltd-plan">
                                     <!-- <span class="ribbon">Most Popular</span> -->
-                                    <span class="label-popularPlan">Life Time Deal</span>
+                                    <span class="label-popularPlan">LIMITED TIME*</span>
                                     <div class="pricing-top">
                                         <h3>Life Time Deal</h3>
                                         <span class="annual-price">
-                                            <p class="price"><sup>$</sup>49<small>*</small></p>
+                                            <p class="price"><sup>$</sup>49</p>
                                         </span>
                                         <span class=""><a onClick="return selectPlan('ltd')" href="//app.outgrow.co/ltd" target="_blank" class="params btn-hover">Buy Now</a></span>
                                     </div>
@@ -1643,35 +1681,40 @@
                                         <ul class="features rs-hide">
                                             <li>
                                                 <span class="feature-title">Leads & Visits</span>
-                                                <span class="feature-subtitle"><span class="full"></span>300 &amp; 6000</span>
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>300 &amp; 6000/month</span>
                                             </li>
-                                            <li>
-                                                <span class="feature-title">No. of Experiences</span>
-                                                <span class="feature-subtitle"><span class="half"></span>3</span>
-                                            </li>
-                                            <li class="">
+                                            <li class="expand-rs">
                                                 <span class="feature-title">
-                                                    <!-- <i class="material-icons vis-hide">add</i> -->
-                                                    <!-- <i class="material-icons minus">remove</i>  -->
+                                                    <i class="material-icons plus">add</i>
+                                                    <i class="material-icons minus">remove</i> 
+                                                    No. of Experiences
+                                                </span>
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>3</span>
+                                                <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                            </li>   
+                                            <li class="expand-rs">
+                                                <span class="feature-title">
+                                                     <i class="material-icons plus">add</i> 
+                                                     <i class="material-icons minus">remove</i>  
                                                     Type of Experiences
                                                 </span>
-                                                <span class="feature-subtitle"><span class="quater"></span>Only Outcome Quizzes</span>
-                                                <!-- <span class="detail">Only Outcome Quizzes </span> -->
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Outcome Quizzes</span>
+                                                 <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span> 
                                             </li> 
                                             <!-- <li>
                                                 <span class="feature-title">Collaborators</span>
                                                 <span class="feature-subtitle"><span class="half"></span>3</span>
                                             </li> -->
-                                            <li class="">
+                                            <li class="expand-rs">
                                                 <span class="feature-title">
-                                                    <!-- <i class="material-icons vis-hide">add</i> -->
-                                                    <!-- <i class="material-icons minus">remove</i>  -->
+                                                     <i class="material-icons plus">add</i> 
+                                                     <i class="material-icons minus">remove</i>  
                                                 Layouts and Templates  
                                                 </span>
-                                                <span class="feature-subtitle"><span class="quater"></span>Classic Layout and Templates </span>
-                                                <!-- <span class="detail">Only the Classic "Chicago" layout and templates.</span> -->
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Classic Layout and Templates </span>
+                                                 <span class="detail">You can create outcome quizzes using our highly customizable & classic ‘Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
                                             </li>
-                                            <li class="">
+                                            <li class="hide">
                                                 <span class="feature-title">
                                                     <!-- <i class="material-icons plus">add</i>
                                                     <i class="material-icons minus">remove</i>  -->
@@ -1686,7 +1729,7 @@
                                                     <i class="material-icons minus">remove</i> 
                                                     Analytics and Tracking
                                                 </span>
-                                                <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Limited Access</span>
                                                 <span class="detail">Traffic Details, Lead Data and User Responses.</span>
                                             </li>                                
                                             <!-- <li class="expand-rs">
@@ -1749,7 +1792,7 @@
                                                     <i class="material-icons minus">remove</i> 
                                                     Hosting and Embedding
                                                 </span>
-                                                <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Embed Anywhere </span>
                                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                             </li>
                                             <!-- <li class="expand-rs">
@@ -1760,23 +1803,23 @@
                                                 </span>
                                                 <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                             </li> -->
-                                            <li class="">
+                                            <li class="expand-rs">
                                                 <span class="feature-title">
-                                                    <!-- <i class="material-icons vis-hide">add</i> -->
-                                                    <!-- <i class="material-icons minus">remove</i>  -->
+                                                     <i class="material-icons plus">add</i> 
+                                                     <i class="material-icons minus">remove</i>  
                                                     Custom Branding
                                                 </span>
-                                                <span class="feature-subtitle"><span class="full"></span>Allowed</span>
-                                                <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Limited Access</span>
+                                                <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discretely at the bottom. </span> 
                                             </li>
-                                            <li class="">
+                                            <li class="expand-rs">
                                                 <span class="feature-title">
-                                                    <!-- <i class="material-icons vis-hide">add</i> -->
-                                                    <!-- <i class="material-icons minus">remove</i>  -->
+                                                     <i class="material-icons plus">add</i> 
+                                                     <i class="material-icons minus">remove</i>  
                                                     Integrations
                                                 </span>
-                                                <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
-                                                <!-- <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc. </span> -->
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Zapier + Native</span>
+                                                <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
                                             </li>
                                             <!-- <li class="">
                                                 <span class="feature-title">
@@ -1790,8 +1833,17 @@
                                                     <i class="material-icons minus">remove</i> 
                                                     Support
                                                 </span>
-                                                <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Support Docs</span>
                                                 <span class="detail">You will have access to support docs.</span>
+                                            </li>
+                                            <li class="expand-rs">
+                                                <span class="feature-title">
+                                                    <i class="material-icons plus">add</i>
+                                                    <i class="material-icons minus">remove</i> 
+                                                    Advanced Features
+                                                </span>
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Limited Access</span>
+                                                <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span>
                                             </li>
                                             <!-- <li>
                                                 <span class="feature-title">Templates</span>
