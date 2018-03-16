@@ -1649,7 +1649,7 @@
                                         </th>
                                         <td class="expand-child active-bg">                                
                                             <!-- <span class="quater"></span>Limited Access -->
-                                            <span class="check"><i class="material-icons">check_circle</i></span>No Access
+                                            <span class="none ltd-no-access"></span>No Access
                                             <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span>
                                         </td>
                                         <!-- <td class="expand-child">                                
@@ -1842,7 +1842,7 @@
                                                     <i class="material-icons minus">remove</i> 
                                                     Advanced Features
                                                 </span>
-                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>No Access</span>
+                                                <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                                 <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span>
                                             </li>
                                             <!-- <li>

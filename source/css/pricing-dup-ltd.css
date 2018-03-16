@@ -1564,3 +1564,6 @@ thead th p.price small, .pricing-block span.annual-price small {
 .pricing-outer-ltdSales thead th h2 {
     margin-top: 40px;
 }
+.pricing-outer-ltdSales .ltd-no-access {
+    margin-top: 3px;
+}
