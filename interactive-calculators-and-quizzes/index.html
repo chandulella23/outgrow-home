@@ -46,9 +46,9 @@
 	}
 	window.intercomSettings = {
 		app_id: intercom_id,
-		custom_launcher_selector: '#intercom_trigger'
+		custom_launcher_selector: '.intercom_trigger'
 	};
-	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r841gnag';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',window.intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/'+intercom_id;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
 	var schemaA = document.createElement('script');
 	schemaA.type = 'application/ld+json';
@@ -114,19 +114,6 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-	<nav class="navbar custom-navbar navbar-default">
-	<div class="container-fluid">
-		<div class="navbar-header something nothing ventepaca">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
-		</div>
-	</div>
-</nav>
 		<script src="/js/swiper.min.js"></script>
 	<section class="section section-1 section-old">
 		<div class="container-fluid">
@@ -722,22 +709,29 @@
 		"index": "/js/pageScripts/index.js",
 		"resizer": "/js/loader/resizer.js",
 	}
+;
 
-		var loadedLibs = {}
-		var counter = 0
+		var loadedLibs = {};
+		var counter = 0;
 		var loadAsync = function(lib) {
-			var http = new XMLHttpRequest()
-			http.open("GET", libs[lib], true)
+			var http = new XMLHttpRequest();
+			http.open("GET", libs[lib], true);
 			http.onload = function () {
-				loadedLibs[lib] = http.responseText
-				if (++counter == Object.keys(libs).length) startScripts()
+				loadedLibs[lib] = http.responseText;
+				if (++counter == Object.keys(libs).length) {
+					startScripts();
+				}
 			}
-			http.send()
+			http.send();
 		}
 		var startScripts = function() {
-			for (var lib in libs) eval(loadedLibs[lib])
+			for (var lib in libs) {
+				eval(loadedLibs[lib]);
+			}
 		}
-		for (var lib in libs) loadAsync(lib)
+		for (var lib in libs) {
+			loadAsync(lib);
+		} 
 	</script>
 </body>
 </html>
