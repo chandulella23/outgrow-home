@@ -537,7 +537,8 @@
         margin-top: 10px
     }
     .custom-navbar.navbar-default {
-        padding-right: 0
+        padding-right: 0;
+        padding: 0px;
     }
     .navbar-toggle {
         border: none

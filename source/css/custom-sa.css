@@ -174,7 +174,7 @@ label {
 	border: none;
 	padding: 0;
 	z-index: 999;
-	/* border-bottom: 1px solid #eff0f0; */
+	border-bottom: 1px solid #eff0f0;
 	padding: 5px 0px;
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
@@ -212,7 +212,7 @@ label {
 	color: #fb5f66 !important
 }
 .custom-navbar .link-login {
-	color: #fb5f66 !important;
+	color: #fb6c73 !important;
 	font-family: montserratbold
 }
 .custom-navbar .link-login:hover {
@@ -224,19 +224,20 @@ label {
     border-radius: 20px;
     background: #fb5f66 !important;
     color: #fff!important;
-    padding: 7px 10px !important;
+    padding: 5px 10px !important;
     line-height: 1 !important;
-    font-size: 12px!important;
+    font-size: 13px!important;
     border: 2px solid #f8434b !important;
     margin-top: 13px;
     margin-right: 15px;
-    margin-left: 6px;
+	margin-left: 6px;
+	font-family: montserratregular;
 }
 .custom-navbar .signUp-style a:hover ,.custom-navbar .signUp-style a:focus{
     opacity: 1;
     background: #fb757b !important;
     color: #fff !important;
-    border: 2px solid #fb5f66 !important;
+    border: 2px solid #f8434b !important;
 }
 .nav-boxshadow {
 	box-shadow: 0 2px 9px 1px rgba(0, 0, 0, .2);
@@ -252,7 +253,7 @@ label {
 }
 .section-1-left h3, .section-1-left h3.section1-firsthead {
 	font-size: 28px;
-	color: #fb5f66;
+	color: #fb6c73;
 	text-transform: uppercase;
 	margin-top: 0
 }
@@ -334,17 +335,17 @@ label {
 	font-size: 24px
 }
 .section-1-left .btn-buildcal.red {
-	background: #fb5f66;
+	background: #fb545b;
 	color: #fff;
 	font-size: 15px;
 	padding: 13px 30px;
-	border: 2px solid #fb5f66;
+	border: 2px solid #fb545b;
 	transition: .5s ease-in-out
 }
 .section-1-left .btn-buildcal.red:hover {
 	background: 0 0;
-	border: 2px solid #fb5f66;
-	color: #fb5f66
+	border: 2px solid #fb545b;
+	color: #fb545b
 }
 .collag1-img, .collag2-img {
 	background-position: center top
@@ -367,7 +368,7 @@ label {
 .section-1-left .btn-bottominfo span {
 	float: none;
 	width: 100%;
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 12px;
 	font-family: montserratbold;
 	text-align: left
@@ -481,7 +482,7 @@ label {
 	float: right
 }
 .section-2-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	text-align: left;
@@ -513,12 +514,12 @@ label {
 	margin: 0 auto;
 	position: relative;
 	top: 15px;
-	padding: 0 18%
+	padding: 0 22%
 }
 .img-bottom-text {
 	position: relative;
 	top: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 24px;
 	font-family: montserratlight;
 	width: 100%;
@@ -548,7 +549,7 @@ label {
 	padding-right: 25px
 }
 .section-3-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light
 }
@@ -595,7 +596,7 @@ label {
 	padding-top: 20px
 }
 .sec3-box2inner i {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	display: block;
 	margin-bottom: 10px
@@ -614,7 +615,7 @@ label {
 	font-size: 14px
 }
 .sec3-box2inner h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 18px;
 	text-transform: uppercase
 }
@@ -629,8 +630,8 @@ label {
 	text-transform: uppercase
 }
 .section-3 .btn-buildcal {
-	background: #fb5f66;
-	border: 2px solid #fb5f66;
+	background: #fb6c73;
+	border: 2px solid #fb6c73;
 	color: #fff;
 	float: none;
 	font-size: 14px;
@@ -642,7 +643,7 @@ label {
 }
 .section-3 .btn-buildcal:hover {
 	background: #fdb6b9;
-	color: #fb5f66;
+	color: #fb545b;
 	border-color: #fdb6b9
 }
 .section-3 .btn-buildcal p {
@@ -677,7 +678,7 @@ label {
 	padding-left: 0
 }
 .section-4-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 24px;
 	text-align: left;
 	width: 75%;
@@ -729,7 +730,7 @@ label {
 	padding-right: 0
 }
 .section-5-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 30px;
 	text-transform: uppercase
 }
@@ -766,7 +767,7 @@ label {
 	padding-right: 35px
 }
 .section-6-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 30px;
 	text-align: left;
 	width: 75%;
@@ -805,8 +806,8 @@ label {
 	box-shadow: 0 5px 28px 8px rgba(0, 0, 0, .2)
 }
 .section-6 .btn-buildcal {
-	background: #fb5f66;
-	border: 2px solid #fb5f66;
+	background: #fb6c73;
+	border: 2px solid #fb6c73;
 	color: #fff;
 	float: none;
 	font-size: 14px;
@@ -818,7 +819,7 @@ label {
 }
 .section-6 .btn-buildcal:hover {
 	background: #fdb6b9;
-	color: #fb5f66;
+	color: #fb545b;
 	border-color: #fdb6b9
 }
 .section-6 .btn-buildcal p {
@@ -856,7 +857,7 @@ label {
 	float: left
 }
 .section-7-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	width: 88%;
@@ -924,7 +925,7 @@ label {
 .circle-value label {
 	width: 76px;
 	height: 76px;
-	border: 2px solid #fb5f66;
+	border: 2px solid #fb6c73;
 	border-radius: 50%;
 	color: #62696d;
 	font-size: 18px;
@@ -1029,7 +1030,7 @@ label {
 	padding-left: 0
 }
 .new-sec9-h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	text-align: left;
@@ -1072,7 +1073,7 @@ label {
 	display: block
 }
 .section-9-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	text-align: left;
@@ -1141,7 +1142,7 @@ label {
 	padding-right: 0
 }
 .section-10 {
-	background: #fb5f66;
+	background: #fb6c73;
 	margin-bottom: 80px;
 	margin-top: 40px
 }
@@ -1430,8 +1431,8 @@ label {
 }
 .billing-white-top .btn-white-red-outline {
 	color: #fff;
-    background-color: #fb5f66;
-    border-color: #fb5f66;
+    background-color: #fb6c73;
+    border-color: #fb6c73;
     border-radius: 50px;
     font-size: 11px;
     padding: 7px 30px;
@@ -1444,7 +1445,7 @@ label {
 }
 .billing-white-top .btn-white-red-outline.hvr-sweep-to-right::before {
 	background: #ffb5b8;
-	color: #fb5f66 !important;
+	color: #fb545b !important;
 	text-rendering: optimizeLegibility
 }
 .billing-grey {
@@ -1466,7 +1467,7 @@ label {
     font-family: montserratregular;
 }
 .billing-grey-top .border-center {
-	border-bottom: 2px solid #fb5f66;
+	border-bottom: 2px solid #fb545b;
 	display: inline-block;
 	width: 28px;
 	position: relative;
@@ -1520,8 +1521,8 @@ label {
 }
 .billing-grey-top .btn-white-red-outline {
 	color: #fff;
-    background-color: #fb5f66;
-    border-color: #fb5f66;
+    background-color: #fb6c73;
+    border-color: #fb6c73;
     border-radius: 50px;
     font-size: 11px;
     padding: 7px 30px;
@@ -1534,7 +1535,7 @@ label {
 }
 .billing-grey-top .btn-white-red-outline.hvr-sweep-to-right::before {
 	background: #ffb5b8;
-	color: #fb5f66 !important;
+	color: #fb545b !important;
 	text-rendering: optimizeLegibility
 }
 .billing-grey-top .btn-try-it {
@@ -1668,7 +1669,7 @@ label {
 	font-size: 10px;
 	padding: 3px 5px;
 	color: #fff;
-	background-color: #fb5f66;
+	background-color: #fb545b;
 	text-transform: uppercase;
 	top: -5px;
 	right: -7px
@@ -1680,7 +1681,7 @@ label {
 	position: absolute;
 	display: block;
 	border-style: solid;
-	border-color: #fb5f66 transparent transparent;
+	border-color: #fb545b transparent transparent;
 	bottom: -7px;
 	text-rendering: optimizeLegibility
 }
@@ -1693,7 +1694,7 @@ label {
 	top: 0;
 	border-width: 10px;
 	border-style: solid;
-	border-color: #fb5f66 #fb5f66 #fb5f66 transparent;
+	border-color: #fb545b #fb545b #fb545b transparent;
 	text-rendering: optimizeLegibility
 }
 .enterprise-box {
@@ -1754,8 +1755,8 @@ label {
 	cursor: default
 }
 .start-trial-cta .btn-buildcal {
-	background: #fb5f66;
-	border: 2px solid #fb5f66;
+	background: #fb6c73;
+	border: 2px solid #fb6c73;
 	color: #fff;
 	float: none;
 	font-size: 14px;
@@ -1768,7 +1769,7 @@ label {
 .start-trial-cta .btn-buildcal:hover {
     background: #fb757b;
     color: #fff;
-    border-color: #fb5f66;
+    border-color: #f8434b;
 }
 .start-trial-cta .btn-buildcal i {
 	display: inline-block;
@@ -1798,7 +1799,7 @@ label {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding: 70px 0 90px;
+	padding: 70px 0
 }
 .portfolio_main_holder .item_holder .portfolio_title {
 	margin: 15px 0;
@@ -1831,7 +1832,7 @@ label {
 	width: 100%;
 	background: #fafafa;
 	margin: 0;
-	padding-top: 85px;
+	padding-top: 30px;
 	padding-bottom: 10px;
 	min-height: 250px
 }
@@ -1880,7 +1881,7 @@ label {
 	float: left;
 	width: 100%;
 	color: #fb5f66;
-	font-size: 15px;
+	font-size: 16px;
 	margin-bottom: 20px;
 	text-transform: uppercase
 }
@@ -1889,10 +1890,10 @@ label {
 	float: left
 }
 .footer-img2 {
-	min-height: 141px
+	min-height: 100px
 }
 .footer-img2 img {
-	/* border: 1px solid #bdc5c8 */
+	border: 1px solid #bdc5c8
 }
 .footer-img2text {
 	float: left;
@@ -1916,13 +1917,13 @@ label {
 .footer-link ul li a {
 	float: left;
 	width: auto;
-	color: #626883;
+	color: #62696d;
 }
 .footer-link ul li a:hover {
 	color: #fb5f66;
 }
 .footer-copyright {
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-bottom: 10px
 }
 .footer-copyright p {
@@ -1941,7 +1942,8 @@ label {
 .footer-copyright img {
 	display: inline;
 	position: relative;
-	top: -2px
+	top: -2px;
+	max-width: 105px;
 }
 .footer-img-text {
 	font-size: 12px;
@@ -1969,7 +1971,7 @@ label {
 }
 .footer-social ul li a {
 	float: left;
-	color: #626883;
+	color: #62696d;
 	font-size: 13px;
 	font-family: montserratregular;
 }
@@ -1978,13 +1980,13 @@ label {
 }
 .footer-copyright i {
 	position: relative;
-	top: 2px;
+	top: 3px;
 	font-size: 14px;
-	margin-right: 5px;
+	margin-right: 3px;
 	color: #62696d;
 }
 .footer-copyright span {
-	margin-right: 10px;
+	margin-right: 5px;
 	font-size: 14px;
 	color: #62696d
 }
@@ -2007,7 +2009,7 @@ label {
 	margin-right: 110px
 }
 .billingpricing-text p a {
-	color: #fb5f66
+	color: #fb545b
 }
 #route {
 	position: absolute;
@@ -2200,7 +2202,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
 	opacity: 1;
-	background: #fb5f66;
+	background: rgba(251, 108, 115, .8)
 }
 .swiper-pagination-white .swiper-pagination-bullet-active {
 	background: #fff
@@ -2918,7 +2920,7 @@ button.swiper-pagination-bullet {
 }
 #feature .collag-left .collage-red {
 	float: right;
-	background: #fb5f66;
+	background: #fb6c73;
 	width: 184px;
 	height: 184px;
 	padding: 35px 18px;
@@ -2931,7 +2933,7 @@ button.swiper-pagination-bullet {
 }
 #feature .collag-right .collage-red {
 	float: right;
-	background: #fb5f66;
+	background: #fb6c73;
 	width: 184px;
 	height: 184px;
 	padding: 35px;
@@ -2957,12 +2959,12 @@ button.swiper-pagination-bullet {
 	width: 100%;
 	font-size: 48px;
 	font-family: montserratbold;
-	color: #fb5f66;
+	color: #fb6c73;
 	text-transform: uppercase;
 	margin-bottom: 30px
 }
 #feature .section-4-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 30px;
 	font-family: montserratlight;
 	text-align: left;
@@ -2990,7 +2992,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-9-left h4 {
 	margin-top: 0;
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	text-align: left;
@@ -3056,8 +3058,8 @@ button.swiper-pagination-bullet {
 }
 #feature .section-7 .section-9-left .btn-exploreTemp {
 	background: #fff;
-	border: 1px solid #fb5f66;
-	color: #fb5f66;
+	border: 1px solid #fb6c73;
+	color: #fb6c73;
 	float: left;
 	margin-top: 20px
 }
@@ -3067,8 +3069,8 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f1 .section-f1-left .btn-exploreTemp {
 	background: #fff;
-	border: 1px solid #fb5f66;
-	color: #fb5f66;
+	border: 1px solid #fb6c73;
+	color: #fb6c73;
 	float: left;
 	margin-top: 20px
 }
@@ -3085,7 +3087,7 @@ button.swiper-pagination-bullet {
 	padding-left: 120px
 }
 #feature .section-f1-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -3151,7 +3153,7 @@ button.swiper-pagination-bullet {
 	float: left
 }
 #feature .section-f2 .section-f2-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -3191,7 +3193,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f2-left span i {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -3234,13 +3236,13 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f3-left span i {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
 }
 #feature .section-f3 .section-f3-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -3297,13 +3299,13 @@ button.swiper-pagination-bullet {
 }
 #feature .section-f4-left span i {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
 }
 #feature .section-f4 .section-f4-left h4 {
-    color: #fb5f66;
+    color: #fb6c73;
     font-size: 42px;
     font-family: montserratultra_light;
     text-align: center;
@@ -3372,11 +3374,11 @@ button.swiper-pagination-bullet {
 }
 #feature .section-7 .section-9-left .btn-exploreTemp.hvr-sweep-to-right:before {
 	color: #fff !important;
-	background: #fb5f66 !important
+	background: #fb6c73 !important
 }
 #feature .section-7 .section-9-left .btn-exploreTemp span {
 	float: left;
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-family: montserratsemibold;
@@ -3384,12 +3386,12 @@ button.swiper-pagination-bullet {
 	margin: 3px 0 0 5px
 }
 #feature .section-7 .section-9-left .btn-exploreTemp i.material-icons {
-	color: #fb5f66;
+	color: #fb6c73;
 	float: left;
 	font-size: 26px
 }
 #feature .section-4 .section-4-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -3414,7 +3416,7 @@ button.swiper-pagination-bullet {
 	margin-bottom: 40px
 }
 #feature .section.section-5 h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	text-align: center;
@@ -3500,8 +3502,8 @@ button.swiper-pagination-bullet {
 }
 #feature .section-7 .section-9-left .btn-buildCalc {
 	background: #fff;
-	border: 1px solid #fb5f66;
-	color: #fb5f66;
+	border: 1px solid #fb6c73;
+	color: #fb6c73;
 	float: left;
 	margin-top: 20px;
 	padding: 0
@@ -3510,13 +3512,13 @@ button.swiper-pagination-bullet {
 	padding: 15px 35px 40px 15px
 }
 #feature .section-7 .section-9-left .btn-buildCalc i.material-icons {
-	color: #fb5f66;
+	color: #fb6c73;
 	float: left;
 	font-size: 26px
 }
 #feature .section-7 .section-9-left .btn-buildCalc span {
 	float: left;
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-family: montserratsemibold;
@@ -3524,7 +3526,7 @@ button.swiper-pagination-bullet {
 	margin: 3px 0 0 15px
 }
 #feature .section-7 .section-9-left .btn-buildCalc div.active, #feature .section-7 .section-9-left .btn-buildCalc div:hover {
-	background: #fb5f66 !important;
+	background: #fb6c73 !important;
 	color: #fff
 }
 #feature .section-7 .section-9-left .btn-buildCalc div:focus i.material-icons, #feature .section-7 .section-9-left .btn-buildCalc div:focus span, #feature .section-7 .section-9-left .btn-buildCalc div:hover i.material-icons, #feature .section-7 .section-9-left .btn-buildCalc div:hover span {
@@ -3532,7 +3534,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-7 .section-9-left .btn-buildCalc.hvr-sweep-to-right:before {
 	color: #fff !important;
-	background: #fb5f66 !important
+	background: #fb6c73 !important
 }
 #feature .sec-integration {
 	margin-top: 0px
@@ -3553,7 +3555,7 @@ button.swiper-pagination-bullet {
 	width: 100%
 }
 #feature .section-6.sec-analytics h1 {
-	color: #fb5f66 !important;
+	color: #fb6c73 !important;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	text-align: center;
@@ -3570,7 +3572,7 @@ button.swiper-pagination-bullet {
 	padding-bottom: 30px
 }
 #feature .section-6.sec-integration h1 {
-	color: #fb5f66 !important;
+	color: #fb6c73 !important;
     font-size: 32px;
     font-family: montserratlight;
     text-align: center;
@@ -3616,11 +3618,10 @@ button.swiper-pagination-bullet {
 	padding-top: 30px
 }
 #feature .section.section-10.sec-help {
-	background: #fb5f66;
+	background: #fb6c73;
 	margin-bottom: 0;
 	min-height: 290px;
-	margin-top: 0;
-	padding-bottom: 50px;
+	margin-top: 0
 }
 #feature .section.section-10.sec-help span {
 	font-size: 18px;
@@ -3660,7 +3661,7 @@ button.swiper-pagination-bullet {
 	margin-top: 20px
 }
 #feature .sec-analytics span.circle.active {
-	background: #fb5f66;
+	background: #fb6c73;
 	width: 6px;
 	height: 6px;
 	float: left;
@@ -3695,7 +3696,7 @@ button.swiper-pagination-bullet {
 	padding-top: 75px;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	background: #fb5f66
+	background: #fb6c73
 }
 #feature .feature-heading {
 	float: left;
@@ -3744,7 +3745,7 @@ button.swiper-pagination-bullet {
 	margin-bottom: 60px
 }
 #feature .section-15 .section-15-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -3783,7 +3784,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-15-left span i {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -3805,7 +3806,7 @@ button.swiper-pagination-bullet {
 	box-shadow: 0 5px 28px 8px rgba(0, 0, 0, .2)
 }
 #feature .section-17 .section-17-left h4 {
-    color: #fb5f66;
+    color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -3816,7 +3817,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-17-left span i {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -3836,7 +3837,7 @@ button.swiper-pagination-bullet {
 }
 #feature .section-4-left span i, .icon-style {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -3945,7 +3946,7 @@ button.swiper-pagination-bullet {
 	width: 100%;
 	font-size: 72px;
 	font-family: montserratsemibold;
-	color: #fb5f66;
+	color: #fb6c73;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	margin-top: 0
@@ -4053,7 +4054,7 @@ button.swiper-pagination-bullet {
 #why .section-w1-left h4, #why .section-w2-left h4 {
 	font-family: montserratlight;
 	width: 80%;
-	color: #fb5f66;
+	color: #fb6c73;
 	display: block;
 	float: left;
 	text-align: left;
@@ -4069,7 +4070,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-w1-left span i, #why .section-w2-left span i {
 	font-size: 48px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -4094,7 +4095,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-w3-left span i {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -4108,7 +4109,7 @@ button.swiper-pagination-bullet {
 	margin-bottom: 10px
 }
 #why .section-w3-text h4 {
-	color: #fb5f66;
+	color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -4120,7 +4121,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-w3-text span i {
 	font-size: 48px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -4175,14 +4176,14 @@ button.swiper-pagination-bullet {
 }
 #why .collag-left i {
 	margin-top: 4%;
-	color: #fb5f66
+	color: #fb6c73
 }
 #why .collag-left a.collag4 {
 	width: 100%
 }
 #why .section-2-heading {
 	font-family: montserratultra_light;
-    color: #fb5f66 !important;
+    color: #fb6c73 !important;
     margin: 0px;
     font-size: 42px;
     float: left;
@@ -4241,7 +4242,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-4-left span i {
 	font-size: 48px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -4283,7 +4284,7 @@ button.swiper-pagination-bullet {
 	width: 86%
 }
 #why .section-7-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 36px;
 	font-family: montserratultra_light;
 	text-align: left;
@@ -4376,7 +4377,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-16-left span i {
 	font-size: 48px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
@@ -4402,7 +4403,7 @@ button.swiper-pagination-bullet {
 	padding-left: 0
 }
 #why .section-16-left h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 24px;
 	width: 100%;
 	margin-top: 0;
@@ -4433,13 +4434,13 @@ button.swiper-pagination-bullet {
 }
 #why .section-16-text span i {
 	font-size: 60px;
-	color: #fb5f66;
+	color: #fb6c73;
 	position: relative;
 	margin-right: 10px;
 	float: left
 }
 #why .section-16-text h4 {
-	color: #fb5f66;
+	color: #fb6c73;
 	font-size: 30px;
 	width: 100%;
 	margin-top: 0
@@ -4472,7 +4473,7 @@ button.swiper-pagination-bullet {
 	width: 100%;
     margin-top: 50px;
 	margin-bottom: 30px;
-	background: #fb5f66;
+	background: #fb6c73;
 	padding: 35px 0
 }
 #why .section-top-why h3 {
@@ -4708,7 +4709,7 @@ button.swiper-pagination-bullet {
 #pricing .accordion-section-title {
 	background-color: #fff;
 	display: inline-block;
-	color: #fb5f66;
+	color: #fb6c73;
 	cursor: pointer;
 	padding: 15px;
 	width: 100%;
@@ -4813,9 +4814,9 @@ button.swiper-pagination-bullet {
 }
 #pricing .pricing-headingtop {
 	float: left;
-	 background: #fb5f66; 
+	 background: #fb6c73; 
 	/* min-height: 455px; */
-	/*background: linear-gradient(to bottom, #fb5f66 447px, #fff 100px);*/
+	/*background: linear-gradient(to bottom, #fb6c73 447px, #fff 100px);*/
 }
 #pricing .pricing-headingtop .plans-heading {
 	margin-bottom: 5px;
@@ -4871,7 +4872,7 @@ button.swiper-pagination-bullet {
 	text-align: center
 }
 #pricing .enterprise-box-new span.border-center {
-	border-bottom: 2px solid #fb5f66;
+	border-bottom: 2px solid #fb545b;
 	display: inline-block;
 	width: 28px;
 	position: relative;
@@ -4887,7 +4888,7 @@ button.swiper-pagination-bullet {
 }
 #pricing .enterprise-box-new .btn-white-red-outline {
 	color: #fff;
-	background-color: #fb5f66;
+	background-color: #fb545b;
 	border-color: #ffb5b8;
 	border-radius: 0;
 	font-size: 11px;
@@ -4903,7 +4904,7 @@ button.swiper-pagination-bullet {
 	transition: .5s ease-in-out;
     background: #fb757b !important;
     color: #fff !important;
-    border-color: #fb5f66 !important;
+    border-color: #f8434b !important;
 }
 #pricing .enterprise-box-new span.sub-title {
 	font-size: 14px;
@@ -5135,7 +5136,7 @@ button.swiper-pagination-bullet {
     margin-top: 100px;
 }
 .Privacy .Privacy-subheading {
-    color: #fb5f66;
+    color: #fb6c73;
     font-size: 24px;
     font-family: montserratlight;
     text-align: left;
@@ -5159,7 +5160,7 @@ button.swiper-pagination-bullet {
 	float: left;
 	width: 100%;
 	font-size: 14px;
-	color: #fb5f66;
+	color: #fb6c73;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	line-height: 1.4
@@ -5173,10 +5174,10 @@ button.swiper-pagination-bullet {
 	list-style: disc
 }
 .Privacy .section-services {
-	margin-bottom: 90px
+	margin-bottom: 60px
 }
 .Privacy p a {
-	color: #fb5f66
+	color: #fb6c73
 }
 .Privacy p a:hover, .Privacy p a:visited {
 	text-decoration: none
@@ -5186,7 +5187,7 @@ button.swiper-pagination-bullet {
 }
 #Testimonial .testimonial-headingtop {
 	float: left;
-	background: #fb5f66;
+	background: #fb6c73;
 	min-height: 400px
 }
 #Testimonial .testimonial-headingtop h3 {
@@ -5426,7 +5427,7 @@ iframe[name=google_conversion_frame] {
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     background: #fdb6b9 !important;
-    color: #fb5f66 !important;
+    color: #fb545b !important;
     border-color: #fdb6b9 !important;
 }
 
@@ -5491,7 +5492,7 @@ iframe[name=google_conversion_frame] {
 	#feature .section-f4 .img-pad-right{padding-right: 0px; padding-left: 25px;}
 	#feature .sec-graphsCharts i.material-icons.icon-style {
 		font-size: 60px;
-		color: #fb5f66;
+		color: #fb6c73;
 		position: relative;
 		margin-right: 10px;
 		float: left;
@@ -5567,10 +5568,10 @@ iframe[name=google_conversion_frame] {
 	}
 
 	.sec-example .sec-outgrowMagic-title {
-		background: #f3f8fb;
+		background: #fc6d73;
 		color: #fff;
-		margin: 65px 0px 70px;
-		padding: 60px 40px 65px;
+		margin: 55px 0px;
+		padding: 40px 40px 50px;
 		float: left;
 		width: 100%;
 	}
@@ -5588,24 +5589,22 @@ iframe[name=google_conversion_frame] {
 		float: left;
 		width: 100%;
 		text-align: center;
-		color: #fb5f66 !important;
-		font-size: 38px;
-		font-family: montserratsemibold;
+		color: #fff !important;
+		font-size: 30px;
+		font-family: montserratlight;
 		text-transform: none;
 		margin: 0px;
-		line-height: normal;
 	}
 	.sec-example .section-2-subheading {
-    	float: left;
+		float: left;
 		width: 100%;
 		text-align: center;
-		color: #888888;
+		color: #fff;
 		font-size: 18px;
 		font-family: montserratlight;
 		margin: 0;
 		position: relative;
-		top: 0;
-		margin-top: 10px;
+		top: 5px;
 	}
 
 	.section-6-left {
@@ -5712,7 +5711,7 @@ iframe[name=google_conversion_frame] {
 
 /* feature page css */
 	#feature .sec-5-text h5 {
-		color: #fb5f66;
+		color: #fb6c73;
 		font-size: 24px;
 		font-family: montserratlight;
 		text-align: center;
@@ -6035,8 +6034,8 @@ iframe[name=google_conversion_frame] {
 /* end: table redesign css */
 
 .bg1-img .btn-buildcal {
-    background: #fb5f66;
-    border: 2px solid #fb5f66;
+    background: #fb6c73;
+    border: 2px solid #fb6c73;
     color: #fff;
     float: none;
     font-size: 14px;
@@ -6114,27 +6113,34 @@ iframe[name=google_conversion_frame] {
 
 
 .preloader {
-	/*position: absolute;*/
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0px;
 	bottom: 0;
-	background-color: rgba(255,255,255,0.7);
-	z-index: 999;
+	background-color: #fff;
+	/* change if the mask should be a color other than white */
+	z-index: 9;
+
 	text-align: center;
-	width: 100%;
-	margin-bottom: 200px;
+	/* makes sure it stays on top */
+	
 }
+
 .status {
 	width: 200px;
 	height: 200px;
 	position: absolute;
 	left: 50%;
+	/* centers the loading animation horizontally on the screen */
 	top: 50%;
-	background-image: url(../images/logoAnim.gif);
+	/* centers the loading animation vertically on the screen */
+	background-image: url("../../../assets/images/loaders/loader_out.gif");
+	/* path to your loading animation */
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: -100px 0 0 -100px;
+	/* is width and height divided by two */
 }
 .status-msg{
 	font-family: "montserratregular";
@@ -6307,7 +6313,7 @@ iframe[name=google_conversion_frame] {
 	.footer-copyright {margin-bottom: 30px;}
 	.footer-copyright i {font-size: 24px;}
 	.footer-copyright span {font-size: 24px;}
-	.footer-copyright img {width: 5%;}
+	.footer-copyright img {width: 100%;}
 	.container {width: 60%;}
 	.Privacy .Privacy-subheading {font-size: 104px; margin-top: 100px; margin-bottom: 50px; }
 	.Privacy p {font-size: 44px; line-height: 64px;}
@@ -6320,138 +6326,57 @@ iframe[name=google_conversion_frame] {
 
 }
 
-.case-breathers 
-{
-	background: #f3f8fb;
-	margin-top: 40px;
-	padding-top: 20px;
-	margin-bottom: 40px;
-}
-.case-breathers img 
-{
-    float: left;
-	/* width: 35%; */
-	/* box-shadow: 0px -2px 30px -5px rgba(0,0,0,.15); */
-	 /* margin-top:12px;  */
-}
-.case-breathers-imgRight img {
-    /* width: 37%; */
-}
-.case-breathers-rightSide {
-    float: left;
-    width: 47%;
-    text-align: left;
-    margin-top: 35px;
-    margin-left: 15px;
-}
-.case-breathers-rightSide h1.heading {
-    text-align: left;
-    color: #62696d!important;
-    font-size: 28px;
-    line-height: 40px;
-    font-family: montserratultra_light;
-    margin: 0px;
-    float: left;
-    width: 100%;
-}
-.case-breathers-rightSide h5.subheading {
-	text-align: left;
-    color: rgba(98,105,109,.8);
-    font-size: 18px;
-    font-family: montserratultra_light;
-    margin: 25px auto 25px;
-    padding: 0;
-    color: #888888;
-    float: left;
-    width: 100%;
-}
-.btn-readmore {
-	background: transparent;
-    color: #fb5f66;
-    font-size: 11px;
-    padding: 8px 13px;
-    border: 1px solid #fb5f66;
-    transition: .5s ease-in-out;
-    /* line-height: normal; */
-    box-shadow: none;
-    margin-top: 0px;
-    border-radius: 25px;
-    /* display: inline-flex; */
-    float: none;
+.custom-navbar a.link-login {
+    font-size: 14px;
     font-family: montserratregular;
-    text-transform: none;
-    /* box-shadow: 0px 0px 20px rgba(0,0,0,0.20); */
 }
-.btn.btn-download {
-    color: #fb5f66;
-    font-size: 11px;
-    padding: 6px 20px;
-    font-family: montserratregular;
-    border: 1px solid #fb5f66;
-    border-radius: 20px;
-    line-height: 22px;
-	margin-top: 20px;
-	transition: .5s ease-in-out;
-}
-.btn.btn-download i.material-icons {
-    font-size: 15px;
-    top: 4px;
-    position: relative;
-    margin-left: 7px;
-}
-.case-breathers-leftSide {
-    width: 50%;
-    float: left;
-    padding: 0px 0 0 15px;
-}
-.badge-g2crowd {
-    position: absolute;
-    top: -150px;
-    width: 100px;
-    left: 46%;
+@media (max-width:1023px){
+	.navbar-default .navbar-toggle {border: none; }
+	.custom-navbar .signUp-style a {
+		/* background: none; */
+		color: #fff!important;
+		border: none !important;
+		display: inline-block;
+		margin-top: 8px;
+	}
+	.custom-navbar .signUp-style a:hover{
+		background: none !important;
+		border: none !important;
+		color: #fb5f66 !important;opacity: 0.5;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fb5f66 !important;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent !important; }
+	.custom-navbar.navbar-default {padding: 0 !important;}
+	.custom-navbar.navbar-default .container-fluid{padding: 0;}
+	.navbar-right {
+		float: left !important;
+		width: 100%;
+		margin: 7.5px 0px !important;
+	}
+	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;}
+	.navbar-collapse.collapse {
+		float: right;
+	}
+
 }
 
-/* .col-sm-2.footer-link {
-    width: 20%;
-} */
-.col-sm-4.footer-link {
-    width: 40%;
-}
-.footer-social ul li.social-icons {
-    padding: 0 3px;
-}
-i.zmdi.zmdi-facebook-box {
-    font-size: 16px;
-    color: #3f529c;
-}
-i.zmdi.zmdi-linkedin-box {
-    font-size: 16px;
-    color: #0077b7;
-}
-i.zmdi.zmdi-twitter-box {
-    font-size: 16px;
-    color: #55acee;
-}
-.footer-social ul li:nth-child(4) {
-    padding-left: 17px;
-}
-.footer-social ul li.social-icons a i {
-    vertical-align: middle;
-}
-
-@media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50% !important;}
-}
-.footer-img2 a {
-    color: #62696d;
+.company-address {
     font-family: montserratlight;
-    width: 100%;
-    float: left;
-    text-align: left;
-	margin: 0;
+	font-size: 12px;
+	margin-top: 10px;
+	text-transform: capitalize;
 }
-.footer-img2 a:hover span {
-    color: #fb5f66;
-	-webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: 1px solid transparent;
+	border-radius: 4px;
 }
