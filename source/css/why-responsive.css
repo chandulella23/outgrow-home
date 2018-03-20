@@ -589,6 +589,7 @@
 	
 }
 @media (min-width: 1480px) and (max-width:1920px) {
+	#why .section-metrics {margin-top: 110px;}
 	
 }
 
@@ -690,7 +691,7 @@
 	#why .section-16-left, #why .section-4-left {padding-left: 80px;}
 	#why .section-w3-text span span {font-size: 44px;}
 	#why .section-16 {margin-bottom: 100px;}
-
+	#why .section-metrics {margin-top: 110px;}
 
 
 
