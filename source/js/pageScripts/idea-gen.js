@@ -18,6 +18,7 @@ function stepEmail () {
     else $('.email-validator').removeClass('hide');
 }
         $(document).ready(function(){
+            window.Intercom('update', { 'site_idea_viewed': new Date() });
             $('#background').mouseParallax({ moveFactor: 5 });
             $('#foreground').mouseParallax({ moveFactor: 1 });
 

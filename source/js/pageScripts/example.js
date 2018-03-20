@@ -162,6 +162,7 @@ window.changeTab = function (tabName) {
 
 jQuery(document).ready(function () {
     calculateMinHeight();
+    window.Intercom('update', { 'site_example_viewed': new Date() });
     
 	var iframes = iFrameResize({
         log: false,
