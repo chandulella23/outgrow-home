@@ -23,6 +23,8 @@ window.close_accordion_section = function () {
 }
 
 jQuery(document).ready(function() {
+	 window.Intercom('update', { 'site_pricing_viewed': new Date() });
+
 	jQuery('.accordion-section-title').click(function(e) {
 		// Grab current anchor value
 		var currentAttrValue = jQuery(this).attr('href');
