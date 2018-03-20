@@ -102,6 +102,14 @@
 					let href = "//app.outgrow.co/signup/?email=";
 					document.getElementsByClassName('lead-email')[0].href = href + email;
 				}
+				window.callGA = function(a) {
+				    switch (a) {
+				        case "CANNOT WAIT CTA":
+				            console.log('CANNOT WAIT CTA')
+				            ga("send", "event", "Signup", "Click", "LP_FirstFold");
+				            break;
+				        }
+				    }
 
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
 					let email = e.target.value;
