@@ -768,7 +768,8 @@
         display: inline-block
     }
     .tab-inner-frame{display: none;}
-    .sec-outgrowMagic .section-6-left {margin: 0;}
+    .sec-outgrowMagic .section-6-left {margin: 0;}    
+	.preloader {margin-bottom: 150px;}
 
 }
 
