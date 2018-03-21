@@ -124,7 +124,7 @@ window.changeTab = function (tabName) {
     }
     jQuery('#premade-heading').text(text);
     let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
-    let selectedCat = jQuery('#calc-cats li.active').children().attr('id')
+    let selectedCat = jQuery('#calc-cats li.active').children().attr('id');
     console.log('tabname=', tabName, selectedCat);
     hiddenCalcs.forEach(function (calc) {
         calc.classList.remove('hide')
@@ -203,7 +203,6 @@ jQuery(document).ready(function () {
 
                 });
                 jQuery('#premade-content').removeClass('hide');
-                jQuery('#premade-heading').removeClass('hide');
                 jQuery('#premade-loader').addClass('hide');
                 setPremade();
                 shuffleCalcs('Auto');
