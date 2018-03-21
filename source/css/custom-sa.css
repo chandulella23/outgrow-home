@@ -1874,8 +1874,13 @@ label {
 .footer-img, .footer-link {
 	padding-left: 0
 }
-.footer-link {
-	float: left
+.footer-link { /* to make the row height equal */
+	float: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer-link h4 {
 	float: left;
@@ -1890,7 +1895,7 @@ label {
 	float: left
 }
 .footer-img2 {
-	min-height: 100px
+	/* min-height: 100px */
 }
 .footer-img2 img {
 	border: 1px solid #bdc5c8
