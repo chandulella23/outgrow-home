@@ -273,7 +273,7 @@ label {
 	}
 	.custom-navbar .signUp-style a{
 		border-radius: 20px;
-		background: #fb5f66;
+		background: #fb5f66 !important; 
 		color: #fff!important;
 		padding: 5px 10px !important;
 		line-height: 1 !important;
