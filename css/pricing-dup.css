@@ -273,7 +273,7 @@ label {
 	}
 	.custom-navbar .signUp-style a{
 		border-radius: 20px;
-		background: #fb5f66 !important;
+		background: #fb5f66 !important; 
 		color: #fff!important;
 		padding: 5px 10px !important;
 		line-height: 1 !important;
@@ -474,6 +474,7 @@ label {
 	#pricing .section-1 {
 		margin-top: 65px;
 		margin-bottom: 0px;
+		padding-bottom: 50px;
 	}
 	#pricing .pricing-headingtop {
 		float: left;
@@ -671,7 +672,7 @@ label {
 		line-height: 30px
 	}
 	.start-trial-cta {
-		margin: 30px 0px 50px;
+		margin: 0px 0px 50px;
 	}
 	.bg1-img .btn-buildcal {
 		background: #fb6c73;
@@ -695,11 +696,14 @@ label {
 /* FAQ & accordion css */
 	#pricing .section-faq {
 		margin-top: 20px; 
-		margin-bottom: 0
+		margin-bottom: 0;
+		background: #f3f8fb;
+		padding-top: 70px;
+		padding-bottom: 35px;
 	}	
 	#pricing .container-faqs {
 		width: 990px;
-		margin: 0 auto;
+		margin: 30px auto 0;
 	}
 	#pricing .section-faq .section-2-heading {
 		float: left;
@@ -1549,3 +1553,23 @@ a.link-contact.intercom_trigger:hover {
   }
 
 /* pricing switch end  */
+
+.faq-section {
+    /* float: left;
+	width: 100%; */
+	margin-right: 40px;
+}
+#pricing .faq-section-title {
+    color: #62686c;
+    font-size: 16px;
+	font-family: montserratregular;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+#pricing .faq-section-content p{
+    font-family: montserratlight;
+    font-size: 14px;
+    color: #98a1a7;
+	line-height: 26px;
+	margin-bottom: 30px;
+}

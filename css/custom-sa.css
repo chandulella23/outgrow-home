@@ -1874,8 +1874,13 @@ label {
 .footer-img, .footer-link {
 	padding-left: 0
 }
-.footer-link {
-	float: left
+.footer-link { /* to make the row height equal */
+	float: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer-link h4 {
 	float: left;
@@ -1890,7 +1895,7 @@ label {
 	float: left
 }
 .footer-img2 {
-	min-height: 100px
+	/* min-height: 100px */
 }
 .footer-img2 img {
 	border: 1px solid #bdc5c8
@@ -6379,4 +6384,56 @@ iframe[name=google_conversion_frame] {
     background-color: transparent;
     border: 1px solid transparent;
 	border-radius: 4px;
+}
+.case-breathers {
+    background: #f3f8fb;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.case-breathers-leftSide {
+    width: 50%;
+    float: left;
+    padding: 0px 0 0 15px;
+}
+.case-breathers img {
+    float: left;
+    /* width: 35%; */
+    /* box-shadow: 0px -2px 30px -5px rgba(0,0,0,.15); */
+    /* margin-top: 12px; */
+}
+.case-breathers-rightSide {
+    float: left;
+    width: 47%;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.case-breathers-rightSide h1.heading {
+    text-align: left;
+    color: #62696d!important;
+    font-size: 28px;
+    line-height: 40px;
+    font-family: montserratultra_light;
+    margin: 0px;
+    float: left;
+    width: 100%;
+}
+.btn.btn-download {
+    color: #fb5f66;
+    font-size: 11px;
+    padding: 6px 20px;
+    font-family: montserratregular;
+    border: 1px solid #fb5f66;
+    border-radius: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+	transition: .5s ease-in-out;
+	box-shadow: none;
+}
+.btn.btn-download i.material-icons {
+    font-size: 15px;
+    top: 4px;
+    position: relative;
+    margin-left: 7px;
 }
