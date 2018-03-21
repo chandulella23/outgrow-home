@@ -492,7 +492,7 @@ label {
 		font-size: 18px
 	}
 	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 		margin-top: 40px;
 		font-size: 30px;
 		text-transform: none;
@@ -1432,3 +1432,120 @@ a.link-contact.intercom_trigger:hover {
     border: 1px solid transparent;
 	border-radius: 4px;
 }
+
+/* pricing switch start */
+
+  .pricing-switch {
+      margin: 30px 0px 45px;
+  }
+  .pricing-switch .switch {
+      display: inline-block;
+      margin-bottom: 0px;
+      margin: 0 auto;
+    float: none;
+  }
+  .pricing-switch .onoffswitch {
+      position: relative;
+      margin-top: 5px;
+      width: 44px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+  }
+  .pricing-switch .onoffswitch-checkbox {
+      display: none;
+  }
+  .pricing-switch .switch label {
+      cursor: pointer;
+      margin-bottom: 0px;
+  }
+  .pricing-switch .onoffswitch-label {
+      display: block;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 20px;
+  }
+  .pricing-switch .switch label {
+      cursor: pointer;
+      margin-bottom: 0;
+  }
+  .pricing-switch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+      margin-left: 0;
+  }
+  .pricing-switch .onoffswitch-inner {
+      display: block;
+      width: 200%;
+      margin-left: -100%;
+      transition: margin 0.3s ease-in 0s;
+  }
+  .pricing-switch .onoffswitch-inner:before {
+      content: "";
+      padding-left: 10px;
+      background-color: #009ad8;
+      color: #FFFFFF;
+      font-weight: normal;
+  }
+  .pricing-switch .onoffswitch-inner:before, .pricing-switch .onoffswitch-inner:after {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 23px;
+      padding: 0;
+      line-height: 20px;
+      font-size: 13px;
+      color: white;
+      box-sizing: border-box;
+      font-weight: normal;
+  }
+  .pricing-switch .onoffswitch-inner:after {
+      content: "";
+      background-color: #009ad8;
+      color: #fff;
+      text-align: right;
+  }
+  .pricing-switch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+      right: 0px;
+  }
+  .pricing-switch .onoffswitch-switch {
+      display: block;
+      width: 17px;
+      height: 17px;
+      margin: 3px;
+      background: #FFFFFF;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 20px;
+      border-radius: 20px;
+      transition: all 0.3s ease-in 0s;
+      box-shadow: none;
+  }
+    label.onoffswitch-label:before {
+      content: 'Annual';
+      position: absolute;
+      left: -55px;
+      top: 3px;
+      font-size: 13px;
+      color: #62696d;
+      font-family: montserratregular;
+      opacity: 0.5;
+  }
+  label.onoffswitch-label:after {
+      content: 'Monthly';
+      position: absolute;
+      right: -60px;
+      top: 3px;
+      font-size: 13px;
+      color: #62696d;
+      font-family: montserratregular;
+      opacity: 0.5;
+  }
+  input:checked + label.onoffswitch-label:after {
+      color: #62696d;
+      opacity: 1
+  }
+  input[type="checkbox"]:not(:checked) + label.onoffswitch-label:before {
+    opacity: 1;
+  }
+
+/* pricing switch end  */
