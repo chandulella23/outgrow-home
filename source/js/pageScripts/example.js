@@ -184,7 +184,7 @@ jQuery(document).ready(function () {
     //     }
     // })
     runTimeout();
-    jQuery.post('http://outgrow-api.herokuapp.com/api/v1/admin/getCalculators',
+    jQuery.post('https://api-calc.outgrow.co/api/v1/admin/getCalculators',
         function (data, status) {
             console.log(status, data);
             if (status === 'success') {
