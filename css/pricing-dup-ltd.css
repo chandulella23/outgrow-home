@@ -240,6 +240,7 @@ label {
 		color: #62696d;
 		text-transform: uppercase;
 		line-height: 25px;
+		background: none;
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a.active, .custom-navbar.navbar-default .navbar-nav>li>a:hover {
 		color: #fb5f66
@@ -273,7 +274,7 @@ label {
 	}
 	.custom-navbar .signUp-style a{
 		border-radius: 20px;
-		background: #fb5f66;
+		background: #fb5f66 !important;
 		color: #fff!important;
 		padding: 7px 10px !important;
 		line-height: 1 !important;
