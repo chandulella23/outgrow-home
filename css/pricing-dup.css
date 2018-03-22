@@ -322,7 +322,7 @@ label {
 		float: left;
 		width: 100%;
 		color: #fb5f66;
-		font-size: 16px;
+		font-size: 15px;
 		margin-bottom: 20px;
 		text-transform: uppercase
 	}
@@ -358,7 +358,7 @@ label {
 	.footer-link ul li a {
 		float: left;
 		width: auto;
-		color: #62696d;
+		color: #626883;
 	}
 	.footer-link ul li a:hover {
 		color: #fb5f66;
@@ -387,7 +387,7 @@ label {
 	}
 	.footer-img-text {
 		font-size: 12px;
-		color: #62696d;
+		color: #7c8184;
 		margin-top: 5px
 	}
 	.footer-img-text a {
@@ -1519,9 +1519,9 @@ a.link-contact.intercom_trigger:hover {
 	line-height: 26px;
 	margin-bottom: 30px;
 }
-/* .col-sm-2.footer-link {
+ .col-sm-2.footer-link {
     width: 20%;
-} */
+} 
 .col-sm-4.footer-link {
     width: 40%;
 }
