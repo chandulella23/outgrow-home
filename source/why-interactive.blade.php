@@ -392,7 +392,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
 		<div class="container mobile-container">
 			<div class="section-2-heading" style="color: rgb(34, 34, 34);">
-				100s of Success Stories
+				Critically Acclaimed
 			</div>
 			<div class="social-media-section">
 				<div class="each-arrow-section">
@@ -410,6 +410,12 @@
 						<img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowd.png"/> 
 						<img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowdh.png" class="over over3"/> 
 					</div>
+
+					<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
+						<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_logo.png"/> 
+						<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_hover.png" class="over over4"/> 
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -422,6 +428,8 @@
 				<div id="capterra" class="protfolio-inner-section testhide" data-repuso-grid="4407" data-website-id="0"></div>
 
 				<div id="g2" class="protfolio-inner-section testhide" data-repuso-grid="4320" data-website-id="0"></div>
+
+				<div id="google" class="protfolio-inner-section testhide" data-repuso-grid="5402" data-website-id="0"></div>
 			</div>
 		</div>
 	</div>
@@ -430,13 +438,14 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds" id="staticReviews">
 		<div class="container mobile-container">
 			<div class="section-2-heading" style="color: rgb(34, 34, 34);">
-				100s of Success Stories
+				Critically Acclaimed
 			</div>			
 
 			<ul class="nav nav-tabs">
 				<li class="active"><a data-toggle="tab" href="#fb-tab"></a></li>
 				<li><a data-toggle="tab" href="#capterra-tab"></a></li>
 				<li><a data-toggle="tab" href="#g2crowd-tab"></a></li>
+				<li><a data-toggle="tab" href="#google-tab"></a></li>
 			</ul>
 
 			<div class="tab-content">
@@ -458,10 +467,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Dapo Bankole</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-dapo.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-dapo.png">
 								</div>
 							</div>
 						</div>
@@ -481,10 +490,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Jonathan Naccache</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-jona.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-jona.png">
 								</div>
 							</div>
 						</div>
@@ -504,10 +513,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Va Barber Hua</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-va.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-va.png">
 								</div>
 							</div>
 						</div>
@@ -527,10 +536,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Bryce York</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-bryce.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-bryce.png">
 								</div>
 							</div>
 						</div>
@@ -550,10 +559,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Rachel Kornak</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg-rachel.png">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-rachel.png">
 								</div>
 							</div>
 						</div>
@@ -573,7 +582,7 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Jake Anderson</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="Facebook logo image" src="images/testimonial-fb-mini.png">
+											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
 									<img alt="user image" src="images/testimonial-userImg-jake.png">
@@ -602,10 +611,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Verified Reviewer</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									<!-- <img alt="user image" src="images/testimonial-userImg1.jpg"> -->
+									<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 								</div>
 							</div>
 						</div>
@@ -627,10 +636,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Verified Reviewer</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									<!-- <img alt="user image" src="images/testimonial-userImg1.jpg"> -->
+									<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 								</div>
 							</div>
 						</div>
@@ -652,10 +661,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Ryan Zagata</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									<!-- <img alt="user image" src="images/testimonial-userImg1.jpg"> -->
+									<!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg"> -->
 								</div>
 							</div>
 						</div>
@@ -678,10 +687,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Ed Ferrigan</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									 <img alt="user image" src="images/testimonial-userImg-ed.png"> 
+									 <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-ed.png"> 
 								</div>
 							</div>
 						</div>
@@ -703,10 +712,10 @@
 									<div class="testi-content">
 										<!-- <span class="testi-desig ellipsis"></span> -->
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									 <!-- <img alt="user image" src="images/testimonial-userImg1.jpg">  -->
+									 <!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">  -->
 								</div>
 							</div>
 						</div>
@@ -729,10 +738,10 @@
 									<div class="testi-content">
 										 <span class="testi-desig ellipsis">Jake Anderson</span> 
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<!-- <img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg"> -->
+											<!-- <img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg"> -->
 										</a>
 									</div>
-									 <!-- <img alt="user image" src="images/testimonial-userImg1.jpg">  -->
+									 <!-- <img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">  -->
 								</div>
 							</div>
 						</div>
@@ -756,10 +765,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2Crwod logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2Crwod logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg1.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg1.jpg">
 								</div>
 							</div>
 						</div>
@@ -779,10 +788,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg2.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg2.jpg">
 								</div>
 							</div>
 						</div>
@@ -802,10 +811,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg3.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg3.jpg">
 								</div>
 							</div>
 						</div>
@@ -825,10 +834,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg4.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg4.jpg">
 								</div>
 							</div>
 						</div>
@@ -848,10 +857,10 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg5.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg5.jpg">
 								</div>
 							</div>
 						</div>
@@ -871,10 +880,238 @@
 									<div class="testi-content">
 										<span class="testi-desig ellipsis">Administrator in Information Technology and Services</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
-											<img alt="G2 Crowd logo image" src="images/testimonial-g2crowd-mini.jpg">
+											<img alt="G2 Crowd logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-g2crowd-mini.jpg">
 										</a>
 									</div>
-									<img alt="user image" src="images/testimonial-userImg6.jpg">
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg6.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="google-tab" class="tab-pane fade">
+					<div class="col-md-12 col-sm-12 col-xs-12 np">
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Love Outgrow as the marketing tool to get profile and health profiling of our customers. Getting to know our Health Bootcamp members well is critical as it enables us to customize the experience. Our success depends on how well we know the issues they are facing. Outgrow has great templates and branded designs as well as a very simple beautiful user experience. We have had 96% response rate using Outgrow Quiz. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Reena Jadhav</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-reenaJ.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">We've been using Outgrow to create interactive content for a range of clients. It's a great tool for creating interesting ways to add leads to the top of the funnel, whilst staying away from the overused free PDF guides, etc. The content builder is very easy to use, but extremely powerful. The scoring logic is really useful, especially the "if most answers are A, give the outcome X". There are a number of potential integrations, including to the most popular email marketing systems. The native integration with Active Campaign was perfect for our clients. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Robert Peters</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-robertP.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Put simply - why will your audience leave - once they start interacting with an Outgrow calculator. Simply outstanding .. guys you have created an amazing engaging platform where the clients get massive value. Also 24 hrs support and simply superb. great to see a company investing in great platform but also on customer service .. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Vicky Singh</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-vickyS.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Love the easy function for building a Quiz and the ability for branding. Your new leads are coming! We have searched for this for a couple of years and now it´s here. Thanks, Outgrow! Fantastic software. Easy to use, meet needs and are enjoyable! The customer service is fast with high knowledge and flexible mindset. To fully meet our brand book, and tone of voice, there have to be more fonts. Such as Open Sans and top Google font family. Meet needs, easy to use and enjoyable! </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Joakim Thörn</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-joakimT.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Great product for creating quizzes, surveys with viral power. Love the calculator option, we can create powerful assessments for our clients which calculate scores, then use that score to assign an assessment or gap value. Amazingly powerful. Support is great, really great, they always answer, always help with things we are doing even when it's a weird request. Not many cons, new features show up, but it's pretty powerful now. We've had a few growing pains as we learn to create assessments and quizzes, but support has helped us through them. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Tom Lyons </span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-tomL.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="google-tab" class="tab-pane fade">
+					<div class="col-md-12 col-sm-12 col-xs-12 np">
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Love Outgrow as the marketing tool to get profile and health profiling of our customers. Getting to know our Health Bootcamp members well is critical as it enables us to customize the experience. Our success depends on how well we know the issues they are facing. Outgrow has great templates and branded designs as well as a very simple beautiful user experience. We have had 96% response rate using Outgrow Quiz. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Reena Jadhav</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="/images/testimonial-userImg-reenaJ.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">We've been using Outgrow to create interactive content for a range of clients. It's a great tool for creating interesting ways to add leads to the top of the funnel, whilst staying away from the overused free PDF guides, etc. The content builder is very easy to use, but extremely powerful. The scoring logic is really useful, especially the "if most answers are A, give the outcome X". There are a number of potential integrations, including to the most popular email marketing systems. The native integration with Active Campaign was perfect for our clients. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Robert Peters</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="/images/testimonial-userImg-robertP.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Put simply - why will your audience leave - once they start interacting with an Outgrow calculator. Simply outstanding .. guys you have created an amazing engaging platform where the clients get massive value. Also 24 hrs support and simply superb. great to see a company investing in great platform but also on customer service .. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Vicky Singh</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="/images/testimonial-userImg-vickyS.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Love the easy function for building a Quiz and the ability for branding. Your new leads are coming! We have searched for this for a couple of years and now it´s here. Thanks, Outgrow! Fantastic software. Easy to use, meet needs and are enjoyable! The customer service is fast with high knowledge and flexible mindset. To fully meet our brand book, and tone of voice, there have to be more fonts. Such as Open Sans and top Google font family. Meet needs, easy to use and enjoyable! </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Joakim Thörn</span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="/images/testimonial-userImg-joakimT.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 np testimonial-block">
+							<div class="testimonial-quote"></div>
+							<div class="testimonial-answer">Great product for creating quizzes, surveys with viral power. Love the calculator option, we can create powerful assessments for our clients which calculate scores, then use that score to assign an assessment or gap value. Amazingly powerful. Support is great, really great, they always answer, always help with things we are doing even when it's a weird request. Not many cons, new features show up, but it's pretty powerful now. We've had a few growing pains as we learn to create assessments and quizzes, but support has helped us through them. </div>
+							<div class="testimonial-bottom">
+								<div class="testimonial-bottom-left">
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+									<i class="material-icons">star_rate</i>
+								</div>
+								<div class="testimonial-bottom-right">
+									<div class="testi-content">
+										<span class="testi-desig ellipsis">Tom Lyons </span>
+										<a href="javascript:void(0);" class="view-post ellipsis">View Post
+											<img alt="gplus logo image" src="/images/testimonial-gplus-mini.jpg">
+										</a>
+									</div>
+									<img alt="user image" src="/images/testimonial-userImg-tomL.png">
 								</div>
 							</div>
 						</div>
@@ -885,7 +1122,7 @@
 	</div>
 	<!-- end static HTML of fb, capterra and g2 crowd -->
 
-	<script>
+	 <script>
 		function triggerLiveStaticReviews () {
 			var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
 			var live = document.querySelector('#liveReviews');
@@ -915,7 +1152,7 @@
 
 		var head = document.querySelector('head');
 		head.appendChild(gridJS);
-	</script>
+	</script> 
 
 	<section class="section section-video">		
 		<div class="section-2-heading">
