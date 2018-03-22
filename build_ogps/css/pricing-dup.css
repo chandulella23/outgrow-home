@@ -273,11 +273,11 @@ label {
 	}
 	.custom-navbar .signUp-style a{
 		border-radius: 20px;
-		background: #fb5f66;
+		background: #fb5f66 !important; 
 		color: #fff!important;
-		padding: 7px 10px !important;
+		padding: 5px 10px !important;
 		line-height: 1 !important;
-		font-size: 12px!important;
+		font-size: 13px!important;
 		border: 2px solid #f8434b !important;
 		margin-top: 13px;
 		margin-left: 6px;
@@ -314,8 +314,13 @@ label {
 	.footer-img, .footer-link {
 		padding-left: 0
 	}
-	.footer-link {
-		float: left
+	.footer-link { /* to make the row height equal */
+		float: left;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.footer-link h4 {
 		float: left;
@@ -330,7 +335,7 @@ label {
 		float: left
 	}
 	.footer-img2 {
-		min-height: 100px
+		/* min-height: 100px */
 	}
 	.footer-img2 img {
 		border: 1px solid #bdc5c8
@@ -363,7 +368,7 @@ label {
 		color: #fb5f66;
 	}
 	.footer-copyright {
-		margin-top: 15px;
+		margin-top: 10px;
 		margin-bottom: 10px
 	}
 	.footer-copyright p {
@@ -382,7 +387,8 @@ label {
 	.footer-copyright img {
 		display: inline;
 		position: relative;
-		top: -2px
+		top: -2px;
+		max-width: 105px;
 	}
 	.footer-img-text {
 		font-size: 12px;
@@ -421,11 +427,11 @@ label {
 		position: relative;
 		top: 2px;
 		font-size: 14px;
-		margin-right: 5px;
+		margin-right: 3px;
 		color: #62696d;
 	}
 	.footer-copyright span {
-		margin-right: 10px;
+		margin-right: 5px;
 		font-size: 14px;
 		color: #62696d
 	}
@@ -468,6 +474,7 @@ label {
 	#pricing .section-1 {
 		margin-top: 65px;
 		margin-bottom: 0px;
+		padding-bottom: 50px;
 	}
 	#pricing .pricing-headingtop {
 		float: left;
@@ -486,7 +493,7 @@ label {
 		font-size: 18px
 	}
 	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 		margin-top: 40px;
 		font-size: 30px;
 		text-transform: none;
@@ -665,7 +672,7 @@ label {
 		line-height: 30px
 	}
 	.start-trial-cta {
-		margin: 30px 0px 50px;
+		margin: 0px 0px 50px;
 	}
 	.bg1-img .btn-buildcal {
 		background: #fb6c73;
@@ -689,11 +696,14 @@ label {
 /* FAQ & accordion css */
 	#pricing .section-faq {
 		margin-top: 20px; 
-		margin-bottom: 0
+		margin-bottom: 0;
+		background: #f3f8fb;
+		padding-top: 70px;
+		padding-bottom: 35px;
 	}	
 	#pricing .container-faqs {
 		width: 990px;
-		margin: 0 auto;
+		margin: 30px auto 0;
 	}
 	#pricing .section-faq .section-2-heading {
 		float: left;
@@ -1369,4 +1379,197 @@ a.link-contact.intercom_trigger {
 }
 a.link-contact.intercom_trigger:hover {
     color: #ea101d;
+}
+.custom-navbar a.link-login {
+    font-size: 14px;
+    font-family: montserratregular;
+}
+@media (max-width:1023px){
+	.navbar-default .navbar-toggle {border: none; }
+	.custom-navbar .signUp-style a {
+		/* background: none; */
+		color: #fff!important;
+		border: none !important;
+		display: inline-block;
+		margin-top: 8px;
+	}
+	.custom-navbar .signUp-style a:hover{
+		background: none !important;
+		border: none !important;
+		color: #fb5f66 !important;opacity: 0.5;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fb5f66 !important;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent !important; }
+	.custom-navbar.navbar-default {padding: 0 !important;}
+	.custom-navbar.navbar-default .container-fluid{padding: 0;}
+	.navbar-right {
+		float: left !important;
+		width: 100%;
+		margin: 7.5px 0px !important;
+	}
+	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;}
+	.navbar-collapse.collapse {
+		float: right;
+	}	
+	#pricing .section-1 {
+		margin-top: 55px;
+	}
+
+}
+
+.company-address {
+    font-family: montserratlight;
+	font-size: 12px;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+/* pricing switch start */
+
+  .pricing-switch {
+      margin: 30px 0px 45px;
+  }
+  .pricing-switch .switch {
+      display: inline-block;
+      margin-bottom: 0px;
+      margin: 0 auto;
+    float: none;
+  }
+  .pricing-switch .onoffswitch {
+      position: relative;
+      margin-top: 5px;
+      width: 44px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+  }
+  .pricing-switch .onoffswitch-checkbox {
+      display: none;
+  }
+  .pricing-switch .switch label {
+      cursor: pointer;
+      margin-bottom: 0px;
+  }
+  .pricing-switch .onoffswitch-label {
+      display: block;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 20px;
+  }
+  .pricing-switch .switch label {
+      cursor: pointer;
+      margin-bottom: 0;
+  }
+  .pricing-switch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+      margin-left: 0;
+  }
+  .pricing-switch .onoffswitch-inner {
+      display: block;
+      width: 200%;
+      margin-left: -100%;
+      transition: margin 0.3s ease-in 0s;
+  }
+  .pricing-switch .onoffswitch-inner:before {
+      content: "";
+      padding-left: 10px;
+      background-color: #009ad8;
+      color: #FFFFFF;
+      font-weight: normal;
+  }
+  .pricing-switch .onoffswitch-inner:before, .pricing-switch .onoffswitch-inner:after {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 23px;
+      padding: 0;
+      line-height: 20px;
+      font-size: 13px;
+      color: white;
+      box-sizing: border-box;
+      font-weight: normal;
+  }
+  .pricing-switch .onoffswitch-inner:after {
+      content: "";
+      background-color: #009ad8;
+      color: #fff;
+      text-align: right;
+  }
+  .pricing-switch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+      right: 0px;
+  }
+  .pricing-switch .onoffswitch-switch {
+      display: block;
+      width: 17px;
+      height: 17px;
+      margin: 3px;
+      background: #FFFFFF;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 20px;
+      border-radius: 20px;
+      transition: all 0.3s ease-in 0s;
+      box-shadow: none;
+  }
+    label.onoffswitch-label:before {
+      content: 'Annual';
+      position: absolute;
+      left: -55px;
+      top: 3px;
+      font-size: 13px;
+      color: #62696d;
+      font-family: montserratregular;
+      opacity: 0.5;
+  }
+  label.onoffswitch-label:after {
+      content: 'Monthly';
+      position: absolute;
+      right: -60px;
+      top: 3px;
+      font-size: 13px;
+      color: #62696d;
+      font-family: montserratregular;
+      opacity: 0.5;
+  }
+  input:checked + label.onoffswitch-label:after {
+      color: #62696d;
+      opacity: 1
+  }
+  input[type="checkbox"]:not(:checked) + label.onoffswitch-label:before {
+    opacity: 1;
+  }
+
+/* pricing switch end  */
+
+.faq-section {
+    /* float: left;
+	width: 100%; */
+	margin-right: 40px;
+}
+#pricing .faq-section-title {
+    color: #62686c;
+    font-size: 16px;
+	font-family: montserratregular;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+#pricing .faq-section-content p{
+    font-family: montserratlight;
+    font-size: 14px;
+    color: #98a1a7;
+	line-height: 26px;
+	margin-bottom: 30px;
 }

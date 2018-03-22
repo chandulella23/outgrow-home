@@ -21,7 +21,7 @@
 				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer4.jpg" src="" alt="Our Live Calculators footer image" /></div>
 				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer3.jpg" src="" alt="Our Live Calculators footer image" /></div>
 			</div>
-			<div class="col-xs-12 col-sm-10 footer-link mk-animate-element fade-in">
+			<div class="col-xs-12 col-sm-10 np footer-link mk-animate-element fade-in">
 				<h4 class="footer-img2text col-xs-12">Resources</h4>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
@@ -83,10 +83,13 @@
 				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
 				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
+			<div class="company-address">
+				401 park ave, 10th floor, New York 10016
+			</div>
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
 				<span>Copyright 2018</span>
-				<img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer-logo-dark.png" src="" alt="Footer logo" />
+				<img class="scrollimg" data-scroll-img="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" src="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" alt="Footer logo" />
 				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
 			</div>
 		</div>

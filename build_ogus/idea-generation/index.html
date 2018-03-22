@@ -4,7 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>Idea Generation | Outgrow</title>
-	<script src="//load.sumome.com" data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="apple-touch-icon" href="//dzvexx2x036l1.cloudfront.net/og-apple.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -50,9 +49,9 @@
 	}
 	window.intercomSettings = {
 		app_id: intercom_id,
-		custom_launcher_selector: '#intercom_trigger'
+		custom_launcher_selector: '.intercom_trigger'
 	};
-	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r841gnag';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',window.intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/'+intercom_id;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
 	var schemaA = document.createElement('script');
 	schemaA.type = 'application/ld+json';
@@ -134,7 +133,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" /></a>
+			<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right" id="navlist">
@@ -146,15 +145,25 @@
                		<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
                	</li>
           		<li class="signUp signUp-style res-nav-hide">
-          			<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
+          			<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
           		</li>
                 <li class="signUp res-nav-show">
-                	<a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
+                	<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
                 </li>
 			</ul>
 		</div>
 	</div>
 </nav>
+
+<!-- <script>
+	jQuery(document).ready(function() {
+		jQuery('.navbar-nav li a').on('click',function(){
+			jQuery('li a').removeClass('active');
+			jQuery(this).addClass('active');
+		});
+
+	});
+</script> -->
 		<div class="main-outr">
         <section class="sec-outr sec1-bg mouse-bg">
             <div class="sec">
