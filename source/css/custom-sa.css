@@ -5574,10 +5574,10 @@ iframe[name=google_conversion_frame] {
 	}
 
 	.sec-example .sec-outgrowMagic-title {
-		background: #fc6d73;
+		background: #f3f8fb;
 		color: #fff;
-		margin: 55px 0px;
-		padding: 40px 40px 50px;
+		margin: 65px 0px 70px;
+		padding: 60px 40px 65px;
 		float: left;
 		width: 100%;
 	}
@@ -5595,22 +5595,24 @@ iframe[name=google_conversion_frame] {
 		float: left;
 		width: 100%;
 		text-align: center;
-		color: #fff !important;
-		font-size: 30px;
-		font-family: montserratlight;
+		color: #fb5f66 !important;
+		font-size: 38px;
+		font-family: montserratsemibold;
 		text-transform: none;
 		margin: 0px;
+		line-height: normal;
 	}
 	.sec-example .section-2-subheading {
 		float: left;
 		width: 100%;
 		text-align: center;
-		color: #fff;
+		color: #888888;
 		font-size: 18px;
 		font-family: montserratlight;
 		margin: 0;
 		position: relative;
-		top: 5px;
+		top: 0;
+		margin-top: 10px;
 	}
 
 	.section-6-left {
