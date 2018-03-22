@@ -57,7 +57,7 @@
     .allPlans-blocks-right {margin-left: 0px;}
     .allPlans-blocks p {padding: 0 10px;}
     .allPlans-blocks img {margin-top: 0px; margin-bottom: 10px;}
-    #pricing .pricing-headingtop .plans-heading {font-size: 22px; }
+    #pricing .pricing-headingtop .plans-heading {font-size: 22px; margin: 10px 0px;}
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 10px;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
@@ -85,6 +85,10 @@
 	.none{
 		vertical-align: middle !important;
 		margin-top: -3px;
+	}
+	#pricing .pricing-headingtop {
+		margin-top: 0px !important;
+		padding: 20px 0px;
 	}
 
 }
@@ -139,6 +143,9 @@
 	.none{
 		vertical-align: middle !important;
 		margin-top: -4px;
+	}
+	#pricing .pricing-headingtop {
+		margin-top: 0px !important;
 	}
 	
 }

@@ -174,7 +174,7 @@ label {
 	border: none;
 	padding: 0;
 	z-index: 999;
-	border-bottom: 1px solid #eff0f0;
+	/* border-bottom: 1px solid #eff0f0; */
 	padding: 5px 0px;
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;

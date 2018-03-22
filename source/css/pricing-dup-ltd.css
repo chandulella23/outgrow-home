@@ -227,7 +227,7 @@ label {
 		border: none;
 		padding: 0;
 		z-index: 999;
-		border-bottom: 1px solid #eff0f0;
+		/* border-bottom: 1px solid #eff0f0; */
 		padding: 5px 0px;
 		-webkit-transition: .3s ease-in-out;
 		transition: .3s ease-in-out;
@@ -472,36 +472,32 @@ label {
 
 /*pricing top panel */
 	#pricing .section-1 {
-		margin-top: 65px;
+		margin-top: 0px;
 		margin-bottom: 0px;
 	}
 	#pricing .pricing-headingtop {
+		background: #f3f8fb;
+		color: #fff;
+		margin: 65px 0px 35px;
+		padding: 60px 40px 65px;
 		float: left;
-		background: #fb6c73; 
-		margin-bottom: 40px;
+		width: 100%;
 	}
 	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 35px;
-		margin-top: 25px;
-		font-size: 30px;
-		text-transform: uppercase
+		float: left;
+		width: 100%;
+		text-align: center;
+		font-size: 38px;
+		font-family: montserratsemibold;
+		text-transform: none;
+		line-height: normal;
+		color: rgb(251, 95, 102);
+		margin: 0px;
 	}
 	#pricing .pricing-headingtop .plans-subheading {
 		margin-bottom: 15px;
 		margin-top: 0;
 		font-size: 18px
-	}
-	#pricing .pricing-headingtop .plans-heading {
-		margin-bottom: 40px;
-		margin-top:40px;
-		font-size: 30px;
-		text-transform: none;
-	}
-	#pricing .pricing-headingtop .plans-heading, #pricing .pricing-headingtop .plans-subheading {
-		color: #fff;
-		font-family: montserratlight;
-		width: 100%;
-		display: inline-block;
 	}
 
 /* end: pricing top panel */
@@ -1404,19 +1400,19 @@ thead th p.price small, .pricing-block span.annual-price small {
 		background-color: #fb5f66 !important;
 	}
 	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent !important; }
-	.custom-navbar.navbar-default {padding: 0 !important;}
-	.custom-navbar.navbar-default .container-fluid{padding: 0;}
+	 .custom-navbar.navbar-default {padding: 0 !important;} 
+	.custom-navbar.navbar-default .container-fluid{padding: 0;} 
 	.navbar-right {
 		float: left !important;
 		width: 100%;
 		margin: 7.5px 0px !important;
 	}
-	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;}
+	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;} 
 	.navbar-collapse.collapse {
 		float: right;
 	}
 	#pricing .section-1 {
-		margin-top: 55px;
+		margin-top: 0px;
 	}
 
 }
