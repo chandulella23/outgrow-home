@@ -229,14 +229,14 @@
 		margin-bottom:0px;
 		padding:0px;
 	}
-	iframe {
+	/* iframe {
 		position: absolute;
 		top: 7%;
 		left: 14%;
 		right: 0;
 		width: 200px;
 		height: 113px;
-	} 
+	}  */
 	#why .p-img{
 		padding:0 20px !important;
 	}
@@ -390,24 +390,24 @@
 	}
 }
 @media (min-width:414px) and (max-width:414px){
-	iframe{
+	/* iframe{
 		position: absolute;
 		top: 5%;
 		left: 13%;
 		right: 0;
 		width: 274px;
 		height: 154px;
-	}
+	} */
 }
 @media (min-width: 440px) and (max-width:768px) {
-	iframe {
+	/* iframe {
 		position: absolute;
 		top: 9px;
 		left: 37px;
 		right: 0;
 		width: 200px;
 		height: 113px;
-	} 
+	}  */
 	#why .img-2 {
 		width: 61%;
 		margin-left: -9%;
@@ -421,44 +421,44 @@
 	}
 }
 @media (min-width: 480px) and (max-width:768px) {
-	iframe {
+	/* iframe {
 		position: absolute;
 		top: 14px;
 		left: 56px;
 		right: 0;
 		width: 323px;
 		height: 182px;
-	}	
+	}	 */
 }
 @media (min-width:568px) and (max-width:568px){
-	iframe{
+	/* iframe{
 		position: absolute;
 		top: 6%;
 		left: 13%;
 		right: 0;
 		width: 388px;
 		height: 218px;
-	}
+	} */
 }
 @media (min-width: 600px) and (max-width:768px) {
-	iframe{
+	/* iframe{
 		position: absolute;
 		top: 15px;
 		left: 142px;
 		right: 0;
 		width: 309px;
 		height: 174px;
-	}
+	} */
 }
 @media (min-width: 640px) and (max-width:768px) {
-	iframe {
+	/* iframe {
 		position: absolute;
 		top: 17px;
 		left: 73px;
 		right: 0;
 		width: 449px;
 		height: 253px;
-	}
+	} */
 }
 @media (min-width:736px) and (max-width:736px){
 	iframe {
@@ -556,14 +556,14 @@
 
 
 @media (min-width: 1024px) and (max-width:1250px) {
-	iframe{
+	/* iframe{
 		position: absolute;
 		top: 20px;
 		left: 222px;
 		right: 0;
 		width: 496px;
 		height: 285px;
-	}
+	} */
 	#why .img-2 {
 		position: absolute;
 		left: 50%;

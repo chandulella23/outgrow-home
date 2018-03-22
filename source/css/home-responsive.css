@@ -159,7 +159,7 @@
     .section-runnigheading {
         font-size: 26px;
         font-family: montserratultra_light;
-        color: #fb5f66;
+        color: #fb6c73;
         text-transform: none;
         text-align: left;
         padding-left: 15px;
@@ -193,13 +193,13 @@
     }
     .mobile-sec3 .sec3-box2 span {
         font-size: 14px;
-        color: #fb5f66
+        color: #fb6c73
     }
     .section-4-left h4,
     .section-5-left h4,
     .section-6-left h4 {
         font-size: 24px;
-        color: #fb5f66
+        color: #fb6c73
     }
     .sec4-2 {
         position: absolute;
@@ -393,7 +393,7 @@
         height: 70px;
         text-align: center;
         background: #fff;
-        color: #fb5f66;
+        color: #fb6c73;
         padding-right: 5px
     }
     .sec10-em2 {
@@ -537,7 +537,8 @@
         margin-top: 10px
     }
     .custom-navbar.navbar-default {
-        padding-right: 0
+        padding-right: 0;
+        padding: 0px;
     }
     .navbar-toggle {
         border: none
@@ -644,7 +645,7 @@
         padding-left: 0
     }
     .footer-img2 {
-        min-height: 160px
+        /* min-height: 170px */
     }
     .billingpricing-text p {
         margin: 0 0 45px
@@ -800,6 +801,8 @@
     .whyMerticsAwesome-inner-left ul, .whyMerticsAwesome-inner-right ul {max-width: 100%;}
     .whyMerticsAwesome-inner-left ul li .list, .whyMerticsAwesome-inner-right ul li .list {width: 93%;}
 
+    .sec-outgrowMagic .section-6-left {margin: 0;}    
+	.preloader {margin-bottom: 150px;}
 
 }
 
@@ -816,7 +819,7 @@
 
 @media (min-width:320px) and (max-width:320px) {
     .section-14 .footer-img2 {
-        min-height: 135px;
+        /* min-height: 170px; */
         padding-left: 0
     }
 }
@@ -864,11 +867,6 @@
     }
 }
 
-@media (max-width: 440px) and (min-width: 320px){
-    .badge-g2crowd {
-        left: 35% !important;
-    }
-}
 @media (min-width:440px) and (max-width:768px) {
     .text-1,
     .text-2 {
@@ -879,7 +877,7 @@
     }
     .footer-img2 {
         padding-left: 0;
-        min-height: 155px
+        /* min-height: 175px */
     }
     .section-7-left h4,
     .section-9-left h4 {
@@ -944,11 +942,6 @@
     #Testimonial .quote-container {
         margin-top: 50px
     }
-    .badge-g2crowd {
-        left: 42% !important;
-    }
-
-
 }
 
 @media (min-width:568px) and (max-width:568px) {
@@ -1132,7 +1125,7 @@
         margin-right: 0px
     }
     .custom-navbar .signUp-style a {
-        margin-top: 0px;
+        /* margin-top: 0px; */
     }
     .custom-navbar.navbar-default .navbar-nav>li>a {
         font-size: 12px;
@@ -1196,6 +1189,9 @@
     .Privacy .Privacy-subheading {
         font-size: 18px !important;
         line-height: 24px;
+    }
+    .navbar-collapse.collapse {
+        float: none !important;
     }
 }
 @media (min-width:769px) and (max-width:990px) {
@@ -1272,7 +1268,7 @@
     .custom-navbar.navbar-default .navbar-nav>li>a {
         color: #62696d;
         text-transform: uppercase;
-        padding: 15px 9px;
+        padding: 7px;
     }
     .mobile-sec3 .sec3-box2 {
         text-align: center
@@ -1403,7 +1399,7 @@
     .section-runnigheading {
         font-size: 26px;
         font-family: montserratultra_light;
-        color: #fb5f66;
+        color: #fb6c73;
         text-transform: none;
         text-align: left;
         padding-left: 15px;
@@ -1439,13 +1435,13 @@
     }
     .mobile-sec3 .sec3-box2 span {
         font-size: 16px;
-        color: #fb5f66
+        color: #fb6c73
     }
     .section-4-left h4,
     .section-5-left h4,
     .section-6-left h4 {
         font-size: 24px;
-        color: #fb5f66
+        color: #fb6c73
     }
     .sec4-2 {
         position: absolute;
@@ -1645,7 +1641,7 @@
         height: 70px;
         text-align: center;
         background: #fff;
-        color: #fb5f66;
+        color: #fb6c73;
         padding-right: 5px
     }
     .sec10-em2 {
@@ -1890,7 +1886,7 @@
         padding-left: 0
     }
     .footer-img2 {
-        min-height: 140px
+        /* min-height: 165px */
     }
     .billingpricing-text p {
         margin: 0 0 45px
@@ -1956,7 +1952,7 @@
         left: 0
     }
     .start-trial-cta {
-        margin-top: 0px;
+        margin-top: 30px;
     }
     #feature .section-13 {padding-top: 35px !important;}
     #why .section-metrics {margin-top: 0px;}
@@ -2059,7 +2055,7 @@
         width: 100px
     }
     .footer-img2 {
-        min-height: 170px;
+        /* min-height: 170px; */
         float: left;
         margin-bottom: 15px
     }
@@ -2171,8 +2167,7 @@
         padding-left: 20px
     }
     .footer-img2 {
-        padding-left: 0;
-        min-height: 160px;
+        padding-left: 0
     }
 }
 
@@ -2315,7 +2310,7 @@
     }
     #feature .section-13 {margin-top: 30px;}
     #why .section-top-why {margin-top: 80px;}
-    #pricing .section-1 {margin-top: 90px !important;margin-bottom: 30px !important;}
+    #pricing .section-1 {margin-top: 90px !important;}
     .section-main.sec-example {margin-top: 40px;}
     .Privacy .section-services { margin-top: 80px;}
 
@@ -2371,7 +2366,7 @@
         margin-top: 80px
     }
 	#pricing .pricing-headingtop {
-        margin-top: 0px;
+		background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px);
 	}
     #pricing .section-1 {
         margin-top: 45px;
@@ -3637,12 +3632,6 @@
     .grid2.two_columns_66_33 .blog_holder.blog_single article .post_description .post_description_right {
         float: none
     }
-}
-
-@media only screen and (min-width:768px) and (max-width:1024px) {
-
-
-
 }
 
 @media only screen and (min-width:601px) and (max-width:1000px) {
@@ -5324,9 +5313,7 @@
 @media only screen and (max-width:380px) {    
     .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;
 }
-@media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50% !important;}
-}
+
 @media only screen and (max-width:1024px) {
     .cards,
     .cards .card {
@@ -5346,7 +5333,9 @@
         right: 30px
     }
 }
-
+@media only screen and (min-width:480px) and (max-width:767px){
+	.footer-link ul li {width: 50%;}
+}
 
 @media only screen and (max-width:480px) {
     .qode-card-slider-holder-outer .controls.arrows .button,
@@ -5529,7 +5518,7 @@
     .navbar-nav{margin:7.5px -15px}
     .navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:25px}
 
-    @media (max-width:1023px){
+    /* @media (max-width:1023px){
         .navbar-header {float: none;}
         .navbar-default .navbar-toggle {border: none; display: block;}
         .custom-navbar .signUp-style a {
@@ -5578,19 +5567,56 @@
 
 
 
-    }
+    } */
 
     @media (min-width:1024px){
         .navbar-toggle{display:none}
         .navbar-nav{float:left;margin:0}
         .navbar-nav>li{float:left}
         .navbar-nav>li>a{padding-top:15px;padding-bottom:15px;padding-left:13px;padding-right:13px}
+    }
 
-
+    @media (max-width:1023px){
+        .navbar-default .navbar-toggle {border: none; }
+        .custom-navbar .signUp-style a {
+            /* background: none; */
+            color: #fff!important;
+            border: none !important;
+            display: inline-block;
+            margin-top: 8px;
+        }
+        .custom-navbar .signUp-style a:hover{
+            background: none !important;
+            border: none !important;
+            color: #fb5f66 !important;opacity: 0.5;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #fb5f66 !important;
+        }
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent !important; }
+        .custom-navbar.navbar-default {padding: 0 !important;}
+        .custom-navbar.navbar-default .container-fluid{padding: 0;}
+        .navbar-right {
+            float: left !important;
+            width: 100%;
+            margin: 7.5px 0px !important;
+        }
+        .custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;}
+        .navbar-collapse.collapse {
+            float: right;
+        }
 
     }
     
-
-
 /* end: top header responsive */
-
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}

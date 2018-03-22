@@ -149,7 +149,7 @@
 
 	<section class="section">
 		<div class="container">
-			<div id="premade-heading" class="useCase-heading hide">
+			<div id="premade-heading" class="useCase-heading">
 				There is a Calculator for that!
 			</div>
 		</div>

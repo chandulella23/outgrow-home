@@ -167,13 +167,13 @@
                     <tbody>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                            <td><span class="quater"></span>50 & 1000</td>
-                            <td  class="active-bg"><span class="half"></span>350 & 7000</td>
-                            <td><span class="full"></span>5000 & 100,000</td>
+                            <td><span class="quater"></span>300 & 6000</td>
+                            <td  class="active-bg"><span class="half"></span>1000 & 20000</td>
+                            <td><span class="full"></span>15000 & 300000</td>
                         </tr>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
-                            <td><span class="quater"></span>1</td>
+                            <td><span class="quater"></span>3</td>
                             <td class="active-bg"><span class="full"></span>Unlimited</td>
                             <td><span class="full"></span>Unlimited</td>
                         </tr>
@@ -190,7 +190,7 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the Classic "Chicago" layout and templates.</span>
+                                <span class="detail">Only the Classic "Chicago and Londoner" layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>All Templates & Layouts
@@ -541,11 +541,11 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>50 & 1000</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>1</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>3</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -558,7 +558,7 @@
                                         Templates and Layouts
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the Classic "Chicago" layout and templates. </span>
+                                    <span class="detail">Only the Classic "Chicago and Londoner" layout and templates. </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -741,7 +741,7 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="half"></span>350 & 7000</span>
+                                    <span class="feature-subtitle"><span class="half"></span>1000 & 20000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
@@ -945,7 +945,7 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="full"></span>5000 & 100,000</span>
+                                    <span class="feature-subtitle"><span class="full"></span>15000 & 300000</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>

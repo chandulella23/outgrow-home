@@ -36,14 +36,14 @@
 	//Intercom
 	var url			=	window.location.href;
 	var intercom_id	=	'om2goh5g';
-	if (url.toLowerCase().indexOf("outgrow.co") >= 0){
+	if (url.toLowerCase().indexOf("outgrow.co") >= 0 && url.toLowerCase().indexOf("outgrow.co.in") < 0){
 		intercom_id	=	'r841gnag';
 	}
 	window.intercomSettings = {
 		app_id: intercom_id,
-		custom_launcher_selector: '#intercom_trigger'
+		custom_launcher_selector: '.intercom_trigger'
 	};
-	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r841gnag';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',window.intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/'+intercom_id;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
 	var schemaA = document.createElement('script');
 	schemaA.type = 'application/ld+json';
@@ -92,6 +92,29 @@
 	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+
+	let host = window.location.href.toLowerCase();
+	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";
+
+
+
+
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    var parser = document.createElement('a');
+    parser.href = window.location.href;
+    ga('create', gap, 'auto', 'markettingteam');    
+
+	
 </script>
 <!-- Analytics Tracking Snippets Ends -->
 <style>
@@ -110,35 +133,42 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right" id="navlist">
-                <li><a href="/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
-                <li><a href="/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
-                <li><a href="/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
-                <li><a href="/examples" onclick="callGA('USECASE')" class="params">Examples</a></li>
-               	<li class="login">
-               		<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
-               	</li>
-          		<li class="signUp signUp-style res-nav-hide">
-          			<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
-          		</li>
-                <li class="signUp res-nav-show">
-                	<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
-                </li>
-			</ul>
-		</div>
+<div class="container-fluid">
+	<div class="navbar-header">
+		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button> 
+		<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
 	</div>
-</nav>
+	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right" id="navlist">
+			<li><a href="/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
+			<li><a href="/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
+			<li><a href="/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
+			<li><a href="/examples" onclick="callGA('USECASE')" class="params">Examples</a></li>
+			   <li class="login">
+				   <a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+			   </li>
+			  <li class="signUp signUp-style res-nav-hide">
+				  <a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+			  </li>
+			<li class="signUp res-nav-show">
+				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+			</li>
+		</ul>
+	</div> 
+</div>
+</nav> 
+
+
+<!-- <div class="header-logo">
+<a href="https://outgrow.co/" class="">
+	<img src="/images/lp-header-logo.png" alt="lp-header-logo image">
+</a>
+</div> -->
 	<div>
 	<!-- Homepage section 1 start-->
     <section class="section section-1 tarun1 himanshu">
@@ -193,84 +223,52 @@
 				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer4.jpg" src="" alt="Our Live Calculators footer image" /></div>
 				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer3.jpg" src="" alt="Our Live Calculators footer image" /></div>
 			</div>
-			<div class="col-xs-12 col-sm-10 footer-link mk-animate-element fade-in">
+			<div class="col-xs-12 col-sm-10 np footer-link mk-animate-element fade-in">
 				<h4 class="footer-img2text col-xs-12">Resources</h4>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="//dzvexx2x036l1.cloudfront.net/footer5.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/">Make Your Digital Marketing Agency Stand Out</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/university-college-calculators/">7 Interactive Calculators Every University Needs on Its Website</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="//dzvexx2x036l1.cloudfront.net/res4.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="//dzvexx2x036l1.cloudfront.net/footer7.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies">9 Calculators Every SaaS Company Should Consider</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="//dzvexx2x036l1.cloudfront.net/res7.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="//dzvexx2x036l1.cloudfront.net/res8.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/">Lead Generation With Interactive Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-<<<<<<< HEAD
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res9.jpg" src="" alt="Resources" /></div>
-=======
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res9.jpg" src="//dzvexx2x036l1.cloudfront.net/res9.jpg" alt="Resources" /></div>
->>>>>>> production-stable-source
 					<div class="col-xs-12 np footer-img-text">
 						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
 					</div>
@@ -287,14 +285,13 @@
 				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
 				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
 			</ul>
+			<div class="company-address">
+				401 park ave, 10th floor, New York 10016
+			</div>
 			<div class="footer-copyright">
 				<i class="material-icons">copyright</i>
-<<<<<<< HEAD
-				<span>Copyright 2017</span>
-=======
 				<span>Copyright 2018</span>
->>>>>>> production-stable-source
-				<img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer-logo-dark.png" src="" alt="Footer logo" />
+				<img class="scrollimg" data-scroll-img="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" src="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" alt="Footer logo" />
 				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
 			</div>
 		</div>

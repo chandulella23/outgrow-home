@@ -57,7 +57,7 @@
     .allPlans-blocks-right {margin-left: 0px;}
     .allPlans-blocks p {padding: 0 10px;}
     .allPlans-blocks img {margin-top: 0px; margin-bottom: 10px;}
-    #pricing .pricing-headingtop .plans-heading {font-size: 22px; margin-top: 20px;}
+    #pricing .pricing-headingtop .plans-heading {font-size: 22px; }
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 10px;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
@@ -287,6 +287,29 @@
 	.detail {
 		padding: 10px 10px 0px 10px;
 	}
+	.pricing-outer-ltdSales .ltd-plan span.label-popularPlan {
+		width: 100% !important;
+		left: 0px !important;
+	}
+	.pricing-outer-ltdSales .pricing-top h3 {
+		margin-top: 25px;
+	}
+	.pricing-outer-ltdSales .pricing-block {
+		display: block;
+		text-align: center;
+		background: #fff;
+		border: 1px solid #eff0f1;
+		margin-bottom: 0;
+	}
+	.faq-section-ltd {
+		margin-right: 30px;
+		margin-left: 30px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	.ltdSales-wrapper .asterix-text {
+		padding: 0px 20px;
+	}
 
 
 }
@@ -308,6 +331,10 @@
 		width: 800px;
 		margin: 0 auto;
 	}
+	.faq-section-ltd {
+   		margin-left: 30px;
+	}
+
 }
 
 @media (min-width: 1024px) and (max-width:1024px) {
@@ -458,8 +485,5 @@
 		position: relative;
     	top: -1px;
 	}
-
-
-
 
 }
