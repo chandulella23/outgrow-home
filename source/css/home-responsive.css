@@ -791,7 +791,7 @@
     }
     .section-video {
         padding-top: 40px;
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
     }
     .whyMerticsAwesome-inner-left, .whyMerticsAwesome-inner-right {display: inline-block;}
     /* .whyMerticsAwesome-inner img {width: 100%;} */
@@ -802,7 +802,8 @@
     .whyMerticsAwesome-inner-left ul li .list, .whyMerticsAwesome-inner-right ul li .list {width: 93%;}
 
     .sec-outgrowMagic .section-6-left {margin: 0;}    
-	.preloader {margin-bottom: 150px;}
+    .preloader {margin-bottom: 150px;}
+    .col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;}
 
 }
 
@@ -1203,6 +1204,7 @@
         display: block;
     }
     .tab-inner-frame{display: none;}
+    .col-sm-2.footer-link .footer-img-text {min-height: 73px;}
 
 }
 @media (min-width:769px) and (max-width:990px) {
@@ -1977,7 +1979,7 @@
     }
     .section-video {
         padding-top: 40px;
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
     }
     .section-subheading {font-size: 20px;}
 
@@ -2044,9 +2046,9 @@
     .whyMerticsAwesome-inner-left.sec-newTraffic, .whyMerticsAwesome-inner-left.sec-audience {
         left: 0;
     }
+    .col-sm-2.footer-link .footer-img-text {min-height: 56px;}
 
 }
-
 
 @media (min-width:991px) and (max-width:1023px) {
     .circle-value {
