@@ -75,13 +75,13 @@
 		</div>
 		<div class="col-xs-12 np footer-social">
 			<ul>
-				<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
-				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
-				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>				
-				<li class="border-left"><a href="{{ $page->baseUrl }}/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
-				<li><a href="{{ $page->baseUrl }}/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+				<li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>
+				<li class="border-left"><a href="{{ $page->baseUrl }}/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+				<li><a href="{{ $page->baseUrl }}/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
 				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
-				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
+				<li><a href="https://angel.co/venturepact/jobs/?utm_source=footer">Careers</a></li>
 			</ul>
 			<div class="company-address">
 				401 park ave, 10th floor, New York 10016
