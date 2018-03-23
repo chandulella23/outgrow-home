@@ -4,14 +4,14 @@
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 				<h4>Overview</h4>
 				<ul>
-					<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
-					<li><a href="{{ $page->baseUrl }}/features" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
-					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
-					<li><a href="{{ $page->baseUrl }}/idea-generation" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
-					<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
-					<!-- <li><a href="http://affiliates.outgrow.co/">Affiliates</a></li> -->
-					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
-					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+					<li><a href="{{ $page->baseUrl }}/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
+					<li><a href="{{ $page->baseUrl }}/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
+					<li><a href="{{ $page->baseUrl }}/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
+					<li><a href="{{ $page->baseUrl }}/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
+					<li><a href="{{ $page->baseUrl }}/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
+					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
+					<li><a href="http://resources.outgrow.co/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="http://resources.outgrow.co/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
