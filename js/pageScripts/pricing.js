@@ -23,6 +23,7 @@ window.close_accordion_section = function () {
 }
 
 jQuery(document).ready(function() {
+	jQuery('#nav-pricing').addClass('active');
 	 window.Intercom('update', { 'site_pricing_viewed': new Date() });
 
 	jQuery('.accordion-section-title').click(function(e) {

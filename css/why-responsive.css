@@ -586,10 +586,13 @@
 	
 }
 @media (min-width: 1810px) and (max-width:1920px) {
+	#why .section-metrics {
+		margin-top: 105px !important;
+	}
 	
 }
 @media (min-width: 1480px) and (max-width:1920px) {
-	#why .section-metrics {margin-top: 110px;}
+	#why .section-metrics {margin-top: 75px;}
 	
 }
 

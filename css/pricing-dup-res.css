@@ -143,7 +143,7 @@
 		vertical-align: middle !important;
 		margin-top: -4px;
 	}
-	#pricing .pricing-headingtop {margin-top: 0px !important; margin-bottom: 0px;}
+	#pricing .pricing-headingtop {margin-top: 0px !important; margin-bottom: 0px; padding: 40px;}
 	.pricing-switch {margin-bottom: 30px;}
 	#pricing .container-faqs {
 		width: 100%;
@@ -151,6 +151,7 @@
 	}
 	#pricing .section-faq {padding-top: 40px;}
 	.col-sm-2.footer-link .footer-img-text {min-height: 73px;}
+	#pricing .pricing-headingtop .plans-heading {font-size: 30px;}
 	
 }
 @media screen and (max-width:990px){

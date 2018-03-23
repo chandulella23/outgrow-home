@@ -39,7 +39,7 @@ var slideIndex = 1;
 showDivs(slideIndex);
 
 jQuery(document).ready(function () {
-
+	jQuery('#nav-features').addClass('active');
 	window.Intercom('update', { 'site_feature_viewed': new Date() });
     var swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
