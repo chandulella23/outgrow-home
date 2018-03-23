@@ -6352,9 +6352,9 @@ iframe[name=google_conversion_frame] {
 		margin-top: 8px;
 	}
 	.custom-navbar .signUp-style a:hover{
-		background: none !important;
+		/* background: none !important; */
 		border: none !important;
-		color: #fb5f66 !important;opacity: 0.5;
+		/* color: #fb5f66 !important;opacity: 0.5; */
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fb5f66 !important;
@@ -7011,3 +7011,4 @@ i.zmdi.zmdi-twitter-box {
 .case-breathers1 {
     margin-top: 30px;
 }
+
