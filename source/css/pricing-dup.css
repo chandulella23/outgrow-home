@@ -242,7 +242,7 @@ label {
 		line-height: 25px;
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a.active, .custom-navbar.navbar-default .navbar-nav>li>a:hover {
-		color: #fb5f66
+		color: #4793c5
 	}
 	.custom-navbar .btn-login {
 		background: #fb5f66;
@@ -1571,12 +1571,12 @@ a.link-contact.intercom_trigger:hover {
 	margin-bottom: 30px;
 }
 
-.col-sm-2.footer-link {
+/* .col-sm-2.footer-link {
     width: 20%;
 } 
 .col-sm-4.footer-link {
     width: 40%;
-} 
+}  */
 .footer-social ul li.social-icons {
     padding: 0 3px;
 }
@@ -1599,8 +1599,14 @@ i.zmdi.zmdi-twitter-box {
     vertical-align: middle;
 }
 .badge-g2crowd {
-    position: absolute;
+	position: relative;
     top: -150px;
     width: 100px;
-    left: 46%;
+    /* left: 46%; */
+    margin: 0 auto;
+    height: 0;
+}
+
+.footer-img2.ebook2, .footer-img2.tools2 {
+    margin-top: 4px;
 }

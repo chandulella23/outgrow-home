@@ -793,7 +793,7 @@
 				Outgrow Review By <span>“G2 Crowd” </span>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center np g2">
-				<div class="container mobile-container">
+				<div class="container mobile-container protfolio-section">
 					<div class="rating-block-outer">
 						<div class="col-md-12 col-sm-12 col-xs-12 text-center np rating-block-inner">
 							<div class="col-md-5 col-sm-5 col-xs-12 text-center np rating-block-left">
@@ -873,6 +873,36 @@
 				</div>
 			</div> -->
 
+			<div class="section-2-heading google" style="color: rgb(34, 34, 34);">
+				Outgrow Review By <span>“Google” </span>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center np google">
+				<div class="container mobile-container protfolio-section">
+					<div class="rating-block-outer">
+						<div class="col-md-12 col-sm-12 col-xs-12 text-center np rating-block-inner">
+							<div class="col-md-5 col-sm-5 col-xs-12 text-center np rating-block-left">
+								<div class="rating-table-cell">
+									<img src="{{ $page->baseUrl }}/images/review_page_google.jpg" alt="google logo image" />
+									<div class="rating-icons">
+										<i class="material-icons">star_rate</i>
+										<i class="material-icons">star_rate</i>
+										<i class="material-icons">star_rate</i>
+										<i class="material-icons">star_rate</i>
+										<i class="material-icons">star_rate</i>
+									</div>
+									<span class="rating-value">5.0/5</span>
+								</div>
+							</div>
+							<div class="col-md-7 col-sm-7 col-xs-12 text-center np rating-block-right">
+								<div class="rating-table-cell">
+									<img src="{{ $page->baseUrl }}/images/review_page_google_rating.jpg" alt="google rating image" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="google" class="protfolio-inner-section" data-repuso-grid="5402" data-website-id="0"></div>
+				</div>
+			</div>
 
 		</div>
 
