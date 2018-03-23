@@ -4627,7 +4627,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec10-testimonial div.sec10-tes-inner{margin-left:3%}
 	.sec10-testimonial-link,.sec10-testname{margin-left:11%}
 	.billing-table{padding-left:20px}
-	.footer-img2{padding-left:0}
+	.footer-img2{padding-left:0;     margin-top: 0px !important;}
 	#video-modal button.close.btn-close{
 	    top: -17% !important;
     	right: -14% !important;
@@ -20118,12 +20118,12 @@ img.scrollimg1.wo {
     width: 100%;
     float: left;
 }
-.col-sm-2.footer-link {
+/* .col-sm-2.footer-link {
     width: 20%;
 } 
 .col-sm-4.footer-link {
     width: 40%;
-} 
+}   */
 .footer-social ul li.social-icons {
     padding: 0 3px;
 }
@@ -20146,9 +20146,15 @@ i.zmdi.zmdi-twitter-box {
     vertical-align: middle;
 }
 
+/* .footer-img2 img {
+     max-width: 153px; 
+     min-height: 84px; 
+} */
 
 
-
+.footer-img2.ebook2, .footer-img2.tools2 {
+    margin-top: 4px;
+}
 
 
 

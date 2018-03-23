@@ -1571,12 +1571,12 @@ a.link-contact.intercom_trigger:hover {
 	margin-bottom: 30px;
 }
 
-.col-sm-2.footer-link {
+/* .col-sm-2.footer-link {
     width: 20%;
 } 
 .col-sm-4.footer-link {
     width: 40%;
-} 
+}  */
 .footer-social ul li.social-icons {
     padding: 0 3px;
 }
@@ -1605,4 +1605,8 @@ i.zmdi.zmdi-twitter-box {
     /* left: 46%; */
     margin: 0 auto;
     height: 0;
+}
+
+.footer-img2.ebook2, .footer-img2.tools2 {
+    margin-top: 4px;
 }

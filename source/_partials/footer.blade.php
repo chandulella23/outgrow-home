@@ -119,6 +119,17 @@
 					<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
 				</ul>
 			</div>
+			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
+				<h4>Discover</h4>
+				<ul>
+					<li><a href="http://outgrow.co.in/calculator/" class="">Calculator</a></li>
+					<li><a href="http://outgrow.co.in/quiz/" class="">Quizzes </a></li>
+					<li><a href="http://outgrow.co.in/survey/" class="">Survey</a></li>
+					<li><a href="http://outgrow.co.in/increase-conversions/" class="">Increase Conversions</a></li>
+					<li><a href="http://outgrow.co.in/increase-roi/" class="">Increase ROI</a></li>
+					<li><a href="http://outgrow.co.in/increase-sales/" class="">Increase Sales</a></li>
+				</ul>
+			</div>
 			<!-- <div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
 				<h4>Our Live Calculators</h4>
 				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer1.jpg" src="" /></div>
@@ -135,7 +146,7 @@
 					</div>
 				</div>
 
-				<div class="footer-img2 col-xs-6 col-sm-12">
+				<div class="footer-img2 col-xs-6 col-sm-12 ebook2">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-ebook2.jpg"" src="{{ $page->baseUrl }}/images/footer-ebook2.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">						
 						<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators">Creative's Guide to building Viral Quizzes and Calculators</a>
@@ -147,10 +158,10 @@
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-tools1.jpg"" src="{{ $page->baseUrl }}/images/footer-tools1.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">							
-						<a href="https://influencers.outgrow.us/roi-of-outgrow">Calculate the ROI of using Outgrow</a>
+						<a href="https://influencers.outgrow.us/roi-of-outgrow">Find the ROI of using Outgrow with this Interactive Calculator</a>
 					</div>
 				</div>
-				<div class="footer-img2 col-xs-6 col-sm-12">
+				<div class="footer-img2 col-xs-6 col-sm-12 tools2">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-tools2.jpg"" src="{{ $page->baseUrl }}/images/footer-tools2.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">						
 						<a href="https://outgrow.co/idea-generation/">Generate Ideas for Quizzes and Calculators</a>
