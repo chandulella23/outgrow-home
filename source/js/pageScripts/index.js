@@ -89,6 +89,11 @@ jQuery(document).ready(function () {
         jQuery(this).addClass('active');
     });
 
+    jQuery('.navbar a').on('click', function () {
+        jQuery('a').removeClass('active');
+        jQuery(this).addClass('active');
+    });
+
     var iframes = iFrameResize({
         log: false,
         autoResize: true,

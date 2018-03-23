@@ -6506,7 +6506,7 @@ i.zmdi.zmdi-twitter-box {
 	#why .section-metrics {
 		float: left;
 		width: 100%;
-		margin-top: 50px;
+		margin-top: 65px;
 		margin-bottom: 30px;
 		background: #f3f8fb;
 		padding: 35px 0 90px;
@@ -6690,7 +6690,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.over1	{
 		position: absolute;
-		left:3px;
+		left:2px;
 		top: 1px;
 		display: none;
 	}
@@ -6699,7 +6699,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.over2 {
 		position: absolute;
-		left:3px;
+		left:2px;
 		top: 1px;
 		display: none;
 	}
@@ -6708,7 +6708,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.over3	{
 		position: absolute;
-		left:3px;
+		left:2px;
 		top: 1px;
 		display: none;
 	}
@@ -7004,4 +7004,8 @@ i.zmdi.zmdi-twitter-box {
 	}
 
 
+}
+
+.case-breathers1 {
+    margin-top: 30px;
 }

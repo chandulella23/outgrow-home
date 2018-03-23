@@ -774,7 +774,7 @@
         padding-left: 7px !important;
         padding-right: 7px !important;
     }
-    #why .section-metrics {margin-top: 0px; margin-bottom: 40px; padding-bottom: 50px; padding-top: 40px;}
+    #why .section-metrics {margin-top: 0px; margin-bottom: 40px; padding-bottom: 50px; padding-top: 30px;}
     #why .section-metrics h3 {font-size: 22px; line-height: 32px; margin-bottom: 0px; margin-top: 0px;}
     #why .section-metrics .section-2-subheading {font-size: 15px;}
     .metrics-inner-block {
@@ -2215,7 +2215,9 @@
 }
 @media (min-width:1920px) {
     .feature-list {margin-top: 175px;}
+    .protfolio-section {width: 80% !important;}
 }
+
 
 @media (min-width:1480px) and (max-width:1800px) {
     .collag1-img {
@@ -2252,16 +2254,18 @@
     .custom-navbar.navbar-default .navbar-nav>li>a,
     .section-1-left .btn-bottominfo label,
     .section-1-left .btn-bottominfo span {
-        font-size: 16px
+        font-size: 16px !important;
     }
     .custom-navbar.navbar-default {
-        padding-top: 25px; padding-bottom: 25px
+        padding-top: 10px; padding-bottom: 10px
     }
     #feature .section-13 {margin-top: 30px;}
     #why .section-top-why {margin-top: 80px;}
-    #pricing .section-1 {margin-top: 90px !important;}
-    .section-main.sec-example {margin-top: 40px;}
-    .Privacy .section-services { margin-top: 80px;}
+    /* #pricing .section-1 {margin-top: 90px !important;} */
+    /* .section-main.sec-example {margin-top: 40px;} */
+    /* .Privacy .section-services { margin-top: 80px;} */
+    .sec-example .sec-outgrowMagic-title {margin-top: 75px;}
+    #feature .feature-heading-1 h3 {font-size: 42px !important;}
 
 
 }
@@ -2310,11 +2314,17 @@
     .custom-navbar.navbar-default {
         padding-top: 25px; padding-bottom: 25px
     }
-    #feature .section-13 {margin-top: 30px;}
+    #feature .section-13 {margin-top: 50px;}
     #why .section-top-why {margin-top: 80px;}
-    #pricing .section-1 {margin-top: 90px !important;}
+    /* #pricing .section-1 {margin-top: 90px !important;} */
     .section-main.sec-example {margin-top: 40px;}
     .Privacy .section-services { margin-top: 80px;}
+    #pricing .pricing-headingtop {margin-top: 105px !important;}
+    .custom-navbar .signUp-style a{
+	    padding: 10px 14px;
+	    /* top: -5px; */
+	    font-size: 16px !important;
+	}
 
 }
 
@@ -2368,11 +2378,12 @@
         margin-top: 80px
     }
 	#pricing .pricing-headingtop {
-		background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px);
+        /* background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px); */
+            margin-top: 75px;
 	}
     #pricing .section-1 {
-        margin-top: 45px;
-        padding-top: 10px
+        /* margin-top: 45px;
+        padding-top: 10px */
     }
     #pricing .section-faq {
         margin-top: 0
