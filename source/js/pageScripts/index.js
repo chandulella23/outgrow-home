@@ -88,9 +88,8 @@ jQuery(document).ready(function () {
         jQuery('a').removeClass('active');
         jQuery(this).addClass('active');
     });
-
-    jQuery('.navbar a').on('click', function () {
-        jQuery('a').removeClass('active');
+    jQuery('.navbar ul li a').on('click', function () {
+        jQuery('.params').removeClass('active');
         jQuery(this).addClass('active');
     });
 
