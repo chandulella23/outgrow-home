@@ -2294,7 +2294,7 @@ label.control-label {
 .custom-navbar.navbar-default{background:#fff;border:none;padding:0px;z-index:999;-webkit-transition: .3s ease-in-out;transition: .3s ease-in-out;/*border-bottom: 1px solid #eff0f0;*/ padding: 5px 0px;}
 .custom-navbar.navbar-default .navbar-nav>li{margin-right:20px}
 .custom-navbar.navbar-default .navbar-nav>li>a{font-size:14px;color:#62696d;text-transform:uppercase; background: none;}
-.custom-navbar.navbar-default .navbar-nav>li>a.active,.custom-navbar.navbar-default .navbar-nav>li>a:hover{color:#fb5f66; background: none;}
+.custom-navbar.navbar-default .navbar-nav>li>a.active,.custom-navbar.navbar-default .navbar-nav>li>a:hover{color:#4793c5; background: none;}
 .custom-navbar .btn-login{background:#fb5f66;color:#fff!important;text-transform:none!important;padding:3px 30px;margin-top:10px;border:2px solid #fb5f66}
 .section,.section-1{margin-top:30px;float:left;width:100%}
 .custom-navbar .btn-login:hover{border:2px solid #fb5f66;background:0 0;color:#fb5f66!important}
