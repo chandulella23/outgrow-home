@@ -6352,9 +6352,9 @@ iframe[name=google_conversion_frame] {
 		margin-top: 8px;
 	}
 	.custom-navbar .signUp-style a:hover{
-		background: none !important;
+		/* background: none !important; */
 		border: none !important;
-		color: #fb5f66 !important;opacity: 0.5;
+		/* color: #fb5f66 !important;opacity: 0.5; */
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fb5f66 !important;
@@ -6450,18 +6450,20 @@ iframe[name=google_conversion_frame] {
     padding: 0px 0 0 15px;
 }
 .badge-g2crowd {
-    position: absolute;
+	position: relative;
     top: -150px;
     width: 100px;
-    left: 46%;
+    /* left: 46%; */
+    margin: 0 auto;
+    height: 0;
 }
 
-.col-sm-2.footer-link {
+/* .col-sm-2.footer-link {
     width: 20%;
 } 
 .col-sm-4.footer-link {
     width: 40%;
-}
+} */
 .footer-social ul li.social-icons {
     padding: 0 3px;
 }
@@ -6506,7 +6508,7 @@ i.zmdi.zmdi-twitter-box {
 	#why .section-metrics {
 		float: left;
 		width: 100%;
-		margin-top: 50px;
+		margin-top: 65px;
 		margin-bottom: 30px;
 		background: #f3f8fb;
 		padding: 35px 0 90px;
@@ -6690,7 +6692,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.over1	{
 		position: absolute;
-		left:3px;
+		left:2px;
 		top: 1px;
 		display: none;
 	}
@@ -6699,7 +6701,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.over2 {
 		position: absolute;
-		left:3px;
+		left:2px;
 		top: 1px;
 		display: none;
 	}
@@ -6708,7 +6710,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.over3	{
 		position: absolute;
-		left:3px;
+		left:2px;
 		top: 1px;
 		display: none;
 	}
@@ -7004,4 +7006,12 @@ i.zmdi.zmdi-twitter-box {
 	}
 
 
+}
+
+.case-breathers1 {
+    margin-top: 30px;
+}
+
+.footer-img2.ebook2, .footer-img2.tools2 {
+    margin-top: 4px;
 }

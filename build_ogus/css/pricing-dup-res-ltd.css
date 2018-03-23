@@ -146,9 +146,10 @@
 		margin-top: -4px;
 	}
 	#pricing .pricing-headingtop {
-		margin-top: 0px !important;
+		margin-top: 0px !important; padding: 40px;
 	}
 	.col-sm-2.footer-link .footer-img-text {min-height: 73px;}
+	#pricing .pricing-headingtop .plans-heading {font-size: 30px;}
 	
 }
 @media screen and (max-width:990px){
