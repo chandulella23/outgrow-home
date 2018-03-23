@@ -4399,7 +4399,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		.rs-show .calc-links {display: block;}
 
 	/* homepage res changes by Arti */
-	.badge-g2crowd {left: 43% !important;}
+	/* .badge-g2crowd {left: 43% !important;} */
 	.col-sm-2.footer-link .footer-img-text {min-height: 73px;}
 
 }
@@ -20107,10 +20107,12 @@ img.scrollimg1.wo {
 } 
 
 .badge-g2crowd {
-    position: absolute;
+	position: relative;
     top: -150px;
     width: 100px;
-    left: 46%;
+    /* left: 46%; */
+    margin: 0 auto;
+    height: 0;
 }
 .iframe-outer {
     width: 100%;

@@ -122,7 +122,7 @@
 		margin-bottom: 30px;
 		width: auto !important;
 	}
-	.sec-example .sec-outgrowMagic-title {margin-top: 0px !important;}
+	.sec-example .sec-outgrowMagic-title {margin-top: 0px !important; padding: 40px;}
 	.sec-example .section-2-subheading{display:  block;}
 	.rs-show .calc-links {
 		display: block;

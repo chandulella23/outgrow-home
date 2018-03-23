@@ -6450,10 +6450,12 @@ iframe[name=google_conversion_frame] {
     padding: 0px 0 0 15px;
 }
 .badge-g2crowd {
-    position: absolute;
+	position: relative;
     top: -150px;
     width: 100px;
-    left: 46%;
+    /* left: 46%; */
+    margin: 0 auto;
+    height: 0;
 }
 
 .col-sm-2.footer-link {

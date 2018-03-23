@@ -1599,8 +1599,10 @@ i.zmdi.zmdi-twitter-box {
     vertical-align: middle;
 }
 .badge-g2crowd {
-    position: absolute;
+	position: relative;
     top: -150px;
     width: 100px;
-    left: 46%;
+    /* left: 46%; */
+    margin: 0 auto;
+    height: 0;
 }
