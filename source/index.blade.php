@@ -72,10 +72,11 @@
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">							
 							<span class="lead-form-btn">
-								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); fbq('track', 'Lead', { 'value': '0.01', 'currency': 'USD' });
- ">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
 									Start Free Trial
 								</a>
+
+								
 								<span class="live-demo">OR <a href="https://sample.outgrow.co/builder-demo/sample-calculator" class="">TAKE A LIVE DEMO</a></span>
 							</span>
 							<div id="bfrVid"></div>
