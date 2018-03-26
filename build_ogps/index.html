@@ -220,7 +220,8 @@
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">							
 							<span class="lead-form-btn">
-								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA')">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); fbq('track', 'Lead', { 'value': '0.01', 'currency': 'USD' });
+ ">
 									Start Free Trial
 								</a>
 								<span class="live-demo">OR <a href="https://sample.outgrow.co/builder-demo/sample-calculator" class="">TAKE A LIVE DEMO</a></span>
@@ -250,14 +251,14 @@
 					let href = "//app.outgrow.co/signup/?email=";
 					document.getElementsByClassName('lead-email')[0].href = href + email;
 				}
-				window.callGA = function(a) {
-				    switch (a) {
-				        case "CANNOT WAIT CTA":
-				            console.log('CANNOT WAIT CTA')
-				            ga("send", "event", "Signup", "Click", "LP_FirstFold");
-				            break;
-				        }
-				    }
+				// window.callGA = function(a) {
+				//     switch (a) {
+				//         case "CANNOT WAIT CTA":
+				//             console.log('CANNOT WAIT CTA')
+				//             ga("send", "event", "Signup", "Click", "LP_FirstFold");
+				//             break;
+				//         }
+				//     }
 
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
 					let email = e.target.value;
@@ -1739,49 +1740,49 @@
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
+						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist/?utm_source=footer">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="//dzvexx2x036l1.cloudfront.net/footer5.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/">Make Your Digital Marketing Agency Stand Out</a>
+						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/?utm_source=footer">Make Your Digital Marketing Agency Stand Out</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/university-college-calculators/">7 Interactive Calculators Every University Needs on Its Website</a>
+						<a href="http://resources.outgrow.co/university-college-calculators/?utm_source=footer">7 Interactive Calculators Every University Needs on Its Website</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="//dzvexx2x036l1.cloudfront.net/res4.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
+						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads/?utm_source=footer">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="//dzvexx2x036l1.cloudfront.net/footer7.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies">9 Calculators Every SaaS Company Should Consider</a>
+						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies/?utm_source=footer">9 Calculators Every SaaS Company Should Consider</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="//dzvexx2x036l1.cloudfront.net/res7.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>
+						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/?utm_source=footer">Value Added Marketing With Digital Experiences</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="//dzvexx2x036l1.cloudfront.net/res8.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/">Lead Generation With Interactive Calculators</a>
+						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/?utm_source=footer">Lead Generation With Interactive Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res9.jpg" src="//dzvexx2x036l1.cloudfront.net/res9.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
+						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
 					</div>
 				</div>
 			</div>
