@@ -74,7 +74,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner">
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/why-img-calcRealValue.png" alt="Unlike Ads, Calculators Add Real Value">
+						<img src="{{ $page->baseUrl }}/images/anim1-real-value.gif" alt="Unlike Ads, Calculators Add Real Value">
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
 						<h3 class="section-subheading">Unlike Ads, <b>Calculators Add Real Value </b> </h3>
@@ -92,7 +92,7 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/why-img-newTraffic.png" alt="Calculators Bring New Traffic">
+						<img src="{{ $page->baseUrl }}/images/anim2-new-traffic.gif" alt="Calculators Bring New Traffic">
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left sec-newTraffic">
 						<h3 class="section-subheading">Calculators Bring <b>New Traffic</b> </h3>
@@ -108,12 +108,12 @@
 						</ul>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/why-img-newTraffic.png" alt="Calculators Bring New Traffic">
+						<img src="{{ $page->baseUrl }}/images/anim2-new-traffic.gif" alt="Calculators Bring New Traffic">
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/why-img-engagement.png" alt="Calculators Increase Engagement & Conversion">
+						<img src="{{ $page->baseUrl }}/images/anim3-engagement.gif" alt="Calculators Increase Engagement & Conversion">
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
 						<h3 class="section-subheading">Calculators Increase <b>Engagement & Conversion </b> </h3>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/why-img-audience.png" alt="Audience Segmentation and Targeted Sales">
+						<img src="{{ $page->baseUrl }}/images/anim4-target-sales.gif" alt="Audience Segmentation and Targeted Sales">
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left sec-audience">
 						<h3 class="section-subheading">Audience Segmentation <b>and Targeted Sales</b> </h3>
@@ -147,7 +147,7 @@
 						</ul>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/why-img-audience.png" alt="Audience Segmentation and Targeted Sales">
+						<img src="{{ $page->baseUrl }}/images/anim4-target-sales.gif" alt="Audience Segmentation and Targeted Sales">
 					</div>
 				</div>
 			</div>
