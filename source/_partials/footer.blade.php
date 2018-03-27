@@ -201,7 +201,7 @@
 				<!-- <li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
 				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
 				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>-->
-				<li class=""><a href="{{ $page->baseUrl }}/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+				<li class=""><a href="{{ $page->baseUrl }}/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
 				<li><a href="{{ $page->baseUrl }}/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
 				<!-- <li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact Us</a></li> -->
 				<li><a href="https://angel.co/venturepact/jobs/?utm_source=footer">Careers</a></li>
