@@ -6487,7 +6487,16 @@ i.zmdi.zmdi-twitter-box {
 }
 
 @media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50% !important;}
+	.footer-link ul li {width: 50% !important;}	 
+    .metrics-inner {
+        padding-left: 50px;
+        padding-right: 50px;
+	}
+	.section-metrics .asterix-text {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
 }
 .footer-img2 a {
     color: #62696d;
@@ -6653,7 +6662,7 @@ i.zmdi.zmdi-twitter-box {
 		padding-bottom: 120px;
 	}
 	#why .whyMerticsAwesome-inner-right.rs-show {
-		display: none !important;
+		display: none;
 	}
 	/* #why .whyMerticsAwesome-inner-right.rs-hide {
 		display: inline-block !important;
