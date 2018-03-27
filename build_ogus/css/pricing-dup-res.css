@@ -57,7 +57,7 @@
     .allPlans-blocks-right {margin-left: 0px;}
     .allPlans-blocks p {padding: 0 10px;}
     .allPlans-blocks img {margin-top: 0px; margin-bottom: 10px;}
-    #pricing .pricing-headingtop .plans-heading {font-size: 22px; margin-top: 20px;}
+    #pricing .pricing-headingtop .plans-heading {font-size: 22px; margin: 10px 0px;}
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 5px; padding: 0 15px; line-height: normal;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
@@ -89,6 +89,7 @@
 	#pricing .pricing-headingtop {margin-top: 0px !important; padding: 20px 0px; margin-bottom: 0px;}
 	.pricing-switch {margin-bottom: 30px;}
 	.faq-section {margin-right: 0;}
+	.col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;}
 
 }
 
@@ -142,13 +143,15 @@
 		vertical-align: middle !important;
 		margin-top: -4px;
 	}
-	#pricing .pricing-headingtop {margin-top: 0px !important; margin-bottom: 0px;}
+	#pricing .pricing-headingtop {margin-top: 0px !important; margin-bottom: 0px; padding: 40px;}
 	.pricing-switch {margin-bottom: 30px;}
 	#pricing .container-faqs {
 		width: 100%;
 		padding: 0px 25px;
 	}
 	#pricing .section-faq {padding-top: 40px;}
+	.col-sm-2.footer-link .footer-img-text {min-height: 73px;}
+	#pricing .pricing-headingtop .plans-heading {font-size: 30px;}
 	
 }
 @media screen and (max-width:990px){
@@ -473,4 +476,8 @@
 		width: 50%;
 	}
 	
+}
+@media (min-width:991px) and (max-width:1199px){
+    .col-sm-2.footer-link .footer-img-text {min-height: 56px;}
+
 }

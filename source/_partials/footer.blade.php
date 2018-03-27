@@ -4,13 +4,13 @@
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 				<h4>Overview</h4>
 				<ul>
-					<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
-					<li><a href="{{ $page->baseUrl }}/features" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
-					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
-					<li><a href="{{ $page->baseUrl }}/idea-generation" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
-					<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
-					<!-- <li><a href="http://affiliates.outgrow.co/">Affiliates</a></li> -->
-					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="{{ $page->baseUrl }}/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why sdInteractive Content?</a></li>
+					<li><a href="{{ $page->baseUrl }}/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
+					<li><a href="{{ $page->baseUrl }}/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
+					<li><a href="{{ $page->baseUrl }}/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
+					<li><a href="{{ $page->baseUrl }}/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
+					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
+					<li><a href="http://resources.outgrow.co/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
 					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
 				</ul>
 			</div>
@@ -75,13 +75,13 @@
 		</div>
 		<div class="col-xs-12 np footer-social">
 			<ul>
-				<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
-				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
-				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>				
-				<li class="border-left"><a href="{{ $page->baseUrl }}/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
-				<li><a href="{{ $page->baseUrl }}/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+				<li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>
+				<li class="border-left"><a href="{{ $page->baseUrl }}/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+				<li><a href="{{ $page->baseUrl }}/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
 				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
-				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
+				<li><a href="https://angel.co/venturepact/jobs/?utm_source=footer">Careers</a></li>
 			</ul>
 			<div class="company-address">
 				401 park ave, 10th floor, New York 10016
@@ -106,28 +106,28 @@
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 				<h4>Menu</h4>
 				<ul>
-					<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
-					<li><a href="{{ $page->baseUrl }}/features" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
-					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
-					<!-- <li><a href="{{ $page->baseUrl }}/idea-generation" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li> -->
-					<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
+					<li><a href="{{ $page->baseUrl }}/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
+					<li><a href="{{ $page->baseUrl }}/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
+					<li><a href="{{ $page->baseUrl }}/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
+					<!-- <li><a href="{{ $page->baseUrl }}/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li> -->
+					<li><a href="{{ $page->baseUrl }}/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
 
-					<!-- <li><a href="http://affiliates.outgrow.co/">Affiliates</a></li> -->
-					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Blog</a></li>
+					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
+					<li><a href="http://resources.outgrow.co/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Blog</a></li>
 
-					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+					<li><a href="http://resources.outgrow.co/about?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
 					<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 				<h4>Discover</h4>
 				<ul>
-					<li><a href="http://outgrow.co.in/calculator/" class="">Calculator</a></li>
-					<li><a href="http://outgrow.co.in/quiz/" class="">Quizzes </a></li>
-					<li><a href="http://outgrow.co.in/survey/" class="">Survey</a></li>
-					<li><a href="http://outgrow.co.in/increase-conversions/" class="">Increase Conversions</a></li>
-					<li><a href="http://outgrow.co.in/increase-roi/" class="">Increase ROI</a></li>
-					<li><a href="http://outgrow.co.in/increase-sales/" class="">Increase Sales</a></li>
+					<li><a href="http://outgrow.co.in/calculator/?utm_source=footer" class="">Calculator</a></li>
+					<li><a href="http://outgrow.co.in/quiz/?utm_source=footer" class="">Quizzes </a></li>
+					<li><a href="http://outgrow.co.in/survey/?utm_source=footer" class="">Survey</a></li>
+					<li><a href="http://outgrow.co.in/increase-conversions/?utm_source=footer" class="">Increase Conversions</a></li>
+					<li><a href="http://outgrow.co.in/increase-roi/?utm_source=footer" class="">Increase ROI</a></li>
+					<li><a href="http://outgrow.co.in/increase-sales/?utm_source=footer" class="">Increase Sales</a></li>
 				</ul>
 			</div>
 			<!-- <div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
@@ -142,14 +142,14 @@
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-ebook1.jpg"" src="{{ $page->baseUrl }}/images/footer-ebook1.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">							
-						<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies">Interactive Content Marketing for Digital Agencies </a>
+						<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies/?utm_source=footer">Interactive Content Marketing for Digital Agencies </a>
 					</div>
 				</div>
 
 				<div class="footer-img2 col-xs-6 col-sm-12 ebook2">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-ebook2.jpg"" src="{{ $page->baseUrl }}/images/footer-ebook2.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">						
-						<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators">Creative's Guide to building Viral Quizzes and Calculators</a>
+						<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators/?utm_source=footer">Creative's Guide to building Viral Quizzes and Calculators</a>
 					</div>
 				</div>
 			</div>
@@ -158,13 +158,13 @@
 				<div class="footer-img2 col-xs-6 col-sm-12">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-tools1.jpg"" src="{{ $page->baseUrl }}/images/footer-tools1.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">							
-						<a href="https://influencers.outgrow.us/roi-of-outgrow">Find the ROI of using Outgrow with this Interactive Calculator</a>
+						<a href="https://influencers.outgrow.us/roi-of-outgrow/?utm_source=footer">Find the ROI of using Outgrow with this Interactive Calculator</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-12 tools2">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-tools2.jpg"" src="{{ $page->baseUrl }}/images/footer-tools2.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">						
-						<a href="https://outgrow.co/idea-generation/">Generate Ideas for Quizzes and Calculators</a>
+						<a href="https://outgrow.co/idea-generation/?utm_source=footer">Generate Ideas for Quizzes and Calculators</a>
 					</div>
 				</div>
 			</div>
@@ -173,43 +173,43 @@
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog1.jpg"" src="{{ $page->baseUrl }}/images/footer-blog1.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">						
-						<a href="https://outgrow.co/blog/top-10-interactive-quizzes-calculators-2017">Highest-performing Interactive Quizzes and Calculators</a>
+						<a href="https://outgrow.co/blog/top-10-interactive-quizzes-calculators-2017/?utm_source=footer">Highest-performing Interactive Quizzes and Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog2.jpg"" src="{{ $page->baseUrl }}/images/footer-blog2.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">							
-						<a href="https://outgrow.co/blog/interactive-content-engagement-tips">How to Make Quizzes and Calculators Engaging</a>
+						<a href="https://outgrow.co/blog/interactive-content-engagement-tips/?utm_source=footer">How to Make Quizzes and Calculators Engaging</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog3.jpg"" src="{{ $page->baseUrl }}/images/footer-blog3.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">						
-						<a href="https://outgrow.co/blog/get-paid-for-your-pad-interactive-marketing-success-story">Get Paid for your Paid: Interactive Marketing Success Story</a>
+						<a href="https://outgrow.co/blog/get-paid-for-your-pad-interactive-marketing-success-story/?utm_source=footer">Get Paid for your Paid: Interactive Marketing Success Story</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-6">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="{{ $page->baseUrl }}/images/footer-blog4.jpg"" src="{{ $page->baseUrl }}/images/footer-blog4.jpg" /></div>
 					<div class="col-xs-12 np footer-img-text">							
-						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
+						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 np footer-social">
 			<ul>
-				<!-- <li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
-				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
-				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>-->				
+				<!-- <li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>-->
 				<li class=""><a href="{{ $page->baseUrl }}/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
-				<li><a href="{{ $page->baseUrl }}/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+				<li><a href="{{ $page->baseUrl }}/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
 				<!-- <li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact Us</a></li> -->
-				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
+				<li><a href="https://angel.co/venturepact/jobs/?utm_source=footer">Careers</a></li>
 			</ul>
 			<ul>
-				<li class="social-icons"><a href="https://www.facebook.com/OutgrowCo/" target="_blank"><i class="zmdi zmdi-facebook-box"></i></a></li>
-				<li class="social-icons"><a href="https://www.linkedin.com/company/7966190/" target="_blank"><i class="zmdi zmdi-linkedin-box"></i></a></li>
-				<li class="social-icons"><a href="https://twitter.com/outgrowco" target="_blank"><i class="zmdi zmdi-twitter-box"></i></a></li>
+				<li class="social-icons"><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer" target="_blank"><i class="zmdi zmdi-facebook-box"></i></a></li>
+				<li class="social-icons"><a href="https://www.linkedin.com/company/7966190/?utm_source=footer" target="_blank"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+				<li class="social-icons"><a href="https://twitter.com/outgrowco/?utm_source=footer" target="_blank"><i class="zmdi zmdi-twitter-box"></i></a></li>
 			</ul>
 			<div class="company-address">
 				401 park ave, 10th floor, New York 10016

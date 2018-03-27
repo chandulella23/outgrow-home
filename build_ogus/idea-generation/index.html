@@ -44,7 +44,7 @@
 	//Intercom
 	var url			=	window.location.href;
 	var intercom_id	=	'om2goh5g';
-	if (url.toLowerCase().indexOf("outgrow.co") >= 0){
+	if (url.toLowerCase().indexOf("outgrow.co") >= 0 && url.toLowerCase().indexOf("outgrow.co.in") < 0){
 		intercom_id	=	'r841gnag';
 	}
 	window.intercomSettings = {
@@ -100,6 +100,29 @@
 	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+
+	let host = window.location.href.toLowerCase();
+	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";
+
+
+
+
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    var parser = document.createElement('a');
+    parser.href = window.location.href;
+    ga('create', gap, 'auto', 'markettingteam');    
+
+	
 </script>
 <!-- Analytics Tracking Snippets Ends -->
 <style>
@@ -125,45 +148,42 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right" id="navlist">
-                <li><a href="/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
-                <li><a href="/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
-                <li><a href="/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
-                <li><a href="/examples" onclick="callGA('USECASE')" class="params">Examples</a></li>
-               	<li class="login">
-               		<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
-               	</li>
-          		<li class="signUp signUp-style res-nav-hide">
-          			<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
-          		</li>
-                <li class="signUp res-nav-show">
-                	<a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
-                </li>
-			</ul>
-		</div>
+<div class="container-fluid">
+	<div class="navbar-header">
+		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button> 
+		<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
 	</div>
-</nav>
+	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right" id="navlist">
+			<li><a href="/why-interactive" onclick="callGA('WHY')" class="params" id="nav-why-interactive">Why Interactive Content ?</a></li>
+			<li><a href="/features" onclick="callGA('FEATURES')" class="params" id="nav-features">Features</a></li>
+			<li><a href="/pricing" onclick="callGA('PRICING')" class="params" id="nav-pricing">Pricing</a></li>
+			<li><a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li>
+			   <li class="login">
+				   <a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+			   </li>
+			  <li class="signUp signUp-style res-nav-hide">
+				  <a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+			  </li>
+			<li class="signUp res-nav-show">
+				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+			</li>
+		</ul>
+	</div> 
+</div>
+</nav> 
 
-<!-- <script>
-	jQuery(document).ready(function() {
-		jQuery('.navbar-nav li a').on('click',function(){
-			jQuery('li a').removeClass('active');
-			jQuery(this).addClass('active');
-		});
 
-	});
-</script> -->
+<!-- <div class="header-logo">
+<a href="https://outgrow.co/" class="">
+	<img src="/images/lp-header-logo.png" alt="lp-header-logo image">
+</a>
+</div> -->
 		<div class="main-outr">
         <section class="sec-outr sec1-bg mouse-bg">
             <div class="sec">
