@@ -6546,13 +6546,28 @@ i.zmdi.zmdi-twitter-box {
 		border-radius: 3px;
 		transition: all .3s ease 0s;
 		border-bottom: 3px solid transparent;
+		text-align: center;
 	}
 	.metrics-inner-block:last-child {
 		margin-right: 0;
 	}
 	.metrics-inner-block:hover {
-		box-shadow: 0px 1px 30px rgba(69, 100, 115, .15);
+		box-shadow: 0px 1px 40px rgba(69, 100, 115, .15);
 		border-bottom: 3px solid #fb5f66;
+	}
+	.metrics-inner-block h4 {
+		color: #61696c;
+		font-size: 24px;
+		font-family: montserratlight;
+	}
+	.metrics-inner-block span {
+		font-size: 12px;
+		color: #626a6d;
+		opacity: 0.7;
+		font-family: montserratlight;
+		line-height: 18px;
+		margin-bottom: 10px;
+		display: block;
 	}
 	.section-metrics .asterix-text {
 		float: left;

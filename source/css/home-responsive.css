@@ -793,7 +793,7 @@
         padding-top: 40px;
         /* padding-bottom: 40px; */
     }
-    .whyMerticsAwesome-inner-left, .whyMerticsAwesome-inner-right {display: inline-block;}
+    .whyMerticsAwesome-inner-left, .whyMerticsAwesome-inner-right {display: inline-block; text-align: center;}
     /* .whyMerticsAwesome-inner img {width: 100%;} */
     .whyMerticsAwesome-inner-left.sec-newTraffic, .whyMerticsAwesome-inner-left.sec-audience {left: 0;}
     .section-subheading {font-size: 20px;}

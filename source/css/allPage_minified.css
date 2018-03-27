@@ -16371,7 +16371,7 @@ span.icon-webcam {
     border: 2px solid #e1e1e1 !important;
     box-shadow: 0px 11px 24px rgba(0,0,0,.28);
     border: none;
-	min-height: 75vh !important;
+	/*min-height: 75vh;*/
 
 }
 .sec-outgrowMagic {
