@@ -13,6 +13,18 @@ window.showPlan = function (a){
 		jQuery('#y').addClass('active').siblings('.pricing-cards').removeClass('active');
 	}
 }
+window.showCycle = function (cycle) {
+	console.log('showCycleshowCycle', cycle);
+	if(cycle == 'annual') {
+		jQuery('.monthly-price').css('display', 'none');
+		jQuery('.annual-price').css('display', 'block');
+		jQuery('.s-annual-price').css('display', 'none');
+	} else {
+		jQuery('.monthly-price').css('display', 'block');
+		jQuery('.annual-price').css('display', 'none');
+		jQuery('.s-annual-price').css('display', 'none');
+	}
+}
 window.showIntercom = function () {
     console.log('intercom');
     jQuery(document).find('.intercom-launcher').click();
@@ -107,18 +119,20 @@ jQuery(document).ready(function() {
 	});
 
 	var cycleSwitch = document.getElementById('myonoffswitch');
-	cycleSwitch.onchange = function () {
-		if (this.checked) {
-			jQuery('.monthly-price').css('display', 'block');
-			jQuery('.annual-price').css('display', 'none');
-			jQuery('.s-annual-price').css('display', 'none');
-			return;
-		}
-
-		jQuery('.monthly-price').css('display', 'none');
-		jQuery('.annual-price').css('display', 'block');
-		jQuery('.s-annual-price').css('display', 'none');
-	}
+	// cycleSwitch.onchange = function () {
+	// 	if (this.checked) {
+	// 		jQuery('.monthly-price').css('display', 'block');
+	// 		jQuery('.annual-price').css('display', 'none');
+	// 		jQuery('.s-annual-price').css('display', 'none');
+	// 		return;
+	// 	}
+		
+	// 	jQuery('.monthly-price').css('display', 'none');
+	// 	jQuery('.annual-price').css('display', 'block');
+	// 	jQuery('.s-annual-price').css('display', 'none');
+		
+	// }
+	
 
 	var cookie = window.readCookie('storage');
 	var hostName = window.location.hostname;
