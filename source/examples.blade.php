@@ -44,7 +44,9 @@
 @section('content')
 	<!--  top section-->
 	<div class="section-main sec-example">
-		<section class="section section-5 sec-outgrowMagic-title">
+
+		<!-- hiding the top red bar of each page -->
+		<!-- <section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<div class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
 					Outgrow In Practice
@@ -53,7 +55,8 @@
 					Get inspired by some of our most successful calculators & quizzes!
 				</h5>
 			</div>
-		</section>
+		</section> -->
+		<!-- end: hiding the top red bar of each page -->
 
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">

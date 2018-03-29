@@ -496,3 +496,15 @@
 	}
 
 }
+@media (max-width: 1800px) and (min-width: 1480px){
+	#pricing .section-1 {
+		margin-top: 90px !important;
+		padding-top: 60px !important;
+	}
+}
+@media (max-width: 1920px) and (min-width: 1810px) {
+	#pricing .section-1 {
+		margin-top: 90px !important; 
+		padding-top: 60px !important;
+	}
+}
