@@ -146,16 +146,20 @@ window.changeTab = function (tabName) {
     console.log(categorySet);
     let categoryContainer = jQuery('#calc-cats').children();
     let categories = categoryContainer.children();
-    console.log(categories);
+    let it = categorySet.values();
+    let first = it.next().value; //get first valid category
     for (let i = 0; i < categories.length; i++) {
         if (categorySet.has(categories[i].id)) {
-            console.log(categories[i].id,'removing hide');
             categoryContainer[i].classList.remove('hide');
-            shuffleCalcs('Auto')
         } else {
-            console.log(categories[i].id,'adding hide')
             categoryContainer[i].classList.add('hide');
         }
+    }
+
+    if (first) {
+        shuffleCalcs(first)
+    } else {
+        shuffleCalcs('Auto');
     }
 
 }
