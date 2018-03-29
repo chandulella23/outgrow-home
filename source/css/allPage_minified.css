@@ -19734,3 +19734,7 @@ img.scrollimg1.wo {
 	margin-top: 10px;
 	text-transform: capitalize;
 }
+.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
+    right: 0;
+    top: 58px;
+}
