@@ -51,42 +51,62 @@
 			<div class="container case-study-tabs-container">
 				<div class="col-md-12 col-sm-12 col-xs-12 np">
 					<ul class="nav nav-pills">
-						<li class="active">
-							<a class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs" data-toggle="pill" href="#tag">
+						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs active">
+							<a class="" data-toggle="pill" href="#tag">
 								<img src="{{ $page->baseUrl }}/images/case_study_tag.png" alt="TAG Livros">
 								<span>Case Study 1</span>
 							</a>
 						</li>
-						<li>
-							<a class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs" data-toggle="pill" href="#getPaid">
+						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs">
+							<a class="" data-toggle="pill" href="#getPaid">
 								<img src="{{ $page->baseUrl }}/images/case_study_get_paid.png" alt="Get Paid For Your Pad">
 								<span>Case Study 2</span>
 							</a>
 						</li>
-						<li>
-							<a class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs"  data-toggle="pill" href="#vp">
+						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs">
+							<a class=""  data-toggle="pill" href="#vp">
 								<img src="{{ $page->baseUrl }}/images/case_study_vp.png" alt="VenturePact">
 								<span>Case Study 3</span>
 							</a>
 						</li>
 					</ul>
-					<div class="tab-content">
-						<div id="tag" class="tab-pane fade in active">
-							<h3>HOME</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div id="getPaid" class="tab-pane fade">
-							<h3>Menu 1</h3>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
-						<div id="vp" class="tab-pane fade">
-							<h3>Menu 2</h3>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
+
+		<div class="tab-content">
+			<div id="tag" class="tab-pane fade in active">
+				<section class="section section-counter">
+					<div class="container">
+						<div class="section-2-heading">TAG Livros Generates 55K + Leads Using <br/>Interactive Experiences </div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
+							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+								<div class="counter counter-lined"><span data-from="1000" data-to="30000" data-refresh-interval="100" data-speed="2000">55</span>k</div>
+								<span>Leads</span>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+								<div class="counter counter-lined"><span data-from="1000" data-to="30000" data-refresh-interval="100" data-speed="2000">196</span>k</div>
+								<span>Visits</span>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+								<div class="counter counter-lined"><span data-from="1000" data-to="30000" data-refresh-interval="100" data-speed="2000">28</span>%</div>
+								<span>Conversion Rate</span>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			
+			<div id="getPaid" class="tab-pane fade">
+				<h3>Menu 1</h3>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<div id="vp" class="tab-pane fade">
+				<h3>Menu 2</h3>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+			</div>
+		</div>
+
 	</div>
 
 

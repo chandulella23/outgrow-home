@@ -7078,19 +7078,16 @@ i.zmdi.zmdi-twitter-box {
 	.case-study-tabs {
 		background: #fff;
 		margin-right: 90px;
-		padding: 27px 15px;
+		/* padding: 27px 15px; */
 		max-width: 172px;
 		border-radius: 3px;
 		transition: all .3s ease 0s;
-		border-bottom: 3px solid rgba(97, 105, 108, .2);
+		/* border-bottom: 3px solid rgba(97, 105, 108, .2); */
 		text-align: center;
 		box-shadow: 0px 1px 20px rgba(0, 0, 0, .08);
 	}
 	.case-study-tabs:last-child {
 		margin-right: 0;
-	}
-	.case-study-tabs:hover {
-		border-bottom: 3px solid #fb5f66;
 	}
 	.case-study-tabs span {
 		font-size: 12px;
@@ -7099,5 +7096,38 @@ i.zmdi.zmdi-twitter-box {
 		line-height: 18px;
 		margin-top: 10px;
 		display: block;
+		text-transform: uppercase;
+	}
+	.nav .case-study-tabs a {
+		padding: 27px 15px;
+		border-radius: 3px;		
+		border-bottom: 4px solid rgba(97, 105, 108, .2);
+	}
+	.nav .case-study-tabs:hover a {
+		border-bottom: 4px solid #fb5f66;
+		background: #fff;
+	}
+	.nav-pills>li.case-study-tabs.active>a, .nav-pills>li.case-study-tabs.active>a:hover {
+		background-color: #fff;
+		border-bottom: 4px solid #fb5f66;
+	}
+	.section-counter {
+		float: left;
+		width: 100%;
+		background: #f3f8fb;
+		padding: 60px 0;
+		margin: 0px;
+	}
+	.section-counter-inner {
+		margin-top: 25px;
+	}
+	.counter {
+		font-size: 72px;
+		color: #4793c5;
+	}
+	.counter + span {
+		font-size: 18px;
+		color: #626a6d;
+		font-family: montserratlight;
 		text-transform: uppercase;
 	}
