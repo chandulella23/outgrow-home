@@ -17444,6 +17444,7 @@ span.live-demo a {
 	}
 	.case-breathers-imgRight .case-breathers-rightSide {margin-top:10px;}
 	.case-breathers {padding-bottom: 40px;}
+	
 
 
 }
@@ -19775,3 +19776,4 @@ img.scrollimg1.wo {
     left: 5px;
 }
 .hvr-underline-from-left:before {left: 5px !important;}
+.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px;}
