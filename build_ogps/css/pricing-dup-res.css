@@ -328,6 +328,18 @@
 	}
 	
 }
+@media (max-width: 1800px) and (min-width: 1480px){
+	#pricing .section-1 {
+		margin-top: 45px !important;
+		padding-top: 60px !important;
+	}
+}
+@media (max-width: 1920px) and (min-width: 1810px) {
+	#pricing .section-1 {
+		margin-top: 45px !important; 
+		padding-top: 60px !important;
+	}
+}
 
 @media (min-width: 1920px) {
 

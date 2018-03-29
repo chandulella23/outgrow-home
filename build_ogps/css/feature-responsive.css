@@ -792,9 +792,9 @@
 		margin-bottom:0px;
 	}
 	#feature .section-10{
-		margin-top:30px;
+		margin-top:0px;
 		margin-bottom:50px;
-		padding-bottom: 0px !important;
+		/* padding-bottom: 0px !important; */
 	}
 	#feature .sec-style{
 		margin-top:0px;
@@ -1008,6 +1008,10 @@
 @media (min-width:768px) and (max-width:990px){
 	#feature .rs-hide-int-mob {display: none !important;}
 }
+@media (min-width:320px) and (max-width:990px){
+	.section-studio {margin-top: 0px; padding-bottom: 0px;}
+}
+
 @media (min-width:1024px) and (max-width:1024px){
 	#feature .section-f1-left {
 		padding-right: 60px;

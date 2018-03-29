@@ -1212,7 +1212,7 @@ label {
 			background: #f5fbff;
 			box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
 			border-bottom: 1px solid #e0f2fe;
-			border-top: 1px solid #e0f2fe;
+			/* border-top: 1px solid #e0f2fe; */
 		}
 
 		.expand-all > .minus , .expand-all.open > .plus {display: none;}
@@ -1224,10 +1224,11 @@ label {
 			border-bottom: 1px solid #f1f3c4;
 		}*/
 		
-		tbody tr.expand.open th {
+		tbody tr.expand.open th, tbody tr.expand.open td {
 			vertical-align: top;
 			border-bottom: 1px solid #e0f2fe;
 			border-top: 1px solid #e0f2fe;
+			background: #f5fbff;
 		}
 		.pricing-block {
 			display: none;
@@ -1280,6 +1281,24 @@ label {
 		}
 		thead th:last-child {
 			border-right: 1px solid #eff0f1;
+		}
+		tr.expand.open td.expand-child {
+			background: #f5fbff;
+    		border-bottom: 1px solid #e0f2fe;
+		}
+		tr.expand.open th {
+			background: #f5fbff;
+			box-shadow: 2px 3px 7px rgba(0, 0, 0, .10);
+			border-top: 1px solid #f5fbff;
+		}
+		tbody tr:hover th, tbody tr:hover td {
+			cursor: pointer;
+			background: #f5fbff;
+		}
+		tbody tr.not-info:hover th, tbody tr.not-info:hover td {
+			background: #fff;
+			box-shadow: none;
+			cursor: text;
 		}
 
 	/* end: table */
@@ -1652,3 +1671,4 @@ a.link-contact.intercom_trigger:hover {
     left: 5px;
 }
 .hvr-underline-from-left:before {left: 5px !important;}
+.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px;}
