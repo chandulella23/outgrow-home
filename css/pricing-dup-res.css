@@ -290,6 +290,9 @@
 	.expand-rs .minus, .expand-rs.open .plus{display: none;}
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
 	.detail {padding: 10px 10px 0px 10px;}
+	#plan-cycle {
+		margin-left: 0;
+	}
 
 	
 
@@ -320,8 +323,11 @@
 	}
 
 }
-
-
+@media (min-width: 991px) and (max-width:1280px) {
+	#plan-cycle {
+		margin-left: 19%;
+	}
+}
 @media (min-width: 1024px) and (max-width:1200px) {
 	#pricing .container-faqs {
 		width: 900px;
