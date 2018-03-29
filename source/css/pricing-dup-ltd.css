@@ -1641,3 +1641,11 @@ thead th p.price small, .pricing-block span.annual-price small {
 }
 .hvr-underline-from-left:before {left: 5px !important;}
 .nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px;}
+.nav-boxshadow .hvr-underline-from-left:active:before, 
+.nav-boxshadow .hvr-underline-from-left:focus:before, 
+.nav-boxshadow .hvr-underline-from-left:hover:before {
+	top: 54px;
+}
+.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {
+    top: 54px;
+}
