@@ -1145,7 +1145,7 @@ label {
 }
 .section-10 {
 	background: #fb6c73;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 	margin-top: 40px
 }
 .sec10-testimonial {
@@ -3224,7 +3224,7 @@ button.swiper-pagination-bullet {
 	box-shadow: 2px 0 8px 2px rgba(0, 0, 0, .1)
 }
 #feature .section-f3 {
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 50px
 }
 #feature .section-f3-left span {
@@ -3749,8 +3749,8 @@ button.swiper-pagination-bullet {
 	padding-bottom: 0 !important
 }
 #feature .section-15 {
-	margin-top: 50px;
-	margin-bottom: 60px
+	margin-top: 30px;
+	margin-bottom: 50px
 }
 #feature .section-15 .section-15-left h4 {
 	color: #fb6c73;
@@ -4033,7 +4033,7 @@ button.swiper-pagination-bullet {
 }
 #why .section-w1 {
 	margin-top: 40px;
-	margin-bottom: 40px
+	margin-bottom: 60px
 }
 #why .section-w1-left span {
 	text-align: left;
@@ -4044,8 +4044,8 @@ button.swiper-pagination-bullet {
 	margin-top: 15px
 }
 #why .section-w2 {
-	margin-top: 40px;
-	margin-bottom: 80px
+	margin-top: 60px;
+	margin-bottom: 30px
 }
 #why .section-w2-subheading {
 	float: none;
@@ -5518,7 +5518,7 @@ iframe[name=google_conversion_frame] {
 		margin-right: 10px;
 	}
 	#feature section.sec-graphsCharts {
-		margin-bottom: 0px;
+		 margin-bottom: 60px; 
 	}
 
 	.tab-outer-frame {
@@ -6492,18 +6492,79 @@ iframe[name=google_conversion_frame] {
 /* new css for hiding the top red bar of each page */
 .calc-table {
 	margin-top: 65px;
-	background: #f3f8fb;
-	padding-bottom: 50px;
+	/* background: #f3f8fb; */
+	/* padding-bottom: 50px; */
+	margin-bottom: 20px;
 }
 .calc-table .container {
     margin-top: 40px;
 }
 .section-studio {
-    margin-top: 30px;
-    background: #f3f8fb;
+    margin-top: 65px;
+    /* background: #f3f8fb; */
     float: left;
 	width: 100%;
-	padding-bottom: 40px;
+	/* padding-bottom: 40px; */
+	/* padding-top: 35px; */
 }
-
+.feature-blue {
+    background: #f3f8fb;
+    margin-top: 0px !important;
+    padding-top: 50px !important;
+}
+.feature-white {
+    background: #fff;
+	padding-top: 50px !important;
+	padding-bottom: 10px;
+}
+.feature-blue-brand {
+	padding-bottom: 110px;
+	margin-bottom: 0px !important;
+	padding-top: 60px !important;
+}
+.feature-white-smart-builder {
+    padding-bottom: 40px;
+}
+.feature-blue-formulas {
+	padding-bottom: 100px;
+	margin-bottom: 30px !important;
+	padding-top: 60px !important;
+}
+.section-5.feature-blue {
+	margin-bottom: 0px !important;
+	padding-bottom: 60px;
+}
+.section-f4.feature-blue {
+    margin-top: 40px !important;
+	padding-bottom: 60px;
+	margin-bottom: 20px !important;
+}
+.feature-9-1.feature-blue {
+    margin-top: 70px !important;
+	padding-bottom: 60px;
+	margin-bottom: 20px !important;
+	padding-top: 60px !important;
+}
+.section-f1-new.feature-white {
+	margin-top: 0px !important;
+	padding-bottom: 0px;
+}
+.why-blue {
+	background: #f3f8fb !important;
+}
+.section-4.why-blue {
+    background: #f3f8fb;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-bottom: 20px !important;
+}
+.section-7.why-blue {
+    padding-top: 40px;
+}
+.section-w3.why-blue {
+    margin-top: 20px !important;
+    padding-top: 60px;
+	padding-bottom: 60px !important;
+	margin-bottom: 20px !important;
+}
 /* new css for hiding the top red bar of each page */
