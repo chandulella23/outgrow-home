@@ -117,7 +117,7 @@
 	</section> -->
 	<!-- end: hiding the top red bar of each page -->
 	<section class="section-studio">
-		<section class="section rs-hide">
+		<section class="section rs-hide hide">
 			<div class="container">
 				<div class="feature-heading mk-animate-element scale-up head-text">
 					The Development Studio
@@ -125,7 +125,7 @@
 			</div>
 		</section>
 		<!-- Feature page section 0 start-->
-		<section class="section section-f1 mb">
+		<section class="section section-f1 mb feature-blue">
 			<div class="container mobile-container">
 				<div class="col-xs-12 col-sm-12 col-md-6 mk-animate-element scale-up rs-hide">
 					<div class="col-xs-12 col-sm-12 slider-sa np">
@@ -205,7 +205,7 @@
 		</section>
 		<!-- Feature page section 0 end-->
 		<!-- Feature page section 1 start-->
-		<section class="section section-f1 mb section-f1-new">
+		<section class="section section-f1 mb section-f1-new feature-white">
 			<div class="container mobile-container">
 				<div class="col-xs-12 col-sm-12 col-md-6 section-f1-left">
 					<h4 class="mk-animate-element left-to-right">
@@ -273,7 +273,7 @@
 		<!-- Feature page section 1 end-->
 
 		<!-- Featurepage section 2 start-->
-		<section class="section section-f2">
+		<section class="section section-f2 feature-blue feature-blue-brand">
 			<div class="container img-container-right mobile-container">
 				<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right">
 					<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
@@ -315,7 +315,7 @@
 		<!--Feature Page section 2 ends -->
 
 		<!--Feature Page section 3 starts -->
-		<section class="section section-15">
+		<section class="section section-15 feature-white feature-white-smart-builder">
 			<div class="container img-container-right mobile-container">
 				<div class="col-xs-12 col-sm-12 col-md-5 section-15-left">
 					<span class="mk-animate-element right-to-left">
@@ -342,7 +342,7 @@
 		<!-- Feature Page Section 3 ends -->
 
 		<!-- Feature Page Section 4 starts -->
-		<section class="section section-17">
+		<section class="section section-17 feature-blue feature-blue-formulas">
 			<div class="container img-container-right mobile-container">
 				<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide ">
 					<img alt="Easily Create Complex Formulas" src="//dzvexx2x036l1.cloudfront.net/feature-complexFormulas-01.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
@@ -452,7 +452,7 @@
 		</section>
 
 		<!-- Feature page section 5 start-->
-		<section class="section section-5">
+		<section class="section section-5 feature-blue">
 			<div class="container sec-5-container mobile-container">
 				<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
 					<h5>Multiple Results</h5>
@@ -547,7 +547,7 @@
 	<!-- Feature page section 7 end-->
 
 	<!-- Feature page section 8 start-->
-	<section class="section section-f4">
+	<section class="section section-f4 feature-blue">
 		<div class="container img-container-right mobile-container np">
 			<div class="col-xs-12 col-sm-12 col-md-12 section-f4-left sec-f4-style">
 				<span class="mk-animate-element left-to-right hide">
@@ -614,7 +614,7 @@
 	</section>
 	<!-- Feature page section 9 end-->
 	<!-- Featurepage section 9.1 start-->
-	<section class="section section-f2 feature-9-1">
+	<section class="section section-f2 feature-9-1 feature-blue">
 		<div class="container img-container-right mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide mk-animate-element left-to-right">
 				<img alt="Improve Social Footprint" src="//dzvexx2x036l1.cloudfront.net/share-img.png" class="mk-animate-element left-to-right" />
