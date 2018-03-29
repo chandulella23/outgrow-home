@@ -575,5 +575,6 @@
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"whypage": "{{ $page->baseUrl }}/js/pageScripts/whypage.js",
 	}
 @endsection

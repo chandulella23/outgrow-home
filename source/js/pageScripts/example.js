@@ -161,6 +161,7 @@ window.changeTab = function (tabName) {
 }
 
 jQuery(document).ready(function () {
+    jQuery('#nav-examples').addClass('active');
     calculateMinHeight();
     window.Intercom('update', { 'site_example_viewed': new Date() });
     
