@@ -39,7 +39,9 @@
 
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
-	<section class="section section-top-why">
+
+	<!-- hiding the top red bar of each page -->
+	<!-- <section class="section section-top-why">
 		<div class="container-fluid">
 			<div class="feature-heading-1 mk-animate-element scale-up">
 				<h3>
@@ -50,13 +52,13 @@
 		<div class="col-xs-12 col-sm-12 col-md-12 np p-img">
 				<img class="sec4-2-new mk-animate-element scale-up" src="//dzvexx2x036l1.cloudfront.net/google-search-1.png" alt="Google search image" />
 			</div>
-	</section>
-
+	</section> -->
+	<!-- end: hiding the top red bar of each page -->
 
 	<section class="section section-3 p20 calc-table">
 		<div class="container">
 			<div class="section-2-heading">
-				Calculators & quizzes:<br/> The Next Big Thing in Marketing
+				Calculators & Quizzes:<br/> The Next Big Thing in Marketing
 			</div>
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
@@ -291,7 +293,7 @@
 
 
 	<!-- Why Calculator section 4 start-->
-	<section class="section section-4 rs-hide">
+	<section class="section section-4 rs-hide why-blue">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
 				<!-- <img src="//dzvexx2x036l1.cloudfront.net/sound-cloud.jpg" class="mk-animate-element left-to-right" /> -->
@@ -310,7 +312,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section section-4 rs-show">
+	<section class="section section-4 rs-show why-blue">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-5 section-4-left">
 				<span class="mk-animate-element right-to-left">
@@ -367,7 +369,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section section-7 rs-hide">
+	<section class="section section-7 rs-hide why-blue">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-7 np">
 				<img alt="Bring Referral Traffic" src="//dzvexx2x036l1.cloudfront.net/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
@@ -387,7 +389,7 @@
 		</div>
 	</section>
 	<section class="section section-7 rs-show">
-		<div class="container img-container-right">
+		<div class="container img-container-right  why-blue">
 			<div class="col-xs-12 col-sm-12 col-md-5 section-4-left test1">
 				<span class="mk-animate-element right-to-left">
 				   <i class="material-icons">share</i>
@@ -399,7 +401,7 @@
 					<span>Calculators are <b>inherently viral</b>. Due to the personalization & instant gratification, one is more attuned to sharing them.</span>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
+			<div class="col-xs-12 col-sm-12 col-md-7 np p-img why-blue">
 				<img alt="Bring Referral Traffic" src="//dzvexx2x036l1.cloudfront.net/twitter-calc-home.png" class="mk-animate-element left-to-right  img-res">
 				<img alt="Bring Referral Traffic" src="//dzvexx2x036l1.cloudfront.net/fb-calc-new.png" class="mk-animate-element left-to-right img-2">
 			</div>
@@ -506,7 +508,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section section-w3">
+	<section class="section section-w3 why-blue">
 		<div class="container img-container-right">
 
 		   <div class="col-xs-12 col-sm-12 col-md-5 section-w3-text">
@@ -575,5 +577,6 @@
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"whypage": "{{ $page->baseUrl }}/js/pageScripts/whypage.js",
 	}
 @endsection

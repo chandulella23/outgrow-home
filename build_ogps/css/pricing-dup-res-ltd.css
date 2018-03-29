@@ -487,3 +487,24 @@
 	}
 
 }
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
+		display: none;
+	}
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {
+		display: none;
+	}
+
+}
+@media (max-width: 1800px) and (min-width: 1480px){
+	#pricing .section-1 {
+		margin-top: 90px !important;
+		padding-top: 60px !important;
+	}
+}
+@media (max-width: 1920px) and (min-width: 1810px) {
+	#pricing .section-1 {
+		margin-top: 90px !important; 
+		padding-top: 60px !important;
+	}
+}

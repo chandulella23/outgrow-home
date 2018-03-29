@@ -4,7 +4,7 @@
 	#pricing .section-1{
         margin-top: 0;
 		margin-bottom: 0;
-		padding-bottom: 40px;
+		padding-bottom: 00px;
     }
 	#pricing .loader{
 		color:#FB6C73;
@@ -61,7 +61,7 @@
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 5px; padding: 0 15px; line-height: normal;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
 	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
-	#plan-cycle {margin-bottom: 20px;}
+	#plan-cycle {margin-bottom: 20px;     margin-top: 40px;}
 
 	/* table res css */
 	/*thead th{border-bottom: 1px solid transparent !important; border: 1px solid #eff0f1;}
@@ -290,6 +290,9 @@
 	.expand-rs .minus, .expand-rs.open .plus{display: none;}
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
 	.detail {padding: 10px 10px 0px 10px;}
+	#plan-cycle {
+		margin-left: 0;
+	}
 
 	
 
@@ -320,13 +323,28 @@
 	}
 
 }
-
-
+@media (min-width: 991px) and (max-width:1280px) {
+	#plan-cycle {
+		margin-left: 19%;
+	}
+}
 @media (min-width: 1024px) and (max-width:1200px) {
 	#pricing .container-faqs {
 		width: 900px;
 	}
 	
+}
+@media (max-width: 1800px) and (min-width: 1480px){
+	#pricing .section-1 {
+		margin-top: 45px !important;
+		padding-top: 60px !important;
+	}
+}
+@media (max-width: 1920px) and (min-width: 1810px) {
+	#pricing .section-1 {
+		margin-top: 45px !important; 
+		padding-top: 60px !important;
+	}
 }
 
 @media (min-width: 1920px) {
@@ -473,4 +491,13 @@
 		width: 50%;
 	}
 	
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
+		display: none;
+	}
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {
+		display: none;
+	}
+
 }

@@ -72,9 +72,11 @@
 							<i class="material-icons">email</i>
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">							
 							<span class="lead-form-btn">
-								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA')">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
 									Start Free Trial
 								</a>
+
+								
 								<span class="live-demo">OR <a href="https://sample.outgrow.co/builder-demo/sample-calculator" class="">TAKE A LIVE DEMO</a></span>
 							</span>
 							<div id="bfrVid"></div>
@@ -102,14 +104,14 @@
 					let href = "//app.outgrow.co/signup/?email=";
 					document.getElementsByClassName('lead-email')[0].href = href + email;
 				}
-				window.callGA = function(a) {
-				    switch (a) {
-				        case "CANNOT WAIT CTA":
-				            console.log('CANNOT WAIT CTA')
-				            ga("send", "event", "Signup", "Click", "LP_FirstFold");
-				            break;
-				        }
-				    }
+				// window.callGA = function(a) {
+				//     switch (a) {
+				//         case "CANNOT WAIT CTA":
+				//             console.log('CANNOT WAIT CTA')
+				//             ga("send", "event", "Signup", "Click", "LP_FirstFold");
+				//             break;
+				//         }
+				//     }
 
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
 					let email = e.target.value;

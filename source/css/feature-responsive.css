@@ -62,6 +62,7 @@
 	#feature .section-f1 .slider-sa {
 		min-height: 170px;
 		padding:0 20px;
+		    padding-bottom: 60px;
 	}
 	#feature .section-f2-left {
 		padding: 0px 20px;
@@ -93,7 +94,7 @@
 	    margin-bottom: 15px;
     	margin-top: 10px;
 	}
-	#feature .mb{margin-bottom: 40px;}
+	/* #feature .mb{margin-bottom: 40px;} */
 	#feature .section-9-right {
 		padding-right: 0px;
 		padding-left: 0px;
@@ -155,9 +156,24 @@
 		margin-top:10px;
 		padding: 0 20px;
 	}
+	.section-5.feature-blue {
+		margin-bottom: 0px !important;
+		padding-bottom: 0;
+	}
 	#feature .section-15 {
-		margin-top: 40px;
-		margin-bottom: 50px;
+		margin-top: 0;
+		margin-bottom: 0px !important;
+		padding-top: 0px !important;
+	}
+	.feature-blue-formulas {
+		padding-top: 10px !important;
+	}
+	.section-f4.feature-blue {
+		padding-top: 0px !important;
+	}
+	#feature .sec-style {
+		margin-top: 0px;
+		margin-bottom: 120px;
 	}
 	#feature .section-15-left span i{
 		font-size:40px;
@@ -443,6 +459,10 @@
 		#feature .section.section-10.sec-help .start-trial-cta .btn-buildcal p {line-height: 22px; font-size: 13px;}
 
 	/* end: feature page responsive by arti */
+	.feature-blue-brand {
+		padding-bottom: 140px;
+		padding-top: 40px !important;
+	}
 
 
 
@@ -476,7 +496,7 @@
 		width: 60%;
 	}
 	#feature .section-15{
-		margin-top:70px;
+		margin-top:0px;
 	}
 	#feature .section-17{
 		margin-top:80px;
@@ -518,7 +538,8 @@
 }
 @media (min-width: 640px) and (max-width: 768px){
 	#feature .section-15 {
-		margin-top: 90px;
+		margin-top: 0px;
+		padding-top: 10px !important;
 	}
 	#feature .section-17 {
 		margin-top: 110px;
@@ -526,6 +547,13 @@
 	#feature .section.section-5 {
 		margin-top: 50px;
 	}
+	.section-f4.feature-blue {
+		padding-top: 0px !important;
+	}
+	#feature .sec-style {
+		margin-top: 0px;
+		margin-bottom: 100px !important;
+	}	
 }
 @media (min-width:768px) and (max-width:768px){
 	#feature .sec4-2 {
@@ -568,6 +596,15 @@
 		text-transform: uppercase;
 		padding:7px;
 	}*/
+	.feature-blue-formulas {
+		padding-top: 30px !important;
+	}
+	#feature section.sec-graphsCharts {
+		margin-bottom: 0;
+	}
+	.section-5.feature-blue {
+		padding-bottom: 30px;
+	}
 }
 @media (min-width:769px) and (max-width:990px){
 	#feature .rs-hide{
@@ -607,6 +644,7 @@
 	}
 	#feature .section-f1 {
 		margin-top: 40px;
+		padding-bottom: 30px;
 	}
 	#feature .section-f1-left {
 		padding-right: 20px;
@@ -642,6 +680,7 @@
 	#feature .section-f2 {
 		margin-top: 0px;
 		margin-bottom: 30px;
+		padding-bottom: 130px !important;
 	}
 	#feature .section-f2 .section-f2-left span span{
 		width:83%;
@@ -705,21 +744,22 @@
 	}
 	#feature .section-15-left {
 		padding: 0 20px;
-		margin-top:20px;
+		margin-top:0px;
 	}
 	#feature .section-15-right{
 		margin-top:30px;
 		padding: 0 20px;
 	}
 	#feature .section-15 {
-		margin-top: 40px;
-		margin-bottom: 50px;
+		margin-top: 0px;
+		margin-bottom: 100px;
 	}
 	#feature .section-15-left span i{
 		font-size:40px;
 	}
 	#feature .section-15-left span{
 		margin-bottom:10px;
+		margin-top: 0px;
 	}
 	#feature .sec15-2 {
 		position: absolute;
@@ -792,9 +832,9 @@
 		margin-bottom:0px;
 	}
 	#feature .section-10{
-		margin-top:30px;
+		margin-top:0px;
 		margin-bottom:50px;
-		padding-bottom: 0px !important;
+		/* padding-bottom: 0px !important; */
 	}
 	#feature .sec-style{
 		margin-top:0px;
@@ -882,7 +922,7 @@
 	#feature .section-f2 .section-f2-left h4{
 		line-height:normal;
 		font-size:24px;
-		margin-top:30px;
+		margin-top:0px;
 	}
 	#feature .secf2-test {
 		margin-bottom: 10px;
@@ -950,6 +990,21 @@
 	#feature .span-style{
 		font-size:16px !important;
 	}
+	.feature-blue-formulas {
+		padding-top: 30px !important;
+	}
+	.section-5.feature-blue {
+		padding-bottom: 20px;
+	}
+	.section-f4.feature-blue {
+		padding-top: 0px !important;
+	}
+	.feature-9-1.feature-blue { 
+		margin-top: 100px !important;
+	}
+	#feature .feature-9-1.feature-blue {
+		padding-bottom: 60px !important;
+	}
 }
 @media (min-width:991px) and (max-width:1023px){
 	#feature .section-f1-left {
@@ -1008,6 +1063,10 @@
 @media (min-width:768px) and (max-width:990px){
 	#feature .rs-hide-int-mob {display: none !important;}
 }
+@media (min-width:320px) and (max-width:990px){
+	.section-studio {margin-top: 0px; padding-bottom: 0px;}
+}
+
 @media (min-width:1024px) and (max-width:1024px){
 	#feature .section-f1-left {
 		padding-right: 60px;
