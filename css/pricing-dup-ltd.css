@@ -1649,3 +1649,8 @@ thead th p.price small, .pricing-block span.annual-price small {
 .nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {
     top: 54px;
 }
+.custom-navbar.navbar-default .navbar-nav>.active>a, 
+.custom-navbar.navbar-default .navbar-nav>.active>a:focus, 
+.custom-navbar.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff;
+}
