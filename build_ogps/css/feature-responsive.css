@@ -254,7 +254,7 @@
 
 	#feature .section.section-10 i.material-icons{
 		font-size:48px;
-		padding-top: 0px !important;
+		/* padding-top: 0px !important; */
 	}
 	#feature .section.section-5{
 		margin-top:40px;
@@ -493,6 +493,9 @@
 	}
 	#feature .section.section-10.sec-help .start-trial-cta {
 		margin-bottom: 0;
+	}
+	#feature .section.section-10.sec-help {
+		padding-bottom: 50px;
 	}
 
 
