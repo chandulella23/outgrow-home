@@ -310,6 +310,13 @@
 	.ltdSales-wrapper .asterix-text {
 		padding: 0px 20px;
 	}
+	.full, .quater, half, none {
+		vertical-align: text-top;
+	}
+	.pricing-outer.container.pricing-outer-ltdSales {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 
 
 }

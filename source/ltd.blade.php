@@ -618,23 +618,23 @@
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
                                 </li> -->
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  
                                        Layouts and Templates  
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Classic Layout and Templates </span>
-                                    <!-- <span class="detail">Only the Classic "Chicago" layout and templates.</span> -->
+                                    <span class="detail">You can create outcome quizzes using our highly customizable & classic ‘Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
                                 </li>
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i>  -->
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  
                                         Formula and Logic Jump
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access </span>
-                                    <!-- <span class="detail">Logic jump is not included.</span> -->
+                                    <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span> 
                                 </li> 
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -716,23 +716,23 @@
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                 </li> -->
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
+                                         <i class="material-icons plus">add</i> 
+                                         <i class="material-icons minus">remove</i>  
                                         Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
-                                    <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
+                                    <span class="feature-subtitle"><span class="full"></span>Limited Access</span>
+                                    <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
+                                         <i class="material-icons plus">add</i> 
+                                         <i class="material-icons minus">remove</i>  
                                         Integrations
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
-                                    <!-- <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc. </span> -->
+                                    <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
                                 </li>
                                 <!-- <li class="">
                                     <span class="feature-title">
@@ -838,7 +838,10 @@
                                         <!-- <i class="material-icons minus">remove</i>  -->
                                         Type of Experiences
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Numerical Calculators <br/> Outcome Quizzes</span>
+                                    <span class="feature-subtitle"><span class="half"></span>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small><br/>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small>
+                                    </span>
                                     <!-- <span class="detail">Numerical Calc and Outcome Quiz </span> -->
                                 </li> 
                                 <!-- <li>
@@ -923,14 +926,14 @@
                                     <span class="feature-subtitle"><span class="full"></span>Allowed</span>
                                     <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
                                 </li>
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
+                                         <i class="material-icons plus">add</i> 
+                                         <i class="material-icons minus">remove</i>  
                                         Integrations
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
-                                    <!-- <span class="detail">You can sync user's contact information using Zapier or over 10 direct integrations with tools like Salesforce, MailChimp, Aweber, Hubspot, Marketo Drip, Zoho, Intercom, Get Response, etc.</span> -->
+                                    <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1035,7 +1038,12 @@
                                         <!-- <i class="material-icons minus">remove</i>  -->
                                         Type of Experiences
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls </span>
+                                    <span class="feature-subtitle"><span class="full"></span>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small><br/>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quizzes </small><br/>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quizzes </small><br/>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Polls </small>
+                                    </span>
                                     <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span> -->
                                 </li> 
                                 <!-- <li>
@@ -1121,14 +1129,14 @@
                                     <span class="feature-subtitle"><span class="full"></span>Allowed</span>
                                     <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
                                 </li>
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
+                                         <i class="material-icons plus">add</i> 
+                                         <i class="material-icons minus">remove</i>  
                                         Integrations
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
-                                    <!-- <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span> -->
+                                    <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>

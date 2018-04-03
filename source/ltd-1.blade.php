@@ -1687,7 +1687,7 @@
                                                 <span class="feature-title">Leads & Visits</span>
                                                 <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>300 &amp; 6000/month</span>
                                             </li>
-                                            <li class="expand-rs">
+                                            <li class="">
                                                 <span class="feature-title">
                                                     <!-- <i class="material-icons plus">add</i>
                                                     <i class="material-icons minus">remove</i>  -->
@@ -1696,27 +1696,27 @@
                                                 <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>3</span>
                                                 <!-- <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span> -->
                                             </li>   
-                                            <li class="expand-rs">
+                                            <li class="">
                                                 <span class="feature-title">
-                                                     <i class="material-icons plus">add</i> 
-                                                     <i class="material-icons minus">remove</i>  
+                                                     <!-- <i class="material-icons vis-hide">add</i> 
+                                                     <i class="material-icons minus">remove</i>   -->
                                                     Type of Experiences
                                                 </span>
                                                 <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Outcome Quizzes</span>
-                                                 <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span> 
+                                                <!-- <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span>  -->
                                             </li> 
                                             <!-- <li>
                                                 <span class="feature-title">Collaborators</span>
                                                 <span class="feature-subtitle"><span class="half"></span>3</span>
                                             </li> -->
-                                            <li class="expand-rs">
+                                            <li class="">
                                                 <span class="feature-title">
-                                                     <i class="material-icons plus">add</i> 
-                                                     <i class="material-icons minus">remove</i>  
-                                                Layouts and Templates  
+                                                    <!-- <i class="material-icons vis-hide">add</i> 
+                                                    <i class="material-icons minus">remove</i>   -->
+                                                    Layouts and Templates  
                                                 </span>
                                                 <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Classic Layout and Templates </span>
-                                                 <span class="detail">You can create outcome quizzes using our highly customizable & classic ‘Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
+                                                <!-- <span class="detail">You can create outcome quizzes using our highly customizable & classic ‘Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span>  -->
                                             </li>
                                             <li class="hide">
                                                 <span class="feature-title">
@@ -1807,14 +1807,14 @@
                                                 </span>
                                                 <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                             </li> -->
-                                            <li class="expand-rs">
+                                            <li class="">
                                                 <span class="feature-title">
-                                                     <i class="material-icons plus">add</i> 
-                                                     <i class="material-icons minus">remove</i>  
+                                                     <!-- <i class="material-icons vis-hide">add</i> 
+                                                     <i class="material-icons minus">remove</i>   -->
                                                     Custom Branding
                                                 </span>
-                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Limited Access</span>
-                                                <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
+                                                <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Allowed</span>
+                                                <!-- <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span>  -->
                                             </li>
                                             <li class="expand-rs">
                                                 <span class="feature-title">
@@ -1840,14 +1840,14 @@
                                                 <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>Support Docs</span>
                                                 <span class="detail">You will have access to support docs.</span>
                                             </li>
-                                            <li class="expand-rs">
+                                            <li class="">
                                                 <span class="feature-title">
-                                                    <i class="material-icons plus">add</i>
-                                                    <i class="material-icons minus">remove</i> 
+                                                    <!-- <i class="material-icons vis-hide">add</i>
+                                                    <i class="material-icons minus">remove</i>  -->
                                                     Advanced Features
                                                 </span>
                                                 <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                                <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span>
+                                                <!-- <span class="detail">Advanced features include logic jump and custom HTML/CSS etc. </span> -->
                                             </li>
                                             <!-- <li>
                                                 <span class="feature-title">Templates</span>
