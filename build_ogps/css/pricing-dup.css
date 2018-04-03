@@ -1681,3 +1681,8 @@ a.link-contact.intercom_trigger:hover {
 .nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {
     top: 54px;
 }
+.custom-navbar.navbar-default .navbar-nav>.active>a, 
+.custom-navbar.navbar-default .navbar-nav>.active>a:focus, 
+.custom-navbar.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff;
+}

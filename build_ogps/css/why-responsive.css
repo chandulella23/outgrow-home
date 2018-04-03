@@ -40,7 +40,7 @@
 		margin-top: 15px;
 	}
 	#why .section-4-left span i{
-		margin-top:40px; 
+		margin-top:0px; 
 		font-size:40px;
 		margin-right:0px;
 	}
@@ -63,9 +63,11 @@
 	}
 	#why .img-container-right{
 		padding:0px;
+		padding-top: 40px;
+		padding-bottom: 50px;
 	}
 	#why .section-4-left span{
-		margin-top:2px;
+		margin-top:0px;
 		font-size:14px;
 		padding: 0 20px;
 		width:100%;
@@ -94,7 +96,13 @@
 	#why .section-7-left span i{
 		margin-top:2px;
 	}
-	#why .section-10{ margin-top: 20px; padding-bottom: 0px;}
+	#why .section-10{ 
+		margin-top: 0px; 
+		padding-bottom: 0px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		margin-bottom: 0px;
+	}
 	#why .sec4-2 {
 		position: absolute;
 		left: 40%;
@@ -166,6 +174,7 @@
 	}
 	#why .last-sec {
 		margin-bottom: 30px;
+		padding-top: 40px;
 	}
 	#why .section-4 img{
 		margin-top:0px;
@@ -205,7 +214,7 @@
 	}
 	#why .section-16 {
 		margin-top: 0px;
-		margin-bottom:30px;
+		margin-bottom:0px;
 	}
 	#why .section-16-left span{
 		margin-top:0px;
@@ -250,14 +259,14 @@
 		margin-bottom: 30px;
 	}
 	#why .section-w1-left span {
-		margin-top: 2px;
+		margin-top: 0px;
 		font-size: 14px;
 		padding: 0 20px;
 		width: 100%;
 		margin-bottom: 10px;
 	}
 	#why .section-w1-left span i {
-		margin-top: 40px;
+		margin-top: 0px;
 		font-size: 40px;
 		margin-right: 0px;
 	}
@@ -290,7 +299,7 @@
 		font-family: montserratlight;
 	}
 	#why .section-w2-left span {
-		margin-top: 2px;
+		margin-top: 0px;
 		font-size: 14px;
 		padding: 0 20px;
 		width: 100%;
@@ -307,7 +316,7 @@
 	#why .section-w2 img {
 		margin-top: 0px;
 		width: 100%;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 		margin-left: 0px;
 	}
 	#why .section-w3-text {
@@ -321,7 +330,7 @@
 		margin-bottom:30px;font-size: 14px;
 	}
 	.video-wrapper-1{
-		margin: 20px 0px;
+		margin: 10px 0px 0;
 	}
 	#why .grey-heading{
     	text-transform: none;
@@ -357,14 +366,31 @@
 	.sec-grey.section.section-10 p{margin-bottom: 0px;}
 	.sec-new-table:first-child {margin-top: 0px;}
 	.sec-new-table {margin-top: 30px;}
-	.start-trial-cta {margin: 30px 0px 0px;}
+	.start-trial-cta {margin: 20px 0px 0px;}
 	
 	/* .calc-table {margin-top: 40px !important; margin-bottom: 20px !important;} */
-	.calc-table {margin-top: 0px !important; margin-bottom: 20px !important;  padding-bottom: 50px !important;}
+	.calc-table {margin-top: 0px !important; margin-bottom: 20px !important;  padding-bottom: 20px !important;}
 	.calc-table .section-2-heading {margin-bottom: 30px !important;}
 	.section-4.rs-show.why-blue {
 		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 0px !important;
 	}
+	.section-w1.rs-show {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	#why .section-7 .img-container-right {
+		padding-bottom: 0px;
+		    width: 100%;
+	}
+	.section-w3.why-blue {
+		margin-top: 0px !important;
+		padding-top: 0;
+		padding-bottom: 0px !important;
+		margin-bottom: 0px !important;
+	}
+	#why .section-w3-text span {margin-top: 0px;}
 
 
 
@@ -513,9 +539,65 @@
 	}
 	
 	/* .calc-table {margin-top: 40px !important; margin-bottom: 20px !important;} */
-	.calc-table {margin-top: 0px !important; margin-bottom: 20px !important; padding-bottom: 50px;}
+	.calc-table {margin-top: 0px !important; margin-bottom: 0px !important; padding-bottom: 0px;}
 	.calc-table .section-2-heading {margin-bottom: 30px !important;}
-
+	.section-4.why-blue {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		padding-top: 40px;
+	}
+	.calc-table .container {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.section-4-left span {
+		margin-top: 0;
+	}
+	#why .section-w1-left span {
+		margin-top: 0;
+	}
+	#why .section-7 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.section-7.rs-show .container {
+		width: 100%;
+		padding-top: 40px;
+	}
+	#why .section-w2 {
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
+	#why .section-w2-left span {
+		margin-top: 0;
+	}
+	.section-10, .section-6 {
+		margin-bottom: 0;
+	}
+	#why .section-16-left span {
+		margin-top: 0;
+	}
+	.p-img {
+		margin-top: 40px;
+		text-align: center;
+	}
+	.section-w3.why-blue {
+		padding-top: 40px;
+		margin-bottom: 40px !important;
+	}
+	#why .section-w3-text span {
+		margin-top: 0;
+	}
+	#why .container-video {
+    	width: 770px;
+		margin: 20px auto;
+	}
+	.video-wrapper-1 {
+		padding: 0px 30px;
+	}
+	#why .section-w3-text {
+		padding-left: 40px;
+	}
 
 }
 

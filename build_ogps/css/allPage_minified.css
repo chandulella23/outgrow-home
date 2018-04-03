@@ -4760,7 +4760,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-1-left .btn-buildcal.red{padding:15px 40px;font-size:18px}
 	.section-1-left .btn-buildcal.red i{font-size:24px}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:16px}
-	.custom-navbar.navbar-default{padding-top:10px;padding-bottom:10px}
+	.custom-navbar.navbar-default{padding-top:25px;padding-bottom:25px}
 	.sahil-material .form-group label.in-active {
 	    right: 15%;
 	}
@@ -4792,8 +4792,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.custom-navbar.navbar-default{padding-top:25px; padding-bottom: 25px;}
 	.custom-navbar .signUp-style a{
 	    padding: 10px 14px;
-	    top: -5px;
-	    font-size: 16px !important;
+	    /* top: -5px;
+	    font-size: 16px !important; */
 	}
 	.section-1-left .video-btn i{font-size: 26px;}
 	#video-modal button.close.btn-close{right: -60% !important;}
@@ -4845,13 +4845,16 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.sec10-testimonial div.sec10-tes-inner{margin-left:15%;width:70%}
 	.billing-boxmain{margin-left:0}
 	.billing-grey,.billing-white{width:340px}
-	.section-1{margin-top:70px}
+	.section-1{margin-top:105px}
 	.collag-right{margin-top:80px;width: 28%;}
 	#pricing .section-1-right{padding-left:22%;top:34%}
 	#pricing .section-1{margin-top:0;padding-top:10px}
 	#pricing .section-faq{margin-top:0}
 	#pricing .enterprise_pos,#pricing .pricing-text{margin-top:40%}
 	#pricing .pricing-help .billing-plans-help{left:5%;bottom:420px}
+	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+     .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
+    .hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
 
 }
 @media (min-width:991px) and (max-width:1024px){
@@ -19781,8 +19784,13 @@ img.scrollimg1.wo {
 .nav-boxshadow .hvr-underline-from-left:active:before, 
 .nav-boxshadow .hvr-underline-from-left:focus:before, 
 .nav-boxshadow .hvr-underline-from-left:hover:before {
-	top: 54px;
+	top: 54px !important;
 }
 .nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {
-    top: 54px;
+    top: 54px !important;
+}
+.custom-navbar.navbar-default .navbar-nav>.active>a, 
+.custom-navbar.navbar-default .navbar-nav>.active>a:focus, 
+.custom-navbar.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff;
 }
