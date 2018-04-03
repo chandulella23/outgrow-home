@@ -1310,7 +1310,7 @@ span.label-popularPlan {
     height: 13px;
     background-position: center;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 5px;
 }
 .half{
@@ -1319,7 +1319,7 @@ span.label-popularPlan {
     height: 13px;
     background-position: center;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 5px;
 }
 .full{
@@ -1328,7 +1328,7 @@ span.label-popularPlan {
     height: 13px;
     background-position: center;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 5px;
 }
 .none{
@@ -1337,7 +1337,7 @@ span.label-popularPlan {
     height: 13px;
     background-position: center;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 5px;
 }
 td.active-bg {
@@ -1392,7 +1392,7 @@ tbody tr.not-info:hover th, tbody tr.not-info:hover td {
 }
 tbody td span {
     float: left;
-    width: 91%;
+	width: 91%; 
     line-height: 16px;
 }
 .ltd-plan h3 {
@@ -1497,6 +1497,15 @@ thead th p.price small, .pricing-block span.annual-price small {
     /* max-width: 433px; */
 	padding: 20px;
 	background: #fff;
+}
+.faq-section-ltd.new {
+	margin-left: 0px !important;
+	margin-right: 0px;
+    /* border: 1px solid #eff0f1; */
+    /* max-width: 433px; */
+	/* padding: 20px; */
+	/* background: #fff; */
+	margin-top: 30px;
 }
 .faq-section-ltd .faq-section-title {
     color: #62686c;
@@ -1653,4 +1662,15 @@ thead th p.price small, .pricing-block span.annual-price small {
 .custom-navbar.navbar-default .navbar-nav>.active>a:focus, 
 .custom-navbar.navbar-default .navbar-nav>.active>a:hover {
 	background-color: #fff;
+}
+
+tbody td span small, ul li span small {
+    font-size: 12px;
+}
+tbody td span small i.material-icons, ul li span small i.material-icons {
+    font-size: 12px;
+    /* vertical-align: text-bottom; */
+    color: #2b93be;
+    position: relative;
+    top: 1px;
 }
