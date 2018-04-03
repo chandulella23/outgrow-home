@@ -7131,3 +7131,167 @@ i.zmdi.zmdi-twitter-box {
 		font-family: montserratlight;
 		text-transform: uppercase;
 	}
+	.section-companyInfo {
+		float: left;
+		width: 100%;
+		background: #fff;
+		padding: 70px 0;
+		margin: 0px;
+	}	
+	.companyInfo-table {
+		float: left;
+    	display: table;
+	}
+	.companyInfo-table-cell {
+		display: table-cell;
+		vertical-align: middle;
+		float: none;
+	}
+	.img-shadow {
+		box-shadow: 0px 5px 20px rgba(0, 0, 0, .15);
+	}
+	.section-companyInfo h4 {
+		font-size: 18px;
+		color: #62696d;
+		margin-top: 0px;
+	}
+	.section-companyInfo p {
+		color: #62696d;
+		opacity: 0.7;
+		font-family: montserratlight;
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+	.section-companyInfo p:last-child {
+		margin-bottom: 0px;
+	}
+	.section-experimenting {
+		float: left;
+		width: 100%;
+		background: #f3f8fb;
+		padding: 60px 0;
+		margin: 0px;
+	}
+	.section-subtitle {
+		font-size: 14px;
+		color: #62696d;
+		font-family: montserratlight;
+		line-height: 22px;
+		float: left;
+		width: 100%;
+		margin: 25px 0px;
+	}
+	.section-howOutgrowHelped {
+		float: left;
+		width: 100%;
+		background: #fff;
+		padding: 70px 0;
+		margin: 0;
+	}
+	.section-howOutgrowHelped-inner {
+		margin-top: 25px;
+	}
+	.section-howOutgrowHelped h5 {
+		font-size: 15px;
+		color: #62696d;
+		font-family: montserratregular;
+		margin-top: 25px;
+	}
+	.section-howOutgrowHelped p {
+		font-size: 14px;
+		color: #62696d;
+		font-family: montserratlight;
+		line-height: 22px;
+		float: left;
+		width: 100%;
+		opacity: 0.7;
+	}
+	.img-wrapper {
+		margin-top: 25px;
+	}
+	.img-wrapper img:nth-child(1) {
+		float: left;
+		margin-left: 15px;
+	}
+	.img-wrapper img:nth-child(2) {
+		float: right;
+		margin-right: 15px;
+	}
+	.img-wrapper .btn-red {
+		background: #fb5f66;
+		color: #fff;
+		font-size: 15px;
+		padding: 12px 30px;
+		border: 2px solid #fb5f66;
+		transition: .5s ease-in-out;
+		line-height: normal;
+		margin-top: 50px;
+		border-radius: 25px;
+		font-family: montserratbold;
+		text-transform: uppercase;
+		box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+	}
+	.section-companyReviews {
+    	float: left;
+		width: 100%;
+		background: #f3f8fb;
+		padding: 60px 0;
+		margin: 0px;
+	}
+	.section-companyReviews blockquote {
+		font-size: 18px;
+		color: #4793c5;
+		font-family: montserratregular;
+		line-height: 30px;
+		border: none;
+		padding-top: 0px;
+		margin-bottom: 0px;
+		display: block;
+		max-width: 87%;
+		margin: 0 auto;
+		padding: 0px 30px 14px;
+		font-style: italic;
+	}
+	.section-companyReviews blockquote::before {
+		content: "“";
+		font-family: Satisfy, serif;
+		font-size: 60px;
+		font-weight: bold;
+		color: rgb(251, 95, 102);
+		position: absolute;
+		left: -10px;
+		top: 5px;
+	}
+	.section-companyReviews blockquote::after {
+		content: "”";
+		font-family: Satisfy, serif;
+		font-size: 60px;
+		font-weight: bold;
+		color: rgb(251, 95, 102);
+		position: absolute;
+		right: 295px;
+		bottom: 5px;
+	}
+	.section-companyReviews blockquote + span {
+		color: #62696d;
+		font-size: 18px;
+		display: block;
+		line-height: 30px;
+		font-family: montserratlight;
+		font-family: montserratregular;
+    	font-style: italic;
+	}
+	.section-results {
+		float: left;
+		width: 100%;
+		background: #fff;
+		padding: 60px 0;
+		margin: 0;
+	}
+	.section-results p {
+		font-size: 14px;
+		color: #62696d;
+		font-family: montserratlight;
+		line-height: 22px;
+		margin-top: 25px;
+	}
