@@ -402,21 +402,6 @@
 			<!--<div class="col-xs-12 col-sm-12 text-center rs-hide">
 				<a href="/features"><button class="btn-buildcal mk-animate-element left-to-right"> <p>Explore More Features</p> <i class="material-icons">keyboard_arrow_right</i></button></a>
 			</div>-->
-
-			<div class="col-md-12 col-xs-12 col-sm-12 np text-center col-sm-offset-3 startTrial-outer btn-signup btn-signup1">
-				<i class="material-icons">email</i>
-				<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
-				
-				<a href="//app.outgrow.co/signup/?email=" class="lead-email-1" onclick="callGA('CANNOT WAIT CTA')">
-					<span class="btn-buildcal fade-in lead-form-btn">
-						Start Free Trial
-					</span>
-					<div class="btn-bottominfo fade-in">
-						<label></label>
-					</div>
-				</a>
-				<!--<div id="bfrVid"></div>-->
-			</div>
 		</div>
 		<script>
 			document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
@@ -433,9 +418,23 @@
 				}
 			}
 		</script>
-	</section>
+	</section>	
 
-	<section class="section sec-integrations">
+	<div class="col-md-12 col-sm-12 col-xs-12 np bg1-img lp-bg-freeTrial">
+		<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
+			<i class="material-icons">email</i>
+			<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">							
+			<span class="lead-form-btn">
+				<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
+					Start Free Trial
+				</a>				
+				<span class="live-demo">OR <a href="https://sample.outgrow.co/builder-demo/sample-calculator" class="">TAKE A LIVE DEMO</a></span>
+			</span>
+			<div id="bfrVid"></div>
+		</div>
+	</div>
+
+	<section class="section sec-integrations lp-sec-int">
 		<div class="container mobile-container">
 			<h1 class="section-2-heading mk-animate-element scale-up ">
 				Over 500 integrations
