@@ -7230,6 +7230,12 @@ i.zmdi.zmdi-twitter-box {
 		font-family: montserratbold;
 		text-transform: uppercase;
 		box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+		transition: .5s ease-in-out;
+	}
+	.img-wrapper .btn-red:hover {
+		background: #fb757b;
+		color: #fff;
+		border-color: #f8434b;
 	}
 	.section-companyReviews {
     	float: left;
@@ -7252,24 +7258,27 @@ i.zmdi.zmdi-twitter-box {
 		padding: 0px 30px 14px;
 		font-style: italic;
 	}
-	.section-companyReviews blockquote::before {
+	.section-companyReviews blockquote .quote-left {
+		float: left;
+		width: auto;
+	}
+	.section-companyReviews blockquote .quote-left::before {
 		content: "“";
 		font-family: Satisfy, serif;
 		font-size: 60px;
 		font-weight: bold;
 		color: rgb(251, 95, 102);
 		position: absolute;
-		left: -10px;
 		top: 5px;
+		left: 0;
 	}
-	.section-companyReviews blockquote::after {
+	.section-companyReviews blockquote .quote-right::after {
 		content: "”";
 		font-family: Satisfy, serif;
 		font-size: 60px;
 		font-weight: bold;
 		color: rgb(251, 95, 102);
 		position: absolute;
-		right: 295px;
 		bottom: 5px;
 	}
 	.section-companyReviews blockquote + span {
@@ -7294,4 +7303,71 @@ i.zmdi.zmdi-twitter-box {
 		font-family: montserratlight;
 		line-height: 22px;
 		margin-top: 25px;
+		max-width: 850px;
+		margin: 25px auto 0;
+	}
+	.section-results .img-wrapper {
+		margin-top: 35px;
+	}
+	.section-results .img-wrapper img:nth-child(1) {
+		float: none;
+		margin: 0;
+		margin-right: 15px;
+	}
+	.section-results .img-wrapper img:nth-child(2) {
+    	float: none;
+		margin: 0;
+		margin-left: 15px;
+	}
+	.section-whatsNext {
+		float: left;
+		width: 100%;
+		background: #f3f8fb;
+		padding: 60px 0;
+		margin: 0px;
+	}
+	.section-whatsNext .section-subtitle {
+		padding: 0px 100px;
+		margin-bottom: 0;
+	}	
+	.section-companyReviews.section-white {
+		float: left;
+		width: 100%;
+		background: #fff;
+		padding: 60px 0 0;
+		margin: 0px;
+	}
+	.section-button {
+		float: left;
+		width: 100%;
+		background: #fff;
+		padding: 20px 0px 100px;
+		margin: 0px;
+	}
+	.section-button span {
+		font-size: 15px;
+		color: #62696d;
+		font-family: montserratlight;
+		float: left;
+		width: 100%;
+	}
+	.section-button .btn-red {
+		background: #fb5f66;
+		color: #fff;
+		font-size: 15px;
+		padding: 12px 30px;
+		border: 2px solid #fb5f66;
+		transition: .5s ease-in-out;
+		line-height: normal;
+		margin-top: 10px;
+		border-radius: 25px;
+		font-family: montserratbold;
+		text-transform: uppercase;
+		box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+		transition: .5s ease-in-out;
+	}
+	.section-button .btn-red:hover {
+		background: #fb757b;
+		color: #fff;
+		border-color: #f8434b;
 	}

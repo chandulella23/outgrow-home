@@ -149,7 +149,11 @@
 				<section class="section section-companyReviews">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-							<blockquote>Outgrow’s well designed templates, allowed us to quickly build and launch experiences without writing a line of code. Their personalization features like logic jump and conditional call to actions helped us personalize the results for our users. </blockquote>
+							<blockquote>
+								<span class="quote-left"></span>
+									Outgrow’s well designed templates, allowed us to quickly build and launch experiences without writing a line of code. Their personalization features like logic jump and conditional call to actions helped us personalize the results for our users. 
+								<span class="quote-right"></span>
+							</blockquote>
 							<span>Luise Spieweck Fialho <br/>Founder at TAG Livros </span>
 						</div>
 					</div>
@@ -159,15 +163,38 @@
 						<div class="section-2-heading">Results </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<p>
-							Within a month, this quiz generated more than <b>72K visits, 23K leads, and 5K engagements. </b><br/>
+							Within a month, this quiz generated more than <b>72K visits, 23K leads, and 5K engagements. </b><br/><br/>
 							The TAG Livros quiz engaged and entertained their audience and thus was a huge hit on social media. They posted on their Facebook page and ran targeted Facebook Ads.<br/>
-							<b>You will see one of their Facebook posts below, which generated over 900 likes/reactions and over 120 shares. </b> <br/>
+							<b>You will see one of their Facebook posts below, which generated over 900 likes/reactions and over 120 shares. </b> <br/><br/>
 							<b>Overall, they generated more than 55K leads and 196K visits in traffic.</b> And the interactive experience became a huge hit!
 							</p>
 						</div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
 							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1.jpg" alt="Result img">
 							<img class="" src="{{ $page->baseUrl }}/images/case_study_result2.jpg" alt="Result img">
+						</div>
+					</div>
+				</section>
+				<section class="section section-whatsNext">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<div class="section-2-heading">What’s Next? </div>
+							<span class="section-subtitle">Their initial successes have convinced TAG Livros to make interactive content an integral part of their marketing strategy. The team has created 11 experiences on Outgrow in their first month alone! </span>
+						</div>
+					</div>
+				</section>
+				<section class="section section-companyReviews section-white">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<blockquote>I would strongly recommend Outgrow to any digital marketer looking to generate more qualified leads - we generated over 55K leads in a month through the Outgrow platform! </blockquote>
+						</div>
+					</div>
+				</section>
+				<section class="section section-button">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<span>Free Trial. No credit card required!</span>
+							<button type="button" class="btn btn-red">Generate leads with Outgrow </button>
 						</div>
 					</div>
 				</section>
