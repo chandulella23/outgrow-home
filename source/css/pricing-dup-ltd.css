@@ -981,7 +981,7 @@ label {
 			position: absolute;
 			top: -1px;
 			height: 100%;
-			z-index: 0;
+			z-index: 1;
 			width: 25%;
 			border: 1px solid #eff0f1;
 		}
@@ -1262,6 +1262,7 @@ label {
 		
 		thead span a{
 			z-index: 9;
+			position: relative;
 		}
 
 	/* end: table */
