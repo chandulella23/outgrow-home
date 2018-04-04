@@ -186,7 +186,11 @@
 				<section class="section section-companyReviews section-white">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-							<blockquote>I would strongly recommend Outgrow to any digital marketer looking to generate more qualified leads - we generated over 55K leads in a month through the Outgrow platform! </blockquote>
+							<blockquote>
+								<span class="quote-left"></span>
+									I would strongly recommend Outgrow to any digital marketer looking to generate more qualified leads - we generated over 55K leads in a month through the Outgrow platform!
+								<span class="quote-right"></span>
+							</blockquote>
 						</div>
 					</div>
 				</section>

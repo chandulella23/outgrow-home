@@ -7185,7 +7185,7 @@ i.zmdi.zmdi-twitter-box {
 		float: left;
 		width: 100%;
 		background: #fff;
-		padding: 70px 0;
+		padding: 60px 0 70px;
 		margin: 0;
 	}
 	.section-howOutgrowHelped-inner {
@@ -7294,7 +7294,7 @@ i.zmdi.zmdi-twitter-box {
 		float: left;
 		width: 100%;
 		background: #fff;
-		padding: 60px 0;
+		padding: 60px 0 70px;
 		margin: 0;
 	}
 	.section-results p {
@@ -7336,6 +7336,9 @@ i.zmdi.zmdi-twitter-box {
 		background: #fff;
 		padding: 60px 0 0;
 		margin: 0px;
+	}
+	.section-companyReviews.section-white blockquote {
+		max-width: 86%;
 	}
 	.section-button {
 		float: left;
