@@ -413,18 +413,18 @@
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i> 
-                                Custom Styling
+                                Custom Branding
                             </th>
                             <td class="expand-child active-bg">
-                                <span class="full"></span>Allowed
+                                <span class="full"></span>Limited
                                 <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                             <td class="expand-child">
-                                <span class="full"></span>Allowed
+                                <span class="full"></span>Limited
                                 <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                             <td class="expand-child">
-                                <span class="full"></span>Allowed
+                                <span class="full"></span>Limited
                                 <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                         </tr>
@@ -735,9 +735,9 @@
                                     <span class="feature-title">
                                          <i class="material-icons plus">add</i> 
                                          <i class="material-icons minus">remove</i>  
-                                        Custom Styling
+                                        Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited</span>
                                     <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
@@ -941,9 +941,9 @@
                                     <span class="feature-title">
                                          <i class="material-icons plus">add</i> 
                                          <i class="material-icons minus">remove</i>  
-                                        Custom Styling
+                                        Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited</span>
                                     <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
@@ -1149,9 +1149,9 @@
                                     <span class="feature-title">
                                          <i class="material-icons plus">add</i> 
                                          <i class="material-icons minus">remove</i>  
-                                        Custom Styling
+                                        Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited</span>
                                     <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
@@ -1420,7 +1420,7 @@
             <div class="asterix-text">
                 *Only for new customers, who have never signed up for Outgrow before.
                 <br/>**Offer is available till promo codes last.
-                <br/>***One user can only get one plan.
+                <br/>***Can only buy one plan
             </div>
             <div class="container pricing-outer">
                         <div class="faq-section-ltd new">
@@ -1435,7 +1435,7 @@
                                 What if I want other features?
                             </div>
                             <div class="faq-section-content">
-                                <p>We understand that you may want to build calculators, polls while running effective lead generation programs, analyzing the data about visitors, using your own branding and using some of our premium design templates. Feel free to chat with us and we are sure that we can figure out a plan and pricing that works for you. The reason these features are not offered in the lifetime deal is due to the support costs arising from it. </p>
+                                <p>We understand that you may want to build calculators, polls while running effective lead generation programs, analyzing the data about visitors, using your own branding and using some of our premium design templates. Feel free to chat with us and we are sure that we can figure out a plan and pricing that works for you. </p>
                             </div>
                             <div class="faq-section-title">
                                 Can I get a refund?
@@ -1453,7 +1453,7 @@
                                 What kind of support will you offer?
                             </div>
                             <div class="faq-section-content">
-                                <p>We will offer chat support for this plan. However, if you need more help or need us to build custom quizzes, then you can reach out to us over chat. Additional charges may apply for custom built quizzes. </p>
+                                <p>We will offer chat support for this plan. However, if you need more help or need us to build custom quizzes, then you can reach out to us over chat. Additional charges will apply for custom built quizzes. </p>
                             </div>
                         </div>
                     </div>
