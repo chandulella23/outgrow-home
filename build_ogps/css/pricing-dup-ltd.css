@@ -1392,7 +1392,7 @@ tbody tr.not-info:hover th, tbody tr.not-info:hover td {
 }
 tbody td span {
     float: left;
-    /* width: 91%; */
+	width: 91%; 
     line-height: 16px;
 }
 .ltd-plan h3 {
