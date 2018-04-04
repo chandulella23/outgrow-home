@@ -158,15 +158,15 @@
                             </th>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>3
-                                <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                <span class="detail">You can have a maximum of 3 experiences at any time. You can always delete and create a new one 😃 </span>
                             </td>
                             <td class="expand-child">
                                 <span class="half"></span>6
-                                <span class="detail">You can have a maximum of 6 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                <span class="detail">You can have a maximum of 6 experiences at any time. You can always delete and create a new one 😃 </span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>25
-                                <span class="detail">You can have a maximum of 25 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                <span class="detail">You can have a maximum of 25 experiences at any time. You can always delete and create a new one 😃 </span>
                             </td>
                             <!-- <td><span class="full"></span>Unlimited</td> -->
                         </tr>
@@ -618,7 +618,7 @@
                                         No. of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
-                                    <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span> 
+                                    <span class="detail">You can have a maximum of 3 experiences at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -850,7 +850,7 @@
                                         No. of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>6</span>
-                                    <span class="detail">You can have a maximum of 6 quizzes at any time. You can always delete and create a new one 😃 </span> 
+                                    <span class="detail">You can have a maximum of 6 experiences at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -1055,7 +1055,7 @@
                                         No. of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>25</span>
-                                    <span class="detail">You can have a maximum of 25 quizzes at any time. You can always delete and create a new one 😃 </span> 
+                                    <span class="detail">You can have a maximum of 25 experiences at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -1418,8 +1418,9 @@
                 <!-- end: for responsive -->
             </div>
             <div class="asterix-text">
-                *Only for new customers, who have never signed up for Outgrow before
+                *Only for new customers, who have never signed up for Outgrow before.
                 <br/>**Offer is available till promo codes last.
+                <br/>***One user can only get one plan.
             </div>
             <div class="container pricing-outer">
                         <div class="faq-section-ltd new">

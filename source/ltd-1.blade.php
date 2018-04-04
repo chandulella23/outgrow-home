@@ -1382,8 +1382,8 @@
                 <!-- end: for responsive -->
             </div>
             <div class="asterix-text hide">
-                *Only for new customers, who have never signed up for Outgrow before
-                <br/>**Offer is available for 2 weeks only
+                *Only for new customers, who have never signed up for Outgrow before.
+                <br/>**Offer is available for 2 weeks only.
             </div>
             <!-- <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
                 <div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
@@ -2486,7 +2486,7 @@
                         </div>
                         <!-- ltd design for sales pages -->
                         <div class="asterix-text">
-                        *Offer is available for 2 weeks only
+                        *Offer is available for 2 weeks only.
                         </div>
                     </div>
 
