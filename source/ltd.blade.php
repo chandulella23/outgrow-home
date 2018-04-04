@@ -145,19 +145,29 @@
                     <tbody>
                         <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                            <td class="active-bg"><span class="quater"></span>300 & 6000</td>
-                            <td><span class="quater"></span>300 & 6000</td>
+                            <td class="active-bg"><span class="quater"></span>300 & 6000/month</td>
+                            <td><span class="quater"></span>300 & 6000/month</td>
                             <!-- <td class=""><span class="full"></span>Unlimited</td> -->
-                             <td><span class="full"></span>1,000 & 20,000</td>
+                             <td><span class="full"></span>1,000 & 20,000/month</td>
                         </tr>
                         <tr class="expand">
-                            <th><i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i>   No. of Experiences</th>
-                            <td class="active-bg"><span class="quater"></span>3
-                            <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span>
+                            <th>
+                                <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>   
+                                No. of Experiences
+                            </th>
+                            <td class="expand-child active-bg">
+                                <span class="quater"></span>3
+                                <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span>
                             </td>
-                            <td><span class="half"></span>6</td>
-                            <td class=""><span class="full"></span>25</td>
+                            <td class="expand-child">
+                                <span class="half"></span>6
+                                <span class="detail">You can have a maximum of 6 quizzes at any time. You can always delete and create a new one 😃 </span>
+                            </td>
+                            <td class="expand-child">
+                                <span class="full"></span>25
+                                <span class="detail">You can have a maximum of 25 quizzes at any time. You can always delete and create a new one 😃 </span>
+                            </td>
                             <!-- <td><span class="full"></span>Unlimited</td> -->
                         </tr>
                         <tr class="expand">
@@ -170,15 +180,15 @@
                                 <span class="quater"></span>Only Outcome Quizzes
                                 <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span> 
                             </td>
-                            <td class="">
+                            <td class="expand-child">
                                 <span class="half"></span>      
                                 <span>                          
-                                <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small><br/>
-                                <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quizzes </small><br/>
-                                <!-- <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span>  -->
-</span>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quizzes </small><br/>
+                                    <!-- <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span>  -->
+                                </span>
                             </td>
-                            <td class="">
+                            <td class="expand-child">
                                 <span class="full"></span>
                                 <span>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small><br/>
@@ -202,18 +212,18 @@
                             </th>   
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>
-                                <span>Classic Layout and Templates</span>
-                                <span class="detail">You can create outcome quizzes using our highly customizable & classic ‘Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
+                                <span>Chicago only</span>
+                                <span class="detail">You can create experiences using our highly customizable 'Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
                             </td>
                             <td class="expand-child">
                                 <span class="quater"></span>
-                                <span>Classic Layout and Templates</span>
-                                <!-- <span class="detail">Only the Classic "Chicago" layout and templates.</span> -->
+                                <span>Chicago & Londoner</span>
+                                <span class="detail">You can create experiences using our highly customizable 'Chicago' and 'Londoner' layouts. You also get all pre made templates that come with these layouts. </span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>
                                 <span>All Layouts and Templates </span>
-                                <!-- <span class="detail">All layouts and templates are unlocked.</span> -->
+                                <span class="detail">You can use any layout or template. </span> 
                             </td>
                         </tr>                        
                         <tr class="expand">
@@ -399,23 +409,23 @@
                             </td>
                         </tr> -->
                         
-                            <tr class="expand">
+                        <tr class="expand">
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i> 
-                                Custom Branding
+                                Custom Styling
                             </th>
                             <td class="expand-child active-bg">
-                                <span class="full"></span>Limited Access 
+                                <span class="full"></span>Allowed
                                 <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Allowed
-                                <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
+                                <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Allowed
-                                <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
+                                <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                         </tr>
                         <tr class="expand">
@@ -425,16 +435,16 @@
                                 Integrations
                             </th>
                             <td class="expand-child active-bg">                                
-                                <span class="full"></span>Zapier + Native
-                                <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span>
+                                <span class="full"></span>Zapier + Native (Lead data) 
+                                <span class="detail">You can send valuable data from the lead gen form from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. You cannot send answers, and result data. </span>
                             </td>
                             <td class="expand-child">                                
-                                <span class="full"></span>Zapier + Native
-                                <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span>
+                                <span class="full"></span>Zapier + Native (Lead data)
+                                <span class="detail">You can send valuable data from the lead gen form from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. You cannot send answers, and result data. </span>
                             </td>
                             <td class="expand-child">                                
-                                <span class="full"></span>Zapier + Native
-                                <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span>
+                                <span class="full"></span>Zapier + Native (Lead data)
+                                <span class="detail">You can send valuable data from the lead gen form from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. You cannot send answers, and result data. </span>
                             </td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -599,11 +609,16 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="full"></span>300 &amp; 6000</span>
+                                    <span class="feature-subtitle"><span class="full"></span>300 & 6000/month</span>
                                 </li>
-                                <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  
+                                        No. of Experiences
+                                    </span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
+                                    <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -624,8 +639,8 @@
                                         <i class="material-icons minus">remove</i>  
                                        Layouts and Templates  
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Classic Layout and Templates </span>
-                                    <span class="detail">You can create outcome quizzes using our highly customizable & classic ‘Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
+                                    <span class="feature-subtitle"><span class="quater"></span>Chicago only </span>
+                                    <span class="detail">You can create experiences using our highly customizable 'Chicago' layout. You also get all pre made templates that come with the Chicago layout. </span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -720,9 +735,9 @@
                                     <span class="feature-title">
                                          <i class="material-icons plus">add</i> 
                                          <i class="material-icons minus">remove</i>  
-                                        Custom Branding
+                                        Custom Styling
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Limited Access</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
                                     <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
@@ -731,8 +746,8 @@
                                          <i class="material-icons minus">remove</i>  
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
-                                    <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
+                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native (Lead data)</span>
+                                    <span class="detail">You can send valuable data from the lead gen form from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. You cannot send answers, and result data. </span> 
                                 </li>
                                 <!-- <li class="">
                                     <span class="feature-title">
@@ -826,11 +841,16 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>300 & 6000/month</span>
                                 </li>
-                                <li>
-                                    <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>6</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  
+                                        No. of Experiences
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>6</span>
+                                    <span class="detail">You can have a maximum of 6 quizzes at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -848,14 +868,14 @@
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="full"></span>1</span>
                                 </li> -->
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  
                                        Layouts and Templates  
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Classic Layout and Templates</span>
-                                    <!-- <span class="detail">Only the Classic "Chicago" layout and templates. </span> -->
+                                    <span class="feature-subtitle"><span class="quater"></span>Chicago & Londoner </span>
+                                    <span class="detail">You can create experiences using our highly customizable 'Chicago' and 'Londoner' layouts. You also get all pre made templates that come with these layouts. </span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -917,14 +937,14 @@
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
                                 </li> -->
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
-                                        Custom Branding
+                                         <i class="material-icons plus">add</i> 
+                                         <i class="material-icons minus">remove</i>  
+                                        Custom Styling
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Allowed</span>
-                                    <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
+                                    <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -932,8 +952,8 @@
                                          <i class="material-icons minus">remove</i>  
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
-                                    <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
+                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native (Lead data)</span>
+                                    <span class="detail">You can send valuable data from the lead gen form from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. You cannot send answers, and result data. </span> 
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1026,11 +1046,16 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="half"></span>1,000 & 20,000</span>
+                                    <span class="feature-subtitle"><span class="half"></span>1,000 & 20,000/month</span>
                                 </li>
-                                <li>
-                                    <span class="feature-title">No. of Experiences</span>
-                                    <span class="feature-subtitle"><span class="full"></span>25</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  
+                                        No. of Experiences
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>25</span>
+                                    <span class="detail">You can have a maximum of 25 quizzes at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -1050,14 +1075,14 @@
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
                                 </li> -->
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
+                                         <i class="material-icons plus">add</i> 
+                                         <i class="material-icons minus">remove</i>  
                                        Layouts and Templates  
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All Layouts and Templates </span>
-                                    <!-- <span class="detail">All layouts and templates are unlocked.</span> -->
+                                     <span class="detail">You can use any layout or template. </span> 
                                 </li>
                                 
                                 <li class="expand-rs">
@@ -1120,14 +1145,14 @@
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
                                 </li> -->
-                                <li class="">
+                                <li class="expand-rs">
                                     <span class="feature-title">
-                                        <!-- <i class="material-icons vis-hide">add</i> -->
-                                        <!-- <i class="material-icons minus">remove</i>  -->
-                                        Custom Branding
+                                         <i class="material-icons plus">add</i> 
+                                         <i class="material-icons minus">remove</i>  
+                                        Custom Styling
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Allowed</span>
-                                    <!-- <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span> -->
+                                    <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1135,8 +1160,8 @@
                                          <i class="material-icons minus">remove</i>  
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
-                                    <span class="detail">You can send valuable lead data from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. </span> 
+                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native (Lead data)</span>
+                                    <span class="detail">You can send valuable data from the lead gen form from Outgrow to over 1000 other marketing tools using Zapier or one of our native integrations. You cannot send answers, and result data. </span> 
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1242,7 +1267,7 @@
                             <ul class="features rs-hide">
                                 <li>
                                     <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="full"></span>1,000 & 20,000</span>
+                                    <span class="feature-subtitle"><span class="full"></span>1,000 & 20,000/month</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">No. of Experiences</span>
@@ -1325,7 +1350,7 @@
                                         <!-- <i class="material-icons minus">remove</i>  -->
                                         Integrations
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Zapier + Native (Lead data)</span>
                                     <!-- <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span> -->
                                 </li>
                                 <!-- <li>
@@ -1394,7 +1419,7 @@
             </div>
             <div class="asterix-text">
                 *Only for new customers, who have never signed up for Outgrow before
-                <br/>**Offer is available for 2 weeks only
+                <br/>**Offer is available till promo codes last.
             </div>
             <div class="container pricing-outer">
                         <div class="faq-section-ltd new">
@@ -1415,7 +1440,7 @@
                                 Can I get a refund?
                             </div>
                             <div class="faq-section-content">
-                                <p>Yes, there is 14-day money back guarantee.  </p>
+                                <p>Since these are an extremely special and discounted plans, we cannot offer refunds. </p>
                             </div>
                             <div class="faq-section-title">
                                 I am already an Outgrow subscriber, can I get this deal?
