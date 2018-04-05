@@ -3667,7 +3667,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin: 0px !important;
 			margin-top: 20px !important;
 		}
-		.startTrial-outer {margin-left: 0px; padding: 0px 20px;     margin-top: 10px !important;}
+		.startTrial-outer {margin-left: 0px; padding: 0px 20px;     margin-top: 0px !important;}
 		.sec-grey.section.section-10 p{margin-bottom: 0px;}
 		.sec-grey .container.container-center h1 {
 			text-transform: none !important;
@@ -3749,6 +3749,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			font-size: 12px !important;
 			padding: 12px 28px !important;
 			box-shadow: 0px 9px 18px 0px rgba(216,199,200,0.99);
+			margin-left: 0px;
 		}
 		.lp-sign.startTrial-outer i.material-icons {
 			left: 25px !important;
@@ -19890,6 +19891,7 @@ img.scrollimg1.wo {
 		white-space: nowrap;
 		font-size: 14px !important;
 		font-family: montserratregular;
+		box-shadow: none;
 	}
 	.section-old.section-1 .startTrial-outer i.material-icons {
 		position: absolute;
@@ -19951,7 +19953,7 @@ img.scrollimg1.wo {
 		float: none;
 		font-family: montserratregular;
 		text-transform: uppercase;
-		box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.08);
+		box-shadow: none;
 		margin-left: 3px;
 	}
 	.lp-bg-freeTrial .startTrial-outer .btn-buildcal:hover {
@@ -19977,7 +19979,7 @@ img.scrollimg1.wo {
 		float: none;
 		font-family: montserratregular;
 		text-transform: uppercase;
-		box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.08);
+		box-shadow: none;
 		margin-left: 3px;
 	}
 	.lp-sign.startTrial-outer i.material-icons {
