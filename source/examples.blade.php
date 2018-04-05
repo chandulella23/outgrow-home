@@ -1351,8 +1351,8 @@
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
-		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
-		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js"
+		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js"
 	}
 @endsection
