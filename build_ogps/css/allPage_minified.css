@@ -3660,7 +3660,6 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			right: 0 !important;
 			width: 100%;*/
 			margin: 0px !important;
-			margin-top: 20px !important;
 		}
 		.startTrial-outer {margin-left: 0px; padding: 0px 20px;     margin-top: 10px !important;}
 		.sec-grey.section.section-10 p{margin-bottom: 0px;}
@@ -3692,18 +3691,21 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		}
 		.startTrial-outer i.material-icons{position: absolute !important; top: 15px !important;}
 		.section-old .startTrial-outer {
-			margin-left: 0px !important;
+			/* margin-left: 0px !important; */
 		}
 		.section-old .startTrial-outer input {
 			width: 100% !important;
 			padding-right: 20px !important;
 		}
 		.section-old .startTrial-outer a {
-			margin-top: 70px;
+			margin-top: 20px !important;
+			padding: 0;
+			position: relative !important;
+			width: 100%;
 		}
 		.section-old .section-1-left {
 			padding-left: 15px !important;
-			margin-bottom: 60px !important;
+			margin-bottom: 30px !important;
 		}
 		.section-old .section-1-left h3, .section-old .section-1-left h1.section1-firstheadnoab {
 			font-size: 22px !important;
@@ -3900,6 +3902,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	} */
 	.home-imgs li {margin: 40px 20px 10px 10px;}
 	/* .case-productHunt {padding-bottom: 0px !important;} */
+	div.startTrial-outer i.material-icons {
+		left: 27px!important;
+	}
 	
 
 }
@@ -4394,21 +4399,21 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		top: -20px;
 		position: absolute !important;
 	} */
-	.section-old .startTrial-outer input{width: 85% !important;}
-	.section-old .startTrial-outer a {
+	/* .section-old .startTrial-outer input{width: 85% !important;} */
+	/* .section-old .startTrial-outer a {
 		margin-top: 0px;
 		float: right !important;
 		right: 122px !important;
 		width: auto;
 		top: -20px;
 		position: absolute !important;
-	}
-	.section-old .startTrial-outer {
-		margin-left: 45px !important;
+	} */
+	/* .section-old .startTrial-outer {
+		 margin-left: 45px !important; 
 	}
 	.section-old .section-1-left {
 		margin-bottom: 0px !important;
-	}
+	} */
 	.btn-signup.startTrial-outer {
 		margin-left: 80px !important;
 		padding: 0px 20px;
@@ -4437,14 +4442,14 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		left: 25px !important;
 	}
 	.section-old .startTrial-outer input {
-		width: 65% !important;
+		width: 100% !important;
 	}
 	.section-old .section1-left-cellnoab {
 		height: 100% !important;
 		text-align: center;
 	}
 	.section-old .startTrial-outer a {
-		right: 268px !important;
+		/* right: 268px !important; */
 	}
 	.sec6-2-2 {
 		position: relative;
@@ -17092,7 +17097,7 @@ iframe.outgrow-video {
 
 }
 
-/* lpu page */
+/* lp page */
 	.section-old.section-1 {
 		padding-bottom: 50px;
     	padding-top: 15px;
@@ -17107,7 +17112,8 @@ iframe.outgrow-video {
 	.section-old .video-img-wrapper {
 		width: 680px;  
 		box-shadow: 0px 11px 40px rgba(0,0,0,.37);
-		margin-right: 35px;
+		margin-right: 55px;
+		margin-top: 10px;
 	}
 	.section-old .section-1-left h3, .section-old .section-1-left h1.section1-firstheadnoab {font-size: 30px;}
 	.section-old .startTrial-outer input {
@@ -17121,7 +17127,7 @@ iframe.outgrow-video {
 		box-shadow: 0px 9px 18px 0px rgba(216,199,200,0.99);
 		padding-left: 50px;
 		padding-right: 200px;
-		color: #858f94;
+		color: #6b696d;
 		font-family: montserratlight;
 	}
 	.section-old .startTrial-outer a {
@@ -17195,7 +17201,7 @@ iframe.outgrow-video {
 	}
 
 
-/* end: lpu page */
+/* end: lp page */
 
 .video-frame {
     background: #fff;
@@ -17226,19 +17232,27 @@ span.circle {
 
 .startTrial-outer.lp-sign {
     background: url(../images/lp-sign-img.png) no-repeat;
-     background-position: top right; 
+    background-position: top right;
     float: left;
     width: 100%;
     min-height: 270px;
-	margin-top: 0px;
+    margin-top: 70px;
+    background-color: #f3f8fb;
+    margin-bottom: 1px;
 }
 .lp-sign-inner {
     margin-top: 120px;
     margin-left: 80px;
-	position: relative;
+    position: relative;
+    max-width: 540px;
+    float: none;
 }
 .lp-sign.startTrial-outer input {
-    width: 40%;
+    width: 100%;
+    border: 2px solid #fb5f66;
+	min-height: 50px;
+	box-shadow: 0px 9px 18px 0px rgba(216,199,200,0.99);
+	color: #6b696d;
 }
 .section-old-testi{margin-bottom: 0px;}
 .lp-sign .btn-buildcal:hover {
@@ -17447,6 +17461,13 @@ span.live-demo a {
 	}
 	.case-breathers-imgRight .case-breathers-rightSide {margin-top:10px;}
 	.case-breathers {padding-bottom: 40px;}
+	.section-old.section-1 {text-align: center;}
+	.section-old.section-1 .startTrial-outer {   
+		max-width: 532px;
+		position: relative;
+		margin: 0px auto;
+		float: none;
+	}
 	
 
 
@@ -18014,7 +18035,11 @@ span.recom {
 }
 @media (max-width: 768px) and (min-width: 320px)
 {
- .startTrial-outer i.material-icons {position: absolute !important;top: 15px !important;left:37px!important;}
+ .startTrial-outer i.material-icons {
+    position: absolute !important;
+    top: 17px !important;
+    left: 47px!important;
+}
  .lead-form-btn{position:relative!important;}
  .section-6 .section-6-right{padding-left: 25px !important; padding-right: 20px;}
  .sec-clients-logos .img-wrapper { width: 100%;}
@@ -19794,3 +19819,117 @@ img.scrollimg1.wo {
 .custom-navbar.navbar-default .navbar-nav>.active>a:hover {
 	background-color: #fff;
 }
+
+
+/* interactive calculators & quizzes page css */
+	.section-old.section-1 .btn-buildcal {
+		padding: 14px 28px !important;
+		white-space: nowrap;
+		font-size: 14px !important;
+		font-family: montserratregular;
+	}
+	.section-old.section-1 .startTrial-outer i.material-icons {
+		position: absolute;
+		left: 23px;
+		top: 12px;
+		font-size: 18px;
+		color: #fb5f66;
+		top: 16px;
+	}
+	.section-old.section-1 span.video-playIcon {
+		top: 40%;
+	}
+	.section-old.section-1 .sec-grey.section-10 {
+		background: #fff;
+		margin-top: 0px;
+		margin-bottom: 0;
+		padding: 60px 0px 0;
+	}
+	.lp-bg-freeTrial .startTrial-outer1 {
+		max-width: 572px;
+		position: relative;
+		margin: 0px auto;
+		float: none;
+	}
+	.lp-bg-freeTrial .startTrial-outer input {
+		background: #fff;
+		border: 2px solid #fb5f66;
+		border-radius: 25px;
+		min-height: 50px;
+		margin: 0;
+		width: 100%;
+		float: none;
+		box-shadow: 0px 1px 18px 0px rgba(0,0,0,0.5)!important;
+		padding-left: 50px;
+		padding-right: 20px;
+		color: #6b696d;
+		font-family: montserratlight;
+	}
+	.lp-bg-freeTrial .startTrial-outer i.material-icons {
+		position: absolute;
+		left: 23px;
+		top: 12px;
+		font-size: 18px;
+		color: #fb5f66;
+		top: 16px;
+	}
+	.lp-bg-freeTrial .startTrial-outer .btn-buildcal {
+		background: #fb5f66;
+		color: #fff;
+		font-size: 14px !important;
+		padding: 14px 28px !important;
+		border: 2px solid #fb5f66;
+		transition: .5s ease-in-out;
+		line-height: normal;
+		box-shadow: none;
+		margin-top: 0px;
+		border-radius: 25px;
+		display: inline-block;
+		float: none;
+		font-family: montserratregular;
+		text-transform: uppercase;
+		box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.08);
+		margin-left: 3px;
+	}
+	.lp-bg-freeTrial .startTrial-outer .btn-buildcal:hover {
+		background: #fb757b;
+		color: #fff;
+		border-color: #f8434b;
+	}
+	.lp-sec-int.sec-integrations {
+		margin-top: 30px;
+	}
+	.lp-sign.startTrial-outer .btn-buildcal {
+		background: #fb5f66;
+		color: #fff;
+		font-size: 14px !important;
+		padding: 14px 28px !important;
+		border: 2px solid #fb5f66;
+		transition: .5s ease-in-out;
+		line-height: normal;
+		box-shadow: none;
+		margin-top: 0px;
+		border-radius: 25px;
+		display: inline-block;
+		float: none;
+		font-family: montserratregular;
+		text-transform: uppercase;
+		box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.08);
+		margin-left: 3px;
+	}
+	.lp-sign.startTrial-outer i.material-icons {
+		position: absolute;
+		left: 23px;
+		top: 12px;
+		font-size: 18px;
+		color: #fb5f66;
+		top: 16px;
+	}
+	.lp-sign.startTrial-outer .btn-buildcal:hover {
+		background: #fb757b;
+		color: #fff;
+		border-color: #f8434b;
+	}
+
+
+/* end: interactive calculators & quizzes page css */

@@ -158,15 +158,15 @@
                             </th>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>3
-                                <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                <span class="detail">You can have a maximum of 3 experiences at any time. You can always delete and create a new one 😃 </span>
                             </td>
                             <td class="expand-child">
                                 <span class="half"></span>6
-                                <span class="detail">You can have a maximum of 6 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                <span class="detail">You can have a maximum of 6 experiences at any time. You can always delete and create a new one 😃 </span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>25
-                                <span class="detail">You can have a maximum of 25 quizzes at any time. You can always delete and create a new one 😃 </span>
+                                <span class="detail">You can have a maximum of 25 experiences at any time. You can always delete and create a new one 😃 </span>
                             </td>
                             <!-- <td><span class="full"></span>Unlimited</td> -->
                         </tr>
@@ -413,18 +413,18 @@
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i> 
-                                Custom Styling
+                                Custom Branding
                             </th>
                             <td class="expand-child active-bg">
-                                <span class="full"></span>Allowed
+                                <span class="full"></span>Limited
                                 <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                             <td class="expand-child">
-                                <span class="full"></span>Allowed
+                                <span class="full"></span>Limited
                                 <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                             <td class="expand-child">
-                                <span class="full"></span>Allowed
+                                <span class="full"></span>Limited
                                 <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                             </td>
                         </tr>
@@ -618,7 +618,7 @@
                                         No. of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
-                                    <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span> 
+                                    <span class="detail">You can have a maximum of 3 experiences at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -735,9 +735,9 @@
                                     <span class="feature-title">
                                          <i class="material-icons plus">add</i> 
                                          <i class="material-icons minus">remove</i>  
-                                        Custom Styling
+                                        Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited</span>
                                     <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
@@ -850,7 +850,7 @@
                                         No. of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>6</span>
-                                    <span class="detail">You can have a maximum of 6 quizzes at any time. You can always delete and create a new one 😃 </span> 
+                                    <span class="detail">You can have a maximum of 6 experiences at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -941,9 +941,9 @@
                                     <span class="feature-title">
                                          <i class="material-icons plus">add</i> 
                                          <i class="material-icons minus">remove</i>  
-                                        Custom Styling
+                                        Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited</span>
                                     <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
@@ -1055,7 +1055,7 @@
                                         No. of Experiences
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>25</span>
-                                    <span class="detail">You can have a maximum of 25 quizzes at any time. You can always delete and create a new one 😃 </span> 
+                                    <span class="detail">You can have a maximum of 25 experiences at any time. You can always delete and create a new one 😃 </span> 
                                 </li>
                                 <li class="">
                                     <span class="feature-title">
@@ -1149,9 +1149,9 @@
                                     <span class="feature-title">
                                          <i class="material-icons plus">add</i> 
                                          <i class="material-icons minus">remove</i>  
-                                        Custom Styling
+                                        Custom Branding
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Allowed</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Limited</span>
                                     <span class="detail">You can add your own logo, edit colors and backgrounds etc. A small “Powered By Outgrow” logo will come discreetly at the bottom. </span> 
                                 </li>
                                 <li class="expand-rs">
@@ -1418,8 +1418,9 @@
                 <!-- end: for responsive -->
             </div>
             <div class="asterix-text">
-                *Only for new customers, who have never signed up for Outgrow before
+                *Only for new customers, who have never signed up for Outgrow before.
                 <br/>**Offer is available till promo codes last.
+                <br/>***Can only buy one plan
             </div>
             <div class="container pricing-outer">
                         <div class="faq-section-ltd new">
@@ -1434,7 +1435,7 @@
                                 What if I want other features?
                             </div>
                             <div class="faq-section-content">
-                                <p>We understand that you may want to build calculators, polls while running effective lead generation programs, analyzing the data about visitors, using your own branding and using some of our premium design templates. Feel free to chat with us and we are sure that we can figure out a plan and pricing that works for you. The reason these features are not offered in the lifetime deal is due to the support costs arising from it. </p>
+                                <p>We understand that you may want to build calculators, polls while running effective lead generation programs, analyzing the data about visitors, using your own branding and using some of our premium design templates. Feel free to chat with us and we are sure that we can figure out a plan and pricing that works for you. </p>
                             </div>
                             <div class="faq-section-title">
                                 Can I get a refund?
@@ -1452,7 +1453,7 @@
                                 What kind of support will you offer?
                             </div>
                             <div class="faq-section-content">
-                                <p>We will offer chat support for this plan. However, if you need more help or need us to build custom quizzes, then you can reach out to us over chat. Additional charges may apply for custom built quizzes. </p>
+                                <p>We will offer chat support for this plan. However, if you need more help or need us to build custom quizzes, then you can reach out to us over chat. Additional charges will apply for custom built quizzes. </p>
                             </div>
                         </div>
                     </div>
