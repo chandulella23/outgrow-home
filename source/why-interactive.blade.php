@@ -74,7 +74,10 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner">
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/anim1-real-value.gif" alt="Unlike Ads, Calculators Add Real Value">
+						<!-- <img src="{{ $page->baseUrl }}/images/anim1-real-value.gif" alt="Unlike Ads, Calculators Add Real Value"> -->
+						<video width="auto" height="auto" autoplay loop>
+							<source src="{{ $page->baseUrl }}/images/why-video-real-value.mp4" type="video/mp4">
+						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
 						<h3 class="section-subheading">Unlike Ads, <b>Calculators Add Real Value </b> </h3>
@@ -92,7 +95,10 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/anim2-new-traffic.gif" alt="Calculators Bring New Traffic">
+						<!-- <img src="{{ $page->baseUrl }}/images/anim2-new-traffic.gif" alt="Calculators Bring New Traffic"> -->
+						<video width="auto" height="auto" autoplay loop>
+							<source src="{{ $page->baseUrl }}/images/why-video-new-traffic.mp4" type="video/mp4">
+						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left sec-newTraffic">
 						<h3 class="section-subheading">Calculators Bring <b>New Traffic</b> </h3>
@@ -108,12 +114,18 @@
 						</ul>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/anim2-new-traffic.gif" alt="Calculators Bring New Traffic">
+						<!-- <img src="{{ $page->baseUrl }}/images/anim2-new-traffic.gif" alt="Calculators Bring New Traffic"> -->
+						<video width="auto" height="auto" autoplay loop>
+							<source src="{{ $page->baseUrl }}/images/why-video-new-traffic.mp4" type="video/mp4">
+						</video>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/anim3-engagement.gif" alt="Calculators Increase Engagement & Conversion">
+						<!-- <img src="{{ $page->baseUrl }}/images/anim3-engagement.gif" alt="Calculators Increase Engagement & Conversion"> -->
+						<video width="auto" height="auto" autoplay loop>
+							<source src="{{ $page->baseUrl }}/images/why-video-engagement.mp4" type="video/mp4">
+						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
 						<h3 class="section-subheading">Calculators Increase <b>Engagement & Conversion </b> </h3>
@@ -131,7 +143,10 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/anim4-target-sales.gif" alt="Audience Segmentation and Targeted Sales">
+						<!-- <img src="{{ $page->baseUrl }}/images/anim4-target-sales.gif" alt="Audience Segmentation and Targeted Sales"> -->
+						<video width="auto" height="auto" autoplay loop>
+							<source src="{{ $page->baseUrl }}/images/why-video-augmented.mp4" type="video/mp4">
+						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left sec-audience">
 						<h3 class="section-subheading">Audience Segmentation <b>and Targeted Sales</b> </h3>
@@ -147,7 +162,10 @@
 						</ul>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/anim4-target-sales.gif" alt="Audience Segmentation and Targeted Sales">
+						<!-- <img src="{{ $page->baseUrl }}/images/anim4-target-sales.gif" alt="Audience Segmentation and Targeted Sales"> -->
+						<video width="auto" height="auto" autoplay loop>
+							<source src="{{ $page->baseUrl }}/images/why-video-augmented.mp4" type="video/mp4">
+						</video>
 					</div>
 				</div>
 			</div>
