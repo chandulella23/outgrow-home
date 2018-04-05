@@ -1,6 +1,6 @@
-window.runTimeout = function() {
+window.runTimeout = function () {
     setTimeout(function () {
-        jQuery('.content-loader').addClass('hide');   
+        jQuery('.content-loader').addClass('hide');
     }, 5000);
 }
 
@@ -8,7 +8,7 @@ window.display = function (url) {
     document.getElementById('og-iframe').src = url;
     jQuery('#og-iframe').addClass('iframeHeight')
     calculateMinHeight();
-    
+
     setTimeout(calculateMinHeight, 2000);
 }
 
@@ -217,7 +217,7 @@ jQuery(document).ready(function () {
     jQuery('#nav-examples').addClass('active');
     calculateMinHeight();
     window.Intercom('update', { 'site_example_viewed': new Date() });
-    
+
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
