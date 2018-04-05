@@ -37,7 +37,7 @@
 						eBooks, blogs & whitepapers giving average results?
 					</h4>
 					<h3 class="mk-animate-element fade-in section1-firsthead">
-						Boost your marketing with highly converting <b>calculators</b> and viral <b>quizzes</b>.
+						Boost your marketing with highly converting <b>calculators</b> and viral <b>quizzes</b>
 					</h3>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
@@ -314,7 +314,7 @@
 	<div class="col-md-12 col-sm-12 col-xs-12 np bg1-img lp-bg-freeTrial">
 		<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
 			<i class="material-icons">email</i>
-			<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">							
+			<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your email address">							
 			<span class="lead-form-btn">
 				<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
 					Start Free Trial
@@ -1175,7 +1175,7 @@
 
 	<div class="footer-copyright footer-lp">
 		<i class="material-icons">copyright</i>
-		<span>Copyright 2017</span>
+		<span>Copyright 2018</span>
 		<img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer-logo-dark.png" src="" />
 		<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" /></a>
 	</div>

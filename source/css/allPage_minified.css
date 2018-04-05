@@ -3815,6 +3815,23 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			min-height: auto !important;
 			background-color: #f3f8fb !important;
 		}
+		.section-old .video-img-inner span.video-playIcon {
+			width: 80px;
+			height: 80px;
+			left: 45%;
+			top: 30%;
+		}
+		.section-old .video-img-inner span.inside-circle {
+			width: 70px;
+			height: 70px;
+			left: 5px;
+			top: 5px;
+			padding-top: 10px;
+			font-size: 34px;
+		}
+		.section-old .inside-circle i.material-icons {
+			top: -7px !important;
+		}
 
 
 
@@ -5691,6 +5708,12 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		height: auto !important;
 	}
 }
+
+@media (min-width:481px) and (max-width:768px){
+	.section-old .inside-circle i.material-icons {
+		top: 3px !important;
+	}
+}
 @media only screen and (min-width:480px) and (max-width:767px){
 	.footer-link ul li {width: 50%;}
 }
@@ -5856,11 +5879,11 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			width: 50px !important;
 			height: 50px !important;
 		}
-		.section-old .inside-circle i.material-icons {
+		/* .section-old .inside-circle i.material-icons {
 			position: relative;
 			top: -12px !important;
 			font-size: 26px;
-		}
+		} */
 		.startTrial-outer input{min-height: 48px !important;}
 		section .startTrial-outer .btn-buildcal{
 			font-size: 12px !important;
