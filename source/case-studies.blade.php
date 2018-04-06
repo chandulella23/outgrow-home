@@ -81,15 +81,18 @@
 						<div class="section-2-heading">TAG Livros Generates 55K + Leads Using <br/>Interactive Experiences </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="55" data-refresh-interval="100" data-speed="2000">55</span>k</div>
+								<div class="counter counter-lined">55</div>
+								<span>k</span>
 								<span>Leads</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="196" data-refresh-interval="100" data-speed="2000">196</span>k</div>
+								<div class="counter counter-lined">196</div>
+								<span>k</span>
 								<span>Visits</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="28" data-refresh-interval="100" data-speed="2000">28</span>%</div>
+								<div class="counter counter-lined">28</div>
+								<span>%</span>
 								<span>Conversion Rate</span>
 							</div>
 						</div>
@@ -472,5 +475,6 @@
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"whypage": "{{ $page->baseUrl }}/js/pageScripts/whypage.js",
+		"casestudies": "{{ $page->baseUrl }}/js/pageScripts/case-studies.js",
 	}
 @endsection
