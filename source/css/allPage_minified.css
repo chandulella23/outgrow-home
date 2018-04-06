@@ -3814,6 +3814,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin-left: 0px !important;
 			min-height: auto !important;
 			background-color: #f3f8fb !important;
+			margin-top: 30px !important;
 		}
 		
 		.section-old .video-img-inner span.video-playIcon {
@@ -4710,7 +4711,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.startTrial-outer.lp-sign{background-size: 50% !important;}
 	div.lp-sign .lp-sign-inner {
 		margin-left: 30px !important;
-		margin-top: 80px !important;
+		margin-top: 65px !important;
 	}
 	.lp-sign.startTrial-outer input {width: 100% !important;	}
 	.btn-signup.startTrial-outer input{ width: 50%;}
@@ -4767,6 +4768,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.lp-sign-inner {
 		margin-left: 30px !important;
+		margin-top: 100px !important;
 	}
 	div.swiper-container .swiper-slide.swiper-slide-active {
 		width: 62% !important;
@@ -17329,7 +17331,7 @@ span.circle {
     margin-bottom: 1px;
 }
 .lp-sign-inner {
-    margin-top: 120px;
+    margin-top: 110px;
     margin-left: 80px;
     position: relative;
     max-width: 540px;
