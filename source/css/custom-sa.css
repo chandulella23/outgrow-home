@@ -7077,6 +7077,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.case-study-tabs {
 		background: #fff;
+		margin-left: 0px !important;
 		margin-right: 90px;
 		/* padding: 27px 15px; */
 		max-width: 172px;
