@@ -228,7 +228,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np companyInfo-table">
 							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
-								<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_companyinfo.jpg" alt="TAG Livros Company">
+								<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_companyinfo_GBYP.jpg" alt="Get Paid for Your Pad Company">
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
 								<h4>Company</h4>
@@ -244,7 +244,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<div class="section-2-heading">Creating an Interactive Assessment </div>
 							<span class="section-subtitle">GPYP built an assessment that would help people understand how well their AirBnB listing is performing. Since their audience was mostly AirBnB hosts, this assessment was sure to lead to a lot of conversions. </span>
-							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_experimenting.jpg" alt="Experimenting With Interactive Content">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_experimenting_GPYP.jpg" alt="Creating an Interactive Assessment">
 						</div>
 					</div>
 				</section>
