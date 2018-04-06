@@ -81,15 +81,15 @@
 						<div class="section-2-heading">TAG Livros Generates 55K + Leads Using <br/>Interactive Experiences </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1000" data-to="30000" data-refresh-interval="100" data-speed="2000">55</span>k</div>
+								<div class="counter counter-lined"><span data-from="1" data-to="55" data-refresh-interval="100" data-speed="2000">55</span>k</div>
 								<span>Leads</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1000" data-to="30000" data-refresh-interval="100" data-speed="2000">196</span>k</div>
+								<div class="counter counter-lined"><span data-from="1" data-to="196" data-refresh-interval="100" data-speed="2000">196</span>k</div>
 								<span>Visits</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1000" data-to="30000" data-refresh-interval="100" data-speed="2000">28</span>%</div>
+								<div class="counter counter-lined"><span data-from="1" data-to="28" data-refresh-interval="100" data-speed="2000">28</span>%</div>
 								<span>Conversion Rate</span>
 							</div>
 						</div>
