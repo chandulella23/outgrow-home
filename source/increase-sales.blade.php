@@ -30,11 +30,11 @@
 
 @section('content')
 
-	<div class="header-logo">		
+	<!-- <div class="header-logo">		
 		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_sales_page" class="" target="_blank">
 			<img src="https://dzvexx2x036l1.cloudfront.net/lp-header-logo.png" alt="lp-header-logo image">
 		</a>
-	</div>
+	</div> -->
 
 	<!-- start: landing page HTML  -->
 	<section class="section section-banner section-banner-sales">
