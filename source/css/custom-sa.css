@@ -7072,7 +7072,7 @@ i.zmdi.zmdi-twitter-box {
 		margin: 55px 0px 70px;
 	}
 	.case-study-tabs-container {
-		width: 700px;
+		width: 960px;
 		padding: 0;
 	}
 	.case-study-tabs {
@@ -7133,11 +7133,22 @@ i.zmdi.zmdi-twitter-box {
 	.section-counter-inner {
 		margin-top: 25px;
 	}
+	.counter-wrapper {
+		width: 100%;
+		float: left;
+	}
 	.counter {
 		font-size: 72px;
 		color: #4793c5;
+		display: inline-block;
 	}
-	.counter + span {
+	.counter-wrapper .counter + span {
+		display: inline-block;
+		font-size: 72px;
+		color: #4793c5;
+		font-family: montserratregular;
+	}
+	.counter-wrapper + span {
 		font-size: 18px;
 		color: #626a6d;
 		font-family: montserratlight;
@@ -7385,4 +7396,24 @@ i.zmdi.zmdi-twitter-box {
 		background: #fb757b;
 		color: #fff;
 		border-color: #f8434b;
+	}
+	.img-wrapper-GPYP img {
+		margin: 0 !important;
+	}
+	.img-wrapper-VP img {
+		float: none !important;
+	}
+	.img-wrapper-VP img:nth-child(1) {
+		margin: 0;
+		margin-right: 15px;
+	}
+	.img-wrapper-VP img:nth-child(2) {
+		margin: 0px;
+		margin-left: 15px;
+	}
+	.section-companyReviews-GPYP blockquote {
+		max-width: 53%;
+	}
+	.img-wrapper-macro img {
+		margin: 0 !important;
 	}

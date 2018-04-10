@@ -69,6 +69,12 @@
 								<span>Case Study 3</span>
 							</a>
 						</li>
+						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs">
+							<a class=""  data-toggle="pill" href="#macroscape">
+								<img src="{{ $page->baseUrl }}/images/case_study_macroscape.png" alt="Macroscape">
+								<span>Case Study 4</span>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -78,21 +84,27 @@
 			<div id="tag" class="tab-pane fade in active">
 				<section class="section section-counter">
 					<div class="container">
-						<div class="section-2-heading">TAG Livros Generates 55K + Leads Using <br/>Interactive Experiences </div>
+						<div class="section-2-heading">TAG Livros Generates 55K + Leads Using an<br/>Interactive Experiences </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined">55</div>
-								<span>k</span>
+								<div class="counter-wrapper">
+									<div class="counter">55</div>
+									<span>k</span>
+								</div>
 								<span>Leads</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined">196</div>
-								<span>k</span>
+								<div class="counter-wrapper">
+									<div class="counter">196</div>
+									<span>k</span>
+								</div>
 								<span>Visits</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined">28</div>
-								<span>%</span>
+								<div class="counter-wrapper">
+									<div class="counter">28</div>
+									<span>%</span>
+								</div>
 								<span>Conversion Rate</span>
 							</div>
 						</div>
@@ -205,23 +217,31 @@
 						</div>
 					</div>
 				</section>
-			</div>
-			
+			</div>			
 			<div id="getPaid" class="tab-pane fade">
 				<section class="section section-counter">
 					<div class="container">
 						<div class="section-2-heading">Get Paid for Your Pad (GBYP) Scored a Stellar 41% Conversion Rate with an Interactive Calculator! </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="60" data-refresh-interval="100" data-speed="2000">60</span>%</div>
+								<div class="counter-wrapper">
+									<div class="counter">60</div>
+									<span>%</span>
+								</div>
 								<span>Completion Rate</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="800" data-refresh-interval="100" data-speed="2000">800</span>+</div>
+								<div class="counter-wrapper">
+									<div class="counter">800</div>
+									<span>+</span>
+								</div>
 								<span>Conversions</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="41" data-refresh-interval="100" data-speed="2000">41</span>%</div>
+								<div class="counter-wrapper">
+									<div class="counter">41</div>
+									<span>%</span>
+								</div>
 								<span>Conversion Rate</span>
 							</div>
 						</div>
@@ -271,14 +291,14 @@
 								<p>The assessment had a form just before the results page. Thus, people had to fill the form to see their results. This led to a 40% conversion rate. In comparison, the previous form had never witnessed a double digit conversion rate! </p>
 							</div>
 						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
-							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4.jpg" alt="">
-							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5.jpg" alt="">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-GPYP">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4_GPYP.jpg" alt="">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5_GPYP.jpg" alt="">
 							<button type="button" class="btn btn-red">Create your First Interactive Experience </button>
 						</div>
 					</div>
 				</section>
-				<section class="section section-companyReviews">
+				<section class="section section-companyReviews section-companyReviews-GPYP">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
@@ -299,9 +319,8 @@
 							GPYP ended up getting 800+ conversions at a 41% conversion rate.
 							</p>
 						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
-							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1.jpg" alt="Result img">
-							<img class="" src="{{ $page->baseUrl }}/images/case_study_result2.jpg" alt="Result img">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-GPYP">
+							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1_GPYP.jpg" alt="Result img">
 						</div>
 					</div>
 				</section>
@@ -339,15 +358,24 @@
 						<div class="section-2-heading">Venturepact Generated 11,592 Qualified Leads Using an <br/>Interactive Calculator </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="11,592" data-refresh-interval="100" data-speed="2000">11,592</span></div>
+								<div class="counter-wrapper">
+									<div class="counter">11,592</div>
+									<!-- <span>%</span> -->
+								</div>
 								<span>Leads</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="28" data-refresh-interval="100" data-speed="2000">28</span>%</div>
+								<div class="counter-wrapper">
+									<div class="counter">28</div>
+									<span>%</span> 
+								</div>
 								<span>Conversions</span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
-								<div class="counter counter-lined"><span data-from="1" data-to="15" data-refresh-interval="100" data-speed="2000">15</span>%</div>
+								<div class="counter-wrapper">
+									<div class="counter">15</div>
+									<span>%</span> 
+								</div>
 								<span>Traffic</span>
 							</div>
 						</div>
@@ -357,7 +385,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np companyInfo-table">
 							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
-								<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_companyinfo.jpg" alt="TAG Livros Company">
+								<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_companyinfo_VP.jpg" alt="VenturePact Company">
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
 								<h4>Company</h4>
@@ -373,7 +401,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<div class="section-2-heading">Building an Interactive Calculator </div>
 							<span class="section-subtitle">VenturePact built a mobile app calculator where a prospective customer could answer 8 questions about their app and get a cost estimate instantly. This calculator was interactive, could capture attention, and provide instant gratification. </span>
-							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_experimenting.jpg" alt="Experimenting With Interactive Content">
+							<img class="" src="{{ $page->baseUrl }}/images/case_study_experimenting_VP.png" alt="Building an Interactive Calculator">
 						</div>
 					</div>
 				</section>
@@ -397,9 +425,9 @@
 								<p>Users got real-time results with a clear onward call to action. Approximately 4% of users clicked on the CTA and went to the company website. </p>
 							</div>
 						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
-							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4.jpg" alt="">
-							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5.jpg" alt="">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-VP">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4_VP.png" alt="">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5_VP.png" alt="">
 							<button type="button" class="btn btn-red">Create your First Interactive Experience </button>
 						</div>
 					</div>
@@ -427,8 +455,8 @@
 							</p>							
 						</div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
-							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1.jpg" alt="Result img">
-							<img class="" src="{{ $page->baseUrl }}/images/case_study_result2.jpg" alt="Result img">
+							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1_VP.jpg" alt="Result img">
+							<img class="" src="{{ $page->baseUrl }}/images/case_study_result2_VP.png" alt="Result img">
 						</div>
 					</div>
 				</section>
@@ -449,6 +477,143 @@
 							<blockquote>
 								<span class="quote-left"></span>
 									The calculator going viral has made us more visible. With so many prospects already using it, we know our work is being valued. Now that we know what works with the target audience, we can focus our efforts on the same line.
+								<span class="quote-right"></span>
+							</blockquote>
+						</div>
+					</div>
+				</section>
+				<section class="section section-button">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<span>Free Trial. No credit card required!</span>
+							<button type="button" class="btn btn-red">Generate leads with Outgrow </button>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div id="macroscape" class="tab-pane fade">
+				<section class="section section-counter">
+					<div class="container">
+						<div class="section-2-heading">Macroscape Helped Its Client Clock a <br/>Conversion Rate of 36% </div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
+							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+								<div class="counter-wrapper">
+									<div class="counter">3225</div>
+									<!-- <span>%</span> -->
+								</div>
+								<span>Visits</span>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+								<div class="counter-wrapper">
+									<div class="counter">1151</div>
+									<!-- <span>%</span>  -->
+								</div>
+								<span>Leads</span>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+								<div class="counter-wrapper">
+									<div class="counter">36</div>
+									<span>%</span> 
+								</div>
+								<span>Conversion Rate</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section section-companyInfo">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np companyInfo-table">
+							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
+								<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_companyinfo_macro.jpg" alt="Macroscape Company">
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
+								<h4>Company</h4>
+								<p>Macroscape is a marketing consulting firm which helps companies market their products and services. </p>
+								<h4>Background</h4>
+								<p>Macroscape had a client who manufactured bikes and bicycles, and who needed to engage their customers and help them make sound purchase decisions. After having exhausted the usual inbound marketing tactics, Macroscape was now looking for a marketing technique that spelled success for itself as well as its client. “My goal was to create something easy for the client that they could edit on their own should they need to”, noted Nathan, Founder of Macroscape. </p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section section-experimenting">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<div class="section-2-heading">Building an Interactive Quiz </div>
+							<span class="section-subtitle">Using Outgrow, the team at Macroscape built an interactive quiz for their bicycle-manufacturing client. The quiz helped people find out which bicycle is a right fit for them based on their responses to a few easy questions. Since Macroscape’s client was assisting their prospects with decision making instead of just selling, the quiz was very relevant to their target audience. </span>
+							<img class="" src="{{ $page->baseUrl }}/images/case_study_experimenting_macro.jpg" alt="Building an Interactive Quiz">
+						</div>
+					</div>
+				</section>
+				<section class="section section-howOutgrowHelped">
+					<div class="container">
+						<div class="section-2-heading">How Outgrow Helped </div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np section-howOutgrowHelped-inner">
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped1.png" alt="Connecting the Dots">
+								<h5>Connecting the Dots </h5>
+								<p>Since Macroscape could give their client access to the quiz dashboard, the client could make any changes they needed to align the quiz with their branding and marketing goals. It bridged the gap between generating revenue for themselves and proving ROI for their clients. </p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped2.png" alt="No Coding Required">
+								<h5>‎No Coding Required </h5>
+								<p>Outgrow’s template-based interactive marketing platform let the team build an intuitive quiz using pre-built templates. Thus, they didn’t have to write a single line of code, which eliminated the cost of hiring developers. </p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped3.png" alt="‎In-Built Virality">
+								<h5>‎In-Built Virality </h5>
+								<p>The quiz comprised of three simple questions, each of which was supported by images and graphics. This meant that the quiz was not only easy to take but also visually engaging - a perfect mix for virality. As a result, the quiz witnessed a high completion rate and share rate. </p>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-macro">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4_macro.jpg" alt="">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5_macro.jpg" alt="">
+							<button type="button" class="btn btn-red">Create your First Interactive Experience </button>
+						</div>
+					</div>
+				</section>
+				<section class="section section-companyReviews">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<blockquote>
+								<span class="quote-left"></span>
+									Our goal was to generate more leads, and improve the level of customer interaction but our inbound strategies were giving lukewarm results at best. We had to reinvent marketing and needed something that could provide instant gratification. 
+								<span class="quote-right"></span>
+							</blockquote>
+							<!-- <span>Luise Spieweck Fialho <br/>Founder at TAG Livros </span> -->
+						</div>
+					</div>
+				</section>
+				<section class="section section-results">
+					<div class="container">
+						<div class="section-2-heading">Results </div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<p>
+								Since the quiz provided instant gratification, and helped instead of selling, the conversions were exemplary - <b>3225 visits and 1151 leads since they went live.</b> That's a <b>36% conversion rate!</b> <br/><br/>
+								“The client was able to close more deals, increase engagement and create a better customer UI/UX shopping experience,” according to Macroscape.<br/><br/>
+								The team was also super impressed with Outgrow’s support team. Says Nathan, “The Outgrow team has been totally stellar and super helpful. They have been responsive to all my questions. I can find them right there on Intercom helping me and my team customize their work.”
+							</p>							
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
+							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1_macro.jpg" alt="Result img">
+						</div>
+					</div>
+				</section>
+				<section class="section section-whatsNext">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<div class="section-2-heading">What’s Next? </div>
+							<span class="section-subtitle">
+								Macroscape now plans to make interactive content an integral part of their marketing strategy. They will be creating more experiences for themselves as well as their clients in the near future.
+							</span>
+						</div>
+					</div>
+				</section>
+				<section class="section section-companyReviews section-white">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<blockquote>
+								<span class="quote-left"></span>
+									Outgrow is spectacular. I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy.
 								<span class="quote-right"></span>
 							</blockquote>
 						</div>
