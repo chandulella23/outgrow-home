@@ -18950,7 +18950,7 @@ img.scrollimg1.wo {
 		background-color: #fff;
 	}
 	.section-banner h1.main-heading {
-		margin-top: 100px;
+		margin-top: 120px;
 		display: block;
 		font-size: 42px;
 		color: #fff !important;
@@ -19403,7 +19403,7 @@ img.scrollimg1.wo {
 	.section-btn {
 		float: left;
 		width: 100%;
-		margin-bottom: 90px;
+		margin-bottom: 70px;
 	}
 	.section-btn span {
 		color: #62696d;
@@ -19589,7 +19589,7 @@ img.scrollimg1.wo {
 		}
 		.section-banner {height: auto; background-position: 0px -150px;} 
 		.section-banner h1.main-heading{
-			margin-top: 120px;
+			margin-top: 40px;
 			font-size: 22px;
 			padding: 0;
 			line-height: 26px;
@@ -19686,6 +19686,7 @@ img.scrollimg1.wo {
 		}
 		.section-btn {
 			margin-top: 30px;
+			margin-bottom: 60px;
 		}
 		.btn-white-new {
 			font-size: 13px;
@@ -19750,7 +19751,7 @@ img.scrollimg1.wo {
 		}
 		.section-banner {height: auto;} 
 		.section-banner h1.main-heading{
-			margin-top: 120px;
+			margin-top: 40px;
 			font-size: 22px;
 			padding: 0;
 			line-height: 26px;
@@ -19816,6 +19817,7 @@ img.scrollimg1.wo {
 		}
 		.section-btn {
 			margin-top: 30px;
+			margin-bottom: 60px;
 		}
 		.btn-white-new, .btn-red-new {
 			font-size: 13px;
@@ -19873,7 +19875,11 @@ img.scrollimg1.wo {
 			right: 80px;
 		}
 	}
-
+	@media (min-width:991px) and (max-width:1200px){
+		.section-banner h1.main-heading {
+			margin-top: 100px;
+		}
+	}
 	@media (min-width:1200px) and (max-width:1280px){
 		.section-six ul li span {
 			float: left;
