@@ -18962,7 +18962,7 @@ img.scrollimg1.wo {
 		font-size: 15px;
 		color: #fff;
 		font-family: montserratlight;
-		line-height: 24px;
+		line-height: 23px;
 	}
 	.banner-inner {
 		margin-top: 30px;
@@ -19074,7 +19074,7 @@ img.scrollimg1.wo {
 		margin: 0 !important;
 	}	
 	.section-second-roi img {
-		top: 200px;
+		top: 150px;
 	}
 	.section-premade-temp{
 		float: left;
@@ -19323,7 +19323,7 @@ img.scrollimg1.wo {
 		position: relative;
 		overflow: hidden;
 		width: auto;
-		border-radius: 7px;
+		border-radius: 7px 7px 0px 0px;
 	}
 	.img-scaler img {
 		max-width: 100%;		
@@ -19441,7 +19441,7 @@ img.scrollimg1.wo {
 		top: 50px;
 	}
 	.section-second-sales img {
-		top: 220px;
+		top: 150px;
 	}
 
 	.section-banner-sales h1.main-heading {
@@ -19853,13 +19853,13 @@ img.scrollimg1.wo {
 			right: 80px;
 		}
 		.section-second-roi img {
-			top: 150px;
+			top: 120px;
 		}
 		.section-second-CR img {
 			top: 150px;
 		}
 		.section-second-sales img {
-			top: 150px;
+			top: 120px;
 		}
 	
 

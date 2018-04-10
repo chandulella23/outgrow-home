@@ -63,10 +63,9 @@
 	<section class="section section-second section-second-sales">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Generate More Revenue And Leads By Using Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
+				<div class="section-heading">Generate more sales with Outgrow’s interactive quizzes, calculators, surveys and assessments </div>
 				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li>Generate more sales with Outgrow’s interactive quizzes, calculators, surveys and assessments</li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>A recent report by DemandGen concludes that around 91% B2B buyers prefer to engage with interactive and visual content </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content lets you close more deals by giving your prospects valuable info about your business and how it will help them, even before they talk to a sales person </span> </li>
 					<li><i class="material-icons">keyboard_arrow_right</i> <span>High conversion rates from calculators, quizzes and surveys helps you get more prospects to the bottom of the funnel which results in more victories for your sales team </span> </li>
