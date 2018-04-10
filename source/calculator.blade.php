@@ -30,11 +30,11 @@
 
 @section('content')
 
-	<div class="header-logo">		
+	<!-- <div class="header-logo">		
 		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_calculator_page" class="" target="_blank">
 			<img src="https://dzvexx2x036l1.cloudfront.net/lp-header-logo.png" alt="lp-header-logo image">
 		</a>
-	</div>
+	</div> -->
 
 	<!-- start: landing page HTML  -->
 	<section class="section section-banner section-banner-calc">
@@ -66,11 +66,11 @@
 				<div class="section-heading">Use Outgrow To Make ROI Calculator, Pricing Calculator, Growth Calculator, Website Calculator, etc. </div>
 				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Customizable forms to boost lead generation and conversions </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Seamless social media integrations and an exhaustive promotional checklist to make your calculator reach your targeted audience </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions, and traffic across all channels </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Business calculators provide more value to your users by asking them a set of questions and giving them a personalized response, thereby generating more leads and customers for you </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Companies in finance, real estate, insurance, and software, among others, use calculators on their website to get more leads down the funnel </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Use the calculator responses to segment high-value clients which helps your sales team close more deals quickly </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Choose from one of Outgrow’s sleek-looking calculator templates so that your calculator looks like a million bucks </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Don’t want to design a calculator from scratch? Take a look at our pre-made calculators </span> </li>
 				</ul>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
@@ -1233,10 +1233,10 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to design an effective calculator? </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to promote and maximize traffic? </span></li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to manage and follow up with leads? </span></li>
+						<a href="https://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" class=""  target="_blank">
+							<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
+						</a>
 					</ul>
-					<a href="https://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" class=""  target="_blank">
-						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
-					</a>
 				</div>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-six-img_calc.png" alt="Course on Lead Generation with Calculators"> 
 			</div>
@@ -1271,11 +1271,11 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading3_cal.png" alt="VenturePact case study"> 
+						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading3_cal.png" alt="How VenturePact Used a Calculator to Generate 11,000+ Leads"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>[Case Study] VenturePact generated 11,592 leads with a Calculator</h4>
-						<p>VenturePact partnered with Outgrow to build a calculator that boosted traffic by 15% and increased conversion rate by 28%. </p>
+						<h4>How VenturePact Used a Calculator to Generate 11,000+ Leads</h4>
+						<p>Find out how VenturePact used a calculator to generate 11,592 leads while increasing traffic by 15% and conversion traffic by 28%. </p>
 						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>

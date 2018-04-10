@@ -30,11 +30,11 @@
 
 @section('content')
 
-	<div class="header-logo">
+	<!-- <div class="header-logo">
 		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_quiz_page" class="" target="_blank">
 			<img src="https://dzvexx2x036l1.cloudfront.net/lp-header-logo.png" alt="lp-header-logo image">
 		</a>
-	</div>
+	</div> -->
 
 	<!-- start: landing page HTML  -->
 	<section class="section section-banner">
@@ -66,11 +66,11 @@
 				<div class="section-heading">Easily Build Interactive Quizzes With Outgrow’s Intuitive, User-Friendly Platform </div>
 				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Customizable forms to boost lead generation and conversions </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Seamless social media integrations and an exhaustive promotional checklist to make your quiz go viral </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions, and traffic across all channels </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive quizzes such as personality quizzes and BuzzFeed-style quizzes generate loads of traffic and leads for your business </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Outgrow’s powerful quiz builder helps you create engaging, immersive quizzes without any design and coding help </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Choose from a selection of sophisticated design templates which have been designed to make your quiz look like a million bucks </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Don’t have time to design a quiz from scratch? We have a variety of pre-made quizzes waiting for you inside the app </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Our amazing support team is on call 24/7 to make sure that your quiz gets published without a hitch </span> </li>
 				</ul>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 			</div>
@@ -1063,10 +1063,10 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>What makes certain Quizzes and Calculators go viral. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Actionable tips that any marketer can follow to create viral Quizzes and Calculators that are shared like crazy! </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to promote your Quizzes and Calculators to increase their chances of going viral with our Promotional Checklist. </span></li>
+						<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page" class="" target="_blank">
+							<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
+						</a>
 					</ul>
-					<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators/?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page" class="" target="_blank">
-						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
-					</a>
 				</div>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-six-img.png" alt="Viral Quizzes and Calculators Guide">
 			</div>
