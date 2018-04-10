@@ -47,10 +47,10 @@
 					<img src="https://dzvexx2x036l1.cloudfront.net/banner_img_conversion.png" alt="Boost online conversions with Outgrow"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
-					<p>“Outgrow is spectacular. I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy.” </p>
-					<span class="profile-detail">Nathan Windsor, Founder, Macroscape</span>
+					<p>“I would strongly recommend Outgrow to any digital marketer looking to generate more qualified leads - we generated over 55K leads in a month through the Outgrow platform!” </p>
+					<span class="profile-detail">Luise Spieweck Fialho (Founder at TAG Livros)</span>
 					<div class="company-detail">
-						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
+						TAG Livros got a conversion rate of 32% with an Outgrow interactive quiz
 					</div>
 					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page">
 						<button type="button" class="btn btn-white-new">Create Your First Interactive Experience <i class="material-icons">arrow_forward</i></button>
@@ -66,11 +66,11 @@
 				<div class="section-heading">Increase Conversions And Improve The ROI Of Your Marketing With Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
 				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>All templates have been optimized to improve conversion on both desktop and mobile </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>See record conversion rates with interactive lead generation forms </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions and traffic across all channels </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content gets 30-40% conversion rate at an average, compare to 8-10% for landing pages and 2-3% for website forms </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>You can embed interactive content on any webpage or use it as a separate URL, thereby increasing conversion rate at key stages of your funnel </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Quizzes, calculators and assessments helps you engage your visitors in a much more targeted manner which makes them much more willing to leave behind their lead info </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Outgrow’s pre-made templates have been rigorously tested and optimized for high conversion rate, making your job much easier</span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Place the lead generation form either on the welcome screen, before the results or after showing the results </span> </li>
 				</ul>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
@@ -1391,10 +1391,10 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to create a customer-first lead generation strategy that focuses on providing value to your target audience. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Lead generation hacks divided across 9 different categories, to help you ramp up your marketing efforts and get more business. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Real-life examples of how businesses like Hubspot, GAP, Copyblogger, and Hot Jaruse these techniques to get more leads from their websites, social media and other properties. </span></li>
+						<a href="https://get.outgrow.co/ebook-70-lead-generation-tips/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class=""  target="_blank">
+							<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
+						</a>
 					</ul>
-					<a href="https://get.outgrow.co/ebook-70-lead-generation-tips/?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" class=""  target="_blank">
-						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
-					</a>
 				</div>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-six-img_CR.png" alt="Ebook: 70+ Lead Generation Hacks"> 
 			</div>
@@ -1409,12 +1409,12 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading1_CR.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
+						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading1_CR.png" alt="4 Ways to Improve Homepage Conversions Using Calculators/Quizzes "> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>How Macroscape Helped Its Client Clock a Conversion Rate of 36% </h4>
-						<p>Find out how a marketing consulting firm helped one of its clients clock 36% conversion rate using a quiz. </p>
-						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>4 Ways to Improve Homepage Conversions Using Calculators/Quizzes </h4>
+						<p>Interactive experiences can help turn your homepage into a lead generation machine. In this post, we talk about 4 ways to achieve this. </p>
+						<a href="https://outgrow.co/blog/improve-homepage-conversions?utm_source=website&utm_medium=link&utm_campaign=outgrow_conversion_rate_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">

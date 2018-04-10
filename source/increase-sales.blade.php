@@ -47,11 +47,11 @@
 					<img src="https://dzvexx2x036l1.cloudfront.net/banner_img_sales.png" alt="Increase your online sales with Outgrow"> 
 				</div>
 				<div class="col-md-4 col-sm-5 col-xs-12 np banner-content">
-					<p>"This tool was so easy to use. We've tried other calculator tools but Outgrow had a variety of templates and designs as well as the flexibility of making our own formulated results."  </p>
+					<p>"We had a bunch of people getting on our sales calls that didn't have the right business model or revenue / profits. Plus people didn't understand the value of our service. So this calculator helped us collect potential client data (revenue, profit, ad spend) and showed them how much more they could be profiting by using our service. With a call to action under the results, we got better qualified leads on our sales calls which resulted in over <b>$10,000 in sales in just a month</b> of using this calculator."  </p>
 					<span class="profile-detail">Katya S., Owner, Reach and Make Millions</span>
-					<div class="company-detail">
+					<!-- <div class="company-detail">
 						Katya’s company made over $10,000 in revenue in just a month of using an Outgrow business calculator.
-					</div>
+					</div> -->
 					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
 						<button type="button" class="btn btn-white-new">Build Your First Interactive Experience <i class="material-icons">arrow_forward</i></button>
 					</a>
@@ -60,17 +60,18 @@
 		</div>
 	</section>
 
-	<section class="section section-second section-second-survey">
+	<section class="section section-second section-second-sales">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading">Generate More Revenue And Leads By Using Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
 				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>All templates have been heavily optimize to improve conversion on both desktop and mobile </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>See record conversion rates with interactive lead generation forms </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions and traffic across all channels </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
+					<li>Generate more sales with Outgrow’s interactive quizzes, calculators, surveys and assessments</li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>A recent report by DemandGen concludes that around 91% B2B buyers prefer to engage with interactive and visual content </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content lets you close more deals by giving your prospects valuable info about your business and how it will help them, even before they talk to a sales person </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>High conversion rates from calculators, quizzes and surveys helps you get more prospects to the bottom of the funnel which results in more victories for your sales team </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content gives you more info about your prospects so your sales team can only focus on the accounts which have the highest chance of converting </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Outgrow’s highly-optimized templates helps you create interactive content in a matter of hours so you can generate sales without worrying about development and design </span> </li>
 				</ul>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
@@ -80,7 +81,7 @@
 	<section class="section section-premade-temp">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples Of Revenue-Generating Outgrow Quizzes, Calculators Aand Assessments </div>
+				<div class="section-heading text-center">Examples Of Revenue-Generating Outgrow Quizzes, Calculators And Assessments </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<!-- <div class="preloader">
@@ -1395,10 +1396,10 @@
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>Why Agencies Should Offer Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How Companies like New York Times and Buzzfeed are Crushing it with Interactive Content. </span> </li>
 						<li><i class="material-icons">keyboard_arrow_right</i> <span>How to Pitch Interactive Content Marketing to Clients with Ready-to-Use Sales Email Templates, Case Studies, Decks & More. </span></li>
+						<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" class=""  target="_blank">
+							<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
+						</a>
 					</ul>
-					<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" class=""  target="_blank">
-						<button class="btn btn-red-new">Learn More <i class="material-icons">arrow_forward</i></button>
-					</a>
 				</div>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-six-img_increase-sales.png" alt="Interactive Content Marketing for Digital Agencies"> 
 			</div>

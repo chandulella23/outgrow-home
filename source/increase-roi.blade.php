@@ -60,17 +60,18 @@
 		</div>
 	</section>
 
-	<section class="section section-second section-second-survey">
+	<section class="section section-second section-second-roi">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading">Generate More Revenue And Get Better ROI With Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
 				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>All templates have been heavily optimized to improve conversion on both desktop and mobile </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>See record conversion rates with interactive lead generation forms </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions and traffic across all channels </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
+					<li>Get Better ROI on your Marketing with Outgrow’s Interactive Content Tools</li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content like quizzes, calculators and assessments give you the maximum possible ROI on your marketing by generating highly-qualified leads </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content can be plugged in at any step of your marketing funnel, be it awareness, acquisition, activation or retention </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>The high-conversion rates that quizzes, calculators and assessments get means that you get the maximum benefit out of every interactive experience that you create </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content helps you close more deals by giving your sales team valuable lead info which helps them focus their energy on the highest value accounts </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Outgrow’s support team works with you at every step of the way to make sure that you generate maximum ROI out of your Outgrow subscription </span> </li>
 				</ul>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
@@ -1416,12 +1417,12 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading2_increase-roi.png" alt="Why you Need a ROI Calculator on your Website"> 
+						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading2_increase-roi.png" alt="4 Inspiring Growth-Hacking Examples You Need to Know"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>Why you Need a ROI Calculator on your Website </h4>
-						<p>What makes top companies rely on ROI (Return on Investment) calculators? Let's understand why it's important to have an ROI calculator on your website. </p>
-						<a href="https://outgrow.co/blog/roi-calculator-website?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>4 Inspiring Growth-Hacking Examples You Need to Know </h4>
+						<p>These real-life growth-hacking examples will give you some inspiration while you hustle to come up with growth strategies for your business. </p>
+						<a href="https://outgrow.co/blog/growth-hacking-examples?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">

@@ -18712,7 +18712,9 @@ img.uni1 {
 }
 .btn-readmore-link:hover, .btn-readmore-link:focus{
     color: #fb5f66;
-    text-decoration: underline;
+	text-decoration: underline;    
+	outline: none !important;
+    box-shadow: none;
 }
 .btn-readmore-link i.material-icons {
     font-size: 15px;
@@ -19047,24 +19049,32 @@ img.scrollimg1.wo {
 		font-size: 16px;
 		color: #61696c;
 		font-family: montserratlight;
-		line-height: 34px;
+		/* line-height: 34px; */
+		margin-bottom: 15px;
+	}
+	.section-second ul li:last-child {
+		margin-bottom: 0;
 	}
 	.section-second ul li span {
 		float: left;
 		width: 95%;
+		line-height: 26px;
 	}
 	.section-second ul li i {
 		font-size: 16px;
 		vertical-align: middle;
 		float: left;
-    	margin-top: 8px;
+    	margin-top: 4px;
 	}
 	.section-second img {
 		float: right;
 		position: absolute;
-		top: 50px;
+		top: 130px;
 		right: 0;
 		margin: 0 !important;
+	}	
+	.section-second-roi img {
+		top: 200px;
 	}
 	.section-premade-temp{
 		float: left;
@@ -19313,6 +19323,7 @@ img.scrollimg1.wo {
 		position: relative;
 		overflow: hidden;
 		width: auto;
+		border-radius: 7px;
 	}
 	.img-scaler img {
 		max-width: 100%;		
@@ -19406,7 +19417,7 @@ img.scrollimg1.wo {
 		margin-top: 15px;
 	}
 	.section-second-CR img {
-		top: 100px;
+		top: 190px;
 	}
 	.section-six-CR{
 		height: auto;
@@ -19417,19 +19428,21 @@ img.scrollimg1.wo {
 	}
 
 	.section-second-survey .section-heading {
-		width: 80%;
+		width: 100%;
 	}
 	.section-six-survey {
 		/* height: auto; */
 		margin-bottom: 15px;
 	}
 	.section-second-survey img {
-		top: 100px;
+		top: 150px;
 	}
 	.section-six-survey img {
 		top: 50px;
 	}
-
+	.section-second-sales img {
+		top: 220px;
+	}
 
 	.section-banner-sales h1.main-heading {
 		padding: 0px 100px;
@@ -19439,6 +19452,7 @@ img.scrollimg1.wo {
 	}
 	.section-banner-sales .banner-content {
 		margin-top: 0px;
+		width: 35%;
 	}
 
 	.section-six-roi {
@@ -19488,7 +19502,7 @@ img.scrollimg1.wo {
 		margin-bottom: 50px;
 	}
 	.section-second-calc img {
-		top: 100px;
+		top: 150px;
 	}	
 	.section-banner-calc .banner-content {
 		margin-top: 0px;
@@ -19596,7 +19610,7 @@ img.scrollimg1.wo {
 			padding: 0px 15px;
 			margin-left: 0px;
 			margin-top: 25px !important;
-			width: 100%;
+			width: 100% !important;
 		}
 		.section-banner p {
 			color: #61696c; 
@@ -19757,7 +19771,10 @@ img.scrollimg1.wo {
 			padding: 0;
 			line-height: 38px;
 		}
-		.section-second ul, .section-six ul {
+		.section-second ul {
+			width: 75%;
+		}
+		.section-six ul {
 			width: 81%;
 		}
 		.section-second ul li, .section-six ul li {
@@ -19821,18 +19838,40 @@ img.scrollimg1.wo {
 		.banner-content {
 			margin-top: 0px;
 			margin-left: 0px;
+			width: 33% !important;
 		}
 		.section-second-calc img {
-			top: 60px !important;
+			 top: 100px !important; 
+		}
+		.section-second-survey img {
+			top: 120px !important;
 		}
 		.section-six-calc .section-six img {
 			top: 50px;
 			right: 80px;
 		}
+		.section-second-roi img {
+			top: 150px;
+		}
+		.section-second-CR img {
+			top: 150px;
+		}
+		.section-second-sales img {
+			top: 150px;
+		}
 	
 
 
 
+	}
+	@media (min-width:770px) and (max-width:990px){
+		.section-six ul {
+			width: 70%;
+		}
+		.section-six img {
+			top: 70px;
+			right: 80px;
+		}
 	}
 
 	@media (min-width:1200px) and (max-width:1280px){
