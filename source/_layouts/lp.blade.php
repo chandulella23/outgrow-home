@@ -26,10 +26,13 @@
 
 	@if($page->_meta->url != '/interactive-calculators-and-quizzes')
 		@include('_partials.navbar')
-		@include('_partials.footer')
 	@endif
 
 	@yield('content')
+
+	@if($page->_meta->url != '/interactive-calculators-and-quizzes')
+		@include('_partials.footer')
+	@endif
 
 
 	<script>
@@ -55,7 +58,7 @@
 		}
 		for (var lib in libs) {
 			loadAsync(lib);
-		} 
+		}
 	</script>
 </body>
 </html>
