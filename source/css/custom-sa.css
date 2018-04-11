@@ -133,6 +133,39 @@
 	font-weight: 400;
 	font-style: normal
 }
+@font-face {
+	font-family: sintony-regular;
+	src: url(../fonts/sintony-regular-webfont),
+	url(../fonts/sintony-regular-webfont.woff2) format('woff2'), 
+	url(../fonts/sintony-regular-webfont.woff) format('woff'), 
+	url(../fonts/sintony-regular-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased
+}
+@font-face {
+	font-family: sintony-bold;
+	src: url(../fonts/sintony-bold-webfont),
+	url(../fonts/sintony-bold-webfont.woff2) format('woff2'), 
+	url(../fonts/sintony-bold-webfont.woff) format('woff'), 
+	url(../fonts/sintony-bold-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased
+}
+@font-face {
+	font-family: satisfy-regular;
+	src: url(../fonts/satisfy-regular-webfont),
+	url(../fonts/satisfy-regular-webfont.woff2) format('woff2'), 
+	url(../fonts/satisfy-regular-webfont.woff) format('woff'), 
+	url(../fonts/satisfy-regular-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased
+}
 body {
 	font-family: montserratregular;
 	color: #8e989f;
@@ -7072,13 +7105,13 @@ i.zmdi.zmdi-twitter-box {
 		margin: 55px 0px 70px;
 	}
 	.case-study-tabs-container {
-		width: 960px;
+		width: 840px;
 		padding: 0;
 	}
 	.case-study-tabs {
 		background: #fff;
 		margin-left: 0px !important;
-		margin-right: 90px;
+		margin-right: 50px;
 		/* padding: 27px 15px; */
 		max-width: 172px;
 		border-radius: 3px;
@@ -7192,7 +7225,7 @@ i.zmdi.zmdi-twitter-box {
 		float: left;
 		width: 100%;
 		background: #f3f8fb;
-		padding: 60px 0;
+		padding: 60px 0 70px;
 		margin: 0px;
 	}
 	.section-subtitle {
@@ -7270,13 +7303,13 @@ i.zmdi.zmdi-twitter-box {
 	.section-companyReviews blockquote {
 		font-size: 18px;
 		color: #4793c5;
-		font-family: montserratregular;
+		font-family: sintony-bold;
 		line-height: 30px;
 		border: none;
 		padding-top: 0px;
 		margin-bottom: 0px;
 		display: block;
-		max-width: 87%;
+		max-width: 87%; 
 		margin: 0 auto;
 		padding: 0px 30px 14px;
 		font-style: italic;
@@ -7287,9 +7320,9 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.section-companyReviews blockquote .quote-left::before {
 		content: "“";
-		font-family: Satisfy, serif;
-		font-size: 60px;
-		font-weight: bold;
+		font-family: satisfy-regular;
+		font-weight: normal;
+		font-size: 72px;
 		color: rgb(251, 95, 102);
 		position: absolute;
 		top: 5px;
@@ -7297,20 +7330,42 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.section-companyReviews blockquote .quote-right::after {
 		content: "”";
-		font-family: Satisfy, serif;
-		font-size: 60px;
-		font-weight: bold;
+		font-family: satisfy-regular;
+		font-size: 72px;
+		font-weight: normal;
 		color: rgb(251, 95, 102);
 		position: absolute;
 		bottom: 5px;
+	}
+	blockquote span.quote-left1 {
+		content: "“";
+		font-family: satisfy-regular;
+		font-weight: normal;
+		font-size: 72px;
+		color: rgb(251, 95, 102);
+		position: relative;
+		top: 25px;
+		/* left: 0; */
+		margin-right: 5px !important;
+		font-style: normal;
+	}
+	blockquote span.quote-right1 {
+		content: "“";
+		font-family: satisfy-regular;
+		font-weight: normal;
+		font-size: 72px;
+		color: rgb(251, 95, 102);
+		transform: rotate(-180deg);
+		position: absolute;
+		bottom: 50px;
+		margin-left: 10px !important;
+		font-style: normal;
 	}
 	.section-companyReviews blockquote + span {
 		color: #62696d;
 		font-size: 18px;
 		display: block;
 		line-height: 30px;
-		font-family: montserratlight;
-		font-family: montserratregular;
     	font-style: italic;
 	}
 	.section-results {
@@ -7361,7 +7416,7 @@ i.zmdi.zmdi-twitter-box {
 		margin: 0px;
 	}
 	.section-companyReviews.section-white blockquote {
-		max-width: 86%;
+		/* max-width: 86%; */
 	}
 	.section-button {
 		float: left;
@@ -7411,9 +7466,21 @@ i.zmdi.zmdi-twitter-box {
 		margin: 0px;
 		margin-left: 15px;
 	}
-	.section-companyReviews-GPYP blockquote {
-		max-width: 53%;
+	.section-companyReviews.section-companyReviews-GPYP blockquote {
+		/* max-width: 53%; */
 	}
 	.img-wrapper-macro img {
 		margin: 0 !important;
+	}
+	.section-exp-VP {
+		padding: 60px 0;
+	}
+	.section-howOutgrowHelped-inner .col-md-4 {
+		padding: 0px 30px;
+	}
+	.section-results.section-results-GPYP {
+		padding-top: 0px;
+	}
+	.section-companyReviews.section-white blockquote + span {
+		padding-bottom: 14px;
 	}

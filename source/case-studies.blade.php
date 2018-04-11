@@ -51,25 +51,25 @@
 			<div class="container case-study-tabs-container">
 				<div class="col-md-12 col-sm-12 col-xs-12 np">
 					<ul class="nav nav-pills">
-						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs active">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs active">
 							<a class="" data-toggle="pill" href="#tag">
 								<img src="{{ $page->baseUrl }}/images/case_study_tag.png" alt="TAG Livros">
 								<span>Case Study 1</span>
 							</a>
 						</li>
-						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
 							<a class="" data-toggle="pill" href="#getPaid">
 								<img src="{{ $page->baseUrl }}/images/case_study_get_paid1.png" alt="Get Paid For Your Pad">
 								<span>Case Study 2</span>
 							</a>
 						</li>
-						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
 							<a class=""  data-toggle="pill" href="#vp">
 								<img src="{{ $page->baseUrl }}/images/case_study_vp1.png" alt="VenturePact">
 								<span>Case Study 3</span>
 							</a>
 						</li>
-						<li class="col-md-4 col-sm-4 col-xs-12 np case-study-tabs">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
 							<a class=""  data-toggle="pill" href="#macroscape">
 								<img src="{{ $page->baseUrl }}/images/case_study_macroscape.png" alt="Macroscape">
 								<span>Case Study 4</span>
@@ -84,23 +84,23 @@
 			<div id="tag" class="tab-pane fade in active">
 				<section class="section section-counter">
 					<div class="container">
-						<div class="section-2-heading">TAG Livros Generates 55K + Leads Using an<br/>Interactive Experiences </div>
+						<div class="section-2-heading">TAG Livros Generates 55K + Leads <br/> Using an Interactive Experiences </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">55</div>
 									<span>k</span>
 								</div>
 								<span>Leads</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">196</div>
 									<span>k</span>
 								</div>
 								<span>Visits</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">28</div>
 									<span>%</span>
@@ -138,17 +138,17 @@
 					<div class="container">
 						<div class="section-2-heading">How Outgrow Helped </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-howOutgrowHelped-inner">
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped1.png" alt="No Coding Required">
 								<h5>No Coding Required </h5>
 								<p>The team built an intutive quiz using Outgrow’s interactive pre-built templates. Thus, they did not have to write a single line of code, which reduced the development cost. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped2.png" alt="High Completion Rate, More Shares">
 								<h5>High Completion Rate, More Shares </h5>
 								<p>The quiz had a simple landing page, and a single question, which could be answered using a drop down. This format increased their completion rate and their share rate. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped3.png" alt="More Leads, Improved Conversions">
 								<h5>More Leads, Improved Conversions </h5>
 								<p>The quiz TAG built was interactive, engaged users, and provided instant gratification. Since it was about best-selling books, it was share-worthy. </p>
@@ -165,9 +165,9 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<span class="quote-left"></span>
-									Outgrow’s well designed templates, allowed us to quickly build and launch experiences without writing a line of code. Their personalization features like logic jump and conditional call to actions helped us personalize the results for our users. 
-								<span class="quote-right"></span>
+								<!-- <span class="quote-left"></span> -->
+									<span class="quote-left1">“</span>Outgrow’s well designed templates, allowed us to quickly build and launch experiences without writing a line of code. Their personalization features like logic jump and conditional call to actions helped us personalize the results for our users. <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
 							</blockquote>
 							<span>Luise Spieweck Fialho <br/>Founder at TAG Livros </span>
 						</div>
@@ -202,9 +202,9 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<span class="quote-left"></span>
-									I would strongly recommend Outgrow to any digital marketer looking to generate more qualified leads - we generated over 55K leads in a month through the Outgrow platform!
-								<span class="quote-right"></span>
+								<!-- <span class="quote-left"></span> -->
+									<span class="quote-left1">“</span>I would strongly recommend Outgrow to any digital marketer looking to generate more qualified leads - we generated over 55K leads in a month through the Outgrow platform! <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
 							</blockquote>
 						</div>
 					</div>
@@ -223,21 +223,21 @@
 					<div class="container">
 						<div class="section-2-heading">Get Paid for Your Pad (GBYP) Scored a Stellar 41% Conversion Rate with an Interactive Calculator! </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">60</div>
 									<span>%</span>
 								</div>
 								<span>Completion Rate</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">800</div>
 									<span>+</span>
 								</div>
 								<span>Conversions</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">41</div>
 									<span>%</span>
@@ -275,17 +275,17 @@
 					<div class="container">
 						<div class="section-2-heading">How Outgrow Helped </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-howOutgrowHelped-inner">
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped1.png" alt="Beautiful Templates and Codeless Editor">
 								<h5>Beautiful Templates and Codeless Editor </h5>
 								<p>Outgrow’s interactive content platform offered customizable, pre-built templates that let GPYP build the assessment in just a couple of hours without hiring expensive designers and developers. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped2.png" alt="Multiple Question Types">
 								<h5>Multiple Question Types </h5>
 								<p>All the 9 questions in the assessment could be answered without typing anything on a keyboard, using multiple choice, dropdowns, and sliders. This meant that the majority of people who started the assessment actually finished it. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped3.png" alt="Optimal Lead Generation">
 								<h5>Optimal Lead Generation </h5>
 								<p>The assessment had a form just before the results page. Thus, people had to fill the form to see their results. This led to a 40% conversion rate. In comparison, the previous form had never witnessed a double digit conversion rate! </p>
@@ -298,7 +298,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="section section-companyReviews section-companyReviews-GPYP">
+				<!-- <section class="section section-companyReviews section-companyReviews-GPYP">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
@@ -309,13 +309,13 @@
 							<span>Jasper Ribbers <br/>Founder at Get Paid for Your Pad </span>
 						</div>
 					</div>
-				</section>
-				<section class="section section-results">
+				</section> -->
+				<section class="section section-results section-results-GPYP">
 					<div class="container">
 						<div class="section-2-heading">Results </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<p>
-							The assessment had a 60% completion rate i.e. the percentage of people who started the quiz and reached the last page.<br/><br/>
+							The assessment had a 60% completion rate i.e. the percentage of people who started the quiz and reached the last page.<br/>
 							GPYP ended up getting 800+ conversions at a 41% conversion rate.
 							</p>
 						</div>
@@ -332,7 +332,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="section section-companyReviews section-white">
+				<!-- <section class="section section-companyReviews section-white">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
@@ -340,6 +340,18 @@
 									I would strongly recommend Outgrow to any digital marketer looking to generate more qualified leads - we generated over 55K leads in a month through the Outgrow platform!
 								<span class="quote-right"></span>
 							</blockquote>
+						</div>
+					</div>
+				</section> -->
+				<section class="section section-companyReviews section-companyReviews-GPYP section-white">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<blockquote>
+								<!-- <span class="quote-left"></span> -->
+									<span class="quote-left1">“</span>Outgrow was the perfect solution for what I was looking for <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
+							</blockquote>
+							<span>Jasper Ribbers <br/>Founder at Get Paid for Your Pad </span>
 						</div>
 					</div>
 				</section>
@@ -355,23 +367,23 @@
 			<div id="vp" class="tab-pane fade">
 				<section class="section section-counter">
 					<div class="container">
-						<div class="section-2-heading">Venturepact Generated 11,592 Qualified Leads Using an <br/>Interactive Calculator </div>
+						<div class="section-2-heading">Venturepact Generated 11,592 Qualified Leads <br/>Using an Interactive Calculator </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">11,592</div>
 									<!-- <span>%</span> -->
 								</div>
 								<span>Leads</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">28</div>
 									<span>%</span> 
 								</div>
 								<span>Conversions</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">15</div>
 									<span>%</span> 
@@ -396,7 +408,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="section section-experimenting">
+				<section class="section section-experimenting section-exp-VP">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<div class="section-2-heading">Building an Interactive Calculator </div>
@@ -409,17 +421,17 @@
 					<div class="container">
 						<div class="section-2-heading">How Outgrow Helped </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-howOutgrowHelped-inner">
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped1.png" alt="Simple, High-Converting Landing Page">
 								<h5>Simple, High-Converting Landing Page </h5>
 								<p>VenturePact used the Outgrow platform to create a simple and attractive landing page for their calculator. The landing page proved to be really high-converting with a click-through rate of 66%. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped2.png" alt="In-Built Virality">
 								<h5>In-Built Virality </h5>
 								<p>The lead generation form asked for not only your email but also email of people who you’d recommend the calculator to. This ensured that the calculator had a viral component in-built. In fact, the conversion rate on this form was a staggering 40%. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped3.png" alt="Optimal Results Page">
 								<h5>Optimal Results Page </h5>
 								<p>Users got real-time results with a clear onward call to action. Approximately 4% of users clicked on the CTA and went to the company website. </p>
@@ -436,9 +448,9 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<span class="quote-left"></span>
-									Our goal was to generate more leads, and improve the level of customer interaction but our inbound strategies were giving lukewarm results at best. We had to reinvent marketing and needed something that could provide instant gratification. 
-								<span class="quote-right"></span>
+								<!-- <span class="quote-left"></span> -->
+									<span class="quote-left1">“</span>Our goal was to generate more leads, and improve the level of customer interaction but our inbound strategies were giving lukewarm results at best. We had to reinvent marketing and needed something that could provide instant gratification. <span class="quote-right1">“</span> 
+								<!-- <span class="quote-right"></span> -->
 							</blockquote>
 							<!-- <span>Luise Spieweck Fialho <br/>Founder at TAG Livros </span> -->
 						</div>
@@ -475,9 +487,9 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<span class="quote-left"></span>
-									The calculator going viral has made us more visible. With so many prospects already using it, we know our work is being valued. Now that we know what works with the target audience, we can focus our efforts on the same line.
-								<span class="quote-right"></span>
+								 <!-- <span class="quote-left"></span>  -->
+									<span class="quote-left1">“</span>The calculator going viral has made us more visible. With so many prospects already using it, we know our work is being valued. Now that we know what works with the target audience, we can focus our efforts on the same line. <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
 							</blockquote>
 						</div>
 					</div>
@@ -496,21 +508,21 @@
 					<div class="container">
 						<div class="section-2-heading">Macroscape Helped Its Client Clock a <br/>Conversion Rate of 36% </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">3225</div>
 									<!-- <span>%</span> -->
 								</div>
 								<span>Visits</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">1151</div>
 									<!-- <span>%</span>  -->
 								</div>
 								<span>Leads</span>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-4 np text-center">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
 									<div class="counter">36</div>
 									<span>%</span> 
@@ -540,7 +552,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<div class="section-2-heading">Building an Interactive Quiz </div>
 							<span class="section-subtitle">Using Outgrow, the team at Macroscape built an interactive quiz for their bicycle-manufacturing client. The quiz helped people find out which bicycle is a right fit for them based on their responses to a few easy questions. Since Macroscape’s client was assisting their prospects with decision making instead of just selling, the quiz was very relevant to their target audience. </span>
-							<img class="" src="{{ $page->baseUrl }}/images/case_study_experimenting_macro.jpg" alt="Building an Interactive Quiz">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_experimenting_macro.jpg" alt="Building an Interactive Quiz">
 						</div>
 					</div>
 				</section>
@@ -548,17 +560,17 @@
 					<div class="container">
 						<div class="section-2-heading">How Outgrow Helped </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-howOutgrowHelped-inner">
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped1.png" alt="Connecting the Dots">
 								<h5>Connecting the Dots </h5>
 								<p>Since Macroscape could give their client access to the quiz dashboard, the client could make any changes they needed to align the quiz with their branding and marketing goals. It bridged the gap between generating revenue for themselves and proving ROI for their clients. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped2.png" alt="No Coding Required">
 								<h5>‎No Coding Required </h5>
 								<p>Outgrow’s template-based interactive marketing platform let the team build an intuitive quiz using pre-built templates. Thus, they didn’t have to write a single line of code, which eliminated the cost of hiring developers. </p>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped3.png" alt="‎In-Built Virality">
 								<h5>‎In-Built Virality </h5>
 								<p>The quiz comprised of three simple questions, each of which was supported by images and graphics. This meant that the quiz was not only easy to take but also visually engaging - a perfect mix for virality. As a result, the quiz witnessed a high completion rate and share rate. </p>
@@ -575,9 +587,9 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<span class="quote-left"></span>
-									Our goal was to generate more leads, and improve the level of customer interaction but our inbound strategies were giving lukewarm results at best. We had to reinvent marketing and needed something that could provide instant gratification. 
-								<span class="quote-right"></span>
+								<!-- <span class="quote-left"></span> --> 
+								<span class="quote-left1">“</span>Our goal was to generate more leads, and improve the level of customer interaction but our inbound strategies were giving lukewarm results at best. We had to reinvent marketing and needed something that could provide instant gratification. <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
 							</blockquote>
 							<!-- <span>Luise Spieweck Fialho <br/>Founder at TAG Livros </span> -->
 						</div>
@@ -612,9 +624,9 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<span class="quote-left"></span>
-									Outgrow is spectacular. I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy.
-								<span class="quote-right"></span>
+								<!-- <span class="quote-left"></span> -->
+									<span class="quote-left1">“</span>Outgrow is spectacular. I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy. <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
 							</blockquote>
 						</div>
 					</div>
