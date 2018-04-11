@@ -466,7 +466,7 @@
 								In addition, the calculator also helped VenturePact become a thought leader in its space. People always had questions about how much their app will cost. So, when VenturePact came up with a tool that could help answer this question, people were more likely to share it on social media. This helped the company get word-of-mouth traffic.
 							</p>							
 						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-VP">
 							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1_VP.jpg" alt="Result img">
 							<img class="" src="{{ $page->baseUrl }}/images/case_study_result2_VP.png" alt="Result img">
 						</div>
