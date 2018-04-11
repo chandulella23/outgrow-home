@@ -309,7 +309,6 @@
 			</span>
 			<div id="bfrVid"></div>
 				<script>
-				console.log('qwert')
             			document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
             				let email = e.target.value;
             				let href = "//app.outgrow.co/signup/?email=";
