@@ -202,7 +202,9 @@
 				<li class="li-style">
 					If you are required to register with the Data Protection Commissioner, does your register entry include a proper, comprehensive statement of your purpose? [Remember, if you are using personal data for a purpose not listed on your register entry, you may be committing an offence.] Has responsibility been assigned for maintaining a list of all data sets and the purpose associated with each?
 				</li>
-				<h5>Rule 3: Use and disclosure of information</h5>
+			</ul>
+			<h5>Rule 3: Use and disclosure of information</h5>
+			<ul>
 				<li class="li-style">
 					Are there defined rules about the use and disclosure of information?
 				</li>
