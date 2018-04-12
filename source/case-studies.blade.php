@@ -39,6 +39,11 @@
 
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
+	<script >
+        function counterUp() {
+            jQuery('.counter').counterUp();
+        }
+	</script>
 
 	<div class="section-case-study-main">
 		<section class="section section-page-heading">
@@ -52,25 +57,25 @@
 				<div class="col-md-12 col-sm-12 col-xs-12 np">
 					<ul class="nav nav-pills">
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs active">
-							<a class="" data-toggle="pill" href="#tag">
+							<a class="" data-toggle="pill" href="#tag" onclick="counterUp()">
 								<img src="{{ $page->baseUrl }}/images/case_study_tag.png" alt="TAG Livros">
 								<span>Case Study 1</span>
 							</a>
 						</li>
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
-							<a class="" data-toggle="pill" href="#getPaid">
+							<a class="" data-toggle="pill" href="#getPaid" onclick="counterUp()">
 								<img src="{{ $page->baseUrl }}/images/case_study_get_paid1.png" alt="Get Paid For Your Pad">
 								<span>Case Study 2</span>
 							</a>
 						</li>
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
-							<a class=""  data-toggle="pill" href="#vp">
+							<a class=""  data-toggle="pill" href="#vp" onclick="counterUp()">
 								<img src="{{ $page->baseUrl }}/images/case_study_vp1.png" alt="VenturePact">
 								<span>Case Study 3</span>
 							</a>
 						</li>
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
-							<a class=""  data-toggle="pill" href="#macroscape">
+							<a class=""  data-toggle="pill" href="#macroscape" onclick="counterUp()">
 								<img src="{{ $page->baseUrl }}/images/case_study_macroscape.png" alt="Macroscape">
 								<span>Case Study 4</span>
 							</a>
