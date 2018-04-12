@@ -5195,7 +5195,8 @@ button.swiper-pagination-bullet {
 	font-size: 13px;
 	float: left;
 	display: block;
-	margin: 10px 0
+	margin: 10px 0;
+	width: 100%;
 }
 .Privacy h5 {
 	float: left;
@@ -7484,3 +7485,7 @@ i.zmdi.zmdi-twitter-box {
 	.section-companyReviews.section-white blockquote + span {
 		padding-bottom: 14px;
 	}
+
+/* end: css of case study */
+
+.Privacy ul {float: left;}
