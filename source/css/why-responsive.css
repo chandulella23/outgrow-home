@@ -362,7 +362,7 @@
 	.calc-table {
 		padding-top: 40px !important;
 		padding-bottom: 40px !important;
-		margin-bottom: 40px;
+		margin-bottom: 10px;
 	}
 	.calc-table .section-2-heading {margin-bottom: 30px !important;}
 
@@ -515,7 +515,7 @@
     	padding-bottom: 0px !important;
 	}
 	
-	.calc-table {margin-top: 40px !important; margin-bottom: 40px !important; padding-top: 40px; padding-bottom: 40px;}
+	.calc-table {margin-top: 40px !important; margin-bottom: 10px !important; padding-top: 40px; padding-bottom: 40px;}
 	.calc-table .section-2-heading {margin-bottom: 30px !important;}
 	.video-wrapper-1 {margin-top: 20px;}
 	#why .container-video {
