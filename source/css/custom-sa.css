@@ -3733,10 +3733,10 @@ button.swiper-pagination-bullet {
 	float: left;
 	width: 100%;
 	margin-top: 0;
-	padding-top: 75px;
+	padding-top: 65px;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	background: #fb6c73
+	background: #f3f8fb
 }
 #feature .feature-heading {
 	float: left;
@@ -3747,29 +3747,31 @@ button.swiper-pagination-bullet {
     line-height: 52px;
     font-family: montserratultra_light;
     text-transform: none;
-	margin-bottom: 40px;
-	margin-top: 50px
+	margin-bottom: 0px;
+	margin-top: 30px
 }
 #feature .feature-heading-1 h3 {
-	font-size: 30px;
-	color: #fff;
-	width: 100%;
-	text-transform: none;
-	font-family: montserratlight;
-	margin-top: 0px
+    font-size: 38px;
+    color: #fa5d64;
+    width: 100%;
+    text-transform: none;
+    font-family: montserratsemibold;
+	margin-top: 0px;
+	margin-bottom: 15px;
 }
 #feature .feature-heading-1 h4 {
 	font-size: 18px;
-	color: #fff;
+	color: #888;
 	width: 100%;
 	font-family: montserratlight;
 	margin-bottom: 40px
 }
 #feature .vc_custom_1469808665479 {
-	padding-top: 0 !important
+	padding-top: 0 !important;
+	margin: 0;
 }
 #feature .qode-expanding-images .qode-side-image {
-	box-shadow: 4px -6px 11px 0 rgba(0, 0, 0, .3);
+	box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, .20);
 	cursor: default;
 }
 #feature .sec15-2, #feature .sec17-2 {
@@ -3778,7 +3780,7 @@ button.swiper-pagination-bullet {
 #feature .vc_row {
 	margin-left: 0;
 	margin-right: 0;
-	padding-bottom: 0 !important
+	padding-bottom: 40px !important
 }
 #feature .section-15 {
 	margin-top: 50px;
@@ -7490,3 +7492,91 @@ i.zmdi.zmdi-twitter-box {
 /* end: css of case study */
 
 .Privacy ul {float: left;}
+
+/* start: css of feature page  */
+	.feature-heading-1 {
+		padding: 55px 0 0;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-3 {
+		right: 12.5%;
+		width: 22%;
+		top: 10%;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-7 {
+		right: -1.5%;
+		width: 13%;
+		top: 15%;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-4 {
+		width: 17%;
+		right: 11.5%;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-8 {
+		bottom: 16.5%;
+		right: -3%;
+		width: 13%;
+		padding-top: 11%;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-1 {
+    	top: 10%;
+		left: 12%;
+		width: 23%;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-5 {
+		top: 14%;
+		left: -0.5%;
+		width: 11%;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-2 {
+		bottom: 9.5%;
+		left: 10%;
+		width: 19%;
+		padding-top: 11%;
+	}
+	#feature .qode-expanding-images .qode-side-image.qode-side-image-6 {
+		bottom: 30%;
+		left: -2.3%;
+		width: 10%;
+	}
+	.section-studio {
+		margin-top: 0px;
+	}
+	.section-studio .container {
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+	.section-studio .col-md-4 {
+		margin-bottom: 50px;
+	}
+	.section-studio h5 {
+		font-size: 15px;
+		color: #62696d;
+		font-family: montserratregular;
+		margin-top: 20px;
+	}
+	.section-studio ul {
+		padding: 0;
+	}
+	.section-studio li {
+		list-style: none;
+		font-size: 14px;
+		font-family: montserratlight;
+		color: #626a6d;
+		opacity: 0.7;
+		line-height: 36px;
+	}
+	.section-studio li i.material-icons {
+		font-size: 14px;
+		color: #4793c5;
+		opacity: 0.7;
+		vertical-align: middle;
+		padding-right: 3px;	
+		margin-left: -3px;	
+	}
+	.section-studio span {
+		font-size: 14px;
+		font-family: montserratlight;
+		color: #626a6d;
+		opacity: 0.7;
+		padding-right: 70px;
+    	display: block;
+	}

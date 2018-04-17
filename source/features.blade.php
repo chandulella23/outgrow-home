@@ -46,7 +46,7 @@
 						Feature Packed Calculators and Quizzes
 					</h3>
 					<h4>
-						Get new customers with powerful and easy to configure interactive calculators and quizzes.
+						Get new customers with powerful and easy to configure interactive calculators and quizzes
 					</h4>
 				</div>
 				<div class=" full_section_inner clearfix">
@@ -54,55 +54,55 @@
 						<div class="vc_column-inner ">
 							<div class="wpb_wrapper">
 								<div class='qode-expanding-images'>
-									<div class='qode-expanding-images-inner mk-animate-element scale-up'><img class='qode-frame-image' src='//dzvexx2x036l1.cloudfront.net/expanding_images_laptop-new.png'
+									<div class='qode-expanding-images-inner mk-animate-element scale-up'><img class='qode-frame-image' src='{{ $page->baseUrl }}/images/expanding_images_laptop-new.png'
 											alt='laptop frame' />
 									</div>
 									<div class='qode-side-images'>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-1-new.jpg' data-lazy='true'></div>
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-1-new.jpg' data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-2-new.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-2-new.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(-70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-3 qode-lazy-image qode-side-image-inner'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-3.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-3.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(-70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-4 qode-lazy-image qode-side-image-inner'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-4-new.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-4-new.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(180%,35%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-5 qode-lazy-image qode-side-image-outer'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-5.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-5.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(180%,-35%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-6 qode-lazy-image qode-side-image-outer'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-6.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-6.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(-180%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-7 qode-lazy-image qode-side-image-outer'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-7.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-7.jpg'
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(-180%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-8 qode-lazy-image qode-side-image-outer'
-												data-image='//dzvexx2x036l1.cloudfront.net/expanding-side-image-8-1-new.jpg'
+												data-image='{{ $page->baseUrl }}/images/expanding-side-image-8-1-new.jpg'
 												data-lazy='true'></div>
 										</a>
 									</div>
@@ -121,8 +121,74 @@
 			</div>
 		</div>
 	</section>
+	<section class="section section-studio">
+		<div class="container">
+			<div class="col-md-12 col-sm-12 col-xs-12 np">
+				<div class="col-md-4 col-sm-4 col-xs-12 np">
+					<img src="{{ $page->baseUrl }}/images/features-studio-icon1.png">
+					<h5>Variety Of Tools To Boost Your Marketing</h5>
+					<ul>
+						<li><i class="material-icons">keyboard_arrow_right</i>Numerical Calculators</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Outcome Quizzes</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Graded Quizzes</li>
+					</ul>
+					<span>Most of our calculators see a conversion rate of over 40-50%.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 np">
+					<img src="{{ $page->baseUrl }}/images/features-studio-icon2.png">
+					<h5>All Layouts Are Heavily Optimized For</h5>
+					<ul>
+						<li><i class="material-icons">keyboard_arrow_right</i>Conversion</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Engagement</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Multiple Screen Sizes</li>
+					</ul>
+					<span>Layouts have been optimized through intensive A/B testing.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 np">
+					<img src="{{ $page->baseUrl }}/images/features-studio-icon3.png">
+					<h5>Bring Out Your Brand</h5>
+					<ul>
+						<li><i class="material-icons">keyboard_arrow_right</i>Your Logo</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Your Colors</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Your Assets (images, icons etc)</li>
+					</ul>
+					<span>The look and feel can be easily customized to showcase your brand.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 np">
+					<img src="{{ $page->baseUrl }}/images/features-studio-icon4.png">
+					<h5>Analytics Data For The Complete Funnel</h5>
+					<ul>
+						<li><i class="material-icons">keyboard_arrow_right</i>Conversion Rate at Each Stage</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Question-wise Funnel</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Detailed Analytics For Each User</li>
+					</ul>
+					<span>Identify patterns and drop-off points so you can increase your conversion rates.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 np">
+					<img src="{{ $page->baseUrl }}/images/features-studio-icon5.png">
+					<h5>Branching Logic</h5>
+					<ul>
+						<li><i class="material-icons">keyboard_arrow_right</i>Unlimited Branches For Each Question</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>And/Or Logic</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Send To A Specific Question Or Result</li>
+					</ul>
+					<span>Send respondents down different paths based on their responses.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 np">
+					<img src="{{ $page->baseUrl }}/images/features-studio-icon6.png">
+					<h5>Conditional Messaging</h5>
+					<ul>
+						<li><i class="material-icons">keyboard_arrow_right</i>Different Messages For Different Results</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Unlimited Result Conditions</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Add Images, Videos To Each Message</li>
+					</ul>
+					<span>Show result-specific messages to make your calculators and quizzes more personalized.</span>
+				</div>
+			</div>
+		</div>
+	</section>	
 	<!-- Feature page section 0 start-->
-	<section class="section section-f1 mb">
+	<section class="section section-f1 mb hide">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-6 mk-animate-element scale-up rs-hide">
 				<div class="col-xs-12 col-sm-12 slider-sa np">
@@ -202,7 +268,7 @@
 	</section>
 	<!-- Feature page section 0 end-->
 	<!-- Feature page section 1 start-->
-	<section class="section section-f1 mb section-f1-new">
+	<section class="section section-f1 mb section-f1-new hide">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-6 section-f1-left">
 				<h4 class="mk-animate-element left-to-right">
@@ -270,7 +336,7 @@
 	<!-- Feature page section 1 end-->
 
 	<!-- Featurepage section 2 start-->
-	<section class="section section-f2">
+	<section class="section section-f2 hide">
 		<div class="container img-container-right mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right">
 				<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
@@ -314,6 +380,14 @@
 	<!--Feature Page section 3 starts -->
 	<section class="section section-15">
 		<div class="container img-container-right mobile-container">
+			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow section-15-right">
+				<img alt="Smart Builder Accelerates Development to Minutes" src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="img-left" />
+				<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show section-15-right">
+				<img alt="Smart Builder Accelerates Development to Minutes" src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="img-pos box-shadow " />
+				<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
+			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 section-15-left">
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons icon-style">view_compact</i>
@@ -325,14 +399,6 @@
 					<!-- <i class="material-icons">view_compact</i> -->
 					<span>Easily craft questions and options with an easy to use intuitive interface. </span>
 				</span>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right section-15-right">
-				<img alt="Smart Builder Accelerates Development to Minutes" src="//dzvexx2x036l1.cloudfront.net/feature-1-2.jpg" class="mk-animate-element left-to-right img-left" />
-				<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-1.jpg" />
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-15-right">
-				<img alt="Smart Builder Accelerates Development to Minutes" src="//dzvexx2x036l1.cloudfront.net/feature-1-2.jpg" class="mk-animate-element left-to-right img-pos box-shadow " />
-				<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-1.jpg" />
 			</div>
 		</div>
 	</section>

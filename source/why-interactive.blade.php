@@ -41,9 +41,9 @@
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<section class="section section-metrics">
 		<div class="container-fluid">
-			<div class="feature-heading-1 mk-animate-element scale-up">
+			<div class="">
 				<h3>Let’s Start With The Metrics</h3>
-				<h5 class="section-2-subheading">Simple pricing, No Hidden costs, No transaction based fees.</h5>
+				<h5 class="section-2-subheading">Simple pricing, No Hidden costs, No transaction based fees</h5>
 			</div>
 		</div>
 		<div class="container">
