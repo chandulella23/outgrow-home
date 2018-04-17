@@ -81,7 +81,7 @@
 				<li class="border-left"><a href="{{ $page->baseUrl }}/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
 				<li><a href="{{ $page->baseUrl }}/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
 				<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
-				<li><a href="https://angel.co/venturepact/jobs/?utm_source=footer">Careers</a></li>
+				<li><a href="https://angel.co/outgrow-5/jobs" target=_blank>Careers</a></li>
 			</ul>
 			<div class="company-address">
 				401 park ave, 10th floor, New York 10016
