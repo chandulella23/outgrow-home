@@ -364,7 +364,7 @@
 
 /* ################### pricing responsive css end ################### */
 
-@media (min-width:3000px) and (max-width:6500px){
+@media (min-width:3000px) {
 	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
@@ -391,8 +391,8 @@
 
 	#pricing .pricing-headingtop .plans-heading{font-size: 96px; margin-top: 170px;}
 	#pricing .pricing-headingtop .plans-subheading {font-size: 58px; margin-top: 20px;}
-	.billing-plan-list {width: 35%; margin: 30px auto 60px;}
-	#pricing .billing-plan-list ul>li>a {padding: 16px 0;}
+	.billing-plan-list {width: 35%; margin: 30px auto 60px; max-width: 490px;}
+	#pricing .billing-plan-list ul>li>a {padding: 36px 0;}
 	.billing-plan-list ul>li:nth-child(1)>a, .billing-plan-list ul>li:nth-child(2)>a  {font-size: 21px;}	
 	.billing-plan-list ul>li.active a i.material-icons {font-size: 28px;}
 	thead th h2 {font-size: 45px;}
@@ -434,15 +434,15 @@
 	#pricing .accordion p {font-size: 36px;}
 	.bg1-img {padding: 120px 0;}
 	.bg1-img .btn-buildcal{
-		font-size: 45px;
-		padding: 52px 75px;
+		font-size: 30px;
+    	padding: 35px 75px;
 		border-radius: 80px;
 		line-height: 54px;
 	}
 	.start-trial-cta .btn-buildcal i{
 		margin-right: 30px;
-		font-size: 54px;
-		top: 0;
+		font-size: 44px;
+		top: -3px;
 	}
 	.start-trial-cta .btn-buildcal p {line-height: normal;}
 	.detail {line-height: 36px; font-size: 30px; padding: 20px 20px 0px 20px;}
@@ -479,6 +479,19 @@
 		position: relative;
     	top: -1px;
 	}
+	#pricing .faq-section-title {
+		font-size: 26px;
+		line-height: 38px;
+		margin-bottom: 15px;
+	}
+	#pricing .faq-section-content p {
+		font-size: 24px;
+		line-height: 34px;
+		margin-bottom: 30px;
+	}
+	.container {
+		width: 80% !important;
+	}
 
 
 
@@ -499,5 +512,34 @@
 	.navbar-nav > li > a.active.hvr-underline-from-left:before {
 		display: none;
 	}
+
+
+}
+@media (max-width: 2999px) and (min-width: 1921px) {
+	#pricing .section-1 {
+		margin-top: 105px;
+		margin-bottom: 0 !important;
+	}
+
+}
+@media (min-width:1921px) and (max-width:6500px){
+	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:16px}
+	.custom-navbar.navbar-default{padding-top:25px; padding-bottom: 25px;}
+	.custom-navbar .signUp-style a{
+		padding: 10px 14px;
+		/* top: -5px;
+		font-size: 16px !important; */
+	}
+	#pricing .section-1 {margin-top: 105px; margin-bottom: 100px;}
+	.section-faq .container {
+		width: 80%;
+	}
+	
+}
+@media (min-width: 5000px) {
+	.container {
+		width: 50% !important;
+	}
+
 
 }

@@ -5592,3 +5592,14 @@
 }
 .hvr-underline-from-left:before {left: 5px !important;}
 .nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px;}
+
+@media (min-width:1921px) and (max-width:6500px){
+	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:16px}
+	.custom-navbar.navbar-default{padding-top:25px; padding-bottom: 25px;}
+	.custom-navbar .signUp-style a{
+		padding: 10px 14px;
+		/* top: -5px;
+		font-size: 16px !important; */
+	}
+	
+}
