@@ -670,7 +670,7 @@
 @media (min-width: 1480px) and (max-width:1920px) {
 	
 }
-@media (min-width:1480px) and (max-width:2999px){
+@media (min-width:1921px) and (max-width:2999px){
 	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
 	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
 	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
