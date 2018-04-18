@@ -215,7 +215,7 @@
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
-	    padding: 10px 14px;
+	    padding: 8px 14px !important;
 		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
@@ -228,7 +228,7 @@
 	.footer-copyright {margin-bottom: 30px;}
 	.footer-copyright i {font-size: 24px;}
 	.footer-copyright span {font-size: 24px;}
-	.footer-copyright img {width: 100%;}
+	.footer-copyright img {max-width: 150px; top: -5px;}
 	.container {width: 80% !important;}
 
 	.sec-example .section-2-heading{font-size: 96px; margin-top: 120px; margin-bottom: 30px;}
@@ -286,7 +286,7 @@
 	.start-trial-cta .btn-buildcal p {line-height: normal;}
 	.sec-example .sec-outgrowMagic {
 		/* margin-bottom: 100px; */
-    	margin-top: 105px;
+    	margin-top: 125px;
 	}
 	.calc-links {margin-top: 90px;}
 	.usecase .sec9-test {    margin-top: 20px;}
@@ -372,13 +372,6 @@
 }
 
 @media (min-width:1921px) and (max-width:6500px){
-	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:16px}
-	.custom-navbar.navbar-default{padding-top:25px; padding-bottom: 25px;}
-	.custom-navbar .signUp-style a{
-		padding: 10px 14px;
-		/* top: -5px;
-		font-size: 16px !important; */
-	}
 	.container {
 		width: 1170px;
 	}	

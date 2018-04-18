@@ -377,13 +377,13 @@
 
 /* ################### pricing responsive css end ################### */
 
-@media (min-width:3000px) and (max-width:6500px){
+@media (min-width:3000px){
 	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
-	    padding: 10px 14px;
+	    padding: 8px 14px !important;
 		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
@@ -396,10 +396,14 @@
 	.footer-copyright {margin-bottom: 30px;}
 	.footer-copyright i {font-size: 24px;}
 	.footer-copyright span {font-size: 24px;}
-	.footer-copyright img {width: 5%;}
+	.footer-copyright img { 
+		max-width: 150px; 
+		top: -5px;
+	}
 	.pricing-outer.container {
 		/* width: 50%; */
 		width: 2500px;
+		margin-top: 30px;
 	}
 
 	#pricing .pricing-headingtop .plans-heading{font-size: 96px; margin-top: 170px;}
@@ -414,9 +418,9 @@
 	thead th:nth-child(1) {font-size: 33px;}
 	thead span a {border-radius: 8px; padding: 18px 20px; font-size: 33px;}
 	tbody th, tbody td {padding: 40px 20px; line-height: 35px; font-size: 33px;}
-	colgroup:nth-child(3) {right: 621px;}
-	span.label-popularPlan {font-size: 20px; padding: 6px 10px;top: -37px;}
-	thead th h2 {margin-top: 70px; MARGIN-BOTTOM: 30px;}
+	colgroup:nth-child(3) {right: 597px;}
+	span.label-popularPlan {font-size: 20px; padding: 6px 10px;top: -22px !important; min-height: 41px; width: 100% !important;}
+	thead th h2 {margin-top: 70px !important; MARGIN-BOTTOM: 30px;}
 	thead th p.price sup {font-size: 40px;}
 	thead th sub {font-size: 34px;}
 	thead th:nth-child(1) i.material-icons {font-size: 40px;}
@@ -447,15 +451,15 @@
 	#pricing .accordion p {font-size: 36px;}
 	.bg1-img {padding: 120px 0;}
 	.bg1-img .btn-buildcal{
-		font-size: 45px;
-		padding: 52px 75px;
+		font-size: 30px;
+		padding: 35px 75px;
 		border-radius: 80px;
 		line-height: 54px;
 	}
 	.start-trial-cta .btn-buildcal i{
 		margin-right: 30px;
-		font-size: 54px;
-		top: 0;
+		font-size: 44px;
+    	top: -3px;
 	}
 	.start-trial-cta .btn-buildcal p {line-height: normal;}
 	.detail {line-height: 36px; font-size: 30px; padding: 20px 20px 0px 20px;}
@@ -492,6 +496,54 @@
 		position: relative;
     	top: -1px;
 	}
+	.container {
+		width: 80% !important;
+	}
+	.company-address {font-size: 18px !important;}
+	colgroup:nth-child(2) {left: 598px;}	
+	.ltd-plan span.label-popularPlan {left: 1px !important;}
+	thead th p.price small, .pricing-block span.annual-price small {
+		font-size: 40px;
+		top: -10px;
+	}
+	tbody td span small, ul li span small {
+		font-size: 33px;
+		line-height: 40px;
+	}
+	tbody td span small i.material-icons, ul li span small i.material-icons {
+		font-size: 33px;
+	}
+	.asterix-text {font-size: 24px;}
+	.faq-section-ltd {padding: 60px;     margin-top: 30px;}
+	.title-faq {    
+		font-size: 104px;
+		line-height: 114px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.faq-section-ltd .faq-section-title {
+		font-size: 34px;
+		line-height: 48px;
+		margin-bottom: 18px;
+	}
+	.faq-section-ltd .faq-section-content p {
+		font-size: 30px;
+		line-height: 44px;
+		margin-bottom: 50px;
+	}
+	.faq-section-ltd.new {margin-top: 60px; margin-bottom: 60px;}
+	.pricing-outer-ltdSales colgroup:nth-child(2) {left: 559px;}
+	.pricing-outer-ltdSales td span.check i {font-size: 33px;}
+	.pricing-outer-ltdSales td span.check {
+		margin-right: 35px;
+	}
+	.pricing-outer-ltdSales tbody td {
+		padding: 40px 20px;
+		line-height: 35px;
+	}
+	.ltdSales-wrapper .pricing-outer.container {width: 95% !important;}
+	.ltdSales-wrapper .asterix-text {font-size: 24px;}
+
 
 }
 @media only screen and (max-width: 767px) and (min-width: 320px){
@@ -517,12 +569,6 @@
 }
 
 @media (min-width:1921px) and (max-width:6500px){
-	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:16px}
-	.custom-navbar.navbar-default{padding-top:25px; padding-bottom: 25px;}
-	.custom-navbar .signUp-style a{
-		padding: 10px 14px;
-		/* top: -5px;
-		font-size: 16px !important; */
-	}
+	#pricing .section-1 {margin-top: 125px;}
 	
 }
