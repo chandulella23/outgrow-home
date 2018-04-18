@@ -670,14 +670,19 @@
 @media (min-width: 1480px) and (max-width:1920px) {
 	
 }
+@media (min-width:1921px) and (max-width:2999px){
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+}
 
-@media (min-width:1921px) and (max-width:6500px){
+@media (min-width:3000px) {
 	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
-	    padding: 10px 14px;
+	    padding: 8px 14px !important;
 		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
@@ -690,13 +695,14 @@
 	.footer-copyright {margin-bottom: 30px;}
 	.footer-copyright i {font-size: 24px;}
 	.footer-copyright span {font-size: 24px;}
-	.footer-copyright img {width: 5%;}
-	.calc-table .container {width: 60%;}
-	.container {width: 50%;}
+	.footer-copyright img {max-width: 150px; top: -5px;}
+	.calc-table .container {width: 80%;}
+	.container {width: 80% !important;}
 	#why .section-2-heading {
 		font-size: 108px;
 		line-height: 114px;
 		margin-bottom: 40px;
+		margin-top: 40px;
 	}
 	#why .section-top-why h3 {
 		font-size: 96px;
@@ -707,7 +713,7 @@
 		border-radius: 35px;
 		width: 30%;
 	}
-	.calc-table {margin-top: 100px;}
+	.calc-table {margin-top: 105px;}
 	.calc-table-inner {margin-top: 100px; margin-bottom: 100px;}
 	.sec3-box2 h3 {font-size: 51px; top: -120px;}
 	.sec3-box3 h3, .sec3-box4 h3 {font-size: 51px; top: -120px;}
@@ -728,7 +734,7 @@
 	#why .section-4-left {margin-top: 100px;}
 	#why .secw2-2-new {border-radius: 35px; width: 100%;}
 	#why .section-w2-left h4 {font-size: 66px;    line-height: 80px;}
-	.section-10 {margin-bottom: 130px; margin-top: 90px;}
+	.section-10 {margin-bottom: 80px; margin-top: 60px;}
 	.sec10-testimonial {margin: 60px auto 60px;}
 	.sec10-testimonial div.sec10-tes-inner {width: 100%; margin-left: 15%;}
 	.sec10-em1 {font-size: 356px; top: -185px;}
@@ -751,14 +757,14 @@
 	.start-trial-cta {margin: 100px 0px 0px;}
 	.bg1-img {padding: 120px 0;}
 	.bg1-img .btn-buildcal{
-		font-size: 45px;
-		padding: 52px 75px;
+		font-size: 30px;
+		padding: 35px 75px;
 		border-radius: 80px;
 		line-height: 54px;
 	}
 	.start-trial-cta .btn-buildcal i{
 		margin-right: 30px;
-		font-size: 54px;
+		font-size: 44px;
 		top: 0;
 	}
 	.start-trial-cta .btn-buildcal p {
@@ -769,11 +775,44 @@
 	#why .section-16-left, #why .section-4-left {padding-left: 80px;}
 	#why .section-w3-text span span {font-size: 44px;}
 	#why .section-16 {margin-bottom: 100px;}
+	.section.why-blue {
+		padding: 120px 0 !important;
+	}
+	#why .section-w1 {
+		padding: 60px 0px;
+	}
+	#why .section-w2 {
+		margin-bottom: 0;
+		padding: 60px 0px;
+	}
+	#why .section-7 {
+		padding: 80px 0 0px !important;
+	}
 
 
 
 
 
+
+
+
+}
+
+@media (min-width:1921px) and (max-width:6500px){
+	.calc-table {margin-top: 125px;}
+	.container {
+		width: 1170px;
+	}
+	
+}
+
+@media (min-width: 5000px) {
+	.container {
+		width: 50% !important;
+	}
+	.calc-table .container {
+		width: 60% !important;
+	}
 
 
 }
