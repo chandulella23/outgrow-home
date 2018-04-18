@@ -364,13 +364,13 @@
 
 /* ################### pricing responsive css end ################### */
 
-@media (min-width:3000px) and (max-width:6500px){
+@media (min-width:3000px) {
 	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
-	    padding: 10px 14px;
+	    padding: 8px 14px !important;
 		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
@@ -383,7 +383,7 @@
 	.footer-copyright {margin-bottom: 30px;}
 	.footer-copyright i {font-size: 24px;}
 	.footer-copyright span {font-size: 24px;}
-	.footer-copyright img {width: 5%;}
+	.footer-copyright img {max-width: 150px; top: -5px;}
 	.pricing-outer.container {
 		/* width: 50%; */
 		width: 2500px;
@@ -391,8 +391,8 @@
 
 	#pricing .pricing-headingtop .plans-heading{font-size: 96px; margin-top: 170px;}
 	#pricing .pricing-headingtop .plans-subheading {font-size: 58px; margin-top: 20px;}
-	.billing-plan-list {width: 35%; margin: 30px auto 60px;}
-	#pricing .billing-plan-list ul>li>a {padding: 16px 0;}
+	.billing-plan-list {width: 35%; margin: 70px auto 60px; max-width: 490px;}
+	#pricing .billing-plan-list ul>li>a {padding: 36px 0;}
 	.billing-plan-list ul>li:nth-child(1)>a, .billing-plan-list ul>li:nth-child(2)>a  {font-size: 21px;}	
 	.billing-plan-list ul>li.active a i.material-icons {font-size: 28px;}
 	thead th h2 {font-size: 45px;}
@@ -401,7 +401,7 @@
 	thead th:nth-child(1) {font-size: 33px;}
 	thead span a {border-radius: 8px; padding: 18px 20px; font-size: 33px;}
 	tbody th, tbody td {padding: 40px 20px; line-height: 35px; font-size: 33px;}
-	colgroup:nth-child(3) {right: 621px;}
+	colgroup:nth-child(3) {right: 596px;}
 	span.label-popularPlan {font-size: 20px; padding: 6px 10px;top: -37px;}
 	thead th h2 {margin-top: 70px; MARGIN-BOTTOM: 30px;}
 	thead th p.price sup {font-size: 40px;}
@@ -410,7 +410,7 @@
 	tbody th i.material-icons {font-size: 40px;}
 	#pricing .pricing-headingtop {margin-bottom: 80px; margin-top: 160px;}
 	.enterprise_pos {margin-top: 80px;}
-	#pricing .section-faq .section-2-heading {font-size: 104px;}
+	#pricing .section-faq .section-2-heading {font-size: 104px; line-height: 114px;}
 	#pricing .need-custom-plan a {font-size: 44px;}
 	#pricing .need-custom-plan i.material-icons {
 		font-size: 98px;
@@ -424,7 +424,7 @@
 	#pricing .enterprise-box-new p {font-size: 30px; line-height: 44px;    margin-bottom: 40px;}
 	#pricing .enterprise-box-new .btn-white-red-outline {font-size: 21px; padding: 12px 30px;}
 	#pricing .accordion-section-title {font-size: 44px; padding: 30px;}
-	#pricing .container-faqs {width: 50%; margin: 80px auto;}
+	#pricing .container-faqs {width: 80%; margin: 80px auto;}
 	#pricing .accordion-section-title:before {
 		font-size: 34px;
 		margin-right: 35px;
@@ -434,15 +434,15 @@
 	#pricing .accordion p {font-size: 36px;}
 	.bg1-img {padding: 120px 0;}
 	.bg1-img .btn-buildcal{
-		font-size: 45px;
-		padding: 52px 75px;
+		font-size: 30px;
+    	padding: 35px 75px;
 		border-radius: 80px;
 		line-height: 54px;
 	}
 	.start-trial-cta .btn-buildcal i{
 		margin-right: 30px;
-		font-size: 54px;
-		top: 0;
+		font-size: 44px;
+		top: -3px;
 	}
 	.start-trial-cta .btn-buildcal p {line-height: normal;}
 	.detail {line-height: 36px; font-size: 30px; padding: 20px 20px 0px 20px;}
@@ -479,6 +479,21 @@
 		position: relative;
     	top: -1px;
 	}
+	#pricing .faq-section-title {
+		font-size: 34px;
+		line-height: 48px;
+		margin-bottom: 18px;
+	}
+	#pricing .faq-section-content p {
+		font-size: 30px;
+		line-height: 44px;
+		margin-bottom: 50px;
+	}
+	.container {
+		width: 80% !important;
+	}
+	.company-address {font-size: 18px !important;}
+	a.link-contact.intercom_trigger {font-size: 24px;}
 
 
 
@@ -499,5 +514,27 @@
 	.navbar-nav > li > a.active.hvr-underline-from-left:before {
 		display: none;
 	}
+
+
+}
+@media (max-width: 2999px) and (min-width: 1921px) {
+	#pricing .section-1 {
+		margin-top: 105px;
+		margin-bottom: 0 !important;
+	}
+
+}
+@media (min-width:1921px) and (max-width:6500px){
+	#pricing .section-1 {margin-top: 125px; margin-bottom: 50px;}
+	.section-faq .container {
+		width: 80%;
+	}
+	
+}
+@media (min-width: 5000px) {
+	.container {
+		width: 50% !important;
+	}
+
 
 }
