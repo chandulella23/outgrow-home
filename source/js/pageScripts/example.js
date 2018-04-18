@@ -65,7 +65,7 @@ window.changeActiveCalcCategory = function (id) {
     tobeActiveCat.parentElement.classList.add('active')
 }
 
-window.shuffleCalcs = function (filterName) {
+window.setCalcCategory = function (filterName) {
     changeActiveCalcCategory(filterName);
     let selectedTab = jQuery('.nav.nav-tabs.premade-calc li.active').children().attr('id');
     console.log(filterName, selectedTab);
@@ -157,37 +157,32 @@ window.changeTab = function (tabName) {
     }
 
     if (first) {
-        shuffleCalcs(first)
+        setCalcCategory(first)
     } else {
-        shuffleCalcs('Auto');
+        setCalcCategory('Auto');
     }
-
 }
 
 window.ready = function () {
-    console.log('sending');
     let http = new XMLHttpRequest();
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
     http.open("POST", url, true);
 
-    http.onreadystatechange = function () {//Call a function when the state changes.
-        if (http.readyState == 4 && http.status == 200) {
+    http.onreadystatechange = function () {
+        if (http.readyState === 4 && http.status === 200) {
             let res = JSON.parse(http.responseText);
             renderPremadeCalcs(res);
         }
     };
     http.send();
-}
+};
 ready();
 
 
 function renderPremadeCalcs(responseText) {
-
-    console.log(responseText);
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
         window.calcs.forEach(calc => {
-
             calc['GIF'] = calc.media;
             calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
             calc['Name'] = calc.title;
@@ -197,7 +192,6 @@ function renderPremadeCalcs(responseText) {
             calc['Layout'] = layout ? layout.text : 'Stockholm';
             calc['Published Link'] = calc.liveApp.url;
             calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
-
         });
         //  jQuery('#premade-content').removeClass('hide');
         let ele = document.getElementById('premade-content');
@@ -208,7 +202,7 @@ function renderPremadeCalcs(responseText) {
 
         //   jQuery('#premade-loader').addClass('hide');
         setPremade();
-        shuffleCalcs('Auto');
+        setCalcCategory('Auto');
         changeTab('Calculator');
     }
 }
