@@ -6344,7 +6344,14 @@ iframe[name=google_conversion_frame] {
 		line-height: 114px;
 		margin-bottom: 40px !important;
 	}
+	#feature .container.container-center h4 {font-size: 64px;}
 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {top: 89px;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 89px;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 69px;}
+		.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
 
 }
 
@@ -6584,3 +6591,15 @@ iframe[name=google_conversion_frame] {
 	margin-bottom: 20px !important;
 }
 /* new css for hiding the top red bar of each page */
+
+
+@media (min-width:1921px) and (max-width:2999px){
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
+
+	.custom-navbar.navbar-default {padding: 25px 0px;}
+}

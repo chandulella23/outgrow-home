@@ -674,6 +674,10 @@
 	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
 	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
 	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
+	.custom-navbar.navbar-default {padding: 25px 0px;}
 }
 
 @media (min-width:3000px) {
@@ -743,10 +747,10 @@
 		margin-top: 70px;
 		margin-bottom: 20px;
 		width: 63%;
-		margin-left: 17%;
+		margin-left: 19%;
 	}
 	.sec10-testname h5 {font-size: 58px;}
-	.sec10-testimonial-link {margin-left: 17%; font-size: 44px;}
+	.sec10-testimonial-link {margin-left: 19%; font-size: 44px;}
 	.sec3-box2inner {padding-top: 40px;}
 	#why .section-16-left span i, #why .section-w3-text span i {font-size: 98px;}
 	#why .section-16-left h4, #why .section-w3-text h4 {font-size: 66px;  line-height: 80px;}
@@ -788,6 +792,13 @@
 	#why .section-7 {
 		padding: 80px 0 0px !important;
 	}
+
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {top: 89px;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 89px;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
 
 
 
