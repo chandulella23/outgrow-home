@@ -544,6 +544,13 @@
 	.ltdSales-wrapper .pricing-outer.container {width: 95% !important;}
 	.ltdSales-wrapper .asterix-text {font-size: 24px;}
 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {top: 89px;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 89px;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
+
 
 }
 @media only screen and (max-width: 767px) and (min-width: 320px){
@@ -571,4 +578,38 @@
 @media (min-width:1921px) and (max-width:6500px){
 	#pricing .section-1 {margin-top: 125px;}
 	
+}
+
+@media (min-width: 5000px) {
+	.container {
+		width: 50% !important;
+	}
+	#pricing .container-faqs {
+		width: 50%;
+	}
+	colgroup:nth-child(2) {
+		left: 625px;
+	}
+	colgroup:nth-child(3) {
+		right: 621px;
+	}
+	.pricing-outer-ltdSales colgroup:nth-child(2) {
+		left: 585px;
+	}
+
+
+
+}
+@media (min-width:1921px) and (max-width:6500px){
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
+	.custom-navbar.navbar-default {padding: 25px 0px;}
+	#pricing .section-1 {
+		margin-top: 105px !important;
+	}
+
 }

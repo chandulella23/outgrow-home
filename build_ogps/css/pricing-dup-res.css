@@ -401,7 +401,7 @@
 	thead th:nth-child(1) {font-size: 33px;}
 	thead span a {border-radius: 8px; padding: 18px 20px; font-size: 33px;}
 	tbody th, tbody td {padding: 40px 20px; line-height: 35px; font-size: 33px;}
-	colgroup:nth-child(3) {right: 596px;}
+	colgroup:nth-child(3) {right: 597px;}
 	span.label-popularPlan {font-size: 20px; padding: 6px 10px;top: -37px;}
 	thead th h2 {margin-top: 70px; MARGIN-BOTTOM: 30px;}
 	thead th p.price sup {font-size: 40px;}
@@ -495,6 +495,17 @@
 	.company-address {font-size: 18px !important;}
 	a.link-contact.intercom_trigger {font-size: 24px;}
 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {top: 89px;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 89px;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
+
+	#pricing .section-1 {margin-top: 125px; margin-bottom: 50px;}
+	.section-faq .container {
+		width: 80%;
+	}
 
 
 
@@ -518,23 +529,30 @@
 
 }
 @media (max-width: 2999px) and (min-width: 1921px) {
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
 	#pricing .section-1 {
-		margin-top: 105px;
+		margin-top: 105px !important;
 		margin-bottom: 0 !important;
 	}
+	.custom-navbar.navbar-default {padding: 25px 0px;}
 
-}
-@media (min-width:1921px) and (max-width:6500px){
-	#pricing .section-1 {margin-top: 125px; margin-bottom: 50px;}
-	.section-faq .container {
-		width: 80%;
-	}
-	
 }
 @media (min-width: 5000px) {
 	.container {
 		width: 50% !important;
 	}
+	#pricing .container-faqs {
+		width: 50%;
+	}
+	colgroup:nth-child(3) {
+		right: 622px;
+	}
+
 
 
 }
