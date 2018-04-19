@@ -18591,7 +18591,7 @@ h4.mk-animate-element.right-to-left.publish {
 
 	#repuso_grid_inner .repuso_card {font-size: 18px;}
 	.repuso_quote {font-size: 45px;}
-	#repuso_grid_inner, .repuso_modal, A {font-size: 18px;}
+	#repuso_grid_inner, .repuso_modal {font-size: 18px;}
 	#repuso_grid_inner .repuso_card .repuso_source {font-size: 14px;}
 	#repuso_grid_inner .rating {font-size: 20px;}
 
