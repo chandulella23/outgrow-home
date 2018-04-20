@@ -775,7 +775,7 @@
         padding-right: 7px !important;
     }
     #why .section-metrics {margin-top: 0px; margin-bottom: 40px; padding-bottom: 50px; padding-top: 30px;}
-    #why .section-metrics h3 {font-size: 22px; line-height: 32px; margin-bottom: 0px; margin-top: 0px;}
+    #why .section-metrics h3 {font-size: 22px; line-height: normal; margin-bottom: 0px; margin-top: 0px;}
     #why .section-metrics .section-2-subheading {font-size: 15px;}
     .metrics-inner-block {
         max-width: 100%;
@@ -792,18 +792,108 @@
     .section-video {
         padding-top: 40px;
         /* padding-bottom: 40px; */
+            margin-top: 30px;
     }
-    .whyMerticsAwesome-inner-left, .whyMerticsAwesome-inner-right {display: inline-block;}
+    .whyMerticsAwesome-inner-left, .whyMerticsAwesome-inner-right {display: inline-block;     text-align: center; width: 100%;}
     /* .whyMerticsAwesome-inner img {width: 100%;} */
     .whyMerticsAwesome-inner-left.sec-newTraffic, .whyMerticsAwesome-inner-left.sec-audience {left: 0;}
-    .section-subheading {font-size: 20px;}
+    .section-subheading {font-size: 20px;     text-align: left;}
     .whyMerticsAwesome-inner-row:first-child .whyMerticsAwesome-inner-left img {margin-bottom: 50px;}
-    .whyMerticsAwesome-inner-left ul, .whyMerticsAwesome-inner-right ul {max-width: 100%;}
+    .whyMerticsAwesome-inner-left ul, .whyMerticsAwesome-inner-right ul {max-width: 100%;     text-align: left;}
     .whyMerticsAwesome-inner-left ul li .list, .whyMerticsAwesome-inner-right ul li .list {width: 93%;}
 
     .sec-outgrowMagic .section-6-left {margin: 0;}    
     .preloader {margin-bottom: 150px;}
     .col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;}
+    .metrics-inner-block h4 {font-size: 18px;}
+    .section-page-heading {padding: 30px 0;}
+    .section-page-heading h3 {
+        font-size: 22px;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .section-page-heading .section-2-subheading {
+        font-size: 15px !important;
+        font-family: montserratlight !important;
+        margin-top: 5px !important;
+    }
+    .case-study-tabs-container {
+        width: 100%;
+    }
+    .case-study-tabs {
+        margin-bottom: 30px !important;
+        margin: 0;
+        max-width: 100%;
+    }
+    .section-case-study {
+        margin: 0;
+        padding: 30px;
+    }
+    .case-study-tabs:last-child {
+        margin-bottom: 0px !important;
+    }
+    .section-counter, 
+    .section-companyInfo, 
+    .section-experimenting, 
+    .section-howOutgrowHelped, 
+    .section-companyReviews, 
+    .section-results,
+    .section-whatsNext {
+        padding: 40px 0;
+    }
+    .section-companyReviews.section-white {
+        padding: 40px 0 0;
+    }
+    .section-experimenting, .section-howOutgrowHelped, .section-results {
+        padding-bottom: 50px;
+    }
+    .section-exp-VP {
+        padding-bottom: 40px;
+    }
+    .companyInfo-table-cell {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .companyInfo-table-cell img {
+        margin-bottom: 30px;
+    }
+    .img-wrapper img {
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+        float: none!important;
+    }
+    .img-wrapper img:last-child {
+        margin-bottom: 0px !important;
+    }
+    .img-wrapper .btn-red, .section-button .btn-red {
+        font-size: 12px;
+        white-space: normal;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+    .section-companyReviews blockquote {
+        font-size: 15px;
+        line-height: 28px;
+        padding: 0px 20px 14px;
+        max-width: 100%;
+    }
+    .section-companyReviews blockquote + span {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .section-whatsNext .section-subtitle {
+        padding: 0px 20px;
+    }
+    .counter, .counter-wrapper .counter + span {
+        font-size: 36px;
+    }
+    .counter-wrapper + span {
+        font-size: 15px;
+    }
+
+
 
 }
 
@@ -1115,7 +1205,9 @@
     .container>.navbar-collapse,
     .container>.navbar-header {
         margin-right: 0;
-        margin-left: 0px
+        margin-left: 0px;
+        width: 100%;
+        border-top: 1px solid #e7e7e7;
     }
     .navbar-right {
         margin-left: 0;
@@ -1123,7 +1215,8 @@
     }
     .custom-navbar.navbar-default .navbar-nav>li {
         margin-left: 0;
-        margin-right: 0px
+        margin-right: 0px;
+        width: 100%;
     }
     .custom-navbar .signUp-style a {
         /* margin-top: 0px; */
@@ -1157,15 +1250,27 @@
     .sec9-test span.text-2 {
         margin-left: 10px
     }
-    #why .whyMerticsAwesome-inner-right.rs-hide {
+    /* #why .whyMerticsAwesome-inner-right.rs-hide {
          display: unset !important; 
-    }
-    .whyMerticsAwesome-inner-left, .whyMerticsAwesome-inner-right {
+    } */
+    /* .whyMerticsAwesome-inner-left, .whyMerticsAwesome-inner-right {
         display: table-cell;
-    }
+    } */
     .metrics-inner-block {
         max-width: 230px;
         margin-right: 15px;
+    }
+    .case-study-tabs {
+        margin-right: 20px;
+        max-width: 162px;
+        margin-bottom: 0px !important;
+    }
+    .section-case-study {
+        margin: 0;
+        padding: 40px 30px;
+    }    
+    .img-wrapper-VP img {
+        margin: 0px 25px 25px!important;
     }
 
 
@@ -1980,8 +2085,97 @@
     .section-video {
         padding-top: 40px;
         /* padding-bottom: 40px; */
+            margin-top: 30px;
     }
     .section-subheading {font-size: 20px;}
+
+    .section-page-heading {padding: 40px 0;}
+    .section-page-heading h3 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .section-page-heading .section-2-subheading {
+        font-size: 15px !important;
+        font-family: montserratlight !important;
+        margin-top: 5px !important;
+    }
+    .case-study-tabs-container {
+         width: 750px; 
+    }
+    .case-study-tabs {
+        margin-right: 20px;
+    }
+    .section-case-study {
+        margin: 0;
+        padding: 40px 10px;
+    }
+    .case-study-tabs:last-child {
+        margin-bottom: 0px !important;
+    }
+    .section-counter, 
+    .section-companyInfo, 
+    .section-experimenting, 
+    .section-howOutgrowHelped, 
+    .section-companyReviews, 
+    .section-results,
+    .section-whatsNext {
+        padding: 40px 0;
+    }
+    .section-companyReviews.section-white {
+        padding: 40px 0 0;
+    }
+    .section-experimenting, .section-howOutgrowHelped, .section-results {
+        padding-bottom: 50px;
+    }
+    .section-exp-VP {
+        padding-bottom: 40px;
+    }
+    .companyInfo-table-cell {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .companyInfo-table-cell img {
+        margin-bottom: 30px;
+    }
+    .img-wrapper img {
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+        float: none!important;
+    }
+    .img-wrapper img:last-child {
+        margin-bottom: 0px !important;
+    }
+    .img-wrapper-VP img {
+        margin: 0px 25px 25px!important;
+    }
+    .img-wrapper .btn-red, .section-button .btn-red {
+        font-size: 12px;
+        white-space: normal;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+    .section-companyReviews blockquote {
+        font-size: 15px;
+        line-height: 28px;
+        padding: 0px 20px 14px;
+        max-width: 100%;
+    }
+    .section-companyReviews blockquote + span {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .section-whatsNext .section-subtitle {
+        padding: 0px 20px;
+    }
+    .counter, .counter-wrapper .counter + span {
+        font-size: 36px;
+    }
+    .counter-wrapper + span {
+        font-size: 15px;
+    }
 
 
 }
@@ -2036,6 +2230,23 @@
 @media (min-width:991px) and (max-width:1200px){
 	.sec3-box2inner {min-height: 140px;}
     .sec3-box1inner {min-height: 140px;}
+    .img-wrapper img {
+        float: none !important;
+        margin: 0px 1px !important;
+        margin-bottom: 25px !important;
+    }
+    .img-wrapper img:last-child {
+        margin-bottom: 0px !important;
+    }
+    .img-wrapper-VP img {
+        margin: 0px 25px 25px!important;
+    }
+    .section-companyInfo h4, .section-companyInfo p {
+        margin-left: 30px;
+    }
+    .section-counter .container {
+        width: 100%;
+    }
 
 }
 @media (min-width:991px) and (max-width:1199px){
@@ -5348,7 +5559,8 @@
     }
 }
 @media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50%;}
+    .footer-link ul li {width: 50%;}   
+
 }
 
 @media only screen and (max-width:480px) {
