@@ -1205,7 +1205,9 @@
     .container>.navbar-collapse,
     .container>.navbar-header {
         margin-right: 0;
-        margin-left: 0px
+        margin-left: 0px;
+        width: 100%;
+        border-top: 1px solid #e7e7e7;
     }
     .navbar-right {
         margin-left: 0;
@@ -1213,7 +1215,8 @@
     }
     .custom-navbar.navbar-default .navbar-nav>li {
         margin-left: 0;
-        margin-right: 0px
+        margin-right: 0px;
+        width: 100%;
     }
     .custom-navbar .signUp-style a {
         /* margin-top: 0px; */

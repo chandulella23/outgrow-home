@@ -11,16 +11,27 @@
 	</div>
 	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right" id="navlist">
+			<li class="dropdown">
+				<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a>
+				<div class="dropdown-content">
+					<a href="http://outgrow.co.in/calculator" class="">Calculator</a>
+					<a href="http://outgrow.co.in/quiz" class="">Quizzes </a>
+					<a href="http://outgrow.co.in/survey" class="">Survey</a>
+					<a href="http://outgrow.co.in/increase-conversions" class="">Increase Conversions</a>
+					<a href="http://outgrow.co.in/increase-roi" class="">Increase ROI</a>
+					<a href="http://outgrow.co.in/increase-sales" class="">Increase Sales</a>
+				</div>
+			</li>
 			<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params" id="nav-why-interactive">Why Interactive Content ?</a></li>
 			<li><a href="{{ $page->baseUrl }}/features" onclick="callGA('FEATURES')" class="params" id="nav-features">Features</a></li>
 			<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA('PRICING')" class="params" id="nav-pricing">Pricing</a></li>
 			<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li>
-			   <li class="login">
-				   <a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
-			   </li>
-			  <li class="signUp signUp-style res-nav-hide">
-				  <a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
-			  </li>
+			<li class="login">
+				<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+			</li>
+			<li class="signUp signUp-style res-nav-hide">
+				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+			</li>
 			<li class="signUp res-nav-show">
 				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
 			</li>
