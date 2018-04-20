@@ -1393,9 +1393,11 @@ thead th p.price small, .pricing-block span.annual-price small {
 		margin-top: 8px;
 	}
 	.custom-navbar .signUp-style a:hover{
-		background: none !important;
+		/* background: none !important; */
+		/* border: none !important; */
+		/* color: #fb5f66 !important; */
+		opacity: 0.5; 
 		border: none !important;
-		color: #fb5f66 !important;opacity: 0.5;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fb5f66 !important;
@@ -1406,12 +1408,12 @@ thead th p.price small, .pricing-block span.annual-price small {
 	.navbar-right {
 		float: left !important;
 		width: 100%;
-		margin: 7.5px 0px !important;
+		margin: 7.5px 0px !important;		
+     	padding: 0px 15px 15px 15px; 
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 12px !important;} 
 	.navbar-collapse.collapse {
 		float: right;
-		     padding: 0px 15px; 
 	}
 	#pricing .section-1 {
 		margin-top: 0px;
@@ -1652,3 +1654,10 @@ i.zmdi.zmdi-twitter-box {
 	}
 
 /* end: use case dropdown */
+
+.collapse.in {
+    display: block;
+}
+.navbar-collapse.collapse {
+    overflow-y: auto !important;
+}

@@ -1097,9 +1097,10 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		display: inline-block;
 	}
 	.custom-navbar .signUp-style a:hover{
-		background: none !important;
+		/* background: none !important; */
 		border: none !important;
-		color: #fb5f66 !important;opacity: 0.5;
+		/* color: #fb5f66 !important; */
+		opacity: 0.5;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fb5f66 !important;
@@ -1111,8 +1112,10 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		float: left !important;
 		width: 100%;
 		margin: 7.5px 0px !important;
+		padding: 0px 15px 15px 15px; 
 	}
-	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 12px;}
+	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 12px !important; border: none !important;}
+	.navbar-collapse {padding-right: 0; padding-left: 0;}
 
 }
 .carousel-inner,.embed-responsive,.modal,.modal-open,.progress{overflow:hidden;}

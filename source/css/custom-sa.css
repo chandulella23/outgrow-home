@@ -6390,7 +6390,8 @@ iframe[name=google_conversion_frame] {
 	.custom-navbar .signUp-style a:hover{
 		/* background: none !important; */
 		border: none !important;
-		/* color: #fb5f66 !important;opacity: 0.5; */
+		/* color: #fb5f66 !important; */
+		opacity: 0.5;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fb5f66 !important;
@@ -6402,11 +6403,11 @@ iframe[name=google_conversion_frame] {
 		float: left !important;
 		width: 100%;
 		margin: 7.5px 0px !important;
+		padding: 0px 15px 15px 15px; 
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 12px !important;}
 	.navbar-collapse.collapse {
 		float: right;
-		padding: 0px 15px;
 		border-top: 1px solid #e7e7e7;
 	}
 
