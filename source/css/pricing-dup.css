@@ -1412,11 +1412,14 @@ a.link-contact.intercom_trigger:hover {
 	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 12px !important;} 
 	.navbar-collapse.collapse {
 		float: right;
-    	border-top: 1px solid #e7e7e7;
+		border-top: 1px solid #e7e7e7;
+		overflow-y: auto !important;
+    	display: none;
 	}	
 	#pricing .section-1 {
 		margin-top: 0px;
 	}
+	.navbar-header {display: block; width: 100%;}
 
 }
 
@@ -1614,6 +1617,19 @@ i.zmdi.zmdi-twitter-box {
 .footer-img2.ebook2, .footer-img2.tools2 {
     margin-top: 4px;
 }
+.navbar-collapse.in {
+    overflow-y: auto !important;
+}
+.collapse {
+    display: none;
+}
+.collapse.in {
+    display: block;
+}
+/* .navbar-collapse.collapse {
+	overflow: visible;
+    display: block;
+} */
 
 /* start: use case dropdown */
 	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {
@@ -1662,9 +1678,3 @@ i.zmdi.zmdi-twitter-box {
 
 /* end: use case dropdown */
 
-.collapse.in {
-    display: block;
-}
-.navbar-collapse.collapse {
-    overflow-y: auto !important;
-}

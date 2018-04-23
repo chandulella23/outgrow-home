@@ -6409,7 +6409,10 @@ iframe[name=google_conversion_frame] {
 	.navbar-collapse.collapse {
 		float: right;
 		border-top: 1px solid #e7e7e7;
+		overflow-y: auto !important;
+    	display: none;
 	}
+	.navbar-header {display: block; width: 100%;}
 
 }
 
@@ -7635,7 +7638,19 @@ i.zmdi.zmdi-twitter-box {
 
 /* end: use case dropdown */
 
-
+.navbar-collapse.in {
+    overflow-y: auto !important;
+}
+.collapse {
+    display: none;
+}
+.collapse.in {
+    display: block;
+}
+/* .navbar-collapse.collapse {
+	overflow: visible;
+    display: block; */
+}
 @media(min-width:320px) and (max-width:768px) {
 	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
 	.dropdown .dropdown-content {display: block !important;}
@@ -7657,16 +7672,4 @@ i.zmdi.zmdi-twitter-box {
 	}
 
 
-}
-
-
-.navbar-collapse.in {
-    overflow-y: auto !important;
-}
-
-.collapse.in {
-    display: block;
-}
-.navbar-collapse.collapse {
-    overflow-y: auto !important;
 }
