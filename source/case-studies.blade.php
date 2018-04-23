@@ -3,19 +3,19 @@
 @section('title', 'Case Studies | Outgrow')
 
 @section('metaDescription')
-	<meta name="description" content="Because Customers want to be helped. Not Sold To."/>
-	<link rel="canonical" href="http://outgrow.co/why_calculators.html" />
+	<meta name="description" content="Case Studies"/>
+	<link rel="canonical" href="http://outgrow.co/case-studies.html" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Why Calculators? | Outgrow" />
-	<meta property="og:description" content="Because Customers want to be helped. Not Sold To." />
-	<meta property="og:url" content="https://outgrow.co/why_calculators.html" />
+	<meta property="og:title" content="Case Studies | Outgrow" />
+	<meta property="og:description" content="Case Studies" />
+	<meta property="og:url" content="https://outgrow.co/case-studies.html" />
 	<meta property="og:site_name" content="Outgrow" />
 	<meta property="og:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:image" content="https://cdn.filestackcontent.com/dIn85YuTWuak2ghxNu89" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="Because Customers want to be helped. Not Sold To." />
-	<meta name="twitter:title" content="Why Calculators? | Outgrow" />
+	<meta name="twitter:description" content="Case Studies" />
+	<meta name="twitter:title" content="Case Studies | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 @endsection
 
