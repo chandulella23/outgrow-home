@@ -20142,6 +20142,7 @@ img.scrollimg1.wo {
 	padding: 10px 35px;
 	transition: .5s ease-in-out;
 }
+.sec-cookies .btn-understand:focus {outline: none;}
 .sec-cookies i.material-icons {
     position: absolute;
     right: -70px;
