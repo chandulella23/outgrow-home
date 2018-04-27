@@ -189,7 +189,7 @@
                             <td><span class="full"></span>15000 & 300000</td>
                         </tr>
                         <tr class="not-info">
-                            <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
+                            <th><i class="material-icons vis-hide">add</i> No. of Content Pieces</th>
                             <td><span class="quater"></span>3</td>
                             <td class="active-bg"><span class="full"></span>Unlimited</td>
                             <td><span class="full"></span>Unlimited</td>
@@ -561,7 +561,7 @@
                                     <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="quater"></span>3</span>
                                 </li>
                                 <!-- <li>
@@ -761,7 +761,7 @@
                                     <span class="feature-subtitle"><span class="half"></span>1000 & 20000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <!-- <li>
@@ -965,7 +965,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>15000 & 300000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <!-- <li>

@@ -96,3 +96,13 @@
 		</div>
 	</div>
 </section>
+
+<section class="section sec-cookies">
+	<div class="container">
+		<p>
+			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
+		</p>
+		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">I Understand</button>
+		<a href="javascript:void(0);" class="" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
+	</div>
+</section>

@@ -1549,16 +1549,6 @@
 			</div>
 	</section>
 
-	<section class="section sec-cookies hide">
-		<div class="container">
-			<p>
-				We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
-			</p>
-			<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">I Understand</button>
-			<a href="javascript:void(0);" class="" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
-		</div>
-	</section>
-
 	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
 			<!-- Modal content-->

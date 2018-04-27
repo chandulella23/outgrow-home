@@ -154,7 +154,7 @@
                             <th>
                                 <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>   
-                                No. of Experiences
+                                No. of Content Pieces
                             </th>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>3
@@ -615,7 +615,7 @@
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  
-                                        No. of Experiences
+                                        No. of Content Pieces
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
                                     <span class="detail">You can have a maximum of 3 experiences at any time. You can always delete and create a new one 😃 </span> 
@@ -847,7 +847,7 @@
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  
-                                        No. of Experiences
+                                        No. of Content Pieces
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>6</span>
                                     <span class="detail">You can have a maximum of 6 experiences at any time. You can always delete and create a new one 😃 </span> 
@@ -1052,7 +1052,7 @@
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  
-                                        No. of Experiences
+                                        No. of Content Pieces
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>25</span>
                                     <span class="detail">You can have a maximum of 25 experiences at any time. You can always delete and create a new one 😃 </span> 
@@ -1270,7 +1270,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>1,000 & 20,000/month</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <li>

@@ -151,7 +151,7 @@
                              <td><span class="full"></span>1,000 & 20,000</td>
                         </tr>
                         <tr class="not-info">
-                            <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
+                            <th><i class="material-icons vis-hide">add</i> No. of Content Pieces</th>
                             <td class="active-bg"><span class="quater"></span>3</td>
                             <td><span class="half"></span>6</td>
                             <td class=""><span class="full"></span>25</td>
@@ -590,7 +590,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>300 &amp; 6000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
                                 </li>
                                 <li class="">
@@ -826,7 +826,7 @@
                                     <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="quater"></span>6</span>
                                 </li>
                                 <li class="">
@@ -1023,7 +1023,7 @@
                                     <span class="feature-subtitle"><span class="half"></span>350 & 7000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="full"></span>25</span>
                                 </li>
                                 <li class="">
@@ -1234,7 +1234,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>1,000 & 20,000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <li>
@@ -1482,7 +1482,7 @@
                                         <td><span class="full"></span>1,000 & 20,000</td> -->
                                     </tr>
                                     <tr class="not-info">
-                                    <th><i class="material-icons vis-hide">add</i> No. of Experiences
+                                    <th><i class="material-icons vis-hide">add</i> No. of Content Pieces
                                         </th>                                   
                                         <td class="active-bg expand-child">
                                             <!-- <span class="quater"></span>3 -->
@@ -1691,7 +1691,7 @@
                                                 <span class="feature-title">
                                                     <!-- <i class="material-icons plus">add</i>
                                                     <i class="material-icons minus">remove</i>  -->
-                                                    No. of Experiences
+                                                    No. of Content Pieces
                                                 </span>
                                                 <span class="feature-subtitle"><span class="check"><i class="material-icons">check_circle</i></span>3</span>
                                                 <!-- <span class="detail">You can have a maximum of 3 quizzes at any time. You can always delete and create a new one 😃 </span> -->
@@ -1929,7 +1929,7 @@
                                                 <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                             </li>
                                             <li>
-                                                <span class="feature-title">No. of Experiences</span>
+                                                <span class="feature-title">No. of Content Pieces</span>
                                                 <span class="feature-subtitle"><span class="quater"></span>6</span>
                                             </li>
                                             <li class="">
@@ -2126,7 +2126,7 @@
                                                 <span class="feature-subtitle"><span class="half"></span>1,000 & 20,000</span>
                                             </li>
                                             <li>
-                                                <span class="feature-title">No. of Experiences</span>
+                                                <span class="feature-title">No. of Content Pieces</span>
                                                 <span class="feature-subtitle"><span class="full"></span>25</span>
                                             </li>
                                             <li class="">
@@ -2337,7 +2337,7 @@
                                                 <span class="feature-subtitle"><span class="full"></span>1,000 & 20,000</span>
                                             </li>
                                             <li>
-                                                <span class="feature-title">No. of Experiences</span>
+                                                <span class="feature-title">No. of Content Pieces</span>
                                                 <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                             </li>
                                             <li>
