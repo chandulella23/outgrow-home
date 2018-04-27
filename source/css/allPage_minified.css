@@ -4178,6 +4178,8 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		margin-left: 0px !important;
 		margin-top: 0px !important;
 	}
+	.sec-cookies p {width: 65% !important;}
+	.sec-cookies i.material-icons {right: 80px;}
 
 
 }
@@ -18661,6 +18663,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.sec-grey.section-10 {
 		padding-top: 0px !important;
 	}
+	.sec-cookies i.material-icons {right: -10px !important;}
 
 }
 
