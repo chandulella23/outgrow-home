@@ -1836,7 +1836,7 @@ label {
 	margin: 0;
 	padding-top: 30px;
 	padding-bottom: 10px;
-	min-height: 250px
+	min-height: 630px
 }
 .img-1-text, .img-2-text {
 	color: #62696d;
@@ -6258,6 +6258,13 @@ iframe[name=google_conversion_frame] {
 		height: 59px;
 	}
 }
+
+@media (min-width:1024px) and (max-width:1250px){
+	.section-14 {
+		min-height: 660px !important;
+	}
+}
+
 @media (max-width:767px) {
 	.circle-logo{
 		height: 35px;
@@ -6601,3 +6608,46 @@ iframe[name=google_conversion_frame] {
 	margin-bottom: 20px !important;
 }
 /* new css for hiding the top red bar of each page */
+
+.sec-cookies {
+    background: #fb5f66;
+    font-family: montserratlight;
+    color: #fff;
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    z-index: 999;
+    padding: 22px;
+}
+.sec-cookies p {
+    float: left;
+	width: 75%;
+	margin-bottom: 0px;
+}
+.sec-cookies .btn-understand {
+    float: right;
+    background: #fff;
+    border-radius: 20px;
+    color: #fb5f66;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    box-shadow: 0 5px 15px rgba(251, 95, 102, 0.8);
+    z-index: 9;
+	padding: 10px 35px;
+	transition: .5s ease-in-out;
+}
+.sec-cookies .btn-understand:focus {outline: none;}
+.sec-cookies i.material-icons {
+    position: absolute;
+    right: -70px;
+    top: 10px;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0.8;
+    transition: .5s ease-in-out;
+}
+.sec-cookies i.material-icons:hover {
+    opacity: 1;
+}

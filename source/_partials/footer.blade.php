@@ -97,7 +97,7 @@
 	</div>
 </section>
 
-<section class="section sec-cookies hide">
+<section class="section sec-cookies">
 	<div class="container">
 		<p>
 			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
