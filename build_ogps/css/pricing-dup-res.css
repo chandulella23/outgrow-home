@@ -332,6 +332,9 @@
 	#pricing .container-faqs {
 		width: 900px;
 	}
+	.section-14 {
+		min-height: 660px !important;
+	}
 	
 }
 @media (max-width: 1800px) and (min-width: 1480px){

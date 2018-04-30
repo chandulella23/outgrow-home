@@ -357,6 +357,9 @@
 		width: 900px;
 		margin: 0 auto;
 	}
+	.section-14 {
+		min-height: 660px !important;
+	}
 	
 }
 
