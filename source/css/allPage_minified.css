@@ -397,6 +397,14 @@ address,blockquote .small,blockquote footer,blockquote small,dd,dt,pre{line-heig
 	.navbar-nav > li > a.active.hvr-underline-from-left:before {
 		display: none;
 	}
+	.sec-cookies {
+		padding: 20px;
+	}
+	.sec-cookies .btn-understand {
+		padding: 7px 20px !important;
+    	font-size: 11px !important;
+	}
+	.sec-cookies {font-size: 12px !important;}
 
 }
 @media (min-width: 0px) and (max-width: 450px){
@@ -18696,7 +18704,9 @@ img.uni1 {
 	.case-productHunt {padding-bottom: 0px; padding-top: 20px;}
 	.case-breathers.case-breathers-imgRight {padding-bottom: 0px;}
 	img.rs-hide {margin-top: 23px !important;}
-
+	.sec-cookies i.material-icons {
+		right: -10px !important;
+	}
 
 
 
