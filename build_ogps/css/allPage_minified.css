@@ -4178,6 +4178,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		margin-left: 0px !important;
 		margin-top: 0px !important;
 	}
+	.sec-cookies p {width: 65% !important;}
+	.sec-cookies .btn-understand {float: left !important; margin-left: 30px;}
+	.sec-cookies a i.material-icons {right: 20px !important;}
 
 
 }
@@ -4206,6 +4209,16 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			margin-bottom: 70px !important;
 		}
 	/* homepage resp changes by arti */
+	.sec-cookies {text-align: center;}
+	.sec-cookies p {width: 100% !important;}	
+	.sec-cookies .btn-understand {float: none !important; margin-top: 20px;}
+	.sec-cookies i.material-icons {
+		right: -12px !important;
+		top: -12px !important;
+	}
+
+
+
 }
 @media (min-width:769px) and (max-width:990px){
 	.sahil-material .claim-cta .form-group .form-control{padding-right:95px;border: 2px solid #bdbdbd;}
@@ -4717,6 +4730,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.btn-signup.startTrial-outer input{ width: 50%;}
 	div.startTrial-outer.lp-sign{min-height: 173px !important;}
 	.sec-clients-logos .img-wrapper { width: 100% !important;}
+	.section-14 {min-height: 660px !important;}
 
 
 }
@@ -18661,6 +18675,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.sec-grey.section-10 {
 		padding-top: 0px !important;
 	}
+	.sec-cookies i.material-icons {right: -10px !important;}
 
 }
 
