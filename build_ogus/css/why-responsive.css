@@ -366,7 +366,12 @@
 	}
 	.calc-table .section-2-heading {margin-bottom: 30px !important;}
 	.section-howOutgrowHelped-inner .col-md-4 {margin-bottom: 25px;}
-
+	.section-counter-inner .col-md-4 {
+		margin-bottom: 15px;
+	}
+	.section-counter-inner .col-md-4:last-child {
+		margin-bottom: 0px;
+	}
 
 
 }
@@ -502,6 +507,9 @@
 	.rs-hide{
 	    display: block !important;
 	}*/
+	.section-counter-inner .col-md-4 {
+		margin-bottom: 0px;
+	}
 }
 @media (min-width: 769px) and (max-width: 990px){
 	.section-top h3 {

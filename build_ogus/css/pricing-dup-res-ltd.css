@@ -519,3 +519,11 @@
     .col-sm-2.footer-link .footer-img-text {min-height: 56px;}
 
 }
+@media (min-width:1024px){
+	.navbar{border-radius:4px}
+	.navbar-header{float:left}
+	.navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}
+	.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}
+	.navbar-collapse.in{overflow-y:visible}
+	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}
+}

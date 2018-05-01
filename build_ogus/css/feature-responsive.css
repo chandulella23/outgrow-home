@@ -419,9 +419,9 @@
 		font-size:16px !important;
 	}
 	#feature .feature-heading-1 h3{
-		font-size:22px; line-height: 32px; padding-top: 20px;
+		font-size:22px; line-height: 32px; padding-top: 20px;    margin-bottom: 0;
 	}
-	#feature .feature-heading-1 h4 { font-size: 16px;}
+	#feature .feature-heading-1 h4 { font-size: 15px;margin-top: 5px;}
 
 	/* start: feature page responsive by arti */
 		#feature .section-f4 img{margin-bottom: 30px;}
@@ -507,10 +507,10 @@
 		width: 50%;
 		box-shadow: 2px 0px 8px 2px rgba(0,0,0,0.1);
 	}
-	#feature .feature-heading-1 h3{
+	/* #feature .feature-heading-1 h3{
 		font-size: 20px;
 		line-height: normal;
-	}
+	} */
 	.footer-img2 {
 		padding-left: 0px;
 		min-height: 155px;
