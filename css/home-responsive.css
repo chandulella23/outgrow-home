@@ -1297,7 +1297,7 @@
         line-height: 24px;
     }
     .navbar-collapse.collapse {
-        float: none !important;
+        /* float: none !important; */
     }
 }
 @media (min-width:769px) and (max-width:990px) {
