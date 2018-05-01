@@ -25,7 +25,22 @@
 			<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params" id="nav-why-interactive">Why Interactive Content ?</a></li>
 			<li><a href="{{ $page->baseUrl }}/features" onclick="callGA('FEATURES')" class="params" id="nav-features">Features</a></li>
 			<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA('PRICING')" class="params" id="nav-pricing">Pricing</a></li>
-			<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li>
+			<!-- <li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li> -->
+			<li class="dropdown">
+				<a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
+				<div class="dropdown-content">
+					<a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="">Interactive Examples </a>
+					<div class="drop-sub-menu">
+						<a href="{{ $page->baseUrl }}/case-studies" class="">Success Stories <i class="material-icons">chevron_right</i></a>
+						<div class="dropdown-sub-content">
+							<a href="{{ $page->baseUrl }}/case-studies" class="">TAG </a>
+							<a href="{{ $page->baseUrl }}/case-studies" class="">Get Paid Your Pad </a>
+							<a href="{{ $page->baseUrl }}/case-studies" class="">VenturePact </a>
+							<a href="{{ $page->baseUrl }}/case-studies" class="">Macroscape </a>
+						</div>
+					</div>
+				</div>
+			</li>
 			<li class="login">
 				<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 			</li>

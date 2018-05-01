@@ -40,8 +40,10 @@
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<script >
-        function counterUp() {
-            jQuery('.counter').counterUp();
+        function counterUp(tab) {
+			jQuery('.counter').counterUp();
+			jQuery('.nav-tabs a[href="#' + tab + '"]').tab('show');
+			//jQuery(`#${tab}`).tab('show');
         }
 	</script>
 
@@ -55,27 +57,27 @@
 		<section class="section section-case-study">
 			<div class="container case-study-tabs-container">
 				<div class="col-md-12 col-sm-12 col-xs-12 np">
-					<ul class="nav nav-pills">
+					<ul class="nav nav-tabs">
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs active">
-							<a class="" data-toggle="pill" href="#tag" onclick="counterUp()">
+							<a class="tab-link" href="#tag" onclick="counterUp('tag')">
 								<img src="{{ $page->baseUrl }}/images/case_study_tag.png" alt="TAG Livros">
 								<span>Case Study 1</span>
 							</a>
 						</li>
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
-							<a class="" data-toggle="pill" href="#getPaid" onclick="counterUp()">
+							<a class="tab-link" href="#getPaid" onclick="counterUp('getPaid')">
 								<img src="{{ $page->baseUrl }}/images/case_study_get_paid1.png" alt="Get Paid For Your Pad">
 								<span>Case Study 2</span>
 							</a>
 						</li>
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
-							<a class=""  data-toggle="pill" href="#vp" onclick="counterUp()">
+							<a class="tab-link" href="#vp" onclick="counterUp('vp')">
 								<img src="{{ $page->baseUrl }}/images/case_study_vp1.png" alt="VenturePact">
 								<span>Case Study 3</span>
 							</a>
 						</li>
 						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
-							<a class=""  data-toggle="pill" href="#macroscape" onclick="counterUp()">
+							<a class="tab-link" href="#macroscape" onclick="counterUp('macroscape')">
 								<img src="{{ $page->baseUrl }}/images/case_study_macroscape.png" alt="Macroscape">
 								<span>Case Study 4</span>
 							</a>
