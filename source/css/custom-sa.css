@@ -6302,6 +6302,11 @@ iframe[name=google_conversion_frame] {
 		/* overflow-y: auto; */
 	}
 }
+@media (min-width:1024px) and (max-width:1280px){
+	.dropdown .dropdown-content {
+		left: -80px !important;
+	}
+}
 @media (max-width:767px) {
 	.circle-logo{
 		height: 35px;
@@ -6392,7 +6397,7 @@ iframe[name=google_conversion_frame] {
 		color: #fff!important;
 		border: none !important;
 		display: inline-block;
-		margin-top: 8px;
+		margin-top: 8px !important;
 	}
 	.custom-navbar .signUp-style a:hover{
 		/* background: none !important; */
@@ -7693,7 +7698,7 @@ i.zmdi.zmdi-twitter-box {
 
 @media(min-width:320px) and (max-width:1023px) {
 	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
-	.dropdown .dropdown-content {display: block !important;}
+	.dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;}
 	.dropdown .dropdown-content {
 		min-width: 100% !important;
 		left: 0 !important;
@@ -7709,6 +7714,19 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.custom-navbar.navbar-default .navbar-nav>li {
 		margin-right: 0 !important;
+	}
+	.dropdown .dropdown-sub-content {
+		min-width: 100% !important;
+		left: 0px !important;
+		background: none;
+		position: relative !important;
+		box-shadow: none !important;
+		top: 0px !important;
+		padding: 0px 20px !important;
+	}
+	.dropdown .dropdown-content a i.material-icons {
+		line-height: 26px !important;
+		transform: rotate(90deg);
 	}
 
 

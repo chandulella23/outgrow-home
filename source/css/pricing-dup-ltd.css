@@ -1390,7 +1390,7 @@ thead th p.price small, .pricing-block span.annual-price small {
 		color: #fff!important;
 		border: none !important;
 		display: inline-block;
-		margin-top: 8px;
+		margin-top: 8px !important;
 	}
 	.custom-navbar .signUp-style a:hover{
 		/* background: none !important; */

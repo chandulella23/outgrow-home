@@ -1112,7 +1112,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		float: left !important;
 		width: 100%;
 		margin: 7.5px 0px !important;
-		padding: 0px 15px 15px 15px; 
+		padding: 0px 0px 15px 0px;  
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 12px !important; border: none !important;font-size: 12px !important;}
 	/* .navbar-collapse {padding-right: 0; padding-left: 0;} */
@@ -1155,7 +1155,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	.navbar-toggle{display:none}
 	.navbar-nav{float:left;margin:0}
 	.navbar-nav>li{float:left}
-	.navbar-nav>li>a{padding-top:15px;padding-bottom:15px;padding-left:8px;padding-right:8px}
+	.navbar-nav>li>a{padding-top:15px;padding-bottom:15px;padding-left:8px;padding-right:8px; margin-right: 0px !important;}
 }
 .navbar-form{padding:10px 15px;border-top:1px solid transparent;border-bottom:1px solid transparent;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);margin:8px -15px}
 @media (min-width:768px){
@@ -4234,7 +4234,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.rs-show{display:block}
 	.custom-navbar.navbar-fixed-top{position:relative}
 	.navbar-brand{margin-left:15px!important}
-	.section{margin-top:0}
+	.section{margin-top:0 !important;}
 	.section-1{margin-top:0px; padding-top: 0px;}
 	.section-1-left{padding-left:20px !important;padding-right:20px}
 	.section1-left-cellnoab{height:21vh; padding-top: 20px;}
@@ -4678,7 +4678,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-7-left h4,.section-9-left h4{font-size:25px}
 	.navbar-right{margin-left:20px}
 	.container-fluid>.navbar-header{margin-left:-30px}
-	.custom-navbar.navbar-default .navbar-nav>li>a{}
+	.custom-navbar.navbar-default .navbar-nav>li>a{font-size: 13px}
 	.custom-navbar.navbar-default .navbar-nav>li{margin-right:0}
 	.collag-right{width:30%;margin-right:30px}
 	.collag-left{width:60%}
@@ -18651,7 +18651,7 @@ img.uni1 {
 	.case-productHunt {padding-bottom: 0px; padding-top: 20px;}
 	.case-breathers.case-breathers-imgRight {padding-bottom: 0px;}
 	img.rs-hide {margin-top: 23px !important;}
-
+	.dropdown .dropdown-content {left: -80px !important;}
 
 
 
