@@ -1797,11 +1797,15 @@ i.zmdi.zmdi-twitter-box {
     display: block;
     text-align: center;
 }
-.create-exp .container i.material-icons {
+.create-exp button.closeDiv {
     float: right;
     position: absolute;
     right: 7px;
     top: 7px;
+    background: none;
+    border: none;
+}
+.create-exp .container i.material-icons {
     font-size: 16px;
     color: #bfc6ca;
 }
