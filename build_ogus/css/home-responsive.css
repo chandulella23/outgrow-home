@@ -1207,7 +1207,6 @@
         margin-right: 0;
         margin-left: 0px;
         width: 100%;
-        border-top: 1px solid #e7e7e7;
     }
     .navbar-right {
         margin-left: 0;
@@ -1297,7 +1296,7 @@
         line-height: 24px;
     }
     .navbar-collapse.collapse {
-        float: none !important;
+        /* float: none !important; */
     }
 }
 @media (min-width:769px) and (max-width:990px) {
@@ -2311,6 +2310,7 @@
     .custom-navbar.navbar-default .navbar-nav>li>a {
         /*padding-top: 15px;
         padding-left: 25px*/
+        font-size: 13px;
     }
     .custom-navbar.navbar-default .navbar-nav>li {
         margin-right: 0

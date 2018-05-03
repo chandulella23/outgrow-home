@@ -123,7 +123,14 @@
 		/*width: 440px;*/
 	}
 }
-
+@media (min-width: 320px) and (max-width:640px) {
+	.create-exp .container .inner-container {
+		text-align: center;
+		width: 100%;
+	}
+	.inner-container .pull-left, .inner-container .pull-right {float: none !important;}
+	.create-exp .container .btn-white-red-outline {margin-top: 15px;}
+}
 @media (min-width: 640px) and (max-width:768px) {
 	.allPlans-blocks-640{width: 50%;}
 }
@@ -313,8 +320,11 @@
 	.expand-rs .minus, .expand-rs.open .plus{display: none;}
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
 	.detail {padding: 10px 10px 0px 10px;}
-
-	
+	.create-exp {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.create-exp .container {width: 100%;}
 
 
 }
@@ -351,7 +361,11 @@
 	}
 	
 }
-
+@media (min-width:1024px) and (max-width:1280px){
+	.dropdown .dropdown-content {
+		left: -80px !important;
+	}
+}
 @media (min-width: 1920px) {
 
 }
@@ -499,5 +513,49 @@
 }
 @media (min-width:991px) and (max-width:1199px){
     .col-sm-2.footer-link .footer-img-text {min-height: 56px;}
+
+}
+@media (min-width:1024px){
+	.navbar{border-radius:4px}
+	.navbar-header{float:left}
+	.navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}
+	.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}
+	.navbar-collapse.in{overflow-y:visible}
+	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}
+}
+
+@media(min-width:320px) and (max-width:1023px) {
+	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
+	.dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;}
+	.dropdown .dropdown-content {
+		min-width: 100% !important;
+		left: 0 !important;
+		background: none;
+		position: relative !important;
+		box-shadow: none !important;
+	}
+	.dropdown-content a {
+		font-size: 11px !important;
+		text-transform: uppercase;
+		line-height: normal !important;
+		padding: 7px 12px !important;
+	}
+	.custom-navbar.navbar-default .navbar-nav>li {
+		margin-right: 0 !important;
+	}
+	.dropdown .dropdown-sub-content {
+		min-width: 100% !important;
+		left: 0px !important;
+		background: none;
+		position: relative !important;
+		box-shadow: none !important;
+		top: 0px !important;
+		padding: 0px 20px !important;
+	}
+	.dropdown .dropdown-content a i.material-icons {
+		line-height: 26px !important;
+		transform: rotate(90deg);
+	}
+
 
 }
