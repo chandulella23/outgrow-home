@@ -7523,6 +7523,9 @@ i.zmdi.zmdi-twitter-box {
 	.section-companyReviews.section-white blockquote + span {
 		padding-bottom: 14px;
 	}
+	.section-case-study-main .tab-content>.active.fade {
+		opacity: 1;
+	}
 
 /* end: css of case study */
 

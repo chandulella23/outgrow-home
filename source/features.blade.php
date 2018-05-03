@@ -187,11 +187,11 @@
 
 	<section class="section section-smart-builder">
 		<div class="container img-container-right mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow section-15-right">
-				<img alt="Smart Builder Accelerates Development to Minutes" src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="img-left" />
-				<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
+			<div class="col-xs-12 col-sm-12 col-md-7 np">
+				<img alt="Smart Builder Accelerates Development to Minutes" src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="" />
+				<img alt="Smart Builder Accelerates Development to Minutes" class="" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-5 section-15-left">
+			<div class="col-xs-12 col-sm-12 col-md-5">
 				<span class="mk-animate-element right-to-left">
 					<i class="material-icons icon-style">view_compact</i>
 				</span>

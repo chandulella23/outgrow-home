@@ -33,10 +33,10 @@
 					<div class="drop-sub-menu">
 						<a href="{{ $page->baseUrl }}/case-studies" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
 						<div class="dropdown-sub-content">
-							<a href="{{ $page->baseUrl }}/case-studies#tag" class="">TAG </a>
-							<a href="{{ $page->baseUrl }}/case-studies#getPaid" class="">Get Paid Your Pad </a>
-							<a href="{{ $page->baseUrl }}/case-studies#vp" class="">VenturePact </a>
-							<a href="{{ $page->baseUrl }}/case-studies#macroscape" class="">Macroscape </a>
+							<a href="{{ $page->baseUrl }}/case-studies#tag" class="nav-case">TAG </a>
+							<a href="{{ $page->baseUrl }}/case-studies#getPaid" class="nav-case">Get Paid Your Pad </a>
+							<a href="{{ $page->baseUrl }}/case-studies#vp" class="nav-case">VenturePact </a>
+							<a href="{{ $page->baseUrl }}/case-studies#macroscape" class="nav-case">Macroscape </a>
 						</div>
 					</div>
 				</div>
