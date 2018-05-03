@@ -174,16 +174,16 @@
 			<li><a href="/pricing" onclick="callGA('PRICING')" class="params" id="nav-pricing">Pricing</a></li>
 			<!-- <li><a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li> -->
 			<li class="dropdown">
-				<a href="javascript:void(0);" onclick="callGA('USECASE')" class="params" id="nav-examples">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
+				<a href="javascript:void(0);" onclick="callGA('USECASE')" class="params">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
 				<div class="dropdown-content">
-					<a href="/examples" onclick="callGA('USECASE')" class="">Interactive Examples </a>
+					<a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
 					<div class="drop-sub-menu">
-						<a href="/case-studies" class="">Success Stories <i class="material-icons">chevron_right</i></a>
+						<a href="/case-studies" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
 						<div class="dropdown-sub-content">
-							<a href="/case-studies#tag" class="active">TAG </a>
-							<a href="/case-studies#getPaid" class="active">Get Paid Your Pad </a>
-							<a href="/case-studies#vp" class="active">VenturePact </a>
-							<a href="/case-studies#macroscape" class="active">Macroscape </a>
+							<a href="/case-studies#tag" class="nav-case">TAG </a>
+							<a href="/case-studies#getPaid" class="nav-case">Get Paid Your Pad </a>
+							<a href="/case-studies#vp" class="nav-case">VenturePact </a>
+							<a href="/case-studies#macroscape" class="nav-case">Macroscape </a>
 						</div>
 					</div>
 				</div>
@@ -228,25 +228,25 @@
 			<div class="container case-study-tabs-container">
 				<div class="col-md-12 col-sm-12 col-xs-12 np">
 					<ul class="nav nav-tabs">
-						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs active">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs nav-case-tag active">
 							<a class="" href="#tag" onclick="counterUp('tag')">
 								<img src="/images/case_study_tag.png" alt="TAG Livros">
 								<span>Case Study 1</span>
 							</a>
 						</li>
-						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs nav-case-gpyp">
 							<a class="" href="#getPaid" onclick="counterUp('getPaid')">
 								<img src="/images/case_study_get_paid1.png" alt="Get Paid For Your Pad">
 								<span>Case Study 2</span>
 							</a>
 						</li>
-						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs nav-case-vp">
 							<a class="" href="#vp" onclick="counterUp('vp')">
 								<img src="/images/case_study_vp1.png" alt="VenturePact">
 								<span>Case Study 3</span>
 							</a>
 						</li>
-						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs">
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs nav-case-macroscape">
 							<a class="" href="#macroscape" onclick="counterUp('macroscape')">
 								<img src="/images/case_study_macroscape.png" alt="Macroscape">
 								<span>Case Study 4</span>
@@ -258,7 +258,7 @@
 		</section>
 
 		<div class="tab-content">
-			<div id="tag" class="tab-pane fade in active">
+			<div id="tag" class="tab-pane tab-pane-tag fade in active">
 				<section class="section section-counter">
 					<div class="container">
 						<div class="section-2-heading">TAG Livros Generates 55K + Leads <br/> Using an Interactive Experiences </div>
@@ -395,7 +395,7 @@
 					</div>
 				</section>
 			</div>			
-			<div id="getPaid" class="tab-pane fade">
+			<div id="getPaid" class="tab-pane tab-pane-gpyp fade">
 				<section class="section section-counter">
 					<div class="container">
 						<div class="section-2-heading">Get Paid for Your Pad (GBYP) Scored a Stellar 41% Conversion Rate with an Interactive Calculator! </div>
@@ -541,7 +541,7 @@
 					</div>
 				</section>
 			</div>
-			<div id="vp" class="tab-pane fade">
+			<div id="vp" class="tab-pane tab-pane-vp fade">
 				<section class="section section-counter">
 					<div class="container">
 						<div class="section-2-heading">Venturepact Generated 11,592 Qualified Leads <br/>Using an Interactive Calculator </div>
@@ -680,7 +680,7 @@
 					</div>
 				</section>
 			</div>
-			<div id="macroscape" class="tab-pane fade">
+			<div id="macroscape" class="tab-pane tab-pane-macroscape fade">
 				<section class="section section-counter">
 					<div class="container">
 						<div class="section-2-heading">Macroscape Helped Its Client Clock a <br/>Conversion Rate of 36% </div>
