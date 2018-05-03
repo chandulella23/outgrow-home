@@ -164,7 +164,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4.jpg" alt="">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5.jpg" alt="">
-							<button type="button" class="btn btn-red">Create your First Interactive Experience </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"> <button type="button" class="btn btn-red" >Create your First Interactive Experience </button></a>
 						</div>
 					</div>
 				</section>
@@ -301,7 +301,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-GPYP">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4_GPYP.jpg" alt="">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5_GPYP.jpg" alt="">
-							<button type="button" class="btn btn-red">Create your First Interactive Experience </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"> <button type="button" class="btn btn-red" >Create your First Interactive Experience </button></a>
 						</div>
 					</div>
 				</section>
@@ -447,7 +447,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-VP">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4_VP.png" alt="">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5_VP.png" alt="">
-							<button type="button" class="btn btn-red">Create your First Interactive Experience </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"> <button type="button" class="btn btn-red" >Create your First Interactive Experience </button></a>
 						</div>
 					</div>
 				</section>
@@ -586,7 +586,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-macro">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4_macro.jpg" alt="">
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5_macro.jpg" alt="">
-							<button type="button" class="btn btn-red">Create your First Interactive Experience </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"> <button type="button" class="btn btn-red" >Create your First Interactive Experience </button></a>
 						</div>
 					</div>
 				</section>

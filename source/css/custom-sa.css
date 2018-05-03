@@ -7327,10 +7327,11 @@ i.zmdi.zmdi-twitter-box {
 		box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
 		transition: .5s ease-in-out;
 	}
-	.img-wrapper .btn-red:hover {
+	.img-wrapper .btn-red:hover, .img-wrapper .btn-red:focus, .img-wrapper .btn-red:active {
 		background: #fb757b;
 		color: #fff;
 		border-color: #f8434b;
+		outline: none;
 	}
 	.section-companyReviews {
     	float: left;
