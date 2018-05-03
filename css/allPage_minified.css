@@ -4678,7 +4678,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.section-7-left h4,.section-9-left h4{font-size:25px}
 	.navbar-right{margin-left:20px}
 	.container-fluid>.navbar-header{margin-left:-30px}
-	.custom-navbar.navbar-default .navbar-nav>li>a{font-size: 13px}
+	.custom-navbar.navbar-default .navbar-nav>li>a{font-size: 13px; padding-left: 8px; padding-right: 8px;}
 	.custom-navbar.navbar-default .navbar-nav>li{margin-right:0}
 	.collag-right{width:30%;margin-right:30px}
 	.collag-left{width:60%}
@@ -20306,6 +20306,10 @@ i.zmdi.zmdi-twitter-box {
 	}
 	.dropdown .dropdown-sub-content a:last-child {
 		border-bottom: none;
+	}	
+	.drop-sub-menu a.active {
+		color: #4793c5;
+		background: none;
 	}
 
 /* end: use case dropdown */

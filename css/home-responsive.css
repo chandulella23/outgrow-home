@@ -2310,7 +2310,7 @@
     .custom-navbar.navbar-default .navbar-nav>li>a {
         /*padding-top: 15px;
         padding-left: 25px*/
-        font-size: 13px;
+        font-size: 13px;    padding-left: 8px; padding-right: 8px;
     }
     .custom-navbar.navbar-default .navbar-nav>li {
         margin-right: 0
