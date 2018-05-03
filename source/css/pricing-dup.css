@@ -1706,6 +1706,10 @@ i.zmdi.zmdi-twitter-box {
 	.dropdown .dropdown-sub-content a:last-child {
 		border-bottom: none;
 	}
+	.drop-sub-menu a.active {
+		color: #4793c5;
+		background: none;
+	}
 
 /* end: use case dropdown */
 

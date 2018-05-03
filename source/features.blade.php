@@ -114,15 +114,12 @@
 			</div>
 		</div>
 	</section>
-	<section class="section rs-hide">
-		<div class="container">
-			<div class="feature-heading mk-animate-element scale-up head-text">
-				The Development Studio
-			</div>
-		</div>
-	</section>
+
 	<section class="section section-studio">
 		<div class="container">
+			<div class="feature-heading">
+				The Development Studio
+			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np">
 					<img src="{{ $page->baseUrl }}/images/features-studio-icon1.png">
@@ -187,6 +184,29 @@
 			</div>
 		</div>
 	</section>	
+
+	<section class="section section-smart-builder">
+		<div class="container img-container-right mobile-container">
+			<div class="col-xs-12 col-sm-12 col-md-7 np">
+				<img alt="Smart Builder Accelerates Development to Minutes" src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="" />
+				<img alt="Smart Builder Accelerates Development to Minutes" class="" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-5">
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons icon-style">view_compact</i>
+				</span>
+				<h4 class="mk-animate-element right-to-left">
+					Smart Builder Accelerates Development to Minutes
+				</h4>
+				<span class="mk-animate-element right-to-left">
+					<!-- <i class="material-icons">view_compact</i> -->
+					<span>Easily craft questions and options with an easy to use intuitive interface. </span>
+				</span>
+			</div>
+		</div>
+	</section>
+
+
 	<!-- Feature page section 0 start-->
 	<section class="section section-f1 mb hide">
 		<div class="container mobile-container">
