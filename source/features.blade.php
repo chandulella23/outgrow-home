@@ -186,22 +186,23 @@
 	</section>	
 
 	<section class="section section-smart-builder">
-		<div class="container img-container-right mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-7 np">
-				<img alt="Smart Builder Accelerates Development to Minutes" src="{{ $page->baseUrl }}/images/feature-1-2.jpg" class="" />
-				<img alt="Smart Builder Accelerates Development to Minutes" class="" src="{{ $page->baseUrl }}/images/feature-1.jpg" />
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-5">
-				<span class="mk-animate-element right-to-left">
-					<i class="material-icons icon-style">view_compact</i>
-				</span>
-				<h4 class="mk-animate-element right-to-left">
-					Smart Builder Accelerates Development to Minutes
-				</h4>
-				<span class="mk-animate-element right-to-left">
-					<!-- <i class="material-icons">view_compact</i> -->
-					<span>Easily craft questions and options with an easy to use intuitive interface. </span>
-				</span>
+		<div class="container mobile-container">
+			<div class="col-md-12 col-sm-12 col-xs-12 np display-table">
+				<div class="col-xs-12 col-sm-12 col-md-7 np display-table-cell">
+					<img alt="Smart Builder Accelerates Development to Minutes" class="img-inner1 img-shadow" src="/images/feature-1.jpg">
+					<img alt="Smart Builder Accelerates Development to Minutes" class="img-inner2 img-shadow" src="/images/feature-1-2.jpg">				
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 display-table-cell smart-builder-right">
+					<img src="{{ $page->baseUrl }}/images/features-icon-smartBuilder.png">
+					<h4 class="feature-subheading">Smart Builder Accelerates Development to Minutes </h4>
+					<span class="feature-subtitle">Easily craft questions and options with an easy-to-use intuitive interface. </span>
+					<ul>
+						<li><img src="{{ $page->baseUrl }}/images/features-smartBuilder-sm-icon1.png">Text Input </li>
+						<li><img src="{{ $page->baseUrl }}/images/features-smartBuilder-sm-icon2.png">Single Select, Multi Select </li>
+						<li><img src="{{ $page->baseUrl }}/images/features-smartBuilder-sm-icon3.png">Numeric Slider </li>
+						<li><img src="{{ $page->baseUrl }}/images/features-smartBuilder-sm-icon4.png">Opinion Scale, Rating </li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
