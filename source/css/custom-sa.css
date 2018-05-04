@@ -6310,6 +6310,11 @@ iframe[name=google_conversion_frame] {
 		left: -80px !important;
 	}
 }
+@media (min-width:1280px) and (max-width:1280px){
+	.dropdown .dropdown-content {
+		left: -70px !important;
+	}
+}
 @media (max-width:767px) {
 	.circle-logo{
 		height: 35px;

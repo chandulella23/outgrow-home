@@ -1130,17 +1130,19 @@
 
             <div class="col-md-12 col-sm-12 col-xs-12 np create-exp" id="target">
                 <div class="container">
-                    <div class="inner-container">
-                        <div class="pull-left">
-                            Too busy to create an interactive experience yourself?<br/>
-                            <span>Let us create a professional one for you.</span>
-                        </div>
-                        <div class="pull-right">
-                            <button class="btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">Get a Quote</button>
-                            <span>Prices start at $99 </span>
-                        </div>
-                        <button class="closeDiv"><i class="material-icons">cancel</i></button>
+                    <div class="col-md-3 col-sm-3 col-xs-12 np">
+                        <h5>Create Custom </h5>
+                        <span class="calc">Calculators/Quiz/Outcome/Poll</span>
                     </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 np text-center create-exp-center">
+                        <span class="create-exp-start">Starting From </span> &nbsp;
+                        <span class="create-exp-price">$250</span>
+                        <span class="text-opacity">/content piece</span>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 np">
+                        <button class="btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">CLICK HERE</button>
+                    </div>
+                    <!-- <button class="closeDiv"><i class="material-icons">cancel</i></button> -->
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
