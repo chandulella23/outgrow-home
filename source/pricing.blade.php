@@ -1137,7 +1137,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12 np text-center create-exp-center">
                         <span class="create-exp-start">Starting From </span> &nbsp;
                         <span class="create-exp-price">$250</span>
-                        <span class="text-opacity">/content piece</span>
+                        <span class="text-opacity">/content pieces</span>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12 np">
                         <button class="btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">CLICK HERE</button>
