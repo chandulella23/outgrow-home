@@ -5,6 +5,8 @@ jQuery(document).ready(function () {
 
     jQuery('.navbar ul li .dropdown-sub-content a').on('click', function ($event) {
         // jQuery('.case-study-tabs').removeClass('active');
+        jQuery('.nav-case').removeClass('active');
+        jQuery(this).addClass('active');
         let text = jQuery(event.target).text().trim();
         jQuery('.case-study-tabs').removeClass('active');
         jQuery('.tab-pane').removeClass('active');

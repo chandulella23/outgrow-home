@@ -376,7 +376,11 @@
 		left: -80px !important;
 	}
 }
-
+@media (min-width:1280px) and (max-width:1280px){
+	.dropdown .dropdown-content {
+		left: -70px !important;
+	}
+}
 @media (min-width: 1024px) and (max-width:1200px) {
 	#pricing .container-faqs {
 		width: 900px;
