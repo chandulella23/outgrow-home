@@ -6310,6 +6310,11 @@ iframe[name=google_conversion_frame] {
 		left: -80px !important;
 	}
 }
+@media (min-width:1280px) and (max-width:1280px){
+	.dropdown .dropdown-content {
+		left: -70px !important;
+	}
+}
 @media (max-width:767px) {
 	.circle-logo{
 		height: 35px;
@@ -7327,10 +7332,11 @@ i.zmdi.zmdi-twitter-box {
 		box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
 		transition: .5s ease-in-out;
 	}
-	.img-wrapper .btn-red:hover {
+	.img-wrapper .btn-red:hover, .img-wrapper .btn-red:focus, .img-wrapper .btn-red:active {
 		background: #fb757b;
 		color: #fff;
 		border-color: #f8434b;
+		outline: none;
 	}
 	.section-companyReviews {
     	float: left;
