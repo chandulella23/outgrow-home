@@ -1770,36 +1770,59 @@ i.zmdi.zmdi-twitter-box {
 .create-exp .container {
     max-width: 950px;
     background: #fff;
-    box-shadow: 0 0px 7px rgba(0,0,0,.1);
+    box-shadow: 0px 6px 24px rgba(0,0,0,.05);
     margin-top: 30px;
-	padding: 20px;
-	font-size: 14px;
-    color: #2b93be;
-    font-family: montserratregular;
+    padding: 17px 30px;
+    border: 1px solid #eff0f1;
 }
-.create-exp .container .inner-container {
-    max-width: 550px;
-    margin: 0 auto;
+.create-exp .container h5 {
+    font-size: 18px;
+    color: #fb5f66;
+	font-family: montserratregular;
+	margin-top: 0;
+    margin-bottom: 5px;
 }
 .create-exp .container span {
-    font-size: 18px;
+    font-size: 13px;
+    color: #61696c;
+    font-family: montserratlight;
+    opacity: 0.8;
 }
 .create-exp .container .btn-white-red-outline {
-    background: #fff;
-    border: 1px solid #fb5f66;
+    background: #fb5f66;
     font-size: 13px;
+    color: #fff;
+    font-family: montserratlight;
+    padding: 8px 20px;
+    outline: none;
+    box-shadow: none;
+    float: right;
+	text-transform: uppercase;
+	margin-top: 4px;
+}
+.create-exp .container span.create-exp-price {
+    font-size: 40px;
     color: #fb5f66;
     font-family: montserratsemibold;
-	padding: 3px 30px;
-	outline: none;
-    box-shadow: none;
+    opacity: 1;
 }
-.create-exp .container .pull-right span {
+.create-exp-center {
     font-size: 11px;
-    color: #90989e;
-    font-family: montserratregular;
-    display: block;
-    text-align: center;
+    color: #61696c;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px;
+    line-height: 34px;
+}
+.create-exp span.create-exp-start {
+    font-size: 11px;
+    color: #61696c;
+	font-family: montserratlight;
+	position: relative;
+    top: -10px;
+}
+.create-exp .container .text-opacity {
+    opacity: 0.5;
 }
 .create-exp button.closeDiv {
     float: right;
