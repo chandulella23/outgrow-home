@@ -131,9 +131,13 @@
 @media (min-width:320px) and (max-width:420px){
 	.create-exp .container .text-opacity { display: block;}
 	.create-exp-center {
-		line-height: 22px;
+		/* line-height: 22px; */
 		margin: 25px 0px !important;
 	}
+	.create-exp span.create-exp-start { display: block;  top: 0;}
+	.create-exp .container span.create-exp-price {display: block;}
+
+
 }
 
 @media (min-width: 440px) and (max-width:768px) {
@@ -344,9 +348,9 @@
 	.create-exp .container .col-sm-6 {width: 100%; text-align: center;}
 	.create-exp .container .btn-white-red-outline {float: none;}
 	.create-exp-center {
-		margin: 15px 0;
+		margin: 15px 0; width: 100%;
 	}
-	.create-exp .container {width: 100%;}
+	.create-exp .container, .create-exp .container .col-md-2 {width: 100%;     text-align: center;}
 
 
 }
