@@ -220,7 +220,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<span>Free Trial. No credit card required!</span>
-							<button type="button" class="btn btn-red">Generate leads with Outgrow </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"><button type="button" class="btn btn-red">Generate leads with Outgrow </button></a>
 						</div>
 					</div>
 				</section>
@@ -366,7 +366,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<span>Free Trial. No credit card required!</span>
-							<button type="button" class="btn btn-red">Generate leads with Outgrow </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"><button type="button" class="btn btn-red">Generate leads with Outgrow </button></a>
 						</div>
 					</div>
 				</section>
@@ -505,7 +505,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<span>Free Trial. No credit card required!</span>
-							<button type="button" class="btn btn-red">Generate leads with Outgrow </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"><button type="button" class="btn btn-red">Generate leads with Outgrow </button></a>
 						</div>
 					</div>
 				</section>
@@ -642,7 +642,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<span>Free Trial. No credit card required!</span>
-							<button type="button" class="btn btn-red">Generate leads with Outgrow </button>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"><button type="button" class="btn btn-red">Generate leads with Outgrow </button></a>
 						</div>
 					</div>
 				</section>
