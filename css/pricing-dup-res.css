@@ -89,7 +89,7 @@
 	#pricing .pricing-headingtop {margin-top: 0px !important; padding: 20px 0px; margin-bottom: 0px;}
 	.pricing-switch {margin-bottom: 30px;}
 	.faq-section {margin-right: 0;}
-	.col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;}
+	/* .col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;} */
 
 	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
 	.dropdown .dropdown-content {display: block !important;}
@@ -120,6 +120,9 @@
 		width: 100%;
 	}
 	.create-exp .container .btn-white-red-outline {float: none;}
+	#footer.section-14 .container .col-sm-12 {
+		padding-left: 0 !important;
+	}
 
 }
 
@@ -537,9 +540,9 @@
 
 
 @media only screen and (max-width: 767px) and (min-width: 480px){
-	.footer-link ul li {
+	/* .footer-link ul li {
 		width: 50%;
-	}
+	} */
 	
 }
 @media (min-width:991px) and (max-width:1199px){
@@ -554,7 +557,9 @@
 	.navbar-collapse.in{overflow-y:visible}
 	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}
 }
-
+@media (min-width:320px) and (max-width:380px){
+	.footer-link {width: 100%;}
+}
 @media(min-width:320px) and (max-width:1023px) {
 	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
 	.dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;}
