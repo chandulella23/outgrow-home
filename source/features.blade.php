@@ -309,7 +309,7 @@
 	<section class="section section-embed-anywhere">
 		<div class="container">
 			<div class="feature-heading">Embed Anywhere </div>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
+			<div class="col-md-12 col-sm-12 col-xs-12 np embed-anywhere-inner">
 				<div class="col-md-4 col-sm-12 col-xs-12 np">
 					<img src="{{ $page->baseUrl }}/images/features-embed-fullscreen.png" alt="Full Screen">
 					<span>Full Screen</span>
@@ -332,7 +332,7 @@
 	<section class="section section-boost-marketing">
 		<div class="container">
 			<div class="feature-heading">Boost Your Marketing </div>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
+			<div class="col-md-12 col-sm-12 col-xs-12 np section-boost-marketing-inner">
 				<div class="col-md-4 col-sm-12 col-xs-12 np">
 					<img src="{{ $page->baseUrl }}/images/features-boost-marketing1.png" alt="Close the Marketing Loop">
 					<span>Close the Marketing Loop</span>

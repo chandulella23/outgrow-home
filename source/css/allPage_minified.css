@@ -2715,7 +2715,7 @@ label.control-label {
 .img-1-text{top:-15px;left:40px}
 .img-2-text{top:25px;left:-30px}
 .footer-copyright p,.footer-link ul li a{font-family:montserratregular;font-size:13px}
-.footer-img,.footer-link{padding-left:0}
+.footer-img,.footer-link{padding-left:0; padding-right: 0px;}
 .footer-link { /* to make the row height equal */
 	float: left;
     display: -webkit-box;
@@ -3819,7 +3819,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 			padding-top: 0;
 			padding-bottom: 15px;
 		}
-		.col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;}
+		/* .col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;} */
 
 		
 
@@ -3851,6 +3851,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.custom-navbar.navbar-default .navbar-nav>li {
 		margin-right: 0 !important;
+	}
+	#footer.section-14 .container .col-sm-12 {
+		padding-left: 0 !important;
 	}
 
 
@@ -3970,6 +3973,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	} */
 	.home-imgs li {margin: 40px 20px 10px 10px;}
 	/* .case-productHunt {padding-bottom: 0px !important;} */
+
 	
 
 }
@@ -4003,6 +4007,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 @media (min-width:414px) and (max-width:414px){
 	.sec4-2{position:absolute;left:52%;top:-4%;height:275px;box-shadow:2px 0 8px 2px rgba(0,0,0,.1)}
 	.section-7 .slider-sa,.section-8 .slider-sa,.section-9 .slider-sa{min-height:250px;padding:0}
+}
+@media (min-width:320px) and (max-width:380px){
+	.footer-link {width: 100%;}
 }
 @media (min-width:440px) and (max-width:768px){
 	.sahil-material .claim-cta .form-group .form-control {
@@ -5748,7 +5755,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 }
 @media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50%;}
+	/* .footer-link ul li {width: 50%;} */
 }
 
 
@@ -20318,3 +20325,7 @@ i.zmdi.zmdi-twitter-box {
 	}
 
 /* end: use case dropdown */
+
+#footer.section-14 .container .col-sm-12 {
+    padding-left: 15px;
+}

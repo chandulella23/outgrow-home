@@ -312,7 +312,8 @@ label {
 		font-size: 13px
 	}
 	.footer-img, .footer-link {
-		padding-left: 0
+		padding-left: 0;
+		padding-right: 0px;
 	}
 	.footer-link { /* to make the row height equal */
 		float: left;
@@ -1760,4 +1761,8 @@ i.zmdi.zmdi-twitter-box {
 }
 .custom-navbar .signUp a:hover {
     opacity: 0.5;
+}
+
+#footer.section-14 .container .col-sm-12 {
+    padding-left: 15px;
 }
