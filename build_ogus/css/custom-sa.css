@@ -1905,7 +1905,8 @@ label {
 	font-size: 13px
 }
 .footer-img, .footer-link {
-	padding-left: 0
+	padding-left: 0;
+	padding-right: 0px;
 }
 .footer-link { /* to make the row height equal */
 	float: left;
@@ -3681,7 +3682,7 @@ button.swiper-pagination-bullet {
     color: #62696d;
     line-height: 22px;
     width: 100%;
-    padding: 0px 10%;
+    padding: 0px 16%;
     opacity: 0.7;
     float: left;
 }
@@ -5762,6 +5763,12 @@ iframe[name=google_conversion_frame] {
 }
 @media(min-width:320px) and (max-width:768px) { 	
 	.feature-heading-1 {padding-top: 10px !important;}
+	#footer.section-14 .container .col-sm-12 {
+		padding-left: 0 !important;
+	}
+}
+@media (min-width:320px) and (max-width:380px){
+	.footer-link {width: 100%;}
 }
 /* feature page css */
 	#feature .sec-5-text h5 {
@@ -6561,7 +6568,7 @@ i.zmdi.zmdi-twitter-box {
 }
 
 @media only screen and (min-width:480px) and (max-width:767px){
-	.footer-link ul li {width: 50% !important;}	 
+	/* .footer-link ul li {width: 50% !important;}	  */
     .metrics-inner {
         padding-left: 50px;
         padding-right: 50px;
@@ -7728,7 +7735,7 @@ i.zmdi.zmdi-twitter-box {
 		width: 345px;
 		background: #fff;
 		transition: .3s ease-in-out;
-		margin-right: 45px;
+		margin-right: 52px;
 		border: 1px solid #e5e5e5;
 	}
 	.multiple-results-block:last-child {
@@ -7776,6 +7783,12 @@ i.zmdi.zmdi-twitter-box {
 		background: #f3f8fb;
 		padding: 30px 0px;
 	}
+	.embed-anywhere-inner .col-md-4:nth-child(2) {
+		padding-left: 45px;
+	}
+	.embed-anywhere-inner .col-md-4:nth-child(3) {
+		padding-left: 50px;
+	}
 	.section-embed-anywhere img {
 		display: block;
 	}
@@ -7784,19 +7797,25 @@ i.zmdi.zmdi-twitter-box {
 		color: #62696d;
 		font-family: montserratregular;
 		display: block;
-    	margin-top: 25px;
+    	margin-top: 20px;
 	}
 	.section-embed-anywhere p {
 		font-size: 14px;
 		font-family: montserratlight;
 		color: #62696d;
 		line-height: 22px;
-		width: 52%;
+		width: 60%;
 		padding-top: 15px;
 		opacity: 0.7;
 	}
 	.section-boost-marketing {
 		margin-top: 0px;
+	}
+	.section-boost-marketing-inner .col-md-4:nth-child(2) {
+		padding-left: 45px;
+	}
+	.section-boost-marketing-inner .col-md-4:nth-child(3) {
+		padding-left: 50px;
 	}
 	.section-boost-marketing img {
 		display: block;
@@ -7818,6 +7837,7 @@ i.zmdi.zmdi-twitter-box {
 		padding-top: 15px;
 		opacity: 0.7;
 	}
+	#feature .section.section-10.sec-help .container {width: 100%;}
 
 /* start: css of feature page  */
 
@@ -7979,4 +7999,9 @@ i.zmdi.zmdi-twitter-box {
 	.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}
 	.navbar-collapse.in{overflow-y:visible}
 	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}
+}
+
+
+#footer.section-14 .container .col-sm-12 {
+    padding-left: 15px;
 }
