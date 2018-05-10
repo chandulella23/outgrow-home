@@ -1819,7 +1819,9 @@ i.zmdi.zmdi-twitter-box {
     color: #61696c;
 	font-family: montserratlight;
 	position: relative;
-    top: -10px;
+	top: -10px;
+	margin-right: 5px;
+    opacity: 1;
 }
 .create-exp .container .text-opacity {
     opacity: 0.5;
