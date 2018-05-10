@@ -105,7 +105,23 @@
 @media (min-width: 640px) and (max-width:768px) {
 	.allPlans-blocks-640{width: 50%;}
 }
+@media (max-width: 768px) and (min-width: 768px) {
+	.sec-cookies p {
+		width: 65% !important;
+	}
+	.sec-cookies .btn-understand {
+		float: left !important;
+		margin-left: 30px;
+	}
+	.sec-cookies .btn-understand {
+		float: left !important;
+		margin-left: 30px;
+	}
+	.sec-cookies a i.material-icons {
+		right: 20px !important;
+	}
 
+}
 @media (min-width: 768px) and (max-width:1024px){
 	#pricing .custom-navbar.navbar-default .navbar-nav > li {
 		margin-right: 0px;
@@ -343,7 +359,11 @@
 	}
 
 }
-
+@media (min-width: 0px) and (max-width: 1280px){
+	.sec-cookies i.material-icons {
+		right: -10px !important;
+	}
+}
 @media (min-width: 1024px) and (max-width:1024px) {
 	#pricing .loader{
 		margin-left:26%;
@@ -562,6 +582,24 @@
 	}
 	.navbar-nav > li > a.active.hvr-underline-from-left:before {
 		display: none;
+	}
+	.sec-cookies {
+		padding: 20px; 
+		text-align: center;
+		font-size: 12px !important;
+	}
+	.sec-cookies p {
+		width: 100% !important;
+	}
+	.sec-cookies .btn-understand {
+		padding: 7px 20px !important;
+		font-size: 11px !important;
+		float: none !important;
+		margin-top: 20px;
+	}
+	.sec-cookies i.material-icons {
+		right: -12px !important;
+		top: -12px !important;
 	}
 
 }
