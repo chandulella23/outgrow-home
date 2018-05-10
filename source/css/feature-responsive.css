@@ -598,9 +598,6 @@
 	.section-embed-anywhere p {
 		margin-bottom: 35px;
 	}
-	.section-complex-formulas .img-inner1 {
-		width: 95%;
-	}
 
 
 
@@ -681,6 +678,10 @@
 		padding-left: 0px;
 	}
 }
+@media (min-width: 320px) and (max-width: 640px){
+	.section-studio span {padding-right: 0;}
+	.section-complex-formulas .img-inner1 {width:  90%;}
+}
 @media (min-width: 640px) and (max-width: 768px){
 	#feature .section-15 {
 		margin-top: 90px;
@@ -717,6 +718,12 @@
 
 
 
+
+}
+@media (min-width:700px) and (max-width:768px){
+	.section-studio .col-md-4 {
+		width: 50%;
+	}
 }
 @media (min-width:768px) and (max-width:768px){
 	#feature .sec4-2 {
