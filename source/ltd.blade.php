@@ -31,7 +31,8 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/pricing-dup-res-ltd.css">
 	<link rel='stylesheet' href='{{ $page->baseUrl }}/css/stylesheet.min.css' type='text/css' media='all'  />
 	<link rel='stylesheet' href='{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', '')
@@ -2676,6 +2677,7 @@
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="{{ $page->baseUrl }}/js/site.min.js"></script>
     <script src="{{ $page->baseUrl }}/js/pageScripts/pricing-ltd.js"></script>
+    <script src="{{ $page->baseUrl }}/js/pageScripts/navbar.js"></script>
 @endsection
 
 @section('pageScripts')

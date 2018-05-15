@@ -22,6 +22,7 @@
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', '')
@@ -953,5 +954,6 @@
 		"jssor": "{{ $page->baseUrl }}/js/jssor.min.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
 	}
 @endsection

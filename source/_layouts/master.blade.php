@@ -21,40 +21,43 @@
 	@yield('inlinescripts')
 </head>
 
-<body class="@yield('pageClass')" id="@yield('pageId')">
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<body class="@yield('pageClass')" id="@yield('pageId')">
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-	@include ('_partials.navbar')
+		<div class="overlay"></div> 
 
-	@yield('content')
+			@include ('_partials.navbar')
 
-	@include('_partials.footer')
+			@yield('content')
 
-	<script>
-		@yield('pageScripts');
+			@include('_partials.footer')
 
-		var loadedLibs = {};
-		var counter = 0;
-		var loadAsync = function(lib) {
-			var http = new XMLHttpRequest();
-			http.open("GET", libs[lib], true);
-			http.onload = function () {
-				loadedLibs[lib] = http.responseText;
-				if (++counter == Object.keys(libs).length) {
-					startScripts();
+		<script>
+			@yield('pageScripts');
+
+			var loadedLibs = {};
+			var counter = 0;
+			var loadAsync = function(lib) {
+				var http = new XMLHttpRequest();
+				http.open("GET", libs[lib], true);
+				http.onload = function () {
+					loadedLibs[lib] = http.responseText;
+					if (++counter == Object.keys(libs).length) {
+						startScripts();
+					}
+				}
+				http.send();
+			}
+			var startScripts = function() {
+				for (var lib in libs) {
+					eval(loadedLibs[lib]);
 				}
 			}
-			http.send();
-		}
-		var startScripts = function() {
 			for (var lib in libs) {
-				eval(loadedLibs[lib]);
+				loadAsync(lib);
 			}
-		}
-		for (var lib in libs) {
-			loadAsync(lib);
-		} 
-	</script>
-</body>
+			
+		</script>
+	</body>
 </html>

@@ -35,6 +35,7 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/animated-masonry-gallery.css" type="text/css" />
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase-responsive.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', 'usecase')
@@ -1349,6 +1350,7 @@
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
-		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js"
+		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
 	}
 @endsection

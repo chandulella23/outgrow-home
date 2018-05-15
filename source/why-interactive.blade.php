@@ -31,6 +31,7 @@
 	<link rel='stylesheet' href='{{ $page->baseUrl }}/css/stylesheet.min.css' type='text/css' media='all'  />
 	<link rel='stylesheet' href='{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1' type='text/css' media='all' />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', '')
@@ -1211,5 +1212,6 @@
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"whypage": "{{ $page->baseUrl }}/js/pageScripts/whypage.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
 	}
 @endsection

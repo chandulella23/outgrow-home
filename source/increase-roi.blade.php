@@ -21,7 +21,8 @@
 
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', '')
@@ -1470,5 +1471,6 @@
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
 	}
 @endsection
