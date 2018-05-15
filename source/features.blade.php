@@ -31,6 +31,7 @@
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/stylesheet.min.css" type="text/css" media='all'  />
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', '')
@@ -46,7 +47,7 @@
 						Feature Packed Calculators and Quizzes
 					</h3>
 					<h4>
-						Get new customers with powerful and easy to configure interactive calculators and quizzes
+						Get new customers with powerful and easy-to-configure interactive calculators and quizzes
 					</h4>
 				</div>
 				<div class=" full_section_inner clearfix">
@@ -147,7 +148,7 @@
 					<ul>
 						<li><i class="material-icons">keyboard_arrow_right</i>Your Logo</li>
 						<li><i class="material-icons">keyboard_arrow_right</i>Your Colors</li>
-						<li><i class="material-icons">keyboard_arrow_right</i>Your Assets (images, icons etc)</li>
+						<li><i class="material-icons">keyboard_arrow_right</i>Your Assets (images, icons etc.)</li>
 					</ul>
 					<span>The look and feel can be easily customized to showcase your brand.</span>
 				</div>
@@ -260,7 +261,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-4 np section-graphs-charts-right">
 					<img src="{{ $page->baseUrl }}/images/features-icon-graphsCharts.png" alt="Engage with Graphs and Charts">
 					<h4 class="feature-subheading">Engage with Graphs and Charts </h4>
-					<span class="feature-subtitle">Increase interactivity with dynamic charts based on user inputs </span>
+					<span class="feature-subtitle">Increase interactivity with dynamic charts based on user inputs. </span>
 					<ul>
 						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon1.png" alt="Bar Charts"><span>Bar Charts </span></li>
 						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon2.png" alt="Line Charts"><span>Line Charts </span></li>
@@ -476,5 +477,6 @@
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"waypoints": "//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js",
 		"features": "{{ $page->baseUrl }}/js/pageScripts/features.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
 	}
 @endsection

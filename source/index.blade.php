@@ -21,6 +21,7 @@
 
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
  @section('pageClass', '')
@@ -1687,6 +1688,7 @@
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 	}
 @endsection
