@@ -28,6 +28,7 @@
 	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
 
 		<link rel="stylesheet" href="/css/allPage_minified.css">
+	<link rel="stylesheet" href="/css/navbar.css">
 
 	<!-- Analytics Tracking Snippets Starts -->
 <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
@@ -134,23 +135,78 @@
 </style>
 	</head>
 
-<body class="" id="">
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<body class="" id="">
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
-<div class="container-fluid">
-	<div class="navbar-header">
-		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button> 
-		<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
+		<div class="overlay"></div> 
+
+			<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button> 
+			<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right" id="navlist">
+				<li class="dropdown">
+					<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a>
+					<div class="dropdown-content">
+						<a href="http://outgrow.co.in/calculator" class="">Calculators</a>
+						<a href="http://outgrow.co.in/quiz" class="">Quizzes </a>
+						<a href="http://outgrow.co.in/survey" class="">Surveys</a>
+						<a href="http://outgrow.co.in/increase-conversions" class="">Increase Conversions</a>
+						<a href="http://outgrow.co.in/increase-roi" class="">Increase ROI</a>
+						<a href="http://outgrow.co.in/increase-sales" class="">Increase Sales</a>
+					</div>
+				</li>
+				<li><a href="/why-interactive" onclick="callGA('WHY')" class="params" id="nav-why-interactive">Why Interactive Content ?</a></li>
+				<li><a href="/features" onclick="callGA('FEATURES')" class="params" id="nav-features">Features</a></li>
+				<li><a href="/pricing" onclick="callGA('PRICING')" class="params" id="nav-pricing">Pricing</a></li>
+				<!-- <li><a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li> -->
+				<li class="dropdown">
+					<a href="javascript:void(0);" onclick="callGA('USECASE')" class="params">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
+					<div class="dropdown-content">
+						<a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
+						<div class="drop-sub-menu">
+							<a href="/case-studies" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
+							<div class="dropdown-sub-content">
+								<a href="#tag" class="nav-case">TAG </a>
+								<a href="#getPaid" class="nav-case">Get Paid Your Pad </a>
+								<a href="#vp" class="nav-case">VenturePact </a>
+								<a href="#macroscape" class="nav-case">Macroscape </a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="login">
+					<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+				</li>
+				<li class="signUp signUp-style res-nav-hide">
+					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+				</li>
+				<li class="signUp res-nav-show">
+					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+				</li>
+			</ul>
+		</div> 
 	</div>
-	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<ul class="nav navbar-nav navbar-right" id="navlist">
+	
+	<button id="menu-toggle" type="button" class="btn navbar-toggle">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+
+	<div id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="material-icons">close</i></a>
 			<li class="dropdown">
 				<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a>
 				<div class="dropdown-content">
@@ -191,9 +247,9 @@
 				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
 			</li>
 		</ul>
-	</div> 
-</div>
+	</div>
 </nav> 
+
 
 
 <!-- <div class="header-logo">
@@ -201,7 +257,8 @@
 	<img src="/images/lp-header-logo.png" alt="lp-header-logo image">
 </a>
 </div> -->
-	 
+
+			 
 
 	<script src="/js/swiper.min.js"></script>
 	
@@ -1851,7 +1908,7 @@
 		</div>
 	</div>
 
-	<section class="section section-14 hide" id="footer">
+			<section class="section section-14 hide" id="footer">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 np">
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
@@ -2077,36 +2134,38 @@
 		</div>
 	</div>
 </section>
-	<script>
-			const libs = {
+		<script>
+				const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
 		"sitemin": "/js/site.min.js",
 		"index": "/js/pageScripts/index.js",
+		"navbar": "/js/pageScripts/navbar.js",
 		"resizer": "/js/loader/resizer.js",
 	}
 ;
 
-		var loadedLibs = {};
-		var counter = 0;
-		var loadAsync = function(lib) {
-			var http = new XMLHttpRequest();
-			http.open("GET", libs[lib], true);
-			http.onload = function () {
-				loadedLibs[lib] = http.responseText;
-				if (++counter == Object.keys(libs).length) {
-					startScripts();
+			var loadedLibs = {};
+			var counter = 0;
+			var loadAsync = function(lib) {
+				var http = new XMLHttpRequest();
+				http.open("GET", libs[lib], true);
+				http.onload = function () {
+					loadedLibs[lib] = http.responseText;
+					if (++counter == Object.keys(libs).length) {
+						startScripts();
+					}
+				}
+				http.send();
+			}
+			var startScripts = function() {
+				for (var lib in libs) {
+					eval(loadedLibs[lib]);
 				}
 			}
-			http.send();
-		}
-		var startScripts = function() {
 			for (var lib in libs) {
-				eval(loadedLibs[lib]);
+				loadAsync(lib);
 			}
-		}
-		for (var lib in libs) {
-			loadAsync(lib);
-		} 
-	</script>
-</body>
+			
+		</script>
+	</body>
 </html>
