@@ -1,4 +1,31 @@
 jQuery(document).ready(function () {
+    let tag = location.href.split('#');
+    if(tag.length > 1) {
+        console.log(tag);
+        jQuery('.case-study-tabs').removeClass('active');
+        jQuery('.tab-pane').removeClass('active');
+        switch(tag[1]) {
+            case 'tag':
+                jQuery('.nav-case-tag').addClass('active');
+                jQuery('.tab-pane-tag').addClass('active');
+            break;
+            case 'getPaid':
+                jQuery('.nav-case-gpyp').addClass('active');
+                jQuery('.tab-pane-gpyp').addClass('active');
+            break;
+            case 'vp':
+                jQuery('.nav-case-vp').addClass('active');
+                jQuery('.tab-pane-vp').addClass('active');
+            break;
+            case 'macroscape':
+                jQuery('.nav-case-macroscape').addClass('active');
+                jQuery('.tab-pane-macroscape').addClass('active');
+            break;
+            default:
+            break;
+        }
+    }
+    http://localhost:8000/case-studies#tag
     jQuery('.counter').counterUp();
     jQuery('#nav-case-studies').addClass('active');
     jQuery('#nav-why-interactive').removeClass('active');

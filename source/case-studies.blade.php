@@ -44,7 +44,7 @@
         function counterUp(tab) {
 			jQuery('.counter').counterUp();
 			jQuery('.nav-tabs a[href="#' + tab + '"]').tab('show');
-			//jQuery(`#${tab}`).tab('show');
+			//jQuery(`#${tab}`).tab('show');{tab}`).tab('show');
         }
 	</script>
 
