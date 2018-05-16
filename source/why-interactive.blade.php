@@ -44,7 +44,7 @@
 		<div class="container-fluid">
 			<div class="">
 				<h3>Let’s Start With The Metrics</h3>
-				<h5 class="section-2-subheading">Simple pricing, No Hidden costs, No transaction based fees</h5>
+				<h5 class="section-2-subheading">Simple pricing. No Hidden costs. No transaction-based fees</h5>
 			</div>
 		</div>
 		<div class="container">
@@ -110,7 +110,7 @@
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">More people are searching for “How much does x cost” or “What is my risk of getting a X disease”. With calculators, get to the top of google results. </span>
+								<span class="list">More people are searching for “How much does X cost” or “What is my risk of getting a X disease”. With calculators, get to the top of search results. </span>
 							</li>
 						</ul>
 					</div>
@@ -137,7 +137,7 @@
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Calculators see conversion that is interestingly a magnitude higher than your run in the mill landing pages.  </span>
+								<span class="list">Conversion rate from calculators is a magnitude higher than your run-of-the-mill landing pages. </span>
 							</li>
 						</ul>
 					</div>
