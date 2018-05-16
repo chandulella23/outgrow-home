@@ -20334,3 +20334,6 @@ i.zmdi.zmdi-twitter-box {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: transparent;
 }
+.arrow_box:hover img, .testactive img.over {
+    outline: 1px solid white;
+}
