@@ -33,10 +33,10 @@
 						<div class="drop-sub-menu">
 							<a href="{{ $page->baseUrl }}/case-studies" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
 							<div class="dropdown-sub-content">
-								<a href="#tag" class="nav-case">TAG </a>
-								<a href="#getPaid" class="nav-case">Get Paid Your Pad </a>
-								<a href="#vp" class="nav-case">VenturePact </a>
-								<a href="#macroscape" class="nav-case">Macroscape </a>
+								<a href="case-studies#tag" class="nav-case nav-link-tag">TAG </a>
+								<a href="case-studies#getPaid" class="nav-case nav-link-gpyp">Get Paid Your Pad </a>
+								<a href="case-studies#vp" class="nav-case nav-link-vp">VenturePact </a>
+								<a href="case-studies#macroscape" class="nav-case nav-link-macro">Macroscape </a>
 							</div>
 						</div>
 					</div>
@@ -86,10 +86,10 @@
 					<div class="drop-sub-menu">
 						<a href="{{ $page->baseUrl }}/case-studies" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
 						<div class="dropdown-sub-content">
-							<a href="#tag" class="nav-case">TAG </a>
-							<a href="#getPaid" class="nav-case">Get Paid Your Pad </a>
-							<a href="#vp" class="nav-case">VenturePact </a>
-							<a href="#macroscape" class="nav-case">Macroscape </a>
+							<a href="case-studies#tag" class="nav-case nav-link-tag">TAG </a>
+							<a href="case-studies#getPaid" class="nav-case nav-link-gpyp">Get Paid Your Pad </a>
+							<a href="case-studies#vp" class="nav-case nav-link-vp">VenturePact </a>
+							<a href="case-studies#macroscape" class="nav-case nav-link-macro">Macroscape </a>
 						</div>
 					</div>
 				</div>
