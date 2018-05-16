@@ -3663,7 +3663,7 @@ button.swiper-pagination-bullet {
     background: #fff;
     margin-bottom: 20px;
     margin-top: 0;
-    padding: 60px 0px;
+    padding: 60px 0px 30px;
 }
 #feature .section.section-10.sec-help span {
     font-size: 15px;
@@ -6765,7 +6765,7 @@ i.zmdi.zmdi-twitter-box {
 		min-width: 145px;
 		float: left;
 		border-radius: 5px;
-		margin: 0 10px 0 20px;
+		margin: 0 15px 0 15px;
 		text-align:center;
 		cursor:pointer;
 	}
@@ -8005,4 +8005,7 @@ i.zmdi.zmdi-twitter-box {
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: transparent;
+}
+.arrow_box:hover img, .testactive img.over {
+    outline: 1px solid white;
 }
