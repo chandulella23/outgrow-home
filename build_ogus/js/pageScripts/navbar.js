@@ -22,7 +22,6 @@ jQuery(document).ready(function () {
         jQuery('#sidebar-wrapper').removeClass('active');
         jQuery('.overlay').fadeOut("slow");
         jQuery("html,body").css({"overflow": "auto"});
-    });
-
+    });    
 
 })
