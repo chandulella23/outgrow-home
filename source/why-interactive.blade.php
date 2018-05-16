@@ -1193,26 +1193,6 @@
 			</div>
 		</div>
 	</section>
-	<section class="section section-w3 why-blue">
-		<div class="container img-container-right">
-
-		   <div class="col-xs-12 col-sm-12 col-md-5 section-w3-text">
-				<span class="mk-animate-element right-to-left">
-				  <i class="material-icons">view_week</i>
-				</span>
-				<h4 class="mk-animate-element left-to-right">
-					Enable Targeted Sales
-				</h4>
-				<span class="mk-animate-element right-to-left">
- 		          <span>Go beyond name and email with <b>real,
-						rich & useful data</b> about your customers.</span>
-					</span>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
-				<img alt="Enable Targeted Sales" src="//dzvexx2x036l1.cloudfront.net/graph-2-updated.jpg" class="mk-animate-element left-to-right" />
-			</div>
-		</div>
-	</section>
 
 	<section class="section section-video">		
 		<div class="section-2-heading">
