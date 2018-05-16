@@ -29,8 +29,24 @@
 		<link rel="stylesheet" href="/css/allPage_minified.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!-- Analytics Tracking Snippets Starts -->
-<script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
+	<!-- Page hiding snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-PDL5P5M':true});</script>
+
+
+<!-- Analytics Tracking Snippets Starts -->
+<!-- <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script> -->
+
+<script async>
+(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0];
+j.async=1;j.src=o;j.dataset.sumoSiteId='6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000';
+v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
+</script>
+
 <script type="text/javascript">
 
 	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -138,12 +154,49 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
+			<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+	<div class="navbar-header">
+		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button> 
+		<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
+	</div>
+	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right" id="navlist">
+			<li><a href="/why-interactive" onclick="callGA('WHY')" class="params hvr-underline-from-left" id="nav-why-interactive">Why Interactive Content ?</a></li>
+			<li><a href="/features" onclick="callGA('FEATURES')" class="params hvr-underline-from-left" id="nav-features">Features</a></li>
+			<li><a href="/pricing" onclick="callGA('PRICING')" class="params hvr-underline-from-left" id="nav-pricing">Pricing</a></li>
+			<li><a href="/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
+			   <li class="login">
+				   <a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+			   </li>
+			  <li class="signUp signUp-style res-nav-hide">
+				  <a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+			  </li>
+			<li class="signUp res-nav-show">
+				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+			</li>
+		</ul>
+	</div> 
+</div>
+</nav> 
+
+
+<!-- <div class="header-logo">
+<a href="https://outgrow.co/" class="">
+	<img src="/images/lp-header-logo.png" alt="lp-header-logo image">
+</a>
+</div> -->	
 	
-	<div class="header-logo">		
+	<!-- <div class="header-logo">		
 		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_ROI_page" class="" target="_blank">
 			<img src="https://dzvexx2x036l1.cloudfront.net/lp-header-logo.png" alt="lp-header-logo image">
 		</a>
-	</div>
+	</div> -->
 
 	<!-- start: landing page HTML  -->
 	<section class="section section-banner section-banner-roi">
@@ -169,17 +222,17 @@
 		</div>
 	</section>
 
-	<section class="section section-second section-second-survey">
+	<section class="section section-second section-second-roi">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading">Generate More Revenue And Get Better ROI With Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
+				<div class="section-heading">Get Better ROI On Your Marketing With Outgrow’s Sophisticated Quizzes, Calculators And Assessments. </div>
 				<img class="rs-show" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image">
 				<ul>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Ready-to-use, customizable templates so that you don’t have to worry about design and code </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>All templates have been heavily optimized to improve conversion on both desktop and mobile </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>See record conversion rates with interactive lead generation forms </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Track visits, conversions and traffic across all channels </span> </li>
-					<li><i class="material-icons">keyboard_arrow_right</i> <span>Send and receive data from over 1000 apps with our powerful integrations </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content like quizzes, calculators and assessments give you the maximum possible ROI on your marketing by generating highly-qualified leads </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content can be plugged in at any step of your marketing funnel, be it awareness, acquisition, activation or retention </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>The high-conversion rates for quizzes, calculators and assessments means that you get the maximum benefit out of every interactive experience that you create </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Interactive content helps you close more deals by giving your sales team valuable lead info which helps them focus their energy on the highest-value accounts </span> </li>
+					<li><i class="material-icons">keyboard_arrow_right</i> <span>Outgrow’s support team works with you at every step of the way to make sure that you generate maximum ROI out of your Outgrow subscription </span> </li>
 				</ul>
 				<img class="rs-hide" src="https://dzvexx2x036l1.cloudfront.net/lp-section-second-img.png" alt="lp-section-second-img image"> 
 			</div>
@@ -1525,12 +1578,12 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
 					<div class="img-scaler">
-						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading2_increase-roi.png" alt="Why you Need a ROI Calculator on your Website"> 
+						<img src="https://dzvexx2x036l1.cloudfront.net/lp-reading2_increase-roi.png" alt="4 Inspiring Growth-Hacking Examples You Need to Know"> 
 					</div>
 					<div class="col-md-12 np reading-content">
-						<h4>Why you Need a ROI Calculator on your Website </h4>
-						<p>What makes top companies rely on ROI (Return on Investment) calculators? Let's understand why it's important to have an ROI calculator on your website. </p>
-						<a href="https://outgrow.co/blog/roi-calculator-website?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<h4>4 Inspiring Growth-Hacking Examples You Need to Know </h4>
+						<p>These real-life growth-hacking examples will give you some inspiration while you hustle to come up with growth strategies for your business. </p>
+						<a href="https://outgrow.co/blog/growth-hacking-examples?utm_source=website&utm_medium=link&utm_campaign=outgrow_ROI_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
@@ -1568,6 +1621,118 @@
 	<!-- end: landing page HTML  -->
 
 
+			<section class="section section-14" id="footer">
+	<div class="container">
+		<div class="col-xs-12 col-sm-12 np">
+			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
+				<h4>Overview</h4>
+				<ul>
+					<li><a href="/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
+					<li><a href="/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
+					<li><a href="/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
+					<li><a href="/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
+					<li><a href="/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
+					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
+					<li><a href="http://resources.outgrow.co/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="http://resources.outgrow.co/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
+				<h4>Our Live Calculators</h4>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer1.jpg" src="" alt="Our Live Calculators footer image" /></div>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer2.jpg" src="" alt="Our Live Calculators footer image" /></div>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer4.jpg" src="" alt="Our Live Calculators footer image" /></div>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer3.jpg" src="" alt="Our Live Calculators footer image" /></div>
+			</div>
+			<div class="col-xs-12 col-sm-10 np footer-link mk-animate-element fade-in">
+				<h4 class="footer-img2text col-xs-12">Resources</h4>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist/?utm_source=footer">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
+					</div>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="//dzvexx2x036l1.cloudfront.net/footer5.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/?utm_source=footer">Make Your Digital Marketing Agency Stand Out</a>
+					</div>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/university-college-calculators/?utm_source=footer">7 Interactive Calculators Every University Needs on Its Website</a>
+					</div>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="//dzvexx2x036l1.cloudfront.net/res4.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads/?utm_source=footer">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
+					</div>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="//dzvexx2x036l1.cloudfront.net/footer7.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies/?utm_source=footer">9 Calculators Every SaaS Company Should Consider</a>
+					</div>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="//dzvexx2x036l1.cloudfront.net/res7.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/?utm_source=footer">Value Added Marketing With Digital Experiences</a>
+					</div>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="//dzvexx2x036l1.cloudfront.net/res8.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/?utm_source=footer">Lead Generation With Interactive Calculators</a>
+					</div>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-3">
+					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res9.jpg" src="//dzvexx2x036l1.cloudfront.net/res9.jpg" alt="Resources" /></div>
+					<div class="col-xs-12 np footer-img-text">
+						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 np footer-social">
+			<ul>
+				<li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>
+				<li class="border-left"><a href="/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+				<li><a href="/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+				<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
+				<li><a href="https://angel.co/outgrow-5/jobs/?utm_source=footer" target=_blank>Careers</a></li>
+
+			</ul>
+			<div class="company-address">
+				401 park ave, 10th floor, New York 10016
+			</div>
+			<div class="footer-copyright">
+				<i class="material-icons">copyright</i>
+				<span>Copyright 2018</span>
+				<img class="scrollimg" data-scroll-img="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" src="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" alt="Footer logo" />
+				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section sec-cookies hide">
+	<div class="container">
+		<!-- <p>
+			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
+		</p> -->
+		<p>
+			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
+		</p>
+		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">I Understand</button>
+		<a href="javascript:void(0);" class="" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
+	</div>
+</section>	
+
 	<script>
 			const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
@@ -1597,7 +1762,7 @@
 		}
 		for (var lib in libs) {
 			loadAsync(lib);
-		} 
+		}
 	</script>
 </body>
 </html>

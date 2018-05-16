@@ -39,7 +39,8 @@
 @section('pageId', 'feature')
 
 @section('content')
-	<section class="section section-13">
+	<!-- hiding the top red bar of each page -->
+	 <section class="section section-13">
 		<div class="container-fluid">
 			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
 				<div class="feature-heading-1">
@@ -255,30 +256,17 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
 					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4 np section-graphs-charts-right">
-					<img src="{{ $page->baseUrl }}/images/features-icon-graphsCharts.png" alt="Engage with Graphs and Charts">
-					<h4 class="feature-subheading">Engage with Graphs and Charts </h4>
-					<span class="feature-subtitle">Increase interactivity with dynamic charts based on user inputs. </span>
-					<ul>
-						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon1.png" alt="Bar Charts"><span>Bar Charts </span></li>
-						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon2.png" alt="Line Charts"><span>Line Charts </span></li>
-						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon3.png" alt="Tables"><span>Tables </span></li>
-						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon4.png" alt="Pie Charts"><span>Pie Charts </span></li>
-					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
-
 	<section class="section section-multiple-results">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-12 np">
 				<div class="col-md-4 col-sm-4 col-xs-12 np multiple-results-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/features-result-multiple.jpg" alt="Multiple Results"> 
+						<img src="{{ $page->baseUrl }}/images/features-result-multiple.jpg" alt="Multiple Results">
 					</div>
 					<div class="col-md-12 np multiple-results-content">
 						<h4>Multiple Results</h4>
@@ -287,7 +275,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np multiple-results-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/features-result-realtime.jpg" alt="Real-time Results"> 
+						<img src="{{ $page->baseUrl }}/images/features-result-realtime.jpg" alt="Real-time Results">
 					</div>
 					<div class="col-md-12 np multiple-results-content">
 						<h4>Real-time Results</h4>
@@ -296,7 +284,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np multiple-results-block">
 					<div class="img-scaler">
-						<img src="{{ $page->baseUrl }}/images/features-result-endtoend.jpg" alt="End-to-End Analytics"> 
+						<img src="{{ $page->baseUrl }}/images/features-result-endtoend.jpg" alt="End-to-End Analytics">
 					</div>
 					<div class="col-md-12 np multiple-results-content">
 						<h4>End-to-End Analytics</h4>
@@ -364,6 +352,7 @@
 					</ul>
 					<p class="">Step up your social game with just one click. It really is that simple! </p>
 				</div>
+
 			</div>
 		</div>
 	</section>

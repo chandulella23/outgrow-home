@@ -36,8 +36,24 @@
 	<link rel='stylesheet' href="/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	<!-- Analytics Tracking Snippets Starts -->
-<script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
+	<!-- Page hiding snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-PDL5P5M':true});</script>
+
+
+<!-- Analytics Tracking Snippets Starts -->
+<!-- <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script> -->
+
+<script async>
+(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0];
+j.async=1;j.src=o;j.dataset.sumoSiteId='6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000';
+v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
+</script>
+
 <script type="text/javascript">
 
 	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -158,10 +174,10 @@
 	</div>
 	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right" id="navlist">
-			<li><a href="/why-interactive" onclick="callGA('WHY')" class="params">Why Interactive Content ?</a></li>
-			<li><a href="/features" onclick="callGA('FEATURES')" class="params">Features</a></li>
-			<li><a href="/pricing" onclick="callGA('PRICING')" class="params">Pricing</a></li>
-			<li><a href="/examples" onclick="callGA('USECASE')" class="params">Examples</a></li>
+			<li><a href="/why-interactive" onclick="callGA('WHY')" class="params hvr-underline-from-left" id="nav-why-interactive">Why Interactive Content ?</a></li>
+			<li><a href="/features" onclick="callGA('FEATURES')" class="params hvr-underline-from-left" id="nav-features">Features</a></li>
+			<li><a href="/pricing" onclick="callGA('PRICING')" class="params hvr-underline-from-left" id="nav-pricing">Pricing</a></li>
+			<li><a href="/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
 			   <li class="login">
 				   <a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 			   </li>
@@ -182,7 +198,8 @@
 	<img src="/images/lp-header-logo.png" alt="lp-header-logo image">
 </a>
 </div> -->
-		<section class="section section-13">
+		<!-- hiding the top red bar of each page -->
+	<!-- <section class="section section-13">
 		<div class="container-fluid">
 			<div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
 				<div class="feature-heading-1">
@@ -257,358 +274,361 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="section rs-hide">
-		<div class="container">
-			<div class="feature-heading mk-animate-element scale-up head-text">
-				The Development Studio
+	</section> -->
+	<!-- end: hiding the top red bar of each page -->
+	<section class="section-studio">
+		<section class="section rs-hide hide">
+			<div class="container">
+				<div class="feature-heading mk-animate-element scale-up head-text">
+					The Development Studio
+				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Feature page section 0 start-->
-	<section class="section section-f1 mb">
-		<div class="container mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-6 mk-animate-element scale-up rs-hide">
-				<div class="col-xs-12 col-sm-12 slider-sa np">
-					<div class="qode-cards-gallery-holder right" data-side=right>
-						<div class="qode-cards-gallery">
-							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/f-slide2.jpg"
-										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									/> </a>
+		</section>
+		<!-- Feature page section 0 start-->
+		<section class="section section-f1 mb feature-blue">
+			<div class="container mobile-container">
+				<div class="col-xs-12 col-sm-12 col-md-6 mk-animate-element scale-up rs-hide">
+					<div class="col-xs-12 col-sm-12 slider-sa np">
+						<div class="qode-cards-gallery-holder right" data-side=right>
+							<div class="qode-cards-gallery">
+								<div class="card" style="background-color:#f3f3f3">
+									<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/f-slide2.jpg"
+											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+										/> </a>
+								</div>
+								<div class="card" style="background-color:#f3f3f3">
+									<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/f-slide1.jpg"
+											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+										/> </a>
+								</div>
 							</div>
-							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/f-slide1.jpg"
-										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									/> </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 section-f1-left">
+					<h4 class="mk-animate-element left-to-right">
+						Variety of tools
+						to boost your
+						marketing
+					</h4>
+					<div class="secf1-test mk-animate-element left-to-right">
+						<span class="">
+							<i class="material-icons">trending_up</i>
+							<span>Numerical calculators </span>
+						</span>
+						<span class="">
+							<i class="material-icons">ac_unit</i>
+							<span>Outcome quizzes</span>
+						</span>
+						<span class="">
+							<i class="material-icons">devices</i>
+							<span>graded quizzes </span>
+						</span>
+					</div>
+					<span class="mk-animate-element right-to-left">
+						<span class="span-style">Some of our calculators have seen conversions of over 40-50%.</span>
+					</span>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 section-f1-right rs-show">
+					<div class="col-xs-12 col-sm-12 slider-sa">
+						<div class="rs-show">
+							<div class="swiper-container  mk-animate-element scale-up rs-show">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<img alt="Variety of tools to boost your marketing" src="//dzvexx2x036l1.cloudfront.net/f-slide2.jpg" alt="" class="qode-lazy-image" />
+									</div>
+									<div class="swiper-slide">
+										<img alt="Variety of tools to boost your marketing" src="//dzvexx2x036l1.cloudfront.net/f-slide1.jpg" alt="" class="qode-lazy-image" />
+									</div>
+								</div>
+								<!-- Add Pagination -->
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
+							<div class="qode-cards-gallery">
+								<div class="card" style="background-color:#f3f3f3">
+									<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide1.jpg"
+											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+										/> </a>
+								</div>
+								<div class="card" style="background-color:#f3f3f3">
+									<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide2.jpg"
+											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+										/> </a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-f1-left">
-				<h4 class="mk-animate-element left-to-right">
-					Variety of tools
-					to boost your
-					marketing
-				</h4>
-				<div class="secf1-test mk-animate-element left-to-right">
-					<span class="">
-						<i class="material-icons">trending_up</i>
-						<span>Numerical calculators </span>
-					</span>
-					<span class="">
-						<i class="material-icons">ac_unit</i>
-						<span>Outcome quizzes</span>
-					</span>
-					<span class="">
-						<i class="material-icons">devices</i>
-						<span>graded quizzes </span>
+		</section>
+		<!-- Feature page section 0 end-->
+		<!-- Feature page section 1 start-->
+		<section class="section section-f1 mb section-f1-new feature-white">
+			<div class="container mobile-container">
+				<div class="col-xs-12 col-sm-12 col-md-6 section-f1-left">
+					<h4 class="mk-animate-element left-to-right">
+						All layouts
+						are heavily
+						optimized for
+					</h4>
+					<div class="secf1-test mk-animate-element left-to-right">
+						<span class="">
+							<i class="material-icons">trending_up</i>
+							<span>Conversion </span>
+						</span>
+						<span class="">
+							<i class="material-icons">ac_unit</i>
+							<span>Engagement</span>
+						</span>
+						<span class="">
+							<i class="material-icons">devices</i>
+							<span>All screen sizes </span>
+						</span>
+					</div>
+					<span class="mk-animate-element right-to-left">
+						<!-- <i class="material-icons">format_paint</i> -->
+						<span class="span-style">Layouts are optimized through many A/B tests and usually see over 40% conversion rate.</span>
 					</span>
 				</div>
-				  <span class="mk-animate-element right-to-left">
-					<span class="span-style">Some of our calculators have seen conversions of over 40-50%.</span>
-				</span>
+				<div class="col-xs-12 col-sm-12 col-md-6 section-f1-right rs-show">
+					<div class="col-xs-12 col-sm-12 slider-sa">
+						<div class="rs-show">
+							<div class="swiper-container  mk-animate-element scale-up rs-show">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<img src="//dzvexx2x036l1.cloudfront.net/slide1.jpg" alt="All layouts are heavily optimized for" class="qode-lazy-image" />
+									</div>
+									<div class="swiper-slide">
+										<img src="//dzvexx2x036l1.cloudfront.net/slide2.jpg" alt="All layouts are heavily optimized for" class="qode-lazy-image" />
+									</div>
+								</div>
+								<!-- Add Pagination -->
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 mk-animate-element scale-up rs-hide">
+					<div class="col-xs-12 col-sm-12 slider-sa np">
+						<div class="qode-cards-gallery-holder left " data-side=left>
+							<div class="qode-cards-gallery">
+								<div class="card" style="background-color:#f3f3f3">
+									<a href="javascript:void(0);"> <img src="#" alt="All layouts are heavily optimized for" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide1.jpg"
+											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+										/> </a>
+								</div>
+								<div class="card" style="background-color:#f3f3f3">
+									<a href="javascript:void(0);"> <img src="#" alt="All layouts are heavily optimized for" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide2.jpg"
+											style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
+										/> </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-f1-right rs-show">
-				<div class="col-xs-12 col-sm-12 slider-sa">
-					<div class="rs-show">
-						<div class="swiper-container  mk-animate-element scale-up rs-show">
+		</section>
+		<!-- Feature page section 1 end-->
+
+		<!-- Featurepage section 2 start-->
+		<section class="section section-f2 feature-blue feature-blue-brand">
+			<div class="container img-container-right mobile-container">
+				<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right">
+					<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
+					<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right box-shadow" />
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-5 section-f2-left">
+					<span class="mk-animate-element right-to-left hide">
+						<i class="material-icons icon-style">format_paint</i>
+					</span>
+					<h4 class="mk-animate-element right-to-left">
+						Bring Out Your Brand
+					</h4>
+					<div class="secf2-test mk-animate-element left-to-right section-f2-new">
+						<span class="">
+							<i class="material-icons">trending_up</i>
+							<span>Your Logo </span>
+						</span>
+						<span class="">
+							<i class="material-icons">ac_unit</i>
+							<span>Your Colors</span>
+						</span>
+						<span class="">
+							<i class="material-icons">devices</i>
+							<span>Your Assets (images etc)</span>
+						</span>
+					</div>
+					<span class="mk-animate-element right-to-left">
+						<!-- <i class="material-icons">format_paint</i> -->
+						<span class="span-style">The look and feel can be easily customized to showcase your brand.</span>
+					</span>
+
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-f2-right">
+					<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
+					<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right" />
+				</div>
+			</div>
+		</section>
+		<!--Feature Page section 2 ends -->
+
+		<!--Feature Page section 3 starts -->
+		<section class="section section-15 feature-white feature-white-smart-builder">
+			<div class="container img-container-right mobile-container">
+				<div class="col-xs-12 col-sm-12 col-md-5 section-15-left">
+					<span class="mk-animate-element right-to-left">
+						<i class="material-icons icon-style">view_compact</i>
+					</span>
+					<h4 class="mk-animate-element right-to-left">
+						Smart Builder Accelerates Development to Minutes
+					</h4>
+					<span class="mk-animate-element right-to-left">
+						<!-- <i class="material-icons">view_compact</i> -->
+						<span>Easily craft questions and options with an easy to use intuitive interface. </span>
+					</span>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right section-15-right">
+					<img alt="Smart Builder Accelerates Development to Minutes" src="//dzvexx2x036l1.cloudfront.net/feature-1-2.jpg" class="mk-animate-element left-to-right img-left" />
+					<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-1.jpg" />
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-15-right">
+					<img alt="Smart Builder Accelerates Development to Minutes" src="//dzvexx2x036l1.cloudfront.net/feature-1-2.jpg" class="mk-animate-element left-to-right img-pos box-shadow " />
+					<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-1.jpg" />
+				</div>
+			</div>
+		</section>
+		<!-- Feature Page Section 3 ends -->
+
+		<!-- Feature Page Section 4 starts -->
+		<section class="section section-17 feature-blue feature-blue-formulas">
+			<div class="container img-container-right mobile-container">
+				<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide ">
+					<img alt="Easily Create Complex Formulas" src="//dzvexx2x036l1.cloudfront.net/feature-complexFormulas-01.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
+					<img alt="Easily Create Complex Formulas" class="sec17-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-complexFormulas-02.jpg" />
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-5 section-17-left">
+					<span class="mk-animate-element right-to-left">
+						<i class="material-icons icon-style">developer_board</i>
+					</span>
+					<h4 class="mk-animate-element right-to-left">
+						Easily Create Complex Formulas
+					</h4>
+					<span class="mk-animate-element right-to-left">
+						<!-- <i class="material-icons">developer_board</i> -->
+						<span>Calculate RoI, savings, percentages, discounts and whatever else you learned in stat class.</span>
+					</span>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-17-right">
+					<!-- <img src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
+					<img class="sec17-2 mk-animate-element left-to-right" src="//dzvexx2x036l1.cloudfront.net/f-sec4-2.jpg" /> -->
+					<img alt="Easily Create Complex Formulas" src="//dzvexx2x036l1.cloudfront.net/resultpage.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
+					<img alt="Easily Create Complex Formulas" class="sec17-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-2-2.jpg" />
+				</div>
+			</div>
+		</section>
+		<!-- Feature Page section 4 end-->
+
+		<section class="section section-f1 mb section-15 sec-graphsCharts">
+			<div class="container mobile-container">
+				<div class="col-xs-12 col-sm-12 col-md-4 section-f1-left">
+					<span class="mk-animate-element right-to-left mk-in-viewport full-visible">
+						<i class="material-icons icon-style">touch_app</i>
+					</span>
+					<h4 class="mk-animate-element left-to-right">
+						Engage with
+						Graphs and Charts
+					</h4>
+					<span class="mk-animate-element right-to-left subheading">
+						<!-- <i class="material-icons">format_paint</i> -->
+						<span class="span-style">Increase interactivity with dynamic charts based on user inputs</span>
+					</span>
+					<div class="secf1-test mk-animate-element left-to-right">
+						<span class="">
+							<i class="material-icons">equalizer</i>
+							<span>Bar Charts </span>
+						</span>
+						<span class="">
+							<i class="material-icons">timeline</i>
+							<span>Line Charts</span>
+						</span>
+						<span class="">
+							<i class="material-icons">view_column</i>
+							<span>Tables </span>
+						</span>
+						<span class="">
+							<i class="material-icons">pie_chart</i>
+							<span>Pie Charts </span>
+						</span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 section-f1-right rs-show">
+					<div class="col-xs-12 col-sm-12 slider-sa">
+						<div class="rs-show">
+							<div class="swiper-container  mk-animate-element scale-up rs-show">
+								<div class="swiper-wrapper">
+								<div class="swiper-slide swiper-slide-active">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-01.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
+								</div>
+								<div class="swiper-slide swiper-slide-next">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-02.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
+								</div>
+								<div class="swiper-slide swiper-slide-next">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-03.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
+								</div>
+								<div class="swiper-slide swiper-slide-next">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-04.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
+								</div>
+							</div>
+								<!-- Add Pagination -->
+							</div>
+							<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 mk-animate-element scale-up rs-hide">
+					<div class="col-xs-12 col-sm-12 slider-sa">
+						<div class="swiper-container  mk-animate-element scale-up rs-hide swiper-container-horizontal mk-in-viewport full-visible">
 							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<img alt="Variety of tools to boost your marketing" src="//dzvexx2x036l1.cloudfront.net/f-slide2.jpg" alt="" class="qode-lazy-image" />
+								<div class="swiper-slide swiper-slide-active">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-01.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
 								</div>
-								<div class="swiper-slide">
-									<img alt="Variety of tools to boost your marketing" src="//dzvexx2x036l1.cloudfront.net/f-slide1.jpg" alt="" class="qode-lazy-image" />
+								<div class="swiper-slide swiper-slide-next">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-02.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
 								</div>
-							</div>
-							<!-- Add Pagination -->
-						</div>
-						<div class="swiper-pagination"></div>
-					</div>
-					<div class="qode-cards-gallery-holder left rs-hide" data-side=left>
-						<div class="qode-cards-gallery">
-							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide1.jpg"
-										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									/> </a>
-							</div>
-							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="Variety of tools to boost your marketing" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide2.jpg"
-										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									/> </a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Feature page section 0 end-->
-	<!-- Feature page section 1 start-->
-	<section class="section section-f1 mb section-f1-new">
-		<div class="container mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-6 section-f1-left">
-				<h4 class="mk-animate-element left-to-right">
-					All layouts
-					are heavily
-					optimized for
-				</h4>
-				<div class="secf1-test mk-animate-element left-to-right">
-					<span class="">
-						<i class="material-icons">trending_up</i>
-						<span>Conversion </span>
-					</span>
-					<span class="">
-						<i class="material-icons">ac_unit</i>
-						<span>Engagement</span>
-					</span>
-					<span class="">
-						<i class="material-icons">devices</i>
-						<span>All screen sizes </span>
-					</span>
-				</div>
-				  <span class="mk-animate-element right-to-left">
-					<!-- <i class="material-icons">format_paint</i> -->
-					<span class="span-style">Layouts are optimized through many A/B tests and usually see over 40% conversion rate.</span>
-				</span>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 section-f1-right rs-show">
-				<div class="col-xs-12 col-sm-12 slider-sa">
-					<div class="rs-show">
-						<div class="swiper-container  mk-animate-element scale-up rs-show">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<img src="//dzvexx2x036l1.cloudfront.net/slide1.jpg" alt="All layouts are heavily optimized for" class="qode-lazy-image" />
+								<div class="swiper-slide swiper-slide-next">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-03.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
 								</div>
-								<div class="swiper-slide">
-									<img src="//dzvexx2x036l1.cloudfront.net/slide2.jpg" alt="All layouts are heavily optimized for" class="qode-lazy-image" />
+								<div class="swiper-slide swiper-slide-next">
+									<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-04.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
 								</div>
 							</div>
-							<!-- Add Pagination -->
-						</div>
-						<div class="swiper-pagination"></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 mk-animate-element scale-up rs-hide">
-				<div class="col-xs-12 col-sm-12 slider-sa np">
-					<div class="qode-cards-gallery-holder left " data-side=left>
-						<div class="qode-cards-gallery">
-							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="All layouts are heavily optimized for" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide1.jpg"
-										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									/> </a>
-							</div>
-							<div class="card" style="background-color:#f3f3f3">
-								<a href="javascript:void(0);"> <img src="#" alt="All layouts are heavily optimized for" class="qode-lazy-image" data-image="//dzvexx2x036l1.cloudfront.net/slide2.jpg"
-										style="width:1122px;height:1px" data-ratio="0.62566844919786" data-lazy="true"
-									/> </a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Feature page section 1 end-->
-
-	<!-- Featurepage section 2 start-->
-	<section class="section section-f2">
-		<div class="container img-container-right mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right">
-				<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
-				<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right box-shadow" />
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-5 section-f2-left">
-				<span class="mk-animate-element right-to-left hide">
-					<i class="material-icons icon-style">format_paint</i>
-				</span>
-				<h4 class="mk-animate-element right-to-left">
-					Bring Out Your Brand
-				</h4>
-				<div class="secf2-test mk-animate-element left-to-right section-f2-new">
-					<span class="">
-						<i class="material-icons">trending_up</i>
-						<span>Your Logo </span>
-					</span>
-					<span class="">
-						<i class="material-icons">ac_unit</i>
-						<span>Your Colors</span>
-					</span>
-					<span class="">
-						<i class="material-icons">devices</i>
-						<span>Your Assets (images etc)</span>
-					</span>
-				</div>
-				<span class="mk-animate-element right-to-left">
-					<!-- <i class="material-icons">format_paint</i> -->
-					<span class="span-style">The look and feel can be easily customized to showcase your brand.</span>
-				</span>
-
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-f2-right">
-				<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right img-pos box-shadow" />
-				<img alt="Bring Out Your Brand" src="//dzvexx2x036l1.cloudfront.net/f-sec4-2.jpg" class="secf2-2 mk-animate-element left-to-right" />
-			</div>
-		</div>
-	</section>
-	<!--Feature Page section 2 ends -->
-
-	<!--Feature Page section 3 starts -->
-	<section class="section section-15">
-		<div class="container img-container-right mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-5 section-15-left">
-				<span class="mk-animate-element right-to-left">
-					<i class="material-icons icon-style">view_compact</i>
-				</span>
-				<h4 class="mk-animate-element right-to-left">
-					Smart Builder Accelerates Development to Minutes
-				</h4>
-				<span class="mk-animate-element right-to-left">
-					<!-- <i class="material-icons">view_compact</i> -->
-					<span>Easily craft questions and options with an easy to use intuitive interface. </span>
-				</span>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide box-shadow mk-animate-element left-to-right section-15-right">
-				<img alt="Smart Builder Accelerates Development to Minutes" src="//dzvexx2x036l1.cloudfront.net/feature-1-2.jpg" class="mk-animate-element left-to-right img-left" />
-				<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-1.jpg" />
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-15-right">
-				<img alt="Smart Builder Accelerates Development to Minutes" src="//dzvexx2x036l1.cloudfront.net/feature-1-2.jpg" class="mk-animate-element left-to-right img-pos box-shadow " />
-				<img alt="Smart Builder Accelerates Development to Minutes" class="sec15-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-1.jpg" />
-			</div>
-		</div>
-	</section>
-	<!-- Feature Page Section 3 ends -->
-
-	<!-- Feature Page Section 4 starts -->
-	<section class="section section-17">
-		<div class="container img-container-right mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide ">
-				<img alt="Easily Create Complex Formulas" src="//dzvexx2x036l1.cloudfront.net/feature-complexFormulas-01.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
-				<img alt="Easily Create Complex Formulas" class="sec17-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-complexFormulas-02.jpg" />
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-5 section-17-left">
-				<span class="mk-animate-element right-to-left">
-					<i class="material-icons icon-style">developer_board</i>
-				</span>
-				<h4 class="mk-animate-element right-to-left">
-					Easily Create Complex Formulas
-				</h4>
-				<span class="mk-animate-element right-to-left">
-					<!-- <i class="material-icons">developer_board</i> -->
-					<span>Calculate RoI, savings, percentages, discounts and whatever else you learned in stat class.</span>
-				</span>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-8 np rs-show mk-animate-element left-to-right section-17-right">
-				<!-- <img src="//dzvexx2x036l1.cloudfront.net/f-sec4-1.jpg" class="mk-animate-element left-to-right" />
-				<img class="sec17-2 mk-animate-element left-to-right" src="//dzvexx2x036l1.cloudfront.net/f-sec4-2.jpg" /> -->
-				 <img alt="Easily Create Complex Formulas" src="//dzvexx2x036l1.cloudfront.net/resultpage.jpg" class="sec17-2-1 mk-animate-element left-to-right box-shadow" />
-				<img alt="Easily Create Complex Formulas" class="sec17-2 mk-animate-element left-to-right box-shadow" src="//dzvexx2x036l1.cloudfront.net/feature-2-2.jpg" />
-			</div>
-		</div>
-	</section>
-	<!-- Feature Page section 4 end-->
-
-	<section class="section section-f1 mb section-15 sec-graphsCharts">
-		<div class="container mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-4 section-f1-left">
-				<span class="mk-animate-element right-to-left mk-in-viewport full-visible">
-					<i class="material-icons icon-style">touch_app</i>
-				</span>
-				<h4 class="mk-animate-element left-to-right">
-					Engage with
-					Graphs and Charts
-				</h4>
-				<span class="mk-animate-element right-to-left subheading">
-					<!-- <i class="material-icons">format_paint</i> -->
-					<span class="span-style">Increase interactivity with dynamic charts based on user inputs</span>
-				</span>
-				<div class="secf1-test mk-animate-element left-to-right">
-					<span class="">
-						<i class="material-icons">equalizer</i>
-						<span>Bar Charts </span>
-					</span>
-					<span class="">
-						<i class="material-icons">timeline</i>
-						<span>Line Charts</span>
-					</span>
-					<span class="">
-						<i class="material-icons">view_column</i>
-						<span>Tables </span>
-					</span>
-					<span class="">
-						<i class="material-icons">pie_chart</i>
-						<span>Pie Charts </span>
-					</span>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-8 section-f1-right rs-show">
-				<div class="col-xs-12 col-sm-12 slider-sa">
-					<div class="rs-show">
-						<div class="swiper-container  mk-animate-element scale-up rs-show">
-							<div class="swiper-wrapper">
-							<div class="swiper-slide swiper-slide-active">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-01.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-							<div class="swiper-slide swiper-slide-next">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-02.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-							<div class="swiper-slide swiper-slide-next">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-03.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-							<div class="swiper-slide swiper-slide-next">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-04.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-						</div>
-							<!-- Add Pagination -->
 						</div>
 						<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-8 mk-animate-element scale-up rs-hide">
-				<div class="col-xs-12 col-sm-12 slider-sa">
-					<div class="swiper-container  mk-animate-element scale-up rs-hide swiper-container-horizontal mk-in-viewport full-visible">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide swiper-slide-active">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-01.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-							<div class="swiper-slide swiper-slide-next">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-02.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-							<div class="swiper-slide swiper-slide-next">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-03.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-							<div class="swiper-slide swiper-slide-next">
-								<img src="//dzvexx2x036l1.cloudfront.net/features-graphsCharts-04.jpg" alt="Engage with	Graphs and Charts" class="qode-lazy-image">
-							</div>
-						</div>
-					</div>
-					<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+		</section>
+
+		<!-- Feature page section 5 start-->
+		<section class="section section-5 feature-blue">
+			<div class="container sec-5-container mobile-container">
+				<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
+					<h5>Multiple Results</h5>
+					<p>Want to show the total cost with a discount, the total savings and how many trees will be saved? No problem!</p>
+					<img alt="Multiple Results" class="mk-animate-element scale-up shadow img-style res-img" src="//dzvexx2x036l1.cloudfront.net/slide6-new1.jpg" />
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
+					<h5>Realtime Results</h5>
+					<p>Want to get more interactive & show the results in real time?
+					<br/> One click can let you do that!</p>
+					<img alt="Realtime Results" class="mk-animate-element scale-up shadow res-img img-style" src="//dzvexx2x036l1.cloudfront.net/sec5-4-lg.jpg" />
 				</div>
 			</div>
-		</div>
+		</section>
+		<!-- Feature page section 5 end-->
 	</section>
-
-	<!-- Feature page section 5 start-->
-	<section class="section section-5">
-		<div class="container sec-5-container mobile-container">
-			<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
-				<h5>Multiple Results</h5>
-				<p>Want to show the total cost with a discount, the total savings and how many trees will be saved? No problem!</p>
-				<img alt="Multiple Results" class="mk-animate-element scale-up shadow img-style res-img" src="//dzvexx2x036l1.cloudfront.net/slide6-new1.jpg" />
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 np text-center mk-animate-element scale-up sec-5-text">
-				<h5>Realtime Results</h5>
-				<p>Want to get more interactive & show the results in real time?
-				<br/> One click can let you do that!</p>
-				<img alt="Realtime Results" class="mk-animate-element scale-up shadow res-img img-style" src="//dzvexx2x036l1.cloudfront.net/sec5-4-lg.jpg" />
-			</div>
-		</div>
-	</section>
-	<!-- Feature page section 5 end-->
 
 	<!-- Feature page section 6 start-->
 	<section class="section section-10">
@@ -687,7 +707,7 @@
 	<!-- Feature page section 7 end-->
 
 	<!-- Feature page section 8 start-->
-	<section class="section section-f4">
+	<section class="section section-f4 feature-blue">
 		<div class="container img-container-right mobile-container np">
 			<div class="col-xs-12 col-sm-12 col-md-12 section-f4-left sec-f4-style">
 				<span class="mk-animate-element left-to-right hide">
@@ -754,7 +774,7 @@
 	</section>
 	<!-- Feature page section 9 end-->
 	<!-- Featurepage section 9.1 start-->
-	<section class="section section-f2 feature-9-1">
+	<section class="section section-f2 feature-9-1 feature-blue">
 		<div class="container img-container-right mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-7 np rs-hide mk-animate-element left-to-right">
 				<img alt="Improve Social Footprint" src="//dzvexx2x036l1.cloudfront.net/share-img.png" class="mk-animate-element left-to-right" />
@@ -898,14 +918,14 @@
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 				<h4>Overview</h4>
 				<ul>
-					<li><a href="/why-interactive" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
-					<li><a href="/features" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
-					<li><a href="/examples" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
-					<li><a href="/idea-generation" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
-					<li><a href="/pricing" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
-					<!-- <li><a href="http://affiliates.outgrow.co/">Affiliates</a></li> -->
-					<li><a href="http://resources.outgrow.co/" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
-					<li><a href="http://resources.outgrow.co/about" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+					<li><a href="/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
+					<li><a href="/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
+					<li><a href="/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
+					<li><a href="/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
+					<li><a href="/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
+					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
+					<li><a href="http://resources.outgrow.co/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="http://resources.outgrow.co/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
@@ -920,62 +940,63 @@
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
+						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist/?utm_source=footer">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="//dzvexx2x036l1.cloudfront.net/footer5.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/">Make Your Digital Marketing Agency Stand Out</a>
+						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/?utm_source=footer">Make Your Digital Marketing Agency Stand Out</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/university-college-calculators/">7 Interactive Calculators Every University Needs on Its Website</a>
+						<a href="http://resources.outgrow.co/university-college-calculators/?utm_source=footer">7 Interactive Calculators Every University Needs on Its Website</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="//dzvexx2x036l1.cloudfront.net/res4.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
+						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads/?utm_source=footer">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="//dzvexx2x036l1.cloudfront.net/footer7.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies">9 Calculators Every SaaS Company Should Consider</a>
+						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies/?utm_source=footer">9 Calculators Every SaaS Company Should Consider</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="//dzvexx2x036l1.cloudfront.net/res7.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/">Value Added Marketing With Digital Experiences</a>
+						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/?utm_source=footer">Value Added Marketing With Digital Experiences</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="//dzvexx2x036l1.cloudfront.net/res8.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/">Lead Generation With Interactive Calculators</a>
+						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/?utm_source=footer">Lead Generation With Interactive Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res9.jpg" src="//dzvexx2x036l1.cloudfront.net/res9.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
+						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 np footer-social">
 			<ul>
-				<li><a href="https://www.facebook.com/OutgrowCo/">Facebook</a></li>
-				<li><a href="https://www.linkedin.com/company/outgrow.co">Linkedin</a></li>
-				<li><a href="https://twitter.com/outgrowco">Twitter</a></li>				
-				<li class="border-left"><a href="/privacy-policy" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
-				<li><a href="/tos" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
-				<li><a href="javascript:void(0)" target="_top" id="intercom_trigger">Contact Us</a></li>
-				<li><a href="https://angel.co/venturepact/jobs">Careers</a></li>
+				<li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>
+				<li class="border-left"><a href="/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+				<li><a href="/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+				<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
+				<li><a href="https://angel.co/outgrow-5/jobs/?utm_source=footer" target=_blank>Careers</a></li>
+
 			</ul>
 			<div class="company-address">
 				401 park ave, 10th floor, New York 10016
@@ -987,6 +1008,19 @@
 				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
 			</div>
 		</div>
+	</div>
+</section>
+
+<section class="section sec-cookies hide">
+	<div class="container">
+		<!-- <p>
+			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
+		</p> -->
+		<p>
+			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
+		</p>
+		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">I Understand</button>
+		<a href="javascript:void(0);" class="" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
 	</div>
 </section>
 	<script>

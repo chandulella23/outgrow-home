@@ -1,3 +1,4 @@
+
 window.openTestimonial = function (sectionId) {
     var sections = document.querySelectorAll('.protfolio-inner-section');
     sections.forEach(function (section) {
@@ -15,6 +16,7 @@ window.openTestimonial = function (sectionId) {
     var activeImg = document.getElementById(`${sectionId}-img`);
     activeImg.classList.add('testactive');
 }
+
 jQuery(document).ready(function() {
     jQuery('#nav-why-interactive').addClass('active');
 });

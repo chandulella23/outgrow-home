@@ -24,7 +24,16 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
+	@if($page->_meta->url != '/interactive-calculators-and-quizzes')
+		@include('_partials.navbar')
+	@endif
+
 	@yield('content')
+
+	@if($page->_meta->url != '/interactive-calculators-and-quizzes')
+		@include('_partials.footer')
+	@endif
+
 
 	<script>
 		@yield('pageScripts');
@@ -49,7 +58,7 @@
 		}
 		for (var lib in libs) {
 			loadAsync(lib);
-		} 
+		}
 	</script>
 </body>
 </html>

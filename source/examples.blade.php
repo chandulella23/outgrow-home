@@ -45,7 +45,9 @@
 @section('content')
 	<!--  top section-->
 	<div class="section-main sec-example">
-		<section class="section section-5 sec-outgrowMagic-title">
+
+		<!-- hiding the top red bar of each page -->
+		<!-- <section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<div class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
 					Outgrow In Practice
@@ -54,7 +56,8 @@
 					Get inspired by some of our most successful calculators & quizzes!
 				</h5>
 			</div>
-		</section>
+		</section> -->
+		<!-- end: hiding the top red bar of each page -->
 
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">
@@ -1133,24 +1136,25 @@
 				<ul class="nav nav-tabs premade-calc" role="tablist">
 					<li role="presentation" class="tab-title active">
 						<a id="Calculator" href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab"
-						   onclick="callGA('TYPE');changeTab('Calculator')">
+						   onclick="callGA('TYPE');setTimeout(()=>(changeTab('Calculator')))">
 							Numerical Calculator
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
 						<a id="OutcomeQuiz" href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab"
-						   onclick="callGA('INDUSTRY');changeTab('OutcomeQuiz')">
+						   onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('OutcomeQuiz')))">
 							Outcome Quiz
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
 						<a id="GradedQuiz" href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab"
-						   onclick="callGA('INDUSTRY');changeTab('GradedQuiz')">
+						   onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('GradedQuiz')))">
 							Graded Quiz
 						</a>
 					</li>
 					<li role="presentation" class="tab-title">
-						<a id="Poll" href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab" onclick="callGA('INDUSTRY');changeTab('Poll')">
+						<a id="Poll" href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab"
+						   onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('Poll')))">
 							Poll
 						</a>
 					</li>
@@ -1218,30 +1222,30 @@
 								<div class="pre-temp-cont">
 									<ul class="pre-temp-list" id="gallery-content-center">
 
-										<li class="active filter-all filter-auto" id="calc-auto-loan">
-											<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
-										</li>
-										<li class="All Financia filter-all filter-auto" id="calc-early-payment">
-											<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
-										</li>
-										<li class="All Math filter-all filter-auto" id="calc-downpayment">
-											<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
-										</li>
-										<li class="All Others filter-all filter-education" id="calc-student-budget"> 
-											<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
-										</li>
-										<li class="All Math filter-all filter-education" id="calc-harward-score">
-											<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
-										</li>
-										<li class="All Math filter-all filter-finance" id="calc-home-budget">
-											<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
-										</li>
-										<li class="All Others filter-all filter-health" id="calc-weight-loss">
-											<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
-										</li>
-										<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
-											<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
-										</li>
+										{{--<li class="active filter-all filter-auto" id="calc-auto-loan">--}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>--}}
+										{{--</li>--}}
+										{{--<li class="All Financia filter-all filter-auto" id="calc-early-payment">--}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>--}}
+										{{--</li>--}}
+										{{--<li class="All Math filter-all filter-auto" id="calc-downpayment">--}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>--}}
+										{{--</li>--}}
+										{{--<li class="All Others filter-all filter-education" id="calc-student-budget"> --}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>--}}
+										{{--</li>--}}
+										{{--<li class="All Math filter-all filter-education" id="calc-harward-score">--}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>--}}
+										{{--</li>--}}
+										{{--<li class="All Math filter-all filter-finance" id="calc-home-budget">--}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>--}}
+										{{--</li>--}}
+										{{--<li class="All Others filter-all filter-health" id="calc-weight-loss">--}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>--}}
+										{{--</li>--}}
+										{{--<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">--}}
+											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>--}}
+										{{--</li>--}}
 
 									</ul>
 									<div class="pre-temp-view">
@@ -1348,9 +1352,11 @@
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js",
 		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
+
 	}
 @endsection

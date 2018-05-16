@@ -209,13 +209,13 @@
 
 /*################### Feature Page responsive css end ###################*/
 
-@media (min-width:1921px) and (max-width:6500px){
+@media (min-width:3000px) {
 	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
 	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
 	.custom-navbar .signUp-style a{
-	    padding: 10px 14px;
+	    padding: 8px 14px !important;
 		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
@@ -228,8 +228,8 @@
 	.footer-copyright {margin-bottom: 30px;}
 	.footer-copyright i {font-size: 24px;}
 	.footer-copyright span {font-size: 24px;}
-	.footer-copyright img {width: 100%;}
-	.container {width: 60%;}
+	.footer-copyright img {max-width: 150px; top: -5px;}
+	.container {width: 80% !important;}
 
 	.sec-example .section-2-heading{font-size: 96px; margin-top: 120px; margin-bottom: 30px;}
 	.sec-example .section-2-subheading {font-size: 58px; padding: 0;margin-bottom: 50px !important; margin-top: 20px;}
@@ -246,7 +246,7 @@
 	.usecase img.box-shadow {width: 100%;}
 	.usecase .section-usecase2-left {padding-right: 60px;}
 	.tab-section .nav-tabs {margin: 80px 0px 60px;}
-	.tab-section .nav-tabs > li > a{padding: 30px 100px; font-size: 34px !important;}
+	.tab-section .nav-tabs > li > a{padding: 30px 100px; font-size: 30px !important;}
 	.tab-section .nav-tabs > li.active i {
 		left: 35px;
 		top: 34px;
@@ -273,25 +273,44 @@
 	.gallery-content-center .abc { margin-bottom: 60px;}
 	.bg1-img {padding: 120px 0;}
 	.bg1-img .btn-buildcal{
-		font-size: 45px;
-		padding: 52px 75px;
+		font-size: 30px;
+		padding: 35px 75px;
 		border-radius: 80px;
 		line-height: 54px;
 	}
 	.start-trial-cta .btn-buildcal i{
 		margin-right: 30px;
-		font-size: 54px;
-		top: 0;
+		font-size: 44px;
+    	top: -3px;
 	}
 	.start-trial-cta .btn-buildcal p {line-height: normal;}
 	.sec-example .sec-outgrowMagic {
-		margin-bottom: 100px;
-    	margin-top: 50px;
+		/* margin-bottom: 100px; */
+    	margin-top: 125px;
 	}
 	.calc-links {margin-top: 90px;}
 	.usecase .sec9-test {    margin-top: 20px;}
 	.usecase-category.abc { margin-top: 60px; margin-bottom: 100px;}
+	.case-breathers-rightSide h1.heading {
+		font-size: 60px;
+		line-height: 74px;
+	}
+	.btn.btn-download {
+		font-size: 24px;
+		padding: 20px 40px;
+		border-radius: 40px;
+	}
+	.btn.btn-download i.material-icons {font-size: 25px;}
+	.case-breathers {
+		margin-bottom: 120px;
+	}
 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {top: 89px;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 89px;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 69px;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
 
 }
 
@@ -348,5 +367,35 @@
 		text-align: center;
 	}
 	.pre-temp-view .content.temp-info .btn.btn-red{margin-left: 5px; margin-bottom: 10px;}
+
+}
+
+@media (min-width:1921px) and (max-width:2999px){
+	.sec-example .sec-outgrowMagic {margin-top: 105px;}
+	.custom-navbar.navbar-default {padding: 25px 0px;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
+
+
+
+}
+
+@media (min-width:1921px) and (max-width:6500px){
+	.container {
+		width: 1170px;
+	}	
+	.case-breathers img {width: 100%;}
+	
+}
+
+@media (min-width: 5000px) {
+	.container {
+		width: 50% !important;
+	}
+
 
 }

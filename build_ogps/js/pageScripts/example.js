@@ -1,6 +1,6 @@
-window.runTimeout = function() {
+window.runTimeout = function () {
     setTimeout(function () {
-        jQuery('.content-loader').addClass('hide');   
+        jQuery('.content-loader').addClass('hide');
     }, 5000);
 }
 
@@ -8,7 +8,7 @@ window.display = function (url) {
     document.getElementById('og-iframe').src = url;
     jQuery('#og-iframe').addClass('iframeHeight')
     calculateMinHeight();
-    
+
     setTimeout(calculateMinHeight, 2000);
 }
 
@@ -65,7 +65,7 @@ window.changeActiveCalcCategory = function (id) {
     tobeActiveCat.parentElement.classList.add('active')
 }
 
-window.shuffleCalcs = function (filterName) {
+window.setCalcCategory = function (filterName) {
     changeActiveCalcCategory(filterName);
     let selectedTab = jQuery('.nav.nav-tabs.premade-calc li.active').children().attr('id');
     console.log(filterName, selectedTab);
@@ -146,24 +146,72 @@ window.changeTab = function (tabName) {
     console.log(categorySet);
     let categoryContainer = jQuery('#calc-cats').children();
     let categories = categoryContainer.children();
-    console.log(categories);
+    let it = categorySet.values();
+    let first = it.next().value; //get first valid category
     for (let i = 0; i < categories.length; i++) {
         if (categorySet.has(categories[i].id)) {
-            console.log(categories[i].id,'removing hide');
             categoryContainer[i].classList.remove('hide');
-            shuffleCalcs('Auto')
         } else {
-            console.log(categories[i].id,'adding hide')
             categoryContainer[i].classList.add('hide');
         }
     }
 
+    if (first) {
+        setCalcCategory(first)
+    } else {
+        setCalcCategory('Auto');
+    }
+}
+
+window.ready = function () {
+    let http = new XMLHttpRequest();
+    let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+    http.open("POST", url, true);
+
+    http.onreadystatechange = function () {
+        if (http.readyState === 4 && http.status === 200) {
+            let res = JSON.parse(http.responseText);
+            renderPremadeCalcs(res);
+        }
+    };
+    http.send();
+};
+ready();
+
+
+function renderPremadeCalcs(responseText) {
+    if (responseText.success) {
+        window.calcs = responseText.data.calculators;
+        window.calcs.forEach(calc => {
+            calc['GIF'] = calc.media;
+            calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+            calc['Name'] = calc.title;
+            calc['id'] = 'id' + calc._id;
+            calc['Description'] = calc.description;
+            let layout = getTemplateName(calc.template);
+            calc['Layout'] = layout ? layout.text : 'Stockholm';
+            calc['Published Link'] = calc.liveApp.url;
+            calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+        });
+        //  jQuery('#premade-content').removeClass('hide');
+        let ele = document.getElementById('premade-content');
+        ele.classList.remove('hide');
+
+        let loader = document.getElementById('premade-loader');
+        loader.classList.add('hide');
+
+        //   jQuery('#premade-loader').addClass('hide');
+        setPremade();
+        setCalcCategory('Auto');
+        changeTab('Calculator');
+    }
 }
 
 jQuery(document).ready(function () {
+    jQuery('#nav-examples').addClass('active');
     calculateMinHeight();
     window.Intercom('update', { 'site_example_viewed': new Date() });
-    
+
 	var iframes = iFrameResize({
         log: false,
         autoResize: true,
@@ -184,29 +232,4 @@ jQuery(document).ready(function () {
     //     }
     // })
     runTimeout();
-    jQuery.post('https://api-calc.outgrow.co/api/v1/admin/getCalculators',
-        function (data, status) {
-            console.log(status, data);
-            if (status === 'success') {
-                window.calcs = data.data.calculators;
-                window.calcs.forEach(calc => {
-
-                    calc['GIF'] = calc.media;
-                    calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
-                    calc['Name'] = calc.title;
-                    calc['id'] = 'id' + calc._id;
-                    calc['Description'] = calc.description;
-                    let layout = getTemplateName(calc.template);
-                    calc['Layout'] = layout ? layout.text : 'Stockholm';
-                    calc['Published Link'] = calc.liveApp.url;
-                    calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
-
-                });
-                jQuery('#premade-content').removeClass('hide');
-                jQuery('#premade-loader').addClass('hide');
-                setPremade();
-                shuffleCalcs('Auto');
-                changeTab('Calculator');
-            }
-        });
-})
+});

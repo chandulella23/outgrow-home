@@ -41,6 +41,7 @@
 @section('content')
 	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<section class="section section-metrics">
+
 		<div class="container-fluid">
 			<div class="">
 				<h3>Let’s Start With The Metrics</h3>
@@ -1164,14 +1165,54 @@
 			xhr.send();
 		}
 
-		var gridJS = document.createElement('script');
-		gridJS.src = 'https://repuso.com/widgets/grid.js';
+        var gridJS = document.createElement('script');
+        gridJS.src = 'https://repuso.com/widgets/grid.js';
 
-		gridJS.onload = triggerLiveStaticReviews;
+        gridJS.onload = triggerLiveStaticReviews;
 
-		var head = document.querySelector('head');
-		head.appendChild(gridJS);
-	</script> 
+        var head = document.querySelector('head');
+        head.appendChild(gridJS);
+		</script>
+		</div>
+	</section>
+	<section class="section section-16 rs-show">
+		<div class="container img-container-right">
+			<div class="col-xs-12 col-sm-12 col-md-5 section-16-left">
+				<span class="mk-animate-element right-to-left">
+				  <i class="material-icons">trending_up</i>
+				</span>
+				<h4 class="mk-animate-element left-to-right">
+					Engagement increases conversion
+				</h4>
+				<span class="mk-animate-element right-to-left">
+				<span>The interactivity and the value add make visitors almost <b>3-4 times more likely</b> to share their contact information.</span>
+				</span>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
+				<img alt="Engagement increases conversion" src="//dzvexx2x036l1.cloudfront.net/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
+			</div>
+		</div>
+	</section>
+	<section class="section section-w3 why-blue">
+		<div class="container img-container-right">
+
+		   <div class="col-xs-12 col-sm-12 col-md-5 section-w3-text">
+				<span class="mk-animate-element right-to-left">
+				  <i class="material-icons">view_week</i>
+				</span>
+				<h4 class="mk-animate-element left-to-right">
+					Enable Targeted Sales
+				</h4>
+				<span class="mk-animate-element right-to-left">
+ 		          <span>Go beyond name and email with <b>real,
+						rich & useful data</b> about your customers.</span>
+					</span>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-7 np p-img">
+				<img alt="Enable Targeted Sales" src="//dzvexx2x036l1.cloudfront.net/graph-2-updated.jpg" class="mk-animate-element left-to-right" />
+			</div>
+		</div>
+	</section>
 
 	<section class="section section-video">		
 		<div class="section-2-heading">

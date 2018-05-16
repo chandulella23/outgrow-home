@@ -42,7 +42,7 @@
 	<!-- Homepage section 1 start-->
 	<section class="section section-1">
         <div class="container-fluid">
-            <div class="col-xs-12 col-sm-12 text-center pricing-headingtop">
+            <div class="col-xs-12 col-sm-12 text-center pricing-headingtop hide">
 
 
                 <h3 class="plans-heading">Plans and Pricing </h3>
@@ -72,7 +72,7 @@
                     </div>
                 </section>
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 pricing-switch text-center">
+            <!-- <div class="col-md-12 col-sm-12 col-xs-12 pricing-switch text-center">
                 <div class="switch">
                   <div class="onoffswitch">
                     <input class="onoffswitch-checkbox" id="myonoffswitch" name="onoffswitch" type="checkbox">
@@ -82,7 +82,24 @@
                     </label>
                   </div>
                 </div>
-              </div>
+            </div> -->
+            <section id="plan-cycle">
+                <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list">
+                    <ul role="tablist">
+                        <li class="cycle-tab active annual" id="annual" role="presentation">
+                            <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('annual')">
+                                <!-- <i class="material-icons">check</i>--> Annual (save 40%)
+                                <!-- <label class="save-per">Save over 44%</label> -->
+                            </a>
+                        </li>
+                        <li class="cycle-tab monthly" id="monthly" role="presentation">
+                            <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('monthly')">
+                                <!--<i class="material-icons">check</i>--> Monthly
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <div class="pricing-outer container">
                 <table>
 
@@ -173,7 +190,7 @@
                             <td><span class="full"></span>15000 & 300000</td>
                         </tr>
                         <tr class="not-info">
-                            <th><i class="material-icons vis-hide">add</i> No. of Experiences</th>
+                            <th><i class="material-icons vis-hide">add</i> No. of Content Pieces</th>
                             <td><span class="quater"></span>3</td>
                             <td class="active-bg"><span class="full"></span>Unlimited</td>
                             <td><span class="full"></span>Unlimited</td>
@@ -545,7 +562,7 @@
                                     <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="quater"></span>3</span>
                                 </li>
                                 <!-- <li>
@@ -745,7 +762,7 @@
                                     <span class="feature-subtitle"><span class="half"></span>1000 & 20000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <!-- <li>
@@ -949,7 +966,7 @@
                                     <span class="feature-subtitle"><span class="full"></span>15000 & 300000</span>
                                 </li>
                                 <li>
-                                    <span class="feature-title">No. of Experiences</span>
+                                    <span class="feature-title">No. of Content Pieces</span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                 </li>
                                 <!-- <li>
