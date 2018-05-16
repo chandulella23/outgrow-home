@@ -256,11 +256,24 @@
 								</div>
 							</div>
 						</div>
+						<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
 					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 np section-graphs-charts-right">
+					<img src="{{ $page->baseUrl }}/images/features-icon-graphsCharts.png" alt="Engage with Graphs and Charts">
+					<h4 class="feature-subheading">Engage with Graphs and Charts </h4>
+					<span class="feature-subtitle">Increase interactivity with dynamic charts based on user inputs </span>
+					<ul>
+						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon1.png" alt="Bar Charts"><span>Bar Charts </span></li>
+						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon2.png" alt="Line Charts"><span>Line Charts </span></li>
+						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon3.png" alt="Tables"><span>Tables </span></li>
+						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon4.png" alt="Pie Charts"><span>Pie Charts </span></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<section class="section section-multiple-results">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-12 np">
