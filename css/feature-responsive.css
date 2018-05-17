@@ -792,6 +792,7 @@
 @media (min-width:700px) and (max-width:768px){
 	.section-studio .col-md-4 {
 		width: 50%;
+	}	
 	.section-f4.feature-blue {
 		padding-top: 0px !important;
 	}
@@ -1934,7 +1935,7 @@
 	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px;}
 	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 69px;}
 	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 69px;}
-		.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
+	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
 
 
 
