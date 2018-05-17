@@ -195,7 +195,7 @@ label {
 	padding: 0
 }
 .rs-show {
-	display: none
+	display: none !important;
 }
 .navbar-brand {
 	padding: 0;
@@ -8131,13 +8131,13 @@ i.zmdi.zmdi-twitter-box {
 
 /* new css for hiding the top red bar of each page */
 .calc-table {
-	margin-top: 65px;
+	/* margin-top: 65px; */
 	/* background: #f3f8fb; */
 	/* padding-bottom: 50px; */
 	margin-bottom: 20px;
 }
 .calc-table .container {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 .section-studio {
     margin-top: 65px;
