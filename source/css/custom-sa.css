@@ -195,7 +195,7 @@ label {
 	padding: 0
 }
 .rs-show {
-	display: none !important;
+	display: none;
 }
 .navbar-brand {
 	padding: 0;
@@ -205,12 +205,8 @@ label {
 .custom-navbar.navbar-default {
 	background: #fff;
 	border: none;
-	padding: 0;
-
-	z-index: 999;
-	/* border-bottom: 1px solid #eff0f0;  */
+	/* z-index: 999; */
 	border-bottom: 1px solid #f3f8fb; 
-
 	padding: 5px 0px;
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
@@ -6326,6 +6322,15 @@ iframe[name=google_conversion_frame] {
 	.dropdown .dropdown-content {
 		left: -80px !important;
 	}
+	.case-study-tabs-container {width: 890px !important;}
+	.case-study-tabs {
+		margin-right: 20px !important;
+		max-width: 162px !important;
+		margin-bottom: 0px !important;
+	}
+	.case-study-tabs:last-child {
+		margin-right: 0px !important;
+	}
 }
 @media (min-width:1280px) and (max-width:1280px){
 	.dropdown .dropdown-content {
@@ -6479,16 +6484,12 @@ iframe[name=google_conversion_frame] {
 @media (max-width:1023px){
 	.navbar-default .navbar-toggle {border: none;     display: block;   }
 	.custom-navbar .signUp-style a {
-		/* background: none; */
 		color: #fff!important;
 		border: none !important;
 		display: inline-block;
 		margin-top: 8px !important;
 	}
 	.custom-navbar .signUp-style a:hover{
-		/* background: none !important; */
-		border: none !important;
-		/* color: #fb5f66 !important; */
 		opacity: 0.5;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
@@ -6736,6 +6737,7 @@ i.zmdi.zmdi-twitter-box {
 		line-height: 18px;
 		margin-bottom: 10px;
 		display: block;
+		min-height: 55px;
 	}
 	.section-metrics .asterix-text {
 		float: left;
@@ -7232,7 +7234,7 @@ i.zmdi.zmdi-twitter-box {
 		margin: 55px 0px 70px;
 	}
 	.case-study-tabs-container {
-		width: 840px;
+		width: 1060px;
 		padding: 0;
 	}
 	.case-study-tabs {
@@ -7932,7 +7934,7 @@ i.zmdi.zmdi-twitter-box {
 		display: none;
 		position: absolute;
 		background-color: #fff;
-		min-width: 203px;
+		min-width: 185px;
 		box-shadow: 0px 30px 40px rgba(0,0,0,0.10);
 		z-index: 1;
 		left: 10px;
@@ -7944,7 +7946,7 @@ i.zmdi.zmdi-twitter-box {
 	.dropdown-content a {
 		color: #62686c;
 		padding: 0px 5px;
-		margin: 0px 15px;
+		margin: 0px 13px;
 		text-decoration: none;
 		display: block;
 		font-size: 14px;
@@ -7975,14 +7977,14 @@ i.zmdi.zmdi-twitter-box {
 	.dropdown .dropdown-sub-content {
 		display: none;
 		position: absolute;
-		right: -155px;
+		right: -172px;
 		top: 50px;
 		background: #fff;
 		background-color: #fff;
 		/* min-width: 158px; */
 		box-shadow: 0px 30px 40px rgba(0,0,0,0.10);
 		z-index: 1;
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.drop-sub-menu a {
 		border-bottom: none;
@@ -8033,6 +8035,9 @@ i.zmdi.zmdi-twitter-box {
 	.dropdown .dropdown-content a i.material-icons {
 		line-height: 26px !important;
 		transform: rotate(90deg);
+	}
+	.metrics-inner-block span {
+		min-height: auto;
 	}
 
 

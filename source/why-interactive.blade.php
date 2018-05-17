@@ -52,17 +52,17 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np metrics-inner">
 				<div class="col-md-4 col-sm-4 col-xs-12 np metrics-inner-block">
 					<h4>Conversion Rate</h4>
-					<span>Conversion rates soar due to this and that. Lorem ipsum dolor sit amet. </span>
+					<span>Interactive content provides real value to users thus boosting conversion rate exponentially. </span>
 					<img src="{{ $page->baseUrl }}/images/why-img-conversionRate.png" alt="Conversion Rate">
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np metrics-inner-block">
 					<h4>Bounce Rate</h4>
-					<span>Bounce rates soar due to this and that. Lorem ipsum dolor sit amet. </span>
+					<span>Interactive content takes users on a journey to the results page thus reducing bounce rate. </span>
 					<img src="{{ $page->baseUrl }}/images/why-img-bounceRate.png" alt="Bounce Rate">
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np metrics-inner-block">
 					<h4>Social Share</h4>
-					<span>Conversion rates soar due to this and that. Lorem ipsum dolor sit amet. </span>
+					<span>Quizzes and calculators reach a wider audience, increasing your brand visibility and referral traffic. </span>
 					<img src="{{ $page->baseUrl }}/images/why-img-socialShare.png" alt="Social Share">
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 
 	<section class="section section-whyMerticsAwesome">
 		<div class="container">
-			<div class="section-2-heading">Why Interactive Content Metrics Are Awesome? </div>	
+			<div class="section-2-heading">Why Interactive Content is Awesome! </div>	
 			<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner">
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
@@ -82,7 +82,7 @@
 						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
-						<h3 class="section-subheading">Unlike Ads, <b>Calculators Add Real Value </b> </h3>
+						<h3 class="section-subheading">Unlike Ads, <b>Interactive Content Adds Real Value </b> </h3>
 						<ul>
 							<li>
 								<span class="bullets"></span>
@@ -90,7 +90,7 @@
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Buyers who don’t convert the first time will use calculators. They form the optimal step in the buyer journey between the first visit and the eventual buy. </span>
+								<span class="list">Buyers who don’t convert the first time will use interactive content. They form the optimal step in the buyer journey between the first visit and the eventual buy. </span>
 							</li>
 						</ul>
 					</div>
@@ -103,7 +103,7 @@
 						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left sec-newTraffic">
-						<h3 class="section-subheading">Calculators Bring <b>New Traffic</b> </h3>
+						<h3 class="section-subheading">Interactive Content Brings <b>New Traffic</b> </h3>
 						<ul>
 							<li>
 								<span class="bullets"></span>
@@ -111,7 +111,7 @@
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">More people are searching for “How much does X cost” or “What is my risk of getting a X disease”. With calculators, get to the top of search results. </span>
+								<span class="list">More people are searching for “How much does X cost” or “What is my risk of getting a X disease”. With interactive quizzes and calculators, get to the top of search results. </span>
 							</li>
 						</ul>
 					</div>
@@ -130,15 +130,15 @@
 						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
-						<h3 class="section-subheading">Calculators Increase <b>Engagement & Conversion </b> </h3>
+						<h3 class="section-subheading">Quizzes and Calculators Increase <b>Engagement & Conversion </b> </h3>
 						<ul>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Highly interactive calculators provide instant gratification and hence visitors are more likely to share their contact  information. </span>
+								<span class="list">Highly interactive quizzes and calculators provide instant gratification and hence visitors are more likely to share their contact  information. </span>
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Conversion rate from calculators is a magnitude higher than your run-of-the-mill landing pages. </span>
+								<span class="list">Conversion rate from interactive content is a magnitude higher than your run-of-the-mill landing pages. </span>
 							</li>
 						</ul>
 					</div>
@@ -155,11 +155,11 @@
 						<ul>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </span>
+								<span class="list">Interactive content helps you find out much more about your audience beyond name and email. You can use this information to categorize them into very specific segments. </span>
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </span>
+								<span class="list">Interactive content-based segmentation of audience helps you design highly personalized and target sales followups. </span>
 							</li>
 						</ul>
 					</div>

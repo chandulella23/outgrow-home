@@ -21,6 +21,10 @@ jQuery(document).ready(function () {
                 jQuery('.nav-case-macroscape').addClass('active');
                 jQuery('.tab-pane-macroscape').addClass('active');
             break;
+            case 'wingman':
+                jQuery('.nav-case-wingman').addClass('active');
+                jQuery('.tab-pane-wingman').addClass('active');
+            break;
             default:
             break;
         }
@@ -40,15 +44,22 @@ jQuery(document).ready(function () {
         if(text == 'TAG') {
             jQuery('.nav-case-tag').addClass('active');
             jQuery('.tab-pane-tag').addClass('active');
-        } else if(text == 'Get Paid Your Pad') {
+        } 
+        else if(text == 'Get Paid Your Pad') {
             jQuery('.nav-case-gpyp').addClass('active');
             jQuery('.tab-pane-gpyp').addClass('active');
-        } else if(text == 'VenturePact') {
+        } 
+        else if(text == 'VenturePact') {
             jQuery('.nav-case-vp').addClass('active');
             jQuery('.tab-pane-vp').addClass('active');
-        } else if(text == 'Macroscape') {
+        } 
+        else if(text == 'Macroscape') {
             jQuery('.nav-case-macroscape').addClass('active');
             jQuery('.tab-pane-macroscape').addClass('active');
+        }        
+        else if(text == 'Professional Wingman') {
+            jQuery('.nav-case-wingman').addClass('active');
+            jQuery('.tab-pane-wingman').addClass('active');
         }
     });
 

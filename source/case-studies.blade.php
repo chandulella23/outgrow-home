@@ -83,6 +83,12 @@
 								<span>Case Study 4</span>
 							</a>
 						</li>
+						<li class="col-md-3 col-sm-3 col-xs-12 np case-study-tabs nav-case-wingman">
+							<a class="" href="#wingman" onclick="counterUp('wingman')">
+								<img src="{{ $page->baseUrl }}/images/case_study_wingman.png" alt="Professional Wingman">
+								<span>Case Study 5</span>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -636,6 +642,142 @@
 									<span class="quote-left1">“</span>Outgrow is spectacular. I like how you can customize each part of the quiz specific to the needs of each quiz. The user interface is super simple to set up, which makes this easy to create and deploy. <span class="quote-right1">“</span>
 								<!-- <span class="quote-right"></span> -->
 							</blockquote>
+						</div>
+					</div>
+				</section>
+				<section class="section section-button">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<span>Free Trial. No credit card required!</span>
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"><button type="button" class="btn btn-red">Generate leads with Outgrow </button></a>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div id="wingman" class="tab-pane tab-pane-wingman fade">
+				<section class="section section-counter">
+					<div class="container">
+						<div class="section-2-heading">The Professional Wingman got 2500+ <br/>Leads with a Dating Quiz </div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
+								<div class="counter-wrapper">
+									<div class="counter">9609 </div>
+									<!-- <span>%</span> -->
+								</div>
+								<span>Visits</span>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
+								<div class="counter-wrapper">
+									<div class="counter">2782 </div>
+									<!-- <span>%</span>  -->
+								</div>
+								<span>Leads</span>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
+								<div class="counter-wrapper">
+									<div class="counter">270 </div>
+									<!-- <span>%</span>  -->
+								</div>
+								<span>Social Shares</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section section-companyInfo">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np companyInfo-table">
+							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
+								<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_companyinfo_wingman.jpg" alt="The Professional Wingman Company">
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 np companyInfo-table-cell">
+								<h4>Company</h4>
+								<p>The Professional Wingman is a relationship consultancy firm that helps millennials find long-term romantic relationships. </p>
+								<h4>Background</h4>
+								<p>Thomas Edward, Founder, The Professional Wingman, wanted to expand his audience size, and improve the conversion rates. His goal was to get 1K leads with month long promotion. And given the nature of his business, he sure garnered a lot of interest and attention from his target audience. However, he couldn’t hold it or convert it. Traditional marketing tactics were not delivering the desired results. </p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section section-experimenting">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<div class="section-2-heading">Building a Dating Quiz </div>
+							<span class="section-subtitle">Using Outgrow, Thomas created an interactive quiz which helped people learn more about their dating capabilities! Since dating as a topic is very popular amongst Gen Y (think Tinder), and the quiz let them analyze their own dating capabilities, the quiz sold like hot cakes. </span>
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_experimenting_wingman.jpg" alt="Building a Dating Quiz">
+						</div>
+					</div>
+				</section>
+				<section class="section section-howOutgrowHelped">
+					<div class="container">
+						<div class="section-2-heading">How Outgrow Helped </div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np section-howOutgrowHelped-inner">
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped1.png" alt="Ease of Creation">
+								<h5>Ease of Creation </h5>
+								<p>Creating an experience in the Outgrow app is similar to building a powerpoint presentation. The drag and drop, WYSIWYG editor let Thomas create the most complex of experiences without any coding! Thus, he saved on time as well as the resources. </p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped2.png" alt="Conversion-optimized Templates">
+								<h5>Conversion-optimized Templates </h5>
+								<p>The Professional Wingman’s target audience was the smartphone generation. Thus, they wanted the quiz to look flawless on any device - laptop, smartphone or tablet. Outgrow’s 100% responsive, fully customizable templates was a breath of fresh air for the Wingman team. </p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped3.png" alt="‎‎Simplified Lead Generation">
+								<h5>‎Simplified Lead Generation </h5>
+								<p>Thomas added a lead form right before the results page, and made sure he asked only for relevant information. Outgrow’s lead generation capabilities enabled him to collect leads seamlessly and send them to his CRM for further follow-up. </p>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper img-wrapper-macro">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped4_wingman.jpg" alt="">
+							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped5_wingman.jpg" alt="">
+							<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=case_study"> <button type="button" class="btn btn-red">Create your First Interactive Quiz </button></a>
+						</div>
+					</div>
+				</section>
+				<section class="section section-companyReviews">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<blockquote>
+								<!-- <span class="quote-left"></span> --> 
+								<span class="quote-left1">“</span>Outgrow, not only makes it easy to create quizzes but makes them easy for users to use and share with others, making lead acquisition virtually a breeze. <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
+							</blockquote>
+							<span>Thomas Edward <br/>Founder at The Professional Wingman </span> 
+						</div>
+					</div>
+				</section>
+				<section class="section section-results">
+					<div class="container">
+						<div class="section-2-heading">Results </div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<p>
+								Using a quiz as a part of their marketing strategy gave The Professional Wingman a lot to bask in- increased traffic, more engagement, more shares, more leads, and even repeat users! They had nearly <b>9609 visits</b> and over <b>2782 leads</b>, plus nearly <b>270 social shares.</b>
+							</p>							
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center img-wrapper">
+							<img class="" src="{{ $page->baseUrl }}/images/case_study_result1_wingman.jpg" alt="Result img">
+						</div>
+					</div>
+				</section>
+				<section class="section section-whatsNext">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<div class="section-2-heading">What’s Next? </div>
+							<span class="section-subtitle">
+								Thomas has already created 3 more quizzes on Outgrow, which have got him 1900 leads combined. And he plans to create more experiences on the platform to fuel his future marketing initiatives.
+							</span>
+						</div>
+					</div>
+				</section>
+				<section class="section section-companyReviews section-white">
+					<div class="container">
+						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+							<blockquote>
+								<!-- <span class="quote-left"></span> -->
+									<span class="quote-left1">“</span>We have definitely converted these leads to paying clients <span class="quote-right1">“</span>
+								<!-- <span class="quote-right"></span> -->
+							</blockquote>							
+							<span>Thomas Edward <br/>Founder at The Professional Wingman </span> 
 						</div>
 					</div>
 				</section>
