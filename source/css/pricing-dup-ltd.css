@@ -227,7 +227,7 @@ label {
 		border: none;
 		padding: 0;
 		/* z-index: 999; */
-		/* border-bottom: 1px solid #eff0f0; */
+		border-bottom: 1px solid #f3f8fb;
 
 		padding: 5px 0px;
 		-webkit-transition: .3s ease-in-out;
@@ -480,9 +480,9 @@ label {
 		margin-bottom: 0px;
 	} */
 	#pricing .section-1 {
-		margin-top: 0px;
+		margin-top: 70px;
 		margin-bottom: 0px;
-		background: #f3f8fb;
+		background: #fff;
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
