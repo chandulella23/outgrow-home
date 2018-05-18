@@ -223,7 +223,7 @@ label {
 	overflow: visible;
 }
 .custom-navbar.navbar-default .navbar-nav > li > a.active, .custom-navbar.navbar-default .navbar-nav > li >a:hover {
-	color: #4793c5;
+	color: #fb5f66;
 	background: none;
 }
 .custom-navbar .btn-login {
@@ -6737,7 +6737,7 @@ i.zmdi.zmdi-twitter-box {
 		line-height: 18px;
 		margin-bottom: 10px;
 		display: block;
-		min-height: 55px;
+		/* min-height: 55px; */
 	}
 	.section-metrics .asterix-text {
 		float: left;
@@ -7938,7 +7938,7 @@ i.zmdi.zmdi-twitter-box {
 		box-shadow: 0px 30px 40px rgba(0,0,0,0.10);
 		z-index: 1;
 		left: 10px;
-		/* top: 60px; */
+		top: 60px; 
 	}
 	.dropdown:hover .dropdown-content {
 		display: block;
@@ -7959,7 +7959,7 @@ i.zmdi.zmdi-twitter-box {
 		margin-bottom: 8px;
 	}
 	.dropdown-content a:hover {
-		color: #4793c5;
+		color: #fb5f66;
 		opacity: 1 !important;
 	}
 	/* .nav-boxshadow .dropdown-content {
@@ -7967,7 +7967,7 @@ i.zmdi.zmdi-twitter-box {
 	} */
 	.dropdown .dropdown-content a i.material-icons {
 		font-size: 14px;
-		color: #fa5f66;
+		color: #fb5f66;
 		float: right;
 		line-height: 46px;
 	}
@@ -8006,7 +8006,7 @@ i.zmdi.zmdi-twitter-box {
 
 @media(min-width:320px) and (max-width:1023px) {
 	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
-	.dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;}
+	/* .dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;} */
 	.dropdown .dropdown-content {
 		min-width: 100% !important;
 		left: 0 !important;
@@ -8095,14 +8095,14 @@ i.zmdi.zmdi-twitter-box {
 .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
     right: 5px;
     left: 5px;
-    top: 59px;
+    top: 58px;
     background: #fb5f66;
     height: 2px;
 }
 .navbar-nav > li > a.active.hvr-underline-from-left:before {
     right: 5px;
     left: 5px;
-    top: 59px;
+    top: 58px;
     background: #fb5f66 !important;
     height: 2px;
 }
@@ -8112,7 +8112,7 @@ i.zmdi.zmdi-twitter-box {
     background: #fb5f66 !important;
     height: 2px !important;
 	-webkit-transition-timing-function: ease-out;
-	top: 59px;
+	top: 58px;
 }
 .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
     right: 5px !important;
@@ -8273,3 +8273,5 @@ i.zmdi.zmdi-twitter-box {
 	}
 
 }
+
+.nav-boxshadow .dropdown .dropdown-content {top: 55px;}
