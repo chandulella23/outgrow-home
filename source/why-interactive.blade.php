@@ -45,7 +45,7 @@
 		<div class="container-fluid">
 			<div class="">
 				<h3>Let’s Start With The Metrics</h3>
-				<h5 class="section-2-subheading">Simple pricing. No Hidden costs. No transaction-based fees</h5>
+				<h5 class="section-2-subheading">Simple pricing. No Hidden costs. No transaction-based fees. </h5>
 			</div>
 		</div>
 		<div class="container">
@@ -62,7 +62,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np metrics-inner-block">
 					<h4>Social Share</h4>
-					<span>Quizzes and calculators reach a wider audience, increasing your brand visibility and referral traffic. </span>
+					<span>Interactive content reach a wider audience, increasing your visibility and referral traffic. </span>
 					<img src="{{ $page->baseUrl }}/images/why-img-socialShare.png" alt="Social Share">
 				</div>
 			</div>
@@ -159,7 +159,7 @@
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Interactive content-based segmentation of audience helps you design highly personalized and target sales followups. </span>
+								<span class="list">Interactive content-based segmentation of audience helps you design highly personalized and targeted sales followups. </span>
 							</li>
 						</ul>
 					</div>
