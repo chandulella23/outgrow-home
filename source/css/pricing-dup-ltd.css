@@ -1911,6 +1911,7 @@ tbody td span small i.material-icons, ul li span small i.material-icons {
     z-index: 9;
 	padding: 10px 35px;
 	transition: .5s ease-in-out;
+	border: 2px solid transparent;
 }
 .sec-cookies .btn-understand:focus {outline: none;}
 .sec-cookies i.material-icons {
@@ -1929,3 +1930,8 @@ tbody td span small i.material-icons, ul li span small i.material-icons {
 
 
 .nav-boxshadow .dropdown .dropdown-content {top: 55px;}
+.btn-understand:hover {
+    border: 2px solid #fff !important;
+    background: none !important;
+	color: #fff !important;
+}

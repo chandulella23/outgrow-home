@@ -8243,6 +8243,7 @@ i.zmdi.zmdi-twitter-box {
     z-index: 9;
 	padding: 10px 35px;
 	transition: .5s ease-in-out;
+	border: 2px solid transparent;
 }
 .sec-cookies .btn-understand:focus {outline: none;}
 .sec-cookies i.material-icons {
@@ -8256,6 +8257,11 @@ i.zmdi.zmdi-twitter-box {
 }
 .sec-cookies i.material-icons:hover {
     opacity: 1;
+}
+.btn-understand:hover {
+    border: 2px solid #fff !important;
+    background: none !important;
+	color: #fff !important;
 }
 @media (max-width: 768px) and (min-width: 768px) {
 	.sec-cookies p {
