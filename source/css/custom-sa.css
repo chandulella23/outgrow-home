@@ -8223,7 +8223,8 @@ i.zmdi.zmdi-twitter-box {
     bottom: 0;
     margin: 0;
     z-index: 999;
-    padding: 22px;
+	padding: 22px;
+	left:0px;
 }
 .sec-cookies p {
     float: left;
