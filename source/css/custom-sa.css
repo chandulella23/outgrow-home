@@ -5162,7 +5162,8 @@ button.swiper-pagination-bullet {
 	font-size: 13px;
 	float: left;
 	display: block;
-	margin: 10px 0
+	margin: 10px 0;
+	width: 100%
 }
 .Privacy h5 {
 	float: left;
@@ -6693,4 +6694,8 @@ iframe[name=google_conversion_frame] {
 		right: 20px !important;
 	}
 
+}
+
+.li-style.alpha {
+    list-style-type: none;
 }
