@@ -6880,3 +6880,11 @@ iframe[name=google_conversion_frame] {
 		text-align: left;
 	}
 }
+.static-table .col-md-12 ul li a.link{
+    text-align: left;
+    color: #337ab7 !important;
+    font-size: 14px !important;
+    padding-left: 0px;
+	border-right: none !important;
+	padding-bottom: 0px;
+}
