@@ -93,13 +93,17 @@ window.setTouchPoints = function () {
     const cookie = readCookie('touchpoints');
     let touchpoints = cookie != null ? JSON.parse(cookie) : {};
     let referrer = document.referrer ? document.referrer : 'DIRECT';
-    let counter = parseInt(touchpoints.counter);
+    let utmRef = readCookie('utm_ref') ? JSON.parse(readCookie('utm_ref')) : undefined;
+    let counter = 1;
 
-    if (touchpoints && counter) {
+    if (touchpoints.counter) {
+        counter = parseInt(touchpoints.counter);
         counter++;
-    } else {
-        counter = 1;
     }
+    else {
+        counter=1;
+    }
+    if (utmRef) referrer = utmRef.l_ref;
 
     if (counter < 9) {
         touchpoints.counter = counter;
@@ -144,7 +148,4 @@ jQuery(document).ready(function () {
 
     runTimeout();
     // initTestimonial();
-
-    setTimeout(()=>setTouchPoints(),15000)
-
 });
