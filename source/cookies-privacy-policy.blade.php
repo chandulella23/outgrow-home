@@ -126,7 +126,7 @@
 										To refuse these cookies, please follow the instructions below under the heading "How can I control cookies?" Alternatively, please click on the relevant opt-out link below:
 									</p>
 									<ul>
-										<li>Google Analytics </li>
+										<li><a  class="link" href="https://tools.google.com/dlpage/gaoptout">Google Analytics </a></li>
 									</ul>
 								</div>
 							</div>
@@ -148,8 +148,8 @@
 										To refuse these cookies, please follow the instructions below under the heading "How can I control cookies?" Alternatively, please click on the relevant opt-out link below:
 									</p>
 									<ul>
-										<li>Facebook: Instructions on how to opt out are provided here </li>
-										<li>Conversion </li>
+										<li><a  class="link" href="https://www.facebook.com/business/help/1415256572060999">Facebook: Instructions on how to opt out are provided here </a></li>
+										<li><a  class="link" href="https://adssettings.google.com/authenticated?hl=en">Conversion</a></li>
 									</ul>
 								</div>
 							</div>
@@ -174,7 +174,7 @@
 										To refuse these cookies, please follow the instructions below under the heading "How can I control cookies?" Alternatively, please click on the relevant opt-out link below:
 									</p>
 									<ul>
-										<li>Facebook Content </li>
+										<li><a  class="link" href="https://www.facebook.com/help/211829542181913?helpref=related">Facebook Content </a></li>
 									</ul>
 								</div>
 							</div>
@@ -221,7 +221,7 @@ Alternatively, please click on the relevant opt-out link below:
 
 									</p>
 									<ul>
-										<li>Google Analytics </li>
+										<li><a  class="link" href="https://tools.google.com/dlpage/gaoptout">Google Analytics </a></li>
 									</ul>
 								</div>
 							</div>
@@ -244,8 +244,8 @@ Alternatively, please click on the relevant opt-out link below:
 										To refuse these cookies, please follow the instructions below under the heading "How can I control cookies?" Alternatively, please click on the relevant opt-out link below:
 									</p>
 									<ul>
-										<li>Facebook: Instructions on how to opt out are provided here </li>
-										<li>Conversion </li>
+										<li><a  class="link" href="https://www.facebook.com/business/help/1415256572060999">Facebook: Instructions on how to opt out are provided here </a></li>
+										<li><a  class="link" href="https://adssettings.google.com/authenticated?hl=en">Conversion</a></li>
 									</ul>
 								</div>
 							</div>
@@ -271,7 +271,7 @@ Alternatively, please click on the relevant opt-out link below:
 
 									</p>
 									<ul>
-										<li>Facebook </li>
+										<li><a class="link" href="https://www.facebook.com/help/211829542181913?helpref=related">Facebook Content </a></li>
 									</ul>
 								</div>
 							</div>
