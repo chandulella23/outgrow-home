@@ -6857,7 +6857,7 @@ iframe[name=google_conversion_frame] {
     margin-bottom: 30px;
 }
 .padding-top-none {
-    padding-top: 0px;
+    padding-top: 0px !important;
 }
 @media (min-width:320px) and (max-width:767px){
 	.static-table .row .col-md-4 {
