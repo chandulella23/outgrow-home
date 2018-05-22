@@ -1999,9 +1999,12 @@ i.zmdi.zmdi-twitter-box {
     opacity: 1;
 }
 
-.nav-boxshadow .dropdown .dropdown-content {top: 55px;}
+.nav-boxshadow .dropdown .dropdown-content {top: 56px;}
 .btn-understand:hover {
     border: 2px solid #fff !important;
     background: none !important;
 	color: #fff !important;
+}
+.custom-navbar.navbar-default .navbar-nav>li>a::after {
+    min-height: 100px;
 }
