@@ -5063,9 +5063,9 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	} */
 	.review-page {margin-top: 75px;}
 
-	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
-	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px !important;} 
-	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px !important;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 78px !important;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 78px !important;} 
+	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 78px !important;}
 	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px !important;}
 	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
 	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
@@ -18715,15 +18715,15 @@ h4.mk-animate-element.right-to-left.publish {
 	.btn-readmore-link {font-size: 34px !important;}
 	.case-productHunt .case-breathers-rightSide {margin-top: 115px;}
 	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before,
-	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px !important;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 88px !important;}
 	.company-address {font-size: 18px !important;}
 
-	.navbar-nav > li > a.active.hvr-underline-from-left:before {top: 89px;}
-	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 89px;}
-	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 89px;}
-	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 69px;}
-	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 69px;}
-		.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 69px !important;}
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {top: 88px;}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 88px;}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 88px;}
+	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 68px;}
+	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 68px;}
+		.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 68px !important;}
 
 	#repuso_grid_inner .repuso_card {font-size: 18px;}
 	.repuso_quote {font-size: 45px;}
@@ -20769,4 +20769,4 @@ i.zmdi.zmdi-twitter-box {
     background: none !important;
 	color: #fff !important;
 }
-.nav-boxshadow .dropdown .dropdown-content {top: 55px;}
+.nav-boxshadow .dropdown .dropdown-content {top: 56px;}

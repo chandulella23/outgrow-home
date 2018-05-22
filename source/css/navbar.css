@@ -218,6 +218,24 @@ button.navbar-toggle.collapsed {
 
 }
 
+/* existing css changes */
+    /* .custom-navbar.navbar-default {padding: 0px;}
+    .custom-navbar.navbar-default .navbar-nav>li>a {line-height: 35px;}
+    .nav-boxshadow .custom-navbar.navbar-default .navbar-nav>li>a {line-height: 25px;}
+    .nav-boxshadow.custom-navbar.navbar-default .navbar-nav>li>a {line-height: 25px;} 
+    .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 63px;}
+    .hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 63px;}
+    .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 63px;}
+    .dropdown .dropdown-content {top: 65px;} */
+
+/* end: existing css changes */
+
 @media (min-width: 991px) and (max-width: 1023px) {
+
+}
+@media (min-width: 1680px) and (max-width: 1920px) {
+    .dropdown .dropdown-content {
+        top: 80px;
+    }
 
 }
