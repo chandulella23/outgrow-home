@@ -5162,7 +5162,8 @@ button.swiper-pagination-bullet {
 	font-size: 13px;
 	float: left;
 	display: block;
-	margin: 10px 0
+	margin: 10px 0;
+	width: 100%
 }
 .Privacy h5 {
 	float: left;
@@ -6693,4 +6694,189 @@ iframe[name=google_conversion_frame] {
 		right: 20px !important;
 	}
 
+}
+
+.li-style.alpha {
+    list-style-type: none;
+}
+
+.table-caption {
+    font-size: 16px;
+    color: #8e989f;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.table-heading {
+    font-size: 16px;
+	color: #8e989f;
+	font-family: montserratregular;
+}
+.table-heading-red {
+	color: #fb5f66;
+}
+.static-table p {
+    font-size: 14px;
+	color: #8e989f;
+	font-family: montserratlight;
+	line-height: 22px;
+	margin: 0;
+}
+.static-table ul.nav-tabs {
+    border: 1px solid #bfd5df;
+    border-radius: 4px;
+    background: #fff;
+    float: none;
+    max-width: 247px;
+    margin: 30px auto;
+}
+.static-table ul li {
+    color: #337ab7;
+	font-size: 14px;
+	    margin-bottom: 0px;
+}
+.static-table .row {
+    /* padding-bottom: 20px; */
+	display: table;
+	    margin: 0px;
+}
+.static-table ul >li a {
+	padding: 16px 30px;
+}
+.static-table ul >li:nth-child(1)>a {
+    color: #8e989f;
+    font-size: 12px;
+    text-transform: none;
+    border: none !important;
+    border-right: 1px solid #bfd5df !important;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.static-table ul >li.active a {
+    /* background: #f6f8f9 !important; */
+    color: #fb5f66 !important;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,243,243,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3', GradientType=0 );
+}
+.static-table ul >li:nth-child(2)>a {
+    color: #8e989f;
+    font-size: 12px;
+    text-transform: none;
+    border: none !important;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.static-table ul >li>a {
+    color: #62696d !important;
+    font-size: 12px;
+    text-transform: none;
+    border: none !important;
+    border-right: 1px solid #bfd5df !important;
+    border-radius: 0;
+    background: 0 0;
+    padding: 8px;
+    line-height: 17px;
+    text-align: center;
+    display: block;
+	overflow: hidden;
+	padding: 16px 30px;
+	    margin-right: 0;
+}
+.static-table ul>li:nth-child(1)>a.hvr-sweep-to-right::before {
+    /* background: #f6f8f9; */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    /* background: #f6f8f9; */
+    border-radius: 0px 4px 4px 0px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,243,243,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3', GradientType=0 );
+}
+.static-table ul>li>a.hvr-sweep-to-right::before {
+	background: #f6f8f9;
+}
+.static-table ul>li:nth-child(2)>a.hvr-sweep-to-right::before {
+    /* background: #f6f8f9; */
+    border-radius: 0px 4px 4px 0px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(243,243,243,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3', GradientType=0 );
+}
+
+
+.static-table .row ul {
+	padding-left: 20px;
+	margin: 0px;
+}
+.static-table .row .col-md-4 {
+    border-left: 2px solid #eff0f0;
+    display: table-cell;
+    float: none;
+}
+.static-table .row .col-md-4:first-child {
+	padding-left: 0px;
+		border: none;
+			    padding-right: 30px;
+}
+
+.static-table .row .col-md-4 {
+    border-right: 2px solid #eff0f0;
+    display: table-cell;
+	float: none;
+		vertical-align: top;
+			padding-top: 30px;
+}
+.static-table .row .col-md-4:last-child {
+    border: none;
+    padding-left: 30px;
+}
+.static-table {
+    margin-bottom: 30px;
+}
+.padding-top-none {
+    padding-top: 0px !important;
+}
+@media (min-width:320px) and (max-width:767px){
+	.static-table .row .col-md-4 {
+		display: block;
+		 float: left; 
+		width: 100%;
+		border: none;
+		padding: 0px !important;
+		padding-top: 10px !important;
+	}
+	.padding-top-none .text-center {
+		text-align: left;
+	}
+	.static-table .row {
+		border-bottom: 2px solid #eff0f0;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+	.table-heading {
+		text-align: left;
+	}
 }
