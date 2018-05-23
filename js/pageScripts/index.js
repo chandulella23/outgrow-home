@@ -138,6 +138,7 @@ jQuery(document).ready(function () {
            // iframe.className+='custom-intercom';
             jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
             jQuery('.intercom-launcher-frame').addClass('custom-intercom');
+            jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
             clearInterval(interval);
             clearTimeout(timeout);
         }
