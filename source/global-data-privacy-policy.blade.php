@@ -44,7 +44,7 @@
 				Global Data Privacy Policy
 			</div>
 			<p>
-				Effective Date: 5/21/2018
+				May 22, 2018
 			</p>
 			<p>
 				This Global Data Privacy Policy (Policy) outlines how Outgrow collects, processes and uses  information in compliance with applicable laws and regulations. User’s privacy and the confidentiality of the information that the user might obtain through or upload on the Outgrow Website or Application are priorities for Outgrow. 
@@ -239,11 +239,11 @@
 			</p>
 			<h4 class="Privacy-subheading">Dispute Resolution </h4>
 			<p>
-				Dispute resolution will be conducted as part of the Dispute resolution program established by Verasafe. 
+				Dispute resolution will be conducted as part of the Dispute resolution program established by JAMS.  
 			</p>
 			<h4 class="Privacy-subheading">Binding Arbitration </h4>
 			<p>
-				If your dispute or complaint can’t be resolved by us, nor through the dispute resolution program established by VeraSafe, you may have the right to require that we enter into binding arbitration with you pursuant to the Privacy Shield’s Recourse, Enforcement and Liability Principle and Annex I of the Privacy Shield.
+				If your dispute or complaint can’t be resolved by us, nor through the dispute resolution program established by JAMS, you may have the right to require that we enter into binding arbitration with you pursuant to the Privacy Shield’s Recourse, Enforcement and Liability Principle and Annex I of the Privacy Shield.
 			</p>
 			<h4 class="Privacy-subheading">Regulatory Oversight </h4>
 			<p>
