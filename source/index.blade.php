@@ -109,6 +109,7 @@
                     jQuery('.section.sec-cookies').addClass('hide');
                     jQuery('.intercom-launcher-discovery-frame').removeClass('custom-intercom');
                     jQuery('.intercom-launcher-frame').removeClass('custom-intercom');
+                    jQuery('.intercom-launcher-badge-frame').removeClass('custom-intercom');
 				    if(closeOnReload) {
                         document.cookie = "disableCookieDialog=true; expires=Thu, 29 Dec 2022 12:00:00 UTC";
 					}
