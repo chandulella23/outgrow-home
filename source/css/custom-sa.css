@@ -5186,7 +5186,7 @@ button.swiper-pagination-bullet {
 	margin-bottom: 60px
 }
 .Privacy p a {
-	color: #fb6c73
+	color: #fb5f66;
 }
 .Privacy p a:hover, .Privacy p a:visited {
 	text-decoration: none
@@ -6945,4 +6945,8 @@ iframe[name=google_conversion_frame] {
 		padding: 16px 25px;
 	}
 
+}
+
+a.text-red {
+    color: #fb5f66;
 }
