@@ -5606,3 +5606,11 @@
 	} 
 	
 }
+
+@media (max-width: 480px) and (min-width: 0px) {
+    .Privacy .Privacy-heading.gdpp-heading {
+        line-height: 34px;
+        margin-top: 40px;
+    }
+
+}
