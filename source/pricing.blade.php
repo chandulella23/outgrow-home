@@ -1153,7 +1153,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 np">
                     <div class="container-enterprise">
                         <div class=" enterprise-box-new text-center">
-                            <h2 class="title">Enterprise Plan</h2>
+                            <h2 class="title">Enterprise or Agency plan</h2>
                             <span class="border-center"></span>
                             <p>
                                 Made especially for power users and agencies, this plan gives you full access with a dedicated account manager, API access and team training.
@@ -1440,7 +1440,7 @@
                             I am an agency. Anything special for me?
                         </div>
                         <div class="faq-section-content">
-                            <p>Sure. If you are an agency that works with multiple clients, we can figure out a mutually beneficial partnership. Feel free to email us at support@outgrow.co.</p>
+                            <p>Sure. If you are an agency that works with multiple clients, we can figure out a mutually beneficial partnership. Feel free to reach out to us via the chat on the bottom right of your screen or via email at <a href="mailto:questions@outgrow.co" class="text-red">questions@outgrow.co </a></p>
                         </div>
                     </div>
                 </div>

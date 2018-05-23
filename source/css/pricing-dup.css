@@ -1729,3 +1729,7 @@ a.link-contact.intercom_trigger:hover {
 .sec-cookies i.material-icons:hover {
     opacity: 1;
 }
+
+a.text-red {
+    color: #fb5f66;
+}
