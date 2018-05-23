@@ -107,8 +107,9 @@
 
 				function closeCookieDialog(closeOnReload) {
                     jQuery('.section.sec-cookies').addClass('hide');
+                    jQuery('#intercom-container').removeClass('custom-intercom');
 				    if(closeOnReload) {
-                        document.cookie = "showCookieDialog=false; expires=Thu, 29 Dec 2022 12:00:00 UTC";
+                        document.cookie = "disableCookieDialog=true; expires=Thu, 29 Dec 2022 12:00:00 UTC";
 					}
 
 				}

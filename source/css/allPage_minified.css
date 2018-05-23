@@ -20180,3 +20180,5 @@ img.scrollimg1.wo {
 .sec-cookies i.material-icons:hover {
     opacity: 1;
 }
+
+.intercom-container.custom-intercom{display: none !important;}
