@@ -140,7 +140,7 @@ jQuery(document).ready(function () {
                     intercomContainer.className += 'custom-intercom';
                     console.log('adding custom class to intercom');
                 }
-            }, 2500)
+            }, 3000)
         }
     }, 2000);
 
