@@ -55,7 +55,7 @@
 			</p>
 			<h4 class="Privacy-subheading">Why do we use cookies?</h4>
 			<p>
-				We use first party and third party cookies for several reasons. Some cookies are required for technical reasons in order for our Websites and/or App and/or platform to operate, and we refer to these as "essential" or "strictly necessary" cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our Websites and/or App and/or platform. Third parties serve cookies through our Websites and/or App and/or platform for analytics and other purposes. This is described in more detail below.
+				We use first party and third party cookies for several reasons. Some cookies are required for technical reasons in order for our websites and/or app and/or platform to operate, and we refer to these as "essential" or "strictly necessary" cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our websites and/or app and/or platform. Third parties serve cookies through our websites and/or app and/or platform for analytics and other purposes. This is described in more detail below.
 			</p>
 
 			<div class="col-md-12 col-sm-12 col-xs-12 np static-table">

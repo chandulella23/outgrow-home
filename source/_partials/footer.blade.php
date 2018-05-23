@@ -99,13 +99,13 @@
 
 <section class="section sec-cookies hide">
 	<div class="container">
-		<!-- <p>
-			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
-		</p> -->
 		<p>
+			We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="{{ $page->baseUrl }}/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
+		</p> 
+		<!-- <p>
 			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
-		</p>
-		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">I Understand</button>
+		</p> -->
+		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">Accept & Close</button>
 		<a href="javascript:void(0);" class="" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
 	</div>
 </section>
