@@ -69,12 +69,14 @@
 						<div class="col-md-12 col-sm-12 col-xs-12 np">
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np padding-top-none">
-									<h4 class="table-caption">Types of cookies</h4>
+									<h4 class="table-caption rs-hide">Types of cookies</h4>
+									<h4 class="table-caption rs-show">Type of cookie</h4>
 									<h4 class="table-heading table-heading-red">Essential Website Cookies</h4>
 									<!-- <p>Test</p> -->
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np padding-top-none">
-									<h4 class="table-caption text-center">Who serves these cookies</h4>
+									<h4 class="table-caption text-center rs-hide">Who serves these cookies</h4>
+									<h4 class="table-caption rs-show">Who serves this cookie</h4>
 									<h4 class="table-heading text-center">Outgrow</h4>
 									<!-- <p>Test</p> -->
 								</div>
@@ -90,12 +92,12 @@
 							
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Types of cookies</h4> 
+									<h4 class="table-caption rs-show">Type of cookie</h4> 
 									<h4 class="table-heading table-heading-red">Performance and functionality cookies: </h4>
 									<p>These cookies are used to enhance the performance and functionality of our Websites but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable.</p>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Who serves these cookies</h4> 
+									<h4 class="table-caption rs-show">Who serves this cookie</h4> 
 									<h4 class="table-heading text-center">Outgrow</h4>
 									<!-- <p>Test</p> -->
 								</div>
@@ -109,12 +111,12 @@
 
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Types of cookies</h4> 
+									<h4 class="table-caption rs-show">Type of cookie</h4> 
 									<h4 class="table-heading table-heading-red">Analytics and customisation cookies: </h4>
 									<p>These cookies collect information that is used either in aggregate form to help us understand how our Websites are being used or how effective our marketing campaigns are, or to help us customise our Websites for you.</p>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Who serves these cookies</h4> 
+									<h4 class="table-caption rs-show">Who serves this cookie</h4> 
 									<h4 class="table-heading text-center">Google Analytics</h4>
 									<h4 class="table-heading text-center">Facebook</h4>
 									<h4 class="table-heading text-center">Optimizely</h4>
@@ -133,12 +135,12 @@
 
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Types of cookies</h4> 
+									<h4 class="table-caption rs-show">Type of cookie</h4> 
 									<h4 class="table-heading table-heading-red">Advertising cookies:  </h4>
 									<p>These cookies are used to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed for advertisers, and in some cases selecting advertisements that are based on your interests. </p>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Who serves these cookies</h4> 
+									<h4 class="table-caption rs-show">Who serves this cookie</h4> 
 									<h4 class="table-heading text-center">Facebook Conversion</h4>
 									<!-- <p>Test</p> -->
 								</div>
@@ -156,7 +158,7 @@
 
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Types of cookies</h4> 
+									<h4 class="table-caption rs-show">Type of cookie</h4> 
 									<h4 class="table-heading table-heading-red">Social networking cookies: </h4>
 									<p>
 										These cookies are used to enable you to share pages and content that you find interesting on our 
@@ -164,7 +166,7 @@
 									</p>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Who serves these cookies</h4> 
+									<h4 class="table-caption rs-show">Who serves this cookie</h4> 
 									<h4 class="table-heading text-center">Facebook Connect</h4>
 									<h4 class="table-heading text-center">Twitter</h4>
 									<h4 class="table-heading text-center">LinkedIn</h4>
@@ -186,12 +188,14 @@
 							<div class="col-md-12 col-sm-12 col-xs-12 np">
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np padding-top-none">
-									<h4 class="table-caption">Types of cookies</h4>
+									<h4 class="table-caption rs-hide">Types of cookies</h4>
+									<h4 class="table-caption rs-show">Type of cookie</h4>
 									<h4 class="table-heading table-heading-red">Performance and functionality cookies: </h4>
 									 <p>These cookies are used to enhance the performance and functionality of our Websites but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable.</p> 
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np padding-top-none">
-									<h4 class="table-caption text-center">Who serves these cookies</h4>
+									<h4 class="table-caption text-center rs-hide">Who serves these cookie</h4>
+									<h4 class="table-caption rs-show">Who serves this cookie</h4>
 									<h4 class="table-heading text-center">Outgrow</h4>
 									<!-- <p>Test</p> -->
 								</div>
@@ -205,12 +209,12 @@
 
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									 <h4 class="table-caption rs-show">Types of cookies</h4> 
+									 <h4 class="table-caption rs-show">Type of cookie</h4> 
 									<h4 class="table-heading table-heading-red">Analytics and customisation cookies: </h4>
 									<p>These cookies collect information that is used either in aggregate form to help us understand how our Websites are being used or how effective are marketing campaigns are, or to help us customise our Websites for you.</p>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Who serves these cookies</h4> 
+									<h4 class="table-caption rs-show">Who serves this cookie</h4> 
 									<h4 class="table-heading text-center">Google Analytics</h4>
 									<h4 class="table-heading text-center">Facebook</h4>
 									<!-- <p>Test</p> -->
@@ -229,12 +233,12 @@
 
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Types of cookies</h4> 
+									<h4 class="table-caption rs-show">Type of cookie</h4> 
 									<h4 class="table-heading table-heading-red">Advertising cookies:  </h4>
 									<p>These cookies are used to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed for advertisers, and in some cases selecting advertisements that are based on your interests. </p>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np ">
-									<h4 class="table-caption rs-show">Who serves these cookies</h4> 
+									<h4 class="table-caption rs-show">Who serves this cookie</h4> 
 									<h4 class="table-heading text-center">Facebook </h4>
 									<h4 class="table-heading text-center">Google Conversion</h4>
 									<!-- <p>Test</p> -->
@@ -253,12 +257,12 @@
 
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Types of cookies</h4> 
+									<h4 class="table-caption rs-show">Type of cookie</h4> 
 									<h4 class="table-heading table-heading-red">Social networking cookies: </h4>
 									<p>These cookies are used to enable you to share pages and content that you find interesting on our Websites through third party social networking and other websites. These cookies may also be used for advertising purposes too. </p>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 np">
-									<h4 class="table-caption rs-show">Who serves these cookies</h4> 
+									<h4 class="table-caption rs-show">Who serves this cookie</h4> 
 									<h4 class="table-heading text-center">Facebook </h4>
 									<h4 class="table-heading text-center">Twitter</h4>
 									<h4 class="table-heading text-center">LinkedIn</h4>
