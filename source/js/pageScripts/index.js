@@ -89,28 +89,6 @@ window.getCookie = function (cookieName) {
     }
 };
 
-window.setTouchPoints = function () {
-    const cookie = readCookie('touchpoints');
-    let touchpoints = cookie != null ? JSON.parse(cookie) : {};
-    let referrer = document.referrer ? document.referrer : 'DIRECT';
-    let counter = parseInt(touchpoints.counter);
-
-    if (touchpoints && counter) {
-        counter++;
-    } else {
-        counter = 1;
-    }
-
-    if (counter < 9) {
-        touchpoints.counter = counter;
-        touchpoints['touchpoint_' + counter] = referrer;
-
-        createCookie('touchpoints', JSON.stringify(touchpoints), 365);
-        console.log('setting touchpoint ',counter);
-        window.Intercom('update', {['touchpoint_' + counter]: referrer})
-    }
-};
-
 
 jQuery.noConflict();
 jQuery.material.init();
@@ -144,7 +122,5 @@ jQuery(document).ready(function () {
 
     runTimeout();
     // initTestimonial();
-
-    setTimeout(()=>setTouchPoints(),15000)
 
 });
