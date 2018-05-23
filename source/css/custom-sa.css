@@ -6938,7 +6938,11 @@ iframe[name=google_conversion_frame] {
 		max-width: 247px;
 	}
 	.static-table ul li {
-		width: auto;
+		width: 50%;
+	}
+	.static-table ul >li:nth-child(1)>a, .static-table ul >li:nth-child(2)>a  {
+		font-size: 11px;
+		padding: 16px 25px;
 	}
 
 }
