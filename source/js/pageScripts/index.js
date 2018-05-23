@@ -122,26 +122,44 @@ jQuery(document).ready(function () {
 
     runTimeout();
     // initTestimonial();
+
+
     //add custom class to intercom
     // Wait for Intercom to boot (max 30 seconds)
+
     const timeout = setTimeout(() => clearInterval(interval), 30000);
 
     const interval = setInterval(() => {
-        console.log('interval ')
-        if (window.Intercom.booted) {
-            // Intercom is booted!
+        console.log('testing')
+        const iframe = document.querySelector('.intercom-launcher-discovery-frame');
+
+        if (iframe) {
+            // Append the stylesheet to the iframe head
+           // iframe.className+='custom-intercom';
+            jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
+            jQuery('.intercom-launcher-frame').addClass('custom-intercom');
+            jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
             clearInterval(interval);
             clearTimeout(timeout);
-            setTimeout(() => {
-                let disableCookieDialog = readCookie('disableCookieDialog');
-                console.log(disableCookieDialog);
-                if (disableCookieDialog==undefined || disableCookieDialog ==='false') {
-                    let intercomContainer = document.getElementById("intercom-container");
-                    intercomContainer.className += 'custom-intercom';
-                    console.log('adding custom class to intercom');
-                }
-            }, 3000)
         }
-    }, 2000);
+    }, 1000);
+
+    // const interval = setInterval(() => {
+    //     console.log('interval ')
+    //     if (window.Intercom.booted) {
+    //         // Intercom is booted!
+    //         clearInterval(interval);
+    //         clearTimeout(timeout);
+    //         setTimeout(() => {
+    //             let disableCookieDialog = readCookie('disableCookieDialog');
+    //             console.log(disableCookieDialog);
+    //             if (disableCookieDialog==undefined || disableCookieDialog ==='false') {
+    //                 let intercomContainer = document.getElementById("intercom-container");
+    //                 intercomContainer.className += 'custom-intercom';
+    //                 console.log('adding custom class to intercom');
+    //             }
+    //         }, 3000)
+    //     }
+    // }, 2000);
 
 });

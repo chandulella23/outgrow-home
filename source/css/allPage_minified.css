@@ -20191,3 +20191,7 @@ a.text-red {
 }
 .sec-cookies p a {color: #fff;}
 .sec-cookies p a:hover {text-decoration: underline;}
+
+.custom-intercom{
+    bottom:90px !important;
+}
