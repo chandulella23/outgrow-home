@@ -40,7 +40,7 @@
 @section('content')
 	<section class="section section-services">
 		<div class="container res-container">
-			<div class="Privacy-heading">
+			<div class="Privacy-heading gdpp-heading">
 				Global Data Privacy Policy
 			</div>
 			<p>
