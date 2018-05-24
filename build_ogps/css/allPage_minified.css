@@ -20174,10 +20174,13 @@ img.scrollimg1.wo {
     color: #fff !important;
 }
 .sec-cookies .btn-understand:focus {outline: none;}
-.sec-cookies i.material-icons {
+.sec-cookies a.icon-close {
     position: absolute;
-    right: -85px;
-    top: -15px;
+    right: 5px;
+    top: 5px;
+    float: right;
+}
+.sec-cookies i.material-icons {
 	font-size: 20px;
 	color: #fff;
 	opacity: 0.8;

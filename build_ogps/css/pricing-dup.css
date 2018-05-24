@@ -1723,10 +1723,13 @@ a.link-contact.intercom_trigger:hover {
     color: #fff !important;
 }
 .sec-cookies .btn-understand:focus {outline: none;}
-.sec-cookies i.material-icons {
+.sec-cookies a.icon-close {
     position: absolute;
-    right: -85px;
-    top: -15px;
+    right: 5px;
+    top: 5px;
+    float: right;
+}
+.sec-cookies i.material-icons {
 	font-size: 20px;
 	color: #fff;
 	opacity: 0.8;
@@ -1741,3 +1744,49 @@ a.text-red {
 }
 .sec-cookies p a {color: #fff;}
 .sec-cookies p a:hover {text-decoration: underline;}
+
+
+/* pricing col four css */
+	.pricing-outer.pricing-col-four {
+		width: 990px;
+	}
+	.pricing-outer.pricing-col-four thead th, 
+	.pricing-outer.pricing-col-four tbody td, 
+	.pricing-outer.pricing-col-four tbody th {
+		width: 20%;
+		border-left: 1px solid #eff0f1; 
+		border-right: 1px solid #eff0f1;
+	}
+	.pricing-outer.pricing-col-four thead th:first-child {
+		border: none;
+	}
+	.pricing-outer.pricing-col-four thead th {
+		border-top: 1px solid #eff0f1;
+	}
+	.pricing-outer.pricing-col-four thead th.active {
+		border-left: 1px solid #bed4df !important;
+		border-right: 1px solid #bed4df !important;
+	}
+	.pricing-outer.pricing-col-four thead th.active:before {
+		width: 199px;
+	}
+	.pricing-outer.pricing-col-four thead span {
+		width: 60%;
+	}
+	.pricing-outer.pricing-col-four thead th:nth-child(1) span {
+		width: auto !important;
+	}
+	.pricing-outer.pricing-col-four span.label-popularPlan {
+		width: 100% !important;
+	}
+	
+	.pricing-outer.pricing-col-four thead th:nth-child(2), 
+	.pricing-outer.pricing-col-four tbody td:nth-child(2) {
+		border-right: 1px solid #bed4df;
+	}
+	.pricing-outer.pricing-col-four thead th:nth-child(3), 
+	.pricing-outer.pricing-col-four tbody td:nth-child(3) {
+		border-right: 1px solid #bed4df;
+	}
+
+/* end: pricing col four css */
