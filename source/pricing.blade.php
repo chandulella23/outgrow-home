@@ -87,7 +87,7 @@
                     <ul role="tablist">
                         <li class="cycle-tab active annual" id="annual" role="presentation">
                             <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('annual')">
-                                <!-- <i class="material-icons">check</i>--> Annual (save 40%)
+                                <!-- <i class="material-icons">check</i>--> Annual (save upto 44%)
                                 <!-- <label class="save-per">Save over 44%</label> -->
                             </a>
                         </li>
@@ -1153,7 +1153,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 np">
                     <div class="container-enterprise">
                         <div class=" enterprise-box-new text-center">
-                            <h2 class="title">Enterprise or Agency plan</h2>
+                            <h2 class="title">Enterprise & Agency Plans</h2>
                             <span class="border-center"></span>
                             <p>
                                 Made especially for power users and agencies, this plan gives you full access with a dedicated account manager, API access and team training.
