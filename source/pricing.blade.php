@@ -193,7 +193,7 @@
                     </tfoot>-->
 
                     <tbody>
-                        <tr class="expand">
+                        <tr class="expand yearlyLeads">
                             <th>
                                 <!-- <i class="material-icons vis-hide">add</i>  -->
                                 Leads <i class="material-icons">help</i>
@@ -212,6 +212,28 @@
                             </td>
                             <td>
                                 <span class="quater"></span>12,000 per year
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                        </tr>
+                        <tr class="expand hide monthlyLeads">
+                            <th>
+                                <!-- <i class="material-icons vis-hide">add</i>  -->
+                                Leads <i class="material-icons">help</i>
+                            </th>
+                            <td>
+                                <span class="quater"></span>1,000 per month
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>7,500 per month
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td>
+                                <span class="full"></span>50,000 per month
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td>
+                                <span class="quater"></span>1,000 per month
                                 <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
                             </td>
                         </tr>
@@ -641,7 +663,8 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="quater"></span>12,000 per year</span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="quater"></span>12,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="quater"></span>1,000 per month</span>
                                     <span class="detail">Number of submissions of the lead generation form on Outgrow. </span>
                                 </li>
                                <li class="expand-rs">
@@ -843,7 +866,8 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="half"></span>90,000 per year</span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="half"></span>90,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="half"></span>7,500 per month</span>
                                     <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
                                 </li>
                                 <li class="expand-rs">
@@ -1049,7 +1073,8 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="full"></span>600,000 per year</span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="full"></span>600,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="full"></span>50,000 per month</span>
                                     <span class="detail">Number of submissions of the lead generation form on Outgrow. </span>
                                 </li>
                                 <li class="expand-rs">
@@ -1253,10 +1278,11 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="quater"></span>12,000 per year</span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="quater"></span>12,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="quater"></span>1,000 per month</span>
                                     <span class="detail">Number of submissions of the lead generation form on Outgrow. </span>
                                 </li>
-                                <li>
+                                <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>3</span>
                                     <span class="detail">Number of quizzes you can build. </span>
