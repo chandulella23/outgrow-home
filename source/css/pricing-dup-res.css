@@ -315,7 +315,18 @@
 	#plan-cycle {
 		margin-left: 0;
 	}
-
+	.pricing-outer.pricing-col-four .pricing-bottom ul li .feature-title i.material-icons{
+		color: #2b93be;
+		vertical-align: middle;
+		position: relative;
+		top: -2px;
+		visibility: visible;
+		padding-right: 5px;
+		font-size: 14px;
+	}
+	.pricing-outer.pricing-col-four {
+		width: 100%;
+	}
 	
 
 
