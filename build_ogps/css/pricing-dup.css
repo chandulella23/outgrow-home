@@ -68,6 +68,16 @@
 	font-weight: 400;
 	font-style: normal
 }
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular-webfont.eot);
+	src: url(../fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'), 
+	url(../fonts/Roboto-Regular-webfont.woff2) format('woff2'), 
+	url(../fonts/Roboto-Regular.woff) format('woff'), 
+	url(../fonts/Roboto-Regular-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal
+}
 body {
 	font-family: montserratregular;
 	color: #8e989f;
@@ -960,10 +970,10 @@ label {
 		}
 
 		th,td {
-			font-family: montserratregular;
+			font-family: Roboto-Regular;
 			font-size: 12px;
 			/* line-height: 1.45; */
-			color: #797f83;
+			color: #666;
 			vertical-align: top;
 			/*padding: 10px;*/
 		}
@@ -1013,7 +1023,7 @@ label {
 			font-weight: 400;
 			color: #2b93be;
 			font-size: 30px;
-			font-family: montserratlight;
+			font-family: Roboto;
 			padding-bottom: 15px;
 			background: #fff;
 		}
@@ -1046,11 +1056,12 @@ label {
 		}*/
 
 		thead th h2 {
-			font-size: 15px;
-			color: #62696d;
-			font-family: montserratlight;
-			text-transform: uppercase;
-			margin-top: 35px;
+			font-size: 18px;
+			color: #666;
+			font-family: montserratregular;
+			text-transform: none;
+			margin-top: 20px;
+			min-height: 30px;
 		}
 		
 		thead th sub {
@@ -1061,21 +1072,22 @@ label {
 		}
 
 		thead th p.price {
-			font-size: 36px !important;
-			color: #009ad8;
-			font-family: montserratsemibold !important;
-			line-height: normal;
-			text-align: center;
+font-size: 32px !important;
+    color: #3a85b4;
+    font-family: montserratlight;
+    line-height: normal;
+    text-align: center;
 		}
 		thead th p.price sup {
-			font-size: 20px;
+			font-size: 32px;
 			font-family: montserratlight;
+			top: 0px;
 		}
 
 		thead th p.strike-price {
 			color: #abb7bc;
 			font-size: 12px;
-			font-family: montserratlight;
+			font-family: montserratbold;
 			text-decoration: line-through;
 			margin: 0px;
 			line-height: normal;
@@ -1083,7 +1095,7 @@ label {
 		}
 
 		thead th p.strike-price sub {
-			font-family: montserratlight;
+			font-family: montserratbold;
 			font-size: 75%;
 		}
 
@@ -1095,16 +1107,16 @@ label {
 		}
 
 		thead span a {
-			color: #fdfeff;
-			text-decoration: none;
-			text-transform: uppercase;
-			display: block;
-			background: #fb6c73;
-			border-radius: 4px;
-			padding: 9px 10px;
-			font-size: 13px;
-			-webkit-transition: .3s ease-in-out;
-    		transition: .3s ease-in-out;
+color: #fdfeff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background: #fb6c73;
+    border-radius: 4px;
+    padding: 11px 20px;
+    font-size: 10px;
+    transition: .3s ease-in-out;
+    font-family: montserratbold;
 		}
 
 		tbody th {
@@ -1127,7 +1139,7 @@ label {
 		tbody td {
 			background: #fff;
 			text-align: left;
-			font-family: montserratlight;
+			font-family: Roboto-Regular;
 			padding: 15px;			
     		line-height: 1;
 			z-index: 2;
@@ -1196,7 +1208,7 @@ label {
 			color: #2b93be;
 			font-size: 11px;
 			padding: 10px 0px 0px 10px;
-			font-family: montserratlight;
+			font-family: Roboto-Regular;
 			float: left;
 			width: 100%;
 		}
@@ -1342,11 +1354,12 @@ span.label-popularPlan {
     color: #fff;
     background-color: #8c8283;
     text-transform: uppercase;
-    top: -8px;
+    top: -20px;
 	left: 0px;
 	z-index: 1;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px -6px 10px;
-    border-top: 1px solid rgb(190, 212, 223);
+	border-top: 1px solid rgb(190, 212, 223);
+	font-family: Roboto;
 }
 .quater{
     background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
@@ -1424,7 +1437,7 @@ tbody tr:last-child td.active-bg {
     font-size: 30px !important;
 }
 a.link-contact.intercom_trigger {
-    font-size: 11px;
+    font-size: 10px;
     color: #fb5f66;
     text-decoration: underline;
     text-transform: uppercase;
@@ -1432,6 +1445,7 @@ a.link-contact.intercom_trigger {
     padding: 0;
 	padding-top: 7px;
 	display: block;
+	    font-family: montserratlight;
 }
 a.link-contact.intercom_trigger:hover {
     color: #ea101d;
@@ -1798,3 +1812,35 @@ a.text-red {
 	}
 
 /* end: pricing col four css */
+
+
+.pricing-outer tbody th {
+    font-size: 13px !important;
+    color: #797f83 !important;
+}
+.four-plan-case#plan-cycle {
+     margin-left: 0; 
+}
+label.quiz-only {
+    background: #3a85b4;
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    display: block;
+    margin: 0 30%;
+    position: absolute;
+    top: 40px;
+}
+span.expand-sub-all {
+    display: none !important;
+}
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    label.quiz-only {
+      position: relative;
+      top: -10px;
+      display: -webkit-inline-box;
+  }
+}
