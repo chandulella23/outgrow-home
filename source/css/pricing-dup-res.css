@@ -200,10 +200,9 @@
 	.pricing-top h3{
 font-size: 18px;
     color: #666666;
-    font-family: montserratbold;
+    font-family: montserratregular;
     text-transform: none;
 	margin-top: 15px;
-	min-height: 40px;
 	}
 	.pricing-top p.price{	
 font-size: 32px !important;
@@ -247,7 +246,7 @@ color: #fdfeff;
     background: #fb6c73;
     border-radius: 4px;
     padding: 11px 25px;
-    font-size: 11px;
+    font-size: 10px;
     transition: .3s ease-in-out;
     font-family: montserratbold;
 	}
@@ -341,10 +340,6 @@ color: #fdfeff;
 	span.label-popularPlan {
 	top: -1px;
 	}
-label.quiz-only {
-	top: 52px !important;
-    right: 45% !important;
-}
 	
 
 

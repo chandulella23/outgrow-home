@@ -1058,7 +1058,7 @@ label {
 		thead th h2 {
 			font-size: 18px;
 			color: #666;
-			font-family: montserratbold;
+			font-family: montserratregular;
 			text-transform: none;
 			margin-top: 20px;
 			min-height: 30px;
@@ -1114,7 +1114,7 @@ color: #fdfeff;
     background: #fb6c73;
     border-radius: 4px;
     padding: 11px 20px;
-    font-size: 11px;
+    font-size: 10px;
     transition: .3s ease-in-out;
     font-family: montserratbold;
 		}
@@ -1437,7 +1437,7 @@ tbody tr:last-child td.active-bg {
     font-size: 30px !important;
 }
 a.link-contact.intercom_trigger {
-    font-size: 11px;
+    font-size: 10px;
     color: #fb5f66;
     text-decoration: underline;
     text-transform: uppercase;
@@ -1818,21 +1818,29 @@ a.text-red {
     font-size: 13px !important;
     color: #797f83 !important;
 }
+.four-plan-case#plan-cycle {
+     margin-left: 0; 
+}
 label.quiz-only {
     background: #3a85b4;
     padding: 2px 10px;
     border-radius: 15px;
     font-size: 8px;
     color: #fff;
-    position: absolute;
-    top: 40px;
-    right: 30%;
     text-transform: uppercase;
     font-family: montserratlight;
+    display: block;
+    margin: 0 30%;
+    position: absolute;
+    top: 40px;
 }
-.four-plan-case#plan-cycle {
-     margin-left: 0; 
-}
-span.expand-all {
+span.expand-sub-all {
     display: none !important;
+}
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    label.quiz-only {
+      position: relative;
+      top: -10px;
+      display: -webkit-inline-box;
+  }
 }
