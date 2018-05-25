@@ -114,16 +114,16 @@
                             <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>25<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>45<sub> mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -132,32 +132,32 @@
                                 <span class="label-popularPlan">Most Popular</span>
                                 <h2>Essentials</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>95<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>105<sub> mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>115<sub> mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
                             <th>
                                 <h2>Business</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>600<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>667<sub> mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>720<sub> mo.</sub></p>
                                 </span>
                                 <span class="">
                                     <a href="//app.outgrow.co" target="_blank" id="b-signup" class="signuplink params btn-hover">Start trial</a>                                    
@@ -165,18 +165,19 @@
                                 </span>
                             </th>
                             <th>
-                                <h2>Freelancer-Quiz</h2>                                
+                                <h2>Freelancer</h2>  
+                                <label class="quiz-only">Quiz Only</label>                              
                                 <span class="annual-price">
-                                    <p class="strike-price">$18<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>14<sub>/mo.</sub></p>
+                                    <p class="strike-price">$18<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>14<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>18<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>18<sub> mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -248,7 +249,7 @@
                             </td>
                             <td class="active-bg">
                                 <span class="full"></span>Unlimited
-                                <span class="detail">ANumber of calculators, quizzes, recommendations etc you can build.</span>
+                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
                             </td>
                             <td>
                                 <span class="full"></span>Unlimited
@@ -269,7 +270,7 @@
                             <th>
                                 <!-- <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>  -->
-                                Templates and Layouts <i class="material-icons">help</i></th>
+                                Templates & Layouts <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
@@ -311,7 +312,7 @@
                             <th>
                                 <!-- <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>  -->
-                                Hosting and Embedding <i class="material-icons">help</i></th>
+                                Hosting & Embedding <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
                                 <span class="full"></span>Embed Anywhere
@@ -353,7 +354,7 @@
                             <th>
                                 <!-- <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i> -->
-                                Charts and Graphs <i class="material-icons">help</i></th>
+                                Charts & Graphs <i class="material-icons">help</i></th>
                             </th>
                             <td>
                                 <span class="none"></span>No Access
@@ -547,7 +548,7 @@
                             <th>
                                 <!-- <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>   -->
-                                Formula and Logic Jump <i class="material-icons">help</i></th>
+                                Formula & Logic Jump <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Limited Access
@@ -570,7 +571,7 @@
                             <th>
                                 <!-- <i class="material-icons plus">add</i>
                                 <i class="material-icons minus">remove</i>  -->
-                                Analytics and Tracking <i class="material-icons">help</i></th>
+                                Analytics & Tracking <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Access
@@ -646,16 +647,16 @@
                         <div class="pricing-top">
                             <h3>Freelancer</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                <p class="strike-price">$45<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>25<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                <p class="strike-price">$45<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>45<sub> mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -680,7 +681,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Templates and Layouts <i class="material-icons">help</i>
+                                        Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
                                     <span class="detail">Only the Classic "Chicago and Londoner" layout and templates. </span>
@@ -698,7 +699,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Hosting and Embedding <i class="material-icons">help</i>
+                                        Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
@@ -715,7 +716,7 @@
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <!--<i class="material-icons plus">add</i>-->
-                                        Charts and Graphs <i class="material-icons">help</i>
+                                        Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                     <span class="detail">You do not have access to charts and graphs.</span>
@@ -801,7 +802,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Formula and Logic Jump <i class="material-icons">help</i>
+                                        Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
@@ -810,7 +811,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Analytics and Tracking <i class="material-icons">help</i>
+                                        Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
@@ -849,16 +850,16 @@
                         <div class="pricing-top">
                             <h3>Essentials</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>95<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>105<sub> mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>115<sub> mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -883,7 +884,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Templates and Layouts <i class="material-icons">help</i>
+                                        Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates & Layouts </span>
                                     <span class="detail">All layouts and templates are unlocked.</span>
@@ -901,7 +902,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Hosting and Embedding <i class="material-icons">help</i>
+                                        Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
@@ -918,7 +919,7 @@
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <!--<i class="material-icons plus">add</i>-->
-                                        Charts and Graphs <i class="material-icons">help</i>
+                                        Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                     <span class="detail">You do not have access to charts and graphs.</span>
@@ -1007,7 +1008,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Formula and Logic Jump <i class="material-icons">help</i>
+                                        Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
@@ -1016,7 +1017,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Analytics and Tracking <i class="material-icons">help</i>
+                                        Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
@@ -1053,16 +1054,16 @@
                         <div class="pricing-top">
                             <h3>Business</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>600<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>667<sub> mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>720<sub> mo.</sub></p>
                             </span>
                             <span class="">
                                 <a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a>
@@ -1090,7 +1091,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Templates and Layouts <i class="material-icons">help</i>
+                                        Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates & Layouts </span>
                                     <span class="detail">All layouts and templates are unlocked.</span>
@@ -1108,7 +1109,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Hosting and Embedding <i class="material-icons">help</i>
+                                        Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed & Custom Domain </span>
                                     <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
@@ -1126,7 +1127,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Charts and Graphs <i class="material-icons">help</i>
+                                        Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
@@ -1215,7 +1216,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Formula and Logic Jump <i class="material-icons">help</i>
+                                        Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
@@ -1224,7 +1225,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Analytics and Tracking <i class="material-icons">help</i>
+                                        Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
                                     <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>
@@ -1259,18 +1260,19 @@
                     <!-- freelancer-quiz -->
                     <div class="col-md-12 col-sm-12 col-xs-12 np pricing-block">
                         <div class="pricing-top">
-                            <h3>Freelancer-Quiz</h3>
+                            <h3>Freelancer</h3>
+                            <label class="quiz-only">Quiz Only</label>
                             <span class="annual-price">
-                                <p class="strike-price">$14<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>18<sub>/mo.</sub></p>
+                                <p class="strike-price">$18<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>14<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                <p class="strike-price">$45<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>18<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>18<sub> mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
@@ -1295,7 +1297,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Templates and Layouts <i class="material-icons">help</i>
+                                        Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
                                     <span class="detail">Only the Classic "Chicago" layout and templates. </span>
@@ -1313,7 +1315,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Hosting and Embedding <i class="material-icons">help</i>
+                                        Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
@@ -1330,7 +1332,7 @@
                                <li class="expand-rs">
                                     <span class="feature-title">
                                         <!--<i class="material-icons plus">add</i>-->
-                                        Charts and Graphs <i class="material-icons">help</i>
+                                        Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
                                     <span class="detail">You do not have access to charts and graphs.</span>
@@ -1416,7 +1418,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Formula and Logic Jump <i class="material-icons">help</i>
+                                        Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">No access to logic jump, but can use outcome mapping in quiz. </span>
@@ -1425,7 +1427,7 @@
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Analytics and Tracking <i class="material-icons">help</i>
+                                        Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
