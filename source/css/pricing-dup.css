@@ -1820,3 +1820,6 @@ label.quiz-only {
     text-transform: uppercase;
     font-family: montserratlight;
 }
+.four-plan-case#plan-cycle {
+     margin-left: 0; 
+}

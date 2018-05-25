@@ -343,7 +343,7 @@ color: #fdfeff;
 	}
 label.quiz-only {
 	top: 52px !important;
-    right: 40% !important;
+    right: 45% !important;
 }
 	
 
@@ -602,7 +602,10 @@ label.quiz-only {
 		top: -12px !important;
 	}
 
-
+	label.quiz-only {
+	top: 52px !important;
+    right: 40% !important;
+}
 }
 @media (max-width: 2999px) and (min-width: 1921px) {
 	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}

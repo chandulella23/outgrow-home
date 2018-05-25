@@ -82,7 +82,7 @@
                   </div>
                 </div>
             </div> -->
-            <section id="plan-cycle">
+            <section id="plan-cycle" class="four-plan-case">
                 <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list">
                     <ul role="tablist">
                         <li class="cycle-tab active annual" id="annual" role="presentation">
