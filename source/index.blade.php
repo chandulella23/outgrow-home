@@ -110,6 +110,7 @@
                     jQuery('.intercom-launcher-discovery-frame').removeClass('custom-intercom');
                     jQuery('.intercom-launcher-frame').removeClass('custom-intercom');
                     jQuery('.intercom-launcher-badge-frame').removeClass('custom-intercom');
+                    jQuery('.intercom-messenger-frame').css('bottom', 'calc(20px + 80px)');
 				    if(closeOnReload) {
                         document.cookie = "disableCookieDialog=true; expires=Thu, 29 Dec 2022 12:00:00 UTC";
 					}
