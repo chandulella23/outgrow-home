@@ -168,7 +168,7 @@
                                 <h2>Freelancer</h2>  
                                 <label class="quiz-only">Quiz Only</label>                              
                                 <span class="annual-price">
-                                    <p class="strike-price">$18<sub> mo.</sub></p>
+                                    <p class="strike-price">$22<sub> mo.</sub></p>
                                     <p class="price"><sup>$</sup>14<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
@@ -177,7 +177,7 @@
                                 </span>
                                 <span class="monthly-price">
                                     <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>18<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>22<sub> mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -1263,7 +1263,7 @@
                             <h3>Freelancer</h3>
                             <label class="quiz-only">Quiz Only</label>
                             <span class="annual-price">
-                                <p class="strike-price">$18<sub> mo.</sub></p>
+                                <p class="strike-price">$22<sub> mo.</sub></p>
                                 <p class="price"><sup>$</sup>14<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
@@ -1272,7 +1272,7 @@
                             </span>
                             <span class="monthly-price">
                                 <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>18<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>22<sub> mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
