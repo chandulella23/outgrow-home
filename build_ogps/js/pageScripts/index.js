@@ -129,6 +129,15 @@ jQuery(document).ready(function () {
 
     const timeout = setTimeout(() => clearInterval(interval), 30000);
 
+    const intercomMessengerInterval = setInterval(()=>{
+        const iframe = document.querySelector('.intercom-messenger-frame');
+        if(iframe) {
+            clearInterval(intercomMessengerInterval);
+            jQuery('.intercom-messenger-frame').css('bottom', '160px');
+        }
+
+    },1000);
+
     const interval = setInterval(() => {
         console.log('testing')
         const iframe = document.querySelector('.intercom-launcher-discovery-frame');
@@ -139,6 +148,7 @@ jQuery(document).ready(function () {
             jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
             jQuery('.intercom-launcher-frame').addClass('custom-intercom');
             jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
+            console.log('hello')
             clearInterval(interval);
             clearTimeout(timeout);
         }
