@@ -1075,11 +1075,11 @@ label {
 		}
 
 		thead th p.price {
-font-size: 32px !important;
-    color: #3a85b4;
-    font-family: montserratlight;
-    line-height: normal;
-    text-align: center;
+			font-size: 32px !important;
+			color: #3a85b4;
+			font-family: montserratlight;
+			line-height: normal;
+			text-align: center;
 		}
 		thead th p.price sup {
 			font-size: 32px;
@@ -1110,16 +1110,16 @@ font-size: 32px !important;
 		}
 
 		thead span a {
-color: #fdfeff;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    background: #fb6c73;
-    border-radius: 4px;
-    padding: 11px 20px;
-    font-size: 10px;
-    transition: .3s ease-in-out;
-    font-family: montserratbold;
+			color: #fdfeff;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: block;
+			background: #fb6c73;
+			border-radius: 4px;
+			padding: 11px 20px;
+			font-size: 10px;
+			transition: .3s ease-in-out;
+			font-family: montserratbold;
 		}
 
 		tbody th {
