@@ -64,17 +64,20 @@
 @font-face {
 	font-family: montserrat-bold;
 	src: url(../fonts/montserrat-bold-webfont.eot);
-	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/montserrat-bold-webfont.woff2) format('woff2'), url(../fonts/montserrat-bold-webfont.woff) format('woff'), url(../fonts/montserrat-bold-webfont.ttf) format('truetype');
+	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format('embedded-opentype'), 
+	url(../fonts/montserrat-bold-webfont.woff2) format('woff2'), 
+	url(../fonts/montserrat-bold-webfont.woff) format('woff'), 
+	url(../fonts/montserrat-bold-webfont.ttf) format('truetype');
 	font-weight: 400;
 	font-style: normal
 }
 @font-face {
 	font-family: Roboto-Regular;
-	src: url(../fonts/Roboto-Regular-webfont.eot);
-	src: url(../fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'), 
-	url(../fonts/Roboto-Regular-webfont.woff2) format('woff2'), 
-	url(../fonts/Roboto-Regular.woff) format('woff'), 
-	url(../fonts/Roboto-Regular-webfont.ttf) format('truetype');
+	src: url(../fonts/roboto-regular-webfont.eot);
+	src: url(../fonts/roboto-regular.eot?#iefix) format('embedded-opentype'), 
+	url(../fonts/roboto-regular-webfont.woff2) format('woff2'), 
+	url(../fonts/roboto-regular-webfont.woff) format('woff'), 
+	url(../fonts/Roboto-Regular.ttf) format('truetype');
 	font-weight: 400;
 	font-style: normal
 }
@@ -1830,7 +1833,7 @@ label.quiz-only {
     text-transform: uppercase;
     font-family: montserratlight;
     display: block;
-    margin: 0 30%;
+    margin: 0 33%;
     position: absolute;
     top: 40px;
 }
@@ -1844,3 +1847,4 @@ span.expand-sub-all {
       display: -webkit-inline-box;
   }
 }
+span.expand-all {display: none !important;}
