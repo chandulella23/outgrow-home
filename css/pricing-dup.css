@@ -1848,3 +1848,179 @@ span.expand-sub-all {
   }
 }
 span.expand-all {display: none !important;}
+
+/* billing plan list css */
+	.four-plan-case .billing-plan-list {
+		border: 1px solid #ccc;
+		border-radius: 25px;
+		background: #fff;
+		float: none;
+		/* width: 60%; */
+		max-width: 500px;
+		margin: 15px auto 30px;
+	}
+	.four-plan-case .billing-plan-list ul {
+		padding: 0;
+		margin: 0
+	}
+	.four-plan-case .billing-plan-list ul > li {
+		display: table-cell;
+		width: 1%
+	}
+	.four-plan-case .billing-plan-list ul > li.active a {
+		background: #f6f8f9 !important;
+		color: #fff
+	}
+	.four-plan-case .billing-plan-list ul > li > a {
+		color: #62696d !important;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		border-right: 1px solid #ccc !important;
+		border-radius: 0;
+		background: 0 0;
+		padding: 8px;
+		line-height: 17px;
+		text-align: center;
+		display: block
+	}
+	.four-plan-case .billing-plan-list ul > li > a.hvr-sweep-to-right::before {
+		background: #f6f8f9
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(1) > a {
+		color: #8e989f;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		border-right: 1px solid #d7dbdd !important;
+		-webkit-border-top-left-radius: 25px;
+		-webkit-border-bottom-left-radius: 25px;
+		-moz-border-radius-topleft: 25px;
+		-moz-border-radius-bottomleft: 25px;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		overflow: hidden;
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(1) > a.hvr-sweep-to-right::before {
+		background: #f6f8f9;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(2) > a {
+		color: #8e989f;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+		-moz-border-radius-topright: 0;
+		-moz-border-radius-bottomright: 0;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-radius: 0px 17px 17px 0px;
+		overflow: hidden;
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(2) > a.hvr-sweep-to-right::before {
+		background: #f6f8f9;
+		border-radius: 0px 17px 17px 0px;
+	}
+
+	.four-plan-case .billing-plan-list ul > li:nth-child(3) > a {
+		color: #8e989f;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		border-left: 1px solid #d7dbdd !important;
+		-webkit-border-top-right-radius: 25px;
+		-webkit-border-bottom-right-radius: 25px;
+		-moz-border-radius-topright: 25px;
+		-moz-border-radius-bottomright: 25px;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(3) > a.hvr-sweep-to-right::before {
+		background: #f6f8f9;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px
+	}
+	#pricing .four-plan-case .billing-plan-list ul > li > a {
+		padding: 8px 0;
+	}
+	.four-plan-case .billing-plan-list ul > li a i.material-icons {
+		font-size: 18px;
+		color: #62696d;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: none;
+	}
+	.four-plan-case .billing-plan-list ul > li.active a i.material-icons {
+		font-size: 18px;
+		color: #0ead48;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: inline-block;
+	}
+	.four-plan-case label.save-per {
+		background: #009ad8;
+		padding: 0px 7px;
+		border-radius: 15px;
+		font-size: 10px;
+		color: #fff;
+		margin-left: 3px;
+	}
+	.four-plan-case label {
+		margin-bottom: 0 !important;
+		font-weight: 400 !important;
+	}
+	.billing-plan-list ul > li.active a i.material-icons {
+		font-size: 18px;
+		color: #0ead48;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: inline-block;
+	}
+	.four-plan-case .billing-plan-list ul > li a i.material-icons {
+		font-size: 18px;
+		color: #62696d;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: none;
+	}
+	@media screen and (min-width: 320px) and (max-width: 500px) { 
+		.four-plan-case .billing-plan-list ul > li > a {
+			display: inline-block;
+		}
+		.four-plan-case .billing-plan-list ul > li >{
+			cursor: pointer;
+		}
+		.four-plan-case .billing-plan-list ul > li:nth-child(2).active {
+			background: #f6f8f9;
+			overflow: hidden;
+			border-top-right-radius: 25px;
+			border-bottom-right-radius: 25px;
+		}
+		.four-plan-case .billing-plan-list ul > li.active a i.material-icons {
+			font-size: 14px;
+		}
+		.four-plan-case .billing-plan-list ul > li:nth-child(2) > a.hvr-sweep-to-right::before {
+			background: transparent;
+		}
+		.four-plan-case label.save-per {
+			padding: 0px 10px;
+		}
+		#pricing .four-plan-case .billing-plan-list {
+			width: 100%;
+			max-width: 300px !important;
+		}
+
+	}
+	@media screen and (min-width: 411px) and (max-width: 414px) {     
+		/* .four-plan-case .billing-plan-list ul > li > a {
+			display: block;
+		} */
+		.four-plan-case label.save-per {
+			padding: 0px 7px;
+		}
+	}
+
+/* end: billing plan list css */

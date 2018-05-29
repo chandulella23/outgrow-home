@@ -2116,7 +2116,7 @@
     .billing-white-top h3.plan-price {
         font-size: 24px
     }
-    #pricing .enterprise-box-new h2.title {font-size: 20px;}
+    #pricing .enterprise-box-new h2.title {font-size: 18px;     padding: 0 !important;}
     .billing-grey-top h3.plan-price span sup, .billing-white-top h3.plan-price span sup {
 		font-size: 14px;
 	}

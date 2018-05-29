@@ -131,9 +131,13 @@ jQuery(document).ready(function () {
 
     const intercomMessengerInterval = setInterval(() => {
         const iframe = document.querySelector('.intercom-messenger-frame');
+        const launcherBadge = document.querySelector('.intercom-messenger-frame');
         if (iframe) {
             //clearInterval(intercomMessengerInterval);
             jQuery('.intercom-messenger-frame').css('bottom', '160px');
+        }
+        if (launcherBadge) {
+            jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
         }
 
     }, 1000);
@@ -147,8 +151,7 @@ jQuery(document).ready(function () {
             // iframe.className+='custom-intercom';
             jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
             jQuery('.intercom-launcher-frame').addClass('custom-intercom');
-            jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
-            console.log('hello')
+            console.log('setting custom intercom css')
             clearInterval(interval);
             clearTimeout(timeout);
         }
