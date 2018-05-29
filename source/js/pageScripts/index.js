@@ -95,7 +95,7 @@ jQuery.material.init();
 
 jQuery(document).ready(function () {
     disableCookieDialog = getCookie('disableCookieDialog');
-    if(disableCookieDialog==undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
+    if (disableCookieDialog == undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
     calculateMinHeight();
 
     jQuery('.calc-links a').on('click', function () {
@@ -129,14 +129,14 @@ jQuery(document).ready(function () {
 
     const timeout = setTimeout(() => clearInterval(interval), 30000);
 
-    const intercomMessengerInterval = setInterval(()=>{
+    const intercomMessengerInterval = setInterval(() => {
         const iframe = document.querySelector('.intercom-messenger-frame');
-        if(iframe) {
-            clearInterval(intercomMessengerInterval);
+        if (iframe) {
+            //clearInterval(intercomMessengerInterval);
             jQuery('.intercom-messenger-frame').css('bottom', '160px');
         }
 
-    },1000);
+    }, 1000);
 
     const interval = setInterval(() => {
         console.log('testing')
@@ -144,7 +144,7 @@ jQuery(document).ready(function () {
 
         if (iframe) {
             // Append the stylesheet to the iframe head
-           // iframe.className+='custom-intercom';
+            // iframe.className+='custom-intercom';
             jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
             jQuery('.intercom-launcher-frame').addClass('custom-intercom');
             jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
