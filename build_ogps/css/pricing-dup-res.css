@@ -267,14 +267,14 @@ color: #fdfeff;
 	}
 	.pricing-bottom ul li .feature-title {
 		font-size: 13px;
-		font-family: Roboto;
+		font-family: Roboto-Regular;
 		color: #797f83;
 		display: block;
 	}
 	.pricing-bottom ul li .feature-subtitle {
 		font-size: 12px;
 		color: #666;
-    	font-family: Roboto;
+    	font-family: Roboto-Regular;
 	}
 	.pricing-bottom a.toggle-more {
 		float: left;
@@ -283,7 +283,7 @@ color: #fdfeff;
 		background: #eff0f1;
 		padding: 3px;
 		/* margin-top: 7px; */
-		    font-family: Roboto;
+		    font-family: Roboto-Regular;
 	}
 	.pricing-bottom a.toggle-more i {
 		vertical-align: middle;
@@ -598,9 +598,8 @@ color: #fdfeff;
 	}
 
 	label.quiz-only {
-	top: 52px !important;
-    right: 40% !important;
-}
+		margin: 0 30%
+	}
 }
 @media (max-width: 2999px) and (min-width: 1921px) {
 	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}
