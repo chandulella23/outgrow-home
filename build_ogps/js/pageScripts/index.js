@@ -131,7 +131,7 @@ jQuery(document).ready(function () {
 
     const intercomMessengerInterval = setInterval(() => {
         const iframe = document.querySelector('.intercom-messenger-frame');
-        const launcherBadge = document.querySelector('.intercom-messenger-frame');
+        const launcherBadge = document.querySelector('.intercom-launcher-badge-frame');
         if (iframe) {
             //clearInterval(intercomMessengerInterval);
             jQuery('.intercom-messenger-frame').css('bottom', '160px');
