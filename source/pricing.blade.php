@@ -87,13 +87,13 @@
                     <ul role="tablist">
                         <li class="cycle-tab active annual" id="annual" role="presentation">
                             <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('annual')">
-                                <!-- <i class="material-icons">check</i>--> Annual (save upto 44%)
-                                <!-- <label class="save-per">Save over 44%</label> -->
+                                <i class="material-icons">check</i> Annual 
+                                <label class="save-per">Save over 44%</label> 
                             </a>
                         </li>
                         <li class="cycle-tab monthly" id="monthly" role="presentation">
                             <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('monthly')">
-                                <!--<i class="material-icons">check</i>--> Monthly
+                                <i class="material-icons">check</i> Monthly
                             </a>
                         </li>
                     </ul>
