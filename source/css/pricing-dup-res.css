@@ -95,6 +95,17 @@
 	.billing-plan-list ul>li:nth-child(2) {
 		width: 40%;
 	}
+	.four-plan-case .billing-plan-list ul>li {
+		text-align: center;
+	}
+	.four-plan-case .billing-plan-list ul>li:nth-child(2) {
+		width: 1%; 
+		text-align: center;
+	}
+	#pricing .four-plan-case .billing-plan-list {
+		 width: 100%; 
+		 max-width: 500px; 
+	}
 
 }
 
