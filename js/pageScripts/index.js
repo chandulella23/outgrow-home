@@ -132,12 +132,17 @@ jQuery(document).ready(function () {
     const intercomMessengerInterval = setInterval(() => {
         const iframe = document.querySelector('.intercom-messenger-frame');
         const launcherBadge = document.querySelector('.intercom-launcher-badge-frame');
-        if (iframe) {
-            //clearInterval(intercomMessengerInterval);
-            jQuery('.intercom-messenger-frame').css('bottom', '160px');
-        }
-        if (launcherBadge) {
-            jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
+
+        const cookieSection = document.querySelector('.section.sec-cookies');
+
+        if (!cookieSection.classList.contains('hide')) {
+            if (iframe) {
+                //clearInterval(intercomMessengerInterval);
+                jQuery('.intercom-messenger-frame').css('bottom', '160px');
+            }
+            if (launcherBadge) {
+                jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
+            }
         }
 
     }, 1000);
