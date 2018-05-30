@@ -1332,7 +1332,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12 col-xs-12 np">
-                    <div class="faq-section">
+                    <div class="faq-section faq-section-even">
                         <div class="faq-section-title">
                             How is my data handled?
                         </div>
@@ -1355,7 +1355,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12 col-xs-12 np">
-                    <div class="faq-section">
+                    <div class="faq-section faq-section-even">
                         <div class="faq-section-title">
                             Can I get a test environment in case I do not want to publish my calculators?
                         </div>
@@ -1381,7 +1381,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12 col-xs-12 np">
-                    <div class="faq-section">
+                    <div class="faq-section faq-section-even">
                         <div class="faq-section-title">
                             Can I white-label Outgrow’s tools?
                         </div>
@@ -1406,7 +1406,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12 col-xs-12 np">
-                    <div class="faq-section">
+                    <div class="faq-section faq-section-even">
                         <div class="faq-section-title">
                             Do you charge per lead?
                         </div>
@@ -1430,7 +1430,7 @@
                 </div>
                 
                 <div class="col-md-6 col-sm-12 col-xs-12 np">
-                    <div class="faq-section">
+                    <div class="faq-section faq-section-even">
                         <div class="faq-section-title">
                             Why should I upgrade?
                         </div>
@@ -1454,7 +1454,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12 col-xs-12 np">
-                    <div class="faq-section">
+                    <div class="faq-section faq-section-even">
                         <div class="faq-section-title">
                             I am an agency. Anything special for me?
                         </div>
