@@ -644,9 +644,6 @@
     .footer-img2text {
         padding-left: 0
     }
-    .footer-img2 {
-        /* min-height: 170px */
-    }
     .billingpricing-text p {
         margin: 0 0 45px
     }
@@ -1228,9 +1225,6 @@
         margin-right: 0px;
         width: 100%;
     }
-    .custom-navbar .signUp-style a {
-        /* margin-top: 0px; */
-    }
     .custom-navbar.navbar-default .navbar-nav>li>a {
         font-size: 12px;
         color: #62696d;
@@ -1314,9 +1308,6 @@
         font-size: 18px !important;
         line-height: 24px;
     }
-    .navbar-collapse.collapse {
-        /* float: none !important; */
-    }
     .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
 		display: none;
     }
@@ -1385,13 +1376,6 @@
     }
     .col-sm-offset-1 {
         margin-left: 0
-    }
-    .container-fluid>.navbar-collapse,
-    .container-fluid>.navbar-header,
-    .container>.navbar-collapse,
-    .container>.navbar-header {
-        /*margin-right: 0;
-        margin-left: -30px*/
     }
     .navbar-right {
         margin-left: 0;
@@ -2021,9 +2005,6 @@
     .footer-img2text {
         padding-left: 0
     }
-    .footer-img2 {
-        /* min-height: 165px */
-    }
     .billingpricing-text p {
         margin: 0 0 45px
     }
@@ -2516,8 +2497,8 @@
     .Privacy .section-services { margin-top: 80px;}
 
 
-    .calc-table {margin-top: 125px;}
-    .section-studio {margin-top: 125px;}
+    /* .calc-table {margin-top: 125px;} */
+    /* .section-studio {margin-top: 125px;} */
     .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 64px;}
     .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 64px;}
     .hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 64px;}
@@ -2643,10 +2624,6 @@
         /* background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px); */
             margin-top: 75px;
 	}
-    #pricing .section-1 {
-        /* margin-top: 45px;
-        padding-top: 10px */
-    }
     #pricing .section-faq {
         margin-top: 0
     }
@@ -3245,7 +3222,7 @@
         display: block;
         position: relative;
         top: 0;
-        vertical-align: middle
+        vertical-align: middle;
     }
     .fixed_top_header .q_logo img.mobile,
     .logo_wrapper {
@@ -5660,7 +5637,7 @@
         bottom: 21%;
         right: 3.3%
     }
-    .start-trial-cta .btn-buildcal{font-size: 13px !important; padding: 10px 25px !important; line-height: 22px !important;}
+    .start-trial-cta .btn-buildcal{font-size: 13px !important; padding: 10px 25px !important; line-height: 22px !important; display: inline-block;}
     /*.start-trial-cta .btn-buildcal p {line-height: 18px;}*/
 
 
@@ -5924,6 +5901,7 @@
     z-index: -1;
     background: #fb5f66 !important;
     height: 2px !important;
+    transition-timing-function: ease-out;
 	-webkit-transition-timing-function: ease-out;
 	top: 59px;
 }
@@ -5937,9 +5915,9 @@
 @media (min-width:1921px) and (max-width:6500px){
 	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
 	.navbar-brand {padding-top: 12px;}
-	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px} 
+	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px;} 
 	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
-	 .custom-navbar .signUp-style a{
+	.custom-navbar .signUp-style a{
 	    padding: 8px 14px !important;
 		top: -5px;
 		font-size: 20px !important;

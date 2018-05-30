@@ -1977,7 +1977,7 @@
 		font-size: 20px !important;
 		border-radius: 25px;
 	} 
-	.section-studio {margin-top: 125px;}
+	/* .section-studio {margin-top: 125px;} */
 	.container {
 		width: 1170px;
 	}
@@ -1999,8 +1999,8 @@
 	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
 	.custom-navbar.navbar-default {padding: 25px 0px;}
 
-	.section-studio {
+	/* .section-studio {
 		margin-top: 105px;
-	}
+	} */
 
 }
