@@ -112,6 +112,9 @@
 	#footer.section-14 .container .col-sm-12 {
 		padding-left: 0 !important; 
 	}
+	.bg1-img {
+		padding: 70px 10px 90px;
+	}
 
 }
 
@@ -263,9 +266,6 @@
 		border-radius: 4px;
 		padding: 11px 30px;
 		font-size: 13px;
-	}
-	.pricing-bottom {
-		/*padding-top: 10px;*/
 	}
 	.pricing-bottom ul {
 		padding: 0;
