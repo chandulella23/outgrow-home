@@ -667,7 +667,7 @@
 		transform: rotate(90deg);
 	}
 	.faq-section {
-		padding-right: 20px;
+		padding-right: 0;
 	}
 
 }
