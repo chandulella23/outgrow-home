@@ -2516,8 +2516,8 @@
     .Privacy .section-services { margin-top: 80px;}
 
 
-    .calc-table {margin-top: 125px;}
-    .section-studio {margin-top: 125px;}
+    /* .calc-table {margin-top: 125px;} */
+    /* .section-studio {margin-top: 125px;} */
     .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 64px;}
     .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 64px;}
     .hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 64px;}
