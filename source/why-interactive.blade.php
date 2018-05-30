@@ -62,7 +62,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np metrics-inner-block">
 					<h4>Social Share</h4>
-					<span>Interactive content reach a wider audience, increasing your visibility and referral traffic. </span>
+					<span>Interactive content reaches a wider audience, increasing your visibility and referral traffic. </span>
 					<img src="{{ $page->baseUrl }}/images/why-img-socialShare.png" alt="Social Share">
 				</div>
 			</div>
