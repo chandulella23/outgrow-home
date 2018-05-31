@@ -14,12 +14,12 @@
 				<li class="dropdown">
 					<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown hvr-underline-from-left" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a>
 					<div class="dropdown-content">
-						<a href="http://outgrow.co.in/calculator" class="">Calculators</a>
-						<a href="http://outgrow.co.in/quiz" class="">Quizzes </a>
-						<a href="http://outgrow.co.in/survey" class="">Surveys</a>
-						<a href="http://outgrow.co.in/increase-conversions" class="">Increase Conversions</a>
-						<a href="http://outgrow.co.in/increase-roi" class="">Increase ROI</a>
-						<a href="http://outgrow.co.in/increase-sales" class="">Increase Sales</a>
+						<a href="{{ $page->baseUrl }}/calculator" class="">Calculators</a>
+						<a href="{{ $page->baseUrl }}/quiz" class="">Quizzes </a>
+						<a href="{{ $page->baseUrl }}/survey" class="">Surveys</a>
+						<a href="{{ $page->baseUrl }}/increase-conversions" class="">Increase Conversions</a>
+						<a href="{{ $page->baseUrl }}/increase-roi" class="">Increase ROI</a>
+						<a href="{{ $page->baseUrl }}/increase-sales" class="">Increase Sales</a>
 					</div>
 				</li>
 				<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params hvr-underline-from-left" id="nav-why-interactive">Why Interactive Content ?</a></li>
