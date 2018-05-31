@@ -376,7 +376,9 @@
 	#plan-cycle {
 		margin-left: 0;
 	}
-
+	.faq-section.faq-section-even {
+		padding-left: 0px !important;
+	}
 
 
 }
@@ -664,6 +666,11 @@
 		line-height: 26px !important;
 		transform: rotate(90deg);
 	}
+	.faq-section {
+		padding-right: 0;
+	}
+
+}
 @media only screen and (max-width: 767px) and (min-width: 320px){
 	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
 		display: none;

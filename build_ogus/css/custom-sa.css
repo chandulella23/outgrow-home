@@ -6435,6 +6435,16 @@ iframe[name=google_conversion_frame] {
 	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;}
 
 	.custom-navbar.navbar-default {padding: 25px 0px;}
+	
+	#feature .section-13 {
+		padding-top: 105px;
+	}
+	#why .section-metrics {
+		margin-top: 105px !important;
+	} 
+	.section-case-study-main .section-page-heading {
+		padding-top: 90px;
+	}
 }
 
 @media (min-width:3000px) {
