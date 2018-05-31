@@ -4638,7 +4638,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 		left: 57% !important;
 	}
 	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
-	.dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;}
+	/* .dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;} */
 	.dropdown .dropdown-content {
 		min-width: 100% !important;
 		left: 0 !important;
