@@ -88,7 +88,7 @@
                         <li class="cycle-tab active annual" id="annual" role="presentation">
                             <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('annual')">
                                 <i class="material-icons">check</i> Annual 
-                                <label class="save-per">Save over 44%</label> 
+                                <label class="save-per">Save upto 44%</label> 
                             </a>
                         </li>
                         <li class="cycle-tab monthly" id="monthly" role="presentation">
