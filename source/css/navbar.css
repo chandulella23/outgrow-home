@@ -215,6 +215,10 @@ button.navbar-toggle.collapsed {
     li.login {
         border-bottom: none;
     }
+    .drop-sub-menu a.active, .drop-sub-menu .drop-sub-content a.active {
+        color: #fb5f66;
+        background: none;
+    }
 
 }
 
@@ -254,6 +258,7 @@ button.navbar-toggle.collapsed {
     }
 
 /* end: existing css changes */
+
 @media (min-width: 320px) and (max-width: 1023px) {
     .navbar-brand {
         padding-top: 10px !important;

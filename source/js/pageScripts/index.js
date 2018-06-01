@@ -105,6 +105,11 @@ jQuery(document).ready(function () {
         jQuery('.params').removeClass('active');
         jQuery(this).addClass('active');
     });
+    jQuery('.navbar ul li .dropdown-sub-content').on('click', function () {
+        console.log(gbfhdgfhdfhe)
+        jQuery('a').removeClass('active');
+        jQuery(this).addClass('active');
+    });
 
     var iframes = iFrameResize({
         log: false,
