@@ -2552,15 +2552,16 @@
     }
     #feature .section-13 {margin-top: 50px;}
     #why .section-top-why {margin-top: 80px;}
-    /* #pricing .section-1 {margin-top: 90px !important;} */
-    .section-main.sec-example {margin-top: 40px;}
     .Privacy .section-services { margin-top: 80px;}
-    #pricing .pricing-headingtop {margin-top: 105px !important;}
+    #pricing .pricing-headingtop {margin-top: 75px !important;}
     .custom-navbar .signUp-style a{
 	    padding: 10px 14px;
 	    /* top: -5px; */
 	    font-size: 16px !important;
-	}
+    }
+    .sec-example .sec-outgrowMagic {
+        margin-top: 75px;
+    }
 
     /* .calc-table {margin-top: 105px;} */
     /* .section-studio {margin-top: 105px;} */

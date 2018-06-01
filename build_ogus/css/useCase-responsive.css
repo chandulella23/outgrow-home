@@ -286,7 +286,7 @@
 	.start-trial-cta .btn-buildcal p {line-height: normal;}
 	.sec-example .sec-outgrowMagic {
 		/* margin-bottom: 100px; */
-    	margin-top: 125px;
+    	margin-top: 115px;
 	}
 	.calc-links {margin-top: 90px;}
 	.usecase .sec9-test {    margin-top: 20px;}
@@ -371,8 +371,8 @@
 }
 
 @media (min-width:1921px) and (max-width:2999px){
-	.sec-example .sec-outgrowMagic {margin-top: 105px;}
-	.custom-navbar.navbar-default {padding: 25px 0px;}
+	.sec-example .sec-outgrowMagic {margin-top: 75px;}
+	/* .custom-navbar.navbar-default {padding: 25px 0px;} */
 	/* .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 78px !important;}
 	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 78px !important;} 
 	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 78px !important;}
