@@ -5030,7 +5030,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	.billing-boxmain{margin-left:0}
 	.billing-grey,.billing-white{width:340px}
 
-	.section-1{margin-top:75px}
+	.section-1{margin-top:75px !important;}
 
 	.collag-right{margin-top:80px;width: 28%;}
 	#pricing .section-1-right{padding-left:22%;top:34%}
@@ -18440,7 +18440,7 @@ h4.mk-animate-element.right-to-left.publish {
     margin-left: -9px;
 }
 @media (min-width:1921px) and (max-width:6500px){
-	.section-1 {margin-top: 105px;}
+	.section-1 {margin-top: 115px;}
 
 }
 
@@ -18450,7 +18450,7 @@ h4.mk-animate-element.right-to-left.publish {
 	.collag-left{width:65%}
 	.collag3-img{min-height:390px}
 	.collag4-img{min-height:300px}
-	.section-1-left h3,.section-1-left h1.section1-firstheadnoab{font-size: 96px !important;;line-height:115px}
+	.section-1-left h3,.section-1-left h1.section1-firstheadnoab{font-size: 96px !important;;line-height:115px; margin-top: 0px;}
 	.section-1-left h4{
 		font-size: 64px;
 		line-height: 75px;
