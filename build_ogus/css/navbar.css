@@ -219,23 +219,97 @@ button.navbar-toggle.collapsed {
 }
 
 /* existing css changes */
-    /* .custom-navbar.navbar-default {padding: 0px;}
-    .custom-navbar.navbar-default .navbar-nav>li>a {line-height: 35px;}
-    .nav-boxshadow .custom-navbar.navbar-default .navbar-nav>li>a {line-height: 25px;}
-    .nav-boxshadow.custom-navbar.navbar-default .navbar-nav>li>a {line-height: 25px;} 
-    .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 63px;}
-    .hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 63px;}
-    .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 63px;}
-    .dropdown .dropdown-content {top: 65px;} */
+    .custom-navbar.navbar-default {
+        padding: 0;
+    }
+    .custom-navbar.navbar-default .navbar-nav>li {
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    .nav-boxshadow.custom-navbar.navbar-default .navbar-nav>li {
+        height: auto;
+        padding-top: 0px;
+    }
+    .navbar-brand {
+        padding-top: 16px;
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    .nav-boxshadow .navbar-brand {
+        padding-top: 12px;
+    }
+    .navbar-nav>li>a {
+        line-height: 35px;
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    .nav-boxshadow .navbar-nav>li>a {
+        line-height: 25px;
+    }
+    .nav-boxshadow.custom-navbar .signUp a {
+        margin-top: 13px;
+    }
+    .nav-boxshadow.custom-navbar {
+        border-bottom: transparent;
+    }
 
 /* end: existing css changes */
 
 @media (min-width: 991px) and (max-width: 1023px) {
 
 }
-@media (min-width: 1680px) and (max-width: 1920px) {
-    .dropdown .dropdown-content {
+@media (min-width: 1480px) and (max-width: 2999px) {
+    /* .dropdown .dropdown-content {
         top: 80px;
+    } */
+    .navbar-brand {
+        padding-top: 20px;
+    }    
+    .nav-boxshadow .navbar-brand {
+        padding-top: 17px !important;
     }
+    .navbar-nav>li>a {
+        line-height: 45px;
+    }
+    .nav-boxshadow .navbar-nav>li>a {
+        line-height: 35px;
+    }
+    .custom-navbar .signUp a {
+        margin-top: 22px;
+    }
+    .nav-boxshadow.custom-navbar .signUp a {
+        margin-top: 17px;
+    }
+    .section-1, #why .section-metrics, #pricing .section-1   {
+        margin-top: 65px !important;
+    }    
+    #feature .section-13 {
+        padding-top: 65px !important;
+    }
+
+}
+@media (min-width: 3000px) {
+    .custom-navbar.navbar-default.nav-boxshadow {
+        padding: 0px !important;
+    }
+    .navbar-nav>li>a {
+        line-height: 85px;
+    }
+    .nav-boxshadow .navbar-nav>li>a {
+        line-height: 65px;
+    }
+    .custom-navbar .signUp-style a {
+        margin-top: 40px;
+    }
+    .nav-boxshadow.custom-navbar .signUp a {
+        margin-top: 33px;
+    }
+    .navbar-brand {
+        padding-top: 40px;
+    }
+    .nav-boxshadow .navbar-brand {
+        padding-top: 32px;
+    }
+
 
 }
