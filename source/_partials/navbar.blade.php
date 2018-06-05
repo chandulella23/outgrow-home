@@ -68,12 +68,12 @@
 			<li class="dropdown">
 				<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown dropdown-toggle" id="nav-use-cases" data-toggle="dropdown" aria-expanded="true">Use Cases <i class="material-icons">arrow_drop_down</i></a>
 				<ul class="dropdown-content">
-					<li><a href="http://outgrow.co.in/calculator" class="">Calculators</a></li>
-					<li><a href="http://outgrow.co.in/quiz" class="">Quizzes </a></li>
-					<li><a href="http://outgrow.co.in/survey" class="">Surveys</a></li>
-					<li><a href="http://outgrow.co.in/increase-conversions" class="">Increase Conversions</a></li>
-					<li><a href="http://outgrow.co.in/increase-roi" class="">Increase ROI</a></li>
-					<li><a href="http://outgrow.co.in/increase-sales" class="">Increase Sales</a></li>
+					<li><a href="{{ $page->baseUrl }}/calculator" class="">Calculators</a></li>
+					<li><a href="{{ $page->baseUrl }}/quiz" class="">Quizzes </a></li>
+					<li><a href="{{ $page->baseUrl }}/survey" class="">Surveys</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-conversions" class="">Increase Conversions</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-roi" class="">Increase ROI</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-sales" class="">Increase Sales</a></li>
 				</ul>
 			</li>
 			<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params" id="nav-why-interactive">Why Interactive Content ?</a></li>

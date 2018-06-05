@@ -43,26 +43,228 @@
 @section('pageId', '')
 
 @section('content')
+	<script src="{{ $page->baseUrl }}/js/swiper.min.js"></script>
 	<!--  top section-->
 	<div class="section-main sec-example">
 
 		<!-- hiding the top red bar of each page -->
-		<!-- <section class="section section-5 sec-outgrowMagic-title">
+		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<div class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
-					Outgrow In Practice
+					There is an Interactive Experience for That!
 				</div>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
-					Get inspired by some of our most successful calculators & quizzes!
+					Customise these templates to boost your marketing and engage your customers!
 				</h5>
 			</div>
-		</section> -->
+		</section>
 		<!-- end: hiding the top red bar of each page -->
+
+		<section class="section section-recentNews">
+			<div class="container">
+				<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
+					<div class="section-2-heading">Recent News </div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 np">
+					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
+						<h4>Trending Content</h4>
+						<div class="recentNews-inner">
+							<div class="swiper-container-recentNews">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_trending1.png" /></div>
+											<div class="recentNews-text">
+												<h5>Laurel or Yanny: Take the Poll </h5>
+												<span>Poll </span>
+												<p class="">Eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<div class="button-wrapper">
+													<button type="button" class="btn btn-preview btn-hover">Preview</button>
+													<button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+												</div>
+											</div>
+										</div>
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_trending2.png" /></div>
+											<div class="recentNews-text">
+												<h5>Is Your Humour as Deadly as Deadpool's? </h5>
+												<span>Outcome Quiz </span>
+												<p class="">Aipisicing elit, sed Lorem ipsum dolor sit amet, consectetur ad. </p>
+												<div class="button-wrapper">
+													<button type="button" class="btn btn-preview btn-hover">Preview</button>
+													<button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_trending1.png" /></div>
+											<div class="recentNews-text">
+												<h5>Laurel or Yanny: Take the Poll </h5>
+												<span>Poll </span>
+												<p class="">Eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<div class="button-wrapper">
+													<button type="button" class="btn btn-preview btn-hover">Preview</button>
+													<button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+												</div>
+											</div>
+										</div>
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_trending2.png" /></div>
+											<div class="recentNews-text">
+												<h5>Is Your Humour as Deadly as Deadpool's? </h5>
+												<span>Outcome Quiz </span>
+												<p class="">Aipisicing elit, sed Lorem ipsum dolor sit amet, consectetur ad. </p>
+												<div class="button-wrapper">
+													<button type="button" class="btn btn-preview btn-hover">Preview</button>
+													<button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_trending1.png" /></div>
+											<div class="recentNews-text">
+												<h5>Laurel or Yanny: Take the Poll </h5>
+												<span>Poll </span>
+												<p class="">Eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<div class="button-wrapper">
+													<button type="button" class="btn btn-preview btn-hover">Preview</button>
+													<button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+												</div>
+											</div>
+										</div>
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_trending2.png" /></div>
+											<div class="recentNews-text">
+												<h5>Is Your Humour as Deadly as Deadpool's? </h5>
+												<span>Outcome Quiz </span>
+												<p class="">Aipisicing elit, sed Lorem ipsum dolor sit amet, consectetur ad. </p>
+												<div class="button-wrapper">
+													<button type="button" class="btn btn-preview btn-hover">Preview</button>
+													<button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>								
+								<div class="swiper-pagination"></div>
+							</div>							
+															
+							<script>
+								var swiper = new Swiper('.swiper-container-recentNews', {
+									pagination: '.swiper-pagination',
+									paginationClickable: true,
+									nextButton: '.swiper-button-next',
+									prevButton: '.swiper-button-prev',
+									//spaceBetween: 30,
+									//slidesPerView: 3,
+									centeredSlides: true,
+									// autoplay: 2500,
+									speed:500,
+									autoplayDisableOnInteraction: false
+								});
+							</script>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
+						<h4>Blog</h4>
+						<div class="recentNews-inner">
+							<div class="swiper-container-blog">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_blog1.png" /></div>
+											<div class="recentNews-text">
+												<h5>How to Build an Auto-Loan Calculator? </h5>
+												<p class="line-clamp">Cars! They are fast, they’re fabulous and they’re exciting. Unfortunately, car-loans aren’t. As long as cars </p>
+												<a href="javascript:void(0);" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+											</div>
+										</div>
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_blog2.png" /></div>
+											<div class="recentNews-text"> 
+												<h5>5  Underrated Content Marketing Platforms </h5>
+												<p class="line-clamp">This post is for those of you who go, "Dear internet, this is what I have to say..." but don’t know where to start. </p>
+												<a href="javascript:void(0);" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_blog1.png" /></div>
+											<div class="recentNews-text">
+												<h5>How to Build an Auto-Loan Calculator? </h5>
+												<p class="line-clamp">Cars! They are fast, they’re fabulous and they’re exciting. Unfortunately, car-loans aren’t. As long as cars </p>
+												<a href="javascript:void(0);" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+											</div>
+										</div>
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_blog2.png" /></div>
+											<div class="recentNews-text"> 
+												<h5>5  Underrated Content Marketing Platforms </h5>
+												<p class="line-clamp">This post is for those of you who go, "Dear internet, this is what I have to say..." but don’t know where to start. </p>
+												<a href="javascript:void(0);" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_blog1.png" /></div>
+											<div class="recentNews-text">
+												<h5>How to Build an Auto-Loan Calculator? </h5>
+												<p class="line-clamp">Cars! They are fast, they’re fabulous and they’re exciting. Unfortunately, car-loans aren’t. As long as cars </p>
+												<a href="javascript:void(0);" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+											</div>
+										</div>
+										<div class="recentNews-inner-row">
+											<div class="img-section"><img src="images/examples_blog2.png" /></div>
+											<div class="recentNews-text"> 
+												<h5>5  Underrated Content Marketing Platforms </h5>
+												<p class="line-clamp">This post is for those of you who go, "Dear internet, this is what I have to say..." but don’t know where to start. </p>
+												<a href="javascript:void(0);" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+
+							<script>
+								var swiper = new Swiper('.swiper-container-blog', {
+									pagination: '.swiper-pagination',
+									paginationClickable: true,
+									nextButton: '.swiper-button-next',
+									prevButton: '.swiper-button-prev',
+									//spaceBetween: 30,
+									//slidesPerView: 3,
+									centeredSlides: true,
+									// autoplay: 2500,
+									speed:500,
+									autoplayDisableOnInteraction: false
+								});
+							</script>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
+						<h4>Upcoming Events</h4>
+						<div class="recentNews-inner">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="section section-5 sec-outgrowMagic">
 			<div class="container-fluid np">
 				<div class="col-xs-12 col-sm-12 col-md-12 np">
 					<!--<div id="sticky-anchor"></div>-->
+					<div class="section-2-heading">
+						Outgrow In Practice
+					</div>
 					<div class="tab-outer-frame col-xs-12 col-md-10 col-sm-12 text-center">
 						<!--<span class="icon-webcam"></span>-->
 						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
@@ -123,7 +325,6 @@
 			</div>
 		</section>
 	</div>
-
 	<!-- Start Trial CTA-->
 	<!--<section class="section start-trial-cta">
 		<div class="container-fluid np">

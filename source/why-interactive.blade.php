@@ -1175,7 +1175,8 @@
 		</script>
 		</div>
 	</section>
-	<section class="section section-16 rs-show">
+	
+	<!-- <section class="section section-16 rs-show">
 		<div class="container img-container-right">
 			<div class="col-xs-12 col-sm-12 col-md-5 section-16-left">
 				<span class="mk-animate-element right-to-left">
@@ -1192,7 +1193,7 @@
 				<img alt="Engagement increases conversion" src="//dzvexx2x036l1.cloudfront.net/analyticsOverview-new.jpg" class="mk-animate-element left-to-right" />
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="section section-video">		
 		<div class="section-2-heading">
