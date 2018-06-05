@@ -699,6 +699,9 @@
 }
 @media (min-width: 1480px) and (max-width:1920px) {
 	#why .section-metrics {margin-top: 75px;}
+	.section-case-study-main .section-page-heading, #why .section-metrics {
+        margin-top: 75px !important;
+    } 
 	
 }
 @media (min-width:1921px) and (max-width:2999px){
@@ -811,7 +814,7 @@
 	#why .section-w3-text span span {font-size: 44px;}
 	#why .section-16 {margin-bottom: 100px;}
 
-	#why .section-metrics {margin-top: 110px;}
+	#why .section-metrics {margin-top: 115px;}
 	.section.why-blue {
 		padding: 120px 0 !important;
 	}
@@ -833,6 +836,9 @@
 	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 68px;}
 	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 68px !important;} */
 
+	.section-page-heading {
+		margin-top: 115px;
+	}
 
 
 

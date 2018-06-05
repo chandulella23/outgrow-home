@@ -215,6 +215,10 @@ button.navbar-toggle.collapsed {
     li.login {
         border-bottom: none;
     }
+    .drop-sub-menu a.active, .drop-sub-menu .drop-sub-content a.active {
+        color: #fb5f66;
+        background: none;
+    }
 
 }
 
@@ -255,6 +259,11 @@ button.navbar-toggle.collapsed {
 
 /* end: existing css changes */
 
+@media (min-width: 320px) and (max-width: 1023px) {
+    .navbar-brand {
+        padding-top: 10px !important;
+    }
+}
 @media (min-width: 991px) and (max-width: 1023px) {
 
 }
@@ -279,14 +288,8 @@ button.navbar-toggle.collapsed {
     }
     .nav-boxshadow.custom-navbar .signUp a {
         margin-top: 17px;
-    }
-    .section-1, #why .section-metrics, #pricing .section-1   {
-        margin-top: 65px !important;
-    }    
-    #feature .section-13 {
-        padding-top: 65px !important;
-    }
-
+    }   
+   
 }
 @media (min-width: 3000px) {
     .custom-navbar.navbar-default.nav-boxshadow {
