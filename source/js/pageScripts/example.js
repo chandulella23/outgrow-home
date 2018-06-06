@@ -13,11 +13,11 @@ window.display = function (url) {
 }
 
 function getTemplateName(template) {
-    let templates = [{id: 'template-eight', text: 'The Venice'},
-        {id: 'template-seven', text: 'The Seattle'}, {id: 'one-page-card-new', text: 'The Chicago'},
-        {id: 'sound-cloud-v3', text: 'The Londoner'}, {id: 'inline-temp-new', text: 'The Greek'},
-        {id: 'experian', text: 'The Tokyo'}, {id: 'template-five', text: 'The Madrid'},
-        {id: 'template-six', text: 'The Stockholm'}];
+    let templates = [{ id: 'template-eight', text: 'The Venice' },
+    { id: 'template-seven', text: 'The Seattle' }, { id: 'one-page-card-new', text: 'The Chicago' },
+    { id: 'sound-cloud-v3', text: 'The Londoner' }, { id: 'inline-temp-new', text: 'The Greek' },
+    { id: 'experian', text: 'The Tokyo' }, { id: 'template-five', text: 'The Madrid' },
+    { id: 'template-six', text: 'The Stockholm' }];
     return templates.find(t => t.id.includes(template));
 }
 
@@ -119,7 +119,7 @@ window.changeTab = function (tabName) {
         case 'Poll':
             text = 'There is a Poll for that!';
             break;
-        default :
+        default:
             break;
     }
     jQuery('#premade-heading').text(text);
@@ -165,8 +165,8 @@ window.changeTab = function (tabName) {
 
 window.ready = function () {
     let http = new XMLHttpRequest();
-    // let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
-    let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
+    let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+    // let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
     http.open("POST", url, true);
 
     http.onreadystatechange = function () {
@@ -195,7 +195,7 @@ function renderPremadeCalcs(responseText) {
             calc['Layout'] = layout ? layout.text : 'Stockholm';
             calc['Published Link'] = calc.liveApp.url;
             calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
-            if(calc.launch_date !== null) {
+            if (calc.launch_date !== null) {
                 let launch_date = new Date(calc.launch_date);
                 let day = launch_date.getUTCDate();
                 let month = launch_date.getUTCMonth();
@@ -212,7 +212,7 @@ function renderPremadeCalcs(responseText) {
                 window.events.push(ev);
             }
         });
-        console.log('calc : ' , window.events);
+        console.log('calc : ', window.events);
         var settings = {};
         var element = document.getElementById('calendar');
         console.log('window.eventswindow.eventswindow.events ', window.events);
@@ -231,16 +231,16 @@ function renderPremadeCalcs(responseText) {
             jQuery('p.eventday').removeClass('selected');
             jQuery(event.target).addClass('selected');
             let popover = jQuery(".popover");
-            if(!popover.hasClass("noTransition")) {
-              popover.addClass("noTransition");
+            if (!popover.hasClass("noTransition")) {
+                popover.addClass("noTransition");
             }
             let selectedEvent = window.events.filter((event) => {
-              if(event.Date == selectedDate){
-                return event;
-              }
+                if (event.Date == selectedDate) {
+                    return event;
+                }
             });
-            if(selectedEvent.length > 0) {
-                let eventNames = selectedEvent.map(e=>e.EventName).join(' / ');
+            if (selectedEvent.length > 0) {
+                let eventNames = selectedEvent.map(e => e.EventName).join(' / ');
                 let evBanner = ``;
                 selectedEvent.forEach((se) => {
                     evBanner += `
@@ -257,12 +257,12 @@ function renderPremadeCalcs(responseText) {
                 let selEvents = document.getElementById("selEvents");
                 selEvents.innerHTML = evBanner;
             }
-            
+
             // self.getEventName(self.selectedEvent);
             // setTimeout(() => {
             //   jQuery('.event-template-outer').slideDown();
             // }, 500);
-          });
+        });
 
         jQuery(document).on('click', '.cld-nav', (event) => {
             jQuery('.eventday').popover({
@@ -294,17 +294,17 @@ jQuery(document).ready(function () {
     calculateMinHeight();
     window.Intercom('update', { 'site_example_viewed': new Date() });
 
-	var iframes = iFrameResize({
+    var iframes = iFrameResize({
         log: false,
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
-    },'#og-iframe');
+    }, '#og-iframe');
 
-    jQuery('.calc-links a').on('click',function(){
-		jQuery('a').removeClass('active');
-		jQuery(this).addClass('active');
-	});
+    jQuery('.calc-links a').on('click', function () {
+        jQuery('a').removeClass('active');
+        jQuery(this).addClass('active');
+    });
     // jQuery('.og-iframe-res').each(function () {
     //     console.log('Examples og');
     //     if (jQuery(this).attr('data-calc')) {
