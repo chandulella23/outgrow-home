@@ -93,6 +93,27 @@ jQuery.noConflict();
 jQuery.material.init();
 
 jQuery(document).ready(function () {
+
+
+    jQuery("#menu-close").click(function(e) {
+        e.preventDefault();
+        jQuery("#sidebar-wrapper").removeClass("active");
+        jQuery('.overlay').fadeOut("slow");
+        jQuery("html,body").css({"overflow": "auto"});
+    });
+    jQuery("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        jQuery("#sidebar-wrapper").addClass("active");
+        jQuery('.overlay').fadeIn("slow");
+        jQuery("html,body").css({"overflow": "hidden"});
+    });
+
+    jQuery('.overlay').click(function (e) {
+        jQuery('#sidebar-wrapper').removeClass('active');
+        jQuery('.overlay').fadeOut("slow");
+        jQuery("html,body").css({"overflow": "auto"});
+    });
+
     showCookieDialog = getCookie('showCookieDialog');
     if(showCookieDialog==undefined || showCookieDialog === 'true') jQuery('.section.sec-cookies').removeClass('hide');
     calculateMinHeight();

@@ -1352,10 +1352,10 @@
 		padding-right: 30px;
 	}
 	.section-studio ul li, .section-boost-marketing ul li {
-		line-height: normal;
+		/* line-height: normal;
 		padding-right: 40px;
 		margin-bottom: 20px;
-		margin-top: 20px;
+		margin-top: 20px; */
 	}
 	.embed-anywhere-inner .col-md-4:nth-child(2) {
 		padding-left: 0px !important;

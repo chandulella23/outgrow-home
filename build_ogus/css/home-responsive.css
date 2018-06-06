@@ -159,7 +159,7 @@
     .section-runnigheading {
         font-size: 26px;
         font-family: montserratultra_light;
-        color: #fb6c73;
+        color: #fb5f66;
         text-transform: none;
         text-align: left;
         padding-left: 15px;
@@ -193,13 +193,13 @@
     }
     .mobile-sec3 .sec3-box2 span {
         font-size: 14px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .section-4-left h4,
     .section-5-left h4,
     .section-6-left h4 {
         font-size: 24px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .sec4-2 {
         position: absolute;
@@ -393,7 +393,7 @@
         height: 70px;
         text-align: center;
         background: #fff;
-        color: #fb6c73;
+        color: #fb5f66;
         padding-right: 5px
     }
     .sec10-em2 {
@@ -897,7 +897,15 @@
 		padding-left: 0 !important;
 	}
 
-    .sec-example .sec-outgrowMagic {margin-top: 0; padding-top: 0;}
+    .sec-example .sec-outgrowMagic {margin-top: 0; padding-top: 40px;}
+    .calc-links {
+        margin-top: 0;        
+        margin-bottom: 20px;
+    }
+    section.section.example-calc {
+        margin-top: 40px !important;
+    }
+
 
 }
 
@@ -1329,6 +1337,21 @@
     .col-sm-2.footer-link .footer-img-text {min-height: 73px;}
 
     .sec-example .sec-outgrowMagic {margin-top: 0;}
+    .sec-example .sec-outgrowMagic {margin-top: 0; padding-top: 40px;}
+    .calc-links {
+        margin-top: 0;        
+        margin-bottom: 20px;
+    }
+    section.section.example-calc {
+        margin-top: 40px !important;
+        margin-bottom: 20px;
+    }
+    .section-recentNews {padding: 30px 0 50px;}
+    .recentNews-outer {
+        max-width: initial;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
 }
 @media (min-width:769px) and (max-width:990px) {
@@ -1519,7 +1542,7 @@
     .section-runnigheading {
         font-size: 26px;
         font-family: montserratultra_light;
-        color: #fb6c73;
+        color: #fb5f66;
         text-transform: none;
         text-align: left;
         padding-left: 15px;
@@ -1555,13 +1578,13 @@
     }
     .mobile-sec3 .sec3-box2 span {
         font-size: 16px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .section-4-left h4,
     .section-5-left h4,
     .section-6-left h4 {
         font-size: 24px;
-        color: #fb6c73
+        color: #fb5f66
     }
     .sec4-2 {
         position: absolute;
@@ -1761,7 +1784,7 @@
         height: 70px;
         text-align: center;
         background: #fff;
-        color: #fb6c73;
+        color: #fb5f66;
         padding-right: 5px
     }
     .sec10-em2 {
@@ -2260,6 +2283,7 @@
     }
     .img-wrapper-macro a {display: block;}
 
+
 }
 @media (min-width:991px) and (max-width:1199px){
     .metrics-inner-block {
@@ -2270,6 +2294,11 @@
         left: 0;
     }
     .col-sm-2.footer-link .footer-img-text {min-height: 56px;}
+    .recentNews-outer {
+        max-width: initial;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -2622,7 +2651,7 @@
         margin-top: 80px
     }
 	#pricing .pricing-headingtop {
-        /* background: linear-gradient(to bottom, #fb6c73 448px, #fff 100px); */
+        /* background: linear-gradient(to bottom, #fb5f66 448px, #fff 100px); */
             margin-top: 75px;
 	}
     #pricing .section-faq {

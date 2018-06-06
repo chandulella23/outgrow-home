@@ -55,20 +55,26 @@
 		.sec-example .sec-outgrowMagic-title {margin-top: 0px !important; margin-bottom: 0px;}
 		.sec-example .section-2-subheading{display:  block;}
 		.sec-example .sec-outgrowMagic {margin-bottom: 0px;}
-		.sec-example .sec-outgrowMagic-title {padding: 20px 0px;}
-		.sec-example .section-2-heading { font-size: 22px;}
-		.sec-example .section-2-subheading {font-size: 14px; line-height: normal;margin-top: 5px; padding: 0 15px;}
+		.sec-example .sec-outgrowMagic-title {padding: 30px 0px;}
+		.sec-example .section-2-heading { font-size: 22px; line-height: normal;}
+		.sec-example .section-2-subheading {font-size: 15px; line-height: normal;margin-top: 5px; padding: 0 15px;}
 		.usecase .section-usecase2-left h4 {font-size: 20px;}
 		.usecase .section-usecase1-left h4 {font-size: 20px;}
 		.tab-section .nav-tabs {margin-bottom: 20px !important;}		
 		.bg2-img h3 {font-size: 22px; margin-bottom: 0px;}
 		.bg1-img{padding: 70px 10px 90px;}
+		.section-recentNews {padding: 40px 0;}
 
 	/* end: example page responsive css by Arti */
 
 
 }
-	@media (min-width:480px) and (max-width: 768px){
+@media (min-width: 320px) and (max-width:767px) {
+	.premade-template {
+		margin-bottom: 0px !important;
+	}
+}
+@media (min-width:480px) and (max-width: 768px){
 	.section-usecase1 {
 		margin-top: 0px;
 		margin-bottom: 60px !important;
@@ -96,7 +102,10 @@
 	}
 	.gallery-content{
 		margin-top:50px !important;
-	}
+	}	
+    .premade-template {
+        margin-bottom: 20px !important;
+    }
 }
 @media (min-width: 769px) and (max-width:990px) {
 	.useCase-heading{
