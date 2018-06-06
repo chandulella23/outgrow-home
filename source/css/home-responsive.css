@@ -2294,11 +2294,11 @@
         left: 0;
     }
     .col-sm-2.footer-link .footer-img-text {min-height: 56px;}
-    .recentNews-outer {
+    /* .recentNews-outer {
         max-width: initial;
         width: 100%;
         margin-bottom: 30px;
-    }
+    } */
 
 }
 
