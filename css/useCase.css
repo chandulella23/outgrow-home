@@ -462,7 +462,7 @@ body{background:#fff !important;}
 
 /**** new choose template ***/
     section.section.example-calc {
-        margin: 0px;
+        margin-top: 70px;
         position: relative;
     }
     .example-calc .tab-section{}

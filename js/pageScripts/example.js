@@ -13,11 +13,11 @@ window.display = function (url) {
 }
 
 function getTemplateName(template) {
-    let templates = [{id: 'template-eight', text: 'The Venice'},
-        {id: 'template-seven', text: 'The Seattle'}, {id: 'one-page-card-new', text: 'The Chicago'},
-        {id: 'sound-cloud-v3', text: 'The Londoner'}, {id: 'inline-temp-new', text: 'The Greek'},
-        {id: 'experian', text: 'The Tokyo'}, {id: 'template-five', text: 'The Madrid'},
-        {id: 'template-six', text: 'The Stockholm'}];
+    let templates = [{ id: 'template-eight', text: 'The Venice' },
+    { id: 'template-seven', text: 'The Seattle' }, { id: 'one-page-card-new', text: 'The Chicago' },
+    { id: 'sound-cloud-v3', text: 'The Londoner' }, { id: 'inline-temp-new', text: 'The Greek' },
+    { id: 'experian', text: 'The Tokyo' }, { id: 'template-five', text: 'The Madrid' },
+    { id: 'template-six', text: 'The Stockholm' }];
     return templates.find(t => t.id.includes(template));
 }
 
@@ -119,7 +119,7 @@ window.changeTab = function (tabName) {
         case 'Poll':
             text = 'There is a Poll for that!';
             break;
-        default :
+        default:
             break;
     }
     jQuery('#premade-heading').text(text);
@@ -166,6 +166,7 @@ window.changeTab = function (tabName) {
 window.ready = function () {
     let http = new XMLHttpRequest();
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+    // let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
     http.open("POST", url, true);
 
     http.onreadystatechange = function () {
@@ -182,6 +183,8 @@ ready();
 function renderPremadeCalcs(responseText) {
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
+        window.events = [];
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         window.calcs.forEach(calc => {
             calc['GIF'] = calc.media;
             calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
@@ -192,7 +195,85 @@ function renderPremadeCalcs(responseText) {
             calc['Layout'] = layout ? layout.text : 'Stockholm';
             calc['Published Link'] = calc.liveApp.url;
             calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+            if (calc.launch_date !== null) {
+                let launch_date = new Date(calc.launch_date);
+                let day = launch_date.getUTCDate();
+                let month = launch_date.getUTCMonth();
+                let year = launch_date.getUTCFullYear();
+                let ev = {
+                    Date: new Date(year, month, day),
+                    id: calc._id,
+                    Title: calc.title,
+                    Link: '',
+                    Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+                    Description: calc.Description,
+                    EventName: calc.event_name
+                };
+                window.events.push(ev);
+            }
         });
+        console.log('calc : ', window.events);
+        var settings = {};
+        var element = document.getElementById('calendar');
+        console.log('window.eventswindow.eventswindow.events ', window.events);
+        caleandar(element, window.events, settings);
+
+        jQuery('.eventday').popover({
+            placement: 'top',
+            trigger: 'hover',
+            container: 'body',
+            html: true
+        });
+
+        jQuery(document).on('click', '.eventday', (event) => {
+            self.selectedEvent = [];
+            let selectedDate = event.target.getAttribute('content').trim();
+            jQuery('p.eventday').removeClass('selected');
+            jQuery(event.target).addClass('selected');
+            let popover = jQuery(".popover");
+            if (!popover.hasClass("noTransition")) {
+                popover.addClass("noTransition");
+            }
+            let selectedEvent = window.events.filter((event) => {
+                if (event.Date == selectedDate) {
+                    return event;
+                }
+            });
+            if (selectedEvent.length > 0) {
+                let eventNames = selectedEvent.map(e => e.EventName).join(' / ');
+                let evBanner = ``;
+                selectedEvent.forEach((se) => {
+                    evBanner += `
+                        <div class="event-wrapper">
+                            <div class="img-outer"><img src="${se.Image}" /></div>
+                            <div class="event-content">
+                                <h5>${se.Title}</h5>
+                                <span>${se.Description} </span>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                let selEvents = document.getElementById("selEvents");
+                selEvents.innerHTML = evBanner;
+            }
+
+            // self.getEventName(self.selectedEvent);
+            // setTimeout(() => {
+            //   jQuery('.event-template-outer').slideDown();
+            // }, 500);
+        });
+
+        jQuery(document).on('click', '.cld-nav', (event) => {
+            jQuery('.eventday').popover({
+                placement: 'top',
+                trigger: 'hover',
+                container: 'body',
+                html: true
+            });
+        });
+
+
         //  jQuery('#premade-content').removeClass('hide');
         let ele = document.getElementById('premade-content');
         ele.classList.remove('hide');
@@ -213,17 +294,17 @@ jQuery(document).ready(function () {
     calculateMinHeight();
     window.Intercom('update', { 'site_example_viewed': new Date() });
 
-	var iframes = iFrameResize({
+    var iframes = iFrameResize({
         log: false,
         autoResize: true,
         enablePublicMethods: true,
         checkOrigin: false,
-    },'#og-iframe');
+    }, '#og-iframe');
 
-    jQuery('.calc-links a').on('click',function(){
-		jQuery('a').removeClass('active');
-		jQuery(this).addClass('active');
-	});
+    jQuery('.calc-links a').on('click', function () {
+        jQuery('a').removeClass('active');
+        jQuery(this).addClass('active');
+    });
     // jQuery('.og-iframe-res').each(function () {
     //     console.log('Examples og');
     //     if (jQuery(this).attr('data-calc')) {
@@ -232,5 +313,6 @@ jQuery(document).ready(function () {
     //         jQuery(this).attr('data-calc', '');
     //     }
     // })
+
     runTimeout();
 });

@@ -653,7 +653,10 @@
 	.sec3-box2inner {min-height: 140px;}
 	.sec3-box1inner {min-height: 140px;}
 	#why .secw2-2-new {margin-left: 0;}
-	.calc-table {margin-top: 55px;}
+	.calc-table {
+		margin-top: 0;
+		padding-top: 60px;
+	}
 
 }
 
