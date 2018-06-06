@@ -60,6 +60,162 @@
 		</section>
 		<!-- end: hiding the top red bar of each page -->
 
+		<!-- start: example calc -->
+		<section class="section example-calc">
+			<div id="premade-loader" class="preloader">
+				<div class="status">&nbsp;</div>
+			</div>
+			<div id="premade-content" class="tab-section hide">
+				<div class="container-fluid">
+						<!-- Nav tabs -->
+					<ul class="nav nav-tabs premade-calc" role="tablist">
+						<li role="presentation" class="tab-title active">
+							<a id="Calculator" href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab"
+							onclick="callGA('TYPE');setTimeout(()=>(changeTab('Calculator')))">
+								Numerical Calculator
+							</a>
+						</li>
+						<li role="presentation" class="tab-title">
+							<a id="OutcomeQuiz" href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab"
+							onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('OutcomeQuiz')))">
+								Outcome Quiz
+							</a>
+						</li>
+						<li role="presentation" class="tab-title">
+							<a id="GradedQuiz" href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab"
+							onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('GradedQuiz')))">
+								Graded Quiz
+							</a>
+						</li>
+						<li role="presentation" class="tab-title">
+							<a id="Poll" href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab"
+							onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('Poll')))">
+								Poll
+							</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content usecase">
+						<div role="tabpanel" class="tab-pane active" id="numeric-calc">
+							<div class="col-md-12 col-sm-12 col-xs-12 new-cards-section pre-card">
+								<!-- <div class="preloader">
+									<div class="status">&nbsp;</div>
+								</div> -->
+								<div class="premade-template">
+									<ul class="pre-temp-cat" id="calc-cats">
+										<li class="active">
+											<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="MarketingAdvertising"
+											onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="HealthFitness"
+											onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Legal"
+											onclick="shuffleCalcs('Legal')">Legal</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Quintessential"
+											onclick="shuffleCalcs('Quintessential')">Quintessential</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="RealEstateConstruction"
+											onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
+												Construction</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Technology"
+											onclick="shuffleCalcs('Technology')">Technology</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Travel"
+											onclick="shuffleCalcs('Travel')">Travel</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Publishing"
+											onclick="shuffleCalcs('Publishing')">Publishing</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="TVandEntertainment"
+											onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">Trending</a>
+										</li>
+									</ul>
+									<div class="pre-temp-cont">
+										<ul class="pre-temp-list" id="gallery-content-center">
+
+											<li class="active filter-all filter-auto" id="calc-auto-loan">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
+											</li>
+											<li class="All Financia filter-all filter-auto" id="calc-early-payment">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
+											</li>
+											<li class="All Math filter-all filter-auto" id="calc-downpayment">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
+											</li>
+											<li class="All Others filter-all filter-education" id="calc-student-budget"> 
+												<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
+											</li>
+											<li class="All Math filter-all filter-education" id="calc-harward-score">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
+											</li>
+											<li class="All Math filter-all filter-finance" id="calc-home-budget">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
+											</li>
+											<li class="All Others filter-all filter-health" id="calc-weight-loss">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
+											</li>
+											<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
+											</li>-
+
+										</ul>
+										<div class="pre-temp-view">
+											<div class="temp-preview">
+												<span class="image-bg1">
+													<span class="image-scroll1">
+														<img id="premade-gif" src="https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif" />
+													</span>
+												</span>
+												<div class="content temp-info">
+													<h3>
+														<p id="premade-calc-name">
+															<i class="material-icons">&#xE80E;</i>
+															AUTO LOAN CALCULATOR
+														</p>
+														<span id="premade-calc-layout">
+															<strong>Layout:</strong> 
+															The Londoner 
+														</span>
+													</h3>
+													<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
+													<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end: example calc -->
+
 		<section class="section section-recentNews">
 			<div class="container">
 				<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
@@ -248,10 +404,13 @@
 							</script>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
+					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer calendar-wrapper">
 						<h4>Upcoming Events</h4>
-						<div class="recentNews-inner">
-
+						<div class="recentNews-inner scrollbar">
+							<div id="calendar"> </div>							
+							<div id="selEvents">
+								
+							</div>
 						</div>
 					</div>
 				</div>
@@ -352,13 +511,13 @@
 		</div>
 	</div>
 
-	<section class="section">
+	<!-- <section class="section">
 		<div class="container">
 			<div id="premade-heading" class="useCase-heading">
 				There is a Calculator for that!
 			</div>
 		</div>
-	</section>
+	</section> -->
     <!--  section end-->
 
 	<!-- tab-section Start -->
@@ -1324,163 +1483,6 @@
 		</div>
 	</section>
 	<!-- tab-section end -->
-
-	<!-- start: example calc -->
-
-	<section class="section example-calc">
-		<div id="premade-loader" class="preloader">
-			<div class="status">&nbsp;</div>
-		</div>
-		<div id="premade-content" class="tab-section hide">
-			<div class="container-fluid">
-					<!-- Nav tabs -->
-				<ul class="nav nav-tabs premade-calc" role="tablist">
-					<li role="presentation" class="tab-title active">
-						<a id="Calculator" href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab"
-						   onclick="callGA('TYPE');setTimeout(()=>(changeTab('Calculator')))">
-							Numerical Calculator
-						</a>
-					</li>
-					<li role="presentation" class="tab-title">
-						<a id="OutcomeQuiz" href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab"
-						   onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('OutcomeQuiz')))">
-							Outcome Quiz
-						</a>
-					</li>
-					<li role="presentation" class="tab-title">
-						<a id="GradedQuiz" href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab"
-						   onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('GradedQuiz')))">
-							Graded Quiz
-						</a>
-					</li>
-					<li role="presentation" class="tab-title">
-						<a id="Poll" href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab"
-						   onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('Poll')))">
-							Poll
-						</a>
-					</li>
-				</ul>
-
-				<!-- Tab panes -->
-				<div class="tab-content usecase">
-					<div role="tabpanel" class="tab-pane active" id="numeric-calc">
-						<div class="col-md-12 col-sm-12 col-xs-12 new-cards-section pre-card">
-							<!-- <div class="preloader">
-								<div class="status">&nbsp;</div>
-							</div> -->
-							<div class="premade-template">
-								<ul class="pre-temp-cat" id="calc-cats">
-									<li class="active">
-										<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="MarketingAdvertising"
-										   onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="HealthFitness"
-										   onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Legal"
-										   onclick="shuffleCalcs('Legal')">Legal</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Quintessential"
-										   onclick="shuffleCalcs('Quintessential')">Quintessential</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="RealEstateConstruction"
-										   onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
-											Construction</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Technology"
-										   onclick="shuffleCalcs('Technology')">Technology</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Travel"
-										   onclick="shuffleCalcs('Travel')">Travel</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Publishing"
-										   onclick="shuffleCalcs('Publishing')">Publishing</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="TVandEntertainment"
-										   onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">Trending</a>
-									</li>
-								</ul>
-								<div class="pre-temp-cont">
-									<ul class="pre-temp-list" id="gallery-content-center">
-
-										{{--<li class="active filter-all filter-auto" id="calc-auto-loan">--}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>--}}
-										{{--</li>--}}
-										{{--<li class="All Financia filter-all filter-auto" id="calc-early-payment">--}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>--}}
-										{{--</li>--}}
-										{{--<li class="All Math filter-all filter-auto" id="calc-downpayment">--}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>--}}
-										{{--</li>--}}
-										{{--<li class="All Others filter-all filter-education" id="calc-student-budget"> --}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>--}}
-										{{--</li>--}}
-										{{--<li class="All Math filter-all filter-education" id="calc-harward-score">--}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>--}}
-										{{--</li>--}}
-										{{--<li class="All Math filter-all filter-finance" id="calc-home-budget">--}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>--}}
-										{{--</li>--}}
-										{{--<li class="All Others filter-all filter-health" id="calc-weight-loss">--}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>--}}
-										{{--</li>--}}
-										{{--<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">--}}
-											{{--<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>--}}
-										{{--</li>--}}
-
-									</ul>
-									<div class="pre-temp-view">
-										<div class="temp-preview">
-											<span class="image-bg1">
-												<span class="image-scroll1">
-													<img id="premade-gif" src="https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif" />
-												</span>
-											</span>
-											<div class="content temp-info">
-												<h3>
-													<p id="premade-calc-name">
-														<i class="material-icons">&#xE80E;</i>
-														AUTO LOAN CALCULATOR
-													</p>
-													<span id="premade-calc-layout">
-														<strong>Layout:</strong> 
-														The Londoner 
-													</span>
-												</h3>
-												<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-												<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end: example calc -->
 	
 	<!-- Start Trial CTA-->
 	<section class="section start-trial-cta mb0">
@@ -1498,6 +1500,7 @@
 			</div>
 		</div>
 	</section>
+	
 	<!-- Start: Modal calcEmbed1 -->
 	<div id="calcEmbed-modal1" class="modal fade calcEmbed-modal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
@@ -1553,7 +1556,7 @@
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js",
+		"calendar": "{{ $page->baseUrl }}/js/pageScripts/calendar.js",
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
 		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js",
