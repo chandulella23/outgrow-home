@@ -2689,7 +2689,7 @@ button.swiper-pagination-bullet {
 
 .swiper-pagination-bullet-active {
 	opacity: 1;
-	background: rgba(251, 108, 115, .8)
+	background: #fb5f66;
 }
 
 .swiper-pagination-white .swiper-pagination-bullet-active {
