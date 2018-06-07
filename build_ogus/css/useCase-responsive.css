@@ -64,6 +64,12 @@
 		.bg2-img h3 {font-size: 22px; margin-bottom: 0px;}
 		.bg1-img{padding: 70px 10px 90px;}
 		.section-recentNews {padding: 40px 0;}
+		.recentNews-inner {
+			min-height: auto;
+		}
+		.recentNews-outer.calendar-wrapper .recentNews-inner {
+			height: 300px;
+		}
 
 	/* end: example page responsive css by Arti */
 
@@ -137,6 +143,12 @@
 		display: block;
 		margin-top: 0px;
 	}
+	.recentNews-inner {
+		min-height: auto;
+	}
+	.recentNews-outer.calendar-wrapper .recentNews-inner {
+		height: 300px;
+	}
 
 	/* end: example page responsive css by Arti */
 
@@ -200,7 +212,24 @@
 	}
 	.usecase .section-usecase2-left h4{
 		margin-top:0px;
-	}
+	}	
+    .recentNews-outer {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .img-section {
+        width: 70px;
+    }
+    .img-section img {
+        width: 100%;
+    }
+    .recentNews-text {
+        width: calc(100% - 70px);
+    }
+    .recentNews-inner {
+        min-height: 531px;
+    }
 }
 @media (max-width: 1250px) and (min-width: 1024px){
 	
