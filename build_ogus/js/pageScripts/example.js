@@ -13,11 +13,36 @@ window.display = function (url) {
 }
 
 function getTemplateName(template) {
-    let templates = [{ id: 'template-eight', text: 'The Venice' },
-    { id: 'template-seven', text: 'The Seattle' }, { id: 'one-page-card-new', text: 'The Chicago' },
-    { id: 'sound-cloud-v3', text: 'The Londoner' }, { id: 'inline-temp-new', text: 'The Greek' },
-    { id: 'experian', text: 'The Tokyo' }, { id: 'template-five', text: 'The Madrid' },
-    { id: 'template-six', text: 'The Stockholm' }];
+    let templates = [{
+            id: 'template-eight',
+            text: 'The Venice'
+        },
+        {
+            id: 'template-seven',
+            text: 'The Seattle'
+        }, {
+            id: 'one-page-card-new',
+            text: 'The Chicago'
+        },
+        {
+            id: 'sound-cloud-v3',
+            text: 'The Londoner'
+        }, {
+            id: 'inline-temp-new',
+            text: 'The Greek'
+        },
+        {
+            id: 'experian',
+            text: 'The Tokyo'
+        }, {
+            id: 'template-five',
+            text: 'The Madrid'
+        },
+        {
+            id: 'template-six',
+            text: 'The Stockholm'
+        }
+    ];
     return templates.find(t => t.id.includes(template));
 }
 
@@ -179,13 +204,95 @@ window.ready = function () {
 };
 ready();
 
+window.ready1 = function () {
+    let http = new XMLHttpRequest();
+    let url = 'https://outgrow.co/blog/api/get_posts/';
+    // let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
+    http.open("GET", url, true);
+
+    http.onreadystatechange = function () {
+        if (http.readyState === 4 && http.status === 200) {
+            let res = JSON.parse(http.responseText);
+            renderBlogs(res);
+        }
+    };
+    http.send();
+};
+ready1();
+
+
+function renderBlogs(response) {
+    let posts = response.posts;
+
+    console.log('Post -> ', posts[0]);
+    if (posts.length > 0) {
+        let post = '';
+        for (let i = 0; i < posts.length; i++) {
+            if (i % 2 == 0) {
+                post += ` <div class="swiper-slide">
+                        <div class="recentNews-inner-row">
+                            <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                            <div class="recentNews-text">
+                                <h5>${posts[i].title} </h5>
+                                ${posts[i].excerpt}
+                                <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+                            </div>
+                        </div>`;
+
+            } else {
+                post += `<div class="recentNews-inner-row">
+                        <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                        <div class="recentNews-text"> 
+                        <h5>${posts[i].title} </h5>
+                        ${posts[i].excerpt}
+                        <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+                        </div>
+                    </div>
+                </div>`
+            }
+        }
+        let postt = document.getElementById("postt");
+        let a = `<div class="swiper-wrapper">
+            ${post}
+            </div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+            </div>`;
+        postt.innerHTML = a;
+
+        setTimeout(() => {
+            var swiper = new Swiper('.swiper-container-blog', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                //spaceBetween: 30,
+                //slidesPerView: 3,
+                centeredSlides: true,
+                // autoplay: 2500,
+                speed: 500,
+                autoplayDisableOnInteraction: false
+            });
+        }, 1000);
+    }
+}
 
 function renderPremadeCalcs(responseText) {
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
+        let trendingC = [];
         window.events = [];
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         window.calcs.forEach(calc => {
+            if (calc.industry === "Trending") {
+                if (trendingC.length !== 6)
+                    trendingC.push(calc);
+            }
+
             calc['GIF'] = calc.media;
             calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
             calc['Name'] = calc.title;
@@ -212,10 +319,8 @@ function renderPremadeCalcs(responseText) {
                 window.events.push(ev);
             }
         });
-        console.log('calc : ', window.events);
         var settings = {};
         var element = document.getElementById('calendar');
-        console.log('window.eventswindow.eventswindow.events ', window.events);
         caleandar(element, window.events, settings);
 
         jQuery('.eventday').popover({
@@ -224,6 +329,67 @@ function renderPremadeCalcs(responseText) {
             container: 'body',
             html: true
         });
+
+        if (trendingC.length > 0) {
+            let tCalc = '';
+            for (let i = 0; i < trendingC.length; i++) {
+                if (i % 2 == 0) {
+                    tCalc += `<div class="swiper-slide">
+                                <div class="recentNews-inner-row">
+                                    <div class="img-section"><img src="${trendingC[i].media}" /></div>
+                                    <div class="recentNews-text">
+                                        <h5>${trendingC[i].Name}</h5>
+                                        <span>${trendingC[i].type}</span>
+                                        <p class="">${trendingC[i].Description} </p>
+                                        <div class="button-wrapper">
+                                            <button type="button" class="btn btn-preview btn-hover">Preview</button>
+                                            <button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+                                        </div>
+                                    </div>
+                                </div>`;
+
+                } else {
+                    tCalc += `<div class="recentNews-inner-row">
+                                <div class="img-section"><img src="${trendingC[i].media}" /></div>
+                                <div class="recentNews-text">
+                                    <h5>${trendingC[i].Name}</h5>
+                                    <span>${trendingC[i].type}</span>
+                                    <p class="">${trendingC[i].Description} </p>
+                                    <div class="button-wrapper">
+                                        <button type="button" class="btn btn-preview btn-hover">Preview</button>
+                                        <button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>`
+                }
+            }
+            let TC = document.getElementById("trendingC");
+            let a = `<div class="swiper-wrapper">
+                    ${tCalc}
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                    </div>`;
+            TC.innerHTML = a;
+
+            setTimeout(() => {
+                var swiper = new Swiper('.swiper-container-recentNews', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    //spaceBetween: 30,
+                    //slidesPerView: 3,
+                    centeredSlides: true,
+                    // autoplay: 2500,
+                    speed: 500,
+                    autoplayDisableOnInteraction: false
+                });
+            }, 1000);
+        }
 
         jQuery(document).on('click', '.eventday', (event) => {
             self.selectedEvent = [];
@@ -292,7 +458,9 @@ jQuery(document).ready(function () {
     jQuery('#nav-examples').addClass('active');
 
     calculateMinHeight();
-    window.Intercom('update', { 'site_example_viewed': new Date() });
+    window.Intercom('update', {
+        'site_example_viewed': new Date()
+    });
 
     var iframes = iFrameResize({
         log: false,
