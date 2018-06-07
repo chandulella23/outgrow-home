@@ -225,8 +225,8 @@
 					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
 						<h4>Trending Content</h4>
 						<div class="recentNews-inner">
-							<div class="swiper-container-recentNews">
-								<div class="swiper-wrapper">
+							<div class="swiper-container-recentNews" id="trendingC">
+								<!-- <div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
 											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_trending1.png" /></div>
@@ -305,31 +305,16 @@
 											</div>
 										</div>
 									</div>
-								</div>								
-								<div class="swiper-pagination"></div>
-							</div>							
-															
-							<script>
-								var swiper = new Swiper('.swiper-container-recentNews', {
-									pagination: '.swiper-pagination',
-									paginationClickable: true,
-									nextButton: '.swiper-button-next',
-									prevButton: '.swiper-button-prev',
-									//spaceBetween: 30,
-									//slidesPerView: 3,
-									centeredSlides: true,
-									// autoplay: 2500,
-									speed:500,
-									autoplayDisableOnInteraction: false
-								});
-							</script>
+								</div>
+								<div class="swiper-pagination"></div> -->
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
 						<h4>Blog</h4>
 						<div class="recentNews-inner">
-							<div class="swiper-container-blog">
-								<div class="swiper-wrapper">
+							<div class="swiper-container-blog" id="postt">
+								<!-- <div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
 											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_blog1.png" /></div>
@@ -385,22 +370,22 @@
 										</div>
 									</div>
 								</div>
-								<div class="swiper-pagination"></div>
+								<div class="swiper-pagination"></div> -->
 							</div>
 
 							<script>
-								var swiper = new Swiper('.swiper-container-blog', {
-									pagination: '.swiper-pagination',
-									paginationClickable: true,
-									nextButton: '.swiper-button-next',
-									prevButton: '.swiper-button-prev',
-									//spaceBetween: 30,
-									//slidesPerView: 3,
-									centeredSlides: true,
-									// autoplay: 2500,
-									speed:500,
-									autoplayDisableOnInteraction: false
-								});
+								// var swiper = new Swiper('.swiper-container-blog', {
+								// 	pagination: '.swiper-pagination',
+								// 	paginationClickable: true,
+								// 	nextButton: '.swiper-button-next',
+								// 	prevButton: '.swiper-button-prev',
+								// 	//spaceBetween: 30,
+								// 	//slidesPerView: 3,
+								// 	centeredSlides: true,
+								// 	// autoplay: 2500,
+								// 	speed:500,
+								// 	autoplayDisableOnInteraction: false
+								// });
 							</script>
 						</div>
 					</div>
