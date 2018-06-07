@@ -229,7 +229,7 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_trending1.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_trending1.png" /></div>
 											<div class="recentNews-text">
 												<h5>Laurel or Yanny: Take the Poll </h5>
 												<span>Poll </span>
@@ -241,7 +241,7 @@
 											</div>
 										</div>
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_trending2.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_trending2.png" /></div>
 											<div class="recentNews-text">
 												<h5>Is Your Humour as Deadly as Deadpool's? </h5>
 												<span>Outcome Quiz </span>
@@ -255,7 +255,7 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_trending1.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_trending1.png" /></div>
 											<div class="recentNews-text">
 												<h5>Laurel or Yanny: Take the Poll </h5>
 												<span>Poll </span>
@@ -267,7 +267,7 @@
 											</div>
 										</div>
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_trending2.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_trending2.png" /></div>
 											<div class="recentNews-text">
 												<h5>Is Your Humour as Deadly as Deadpool's? </h5>
 												<span>Outcome Quiz </span>
@@ -281,7 +281,7 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_trending1.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_trending1.png" /></div>
 											<div class="recentNews-text">
 												<h5>Laurel or Yanny: Take the Poll </h5>
 												<span>Poll </span>
@@ -293,7 +293,7 @@
 											</div>
 										</div>
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_trending2.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_trending2.png" /></div>
 											<div class="recentNews-text">
 												<h5>Is Your Humour as Deadly as Deadpool's? </h5>
 												<span>Outcome Quiz </span>
@@ -332,7 +332,7 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_blog1.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_blog1.png" /></div>
 											<div class="recentNews-text">
 												<h5>How to Build an Auto-Loan Calculator? </h5>
 												<p class="line-clamp">Cars! They are fast, they’re fabulous and they’re exciting. Unfortunately, car-loans aren’t. As long as cars </p>
@@ -340,7 +340,7 @@
 											</div>
 										</div>
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_blog2.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_blog2.png" /></div>
 											<div class="recentNews-text"> 
 												<h5>5  Underrated Content Marketing Platforms </h5>
 												<p class="line-clamp">This post is for those of you who go, "Dear internet, this is what I have to say..." but don’t know where to start. </p>
@@ -350,7 +350,7 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_blog1.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_blog1.png" /></div>
 											<div class="recentNews-text">
 												<h5>How to Build an Auto-Loan Calculator? </h5>
 												<p class="line-clamp">Cars! They are fast, they’re fabulous and they’re exciting. Unfortunately, car-loans aren’t. As long as cars </p>
@@ -358,7 +358,7 @@
 											</div>
 										</div>
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_blog2.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_blog2.png" /></div>
 											<div class="recentNews-text"> 
 												<h5>5  Underrated Content Marketing Platforms </h5>
 												<p class="line-clamp">This post is for those of you who go, "Dear internet, this is what I have to say..." but don’t know where to start. </p>
@@ -368,7 +368,7 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_blog1.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_blog1.png" /></div>
 											<div class="recentNews-text">
 												<h5>How to Build an Auto-Loan Calculator? </h5>
 												<p class="line-clamp">Cars! They are fast, they’re fabulous and they’re exciting. Unfortunately, car-loans aren’t. As long as cars </p>
@@ -376,7 +376,7 @@
 											</div>
 										</div>
 										<div class="recentNews-inner-row">
-											<div class="img-section"><img src="images/examples_blog2.png" /></div>
+											<div class="img-section"><img src="{{ $page->baseUrl }}/images/examples_blog2.png" /></div>
 											<div class="recentNews-text"> 
 												<h5>5  Underrated Content Marketing Platforms </h5>
 												<p class="line-clamp">This post is for those of you who go, "Dear internet, this is what I have to say..." but don’t know where to start. </p>
