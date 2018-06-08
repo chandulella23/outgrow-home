@@ -334,6 +334,7 @@ function renderPremadeCalcs(responseText) {
         if (trendingC.length > 0) {
             let tCalc = '';
             for (let i = 0; i < trendingC.length; i++) {
+                console.log('heloi', trendingC[i])
                 if (i % 2 == 0) {
                     tCalc += `<div class="swiper-slide">
                                 <div class="recentNews-inner-row">
@@ -343,8 +344,8 @@ function renderPremadeCalcs(responseText) {
                                         <span>${trendingC[i].type}</span>
                                         <p class="">${trendingC[i].Description} </p>
                                         <div class="button-wrapper">
-                                            <a target='_blank' href='${trendingC[i].GIF}' class="btn btn-preview btn-hover">Preview</a>
-                                            <a target="_blank" href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
+                                            <a target='_blank' href="${trendingC[i]['Published Link']}" class="btn btn-preview btn-hover">Preview</a>
+                                            <a href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
                                         </div>
                                     </div>
                                 </div>`;
@@ -358,7 +359,7 @@ function renderPremadeCalcs(responseText) {
                                     <p class="">${trendingC[i].Description} </p>
                                     <div class="button-wrapper">
                                         <a target='_blank' href='${trendingC[i].GIF}' class="btn btn-preview btn-hover">Preview</a>
-                                        <a target="_blank" href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
+                                        <a href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
                                     </div>
                                 </div>
                                 </div>
