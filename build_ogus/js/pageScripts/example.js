@@ -14,34 +14,34 @@ window.display = function (url) {
 
 function getTemplateName(template) {
     let templates = [{
-            id: 'template-eight',
-            text: 'The Venice'
-        },
-        {
-            id: 'template-seven',
-            text: 'The Seattle'
-        }, {
-            id: 'one-page-card-new',
-            text: 'The Chicago'
-        },
-        {
-            id: 'sound-cloud-v3',
-            text: 'The Londoner'
-        }, {
-            id: 'inline-temp-new',
-            text: 'The Greek'
-        },
-        {
-            id: 'experian',
-            text: 'The Tokyo'
-        }, {
-            id: 'template-five',
-            text: 'The Madrid'
-        },
-        {
-            id: 'template-six',
-            text: 'The Stockholm'
-        }
+        id: 'template-eight',
+        text: 'The Venice'
+    },
+    {
+        id: 'template-seven',
+        text: 'The Seattle'
+    }, {
+        id: 'one-page-card-new',
+        text: 'The Chicago'
+    },
+    {
+        id: 'sound-cloud-v3',
+        text: 'The Londoner'
+    }, {
+        id: 'inline-temp-new',
+        text: 'The Greek'
+    },
+    {
+        id: 'experian',
+        text: 'The Tokyo'
+    }, {
+        id: 'template-five',
+        text: 'The Madrid'
+    },
+    {
+        id: 'template-six',
+        text: 'The Stockholm'
+    }
     ];
     return templates.find(t => t.id.includes(template));
 }
@@ -284,6 +284,7 @@ function renderBlogs(response) {
 function renderPremadeCalcs(responseText) {
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
+        console.log(window.calcs);
         let trendingC = [];
         window.events = [];
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -342,8 +343,8 @@ function renderPremadeCalcs(responseText) {
                                         <span>${trendingC[i].type}</span>
                                         <p class="">${trendingC[i].Description} </p>
                                         <div class="button-wrapper">
-                                            <button type="button" class="btn btn-preview btn-hover">Preview</button>
-                                            <button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+                                            <a target='_blank' href='${trendingC[i].GIF}' class="btn btn-preview btn-hover">Preview</a>
+                                            <a target="_blank" href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
                                         </div>
                                     </div>
                                 </div>`;
@@ -356,8 +357,8 @@ function renderPremadeCalcs(responseText) {
                                     <span>${trendingC[i].type}</span>
                                     <p class="">${trendingC[i].Description} </p>
                                     <div class="button-wrapper">
-                                        <button type="button" class="btn btn-preview btn-hover">Preview</button>
-                                        <button type="button" class="btn btn-useTemp btn-hover">Use Template</button>
+                                        <a target='_blank' href='${trendingC[i].GIF}' class="btn btn-preview btn-hover">Preview</a>
+                                        <a target="_blank" href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
                                     </div>
                                 </div>
                                 </div>
