@@ -667,7 +667,7 @@
     }
     .start-trial-cta .btn-buildcal {
         padding: 10px 25px;
-        font-size: 13px;
+        font-size: 13px !important;
         line-height: 20px;
     }
     .img-1 {
@@ -5592,9 +5592,8 @@
         max-width: 100%
     }
 }
-@media only screen and (max-width:380px) {    
-    .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;
-}
+@media only screen and (max-width:420px) {    
+    .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;}
 
 @media only screen and (max-width:1024px) {
     .cards,
