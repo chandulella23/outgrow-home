@@ -343,8 +343,8 @@ function renderPremadeCalcs(responseText) {
                                         <span>${trendingC[i].type}</span>
                                         <p class="">${trendingC[i].Description} </p>
                                         <div class="button-wrapper">
-                                            <a target='_blank' href='${trendingC[i].GIF}' class="btn btn-preview btn-hover">Preview</a>
-                                            <a target="_blank" href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
+                                            <a target='_blank' href="${trendingC[i].GIF}" class="btn btn-preview btn-hover">Preview</a>
+                                            <a href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
                                         </div>
                                     </div>
                                 </div>`;
@@ -358,7 +358,7 @@ function renderPremadeCalcs(responseText) {
                                     <p class="">${trendingC[i].Description} </p>
                                     <div class="button-wrapper">
                                         <a target='_blank' href='${trendingC[i].GIF}' class="btn btn-preview btn-hover">Preview</a>
-                                        <a target="_blank" href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
+                                        <a href="//app.outgrow.co/signup" class="btn btn-useTemp btn-hover">Use Template</a>
                                     </div>
                                 </div>
                                 </div>
