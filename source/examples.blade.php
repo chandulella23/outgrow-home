@@ -195,7 +195,7 @@
 														<p id="premade-calc-name">
 															<i class="material-icons">&#xE80E;</i>
 															AUTO LOAN CALCULATOR
-														</p>
+							\							</p>
 														<span id="premade-calc-layout">
 															<strong>Layout:</strong> 
 															The Londoner 
