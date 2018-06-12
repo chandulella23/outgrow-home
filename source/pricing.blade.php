@@ -83,30 +83,25 @@
                   </div>
                 </div>
             </div> -->
-            <section id="plan-cycle">
+            <section id="plan-cycle" class="four-plan-case">
                 <div class="col-md-12 col-sm-12 col-xs-12 np billing-plan-list">
                     <ul role="tablist">
                         <li class="cycle-tab active annual" id="annual" role="presentation">
                             <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('annual')">
-                                <!-- <i class="material-icons">check</i>--> Annual (save 40%)
-                                <!-- <label class="save-per">Save over 44%</label> -->
+                                <i class="material-icons">check</i> Annual 
+                                <label class="save-per">Save upto 44%</label> 
                             </a>
                         </li>
                         <li class="cycle-tab monthly" id="monthly" role="presentation">
                             <a class="hvr-sweep-to-right view" data-toggle="tab" href="javascript:void(0)" role="tab" onClick="showCycle('monthly')">
-                                <!--<i class="material-icons">check</i>--> Monthly
+                                <i class="material-icons">check</i> Monthly
                             </a>
                         </li>
                     </ul>
                 </div>
             </section>
-            <div class="pricing-outer container">
+            <div class="pricing-outer container pricing-col-four">
                 <table>
-
-                    <colgroup></colgroup>
-                    <colgroup></colgroup>
-                    <colgroup></colgroup>
-                    <colgroup></colgroup>
 
                     <thead>
                         <tr class="">
@@ -120,16 +115,16 @@
                             <th>
                                 <h2>Freelancer</h2>                                
                                 <span class="annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>25<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$45<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                    <p class="strike-price">$45<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>45<sub> mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
@@ -138,37 +133,54 @@
                                 <span class="label-popularPlan">Most Popular</span>
                                 <h2>Essentials</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>95<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$115<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                    <p class="strike-price">$115<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>105<sub> mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>115<sub> mo.</sub></p>
                                 </span>
                                 <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
                             <th>
                                 <h2>Business</h2>
                                 <span class="annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>600<sub> mo.</sub></p>
                                 </span>
                                 <span class="s-annual-price">
-                                    <p class="strike-price">$720<sub>/mo.</sub></p>
-                                    <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                    <p class="strike-price">$720<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>667<sub> mo.</sub></p>
                                 </span>
                                 <span class="monthly-price">
-                                    <!--<p class="strike-price">$45<sub>/mo.</sub></p>-->
-                                    <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>720<sub> mo.</sub></p>
                                 </span>
                                 <span class="">
                                     <a href="//app.outgrow.co" target="_blank" id="b-signup" class="signuplink params btn-hover">Start trial</a>                                    
                                     <a href="javascript:void(0);" class="link-contact intercom_trigger" id="intercom_trigger">Contact us</a>
                                 </span>
+                            </th>
+                            <th>
+                                <h2>Freelancer</h2>  
+                                <label class="quiz-only">Quiz Only</label>                              
+                                <span class="annual-price">
+                                    <p class="strike-price">$22<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>14<sub> mo.</sub></p>
+                                </span>
+                                <span class="s-annual-price">
+                                    <p class="strike-price">$45<sub> mo.</sub></p>
+                                    <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
+                                </span>
+                                <span class="monthly-price">
+                                    <!--<p class="strike-price">$45<sub> mo.</sub></p>-->
+                                    <p class="price"><sup>$</sup>22<sub> mo.</sub></p>
+                                </span>
+                                <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                             </th>
                         </tr>
                     </thead>
@@ -183,17 +195,71 @@
                     </tfoot>-->
 
                     <tbody>
-                        <tr class="not-info">
-                            <th><i class="material-icons vis-hide">add</i> Leads & Visits </th>
-                            <td><span class="quater"></span>300 & 6000</td>
-                            <td  class="active-bg"><span class="half"></span>1000 & 20000</td>
-                            <td><span class="full"></span>15000 & 300000</td>
+                        <tr class="expand yearlyLeads">
+                            <th>
+                                <!-- <i class="material-icons vis-hide">add</i>  -->
+                                Leads <i class="material-icons">help</i>
+                            </th>
+                            <td>
+                                <span class="quater"></span>12,000 per year
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>90,000 per year
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td>
+                                <span class="full"></span>600,000 per year
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td>
+                                <span class="quater"></span>12,000 per year
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
                         </tr>
-                        <tr class="not-info">
-                            <th><i class="material-icons vis-hide">add</i> No. of Content Pieces</th>
-                            <td><span class="quater"></span>3</td>
-                            <td class="active-bg"><span class="full"></span>Unlimited</td>
-                            <td><span class="full"></span>Unlimited</td>
+                        <tr class="expand hide monthlyLeads">
+                            <th>
+                                <!-- <i class="material-icons vis-hide">add</i>  -->
+                                Leads <i class="material-icons">help</i>
+                            </th>
+                            <td>
+                                <span class="quater"></span>1,000 per month
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="half"></span>7,500 per month
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td>
+                                <span class="full"></span>50,000 per month
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                            <td>
+                                <span class="quater"></span>1,000 per month
+                                <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
+                            </td>
+                        </tr>
+                        <tr class="expand">
+                            <th>
+                                <!-- <i class="material-icons vis-hide">add</i>  -->
+                                No. of Content Pieces <i class="material-icons">help</i>
+                            </th>
+                            <td>
+                                <span class="quater"></span>5
+                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                            </td>
+                            <td class="active-bg">
+                                <span class="full"></span>Unlimited
+                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                            </td>
+                            <td>
+                                <span class="full"></span>Unlimited
+                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                            </td>
+                            <td>
+                                <span class="quater"></span>3
+                                <span class="detail">Number of quizzes you can build.</span>
+                            </td>
                         </tr>
                         <!-- <tr class="not-info">
                             <th><i class="material-icons vis-hide">add</i> Collaborators</th>
@@ -203,8 +269,9 @@
                         </tr> -->
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> Templates and Layouts
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>  -->
+                                Templates & Layouts <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
@@ -217,6 +284,10 @@
                             <td class="expand-child">
                                 <span class="full"></span>All Templates & Layouts
                                 <span class="detail">All layouts and templates are unlocked.</span>
+                            </td>
+                            <td class="expand-child">
+                                <span class="quater"></span>Basic Templates & Layout
+                                <span class="detail">Only the Classic "Chicago" layout and templates.</span>
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -240,22 +311,26 @@
                         </tr> -->
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> 
-                                Hosting and Embedding
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>  -->
+                                Hosting & Embedding <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
-                                <span class="half"></span>Embed Anywhere
+                                <span class="full"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="half"></span>Embed Anywhere
+                                <span class="full"></span>Embed Anywhere
                                 <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                             </td>
                             <td class="expand-child">
-                                <span class="full"></span>Custom Domain
+                                <span class="full"></span>Embed & Custom Domain
                                 <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
-                            </td>                            
+                            </td>
+                            <td class="expand-child">
+                                <span class="full"></span>Embed Anywhere
+                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                            </td>                         
                         </tr>
                         <!-- <tr class="expand">
                             <th>
@@ -278,19 +353,25 @@
                         </tr> -->
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i>
-                                Charts and Graphs
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i> -->
+                                Charts & Graphs <i class="material-icons">help</i></th>
                             </th>
                             <td>
                                 <span class="none"></span>No Access
+                                <span class="detail">You do not have access to charts and graphs.</span>
                             </td>
                             <td class="active-bg">
                                 <span class="none"></span>No Access
+                                <span class="detail">You do not have access to charts and graphs.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
                                 <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
+                            </td>
+                            <td>
+                                <span class="none"></span>No Access
+                                <span class="detail">You do not have access to charts and graphs.</span>
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -314,28 +395,32 @@
                         </tr> -->
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> 
-                                Custom Branding
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>  -->
+                                Custom Branding <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Limited Access
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child active-bg">
-                                <span class="quater"></span>Limited Access
+                                <span class="half"></span>Standard Access
                                 <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
                                 <span class="detail">You can add your own logo and use your brand’s colors. You can also remove the Outgrow Logo.</span>
                             </td>
+                            <td class="expand-child">
+                                <span class="quater"></span>Limited Access
+                                <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                            </td>
                         </tr>
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> 
-                                Integrations
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>  -->
+                                Integrations <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Integrations
@@ -348,6 +433,10 @@
                             <td class="expand-child">                                
                                 <span class="full"></span>Advanced Integrations
                                 <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
+                            </td>
+                            <td class="expand-child">                                
+                                <span class="half"></span>Standard Integrations
+                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
                             </td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -458,9 +547,9 @@
                         </tr> -->
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i>  
-                                Formula and Logic Jump
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>   -->
+                                Formula & Logic Jump <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Limited Access
@@ -474,16 +563,20 @@
                                 <span class="full"></span>Full Access
                                 <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>                             
                             </td>
+                            <td class="expand-child">                                
+                                <span class="quater"></span>Limited Access
+                                <span class="detail">No access to logic jump, but can use outcome mapping in quiz.</span>                             
+                            </td>
                         </tr>
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> 
-                                Analytics and Tracking
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>  -->
+                                Analytics & Tracking <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">                                
-                                <span class="quater"></span>Limited Access
-                                <span class="detail">Traffic Details, Lead Data and User Responses.</span>                             
+                                <span class="half"></span>Standard Access
+                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Standard Access
@@ -493,15 +586,20 @@
                                 <span class="full"></span>Advanced Access
                                 <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>                             
                             </td>
+                            <td class="expand-child">                                
+                                <span class="half"></span>Standard Access
+                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
+                            </td>
                         </tr>
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> Advanced Features
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>  -->
+                                Advanced Features <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
                                 <span class="none"></span>No Access
-                                <!-- <span class="detail"></span> -->
+                                <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Limited Access
@@ -510,13 +608,17 @@
                             <td class="expand-child">
                                 <span class="full"></span>Advanced Access
                                 <span class="detail">Access to conditional messaging, email embeds, email validation, custom HTML/CSS/JS and custom notifications.</span>
-                            </td>           
+                            </td> 
+                            <td class="expand-child">
+                                <span class="none"></span>No Access
+                                <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                            </td>          
                         </tr>
                         <tr class="expand">
                             <th>
-                                <i class="material-icons plus">add</i>
-                                <i class="material-icons minus">remove</i> 
-                                Support
+                                <!-- <i class="material-icons plus">add</i>
+                                <i class="material-icons minus">remove</i>  -->
+                                Support <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Support Docs
@@ -530,6 +632,10 @@
                                 <span class="full"></span>Priority
                                 <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
                             </td>
+                            <td class="expand-child">                                
+                                <span class="quater"></span>Support Docs
+                                <span class="detail">You will have access to support docs.</span>                             
+                            </td>
                         </tr>
                     </tbody>
 
@@ -542,28 +648,31 @@
                         <div class="pricing-top">
                             <h3>Freelancer</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>25<sub>/mo.</sub></p>
+                                <p class="strike-price">$45<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>25<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$45<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>30<sub>/mo.</sub></p>
+                                <p class="strike-price">$45<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>45<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>45<sub> mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
-                                <li>
-                                    <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>300 & 6000</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">Leads <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="quater"></span>12,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="quater"></span>1,000 per month</span>
+                                    <span class="detail">Number of submissions of the lead generation form on Outgrow. </span>
                                 </li>
-                                <li>
-                                    <span class="feature-title">No. of Content Pieces</span>
-                                    <span class="feature-subtitle"><span class="quater"></span>3</span>
+                               <li class="expand-rs">
+                                    <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle"><span class="quater"></span>5</span>
+                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -571,9 +680,9 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Templates and Layouts
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
                                     <span class="detail">Only the Classic "Chicago and Londoner" layout and templates. </span>
@@ -589,11 +698,11 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Hosting and Embedding
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -605,13 +714,13 @@
                                     <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
                                     <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li> -->
-                                <li>
+                                <li class="expand-rs">
                                     <span class="feature-title">
                                         <!--<i class="material-icons plus">add</i>-->
-                                        Charts and Graphs
+                                        Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                    <!--<span class="detail"></span>-->
+                                    <span class="detail">You do not have access to charts and graphs.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -624,18 +733,18 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Custom Branding
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Integrations
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Integrations <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
@@ -692,36 +801,36 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Formula and Logic Jump
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Analytics and Tracking
-                                    </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses.</span>
-                                </li>
-                                <li>
-                                    <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i>  -->
-                                        Advanced Features
+                                        Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                    <!-- <span class="detail"></span> -->
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
+                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Support
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Advanced Features <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
+                                     <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
                                     <span class="detail">You will have access to support docs.</span>
@@ -742,28 +851,31 @@
                         <div class="pricing-top">
                             <h3>Essentials</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>95<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>95<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$115<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>105<sub>/mo.</sub></p>
+                                <p class="strike-price">$115<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>105<sub> mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>115<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>115<sub> mo.</sub></p>
                             </span>
                             <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
-                                <li>
-                                    <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="half"></span>1000 & 20000</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">Leads <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="half"></span>90,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="half"></span>7,500 per month</span>
+                                    <span class="detail">Number of submissions of the lead generation form on Outgrow.</span>
                                 </li>
-                                <li>
-                                    <span class="feature-title">No. of Content Pieces</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -771,9 +883,9 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Templates and Layouts
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates & Layouts </span>
                                     <span class="detail">All layouts and templates are unlocked.</span>
@@ -789,11 +901,11 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Hosting and Embedding
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Embed Anywhere </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
                                     <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -805,13 +917,13 @@
                                     <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
                                     <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
                                 </li> -->
-                                <li>
+                                <li class="expand-rs">
                                     <span class="feature-title">
                                         <!--<i class="material-icons plus">add</i>-->
-                                        Charts and Graphs
+                                        Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                    <!--<span class="detail"></span>-->
+                                    <span class="detail">You do not have access to charts and graphs.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -824,18 +936,18 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Custom Branding
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Custom Branding <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Integrations
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Integrations <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
                                     <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>
@@ -895,36 +1007,36 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Formula and Logic Jump
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Analytics and Tracking
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
                                     <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Advanced Features
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Advanced Features <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                      <span class="detail">Access to conditional messaging.</span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Support
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic</span>
                                     <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>
@@ -943,16 +1055,16 @@
                         <div class="pricing-top">
                             <h3>Business</h3>
                             <span class="annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>600<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>600<sub> mo.</sub></p>
                             </span>
                             <span class="s-annual-price">
-                                <p class="strike-price">$720<sub>/mo.</sub></p>
-                                <p class="price"><sup>$</sup>667<sub>/mo.</sub></p>
+                                <p class="strike-price">$720<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>667<sub> mo.</sub></p>
                             </span>
                             <span class="monthly-price">
-                                <!--<p class="strike-price"><sup>$</sup>45<sub>/mo.</sub></p>-->
-                                <p class="price"><sup>$</sup>720<sub>/mo.</sub></p>
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>720<sub> mo.</sub></p>
                             </span>
                             <span class="">
                                 <a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a>
@@ -961,13 +1073,16 @@
                         </div>
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
-                                <li>
-                                    <span class="feature-title">Leads & Visits</span>
-                                    <span class="feature-subtitle"><span class="full"></span>15000 & 300000</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">Leads <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="full"></span>600,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="full"></span>50,000 per month</span>
+                                    <span class="detail">Number of submissions of the lead generation form on Outgrow. </span>
                                 </li>
-                                <li>
-                                    <span class="feature-title">No. of Content Pieces</span>
+                                <li class="expand-rs">
+                                    <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
+                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -975,9 +1090,9 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Templates and Layouts
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates & Layouts </span>
                                     <span class="detail">All layouts and templates are unlocked.</span>
@@ -993,11 +1108,11 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Hosting and Embedding
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Custom Domain </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Embed & Custom Domain </span>
                                     <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
@@ -1011,9 +1126,9 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Charts and Graphs
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
@@ -1029,18 +1144,18 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Custom Branding
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">You can add your own logo and use your brand’s colors. You can also remove the Outgrow Logo.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Integrations
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Integrations <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Integrations</span>
                                     <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API. </span>
@@ -1100,36 +1215,36 @@
                                 </li> -->
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Formula and Logic Jump
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Analytics and Tracking
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
                                     <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Advanced Features
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Advanced Features <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
                                      <span class="detail">Access to conditional messaging, email embeds, email validation, custom HTML/CSS/JS and custom notifications.</span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
-                                        <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
-                                        Support
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Priority</span>
                                     <span class="detail">You will have access to support docs, email support as well as live chat.</span>
@@ -1143,9 +1258,210 @@
                     </div>
                     <!-- business-->
 
+                    <!-- freelancer-quiz -->
+                    <div class="col-md-12 col-sm-12 col-xs-12 np pricing-block">
+                        <div class="pricing-top">
+                            <h3>Freelancer</h3>
+                            <label class="quiz-only">Quiz Only</label>
+                            <span class="annual-price">
+                                <p class="strike-price">$22<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>14<sub> mo.</sub></p>
+                            </span>
+                            <span class="s-annual-price">
+                                <p class="strike-price">$45<sub> mo.</sub></p>
+                                <p class="price"><sup>$</sup>30<sub> mo.</sub></p>
+                            </span>
+                            <span class="monthly-price">
+                                <!--<p class="strike-price"><sup>$</sup>45<sub> mo.</sub></p>-->
+                                <p class="price"><sup>$</sup>22<sub> mo.</sub></p>
+                            </span>
+                            <span class=""><a href="//app.outgrow.co" target="_blank" class="signuplink params btn-hover">Start trial</a></span>
+                        </div>
+                        <div class="pricing-bottom">
+                            <ul class="features rs-hide">
+                                <li class="expand-rs">
+                                    <span class="feature-title">Leads <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle yearlyLeads"><span class="quater"></span>12,000 per year</span>
+                                    <span class="feature-subtitle monthlyLeads hide"><span class="quater"></span>1,000 per month</span>
+                                    <span class="detail">Number of submissions of the lead generation form on Outgrow. </span>
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle"><span class="quater"></span>3</span>
+                                    <span class="detail">Number of quizzes you can build. </span>
+                                </li>
+                                <!-- <li>
+                                    <span class="feature-title">Collaborators</span>
+                                    <span class="feature-subtitle"><span class="full"></span>1</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Templates & Layouts <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
+                                    <span class="detail">Only the Classic "Chicago" layout and templates. </span>
+                                </li>
+                                <!-- <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Lead Generation
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Full Access </span>
+                                    <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Hosting & Embedding <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
+                                    <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                </li>
+                                <!-- <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Domain Hosting
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Outgrow Domain </span>
+                                    <span class="detail">Experiences are hosted on "yourcompany.outgrow.co"</span>
+                                </li> -->
+                               <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!--<i class="material-icons plus">add</i>-->
+                                        Charts & Graphs <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
+                                    <span class="detail">You do not have access to charts and graphs.</span>
+                                </li>
+                                <!-- <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Display Customizations
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
+                                    <span class="detail">Use your brand logo and customize look and feel using predefined color palettes.</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Custom Branding <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Integrations <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
+                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
+                                </li>
+                                <!-- <li>
+                                    <span class="feature-title">Templates</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic Template</span>
+                                </li> -->
+                                <!-- <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Templates
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Templates</span>
+                                    <span class="detail">You get access to all pre-made calculators and quizzes built using our basic design layout (The Chicago).</span>
+                                </li> -->
+                                <!-- <li>
+                                    <span class="feature-title">Layouts</span>
+                                    <span class="feature-subtitle"><span class="half"></span>Basic Layout</span>
+                                </li> -->
+                                <!-- <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Layouts
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Layout</span>
+                                    <span class="detail">You get access to our basic, yet the most versatile layout: The Chicago.</span>
+                                </li> -->
+                                <!-- <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Call To Actions
+                                    </span>
+                                    <span class="feature-subtitle">Basic CTAs</span>
+                                    <span class="detail">Add Facebook, Twitter and Linkedin share buttons to power viral sharing.</span>
+                                </li> -->
+                                <!-- <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i> 
+                                        Formulas
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Basic Operators</span>
+                                    <span class="detail">You can use basic mathematical operators like +,-, x and /.</span>
+                                </li>
+                                <li>
+                                    <span class="feature-title">
+                                        Logic Jump
+                                    </span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
+                                </li> -->
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Formula & Logic Jump <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
+                                    <span class="detail">No access to logic jump, but can use outcome mapping in quiz. </span>
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Analytics & Tracking <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
+                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Advanced Features <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="none"></span>No Access</span>
+                                    <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                </li>
+                                <li class="expand-rs">
+                                    <span class="feature-title">
+                                        <!-- <i class="material-icons plus">add</i>
+                                        <i class="material-icons minus">remove</i>  -->
+                                        Support <i class="material-icons">help</i>
+                                    </span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
+                                    <span class="detail">You will have access to support docs.</span>
+                                </li>
+                            </ul>
+                            <a href="javascript:void(0);" class="toggle-more">
+                                <i class="material-icons">add</i>
+                                <p class="more-info">Show more</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- freelancer-quiz -->
+
                 <!-- end: for responsive -->
             </div>
-
             <div class="col-md-12 col-sm-12 col-xs-12 np create-exp" id="target">
                 <div class="container">
                     <div class="col-md-3 col-sm-3 col-xs-12 np">
@@ -1155,7 +1471,7 @@
                     <div class="col-md-7 col-sm-7 col-xs-12 np text-center create-exp-center">
                         <span class="create-exp-start">Starting From </span>
                         <span class="create-exp-price">$250</span>
-                        <span class="text-opacity">/content pieces</span>
+                        <span class="text-opacity">/content piece</span>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12 np">
                         <button class="btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">CLICK HERE</button>
@@ -1172,7 +1488,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 np">
                     <div class="container-enterprise">
                         <div class=" enterprise-box-new text-center">
-                            <h2 class="title">Enterprise Plan</h2>
+                            <h2 class="title">Enterprise & Agency Plans</h2>
                             <span class="border-center"></span>
                             <p>
                                 Made especially for power users and agencies, this plan gives you full access with a dedicated account manager, API access and team training.
@@ -1459,7 +1775,7 @@
                             I am an agency. Anything special for me?
                         </div>
                         <div class="faq-section-content">
-                            <p>Sure. If you are an agency that works with multiple clients, we can figure out a mutually beneficial partnership. Feel free to email us at support@outgrow.co.</p>
+                            <p>Sure. If you are an agency that works with multiple clients, we can figure out a mutually beneficial partnership. Feel free to reach out to us via the chat on the bottom right of your screen or via email at <a href="mailto:questions@outgrow.co" class="text-red">questions@outgrow.co </a></p>
                         </div>
                     </div>
                 </div>

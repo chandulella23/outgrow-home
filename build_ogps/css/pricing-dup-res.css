@@ -30,7 +30,7 @@
 	}
 	#pricing .section-faq{ margin-top: 15px;margin-bottom: 0px; padding-top: 40px;}
 	#pricin .section-2-heading{ font-family: montserratbold;}
-	#pricing .billing-plan-list{width:100%;}
+	#pricing .billing-plan-list{width:100%;     max-width: 280px;}
 	/*#pricing .billing-plan-list ul > li > a{
 		padding:15px 2px;
 	}*/
@@ -89,6 +89,23 @@
 	#pricing .pricing-headingtop {margin-top: 0px !important; padding: 20px 0px; margin-bottom: 0px;}
 	.pricing-switch {margin-bottom: 30px;}
 	.faq-section {margin-right: 0;}
+	.billing-plan-list ul>li {
+		width: 50%;
+	}
+	.billing-plan-list ul>li:nth-child(2) {
+		width: 40%;
+	}
+	.four-plan-case .billing-plan-list ul>li {
+		text-align: center;
+	}
+	.four-plan-case .billing-plan-list ul>li:nth-child(2) {
+		width: 1%; 
+		text-align: center;
+	}
+	#pricing .four-plan-case .billing-plan-list {
+		 width: 100%; 
+		 max-width: 500px; 
+	}
 
 }
 
@@ -189,17 +206,19 @@
 	}
 	.pricing-top {
 		padding: 15px 30px;
+		margin-bottom: 15px;
 	}
 	.pricing-top h3{
-		font-size: 22px;
-    	color: #797f83;
-    	font-family: montserratlight;
+		font-size: 18px;
+		color: #666666;
+		font-family: montserratregular;
+		text-transform: none;
 		margin-top: 15px;
 	}
 	.pricing-top p.price{	
-		font-size: 36px !important;
-		color: #009ad8;
-		font-family: montserratsemibold !important;
+		font-size: 32px !important;
+		color: #3a85b4;
+		font-family: montserratlight !important;
 		line-height: normal;
 		text-align: center;
 	}
@@ -207,16 +226,19 @@
 		font-size: 30px !important;
 	}
 	.pricing-top p.price sup {
-		font-size: 20px;
+		font-size: 32px;
 		font-family: montserratlight;
+		top:0;
 	}
 	.pricing-top p.strike-price {
 		color: #abb7bc;
-		font-size: 14px;
-		font-family: montserratlight;
+		font-size: 12px;
+		font-family: montserratbold;
 		text-decoration: line-through;
 		margin: 0px;
 		line-height: normal;
+		text-align: center;
+		margin-bottom: 5px;
 	}
 	.pricing-top p.price sub {
 		font-size: 14px;
@@ -232,11 +254,12 @@
 		color: #fdfeff;
 		text-decoration: none;
 		text-transform: uppercase;
-		display: inline-block;
-		background: #fb5f66;
+		background: #fb6c73;
 		border-radius: 4px;
-		padding: 11px 30px;
-		font-size: 13px;
+		padding: 11px 25px;
+		font-size: 10px;
+		transition: .3s ease-in-out;
+		font-family: montserratbold;
 	}
 	.pricing-bottom {
 		/*padding-top: 10px;*/
@@ -255,14 +278,14 @@
 	}
 	.pricing-bottom ul li .feature-title {
 		font-size: 13px;
-		font-family: montserratregular;
+		font-family: Roboto-Regular;
 		color: #797f83;
 		display: block;
 	}
 	.pricing-bottom ul li .feature-subtitle {
 		font-size: 12px;
-		color: #797f83;
-    	font-family: montserratlight;
+		color: #666;
+    	font-family: Roboto-Regular;
 	}
 	.pricing-bottom a.toggle-more {
 		float: left;
@@ -271,6 +294,7 @@
 		background: #eff0f1;
 		padding: 3px;
 		/* margin-top: 7px; */
+		font-family: Roboto-Regular;
 	}
 	.pricing-bottom a.toggle-more i {
 		vertical-align: middle;
@@ -302,19 +326,55 @@
 		border-top: 1px solid #e0f2fe;
 		cursor: pointer;
 	}
-
 	.expand-rs .minus, .expand-rs.open .plus{display: none;}
 	.expand-rs.open .minus, .expand-rs .plus {display: inline-block;}
 	.detail {padding: 10px 10px 0px 10px;}
 	#plan-cycle {
 		margin-left: 0;
 	}
-
-	
+	.pricing-outer.pricing-col-four .pricing-bottom ul li .feature-title i.material-icons{
+		color: #2b93be;
+		vertical-align: middle;
+		position: relative;
+		top: -2px;
+		visibility: visible;
+		padding-right: 5px;
+		font-size: 14px;
+	}
+	.pricing-outer.pricing-col-four {
+		width: 100%;
+	}
+	a.link-contact.intercom_trigger {
+		padding-top: 15px;
+	}
+	span.label-popularPlan {
+		top: -1px;
+	}
+	.create-exp {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.create-exp .container .col-sm-3, 
+	.create-exp .container .col-sm-6 {width: 100%; text-align: center;}
+	.create-exp .container .btn-white-red-outline {float: none;}
+	.create-exp-center {
+		margin: 15px 0; width: 100%;
+	}
+	.create-exp .container, .create-exp .container .col-md-2 {width: 100%;     text-align: center;}
 
 
 }
+@media (min-width:320px) and (max-width:420px){
+	.create-exp .container .text-opacity { display: block;}
+	.create-exp-center {
+		/* line-height: 22px; */
+		/* margin: 25px 0px !important; */
+	}
+	.create-exp span.create-exp-start { display: block;  top: 0;}
+	.create-exp .container span.create-exp-price {display: block;}
 
+
+}
 @media screen and (max-width:991px){
     .rs-text-center{text-align: center;}
     .allPlans-blocks-right {margin-left: 0px;}
@@ -330,6 +390,12 @@
 	}
 	#pricing .container-faqs {
 		width: 800px;
+	}
+	.create-exp .container {
+		width: 950px;
+	}
+	.pricing-outer {
+		width: 950px !important;
 	}
 }
 @media (min-width: 0px) and (max-width: 1280px){
@@ -567,7 +633,9 @@
 		top: -12px !important;
 	}
 
-
+	label.quiz-only {
+		margin: 0 30%
+	}
 }
 @media (max-width: 2999px) and (min-width: 1921px) {
 	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px !important;}

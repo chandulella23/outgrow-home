@@ -1902,7 +1902,7 @@ tbody td span small i.material-icons, ul li span small i.material-icons {
 	margin-bottom: 0px;
 }
 .sec-cookies .btn-understand {
-    float: right;
+	float: right;
     background: #fff;
     border-radius: 20px;
     color: #fb5f66;
@@ -1915,11 +1915,19 @@ tbody td span small i.material-icons, ul li span small i.material-icons {
 	transition: .5s ease-in-out;
 	border: 2px solid transparent;
 }
+.btn-understand:hover {
+    border: 2px solid #fff !important;
+    background: none !important;
+    color: #fff !important;
+}
 .sec-cookies .btn-understand:focus {outline: none;}
-.sec-cookies i.material-icons {
+.sec-cookies a.icon-close {
     position: absolute;
-    right: -70px;
-    top: 10px;
+    right: 5px;
+    top: 5px;
+    float: right;
+}
+.sec-cookies i.material-icons {
 	font-size: 20px;
 	color: #fff;
 	opacity: 0.8;
@@ -1927,13 +1935,9 @@ tbody td span small i.material-icons, ul li span small i.material-icons {
 }
 .sec-cookies i.material-icons:hover {
     opacity: 1;
-
 }
-
-
-/* .nav-boxshadow .dropdown .dropdown-content {top: 56px;} */
-.btn-understand:hover {
-    border: 2px solid #fff !important;
-    background: none !important;
-	color: #fff !important;
+a.text-red {
+    color: #fb5f66;
 }
+.sec-cookies p a {color: #fff;}
+.sec-cookies p a:hover {text-decoration: underline;}

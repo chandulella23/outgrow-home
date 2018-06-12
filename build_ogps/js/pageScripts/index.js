@@ -71,7 +71,7 @@ window.runTimeout = function () {
 
 window.display = function (url) {
     document.getElementById('og-iframe').src = url;
-    jQuery('#og-iframe').addClass('iframeHeight')
+    jQuery('#og-iframe').addClass('iframeHeight');
     calculateMinHeight();
 
     setTimeout(calculateMinHeight, 2000);
@@ -94,12 +94,16 @@ jQuery.noConflict();
 jQuery.material.init();
 
 jQuery(document).ready(function () {
-    showCookieDialog = getCookie('showCookieDialog');
-    if(showCookieDialog==undefined || showCookieDialog === 'true') jQuery('.section.sec-cookies').removeClass('hide');
+    disableCookieDialog = getCookie('disableCookieDialog');
+    if (disableCookieDialog == undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
     calculateMinHeight();
 
     jQuery('.calc-links a').on('click', function () {
         jQuery('a').removeClass('active');
+        jQuery(this).addClass('active');
+    });
+    jQuery('.navbar ul li a').on('click', function () {
+        jQuery('.params').removeClass('active');
         jQuery(this).addClass('active');
     });
 
@@ -118,4 +122,62 @@ jQuery(document).ready(function () {
 
     runTimeout();
     // initTestimonial();
-})
+
+
+    //add custom class to intercom
+    // Wait for Intercom to boot (max 30 seconds)
+
+    const timeout = setTimeout(() => clearInterval(interval), 30000);
+
+    const intercomMessengerInterval = setInterval(() => {
+        const iframe = document.querySelector('.intercom-messenger-frame');
+        const launcherBadge = document.querySelector('.intercom-launcher-badge-frame');
+
+        const cookieSection = document.querySelector('.section.sec-cookies');
+
+        if (!cookieSection.classList.contains('hide')) {
+            if (iframe) {
+                //clearInterval(intercomMessengerInterval);
+                jQuery('.intercom-messenger-frame').css('bottom', '160px');
+            }
+            if (launcherBadge) {
+                jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
+            }
+        }
+
+    }, 1000);
+
+    const interval = setInterval(() => {
+        console.log('testing')
+        const iframe = document.querySelector('.intercom-launcher-discovery-frame');
+
+        if (iframe) {
+            // Append the stylesheet to the iframe head
+            // iframe.className+='custom-intercom';
+            jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
+            jQuery('.intercom-launcher-frame').addClass('custom-intercom');
+            console.log('setting custom intercom css')
+            clearInterval(interval);
+            clearTimeout(timeout);
+        }
+    }, 1000);
+
+    // const interval = setInterval(() => {
+    //     console.log('interval ')
+    //     if (window.Intercom.booted) {
+    //         // Intercom is booted!
+    //         clearInterval(interval);
+    //         clearTimeout(timeout);
+    //         setTimeout(() => {
+    //             let disableCookieDialog = readCookie('disableCookieDialog');
+    //             console.log(disableCookieDialog);
+    //             if (disableCookieDialog==undefined || disableCookieDialog ==='false') {
+    //                 let intercomContainer = document.getElementById("intercom-container");
+    //                 intercomContainer.className += 'custom-intercom';
+    //                 console.log('adding custom class to intercom');
+    //             }
+    //         }, 3000)
+    //     }
+    // }, 2000);
+
+});

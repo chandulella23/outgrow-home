@@ -56,7 +56,7 @@
 			</p>
 			<p>
 				The contact information for Outgrow’s designated agent for receipt of notices of claimed infringement is -
-				<a href="javascript:void(0);">questions@outgrow.co. </a>
+				<a href="mailto:questions@outgrow.co">questions@outgrow.co. </a>
 			</p>
 			<h4 class="Privacy-subheading">Intellectual Property</h4>
 			<p>

@@ -49,7 +49,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 <!-- <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script> -->
 
 <script async>
-(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0];
+(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0]);
 j.async=1;j.src=o;j.dataset.sumoSiteId='6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000';
 v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 </script>
@@ -70,7 +70,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	}
 	window.intercomSettings = {
 		app_id: intercom_id,
-		custom_launcher_selector: '.intercom_trigger'
+		custom_launcher_selector: '.intercom_trigger',
+		 hide_default_launcher: false
 	};
 	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',window.intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/'+intercom_id;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
@@ -215,7 +216,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			</p>
 			<p>
 				The contact information for Outgrow’s designated agent for receipt of notices of claimed infringement is -
-				<a href="javascript:void(0);">questions@outgrow.co. </a>
+				<a href="mailto:questions@outgrow.co">questions@outgrow.co. </a>
 			</p>
 			<h4 class="Privacy-subheading">Intellectual Property</h4>
 			<p>
@@ -396,15 +397,15 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 <section class="section sec-cookies hide">
 	<div class="container">
-		<!-- <p>
-			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
-		</p> -->
 		<p>
+			We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
+		</p> 
+		<!-- <p>
 			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
-		</p>
-		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">I Understand</button>
-		<a href="javascript:void(0);" class="" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
-	</div>
+		</p> -->
+		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">Accept & Close</button>
+	</div>	
+	<a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
 </section>
 	<script>
 			const libs = {

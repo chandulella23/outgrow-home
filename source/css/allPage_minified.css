@@ -4233,7 +4233,7 @@ iframe[name=google_conversion_frame]{height:0!important;width:0!important;line-h
 	}
 	.sec-cookies p {width: 65% !important;}
 	.sec-cookies .btn-understand {float: left !important; margin-left: 30px;}
-	.sec-cookies a i.material-icons {right: 20px !important;}
+	.sec-cookies a i.material-icons {right: 10px !important;}
 
 
 }
@@ -20732,11 +20732,11 @@ i.zmdi.zmdi-twitter-box {
 }
 .sec-cookies p {
     float: left;
-	width: 74%;
+	width: 75%;
 	margin-bottom: 0px;
 }
 .sec-cookies .btn-understand {
-    float: right;
+	float: right;
     background: #fff;
     border-radius: 20px;
     color: #fb5f66;
@@ -20749,11 +20749,19 @@ i.zmdi.zmdi-twitter-box {
 	transition: .5s ease-in-out;
 	border: 2px solid transparent;
 }
+.btn-understand:hover {
+    border: 2px solid #fff !important;
+    background: none !important;
+    color: #fff !important;
+}
 .sec-cookies .btn-understand:focus {outline: none;}
-.sec-cookies i.material-icons {
+.sec-cookies a.icon-close {
     position: absolute;
-    right: -70px;
-    top: 10px;
+    right: 5px;
+    top: 5px;
+    float: right;
+}
+.sec-cookies i.material-icons {
 	font-size: 20px;
 	color: #fff;
 	opacity: 0.8;
@@ -20762,9 +20770,12 @@ i.zmdi.zmdi-twitter-box {
 .sec-cookies i.material-icons:hover {
     opacity: 1;
 }
-.btn-understand:hover {
-    border: 2px solid #fff !important;
-    background: none !important;
-	color: #fff !important;
+a.text-red {
+    color: #fb5f66;
 }
-/* .nav-boxshadow .dropdown .dropdown-content {top: 56px;} */
+.sec-cookies p a {color: #fff;}
+.sec-cookies p a:hover {text-decoration: underline;}
+
+.custom-intercom{
+    bottom:90px !important;
+}

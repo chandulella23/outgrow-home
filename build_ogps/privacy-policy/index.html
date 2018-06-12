@@ -49,7 +49,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 <!-- <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script> -->
 
 <script async>
-(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0];
+(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0]);
 j.async=1;j.src=o;j.dataset.sumoSiteId='6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000';
 v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 </script>
@@ -70,7 +70,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	}
 	window.intercomSettings = {
 		app_id: intercom_id,
-		custom_launcher_selector: '.intercom_trigger'
+		custom_launcher_selector: '.intercom_trigger',
+		 hide_default_launcher: false
 	};
 	(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',window.intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/'+intercom_id;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 
@@ -323,6 +324,9 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			<p>
 				Outgrow discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors and affiliated organizations that (i) need to know that information in order to process it on Outgrow’s behalf or to provide services available at Outgrow’s websites, and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and affiliated organizations may be located outside of your home country; by using Outgrow’s websites, you consent to the transfer of such information to them. Outgrow will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to its employees, contractors and affiliated organizations, as described above. Outgrow discloses potentially personally-identifying and personally-identifying information only in response to a subpoena, court order or other governmental request, or when Outgrow believes in good faith that disclosure is reasonably necessary to protect the property or rights of Outgrow, third parties or the public at large. If you are a registered user of a Outgrow website and have supplied your email address, Outgrow may occasionally send you an email to tell you about new features, solicit your feedback, or just keep you up to date with what’s going on with Outgrow and our products. We primarily use our various blogs to communicate this type of information, so we expect to keep this type of email to a minimum. If you send us a request (for example via a support email or via one of our feedback mechanisms), we reserve the right to publish it in order to help us clarify or respond to your request or to help us support other users. Outgrow takes all measures reasonably necessary to protect against the unauthorized access, use, alteration or destruction of potentially personally-identifying and personally-identifying information.
 			<p>
+			<p>More details about our global privacy policy can be found <a href="/global-data-privacy-policy" class="text-red">here </a></p>
+			<p>More information about our cookie policy can be found <a href="/cookies-privacy-policy" class="text-red">here </a></p>
+			
 		</div>
 	</section>
 
@@ -427,15 +431,15 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 <section class="section sec-cookies hide">
 	<div class="container">
-		<!-- <p>
-			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies. If you continue to use this site, you consent to our use of cookies.
-		</p> -->
 		<p>
+			We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
+		</p> 
+		<!-- <p>
 			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
-		</p>
-		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">I Understand</button>
-		<a href="javascript:void(0);" class="" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
-	</div>
+		</p> -->
+		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">Accept & Close</button>
+	</div>	
+	<a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
 </section>
 	<script>
 			const libs = {

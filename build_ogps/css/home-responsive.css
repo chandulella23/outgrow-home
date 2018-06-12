@@ -773,7 +773,6 @@
     .sec-example .sec-outgrowMagic {margin-top: 0; padding-top: 0;}
 
 }
-
 @media (min-width:0px) and (max-width:1024px) {
     .Privacy .Privacy-subheading {
         font-size: 18px !important;
@@ -782,6 +781,10 @@
     .Privacy .Privacy-heading, .err .section-1 {
         display: block;
         font-size: 30px;
+    }
+    .Privacy .Privacy-heading.gdpp-heading {
+        line-height: 34px !important;
+        margin-top: 40px !important;
     }
 }
 
@@ -2113,7 +2116,7 @@
     .billing-white-top h3.plan-price {
         font-size: 24px
     }
-    #pricing .enterprise-box-new h2.title {font-size: 20px;}
+    #pricing .enterprise-box-new h2.title {font-size: 18px;     padding: 0 !important;}
     .billing-grey-top h3.plan-price span sup, .billing-white-top h3.plan-price span sup {
 		font-size: 14px;
 	}
@@ -3026,7 +3029,7 @@
     }
     .title {
         height: auto!important;
-        padding: 30px 0!important
+        /* padding: 30px 0!important */
     }
     .title_outer.with_image .title,
     .title_outer.with_image .title .title_subtitle_holder {
@@ -5603,6 +5606,6 @@
 		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
-	} 
-	
+    } 
+    	
 }

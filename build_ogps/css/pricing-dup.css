@@ -64,7 +64,20 @@
 @font-face {
 	font-family: montserrat-bold;
 	src: url(../fonts/montserrat-bold-webfont.eot);
-	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/montserrat-bold-webfont.woff2) format('woff2'), url(../fonts/montserrat-bold-webfont.woff) format('woff'), url(../fonts/montserrat-bold-webfont.ttf) format('truetype');
+	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format('embedded-opentype'), 
+	url(../fonts/montserrat-bold-webfont.woff2) format('woff2'), 
+	url(../fonts/montserrat-bold-webfont.woff) format('woff'), 
+	url(../fonts/montserrat-bold-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal
+}
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../fonts/roboto-regular-webfont.eot);
+	src: url(../fonts/roboto-regular.eot?#iefix) format('embedded-opentype'), 
+	url(../fonts/roboto-regular-webfont.woff2) format('woff2'), 
+	url(../fonts/roboto-regular-webfont.woff) format('woff'), 
+	url(../fonts/Roboto-Regular.ttf) format('truetype');
 	font-weight: 400;
 	font-style: normal
 }
@@ -811,7 +824,7 @@ label {
 			background: #fff;
 			float: none;
 			/* width: 22%; */
-			max-width: 290px;
+			max-width: 340px;
 			margin: 0px auto 30px;
 		}
 		.billing-plan-list ul {
@@ -960,10 +973,10 @@ label {
 		}
 
 		th,td {
-			font-family: montserratregular;
+			font-family: Roboto-Regular;
 			font-size: 12px;
 			/* line-height: 1.45; */
-			color: #797f83;
+			color: #666;
 			vertical-align: top;
 			/*padding: 10px;*/
 		}
@@ -1013,7 +1026,7 @@ label {
 			font-weight: 400;
 			color: #2b93be;
 			font-size: 30px;
-			font-family: montserratlight;
+			font-family: Roboto-Regular;
 			padding-bottom: 15px;
 			background: #fff;
 		}
@@ -1046,11 +1059,12 @@ label {
 		}*/
 
 		thead th h2 {
-			font-size: 15px;
-			color: #62696d;
-			font-family: montserratlight;
-			text-transform: uppercase;
-			margin-top: 35px;
+			font-size: 18px;
+			color: #666;
+			font-family: montserratregular;
+			text-transform: none;
+			margin-top: 20px;
+			min-height: 30px;
 		}
 		
 		thead th sub {
@@ -1061,21 +1075,22 @@ label {
 		}
 
 		thead th p.price {
-			font-size: 36px !important;
-			color: #009ad8;
-			font-family: montserratsemibold !important;
+			font-size: 32px !important;
+			color: #3a85b4;
+			font-family: montserratlight;
 			line-height: normal;
 			text-align: center;
 		}
 		thead th p.price sup {
-			font-size: 20px;
+			font-size: 32px;
 			font-family: montserratlight;
+			top: 0px;
 		}
 
 		thead th p.strike-price {
 			color: #abb7bc;
 			font-size: 12px;
-			font-family: montserratlight;
+			font-family: montserratbold;
 			text-decoration: line-through;
 			margin: 0px;
 			line-height: normal;
@@ -1083,7 +1098,7 @@ label {
 		}
 
 		thead th p.strike-price sub {
-			font-family: montserratlight;
+			font-family: montserratbold;
 			font-size: 75%;
 		}
 
@@ -1101,10 +1116,10 @@ label {
 			display: block;
 			background: #fb6c73;
 			border-radius: 4px;
-			padding: 9px 10px;
-			font-size: 13px;
-			-webkit-transition: .3s ease-in-out;
-    		transition: .3s ease-in-out;
+			padding: 11px 20px;
+			font-size: 10px;
+			transition: .3s ease-in-out;
+			font-family: montserratbold;
 		}
 
 		tbody th {
@@ -1127,7 +1142,7 @@ label {
 		tbody td {
 			background: #fff;
 			text-align: left;
-			font-family: montserratlight;
+			font-family: Roboto-Regular;
 			padding: 15px;			
     		line-height: 1;
 			z-index: 2;
@@ -1196,7 +1211,7 @@ label {
 			color: #2b93be;
 			font-size: 11px;
 			padding: 10px 0px 0px 10px;
-			font-family: montserratlight;
+			font-family: Roboto-Regular;
 			float: left;
 			width: 100%;
 		}
@@ -1342,11 +1357,12 @@ span.label-popularPlan {
     color: #fff;
     background-color: #8c8283;
     text-transform: uppercase;
-    top: -8px;
+    top: -20px;
 	left: 0px;
 	z-index: 1;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px -6px 10px;
-    border-top: 1px solid rgb(190, 212, 223);
+	border-top: 1px solid rgb(190, 212, 223);
+	font-family: Roboto-Regular;
 }
 .quater{
     background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
@@ -1424,7 +1440,7 @@ tbody tr:last-child td.active-bg {
     font-size: 30px !important;
 }
 a.link-contact.intercom_trigger {
-    font-size: 11px;
+    font-size: 10px;
     color: #fb5f66;
     text-decoration: underline;
     text-transform: uppercase;
@@ -1432,6 +1448,7 @@ a.link-contact.intercom_trigger {
     padding: 0;
 	padding-top: 7px;
 	display: block;
+	    font-family: montserratlight;
 }
 a.link-contact.intercom_trigger:hover {
     color: #ea101d;
@@ -1704,7 +1721,7 @@ a.link-contact.intercom_trigger:hover {
 	margin-bottom: 0px;
 }
 .sec-cookies .btn-understand {
-    float: right;
+	float: right;
     background: #fff;
     border-radius: 20px;
     color: #fb5f66;
@@ -1713,14 +1730,23 @@ a.link-contact.intercom_trigger:hover {
     font-family: montserratlight;
     box-shadow: 0 5px 15px rgba(251, 95, 102, 0.8);
     z-index: 9;
-	padding: 10px 35px;
-	transition: .5s ease-in-out;
+    padding: 10px 35px;
+    transition: .5s ease-in-out;
+    border: 2px solid transparent;
+}
+.btn-understand:hover {
+    border: 2px solid #fff !important;
+    background: none !important;
+    color: #fff !important;
 }
 .sec-cookies .btn-understand:focus {outline: none;}
-.sec-cookies i.material-icons {
+.sec-cookies a.icon-close {
     position: absolute;
-    right: -70px;
-    top: 10px;
+    right: 5px;
+    top: 5px;
+    float: right;
+}
+.sec-cookies i.material-icons {
 	font-size: 20px;
 	color: #fff;
 	opacity: 0.8;
@@ -1729,3 +1755,350 @@ a.link-contact.intercom_trigger:hover {
 .sec-cookies i.material-icons:hover {
     opacity: 1;
 }
+
+a.text-red {
+    color: #fb5f66;
+}
+.sec-cookies p a {color: #fff;}
+.sec-cookies p a:hover {text-decoration: underline;}
+
+
+/* pricing col four css */
+	.pricing-outer.pricing-col-four {
+		width: 990px;
+	}
+	.pricing-outer.pricing-col-four thead th, 
+	.pricing-outer.pricing-col-four tbody td, 
+	.pricing-outer.pricing-col-four tbody th {
+		width: 20%;
+		border-left: 1px solid #eff0f1; 
+		border-right: 1px solid #eff0f1;
+	}
+	.pricing-outer.pricing-col-four thead th:first-child {
+		border: none;
+	}
+	.pricing-outer.pricing-col-four thead th {
+		border-top: 1px solid #eff0f1;
+	}
+	.pricing-outer.pricing-col-four thead th.active {
+		border-left: 1px solid #bed4df !important;
+		border-right: 1px solid #bed4df !important;
+	}
+	.pricing-outer.pricing-col-four thead th.active:before {
+		width: 199px;
+	}
+	.pricing-outer.pricing-col-four thead span {
+		width: 60%;
+	}
+	.pricing-outer.pricing-col-four thead th:nth-child(1) span {
+		width: auto !important;
+	}
+	.pricing-outer.pricing-col-four span.label-popularPlan {
+		width: 100% !important;
+	}
+	
+	.pricing-outer.pricing-col-four thead th:nth-child(2), 
+	.pricing-outer.pricing-col-four tbody td:nth-child(2) {
+		border-right: 1px solid #bed4df;
+	}
+	.pricing-outer.pricing-col-four thead th:nth-child(3), 
+	.pricing-outer.pricing-col-four tbody td:nth-child(3) {
+		border-right: 1px solid #bed4df;
+	}
+	.pricing-outer.pricing-col-four tbody th i.material-icons {
+		color: #2b93be;
+		vertical-align: middle;
+		font-size: 14px;
+	}
+	.pricing-outer.pricing-col-four tbody td {
+		padding: 15px 10px;
+	}
+
+/* end: pricing col four css */
+
+
+.pricing-outer tbody th {
+    font-size: 13px !important;
+    color: #797f83 !important;
+}
+.four-plan-case#plan-cycle {
+     margin-left: 0; 
+}
+label.quiz-only {
+    background: #3a85b4;
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    display: block;
+    margin: 0 33%;
+    position: absolute;
+    top: 40px;
+}
+span.expand-sub-all {
+    display: none !important;
+}
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    label.quiz-only {
+      position: relative;
+      top: -10px;
+      display: -webkit-inline-box;
+  }
+}
+span.expand-all {display: none !important;}
+
+/* billing plan list css */
+	.four-plan-case .billing-plan-list {
+		border: 1px solid #ccc;
+		border-radius: 25px;
+		background: #fff;
+		float: none;
+		/* width: 60%; */
+		max-width: 500px;
+		margin: 15px auto 30px;
+	}
+	.four-plan-case .billing-plan-list ul {
+		padding: 0;
+		margin: 0
+	}
+	.four-plan-case .billing-plan-list ul > li {
+		display: table-cell;
+		width: 1%
+	}
+	.four-plan-case .billing-plan-list ul > li.active a {
+		background: #f6f8f9 !important;
+		color: #fff
+	}
+	.four-plan-case .billing-plan-list ul > li > a {
+		color: #62696d !important;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		border-right: 1px solid #ccc !important;
+		border-radius: 0;
+		background: 0 0;
+		padding: 8px;
+		line-height: 17px;
+		text-align: center;
+		display: block
+	}
+	.four-plan-case .billing-plan-list ul > li > a.hvr-sweep-to-right::before {
+		background: #f6f8f9
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(1) > a {
+		color: #8e989f;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		border-right: 1px solid #d7dbdd !important;
+		-webkit-border-top-left-radius: 25px;
+		-webkit-border-bottom-left-radius: 25px;
+		-moz-border-radius-topleft: 25px;
+		-moz-border-radius-bottomleft: 25px;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		overflow: hidden;
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(1) > a.hvr-sweep-to-right::before {
+		background: #f6f8f9;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(2) > a {
+		color: #8e989f;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+		-moz-border-radius-topright: 0;
+		-moz-border-radius-bottomright: 0;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-radius: 0px 17px 17px 0px;
+		overflow: hidden;
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(2) > a.hvr-sweep-to-right::before {
+		background: #f6f8f9;
+		border-radius: 0px 17px 17px 0px;
+	}
+
+	.four-plan-case .billing-plan-list ul > li:nth-child(3) > a {
+		color: #8e989f;
+		font-size: 11px;
+		text-transform: uppercase;
+		border: none !important;
+		border-left: 1px solid #d7dbdd !important;
+		-webkit-border-top-right-radius: 25px;
+		-webkit-border-bottom-right-radius: 25px;
+		-moz-border-radius-topright: 25px;
+		-moz-border-radius-bottomright: 25px;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px
+	}
+	.four-plan-case .billing-plan-list ul > li:nth-child(3) > a.hvr-sweep-to-right::before {
+		background: #f6f8f9;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px
+	}
+	#pricing .four-plan-case .billing-plan-list ul > li > a {
+		padding: 8px 0;
+	}
+	.four-plan-case .billing-plan-list ul > li a i.material-icons {
+		font-size: 18px;
+		color: #62696d;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: none;
+	}
+	.four-plan-case .billing-plan-list ul > li.active a i.material-icons {
+		font-size: 18px;
+		color: #0ead48;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: inline-block;
+	}
+	.four-plan-case label.save-per {
+		background: #009ad8;
+		padding: 0px 7px;
+		border-radius: 15px;
+		font-size: 10px;
+		color: #fff;
+		margin-left: 3px;
+	}
+	.four-plan-case label {
+		margin-bottom: 0 !important;
+		font-weight: 400 !important;
+	}
+	.billing-plan-list ul > li.active a i.material-icons {
+		font-size: 18px;
+		color: #0ead48;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: inline-block;
+	}
+	.four-plan-case .billing-plan-list ul > li a i.material-icons {
+		font-size: 18px;
+		color: #62696d;
+		vertical-align: middle;
+		padding-right: 3px;
+		display: none;
+	}
+	@media screen and (min-width: 320px) and (max-width: 500px) { 
+		.four-plan-case .billing-plan-list ul > li > a {
+			display: inline-block;
+		}
+		.four-plan-case .billing-plan-list ul > li >{
+			cursor: pointer;
+		}
+		.four-plan-case .billing-plan-list ul > li:nth-child(2).active {
+			background: #f6f8f9;
+			overflow: hidden;
+			border-top-right-radius: 25px;
+			border-bottom-right-radius: 25px;
+		}
+		.four-plan-case .billing-plan-list ul > li.active a i.material-icons {
+			font-size: 14px;
+		}
+		.four-plan-case .billing-plan-list ul > li:nth-child(2) > a.hvr-sweep-to-right::before {
+			background: transparent;
+		}
+		.four-plan-case label.save-per {
+			padding: 0px 10px;
+		}
+		#pricing .four-plan-case .billing-plan-list {
+			width: 100%;
+			max-width: 300px !important;
+		}
+
+	}
+	@media screen and (min-width: 411px) and (max-width: 414px) {     
+		/* .four-plan-case .billing-plan-list ul > li > a {
+			display: block;
+		} */
+		.four-plan-case label.save-per {
+			padding: 0px 7px;
+		}
+	}
+
+/* end: billing plan list css */
+
+
+
+/*  create exp block */
+	.create-exp .container {
+		max-width: 990px;
+		background: #fff;
+		box-shadow: 0px 6px 24px rgba(0,0,0,.05);
+		margin-top: 30px;
+		padding: 17px 30px;
+		border: 1px solid #eff0f1;
+	}
+	.create-exp .container h5 {
+		font-size: 18px;
+		color: #fb5f66;
+		font-family: montserratregular;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	.create-exp .container span {
+		font-size: 13px;
+		color: #61696c;
+		font-family: montserratlight;
+		opacity: 0.8;
+	}
+	.create-exp .container .btn-white-red-outline {
+		background: #fb5f66;
+		font-size: 13px;
+		color: #fff;
+		font-family: montserratlight;
+		padding: 8px 20px;
+		outline: none;
+		box-shadow: none;
+		float: right;
+		text-transform: uppercase;
+		margin-top: 4px;
+	}
+	.create-exp .container span.create-exp-price {
+		font-size: 40px;
+		color: #fb5f66;
+		font-family: montserratsemibold;
+		opacity: 1;
+	}
+	.create-exp-center {
+		font-size: 11px;
+		color: #61696c;
+		text-transform: uppercase;
+		position: relative;
+		top: 5px;
+		line-height: 34px;
+	}
+	.create-exp span.create-exp-start {
+		font-size: 11px;
+		color: #61696c;
+		font-family: montserratlight;
+		position: relative;
+		top: -10px;
+		margin-right: 5px;
+		opacity: 1;
+	}
+	.create-exp .container .text-opacity {
+		opacity: 0.5;
+	}
+	.create-exp button.closeDiv {
+		float: right;
+		position: absolute;
+		right: 7px;
+		top: 7px;
+		background: none;
+		border: none;
+	}
+	.create-exp .container i.material-icons {
+		font-size: 16px;
+		color: #bfc6ca;
+	}
+
+	
+/* end: create exp block css  */

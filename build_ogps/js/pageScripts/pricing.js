@@ -14,15 +14,18 @@ window.showPlan = function (a){
 	}
 }
 window.showCycle = function (cycle) {
-	console.log('showCycleshowCycle', cycle);
 	if(cycle == 'annual') {
 		jQuery('.monthly-price').css('display', 'none');
 		jQuery('.annual-price').css('display', 'block');
 		jQuery('.s-annual-price').css('display', 'none');
+		jQuery('.yearlyLeads').removeClass('hide');
+		jQuery('.monthlyLeads').addClass('hide');
 	} else {
 		jQuery('.monthly-price').css('display', 'block');
 		jQuery('.annual-price').css('display', 'none');
 		jQuery('.s-annual-price').css('display', 'none');
+		jQuery('.yearlyLeads').addClass('hide');
+		jQuery('.monthlyLeads').removeClass('hide');
 	}
 }
 window.showIntercom = function () {
