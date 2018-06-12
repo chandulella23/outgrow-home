@@ -125,12 +125,12 @@
 			<div class="col-xs-6 col-sm-2 footer-link">
 				<h4>Discover</h4>
 				<ul>
-					<li><a href="http://outgrow.co.in/calculator/?utm_source=footer" class="">Calculator</a></li>
-					<li><a href="http://outgrow.co.in/quiz/?utm_source=footer" class="">Quizzes </a></li>
-					<li><a href="http://outgrow.co.in/survey/?utm_source=footer" class="">Survey</a></li>
-					<li><a href="http://outgrow.co.in/increase-conversions/?utm_source=footer" class="">Increase Conversions</a></li>
-					<li><a href="http://outgrow.co.in/increase-roi/?utm_source=footer" class="">Increase ROI</a></li>
-					<li><a href="http://outgrow.co.in/increase-sales/?utm_source=footer" class="">Increase Sales</a></li>
+					<li><a href="{{ $page->baseUrl }}/calculator/?utm_source=footer" class="">Calculator</a></li>
+					<li><a href="{{ $page->baseUrl }}/quiz/?utm_source=footer" class="">Quizzes </a></li>
+					<li><a href="{{ $page->baseUrl }}/survey/?utm_source=footer" class="">Survey</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-conversions/?utm_source=footer" class="">Increase Conversions</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-roi/?utm_source=footer" class="">Increase ROI</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-sales/?utm_source=footer" class="">Increase Sales</a></li>
 				</ul>
 			</div>
 			<!-- <div class="col-xs-12 col-sm-5 footer-link">
