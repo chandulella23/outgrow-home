@@ -136,7 +136,28 @@ button.navbar-toggle.collapsed {
 .dropdown.open .drop-sub-menu .dropdown-sub-content {
     display: block;
 }
-
+li.dropdown:hover .hvr-underline-from-left:before {
+    right: 5px;
+    left: 5px;
+    /* top: 58px; */
+    background: #fb5f66;
+    height: 2px;
+}
+li.dropdown:hover a.params.hvr-underline-from-left {
+    color: #fb5f66;
+}
+.dropdown-content .drop-sub-menu:hover a.params {
+    color: #fb5f66;
+}
+.dropdown-content .drop-sub-menu:hover .dropdown-sub-content a {
+    color: #62686c;
+}
+.dropdown-content .drop-sub-menu:hover .dropdown-sub-content a:hover {
+    color: #fb5f66;
+}
+li.dropdown.open:hover a.dropdown-toggle {
+    color: #fb5f66;
+}
 
 @media (min-width: 320px) and (max-width: 1023px) {
     .dropdown .dropdown-content {
