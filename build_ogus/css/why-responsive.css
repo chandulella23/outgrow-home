@@ -878,3 +878,5 @@
 
 
 }
+.sec-cookies p a {color: #fff;}
+.sec-cookies p a:hover {text-decoration: underline;}
