@@ -6961,3 +6961,8 @@ a.text-red {
 }
 .sec-cookies p a {color: #fff;}
 .sec-cookies p a:hover {text-decoration: underline;}
+.Privacy .li-style sup, .Privacy p sup {
+    font-size: 8px;
+    top: -.99em;
+    padding-left: 1px;
+}
