@@ -91,8 +91,7 @@
 				<a href="https://www.privacyshield.gov" class="text-red">https://www.privacyshield.gov </a> and <a href="https://www.privacyshield.gov/list" class="text-red">https://www.privacyshield.gov/list</a>, respectively.
 			</p>
 			<p>
-				In compliance with the Privacy Shield Principles, Outgrow commits to resolve complaints about our collection or use of your personal information. EU individuals with inquiries or complaints regarding our Privacy Shield policy should first contact Outgrow at:
-				<br/><br/><a href="mailto:questions@outgrow.co" class="text-red">questions@outgrow.co </a>
+				In compliance with the Privacy Shield Principles, Outgrow commits to resolve complaints about our collection or use of your personal information. EU individuals with inquiries or complaints regarding our Privacy Shield policy should first contact Outgrow at: <a href="mailto:questions@outgrow.co" class="text-red">questions@outgrow.co </a>
 			</p>
 			<p>
 				Outgrow has further committed to refer unresolved Privacy Shield complaints to JAMS, an
