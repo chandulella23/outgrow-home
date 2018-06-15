@@ -312,18 +312,18 @@
 						</div>
 					</div>
 				</section>
-				<!-- <section class="section section-companyReviews section-companyReviews-GPYP">
+				<section class="section section-companyReviews section-companyReviews-GPYP">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<span class="quote-left"></span>
+								<span class="quote-left1">“</span>
 									Outgrow was the perfect solution for what I was looking for
-								<span class="quote-right"></span>
+								<span class="quote-right1">“</span>
 							</blockquote>
 							<span>Jasper Ribbers <br/>Founder at Get Paid for Your Pad </span>
 						</div>
 					</div>
-				</section> -->
+				</section>
 				<section class="section section-results section-results-GPYP">
 					<div class="container">
 						<div class="section-2-heading">Results </div>
@@ -357,19 +357,17 @@
 						</div>
 					</div>
 				</section> -->
-				<section class="section section-companyReviews section-companyReviews-GPYP section-white">
+				<!-- <section class="section section-companyReviews section-companyReviews-GPYP section-white">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<blockquote>
-								<!-- <span class="quote-left"></span> -->
-									<span class="quote-left1">“</span>Outgrow was the perfect solution for what I was looking for <span class="quote-right1">“</span>
-								<!-- <span class="quote-right"></span> -->
+								<span class="quote-left1">“</span>Outgrow was the perfect solution for what I was looking for <span class="quote-right1">“</span>
 							</blockquote>
 							<span>Jasper Ribbers <br/>Founder at Get Paid for Your Pad </span>
 						</div>
 					</div>
-				</section>
-				<section class="section section-button">
+				</section> -->
+				<section class="section section-button section-button-gpyp">
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<span>Free Trial. No credit card required!</span>

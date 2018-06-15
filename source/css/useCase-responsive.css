@@ -65,15 +65,32 @@
 		.bg1-img{padding: 70px 10px 90px;}
 		.section-recentNews {padding: 40px 0;}
 		.recentNews-inner {
-			min-height: auto;
+			/* min-height: auto; */
 		}
 		.recentNews-outer.calendar-wrapper .recentNews-inner {
 			height: 300px;
+			min-height: 300px;
 		}
 
 	/* end: example page responsive css by Arti */
+	.recentNews-outer h4 {
+		font-size: 16px;
+	}
 
 
+}
+
+@media(min-width:320px) and (max-width:374px) {
+	.img-section {
+		width: 68px;
+		height: 68px;
+	}
+	.recentNews-text {
+		width: calc(100% - 68px);
+	}
+	.btn-preview, .btn-useTemp {
+		padding: 4px 8px;
+	}
 }
 @media (min-width: 320px) and (max-width:767px) {
 	.premade-template {
@@ -153,6 +170,22 @@
 	/* end: example page responsive css by Arti */
 
 }
+@media (min-width: 991px) and (max-width:1200px) {
+	.section-recentNews .container {
+		width: 970px;
+	}
+	.recentNews-outer {
+		max-width: 300px !important;
+		width: 100%;
+	}
+	.img-section {
+		width: 68px;
+		height: 68px;
+	}
+	.recentNews-text {
+		width: calc(100% - 68px);
+	}
+}
 @media (min-width: 1024px) and (max-width:1250px) {
 	.collage-outer{
 		margin-left:-10px;
@@ -214,21 +247,21 @@
 		margin-top:0px;
 	}	
     .recentNews-outer {
-        max-width: 300px;
+        max-width: 100%;
         width: 100%;
-        margin-bottom: 30px;
     }
     .img-section {
-        width: 70px;
+        width: 68px;
+    	height: 68px;
     }
     .img-section img {
         width: 100%;
     }
     .recentNews-text {
-        width: calc(100% - 70px);
+        width: calc(100% - 68px);
     }
     .recentNews-inner {
-        min-height: 531px;
+        /* min-height: 531px; */
     }
 }
 @media (max-width: 1250px) and (min-width: 1024px){
