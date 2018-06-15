@@ -1099,7 +1099,7 @@
         /* margin-top: 0px; */
     }
     .custom-navbar.navbar-default .navbar-nav>li>a {
-        font-size: 12px;
+        font-size: 11px !important;
         color: #62696d;
         text-transform: uppercase;
         padding: 7px;
@@ -5551,6 +5551,9 @@
         }
         .hvr-underline-from-center:before, .hvr-underline-from-left:before {
             top: 45px !important;
+        }
+        .custom-navbar.navbar-default .navbar-nav>li>a:hover.hvr-underline-from-left:before {
+            display: none;
         }
 
     }
