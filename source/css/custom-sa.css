@@ -7583,9 +7583,9 @@ span.icon-webcam {
 }
 
 @media (min-width:1024px) and (max-width:1280px) {
-	.dropdown .dropdown-content {
+	/* .dropdown .dropdown-content {
 		left: -80px !important;
-	}
+	} */
 	.case-study-tabs-container {
 		width: 890px !important;
 	}
@@ -7600,9 +7600,9 @@ span.icon-webcam {
 }
 
 @media (min-width:1280px) and (max-width:1280px) {
-	.dropdown .dropdown-content {
+	/* .dropdown .dropdown-content {
 		left: -70px !important;
-	}
+	} */
 }
 
 @media (min-width:1024px) and (max-width:1250px) {
@@ -9195,7 +9195,7 @@ blockquote span.quote-right1 {
 }
 
 .section-results.section-results-GPYP {
-	padding-top: 0px;
+	/* padding-top: 0px; */
 }
 
 .section-companyReviews.section-white blockquote+span {
@@ -9204,6 +9204,9 @@ blockquote span.quote-right1 {
 
 .section-case-study-main .tab-content>.active.fade {
 	opacity: 1;
+}
+.section-button-gpyp {
+    padding-top: 60px;
 }
 
 /* end: css of case study */
@@ -9608,7 +9611,7 @@ span.feature-subtitle {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	min-width: 185px;
+	min-width: 203px;
 	box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.10);
 	z-index: 1;
 	left: 10px;
@@ -9622,7 +9625,7 @@ span.feature-subtitle {
 .dropdown-content a {
 	color: #62686c;
 	padding: 0px 5px;
-	margin: 0px 13px;
+	margin: 0px 15px;
 	text-decoration: none;
 	display: block;
 	font-size: 14px;
@@ -9659,7 +9662,7 @@ span.feature-subtitle {
 .dropdown .dropdown-sub-content {
 	display: none;
 	position: absolute;
-	right: -172px;
+	right: -179px;
 	top: 50px;
 	background: #fff;
 	background-color: #fff;
@@ -10123,7 +10126,7 @@ span.feature-subtitle {
 }
 
 .recentNews-text h5 {
-	font-size: 15px;
+	font-size: 14px;
 	color: #62696d;
 	font-family: montserratregular;
 	margin-top: 0px;
@@ -10146,7 +10149,7 @@ span.feature-subtitle {
 .recentNews-text p {
 	float: left;
 	width: 100%;
-	font-size: 14px;
+	font-size: 13px;
 	color: #62696d;
 	font-family: montserratlight;
 	line-height: 18px;

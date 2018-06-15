@@ -494,14 +494,14 @@
 	
 }
 @media (min-width:1024px) and (max-width:1280px){
-	.dropdown .dropdown-content {
+	/* .dropdown .dropdown-content {
 		left: -80px !important;
-	}
+	} */
 }
 @media (min-width:1280px) and (max-width:1280px){
-	.dropdown .dropdown-content {
+	/* .dropdown .dropdown-content {
 		left: -70px !important;
-	}
+	} */
 }
 @media (max-width: 1800px) and (min-width: 1480px){
 	#pricing .section-1 {
