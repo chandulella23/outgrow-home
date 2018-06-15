@@ -42,7 +42,7 @@ window.setUTMRefCookie = function() {
     var b = "//app." + a,
         c = b + "/login",
         d = b + "/signup",
-        e = "Sign Up";
+        e = "Start Free Trial";
     jQuery(".login > .link-login").prop("href", c);
     var f = readCookie("storage");
     return f && (f = JSON.parse(f), d = "//" + f.companyList[1] + "." + a + "/dashboard", e = "Dashboard", jQuery(".login").hide()), jQuery(".signUp > .link-login").prop("href", d).html(e).on("click", function(a) {
