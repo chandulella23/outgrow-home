@@ -1099,7 +1099,7 @@
         /* margin-top: 0px; */
     }
     .custom-navbar.navbar-default .navbar-nav>li>a {
-        font-size: 12px;
+        font-size: 11px !important;
         color: #62696d;
         text-transform: uppercase;
         padding: 7px;
@@ -2186,8 +2186,8 @@
     .section-main.sec-example {margin-top: 40px;}
     .Privacy .section-services { margin-top: 80px;}
 
-    .calc-table {margin-top: 125px;}
-    .section-studio {margin-top: 125px;}
+    .calc-table {margin-top: 105px;}
+    .section-studio {margin-top: 105px;}
     .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 79px;}
     .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 79px;}
     .hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 79px;}
@@ -5551,6 +5551,9 @@
         }
         .hvr-underline-from-center:before, .hvr-underline-from-left:before {
             top: 45px !important;
+        }
+        .custom-navbar.navbar-default .navbar-nav>li>a:hover.hvr-underline-from-left:before {
+            display: none;
         }
 
     }
