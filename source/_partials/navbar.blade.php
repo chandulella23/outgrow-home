@@ -46,10 +46,10 @@
 					<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 				</li>
 				<li class="signUp signUp-style res-nav-hide">
-					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
 				</li>
 				<li class="signUp res-nav-show">
-					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
 				</li>
 			</ul>
 		</div> 
@@ -116,7 +116,7 @@
 				<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 			</li>
 			<li class="signUp signUp-style res-nav-hide">
-				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Sign up</a>
+				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
 	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right" id="navlist">
 			<li><a href="{{ $page->baseUrl }}/why-interactive" onclick="callGA('WHY')" class="params hvr-underline-from-left" id="nav-why-interactive">Why Interactive Content ?</a></li>
