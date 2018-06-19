@@ -291,17 +291,16 @@ label {
 	color: #fb5f66 !important;
 	opacity: .5
 }
-
-.custom-navbar .signUp-style a {
-	border-radius: 20px;
-	background: #fb5f66 !important;
-	color: #fff !important;
-	padding: 5px 10px !important;
-	line-height: 1 !important;
-	font-size: 13px !important;
-	border: 2px solid #f8434b !important;
-	margin-top: 13px;
-	margin-right: 15px;
+.custom-navbar .signUp-style a{
+    border-radius: 20px;
+    background: #fb5f66 !important;
+    color: #fff!important;
+    padding: 5px 10px !important;
+    line-height: 1 !important;
+    font-size: 12px!important;
+    border: 2px solid #f8434b !important;
+    margin-top: 15px;
+    margin-right: 15px;
 	margin-left: 6px;
 	font-family: montserratregular;
 }
@@ -7322,6 +7321,52 @@ span.icon-webcam {
 }
 
 /********* 9th june 2017 ************/
+.custom-navbar a.link-login {
+    font-size: 14px;
+    font-family: montserratregular;
+}
+@media (max-width:1023px){
+	.navbar-default .navbar-toggle {border: none; }
+	.custom-navbar .signUp-style a {
+		/* background: none; */
+		color: #fff!important;
+		border: none !important;
+		display: inline-block;
+		margin-top: 8px;
+	}
+	.custom-navbar .signUp-style a:hover{
+		background: none !important;
+		border: none !important;
+		color: #fb5f66 !important;opacity: 0.5;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fb5f66 !important;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent !important; }
+	.custom-navbar.navbar-default {padding: 0 !important;}
+	.custom-navbar.navbar-default .container-fluid{padding: 0;}
+	.navbar-right {
+		float: left !important;
+		width: 100%;
+		margin: 7.5px 0px !important;
+	}
+	.custom-navbar.navbar-default .navbar-nav>li>a { padding: 7px 10px;}
+	.navbar-collapse.collapse {
+		float: right;
+	}
+	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
+		top: 45px !important;
+	}
+	.navbar-nav > li > a.active.hvr-underline-from-left:before {
+		top: 45px !important;
+	}
+	.hvr-underline-from-center:before, .hvr-underline-from-left:before {
+		top: 45px !important;
+	}
+	.custom-navbar.navbar-default .navbar-nav>li>a:hover.hvr-underline-from-left:before {
+		display: none;
+	}
+}
 
 #pricing .billing-list .mat-icon,
 #pricing .help-text {
@@ -11123,3 +11168,8 @@ a.text-red {
 }
 .sec-cookies p a {color: #fff;}
 .sec-cookies p a:hover {text-decoration: underline;}
+.Privacy .li-style sup, .Privacy p sup {
+    font-size: 8px;
+    top: -.99em;
+    padding-left: 1px;
+}
