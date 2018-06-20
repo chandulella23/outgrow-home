@@ -471,8 +471,8 @@ label {
 		background: #fafafa;
 		margin: 0;
 		padding-top: 30px;
-		padding-bottom: 10px;
-		min-height: 630px;
+        padding-bottom: 30px;
+		/* min-height: 630px; */
 	}
 	.bg1-img {
 		background: url(../images/strtFreeTrial.jpg) no-repeat;
@@ -2102,3 +2102,25 @@ span.expand-all {display: none !important;}
 
 	
 /* end: create exp block css  */
+
+/*  body footer cookies */
+    body.footer-cookies {
+        padding-bottom: 85px;
+    }
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        body.footer-cookies {
+            padding-bottom: 182px !important;
+        }
+    }
+    @media screen and (min-width: 480px) and (max-width: 640px) {
+        body.footer-cookies {
+            padding-bottom: 148px !important;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 768px) {
+		body.footer-cookies {
+			padding-bottom: 98px;
+		}
+	}
+
+/* end: body footer cookies */

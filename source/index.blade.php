@@ -106,7 +106,7 @@
 				}
 
 				function closeCookieDialog(closeOnReload) {
-                    jQuery('.section.sec-cookies').addClass('hide');
+					jQuery('.section.sec-cookies').addClass('hide');
                     jQuery('.intercom-launcher-discovery-frame').removeClass('custom-intercom');
                     jQuery('.intercom-launcher-frame').removeClass('custom-intercom');
                     jQuery('.intercom-launcher-badge-frame').removeClass('custom-intercom');
