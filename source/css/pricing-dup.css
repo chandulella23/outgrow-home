@@ -2480,9 +2480,9 @@ i.zmdi.zmdi-twitter-box {
     color: #fff !important;
 }
 
-.custom-navbar.navbar-default .navbar-nav>li>a::after {
+/* .custom-navbar.navbar-default .navbar-nav>li>a::after {
     min-height: 100px;
-}
+} */
 
 a.text-red {
     color: #fb5f66;
