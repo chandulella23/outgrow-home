@@ -225,6 +225,9 @@
 				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" /></a>
 			</div>
 		</div>
+	</div>
+</section>
+
 <section class="section sec-cookies hide">
 	<div class="container">
 		<p>
