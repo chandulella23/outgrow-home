@@ -110,6 +110,9 @@ jQuery(document).ready(function () {
     jQuery(".icon-close").click(function(){
         jQuery('body').removeClass('footer-cookies');
     });
+    jQuery(".btn-understand").click(function(){
+        jQuery('body').removeClass('footer-cookies');
+    });
 
     var iframes = iFrameResize({
         log: false,

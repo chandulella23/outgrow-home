@@ -20217,3 +20217,7 @@ a.text-red {
 	}
 
 /* end: body footer cookies */
+
+body.icaq.footer-cookies {
+    padding-bottom: 0;
+}
