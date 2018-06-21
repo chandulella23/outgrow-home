@@ -107,10 +107,10 @@ jQuery(document).ready(function () {
         jQuery(this).addClass('active');
     });
 
-    jQuery(".icon-close").click(function(){
+    jQuery(".icon-close").click(function () {
         jQuery('body').removeClass('footer-cookies');
     });
-    jQuery(".btn-understand").click(function(){
+    jQuery(".btn-understand").click(function () {
         jQuery('body').removeClass('footer-cookies');
     });
 
@@ -129,62 +129,4 @@ jQuery(document).ready(function () {
 
     runTimeout();
     // initTestimonial();
-
-
-    //add custom class to intercom
-    // Wait for Intercom to boot (max 30 seconds)
-
-    const timeout = setTimeout(() => clearInterval(interval), 30000);
-
-    const intercomMessengerInterval = setInterval(() => {
-        const iframe = document.querySelector('.intercom-messenger-frame');
-        const launcherBadge = document.querySelector('.intercom-launcher-badge-frame');
-
-        const cookieSection = document.querySelector('.section.sec-cookies');
-
-        if (!cookieSection.classList.contains('hide')) {
-            if (iframe) {
-                //clearInterval(intercomMessengerInterval);
-                jQuery('.intercom-messenger-frame').css('bottom', '160px');
-            }
-            if (launcherBadge) {
-                jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
-            }
-        }
-
-    }, 1000);
-
-    const interval = setInterval(() => {
-        console.log('testing')
-        const iframe = document.querySelector('.intercom-launcher-discovery-frame');
-
-        if (iframe) {
-            // Append the stylesheet to the iframe head
-            // iframe.className+='custom-intercom';
-            jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
-            jQuery('.intercom-launcher-frame').addClass('custom-intercom');
-            console.log('setting custom intercom css')
-            clearInterval(interval);
-            clearTimeout(timeout);
-        }
-    }, 1000);
-
-    // const interval = setInterval(() => {
-    //     console.log('interval ')
-    //     if (window.Intercom.booted) {
-    //         // Intercom is booted!
-    //         clearInterval(interval);
-    //         clearTimeout(timeout);
-    //         setTimeout(() => {
-    //             let disableCookieDialog = readCookie('disableCookieDialog');
-    //             console.log(disableCookieDialog);
-    //             if (disableCookieDialog==undefined || disableCookieDialog ==='false') {
-    //                 let intercomContainer = document.getElementById("intercom-container");
-    //                 intercomContainer.className += 'custom-intercom';
-    //                 console.log('adding custom class to intercom');
-    //             }
-    //         }, 3000)
-    //     }
-    // }, 2000);
-
 });
