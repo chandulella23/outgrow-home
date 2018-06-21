@@ -6996,3 +6996,7 @@ a.text-red {
 	}
 
 /* end: body footer cookies */
+
+.section-button .btn-red:focus {
+    outline: none;
+}
