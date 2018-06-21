@@ -33,7 +33,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 @endsection
 
-@section('pageClass', '')
+@section('pageClass', 'loaded')
 
 @section('pageId', 'pricing')
 
