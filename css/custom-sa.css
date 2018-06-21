@@ -11173,3 +11173,6 @@ a.text-red {
     top: -.99em;
     padding-left: 1px;
 }
+.section-button .btn-red:focus {
+    outline: none;
+}
