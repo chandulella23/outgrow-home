@@ -377,9 +377,9 @@
 		width: 900px;
 		margin: 0 auto;
 	}
-	.section-14 {
+	/* .section-14 {
 		min-height: 660px !important;
-	}
+	} */
 	
 }
 
@@ -584,7 +584,7 @@
 		display: none;
 	}
 	.sec-cookies {
-		padding: 20px; 
+		padding: 20px !important; 
 		text-align: center;
 		font-size: 12px !important;
 	}
