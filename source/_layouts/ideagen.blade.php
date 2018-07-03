@@ -28,6 +28,7 @@
 
 	@yield('content')
 
+
 	<script>
 		@yield('pageScripts')
 
