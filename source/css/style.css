@@ -670,7 +670,7 @@ span.alert.alert-danger {
 
 
 /***** 6th june 2017 *****/
-.sec1-text h1 {    color: #fb5f66;    float: left;    font-family: 'montserratlight';   font-size: 66px;    font-weight: 100;    text-align: center;    width: 100%;}
+.sec1-text h1 {    color: #fb5f66 !important;    float: left;    font-family: 'montserratlight';   font-size: 66px;    font-weight: 100;    text-align: center;    width: 100%;}
 .sec1-text h1 span{ font-family: 'montserratbold';}
 .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category , .demo-default .selectize-dropdown.single.demo-default.selectize-category {
     border-color: #d9dad3;
