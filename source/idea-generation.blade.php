@@ -195,7 +195,7 @@
         </section>
     </div>
 
-    <section class="section sec-cookies hide">
+    <section class="section sec-cookies">
         <div class="container">
             <p>
                 We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="{{ $page->baseUrl }}/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
@@ -217,6 +217,7 @@
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/mouse.parallax.js"></script>
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/validation.js"></script>
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/build.js"></script>
+    <!-- <script type="text/javascript" src="{{ $page->baseUrl }}/js/site.min.js"></script> -->
 @endsection
 
 
