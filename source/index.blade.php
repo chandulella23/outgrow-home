@@ -224,6 +224,18 @@
 						xDiv.style.height = '';
 				}
 
+				function changeHeightWeb3 () {
+
+					window.location.replace('#video-mob')
+					document.getElementById("video").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main');
+
+					if (xDiv.style.height == '')
+						xDiv.style.height = '574px';
+					else
+						xDiv.style.height = '';
+				}
+
 				function changeHeightWebXL () {
 					console.log('Tab');
 					window.location.replace('#bfrVid')
@@ -479,10 +491,10 @@
 		<section class="section section-4">
 			<div class="container mobile-container">
 				<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
-					<div class="video-img-wrapper video-frame">
+				<div class="video-img-wrapper video-frame">
 						<span class="circle"></span>
 						<div class="overflow-hidden">
-							<div class="video-img-inner video-img-inner-web" id="video" onclick="changeHeightWeb2()">
+							<div class="video-img-inner video-img-inner-web" id="video-mob" onclick="changeHeightWeb3()">
 								<img alt="video thumbnail image" class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 								<span class="img-overlay"></span>
 								<span class="video-playIcon">
