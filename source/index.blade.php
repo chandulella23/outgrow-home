@@ -214,8 +214,8 @@
 
 				function changeHeightWeb2 () {
 
-					window.location.replace('#bfrVid')
-					document.getElementById("video").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+					window.location.replace('#video')
+					document.getElementById("video").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
 					var xDiv = document.getElementById('video-main');
 
 					if (xDiv.style.height == '')
