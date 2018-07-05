@@ -479,7 +479,19 @@
 		<section class="section section-4">
 			<div class="container mobile-container">
 				<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
-					
+					<div class="video-img-wrapper video-frame">
+						<span class="circle"></span>
+						<div class="overflow-hidden">
+							<div class="video-img-inner video-img-inner-web" id="video" onclick="changeHeightWeb2()">
+								<img alt="video thumbnail image" class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
+								<span class="img-overlay"></span>
+								<span class="video-playIcon">
+									<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+								</span>
+								<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
 					<h4 class="mk-animate-element right-to-left capt">
