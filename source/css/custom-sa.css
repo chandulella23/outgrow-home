@@ -7354,7 +7354,7 @@ span.icon-webcam {
 	.navbar-collapse.collapse {
 		float: right;
 	}
-	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
+	/* .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
 		top: 45px !important;
 	}
 	.navbar-nav > li > a.active.hvr-underline-from-left:before {
@@ -7362,7 +7362,7 @@ span.icon-webcam {
 	}
 	.hvr-underline-from-center:before, .hvr-underline-from-left:before {
 		top: 45px !important;
-	}
+	} */
 	.custom-navbar.navbar-default .navbar-nav>li>a:hover.hvr-underline-from-left:before {
 		display: none;
 	}
