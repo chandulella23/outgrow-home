@@ -376,6 +376,30 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						xDiv.style.height = '';
 				}
 
+				function changeHeightWeb2 () {
+
+					window.location.replace('#video')
+					document.getElementById("video").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main');
+
+					// if (xDiv.style.height == '')
+					// 	xDiv.style.height = '574px';
+					// else
+					// 	xDiv.style.height = '';
+				}
+
+				function changeHeightWeb3 () {
+
+					window.location.replace('#video-mob')
+					document.getElementById("video-mob").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main');
+
+					// if (xDiv.style.height == '')
+					// 	xDiv.style.height = '574px';
+					// else
+					// 	xDiv.style.height = '';
+				}
+
 				function changeHeightWebXL () {
 					console.log('Tab');
 					window.location.replace('#bfrVid')
@@ -581,7 +605,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	</section>
 
 	<!-- Homepage section 4 start-->
-	<section class="section section-4">
+	<section class="section section-4 hide">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
 				<div class="video-frame">
@@ -627,48 +651,60 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	</section>
 	<!-- Homepage section 4 end-->
 
-		<!-- Homepage section 4 new start-->
-		<section class="section section-4">
-			<div class="container mobile-container">
-				<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
-					
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
-					<h4 class="mk-animate-element right-to-left capt">
-						Build Beautiful
-					</h4>
-					<span class="mk-animate-element right-to-left">
-						<i class="material-icons">format_paint</i>
-						<span><b>Appealing layouts</b> that set your UX apart</span>
-					</span>
-					<span class="mk-animate-element right-to-left">
-						<i class="material-icons">view_compact</i>
-						<span>Showcase your brand with <b>quick customizations</b> </span>
-					</span>
-					<span class="mk-animate-element right-to-left">
-						<i class="material-icons">developer_board</i>
-						<span>Publish in minutes, with <b>no IT headache</b></span>
-					</span>
-
-				</div>
-				<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
-					<div class="video-img-wrapper video-frame">
-						<span class="circle"></span>
-						<div class="overflow-hidden">
-							<div class="video-img-inner video-img-inner-web" id="">
-								<img alt="video thumbnail image" class="video-img" src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
-								<span class="img-overlay"></span>
-								<span class="video-playIcon">
-									<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
-								</span>
-								<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
-							</div>
+	<!-- Homepage section 4 new start-->
+	<section class="section section-4">
+		<div class="container mobile-container">
+			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
+			<div class="video-img-wrapper video-frame">
+					<span class="circle"></span>
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-web" id="video-mob" onclick="changeHeightWeb3()">
+							<img alt="video thumbnail image" class="video-img" src="/images/video-thumbnail-bb.jpg" data-src="/images/video-thumbnail-bb.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon">
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+							</span>
+							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- Homepage section 4 new end-->
+			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
+				<h4 class="mk-animate-element right-to-left capt">
+					Build Beautiful
+				</h4>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">format_paint</i>
+					<span><b>Appealing layouts</b> that set your UX apart</span>
+				</span>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">view_compact</i>
+					<span>Showcase your brand with <b>quick customizations</b> </span>
+				</span>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">developer_board</i>
+					<span>Publish in minutes, with <b>no IT headache</b></span>
+				</span>
+
+			</div>
+			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
+				<div class="video-img-wrapper video-frame">
+					<span class="circle"></span>
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-web" id="video" onclick="changeHeightWeb2()">
+							<img alt="video thumbnail image" class="video-img" src="/images/video-thumbnail-bb.jpg" data-src="/images/video-thumbnail-bb.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon video-playIcon-bb">
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+							</span>
+							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 4 new end-->
 
 	<!-- Homepage section 5 start-->
 	<section class="section section-5">
@@ -1871,14 +1907,11 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	</div>
 </section>
 
-<section class="section sec-cookies">
+<section class="section sec-cookies hide">
 	<div class="container">
 		<p>
 			We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
 		</p> 
-		<!-- <p>
-			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
-		</p> -->
 		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">Accept & Close</button>
 	</div>	
 	<a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
