@@ -73,7 +73,7 @@
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">
 							<span class="lead-form-btn">
 								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
-									Start Free Trial
+									Get Started for free
 								</a>
 
 								
