@@ -123,7 +123,7 @@
 				}
 			</script>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
+			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-mob" data-toggle="modal" data-target="#video-modal">
@@ -132,13 +132,12 @@
 							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
-							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs">
+			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-res" onclick="changeHeightRes()">
@@ -147,13 +146,12 @@
 							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
-							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height video-img-shadow" id="video-main">
+			<div class="col-md-12 col-sm-12 col-xs-12 np text-center hide-height video-img-shadow" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1" onclick="changeHeightWeb1()">
@@ -168,7 +166,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main-xl">
+			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main-xl">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1-xl" onclick="changeHeightWebXL()">
@@ -180,7 +178,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<script>
 				document.getElementsByClassName("video-playIcon")[0].onclick = function () {
@@ -190,16 +188,16 @@
 				function btnclose() {
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3'
 				}
-				function changeHeightRes () {
-					console.log('Res');
-					window.location.replace('#bfrVid')
-					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
-					var xDiv = document.getElementById('video-main-rs');
-					if (xDiv.style.height == '')
-						xDiv.style.height = '460px';
-					else
-						xDiv.style.height = '';
-				}
+				// function changeHeightRes () {
+				// 	console.log('Res');
+				// 	window.location.replace('#bfrVid')
+				// 	document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+				// 	var xDiv = document.getElementById('video-main-rs');
+				// 	if (xDiv.style.height == '')
+				// 		xDiv.style.height = '460px';
+				// 	else
+				// 		xDiv.style.height = '';
+				// }
 				function changeHeightWeb1 () {
 					console.log('Tab');
 					window.location.replace('#bfrVid')
@@ -212,41 +210,41 @@
 						xDiv.style.height = '';
 				}
 
-				function changeHeightWeb2 () {
+				// function changeHeightWeb2 () {
 
-					window.location.replace('#video')
-					document.getElementById("video").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
-					var xDiv = document.getElementById('video-main');
+				// 	window.location.replace('#video')
+				// 	document.getElementById("video").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+				// 	var xDiv = document.getElementById('video-main');
 
-					// if (xDiv.style.height == '')
-					// 	xDiv.style.height = '574px';
-					// else
-					// 	xDiv.style.height = '';
-				}
+				// 	// if (xDiv.style.height == '')
+				// 	// 	xDiv.style.height = '574px';
+				// 	// else
+				// 	// 	xDiv.style.height = '';
+				// }
 
-				function changeHeightWeb3 () {
+				// function changeHeightWeb3 () {
 
-					window.location.replace('#video-mob')
-					document.getElementById("video-mob").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
-					var xDiv = document.getElementById('video-main');
+				// 	window.location.replace('#video-mob')
+				// 	document.getElementById("video-mob").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+				// 	var xDiv = document.getElementById('video-main');
 
-					// if (xDiv.style.height == '')
-					// 	xDiv.style.height = '574px';
-					// else
-					// 	xDiv.style.height = '';
-				}
+				// 	// if (xDiv.style.height == '')
+				// 	// 	xDiv.style.height = '574px';
+				// 	// else
+				// 	// 	xDiv.style.height = '';
+				// }
 
-				function changeHeightWebXL () {
-					console.log('Tab');
-					window.location.replace('#bfrVid')
-					document.getElementById("him1-xl").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
-					var xDiv = document.getElementById('video-main-xl');
+				// function changeHeightWebXL () {
+				// 	console.log('Tab');
+				// 	window.location.replace('#bfrVid')
+				// 	document.getElementById("him1-xl").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+				// 	var xDiv = document.getElementById('video-main-xl');
 
-					if (xDiv.style.height == '')
-						xDiv.style.height = '1160px';
-					else
-						xDiv.style.height = '';
-				}
+				// 	if (xDiv.style.height == '')
+				// 		xDiv.style.height = '1160px';
+				// 	else
+				// 		xDiv.style.height = '';
+				// }
 			</script>
 		</div>
 	</section>

@@ -52,3 +52,6 @@ li.nav-lead-input {
     .nav-lead-input a.lead-email.btn-buildcal {font-size: 12px; padding: 5px 10px;}
     .custom-navbar.navbar-default .navbar-nav>li input.lead-form-email {font-size: 12px;}
 }
+@media (max-width: 768px) and (min-width: 0px) {
+    #video-main {height: auto !important;}
+}
