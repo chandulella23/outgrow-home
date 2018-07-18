@@ -8,11 +8,18 @@ class GoogleSheet {
 		this.apiKey = apiKey;
 		this.sheetName = sheetName;
 		this.baseUrl = "https://sheets.googleapis.com/v4/spreadsheets";
+
+		this.ogUrl = "https://api.outgrow.co/api/v1/analytic";
 	}
 
 	getLink(options = '') {
 		var link = this.baseUrl+ '/' +this.sheetId+ '/values/' +this.sheetName+ '?key=' +this.apiKey+ options; 
 		return link;
+	}
+
+	getOutgrowRequest(options = ''){
+			var link = this.ogUrl+ '/' +this.sheetId+ '/' +options;
+			return link;
 	}
 
 	getResponseLink(){
