@@ -46,7 +46,7 @@ li.nav-lead-input {
     li.nav-lead-input {margin: 10px !important;}
     .custom-navbar.navbar-default .navbar-nav>li input.lead-form-email {width: 100%;}
 }
-@media (max-width: 1024px) and (min-width: 1024px) {
+@media (max-width: 1280px) and (min-width: 1024px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 13px;}
     li.nav-lead-input {width: 237px;}
     .nav-lead-input a.lead-email.btn-buildcal {font-size: 12px; padding: 5px 10px;}
