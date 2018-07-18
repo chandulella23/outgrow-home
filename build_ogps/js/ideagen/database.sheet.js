@@ -1,4 +1,5 @@
 onload = function(){
+    console.log('.........Check')
     window.saveSubCat = [];
     window.parseData = [];
     window.saveData = {};
@@ -6,17 +7,24 @@ onload = function(){
     window.flag = "";
     window.timestamp = new Date();
     window.link = new GoogleSheet(spreadsheetsId, apiKey, 'Category');
-    window.option = "&range=Category!A2:Z";
-    sendRequest(link.getLink(option));
+
+    // Previous url
+    // window.option = "&range=Category!A2:Z";
+    // sendRequest(link.getLink(option)); 
+
+    // Outgrow link option
+    window.ogOption = "Category!A2:Z";
+    // console.log(link.getOutgrowRequest(ogOption),' .............')
+    sendRequest(link.getOutgrowRequest(ogOption));
 }
 
 function sendRequest(link) {
     $.get({
         url:link,
         success:function(response){
-            //console.log(response.values);
-            makeCategories(response.values);
-            makeStructure(response.values);
+            console.log(response, response.data);
+            makeCategories(response.data);
+            makeStructure(response.data);
         },
         error:function(err){
             console.log(err);
@@ -73,8 +81,11 @@ function makeStructure(response) {
             subArr.push(keySub);
         })
         link = new GoogleSheet(spreadsheetsId, apiKey, key);
-        option = "&range="+key+"!A2:Z";
-        getCalcTitle(link.getLink(option), key);
+        // option = "&range="+key+"!A2:Z";
+        // getCalcTitle(link.getLink(option), key);
+
+        ogOption = key+"!A2:Z"
+        getCalcTitle(link.getOutgrowRequest(ogOption),key);
     })
     stopLoader('.sub-category-page-loader');
     console.log(parseData);
@@ -84,7 +95,7 @@ function getCalcTitle(link, key){
     $.get({
         url:link,
         success:function(response){
-           if(response.values) parseData[key] = makeCalcTitle(response.values,key);
+           if(response.data) parseData[key] = makeCalcTitle(response.data,key);
            else parseData[key] = makeCalcTitle([],key);
         },
         error:function(err){
