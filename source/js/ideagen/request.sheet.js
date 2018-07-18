@@ -9,7 +9,7 @@ class GoogleSheet {
 		this.sheetName = sheetName;
 		this.baseUrl = "https://sheets.googleapis.com/v4/spreadsheets";
 
-		this.ogUrl = "https://api.outgrow.co/api/v1/analytic";
+		this.ogUrl = "https://api.outgrow.co/api/v1/analytic/get_sheet_data";
 	}
 
 	getLink(options = '') {
