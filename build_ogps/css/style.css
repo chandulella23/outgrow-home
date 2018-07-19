@@ -917,3 +917,6 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     top: 10px;
     width: 6px;
 }
+@media (min-width: 1680px) and (max-width:1920px) {
+    .sec1-bg .sec-container {margin-top: 150px;}
+}
