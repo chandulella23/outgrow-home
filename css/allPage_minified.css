@@ -12,6 +12,7 @@ li.nav-lead-input {
     margin-top: 12px;
     position: relative;
     width: 317px;
+    margin-right: 5px !important;
 }
 .nav-lead-input .lead-form-btn {
     position: absolute !important;
@@ -48,10 +49,13 @@ li.nav-lead-input {
 }
 @media (max-width: 1280px) and (min-width: 1024px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 13px;}
-    li.nav-lead-input {width: 237px;}
+    li.nav-lead-input {width: 237px; margin-right: 0px !important;}
     .nav-lead-input a.lead-email.btn-buildcal {font-size: 12px; padding: 5px 10px;}
     .custom-navbar.navbar-default .navbar-nav>li input.lead-form-email {font-size: 12px;}
 }
 @media (max-width: 768px) and (min-width: 0px) {
     #video-main {height: auto !important;}
+}
+@media (min-width: 990px) and (max-width: 1023px) {
+    .section-1 {margin-top: 30px;}
 }
