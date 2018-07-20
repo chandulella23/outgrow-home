@@ -94,10 +94,7 @@ jQuery.noConflict();
 jQuery.material.init();
 
 jQuery(document).ready(function () {
-
-    console.log('helio')
-    disableCookieDialog = getCookie('disableCookieDialog');
-    if (disableCookieDialog == undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
+   
     calculateMinHeight();
 
     jQuery('.calc-links a').on('click', function () {
