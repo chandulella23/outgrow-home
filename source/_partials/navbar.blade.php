@@ -15,6 +15,7 @@
 			<li><a href="{{ $page->baseUrl }}/features" onclick="callGA('FEATURES')" class="params hvr-underline-from-left" id="nav-features">Features</a></li>
 			<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA('PRICING')" class="params hvr-underline-from-left" id="nav-pricing">Pricing</a></li>
 			<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
+			   
 			   <li class="login">
 				   <a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 			   </li>
@@ -26,8 +27,8 @@
 			</li> -->
 			<li class="nav-lead-input">
 				<input class="lead-form-email" name="emailId" type="email" placeholder="Enter your email">
-				<span class="lead-form-btn">
-					<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal btn-hover" onclick="callGA('CANNOT WAIT CTA'); ">
+				<span class="lead-form-btn signUp">
+					<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover" onclick="callGA('CANNOT WAIT CTA'); ">
 						Get Started
 					</a>
 				</span>
