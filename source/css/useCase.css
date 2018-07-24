@@ -618,3 +618,106 @@ body{background:#fff !important;}
 
 .sec-cookies p a {color: #fff;}
 .sec-cookies p a:hover {text-decoration: underline;}
+
+/**** select industry new css ***/
+    .premade-template-new {
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+        margin-top: 25px;
+        position: relative;
+    }
+    .premade-template-left {
+        width: 266px;
+        float: left;
+    }
+    .premade-template-new .search-input {
+        float: left;
+        width: 266px;
+        position: absolute;
+        top: -35px;
+    }
+    .premade-template-new h4 {font-size: 14px; color: #888888; font-family: montserratsemibold;}
+    .premade-template-new .search-input input[type=text] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #ebebeb;
+        border-bottom: none;
+        font-size: 14px;
+        color: #888888;
+        background-color: white;
+        padding: 10px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    .premade-template-new .search-input i.material-icons {
+        float: right;
+        position: absolute;
+        right: 12px;
+        top: 48px;
+        font-size: 16px;
+        color: #888888;
+    }
+    .premade-template-new .search-input input::-moz-placeholder{
+        color: rgba(136, 136, 136, 0.5);
+    }
+    .premade-template-new .search-input input::-webkit-input-placeholder {
+        color: rgba(136, 136, 136, 0.5);
+    }
+    .premade-template .search-input input:-ms-input-placeholder {
+        color: rgba(136, 136, 136, 0.5);
+    }
+    ul.pre-temp-cat-new {
+        background: #f9f9f9;
+        border: 1px solid #ebebeb;
+        height: 380px;
+        width: 266px;
+        margin-top: 40px;
+    }
+    ul.pre-temp-cat-new li {
+        margin-bottom: 0px;
+    }
+    ul.pre-temp-cat-new li a {
+        float: left;
+        width: 100%;
+        background: none;
+        border: none;
+        border-radius: 0px;
+        font-size: 14px;
+        padding: 5px 15px;
+        text-transform: none;
+        color: #888;
+        line-height: 24px;
+    }
+    ul.pre-temp-cat-new li.active a, ul.pre-temp-cat-new li a:hover {
+        background: #fb5f66;
+    }
+    .pre-temp-cont-new {
+        float: left;
+        width: calc(100% - 266px);
+        padding: 0 0px 0px 40px;
+    }
+
+    /* css scrollbar */
+        .pre-temp-cat-new.scrollbar {
+            overflow-y: scroll;
+        }
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar-track {
+            border-radius: 0;
+            background-color: rgba(102, 102, 102, 0.01);
+        }
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar {
+            width: 3px;
+            background-color: rgba(102, 102, 102, 0.5);
+        }
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar:horizontal {
+            height: 6px;
+            background-color: rgba(102, 102, 102, 0.5);
+        }
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+            background-color: rgba(102, 102, 102, 0.5);
+        }
+    /* end: css scrollbar */
+
+/**** end: select industry new css ***/
