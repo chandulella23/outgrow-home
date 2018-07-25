@@ -27,7 +27,7 @@
 			</li> -->
 			<li class="nav-lead-input">
 				<input class="lead-form-email" name="emailId" type="email" placeholder="Enter your email">
-				<span class="lead-form-btn signUp">
+				<span class="lead-form-btn">
 					<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover" onclick="callGA('CANNOT WAIT CTA'); ">
 						Start Free Trial
 					</a>
