@@ -207,10 +207,11 @@ li.dropdown.open:hover a.dropdown-toggle {
     }
     .custom-navbar a.link-login {
         border-bottom: none;
+        margin-bottom: -12px;
     }
     li.signUp.signUp-style {
         margin: 0px !important;
-        line-height: normal;
+        /* line-height: normal; */
         border-bottom: none;
     }
     li.signUp.signUp-style a.link-login {
