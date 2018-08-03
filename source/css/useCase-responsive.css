@@ -187,7 +187,7 @@
 	/* end: example page responsive css by Arti */
 
 }
-@media (min-width: 769px) and (max-width: 899px) {
+@media (min-width: 769px) and (max-width: 989px) {
 	.pre-temp-cat-new.scrollbar {display: none;}
 	.premade-template-new {
 		margin-bottom: 20px;
@@ -200,6 +200,9 @@
 		position: unset;
 		top: 0;
 		margin-bottom: 20px;
+	}
+	.premade-template-new .selectize-wrapper {
+		display: block;
 	}
 
 }
