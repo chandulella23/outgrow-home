@@ -484,5 +484,7 @@ jQuery(document).ready(function () {
     //     }
     // })
 
+    jQuery('#select-list').selectize({});
+
     runTimeout();
 });

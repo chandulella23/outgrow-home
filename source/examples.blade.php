@@ -20,6 +20,7 @@
 @endsection
 
 @section('inlinescripts')
+	<script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/selectize.min.js"></script>
 @endsection
 
 @section('css')
@@ -36,6 +37,7 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase-responsive.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/selectize.default.css">
 @endsection
 
 @section('pageClass', 'usecase')
@@ -318,6 +320,14 @@
 												<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">Trending</a>
 											</li>
 										</ul>
+										<div class="form-group col-xs-12 np selectize-wrapper">
+											<select id="select-list" placeholder="Select List" class="selectize">
+												<option value="Select">Auto</option>
+												<option value="1">Education</option>
+												<option value="2">Finance</option>
+												<option value="3">Marketing & Advertising</option>
+											</select>
+										</div>
 									</div>
 									<div class="pre-temp-cont pre-temp-cont-new">
 										<ul class="pre-temp-list" id="gallery-content-center">

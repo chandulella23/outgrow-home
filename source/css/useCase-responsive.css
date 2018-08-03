@@ -76,7 +76,16 @@
 	.recentNews-outer h4 {
 		font-size: 16px;
 	}
-
+	.premade-template-left {width: 100%;}
+	.premade-template-new .search-input {
+		float: left;
+		width: 100%;
+		position: unset;
+		top: 0;
+		margin-bottom: 15px;
+	}
+	.premade-template-new {margin-top: 0; margin-bottom: 0px;}
+	.pre-temp-cat-new.scrollbar {display: none;}
 
 }
 
@@ -107,6 +116,14 @@
 		margin-bottom: 60px !important;
 	}
 	
+}
+.premade-template-new .selectize-wrapper {
+	display: none;
+}
+@media (max-width:768px) {
+	.premade-template-new .selectize-wrapper {
+		display: block;
+	}
 }
 @media (min-width:768px) and (max-width:768px){
 	.container.mobile-container {
