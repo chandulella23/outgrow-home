@@ -26,9 +26,9 @@
 				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
 			</li> -->
 			<li class="nav-lead-input">
-				<input class="lead-form-email" name="emailId" type="email" placeholder="Enter your email">
+				<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
 				<span class="lead-form-btn">
-					<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover" onclick="callGA('CANNOT WAIT CTA'); ">
+					<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
 						Start Free Trial
 					</a>
 				</span>
@@ -36,7 +36,15 @@
 		</ul>
 	</div> 
 </div>
-</nav> 
+</nav>
+
+<script>
+    	document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/signup/?email=";
+			document.getElementsByClassName('lead-email')[0].href = href + email;
+    }
+</script>
 
 
 <!-- <div class="header-logo">
