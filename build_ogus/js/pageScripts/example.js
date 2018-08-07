@@ -65,23 +65,23 @@ window.setPremade = function () {
     premadeTemplateList.html(innerHTML)
 }
 
-window.markAsActive = function (calcId) {
-    var currentActiveCalc = document.querySelector('#gallery-content-center li.active');
-    currentActiveCalc.classList.remove('active');
-    var tobeActiveCalc = document.querySelector('#' + calcId);
-    tobeActiveCalc.classList.add('active');
-    let calc = window.calcs.find(function (calc) {
-        return calc.id === calcId
-    });
-    var premadeGif = document.getElementById('premade-gif');
-    var premadePreview = document.getElementById('premade-preview-link');
-    var premadeName = document.getElementById('premade-calc-name');
-    var premadeLayout = document.getElementById('premade-calc-layout')
-    premadeGif.src = calc.GIF;
-    premadePreview.href = calc['Published Link'];
-    premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + calc.Name;
-    premadeLayout.innerHTML = '<strong>Layout:</strong> ' + calc.Layout
-}
+// window.markAsActive = function (calcId) {
+//     var currentActiveCalc = document.querySelector('#gallery-content-center li.active');
+//     currentActiveCalc.classList.remove('active');
+//     var tobeActiveCalc = document.querySelector('#' + calcId);
+//     tobeActiveCalc.classList.add('active');
+//     let calc = window.calcs.find(function (calc) {
+//         return calc.id === calcId
+//     });
+//     var premadeGif = document.getElementById('premade-gif');
+//     var premadePreview = document.getElementById('premade-preview-link');
+//     var premadeName = document.getElementById('premade-calc-name');
+//     var premadeLayout = document.getElementById('premade-calc-layout')
+//     premadeGif.src = calc.GIF;
+//     premadePreview.href = calc['Published Link'];
+//     premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + calc.Name;
+//     premadeLayout.innerHTML = '<strong>Layout:</strong> ' + calc.Layout
+// }
 
 window.changeActiveCalcCategory = function (id) {
     var currentActiveCat = document.querySelector('#calc-cats li.active');
@@ -112,13 +112,13 @@ window.setCalcCategory = function (filterName) {
     allCalcs.forEach(function (calc) {
         if (!calc.classList.contains('hide') && sflag) {
             calc.classList.add('active');
-            var activeCal = window.calcs.find(function (cal) {
+            let activeCal = window.calcs.find(function (cal) {
                 return cal.id === calc.id
             });
-            var premadeGif = document.getElementById('premade-gif');
-            var premadePreview = document.getElementById('premade-preview-link');
-            var premadeName = document.getElementById('premade-calc-name');
-            var premadeLayout = document.getElementById('premade-calc-layout')
+            let premadeGif = document.getElementById('premade-gif');
+            let premadePreview = document.getElementById('premade-preview-link');
+            let premadeName = document.getElementById('premade-calc-name');
+            let premadeLayout = document.getElementById('premade-calc-layout')
             premadeGif.src = activeCal.GIF;
             premadePreview.href = activeCal['Published Link'];
             premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.Name;
@@ -191,7 +191,6 @@ window.changeTab = function (tabName) {
 window.ready = function () {
     let http = new XMLHttpRequest();
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
-    // let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
     http.open("POST", url, true);
 
     http.onreadystatechange = function () {
@@ -207,7 +206,6 @@ ready();
 window.ready1 = function () {
     let http = new XMLHttpRequest();
     let url = 'https://outgrow.co/blog/api/get_posts/';
-    // let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
     http.open("GET", url, true);
 
     http.onreadystatechange = function () {
@@ -334,7 +332,6 @@ function renderPremadeCalcs(responseText) {
         if (trendingC.length > 0) {
             let tCalc = '';
             for (let i = 0; i < trendingC.length; i++) {
-                console.log('heloi', trendingC[i])
                 if (i % 2 == 0) {
                     tCalc += `<div class="swiper-slide">
                                 <div class="recentNews-inner-row">
@@ -443,16 +440,17 @@ function renderPremadeCalcs(responseText) {
 
 
         //  jQuery('#premade-content').removeClass('hide');
-        let ele = document.getElementById('premade-content');
+        let ele = document.getElementById('premade-content-new');
         ele.classList.remove('hide');
 
-        let loader = document.getElementById('premade-loader');
+        let loader = document.getElementById('premade-loader-new');
         loader.classList.add('hide');
 
         //   jQuery('#premade-loader').addClass('hide');
         setPremade();
         setCalcCategory('Auto');
         changeTab('Calculator');
+        shuffleCalcs('Auto');
     }
 }
 
@@ -484,5 +482,26 @@ jQuery(document).ready(function () {
     //     }
     // })
 
+    jQuery('#select-list').selectize({
+        create: true,
+        sortField: 'text'
+    });
     runTimeout();
 });
+
+window.filterList = function () {
+    let text = document.querySelector('#search-experience').value.toLowerCase();
+    let experienceList = document.querySelector('#calc-cats').children;
+    console.log('diamonds and rust');
+
+    for (let i = 0; i < experienceList.length; i++) {
+        let element = experienceList[i];
+        element.classList.remove('hide');
+        let textContent = element.textContent.toLowerCase().trim();
+        if (textContent.includes(text) || textContent === '') {
+
+        } else {
+            element.classList.add('hide');
+        }
+    }
+}
