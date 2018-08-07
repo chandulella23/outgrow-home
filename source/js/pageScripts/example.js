@@ -191,7 +191,6 @@ window.changeTab = function (tabName) {
 window.ready = function () {
     let http = new XMLHttpRequest();
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
-    // let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
     http.open("POST", url, true);
 
     http.onreadystatechange = function () {
@@ -207,7 +206,6 @@ ready();
 window.ready1 = function () {
     let http = new XMLHttpRequest();
     let url = 'https://outgrow.co/blog/api/get_posts/';
-    // let url = 'https://outgrow-biz-api.herokuapp.com/api/v1/admin/getCalculators';
     http.open("GET", url, true);
 
     http.onreadystatechange = function () {
@@ -443,10 +441,10 @@ function renderPremadeCalcs(responseText) {
 
 
         //  jQuery('#premade-content').removeClass('hide');
-        let ele = document.getElementById('premade-content');
+        let ele = document.getElementById('premade-content-new');
         ele.classList.remove('hide');
 
-        let loader = document.getElementById('premade-loader');
+        let loader = document.getElementById('premade-loader-new');
         loader.classList.add('hide');
 
         //   jQuery('#premade-loader').addClass('hide');

@@ -220,10 +220,10 @@
 
 		<!-- start: example calc -->
 		<section class="section example-calc">
-			<div id="premade-loader" class="preloader">
+			<div id="premade-loader-new" class="preloader">
 				<div class="status">&nbsp;</div>
 			</div>
-			<div id="premade-content" class="tab-section hide">
+			<div id="premade-content-new" class="tab-section hide">
 				<div class="container-fluid">
 						<!-- Nav tabs -->
 					<!-- <ul class="nav nav-tabs premade-calc" role="tablist">
