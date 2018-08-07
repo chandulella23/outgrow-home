@@ -112,13 +112,13 @@ window.setCalcCategory = function (filterName) {
     allCalcs.forEach(function (calc) {
         if (!calc.classList.contains('hide') && sflag) {
             calc.classList.add('active');
-            var activeCal = window.calcs.find(function (cal) {
+            let activeCal = window.calcs.find(function (cal) {
                 return cal.id === calc.id
             });
-            var premadeGif = document.getElementById('premade-gif');
-            var premadePreview = document.getElementById('premade-preview-link');
-            var premadeName = document.getElementById('premade-calc-name');
-            var premadeLayout = document.getElementById('premade-calc-layout')
+            let premadeGif = document.getElementById('premade-gif');
+            let premadePreview = document.getElementById('premade-preview-link');
+            let premadeName = document.getElementById('premade-calc-name');
+            let premadeLayout = document.getElementById('premade-calc-layout')
             premadeGif.src = activeCal.GIF;
             premadePreview.href = activeCal['Published Link'];
             premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.Name;
@@ -332,7 +332,6 @@ function renderPremadeCalcs(responseText) {
         if (trendingC.length > 0) {
             let tCalc = '';
             for (let i = 0; i < trendingC.length; i++) {
-                console.log('heloi', trendingC[i])
                 if (i % 2 == 0) {
                     tCalc += `<div class="swiper-slide">
                                 <div class="recentNews-inner-row">
@@ -482,7 +481,30 @@ jQuery(document).ready(function () {
     //     }
     // })
 
-    jQuery('#select-list').selectize({});
+    jQuery('#select-list').selectize({
+        create: true,
+        sortField: 'text'
+    });
 
     runTimeout();
 });
+
+window.filterList = function () {
+    let text = document.querySelector('#search-experience').value.toLowerCase();
+    let experienceList = document.querySelector('#calc-cats').children;
+    console.log('diamonds and rust');
+
+    for (let i = 0; i < experienceList.length; i++) {
+        let element = experienceList[i];
+        element.classList.remove('hide');
+        let textContent = element.textContent.toLowerCase().trim();
+        if (textContent.includes(text) || textContent === '') {
+
+        } else {
+            element.classList.add('hide');
+        }
+    }
+
+
+
+}

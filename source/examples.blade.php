@@ -63,13 +63,13 @@
 		<!-- end: hiding the top red bar of each page -->
 
 		<!-- start: example calc old -->
-		<section class="section example-calc hide">
+		<!-- <section class="section example-calc hide">
 			<div id="premade-loader" class="preloader">
 				<div class="status">&nbsp;</div>
 			</div>
 			<div id="premade-content" class="tab-section hide">
 				<div class="container-fluid">
-						<!-- Nav tabs -->
+					
 					<ul class="nav nav-tabs premade-calc" role="tablist">
 						<li role="presentation" class="tab-title active">
 							<a id="Calculator" href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab"
@@ -97,13 +97,10 @@
 						</li>
 					</ul>
 
-					<!-- Tab panes -->
 					<div class="tab-content usecase">
 						<div role="tabpanel" class="tab-pane active" id="numeric-calc">
 							<div class="col-md-12 col-sm-12 col-xs-12 new-cards-section pre-card">
-								<!-- <div class="preloader">
-									<div class="status">&nbsp;</div>
-								</div> -->
+							
 								<div class="premade-template">
 									<ul class="pre-temp-cat" id="calc-cats">
 										<li class="active">
@@ -215,7 +212,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- end: example calc old -->
 
 		<!-- start: example calc -->
@@ -264,11 +261,13 @@
 									<div class="premade-template-left">
 										<div class="search-input">
 											<h4>Select Your Industry</h4>
-											<form action="">
-												<input type="text" name="search" placeholder="Search Experiences by Keyword">
+											<form>
+												<input type="text" name="search" id="search-experience" oninput="filterList()" placeholder="Search Experiences by Keyword">
 												<i class="material-icons">search</i>
 											</form>
 										</div>
+
+
 										<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
 											<li class="active">
 												<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
@@ -322,14 +321,22 @@
 										</ul>
 										<div class="form-group col-xs-12 np selectize-wrapper">
 											<select id="select-list" placeholder="Select List" class="selectize">
-												<option value="Select">Auto</option>
-												<option value="1">Education</option>
-												<option value="2">Finance</option>
-												<option value="3">Marketing & Advertising</option>
+												<option value="Auto">Auto</option>
+												<option value="Education">Education</option>
+												<option value="Education">Education</option>
+												<option value="HealthFitness">Health & Fitness</option>
+												<option value="Quintessential">Quintessential</option>
+												<option value="RealEstateConstruction">Real Estate & Construction</option>
+												<option value="MarketingAdvertising">Technology</option>
+												<option value="Publishing">Publishing</option>
+												<option value="Travel">Travel</option>
+												<option value="TVandEntertainment">TV and Entertainment</option>
+												<option value="Trending">Trending</option>
+
 											</select>
 										</div>
 									</div>
-									<div class="pre-temp-cont pre-temp-cont-new">
+									 <div class="pre-temp-cont pre-temp-cont-new"> 
 										<ul class="pre-temp-list" id="gallery-content-center">
 
 											<li class="active filter-all filter-auto" id="calc-auto-loan">
