@@ -339,7 +339,7 @@
 									 <div class="pre-temp-cont pre-temp-cont-new"> 
 										<ul class="pre-temp-list" id="gallery-content-center">
 
-											<li class="active filter-all filter-auto" id="calc-auto-loan">
+											<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
 												<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
 											</li>
 											<li class="All Financia filter-all filter-auto" id="calc-early-payment">
@@ -362,7 +362,7 @@
 											</li>
 											<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
 												<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
-											</li>
+											</li> -->
 										</ul>
 										<div class="pre-temp-view">
 											<div class="temp-preview">
