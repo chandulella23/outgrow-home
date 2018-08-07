@@ -486,6 +486,8 @@ jQuery(document).ready(function () {
         sortField: 'text'
     });
 
+    shuffleCalcs('Auto')
+
     runTimeout();
 });
 
@@ -504,7 +506,4 @@ window.filterList = function () {
             element.classList.add('hide');
         }
     }
-
-
-
 }
