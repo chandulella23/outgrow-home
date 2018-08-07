@@ -120,7 +120,7 @@
 .premade-template-new .selectize-wrapper {
 	display: none;
 }
-@media (max-width:990px) {
+@media (max-width: 899px) {
 	.premade-template-new .selectize-wrapper {
 		display: block;
 	}
@@ -185,6 +185,25 @@
 	}
 
 	/* end: example page responsive css by Arti */
+
+}
+@media (min-width: 769px) and (max-width: 989px) {
+	.pre-temp-cat-new.scrollbar {display: none;}
+	.premade-template-new {
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+	.premade-template-left {width: 100%;}
+	.premade-template-new .search-input {
+		float: left;
+		width: 100%;
+		position: unset;
+		top: 0;
+		margin-bottom: 20px;
+	}
+	.premade-template-new .selectize-wrapper {
+		display: block;
+	}
 
 }
 @media (min-width: 990px) and (max-width:1024px) {
