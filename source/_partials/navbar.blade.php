@@ -16,7 +16,7 @@
 				<li><a href="{{ $page->baseUrl }}/pricing" onclick="callGA('PRICING')" class="params hvr-underline-from-left" id="nav-pricing">Pricing</a></li>
 				<!-- <li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li> -->
 				<li class="dropdown">
-					<a href="javascript:void(0);" onclick="callGA('USECASE')" class="params hvr-underline-from-left">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
+					<a href="javascript:void(0);" id="nav-get-inspired" onclick="callGA('USECASE')" class="params hvr-underline-from-left">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
 					<div class="dropdown-content">
 						<a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
 						<div class="drop-sub-menu">
@@ -34,12 +34,12 @@
 				<li class="dropdown">
 					<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown hvr-underline-from-left" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a>
 					<div class="dropdown-content">
-						<a href="{{ $page->baseUrl }}/calculator" class="">Calculators</a>
-						<a href="{{ $page->baseUrl }}/quiz" class="">Quizzes </a>
-						<a href="{{ $page->baseUrl }}/survey" class="">Surveys</a>
-						<a href="{{ $page->baseUrl }}/increase-conversions" class="">Increase Conversions</a>
-						<a href="{{ $page->baseUrl }}/increase-roi" class="">Increase ROI</a>
-						<a href="{{ $page->baseUrl }}/increase-sales" class="">Increase Sales</a>
+						<a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a>
+						<a href="{{ $page->baseUrl }}/quiz" class="nav-use-cases-list">Quizzes </a>
+						<a href="{{ $page->baseUrl }}/survey" class="nav-use-cases-list">Surveys</a>
+						<a href="{{ $page->baseUrl }}/increase-conversions" class="nav-use-cases-list">Increase Conversions</a>
+						<a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a>
+						<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
 					</div>
 				</li>
 				<li class="login">
@@ -104,12 +104,12 @@
 			<li class="dropdown">
 				<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown dropdown-toggle" id="nav-use-cases" data-toggle="dropdown" aria-expanded="true">Use Cases <i class="material-icons">arrow_drop_down</i></a>
 				<ul class="dropdown-content">
-					<li><a href="{{ $page->baseUrl }}/calculator" class="">Calculators</a></li>
-					<li><a href="{{ $page->baseUrl }}/quiz" class="">Quizzes </a></li>
-					<li><a href="{{ $page->baseUrl }}/survey" class="">Surveys</a></li>
-					<li><a href="{{ $page->baseUrl }}/increase-conversions" class="">Increase Conversions</a></li>
-					<li><a href="{{ $page->baseUrl }}/increase-roi" class="">Increase ROI</a></li>
-					<li><a href="{{ $page->baseUrl }}/increase-sales" class="">Increase Sales</a></li>
+					<li><a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a></li>
+					<li><a href="{{ $page->baseUrl }}/quiz" class="nav-use-cases-list">Quizzes </a></li>
+					<li><a href="{{ $page->baseUrl }}/survey" class="nav-use-cases-list">Surveys</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-conversions" class="nav-use-cases-list">Increase Conversions</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a></li>
+					<li><a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
 				</ul>
 			</li>
 			<li class="login">
