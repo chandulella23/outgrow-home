@@ -2218,7 +2218,8 @@ li.nav-lead-input {
         color: #fff !important;
         border: 2px solid #fdb6b9 !important;
         opacity: 1 !important;
-    }
+	}
+	.dashboard-login {margin: 0px 0px 10px !important;}
 }
 @media (max-width: 1280px) and (min-width: 1024px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 12px;}
@@ -2237,4 +2238,21 @@ li.nav-lead-input {
 		-webkit-box-shadow: none;
 		box-shadow: none;
 	}
+}
+.dashboard-login {
+    background: #fb5f66 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 4px 15px !important;
+    border: 2px solid #fb5f66;
+    transition: .5s ease-in-out;
+    line-height: normal;
+    box-shadow: none;
+    border-radius: 25px;
+    display: inline-block;
+    float: none;
+    font-family: montserratbold;
+    text-transform: uppercase;
+    margin-left: 3px;
+    margin-top: 12px;
 }
