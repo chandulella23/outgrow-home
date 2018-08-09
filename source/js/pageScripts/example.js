@@ -456,7 +456,8 @@ function renderPremadeCalcs(responseText) {
 
 jQuery(document).ready(function () {
     jQuery('#nav-examples').addClass('active');
-
+    jQuery('#nav-get-inspired').addClass('active');
+    
     calculateMinHeight();
     window.Intercom('update', {
         'site_example_viewed': new Date()

@@ -24,4 +24,7 @@ jQuery(document).ready(function () {
     //     jQuery("html,body").css({"overflow": "auto"});
     // });    
 
+    // jQuery('#nav-get-inspired').addClass('active');
+    // jQuery('#nav-use-cases').addClass('active');
+
 })

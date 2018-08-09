@@ -402,3 +402,7 @@ li.dropdown.open:hover a.dropdown-toggle {
     height: 2px !important;
     -webkit-transition-timing-function: ease-out;
 }
+.custom-navbar .dropdown-content a.active {
+    color: #fb5f66;
+    background: none;
+}
