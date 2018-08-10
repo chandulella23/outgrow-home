@@ -1316,7 +1316,6 @@
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
-		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
-		"examples": "{{ $page->baseUrl }}/js/pageScripts/use-cases.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js"
 	}
 @endsection

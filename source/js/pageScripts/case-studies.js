@@ -33,6 +33,7 @@ jQuery(document).ready(function () {
     jQuery('.counter').counterUp();
     jQuery('#nav-case-studies').addClass('active');
     jQuery('#nav-why-interactive').removeClass('active');    
+    jQuery('#nav-get-inspired').addClass('active');
 
     jQuery('.navbar ul li .dropdown-sub-content a').on('click', function ($event) {
         // jQuery('.case-study-tabs').removeClass('active');

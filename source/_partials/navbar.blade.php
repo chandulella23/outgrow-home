@@ -18,8 +18,19 @@
 				<li class="dropdown">
 					<a href="javascript:void(0);" id="nav-get-inspired" onclick="callGA('USECASE')" class="params hvr-underline-from-left">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
 					<div class="dropdown-content">
-						<a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
 						<div class="drop-sub-menu">
+							<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params" id="nav-use-cases">Use Cases <i class="material-icons">chevron_right</i></a>
+							<div class="dropdown-sub-content">
+								<a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a>
+								<a href="{{ $page->baseUrl }}/quiz" class="nav-use-cases-list">Quizzes </a>
+								<a href="{{ $page->baseUrl }}/survey" class="nav-use-cases-list">Surveys</a>
+								<a href="{{ $page->baseUrl }}/increase-conversions" class="nav-use-cases-list">Increase Conversions</a>
+								<a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a>
+								<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
+							</div>
+						</div>
+						<a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
+						<div class="drop-sub-menu drop-sub-menu-stories">
 							<a href="javascript:void(0);" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
 							<div class="dropdown-sub-content">
 								<a href="/case-studies#tag" class="params nav-case nav-link-tag">TAG </a>
@@ -31,7 +42,7 @@
 						</div>
 					</div>
 				</li>
-				<li class="dropdown">
+				<!-- <li class="dropdown">
 					<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown hvr-underline-from-left" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a>
 					<div class="dropdown-content">
 						<a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a>
@@ -41,7 +52,7 @@
 						<a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a>
 						<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
 					</div>
-				</li>
+				</li> -->
 				<li class="login">
 					<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 				</li>
@@ -88,6 +99,17 @@
 			<li class="dropdown">
 				<a href="javascript:void(0);" onclick="callGA('USECASE')" class="params dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
 				<ul class="dropdown-content">
+					<div class="drop-sub-menu">
+						<li><a href="javascript:void(0);" onclick="callGA('USECASES')" class="params" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a></li>
+						<div class="dropdown-sub-content">
+							<li><a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a></li>
+							<li><a href="{{ $page->baseUrl }}/quiz" class="nav-use-cases-list">Quizzes </a></li>
+							<li><a href="{{ $page->baseUrl }}/survey" class="nav-use-cases-list">Surveys</a></li>
+							<li><a href="{{ $page->baseUrl }}/increase-conversions" class="nav-use-cases-list">Increase Conversions</a></li>
+							<li><a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a></li>
+							<li><a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
+						</div>
+					</div>
 					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a></li>
 					<div class="drop-sub-menu">
 						<li><a href="javascript:void(0);" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">arrow_drop_down</i></a></li>
@@ -101,7 +123,7 @@
 					</div>
 				</ul>
 			</li>
-			<li class="dropdown">
+			<!-- <li class="dropdown">
 				<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown dropdown-toggle" id="nav-use-cases" data-toggle="dropdown" aria-expanded="true">Use Cases <i class="material-icons">arrow_drop_down</i></a>
 				<ul class="dropdown-content">
 					<li><a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a></li>
@@ -111,7 +133,7 @@
 					<li><a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a></li>
 					<li><a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
 				</ul>
-			</li>
+			</li> -->
 			<li class="login">
 				<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 			</li>
