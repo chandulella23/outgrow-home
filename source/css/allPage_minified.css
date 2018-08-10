@@ -38,6 +38,7 @@ li.nav-lead-input {
     font-family: montserratbold;
     text-transform: uppercase;
     margin-left: 3px;
+    margin-top: 0px !important;
 }
 .nav-lead-input a.lead-email.btn-buildcal:hover {
     background: #fdb6b9 !important;
@@ -94,7 +95,7 @@ li.nav-lead-input {
     
 }
 @media (min-width: 990px) and (max-width: 1023px) {
-    .section-1 {margin-top: 30px;}
+    .section-1 {margin-top: 0px;}
 }
 
 .navbar-collapse {border-top: 1px solid transparent;}

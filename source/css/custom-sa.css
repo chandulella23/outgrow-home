@@ -7033,7 +7033,7 @@ li.nav-lead-input {
     margin-top: 12px;
     position: relative;
     width: 317px;
-    margin-right: 5px !important;
+    margin-right: 20px !important;
 }
 .nav-lead-input .lead-form-btn {
     position: absolute !important;
@@ -7054,7 +7054,8 @@ li.nav-lead-input {
     float: none;
     font-family: montserratbold;
     text-transform: uppercase;
-    margin-left: 3px;
+	margin-left: 3px;
+	margin-top: 0px !important;
 }
 .nav-lead-input a.lead-email.btn-buildcal:hover {
     background: #fdb6b9 !important;
