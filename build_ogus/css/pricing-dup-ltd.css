@@ -1744,8 +1744,8 @@ i.zmdi.zmdi-twitter-box {
 	.dropdown .dropdown-sub-content {
 		display: none;
 		position: absolute;
-		right: -179px;
-		top: 50px;
+		right: -203px;
+		top: 0px;
 		background: #fff;
 		background-color: #fff;
 		/* min-width: 158px; */
@@ -1753,7 +1753,10 @@ i.zmdi.zmdi-twitter-box {
 		z-index: 1;
 		font-size: 12px;
 	}
-	.drop-sub-menu a {
+	/* .drop-sub-menu a {
+    	border-bottom: none;
+	} */
+	.drop-sub-menu:nth-child(3) a {
 		border-bottom: none;
 	}
 	.dropdown .dropdown-sub-content a {
