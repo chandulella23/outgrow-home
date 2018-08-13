@@ -82,6 +82,7 @@ li.nav-lead-input {
     /* .navbar-header {width: 100%; margin-right: 0; margin-left: 0;} */
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 12px !important; line-height: 18px;}
     .dashboard-login {margin: 0px 0px 10px !important;}
+    .custom-navbar.navbar-default .navbar-nav>li>a .hvr-underline-from-left:before {display:none;}
 
 }
 @media (max-width: 1280px) and (min-width: 1024px) {
