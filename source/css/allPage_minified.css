@@ -11291,7 +11291,7 @@ label.control-label {
     font-family: montserratlight;
 }
 
-.footer-img-text a {
+.footer-img-text span {
     color: #62696d;
     font-family: montserratlight;
     width: 100%;
@@ -11300,8 +11300,18 @@ label.control-label {
     margin: 0;
 }
 
-.footer-img-text a:hover {
+.footer-img2:hover .footer-img-text span {
     color: #fb5f66
+}
+
+.footer-img2 a {
+    float: left;
+    width: 100%;
+}
+
+.footer-img2 a span {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .footer-social {
@@ -18594,7 +18604,7 @@ iframe[name=google_conversion_frame] {
     .custom-navbar.navbar-default .navbar-nav>li.signUp>a.link-login.params {
         margin-right: 0px !important;
     }
-    
+
 }
 
 @media (min-width:1251px) and (max-width:1280px) {
