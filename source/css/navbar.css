@@ -428,3 +428,6 @@ li.dropdown.open:hover a.dropdown-toggle {
 .drop-sub-menu .dropdown-sub-content {width: 88%;}
 .drop-sub-menu-stories .dropdown-sub-content { top: 93px;}
 .dropdown .dropdown-sub-content {right: -173px;}
+.dropdown .dropdown-sub-content a {
+    font-size: 12px;
+}
