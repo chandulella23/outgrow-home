@@ -7100,6 +7100,7 @@ span.icon-webcam {
 	display: none;
 }
 
+
 .billing-grey-bottom .billing-list .vis-hidden:after,
 .billing-white-bottom .billing-list .vis-hidden:after {
 	visibility: hidden;
@@ -9656,10 +9657,10 @@ span.feature-subtitle {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	min-width: 203px;
+	min-width: 200px;
 	box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.10);
 	z-index: 1;
-	left: 10px;
+	right: 5px;
 	/* top: 60px;  */
 }
 
