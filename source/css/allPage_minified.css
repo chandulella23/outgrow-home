@@ -18590,7 +18590,11 @@ iframe[name=google_conversion_frame] {
     }
     .section-14 {
         min-height: 660px !important;
+    }    
+    .custom-navbar.navbar-default .navbar-nav>li.signUp>a.link-login.params {
+        margin-right: 0px !important;
     }
+    
 }
 
 @media (min-width:1251px) and (max-width:1280px) {
