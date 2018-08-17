@@ -351,7 +351,7 @@
 							<div class="temp-preview">
 								<span class="image-bg1">
 									<span class="image-scroll1">
-										<img id="premade-gif" src="images/img-ecomm-growth1.jpg" />
+										<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-growth1.jpg" />
 									</span>
 								</span>
 								<div class="content temp-info">
@@ -369,7 +369,7 @@
 							<div class="temp-preview">
 								<span class="image-bg1">
 									<span class="image-scroll1">
-										<img id="premade-gif" src="images/img-ecomm-growth2.jpg" />
+										<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-growth2.jpg" />
 									</span>
 								</span>
 								<div class="content temp-info">
@@ -387,7 +387,7 @@
 							<div class="temp-preview">
 								<span class="image-bg1">
 									<span class="image-scroll1">
-										<img id="premade-gif" src="images/img-ecomm-growth3.jpg" />
+										<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-growth3.jpg" />
 									</span>
 								</span>
 								<div class="content temp-info">
@@ -405,7 +405,7 @@
 							<div class="temp-preview">
 								<span class="image-bg1">
 									<span class="image-scroll1">
-										<img id="premade-gif" src="images/img-ecomm-growth4.jpg" />
+										<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-growth4.jpg" />
 									</span>
 								</span>
 								<div class="content temp-info">
