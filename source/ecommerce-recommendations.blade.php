@@ -95,7 +95,7 @@
 			</div>
 
 			<script>
-			
+
 			document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
@@ -553,7 +553,7 @@
 									<span class="dot"></span>c </span>
 								</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button">
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1038">
 							Preview</a>
@@ -580,7 +580,7 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button">
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1044">
 							Preview</a>
@@ -607,7 +607,7 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button">
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1051">
 							Preview</a>
@@ -634,7 +634,7 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button">
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1056">
 							Preview</a>
