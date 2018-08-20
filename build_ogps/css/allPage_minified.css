@@ -82,6 +82,7 @@ li.nav-lead-input {
     /* .navbar-header {width: 100%; margin-right: 0; margin-left: 0;} */
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 12px !important; line-height: 18px;}
     .dashboard-login {margin: 0px 0px 10px !important;}
+    .custom-navbar.navbar-default .navbar-nav>li>a .hvr-underline-from-left:before {display:none;}
 
 }
 @media (max-width: 1280px) and (min-width: 1024px) {
@@ -116,3 +117,308 @@ li.nav-lead-input {
     margin-left: 3px;
     margin-top: 12px;
 }
+/* ecommerce css */
+.ecomm .pre-temp-view {width: 100%; border: 7px solid #fff; border-radius: 5px; margin-bottom: 50px;}
+.ecomm .content.temp-info h3 {
+    font-size: 12px;
+    margin: 0;
+    color: #45484c;
+    line-height: 20px;
+    font-family: montserratregular;
+    float: left;
+    width: calc(100% - 0px);
+    padding-right: 15px;
+    position: relative;
+    padding-left: 0;
+}
+.ecomm .content.temp-info h3 p {
+    text-transform: none;
+    color: #62696d;
+    margin: 0;
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    text-overflow: unset;
+    white-space: unset;
+    overflow: unset;
+    font-family: montserratregular;
+    text-align: left;
+}
+.ecomm .content.temp-info {
+    background: #fff;
+    padding: 15px 5px 10px !important;
+    min-height: 65px;
+}
+.ecomm-outer {
+    width: 88%;
+    margin: 30px auto;
+    float: none;
+    display: inline-block;
+}
+.sec-ecomm {background: #f3f8fb; padding-top: 30px;}
+.sec-ecomm .content.temp-info h3 {
+    width: calc(100% - 0px);
+}
+.sec-ecomm .content.temp-info {
+    padding: 15px 10px 10px !important;
+}
+span.no-card {
+    font-size: 13px;
+    color: #62696d;
+    opacity: 0.7;
+    margin-top: 15px;
+    display: block;
+}
+.ecomm-growth {
+    margin: 0px;
+}
+.sec-recom-quiz {
+    margin: 0;
+}
+.ecomm .reading-block {
+    margin-bottom: 50px;
+}
+.ecomm .ecomm-growth .col-sm-6:nth-child(3) .pre-temp-view, 
+.ecomm .ecomm-growth .col-sm-6:nth-child(4) .pre-temp-view {
+    margin-bottom: 15px;
+}
+.ecomm .section-reading {
+    padding-bottom: 30px;
+}
+.section.sec-last {
+    background: #f3f8fb;
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+    .ecomm .pre-temp-view {margin-bottom: 30px; margin-top: 0px;}
+    .ecomm .ecomm-growth .col-sm-6:nth-child(3) .pre-temp-view, .ecomm .ecomm-growth .col-sm-6:nth-child(4) .pre-temp-view {margin-bottom: 30px;}
+    .ecomm .section-2-heading {font-size: 22px!important; padding: 0px !important; line-height: normal !important; margin-top: 10px!important;}
+    .ecomm-outer {width: 100%;}
+    .ecomm-growth .section-2-heading , .case-breathers1 .section-2-heading {margin-top: 40px !important;}
+    .sec-recom-quiz {margin-bottom: 30px;}
+    .section.sec-last {padding-bottom: 30px;}
+    .ecomm .case-breathers1 {margin-bottom: 15px;}
+    .ecomm .section-reading {padding-top: 40px;}
+
+}
+@media (max-width: 380px) and (min-width: 320px) {
+    .sec-last .startTrial-outer i.material-icons, .sec-recom-quiz .startTrial-outer i.material-icons {
+        left: 27px!important;
+    }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+    .ecomm .content.temp-info h3 p {text-align: center; margin-bottom: 10px;}
+}
+@media (max-width: 767px) and (min-width: 481px) {
+    /* .sec-ecomm .content.temp-info {padding: 10px 10px 0px !important;} */
+    .sec-ecomm .content.temp-info h3 {width: calc(100% - 231px); margin-top: 10px;}
+    .sec-recom-quiz .section-2-heading, .sec-last .section-2-heading {margin-bottom: 20px;}
+
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+    .ecomm-outer {width: 100%;}
+    .sec-ecomm {padding-top: 0;}
+    .sec-ecomm {margin-bottom: 0px;}
+    .sec-recom-quiz .section-2-heading, .sec-last .section-2-heading {margin-bottom: 20px;}
+    .ecomm .section-2-heading {font-size: 22px !important; line-height: normal !important;}
+    .section.sec-last {padding-top: 0; padding-bottom: 30px;}
+    .sec-ecomm .content.temp-info {padding: 15px 0px 10px !important;}
+    .pre-temp-view .content.temp-info .btn.btn-red {padding: 10px 12px; height: 40px;}
+    .sec-ecomm .content.temp-info h3 {width: calc(100% - 225px);}
+    .ecomm .case-breathers1 {margin-bottom: 10px;}
+    .ecomm .sec-ecomm .col-sm-6:nth-child(3) .pre-temp-view, .ecomm .sec-ecomm .col-sm-6:nth-child(4) .pre-temp-view {
+        margin-bottom: 20px;
+    }
+    .ecomm .section-reading .section-heading {
+        font-size: 22px !important;
+        line-height: normal !important;
+    }
+
+}
+@media (max-width: 1200px) and (min-width: 1024px) {
+    .ecomm .section-2-heading {font-size: 30px !important; line-height: normal !important;}
+    .sec-recom-quiz {margin-bottom: 30px;}
+    .ecomm .section-reading {padding-top: 70px;}
+    .ecomm .reading-content {min-height: 270px;}
+    .ecomm-outer {width: 100%;}
+    .case-breathers1 {margin-top: 30px !important;}
+
+}
+
+
+@media (max-width: 1280px) and (min-width: 1251px) {
+    .ecomm .startTrial-outer i.material-icons {left: 57px!important;}
+}
+
+/* start: Beautiful High-Converting Ecommerce Quizzes, Built with Outgrow */
+.temp-demo-outer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.temp-demo {
+    float: none;
+    background: #fff;
+    padding: 7px 7px 0;
+    margin: 0 auto 50px;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 10px 20px 0 rgba(199,199,199,.51);
+    box-shadow: 1px 10px 20px 0 rgba(199,199,199,.51);
+    width: 510px;
+    overflow: hidden;
+}
+.image-bg {
+    height: 283px;
+    display: block;
+    position: relative;
+}
+.inline-temp-new .image-bg .image-scroll {
+    transition: all 6s ease-out 0s;
+    -webkit-transition: all 6s ease-out 0s;
+    -moz-transition: all 6s ease-out 0s;
+    -ms-transition: all 6s ease-out 0s;
+    -o-transition: all 6s ease-out 0s;
+}
+.image-bg .image-scroll {
+    transition: all 16s ease-out 0s;
+    -webkit-transition: all 16s ease-out 0s;
+    -moz-transition: all 16s ease-out 0s;
+    -ms-transition: all 16s ease-out 0s;
+    -o-transition: all 16s ease-out 0s;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 283px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: 100%;
+    cursor: default;
+}
+.image-bg:hover .image-scroll {
+    background-position: center 100%!important;
+}
+.temp-demo .content {
+    background: #fff;
+    padding: 17px 10px !important;
+    float: left;
+    width: 100%;
+}
+.temp-demo .content .content-sec {
+    width: auto;
+}
+.temp-demo .content .btn-red {
+    background: #fb5f66;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    float: right;
+    padding: 11px 15px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    border: 2px solid transparent;
+}
+.temp-iframe-preview {
+    margin-right: 10px;
+}
+.temp-demo .content h2 {
+    color: #666;
+    font-size: 18px;
+    font-family: montserratregular;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.temp-demo .content .content-sec span {
+    font-size: 12px;
+    color: #a0a0a0;
+    font-family: montserratlight;
+}
+.temp-demo .content-sec .dot {
+    width: 2px;
+    height: 2px;
+    background: #a0a0a0;
+    display: inline-block;
+    top: -3px;
+    position: relative;
+    margin-right: 8px;
+    margin-left: 5px;
+    border-radius: 25px!important;
+}
+.temp-demo .content .btn-red {
+    background: #fb5f66;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    float: right;
+    padding: 11px 15px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    border: 2px solid transparent;
+}
+.temp-demo .content a.btn-red {
+    background: #fff!important;
+    border: 2px solid #666!important;
+    color: #666!important;
+}
+.temp-demo .content a.btn-red:hover {
+    background: #666!important;
+    border: 2px solid #666!important;
+    color: #fff!important;
+}
+@media only screen and (max-width: 1366px) and (min-width: 768px) {
+    .temp-demo-outer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 420px) {
+    .temp-demo .content .btn-red {
+        float: none!important;
+        margin: 0 auto 15px;
+    }
+    .temp-demo .content .content-sec {
+        width: 100%;
+        text-align: center;
+    }
+    .content a.temp-iframe-preview {
+        margin-right: 10px;
+        display: none !important;
+    }
+    .btn-hover.rs-hide {
+        display: none !important;
+    }
+    .btn-hover.rs-show {
+        display: block !important;
+    }
+}
+.btn-hover.rs-hide {
+    display: block;
+}
+.btn-hover.rs-show {
+    display: none;
+}
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+    .btn-hover.rs-hide {
+        display: block !important;
+    }
+    .btn-hover.rs-show {
+        display: none !important; 
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .temp-demo {
+        margin-bottom: 35px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 768px) {
+    .temp-demo .content .btn-red {padding: 10px;}
+    .ecomm .content.temp-info {min-height: 85px;}
+    .sec-recom-quiz {margin-bottom: 15px;}
+}
+/* end: Beautiful High-Converting Ecommerce Quizzes, Built with Outgrow */
