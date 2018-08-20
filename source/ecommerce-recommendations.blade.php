@@ -555,7 +555,7 @@
 							</span>
 							<button class="btn btn-red btn-hover rs-hide" type="button">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" data-target="#template-Iframepopup" data-toggle="modal" href="javascript:void(0);">
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1038">
 							Preview</a>
 						</div>
 					</div>
@@ -582,7 +582,7 @@
 							</span>
 							<button class="btn btn-red btn-hover rs-hide" type="button">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" data-target="#template-Iframepopup" data-toggle="modal" href="javascript:void(0);">
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1044">
 							Preview</a>
 						</div>
 					</div>
@@ -609,7 +609,7 @@
 							</span>
 							<button class="btn btn-red btn-hover rs-hide" type="button">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" data-target="#template-Iframepopup" data-toggle="modal" href="javascript:void(0);">
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1051">
 							Preview</a>
 						</div>
 					</div>
@@ -636,7 +636,7 @@
 							</span>
 							<button class="btn btn-red btn-hover rs-hide" type="button">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" data-target="#template-Iframepopup" data-toggle="modal" href="javascript:void(0);">
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1056">
 							Preview</a>
 						</div>
 					</div>
