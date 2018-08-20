@@ -542,7 +542,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-								<button class="btn btn-red btn-hover rs-show" type="button">
+								<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 									<!----> Use Template</button>
 								<h2>The Greek </h2>
 								<span class="hide">
@@ -569,7 +569,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-							<button class="btn btn-red btn-hover rs-show" type="button">
+							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 								<!----> Use Template</button>
 							<h2>The Madrid </h2>
 							<span class="hide">
@@ -596,7 +596,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-							<button class="btn btn-red btn-hover rs-show" type="button">
+							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 								<!----> Use Template</button>
 							<h2>The Stockholm </h2>
 							<span class="hide">
@@ -623,7 +623,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-							<button class="btn btn-red btn-hover rs-show" type="button">
+							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 								<!----> Use Template</button>
 							<h2>The Venice </h2>
 							<span class="hide">
