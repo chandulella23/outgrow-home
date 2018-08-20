@@ -2373,13 +2373,27 @@ label {
 	font-family: montserratlight;
 }
 
-.footer-img-text a {
-	color: #62696d;
-	font-family: montserratlight;
+.footer-img-text span {
+    color: #62696d;
+    font-family: montserratlight;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0;
 }
 
-.footer-img-text a:hover {
-	color: #fb5f66;
+.footer-img2:hover .footer-img-text span {
+    color: #fb5f66
+}
+
+.footer-img2 a {
+    float: left;
+    width: 100%;
+}
+
+.footer-img2 a span {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .footer-social {
@@ -7100,6 +7114,7 @@ span.icon-webcam {
 	display: none;
 }
 
+
 .billing-grey-bottom .billing-list .vis-hidden:after,
 .billing-white-bottom .billing-list .vis-hidden:after {
 	visibility: hidden;
@@ -9656,10 +9671,10 @@ span.feature-subtitle {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	min-width: 203px;
+	min-width: 200px;
 	box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.10);
 	z-index: 1;
-	left: 10px;
+	right: 5px;
 	/* top: 60px;  */
 }
 

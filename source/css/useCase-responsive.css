@@ -83,6 +83,7 @@
 		position: unset;
 		top: 0;
 		margin-bottom: 15px;
+		display: none;
 	}
 	.premade-template-new {margin-top: 0; margin-bottom: 0px;}
 	.pre-temp-cat-new.scrollbar {display: none;}
@@ -200,6 +201,7 @@
 		position: unset;
 		top: 0;
 		margin-bottom: 20px;
+		display: none;
 	}
 	.premade-template-new .selectize-wrapper {
 		display: block;

@@ -1462,6 +1462,10 @@
 
 	<!-- end: landing page HTML  -->
 
+	<script>
+		let navgetinspired = document.getElementById('nav-get-inspired');
+		navgetinspired.classList.add("active")
+	</script>
 @endsection
 
 @section('inlinescripts')
