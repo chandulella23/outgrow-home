@@ -39,26 +39,26 @@
 						eBooks, blogs & whitepapers giving average results?
 					</h4> -->
 					<h1 class="section1-firstheadnoab">
-						<span class="font-semibold">Increase Ecommerce Sales with Interactive <br/>Product Recommendations</span>
+						<span class="">Increase Ecommerce Sales with Interactive <br/>Product Recommendations</span>
 					</h1>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np home-imgs">
 						<ul>
 							<li>
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-calc.png" alt="Unique Shopping Experience">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-calc1.png" alt="Unique Shopping Experience">
+								<img src="{{ $page->baseUrl }}/images/ecom_landing-top1.png" alt="Unique Shopping Experience">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/ecom_landing-top1.png" alt="Unique Shopping Experience">
 								Unique Shopping <br/>Experience</li>
 							<li>
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes.png" alt="Improved Customer Engagement">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-quizzes1.png" alt="Improved Customer Engagement">
+								<img src="{{ $page->baseUrl }}/images/ecom_landing-top2.png" alt="Improved Customer Engagement">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/ecom_landing-top2.png" alt="Improved Customer Engagement">
 								Improved Customer <br/>Engagement</li>
 							<li>
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-assessments.png" alt="Higher Average Order Value (AOV)">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-assessments1.png" alt="Higher Average Order Value (AOV)">
+								<img src="{{ $page->baseUrl }}/images/ecom_landing-top3.png" alt="Higher Average Order Value (AOV)">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/ecom_landing-top3.png" alt="Higher Average Order Value (AOV)">
 								Higher Average <br/>Order Value (AOV) </li>
 							<li class="recmd">
-								<img src="//dzvexx2x036l1.cloudfront.net/img-home-recom.png" alt="Eliminate Abandoned Carts">
-								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-recom1.png" alt="Eliminate Abandoned Carts">
+								<img src="{{ $page->baseUrl }}/images/ecom_landing-top4.png" alt="Eliminate Abandoned Carts">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/ecom_landing-top4.png" alt="Eliminate Abandoned Carts">
 								Eliminate Abandoned <br/>Carts</li>
 						</ul>
 					</div>
