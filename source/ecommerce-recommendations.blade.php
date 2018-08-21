@@ -39,7 +39,7 @@
 						eBooks, blogs & whitepapers giving average results?
 					</h4> -->
 					<h1 class="section1-firstheadnoab">
-						<span class="font-semibold">Increase Ecommerce Sales with Interactive <br/>Product Recommendations</span>
+						<span class="">Increase Ecommerce Sales with Interactive <br/>Product Recommendations</span>
 					</h1>
 
 					<div class="col-md-12 col-sm-12 col-xs-12 np home-imgs">
