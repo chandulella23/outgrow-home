@@ -1862,6 +1862,7 @@ li.nav-lead-input {
         opacity: 1 !important;
 	}
 	.dashboard-login {margin: 0px 0px 10px !important;}
+	.custom-navbar.navbar-default .navbar-nav>li>a .hvr-underline-from-left:before {display:none;}
 }
 @media (max-width: 1280px) and (min-width: 1024px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 12px;}
