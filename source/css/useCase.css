@@ -777,7 +777,7 @@ body{background:#fff !important;}
         text-transform: capitalize;
     }
     .selectize-wrapper .selectize-control.single .selectize-input input {
-        width: 100% !important;
+        /* width: 100% !important; */
     }
     .selectize-wrapper .selectize-dropdown-content {
         overflow-y: auto;
@@ -943,11 +943,12 @@ body{background:#fff !important;}
     }
     .selectize-control.single .selectize-input input {
         pointer-events: none;
+        color: #fff;
     }
     .selectize-wrapper .selectize-control .selectize-input {
         width: 100%;
         border: none;
-        color: #526479;
+        color: #fff;
         font-size: 13px;
         height: auto !important;
         /* border-bottom: 1px solid #b7daef!important; */
@@ -959,23 +960,26 @@ body{background:#fff !important;}
         box-shadow: none;
         font-family: montserratlight;
     }
-    .selectize-wrapper .selectize-control .selectize-input input::-webkit-input-placeholder {
-        color: #afb3b9 !important;
+    .selectize-wrapper .selectize-control.single .selectize-input input::-webkit-input-placeholder {
+        color: #fff !important;
         font-size: 13px;
         font-style: normal;
         font-family: montserratlight;
+        opacity: 1 !important;
     }
-    .selectize-wrapper .selectize-control .selectize-input input::-moz-placeholder {
-        color: #afb3b9 !important;
+    .selectize-wrapper .selectize-control.single .selectize-input input::-moz-placeholder {
+        color: #fff !important;
         font-size: 13px;
         font-style: normal;
         font-family: montserratlight;
+        opacity: 1 !important;
     }
-    .selectize-wrapper .selectize-control .selectize-input input:-ms-input-placeholder {
-        color: #afb3b9 !important;
+    .selectize-wrapper .selectize-control.single .selectize-input input:-ms-input-placeholder {
+        color: #fff !important;
         font-size: 13px;
         font-style: normal;
         font-family: montserratlight;
+        opacity: 1 !important;
     }
     .selectize-wrapper .selectize-control .selectize-input .item {
         /* background-color: #fff !important;
@@ -1030,5 +1034,12 @@ body{background:#fff !important;}
     }
     .selectize-wrapper .selectize::-webkit-input-placeholder {
         opacity: 0.2;
+    }
+    .selectize-dropdown [data-selectable] .highlight {
+        background: rgba(125, 168, 208, 0.2);
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+        color: #84898d;
     }
 /* end custom selectize */
