@@ -458,7 +458,7 @@ jQuery(document).ready(function () {
     console.log('#########################################');
     jQuery('#nav-examples').addClass('active');
     jQuery('#nav-get-inspired').addClass('active');
-    
+
     calculateMinHeight();
     window.Intercom('update', {
         'site_example_viewed': new Date()
@@ -493,17 +493,12 @@ jQuery(document).ready(function () {
 
 window.filterList = function () {
     let text = document.querySelector('#search-experience').value.toLowerCase();
-    let experienceList = document.querySelector('#calc-cats').children;
-    console.log('diamonds and rust');
+    let list = jQuery('#calc-cats').children();
 
-    for (let i = 0; i < experienceList.length; i++) {
-        let element = experienceList[i];
-        element.classList.remove('hide');
-        let textContent = element.textContent.toLowerCase().trim();
-        if (textContent.includes(text) || textContent === '') {
-
-        } else {
-            element.classList.add('hide');
+    list.each(function (index) {
+        const textContent = jQuery(this).text().toLowerCase().trim();
+        if (textContent.includes(text)) {
+            jQuery(this).parent().prepend(this);
         }
-    }
+    });
 }
