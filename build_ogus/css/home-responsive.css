@@ -2525,7 +2525,7 @@
     #feature .feature-heading-1 h3 {font-size: 42px !important;}
 
     #pricing .section-1 {margin-top: 90px !important; padding-top: 60px !important;}
-    .section-main.sec-example {margin-top: 40px;}
+    /* .section-main.sec-example {margin-top: 40px;} */
     .Privacy .section-services { margin-top: 80px;}
 
     .calc-table {margin-top: 105px;}
