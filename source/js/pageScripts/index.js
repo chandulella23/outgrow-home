@@ -94,6 +94,13 @@ jQuery.material.init();
 
 jQuery(document).ready(function () {
 
+    // jQuery('.noToggle').click(function(e) {
+    //     e.preventDefault();
+    //     setTimeout(() => {
+    //         jQuery('#GetInspired').addClass('open');
+    //     }, 50);
+    // });
+
     jQuery("#menu-close").click(function (e) {
         e.preventDefault();
         jQuery("#sidebar-wrapper").removeClass("active");
