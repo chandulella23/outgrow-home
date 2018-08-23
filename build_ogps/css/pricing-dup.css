@@ -1816,8 +1816,8 @@ a.text-red {
 	.pricing-outer.pricing-col-four tbody td:nth-child(3) {
 		border-right: 1px solid #bed4df;
 	}
-	.pricing-outer.pricing-col-four thead th:nth-child(3), 
-	.pricing-outer.pricing-col-four tbody td:nth-child(3) {
+	.pricing-outer.pricing-col-four thead th:nth-child(2), 
+	.pricing-outer.pricing-col-four tbody td:nth-child(2) {
 		border-right: 1px solid #bed4df;
 	}
 	.pricing-outer.pricing-col-four tbody th i.material-icons {
