@@ -103,13 +103,15 @@
 			document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
-					document.getElementsByClassName('lead-email')[0].href = href + email;
+					var ciphertext = CryptoJS.AES.encrypt(email, 'lellachandusai');
+					document.getElementsByClassName('lead-email')[0].href = href + ciphertext;
 				}
 
 				document.getElementsByClassName('lead-form-email')[1].onchange = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
-					document.getElementsByClassName('lead-email')[1].href = href + email;
+					var ciphertext = CryptoJS.AES.encrypt(email, 'lellachandusai');
+					document.getElementsByClassName('lead-email')[1].href = href + ciphertext;
 				}
 				// window.callGA = function(a) {
 				//     switch (a) {
@@ -123,16 +125,18 @@
 				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
+					var ciphertext = CryptoJS.AES.encrypt(email, 'lellachandusai');
 					if (e.keyCode == 13) {
-						window.location.href = href+email;
+						window.location.href = href+ciphertext;
 					}
 				}
 
 				document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
 				let email = e.target.value;
 				let href = "//app.outgrow.co/signup/?email=";
+				var ciphertext = CryptoJS.AES.encrypt(email, 'lellachandusai');
 				if (e.keyCode == 13) {
-					window.location.href = href+email;
+					window.location.href = href+ciphertext;
 				}
 				}
 			</script>
