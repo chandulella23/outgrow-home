@@ -107,6 +107,14 @@
 					let href = "//app.outgrow.co/signup/?email=";
 					document.getElementsByClassName('lead-email')[1].href = href + email;
 				}
+				// document.getElementsByClassName('lead-form-email')[3].onchange = function (e) {
+				// 	console.log('qwty');
+				// 	let email = e.target.value;
+				// 	let href = "//app.outgrow.co/signup/?email=";
+				// 	document.getElementsByClassName('lead-email')[1].href = href + email;
+				// }
+
+				
 				// window.callGA = function(a) {
 				//     switch (a) {
 				//         case "CANNOT WAIT CTA":
@@ -131,6 +139,7 @@
 					window.location.href = href+email;
 				}
 				}
+
 			</script>
 
 			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
@@ -1415,6 +1424,38 @@
 			</div>
 		</div>
 	</section>
+	<script>
+	document.getElementsByClassName('lead-form-email')[2].onchange = function (e) {
+					console.log('peth');
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					document.getElementsByClassName('lead-email')[2].href = href + email;
+				}
+
+				document.getElementsByClassName('lead-form-email')[2].onkeypress = function (e) {
+					console.log('keypress');
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
+			document.getElementsByClassName('lead-form-email')[3].onchange = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					document.getElementsByClassName('lead-email')[3].href = href + email;
+				}
+
+				document.getElementsByClassName('lead-form-email')[3].onkeypress = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
+
+
+	</script>
 @endsection
 
 @section('inlinescripts')
