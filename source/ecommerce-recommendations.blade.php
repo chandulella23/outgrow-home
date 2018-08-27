@@ -364,13 +364,11 @@
 									</span>
 								</span>
 								<div class="content temp-info">
-									<a href="https://premade.outgrow.us/which-sports-watch-is-best-suited-to-your-needs">
-										<h3>
-											<p id="premade-calc-name">
-												Which Sports Watch is best suited to your needs?
-											</p>
-										</h3>
-									</a>
+									<h3>
+										<p id="premade-calc-name">
+											1. Add products from Shopify, RSS, Excel or manually
+										</p>
+									</h3>
 								</div>
 							</div>
 						</div>
@@ -384,13 +382,11 @@
 									</span>
 								</span>
 								<div class="content temp-info">
-									<a href="https://premade.outgrow.us/premadeWhich-Sunglasses-Suit-Your-Face-the-Best">
-										<h3>
-											<p id="premade-calc-name">
-												Which Sunglasses Suit Your Face the Best?
-											</p>
-										</h3>
-									</a>
+									<h3>
+										<p id="premade-calc-name">
+											2. Create Questions for your Store Visitors
+										</p>
+									</h3>
 								</div>
 							</div>
 						</div>
@@ -404,13 +400,11 @@
 									</span>
 								</span>
 								<div class="content temp-info">
-									<a href="https://premade.outgrow.us/Which-makeup-set-suits-your-face-the-best">
-										<h3>
-											<p id="premade-calc-name">
-												Which Makeup Set Suits Your Face The Best?  
-											</p>
-										</h3>
-									</a>
+									<h3>
+										<p id="premade-calc-name">
+											3. Recommend Products based on Question Responses
+										</p>
+									</h3>
 								</div>
 							</div>
 						</div>
@@ -424,13 +418,11 @@
 									</span>
 								</span>
 								<div class="content temp-info">
-									<a href="https://premade.outgrow.us/what-is-the-best-smartphone-that-you-can-afford">
-										<h3>
-											<p id="premade-calc-name">
-												What Is The Best Smartphone That You Can Afford?
-											</p>
-										</h3>
-									</a>
+									<h3>
+										<p id="premade-calc-name">
+											4. Automatically link products recommended to their specific Product Pages
+										</p>
+									</h3>
 								</div>
 							</div>
 						</div>
@@ -549,7 +541,7 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="col-md-12 col-sm-12 col-xs-12 np ecomm-outer">
+			<div class="col-md-12 col-sm-12 col-xs-12 np ecomm-outer hide">
 				<div class="col-md-6 col-sm-6 col-xs-12 temp-demo-outer inline-temp-new">
 					<div class="temp-demo">
 						<a class="" href="javascript:void(0);" target="_blank">
@@ -654,6 +646,124 @@
 							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premade-1056">
+							Preview</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 np ecomm-outer">
+				<div class="col-md-6 col-sm-6 col-xs-12 temp-demo-outer inline-temp-new">
+					<div class="temp-demo">
+						<a class="" href="javascript:void(0);" target="_blank">
+							<span class="image-bg1">
+								<span class="image-scroll1 temp-img">
+									<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-quiz1.jpg" />
+								</span>
+							</span>
+						</a>
+						<div class="content">
+							<span class="content-sec col-sm-8 col-xs-8 np">
+								<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+									<!----> Use Template</button>
+								<h2>Which Sports Watch is best suited to your needs? </h2>
+								<span class="hide">
+									SUPPORTS:
+									<!----><span>
+									<span class="dot"></span>a </span><span>
+									<span class="dot"></span>b </span><span>
+									<span class="dot"></span>c </span>
+								</span>
+							</span>
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<!----> Use Layout</button>
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/which-sports-watch-is-best-suited-to-your-needs">
+							Preview</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 temp-demo-outer template-five">
+					<div class="temp-demo">
+						<a class="" href="javascript:void(0);" target="_blank">
+							<span class="image-bg1">
+								<span class="image-scroll1 temp-img">
+									<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-quiz2.jpg" />
+								</span>
+							</span>
+						</a>
+						<div class="content">
+							<span class="content-sec col-sm-8 col-xs-8 np">
+							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+								<!----> Use Template</button>
+							<h2>Which Sunglasses Suit Your Face the Best? </h2>
+							<span class="hide">
+								SUPPORTS:
+								<!----><span>
+								<span class="dot"></span>a </span><span>
+								<span class="dot"></span>b </span><span>
+								<span class="dot"></span>c </span>
+							</span>
+							</span>
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<!----> Use Layout</button>
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premadeWhich-Sunglasses-Suit-Your-Face-the-Best">
+							Preview</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 temp-demo-outer template-six">
+					<div class="temp-demo">
+						<a class="" href="javascript:void(0);" target="_blank">
+							<span class="image-bg1">
+								<span class="image-scroll1 temp-img">
+									<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-quiz3.jpg" />
+								</span>
+							</span>
+						</a>
+						<div class="content">
+							<span class="content-sec col-sm-8 col-xs-8 np">
+							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+								<!----> Use Template</button>
+							<h2>Which Makeup Set Suits Your Face The Best?   </h2>
+							<span class="hide">
+								SUPPORTS:
+								<!----><span>
+								<span class="dot"></span>a </span><span>
+								<span class="dot"></span>b </span><span>
+								<span class="dot"></span>c </span>
+							</span>
+							</span>
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<!----> Use Layout</button>
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/Which-makeup-set-suits-your-face-the-best">
+							Preview</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 temp-demo-outer template-eight">
+					<div class="temp-demo">
+						<a class="" href="javascript:void(0);" target="_blank">
+							<span class="image-bg1">
+								<span class="image-scroll1 temp-img">
+									<img id="premade-gif" src="{{ $page->baseUrl }}/images/img-ecomm-quiz4.jpg" />
+								</span>
+							</span>
+						</a>
+						<div class="content">
+							<span class="content-sec col-sm-8 col-xs-8 np">
+							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+								<!----> Use Template</button>
+							<h2>What Is The Best Smartphone That You Can Afford? </h2>
+							<span class="hide">
+								SUPPORTS:
+								<!----><span>
+								<span class="dot"></span>a </span><span>
+								<span class="dot"></span>b </span><span>
+								<span class="dot"></span>c </span>
+							</span>
+							</span>
+							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<!----> Use Layout</button>
+							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/what-is-the-best-smartphone-that-you-can-afford">
 							Preview</a>
 						</div>
 					</div>
