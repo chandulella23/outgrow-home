@@ -120,6 +120,7 @@ li.nav-lead-input {
 /* ecommerce css */
 .ecomm .section-1-left h1.section1-firstheadnoab {
     font-family: montserratregular;
+    padding: 0px 175px;
 }
 .ecomm .pre-temp-view {width: 100%; border: 7px solid #fff; border-radius: 5px; margin-bottom: 50px;}
 .ecomm .content.temp-info h3 {
@@ -146,6 +147,7 @@ li.nav-lead-input {
     overflow: unset;
     font-family: montserratregular;
     text-align: left;
+    transition: .2s ease-in-out;
 }
 .ecomm .content.temp-info {
     background: #fff;
@@ -212,15 +214,28 @@ span.no-card {
     .section.sec-last {padding-bottom: 30px;}
     .ecomm .case-breathers1 {margin-bottom: 15px;}
     .ecomm .section-reading {padding-top: 40px;}
+    .ecomm .section-1-left h1.section1-firstheadnoab {padding: 0px;}
+    .ecomm .home-imgs li {font-size: 13px;}
 
+}
+@media (max-width: 480px) and (min-width: 350px) {
+    .ecomm .section-1-left h1.section1-firstheadnoab {padding: 0 40px !important;}
 }
 @media (max-width: 380px) and (min-width: 320px) {
     .sec-last .startTrial-outer i.material-icons, .sec-recom-quiz .startTrial-outer i.material-icons {
-        left: 27px!important;
+        left: 27px !important;
+    }
+    .ecomm .section-1-left h1.section1-firstheadnoab {
+        font-size: 20px;
+        padding: 0px !important;
     }
 }
 @media (max-width: 480px) and (min-width: 320px) {
     .ecomm .content.temp-info h3 p {text-align: center; margin-bottom: 10px;}
+    .ecomm .img-wrapper img {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 @media (max-width: 767px) and (min-width: 481px) {
     /* .sec-ecomm .content.temp-info {padding: 10px 10px 0px !important;} */
@@ -246,6 +261,7 @@ span.no-card {
         font-size: 22px !important;
         line-height: normal !important;
     }
+    .ecomm .section-1-left h1.section1-firstheadnoab {padding: 0px;}
 
 }
 @media (max-width: 1200px) and (min-width: 1024px) {
@@ -255,7 +271,7 @@ span.no-card {
     .ecomm .reading-content {min-height: 270px;}
     .ecomm-outer {width: 100%;}
     .case-breathers1 {margin-top: 30px !important;}
-
+    .ecomm .section-1-left h1.section1-firstheadnoab {padding: 0px;}
 }
 
 
@@ -444,3 +460,28 @@ span.no-card {
     }
 }
 /* end: Beautiful High-Converting Ecommerce Quizzes, Built with Outgrow */
+
+.ecomm .content.temp-info h3 p:hover {
+    color: #fb5f66;
+    text-decoration: underline;
+}
+.ecomm .reading-content p {
+    font-size: 14px;
+    opacity: .7;
+    padding-top: 10px;
+    min-height: auto;
+    line-height: 24px;
+    display: inline;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+.ecomm .reading-content {
+    color: #62696d;
+    font-family: montserratlight;
+    padding: 30px 20px 30px 25px;
+    min-height: 240px;
+}
