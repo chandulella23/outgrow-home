@@ -456,7 +456,7 @@ span.no-card {
 .btn-hover.rs-show {
     display: none;
 }
-@media only screen and (max-width: 768px) and (min-width: 480px) {
+@media only screen and (max-width: 768px) and (min-width: 481px) {
     .btn-hover.rs-hide {
         display: block !important;
     }
@@ -574,6 +574,7 @@ span.no-card {
     }
     @media (max-width: 1280px) and (min-width: 1024px) {
         .footer-social {padding-left: 27px;}
+        .ecomm .reading-content {min-height: 270px;}
     }
     @media (max-width: 990px) and (min-width: 0px) {
         .footer-social {text-align: center; line-height: normal; padding: 50px 0px;}
