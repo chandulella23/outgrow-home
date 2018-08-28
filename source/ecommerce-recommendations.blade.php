@@ -366,7 +366,7 @@
 								<div class="content temp-info">
 									<h3>
 										<p id="premade-calc-name">
-											1. Add products from Shopify, RSS, Excel or manually
+											<span>1. </span> Add products from Shopify, RSS, Excel or manually
 										</p>
 									</h3>
 								</div>
@@ -384,7 +384,7 @@
 								<div class="content temp-info">
 									<h3>
 										<p id="premade-calc-name">
-											2. Create Questions for your Store Visitors
+											<span>2. </span> Create Questions for your Store Visitors
 										</p>
 									</h3>
 								</div>
@@ -402,7 +402,7 @@
 								<div class="content temp-info">
 									<h3>
 										<p id="premade-calc-name">
-											3. Recommend Products based on Question Responses
+											<span>3. </span> Recommend Products based on Question Responses
 										</p>
 									</h3>
 								</div>
@@ -420,7 +420,7 @@
 								<div class="content temp-info">
 									<h3>
 										<p id="premade-calc-name">
-											4. Automatically link products recommended to their specific Product Pages
+											<span>4. </span> Automatically link products recommended to their specific Product Pages
 										</p>
 									</h3>
 								</div>
