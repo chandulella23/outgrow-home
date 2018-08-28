@@ -384,7 +384,7 @@
 								<div class="content temp-info">
 									<h3>
 										<p id="premade-calc-name">
-											<span>2. </span> Create Questions for your Store Visitors
+											<span>2. </span> Create questions for your store visitors
 										</p>
 									</h3>
 								</div>
@@ -402,7 +402,7 @@
 								<div class="content temp-info">
 									<h3>
 										<p id="premade-calc-name">
-											<span>3. </span> Recommend Products based on Question Responses
+											<span>3. </span> Recommend products based on question responses
 										</p>
 									</h3>
 								</div>
@@ -420,7 +420,7 @@
 								<div class="content temp-info">
 									<h3>
 										<p id="premade-calc-name">
-											<span>4. </span> Automatically link products recommended to their specific Product Pages
+											<span>4. </span> Automatically link products recommended to their specific product pages
 										</p>
 									</h3>
 								</div>
@@ -552,7 +552,7 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 								<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-									<!----> Use Template</button>
+									<!----> Use Layout</button>
 								<h2>The Greek </h2>
 								<span class="hide">
 									SUPPORTS:
@@ -579,7 +579,7 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-								<!----> Use Template</button>
+								<!----> Use Layout</button>
 							<h2>The Madrid </h2>
 							<span class="hide">
 								SUPPORTS:
@@ -606,7 +606,7 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-								<!----> Use Template</button>
+								<!----> Use Layout</button>
 							<h2>The Stockholm </h2>
 							<span class="hide">
 								SUPPORTS:
@@ -633,7 +633,7 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-								<!----> Use Template</button>
+								<!----> Use Layout</button>
 							<h2>The Venice </h2>
 							<span class="hide">
 								SUPPORTS:
@@ -664,8 +664,8 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 								<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-									<!----> Use Template</button>
-								<h2>Which Sports Watch is best suited to your needs? </h2>
+									<!----> Use Layout</button>
+								<h2>Which sports watch is best suited to your needs? </h2>
 								<span class="hide">
 									SUPPORTS:
 									<!----><span>
@@ -693,8 +693,8 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-								<!----> Use Template</button>
-							<h2>Which Sunglasses Suit Your Face the Best? </h2>
+								<!----> Use Layout</button>
+							<h2>Which sunglasses suit your face the best? </h2>
 							<span class="hide">
 								SUPPORTS:
 								<!----><span>
@@ -722,8 +722,8 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-								<!----> Use Template</button>
-							<h2>Which Makeup Set Suits Your Face The Best?   </h2>
+								<!----> Use Layout</button>
+							<h2>Which makeup set suits your face the best? </h2>
 							<span class="hide">
 								SUPPORTS:
 								<!----><span>
@@ -751,8 +751,8 @@
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
 							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
-								<!----> Use Template</button>
-							<h2>What Is The Best Smartphone That You Can Afford? </h2>
+								<!----> Use Layout</button>
+							<h2>What is the best smartphone that you can afford? </h2>
 							<span class="hide">
 								SUPPORTS:
 								<!----><span>

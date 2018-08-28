@@ -456,7 +456,7 @@ span.no-card {
 .btn-hover.rs-show {
     display: none;
 }
-@media only screen and (max-width: 768px) and (min-width: 480px) {
+@media only screen and (max-width: 768px) and (min-width: 481px) {
     .btn-hover.rs-hide {
         display: block !important;
     }
