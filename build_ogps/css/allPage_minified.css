@@ -131,7 +131,7 @@ li.nav-lead-input {
     font-family: montserratregular;
     float: left;
     width: calc(100% - 0px);
-    padding-right: 15px;
+    padding-right: 0px;
     position: relative;
     padding-left: 0;
 }
@@ -148,6 +148,11 @@ li.nav-lead-input {
     font-family: montserratregular;
     text-align: left;
     transition: .2s ease-in-out;
+    display: inline-flex;
+}
+.ecomm .content.temp-info h3 p span {
+    margin-left: 0;
+    padding-right: 5px;
 }
 .ecomm .content.temp-info {
     background: #fff;
@@ -231,7 +236,7 @@ span.no-card {
     }
 }
 @media (max-width: 480px) and (min-width: 320px) {
-    .ecomm .content.temp-info h3 p {text-align: center; margin-bottom: 10px;}
+    .ecomm .content.temp-info h3 p {text-align: center; margin-bottom: 10px; display: inline-block;}
     .ecomm .img-wrapper img {
         margin-right: 10px;
         margin-left: 10px;
@@ -425,7 +430,7 @@ span.no-card {
         padding-right: 15px;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
     .temp-demo .content .btn-red {
         float: none!important;
         margin: 0 auto 15px;
@@ -524,12 +529,16 @@ span.no-card {
 .ecomm .section-heading {
     margin-bottom: 30px;
 }
+.image-scroll1 img {
+    float: left;
+    width: 100%;
+}
 /* new footer changes */
     .footer-social {text-align: left; background: #f5f5f5; padding: 50px;}
     .footer-social ul li:first-child {padding-left: 0px;}
     .border-right {border-right: 1px solid rgba(189,197,200,.6);}
     .company-address, .footer-copyright {float: left;}
-    .footer-copyright {margin-top: 8px; margin-bottom: 0;}
+    .footer-copyright {margin-top:9px; margin-bottom: 0;}
     .footer-copyright .border-left {
         line-height: 0px;
         display: inline;
@@ -580,6 +589,17 @@ span.no-card {
     @media (max-width: 480px) and (min-width: 0px) {
         .footer-copyright .border-left {
             border-left: none !important;
+        }
+    }    
+    @media (max-width: 375px) and (min-width: 0px) {
+        .footer-badge {
+            margin-top: 10px !important;
+        }
+        .footer-copyright {
+            margin-top: 10px;
+        }
+        .footer-social ul li {
+            padding-bottom: 5px !important;
         }
     }
 /* new footer changes */
