@@ -2280,7 +2280,7 @@ li.nav-lead-input {
 .footer-social ul li:first-child {padding-left: 0px;}
 .border-right {border-right: 1px solid rgba(189,197,200,.6);}
 .company-address, .footer-copyright {float: left;}
-.footer-copyright {margin-top: 8px; margin-bottom: 0;}
+.footer-copyright {margin-top: 9px; margin-bottom: 0;}
 .footer-copyright .border-left {
 	line-height: 0px;
 	display: inline;
@@ -2330,6 +2330,17 @@ i.zmdi.zmdi-twitter-box {
 @media (max-width: 480px) and (min-width: 0px) {
 	.footer-copyright .border-left {
 		border-left: none !important;
+	}
+}
+@media (max-width: 375px) and (min-width: 0px) {
+	.footer-badge {
+		margin-top: 10px !important;
+	}
+	.footer-copyright {
+		margin-top: 10px;
+	}
+	.footer-social ul li {
+		padding-bottom: 5px !important;
 	}
 }
 /* new footer changes */
