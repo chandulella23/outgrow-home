@@ -499,7 +499,7 @@ window.filterList = function () {
     list.each(function (index) {
         const textContent = jQuery(this).text().toLowerCase().trim();
 
-        if (text && textContent.includes(text)) {
+        if (text && textContent.startsWith(text)) {
             jQuery(this).parent().prepend(this);
             jQuery(this).addClass('active');
         }

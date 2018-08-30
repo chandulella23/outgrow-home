@@ -367,7 +367,7 @@
 											</li> -->
 										</ul>
 										<div class="pre-temp-view">
-											<div class="tag-exp"><i class="material-icons">star_rate</i> Customisable for the Auto Industry</div>
+											<div class="tag-exp"><i class="material-icons">star_rate</i><span class="tag-exp-text"> Customisable for the Auto Industry</span></div>
 											<div class="temp-preview">
 												<span class="image-bg1">
 													<span class="image-scroll1">

@@ -1059,8 +1059,9 @@ body{background:#fff !important;}
     font-size: 14px;
     width: 14px;
     vertical-align: sub;
+    margin-right: 5px;
 }
-ul.pre-temp-cat-new li:first-child:not(.active) a {
+/* ul.pre-temp-cat-new li:first-child:not(.active) a {
     background: #fb5f66;
     color: #fff;
-}
+} */
