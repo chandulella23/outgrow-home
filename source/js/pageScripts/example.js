@@ -500,7 +500,6 @@ window.filterList = function () {
         const textContent = jQuery(this).text().toLowerCase().trim();
 
         if (text && textContent.includes(text)) {
-            console.log('qwerty');
             jQuery(this).parent().prepend(this);
             jQuery(this).addClass('active');
         }
