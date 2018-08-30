@@ -101,6 +101,13 @@ jQuery(document).ready(function () {
     //     }, 50);
     // });
 
+    jQuery("#nav-use-cases").click(function(e) {
+        e.preventDefault();
+        jQuery('#GetInspired').addClass('open');
+        // $(".dropdown-sub-content").css("display", "block");
+    });
+    
+
     jQuery("#menu-close").click(function (e) {
         e.preventDefault();
         jQuery("#sidebar-wrapper").removeClass("active");
