@@ -1060,3 +1060,7 @@ body{background:#fff !important;}
     width: 14px;
     vertical-align: sub;
 }
+ul.pre-temp-cat-new li:first-child:not(.active) a {
+    background: #fb5f66;
+    color: #fff;
+}
