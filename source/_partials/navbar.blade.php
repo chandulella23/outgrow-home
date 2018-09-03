@@ -100,7 +100,7 @@
 				<a href="javascript:void(0);" onclick="callGA('USECASE')" class="params dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
 				<ul class="dropdown-content">
 					<div class="drop-sub-menu">
-						<li><a href="#" onclick="callGA('USECASES');" class="params" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a></li>
+						<li><a href="#" onclick="callGA('USECASES');" class="params " id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a></li>
 						<div class="dropdown-sub-content">
 							<li><a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a></li>
 							<li><a href="{{ $page->baseUrl }}/quiz" class="nav-use-cases-list">Quizzes </a></li>

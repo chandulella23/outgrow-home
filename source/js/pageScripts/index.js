@@ -94,19 +94,12 @@ jQuery.material.init();
 
 jQuery(document).ready(function () {
 
-    // jQuery('.noToggle').click(function(e) {
-    //     e.preventDefault();
-    //     setTimeout(() => {
-    //         jQuery('#GetInspired').addClass('open');
-    //     }, 50);
-    // });
-
-    jQuery("#nav-use-cases").click(function(e) {
+    jQuery('.noToggle').click(function(e) {
         e.preventDefault();
-        jQuery('#GetInspired').addClass('open');
-        // $(".dropdown-sub-content").css("display", "block");
-    });
-    
+        setTimeout(() => {
+            jQuery('#GetInspired').addClass('open');
+        }, 1000);
+    });    
 
     jQuery("#menu-close").click(function (e) {
         e.preventDefault();
