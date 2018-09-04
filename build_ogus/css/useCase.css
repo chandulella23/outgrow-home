@@ -527,7 +527,7 @@ body{background:#fff !important;}
     ul.pre-temp-list > li > a{font-size: 13px;    float: left; transition: 0.5s;color: #9fa7ad;font-family: montserratlight;padding-left: 15px; position: relative;}
     .premade-template{float: left; width: 100%;    margin-bottom: 40px; }
     ul.pre-temp-list > li.active > a, ul.pre-temp-list > li > a:hover{color: #4894ca; transition: 0.5s;}
-    .pre-temp-view {    float: left;    width: 70%;    background: #fafafa;    max-width: 100%;       border: 5px solid #fff;    box-shadow: 0px 0 30px rgba(0,0,0,0.2);}
+    .pre-temp-view {    float: left;    width: 70%;    background: #fafafa;    max-width: 100%;       border: 5px solid #fff;    box-shadow: 0px 0 30px rgba(0,0,0,0.2); position: relative;}
     .col-md-12.col-sm-12.col-xs-12.new-cards-section.pre-card {
         max-width: 1170px;
         margin: 0 auto;
@@ -656,6 +656,7 @@ body{background:#fff !important;}
         top: 48px;
         font-size: 16px;
         color: #888888;
+        cursor: pointer;
     }
     .premade-template-new .search-input input::-moz-placeholder{
         color: rgba(136, 136, 136, 0.5);
@@ -1043,3 +1044,25 @@ body{background:#fff !important;}
         color: #84898d;
     }
 /* end custom selectize */
+
+.tag-exp {
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    background: #f7f5f3;
+    border-radius: 10px 0px 0px 10px;
+    padding: 2px 15px;
+    font-size: 13px;
+    color: #fb5f66;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+}
+.tag-exp i.material-icons {
+    font-size: 14px;
+    width: 14px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+/* ul.pre-temp-cat-new li:first-child:not(.active) a {
+    background: #fb5f66;
+    color: #fff;
+} */

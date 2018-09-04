@@ -98,8 +98,8 @@ jQuery(document).ready(function () {
     //     e.preventDefault();
     //     setTimeout(() => {
     //         jQuery('#GetInspired').addClass('open');
-    //     }, 50);
-    // });
+    //     }, 1000);
+    // });    
 
     jQuery("#menu-close").click(function (e) {
         e.preventDefault();
