@@ -94,12 +94,12 @@ jQuery.material.init();
 
 jQuery(document).ready(function () {
 
-    jQuery('.noToggle').click(function(e) {
-        e.preventDefault();
-        setTimeout(() => {
-            jQuery('#GetInspired').addClass('open');
-        }, 1000);
-    });    
+    // jQuery('.noToggle').click(function(e) {
+    //     e.preventDefault();
+    //     setTimeout(() => {
+    //         jQuery('#GetInspired').addClass('open');
+    //     }, 1000);
+    // });    
 
     jQuery("#menu-close").click(function (e) {
         e.preventDefault();
