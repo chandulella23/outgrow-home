@@ -192,6 +192,7 @@
                     </div>    
                 </div>
             </div>
+            <div class="floating-btn"><button type="button" class="btn btn-white-new"> Get Personalized Ideas for your Company </button></div>
         </section>
     </div>
 
