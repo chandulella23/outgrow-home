@@ -33,7 +33,7 @@
 @section('content')
     <script>
         function sendValueToIntercom(key,value) {
-            window.Intercom('update', { [key]: value });
+            window.Intercom('update', { [key]: value,'email': jQuery('#form-email').val()});
         }          
     </script>
 	<div class="main-outr">
