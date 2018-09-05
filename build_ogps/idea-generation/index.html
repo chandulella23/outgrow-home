@@ -41,7 +41,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
 
 <!-- Analytics Tracking Snippets Starts -->
-<!-- <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script> -->
+ <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
 
 <script async>
 (function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0]);
@@ -224,7 +224,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	<img src="/images/lp-header-logo.png" alt="lp-header-logo image">
 </a>
 </div> -->
-		<div class="main-outr">
+	    <script>
+        function sendValueToIntercom(key,value) {
+            window.Intercom('update', { [key]: value });
+        }          
+    </script>
+	<div class="main-outr">
         <section class="sec-outr sec1-bg mouse-bg">
             <div class="sec">
                 <!--<div class="logo">
@@ -303,6 +308,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                     </div>
                 </div>
             </div>
+            
         </section>
         <section class="sec-outr sec4-bg hide">
             <div class="sec">
@@ -320,7 +326,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						</span>
                     </div>
                     <div class="butn-outr">
-                        <button type="submit" class="sec-button button-ideas">Show me my ideas</button>
+                        <button onclick="sendValueToIntercom('Website Form: Idea Generator','Yes')" type="submit" class="sec-button button-ideas">Show me my ideas</button>
                     </div>
                 </div>
             </div>
@@ -385,6 +391,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                     </div>    
                 </div>
             </div>
+            <div class="floating-btn">
+                <a onclick="sendValueToIntercom('Get Personalized Ideas','Yes')" data-sumome-listbuilder-id="863e96e6-c7a0-4b41-9829-a8e72ee55c08" 
+                    class="btn btn-white-new"> Get Personalized Ideas for your Company </a>
+                </div>
         </section>
     </div>
 

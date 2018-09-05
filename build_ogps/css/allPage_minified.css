@@ -82,7 +82,7 @@ li.nav-lead-input {
     /* .navbar-header {width: 100%; margin-right: 0; margin-left: 0;} */
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 12px !important; line-height: 18px;}
     .dashboard-login {
-        margin: 0px 0px 10px 10px!important;
+        margin: 5px 0px 10px 10px!important;
         display: inline-block !important;
     }
     .custom-navbar.navbar-default .navbar-nav>li>a .hvr-underline-from-left:before {display:none;}
@@ -612,6 +612,7 @@ span.no-card {
     line-height: normal;
     padding: 0;    
     opacity: 1;
+    font-family: montserratbold;
 }
 .custom-navbar.navbar-default .navbar-nav>li.dashboard-login:hover {
     background: #fdb6b9 !important;
