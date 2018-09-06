@@ -949,3 +949,9 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     transition: .5s ease-in-out;
     opacity: 0.75;
 }
+.floating-btn.floating-btn-space {margin-bottom: 40px;}
+@media (min-width: 768px) and (max-width:1024px) {
+    .floating-btn {margin: -20px auto 160px;}
+
+
+}

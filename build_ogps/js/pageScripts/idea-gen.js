@@ -125,6 +125,9 @@ function stepEmail () {
 
             $(document).find('.selectize-input input').attr("disabled", true);
             console.log('>>>>', $(document).find('.selectize-input input').attr("disabled"));
+            jQuery(".icon-close").click(function() {
+                jQuery('.floating-btn').addClass('floating-btn-space');
+            });
         });
 
         if(window.location.search.match(/\?get-started/)) {
