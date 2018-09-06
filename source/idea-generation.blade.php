@@ -205,7 +205,7 @@
         </section>
     </div>
 
-    <section class="section sec-cookies">
+    <section class="section sec-cookies hide">
         <div class="container">
             <p>
                 We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="{{ $page->baseUrl }}/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
@@ -217,6 +217,17 @@
         </div>	
         <a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
     </section>
+
+    <script>
+        (function () {
+            console.log('mingle');
+            const disableCookieDialog = readCookie('disableCookieDialog');
+                if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
+                    jQuery('.section.sec-cookies').removeClass('hide');
+        })()
+}
+    </script>
+
 @endsection
 
 @section('inlinescripts')
@@ -227,7 +238,6 @@
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/mouse.parallax.js"></script>
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/validation.js"></script>
     <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/build.js"></script>
-    <!-- <script type="text/javascript" src="{{ $page->baseUrl }}/js/site.min.js"></script> -->
 @endsection
 
 
