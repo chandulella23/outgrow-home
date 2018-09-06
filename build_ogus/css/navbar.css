@@ -239,7 +239,7 @@ li.dropdown.open:hover a.dropdown-toggle {
         border-bottom: none !important;
     }
     .drop-sub-menu i {
-        opacity: 0.5;
+        opacity: 0;
     }
     li.login {
         border-bottom: none;
