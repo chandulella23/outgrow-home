@@ -453,7 +453,6 @@ function renderPremadeCalcs(responseText) {
 }
 
 jQuery(document).ready(function () {
-    console.log('#########################################');
     jQuery('#nav-examples').addClass('active');
     jQuery('#nav-get-inspired').addClass('active');
 
@@ -494,9 +493,15 @@ window.filterList = function () {
     let list = jQuery('#calc-cats').children();
 
     list.each(function (index) {
+        jQuery(this).removeClass('active');
+    });
+
+    list.each(function (index) {
         const textContent = jQuery(this).text().toLowerCase().trim();
-        if (textContent.includes(text)) {
+
+        if (text && textContent.startsWith(text)) {
             jQuery(this).parent().prepend(this);
+            jQuery(this).addClass('active');
         }
     });
 }

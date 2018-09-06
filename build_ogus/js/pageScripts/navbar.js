@@ -27,4 +27,11 @@ jQuery(document).ready(function () {
     // jQuery('#nav-get-inspired').addClass('active');
     // jQuery('#nav-use-cases').addClass('active');
 
+    jQuery("#drop-toggle").click(function (e) {
+        e.preventDefault();
+        jQuery(".dropdown-content").css({ "display": "block" });
+        jQuery(".dropdown-sub-content").css({ "display": "block" });
+        jQuery('#GetInspired').addClass('open');
+    });
+
 })

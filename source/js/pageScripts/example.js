@@ -502,6 +502,13 @@ window.filterList = function () {
         if (text && textContent.startsWith(text)) {
             jQuery(this).parent().prepend(this);
             jQuery(this).addClass('active');
+            // shuffleCalcs(jQuery(this).text().trim());
         }
     });
+}
+
+window.searchList = function (event) {
+    if (event.keyCode === 13) {
+        filterList();
+    }
 }
