@@ -555,7 +555,7 @@ span.alert.alert-danger {
     font-family: montserratregular;
     width: 100%;
     float: left;
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 7px;
     text-align: left;
 }
@@ -922,7 +922,7 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
 }
 .floating-btn {
     position: relative;
-    margin: -20px auto 120px;
+    margin: 0px auto 120px;
     float: left;
     width: 100%;
     text-align: center;
@@ -950,8 +950,3 @@ section.sec-outr.new-sec-bg.mouse-bg.hide {
     opacity: 0.75;
 }
 .floating-btn.floating-btn-space {margin-bottom: 40px;}
-@media (min-width: 768px) and (max-width:1024px) {
-    .floating-btn {margin: -20px auto 160px;}
-
-
-}
