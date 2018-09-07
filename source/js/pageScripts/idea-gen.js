@@ -87,6 +87,14 @@ function stepEmail () {
                 stepEmail();
             });
 
+            $("#nav-toggle").click(function(){
+                if($(".navbar-collapse").hasClass('in')) {
+                    $(".navbar-collapse").removeClass('in');
+                } else {
+                    $(".navbar-collapse").addClass('in');
+                }
+            });
+
             $('.selectize-sub-category-result').on('change', function () {
                 clearErrors();
                 if (!saveData.subCat) {
