@@ -167,7 +167,6 @@ window.closeCookieDialog = function (closeOnReload) {
         }
     }, 600);
 }, window.showCookieDialog = function () {
-    console.log('mingle');
     const disableCookieDialog = readCookie('disableCookieDialog');
     if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
         jQuery('.section.sec-cookies').removeClass('hide');
