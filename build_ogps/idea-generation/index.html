@@ -167,7 +167,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="nav-toggle">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -404,16 +404,6 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
         </div>	
         <a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
     </section>
-
-    <script>
-        (function () {
-            console.log('mingle');
-            const disableCookieDialog = readCookie('disableCookieDialog');
-                if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
-                    jQuery('.section.sec-cookies').removeClass('hide');
-        })()
-}
-    </script>
 
 
 

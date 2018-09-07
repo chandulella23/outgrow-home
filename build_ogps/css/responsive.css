@@ -95,11 +95,13 @@
       .sec1-text h2 {    font-size: 28px;}
       .sec-catergory {    float: left;    width: 60%;    position: relative;}
       .sec2-bg .sec-container, .sec3-bg .sec-container, .sec4-bg .sec-container {    padding-left: 70px;}
-            .info-content::after {    font-size: 11px;    font-weight: 100;        line-height: 18px;    padding: 12px;       text-align: left;       width: 220px;}
-            .info-content i {    font-size: 12px;    line-height: 1;}
-           .funnel-step.top .info-content:hover::after {    left: -10px;    right: auto;  transform: translateX(0%);}
-            .funnel-step.bottom .info-content:hover::after {    right: -10px;    left: auto;  transform: translateX(0%);}
-  }
+      .info-content::after {    font-size: 11px;    font-weight: 100;        line-height: 18px;    padding: 12px;       text-align: left;       width: 220px;}
+      .info-content i {    font-size: 12px;    line-height: 1;}
+      .funnel-step.top .info-content:hover::after {    left: -10px;    right: auto;  transform: translateX(0%);}
+      .funnel-step.bottom .info-content:hover::after {    right: -10px;    left: auto;  transform: translateX(0%);}
+      .sec-container.custom-conatiner {margin: 20px auto 0;  }
+      .floating-btn {margin-bottom: 200px;}
+    }
   @media  (max-width: 639px){ 
       .info-content::after {    font-size: 11px;    font-weight: 100;    left: auto;    line-height: 18px;    padding: 12px;    right: -10px;    text-align: left;    transform: translateX(0%);    width: 220px;}
       .bottom figure.icons-part {    background-position: -65px center;}
@@ -134,14 +136,14 @@
     .sec-catergory.custom-select .selectize-control.single .selectize-input {    font-size: 14px;    line-height: 1;    margin-top: 20px;    min-height: 45px;    padding: 10px 35px 10px 20px ;     text-align: left;      text-transform: none;  }
     .sec-catergory.custom-select .selectize-control.single .selectize-input input {    font-size: 14px;}
     .funnel-step {    border-bottom:1px solid #d9dad3;    border-right: 0 none;    flex: 1 1 0;    float: none;display: inline-block;max-width: 300px;    padding: 30px 0 10px;    text-align: center;    width: 100%;}
-    .sec-container.custom-conatiner {    margin: 50px auto 0;    max-width: 900px;    width: 100%;}
+    .sec-container.custom-conatiner {    margin: 0px auto 0;    max-width: 900px;    width: 100%;}
     .update-btn {    float: left;    padding-left: 0;    text-align: center;    width: 100%;} 
     .update-btn a{float: none; display: inline-block;}
     .sec2-step span {       font-size: 18px;    height: 50px;    margin: 3px;    padding-top: 10px;    text-align: center;    width: 50px;}
     .sec-container{        margin: 0 auto;        margin-top: 100px;        width:100%;    }
     .logo {    display: inline-block;    float: none;    padding: 30px 30px 0;}
     .sec2-bg .sec-container{        margin: 0px auto;        width: 100%;    }
-    .sec {    display: table-cell;    padding: 0 30px;    vertical-align: middle;}
+    .sec {    display: table-cell;    padding: 40px 30px 0px;    vertical-align: top;}
     .sec-outr.sec1-bg .sec {    padding: 0 15px;    text-align: center;    vertical-align: top;}
     .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {    top: 65px !important;}
     .sec1-text + .sec1-button{padding:12px 30px 12px 60px;}
@@ -176,4 +178,43 @@
    .sec-catergory.custom-select {    float: left; }
  }
 
+ @media (min-width: 320px) and (max-width:480px) {
+  
+  .floating-btn .btn-white-new {
+    font-size: 13px;
+    display: block;
+    white-space: initial;
+    padding: 13px 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  .floating-btn {padding: 15px; margin-bottom: 200px;}
+ }
 
+ @media (min-width: 0px) and (max-width:768px) {
+  section.sec-outr.new-sec-bg.mouse-bg {
+      display: block !important;
+  }
+}
+@media (min-width: 600px) and (max-width:640px) {
+  .floating-btn {margin: 40px auto 200px;}
+}
+@media (min-width: 768px) and (max-width:1024px) {
+  .floating-btn {margin: 0px auto 130px;}
+
+}
+@media (min-width: 700px) and (max-width:1023px) {
+  .sec-container.custom-conatiner {margin-top: 20px;}
+  .floating-btn {margin-bottom: 180px;}
+
+}
+@media (min-width: 1680px) and (max-width:1920px) {
+  .sec-container.custom-conatiner {margin-top: 150px;}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .update-btn {
+      position: relative;
+      top: 20px;
+    }
+}

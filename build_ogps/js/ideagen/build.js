@@ -167,7 +167,6 @@ window.closeCookieDialog = function (closeOnReload) {
         }
     }, 600);
 }, window.showCookieDialog = function () {
-    console.log('mingle');
     const disableCookieDialog = readCookie('disableCookieDialog');
     if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
         jQuery('.section.sec-cookies').removeClass('hide');
@@ -179,11 +178,50 @@ window.closeCookieDialog = function (closeOnReload) {
                 " " == e.charAt(0);) e = e.substring(1, e.length);
             if (0 == e.indexOf(b)) return e.substring(b.length, e.length)
         }
-        return null
+        return null;
+
     }
+
+function setLoginSignup() {
+    var a = window.location.hostname;
+    0 === a.indexOf("www.outgrow.co") && (a = "outgrow.co") || -1 === a.indexOf("outgrow") && (a = "rely.co");
+    var b = "//app." + a,
+        c = b + "/login",
+        d = b + "/signup",
+        e = "Start Free Trial";
+    jQuery(".signuplink").each(function () {
+        jQuery(this).prop('href', b)
+    })
+    jQuery(".login > .link-login").prop("href", c);
+    let f = readCookie("storage");
+
+    try {
+        if (f) {
+            f = JSON.parse(f);
+            d = "//" + f.companyList[1] + "." + a + "/dashboard";
+            e = "Dashboard";
+            console.log('dashboard');
+            // jQuery(".login > .link-login").prop("href", d).text(e).on("click", function(a) {
+            //     callGA(e);
+            // }, b);
+
+            jQuery('.login-dashboard-link').prop('href', d).text(e).on('click', (a) => {
+                callGA(e)
+            }, b);
+            jQuery('.dash-login').addClass('dashboard-login');
+            jQuery('.hideafter-login').addClass('hide');
+            //  jQuery('.navbar-email').addClass('hide');
+        }
+
+    } catch (e) {
+        console.log(e)
+    }
+
+}
 
 jQuery(document).ready(function () {
     showCookieDialog();
     setIntercomLauncherPos();
+    setLoginSignup();
 });
 
