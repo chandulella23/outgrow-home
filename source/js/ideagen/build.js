@@ -61,13 +61,37 @@ function appParams(data, key) {
     return params;
 }
 
-function sendResponse() {
+function sendVisitResponse() {
     let data = {
         timestamp: timestamp,
         email: email,
         category: saveData.category,
         sub_category: saveData.subCat,
-        flag: true
+        flag: true,
+        isVisit: true,
+        form_idea_generator: 'yes'
+    }
+    // requestBuild(data);
+    $.ajax({
+        type: 'POST',
+        url: link.getResponseLink(),
+        data: JSON.stringify(data),
+        success: function (response) {
+            console.log(response);
+        },
+        error: function () {
+
+        }
+    })
+    flag = true;
+}
+
+function sendLeadResponse() {
+    let data = {
+        email: email,
+        flag: true,
+        isLead: true,
+        personalized_idea: 'yes'
     }
     // requestBuild(data);
     $.ajax({

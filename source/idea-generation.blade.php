@@ -31,11 +31,6 @@
 @section('pageId', '')
 
 @section('content')
-    <script>
-        function sendValueToIntercom(key,value) {
-            window.Intercom('update', { [key]: value,'email': jQuery('#form-email').val()});
-        }          
-    </script>
 	<div class="main-outr">
         <section class="sec-outr sec1-bg mouse-bg">
             <div class="sec">
@@ -133,7 +128,7 @@
 						</span>
                     </div>
                     <div class="butn-outr">
-                        <button onclick="sendValueToIntercom('Website Form: Idea Generator','Yes')" type="submit" class="sec-button button-ideas">Show me my ideas</button>
+                        <button type="submit" class="sec-button button-ideas">Show me my ideas</button>
                     </div>
                 </div>
             </div>
@@ -199,7 +194,7 @@
                 </div>
             </div>
             <div class="floating-btn">
-                <a onclick="sendValueToIntercom('Get Personalized Ideas','Yes')" data-sumome-listbuilder-id="863e96e6-c7a0-4b41-9829-a8e72ee55c08" 
+                <a onclick="sendLeadResponse()" data-sumome-listbuilder-id="863e96e6-c7a0-4b41-9829-a8e72ee55c08" 
                     class="btn btn-white-new"> Get Personalized Ideas for your Company </a>
                 </div>
         </section>
