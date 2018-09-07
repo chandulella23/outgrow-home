@@ -213,16 +213,6 @@
         <a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
     </section>
 
-    <script>
-        (function () {
-            console.log('mingle');
-            const disableCookieDialog = readCookie('disableCookieDialog');
-                if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
-                    jQuery('.section.sec-cookies').removeClass('hide');
-        })()
-}
-    </script>
-
 @endsection
 
 @section('inlinescripts')

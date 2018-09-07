@@ -17,7 +17,7 @@ function stepEmail() {
     }
     else $('.email-validator').removeClass('hide');
 }
-$(document).ready(function () {
+jQuery(document).ready(function () {
     window.Intercom('update', { 'site_idea_viewed': new Date() });
     $('#background').mouseParallax({ moveFactor: 5 });
     $('#foreground').mouseParallax({ moveFactor: 1 });
@@ -134,7 +134,7 @@ if (window.location.search.match(/\?get-started/)) {
     $(".sec1-button").click();
 }
 
-$(document).on('click', '.item-selected', function (event) {
+jQuery(document).on('click', '.item-selected', function (event) {
     var index = buildSelect.indexOf($(this).text().trim());
     if ($(this).children('input').prop('checked')) {
         if (index == -1) buildSelect.push($(this).text().trim());
