@@ -158,7 +158,7 @@ window.closeCookieDialog = function (closeOnReload) {
                 jQuery('.intercom-borderless-frame').css('bottom', '160px');
             }
             if (intercomNotification) {
-                jQuery('.intercom-launcher-discovery-frame').css('bottom', '160px')
+                jQuery('.intercom-notifications-frame').css('bottom', '160px')
             }
             if (intercomLauncher) {
                 intercomLauncher.style.bottom = '90px';
