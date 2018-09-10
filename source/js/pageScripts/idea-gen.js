@@ -136,7 +136,7 @@ function stepEmail() {
             jQuery(".icon-close").click(function() {
                 jQuery('.floating-btn').addClass('floating-btn-space');
             });
-        });
+        
 
     document.getElementById('form-email').onkeypress = function (e) {
         if (e.key.match(/Enter/)) {
@@ -189,7 +189,7 @@ function stepEmail() {
     jQuery(".icon-close").click(function () {
         jQuery('.floating-btn').addClass('floating-btn-space');
     });
-});
+        });
 
 if (window.location.search.match(/\?get-started/)) {
     $(".sec1-button").click();
