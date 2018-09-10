@@ -136,6 +136,7 @@ window.closeCookieDialog = function (closeOnReload) {
     if (closeOnReload) {
         document.cookie = "disableCookieDialog=true; expires=Thu, 29 Dec 2022 12:00:00 UTC"
     }
+    jQuery('.floating-btn').addClass('floating-btn-space');
 }, window.setIntercomLauncherPos = function () {
     const intercomMessengerInterval = setInterval(() => {
         console.log('setting custom intercom css');
@@ -170,6 +171,8 @@ window.closeCookieDialog = function (closeOnReload) {
     const disableCookieDialog = readCookie('disableCookieDialog');
     if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
         jQuery('.section.sec-cookies').removeClass('hide');
+    }else {
+        jQuery('.floating-btn').addClass('floating-btn-space');
     }
 },
     window.readCookie = function (a) {
