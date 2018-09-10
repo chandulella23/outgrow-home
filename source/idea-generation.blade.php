@@ -123,7 +123,7 @@
                     <div class="sec-catergory">
                         <input type="text" class="sec-input" id="form-email" placeholder="johndoe@outgrow.co" />
                         <span class="alert alert-danger email-validator hide">
-						  	<i class="material-icons">error_outline</i> Please enter valid email
+						  	<i class="material-icons">error_outline</i> Please enter a valid email
 						</span>
                     </div>
                     <div class="butn-outr">
