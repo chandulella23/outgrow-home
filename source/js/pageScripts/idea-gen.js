@@ -128,6 +128,15 @@ $(document).ready(function () {
     jQuery(".icon-close").click(function () {
         jQuery('.floating-btn').addClass('floating-btn-space');
     });
+
+    $("#nav-toggle").click(function(){
+        if($(".navbar-collapse").hasClass('in')) {
+            $(".navbar-collapse").removeClass('in');
+        } else {
+            $(".navbar-collapse").addClass('in');
+        }
+    });
+
 });
 
 if (window.location.search.match(/\?get-started/)) {
