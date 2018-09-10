@@ -60,6 +60,7 @@
          figure.icons-part {    height: 100px;    width: 100px; background-position: 35px center}
 .middle figure.icons-part {    background-position: -155px center;}
  .bottom figure.icons-part {    background-position: -60px center;}
+ .info-content::after {left: -350%;}
 
 }
 @media (min-width: 640px) and (max-width: 1023px){
