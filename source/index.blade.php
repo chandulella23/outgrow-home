@@ -1627,9 +1627,9 @@
 			</div>
 	</section>
 
-	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
+	<!-- <div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
+			Modal content
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" onclick="btnclose()" id="btn-close-mob" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -1648,7 +1648,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 @endsection
 
 @section('inlinescripts')
