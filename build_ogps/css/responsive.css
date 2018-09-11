@@ -78,7 +78,7 @@
    .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select  .demo-default .selectize-dropdown.single.demo-default.selectize-category{top: 70px !important;}
 .sec-catergory input.sec-input {    padding: 12px 20px;    font-size: 14px;    margin-top: 20px;    min-height: 45px;}
 .sec2-step {    left: 20px;    position: absolute;    top: -90px;    width: auto;}
-  .sec-container {        margin: 0 auto;        margin-top: 60px;        width:90%;    }
+  .sec-container {        margin: 0 auto;        margin-top: 40px;        width:90%;    }
    .sec2-bg .sec-container , .sec3-bg .sec-container , .sec4-bg .sec-container{        margin: 0 auto;        width: 90%;    }
    .sec-catergory .selectize-control.single .selectize-input:after {    border-width: 6px 5px 0 5px;}
    .sec-catergory .selectize-control.single .selectize-input.dropdown-active:after{    border-width: 0 5px 6px 5px;    }
