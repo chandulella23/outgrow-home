@@ -128,6 +128,9 @@ $(document).ready(function () {
     jQuery(".icon-close").click(function () {
         jQuery('.floating-btn').addClass('floating-btn-space');
     });
+    jQuery(".btn-understand").click(function () {
+        jQuery('.floating-btn').addClass('floating-btn-space');
+    });
 
     $("#nav-toggle").click(function(){
         if($(".navbar-collapse").hasClass('in')) {

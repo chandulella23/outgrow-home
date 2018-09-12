@@ -725,7 +725,8 @@ li.nav-lead-input {
     .nav-lead-input .lead-form-btn a.link-login.lead-email {
         background: #fb5f66 !important;
         font-size: 12px !important;
-        padding: 5px 15px !important;
+		padding: 5px 15px !important;
+		line-height: 16px !important;
     }
     li.nav-lead-input a.lead-email.btn-buildcal:hover {
         background: #fdb6b9 !important;
@@ -739,6 +740,6 @@ li.nav-lead-input {
 @media (max-width: 1280px) and (min-width: 1024px) {
     .custom-navbar.navbar-default .navbar-nav>li>a {font-size: 12px;}
     li.nav-lead-input {width: 267px; margin-right: 0px !important;}
-    .nav-lead-input a.lead-email.btn-buildcal {font-size: 12px !important; padding: 5px 10px !important; line-height: 16px;}
+    .nav-lead-input a.lead-email.btn-buildcal {font-size: 12px !important; padding: 5px 10px !important; line-height: 16px !important;}
     .custom-navbar.navbar-default .navbar-nav>li input.lead-form-email {font-size: 12px; width: 160px;}
 }
