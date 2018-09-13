@@ -281,14 +281,14 @@ function renderBlogs(response) {
 function getCalcType(type) {
     if (type === 'Calculator') {
         return 'CALC';
-    } else if (type === 'Outcome Quiz') {
-        return 'OUTCOME';
     } else if (type === 'Poll') {
         return 'POLL';
-    } else if (type === 'GRADED QUIZ') {
+    } else if (type.toLowerCase().includes('graded')) {
         return 'QUIZ';
-    } else {
-        return type;
+    } else if (type.toLowerCase().includes('outcome')) {
+        return 'QUIZ';
+    } else if (type.toLowerCase().includes('com')) {
+        return 'ECOM'
     }
 }
 
