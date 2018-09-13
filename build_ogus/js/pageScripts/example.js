@@ -449,6 +449,9 @@ function renderPremadeCalcs(responseText) {
         setCalcCategory('Auto');
         changeTab('Calculator');
         shuffleCalcs('Auto');
+        console.log('qwerty')
+
+        jQuery('#search-experience').val('');
     }
 }
 
