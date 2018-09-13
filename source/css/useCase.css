@@ -524,7 +524,7 @@ body{background:#fff !important;}
     ul.pre-temp-list {    float: left;    width: 30%;    padding: 0 20px 0 0;    margin: 0; max-width: 100%}
     ul.pre-temp-list > li{float: left; width: 100%; position: relative; margin-bottom: 15px; list-style: none;}
     ul.pre-temp-list > li  > a::after{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:0}
-    ul.pre-temp-list > li > a{font-size: 13px;    float: left; transition: 0.5s;color: #9fa7ad;font-family: montserratlight;padding-left: 15px; position: relative;}
+    ul.pre-temp-list > li > a{font-size: 13px;    float: left; transition: 0.5s;color: #9fa7ad;font-family: montserratlight;padding-left: 15px; position: relative; display: inline-flex;}
     .premade-template{float: left; width: 100%;    margin-bottom: 40px; }
     ul.pre-temp-list > li.active > a, ul.pre-temp-list > li > a:hover{color: #4894ca; transition: 0.5s;}
     .pre-temp-view {    float: left;    width: 70%;    background: #fafafa;    max-width: 100%;       border: 5px solid #fff;    box-shadow: 0px 0 30px rgba(0,0,0,0.2); position: relative;}
@@ -1066,3 +1066,11 @@ body{background:#fff !important;}
     background: #fb5f66;
     color: #fff;
 } */
+ul.pre-temp-list > li > a span {
+    font-size: 10px;
+    color: #666666;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    padding-right: 7px;
+    padding-top: 2px;
+}

@@ -54,11 +54,11 @@ window.setPremade = function () {
         let className = window.calcs[i].Industry;
         if (i === 0) {
             innerHTML += `<li class="active filter-all ${className}" id="${id}">
-                        <a href="javascript:void(0)" onclick="markAsActive('${id}')">
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><span>Ecom </span>
                     ${window.calcs[i].Description}</a></li>`
         } else {
             innerHTML += `<li class="filter-all ${className}" id="${id}">
-                        <a href="javascript:void(0)" onclick="markAsActive('${id}')">
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><span>Ecom </span>
                     ${window.calcs[i].Description}</a></li>`
         }
     }
