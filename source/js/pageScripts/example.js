@@ -55,12 +55,12 @@ window.setPremade = function () {
         console.log('yello');
         if (i === 0) {
             innerHTML += `<li class="active filter-all ${className}" id="${id}">
-                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><span>${window.calcs[i].type} </span>
-                    ${window.calcs[i].Name}</a></li>`
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><small>${window.calcs[i].type} </small>
+                    <span>${window.calcs[i].Name}</span></a></li>`
         } else {
             innerHTML += `<li class="filter-all ${className}" id="${id}">
-                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><span>${window.calcs[i].type} </span>
-                    ${window.calcs[i].Name}</a></li>`
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><small>${window.calcs[i].type} </small>
+                        <span>${window.calcs[i].Name}</span></a></li>`
         }
     }
     premadeTemplateList.html(innerHTML)
