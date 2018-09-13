@@ -52,14 +52,15 @@ window.setPremade = function () {
     for (let i = 0; i < window.calcs.length; i++) {
         let id = `${window.calcs[i].id}`;
         let className = window.calcs[i].Industry;
+        console.log('yello');
         if (i === 0) {
             innerHTML += `<li class="active filter-all ${className}" id="${id}">
-                        <a href="javascript:void(0)" onclick="markAsActive('${id}')">
-                    ${window.calcs[i].Description}</a></li>`
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><span>${window.calcs[i].type} </span>
+                    ${window.calcs[i].Name}</a></li>`
         } else {
             innerHTML += `<li class="filter-all ${className}" id="${id}">
-                        <a href="javascript:void(0)" onclick="markAsActive('${id}')">
-                    ${window.calcs[i].Description}</a></li>`
+                        <a href="javascript:void(0)" onclick="markAsActive('${id}')"><span>${window.calcs[i].type} </span>
+                    ${window.calcs[i].Name}</a></li>`
         }
     }
     premadeTemplateList.html(innerHTML)
@@ -121,7 +122,7 @@ window.setCalcCategory = function (filterName) {
             let premadeLayout = document.getElementById('premade-calc-layout')
             premadeGif.src = activeCal.GIF;
             premadePreview.href = activeCal['Published Link'];
-            premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.Name;
+            premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.Description;
             premadeLayout.innerHTML = '<strong>Layout:</strong> ' + activeCal.Layout;
             sflag = !1
         }
@@ -277,6 +278,20 @@ function renderBlogs(response) {
     }
 }
 
+function getCalcType(type) {
+    if (type === 'Calculator') {
+        return 'CALC';
+    } else if (type === 'Poll') {
+        return 'POLL';
+    } else if (type.toLowerCase().includes('graded')) {
+        return 'QUIZ';
+    } else if (type.toLowerCase().includes('outcome')) {
+        return 'QUIZ';
+    } else if (type.toLowerCase().includes('com')) {
+        return 'ECOM'
+    }
+}
+
 function renderPremadeCalcs(responseText) {
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
@@ -315,6 +330,8 @@ function renderPremadeCalcs(responseText) {
                 };
                 window.events.push(ev);
             }
+            console.log('trippy');
+            calc['type'] = getCalcType(calc['type']);
         });
         var settings = {};
         var element = document.getElementById('calendar');
