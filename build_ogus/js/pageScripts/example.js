@@ -449,6 +449,9 @@ function renderPremadeCalcs(responseText) {
         setCalcCategory('Auto');
         changeTab('Calculator');
         shuffleCalcs('Auto');
+        console.log('qwerty')
+
+        jQuery('#search-experience').val('');
     }
 }
 
@@ -502,6 +505,13 @@ window.filterList = function () {
         if (text && textContent.startsWith(text)) {
             jQuery(this).parent().prepend(this);
             jQuery(this).addClass('active');
+            // shuffleCalcs(jQuery(this).text().trim());
         }
     });
+}
+
+window.searchList = function (event) {
+    if (event.keyCode === 13) {
+        filterList();
+    }
 }
