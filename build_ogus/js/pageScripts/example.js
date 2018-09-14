@@ -52,7 +52,6 @@ window.setPremade = function () {
     for (let i = 0; i < window.calcs.length; i++) {
         let id = `${window.calcs[i].id}`;
         let className = window.calcs[i].Industry;
-        console.log('yello');
         if (i === 0) {
             innerHTML += `<li class="active filter-all ${className}" id="${id}">
                         <a href="javascript:void(0)" onclick="markAsActive('${id}')"><small>${window.calcs[i].type} </small>
@@ -292,6 +291,18 @@ function getCalcType(type) {
     }
 }
 
+function throttled(delay, fn) {
+    let lastCall = 0;
+    return function (...args) {
+        const now = (new Date).getTime();
+        if (now - lastCall < delay) {
+            return;
+        }
+        lastCall = now;
+        return fn(...args);
+    }
+}
+
 function renderPremadeCalcs(responseText) {
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
@@ -330,7 +341,6 @@ function renderPremadeCalcs(responseText) {
                 };
                 window.events.push(ev);
             }
-            console.log('trippy');
             calc['type'] = getCalcType(calc['type']);
         });
         var settings = {};
@@ -471,7 +481,47 @@ function renderPremadeCalcs(responseText) {
         jQuery('#search-experience').val('');
     }
 }
+window.shuffleCalcs2 = function (filterName) {
 
+    //changeActiveCalcCategory(filterName);
+    filterName = document.querySelector('#search-experience').value.toLowerCase();
+    var hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
+    hiddenCalcs.forEach(function (calc) {
+        calc.classList.remove('hide')
+    });
+    window.calcs.filter(function (calc) {
+        return !(calc.Name.toLowerCase().includes(filterName));
+    }).forEach(function (calc) {
+        var calc = document.querySelector('#' + calc.id);
+        calc.classList.add('hide')
+    })
+    var activeCalc = document.querySelector('#gallery-content-center li.active');
+    if (activeCalc)
+        activeCalc.classList.remove('active');
+    var allCalcs = document.querySelectorAll('#gallery-content-center li');
+    var sflag = !0;
+    allCalcs.forEach(function (calc) {
+        if (!calc.classList.contains('hide') && sflag) {
+            calc.classList.add('active');
+            var activeCal = window.calcs.find(function (cal) {
+                return cal.id === calc.id
+            });
+            console.log(activeCal)
+            var premadeGif = document.getElementById('premade-gif');
+            var premadePreview = document.getElementById('premade-preview-link');
+            var premadeName = document.getElementById('premade-calc-name');
+            var premadeLayout = document.getElementById('premade-calc-layout')
+            premadeGif.src = activeCal.GIF;
+            premadePreview.href = activeCal['Published Link'];
+            premadeName.innerHTML = '<i class="material-icons">&#xE80E;</i>' + activeCal.Name;
+            premadeLayout.innerHTML = '<strong>Layout:</strong> ' + activeCal.Layout;
+            sflag = !1
+        }
+    });
+    const filter = jQuery('#calc-cats').find('li.active').text().trim();
+    //  jQuery('#search-experience').val(filter);
+    jQuery('.tag-exp-text').text(`Customisable for the ${filter} Industry`)
+}
 jQuery(document).ready(function () {
     jQuery('#nav-examples').addClass('active');
     jQuery('#nav-get-inspired').addClass('active');
@@ -508,23 +558,37 @@ jQuery(document).ready(function () {
     runTimeout();
 });
 
+function debounced(delay, fn) {
+    let timerId;
+    return function (...args) {
+        if (timerId) {
+            clearTimeout(timerId);
+        }
+        timerId = setTimeout(() => {
+            fn(...args);
+            timerId = null;
+        }, delay);
+    }
+}
+
 window.filterList = function () {
-    let text = document.querySelector('#search-experience').value.toLowerCase();
+
     let list = jQuery('#calc-cats').children();
 
     list.each(function (index) {
         jQuery(this).removeClass('active');
     });
 
-    list.each(function (index) {
-        const textContent = jQuery(this).text().toLowerCase().trim();
+    debounced(750, shuffleCalcs2)();
 
-        if (text && textContent.startsWith(text)) {
-            jQuery(this).parent().prepend(this);
-            jQuery(this).addClass('active');
-            // shuffleCalcs(jQuery(this).text().trim());
-        }
-    });
+    // list.each(function (index) {
+
+    //     // if (text && textContent.startsWith(text)) {
+    //     //     jQuery(this).parent().prepend(this);
+    //     //     jQuery(this).addClass('active');
+    //     //     // shuffleCalcs(jQuery(this).text().trim());
+    //     // }
+    // });
 }
 
 window.searchList = function (event) {
