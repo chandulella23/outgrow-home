@@ -494,7 +494,7 @@ window.shuffleCalcs2 = function (filterName) {
     }).forEach(function (calc) {
         var calc = document.querySelector('#' + calc.id);
         calc.classList.add('hide')
-    })
+    });
     var activeCalc = document.querySelector('#gallery-content-center li.active');
     if (activeCalc)
         activeCalc.classList.remove('active');
@@ -572,7 +572,6 @@ function debounced(delay, fn) {
 }
 
 window.filterList = function () {
-
     let list = jQuery('#calc-cats').children();
 
     list.each(function (index) {
