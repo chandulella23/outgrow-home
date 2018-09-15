@@ -85,9 +85,11 @@ window.setPremade = function () {
 
 window.changeActiveCalcCategory = function (id) {
     var currentActiveCat = document.querySelector('#calc-cats li.active');
-    currentActiveCat.classList.remove('active');
-    var tobeActiveCat = document.querySelector('#' + id);
-    tobeActiveCat.parentElement.classList.add('active')
+    if (currentActiveCat) {
+        currentActiveCat.classList.remove('active');
+        var tobeActiveCat = document.querySelector('#' + id);
+        tobeActiveCat.parentElement.classList.add('active');
+    }
 }
 
 window.setCalcCategory = function (filterName) {
@@ -485,16 +487,30 @@ window.shuffleCalcs2 = function (filterName) {
 
     //changeActiveCalcCategory(filterName);
     filterName = document.querySelector('#search-experience').value.toLowerCase();
-    var hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
+    let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
+    let notMatchFound = jQuery('.no-match-found');
+    jQuery('.pre-temp-view').removeClass('hide')
+
+    if (!filterName) {
+
+    }
+
     hiddenCalcs.forEach(function (calc) {
         calc.classList.remove('hide')
     });
-    window.calcs.filter(function (calc) {
+    const filteredCalcs = window.calcs.filter(function (calc) {
         return !(calc.Name.toLowerCase().includes(filterName));
-    }).forEach(function (calc) {
+    })
+
+    if (filteredCalcs.length !== hiddenCalcs.length) {
+        console.log('not match found');
+        notMatchFound.addClass('hide');
+    }
+
+    filteredCalcs.forEach(function (calc) {
         var calc = document.querySelector('#' + calc.id);
         calc.classList.add('hide')
-    })
+    });
     var activeCalc = document.querySelector('#gallery-content-center li.active');
     if (activeCalc)
         activeCalc.classList.remove('active');
@@ -520,7 +536,13 @@ window.shuffleCalcs2 = function (filterName) {
     });
     const filter = jQuery('#calc-cats').find('li.active').text().trim();
     //  jQuery('#search-experience').val(filter);
-    jQuery('.tag-exp-text').text(`Customisable for the ${filter} Industry`)
+    jQuery('.tag-exp-text').text(`Customisable for the ${filter} Industry`);
+
+    if (filteredCalcs.length === window.calcs.length && filterName) {
+        console.log('not match found');
+        notMatchFound.removeClass('hide');
+        jQuery('.pre-temp-view').addClass('hide')
+    }
 }
 jQuery(document).ready(function () {
     jQuery('#nav-examples').addClass('active');
@@ -572,14 +594,13 @@ function debounced(delay, fn) {
 }
 
 window.filterList = function () {
-
     let list = jQuery('#calc-cats').children();
 
     list.each(function (index) {
         jQuery(this).removeClass('active');
     });
 
-    debounced(750, shuffleCalcs2)();
+    debounced(500, shuffleCalcs2)();
 
     // list.each(function (index) {
 

@@ -642,7 +642,7 @@ body{background:#fff !important;}
         width: 100%;
         box-sizing: border-box;
         border: 1px solid #ebebeb;
-        font-size: 14px;
+        font-size: 13px;
         color: #888888;
         background-color: white;
         padding: 10px;
@@ -1079,4 +1079,23 @@ ul.pre-temp-list > li > a small {
 ul.pre-temp-list > li > a span {
     float: left;
     width: 65%;
+}
+.no-match-found {
+    display: table;
+    float: left;
+    background: #fff;
+    text-align: center;
+    width: 76%;
+    height: 63vh;
+}
+.no-match-found-inner {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+.no-match-found-inner i.material-icons {
+    display: block;
+    color: #fb5f66;
+    font-size: 46px;
+    margin-bottom: 10px;
 }
