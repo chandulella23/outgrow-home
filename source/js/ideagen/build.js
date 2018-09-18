@@ -133,6 +133,8 @@ window.closeCookieDialog = function (closeOnReload) {
     jQuery('.intercom-launcher-badge-frame').removeAttr('style');
     jQuery('.intercom-borderless-frame').removeAttr('style');
     jQuery('.intercom-messenger-frame').css('bottom', 'calc(20px + 80px)');
+    jQuery('.intercom-notifications-frame').removeAttr('style');
+
     if (closeOnReload) {
         document.cookie = "disableCookieDialog=true; expires=Thu, 29 Dec 2022 12:00:00 UTC"
     }
@@ -159,7 +161,7 @@ window.closeCookieDialog = function (closeOnReload) {
                 jQuery('.intercom-borderless-frame').css('bottom', '160px');
             }
             if (intercomNotification) {
-                jQuery('.intercom-notifications-frame').css('bottom', '160px')
+                jQuery('.intercom-notifications-frame').css('bottom', '160px');
             }
             if (intercomLauncher) {
                 intercomLauncher.style.bottom = '90px';
@@ -171,7 +173,7 @@ window.closeCookieDialog = function (closeOnReload) {
     const disableCookieDialog = readCookie('disableCookieDialog');
     if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
         jQuery('.section.sec-cookies').removeClass('hide');
-    }else {
+    } else {
         jQuery('.floating-btn').addClass('floating-btn-space');
     }
 },
