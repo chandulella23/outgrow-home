@@ -1,9 +1,15 @@
-@extends('_layouts.ideagen')
 
-@section('title', 'Interactive Content Title Generator by Outgrow | Outgrow')
+<!DOCTYPE html>
+<html lang="en-US">
 
-@section('metaDescription')
-	<meta name="description" content="Use the Interactive Content Title Generator to enter a keyword and get titles for interactive content around that keyword."/>
+<head>
+	<meta charset="utf-8">
+	<title>Interactive Content Title Generator by Outgrow | Outgrow</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="apple-touch-icon" href="//dzvexx2x036l1.cloudfront.net/og-apple.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<meta name="description" content="Use the Interactive Content Title Generator to enter a keyword and get titles for interactive content around that keyword."/>
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
@@ -17,17 +23,17 @@
 	<meta name="twitter:description" content="Use the Interactive Content Title Generator to enter a keyword and get titles for interactive content around that keyword." />
 	<meta name="twitter:title" content="Interactive Content Title Generator by Outgrow | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
-@endsection
 
-@section('css')
-    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
-@endsection
+	<link rel="canonical" href="http://outgrow.co/" />
+	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
 
-@section('pageClass', '')
+	    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 
-@section('pageId', '')
 
-@section('content')
+
+</head>
+
+<body>
 	<div class="main-outr">
         <div class="col-xs-12 col-md-12 col-sm-12 np">
             <iframe id="iframe-wrapper" style="width:100%; height:100vh; border:none; float: left;" 
@@ -35,15 +41,5 @@
         </div>
     </div>
 
-@endsection
-
-@section('inlinescripts')
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/request.sheet.js"></script>
-    <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/database.sheet.js"></script>
-    <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/selectize.min.js"></script>
-    <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/mouse.parallax.js"></script>
-    <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/validation.js"></script>
-    <script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/build.js"></script> -->
-@endsection
+</body>
 
