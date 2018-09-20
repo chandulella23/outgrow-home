@@ -1181,7 +1181,7 @@ label {
 			color: #2b93be;
 			vertical-align: middle;
 			position: relative;
-			top: -2px;
+			top: -1px;
 			visibility: visible;
 			padding-right: 5px;
 			font-size: 20px;
@@ -1373,7 +1373,7 @@ span.label-popularPlan {
     height: 13px;
     background-position: center;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 5px;
 }
 .half{

@@ -260,12 +260,13 @@
                                 <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
                             </td>
                         </tr>
-                        <!-- <tr class="not-info">
-                            <th><i class="material-icons vis-hide">add</i> Collaborators</th>
+                        <tr class="not-info">
+                            <th><!-- <i class="material-icons vis-hide">add</i> --> Team Members</th>
+                            <td><span class="quater"></span>1</td>
                             <td><span class="quater"></span>1</td>
                             <td class="active-bg"><span class="half"></span>3</td>
                             <td><span class="full"></span>10</td>
-                        </tr> -->
+                        </tr>
                         <tr class="expand">
                             <th>
                                 <!-- <i class="material-icons plus">add</i>
@@ -674,10 +675,10 @@
                                     <span class="feature-subtitle"><span class="quater"></span>3</span>
                                     <span class="detail">Number of quizzes you can build. </span>
                                 </li>
-                                <!-- <li>
-                                    <span class="feature-title">Collaborators</span>
-                                    <span class="feature-subtitle"><span class="full"></span>1</span>
-                                </li> -->
+                                <li>
+                                    <span class="feature-title">Team Members</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>1</span>
+                                </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
@@ -875,10 +876,10 @@
                                     <span class="feature-subtitle"><span class="quater"></span>5</span>
                                     <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
                                 </li>
-                                <!-- <li>
-                                    <span class="feature-title">Collaborators</span>
-                                    <span class="feature-subtitle"><span class="full"></span>1</span>
-                                </li> -->
+                                <li>
+                                    <span class="feature-title">Team Members</span>
+                                    <span class="feature-subtitle"><span class="quater"></span>1</span>
+                                </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
@@ -1078,10 +1079,10 @@
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                     <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
                                 </li>
-                                <!-- <li>
-                                    <span class="feature-title">Collaborators</span>
+                                <li>
+                                    <span class="feature-title">Team Members</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
-                                </li> -->
+                                </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
@@ -1285,10 +1286,10 @@
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
                                     <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
                                 </li>
-                                <!-- <li>
-                                    <span class="feature-title">Collaborators</span>
+                                <li>
+                                    <span class="feature-title">Team Members</span>
                                     <span class="feature-subtitle"><span class="full"></span>10</span>
-                                </li> -->
+                                </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
                                         <!-- <i class="material-icons plus">add</i>
