@@ -72,7 +72,7 @@
 	table, thead, tbody, th, td, tr{display: block;}*/
 	.quater{
 		vertical-align: middle !important;
-		margin-top: -3px;
+		/* margin-top: -3px; */
 	}
 	.half{
 		vertical-align: middle !important;
@@ -161,7 +161,7 @@
 	.sec-allPlans{margin-top: 30px;}
 	.quater{
 		vertical-align: middle !important;
-		margin-top: -4px;
+		/* margin-top: -4px; */
 	}
 	.half{
 		vertical-align: middle !important;
