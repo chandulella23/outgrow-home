@@ -285,7 +285,7 @@ function getCalcType(type) {
     } else if (type === 'Poll') {
         return 'POLL';
     } else if (type.toLowerCase().includes('graded')) {
-        return 'QUIZ';
+        return 'TEST';
     } else if (type.toLowerCase().includes('outcome')) {
         return 'QUIZ';
     } else if (type.toLowerCase().includes('com')) {
