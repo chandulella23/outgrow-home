@@ -390,7 +390,7 @@
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
-									<div class="counter">28</div>
+									<div class="counter">40</div>
 									<span>%</span> 
 								</div>
 								<span>Conversions</span>
@@ -424,7 +424,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<div class="section-2-heading">Building an Interactive Calculator </div>
-							<span class="section-subtitle">VenturePact built a mobile app calculator where a prospective customer could answer 8 questions about their app and get a cost estimate instantly. This calculator was interactive, could capture attention, and provide instant gratification. </span>
+							<span class="section-subtitle">VenturePact built a mobile app calculator where a prospective customer could answer 9 questions about their app and get a cost estimate instantly. This calculator was interactive, could capture attention, and provide instant gratification. </span>
 							<img class="" src="{{ $page->baseUrl }}/images/case_study_experimenting_VP.png" alt="Building an Interactive Calculator">
 						</div>
 					</div>

@@ -38,7 +38,7 @@
 	</div> -->
 
 	<!-- start: landing page HTML  -->
-	<section class="section section-banner">
+	<section class="section section-banner section-banner-quiz">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
 				<h1 class="main-heading">Generate More Leads And Traffic With Outgrow’s Interactive Quiz Builder</h1>
@@ -53,9 +53,19 @@
 					<div class="company-detail">
 						Macroscape helped one of its clients get a conversion rate of 36% with an interactive quiz
 					</div>
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_quiz_page">
+					<!-- <a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_quiz_page">
 						<button type="button" class="btn btn-white-new">Create Your First Interactive Quiz <i class="material-icons">arrow_forward</i></button>
-					</a>
+					</a> -->
+					<div class="startTrial-outer">
+						<label>Create Your First Interactive Quiz </label>
+						<i class="material-icons">email</i>
+						<input class="lead-form-email" name="emailId" type="email" placeholder="Enter your email ID">
+						<span class="lead-form-btn">
+							<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
+								Start Free Trial
+							</a>				
+						</span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1125,7 +1135,7 @@
 
 	<section class="section section-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<span>Plans start at $25 per month. No credit card required. </span>
+			<span>Plans start at $14 per month. No credit card required. </span>
 			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_quiz_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-red-new">Start your Free Trial! <i class="material-icons">arrow_forward</i></button>
 			</a>
