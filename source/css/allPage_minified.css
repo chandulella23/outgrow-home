@@ -84255,28 +84255,29 @@ img.scrollimg1.wo {
 		transform: rotate(-12deg);
 	} */
 .section-banner {
-    background: url('https://dzvexx2x036l1.cloudfront.net/lp-banner-bg.png') no-repeat;
-    height: 610px;
+    /* background: url('https://dzvexx2x036l1.cloudfront.net/lp-banner-bg.png') no-repeat;
+    height: 610px; */
     margin: 0px;
     float: left;
     width: 100%;
     background-size: cover;
-    background-color: #fff;
+    background-color: #f3f8fb;
+    padding-bottom: 90px;
 }
 .section-banner h1.main-heading {
     margin-top: 120px;
     display: block;
-    font-size: 42px;
-    color: #fff !important;
+    font-size: 38px;
+    color: #fb5f66 !important;
     font-family: montserratregular;
-    padding: 0px 140px;
+    padding: 0px 80px;
     line-height: 48px;
 }
 .section-banner p {
     font-size: 15px;
-    color: #fff;
+    color: #63696d;
     font-family: montserratlight;
-    line-height: 23px;
+    line-height: 24px;
 }
 .banner-inner {
     margin-top: 30px;
@@ -84291,20 +84292,20 @@ img.scrollimg1.wo {
     border-radius: 20px;
 }
 .banner-content {
-    color: #fff;
+    color: #63696d;
     font-family: montserratlight;
     margin-top: 25px;
     margin-left: -25px;
 }
 span.profile-detail {
     font-size: 13px;
-    color: #fff;
+    color: #63696d;
     opacity: 0.7;
 }
 .company-detail {
     font-size: 15px;
     font-family: montserratregular;
-    background: rgba(175, 42, 50, 0.1);
+    background: rgba(51, 152, 204, 0.1);
     border-radius: 8px;
     padding: 10px;
     line-height: 25px;
@@ -84335,13 +84336,40 @@ span.profile-detail {
     right: 3px;
     top: 3px;
 }
-.btn-white-new:hover,
-.btn-white-new:focus,
-.btn-white-new:active {
+.btn-white-new:hover, .btn-white-new:focus, .btn-white-new:active {
     color: #fb5f66;
     outline: none !important;
     background: #f3f8fb;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+}
+.section-banner .btn-white-new {
+    background: #fb5f66;
+    font-size: 14px;
+    color: #fff;
+    font-family: montserratlight;
+    border-radius: 25px;
+    padding: 14px 55px 14px 30px;
+    margin-top: 35px;
+    position: relative;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+    text-transform: uppercase;
+}
+.section-banner .btn-white-new i.material-icons {
+    font-size: 18px;
+    background: none;
+    /* background: linear-gradient(117deg, #ff8187, #fb5f66); */
+    /* border-radius: 25px; */
+    /* padding: 13px; */
+    color: #fff;
+    position: absolute;
+    padding: 0;
+    right: 25px;
+    top: 14px;
+}
+.section-banner .btn-white-new:hover, .section-banner .btn-white-new:focus, .section-banner .btn-white-new:active {
+    background: #fb757b !important;
+    color: #fff !important;
 }
 .section-second {
     margin-top: 60px;
@@ -84953,8 +84981,8 @@ blockquote::after {
     }
     
     .section-banner-sales {
-        height: 650px;
-        background-position: 0px -192px;
+        /* height: 650px;
+        background-position: 0px -192px; */
     }
     
     .section-second-sales {
@@ -84967,8 +84995,8 @@ blockquote::after {
     }
     
     .section-banner-sales {
-        height: 630px;
-        background-position: 0px -105px;
+        /* height: 630px;
+        background-position: 0px -105px; */
     }
 }
 @media (min-width:1400px) and (max-width:1440px) {
@@ -85089,6 +85117,7 @@ blockquote::after {
     .section-banner {
         height: auto;
         background-position: 0px -150px;
+        padding-bottom: 50px;
     }
     
     .section-banner h1.main-heading {
@@ -85223,6 +85252,18 @@ blockquote::after {
     .btn-white-new {
         font-size: 13px;
         padding: 13px 50px 13px 15px;
+    }
+
+    .section-banner .btn-white-new {
+        font-size: 13px;
+        padding: 13px 35px 13px 15px;
+        white-space: normal;
+        border-radius: 35px;
+    }
+    .section-banner .btn-white-new i.material-icons {
+        font-size: 14px;
+        right: 15px;
+        top: 15px;
     }
     
     .btn-red-new {
@@ -85391,6 +85432,15 @@ blockquote::after {
         font-size: 14px;
         top: 2px;
         right: 2px;
+    }
+    .section-banner .btn-white-new {
+        font-size: 12px;
+        padding: 13px 35px 13px 15px;
+    }
+    .section-banner .btn-white-new i.material-icons {
+        font-size: 14px;
+        right: 15px;
+        top: 15px;
     }
     
     .section-premade-temp .container,
