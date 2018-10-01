@@ -22068,6 +22068,12 @@ iframe[name=google_conversion_frame] {
     .boxed .full_width .parallax_content {
         padding: 0
     }
+    .section-banner .btn-white-new {
+        padding: 13px 25px 13px 25px !important;
+    }
+    .section-banner .btn-white-new i.material-icons {
+        display: none;
+    }
 }
 
 @media only screen and (max-width:350px) {

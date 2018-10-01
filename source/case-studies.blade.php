@@ -98,7 +98,7 @@
 			<div id="tag" class="tab-pane tab-pane-tag fade in active">
 				<section class="section section-counter">
 					<div class="container">
-						<div class="section-2-heading">TAG Livros Generates 55K + Leads <br/> Using an Interactive Experiences </div>
+						<div class="section-2-heading">TAG Livros Generates 55K + Leads <br/>Using Interactive Content </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
@@ -143,7 +143,7 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
 							<div class="section-2-heading">Experimenting With Interactive Content </div>
-							<span class="section-subtitle">The TAG Livros team built an interactive quiz that would tell people about the best selling book from the year they were born - an interesting concept that would encourge people to engage with the quiz! </span>
+							<span class="section-subtitle">The TAG Livros team built an interactive quiz that would tell people about the best selling book from the year they were born - an interesting concept that would encourage people to engage with the quiz! </span>
 							<img class="img-shadow" src="{{ $page->baseUrl }}/images/case_study_experimenting.jpg" alt="Experimenting With Interactive Content">
 						</div>
 					</div>
@@ -155,7 +155,7 @@
 							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped1.png" alt="No Coding Required">
 								<h5>No Coding Required </h5>
-								<p>The team built an intutive quiz using Outgrow’s interactive pre-built templates. Thus, they did not have to write a single line of code, which reduced the development cost. </p>
+								<p>The team built an intuitive quiz using Outgrow’s interactive pre-built templates. Thus, they did not have to write a single line of code, which reduced the development cost. </p>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 								<img src="{{ $page->baseUrl }}/images/case_study_howOutgrowHelped2.png" alt="High Completion Rate, More Shares">
@@ -235,7 +235,7 @@
 			<div id="getPaid" class="tab-pane tab-pane-gpyp fade">
 				<section class="section section-counter">
 					<div class="container">
-						<div class="section-2-heading">Get Paid for Your Pad (GBYP) Scored a Stellar 41% Conversion Rate with an Interactive Calculator! </div>
+						<div class="section-2-heading">Get Paid for Your Pad (GPYP) Scored a Stellar 41% Conversion Rate with an Interactive Calculator! </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
@@ -379,7 +379,7 @@
 			<div id="vp" class="tab-pane tab-pane-vp fade">
 				<section class="section section-counter">
 					<div class="container">
-						<div class="section-2-heading">Venturepact Generated 11,592 Qualified Leads <br/>Using an Interactive Calculator </div>
+						<div class="section-2-heading">VenturePact Generated 11,592 Qualified Leads <br/>Using an Interactive Calculator </div>
 						<div class="col-md-12 col-sm-12 col-xs-12 np section-counter-inner">
 							<div class="col-md-4 col-sm-4 col-xs-12 np text-center">
 								<div class="counter-wrapper">
