@@ -85157,7 +85157,7 @@ blockquote::after {
     
     .company-detail {
         font-size: 14px;
-        background: #F3F8FB;
+        /* background: #F3F8FB; */
         color: #61696c;
         line-height: 22px;
     }
