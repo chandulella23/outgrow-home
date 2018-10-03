@@ -16548,8 +16548,8 @@ iframe[name=google_conversion_frame] {
         margin-top: 35px !important;
     }
     .section-banner .startTrial-outer label {
-        padding-left: 0;
-        display: -webkit-box;
+        padding-left: 0 !important;
+        /* display: -webkit-box; */
     }
     .section-banner .startTrial-outer input {min-width: 100% !important;}
     .section-banner .lead-form-btn {
@@ -16557,7 +16557,7 @@ iframe[name=google_conversion_frame] {
         top: 0 !important;
     }
     .section-banner .startTrial-outer i.material-icons {
-        top: 35px !important;
+        top: 38px !important;
         /* left: 43px !important; */
     }
 }
@@ -44945,8 +44945,10 @@ footer #lang_sel_list.lang_sel_list_vertical a {
     }
     .section-banner-quiz.section-banner .startTrial-outer i.material-icons, 
     .section-banner-survey.section-banner .startTrial-outer i.material-icons,
-    .section-banner-calc.section-banner .startTrial-outer i.material-icons {
-        top: 35px !important;
+    .section-banner-calc.section-banner .startTrial-outer i.material-icons,
+    .section-banner-roi.section-banner .startTrial-outer i.material-icons,
+    .section-banner-sales.section-banner .startTrial-outer i.material-icons {
+        top: 38px !important;
     }
 }
 @media (min-width:340px) and (max-width:380px) {
@@ -84334,7 +84336,7 @@ img.scrollimg1.wo {
     font-size: 15px;
     color: #63696d;
     font-family: montserratlight;
-    line-height: 24px;
+    line-height: 23px;
 }
 .banner-inner {
     margin-top: 30px;
@@ -84946,13 +84948,13 @@ blockquote::after {
     top: 150px;
 }
 .section-banner-sales h1.main-heading {
-    padding: 0px 100px;
+    padding: 0px 0px;
 }
 .section-banner-roi h1.main-heading {
     padding: 0px 100px;
 }
 .section-banner-sales .banner-content {
-    margin-top: 0px;
+    margin-top: -5px;
     width: 35%;
 }
 .section-six-roi {
@@ -85540,6 +85542,9 @@ blockquote::after {
     
     .section-second-sales img {
         top: 120px;
+    }
+    .section-second.section-second-sales .col-md-12.np {
+        padding: 0 15px;
     }
 }
 @media (min-width:770px) and (max-width:991px) {
@@ -86289,7 +86294,7 @@ a.text-red {
     bottom: 90px !important;
 }
 .section-banner .startTrial-outer {
-    margin-top: 35px;
+    margin-top: 25px;
     margin-bottom: 0px;
     position: relative;
 }
