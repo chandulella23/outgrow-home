@@ -15,6 +15,7 @@ window.openTestimonial = function (sectionId) {
     var activeImg = document.getElementById(`${sectionId}-img`);
     activeImg.classList.add('testactive');
 }
+
 window.submitEbookData = function (e) {
     e.preventDefault(), jQuery("#ebook-error").html("");
     var o = jQuery("#ebook-email").val(),
@@ -93,6 +94,7 @@ jQuery.noConflict();
 jQuery.material.init();
 
 jQuery(document).ready(function () {
+    console.log('alphonse')
 
     // jQuery('.noToggle').click(function(e) {
     //     e.preventDefault();
@@ -122,7 +124,7 @@ jQuery(document).ready(function () {
 
     disableCookieDialog = getCookie('disableCookieDialog');
     if (disableCookieDialog == undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
-    calculateMinHeight();
+    // calculateMinHeight();
 
     jQuery('.calc-links a').on('click', function () {
         jQuery('a').removeClass('active');
@@ -170,21 +172,23 @@ jQuery(document).ready(function () {
                 jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
             }
         }
-
     }, 1000);
 
     const interval = setInterval(() => {
         console.log('testing')
         const iframe = document.querySelector('.intercom-launcher-discovery-frame');
+        const cookieSection = document.querySelector('.section.sec-cookies');
 
-        if (iframe) {
-            // Append the stylesheet to the iframe head
-            // iframe.className+='custom-intercom';
-            jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
-            jQuery('.intercom-launcher-frame').addClass('custom-intercom');
-            console.log('setting custom intercom css')
-            clearInterval(interval);
-            clearTimeout(timeout);
+        if (!cookieSection.classList.contains('hide')) {
+            if (iframe) {
+                // Append the stylesheet to the iframe head
+                // iframe.className+='custom-intercom';
+                jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
+                jQuery('.intercom-launcher-frame').addClass('custom-intercom');
+                console.log('setting custom intercom css')
+                clearInterval(interval);
+                clearTimeout(timeout);
+            }
         }
     }, 1000);
 
