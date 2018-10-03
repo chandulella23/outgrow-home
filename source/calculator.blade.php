@@ -66,6 +66,8 @@
 							</a>				
 						</span>
 					</div>
+
+				 <script src="{{ $page->baseUrl }}/js/pageScripts/lead-form.js"></script>
 				</div>
 			</div>
 		</div>
