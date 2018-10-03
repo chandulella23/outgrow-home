@@ -19127,10 +19127,19 @@ iframe[name=google_conversion_frame] {
         padding: 15px 22px !important;
         font-size: 12px !important;
     }
-    .section-banner .startTrial-outer input {min-width: 340px !important;}
-    .section-banner .lead-form-btn {right: -27px !important;}
+    .section-banner .startTrial-outer input {
+        min-width: 330px !important; 
+        font-size: 13px !important; 
+        min-height: 42px !important;
+        padding-left: 40px !important;
+    }
+    .section-banner .lead-form-btn {right: -17px !important;}
     .section-banner .startTrial-outer .lead-form-btn .btn-buildcal {
-        padding: 13px 18px !important;
+        padding: 11px 15px !important;
+    }
+    .startTrial-outer i.material-icons {
+        left: 17px !important;
+        top: 37px !important;
     }
 }
 
@@ -84018,7 +84027,14 @@ img.uni1 {
         left: 23px !important;
     }
 }
-
+@media(min-width:1150px) and (max-width:1250px) {
+    .banner-content {
+        margin-left: -30px !important;
+    }
+    .section-banner .lead-form-btn {
+        right: -35px !important;
+    }
+}
 @media(min-width:320px) and (max-width:640px) {
     .section-6-left {
         padding: 0px 20px 0 16px !important;
