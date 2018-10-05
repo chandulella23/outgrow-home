@@ -164,7 +164,7 @@
 	<section class="section section-embeds">
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
 			<div class="container mobile-container">
-				<div class="section-heading text-center">Average Rating 4.9/5 <br/>450+ Reviews </div>
+				<div class="section-heading text-center">Average Rating 4.9/5 <br/>500+ Reviews </div>
 				<div class="social-media-section">
 					<div class="each-arrow-section">
 						<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
@@ -210,7 +210,7 @@
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds" id="staticReviews">
 			<div class="container mobile-container">
 				<div class="section-2-heading" style="color: rgb(34, 34, 34);">
-					Average Rating 4.9/5 <br/>450+ Reviews
+					Average Rating 4.9/5 <br/>500+ Reviews
 				</div>
 
 				<ul class="nav nav-tabs">

@@ -18,6 +18,7 @@
 				<li class="dropdown" id="getInspired">
 					<a href="javascript:void(0);" id="nav-get-inspired" onclick="callGA('USECASE')" class="params hvr-underline-from-left">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
 					<div class="dropdown-content">
+						<a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
 						<div class="drop-sub-menu">
 							<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params" id="nav-use-cases">Use Cases <i class="material-icons">chevron_right</i></a>
 							<div class="dropdown-sub-content">
@@ -29,7 +30,6 @@
 								<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
 							</div>
 						</div>
-						<a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
 						<div class="drop-sub-menu drop-sub-menu-stories">
 							<a href="javascript:void(0);" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
 							<div class="dropdown-sub-content">
@@ -99,6 +99,7 @@
 			<li class="dropdown" id="GetInspired">
 				<a id="drop-toggle" href="javascript:void(0);" onclick="callGA('USECASE')" class="params dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
 				<ul class="dropdown-content">
+					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a></li>
 					<div class="drop-sub-menu">
 						<li><a href="#" onclick="callGA('USECASES');" class="params" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a></li>
 						<div class="dropdown-sub-content">
@@ -110,7 +111,6 @@
 							<li><a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
 						</div>
 					</div>
-					<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a></li>
 					<div class="drop-sub-menu">
 						<li><a href="javascript:void(0);" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">arrow_drop_down</i></a></li>
 						<ul class="dropdown-sub-content">
