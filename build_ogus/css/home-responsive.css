@@ -822,17 +822,29 @@
     .case-study-tabs-container {
         width: 100%;
     }
+    .section-case-study .nav-tabs {
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: center;
+    }
     .case-study-tabs {
         margin-bottom: 30px !important;
-        margin: 0;
-        max-width: 100%;
+        margin: 0px 10px 20px !important;
+        /* max-width: 100%; */
+        max-width: 110px;
+    }
+    .nav .case-study-tabs a img {
+        width: 100%;
+    }
+    .nav .case-study-tabs.nav-case-vp a img, .nav .case-study-tabs.nav-case-macroscape a img, .nav .case-study-tabs.nav-case-wingman a img {
+        min-height: 47px;
     }
     .section-case-study {
         margin: 0;
-        padding: 30px;
+        padding: 30px 30px 10px;
     }
     .case-study-tabs:last-child {
-        margin-bottom: 0px !important;
+        /* margin-bottom: 0px !important; */
     }
     .section-counter, 
     .section-companyInfo, 
@@ -888,10 +900,12 @@
         padding: 0px 20px;
     }
     .counter, .counter-wrapper .counter + span {
-        font-size: 36px;
+        font-size: 33px;
     }
     .counter-wrapper + span {
-        font-size: 15px;
+        font-size: 13px;    
+        line-height: normal;
+        display: inline-block;
     }
     #footer.section-14 .container .col-sm-12 {
 		padding-left: 0 !important;
@@ -905,8 +919,8 @@
     section.section.example-calc {
         margin-top: 40px !important;
     }
-
-
+    .case-study-tabs span {font-size: 11px;}
+    .nav .case-study-tabs a {padding: 15px 15px;}
 }
 @media (min-width:0px) and (max-width:1024px) {
     .Privacy .Privacy-subheading {
@@ -1277,7 +1291,7 @@
     }
     .case-study-tabs {
         margin-right: 20px;
-        max-width: 125px;
+        max-width: 120px;
         margin-bottom: 0px !important;
     }
     .section-case-study {
@@ -1288,13 +1302,8 @@
         margin: 0px 25px 25px!important;
     }    
     .nav .case-study-tabs a img {max-width: 100%;}
-    .case-study-tabs {
-        margin-right: 20px;
-        max-width: 125px;
-        margin-bottom: 0px !important;
-    }
     .nav .case-study-tabs:nth-child(1) a img, .nav .case-study-tabs:nth-child(2) a img {
-        height: 49px;
+        height: 46px;
     }
 
 
