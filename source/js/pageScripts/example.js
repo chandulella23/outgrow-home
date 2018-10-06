@@ -476,7 +476,7 @@ function renderPremadeCalcs(responseText) {
         //   jQuery('#premade-loader').addClass('hide');
         setPremade();
         setCalcCategory('Auto');
-        changeTab('Calculator');
+        //changeTab('Calculator');
         shuffleCalcs('Auto');
         console.log('qwerty')
 

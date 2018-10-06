@@ -298,6 +298,16 @@
 													Construction</a>
 											</li>
 											<li>
+												<a href="javascript:void(0)" id="Funnels" onclick="shuffleCalcs('Funnels')">
+												Funnels
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">
+												Trending
+												</a>
+											</li>
+											<li>
 												<a href="javascript:void(0)" id="Technology"
 												onclick="shuffleCalcs('Technology')">Technology</a>
 											</li>
