@@ -1299,7 +1299,7 @@
 	<section class="section section-quotes section-quotes-calc">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
-				<blockquote>I really like how easy it is to build calculators! It helps us stand out & is great for capturing data on new leads. </blockquote>
+				<blockquote><span class="quote-left1">“</span>I really like how easy it is to build calculators! It helps us stand out & is great for capturing data on new leads. <span class="quote-right1">“</span></blockquote>
 				<span>- Amy Dano, Manager, Learn2</span>
 			</div>
 		</div>

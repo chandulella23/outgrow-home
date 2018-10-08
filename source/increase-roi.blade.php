@@ -1454,7 +1454,7 @@
 	<section class="section section-quotes section-quotes-roi">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
-				<blockquote>Helps us close leads into paying customers </blockquote>
+				<blockquote><span class="quote-left1">“</span>Helps us close leads into paying customers <span class="quote-right1">“</span></blockquote>
 				<span>- Nathan Windsor, Founder, Macroscape </span>
 			</div>
 		</div>
