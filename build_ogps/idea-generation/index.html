@@ -41,7 +41,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
 
 <!-- Analytics Tracking Snippets Starts -->
-<!-- <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script> -->
+ <script src="//load.sumome.com" async data-sumo-site-id="6457b100d7b4ff00ff47fd0006ddf0008d0bde00f6d5b0001f2f500036f1b000"></script>
 
 <script async>
 (function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m[0]);
@@ -165,35 +165,57 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
-<div class="container-fluid">
-	<div class="navbar-header">
-		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button> 
-		<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="nav-toggle">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button> 
+			<a class="params navbar-brand" href="/"><img src="//dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" /></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right" id="navlist">
+				<li><a href="/why-interactive" onclick="callGA('WHY')" class="params hvr-underline-from-left" id="nav-why-interactive">Why Interactive Content ?</a></li>
+				<li><a href="/features" onclick="callGA('FEATURES')" class="params hvr-underline-from-left" id="nav-features">Features</a></li>
+				<li><a href="/pricing" onclick="callGA('PRICING')" class="params hvr-underline-from-left" id="nav-pricing">Pricing</a></li>
+				<li><a href="/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
+				
+				<li class="login dash-login">
+					<a href="//app.outgrow.co/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
+				</li>
+				<!-- <li class="signUp signUp-style res-nav-hide">
+					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
+				</li>
+				<li class="signUp res-nav-show">
+					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
+				</li> -->
+				<li class="nav-lead-input hideafter-login">
+					<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
+					<span class="lead-form-btn">
+						<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+							Start Free Trial
+						</a>
+					</span>
+				</li>
+				<!-- <li>
+					<a href="//app.outgrow.co/signup/?email=" class="btn btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+						Dashboard
+					</a>
+				</li> -->
+			</ul>
+		</div> 
 	</div>
-	 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<ul class="nav navbar-nav navbar-right" id="navlist">
-			<li><a href="/why-interactive" onclick="callGA('WHY')" class="params hvr-underline-from-left" id="nav-why-interactive">Why Interactive Content ?</a></li>
-			<li><a href="/features" onclick="callGA('FEATURES')" class="params hvr-underline-from-left" id="nav-features">Features</a></li>
-			<li><a href="/pricing" onclick="callGA('PRICING')" class="params hvr-underline-from-left" id="nav-pricing">Pricing</a></li>
-			<li><a href="/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
-			   <li class="login">
-				   <a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
-			   </li>
-			  <li class="signUp signUp-style res-nav-hide">
-				  <a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
-			  </li>
-			<li class="signUp res-nav-show">
-				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
-			</li>
-		</ul>
-	</div> 
-</div>
-</nav> 
+</nav>
+
+<script>
+    	document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/signup/?email=";
+			document.getElementsByClassName('lead-email')[0].href = href + email;
+    }
+</script>
 
 
 <!-- <div class="header-logo">
@@ -212,8 +234,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                 <div class="sec-container">
                     <div class="sec1-text">
                         <h1 id="background1" class="mouse-bg1">
-                            Generate Ideas <br>
-                            for <span>Quiz</span> or <span>  Calculator.</span>
+                            Generate <span>Interactive </span>and  <br> <span>Personalized Content Ideas </span>
                         </h1>
                     </div>
                     <a class="sec1-button" href="javascript:void(0);">Get Started</a>
@@ -280,6 +301,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                     </div>
                 </div>
             </div>
+            
         </section>
         <section class="sec-outr sec4-bg hide">
             <div class="sec">
@@ -293,7 +315,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                     <div class="sec-catergory">
                         <input type="text" class="sec-input" id="form-email" placeholder="johndoe@outgrow.co" />
                         <span class="alert alert-danger email-validator hide">
-						  	<i class="material-icons">error_outline</i> Please enter valid email
+						  	<i class="material-icons">error_outline</i> Please enter a valid email
 						</span>
                     </div>
                     <div class="butn-outr">
@@ -362,8 +384,27 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                     </div>    
                 </div>
             </div>
+            <div class="floating-btn">
+                <a onclick="sendLeadResponse()" data-sumome-listbuilder-id="863e96e6-c7a0-4b41-9829-a8e72ee55c08" 
+                    class="btn btn-white-new"> Get Personalized Ideas for your Company </a>
+                </div>
         </section>
-    </div>	
+    </div>
+
+    <section class="section sec-cookies hide">
+        <div class="container">
+            <p>
+                We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
+            </p> 
+            <!-- <p>
+                We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
+            </p> -->
+            <button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">Accept & Close</button>
+        </div>	
+        <a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
+    </section>
+
+
 
 	<script>
 			const libs = {

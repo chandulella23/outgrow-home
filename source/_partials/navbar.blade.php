@@ -1,7 +1,7 @@
 <nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="nav-toggle">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -57,6 +57,12 @@
 					<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 				</li>
 				<li class="signUp signUp-style res-nav-hide">
+				<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
+				
+				<li class="login dash-login">
+					<a href="//app.outgrow.co/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
+				</li>
+				<!-- <li class="signUp signUp-style res-nav-hide">
 					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
 				</li>
 				<li class="signUp res-nav-show">
@@ -144,6 +150,32 @@
 	</div>
 
 </nav> 
+				</li> -->
+				<li class="nav-lead-input hideafter-login">
+					<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
+					<span class="lead-form-btn">
+						<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+							Start Free Trial
+						</a>
+					</span>
+				</li>
+				<!-- <li>
+					<a href="//app.outgrow.co/signup/?email=" class="btn btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+						Dashboard
+					</a>
+				</li> -->
+			</ul>
+		</div> 
+	</div>
+</nav>
+
+<script>
+    	document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/signup/?email=";
+			document.getElementsByClassName('lead-email')[0].href = href + email;
+    }
+</script>
 
 
 

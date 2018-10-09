@@ -156,6 +156,7 @@ window.changeTab = function (tabName) {
         }
     }
 
+    //
     if (first) {
         setCalcCategory(first)
     } else {

@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 @endsection
 
-@section('pageClass', '')
+@section('pageClass', 'icaq')
 
 @section('pageId', '')
 

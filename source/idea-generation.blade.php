@@ -42,8 +42,7 @@
                 <div class="sec-container">
                     <div class="sec1-text">
                         <h1 id="background1" class="mouse-bg1">
-                            Generate Ideas <br>
-                            for <span>Quiz</span> or <span>  Calculator.</span>
+                            Generate <span>Interactive </span>and  <br> <span>Personalized Content Ideas </span>
                         </h1>
                     </div>
                     <a class="sec1-button" href="javascript:void(0);">Get Started</a>
@@ -110,6 +109,7 @@
                     </div>
                 </div>
             </div>
+            
         </section>
         <section class="sec-outr sec4-bg hide">
             <div class="sec">
@@ -123,7 +123,7 @@
                     <div class="sec-catergory">
                         <input type="text" class="sec-input" id="form-email" placeholder="johndoe@outgrow.co" />
                         <span class="alert alert-danger email-validator hide">
-						  	<i class="material-icons">error_outline</i> Please enter valid email
+						  	<i class="material-icons">error_outline</i> Please enter a valid email
 						</span>
                     </div>
                     <div class="butn-outr">
@@ -192,8 +192,26 @@
                     </div>    
                 </div>
             </div>
+            <div class="floating-btn">
+                <a onclick="sendLeadResponse()" data-sumome-listbuilder-id="863e96e6-c7a0-4b41-9829-a8e72ee55c08" 
+                    class="btn btn-white-new"> Get Personalized Ideas for your Company </a>
+                </div>
         </section>
-    </div>	
+    </div>
+
+    <section class="section sec-cookies hide">
+        <div class="container">
+            <p>
+                We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="{{ $page->baseUrl }}/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
+            </p> 
+            <!-- <p>
+                We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
+            </p> -->
+            <button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">Accept & Close</button>
+        </div>	
+        <a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>
+    </section>
+
 @endsection
 
 @section('inlinescripts')

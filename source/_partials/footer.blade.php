@@ -11,9 +11,9 @@
 					<li><a href="{{ $page->baseUrl }}/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
 					<li><a href="{{ $page->baseUrl }}/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
 					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
-					<li><a href="http://resources.outgrow.co/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
-					<li><a href="http://resources.outgrow.co/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
-
+					<li><a href="http://outgrow.co/blog/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="http://outgrow.co/blog/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+					<li><a href="{{ $page->baseUrl }}/ecommerce-recommendations/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">Ecommerce Quizzes</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-5 footer-link mk-animate-element fade-in hide">
@@ -28,76 +28,93 @@
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/content-marketing-strategy-checklist/?utm_source=footer">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
+						<a href="http://outgrow.co/blog/content-marketing-strategy-checklist/?utm_source=footer">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="//dzvexx2x036l1.cloudfront.net/footer5.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-content-make-digital-marketing-agency-stand-out/?utm_source=footer">Make Your Digital Marketing Agency Stand Out</a>
+						<a href="http://outgrow.co/blog/interactive-calculators-content-make-digital-marketing-agency-stand-out/?utm_source=footer">Make Your Digital Marketing Agency Stand Out</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/university-college-calculators/?utm_source=footer">7 Interactive Calculators Every University Needs on Its Website</a>
+						<a href="http://outgrow.co/blog/university-college-calculators/?utm_source=footer">7 Interactive Calculators Every University Needs on Its Website</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="//dzvexx2x036l1.cloudfront.net/res4.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/lead-retention-activate-cold-leads/?utm_source=footer">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
+						<a href="http://outgrow.co/blog/lead-retention-activate-cold-leads/?utm_source=footer">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="//dzvexx2x036l1.cloudfront.net/footer7.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/interactive-calculators-saas-companies/?utm_source=footer">9 Calculators Every SaaS Company Should Consider</a>
+						<a href="http://outgrow.co/blog/interactive-calculators-saas-companies/?utm_source=footer">9 Calculators Every SaaS Company Should Consider</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="//dzvexx2x036l1.cloudfront.net/res7.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/best-interactive-lead-generation-techniques/?utm_source=footer">Value Added Marketing With Digital Experiences</a>
+						<a href="http://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=footer">Value Added Marketing With Digital Experiences</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="//dzvexx2x036l1.cloudfront.net/res8.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/courses/lead-generation-with-calculators/?utm_source=footer">Lead Generation With Interactive Calculators</a>
+						<a href="http://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=footer">Lead Generation With Interactive Calculators</a>
 					</div>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res9.jpg" src="//dzvexx2x036l1.cloudfront.net/res9.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="http://resources.outgrow.co/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
+						<a href="http://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 np footer-social">
-			<ul>
-				<li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
-				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
-				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>
-				<li class="border-left"><a href="{{ $page->baseUrl }}/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
-				<li><a href="{{ $page->baseUrl }}/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
-
-				<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
-				<li><a href="https://angel.co/outgrow-5/jobs/?utm_source=footer" target=_blank>Careers</a></li>
-			</ul>
-			<div class="company-address">
-				401 park ave, 10th floor, New York 10016
+	</div>
+	
+	<div class="col-xs-12 np footer-social">
+		<div class="container">
+			<div class="footer-bottom-left">
+				<ul>
+					<!-- <li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+					<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+					<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li> -->
+					<li class=""><a href="{{ $page->baseUrl }}/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+					<li><a href="{{ $page->baseUrl }}/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+					<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
+					<li class=""><a href="https://angel.co/outgrow-5/jobs/?utm_source=footer" target=_blank>Careers</a></li>
+					<li class="social-icons"><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer" target="_blank"><i class="zmdi zmdi-facebook-box"></i></a></li>
+					<li class="social-icons"><a href="https://www.linkedin.com/company/7966190/?utm_source=footer" target="_blank"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+					<li class="social-icons"><a href="https://twitter.com/outgrowco/?utm_source=footer" target="_blank"><i class="zmdi zmdi-twitter-box"></i></a></li>
+				</ul>
+				<div class="footer-bottom-copyAddress">
+					<div class="company-address">
+						401 park ave, 10th floor, New York 10016
+					</div>
+					<div class="footer-copyright">
+						<div class="border-left">
+							<i class="material-icons">copyright</i>
+							<span>Copyright 2018</span>
+							<img class="scrollimg" data-scroll-img="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" src="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" alt="Footer logo" />
+							<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="footer-copyright">
-				<i class="material-icons">copyright</i>
-				<span>Copyright 2018</span>
-				<img class="scrollimg" data-scroll-img="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" src="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" alt="Footer logo" />
-				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
+			<div class="footer-badge">
+				<img src="{{ $page->baseUrl }}/images/footer-badge-ps.jpg" alt="Privacy Shield Framework">
+				<img src="{{ $page->baseUrl }}/images/footer-badge-gdpr.jpg" alt="General Data Protection Regulation">
 			</div>
 		</div>
 	</div>
+
 </section>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
 <section class="section section-14" id="footer">
@@ -249,9 +266,6 @@
 		<p>
 			We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. <a href="{{ $page->baseUrl }}/cookies-privacy-policy">Read about how we use cookies.</a> If you continue to use this site, you consent to our use of cookies.
 		</p> 
-		<!-- <p>
-			We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. If you continue to use this site, you consent to our use of cookies.
-		</p> -->
 		<button type="button" class="btn btn-understand btn-hover" onclick="closeCookieDialog(true)">Accept & Close</button>
 	</div>	
 	<a href="javascript:void(0);" class="icon-close" onclick="closeCookieDialog()"><i class="material-icons">close</i></a>

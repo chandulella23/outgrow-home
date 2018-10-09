@@ -1085,7 +1085,8 @@
     .container>.navbar-collapse,
     .container>.navbar-header {
         margin-right: 0;
-        margin-left: 0px
+        margin-left: 0px;
+        width: 100%;
     }
     .navbar-right {
         margin-left: 0;
@@ -2015,7 +2016,8 @@
         font-size: 25px
     }
     .navbar-right {
-        margin-left: 20px
+        margin-left: 0;
+        margin-right: 0px;
     }
     .container-fluid>.navbar-header {
         margin-left: -30px
@@ -5609,6 +5611,8 @@
 		top: -5px;
 		font-size: 20px !important;
 		border-radius: 25px;
-    } 
-    	
+    }     	
+}
+@media (max-width: 768px) and (min-width: 0px) {
+    #video-main {height: auto !important;}
 }

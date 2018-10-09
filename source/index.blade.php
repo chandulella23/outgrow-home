@@ -74,7 +74,7 @@
 							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">
 							<span class="lead-form-btn">
 								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
-									Start Free Trial
+									Get Started for free
 								</a>
 
 								
@@ -100,22 +100,17 @@
 			</div>
 
 			<script>
-				document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
+			
+			document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
 					document.getElementsByClassName('lead-email')[0].href = href + email;
 				}
 
-				function closeCookieDialog(closeOnReload) {
-                    jQuery('.section.sec-cookies').addClass('hide');
-                    jQuery('.intercom-launcher-discovery-frame').removeClass('custom-intercom');
-                    jQuery('.intercom-launcher-frame').removeClass('custom-intercom');
-                    jQuery('.intercom-launcher-badge-frame').removeClass('custom-intercom');
-                    jQuery('.intercom-messenger-frame').css('bottom', 'calc(20px + 80px)');
-				    if(closeOnReload) {
-                        document.cookie = "disableCookieDialog=true; expires=Thu, 29 Dec 2022 12:00:00 UTC";
-					}
-
+				document.getElementsByClassName('lead-form-email')[1].onchange = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					document.getElementsByClassName('lead-email')[1].href = href + email;
 				}
 				// window.callGA = function(a) {
 				//     switch (a) {
@@ -133,9 +128,17 @@
 						window.location.href = href+email;
 					}
 				}
+
+				document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
+				let email = e.target.value;
+				let href = "//app.outgrow.co/signup/?email=";
+				if (e.keyCode == 13) {
+					window.location.href = href+email;
+				}
+				}
 			</script>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
+			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs-mob">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-mob" data-toggle="modal" data-target="#video-modal">
@@ -144,13 +147,12 @@
 							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
-							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs">
+			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np rs-show text-center hide-height video-img-shadow" id="video-main-rs">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-res" onclick="changeHeightRes()">
@@ -159,13 +161,12 @@
 							<span class="video-playIcon">
 								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
 							</span>
-							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height video-img-shadow" id="video-main">
+			<div class="col-md-12 col-sm-12 col-xs-12 np text-center hide-height video-img-shadow" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1" onclick="changeHeightWeb1()">
@@ -180,7 +181,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main-xl">
+			<!-- <div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height" id="video-main-xl">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
 						<div class="video-img-inner video-img-inner-web" id="him1-xl" onclick="changeHeightWebXL()">
@@ -192,7 +193,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<script>
 				document.getElementsByClassName("video-playIcon")[0].onclick = function () {
@@ -202,16 +203,16 @@
 				function btnclose() {
 					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3'
 				}
-				function changeHeightRes () {
-					console.log('Res');
-					window.location.replace('#bfrVid')
-					document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
-					var xDiv = document.getElementById('video-main-rs');
-					if (xDiv.style.height == '')
-						xDiv.style.height = '460px';
-					else
-						xDiv.style.height = '';
-				}
+				// function changeHeightRes () {
+				// 	console.log('Res');
+				// 	window.location.replace('#bfrVid')
+				// 	document.getElementsByClassName("video-img-inner-res")[0].innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+				// 	var xDiv = document.getElementById('video-main-rs');
+				// 	if (xDiv.style.height == '')
+				// 		xDiv.style.height = '460px';
+				// 	else
+				// 		xDiv.style.height = '';
+				// }
 				function changeHeightWeb1 () {
 					console.log('Tab');
 					window.location.replace('#bfrVid')
@@ -224,17 +225,41 @@
 						xDiv.style.height = '';
 				}
 
-				function changeHeightWebXL () {
-					console.log('Tab');
-					window.location.replace('#bfrVid')
-					document.getElementById("him1-xl").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
-					var xDiv = document.getElementById('video-main-xl');
+				function changeHeightWeb2 () {
 
-					if (xDiv.style.height == '')
-						xDiv.style.height = '1160px';
-					else
-						xDiv.style.height = '';
+					window.location.replace('#video')
+					document.getElementById("video").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main');
+
+					// if (xDiv.style.height == '')
+					// 	xDiv.style.height = '574px';
+					// else
+					// 	xDiv.style.height = '';
 				}
+
+				function changeHeightWeb3 () {
+
+					window.location.replace('#video-mob')
+					document.getElementById("video-mob").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/1Bkoqqp1lro?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+					var xDiv = document.getElementById('video-main');
+
+					// if (xDiv.style.height == '')
+					// 	xDiv.style.height = '574px';
+					// else
+					// 	xDiv.style.height = '';
+				}
+
+				// function changeHeightWebXL () {
+				// 	console.log('Tab');
+				// 	window.location.replace('#bfrVid')
+				// 	document.getElementById("him1-xl").innerHTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='outgrow-video' src='https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3' frameborder='0' allowfullscreen></iframe></div>";
+				// 	var xDiv = document.getElementById('video-main-xl');
+
+				// 	if (xDiv.style.height == '')
+				// 		xDiv.style.height = '1160px';
+				// 	else
+				// 		xDiv.style.height = '';
+				// }
 			</script>
 		</div>
 	</section>
@@ -364,7 +389,7 @@
 						<div class="case-interactive-left-side">
 								<div class="interactive-subinner-left-section">
 									 <span class="site-image">
-										<img alt="Go Viral" src="//dzvexx2x036l1.cloudfront.net/img-table3.png"/> 
+										<img alt="Go Viral" src="//dzvexx2x036l1.cloudfront.net/img-entrepreneurs.png"/> 
 									 </span>
 								</div>
 								<div class="interactive-subinner-right-section">
@@ -429,15 +454,12 @@
 	</section>
 
 	<!-- Homepage section 4 start-->
-	<section class="section section-4">
+	<!-- <section class="section section-4">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
 				<div class="video-frame">
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
-						<!-- <video width="1324" height="607" autoplay loop>
-							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.webm" type="video/webm">
-						</video> -->
 						<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 					</div>
 				</div>
@@ -464,16 +486,68 @@
 				<div class="video-frame">
 					<span class="circle"></span>
 					<div class="embed-responsive embed-responsive-16by9">
-						<!-- <video width="1324" height="607" autoplay loop>
-							<source src="//dzvexx2x036l1.cloudfront.net/Outgrow-demo.webm" type="video/webm">
-						</video> -->
 						<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/1Bkoqqp1lro?autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="640" height="360" frameborder="0" gesture="media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Homepage section 4 end-->
+
+	<!-- Homepage section 4 new start-->
+	<section class="section section-4">
+		<div class="container mobile-container">
+			<div class="col-xs-12 col-sm-12 np section-4-right mk-animate-element fade-in rs-show">
+			<div class="video-img-wrapper video-frame">
+					<span class="circle"></span>
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-web" id="video-mob" onclick="changeHeightWeb3()">
+							<img alt="video thumbnail image" class="video-img" src="{{ $page->baseUrl }}/images/video-thumbnail-bb.jpg" data-src="{{ $page->baseUrl }}/images/video-thumbnail-bb.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon">
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+							</span>
+							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 section-4-left ">
+				<h4 class="mk-animate-element right-to-left capt">
+					Build Beautiful
+				</h4>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">format_paint</i>
+					<span><b>Appealing layouts</b> that set your UX apart</span>
+				</span>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">view_compact</i>
+					<span>Showcase your brand with <b>quick customizations</b> </span>
+				</span>
+				<span class="mk-animate-element right-to-left">
+					<i class="material-icons">developer_board</i>
+					<span>Publish in minutes, with <b>no IT headache</b></span>
+				</span>
+
+			</div>
+			<div class="col-xs-12 col-sm-9 np section-4-right mk-animate-element fade-in rs-hide">
+				<div class="video-img-wrapper video-frame">
+					<span class="circle"></span>
+					<div class="overflow-hidden">
+						<div class="video-img-inner video-img-inner-web" id="video" onclick="changeHeightWeb2()">
+							<img alt="video thumbnail image" class="video-img" src="{{ $page->baseUrl }}/images/video-thumbnail-bb.jpg" data-src="{{ $page->baseUrl }}/images/video-thumbnail-bb.jpg" />
+							<span class="img-overlay"></span>
+							<span class="video-playIcon video-playIcon-bb">
+								<span class="inside-circle"><i class="material-icons">play_arrow</i></span>
+							</span>
+							<!-- <img class="video-arrow" src="//dzvexx2x036l1.cloudfront.net/video-arrow.png" /> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Homepage section 4 new end-->
 
 	<!-- Homepage section 5 start-->
 	<section class="section section-5">
@@ -1669,9 +1743,9 @@
 			</div>
 	</section>
 
-	<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
+	<!-- <div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-dialog-video">
-			<!-- Modal content-->
+			Modal content
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" onclick="btnclose()" id="btn-close-mob" class="close btn-close" data-dismiss="modal" aria-label="Close">
@@ -1690,7 +1764,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 @endsection
 
 @section('inlinescripts')
