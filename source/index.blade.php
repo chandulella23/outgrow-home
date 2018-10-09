@@ -388,7 +388,7 @@
 						<div class="case-interactive-left-side">
 								<div class="interactive-subinner-left-section">
 									 <span class="site-image">
-										<img alt="Go Viral" src="{{ $page->baseUrl }}/images/img-table3.png"/> 
+										<img alt="Go Viral" src="//dzvexx2x036l1.cloudfront.net/img-entrepreneurs.png"/> 
 									 </span>
 								</div>
 								<div class="interactive-subinner-right-section">
