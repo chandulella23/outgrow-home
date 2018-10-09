@@ -8109,7 +8109,32 @@ ul {
     font-weight: 400;
     font-style: normal
 }
+@font-face {
+	font-family: sintony-regular;
+	src: url(../fonts/sintony-regular-webfont), url(../fonts/sintony-regular-webfont.woff2) format('woff2'), url(../fonts/sintony-regular-webfont.woff) format('woff'), url(../fonts/sintony-regular-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased
+}
 
+@font-face {
+	font-family: sintony-bold;
+	src: url(../fonts/sintony-bold-webfont), url(../fonts/sintony-bold-webfont.woff2) format('woff2'), url(../fonts/sintony-bold-webfont.woff) format('woff'), url(../fonts/sintony-bold-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased
+}
+
+@font-face {
+	font-family: satisfy-regular;
+	src: url(../fonts/satisfy-regular-webfont), url(../fonts/satisfy-regular-webfont.woff2) format('woff2'), url(../fonts/satisfy-regular-webfont.woff) format('woff'), url(../fonts/satisfy-regular-webfont.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased
+}
 body {
     font-family: montserratregular;
     color: #8e989f;
@@ -18126,6 +18151,20 @@ iframe[name=google_conversion_frame] {
     /* .section-banner .startTrial-outer input {min-width: 310px !important;}
     .section-banner .lead-form-btn {right: -75px !important;}
     .section-banner .startTrial-outer .lead-form-btn .btn-buildcal {padding: 13px 10px !important;} */
+    .section-quotes blockquote {
+        font-size: 15px !important;
+        line-height: 28px !important;
+        padding: 0px 20px 14px !important;
+        max-width: 100% !important;
+    }
+    .section-quotes blockquote + span {
+        font-size: 15px !important;
+        line-height: 28px !important;
+    }    
+    .section-quotes {
+        padding-top: 40px !important;
+        margin-top: 0px;
+    }
 }
 
 @media (min-width:640px) and (max-width:768px) {
@@ -84863,7 +84902,7 @@ ul.nav.nav-tabs.template-tab li.active>a>span {
     margin-top: 0px;
     padding-top: 70px;
 }
-.section-quotes blockquote {
+/* .section-quotes blockquote {
     font-size: 16px;
     color: #fb5f66;
     font-family: montserratlight;
@@ -84875,46 +84914,90 @@ ul.nav.nav-tabs.template-tab li.active>a>span {
     max-width: 80%;
     margin: 0 auto;
     padding: 0px 30px 14px;
+} */
+.section-quotes blockquote { 
+    font-size: 18px;
+    color: #4793c5;
+    font-family: sintony-bold;
+    line-height: 30px;
+    border: none;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    max-width: 87%;
+    margin: 0 auto;
+    padding: 0px 30px 14px;
+    font-style: italic;
 }
 blockquote::before {
-    content: "“";
+    /* content: "“"; */
     /*Unicode for Left Double Quote*/
     /*Font*/
     
-    font-family: Satisfy, serif;
+    /* font-family: Satisfy, serif;
     font-size: 60px;
     font-weight: bold;
-    color: #fb5f66;
+    color: #fb5f66; */
     /*Positioning*/
     
-    position: absolute;
+    /* position: absolute;
     left: -10px;
-    top: 5px;
+    top: 5px; */
 }
 blockquote::after {
     /*Reset to make sure*/
     
-    content: "”";
+    /* content: "”"; */
     /*Unicode for Left Double Quote*/
     /*Font*/
     
-    font-family: Satisfy, serif;
+    /* font-family: Satisfy, serif;
     font-size: 60px;
     font-weight: bold;
-    color: #fb5f66;
+    color: #fb5f66; */
     /*Positioning*/
     
-    position: absolute;
+    /* position: absolute;
     right: -5px;
-    top: 5px;
+    top: 5px; */
 }
 .section-quotes span {
-    color: #62696d;
+    /* color: #62696d;
     font-size: 14px;
     display: block;
     opacity: 0.7;
     line-height: 24px;
-    font-family: montserratlight;
+    font-family: montserratlight; */
+    color: #62696d;
+    font-size: 18px;
+    /* display: block; */
+    line-height: 30px;
+    font-style: italic;
+    font-family: montserratregular;
+}
+blockquote span.quote-left1 {
+    content: "“";
+    font-family: satisfy-regular;
+    font-weight: normal;
+    font-size: 72px;
+    color: rgb(251, 95, 102);
+    position: relative;
+    top: 25px;
+    /* left: 0; */
+    margin-right: 5px !important;
+    font-style: normal;
+}
+blockquote span.quote-right1 {
+    content: "“";
+    font-family: satisfy-regular;
+    font-weight: normal;
+    font-size: 72px;
+    color: rgb(251, 95, 102);
+    transform: rotate(-180deg);
+    position: absolute;
+    bottom: 50px;
+    margin-left: 10px !important;
+    font-style: normal;
 }
 .section-quotes-border {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -85027,10 +85110,10 @@ blockquote::after {
     margin-top: 0px;
 }
 .section-quotes-roi blockquote {
-    max-width: 37%;
+    /* max-width: 37%; */
 }
 .section-quotes_CR blockquote {
-    max-width: 55%;
+    /* max-width: 55%; */
 }
 .survey1 {
     /* height: auto; */
@@ -85286,9 +85369,12 @@ blockquote::after {
     .section-embeds,
     .section-second,
     .section-six,
-    .section-reading,
-    .section-quotes {
+    .section-reading {
         padding-top: 50px;
+        margin-top: 0px;
+    }
+    .section-quotes {
+        padding-top: 40px;
         margin-top: 0px;
     }
     
@@ -85384,10 +85470,20 @@ blockquote::after {
     .section-banner-roi {
         background-position: 0px -80px;
     }
+    .section-quotes blockquote {
+        font-size: 15px;
+        line-height: 28px;
+        padding: 0px 20px 14px;
+        max-width: 98%;
+    }
+    .section-quotes blockquote + span {
+        font-size: 15px;
+        line-height: 28px;
+    }
 }
 @media (min-width:580px) and (max-width:990px) {
     .section-quotes-roi blockquote {
-        max-width: 55%;
+        /* max-width: 55%; */
     }
 }
 @media (min-width:320px) and (max-width:375px) {
@@ -85464,12 +85560,10 @@ blockquote::after {
     .section-embeds,
     .section-second,
     .section-six,
-    .section-reading,
-    .section-quotes {
+    .section-reading {
         padding-top: 50px;
         margin-top: 0px;
     }
-    
     .premade-template {
         padding-bottom: 50px;
     }
