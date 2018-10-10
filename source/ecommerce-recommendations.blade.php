@@ -21,6 +21,7 @@
 
 @section('css')
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', 'ecomm')

@@ -53,32 +53,32 @@
 						<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
 					</div>
 				</li> -->
-				<li class="login">
-					<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
-				</li>
-				<li class="signUp signUp-style res-nav-hide">
-				<li><a href="{{ $page->baseUrl }}/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
-				
 				<li class="login dash-login">
-					<a href="//app.outgrow.co/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
+					<a href="//app.outgrow.co.in/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
 				</li>
-				<!-- <li class="signUp signUp-style res-nav-hide">
-					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
+				<li class="nav-lead-input hideafter-login">
+					<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
+					<span class="lead-form-btn">
+						<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+							Start Free Trial
+						</a>
+					</span>
 				</li>
-				<li class="signUp res-nav-show">
-					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
-				</li>
+				<!-- <li>
+					<a href="//app.outgrow.co/signup/?email=" class="btn btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+						Dashboard
+					</a>
+				</li> -->
 			</ul>
 		</div> 
 	</div>
-	
+
 	<button id="menu-toggle" type="button" class="btn navbar-toggle">
 		<span class="sr-only">Toggle navigation</span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
-
 	<div id="sidebar-wrapper">
 		<ul class="sidebar-nav">
 			<a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="material-icons">close</i></a>
@@ -140,32 +140,23 @@
 					<li><a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
 				</ul>
 			</li> -->
-			<li class="login">
-				<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+			<li class="login dash-login">
+				<a href="//app.outgrow.co.in/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
 			</li>
-			<li class="signUp signUp-style res-nav-hide">
-				<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
-			</li>
-		</ul>
-	</div>
-
-</nav> 
-				</li> -->
-				<li class="nav-lead-input hideafter-login">
-					<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
-					<span class="lead-form-btn">
-						<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
-							Start Free Trial
-						</a>
-					</span>
-				</li>
-				<!-- <li>
-					<a href="//app.outgrow.co/signup/?email=" class="btn btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
-						Dashboard
+			<li class="nav-lead-input hideafter-login">
+				<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
+				<span class="lead-form-btn">
+					<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+						Start Free Trial
 					</a>
-				</li> -->
-			</ul>
-		</div> 
+				</span>
+			</li>
+			<!-- <li>
+				<a href="//app.outgrow.co/signup/?email=" class="btn btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+					Dashboard
+				</a>
+			</li> -->
+		</ul>
 	</div>
 </nav>
 
