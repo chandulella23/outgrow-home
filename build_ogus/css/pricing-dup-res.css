@@ -72,7 +72,7 @@
 	table, thead, tbody, th, td, tr{display: block;}*/
 	.quater{
 		vertical-align: middle !important;
-		margin-top: -3px;
+		/* margin-top: -3px; */
 	}
 	.half{
 		vertical-align: middle !important;
@@ -90,25 +90,6 @@
 	.pricing-switch {margin-bottom: 30px;}
 	.faq-section {margin-right: 0;}
 	/* .col-sm-2.footer-link, .col-sm-4.footer-link {width: 100% !important;} */
-
-	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
-	/* .dropdown .dropdown-content {display: block !important;} */
-	.dropdown .dropdown-content {
-		min-width: 100% !important;
-		left: 0 !important;
-		background: none;
-		position: relative !important;
-		box-shadow: none !important;
-	}
-	.dropdown-content a {
-		font-size: 11px !important;
-		text-transform: uppercase;
-		line-height: normal !important;
-		padding: 7px 12px !important;
-	}
-	.custom-navbar.navbar-default .navbar-nav>li {
-		margin-right: 0;
-	}
 	.create-exp-center {margin: 15px 0px;}
 	.create-exp .container {
 		width: 100%;
@@ -124,7 +105,7 @@
 		padding-left: 0 !important;
 	}
 	.bg1-img {
-		padding: 70px 10px 90px;
+		padding: 70px 10px 100px;
 	}
 	.billing-plan-list ul>li {
 		width: 50%;
@@ -194,12 +175,6 @@
 	}
 
 }
-@media (min-width: 768px) and (max-width:1024px){
-	#pricing .custom-navbar.navbar-default .navbar-nav > li {
-		margin-right: 0px;
-	}
-
-}
 
 @media (min-width: 769px) and (max-width:990px) {
 	
@@ -215,7 +190,7 @@
 	.sec-allPlans{margin-top: 30px;}
 	.quater{
 		vertical-align: middle !important;
-		margin-top: -4px;
+		/* margin-top: -4px; */
 	}
 	.half{
 		vertical-align: middle !important;
@@ -488,9 +463,6 @@
 	#pricing .container-faqs {
 		width: 900px;
 	}
-	.section-14 {
-		min-height: 660px !important;
-	}
 	
 }
 @media (min-width:1024px) and (max-width:1280px){
@@ -534,16 +506,6 @@
 /* ################### pricing responsive css end ################### */
 
 @media (min-width:3000px) {
-	.custom-navbar.navbar-default.nav-boxshadow {padding: 15px 0px !important;}
-	.navbar-brand {padding-top: 12px;}
-	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span{font-size:20px}
-	.custom-navbar.navbar-default{padding-top:35px; padding-bottom: 35px;}
-	.custom-navbar .signUp-style a{
-	    padding: 8px 14px !important;
-		top: -5px;
-		font-size: 20px !important;
-		border-radius: 25px;
-	}
 	#footer{padding-top: 80px; padding-bottom: 30px;}
 	.footer-link h4 {font-size: 36px; margin-bottom: 40px;}
 	.footer-copyright p, .footer-link ul li a {font-size: 23px;}
@@ -664,14 +626,7 @@
 	.company-address {font-size: 18px !important;}
 	a.link-contact.intercom_trigger {font-size: 24px;}
 
-	/* .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 88px;}
-	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 88px;}
-	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 88px;}
-	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before { top: 68px;}
-	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before { top: 68px;}
-	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 68px !important;} */
-
-	#pricing .section-1 {margin-top: 125px; margin-bottom: 50px;}
+	#pricing .section-1 {margin-top: 115px; margin-bottom: 50px;}
 	.section-faq .container {
 		width: 80%;
 	}
@@ -691,63 +646,18 @@
     .col-sm-2.footer-link .footer-img-text {min-height: 56px;}
 
 }
-@media (min-width:1024px){
-	.navbar{border-radius:4px}
-	.navbar-header{float:left}
-	.navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}
-	.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}
-	.navbar-collapse.in{overflow-y:visible}
-	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}
-}
 @media (min-width:320px) and (max-width:380px){
 	.footer-link {width: 100%;}
 }
 @media(min-width:320px) and (max-width:1023px) {
-	.custom-navbar.navbar-default .navbar-nav>li>a i.material-icons {display: none;}
-	/* .dropdown .dropdown-content, .dropdown .dropdown-sub-content {display: block !important;} */
-	.dropdown .dropdown-content {
-		min-width: 100% !important;
-		left: 0 !important;
-		background: none;
-		position: relative !important;
-		box-shadow: none !important;
-	}
-	.dropdown-content a {
-		font-size: 11px !important;
-		text-transform: uppercase;
-		line-height: normal !important;
-		padding: 7px 12px !important;
-	}
-	.custom-navbar.navbar-default .navbar-nav>li {
-		margin-right: 0 !important;
-	}
-	.dropdown .dropdown-sub-content {
-		min-width: 100% !important;
-		left: 0px !important;
-		background: none;
-		position: relative !important;
-		box-shadow: none !important;
-		top: 0px !important;
-		padding: 0px 20px !important;
-	}
-	.dropdown .dropdown-content a i.material-icons {
-		line-height: 26px !important;
-		transform: rotate(90deg);
-	}
 	.faq-section {
 		padding-right: 0;
 	}
 
 }
 @media only screen and (max-width: 767px) and (min-width: 320px){
-	.hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {
-		display: none;
-	}
-	.navbar-nav > li > a.active.hvr-underline-from-left:before {
-		display: none;
-	}
 	.sec-cookies {
-		padding: 20px; 
+		padding: 20px !important; 
 		text-align: center;
 		font-size: 12px !important;
 	}
@@ -769,24 +679,11 @@
 		margin: 0 30%
 	}
 }
-@media (max-width: 2999px) and (min-width: 1480px) {
-	/* .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 78px !important;}
-	.hvr-underline-from-center:before, .hvr-underline-from-left:before {top: 78px !important;} 
-	.navbar-nav > li > a.active.hvr-underline-from-left:before { top: 78px !important;}
-	.nav-boxshadow .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 54px !important;}
-	.nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
-	.nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;} */
-	/* #pricing .section-1 {
-		margin-top: 105px !important;
-		margin-bottom: 0 !important;
-	}
-	.custom-navbar.navbar-default {padding: 25px 0px;} */
-	
+@media (max-width: 2999px) and (min-width: 1480px) {	
     .section-1, #pricing .section-1 {
         margin-top: 75px !important;
         padding-top: 0px !important;      
     } 
-
 }
 @media (min-width: 5000px) {
 	.container {
@@ -798,6 +695,4 @@
 	colgroup:nth-child(3) {
 		right: 622px;
 	}
-
-
 }
