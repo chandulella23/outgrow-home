@@ -1487,6 +1487,12 @@ li.nav-lead-input {
 	.nav-boxshadow .navbar-nav>li.nav-lead-input {
 		line-height: 95px;
 	}
+	li.login a, li.dash-login {
+		line-height: 115px !important;
+	}
+	.nav-boxshadow.custom-navbar li.login a, .nav-boxshadow.custom-navbar li.dash-login {
+		line-height: 95px !important;
+	}
 	.custom-navbar.navbar-default .navbar-nav>li input.lead-form-email {
 		font-size: 20px;
 		height: 45px;
@@ -1544,7 +1550,7 @@ li.nav-lead-input {
     .nav-boxshadow .hvr-underline-from-left:active:before, .nav-boxshadow .hvr-underline-from-left:focus:before, .nav-boxshadow .hvr-underline-from-left:hover:before {top: 54px !important;}
     .nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 54px !important;} */
 	.custom-navbar.navbar-default .navbar-nav>li>a {
-		font-size: 16px;
+		font-size: 16px !important;
 	}
 
 	.custom-navbar .signUp-style a {
@@ -1618,7 +1624,7 @@ li.nav-lead-input {
       .nav-boxshadow .hvr-underline-from-center:before, .nav-boxshadow .hvr-underline-from-left:before {top: 68px !important;} */
 
 	.custom-navbar.navbar-default .navbar-nav>li>a {
-		font-size: 20px;
+		font-size: 20px !important;
 	}
 
 	.custom-navbar .signUp-style a {
@@ -1893,6 +1899,12 @@ li.nav-lead-input {
 	.nav-boxshadow .navbar-nav>li>a {
 		line-height: 35px;
 	}
+	li.login a, li.dash-login {
+		line-height: 75px !important;
+	}
+	.nav-boxshadow.custom-navbar li.login a, .nav-boxshadow.custom-navbar li.dash-login {
+		line-height: 65px !important;
+	}
 
 	.custom-navbar .signUp a {
 		margin-top: 22px;
@@ -1922,3 +1934,6 @@ li.nav-lead-input {
 	}
 }
 .dash-login {line-height: 65px;}
+.nav-boxshadow li.login a, .nav-boxshadow li.dash-login {
+    line-height: 55px !important;
+}
