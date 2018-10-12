@@ -48,7 +48,7 @@
 					<a href="http://outgrow.co/blog/university-college-calculators/?utm_source=footer">
 						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
 						<div class="col-xs-12 np footer-img-text">
-							</span>7 Interactive Calculators Every University Needs on Its Website</span>
+							<span>7 Interactive Calculators Every University Needs on Its Website</span>
 						</div>
 					</a>
 				</div>
