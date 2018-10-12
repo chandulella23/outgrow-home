@@ -470,6 +470,24 @@ li.nav-lead-input {
 	border-top: 1px solid transparent;
 }
 
+.goto-dashboard {
+    background: #fb5f66 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 4px 15px !important;
+    border: 2px solid #fb5f66;
+    transition: .5s ease-in-out;
+    line-height: normal !important;
+    box-shadow: none;
+    border-radius: 25px;
+    display: inline-block;
+    float: none;
+    font-family: montserratbold;
+    text-transform: uppercase;
+    margin-left: 3px;
+    margin-top: 12px;
+}
+
 .custom-navbar.navbar-default .navbar-nav>li a.dashboard-login {
     background: #fb5f66;
     color: #fff;

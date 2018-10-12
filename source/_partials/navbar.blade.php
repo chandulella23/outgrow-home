@@ -53,11 +53,11 @@
 						<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
 					</div>
 				</li> -->
-				<li class="login">
-					<a href="//app.outgrow.co.in/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+				<li class="login dash-login">
+					<a href="//app.outgrow.co.in/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
 				</li>
 				<li class="dash-login hide">
-				<a href="//app.outgrow.co/signup/?email=" class="dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+				<a href="//app.outgrow.co/signup/?email=" class="link-login dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
 					Dashboard
 				</a>
 			</li>
