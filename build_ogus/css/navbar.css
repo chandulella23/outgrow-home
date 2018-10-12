@@ -470,6 +470,24 @@ li.nav-lead-input {
 	border-top: 1px solid transparent;
 }
 
+.goto-dashboard {
+    background: #fb5f66 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    padding: 4px 15px !important;
+    border: 2px solid #fb5f66;
+    transition: .5s ease-in-out;
+    line-height: normal !important;
+    box-shadow: none;
+    border-radius: 25px;
+    display: inline-block;
+    float: none;
+    font-family: montserratbold;
+    text-transform: uppercase;
+    margin-left: 3px;
+    margin-top: 12px;
+}
+
 .custom-navbar.navbar-default .navbar-nav>li a.dashboard-login {
     background: #fb5f66;
     color: #fff;
@@ -1614,7 +1632,10 @@ li.nav-lead-input {
 	}
 
 	.navbar-brand {
-		padding-top: 40px;
+		padding-top: 40px !important;
+	}
+	.nav-boxshadow .navbar-brand {
+		padding-top: 30px !important;
 	}
       /* .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 88px;}
       .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 88px;}
@@ -1886,6 +1907,7 @@ li.nav-lead-input {
       } */
 	.navbar-brand {
 		padding-top: 20px;
+		margin-left: 0px !important;
 	}
 
 	.nav-boxshadow .navbar-brand {
