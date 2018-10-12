@@ -1614,7 +1614,10 @@ li.nav-lead-input {
 	}
 
 	.navbar-brand {
-		padding-top: 40px;
+		padding-top: 40px !important;
+	}
+	.nav-boxshadow .navbar-brand {
+		padding-top: 30px !important;
 	}
       /* .navbar-nav > li > a.active.hvr-underline-from-left:before {top: 88px;}
       .hvr-underline-from-left:active:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:hover:before {top: 88px;}
@@ -1886,6 +1889,7 @@ li.nav-lead-input {
       } */
 	.navbar-brand {
 		padding-top: 20px;
+		margin-left: 0px !important;
 	}
 
 	.nav-boxshadow .navbar-brand {
