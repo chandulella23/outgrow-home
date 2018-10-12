@@ -53,7 +53,7 @@
 						<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
 					</div>
 				</li> -->
-				<li class="login">
+				<li class="login login-button">
 					<a href="//app.outgrow.co.in/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
 				</li>
 				<li class="dash-login hide">
