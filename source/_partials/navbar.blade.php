@@ -54,7 +54,7 @@
 					</div>
 				</li> -->
 				<li class="login login-button">
-					<a href="//app.outgrow.co.in/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
+					<a href="//app.outgrow.co/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
 				</li>
 				<li class="dash-login hide">
 				<a href="//app.outgrow.co/signup/?email=" class="dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
@@ -141,7 +141,7 @@
 				</ul>
 			</li> -->
 			<li class="login">
-				<a href="//app.outgrow.co.in/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+				<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
 			</li>
 			<li class="dash-login hide">
 				<a href="//app.outgrow.co/signup/?email=" class="dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
