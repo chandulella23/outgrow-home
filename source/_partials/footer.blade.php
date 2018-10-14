@@ -1,4 +1,4 @@
-<section class="section section-14" id="footer">
+<section class="section section-14 hide" id="footer">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 np">
 			<div class="badge-g2crowd">
@@ -135,7 +135,8 @@
 </section>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
-<section class="section section-14 hide" id="footer">
+
+<section class="section section-14" id="footer">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 np">
 			<div class="badge-g2crowd">
@@ -147,20 +148,18 @@
 					<li><a href="{{ $page->baseUrl }}/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
 					<li><a href="{{ $page->baseUrl }}/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
 					<li><a href="{{ $page->baseUrl }}/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
-					<!-- <li><a href="{{ $page->baseUrl }}/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li> -->
+					<li><a href="{{ $page->baseUrl }}/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
 					<li><a href="{{ $page->baseUrl }}/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
-
 					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
-					<li><a href="http://outgrow.co/blog/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Blog</a></li>
-
-					<li><a href="http://resources.outgrow.co/about?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
-					<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
+					<li><a href="http://outgrow.co/blog/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="http://outgrow.co/blog/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+					<li><a href="{{ $page->baseUrl }}/ecommerce-recommendations/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">Ecommerce Quizzes</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-6 col-sm-2 footer-link">
 				<h4>Discover</h4>
 				<ul>
-					<li><a href="{{ $page->baseUrl }}/calculator/?utm_source=footer" class="">Calculator</a></li>
+					<li><a href="{{ $page->baseUrl }}/calculator/?utm_source=footer" class="">Calculators</a></li>
 					<li><a href="{{ $page->baseUrl }}/quiz/?utm_source=footer" class="">Quizzes </a></li>
 					<li><a href="{{ $page->baseUrl }}/survey/?utm_source=footer" class="">Survey</a></li>
 					<li><a href="{{ $page->baseUrl }}/increase-conversions/?utm_source=footer" class="">Increase Conversions</a></li>
