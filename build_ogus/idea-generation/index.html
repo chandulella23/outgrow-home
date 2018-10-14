@@ -29,7 +29,8 @@
 	    <link rel="stylesheet" href="/css/allPage_minified.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/responsive.css">
-	<link rel="stylesheet" href="/css/selectize.default.css">
+    <link rel="stylesheet" href="/css/selectize.default.css">
+    <link rel="stylesheet" href="/css/navbar.css">
 
 	<!-- Page hiding snippet (recommended)  -->
 <style>.async-hide { opacity: 0 !important} </style>
@@ -164,6 +165,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
+	<div class="overlay"></div> 
+	
 	<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -527,7 +530,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 	<script>
 			const libs = {
-		"idea-gen": "/js/pageScripts/idea-gen.js"
+        "idea-gen": "/js/pageScripts/idea-gen.js",
+        "navbar": "/js/pageScripts/navbar.js"
 	}
 
 		var loadedLibs = {}
