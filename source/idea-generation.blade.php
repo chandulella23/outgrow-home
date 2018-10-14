@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/style.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/responsive.css">
-	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/selectize.default.css">
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/selectize.default.css">
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 @endsection
 
 @section('pageClass', '')
@@ -227,6 +228,7 @@
 
 @section('pageScripts')
 	const libs = {
-		"idea-gen": "{{ $page->baseUrl }}/js/pageScripts/idea-gen.js"
+        "idea-gen": "{{ $page->baseUrl }}/js/pageScripts/idea-gen.js",
+        "navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js"
 	}
 @endsection
