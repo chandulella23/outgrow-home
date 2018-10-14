@@ -7636,10 +7636,11 @@ span.icon-webcam {
 	#why .section-metrics,
 	.sec-example .sec-outgrowMagic-title,
 	.section-page-heading {
-		margin-top: 50px;
+		margin-top: 50px !important;
 	}
 	#feature .section-13 {
 		padding-top: 50px;
+		margin-top: 0px;
 	}
 }
 
