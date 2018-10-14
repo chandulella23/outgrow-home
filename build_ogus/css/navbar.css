@@ -196,9 +196,10 @@ li.dropdown.open:hover a.dropdown-toggle {
     /* height: 65px; */
     font-size: 18px;
     padding-top: 17px;
-    margin-left: 30px;
-	-webkit-transition: .5s ease-in-out;
+    margin-left: 30px !important;
+    -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+    padding-left: 0px;
 }
 
 .nav-boxshadow .navbar-brand {
@@ -1881,7 +1882,7 @@ li.nav-lead-input {
 		width: 160px;
 	}
 	.navbar-brand {
-		margin-left: 0;
+		margin-left: 0 !important;
 	}
 }
 
@@ -1893,7 +1894,7 @@ li.nav-lead-input {
 
 @media (min-width: 990px) and (max-width: 1023px) {
 	.section-1 {
-		margin-top: 50px;
+		margin-top: 50px !important;
 	}
 }
 
