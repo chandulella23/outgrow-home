@@ -1968,11 +1968,6 @@ pre {
         line-height: 36px !important;
         padding: 0px 20px !important;
     }
-    section.sec-grey .container.container-center h1 {
-        font-size: 30px !important;
-        line-height: 35px !important;
-        text-transform: none !important;
-    }
     section .section-2-heading {
         font-size: 28px !important;
         text-transform: none;
@@ -1987,14 +1982,15 @@ pre {
         font-size: 22px !important;
     }
     div.startTrial-outer.lp-sign {
-        background-size: 43% !important;
-        min-height: 140px !important;
+        background-size: 47% !important;
+        min-height: 143px !important;
+        padding-top: 15px;
     }
     div.lp-sign .lp-sign-inner {
         margin-top: 45px !important;
         margin-left: 20px !important;
         position: relative !important;
-        max-width: 420px;
+        max-width: 380px !important;
     }
     .lp-sign.startTrial-outer input {
         /* width: 55% !important; 
@@ -15777,10 +15773,15 @@ iframe[name=google_conversion_frame] {
     .sec-grey .container.container-center h1 {
         text-transform: none !important;
         line-height: normal !important;
-        font-size: 30px !important;
+        font-size: 22px !important;
         text-align: center;
         padding: 0px;
         margin-bottom: 30px !important;
+    }
+    .icaq .section-2-heading {
+        text-transform: none !important;
+        line-height: normal !important;
+        font-size: 22px !important;
     }
     .sec-new-table:first-child {
         margin-top: 0px;
@@ -16047,7 +16048,7 @@ iframe[name=google_conversion_frame] {
         height: 30px !important;
     }
     section.section-old .inside-circle i.material-icons {
-        top: 0px !important;
+        top: -17px  !important;
     }
 }
 
@@ -16347,7 +16348,7 @@ iframe[name=google_conversion_frame] {
     }
     section.section-old .inside-circle i.material-icons {
         position: relative;
-        top: 2px !important;
+        top: -8px !important;
         font-size: 28px !important;
     }
 }
@@ -17409,13 +17410,15 @@ iframe[name=google_conversion_frame] {
     .lp-sign.startTrial-outer {
         margin-left: 0px !important;
         background-size: 40% !important;
+        padding-top: 0px !important;
     }
     .btn-signup a {
         right: 183px !important;
         position: absolute !important;
     }
-    .lp-sign .lp-sign-inner {
+    .lp-sign div.lp-sign-inner {
         margin-top: 50px !important;
+        max-width: 420px !important;
     }
     div.lp-sign.startTrial-outer .btn-buildcal {
         padding: 15px 22px !important;
@@ -17527,11 +17530,11 @@ iframe[name=google_conversion_frame] {
     .sec-craftedTemps {
         margin-bottom: 30px !important;
     }
-    .sec-grey .section-2-heading {
+    /* .sec-grey .section-2-heading {
         text-transform: none !important;
         line-height: normal !important;
         font-size: 24px !important;
-    }
+    } */
     .section-old .startTrial-outer i.material-icons {
         left: 25px !important;
     }
@@ -17877,7 +17880,8 @@ iframe[name=google_conversion_frame] {
     }
     div.lp-sign .lp-sign-inner {
         margin-left: 30px !important;
-        margin-top: 65px !important;
+        margin-top: 45px !important;
+        max-width: 420px !important;
     }
     .lp-sign.startTrial-outer input {
         width: 100% !important;
@@ -21703,6 +21707,7 @@ iframe[name=google_conversion_frame] {
     .section-old span.inside-circle {
         width: 50px !important;
         height: 50px !important;
+        font-size: 35px !important;
     }
     /* .section-old .inside-circle i.material-icons {
 			position: relative;
@@ -82307,6 +82312,10 @@ span.recom {
     .sec-clients-logos .img-wrapper {
         width: 100%;
     }
+    .review-page .section-2-heading {
+        font-size: 22px !important;
+        line-height: normal !important;
+    }
 }
 
 .over1 {
@@ -85047,6 +85056,7 @@ img.scrollimg1.wo {
 .section-2-heading.google {
     padding-top: 60px;
     margin-top: 40px;
+    padding-bottom: 0;
 }
 .google .rating-block-left {
     background: #fff;
@@ -85821,4 +85831,7 @@ a.text-red {
     background: #fb757b;
     color: #fff;
     border-color: #f8434b;
+}
+body.icaq.footer-cookies {
+    padding-bottom: 10px !important;
 }
