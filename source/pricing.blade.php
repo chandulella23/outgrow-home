@@ -265,7 +265,7 @@
                             <th><!-- <i class="material-icons vis-hide">add</i> --> Team Members</th>
                             <td><span class="quater"></span>1</td>
                             <td><span class="quater"></span>1</td>
-                            <td class="popular-plan"><span class="half"></span>3</td>
+                            <td class="active-bg"><span class="half"></span>3</td>
                             <td><span class="full"></span>10</td>
                         </tr>
                         <tr class="expand">

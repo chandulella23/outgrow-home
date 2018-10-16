@@ -299,13 +299,13 @@
 				You have the right to decide whether to accept or reject cookies.
 			</p>
 			<p>
-				<b>Website Cookie Preference Tool:</b> You can exercise preferences about what cookies are served on our websites by clicking on the appropriate opt-out links provided in the cookie table above. You can also exercise your website cookie preferences by visiting the TRUSTe preference center by clicking this link: <a href="http://preferences-mgr.truste.com/" class="text-red">http://preferences-mgr.truste.com/.</a>
+				<b>Website Cookie Preference Tool:</b> You can exercise preferences about what cookies are served on our websites by clicking on the appropriate opt-out links provided in the cookie table above. You can also exercise your website cookie preferences by visiting the TRUSTe preference center by clicking this link: <a href="https://preferences-mgr.truste.com/" class="text-red">https://preferences-mgr.truste.com/.</a>
 			</p>
 			<p>
 				<b>Browser Controls:</b> You can set or amend your web browser controls to accept or refuse cookies. If you choose to reject cookies, you may still use our websites though your access to some functionality and areas of our websites may be restricted. As the means by which you can refuse cookies through your web browser controls vary from browser-to-browser, you should visit your browser’s help menu for more information.
 			</p>
 			<p>
-				<b>Disabling Most Interest Based Advertising:</b> Most advertising networks offer you a way to opt out of Interest Based Advertising. If you would like to find out more information, please visit <a href="http://www.aboutads.info/choices/" class="text-red">http://www.aboutads.info/choices/</a> or <a href="http://www.youronlinechoices.com" class="text-red">http://www.youronlinechoices.com.</a>
+				<b>Disabling Most Interest Based Advertising:</b> Most advertising networks offer you a way to opt out of Interest Based Advertising. If you would like to find out more information, please visit <a href="https://www.aboutads.info/choices/" class="text-red">https://www.aboutads.info/choices/</a> or <a href="https://www.youronlinechoices.com" class="text-red">https://www.youronlinechoices.com.</a>
 			</p>
 			<p>
 				<b>Mobile Advertising:</b> You can opt out of having your mobile advertising identifiers used for certain types of Interest Based Advertising, including those performed by us, by accessing the settings in your Apple or Android mobile device and following the most recent published instructions. The random ID our third party partners had previously assigned to you will also be removed. This means that if at a later stage, you decide to opt-in, we will not be able to continue and track you using the same ID as before, and you will for all practical purposes be a new user to our system.
