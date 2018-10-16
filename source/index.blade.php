@@ -434,7 +434,7 @@
 					most shared articles on <span class="font-semibold"> Buzzfeed</span> are
 				    <span class="font-semibold">quizzes!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="https://resources.outgrow.co/blog/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 		</div>
 	</div>
@@ -652,7 +652,7 @@
 					<span class="font-semibold">New York Times,</span>
 					most successful content is actually a <span class="font-semibold">quiz!</span>
 				</h5>
-				<a href="http://resources.outgrow.co/top-viral-calculators" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="https://resources.outgrow.co/blog/top-viral-calculators" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 			<div class="left-sec rs-hide">
 			   <img alt="Who could have guessed?" src="//dzvexx2x036l1.cloudfront.net/s2.png">
@@ -811,7 +811,7 @@
 				<h5 class="subheading">
 					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
 				</h5>
-				<a href="http://resources.outgrow.co/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="https://resources.outgrow.co/blog/product-hunt-promotions-interactive-content" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 		</div>
 	</div>
