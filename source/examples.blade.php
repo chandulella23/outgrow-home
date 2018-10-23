@@ -258,13 +258,14 @@
 									<div class="status">&nbsp;</div>
 								</div> -->
 								<div class="premade-template-new">
-									<div class="premade-template-left">
-										<div class="search-input">
-											<h4>Select Your Industry</h4>
-												<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search All Experiences by Keyword">
-												<i class="material-icons">search</i>
+									<div class="search-input">
+										<!-- <h4>Select Your Industry</h4> -->
+										<div class="input-group">
+											<i class="material-icons">search</i>
+											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search All Experiences by Keyword">
 										</div>
-
+									</div>
+									<div class="premade-template-left">
 
 										<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
 											<li class="active">
@@ -414,7 +415,7 @@
 		<section class="section section-recentNews">
 			<div class="container">
 				<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-					<div class="section-2-heading">Recent News </div>
+					<div class="section-2-heading">Happening @ Outgrow</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np">
 					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
@@ -602,7 +603,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 np">
 					<!--<div id="sticky-anchor"></div>-->
 					<div class="section-2-heading">
-						Outgrow In Practice
+						Outgrow Embeds in Practice
 					</div>
 					<div class="tab-outer-frame col-xs-12 col-md-10 col-sm-12 text-center">
 						<!--<span class="icon-webcam"></span>-->

@@ -6602,10 +6602,10 @@ span.icon-webcam {
 }
 
 .sec-example .sec-outgrowMagic-title {
-	background: #f3f8fb;
+	background: #fff;
 	color: #fff;
 	margin: 65px 0px 0px;
-	padding: 60px 40px 65px;
+	padding: 60px 40px 0px;
 	float: left;
 	width: 100%;
 }
