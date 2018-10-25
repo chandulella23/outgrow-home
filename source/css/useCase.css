@@ -529,7 +529,7 @@ body{background:#fff !important;}
         line-height: 20px;
         float: left;
         transition: 0.5s;
-        color: #9fa7ad;
+        color: #888;
         font-family: montserratlight;
         padding-left: 15px;
         padding-bottom: 5px;
@@ -697,7 +697,7 @@ body{background:#fff !important;}
         margin-top: 0px;
     }
     ul.pre-temp-cat-new li {
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
     ul.pre-temp-cat-new li a {
         float: left;
@@ -706,7 +706,7 @@ body{background:#fff !important;}
         border: none;
         border-radius: 0px;
         font-size: 13px;
-        padding: 7px 20px;
+        padding: 4px 20px;
         text-transform: none;
         color: #888;
         font-family: montserratregular;
