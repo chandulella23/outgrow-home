@@ -462,7 +462,7 @@ body{background:#fff !important;}
 
 /**** new choose template ***/
     section.section.example-calc {
-        margin-top: 70px;
+        margin-top: 50px;
         position: relative;
     }
     .example-calc .tab-section{}
@@ -518,13 +518,24 @@ body{background:#fff !important;}
     .heading-content{float: left; width:100%; text-align: center; margin: 10px 0 40px;}
     ul.pre-temp-cat {    float: left;    padding: 0 0px 0 0;    width: 220px;    margin: 0;  }
     ul.pre-temp-cat li{float: left; width: 100%; margin-bottom: 15px; list-style: none;}
-    ul.pre-temp-cat li a {    float: right;    font-size: 11px; transition: 0.5s;   text-transform: uppercase;    color: #8e989f;    border: 1px solid #8e989f;    border-radius: 50px;    padding: 5px 20px;    line-height: 18px;    font-family: montserratlight; }
+    ul.pre-temp-cat li a {    float: right;    font-size: 11px; transition: 0.5s;   text-transform: uppercase;    color: #8e989f;    border: 1px solid #8e989f;    border-radius: 50px;    padding: 5px 20px;    line-height: 25px;    font-family: montserratlight; }
     ul.pre-temp-cat li.active a , ul.pre-temp-cat li a:hover{transition: 0.5s; background: #1483b7; border-color: #1483b7; color: #fff}
     .pre-temp-cont{float: left;    width: calc(100% - 220px);    padding: 0 20px;}
     ul.pre-temp-list {    float: left;    width: 30%;    padding: 0 20px 0 0;    margin: 0; max-width: 100%}
     ul.pre-temp-list > li{float: left; width: 100%; position: relative; margin-bottom: 15px; list-style: none;}
-    ul.pre-temp-list > li  > a::after{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:0}
-    ul.pre-temp-list > li > a{font-size: 13px;    float: left; transition: 0.5s;color: #9fa7ad;font-family: montserratlight;padding-left: 15px; position: relative; width: 100%;}
+    ul.pre-temp-list > li  > a::before{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:-2px; font-size: 14px;}
+    ul.pre-temp-list > li > a{    
+        font-size: 12px;
+        line-height: 20px;
+        float: left;
+        transition: 0.5s;
+        color: #888;
+        font-family: montserratlight;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        position: relative;
+        width: 100%;
+    }
     .premade-template{float: left; width: 100%;    margin-bottom: 40px; }
     ul.pre-temp-list > li.active > a, ul.pre-temp-list > li > a:hover{color: #4894ca; transition: 0.5s;}
     .pre-temp-view {    float: left;    width: 70%;    background: #fafafa;    max-width: 100%;       border: 5px solid #fff;    box-shadow: 0px 0 30px rgba(0,0,0,0.2); position: relative;}
@@ -624,7 +635,7 @@ body{background:#fff !important;}
         float: left;
         width: 100%;
         margin-bottom: 40px;
-        margin-top: 25px;
+        /* margin-top: 25px; */
         position: relative;
     }
     .premade-template-left {
@@ -632,65 +643,79 @@ body{background:#fff !important;}
         float: left;
     }
     .premade-template-new .search-input {
-        float: left;
+        /* float: left;
         width: 266px;
         position: absolute;
-        top: -35px;
+        top: -35px; */
+        float: left;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .search-input .input-group {
+        float: left;
+        width: 100%;
     }
     .premade-template-new h4 {font-size: 14px; color: #888888; font-family: montserratsemibold;}
     .premade-template-new .search-input input[type=text] {
         width: 100%;
         box-sizing: border-box;
-        border: 1px solid #ebebeb;
-        font-size: 13px;
-        color: #888888;
-        background-color: white;
-        padding: 10px;
+        border: none;
+        font-size: 15px;
+        font-family: montserratlight;
+        color: #555;
+        background-color: #f6f6f6;
+        padding: 19px 10px;
         -webkit-transition: width 0.4s ease-in-out;
         transition: width 0.4s ease-in-out;
+        border-radius: 3px;
+        padding-left: 55px;
     }
     .premade-template-new .search-input i.material-icons {
-        float: right;
+        /* float: left; */
         position: absolute;
-        right: 12px;
-        top: 48px;
-        font-size: 16px;
-        color: #888888;
+        /* left: 0; */
+        /* top: 0; */
+        font-size: 18px;
+        color: #666;
         cursor: pointer;
+        padding: 21px;
     }
     .premade-template-new .search-input input::-moz-placeholder{
-        color: rgba(136, 136, 136, 0.5);
+        color: #c2c2c2;
     }
     .premade-template-new .search-input input::-webkit-input-placeholder {
-        color: rgba(136, 136, 136, 0.5);
+        color: #c2c2c2;
     }
     .premade-template .search-input input:-ms-input-placeholder {
-        color: rgba(136, 136, 136, 0.5);
+        color: #c2c2c2;
     }
     ul.pre-temp-cat-new {
-        background: #f9f9f9;
-        border: 1px solid #ebebeb;
-        height: 380px;
+        /* background: #f9f9f9;
+        border: 1px solid #ebebeb; */
+        height: 520px;
         width: 266px;
-        margin-top: 40px;
+        margin-top: 0px;
     }
     ul.pre-temp-cat-new li {
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
     ul.pre-temp-cat-new li a {
         float: left;
-        width: 100%;
+        width: auto;
         background: none;
         border: none;
         border-radius: 0px;
-        font-size: 14px;
-        padding: 5px 15px;
+        font-size: 13px;
+        padding: 4px 20px;
         text-transform: none;
         color: #888;
-        line-height: 24px;
+        font-family: montserratregular;
     }
     ul.pre-temp-cat-new li.active a, ul.pre-temp-cat-new li a:hover {
-        background: #fb5f66;
+        /* background: #fb5f66; */
+        background: #5192c8;
+        border-radius: 25px;
+        overflow: hidden;
     }
     .pre-temp-cont-new {
         float: left;
@@ -1067,18 +1092,21 @@ body{background:#fff !important;}
     color: #fff;
 } */
 ul.pre-temp-list > li > a small {
-    font-size: 10px;
+    font-size: 8px;
     color: #666666;
     text-transform: uppercase;
     font-family: montserratlight;
-    padding-right: 7px;
-    padding-top: 2px;
+    padding: 4px 10px;
     float: left;
-    width: 65px;
+    width: auto;
+    background: #f5f5f5;
+    border-radius: 20px;
+    line-height: normal;
 }
 ul.pre-temp-list > li > a span {
     float: left;
-    width: 65%;
+    width: 100%;
+    padding-top: 5px;
 }
 .no-match-found {
     display: table;

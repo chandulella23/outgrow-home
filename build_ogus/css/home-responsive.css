@@ -896,7 +896,7 @@
         margin-bottom: 20px;
     }
     section.section.example-calc {
-        margin-top: 40px !important;
+        margin-top: 0px !important;
     }
     .case-study-tabs span {font-size: 11px;}
     .nav .case-study-tabs a {padding: 15px 15px;}
@@ -1297,7 +1297,7 @@
         margin-bottom: 20px;
     }
     section.section.example-calc {
-        margin-top: 40px !important;
+        margin-top: 0px !important;
         margin-bottom: 20px;
     }
     .section-recentNews {padding: 30px 0 50px;}
