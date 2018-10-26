@@ -1485,7 +1485,7 @@ li.nav-lead-input {
 
 @media (min-width:1921px) and (max-width:6500px) {
 
-	.navbar-brand {
+	/* .navbar-brand {
 		padding-top: 12px;
 	}
 
@@ -1520,7 +1520,7 @@ li.nav-lead-input {
 	.nav-lead-input a.lead-email.btn-buildcal {
 		font-size: 20px !important;
 		padding: 7px 15px !important;
-	}
+	} */
 }
 
 @media (min-width:1024px) and (max-width:1024px) {
@@ -1530,10 +1530,12 @@ li.nav-lead-input {
 	}
 }
 
-/* @media (min-width:1480px) and (max-width:1920px) {   
-	.custom-navbar.navbar-default .navbar-nav>li>a {
+@media (min-width:1480px) and (max-width:1920px) {
+   
+	/* .custom-navbar.navbar-default .navbar-nav>li>a {
 		font-size: 16px;
 	}
+
 	.custom-navbar .signUp-style a {
 		padding: 10px 14px;
 		font-size: 16px !important;
@@ -1552,8 +1554,14 @@ li.nav-lead-input {
 	.nav-lead-input a.lead-email.btn-buildcal {
 		font-size: 16px !important;
 		padding: 4px 15px !important;
+	} */
+	li.nav-lead-input {
+		line-height: 75px;
 	}
-} */
+	.nav-boxshadow .navbar-nav>li.nav-lead-input {
+		line-height: 65px;
+	}
+}
 
 @media (min-width:1480px) and (max-width:2999px) {
        
@@ -1660,6 +1668,42 @@ li.nav-lead-input {
 	}	
 	.drop-sub-menu .dropdown-sub-content {
 		width: 95%;
+	}
+	.navbar-brand {
+		padding-top: 12px;
+	}
+
+	.custom-navbar.navbar-default .navbar-nav>li>a,.section-1-left .btn-bottominfo label,.section-1-left .btn-bottominfo span {
+		font-size: 20px;
+	}
+
+	.custom-navbar .signUp-style a {
+		padding: 8px 14px !important;
+		top: -5px;
+		font-size: 20px !important;
+		border-radius: 25px;
+	}
+	li.nav-lead-input {
+		line-height: 115px;
+		width: 430px;
+	}
+	.nav-boxshadow .navbar-nav>li.nav-lead-input {
+		line-height: 95px;
+	}
+	li.login a, li.dash-login {
+		line-height: 115px !important;
+	}
+	.nav-boxshadow.custom-navbar li.login a, .nav-boxshadow.custom-navbar li.dash-login {
+		line-height: 95px !important;
+	}
+	.custom-navbar.navbar-default .navbar-nav>li input.lead-form-email {
+		font-size: 20px;
+		height: 45px;
+		width: auto;
+	}
+	.nav-lead-input a.lead-email.btn-buildcal {
+		font-size: 20px !important;
+		padding: 7px 15px !important;
 	}
 }
 
@@ -1926,6 +1970,12 @@ li.nav-lead-input {
 
 	.nav-boxshadow.custom-navbar .signUp a {
 		margin-top: 17px;
+	}
+	li.nav-lead-input {
+		line-height: 75px;
+	}
+	.nav-boxshadow .navbar-nav>li.nav-lead-input {
+		line-height: 65px;
 	}
 }
 

@@ -915,6 +915,13 @@
         margin-top: 40px !important;
     }
 }
+@media (min-width:0px) and (max-width:768px) {
+    .Privacy .Privacy-heading{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}
 
 @media (min-width:320px) and (max-width:320px) {
     .section-14 .footer-img2 {
