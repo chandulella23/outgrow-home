@@ -262,7 +262,7 @@
 										<!-- <h4>Select Your Industry</h4> -->
 										<div class="input-group">
 											<i class="material-icons">search</i>
-											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search All Experiences by Keyword">
+											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
 										</div>
 									</div>
 									<div class="premade-template-left">

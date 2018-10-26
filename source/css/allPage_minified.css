@@ -292,6 +292,9 @@ span.no-card {
     .ecomm .home-imgs li {font-size: 13px;}
 
 }
+@media (max-width: 768px) {
+    .ecomm .section-2-heading {font-weight: 600;}
+}
 @media (max-width: 480px) and (min-width: 350px) {
     .ecomm .section-1-left h1.section1-firstheadnoab {padding: 0 40px !important;}
 }
@@ -14832,6 +14835,9 @@ iframe[name=google_conversion_frame] {
     .section-1-left {
         /*padding-left:20px;padding-right:20px;margin-bottom: 40px;*/
     }
+    #video-main {
+        margin-top: 15px;
+    }
     .section-1-left input {
         width: 100% !important;
         padding-right: 20px !important;
@@ -18201,6 +18207,7 @@ iframe[name=google_conversion_frame] {
     }
     .section-1.section-old {
         padding-bottom: 60px !important;
+        margin-top: 0 !important;
     }
     /* .lp-sign.startTrial-outer input {
 		width: 45% !important;
@@ -18313,6 +18320,7 @@ iframe[name=google_conversion_frame] {
     .review-page {
         margin-top: 75px;
     }
+    .section-old.section-1 {margin-top: 0px !important;}
 }
 
 @media (min-width:991px) and (max-width:1024px) {
@@ -84506,6 +84514,7 @@ blockquote span.quote-right1 {
         line-height: 26px;
         text-align: center;
         width: 100% !important;
+        font-weight: 600;
     }
     
     .section-second ul,
@@ -85603,7 +85612,7 @@ i.zmdi.zmdi-twitter-box {
 @media only screen and (max-width: 768px) and (min-width: 768px) {
     .temp-demo .content .btn-red {padding: 10px;}
     .ecomm .content.temp-info {min-height: 85px;}
-    .sec-recom-quiz {margin-bottom: 15px;}
+    .sec-recom-quiz {margin-bottom: 35px !important;}
 }
 @media only screen and (max-width: 1024px) and (min-width: 1020px) {
     .image-bg {

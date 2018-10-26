@@ -533,6 +533,7 @@ margin:10px 0px;
     #feature .feature-heading {
         font-size: 22px;
         line-height: normal;
+        font-weight: 600;
     }
     .section-studio {
         padding: 0px 15px;

@@ -60,7 +60,7 @@
     #pricing .pricing-headingtop .plans-heading {font-size: 22px; margin: 10px 0px;}
     #pricing .pricing-headingtop .plans-subheading {font-size: 14px; margin-top: 5px; padding: 0 15px; line-height: normal;}
 	#pricing .sec-allPlans .section-2-heading {font-size: 22px;}
-	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px;}
+	#pricing .section-faq .section-2-heading {font-size: 22px; line-height: 30px; font-weight: 600;}
 	#plan-cycle {margin-bottom: 20px;     margin-top: 40px;}
 
 	/* table res css */
