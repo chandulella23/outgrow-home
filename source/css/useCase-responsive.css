@@ -90,6 +90,11 @@
 	ul.pre-temp-list > li > a small {
 		width: auto;
 	}
+	.no-match-found {
+		height: 40vh;
+		width: 100%;
+
+	}
 
 }
 
