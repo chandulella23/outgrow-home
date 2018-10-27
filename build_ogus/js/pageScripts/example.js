@@ -490,7 +490,7 @@ window.shuffleCalcs2 = function (filterName) {
     filterName = document.querySelector('#search-experience').value.toLowerCase();
     let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
     let notMatchFound = jQuery('.no-match-found');
-    jQuery('.pre-temp-view').removeClass('hide')
+    jQuery('.pre-temp-view').removeClass('hide');
 
     if (!filterName) {
 
@@ -505,6 +505,7 @@ window.shuffleCalcs2 = function (filterName) {
 
     if (filteredCalcs.length !== hiddenCalcs.length) {
         console.log('not match found');
+        jQuery('.pre-temp-cont-new').removeClass('hide');
         notMatchFound.addClass('hide');
     }
 
@@ -543,6 +544,7 @@ window.shuffleCalcs2 = function (filterName) {
         console.log('not match found');
         notMatchFound.removeClass('hide');
         jQuery('.pre-temp-view').addClass('hide')
+        jQuery('.pre-temp-cont-new').addClass('hide')
     }
 }
 jQuery(document).ready(function () {
