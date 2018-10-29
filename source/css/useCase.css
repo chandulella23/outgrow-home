@@ -1113,8 +1113,9 @@ ul.pre-temp-list > li > a span {
     float: left;
     background: #fff;
     text-align: center;
-    width: 76%;
-    height: 90vh;
+    /* width: 76%; */    
+    width: calc(100% - 230px);
+    height: 600px;
 }
 .no-match-found-inner {
     display: table-cell;
