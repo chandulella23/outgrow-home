@@ -450,8 +450,15 @@
 	}
 
 }
-
-
+@media(min-width:769px) and (max-width:1366px) {	
+	.no-match-found {
+		height: 515px;
+		margin-top: 85px;
+	}
+	.no-match-found-inner {
+		vertical-align: top;
+	}
+}
 @media (max-width:1024px){
 	ul.pre-temp-cat{float: left; width: 100%;padding: 0;        margin: 0px 0 20px; text-align: center}
 	ul.pre-temp-cat li{float: none; display: inline-block; width: auto; }
