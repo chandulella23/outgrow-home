@@ -203,7 +203,6 @@
 	.recentNews-outer.calendar-wrapper .recentNews-inner {
 		height: 300px;
 	}
-
 	/* end: example page responsive css by Arti */
 
 }
@@ -225,12 +224,15 @@
 	.premade-template-new .selectize-wrapper {
 		display: block;
 	}
+	.no-match-found {
+		height: 40vh;
+		width: 100%;
+	}
 
 }
 @media (min-width: 990px) and (max-width:1024px) {
 	.premade-template-new {margin-bottom: 0px; margin-top: 15px;}
-	.premade-template-new .pre-temp-cont-new {width: calc(100% - 250px) !important; padding: 0 0px 0px 20px !important;}
-	.premade-template-left {width: 250px; /*position: relative; top: -35px;*/}
+	.premade-template-new .pre-temp-cont-new {width: calc(100% - 230px) !important; padding: 0 0px 0px 20px !important;}
 	/* .premade-template-new .search-input {float: left; width: 250px; position: unset;} */
 	.pre-temp-cat-new.scrollbar {margin-bottom: 0px;}
 	ul.pre-temp-cat-new li {float: left !important; width: 100% !important; text-align: left;}
