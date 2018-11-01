@@ -550,8 +550,10 @@ window.shuffleCalcs2 = function (filterName) {
              return industry.toLowerCase().includes(filterName);
         })
         if(filter != -1) {
-            // window.shuffleCalcs(window.industries[filter],false)
-            changeActiveCalcCategory(window.industries[filter],false)
+            window.industriesId = window.industries.map(industry=>{
+                return industry.replace(" & ","")
+            })
+            changeActiveCalcCategory(window.industriesId[filter])
         }
         console.log('not match found');
         notMatchFound.removeClass('hide');
