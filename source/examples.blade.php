@@ -324,9 +324,6 @@
 												<a href="javascript:void(0)" id="TVandEntertainment"
 												onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
 											</li>
-											<li>
-												<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">Trending</a>
-											</li>
 										</ul>
 										<div class="form-group col-xs-12 np">
 											<div class="selectize selectize-wrapper">
