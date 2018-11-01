@@ -348,7 +348,7 @@
 										</div>
 									</div>
 									 <div class="pre-temp-cont pre-temp-cont-new"> 
-										<ul class="pre-temp-list" id="gallery-content-center">
+										<ul class="pre-temp-list scrollbar" id="gallery-content-center">
 
 											<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
 												<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
