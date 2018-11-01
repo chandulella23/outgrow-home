@@ -89,6 +89,9 @@ window.changeActiveCalcCategory = function (id) {
         currentActiveCat.classList.remove('active');
         var tobeActiveCat = document.querySelector('#' + id);
         tobeActiveCat.parentElement.classList.add('active');
+    } else {
+        var tobeActiveCat = document.querySelector('#' + id);
+        tobeActiveCat.parentElement.classList.add('active');
     }
 }
 
@@ -309,6 +312,7 @@ function throttled(delay, fn) {
 function renderPremadeCalcs(responseText) {
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
+        window.industries = responseText.data.industries;
         console.log(window.calcs);
         let trendingC = [];
         window.events = [];
@@ -541,10 +545,19 @@ window.shuffleCalcs2 = function (filterName) {
     jQuery('.tag-exp-text').text(`Customisable for the ${filter} Industry`);
 
     if (filteredCalcs.length === window.calcs.length && filterName) {
+        let filter = window.industries.findIndex(industry => {
+            console.log(industry.toLowerCase().includes(filterName))
+             return industry.toLowerCase().includes(filterName);
+        })
+        if(filter != -1) {
+            // window.shuffleCalcs(window.industries[filter],false)
+            changeActiveCalcCategory(window.industries[filter],false)
+        }
         console.log('not match found');
         notMatchFound.removeClass('hide');
         jQuery('.pre-temp-view').addClass('hide')
         jQuery('.pre-temp-cont-new').addClass('hide')
+        
     }
 }
 jQuery(document).ready(function () {
