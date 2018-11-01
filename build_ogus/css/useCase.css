@@ -523,12 +523,12 @@ body{background:#fff !important;}
     .pre-temp-cont{float: left;    width: calc(100% - 220px);    padding: 0 20px;}
     ul.pre-temp-list {
         float: left;
-        width: 220px;
+        width: 200px;
         padding: 0 50px 0 0;
         margin: 0;
         max-width: 100%;
         height: 600px;
-        margin-right: 17px;
+        margin-right: 37px;
     }
     ul.pre-temp-list > li{float: left; width: 100%; position: relative; margin-bottom: 15px; list-style: none;}
     ul.pre-temp-list > li  > a::before{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:-2px; font-size: 14px;}
@@ -735,21 +735,41 @@ body{background:#fff !important;}
         .pre-temp-cat-new.scrollbar, .pre-temp-list.scrollbar {
             overflow-y: scroll;
         }
-        .pre-temp-cat-new.scrollbar::-webkit-scrollbar-track, .pre-temp-list.scrollbar::-webkit-scrollbar-track {
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar-track {
             border-radius: 0;
-            background-color: #eaeaea;
+            background-color: #fbfbfb;
         }
-        .pre-temp-cat-new.scrollbar::-webkit-scrollbar, .pre-temp-list.scrollbar::-webkit-scrollbar {
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar {
             width: 3px;
-            background-color: #eaeaea;
+            background-color: #f2f2f2;
         }
-        .pre-temp-cat-new.scrollbar::-webkit-scrollbar:horizontal, .pre-temp-list.scrollbar::-webkit-scrollbar:horizontal {
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar:horizontal {
             height: 6px;
-            background-color: #eaeaea;
+            background-color: #f2f2f2;
         }
-        .pre-temp-cat-new.scrollbar::-webkit-scrollbar-thumb, .pre-temp-list.scrollbar::-webkit-scrollbar-thumb {
+        .pre-temp-cat-new.scrollbar::-webkit-scrollbar-thumb {
             border-radius: 4px;
-            background-color: rgba(102, 102, 102, 0.5);
+            background-color: #f2f2f2;
+        }
+        
+        .pre-temp-list.scrollbar {
+            overflow-y: scroll;
+        }
+        .pre-temp-list.scrollbar::-webkit-scrollbar-track {
+            border-radius: 0;
+            background-color: #fbfbfb;
+        }
+        .pre-temp-list.scrollbar::-webkit-scrollbar {
+            width: 3px;
+            background-color: #f2f2f2;
+        }
+        .pre-temp-list.scrollbar::-webkit-scrollbar:horizontal {
+            height: 6px;
+            background-color: #f2f2f2;
+        }
+        .pre-temp-list.scrollbar::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+            background-color: #f2f2f2;
         }
     /* end: css scrollbar */
 
