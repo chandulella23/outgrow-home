@@ -553,13 +553,14 @@ window.shuffleCalcs2 = function (filterName) {
             window.industriesId = window.industries.map(industry=>{
                 return industry.replace(" & ","")
             })
-            changeActiveCalcCategory(window.industriesId[filter])
+            // changeActiveCalcCategory(window.industriesId[filter])
+            window.shuffleCalcs(window.industriesId[filter],false)
+        } else {
+            console.log('not match found');
+            notMatchFound.removeClass('hide');
+            jQuery('.pre-temp-view').addClass('hide')
+            jQuery('.pre-temp-cont-new').addClass('hide')
         }
-        console.log('not match found');
-        notMatchFound.removeClass('hide');
-        jQuery('.pre-temp-view').addClass('hide')
-        jQuery('.pre-temp-cont-new').addClass('hide')
-        
     }
 }
 jQuery(document).ready(function () {
