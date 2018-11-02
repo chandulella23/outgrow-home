@@ -594,7 +594,10 @@ jQuery(document).ready(function () {
 
     jQuery('#select-list').selectize({
         create: true,
-        sortField: 'text'
+        sortField: 'text',
+        onChange: function (event) {
+            window.shuffleCalcs(event)
+          }
     });
     runTimeout();
 });
