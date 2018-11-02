@@ -554,7 +554,10 @@ window.shuffleCalcs2 = function (filterName) {
                 return industry.replace(" & ","")
             })
             // changeActiveCalcCategory(window.industriesId[filter])
-            window.shuffleCalcs(window.industriesId[filter],false)
+            window.shuffleCalcs(window.industriesId[filter],false);
+            let $select = jQuery("#select-list").selectize();
+            let selectize = $select[0].selectize;
+            selectize.setValue(window.industriesId[filter]);
         } else {
             console.log('not match found');
             notMatchFound.removeClass('hide');
