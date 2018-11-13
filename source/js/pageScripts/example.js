@@ -195,7 +195,7 @@ window.changeTab = function (tabName) {
 }
 
 window.ready = function () {
-    let http = new XMLHttpRequest();
+    // let http = new XMLHttpRequest();
     let host = window.location.hostname;
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
     let url1 = 'https://api.outgrow.co/api/v1/admin/getEventsByDate';
@@ -203,35 +203,59 @@ window.ready = function () {
         url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getCalculators';
         url1 = 'https://outgrow-api.herokuapp.com/api/v1/admin/getEventsByDate';
     }
-    let http1 = new XMLHttpRequest();
+    // let http1 = new XMLHttpRequest();
     
     let res = {
         data: null
     };
+    responses = Promise.all([postRequest(url,{}),postRequest(url1,{
+                    'date': new Date().toISOString(),
+                    'operator': '$gte'})]);
+    responses.then((data)=>{
+        let res = data[0];
+        res.data['events'] = data[1].data.events;
+        renderPremadeCalcs(res);
+    })
 
-    http.open("POST", url, true);
-    http1.open("POST", url1, true);
-    http1.setRequestHeader('Content-type','application/json; charset=utf-8');
-    http.onreadystatechange = function () {
-        if (http.readyState === 4 && http.status === 200) {
-            res = JSON.parse(http.responseText);
-            http1.onreadystatechange = function () {
-                if (http1.readyState === 4 && http1.status === 200) {
-                    res.data['events'] = JSON.parse(http1.responseText).data.events;
-                    // console.log('**************************9', res);
-                    renderPremadeCalcs(res);
-                }
-            };
-            let data = {
-                'date': new Date().toISOString(),
-                'operator': '$gte'
-            }
-            http1.send(JSON.stringify(data));
-        }
-    };
-    http.send();
+    // http.open("POST", url, true);
+    // http1.open("POST", url1, true);
+    // http1.setRequestHeader('Content-type','application/json; charset=utf-8');
+    // http.onreadystatechange = function () {
+    //     if (http.readyState === 4 && http.status === 200) {
+    //         res = JSON.parse(http.responseText);
+    //         http1.onreadystatechange = function () {
+    //             if (http1.readyState === 4 && http1.status === 200) {
+    //                 res.data['events'] = JSON.parse(http1.responseText).data.events;
+    //                 // console.log('**************************9', res);
+    //                 renderPremadeCalcs(res);
+    //             }
+    //         };
+    //         let data = {
+    //             'date': new Date().toISOString(),
+    //             'operator': '$gte'
+    //         }
+    //         http1.send(JSON.stringify(data));
+    //     }
+    // };
+    // http.send();
 };
 ready();
+function postRequest(url,data,options={}) {
+    return fetch(url, Object.assign({
+        method: "POST", // *GET, POST, PUT, DELETE, etc.
+        mode: "cors", // no-cors, cors, *same-origin
+        cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: "same-origin", // include, *same-origin, omit
+        headers: {
+            "Content-Type": "application/json; charset=utf-8",
+            // "Content-Type": "application/x-www-form-urlencoded",
+        },
+        redirect: "follow", // manual, *follow, error
+        referrer: "no-referrer", // no-referrer, *client
+        body: JSON.stringify(data), // body data type must match "Content-Type" header
+    },options))
+    .then(response => response.json())
+};
 
 window.ready1 = function () {
     let http = new XMLHttpRequest();
