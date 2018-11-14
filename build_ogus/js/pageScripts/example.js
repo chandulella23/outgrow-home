@@ -196,13 +196,37 @@ window.changeTab = function (tabName) {
 
 window.ready = function () {
     let http = new XMLHttpRequest();
+    let host = window.location.hostname;
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
-    http.open("POST", url, true);
+    let url1 = 'https://api.outgrow.co/api/v1/admin/getEventsByDate';
+    if(host === 'rely.co' || host === 'localhost') {
+        url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getCalculators';
+        url1 = 'https://outgrow-api.herokuapp.com/api/v1/admin/getEventsByDate';
+    }
+    let http1 = new XMLHttpRequest();
+    
+    let res = {
+        data: null
+    };
 
+    http.open("POST", url, true);
+    http1.open("POST", url1, true);
+    http1.setRequestHeader('Content-type','application/json; charset=utf-8');
     http.onreadystatechange = function () {
         if (http.readyState === 4 && http.status === 200) {
-            let res = JSON.parse(http.responseText);
-            renderPremadeCalcs(res);
+            res = JSON.parse(http.responseText);
+            http1.onreadystatechange = function () {
+                if (http1.readyState === 4 && http1.status === 200) {
+                    res.data['events'] = JSON.parse(http1.responseText).data.events;
+                    // console.log('**************************9', res);
+                    renderPremadeCalcs(res);
+                }
+            };
+            let data = {
+                'date': new Date().toISOString(),
+                'operator': '$gte'
+            }
+            http1.send(JSON.stringify(data));
         }
     };
     http.send();
@@ -313,7 +337,7 @@ function renderPremadeCalcs(responseText) {
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
         window.industries = responseText.data.industries;
-        console.log(window.calcs);
+        window.specialEvents = responseText.data.events;
         let trendingC = [];
         window.events = [];
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -350,6 +374,28 @@ function renderPremadeCalcs(responseText) {
             }
             calc['type'] = getCalcType(calc['type']);
         });
+
+
+        window.specialEvents.forEach(sevent => {
+            if (sevent.launch_date !== null) {
+                let launch_date = new Date(sevent.launch_date);
+                let day = launch_date.getUTCDate();
+                let month = launch_date.getUTCMonth();
+                let year = launch_date.getUTCFullYear();
+                let ev = {
+                    Date: new Date(year, month, day),
+                    id: sevent._id,
+                    Title: sevent.event_name,
+                    Link: '',
+                    Image: sevent.media ? sevent.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+                    Description: sevent.description,
+                    EventName: sevent.event_name
+                };
+                window.events.push(ev);
+            }
+        });
+
+
         var settings = {};
         var element = document.getElementById('calendar');
         caleandar(element, window.events, settings);
