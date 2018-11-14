@@ -197,10 +197,10 @@ window.changeTab = function (tabName) {
 window.ready = function () {
     // let http = new XMLHttpRequest();
     let host = window.location.hostname;
-    let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+    // let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
     let url1 = 'https://api.outgrow.co/api/v1/admin/getEventsByDate';
     if(host === 'rely.co' || host === 'localhost') {
-        url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getCalculators';
+        // url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getCalculators';
         url1 = 'https://outgrow-api.herokuapp.com/api/v1/admin/getEventsByDate';
     }
     // let http1 = new XMLHttpRequest();
@@ -208,12 +208,11 @@ window.ready = function () {
     let res = {
         data: null
     };
-    responses = Promise.all([postRequest(url,{}),postRequest(url1,{
+    responses = Promise.all([postRequest(url1,{
                     'date': new Date().toISOString(),
                     'operator': '$gte'})]);
     responses.then((data)=>{
         let res = data[0];
-        res.data['events'] = data[1].data.events;
         renderPremadeCalcs(res);
     })
 
@@ -359,46 +358,45 @@ function throttled(delay, fn) {
 
 function renderPremadeCalcs(responseText) {
     if (responseText.success) {
-        window.calcs = responseText.data.calculators;
-        window.industries = responseText.data.industries;
+        // window.calcs = responseText.data.calculators;
+        // window.industries = responseText.data.industries;
         window.specialEvents = responseText.data.events;
         let trendingC = [];
         window.events = [];
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-        window.calcs.forEach(calc => {
-            if (calc.industry === "Trending") {
-                if (trendingC.length !== 6)
-                    trendingC.push(calc);
-            }
+        // window.calcs.forEach(calc => {
+        //     if (calc.industry === "Trending") {
+        //         if (trendingC.length !== 6)
+        //             trendingC.push(calc);
+        //     }
 
-            calc['GIF'] = calc.media;
-            calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
-            calc['Name'] = calc.title;
-            calc['id'] = 'id' + calc._id;
-            calc['Description'] = calc.description;
-            let layout = getTemplateName(calc.template);
-            calc['Layout'] = layout ? layout.text : 'Stockholm';
-            calc['Published Link'] = calc.liveApp.url;
-            calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
-            if (calc.launch_date !== null) {
-                let launch_date = new Date(calc.launch_date);
-                let day = launch_date.getUTCDate();
-                let month = launch_date.getUTCMonth();
-                let year = launch_date.getUTCFullYear();
-                let ev = {
-                    Date: new Date(year, month, day),
-                    id: calc._id,
-                    Title: calc.title,
-                    Link: '',
-                    Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
-                    Description: calc.Description,
-                    EventName: calc.event_name
-                };
-                window.events.push(ev);
-            }
-            calc['type'] = getCalcType(calc['type']);
-        });
-
+        //     calc['GIF'] = calc.media;
+        //     calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+        //     calc['Name'] = calc.title;
+        //     calc['id'] = 'id' + calc._id;
+        //     calc['Description'] = calc.description;
+        //     let layout = getTemplateName(calc.template);
+        //     calc['Layout'] = layout ? layout.text : 'Stockholm';
+        //     calc['Published Link'] = calc.liveApp.url;
+        //     calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+        //     if (calc.launch_date !== null) {
+        //         let launch_date = new Date(calc.launch_date);
+        //         let day = launch_date.getUTCDate();
+        //         let month = launch_date.getUTCMonth();
+        //         let year = launch_date.getUTCFullYear();
+        //         let ev = {
+        //             Date: new Date(year, month, day),
+        //             id: calc._id,
+        //             Title: calc.title,
+        //             Link: '',
+        //             Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+        //             Description: calc.Description,
+        //             EventName: calc.event_name
+        //         };
+        //         window.events.push(ev);
+        //     }
+        //     calc['type'] = getCalcType(calc['type']);
+        // });
 
         window.specialEvents.forEach(sevent => {
             if (sevent.launch_date !== null) {
