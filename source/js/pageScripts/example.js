@@ -621,7 +621,7 @@ window.shuffleCalcs2 = function (filterName) {
         })
         if(filter != -1) {
             window.industriesId = window.industries.map(industry=>{
-                return industry.replace(" & ","")
+                return industry.replace(/[&\s]/gmi,'');
             })
             // changeActiveCalcCategory(window.industriesId[filter])
             window.shuffleCalcs(window.industriesId[filter],false);
