@@ -669,7 +669,7 @@ jQuery(document).ready(function () {
         create: true,
         sortField: 'text',
         onChange: function (event) {
-            window.shuffleCalcs(event)
+            window.shuffleCalcs(event,false)
           }
     });
     runTimeout();
