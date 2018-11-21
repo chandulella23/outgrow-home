@@ -87,6 +87,7 @@ function sendVisitResponse() {
 }
 
 function sendLeadResponse() {
+
     let data = {
         email: email,
         flag: true,
@@ -100,6 +101,10 @@ function sendLeadResponse() {
         data: JSON.stringify(data),
         success: function (response) {
             console.log(response);
+
+            jQuery('button:contains("TALK")').on('click', function () {
+                Intercom('show');
+            });
         },
         error: function () {
 
