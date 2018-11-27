@@ -91,7 +91,7 @@
 	</section>
 
 	<section class="section section-premade-temp">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading text-center">Examples Of Highest-ROI Quizzes, Calculators And Assessments </div>
 			</div>
