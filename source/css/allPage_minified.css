@@ -85939,7 +85939,7 @@ body.icaq.footer-cookies {
         font-size: 15px;
         font-family: montserratlight;
         color: #555;
-        background-color: #f6f6f6;
+        background-color: #fff;
         padding: 17.5px 10px;
         -webkit-transition: width 0.4s ease-in-out;
         transition: width 0.4s ease-in-out;
@@ -85998,26 +85998,47 @@ body.icaq.footer-cookies {
         width: calc(100% - 230px);
         padding: 0 0px 0px 30px;
     }
+    .no-match-found {
+        display: table;
+        float: left;
+        background: transparent;
+        text-align: center;
+        /* width: 76%; */    
+        width: calc(100% - 230px);
+        height: 600px;
+    }
+    .no-match-found-inner {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+    }
+    .no-match-found-inner i.material-icons {
+        display: block;
+        color: #fb5f66;
+        font-size: 46px;
+        margin-bottom: 10px;
+    }
 
 /* css scrollbar */
     .pre-temp-cat-new.scrollbar, .pre-temp-list.scrollbar {
         overflow-y: scroll;
+        overflow-x: hidden;
     }
     .pre-temp-cat-new.scrollbar::-webkit-scrollbar-track {
         border-radius: 0;
-        background-color: #fbfbfb;
+        background-color: #eee;
     }
     .pre-temp-cat-new.scrollbar::-webkit-scrollbar {
         width: 3px;
-        background-color: #f2f2f2;
+        background-color: #e5e5e5;
     }
     .pre-temp-cat-new.scrollbar::-webkit-scrollbar:horizontal {
         height: 6px;
-        background-color: #f2f2f2;
+        background-color: #e5e5e5;
     }
     .pre-temp-cat-new.scrollbar::-webkit-scrollbar-thumb {
         border-radius: 4px;
-        background-color: #f2f2f2;
+        background-color: #e5e5e5;
     }
     
     .pre-temp-list.scrollbar {
@@ -86025,19 +86046,19 @@ body.icaq.footer-cookies {
     }
     .pre-temp-list.scrollbar::-webkit-scrollbar-track {
         border-radius: 0;
-        background-color: #fbfbfb;
+        background-color: #eee;
     }
     .pre-temp-list.scrollbar::-webkit-scrollbar {
         width: 3px;
-        background-color: #f2f2f2;
+        background-color: #e5e5e5;
     }
     .pre-temp-list.scrollbar::-webkit-scrollbar:horizontal {
         height: 6px;
-        background-color: #f2f2f2;
+        background-color: #e5e5e5;
     }
     .pre-temp-list.scrollbar::-webkit-scrollbar-thumb {
         border-radius: 4px;
-        background-color: #f2f2f2;
+        background-color: #e5e5e5;
     }
 /* end: css scrollbar */
 
