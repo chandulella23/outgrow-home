@@ -196,7 +196,7 @@ li.dropdown.open:hover a.dropdown-toggle {
     /* height: 65px; */
     font-size: 18px;
     padding-top: 17px;
-    margin-left: 15px !important;
+    margin-left: 10px !important;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     padding-left: 0px;
