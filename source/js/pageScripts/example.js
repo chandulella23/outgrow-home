@@ -637,6 +637,11 @@ window.shuffleCalcs2 = function (filterName) {
     }
 }
 jQuery(document).ready(function () {
+    if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        jQuery('.pre-temp-cat').addClass('hide');
+    } else {
+        jQuery('.pre-temp-cat').removeClass('hide');
+    }
     jQuery('#nav-examples').addClass('active');
     jQuery('#nav-get-inspired').addClass('active');
 
