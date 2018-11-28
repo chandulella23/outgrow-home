@@ -96,7 +96,7 @@
 				<div class="section-heading text-center">Examples Of Calculators You Can Make With Outgrow </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
-				 <div class="preloader">
+				<div class="preloader">
 					<div class="status">&nbsp;</div>
 				</div> 
 				<div class="premade-template-new">
