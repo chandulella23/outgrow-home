@@ -196,7 +196,7 @@ li.dropdown.open:hover a.dropdown-toggle {
     /* height: 65px; */
     font-size: 18px;
     padding-top: 17px;
-    margin-left: 30px !important;
+    margin-left: 15px !important;
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     padding-left: 0px;
@@ -1736,6 +1736,7 @@ li.nav-lead-input {
 
 	.navbar-nav>li {
 		float: left;
+		margin-right: 10px !important;
 	}
 
 	.navbar-nav>li>a {
@@ -1944,7 +1945,6 @@ li.nav-lead-input {
       } */
 	.navbar-brand {
 		padding-top: 20px;
-		margin-left: 0px !important;
 	}
 
 	.nav-boxshadow .navbar-brand {
