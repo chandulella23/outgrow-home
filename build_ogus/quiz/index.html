@@ -396,7 +396,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	</section>
 
 	<section class="section section-premade-temp">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading text-center">Examples Of Quizzes You Can Make With Outgrow </div>
 			</div>
@@ -404,40 +404,97 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 				<!-- <div class="preloader">
 					<div class="status">&nbsp;</div>
 				</div> -->
-				<div class="premade-template">
-					<ul class="pre-temp-cat" id="calc-cats">
-						<li class="active">
-							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="Education"
-							   onclick="shuffleCalcs('Education')">Education</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Finance</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
-								Estate & Construction</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="Travel" onclick="shuffleCalcs('Travel')">Travel</a>
-						</li>
+				<div class="premade-template-new">
+					<div class="search-input">
+						<!-- <h4>Select Your Industry</h4> -->
+						<div class="input-group">
+							<i class="material-icons">search</i>
+							<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
+						</div>
+					</div>
+					<div class="premade-template-left">
 
-						<li>
-							<a href="javascript:void(0)" id="Entertainment" onclick="shuffleCalcs('Entertainment')">TV
-								and Entertainment</a>
-						</li>
+						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
+							<li class="active">
+								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="MarketingAdvertising"
+								onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="HealthFitness"
+								onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Legal"
+								onclick="shuffleCalcs('Legal')">Legal</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Quintessential"
+								onclick="shuffleCalcs('Quintessential')">Quintessential</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="RealEstateConstruction"
+								onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
+									Construction</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Funnels" onclick="shuffleCalcs('Funnels')">
+								Funnels
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">
+								Trending
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Technology"
+								onclick="shuffleCalcs('Technology')">Technology</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Travel"
+								onclick="shuffleCalcs('Travel')">Travel</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="Publishing"
+								onclick="shuffleCalcs('Publishing')">Publishing</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="TVandEntertainment"
+								onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
+							</li>
+						</ul>
+						<div class="form-group col-xs-12 np">
+							<div class="selectize selectize-wrapper">
+								<select id="select-list" placeholder="Select List">
+									<option value="Auto">Auto</option>
+									<option value="Education">Education</option>
+									<option value="Education">Education</option>
+									<option value="HealthFitness">Health & Fitness</option>
+									<option value="Quintessential">Quintessential</option>
+									<option value="RealEstateConstruction">Real Estate & Construction</option>
+									<option value="MarketingAdvertising">Technology</option>
+									<option value="Publishing">Publishing</option>
+									<option value="Travel">Travel</option>
+									<option value="TVandEntertainment">TV and Entertainment</option>
+									<option value="Trending">Trending</option>
 
-						<li>
-							<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">Trending</a>
-						</li>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="pre-temp-cont pre-temp-cont-new"> 
+						<ul class="pre-temp-list scrollbar" id="gallery-content-center">
 
-					</ul>
-					<div class="pre-temp-cont">
-						<ul class="pre-temp-list" id="gallery-content-center">
-
-							<li class="active filter-all filter-auto" id="calc-auto-loan">
+							<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
 								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
 							</li>
 							<li class="All Financia filter-all filter-auto" id="calc-early-payment">
@@ -446,7 +503,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 							<li class="All Math filter-all filter-auto" id="calc-downpayment">
 								<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
 							</li>
-							<li class="All Others filter-all filter-education" id="calc-student-budget">
+							<li class="All Others filter-all filter-education" id="calc-student-budget"> 
 								<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
 							</li>
 							<li class="All Math filter-all filter-education" id="calc-harward-score">
@@ -460,10 +517,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 							</li>
 							<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
 								<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
-							</li>
-
+							</li> -->
 						</ul>
 						<div class="pre-temp-view">
+							<!-- <div class="tag-exp"><i class="material-icons">star_rate</i><span class="tag-exp-text"> Customisable for the Auto Industry</span></div> -->
 							<div class="temp-preview">
 								<span class="image-bg1">
 									<span class="image-scroll1">
@@ -477,15 +534,18 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 											AUTO LOAN CALCULATOR
 										</p>
 										<span id="premade-calc-layout">
-											<strong>Layout:</strong>
-											The Londoner
+											<strong>Layout:</strong> 
+											The Londoner 
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_quiz_page">Build your own</a>
+									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="no-match-found hide">
+						<div class="no-match-found-inner"><i class="material-icons">warning</i>No Matches found!</div>
 					</div>
 				</div>
 			</div>
