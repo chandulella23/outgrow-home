@@ -209,5 +209,12 @@ jQuery(document).ready(function () {
     //         }, 3000)
     //     }
     // }, 2000);
-
+ 
+        jQuery('#select-list').selectize({
+            create: true,
+            sortField: 'text',
+            onChange: function (event) {
+                window.shuffleCalcs(event,false)
+            }
+        });
 });
