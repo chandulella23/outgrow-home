@@ -794,7 +794,7 @@ label {
 /* need custom plan section */
 
 #pricing .need-custom-plan {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px
 }
 
@@ -809,7 +809,9 @@ label {
     color: #62696d;
     font-size: 48px;
     position: relative;
-    top: 15px
+    top: 15px;
+    display: none;
+
 }
 
 
@@ -1973,10 +1975,10 @@ i.zmdi.zmdi-twitter-box {
 
 .create-exp .container .btn-white-red-outline {
     background: #fb5f66;
-    font-size: 13px;
+    font-size: 12px;
     color: #fff;
     font-family: montserratlight;
-    padding: 8px 12px;
+    padding: 8px 16px;
     outline: none;
     box-shadow: none;
     float: right;
@@ -1985,7 +1987,7 @@ i.zmdi.zmdi-twitter-box {
 }
 
 .create-exp .container span.create-exp-price {
-    font-size: 40px;
+    font-size: 42px;
     color: #fb5f66;
     font-family: montserratsemibold;
     opacity: 1;
@@ -2012,6 +2014,7 @@ i.zmdi.zmdi-twitter-box {
 
 .create-exp .container .text-opacity {
     opacity: 0.5;
+    font-size: 11px;
 }
 
 .create-exp button.closeDiv {
@@ -2479,6 +2482,12 @@ span.expand-all {
     @media screen and (min-width: 320px) and (max-width: 480px) {
         body.footer-cookies {
             padding-bottom: 182px !important;
+        }
+    }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+        #pricing .need-custom-plan {
+            margin-top: 30px;
+            padding: 0px 15px;
         }
     }
     @media screen and (min-width: 480px) and (max-width: 640px) {
