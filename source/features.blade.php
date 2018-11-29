@@ -63,12 +63,12 @@
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-bottom='transform:translate3d(70%,25%,0)' data--150-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-1 qode-lazy-image qode-side-image-inner'
-												data-image='{{ $page->baseUrl }}/images/expanding-side-image-1-new.jpg' data-lazy='true'></div>
+												data-image='' data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
 											<div data-100-bottom='transform:translate3d(70%,-25%,0)' data--50-bottom='transform:translate3d(0,0,0)'
 												class='qode-side-image qode-side-image-2 qode-lazy-image qode-side-image-inner'
-												data-image='{{ $page->baseUrl }}/images/expanding-side-image-2-new.jpg'
+												data-image=''
 												data-lazy='true'></div>
 										</a>
 										<a class='qode-side-image-link mk-animate-element scale-up' href=javascript:void(0);>
