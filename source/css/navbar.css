@@ -405,7 +405,7 @@ li.nav-lead-input {
 }
 
 .dropdown .dropdown-sub-content {
-	display: block;
+	display: none;
 	position: absolute;
       /* right: -203px; */
 	right: -173px;
