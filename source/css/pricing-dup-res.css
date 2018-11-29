@@ -94,7 +94,7 @@
 	.create-exp .container {
 		width: 100%;
 		text-align: center;
-		padding: 20px;
+		padding: 25px 20px;
 	}	
 	.create-exp .container .btn-white-red-outline {text-align: center; float: none;}
 	.create-exp .container .col-sm-3, .create-exp .container .col-sm-6 {
@@ -123,6 +123,12 @@
 	#pricing .four-plan-case .billing-plan-list {
 		 width: 100%; 
 		 max-width: 500px; 
+	}
+	.create-exp .container h5 + span {
+		margin-left: 0;
+	}
+	.create-exp .container h5 {
+		margin-bottom: 10px;
 	}
 
 }
