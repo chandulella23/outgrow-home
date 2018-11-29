@@ -6843,13 +6843,37 @@ span.icon-webcam {
 	/* float: left; */
 	width: 90%;
 	margin: 0 auto;
-	text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
 }
-
+.img-int-wrapper .img-int-wrapper-inner {
+    width: 150px;
+    height: 125px;
+    font-size: 10px;
+    color: #67686a;
+    font-family: montserratregular;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-int-wrapper .img-int-wrapper-inner span {
+    min-height: 50px;
+    float: left;
+    width: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    display: inline-flex;
+    align-items: center;
+}
 .img-int-wrapper img {
-	margin-right: 25px;
+	/* margin-right: 25px;
 	margin-left: 25px;
-	margin-bottom: 20px;
+	margin-bottom: 20px; */
 }
 
 /* end: feature page css */
@@ -10755,3 +10779,17 @@ a.text-red {
         }
     }
 /* new footer changes */
+.qode-lazy-preloader.preloader {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+img#imgLoad {
+    width: 20%;
+    position: absolute;
+    top: 32%;
+    left: 40%;
+}
