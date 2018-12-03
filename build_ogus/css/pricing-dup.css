@@ -1026,7 +1026,7 @@ label {
 /* billing plan list css */
 
 .billing-plan-list {
-    border: 1px solid #bfd5df;
+    /* border: 1px solid #bfd5df; */
     border-radius: 4px;
     background: #fff;
     float: none;
@@ -2282,7 +2282,7 @@ span.expand-all {
 /* billing plan list css */
 
 .four-plan-case .billing-plan-list {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-radius: 25px;
     background: #fff;
     float: none;
@@ -2293,7 +2293,10 @@ span.expand-all {
 
 .four-plan-case .billing-plan-list ul {
     padding: 0;
-    margin: 0
+    margin: 0;
+    border: 1px solid #ccc !important;
+    border-radius: 25px !important;
+    overflow: hidden;
 }
 
 .four-plan-case .billing-plan-list ul>li {
