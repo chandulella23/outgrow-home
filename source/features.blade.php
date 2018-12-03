@@ -280,7 +280,7 @@
 						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon2.png" alt="Line Charts"><span>Line Charts </span></li>
 						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon3.png" alt="Tables"><span>Tables </span></li>
 						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon4.png" alt="Pie Charts"><span>Pie Charts </span></li>
-						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon5.png" alt="Radar / Polar charts"><span>Radar / Polar charts </span></li>
+						<li><img src="{{ $page->baseUrl }}/images/features-graphsCharts-sm-icon5.png" alt="Radar / Polar Charts"><span>Radar / Polar Charts </span></li>
 					</ul>
 				</div>
 			</div>
