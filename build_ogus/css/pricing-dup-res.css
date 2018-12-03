@@ -655,6 +655,14 @@
 @media (min-width:320px) and (max-width:380px){
 	.footer-link {width: 100%;}
 }
+
+@media (min-width:0px) and (max-width:370px){
+	.create-exp .container h5 + span {
+		display: inline-block!important;
+		width: 200px;
+		word-wrap: break-word;
+	}
+}
 @media(min-width:320px) and (max-width:1023px) {
 	.faq-section {
 		padding-right: 0;

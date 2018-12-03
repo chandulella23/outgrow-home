@@ -182,16 +182,16 @@ select {
 .video-playIcon.video-playIcon-bb {top: 40%;}
 @media (max-width: 768px) and (min-width: 0px) {
     #video-main {height: auto !important;}
-    .premade-template-left {width: 100%;}
+    .premade-template-left {width: 100% !important;}
 	.premade-template-new .search-input {
 		float: left;
 		width: 100%;
 		position: unset;
 		top: 0;
-		margin-bottom: 15px;
+		margin-bottom: 0px !important;
 		/* display: none; */
 	}
-	.premade-template-new {margin-top: 0; margin-bottom: 0px;}
+	.premade-template-new {margin-top: 0; margin-bottom: 30px !important;;}
 	.pre-temp-cat-new.scrollbar {display: none;}
 	ul.pre-temp-list > li > a small {
 		width: auto;
@@ -86018,6 +86018,9 @@ body.icaq.footer-cookies {
         font-size: 46px;
         margin-bottom: 10px;
     }
+    .premade-template-left .form-group {
+        margin-bottom: 15px;
+    }
 
 /* css scrollbar */
     .pre-temp-cat-new.scrollbar, .pre-temp-list.scrollbar {
@@ -86124,6 +86127,7 @@ body.icaq.footer-cookies {
     }
     .selectize-wrapper .selectize-control.single .selectize-input input {
         /* width: 100% !important; */
+        background: transparent;
     }
     .selectize-wrapper .selectize-dropdown-content {
         overflow-y: auto;
@@ -86209,7 +86213,7 @@ body.icaq.footer-cookies {
         font-size: 16px;
         position: absolute;
         pointer-events: none;
-        right: 30px;
+        right: 10px;
         border: none;
         top: 10px;
         margin-top: -4px;
@@ -86446,11 +86450,11 @@ body.icaq.footer-cookies {
 	ul.pre-temp-cat{float: left; width: 100%;padding: 0;        margin: 0px 0 20px; text-align: center}
 	ul.pre-temp-cat li{float: none; display: inline-block; width: auto; }
 	.pre-temp-cont{float: left; width: 100%; padding: 0}
-	/* ul.pre-temp-list > li > a span {width: 61%;} */
+    /* ul.pre-temp-list > li > a span {width: 61%;} */
 }
 @media (max-width:767px){
 	.pre-temp-view{float: left; width: 100%; max-width: 100%; margin: 25px 0px;}
-	ul.pre-temp-list{float: left; width: 100%; padding: 0; height: 300px;}
+	ul.pre-temp-list{float: left; width: 100%; padding: 0; height: 200px; margin-top: 15px;}
 	.heading-content h3{font-size: 16px; line-height: 22px}
 	.heading-content p{font-size: 13px; line-height: 22px;}
 }
