@@ -1169,6 +1169,7 @@ li.nav-lead-input {
 
 	.dropdown .dropdown-sub-content {
 		padding: 0px 20px !important;
+		display: block;
 	}
 
 	li.signUp.res-nav-show {
@@ -1747,6 +1748,8 @@ li.nav-lead-input {
 		padding-right: 12px;
 		margin-right: 0px !important;
 	}
+	.overlay {display: none !important;}
+	#sidebar-wrapper.active {display: none !important;}
 }
 
 @media (max-width:1023px) {
