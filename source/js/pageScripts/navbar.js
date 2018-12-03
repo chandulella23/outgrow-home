@@ -34,7 +34,7 @@ jQuery(document).ready(function () {
     // });
 
     jQuery('#drop-toggle').click(function() {
-        jQuery(this).siblings('ul, .dropdown-sub-content').eq(jQuery(this).index()).toggle('slow');
+        jQuery(this).siblings('ul').eq(jQuery(this).index()).toggle('slow');
         //$("#" + $(this).attr('href')).toggle('slow');
         return false;
     });

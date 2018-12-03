@@ -1169,6 +1169,7 @@ li.nav-lead-input {
 
 	.dropdown .dropdown-sub-content {
 		padding: 0px 20px !important;
+		display: block;
 	}
 
 	li.signUp.res-nav-show {
