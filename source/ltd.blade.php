@@ -194,7 +194,7 @@
                                 <span>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small><br/>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quizzes </small><br/>
-                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quizzes </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Tests / Assessments </small><br/>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Polls</small>
                                 <!-- <span class="detail">You can create highly effective outcome quizzes and recommendation engines. </span>  -->
                             </td>
@@ -1067,10 +1067,10 @@
                                     <span class="feature-subtitle"><span class="full"></span>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Numerical Calculators </small><br/>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quizzes </small><br/>
-                                        <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quizzes </small><br/>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Graded Tests / Assessments </small><br/>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Polls </small>
                                     </span>
-                                    <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span> -->
+                                    <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Tests / Assessments and Polls </span> -->
                                 </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -1537,7 +1537,7 @@
 					Can I host on premises?
 				</a>
 				<div id="accordion-6" class="accordion-section-content">
-					<p>Yes, you can. Just email us at support@outgrow.co.</p>
+					<p>Yes, you can. Just email us at questions@outgrow.co.</p>
 				</div><!--end .accordion-section-content-->
 			</div><!--end .accordion-section-->
 
@@ -1613,7 +1613,7 @@
 					<a href="//app.outgrow.co" id="trialAnchor">
 						<button class="btn-buildcal mk-animate-element left-to-right mk-in-viewport full-visible ripple">
 							<i class="material-icons">view_compact</i>
-							<p>Build Your interactive experience</p>
+							<p>Build Interactive Content</p>
 						</button>
 					</a>
 					<!-- <label>No Credit Card Required</label> -->

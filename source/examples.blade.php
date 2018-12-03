@@ -1670,7 +1670,7 @@
 					<a href="//app.outgrow.co" id="trialAnchor">
 						<button class="btn-buildcal mk-animate-element left-to-right mk-in-viewport full-visible ripple">
 							<i class="material-icons">view_compact</i>
-							<p>Build Your interactive experience</p>
+							<p>Build Interactive Content</p>
 						</button>
 					</a>
 					<!-- <label>No Credit Card Required</label> -->

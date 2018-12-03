@@ -664,10 +664,10 @@
 	<section class="section sec-integrations hide">
 		<div class="container mobile-container">
 			<div class="section-2-heading">
-				Over 500 integrations
+				Over 1000 integrations
 			</div>
 			<h5 class="section-2-subheading mk-animate-element scale-up">
-				 Easily Integrate with Over 500 sales & marketing tools
+				 Easily Integrate with Over 1000 sales & marketing tools
 			</h5>
 			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide mk-in-viewport text-center">
 				<!--<img class="mk-animate-element scale-up int-box-shadow"  data-src="//dzvexx2x036l1.cloudfront.net/img-integration-full.jpg" />-->
@@ -1734,9 +1734,9 @@
 					<div class="bg1-img">
 						<a href="https://app.outgrow.co/" class="params trialLOL">
 								<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn-buildcal btn-buildcal1 mk-animate-element fade-in">
-								<img alt="Mouse Icon Image" src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Start Free Trial</button>
+								<img alt="Mouse Icon Image" src="//dzvexx2x036l1.cloudfront.net/icon-mouse.png">Get Started</button>
 						</a>
-						<div class=""><label>Plans Start at $25/month</label></div>
+						<div class=""><label>Try it Risk Free</label></div>
 						<!-- <label>No Credit Card Required</label> -->
 					</div>
 				</div>

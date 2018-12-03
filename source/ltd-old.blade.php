@@ -1000,7 +1000,7 @@
 					Can I host on premises?
 				</a>
 				<div id="accordion-6" class="accordion-section-content">
-					<p>Yes, you can. Just email us at support@outgrow.co.</p>
+					<p>Yes, you can. Just email us at questions@outgrow.co.</p>
 				</div><!--end .accordion-section-content-->
 			</div><!--end .accordion-section-->
 
@@ -1076,7 +1076,7 @@
 					<a href="//app.outgrow.co" id="trialAnchor">
 						<button class="btn-buildcal mk-animate-element left-to-right mk-in-viewport full-visible ripple">
 							<i class="material-icons">view_compact</i>
-							<p>Build Your interactive experience</p>
+							<p>Build Interactive Content</p>
 						</button>
 					</a>
 					<!-- <label>No Credit Card Required</label> -->

@@ -45,7 +45,7 @@
 		<div class="container-fluid">
 			<div class="">
 				<h3>Let’s Start With The Metrics</h3>
-				<h5 class="section-2-subheading">Simple pricing. No Hidden costs. No transaction based fees. </h5>
+				<!-- <h5 class="section-2-subheading">Simple pricing. No Hidden costs. No transaction based fees. </h5> -->
 			</div>
 		</div>
 		<div class="container">
@@ -62,11 +62,11 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np metrics-inner-block">
 					<h4>Social Share</h4>
-					<span>Interactive content reaches a wider audience, increasing your visibility and referral traffic. </span>
+					<span>Interactive content is more engaging and personal, increasing your share rates and referral traffic. </span>
 					<img src="{{ $page->baseUrl }}/images/why-img-socialShare.png" alt="Social Share">
 				</div>
 			</div>
-			<div class="asterix-text">*Data from a sample of 50 calculators	</div>
+			<!-- <div class="asterix-text">*Data from a sample of 50 calculators	</div> -->
 		</div>
 	</section>
 
@@ -103,7 +103,7 @@
 						</video>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left sec-newTraffic">
-						<h3 class="section-subheading">Interactive Content Brings <b>New Traffic</b> </h3>
+						<h3 class="section-subheading">Interactive Content Brings in <b>New Traffic</b> </h3>
 						<ul>
 							<li>
 								<span class="bullets"></span>
@@ -111,7 +111,7 @@
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">More people are searching for “How much does X cost” or “What is my risk of getting a X disease”. With interactive quizzes and calculators, get to the top of search results. </span>
+								<span class="list">More people are searching for “How much does X cost” or “What is my risk of getting a X disease”. Interactive content like quizzes and calculators provide the best answers to these questions so rise to the top of search results. </span>
 							</li>
 						</ul>
 					</div>
@@ -138,7 +138,7 @@
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Conversion rate from interactive content is a magnitude higher than your run-of-the-mill landing pages. </span>
+								<span class="list">Conversion rates from interactive content are nearly 30% higher than your run-of-the-mill landing pages because users benefit from the personalized results page. </span>
 							</li>
 						</ul>
 					</div>
@@ -155,11 +155,11 @@
 						<ul>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Interactive content helps you find out much more about your audience beyond name and email. You can use this information to categorize them into very specific segments. </span>
+								<span class="list">Interactive content helps you find out much more about your audience beyond name and email. You can use this information to categorize them into specific segments including territory, industry, budget, outcome/result etc. </span>
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Interactive content-based segmentation of audience helps you design highly personalized and targeted sales followups. </span>
+								<span class="list">Interactive content-based segmentation along with our powerful integrations helps you assign each segment to specific sales people and to specific lists, which allow for more personalized and targeted sales followups. </span>
 							</li>
 						</ul>
 					</div>
@@ -177,7 +177,7 @@
 
 	<section class="section section-3 p20 calc-table">
 		<div class="container">
-			<div class="section-2-heading">Interactive Content Trumps Static Content </div>
+			<div class="section-2-heading">Interactive Content Beats Static Content </div>
 			<div class="col-xs-12 mobile-sec3 rs-show">
 				<div class="swiper-container-first">
 					<div class="swiper-wrapper">
@@ -215,13 +215,13 @@
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Ebooks</h5>
 									<h4 class="hide">Uninspiring</h4>
-									<p>No instant gratification only allows for 10-20%.</p>
+									<p>No instant gratification, conversion rates vary between 10-25%</p>
 									<span>V/S</span>
 								</div>
 								<div class="col-xs-12 np sec3-box2inner">
 									<h5>Marketing Pages</h5>
 									<h4 class="hide">eh!</h4>
-									<p>You have to work hard to get 3-8%</p>
+									<p>You have to work hard to get 10%</p>
 								</div>
 							</div>
 						</div>
@@ -308,7 +308,7 @@
 					</div>
 					<div class="col-xs-12 np sec3-box2inner">
 						<h4>Rich</h4>
-						<p>Rich responses can help make target sales.</p>
+						<p>Rich responses help you segment and personalize your sales follow up.</p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-3 sec3-box3 mk-animate-element scale-up">
@@ -319,7 +319,7 @@
 					</div>
 					<div class="col-xs-12 np sec3-box2inner">
 						<h4>Uninspiring</h4>
-						<p>No instant gratification only allows for 10-20%.</p>
+						<p>No instant gratification, conversion rates vary between 10-25%</p>
 					</div>
 					<div class="col-xs-12 np sec3-box2inner">
 						<h4>Average</h4>
@@ -338,7 +338,7 @@
 					</div>
 					<div class="col-xs-12 np sec3-box2inner">
 						<h4>eh!</h4>
-						<p>You have to work hard to get 3-8%</p>
+						<p>You have to work hard to get 10%</p>
 					</div>
 					<div class="col-xs-12 np sec3-box2inner">
 						<h4>Dead Cold</h4>
@@ -1210,7 +1210,35 @@
 		</div>
 	</section>
 
+	<div class="col-md-12 col-sm-12 col-xs-12 np bg1-img input-btn">
+		<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
+			<i class="material-icons">email</i>
+			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
+			<span class="lead-form-btn">
+				<a href="//app.outgrow.co/signup/?email=" class="lead-email-1 btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
+					Get Started
+				</a>
+				<!-- <span class="live-demo">OR <a href="https://sample.outgrow.co/builder-demo/sample-calculator" class="">TAKE A LIVE DEMO</a></span> -->
+				<div class=""><label>Try it Risk Free</label></div>
+			</span>
+			<div id="bfrVid"></div>
+			<script>
+				document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					document.getElementsByClassName('lead-email-1')[0].href = href + email;
+				}
 
+				document.getElementsByClassName('lead-form-email-1')[0].onkeypress = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/signup/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
+			</script>
+		</div>
+	</div>
 
 	<section class="section start-trial-cta mb0 hide">
 		<div class="container-fluid np">
@@ -1219,7 +1247,7 @@
 					<a href="//app.outgrow.co" id="trialAnchor">
 						<button class="btn-buildcal mk-animate-element left-to-right mk-in-viewport full-visible ripple">
 							<i class="material-icons">view_compact</i>
-							<p>Build Your interactive experience</p>
+							<p>Build Interactive Content</p>
 						</button>
 					</a>
 					<!-- <label>No Credit Card Required</label> -->

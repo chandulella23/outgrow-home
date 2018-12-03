@@ -175,8 +175,8 @@
                             </td>
                             <td class="">
                                 <span class="full"></span>
-                                <span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls </span>
-                                <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span> -->
+                                <span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Tests / Assessments <br/>Polls </span>
+                                <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Tests / Assessments and Polls </span> -->
                             </td>
                         </tr> 
                         <!-- <tr class="not-info">
@@ -1033,8 +1033,8 @@
                                         <!-- <i class="material-icons minus">remove</i>  -->
                                         Type of Experiences
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls </span>
-                                    <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span> -->
+                                    <span class="feature-subtitle"><span class="full"></span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Tests / Assessments <br/>Polls </span>
+                                    <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Tests / Assessments and Polls </span> -->
                                 </li> 
                                 <!-- <li>
                                     <span class="feature-title">Collaborators</span>
@@ -1510,7 +1510,7 @@
                                         </td>
                                         <td class="">
                                             <span class="full"></span>
-                                            <span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls </span>
+                                            <span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Tests / Assessments <br/>Polls </span>
                                         </td> -->
                                     </tr> 
                                     <tr class="not-info">
@@ -2136,8 +2136,8 @@
                                                     <!-- <i class="material-icons minus">remove</i>  -->
                                                     Type of Experiences
                                                 </span>
-                                                <span class="feature-subtitle"><span class="full"></span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Quizzes <br/>Polls </span>
-                                                <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Quizzes and Polls </span> -->
+                                                <span class="feature-subtitle"><span class="full"></span>Numerical Calculators <br/>Outcome Quizzes <br/>Graded Tests / Assessments <br/>Polls </span>
+                                                <!-- <span class="detail">Numerical Calculators, Outcome Quizzes, Graded Tests / Assessments and Polls </span> -->
                                             </li> 
                                             <!-- <li>
                                                 <span class="feature-title">Collaborators</span>
@@ -2585,7 +2585,7 @@
 					Can I host on premises?
 				</a>
 				<div id="accordion-6" class="accordion-section-content">
-					<p>Yes, you can. Just email us at support@outgrow.co.</p>
+					<p>Yes, you can. Just email us at questions@outgrow.co.</p>
 				</div><!--end .accordion-section-content-->
 			</div><!--end .accordion-section-->
 
@@ -2661,7 +2661,7 @@
 					<a href="//app.outgrow.co" id="trialAnchor">
 						<button class="btn-buildcal mk-animate-element left-to-right mk-in-viewport full-visible ripple">
 							<i class="material-icons">view_compact</i>
-							<p>Build Your interactive experience</p>
+							<p>Build Interactive Content</p>
 						</button>
 					</a>
 					<!-- <label>No Credit Card Required</label> -->
