@@ -7885,6 +7885,10 @@ i.zmdi.zmdi-twitter-box {
 	margin-bottom: 10px;
 	display: block;
 	/* min-height: 55px; */
+	
+}
+.metrics-inner-block span + img {
+    margin-top: 15px;
 }
 
 .section-metrics .asterix-text {

@@ -45,7 +45,7 @@
 		<div class="container-fluid">
 			<div class="">
 				<h3>Let’s Start With The Metrics</h3>
-				<h5 class="section-2-subheading">Simple pricing. No Hidden costs. No transaction-based fees. </h5>
+				<h5 class="section-2-subheading">Simple pricing. No Hidden costs. No transaction based fees. </h5>
 			</div>
 		</div>
 		<div class="container">
