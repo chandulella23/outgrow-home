@@ -235,7 +235,7 @@
 						<li><img src="{{ $page->baseUrl }}/images/features-complexFormulas-sm-icon4.png" alt="Discounts"><span>Discounts </span></li> -->
 						<li><img src="{{ $page->baseUrl }}/images/features-complexFormulas-sm-icon5.png" alt="Mortgages, Bonds, Interest"><span>Mortgages, Bonds, Interest </span></li>
 						<li><img src="{{ $page->baseUrl }}/images/features-complexFormulas-sm-icon6.png" alt="If/else and nested if Statements"><span>If/else and nested if Statements </span></li>
-						<li><img src="{{ $page->baseUrl }}/images/features-complexFormulas-sm-icon7.png" alt="Upload Maths from Excel"><span>Upload Maths from Excel </span></li>
+						<li><img src="{{ $page->baseUrl }}/images/features-complexFormulas-sm-icon7.png" alt="Upload Maths from Excel"><span>Upload Math from Excel </span></li>
 						<li><img src="{{ $page->baseUrl }}/images/features-complexFormulas-sm-icon4.png" alt="Percentages and Discounts"><span>Percentages and Discounts </span></li>
 					</ul>
 				</div>
