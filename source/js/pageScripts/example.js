@@ -495,8 +495,8 @@ function renderPremadeCalcs(responseText) {
         jQuery(document).on('click', '.eventday', (event) => {
             self.selectedEvent = [];
             let selectedDate = event.target.getAttribute('content').trim();
-            // jQuery('p.eventday').removeClass('selected');
-            // jQuery(event.target).addClass('selected');
+            jQuery('p.eventday').removeClass('selected');
+            jQuery(event.target).addClass('selected');
             let popover = jQuery(".popover");
             if (!popover.hasClass("noTransition")) {
                 popover.addClass("noTransition");
@@ -521,8 +521,8 @@ function renderPremadeCalcs(responseText) {
                     `;
                 });
 
-                // let selEvents = document.getElementById("selEvents");
-                // selEvents.innerHTML = evBanner;
+                let selEvents = document.getElementById("selEvents");
+                selEvents.innerHTML = evBanner;
             }
 
             // self.getEventName(self.selectedEvent);
