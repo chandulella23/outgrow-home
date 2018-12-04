@@ -378,9 +378,9 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 					<div class="col-md-12 col-sm-12 col-xs-12 np">
 						<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer startTrial-outer1">
 							<i class="material-icons">email</i>
-							<input class="lead-form-email" name="emailId" type="email" placeholder="Please enter your work email">
+							<input class="lead-form-email1" name="emailId" type="email" placeholder="Please enter your work email">
 							<span class="lead-form-btn">
-								<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
+								<a href="//app.outgrow.co/signup/?email=" class="lead-email1 btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
 									Get Started for free
 								</a>
 
@@ -408,16 +408,16 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 			<script>
 			
-			document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
+			document.getElementsByClassName('lead-form-email1')[0].onchange = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
-					document.getElementsByClassName('lead-email')[0].href = href + email;
+					document.getElementsByClassName('lead-email1')[0].href = href + email;
 				}
 
-				document.getElementsByClassName('lead-form-email')[1].onchange = function (e) {
+				document.getElementsByClassName('lead-form-email1')[1].onchange = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
-					document.getElementsByClassName('lead-email')[1].href = href + email;
+					document.getElementsByClassName('lead-email1')[1].href = href + email;
 				}
 				// window.callGA = function(a) {
 				//     switch (a) {
@@ -428,7 +428,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 				//         }
 				//     }
 
-				document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+				document.getElementsByClassName('lead-form-email1')[0].onkeypress = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/signup/?email=";
 					if (e.keyCode == 13) {
@@ -436,7 +436,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 					}
 				}
 
-				document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
+				document.getElementsByClassName('lead-form-email1')[1].onkeypress = function (e) {
 				let email = e.target.value;
 				let href = "//app.outgrow.co/signup/?email=";
 				if (e.keyCode == 13) {

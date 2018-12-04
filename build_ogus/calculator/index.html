@@ -406,7 +406,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						<div class="status">&nbsp;</div>
 					</div>
 				</div>
-				<div class="premade-template-new">
+				<div class="premade-template-new hide">
 					<div class="search-input">
 						<!-- <h4>Select Your Industry</h4> -->
 						<div class="input-group">
@@ -420,62 +420,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 					<div class="premade-template-left">
 
 						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
-							<li class="active">
-								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="MarketingAdvertising"
-								onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="HealthFitness"
-								onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Legal"
-								onclick="shuffleCalcs('Legal')">Legal</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Quintessential"
-								onclick="shuffleCalcs('Quintessential')">Quintessential</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="RealEstateConstruction"
-								onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
-									Construction</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Funnels" onclick="shuffleCalcs('Funnels')">
-								Funnels
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">
-								Trending
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Technology"
-								onclick="shuffleCalcs('Technology')">Technology</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Travel"
-								onclick="shuffleCalcs('Travel')">Travel</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Publishing"
-								onclick="shuffleCalcs('Publishing')">Publishing</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="TVandEntertainment"
-								onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
-							</li>
+							
 						</ul>
 						<div class="form-group col-xs-12 np">
 							<div class="selectize selectize-wrapper">
@@ -1659,6 +1604,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						window.calcs = res.data.calculators;
 						window.calcs = window.calcs.filter(calc=>calc.type === 'Calculator')
 						window.industries = res.data.industries;
+						getExistingIndustries();
 						let trendingC = [];
 						window.events = [];
 						var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -1696,6 +1642,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 							calc['type'] = getCalcType(calc['type']);
 						});
 						jQuery('.preloader').addClass('hide');
+						jQuery('.premade-template-new').removeClass('hide')
 						setPremade();
 						shuffleCalcs('Auto');
 					}
