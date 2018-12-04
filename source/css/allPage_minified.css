@@ -86476,3 +86476,22 @@ body.icaq.footer-cookies {
 
 }
 
+#premade-loader-new.preloader {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 60px;
+}
+#premade-loader-new.preloader .white-wrapper {
+    display: inline-block;
+    margin-bottom: 200px;
+}
+@media (max-width: 363px) and (min-width: 0px) {
+    #premade-loader-new.preloader {margin-top: 100px;}
+}

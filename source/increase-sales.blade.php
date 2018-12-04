@@ -96,9 +96,11 @@
 				<div class="section-heading text-center">Examples Of Revenue-Generating Interactive Experiences </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
-				<!-- <div class="preloader">
-					<div class="status">&nbsp;</div>
-				</div>  -->
+				<div id="premade-loader-new" class="preloader">
+					<div class="white-wrapper">
+						<div class="status">&nbsp;</div>
+					</div>
+				</div>
 				<div class="premade-template-new">
 					<div class="search-input">
 						<!-- <h4>Select Your Industry</h4> -->
@@ -239,9 +241,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="no-match-found hide">
+					<!-- <div class="no-match-found hide">
 						<div class="no-match-found-inner"><i class="material-icons">warning</i>No Matches found!</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
