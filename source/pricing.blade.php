@@ -246,7 +246,7 @@
                             </th>
                             <td>
                                 <span class="quater"></span>3
-                                <span class="detail">Number of quizzes you can build.</span>
+                                <span class="detail">Number of outcome quizzes and graded quizzes you can build.</span>
                             </td>
                             <td>
                                 <span class="quater"></span>5
@@ -276,11 +276,11 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the Classic "Chicago" layout and templates.</span>
+                                <span class="detail">Only the Classic Chicago, Madrid and Greek layout and templates. </span>
                             </td>
                             <td class="expand-child">
                                 <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the Classic "Chicago and Londoner" layout and templates.</span>
+                                <span class="detail">Only the Classic Chicago, Londoner, Madrid and Greek layout and templates.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>All Templates & Layouts
@@ -674,7 +674,7 @@
                                 <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>3</span>
-                                    <span class="detail">Number of quizzes you can build. </span>
+                                    <span class="detail">Number of outcome quizzes and graded quizzes you can build. </span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Team Members</span>
@@ -687,7 +687,7 @@
                                         Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the Classic "Chicago" layout and templates. </span>
+                                    <span class="detail">Only the Classic Chicago, Madrid and Greek layout and templates. </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -888,7 +888,7 @@
                                         Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the Classic "Chicago and Londoner" layout and templates. </span>
+                                    <span class="detail">Only the Classic Chicago, Londoner, Madrid and Greek layout and templates. </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
