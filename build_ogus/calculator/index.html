@@ -401,15 +401,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 				<div class="section-heading text-center">Examples Of Calculators You Can Make With Outgrow </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
-				<div class="preloader">
-					<div class="status">&nbsp;</div>
-				</div> 
+				<div id="premade-loader-new" class="preloader">
+					<div class="white-wrapper">
+						<div class="status">&nbsp;</div>
+					</div>
+				</div>
 				<div class="premade-template-new">
 					<div class="search-input">
 						<!-- <h4>Select Your Industry</h4> -->
 						<div class="input-group">
 							<i class="material-icons">search</i>
 							<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
+						</div>
+						<div class="no-search">
+							<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
 						</div>
 					</div>
 					<div class="premade-template-left">
@@ -544,9 +549,9 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 							</div>
 						</div>
 					</div>
-					<div class="no-match-found hide">
+					<!-- <div class="no-match-found hide">
 						<div class="no-match-found-inner"><i class="material-icons">warning</i>No Matches found!</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
