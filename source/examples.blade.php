@@ -589,9 +589,9 @@
 						<h4>Upcoming Events</h4>
 						<div class="recentNews-inner scrollbar">
 							<div id="calendar"> </div>							
-							<div id="selEvents">
+							<!-- <div id="selEvents">
 								
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
