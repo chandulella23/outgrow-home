@@ -406,7 +406,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						<div class="status">&nbsp;</div>
 					</div>
 				</div>
-				<div class="premade-template-new">
+				<div class="premade-template-new hide">
 					<div class="search-input">
 						<!-- <h4>Select Your Industry</h4> -->
 						<div class="input-group">
@@ -420,62 +420,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 					<div class="premade-template-left">
 
 						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
-							<li class="active">
-								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="MarketingAdvertising"
-								onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="HealthFitness"
-								onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Legal"
-								onclick="shuffleCalcs('Legal')">Legal</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Quintessential"
-								onclick="shuffleCalcs('Quintessential')">Quintessential</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="RealEstateConstruction"
-								onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
-									Construction</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Funnels" onclick="shuffleCalcs('Funnels')">
-								Funnels
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">
-								Trending
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Technology"
-								onclick="shuffleCalcs('Technology')">Technology</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Travel"
-								onclick="shuffleCalcs('Travel')">Travel</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Publishing"
-								onclick="shuffleCalcs('Publishing')">Publishing</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="TVandEntertainment"
-								onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
-							</li>
+							
 						</ul>
 						<div class="form-group col-xs-12 np">
 							<div class="selectize selectize-wrapper">
@@ -1177,6 +1122,52 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		<!-- end static HTML of fb, capterra, g2 crowd and google -->
 
 		 <script>
+			 function getTemplateName(template) {
+				let templates = [{
+					id: 'template-eight',
+					text: 'The Venice'
+				},
+				{
+					id: 'template-seven',
+					text: 'The Seattle'
+				}, {
+					id: 'one-page-card-new',
+					text: 'The Chicago'
+				},
+				{
+					id: 'sound-cloud-v3',
+					text: 'The Londoner'
+				}, {
+					id: 'inline-temp-new',
+					text: 'The Greek'
+				},
+				{
+					id: 'experian',
+					text: 'The Tokyo'
+				}, {
+					id: 'template-five',
+					text: 'The Madrid'
+				},
+				{
+					id: 'template-six',
+					text: 'The Stockholm'
+				}
+				];
+				return templates.find(t => t.id.includes(template));
+			}
+			function getCalcType(type) {
+				if (type === 'Calculator') {
+					return 'CALC';
+				} else if (type === 'Poll') {
+					return 'POLL';
+				} else if (type.toLowerCase().includes('graded')) {
+					return 'TEST';
+				} else if (type.toLowerCase().includes('outcome')) {
+					return 'QUIZ';
+				} else if (type.toLowerCase().includes('com')) {
+					return 'ECOM'
+				}
+			}
             function triggerLiveStaticReviews () {
                 var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
                 var live = document.querySelector('#liveReviews');
@@ -1206,223 +1197,275 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
             var head = document.querySelector('head');
             head.appendChild(gridJS);
-            window.calcs = [
-                {
-                    "id": "used-car-new-car",
-                    "Name": "New Car vs Used Car",
-                    "Published Link": "https://premade.outgrow.us/New-Car-vs-Used-Car",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/new+car+vs+used+car.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Auto",
-                    "Description": "Find out whether you should buy a used card or a new one.",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "car-rent-buy",
-                    "Name": "Should i buy or rent a car?",
-                    "Published Link": "https://premade.outgrow.us/Buy-Or-Lease-Calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/should+you+buy+or+lease+your+next+car.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Auto",
-                    "Description": "Answer 6 questions to find out whether you should buy or lease your next car.",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "type-car",
-                    "Name": "Which type of car is best suited to my use case?",
-                    "Published Link": "http://premade.outgrow.us/what-car-should-you-go-for",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+kind+of+car+should+you+buy.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Auto",
-                    "Description": "Find out which car suits you the best.",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "ivy-league",
-                    "Name": "Which Ivy League is best for me?",
-                    "Published Link": "https://premade.outgrow.us/which-ivy-league-is-best-for-you",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+ivy+league+is+best+for+you.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Education",
-                    "Description": "Answer 9 simple questions to find out which Ivy League college is best for you.",
-                    "filters": [
-                        "filter-auto",
-                        "Education"
-                    ]
-                },
-                {
-                    "id": "study-major",
-                    "Name": "Which major should I study?",
-                    "Published Link": "https://premade.outgrow.us/What-major-should-i-study",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+major.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "Education",
-                    "Description": "Find out which major should you study.",
-                    "filters": [
-                        "filter-auto",
-                        "Education"
-                    ]
-                },
-                {
-                    "id": "sport-right",
-                    "Name": "Which sport is right for my fitness goals?",
-                    "Published Link": "https://premade.outgrow.us/sport-quiz",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Sports+quiz.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "health-fitness",
-                    "Description": "Find out which sport will be best suited for you.",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "yoga-right",
-                    "Name": "Which type of Yoga is right for me?",
-                    "Published Link": "https://premade.outgrow.us/yoga",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+type+of+yoga+is+right+for+me.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "health-fitness",
-                    "Description": "Find out which yoga practice will deliver the results you want and is best suited for your physical condition",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "rent-buy",
-                    "Name": "Should I buy or rent?",
-                    "Published Link": "https://premade.outgrow.us/should-i-buy-or-rent",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Buy+Or+Rent.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "construction",
-                    "Description": "Find out if you should buy or rent your next accomodation.",
-                    "filters": [
-                        "filter-auto",
-                        "construction"
-                    ]
-                },
-                {
-                    "id": "summer-quiz",
-                    "Name": "The ultimate summer destination quiz!",
-                    "Published Link": "https://premade.outgrow.us/ultimate-summer-destination-quiz",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/ultimate+summer+destination+quiz.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Travel",
-                    "Description": "Find out which summer destination should you be heading out to.",
-                    "filters": [
-                        "filter-auto",
-                        "Travel"
-                    ]
-                },
-                {
-                    "id": "friends-character",
-                    "Name": "Which Friends character are you?",
-                    "Published Link": "https://premade.outgrow.us/which-friends-character-are-you",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+friends+character+are+you.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Entertainment",
-                    "Description": "Find out which Friends character are you most like.",
-                    "filters": [
-                        "filter-auto",
-                        "Entertainment"
-                    ]
-                },
-                {
-                    "id": "olympic-controversy",
-                    "Name": "Which 2018 Winter Olympics Controversy Are You?",
-                    "Published Link": "https://premade.outgrow.us/premade-839",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+2018+Winter+Olympics+Controversy+Are+You.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Trending",
-                    "Description": "The 2018 Winter Olympics has been in the storm of controversies. Find out which one would you be!",
-                    "filters": [
-                        "filter-auto",
-                        "Trending"
-                    ]
-                },
-                {
-                    "id": "destination-quiz",
-                    "Name": "The Ultimate Expat Destination Quiz",
-                    "Published Link": "https://premade.outgrow.us/premade-838",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/The+Ultimate+Expat+Destination+Quiz.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Trending",
-                    "Description": "Find out the expat destination most suitable for you!",
-                    "filters": [
-                        "filter-auto",
-                        "Trending"
-                    ]
-                },
-                {
-                    "id": "oscar-nominee",
-                    "Name": "Which Oscar Best Picture Nominee are you?",
-                    "Published Link": "https://premade.outgrow.us/premade-842",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+Oscar+Best+Picture+Nominee+are+you.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Trending",
-                    "Description": "There are 9 Best Picture nominations this year. Find out which of them are you likely to be!",
-                    "filters": [
-                        "filter-auto",
-                        "Trending"
-                    ]
-                },
-                {
-                    "id": "chinese-flower",
-                    "Name": "Find out your Chinese New Year Flower",
-                    "Published Link": "https://premade.outgrow.us/premade-847",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Find+out+your+Chinese+New+Year+Flower.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Trending",
-                    "Tier": "",
-                    "Description": "The Lunar New Year celebrations involve a lot of floral decorations. Find out which one suits you the best. ",
-                    "filters": [
-                        "filter-auto",
-                        "Trending"
-                    ]
-                },
-                {
-                    "id": "black-panther",
-                    "Name": "Are you as Posh as Black Panther?",
-                    "Published Link": "https://premade.outgrow.us/premade-873",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Are+you+as+Posh+as+Black+Panther.gif",
-                    "Type": "Outcome Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "Trending",
-                    "Description": "Find out how posh you are compared to one of the wealthiest fictional characters of all time.",
-                    "filters": [
-                        "filter-auto",
-                        "Trending"
-                    ]
-                }
-            ];
+            // window.calcs = [
+            //     {
+            //         "id": "used-car-new-car",
+            //         "Name": "New Car vs Used Car",
+            //         "Published Link": "https://premade.outgrow.us/New-Car-vs-Used-Car",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/new+car+vs+used+car.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Auto",
+            //         "Description": "Find out whether you should buy a used card or a new one.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "car-rent-buy",
+            //         "Name": "Should i buy or rent a car?",
+            //         "Published Link": "https://premade.outgrow.us/Buy-Or-Lease-Calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/should+you+buy+or+lease+your+next+car.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Auto",
+            //         "Description": "Answer 6 questions to find out whether you should buy or lease your next car.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "type-car",
+            //         "Name": "Which type of car is best suited to my use case?",
+            //         "Published Link": "http://premade.outgrow.us/what-car-should-you-go-for",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+kind+of+car+should+you+buy.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Auto",
+            //         "Description": "Find out which car suits you the best.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "ivy-league",
+            //         "Name": "Which Ivy League is best for me?",
+            //         "Published Link": "https://premade.outgrow.us/which-ivy-league-is-best-for-you",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+ivy+league+is+best+for+you.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Education",
+            //         "Description": "Answer 9 simple questions to find out which Ivy League college is best for you.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Education"
+            //         ]
+            //     },
+            //     {
+            //         "id": "study-major",
+            //         "Name": "Which major should I study?",
+            //         "Published Link": "https://premade.outgrow.us/What-major-should-i-study",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+major.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "Education",
+            //         "Description": "Find out which major should you study.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Education"
+            //         ]
+            //     },
+            //     {
+            //         "id": "sport-right",
+            //         "Name": "Which sport is right for my fitness goals?",
+            //         "Published Link": "https://premade.outgrow.us/sport-quiz",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Sports+quiz.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "health-fitness",
+            //         "Description": "Find out which sport will be best suited for you.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "health-fitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "yoga-right",
+            //         "Name": "Which type of Yoga is right for me?",
+            //         "Published Link": "https://premade.outgrow.us/yoga",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+type+of+yoga+is+right+for+me.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "health-fitness",
+            //         "Description": "Find out which yoga practice will deliver the results you want and is best suited for your physical condition",
+            //         "filters": [
+            //             "filter-auto",
+            //             "health-fitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "rent-buy",
+            //         "Name": "Should I buy or rent?",
+            //         "Published Link": "https://premade.outgrow.us/should-i-buy-or-rent",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Buy+Or+Rent.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "construction",
+            //         "Description": "Find out if you should buy or rent your next accomodation.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "construction"
+            //         ]
+            //     },
+            //     {
+            //         "id": "summer-quiz",
+            //         "Name": "The ultimate summer destination quiz!",
+            //         "Published Link": "https://premade.outgrow.us/ultimate-summer-destination-quiz",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/ultimate+summer+destination+quiz.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Travel",
+            //         "Description": "Find out which summer destination should you be heading out to.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Travel"
+            //         ]
+            //     },
+            //     {
+            //         "id": "friends-character",
+            //         "Name": "Which Friends character are you?",
+            //         "Published Link": "https://premade.outgrow.us/which-friends-character-are-you",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/which+friends+character+are+you.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Entertainment",
+            //         "Description": "Find out which Friends character are you most like.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Entertainment"
+            //         ]
+            //     },
+            //     {
+            //         "id": "olympic-controversy",
+            //         "Name": "Which 2018 Winter Olympics Controversy Are You?",
+            //         "Published Link": "https://premade.outgrow.us/premade-839",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+2018+Winter+Olympics+Controversy+Are+You.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Trending",
+            //         "Description": "The 2018 Winter Olympics has been in the storm of controversies. Find out which one would you be!",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Trending"
+            //         ]
+            //     },
+            //     {
+            //         "id": "destination-quiz",
+            //         "Name": "The Ultimate Expat Destination Quiz",
+            //         "Published Link": "https://premade.outgrow.us/premade-838",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/The+Ultimate+Expat+Destination+Quiz.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Trending",
+            //         "Description": "Find out the expat destination most suitable for you!",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Trending"
+            //         ]
+            //     },
+            //     {
+            //         "id": "oscar-nominee",
+            //         "Name": "Which Oscar Best Picture Nominee are you?",
+            //         "Published Link": "https://premade.outgrow.us/premade-842",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Which+Oscar+Best+Picture+Nominee+are+you.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Trending",
+            //         "Description": "There are 9 Best Picture nominations this year. Find out which of them are you likely to be!",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Trending"
+            //         ]
+            //     },
+            //     {
+            //         "id": "chinese-flower",
+            //         "Name": "Find out your Chinese New Year Flower",
+            //         "Published Link": "https://premade.outgrow.us/premade-847",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Find+out+your+Chinese+New+Year+Flower.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Trending",
+            //         "Tier": "",
+            //         "Description": "The Lunar New Year celebrations involve a lot of floral decorations. Find out which one suits you the best. ",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Trending"
+            //         ]
+            //     },
+            //     {
+            //         "id": "black-panther",
+            //         "Name": "Are you as Posh as Black Panther?",
+            //         "Published Link": "https://premade.outgrow.us/premade-873",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Are+you+as+Posh+as+Black+Panther.gif",
+            //         "Type": "Outcome Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "Trending",
+            //         "Description": "Find out how posh you are compared to one of the wealthiest fictional characters of all time.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Trending"
+            //         ]
+            //     }
+            // ];
 
             window.onload = function () {
-                setPremade();
-                shuffleCalcs('Auto');
+				let http = new XMLHttpRequest();
+				let url1 = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+				http.open("POST", url1, true);
+
+				http.onreadystatechange = function () {
+					if (http.readyState === 4 && http.status === 200) {
+						let res = JSON.parse(http.responseText);
+						window.calcs = res.data.calculators;
+						window.calcs = window.calcs.filter(calc=>calc.type === 'Outcome Quiz')
+						window.industries = res.data.industries;
+						getExistingIndustries();
+						let trendingC = [];
+						window.events = [];
+						var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+						window.calcs.forEach(calc => {
+							if (calc.industry === "Trending") {
+								if (trendingC.length !== 6)
+									trendingC.push(calc);
+							}
+
+							calc['GIF'] = calc.media;
+							calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+							calc['Name'] = calc.title;
+							calc['id'] = 'id' + calc._id;
+							calc['Description'] = calc.description;
+							let layout = getTemplateName(calc.template);
+							calc['Layout'] = layout ? layout.text : 'Stockholm';
+							calc['Published Link'] = calc.liveApp.url;
+							calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+							if (calc.launch_date !== null) {
+								let launch_date = new Date(calc.launch_date);
+								let day = launch_date.getUTCDate();
+								let month = launch_date.getUTCMonth();
+								let year = launch_date.getUTCFullYear();
+								let ev = {
+									Date: new Date(year, month, day),
+									id: calc._id,
+									Title: calc.title,
+									Link: '',
+									Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+									Description: calc.Description,
+									EventName: calc.event_name
+								};
+								window.events.push(ev);
+							}
+							calc['type'] = getCalcType(calc['type']);
+						});
+						jQuery('.preloader').addClass('hide');
+						jQuery('.premade-template-new').removeClass('hide')
+						setPremade();
+						shuffleCalcs('Auto');
+					}
+				};
+				http.send();
             }
 		</script>  
 

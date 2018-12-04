@@ -406,7 +406,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						<div class="status">&nbsp;</div>
 					</div>
 				</div>
-				<div class="premade-template-new">
+				<div class="premade-template-new hide">
 					<div class="search-input">
 						<!-- <h4>Select Your Industry</h4> -->
 						<div class="input-group">
@@ -420,62 +420,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 					<div class="premade-template-left">
 
 						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
-							<li class="active">
-								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="MarketingAdvertising"
-								onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="HealthFitness"
-								onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Legal"
-								onclick="shuffleCalcs('Legal')">Legal</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Quintessential"
-								onclick="shuffleCalcs('Quintessential')">Quintessential</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="RealEstateConstruction"
-								onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
-									Construction</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Funnels" onclick="shuffleCalcs('Funnels')">
-								Funnels
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">
-								Trending
-								</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Technology"
-								onclick="shuffleCalcs('Technology')">Technology</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Travel"
-								onclick="shuffleCalcs('Travel')">Travel</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="Publishing"
-								onclick="shuffleCalcs('Publishing')">Publishing</a>
-							</li>
-							<li>
-								<a href="javascript:void(0)" id="TVandEntertainment"
-								onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
-							</li>
+							
 						</ul>
 						<div class="form-group col-xs-12 np">
 							<div class="selectize selectize-wrapper">
@@ -1177,6 +1122,52 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		<!-- end static HTML of fb, capterra, g2 crowd and google -->
 
 		<script>
+			function getTemplateName(template) {
+				let templates = [{
+					id: 'template-eight',
+					text: 'The Venice'
+				},
+				{
+					id: 'template-seven',
+					text: 'The Seattle'
+				}, {
+					id: 'one-page-card-new',
+					text: 'The Chicago'
+				},
+				{
+					id: 'sound-cloud-v3',
+					text: 'The Londoner'
+				}, {
+					id: 'inline-temp-new',
+					text: 'The Greek'
+				},
+				{
+					id: 'experian',
+					text: 'The Tokyo'
+				}, {
+					id: 'template-five',
+					text: 'The Madrid'
+				},
+				{
+					id: 'template-six',
+					text: 'The Stockholm'
+				}
+				];
+				return templates.find(t => t.id.includes(template));
+			}
+			function getCalcType(type) {
+				if (type === 'Calculator') {
+					return 'CALC';
+				} else if (type === 'Poll') {
+					return 'POLL';
+				} else if (type.toLowerCase().includes('graded')) {
+					return 'TEST';
+				} else if (type.toLowerCase().includes('outcome')) {
+					return 'QUIZ';
+				} else if (type.toLowerCase().includes('com')) {
+					return 'ECOM'
+				}
+			}
 			function triggerLiveStaticReviews () {
 				var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
 				var live = document.querySelector('#liveReviews');
@@ -1207,110 +1198,162 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
 
-            window.calcs = [
-                {
-                    "id": "car-game",
-                    "Name": "Are you ready to buy a car? Find out if you truly understand the game!",
-                    "Published Link": "https://premade.outgrow.us/Are-You-Ready-to-Buy-a-Car",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/are+you+ready+to+buy+a+car.gif",
-                    "Type": "Graded Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Auto",
-                    "Description": "Find out if you're ready to buy a car.",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "fitness-regime",
-                    "Name": "You need to take this quiz before starting your fitness regime. If you fail maybe you'll break your back.",
-                    "Published Link": "https://premade.outgrow.us/fitness-regime-quiz",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/fitness+regime+quiz.gif",
-                    "Type": "Graded Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "health-fitness",
-                    "Description": "Find out if you know enough before jumping into your new fitness regime.",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "digital-quotient",
-                    "Name": "What is your digital quotient?",
-                    "Published Link": "https://premade.outgrow.us/digital-quotient-quiz",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/find+out+your+digital+quotient.gif",
-                    "Type": "Graded Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "marketing-advertising",
-                    "Description": "Find out your Digital Quotient.",
-                    "filters": [
-                        "filter-auto",
-                        "marketing-advertising"
-                    ]
-                },
-                {
-                    "id": "marketers-quiz",
-                    "Name": "Find out where you stand amongst 5000 marketers on this SEO quiz!",
-                    "Published Link": "https://premade.outgrow.us/grade_your_seo_knowledge",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/SEO+knowledge+quiz.gif",
-                    "Type": "Graded Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "marketing-advertising",
-                    "Description": "Find out if your SEO knowledge stacks up against top the 150 marketers with this 12-question SEO quiz.",
-                    "filters": [
-                        "filter-auto",
-                        "marketing-advertising"
-                    ]
-                },
-                {
-                    "id": "facebook-marketing",
-                    "Name": "You think you are a Facebook Marketing expert? Take this quiz to really find out!",
-                    "Published Link": "https://premade.outgrow.us/facebook-marketing-expert-quiz",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/are+you+really+a+facebook+marketing+expert.gif",
-                    "Type": "Graded Quiz",
-                    "Layout": "Stockholm",
-                    "Industry": "marketing-advertising",
-                    "Description": "Take this quiz to find out if you are a Facebook Marketing Expert.",
-                    "filters": [
-                        "filter-auto",
-                        "marketing-advertising"
-                    ]
-                },
-                {
-                    "id": "global-warming",
-                    "Name": "How much do you know about global warming?",
-                    "Published Link": "https://premade.outgrow.us/global-warming-1",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/global+warming+quiz.gif",
-                    "Type": "Graded Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "Publishing",
-                    "Description": "Find out how much you know about global warming.",
-                    "filters": [
-                        "filter-auto",
-                        "Publishing"
-                    ]
-                },
-                {
-                    "id": "real-estate-quiz",
-                    "Name": "You shouldn't buy real estate unless you pass this ultimate buyer quiz!",
-                    "Published Link": "https://premade.outgrow.us/ultimate-buyer-quiz",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/real+estate+buying+quiz.gif",
-                    "Type": "Graded Quiz",
-                    "Layout": "Chicago",
-                    "Industry": "construction",
-                    "Description": "Take this quiz to find out if you are ready to buy a house.",
-                    "filters": [
-                        "filter-auto",
-                        "construction"
-                    ]
-                }
-            ];
+            // window.calcs = [
+            //     {
+            //         "id": "car-game",
+            //         "Name": "Are you ready to buy a car? Find out if you truly understand the game!",
+            //         "Published Link": "https://premade.outgrow.us/Are-You-Ready-to-Buy-a-Car",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/are+you+ready+to+buy+a+car.gif",
+            //         "Type": "Graded Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Auto",
+            //         "Description": "Find out if you're ready to buy a car.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "fitness-regime",
+            //         "Name": "You need to take this quiz before starting your fitness regime. If you fail maybe you'll break your back.",
+            //         "Published Link": "https://premade.outgrow.us/fitness-regime-quiz",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/fitness+regime+quiz.gif",
+            //         "Type": "Graded Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "health-fitness",
+            //         "Description": "Find out if you know enough before jumping into your new fitness regime.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "health-fitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "digital-quotient",
+            //         "Name": "What is your digital quotient?",
+            //         "Published Link": "https://premade.outgrow.us/digital-quotient-quiz",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/find+out+your+digital+quotient.gif",
+            //         "Type": "Graded Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "marketing-advertising",
+            //         "Description": "Find out your Digital Quotient.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "marketing-advertising"
+            //         ]
+            //     },
+            //     {
+            //         "id": "marketers-quiz",
+            //         "Name": "Find out where you stand amongst 5000 marketers on this SEO quiz!",
+            //         "Published Link": "https://premade.outgrow.us/grade_your_seo_knowledge",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/SEO+knowledge+quiz.gif",
+            //         "Type": "Graded Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "marketing-advertising",
+            //         "Description": "Find out if your SEO knowledge stacks up against top the 150 marketers with this 12-question SEO quiz.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "marketing-advertising"
+            //         ]
+            //     },
+            //     {
+            //         "id": "facebook-marketing",
+            //         "Name": "You think you are a Facebook Marketing expert? Take this quiz to really find out!",
+            //         "Published Link": "https://premade.outgrow.us/facebook-marketing-expert-quiz",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/are+you+really+a+facebook+marketing+expert.gif",
+            //         "Type": "Graded Quiz",
+            //         "Layout": "Stockholm",
+            //         "Industry": "marketing-advertising",
+            //         "Description": "Take this quiz to find out if you are a Facebook Marketing Expert.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "marketing-advertising"
+            //         ]
+            //     },
+            //     {
+            //         "id": "global-warming",
+            //         "Name": "How much do you know about global warming?",
+            //         "Published Link": "https://premade.outgrow.us/global-warming-1",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/global+warming+quiz.gif",
+            //         "Type": "Graded Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "Publishing",
+            //         "Description": "Find out how much you know about global warming.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Publishing"
+            //         ]
+            //     },
+            //     {
+            //         "id": "real-estate-quiz",
+            //         "Name": "You shouldn't buy real estate unless you pass this ultimate buyer quiz!",
+            //         "Published Link": "https://premade.outgrow.us/ultimate-buyer-quiz",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/real+estate+buying+quiz.gif",
+            //         "Type": "Graded Quiz",
+            //         "Layout": "Chicago",
+            //         "Industry": "construction",
+            //         "Description": "Take this quiz to find out if you are ready to buy a house.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "construction"
+            //         ]
+            //     }
+            // ];
 
             window.onload = function () {
-                setPremade();
-                shuffleCalcs('Auto');
+				let http = new XMLHttpRequest();
+				let url1 = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+				http.open("POST", url1, true);
+
+				http.onreadystatechange = function () {
+					if (http.readyState === 4 && http.status === 200) {
+						let res = JSON.parse(http.responseText);
+						window.calcs = res.data.calculators;
+						window.calcs = window.calcs.filter(calc=>calc.type === 'Graded Quiz')
+						window.industries = res.data.industries;
+						getExistingIndustries();
+						let trendingC = [];
+						window.events = [];
+						var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+						window.calcs.forEach(calc => {
+							if (calc.industry === "Trending") {
+								if (trendingC.length !== 6)
+									trendingC.push(calc);
+							}
+
+							calc['GIF'] = calc.media;
+							calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+							calc['Name'] = calc.title;
+							calc['id'] = 'id' + calc._id;
+							calc['Description'] = calc.description;
+							let layout = getTemplateName(calc.template);
+							calc['Layout'] = layout ? layout.text : 'Stockholm';
+							calc['Published Link'] = calc.liveApp.url;
+							calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+							if (calc.launch_date !== null) {
+								let launch_date = new Date(calc.launch_date);
+								let day = launch_date.getUTCDate();
+								let month = launch_date.getUTCMonth();
+								let year = launch_date.getUTCFullYear();
+								let ev = {
+									Date: new Date(year, month, day),
+									id: calc._id,
+									Title: calc.title,
+									Link: '',
+									Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+									Description: calc.Description,
+									EventName: calc.event_name
+								};
+								window.events.push(ev);
+							}
+							calc['type'] = getCalcType(calc['type']);
+						});
+						jQuery('.preloader').addClass('hide');
+						jQuery('.premade-template-new').removeClass('hide')
+						setPremade();
+						shuffleCalcs('Auto');
+					}
+				};
+				http.send();
             }
 		</script> 
 
