@@ -264,6 +264,9 @@
 											<i class="material-icons">search</i>
 											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
 										</div>
+										<div class="no-search">
+											<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
+										</div>
 									</div>
 									<div class="premade-template-left">
 
@@ -586,9 +589,9 @@
 						<h4>Upcoming Events</h4>
 						<div class="recentNews-inner scrollbar">
 							<div id="calendar"> </div>							
-							<div id="selEvents">
+							<!-- <div id="selEvents">
 								
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
