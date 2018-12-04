@@ -175,12 +175,14 @@ window.closeCookieDialog = function (closeOnReload) {
         }
     }, 600);
 }, window.showCookieDialog = function () {
-    const disableCookieDialog = readCookie('disableCookieDialog');
-    if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
-        jQuery('.section.sec-cookies').removeClass('hide');
-    } else {
-        jQuery('.floating-btn').addClass('floating-btn-space');
-    }
+    setTimeout(() => {
+        const disableCookieDialog = readCookie('disableCookieDialog');
+        if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
+            jQuery('.section.sec-cookies').removeClass('hide');
+        } else {
+            jQuery('.floating-btn').addClass('floating-btn-space');
+        }
+    }, 30000);
 },
     window.readCookie = function (a) {
         for (var b = a + "=", c = document.cookie.split(";"), d = 0; d < c.length; d++) {

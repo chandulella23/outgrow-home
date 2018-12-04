@@ -101,7 +101,7 @@
 						<div class="status">&nbsp;</div>
 					</div>
 				</div>
-				<div class="premade-template-new">
+				<div class="premade-template-new hide">
 					<div class="search-input">
 						<!-- <h4>Select Your Industry</h4> -->
 						<div class="input-group">
@@ -115,7 +115,7 @@
 					<div class="premade-template-left">
 
 						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
-							<li class="active">
+							{{-- <li class="active">
 								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 							</li>
 							<li>
@@ -170,7 +170,7 @@
 							<li>
 								<a href="javascript:void(0)" id="TVandEntertainment"
 								onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
-							</li>
+							</li> --}}
 						</ul>
 						<div class="form-group col-xs-12 np">
 							<div class="selectize selectize-wrapper">
@@ -1354,6 +1354,7 @@
 						window.calcs = res.data.calculators;
 						window.calcs = window.calcs.filter(calc=>calc.type === 'Calculator')
 						window.industries = res.data.industries;
+						getExistingIndustries();
 						let trendingC = [];
 						window.events = [];
 						var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -1391,6 +1392,7 @@
 							calc['type'] = getCalcType(calc['type']);
 						});
 						jQuery('.preloader').addClass('hide');
+						jQuery('.premade-template-new').removeClass('hide')
 						setPremade();
 						shuffleCalcs('Auto');
 					}
