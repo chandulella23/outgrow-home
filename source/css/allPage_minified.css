@@ -84289,10 +84289,10 @@ blockquote span.quote-right1 {
     top: 150px;
 }
 .section-banner-sales h1.main-heading {
-    padding: 0px 0px;
+    padding: 30px 0px 0;
 }
 .section-banner-roi h1.main-heading {
-    padding: 0px 100px;
+    padding: 30px 100px 0;
 }
 .section-banner-sales .banner-content {
     margin-top: -5px;
@@ -84373,11 +84373,16 @@ blockquote span.quote-right1 {
     .section-banner {
         /* height: 840px; */
         background-position: 0px -235px;
+        margin-top: 75px;
     }
     
     .section-six {
         background: url('https://dzvexx2x036l1.cloudfront.net/lp-section-six-bg-lg-img.png') no-repeat top right;
         height: 463px;
+    }
+    .section-six {
+        height: 333px;
+        background-position-y: -130px;
     }
     
     .section-banner-sales {
