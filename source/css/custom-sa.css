@@ -10911,3 +10911,25 @@ img#imgLoad {
 		margin: 25px auto 0px!important;
 	}
 }
+.no-search {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #666666;
+	font-family: montserratlight;
+	padding-top: 5px;
+}
+.premade-template-new .search-input .no-search i.material-icons {
+    font-size: 13px;
+    color: #888888;
+    float: left;
+    position: relative;
+    padding: 0;
+	top: 2px;
+	margin-right: 3px;
+}
+.no-search a {
+    color: #fb5f66;
+	font-family: montserratregular;
+	text-decoration: underline;
+}
