@@ -4,6 +4,7 @@
 
 @section('metaDescription')
 	<meta name="description" content="eBooks, blogs & whitepapers giving average results? Boost your marketing with highly converting interactive calculators."/>
+
 	<link rel="canonical" href="http://outgrow.co/" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="website" />
