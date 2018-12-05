@@ -563,7 +563,7 @@ window.shuffleCalcs2 = function (filterName) {
     //changeActiveCalcCategory(filterName);
     filterName = document.querySelector('#search-experience').value.toLowerCase();
     let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
-    let notMatchFound = jQuery('.no-match-found');
+    let notMatchFound = jQuery('.no-search');
     jQuery('.pre-temp-view').removeClass('hide');
 
     if (!filterName) {
@@ -629,10 +629,11 @@ window.shuffleCalcs2 = function (filterName) {
             let selectize = $select[0].selectize;
             selectize.setValue(window.industriesId[filter]);
         } else {
+            window.shuffleCalcs('Funnels',false)
             console.log('not match found');
             notMatchFound.removeClass('hide');
-            jQuery('.pre-temp-view').addClass('hide')
-            jQuery('.pre-temp-cont-new').addClass('hide')
+            // jQuery('.pre-temp-view').addClass('hide')
+            // jQuery('.pre-temp-cont-new').addClass('hide')
         }
     }
 }
