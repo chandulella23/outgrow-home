@@ -103,13 +103,13 @@
 			
 			document.getElementsByClassName('lead-form-email1')[0].onchange = function (e) {
 					let email = e.target.value;
-					let href = "//app.outgrow.co/signup/?email=";
+					let href = "//app.outgrow.co/?email=";
 					document.getElementsByClassName('lead-email1')[0].href = href + email;
 				}
 
 				document.getElementsByClassName('lead-form-email1')[1].onchange = function (e) {
 					let email = e.target.value;
-					let href = "//app.outgrow.co/signup/?email=";
+					let href = "//app.outgrow.co/?email=";
 					document.getElementsByClassName('lead-email1')[1].href = href + email;
 				}
 				// window.callGA = function(a) {
@@ -123,7 +123,7 @@
 
 				document.getElementsByClassName('lead-form-email1')[0].onkeypress = function (e) {
 					let email = e.target.value;
-					let href = "//app.outgrow.co/signup/?email=";
+					let href = "//app.outgrow.co/?email=";
 					if (e.keyCode == 13) {
 						window.location.href = href+email;
 					}
@@ -131,7 +131,7 @@
 
 				document.getElementsByClassName('lead-form-email1')[1].onkeypress = function (e) {
 				let email = e.target.value;
-				let href = "//app.outgrow.co/signup/?email=";
+				let href = "//app.outgrow.co/?email=";
 				if (e.keyCode == 13) {
 					window.location.href = href+email;
 				}
