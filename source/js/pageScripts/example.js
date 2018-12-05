@@ -629,7 +629,7 @@ window.shuffleCalcs2 = function (filterName) {
             let selectize = $select[0].selectize;
             selectize.setValue(window.industriesId[filter]);
         } else {
-            window.shuffleCalcs('Funnels',false)
+            window.shuffleCalcs('Funnels',false,'show')
             console.log('not match found');
             notMatchFound.removeClass('hide');
             // jQuery('.pre-temp-view').addClass('hide')
