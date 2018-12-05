@@ -6767,6 +6767,21 @@ span.icon-webcam {
 
 /* end: new css changes by Arti */
 
+#selEvents .event-wrapper{ float: left; width: 100%; }
+#selEvents .event-wrapper .img-outer{ float: left; width: 80px; height: 80px; margin-right: 10px; margin-top: 12px; }
+#selEvents .event-wrapper .event-content{ float: left; width: calc(100% - 90px);}
+
+@media(min-width:500px) and (max-width:768px) {
+.fixed-width.recentNews-outer{max-width: 365px !important; float: none;  margin: 0 auto;}
+.recentNews-outer:last-child {  margin: 0 auto !important;}
+.fixed-width.recentNews-outer h4{float: left; margin-bottom: 10px;}
+.recentNews-inner{min-height: initial !important; max-height: 450px; }
+.recentNews-outer.fixed-width:nth-child(1) .recentNews-inner{min-height: 420px !important; max-height: 450px; }
+.recentNews-outer.fixed-width:nth-child(2) .recentNews-inner{min-height: 300px !important; max-height: 450px; }
+
+
+}
+
 @media(min-width:320px) and (max-width:768px) {
 	.feature-heading-1 {
 		padding-top: 10px !important;
@@ -6782,6 +6797,7 @@ span.icon-webcam {
 	.recentNews-outer:last-child {
 		margin-bottom: 0;
 	}
+	.recentNews-inner{ min-height: 300px !important; bottom: 3px !important;}
 }
 
 @media (min-width:320px) and (max-width:380px) {
@@ -9578,6 +9594,7 @@ span.feature-subtitle {
 	padding: 22px 20px;
 	transition: all .5s ease 0s;
 	min-height: 410px;
+	max-height: 410px; position: relative;
 }
 
 .recentNews-inner:hover {
