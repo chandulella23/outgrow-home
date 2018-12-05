@@ -6770,6 +6770,10 @@ span.icon-webcam {
 #selEvents .event-wrapper{ float: left; width: 100%; }
 #selEvents .event-wrapper .img-outer{ float: left; width: 80px; height: 80px; margin-right: 10px; margin-top: 12px; }
 #selEvents .event-wrapper .event-content{ float: left; width: calc(100% - 90px);}
+#selEvents .event-wrapper .event-content h5{font-size: 14px;color: #62696d;font-family: montserratregular; line-height: normal; margin-bottom:5px; }
+#selEvents .event-wrapper .event-content span{float: left; width: 100%;  font-size: 12px; color: #62696d; font-family: montserratlight; line-height: 18px; overflow: hidden;}
+.calendar-wrapper.fixed-width .inner-box{float: left;  width: 100%;  max-height: 366px;}
+
 
 @media(min-width:500px) and (max-width:768px) {
 .fixed-width.recentNews-outer{max-width: 365px !important; float: none;  margin: 0 auto;}
@@ -6778,6 +6782,7 @@ span.icon-webcam {
 .recentNews-inner{min-height: initial !important; max-height: 450px; }
 .recentNews-outer.fixed-width:nth-child(1) .recentNews-inner{min-height: 420px !important; max-height: 450px; }
 .recentNews-outer.fixed-width:nth-child(2) .recentNews-inner{min-height: 300px !important; max-height: 450px; }
+
 
 
 }
@@ -6792,7 +6797,7 @@ span.icon-webcam {
 	.recentNews-outer {
 		max-width: initial !important;
 		width: 100%;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.recentNews-outer:last-child {
 		margin-bottom: 0;
@@ -6800,6 +6805,7 @@ span.icon-webcam {
 	.recentNews-inner{ min-height: 300px !important;}
 	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:3px!important; }
 	.safari_browser{ height:100vh !important;}
+	.calendar-wrapper.fixed-width .inner-box { float: left; width: 100%;  max-height: 260px;}
 }
 
 @media (min-width:320px) and (max-width:380px) {

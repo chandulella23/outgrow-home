@@ -182,7 +182,7 @@ window.closeCookieDialog = function (closeOnReload) {
         } else {
             jQuery('.floating-btn').addClass('floating-btn-space');
         }
-    }, 50000);
+    }, 40000);
 },
     window.readCookie = function (a) {
         for (var b = a + "=", c = document.cookie.split(";"), d = 0; d < c.length; d++) {
