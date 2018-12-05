@@ -156,7 +156,7 @@ jQuery(document).ready(function () {
     //add custom class to intercom
     // Wait for Intercom to boot (max 30 seconds)
 
-    const timeout = setTimeout(() => clearInterval(interval), 30000);
+    const timeout = setTimeout(() => clearInterval(interval), 90000);
 
     const intercomMessengerInterval = setInterval(() => {
         const iframe = document.querySelector('.intercom-messenger-frame');
