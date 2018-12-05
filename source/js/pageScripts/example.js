@@ -199,19 +199,20 @@ window.ready = function () {
     let host = window.location.hostname;
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
     let url1 = 'https://api.outgrow.co/api/v1/admin/getEventsByDate';
-    if(host === 'rely.co' || host === 'localhost') {
+    if (host === 'rely.co' || host === 'localhost') {
         // url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getCalculators';
         url1 = 'https://outgrow-api.herokuapp.com/api/v1/admin/getEventsByDate';
     }
     // let http1 = new XMLHttpRequest();
-    
+
     let res = {
         data: null
     };
-    responses = Promise.all([postRequest(url,{}),postRequest(url1,{
-                    'date': new Date().toISOString(),
-                    'operator': '$gte'})]);
-    responses.then((data)=>{
+    responses = Promise.all([postRequest(url, {}), postRequest(url1, {
+        'date': new Date().toISOString(),
+        'operator': '$gte'
+    })]);
+    responses.then((data) => {
         let res = data[0];
         res.data['events'] = data[1].data.events;
         renderPremadeCalcs(res);
@@ -240,7 +241,7 @@ window.ready = function () {
     // http.send();
 };
 ready();
-function postRequest(url,data,options={}) {
+function postRequest(url, data, options = {}) {
     return fetch(url, Object.assign({
         method: "POST", // *GET, POST, PUT, DELETE, etc.
         mode: "cors", // no-cors, cors, *same-origin
@@ -253,8 +254,8 @@ function postRequest(url,data,options={}) {
         redirect: "follow", // manual, *follow, error
         referrer: "no-referrer", // no-referrer, *client
         body: JSON.stringify(data), // body data type must match "Content-Type" header
-    },options))
-    .then(response => response.json())
+    }, options))
+        .then(response => response.json())
 };
 
 window.ready1 = function () {
@@ -617,19 +618,19 @@ window.shuffleCalcs2 = function (filterName) {
     if (filteredCalcs.length === window.calcs.length && filterName) {
         let filter = window.industries.findIndex(industry => {
             console.log(industry.toLowerCase().includes(filterName))
-             return industry.toLowerCase().includes(filterName);
+            return industry.toLowerCase().includes(filterName);
         })
-        if(filter != -1) {
-            window.industriesId = window.industries.map(industry=>{
-                return industry.replace(/[&\s]/gmi,'');
+        if (filter != -1) {
+            window.industriesId = window.industries.map(industry => {
+                return industry.replace(/[&\s]/gmi, '');
             })
             // changeActiveCalcCategory(window.industriesId[filter])
-            window.shuffleCalcs(window.industriesId[filter],false);
+            window.shuffleCalcs(window.industriesId[filter], false);
             let $select = jQuery("#select-list").selectize();
             let selectize = $select[0].selectize;
             selectize.setValue(window.industriesId[filter]);
         } else {
-            window.shuffleCalcs('Funnels',false,'show')
+            window.shuffleCalcs('Funnels', false, 'show')
             console.log('not match found');
             notMatchFound.removeClass('hide');
             // jQuery('.pre-temp-view').addClass('hide')
@@ -675,9 +676,10 @@ jQuery(document).ready(function () {
         create: true,
         sortField: 'text',
         onChange: function (event) {
-            window.shuffleCalcs(event,false)
-          }
+            window.shuffleCalcs(event, false)
+        }
     });
+    jQuery('.selectize-wrapper .selectize-input input').prop('disabled', true);
     runTimeout();
 });
 
