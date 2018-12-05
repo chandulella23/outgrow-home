@@ -6797,7 +6797,9 @@ span.icon-webcam {
 	.recentNews-outer:last-child {
 		margin-bottom: 0;
 	}
-	.recentNews-inner{ min-height: 300px !important; bottom: 3px !important;}
+	.recentNews-inner{ min-height: 300px !important;}
+	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:3px!important; }
+	.safari_browser{ height:100vh !important;}
 }
 
 @media (min-width:320px) and (max-width:380px) {
