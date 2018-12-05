@@ -163,7 +163,7 @@
 <script>
     	document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
 			let email = e.target.value;
-			let href = "//app.outgrow.co/signup/?email=";
+			let href = "//app.outgrow.co/?email=";
 			document.getElementsByClassName('lead-email')[0].href = href + email;
     }
 </script>
