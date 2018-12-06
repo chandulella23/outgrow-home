@@ -59,9 +59,9 @@
 					<div class="startTrial-outer">
 						<label>Build Your First Interactive Experience </label>
 						<i class="material-icons">email</i>
-						<input class="lead-form-email" name="emailId" type="email" placeholder="Enter your email ID">
+						<input class="lead-form-email1" name="emailId" type="email" placeholder="Enter your email ID">
 						<span class="lead-form-btn">
-							<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
+							<a href="//app.outgrow.co/signup/?email=" class="lead-email1 btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
 								Start Free Trial
 							</a>				
 						</span>
@@ -72,6 +72,20 @@
 			</div>
 		</div>
 	</section>
+	<script>
+			document.getElementsByClassName('lead-form-email1')[0].onchange = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							document.getElementsByClassName('lead-email1')[0].href = href + email;
+						}
+			document.getElementsByClassName('lead-form-email1')[0].onkeypress = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							if (e.keyCode == 13) {
+								window.location.href = href+email;
+							}
+						}
+			</script>
 
 	<section class="section section-second section-second-sales">
 		<div class="container">
