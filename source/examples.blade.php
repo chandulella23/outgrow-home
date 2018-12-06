@@ -587,7 +587,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer calendar-wrapper fixed-width">
 						<h4>Upcoming Marketing Events</h4>
-						<div class="recentNews-inner">
+						<div class="recentNews-inner calender-outer">
 							<div class=" scrollbar inner-box">
 							<div id="calendar"> </div>							
 							<div id="selEvents">

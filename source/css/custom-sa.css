@@ -6775,6 +6775,8 @@ span.icon-webcam {
 .calendar-wrapper.fixed-width .inner-box{float: left;  width: 100%;  max-height: 366px;}
 
 
+
+
 @media(min-width:500px) and (max-width:768px) {
 .fixed-width.recentNews-outer{max-width: 365px !important; float: none;  margin: 0 auto;}
 .recentNews-outer:last-child {  margin: 0 auto !important;}
@@ -6804,7 +6806,10 @@ span.icon-webcam {
 	}
 	.recentNews-inner{ min-height: 300px !important;}
 	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:3px!important; }
-	.calendar-wrapper.fixed-width .inner-box { float: left; width: 100%;  max-height: 260px;}
+	.calendar-wrapper.fixed-width .inner-box { float: left; width: 100%;  max-height: initial;}
+	.recentNews-inner.calender-outer{ height: initial; max-height: initial;}
+	.calendar-wrapper.fixed-width .inner-box {max-height: initial !important;overflow: initial;}
+	.recentNews-outer.calendar-wrapper .recentNews-inner.calender-outer{ height: initial;}
 }
 
 @media (min-width:320px) and (max-width:380px) {
