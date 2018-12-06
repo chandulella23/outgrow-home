@@ -100,7 +100,7 @@ a:focus {    text-decoration: none;    color:inherit;    -webkit-transition: .3s
 .sec3-bg .sec-container{    margin: 0 auto;    width: 885px;    position: relative;    text-align: center;}
 .sec4-bg .sec-container{    margin: 0 auto;    width: 885px;    position: relative;    text-align: center;}
 .sec-catergory{    float: left;    width: 50%;    position: relative;}
-.sec-catergory .selectize-control.single .selectize-input {    background: #ffffff none repeat scroll 0 0 !important;    border: 1px solid #d9dad3;    border-radius: 0;    box-sizing: border-box;    color: #0f0e0e;    font-size: 18px;    line-height: normal;    margin-top: 25px;     padding: 15px 20px;    text-align: left;    text-transform: uppercase;        box-shadow: 3px 0 40px rgba(0, 0, 0, 0.2);}
+.sec-catergory .selectize-control.single .selectize-input {    background: #ffffff none repeat scroll 0 0 !important;    border: 1px solid #d9dad3 !important;    border-radius: 0;    box-sizing: border-box;    color: #0f0e0e;    font-size: 18px;    line-height: normal;    margin-top: 25px;     padding: 15px 20px;    text-align: left;    text-transform: uppercase;        box-shadow: 3px 0 40px rgba(0, 0, 0, 0.2);}
 .funnel-step li a span {    display: block;}
 .sec-catergory .selectize-control.single .selectize-input:after{    border-color: #999 transparent transparent transparent;    border-width: 6px 5px 0 5px;}
 .sec-catergory .selectize-control.single .selectize-input:before{    height: 0px;}
