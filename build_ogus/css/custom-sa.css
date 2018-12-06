@@ -4439,6 +4439,8 @@ button.swiper-pagination-bullet {
 #feature .qode-expanding-images .qode-side-image {
 	box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, .20);
 	cursor: default;
+	background-color: #fff;
+
 }
 
 #feature .sec15-2,
