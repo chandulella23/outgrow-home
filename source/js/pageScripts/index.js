@@ -105,6 +105,8 @@ jQuery(document).ready(function () {
 
     jQuery("#menu-close").click(function (e) {
         e.preventDefault();
+        console.info('closing menu');
+        jQuery('.safari_browser').css('height', '');
         jQuery("#sidebar-wrapper").removeClass("active");
         jQuery('.overlay').fadeOut("slow");
         jQuery("html,body").css({ "overflow": "auto" });
@@ -115,6 +117,7 @@ jQuery(document).ready(function () {
         jQuery("#sidebar-wrapper").addClass("active");
         jQuery('.overlay').fadeIn("slow");
         jQuery("html,body").css({ "overflow": "hidden" });
+        jQuery('.safari_browser').css('height', '100vh');
     });
 
     jQuery('.overlay').click(function (e) {
