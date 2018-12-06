@@ -15,6 +15,7 @@ window.openTestimonial = function (sectionId) {
     var activeImg = document.getElementById(`${sectionId}-img`);
     activeImg.classList.add('testactive');
 }
+
 window.submitEbookData = function (e) {
     e.preventDefault(), jQuery("#ebook-error").html("");
     var o = jQuery("#ebook-email").val(),
@@ -89,13 +90,46 @@ window.getCookie = function (cookieName) {
     }
 };
 
-
 jQuery.noConflict();
 jQuery.material.init();
 
 jQuery(document).ready(function () {
-   
-    calculateMinHeight();
+    // jQuery('.noToggle').click(function(e) {
+    //     e.preventDefault();
+    //     setTimeout(() => {
+    //         jQuery('#GetInspired').addClass('open');
+    //     }, 1000);
+    // });    
+
+    jQuery("#menu-close").click(function (e) {
+        e.preventDefault();
+        console.info('closing menu');
+        jQuery('.safari_browser').css('height', '');
+        jQuery("#sidebar-wrapper").removeClass("active");
+        jQuery('.overlay').fadeOut("slow");
+        jQuery("html,body").css({ "overflow": "auto" });
+    });
+    jQuery("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        console.log('opening menu');
+        jQuery("#sidebar-wrapper").addClass("active");
+        jQuery('.overlay').fadeIn("slow");
+        jQuery("html,body").css({ "overflow": "hidden" });
+        jQuery('.safari_browser').css('height', '100vh');
+    });
+
+    jQuery('.overlay').click(function (e) {
+        console.log('outside');
+        jQuery('.safari_browser').css('height', '');
+        jQuery('#sidebar-wrapper').removeClass('active');
+        jQuery('.overlay').fadeOut("slow");
+        jQuery("html,body").css({ "overflow": "auto" });
+    });
+    setTimeout(() => {
+        disableCookieDialog = getCookie('disableCookieDialog');
+        if (disableCookieDialog == undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
+        // calculateMinHeight();
+    }, 30000)
 
     jQuery('.calc-links a').on('click', function () {
         jQuery('a').removeClass('active');
@@ -121,4 +155,72 @@ jQuery(document).ready(function () {
 
     runTimeout();
     // initTestimonial();
+
+
+    //add custom class to intercom
+    // Wait for Intercom to boot (max 30 seconds)
+
+    const timeout = setTimeout(() => clearInterval(interval), 90000);
+
+    const intercomMessengerInterval = setInterval(() => {
+        const iframe = document.querySelector('.intercom-messenger-frame');
+        const launcherBadge = document.querySelector('.intercom-launcher-badge-frame');
+
+        const cookieSection = document.querySelector('.section.sec-cookies');
+
+        if (!cookieSection.classList.contains('hide')) {
+            if (iframe) {
+                //clearInterval(intercomMessengerInterval);
+                jQuery('.intercom-messenger-frame').css('bottom', '160px');
+            }
+            if (launcherBadge) {
+                jQuery('.intercom-launcher-badge-frame').addClass('custom-intercom');
+            }
+        }
+    }, 1000);
+
+    const interval = setInterval(() => {
+        console.log('testing')
+        const iframe = document.querySelector('.intercom-launcher-discovery-frame');
+        const cookieSection = document.querySelector('.section.sec-cookies');
+
+        if (!cookieSection.classList.contains('hide')) {
+            if (iframe) {
+                // Append the stylesheet to the iframe head
+                // iframe.className+='custom-intercom';
+                jQuery('.intercom-launcher-discovery-frame').addClass('custom-intercom');
+                jQuery('.intercom-launcher-frame').addClass('custom-intercom');
+                console.log('setting custom intercom css')
+                clearInterval(interval);
+                clearTimeout(timeout);
+            }
+        }
+    }, 1000);
+
+    // const interval = setInterval(() => {
+    //     console.log('interval ')
+    //     if (window.Intercom.booted) {
+    //         // Intercom is booted!
+    //         clearInterval(interval);
+    //         clearTimeout(timeout);
+    //         setTimeout(() => {
+    //             let disableCookieDialog = readCookie('disableCookieDialog');
+    //             console.log(disableCookieDialog);
+    //             if (disableCookieDialog==undefined || disableCookieDialog ==='false') {
+    //                 let intercomContainer = document.getElementById("intercom-container");
+    //                 intercomContainer.className += 'custom-intercom';
+    //                 console.log('adding custom class to intercom');
+    //             }
+    //         }, 3000)
+    //     }
+    // }, 2000);
+
+    jQuery('#select-list').selectize({
+        create: true,
+        sortField: 'text',
+        onChange: function (event) {
+            window.shuffleCalcs(event, false)
+        }
+    });
+    jQuery('.selectize-wrapper .selectize-input input').prop('disabled', true);
 });

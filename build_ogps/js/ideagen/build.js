@@ -87,6 +87,7 @@ function sendVisitResponse() {
 }
 
 function sendLeadResponse() {
+
     let data = {
         email: email,
         flag: true,
@@ -100,6 +101,10 @@ function sendLeadResponse() {
         data: JSON.stringify(data),
         success: function (response) {
             console.log(response);
+
+            jQuery('button:contains("TALK")').on('click', function () {
+                Intercom('show');
+            });
         },
         error: function () {
 
@@ -170,12 +175,14 @@ window.closeCookieDialog = function (closeOnReload) {
         }
     }, 600);
 }, window.showCookieDialog = function () {
-    const disableCookieDialog = readCookie('disableCookieDialog');
-    if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
-        jQuery('.section.sec-cookies').removeClass('hide');
-    } else {
-        jQuery('.floating-btn').addClass('floating-btn-space');
-    }
+    setTimeout(() => {
+        const disableCookieDialog = readCookie('disableCookieDialog');
+        if (disableCookieDialog == undefined || disableCookieDialog === 'false') {
+            jQuery('.section.sec-cookies').removeClass('hide');
+        } else {
+            jQuery('.floating-btn').addClass('floating-btn-space');
+        }
+    }, 40000);
 },
     window.readCookie = function (a) {
         for (var b = a + "=", c = document.cookie.split(";"), d = 0; d < c.length; d++) {
@@ -188,6 +195,34 @@ window.closeCookieDialog = function (closeOnReload) {
     }
 
 function setLoginSignup() {
+    // var a = window.location.hostname;
+    // 0 === a.indexOf("www.outgrow.co") && (a = "outgrow.co") || -1 === a.indexOf("outgrow") && (a = "rely.co");
+    // var b = "//app." + a,
+    //     c = b + "/login",
+    //     d = b + "/signup",
+    //     e = "Start Free Trial";
+    // jQuery(".signuplink").each(function () {
+    //     jQuery(this).prop('href', b)
+    // })
+    // jQuery(".login > .link-login").prop("href", c);
+    // let f = readCookie("storage");
+
+    // try {
+    //     if (f) {
+    //         f = JSON.parse(f);
+    //         d = "//" + f.companyList[1] + "." + a + "/dashboard";
+    //         e = "Dashboard";
+    //         console.log('dashboard');
+    //         // jQuery(".login > .link-login").prop("href", d).text(e).on("click", function(a) {
+    //         //     callGA(e);
+    //         // }, b);
+
+    //         jQuery('.login-dashboard-link').prop('href', d).text(e).on('click', (a) => {
+    //             callGA(e)
+    //         }, b);
+    //         jQuery('.dash-login').addClass('dashboard-login');
+    //         jQuery('.hideafter-login').addClass('hide');
+    //         //  jQuery('.navbar-email').addClass('hide');
     var a = window.location.hostname;
     0 === a.indexOf("www.outgrow.co") && (a = "outgrow.co") || -1 === a.indexOf("outgrow") && (a = "rely.co");
     var b = "//app." + a,
@@ -213,7 +248,8 @@ function setLoginSignup() {
             jQuery('.login-dashboard-link').prop('href', d).text(e).on('click', (a) => {
                 callGA(e)
             }, b);
-            jQuery('.dash-login').addClass('dashboard-login');
+            jQuery('.dash-login').removeClass('hide');
+            jQuery('.login-button').addClass('hide');
             jQuery('.hideafter-login').addClass('hide');
             //  jQuery('.navbar-email').addClass('hide');
         }
