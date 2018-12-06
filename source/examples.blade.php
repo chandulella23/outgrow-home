@@ -264,7 +264,7 @@
 											<i class="material-icons">search</i>
 											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
 										</div>
-										<div class="no-search">
+										<div class="no-search hide">
 											<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
 										</div>
 									</div>
@@ -418,7 +418,7 @@
 					<div class="section-2-heading">Happening @ Outgrow</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np">
-					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
+					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer fixed-width">
 						<h4>Trending Content</h4>
 						<div class="recentNews-inner">
 							<div class="swiper-container-recentNews" id="trendingC">
@@ -506,7 +506,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer">
+					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer fixed-width">
 						<h4>Blog</h4>
 						<div class="recentNews-inner">
 							<div class="swiper-container-blog" id="postt">
@@ -585,11 +585,13 @@
 							</script>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer calendar-wrapper">
-						<h4>Upcoming Events</h4>
-						<div class="recentNews-inner scrollbar">
+					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer calendar-wrapper fixed-width">
+						<h4>Upcoming Marketing Events</h4>
+						<div class="recentNews-inner">
+							<div class=" scrollbar inner-box">
 							<div id="calendar"> </div>							
 							<div id="selEvents">
+								</div>
 								
 							</div>
 						</div>

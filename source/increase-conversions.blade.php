@@ -108,7 +108,7 @@
 							<i class="material-icons">search</i>
 							<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
 						</div>
-						<div class="no-search">
+						<div class="no-search hide">
 							<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
 						</div>
 					</div>
@@ -1641,6 +1641,33 @@
 		let navgetinspired = document.getElementById('nav-get-inspired');
 		navgetinspired.classList.add("active")
 	</script>
+	<script>
+		function debounced(delay, fn) {
+			let timerId;
+			return function (...args) {
+				if (timerId) {
+					clearTimeout(timerId);
+				}
+				timerId = setTimeout(() => {
+					fn(...args);
+					timerId = null;
+				}, delay);
+			}
+		}
+
+		window.filterList = function () {
+			let list = jQuery('#calc-cats').children();
+			list.each(function (index) {
+				jQuery(this).removeClass('active');
+			});
+			debounced(500, searchCalc)();
+		}
+		window.searchList = function (event) {
+			if (event.keyCode === 13) {
+				filterList();
+			}
+		}
+		</script>
 @endsection
 
 @section('inlinescripts')

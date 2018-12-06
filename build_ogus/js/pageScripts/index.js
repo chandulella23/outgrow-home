@@ -121,10 +121,11 @@ jQuery(document).ready(function () {
         jQuery('.overlay').fadeOut("slow");
         jQuery("html,body").css({ "overflow": "auto" });
     });
-
-    disableCookieDialog = getCookie('disableCookieDialog');
-    if (disableCookieDialog == undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
-    // calculateMinHeight();
+    setTimeout(() => {
+        disableCookieDialog = getCookie('disableCookieDialog');
+        if (disableCookieDialog == undefined || disableCookieDialog === 'false') jQuery('.section.sec-cookies').removeClass('hide');
+        // calculateMinHeight();
+    }, 30000)
 
     jQuery('.calc-links a').on('click', function () {
         jQuery('a').removeClass('active');
@@ -155,7 +156,7 @@ jQuery(document).ready(function () {
     //add custom class to intercom
     // Wait for Intercom to boot (max 30 seconds)
 
-    const timeout = setTimeout(() => clearInterval(interval), 30000);
+    const timeout = setTimeout(() => clearInterval(interval), 90000);
 
     const intercomMessengerInterval = setInterval(() => {
         const iframe = document.querySelector('.intercom-messenger-frame');
@@ -209,12 +210,12 @@ jQuery(document).ready(function () {
     //         }, 3000)
     //     }
     // }, 2000);
- 
-        jQuery('#select-list').selectize({
-            create: true,
-            sortField: 'text',
-            onChange: function (event) {
-                window.shuffleCalcs(event,false)
-            }
-        });
+
+    jQuery('#select-list').selectize({
+        create: true,
+        sortField: 'text',
+        onChange: function (event) {
+            window.shuffleCalcs(event, false)
+        }
+    });
 });
