@@ -492,7 +492,13 @@ function renderPremadeCalcs(responseText) {
                 });
             }, 1000);
         }
-
+        jQuery('#select-list').selectize({
+            create: true,
+            sortField: 'text',
+            onChange: function (event) {
+                window.shuffleCalcs(event,false)
+              }
+        });
         jQuery(document).on('click', '.eventday', (event) => {
             self.selectedEvent = [];
             let selectedDate = event.target.getAttribute('content').trim();
@@ -672,14 +678,13 @@ jQuery(document).ready(function () {
     //     }
     // })
 
-    jQuery('#select-list').selectize({
-        create: true,
-        sortField: 'text',
-        onChange: function (event) {
-            window.shuffleCalcs(event, false)
-        }
-    });
-    jQuery('.selectize-wrapper .selectize-input input').prop('disabled', true);
+    // jQuery('#select-list').selectize({
+    //     create: true,
+    //     sortField: 'text',
+    //     onChange: function (event) {
+    //         window.shuffleCalcs(event,false)
+    //       }
+    // });
     runTimeout();
 });
 
