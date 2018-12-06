@@ -9621,8 +9621,8 @@ span.feature-subtitle {
 
 .img-section {
     float: left;
-    width: 88px;
-    height: 88px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     position: relative;
 	overflow: hidden;
@@ -10983,3 +10983,7 @@ img#imgLoad {
     border-top-color: #5192c8;
     border-bottom-width: 0;
 }
+.swiper-container-blog .swiper-wrapper {
+    min-height: 370px;
+}
+.swiper-container-blog .swiper-pagination {bottom: 0px;}
