@@ -194,5 +194,8 @@ jQuery(document).ready(function() {
 		jQuery(this).addClass('active').siblings().removeClass('active'); 
 	});
 
+	jQuery('.closeDiv').click(function() {
+		jQuery('#target').hide('');
+	});
 
 });

@@ -28,6 +28,7 @@
 
 		<link rel="stylesheet" href="/css/allPage_minified.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/navbar.css">
 
 	<!-- Page hiding snippet (recommended)  -->
 <style>.async-hide { opacity: 0 !important} </style>
@@ -155,6 +156,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
+		<div class="overlay"></div> 
 			<nav class="navbar custom-navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -171,49 +173,175 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 				<li><a href="/why-interactive" onclick="callGA('WHY')" class="params hvr-underline-from-left" id="nav-why-interactive">Why Interactive Content ?</a></li>
 				<li><a href="/features" onclick="callGA('FEATURES')" class="params hvr-underline-from-left" id="nav-features">Features</a></li>
 				<li><a href="/pricing" onclick="callGA('PRICING')" class="params hvr-underline-from-left" id="nav-pricing">Pricing</a></li>
-				<li><a href="/examples" onclick="callGA('USECASE')" class="params hvr-underline-from-left" id="nav-examples">Examples</a></li>
-				
-				<li class="login dash-login">
+				<!-- <li><a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li> -->
+				<li class="dropdown" id="getInspired">
+					<a href="javascript:void(0);" id="nav-get-inspired" onclick="callGA('USECASE')" class="params hvr-underline-from-left">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
+					<div class="dropdown-content">
+						<a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a>
+						<div class="drop-sub-menu">
+							<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params" id="nav-use-cases">Use Cases <i class="material-icons">chevron_right</i></a>
+							<div class="dropdown-sub-content">
+								<a href="/calculator" class="nav-use-cases-list">Calculators</a>
+								<a href="/quiz" class="nav-use-cases-list">Quizzes </a>
+								<a href="/survey" class="nav-use-cases-list">Surveys</a>
+								<a href="/increase-conversions" class="nav-use-cases-list">Increase Conversions</a>
+								<a href="/increase-roi" class="nav-use-cases-list">Increase ROI</a>
+								<a href="/increase-sales" class="nav-use-cases-list">Increase Sales</a>
+							</div>
+						</div>
+						<div class="drop-sub-menu drop-sub-menu-stories">
+							<a href="javascript:void(0);" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">chevron_right</i></a>
+							<div class="dropdown-sub-content">
+								<a href="/case-studies#tag" class="params nav-case nav-link-tag">TAG </a>
+								<a href="/case-studies#getPaid" class="params nav-case nav-link-gpyp">Get Paid for Your Pad </a>
+								<a href="/case-studies#vp" class="params nav-case nav-link-vp">VenturePact </a>
+								<a href="/case-studies#macroscape" class="params nav-case nav-link-macro">Macroscape </a>
+								<a href="/case-studies#wingman" class="params nav-case nav-link-wingman">Professional Wingman </a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- <li class="dropdown">
+					<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown hvr-underline-from-left" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a>
+					<div class="dropdown-content">
+						<a href="/calculator" class="nav-use-cases-list">Calculators</a>
+						<a href="/quiz" class="nav-use-cases-list">Quizzes </a>
+						<a href="/survey" class="nav-use-cases-list">Surveys</a>
+						<a href="/increase-conversions" class="nav-use-cases-list">Increase Conversions</a>
+						<a href="/increase-roi" class="nav-use-cases-list">Increase ROI</a>
+						<a href="/increase-sales" class="nav-use-cases-list">Increase Sales</a>
+					</div>
+				</li> -->
+				<li class="login login-button">
 					<a href="//app.outgrow.co/login" class="link-login params login-dashboard-link" onclick="callGA('LOGIN')">Login</a>
 				</li>
-				<!-- <li class="signUp signUp-style res-nav-hide">
-					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
-				</li>
-				<li class="signUp res-nav-show">
-					<a href="//app.outgrow.co/signup" class="link-login params" onclick="callGA('SIGNUP HEADER')">Start Free Trial</a>
-				</li> -->
+				<li class="dash-login hide">
+				<a href="//app.outgrow.co/signup/?email=" class="dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+					Dashboard
+				</a>
+			</li>
 				<li class="nav-lead-input hideafter-login">
 					<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
 					<span class="lead-form-btn">
-						<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+						<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal btn-hover" onclick="callGA('CANNOT WAIT CTA'); ">
 							Start Free Trial
 						</a>
 					</span>
 				</li>
-				<!-- <li>
-					<a href="//app.outgrow.co/signup/?email=" class="btn btn-hover dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
-						Dashboard
-					</a>
-				</li> -->
 			</ul>
 		</div> 
+	</div>
+
+	<button id="menu-toggle" type="button" class="btn navbar-toggle">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+	<div id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="material-icons">close</i></a>
+			<li><a href="/why-interactive" onclick="callGA('WHY')" class="params" id="nav-why-interactive">Why Interactive Content ?</a></li>
+			<li><a href="/features" onclick="callGA('FEATURES')" class="params" id="nav-features">Features</a></li>
+			<li><a href="/pricing" onclick="callGA('PRICING')" class="params" id="nav-pricing">Pricing</a></li>
+			<!-- <li><a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Examples</a></li> -->
+			<!-- <li class="dropdown">
+				<a href="javascript:void(0);" onclick="callGA('USECASE')" class="params dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
+				<ul class="dropdown-content">
+					<li><a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a></li>
+					<div class="drop-sub-menu">
+						<li><a href="javascript:void(0);" onclick="callGA('CASESTUDIES')" class="params dropdown-toggle" id="nav-case-studies" data-toggle="dropdown" aria-expanded="true">Success Stories <i class="material-icons">arrow_drop_down</i></a></li>
+						<ul class="dropdown-sub-content">
+							<li><a href="/case-studies#tag" class="nav-case nav-link-tag">TAG </a></li>
+							<li><a href="/case-studies#getPaid" class="nav-case nav-link-gpyp">Get Paid for Your Pad </a></li>
+							<li><a href="/case-studies#vp" class="nav-case nav-link-vp">VenturePact </a></li>
+							<li><a href="/case-studies#macroscape" class="nav-case nav-link-macro">Macroscape </a></li>
+							<li><a href="/case-studies#wingman" class="nav-case nav-link-wingman">Professional Wingman </a></li>
+						</ul>
+					</div>
+				</ul>
+			</li> -->
+			<li class="dropdown" id="GetInspired">
+				<a id="drop-toggle" href="javascript:void(0);" onclick="callGA('USECASE')" class="params dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Get Inspired <i class="material-icons">arrow_drop_down</i></a>
+				<ul class="dropdown-content">
+					<li><a href="/examples" onclick="callGA('USECASE')" class="params" id="nav-examples">Interactive Examples </a></li>
+					<div class="drop-sub-menu">
+						<li><a href="#" onclick="callGA('USECASES');" class="params" id="nav-use-cases">Use Cases <i class="material-icons">arrow_drop_down</i></a></li>
+						<div class="dropdown-sub-content">
+							<li><a href="/calculator" class="nav-use-cases-list">Calculators</a></li>
+							<li><a href="/quiz" class="nav-use-cases-list">Quizzes </a></li>
+							<li><a href="/survey" class="nav-use-cases-list">Surveys</a></li>
+							<li><a href="/increase-conversions" class="nav-use-cases-list">Increase Conversions</a></li>
+							<li><a href="/increase-roi" class="nav-use-cases-list">Increase ROI</a></li>
+							<li><a href="/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
+						</div>
+					</div>
+					<div class="drop-sub-menu">
+						<li><a href="javascript:void(0);" onclick="callGA('CASESTUDIES')" class="params" id="nav-case-studies">Success Stories <i class="material-icons">arrow_drop_down</i></a></li>
+						<ul class="dropdown-sub-content">
+							<li><a href="/case-studies#tag" class="nav-case nav-link-tag">TAG </a></li>
+							<li><a href="/case-studies#getPaid" class="nav-case nav-link-gpyp">Get Paid for Your Pad </a></li>
+							<li><a href="/case-studies#vp" class="nav-case nav-link-vp">VenturePact </a></li>
+							<li><a href="/case-studies#macroscape" class="nav-case nav-link-macro">Macroscape </a></li>
+							<li><a href="/case-studies#wingman" class="nav-case nav-link-wingman">Professional Wingman </a></li>
+						</ul>
+					</div>
+				</ul>
+			</li>
+			<!-- <li class="dropdown">
+				<a href="javascript:void(0);" onclick="callGA('USECASES')" class="params dropdown dropdown-toggle" id="nav-use-cases" data-toggle="dropdown" aria-expanded="true">Use Cases <i class="material-icons">arrow_drop_down</i></a>
+				<ul class="dropdown-content">
+					<li><a href="/calculator" class="nav-use-cases-list">Calculators</a></li>
+					<li><a href="/quiz" class="nav-use-cases-list">Quizzes </a></li>
+					<li><a href="/survey" class="nav-use-cases-list">Surveys</a></li>
+					<li><a href="/increase-conversions" class="nav-use-cases-list">Increase Conversions</a></li>
+					<li><a href="/increase-roi" class="nav-use-cases-list">Increase ROI</a></li>
+					<li><a href="/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
+				</ul>
+			</li> -->
+			<li class="login login-button">
+				<a href="//app.outgrow.co/login" class="link-login params" onclick="callGA('LOGIN')">Login</a>
+			</li>
+			<li class="dash-login hide">
+				<a href="//app.outgrow.co/signup/?email=" class="dashboard-login" onclick="callGA('CANNOT WAIT CTA'); ">
+					Dashboard
+				</a>
+			</li>
+			<li class="nav-lead-input hideafter-login">
+				<input class="lead-form-email navbar-email" name="emailId" type="email" placeholder="Enter your email">
+				<span class="lead-form-btn">
+					<a href="//app.outgrow.co/signup/?email=" class="link-login lead-email btn-buildcal btn-hover" onclick="callGA('CANNOT WAIT CTA'); ">
+						Start Free Trial
+					</a>
+				</span>
+			</li>
+		</ul>
 	</div>
 </nav>
 
 <script>
     	document.getElementsByClassName('lead-form-email')[0].onchange = function (e) {
 			let email = e.target.value;
-			let href = "//app.outgrow.co/signup/?email=";
+			let href = "//app.outgrow.co/?email=";
 			document.getElementsByClassName('lead-email')[0].href = href + email;
-    }
+	}
+	document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
 </script>
+
 
 
 <!-- <div class="header-logo">
 <a href="https://outgrow.co/" class="">
 	<img src="/images/lp-header-logo.png" alt="lp-header-logo image">
 </a>
-</div> -->	
+</div> -->
+	
 	
 	<!-- <div class="header-logo">		
 		<a href="https://outgrow.co/?utm_source=website&utm_medium=logo&utm_campaign=outgrow_calculator_page" class="" target="_blank">
@@ -237,9 +365,21 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 					<div class="company-detail">
 						Katya’s company made over $10,000 in revenue in just a month of using an Outgrow business calculator.
 					</div>
-					<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_calculator_page">
+					<!-- <a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_calculator_page">
 						<button type="button" class="btn btn-white-new">Build Your First Calculator <i class="material-icons">arrow_forward</i></button>
-					</a>
+					</a> -->
+					<div class="startTrial-outer">
+						<label>Build Your First Calculator </label>
+						<i class="material-icons">email</i>
+						<input class="lead-form-email" name="emailId" type="email" placeholder="Enter your email ID">
+						<span class="lead-form-btn">
+							<a href="//app.outgrow.co/signup/?email=" class="lead-email btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
+								Start Free Trial
+							</a>				
+						</span>
+					</div>
+					<script src="/js/pageScripts/index.js"></script>
+				 <script src="/js/pageScripts/lead-form.js"></script>
 				</div>
 			</div>
 		</div>
@@ -263,61 +403,81 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	</section>
 
 	<section class="section section-premade-temp">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="section-heading text-center">Examples Of Calculators You Can Make With Outgrow </div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
-				<!-- <div class="preloader">
-					<div class="status">&nbsp;</div>
-				</div> -->
-				<div class="premade-template">
-					<ul class="pre-temp-cat" id="calc-cats">
-						<li class="active">
-							<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="Education"
-							   onclick="shuffleCalcs('Education')">Education</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="health-fitness" onclick="shuffleCalcs('health-fitness')">Finance</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="marketing-advertising"
-							   onclick="shuffleCalcs('marketing-advertising')">Marketing & Advertising</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="Quintessential" onclick="shuffleCalcs('Quintessential')">Quintessential</a>
-						</li>
-						<li>
-							<a href="javascript:void(0)" id="construction" onclick="shuffleCalcs('construction')">Real
-								Estate & Construction</a>
-						</li>
-					</ul>
-					<div class="pre-temp-cont">
-						<ul class="pre-temp-list" id="gallery-content-center">
+				<div id="premade-loader-new" class="preloader">
+					<div class="white-wrapper">
+						<div class="status">&nbsp;</div>
+					</div>
+				</div>
+				<div class="premade-template-new hide">
+					<div class="search-input">
+						<!-- <h4>Select Your Industry</h4> -->
+						<div class="input-group">
+							<i class="material-icons">search</i>
+							<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
+						</div>
+						<div class="no-search hide">
+							<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
+						</div>
+					</div>
+					<div class="premade-template-left">
 
-							<li class="filter-all Auto active" id="auto-loan">
-								<a href="javascript:void(0)" onclick="markAsActive('auto-loan')">
-									Find out how much monthly installment you'll be paying on your auto loan.</a></li>
-							<li class="filter-all Auto" id="auto-lease">
-								<a href="javascript:void(0)" onclick="markAsActive('auto-lease')">
-									Calculate the monthly lease payment on your next car.</a></li>
-							<li class="filter-all Auto" id="early-payment">
-								<a href="javascript:void(0)" onclick="markAsActive('early-payment')">
-									How much extra monthly payment will you need to make to shorten your car loan
-									term?</a></li>
-							<li class="filter-all Auto" id="put-down">
-								<a href="javascript:void(0)" onclick="markAsActive('put-down')">
-									Find out the downpayment amount you'll need to purchase your new home.</a>
+						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
+							
+						</ul>
+						<div class="form-group col-xs-12 np">
+							<div class="selectize selectize-wrapper">
+								<select id="select-list" placeholder="Select List">
+									<option value="Auto">Auto</option>
+									<option value="Education">Education</option>
+									<option value="Education">Education</option>
+									<option value="HealthFitness">Health & Fitness</option>
+									<option value="Quintessential">Quintessential</option>
+									<option value="RealEstateConstruction">Real Estate & Construction</option>
+									<option value="MarketingAdvertising">Technology</option>
+									<option value="Publishing">Publishing</option>
+									<option value="Travel">Travel</option>
+									<option value="TVandEntertainment">TV and Entertainment</option>
+									<option value="Trending">Trending</option>
+
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="pre-temp-cont pre-temp-cont-new"> 
+						<ul class="pre-temp-list scrollbar" id="gallery-content-center">
+
+							<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
 							</li>
-
+							<li class="All Financia filter-all filter-auto" id="calc-early-payment">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
+							</li>
+							<li class="All Math filter-all filter-auto" id="calc-downpayment">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
+							</li>
+							<li class="All Others filter-all filter-education" id="calc-student-budget"> 
+								<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
+							</li>
+							<li class="All Math filter-all filter-education" id="calc-harward-score">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
+							</li>
+							<li class="All Math filter-all filter-finance" id="calc-home-budget">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
+							</li>
+							<li class="All Others filter-all filter-health" id="calc-weight-loss">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
+							</li>
+							<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
+								<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
+							</li> -->
 						</ul>
 						<div class="pre-temp-view">
+							<!-- <div class="tag-exp"><i class="material-icons">star_rate</i><span class="tag-exp-text"> Customisable for the Auto Industry</span></div> -->
 							<div class="temp-preview">
 								<span class="image-bg1">
 									<span class="image-scroll1">
@@ -336,11 +496,14 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 										</span>
 									</h3>
 									<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
-									<a class="btn btn-red btn-hover" href="https://app.outgrow.co/signup?utm_source=website&utm_medium=link&utm_campaign=outgrow_calculator_page">Build your own</a>
+									<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
 								</div>
 							</div>
 						</div>
 					</div>
+					<!-- <div class="no-match-found hide">
+						<div class="no-match-found-inner"><i class="material-icons">warning</i>No Matches found!</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -349,7 +512,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	<section class="section section-embeds">
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
 			<div class="container mobile-container">
-				<div class="section-heading text-center">Average Rating 4.9/5 <br/>450+ Reviews </div>
+				<div class="section-heading text-center">Average Rating 4.9/5 <br/>500+ Reviews </div>
 				<div class="social-media-section">
 					<div class="each-arrow-section">
 						<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
@@ -395,7 +558,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds" id="staticReviews">
 			<div class="container mobile-container">
 				<div class="section-2-heading" style="color: rgb(34, 34, 34);">
-					Average Rating 4.9/5 <br/>450+ Reviews
+					Average Rating 4.9/5 <br/>500+ Reviews
 				</div>
 
 				<ul class="nav nav-tabs">
@@ -966,6 +1129,52 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		<!-- end static HTML of fb, capterra, g2 crowd and google -->
 
 		<script>
+			function getTemplateName(template) {
+				let templates = [{
+					id: 'template-eight',
+					text: 'The Venice'
+				},
+				{
+					id: 'template-seven',
+					text: 'The Seattle'
+				}, {
+					id: 'one-page-card-new',
+					text: 'The Chicago'
+				},
+				{
+					id: 'sound-cloud-v3',
+					text: 'The Londoner'
+				}, {
+					id: 'inline-temp-new',
+					text: 'The Greek'
+				},
+				{
+					id: 'experian',
+					text: 'The Tokyo'
+				}, {
+					id: 'template-five',
+					text: 'The Madrid'
+				},
+				{
+					id: 'template-six',
+					text: 'The Stockholm'
+				}
+				];
+				return templates.find(t => t.id.includes(template));
+			}
+			function getCalcType(type) {
+				if (type === 'Calculator') {
+					return 'CALC';
+				} else if (type === 'Poll') {
+					return 'POLL';
+				} else if (type.toLowerCase().includes('graded')) {
+					return 'TEST';
+				} else if (type.toLowerCase().includes('outcome')) {
+					return 'QUIZ';
+				} else if (type.toLowerCase().includes('com')) {
+					return 'ECOM'
+				}
+			}
 			function triggerLiveStaticReviews () {
 				var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
 				var live = document.querySelector('#liveReviews');
@@ -996,403 +1205,456 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
 
-            window.calcs = [
-                {
-                    "id": "auto-loan",
-                    "Name": "Auto Loan Calculator",
-                    "Published Link": "https://premade.outgrow.us/Auto-Loan-Calc",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Londoner",
-                    "Industry": "Auto",
-                    "Description": "Find out how much monthly installment you'll be paying on your auto loan.",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "auto-lease",
-                    "Name": "Auto Lease Calculator",
-                    "Published Link": "https://premade.outgrow.us/Car-Lease-Calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/car+lease+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Londoner",
-                    "Industry": "Auto",
-                    "Description": "Calculate the monthly lease payment on your next car.",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "early-payment",
-                    "Name": "Early Payment Calculator",
-                    "Published Link": "https://premade.outgrow.us/Early-Payment-Calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/early+payment+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Tokyo",
-                    "Industry": "Auto",
-                    "Description": "How much extra monthly payment will you need to make to shorten your car loan term?",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "put-down",
-                    "Name": "How much should I put down?",
-                    "Published Link": "https://premade.outgrow.us/Downpayment-Calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/downpayment+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Londoner",
-                    "Industry": "Auto",
-                    "Description": "Find out the downpayment amount you'll need to purchase your new home.",
-                    "filters": [
-                        "filter-auto",
-                        "Auto"
-                    ]
-                },
-                {
-                    "id": "calculate-net-cost",
-                    "Name": "Calculate the total REAL net cost of your college degree.",
-                    "Published Link": "https://premade.outgrow.us/Real-NET-college-degree-cost",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+is+college+really+going+to+cost+you.gif",
-                    "Type": "Calculator",
-                    "Layout": "Madrid",
-                    "Industry": "Education",
-                    "Description": "Find out how much is college really going to cost you.",
-                    "filters": [
-                        "filter-auto",
-                        "Education"
-                    ]
-                },
-                {
-                    "id": "student-budget",
-                    "Name": "Student Budget Calculator",
-                    "Published Link": "https://premade.outgrow.us/student-budget-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+student+budget.gif",
-                    "Type": "Calculator",
-                    "Layout": "Madrid",
-                    "Industry": "Education",
-                    "Description": "Use this calculator to calculate your budget as a full-time student.",
-                    "filters": [
-                        "filter-auto",
-                        "Education"
-                    ]
-                },
-                {
-                    "id": "harvard-background",
-                    "Name": "What is a good enough score to get into Harvard with your background?",
-                    "Published Link": "https://premade.outgrow.us/Harvard-Minimum-Score-Calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/chances+of+getting+into+harvard.gif",
-                    "Type": "Calculator",
-                    "Layout": "Greek",
-                    "Industry": "Education",
-                    "Description": "Find out if your SAT or ACT scores are good enough to land you in Harvard.",
-                    "filters": [
-                        "filter-auto",
-                        "Education"
-                    ]
-                },
-                {
-                    "id": "mortgage-calc",
-                    "Name": "The quintessential mortage calculator!",
-                    "Published Link": "https://premade.outgrow.us/Copy-of-The-quintessential-mortgage-calculator-1",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/mortgage+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Londoner",
-                    "Industry": "Finance",
-                    "Description": "Calculate your monthly mortgage payment.",
-                    "filters": [
-                        "filter-auto",
-                        "Finance"
-                    ]
-                },
-                {
-                    "id": "home-budget",
-                    "Name": "Home Budget Calculator",
-                    "Published Link": "https://premade.outgrow.us/Home-Budget-Calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+monthly+home+budget.gif",
-                    "Type": "Calculator",
-                    "Layout": "Tokyo",
-                    "Industry": "Finance",
-                    "Description": "Calculate your monthly home budget and find how much you are saving each month.",
-                    "filters": [
-                        "filter-auto",
-                        "Finance"
-                    ]
-                },
-                {
-                    "id": "retire-need",
-                    "Name": "How much do you need to retire?",
-                    "Published Link": "https://premade.outgrow.us/How-much-do-you-need-to-retire",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+do+you+need+to+retire.gif",
-                    "Type": "Calculator",
-                    "Layout": "Tokyo",
-                    "Industry": "Finance",
-                    "Description": "How much money do you need if you want to retire?",
-                    "filters": [
-                        "filter-auto",
-                        "Finance"
-                    ]
-                },
-                {
-                    "id": "save-million",
-                    "Name": "SAVE A MILLION DOLLARS CALCULATOR",
-                    "Published Link": "https://premade.outgrow.us/When-can-you-become-a-millionaire",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/when+can+you+become+a+millionaire.gif",
-                    "Type": "Calculator",
-                    "Layout": "Tokyo",
-                    "Industry": "Finance",
-                    "Description": "Find out when you will become a millionaire!",
-                    "filters": [
-                        "filter-auto",
-                        "Finance"
-                    ]
-                },
-                {
-                    "id": "saving-goal",
-                    "Name": "Savings goal calculator",
-                    "Published Link": "https://premade.outgrow.us/Saving-goal-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/savings+goal+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Londoner",
-                    "Industry": "Finance",
-                    "Description": "Set your savings goal today and find out how much you need to invest every month to achieve that goal.",
-                    "filters": [
-                        "filter-auto",
-                        "Finance"
-                    ]
-                },
-                {
-                    "id": "retirement-balance",
-                    "Name": "What will be my 401(k) balance at retirement?",
-                    "Published Link": "https://premade.outgrow.us/401k-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+will+be+my+401k+balance+at+retirement.gif",
-                    "Type": "Calculator",
-                    "Layout": "Seattle",
-                    "Industry": "Finance",
-                    "Description": "Find out how much balance will you have in your 401(k) at retirement.",
-                    "filters": [
-                        "filter-auto",
-                        "Finance"
-                    ]
-                },
-                {
-                    "id": "credit-card",
-                    "Name": "How long will it take to pay off my credit card?",
-                    "Published Link": "https://premade.outgrow.us/credit-card-pay-off-calc",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+long+will+it+take+to+payoff+my+credit+card.gif",
-                    "Type": "Calculator",
-                    "Layout": "Seattle",
-                    "Industry": "Finance",
-                    "Description": "Find out how long will you take to payoff your credit card.",
-                    "filters": [
-                        "filter-auto",
-                        "Finance"
-                    ]
-                },
-                {
-                    "id": "calc-weight",
-                    "Name": "Weight Loss Calculator",
-                    "Published Link": "https://premade.outgrow.us/weightloss-calc",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Weightloss+Calc.gif",
-                    "Type": "Calculator",
-                    "Layout": "Greek",
-                    "Industry": "health-fitness",
-                    "Description": "Set your weight loss target and find out how much calories you need to reduce every day.",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "calories-calc",
-                    "Name": "Calories Calculator",
-                    "Published Link": "https://premade.outgrow.us/calories-calc",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calories+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Tokyo",
-                    "Industry": "health-fitness",
-                    "Description": "FInd out the ideal number of calories you should be consuming every day.",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "heart-disease",
-                    "Name": "What is your risk of getting a heart disease?",
-                    "Published Link": "https://premade.outgrow.us/heart-disease-calc",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+is+your+risk+of+getting+a+heart+disease.gif",
-                    "Type": "Calculator",
-                    "Layout": "Greek",
-                    "Industry": "health-fitness",
-                    "Description": "Find out if you are at risk of a heart attack or a stroke.",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "protein-need",
-                    "Name": "How much daily protein do I need?",
-                    "Published Link": "https://premade.outgrow.us/daily-protein-requirement-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+daily+protein+do+i+need.gif",
-                    "Type": "Calculator",
-                    "Layout": "Seattle",
-                    "Industry": "health-fitness",
-                    "Description": "Get your recommended daily protein intake.",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "ideal-weight-calc",
-                    "Name": "Ideal Weight Calculator",
-                    "Published Link": "https://premade.outgrow.us/ideal-weight-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/ideal+weight+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Seattle",
-                    "Industry": "health-fitness",
-                    "Description": "Find your ideal bodyweight.",
-                    "filters": [
-                        "filter-auto",
-                        "health-fitness"
-                    ]
-                },
-                {
-                    "id": "consultant-house",
-                    "Name": "Calculate how much hiring an expert consultant will save you versus running PPC in house.",
-                    "Published Link": "https://premade.outgrow.us/ppc-agency-vs-inhouse-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/PPC+vs+in-house.gif",
-                    "Type": "Calculator",
-                    "Layout": "Chicago",
-                    "Industry": "marketing-advertising",
-                    "Description": "Find out whether you should go for a PPC agency or build an in-house team.",
-                    "filters": [
-                        "filter-auto",
-                        "marketing-advertising"
-                    ]
-                },
-                {
-                    "id": "paid-advertising",
-                    "Name": "How much should you spend on paid advertising?",
-                    "Published Link": "https://premade.outgrow.us/how-much-should-you-spend-on-paid-advertising",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+should+you+spend+on+paid+advertising.gif",
-                    "Type": "Calculator",
-                    "Layout": "Tokyo",
-                    "Industry": "marketing-advertising",
-                    "Description": "Find out how much you should spend on Paid Advertising.",
-                    "filters": [
-                        "filter-auto",
-                        "marketing-advertising"
-                    ]
-                },
-                {
-                    "id": "marketing-roi",
-                    "Name": "ROI of your Marketing Strategy",
-                    "Published Link": "https://premade.outgrow.us/ROI-of-your-Email-Marketing-Strategy",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/roi+of+your+email+marketing+strategy.gif",
-                    "Type": "Calculator",
-                    "Layout": "Londoner",
-                    "Industry": "marketing-advertising",
-                    "Description": "Estimate the ROI of your current email marketing strategy.",
-                    "filters": [
-                        "filter-auto",
-                        "marketing-advertising"
-                    ]
-                },
-                {
-                    "id": "blogging-frequency",
-                    "Name": "Blogging Frequency Calculator",
-                    "Published Link": "https://premade.outgrow.us/blogging-frequency-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+often+should+you+blog.gif",
-                    "Type": "Calculator",
-                    "Layout": "Chicago",
-                    "Industry": "marketing-advertising",
-                    "Description": "Find out how often you should be blogging and how much you stand to gain from it.",
-                    "filters": [
-                        "filter-auto",
-                        "marketing-advertising"
-                    ]
-                },
-                {
-                    "id": "roi-outgrow",
-                    "Name": "Check how high of a ROI you can get with Outgrow!",
-                    "Published Link": "https://premade.outgrow.us/roi-of-using-outgrow",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/roi+of+using+outgrow.gif",
-                    "Type": "Calculator",
-                    "Layout": "Londoner",
-                    "Industry": "Quintessential",
-                    "Description": "Estimate the ROI you will get from using Outgrow.",
-                    "filters": [
-                        "filter-auto",
-                        "Quintessential"
-                    ]
-                },
-                {
-                    "id": "resale-property",
-                    "Name": "Find out the resale value of your property",
-                    "Published Link": "https://premade.outgrow.us/how-much-will-you-make-by-selling-your-property",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+will+you+make+from+selling+your+property.gif",
-                    "Type": "Calculator",
-                    "Layout": "Stockholm",
-                    "Industry": "Real Estate & Construction",
-                    "Description": "Enter some details about your property and find out how much you will make by selling it.",
-                    "filters": [
-                        "filter-auto",
-                        "Real Estate & Construction"
-                    ]
-                },
-                {
-                    "Name": "How much does it cost to build a pool?",
-                    "Published Link": "https://premade.outgrow.us/cost-of-building-a-pool",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/cost+of+building+a+pool.gif",
-                    "Type": "Calculator",
-                    "Layout": "Chicago",
-                    "Industry": "construction",
-                    "Description": "Find out how much you will need to shell out for your dream pool.",
-                    "filters": [
-                        "filter-auto",
-                        "construction"
-                    ]
-                },
-                {
-                    "id": "house-afford",
-                    "Name": "How much house can I afford?",
-                    "Published Link": "https://premade.outgrow.us/how-much-house-can-I-afford",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+house+can+i+afford.gif",
-                    "Type": "Calculator",
-                    "Layout": "Greek",
-                    "Industry": "construction",
-                    "Description": "Enter your details to find out the house value that fits within your budget.",
-                    "filters": [
-                        "filter-auto",
-                        "construction"
-                    ]
-                },
-                {
-                    "id": "rent-buy-home",
-                    "Name": "See how much it would cost you to rent instead of buying a home.",
-                    "Published Link": "https://premade.outgrow.us/renting-vs-buying-cost-calculator",
-                    "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/buying+vs+renting+calculator.gif",
-                    "Type": "Calculator",
-                    "Layout": "Madrid",
-                    "Industry": "construction",
-                    "Description": "See how much it would cost you to rent instead of buying a house.",
-                    "filters": [
-                        "filter-auto",
-                        "construction"
-                    ]
-                }
-            ];
+            // window.calcs = [
+            //     {
+            //         "id": "auto-loan",
+            //         "Name": "Auto Loan Calculator",
+            //         "Published Link": "https://premade.outgrow.us/Auto-Loan-Calc",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Londoner",
+            //         "Industry": "Auto",
+            //         "Description": "Find out how much monthly installment you'll be paying on your auto loan.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "auto-lease",
+            //         "Name": "Auto Lease Calculator",
+            //         "Published Link": "https://premade.outgrow.us/Car-Lease-Calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/car+lease+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Londoner",
+            //         "Industry": "Auto",
+            //         "Description": "Calculate the monthly lease payment on your next car.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "early-payment",
+            //         "Name": "Early Payment Calculator",
+            //         "Published Link": "https://premade.outgrow.us/Early-Payment-Calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/early+payment+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Tokyo",
+            //         "Industry": "Auto",
+            //         "Description": "How much extra monthly payment will you need to make to shorten your car loan term?",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "put-down",
+            //         "Name": "How much should I put down?",
+            //         "Published Link": "https://premade.outgrow.us/Downpayment-Calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/downpayment+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Londoner",
+            //         "Industry": "Auto",
+            //         "Description": "Find out the downpayment amount you'll need to purchase your new home.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Auto"
+            //         ]
+            //     },
+            //     {
+            //         "id": "calculate-net-cost",
+            //         "Name": "Calculate the total REAL net cost of your college degree.",
+            //         "Published Link": "https://premade.outgrow.us/Real-NET-college-degree-cost",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+is+college+really+going+to+cost+you.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Madrid",
+            //         "Industry": "Education",
+            //         "Description": "Find out how much is college really going to cost you.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Education"
+            //         ]
+            //     },
+            //     {
+            //         "id": "student-budget",
+            //         "Name": "Student Budget Calculator",
+            //         "Published Link": "https://premade.outgrow.us/student-budget-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+student+budget.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Madrid",
+            //         "Industry": "Education",
+            //         "Description": "Use this calculator to calculate your budget as a full-time student.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Education"
+            //         ]
+            //     },
+            //     {
+            //         "id": "harvard-background",
+            //         "Name": "What is a good enough score to get into Harvard with your background?",
+            //         "Published Link": "https://premade.outgrow.us/Harvard-Minimum-Score-Calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/chances+of+getting+into+harvard.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Greek",
+            //         "Industry": "Education",
+            //         "Description": "Find out if your SAT or ACT scores are good enough to land you in Harvard.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Education"
+            //         ]
+            //     },
+            //     {
+            //         "id": "mortgage-calc",
+            //         "Name": "The quintessential mortage calculator!",
+            //         "Published Link": "https://premade.outgrow.us/Copy-of-The-quintessential-mortgage-calculator-1",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/mortgage+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Londoner",
+            //         "Industry": "Finance",
+            //         "Description": "Calculate your monthly mortgage payment.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Finance"
+            //         ]
+            //     },
+            //     {
+            //         "id": "home-budget",
+            //         "Name": "Home Budget Calculator",
+            //         "Published Link": "https://premade.outgrow.us/Home-Budget-Calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calculate+your+monthly+home+budget.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Tokyo",
+            //         "Industry": "Finance",
+            //         "Description": "Calculate your monthly home budget and find how much you are saving each month.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Finance"
+            //         ]
+            //     },
+            //     {
+            //         "id": "retire-need",
+            //         "Name": "How much do you need to retire?",
+            //         "Published Link": "https://premade.outgrow.us/How-much-do-you-need-to-retire",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+do+you+need+to+retire.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Tokyo",
+            //         "Industry": "Finance",
+            //         "Description": "How much money do you need if you want to retire?",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Finance"
+            //         ]
+            //     },
+            //     {
+            //         "id": "save-million",
+            //         "Name": "SAVE A MILLION DOLLARS CALCULATOR",
+            //         "Published Link": "https://premade.outgrow.us/When-can-you-become-a-millionaire",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/when+can+you+become+a+millionaire.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Tokyo",
+            //         "Industry": "Finance",
+            //         "Description": "Find out when you will become a millionaire!",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Finance"
+            //         ]
+            //     },
+            //     {
+            //         "id": "saving-goal",
+            //         "Name": "Savings goal calculator",
+            //         "Published Link": "https://premade.outgrow.us/Saving-goal-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/savings+goal+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Londoner",
+            //         "Industry": "Finance",
+            //         "Description": "Set your savings goal today and find out how much you need to invest every month to achieve that goal.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Finance"
+            //         ]
+            //     },
+            //     {
+            //         "id": "retirement-balance",
+            //         "Name": "What will be my 401(k) balance at retirement?",
+            //         "Published Link": "https://premade.outgrow.us/401k-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+will+be+my+401k+balance+at+retirement.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Seattle",
+            //         "Industry": "Finance",
+            //         "Description": "Find out how much balance will you have in your 401(k) at retirement.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Finance"
+            //         ]
+            //     },
+            //     {
+            //         "id": "credit-card",
+            //         "Name": "How long will it take to pay off my credit card?",
+            //         "Published Link": "https://premade.outgrow.us/credit-card-pay-off-calc",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+long+will+it+take+to+payoff+my+credit+card.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Seattle",
+            //         "Industry": "Finance",
+            //         "Description": "Find out how long will you take to payoff your credit card.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Finance"
+            //         ]
+            //     },
+            //     {
+            //         "id": "calc-weight",
+            //         "Name": "Weight Loss Calculator",
+            //         "Published Link": "https://premade.outgrow.us/weightloss-calc",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/Weightloss+Calc.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Greek",
+            //         "Industry": "HealthFitness",
+            //         "Description": "Set your weight loss target and find out how much calories you need to reduce every day.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "HealthFitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "calories-calc",
+            //         "Name": "Calories Calculator",
+            //         "Published Link": "https://premade.outgrow.us/calories-calc",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/calories+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Tokyo",
+            //         "Industry": "HealthFitness",
+            //         "Description": "FInd out the ideal number of calories you should be consuming every day.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "HealthFitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "heart-disease",
+            //         "Name": "What is your risk of getting a heart disease?",
+            //         "Published Link": "https://premade.outgrow.us/heart-disease-calc",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/what+is+your+risk+of+getting+a+heart+disease.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Greek",
+            //         "Industry": "HealthFitness",
+            //         "Description": "Find out if you are at risk of a heart attack or a stroke.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "HealthFitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "protein-need",
+            //         "Name": "How much daily protein do I need?",
+            //         "Published Link": "https://premade.outgrow.us/daily-protein-requirement-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+daily+protein+do+i+need.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Seattle",
+            //         "Industry": "HealthFitness",
+            //         "Description": "Get your recommended daily protein intake.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "HealthFitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "ideal-weight-calc",
+            //         "Name": "Ideal Weight Calculator",
+            //         "Published Link": "https://premade.outgrow.us/ideal-weight-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/ideal+weight+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Seattle",
+            //         "Industry": "HealthFitness",
+            //         "Description": "Find your ideal bodyweight.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "HealthFitness"
+            //         ]
+            //     },
+            //     {
+            //         "id": "consultant-house",
+            //         "Name": "Calculate how much hiring an expert consultant will save you versus running PPC in house.",
+            //         "Published Link": "https://premade.outgrow.us/ppc-agency-vs-inhouse-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/PPC+vs+in-house.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Chicago",
+            //         "Industry": "MarketingAdvertising",
+            //         "Description": "Find out whether you should go for a PPC agency or build an in-house team.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "MarketingAdvertising"
+            //         ]
+            //     },
+            //     {
+            //         "id": "paid-advertising",
+            //         "Name": "How much should you spend on paid advertising?",
+            //         "Published Link": "https://premade.outgrow.us/how-much-should-you-spend-on-paid-advertising",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+should+you+spend+on+paid+advertising.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Tokyo",
+            //         "Industry": "MarketingAdvertising",
+            //         "Description": "Find out how much you should spend on Paid Advertising.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "MarketingAdvertising"
+            //         ]
+            //     },
+            //     {
+            //         "id": "marketing-roi",
+            //         "Name": "ROI of your Marketing Strategy",
+            //         "Published Link": "https://premade.outgrow.us/ROI-of-your-Email-Marketing-Strategy",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/roi+of+your+email+marketing+strategy.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Londoner",
+            //         "Industry": "MarketingAdvertising",
+            //         "Description": "Estimate the ROI of your current email marketing strategy.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "MarketingAdvertising"
+            //         ]
+            //     },
+            //     {
+            //         "id": "blogging-frequency",
+            //         "Name": "Blogging Frequency Calculator",
+            //         "Published Link": "https://premade.outgrow.us/blogging-frequency-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+often+should+you+blog.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Chicago",
+            //         "Industry": "MarketingAdvertising",
+            //         "Description": "Find out how often you should be blogging and how much you stand to gain from it.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "MarketingAdvertising"
+            //         ]
+            //     },
+            //     {
+            //         "id": "roi-outgrow",
+            //         "Name": "Check how high of a ROI you can get with Outgrow!",
+            //         "Published Link": "https://premade.outgrow.us/roi-of-using-outgrow",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/roi+of+using+outgrow.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Londoner",
+            //         "Industry": "Quintessential",
+            //         "Description": "Estimate the ROI you will get from using Outgrow.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "Quintessential"
+            //         ]
+            //     },
+            //     {
+            //         "id": "resale-property",
+            //         "Name": "Find out the resale value of your property",
+            //         "Published Link": "https://premade.outgrow.us/how-much-will-you-make-by-selling-your-property",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+will+you+make+from+selling+your+property.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Stockholm",
+            //         "Industry": "RealEstateConstruction",
+            //         "Description": "Enter some details about your property and find out how much you will make by selling it.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "RealEstateConstruction"
+            //         ]
+            //     },
+            //     {
+            //         "Name": "How much does it cost to build a pool?",
+            //         "Published Link": "https://premade.outgrow.us/cost-of-building-a-pool",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/cost+of+building+a+pool.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Chicago",
+            //         "Industry": "RealEstateConstruction",
+            //         "Description": "Find out how much you will need to shell out for your dream pool.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "RealEstateConstruction"
+            //         ]
+            //     },
+            //     {
+            //         "id": "house-afford",
+            //         "Name": "How much house can I afford?",
+            //         "Published Link": "https://premade.outgrow.us/how-much-house-can-I-afford",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/how+much+house+can+i+afford.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Greek",
+            //         "Industry": "RealEstateConstruction",
+            //         "Description": "Enter your details to find out the house value that fits within your budget.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "RealEstateConstruction"
+            //         ]
+            //     },
+            //     {
+            //         "id": "rent-buy-home",
+            //         "Name": "See how much it would cost you to rent instead of buying a home.",
+            //         "Published Link": "https://premade.outgrow.us/renting-vs-buying-cost-calculator",
+            //         "GIF": "https://dzvexx2x036l1.cloudfront.net/calc_images/buying+vs+renting+calculator.gif",
+            //         "Type": "Calculator",
+            //         "Layout": "Madrid",
+            //         "Industry": "RealEstateConstruction",
+            //         "Description": "See how much it would cost you to rent instead of buying a house.",
+            //         "filters": [
+            //             "filter-auto",
+            //             "RealEstateConstruction"
+            //         ]
+            //     }
+			// ];
+			// window.industries = ['Auto','Education','Finance','Health & Fitness','Real Estate & Construction','Quintessential','Marketing & Advertising']
 
             window.onload = function () {
-                setPremade();
-                shuffleCalcs('Auto');
+				let http = new XMLHttpRequest();
+				let url1 = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+				http.open("POST", url1, true);
+
+				http.onreadystatechange = function () {
+					if (http.readyState === 4 && http.status === 200) {
+						let res = JSON.parse(http.responseText);
+						window.calcs = res.data.calculators;
+						window.calcs = window.calcs.filter(calc=>calc.type === 'Calculator')
+						window.industries = res.data.industries;
+						getExistingIndustries();
+						let trendingC = [];
+						window.events = [];
+						var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+						window.calcs.forEach(calc => {
+							if (calc.industry === "Trending") {
+								if (trendingC.length !== 6)
+									trendingC.push(calc);
+							}
+
+							calc['GIF'] = calc.media;
+							calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+							calc['Name'] = calc.title;
+							calc['id'] = 'id' + calc._id;
+							calc['Description'] = calc.description;
+							let layout = getTemplateName(calc.template);
+							calc['Layout'] = layout ? layout.text : 'Stockholm';
+							calc['Published Link'] = calc.liveApp.url;
+							calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+							if (calc.launch_date !== null) {
+								let launch_date = new Date(calc.launch_date);
+								let day = launch_date.getUTCDate();
+								let month = launch_date.getUTCMonth();
+								let year = launch_date.getUTCFullYear();
+								let ev = {
+									Date: new Date(year, month, day),
+									id: calc._id,
+									Title: calc.title,
+									Link: '',
+									Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+									Description: calc.Description,
+									EventName: calc.event_name
+								};
+								window.events.push(ev);
+							}
+							calc['type'] = getCalcType(calc['type']);
+						});
+						jQuery('.preloader').addClass('hide');
+						jQuery('.premade-template-new').removeClass('hide')
+						setPremade();
+						shuffleCalcs('Auto');
+					}
+				};
+				http.send();
             }
 		</script> 
 
@@ -1471,7 +1733,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	<section class="section section-quotes section-quotes-calc">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 np section-quotes-border">
-				<blockquote>I really like how easy it is to build calculators! It helps us stand out & is great for capturing data on new leads. </blockquote>
+				<blockquote><span class="quote-left1">“</span>I really like how easy it is to build calculators! It helps us stand out & is great for capturing data on new leads. <span class="quote-right1">“</span></blockquote>
 				<span>- Amy Dano, Manager, Learn2</span>
 			</div>
 		</div>
@@ -1479,7 +1741,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 	<section class="section section-btn">
 		<div class="col-md-12 col-sm-12 col-xs-12 np text-center">
-			<span>Plans start at $25 per month. No credit card required. </span>
+			<span>Plans start at $14 per month. No credit card required. </span>
 			<a href="https://app.outgrow.co/signup?utm_source=website&utm_medium=CTA&utm_campaign=outgrow_calculator_page" class="params trialLOL">
 				<button onclick="callGA(\'CANNOT WAIT CTA\')" class="btn btn-red-new">Start your Free Trial! <i class="material-icons">arrow_forward</i></button>
 			</a>
@@ -1488,21 +1750,56 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 	<!-- end: landing page HTML  -->
 
+	<script>
+		let navgetinspired = document.getElementById('nav-get-inspired');
+		navgetinspired.classList.add("active")
+	</script>
+	<script>
+		function debounced(delay, fn) {
+			let timerId;
+			return function (...args) {
+				if (timerId) {
+					clearTimeout(timerId);
+				}
+				timerId = setTimeout(() => {
+					fn(...args);
+					timerId = null;
+				}, delay);
+			}
+		}
 
-			<section class="section section-14" id="footer">
+		window.filterList = function () {
+			let list = jQuery('#calc-cats').children();
+			list.each(function (index) {
+				jQuery(this).removeClass('active');
+			});
+			debounced(500, searchCalc)();
+		}
+		window.searchList = function (event) {
+			if (event.keyCode === 13) {
+				filterList();
+			}
+		}
+		</script>
+
+			<section class="section section-14 hide" id="footer">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 np">
+			<div class="badge-g2crowd">
+				<img class="g2crowd"  src="/images/badge_g2crowd.svg">
+			</div> 
 			<div class="col-xs-12 col-sm-2 footer-link mk-animate-element fade-in">
 				<h4>Overview</h4>
 				<ul>
 					<li><a href="/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
+
 					<li><a href="/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
 					<li><a href="/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
 					<li><a href="/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
 					<li><a href="/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
-					<!-- <li><a href="https://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
-					<li><a href="https://outgrow.co/blog/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
-					<li><a href="https://outgrow.co/blog/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
+					<li><a href="http://outgrow.co/blog/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="http://outgrow.co/blog/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
 					<li><a href="/ecommerce-recommendations/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">Ecommerce Quizzes</a></li>
 				</ul>
 			</div>
@@ -1516,52 +1813,68 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			<div class="col-xs-12 col-sm-10 np footer-link mk-animate-element fade-in">
 				<h4 class="footer-img2text col-xs-12">Resources</h4>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/content-marketing-strategy-checklist/?utm_source=footer">Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist.</a>
-					</div>
+					<a href="http://outgrow.co/blog/content-marketing-strategy-checklist/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res1.jpg" src="//dzvexx2x036l1.cloudfront.net/res1.jpg" alt="Resources" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							<span>Is Your Content Marketing Worth All The Effort? Consult Our 10 Point Checklist. </span>
+						</div>
+					</a>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="//dzvexx2x036l1.cloudfront.net/footer5.jpg" alt="Resources" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/interactive-calculators-content-make-digital-marketing-agency-stand-out/?utm_source=footer">Make Your Digital Marketing Agency Stand Out</a>
-					</div>
+					<a href="http://outgrow.co/blog/interactive-calculators-content-make-digital-marketing-agency-stand-out/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer5.jpg" src="//dzvexx2x036l1.cloudfront.net/footer5.jpg" alt="Resources" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							<span>Make Your Digital Marketing Agency Stand Out</span>
+						</div>
+					</a>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/university-college-calculators/?utm_source=footer">7 Interactive Calculators Every University Needs on Its Website</a>
-					</div>
+					<a href="http://outgrow.co/blog/university-college-calculators/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res3.jpg" src="//dzvexx2x036l1.cloudfront.net/res3.jpg" alt="Resources" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							<span>7 Interactive Calculators Every University Needs on Its Website</span>
+						</div>
+					</a>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="//dzvexx2x036l1.cloudfront.net/res4.jpg" alt="Resources" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/lead-retention-activate-cold-leads/?utm_source=footer">Lead Retention Made Easy! Activate Cold Leads with Calculators</a>
-					</div>
+					<a href="http://outgrow.co/blog/lead-retention-activate-cold-leads/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res4.jpg" src="//dzvexx2x036l1.cloudfront.net/res4.jpg" alt="Resources" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							<span>Lead Retention Made Easy! Activate Cold Leads with Calculators</span>
+						</div>
+					</a>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="//dzvexx2x036l1.cloudfront.net/footer7.jpg" alt="Resources" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/interactive-calculators-saas-companies/?utm_source=footer">9 Calculators Every SaaS Company Should Consider</a>
-					</div>
+					<a href="http://outgrow.co/blog/interactive-calculators-saas-companies/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer7.jpg" src="//dzvexx2x036l1.cloudfront.net/footer7.jpg" alt="Resources" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							<span>9 Calculators Every SaaS Company Should Consider</span>
+						</div>
+					</a>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="//dzvexx2x036l1.cloudfront.net/res7.jpg" alt="Resources" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=footer">Value Added Marketing With Digital Experiences</a>
-					</div>
+					<a href="http://outgrow.co/blog/courses/best-interactive-lead-generation-techniques/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res7.jpg" src="//dzvexx2x036l1.cloudfront.net/res7.jpg" alt="Resources" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							<span>Value Added Marketing With Digital Experiences</span>
+						</div>
+					</a>	
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
-					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="//dzvexx2x036l1.cloudfront.net/res8.jpg" alt="Resources" /></div>
-					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=footer">Lead Generation With Interactive Calculators</a>
-					</div>
+					<a href="http://outgrow.co/blog/courses/lead-generation-with-calculators/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res8.jpg" src="//dzvexx2x036l1.cloudfront.net/res8.jpg" alt="Resources" /></div>
+						<div class="col-xs-12 np footer-img-text">
+							<span>Lead Generation With Interactive Calculators</span>
+						</div>	
+					</a>
 				</div>
 				<div class="footer-img2 col-xs-6 col-sm-3">
+					<a href="http://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">
 					<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="//dzvexx2x036l1.cloudfront.net/res9.jpg" src="//dzvexx2x036l1.cloudfront.net/res9.jpg" alt="Resources" /></div>
 					<div class="col-xs-12 np footer-img-text">
-						<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">How an Interactive Calculator Generated 11,592 Qualified Leads</a>
+						<span>How an Interactive Calculator Generated 11,592 Qualified Leads</span>
 					</div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -1604,7 +1917,185 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	</div>
 
 </section>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
+
+<section class="section section-14" id="footer">
+	<div class="container">
+		<div class="col-xs-12 col-sm-12 np">
+			<div class="badge-g2crowd">
+				<img class="g2crowd"  src="/images/badge_g2crowd.svg">
+			</div> 
+			<div class="col-xs-6 col-sm-2 footer-link">
+				<h4>Menu</h4>
+				<ul>
+					<li><a href="/why-interactive/?utm_source=footer" onclick="callGA(\'WHYF\')" class="params">Why Interactive Content?</a></li>
+					<li><a href="/features/?utm_source=footer" onclick="callGA(\'FEATURESF\')" class="params">Features </a></li>
+					<li><a href="/examples/?utm_source=footer" onclick="callGA(\'USECASEF\')" class="params">Examples</a></li>
+					<li><a href="/idea-generation/?utm_source=footer" onclick="callGA(\'IDEAGEN\')" class="params" target="_blank">Idea Generator</a></li>
+					<li><a href="/pricing/?utm_source=footer" onclick="callGA(\'PRICINGF\')" class="params">Pricing</a></li>
+					<!-- <li><a href="http://affiliates.outgrow.co/?utm_source=footer">Affiliates</a></li> -->
+					<li><a href="http://outgrow.co/blog/?utm_source=footer" onclick="callGA(\'RESOURCEF\')" class="params">Resources</a></li>
+					<li><a href="http://outgrow.co/blog/about/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">About</a></li>
+					<li><a href="/ecommerce-recommendations/?utm_source=footer" onclick="callGA(\'ABOUTF\')" class="params">Ecommerce Quizzes</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2 footer-link">
+				<h4>Discover</h4>
+				<ul>
+					<li><a href="/calculator/?utm_source=footer" class="">Calculators</a></li>
+					<li><a href="/quiz/?utm_source=footer" class="">Quizzes </a></li>
+					<li><a href="/survey/?utm_source=footer" class="">Survey</a></li>
+					<li><a href="/increase-conversions/?utm_source=footer" class="">Increase Conversions</a></li>
+					<li><a href="/increase-roi/?utm_source=footer" class="">Increase ROI</a></li>
+					<li><a href="/increase-sales/?utm_source=footer" class="">Increase Sales</a></li>
+				</ul>
+			</div>
+			<!-- <div class="col-xs-12 col-sm-5 footer-link">
+				<h4>Our Live Calculators</h4>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer1.jpg" src="" /></div>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer2.jpg" src="" /></div>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer4.jpg" src="" /></div>
+				<div class="scrollimg footer-img col-xs-6 col-sm-6"><img data-scroll-img="//dzvexx2x036l1.cloudfront.net/footer3.jpg" src="" /></div>
+			</div> -->
+			<div class="col-xs-12 col-sm-2 footer-link">
+				<h4 class="footer-img2text col-xs-12">eBooks</h4>
+				<div class="footer-img2 col-xs-6 col-sm-12">
+					<a href="https://get.outgrow.co/interactive-content-marketing-for-digital-agencies/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-ebook1.jpg"" src="/images/footer-ebook1.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">							
+							<span>Interactive Content Marketing for Digital Agencies </span>
+						</div>
+					</a>
+				</div>
+
+				<div class="footer-img2 col-xs-6 col-sm-12 ebook2">
+					<a href="https://get.outgrow.co/guide-to-building-viral-quizzes-and-calculators/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-ebook2.jpg"" src="/images/footer-ebook2.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">						
+							<span>Creative's Guide to building Viral Quizzes and Calculators</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-2 footer-link">
+				<h4 class="footer-img2text col-xs-12">Tools</h4>
+				<div class="footer-img2 col-xs-6 col-sm-12">
+					<a href="https://influencers.outgrow.us/roi-of-outgrow/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-tools1.jpg"" src="/images/footer-tools1.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">							
+							<span>Find the ROI of using Outgrow with this Interactive Calculator</span>
+						</div>
+					</a>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-12 tools2">
+					<a href="https://outgrow.co/idea-generation/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-tools2.jpg"" src="/images/footer-tools2.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">						
+							<span>Generate Ideas for Quizzes and Calculators</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 footer-link">
+				<h4 class="footer-img2text col-xs-12">From our blog</h4>
+				<div class="footer-img2 col-xs-6 col-sm-6">
+					<a href="https://outgrow.co/blog/top-10-interactive-quizzes-calculators-2017/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-blog1.jpg"" src="/images/footer-blog1.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">						
+							<span>Highest-performing Interactive Quizzes and Calculators</span>
+						</div>
+					</a>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-6">
+					<a href="https://outgrow.co/blog/interactive-content-engagement-tips/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-blog2.jpg"" src="/images/footer-blog2.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">							
+							<span>How to Make Quizzes and Calculators Engaging</span>
+						</div>
+					</a>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-6">
+					<a href="https://outgrow.co/blog/get-paid-for-your-pad-interactive-marketing-success-story/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-blog3.jpg"" src="/images/footer-blog3.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">						
+							<span>Get Paid for your Pad: Interactive Marketing Success Story</span>
+						</div>
+					</a>
+				</div>
+				<div class="footer-img2 col-xs-6 col-sm-6">
+					<a href="https://outgrow.co/blog/how-an-interactive-calculator-generated-11592-qualified-leads/?utm_source=footer">
+						<div class="col-xs-12 np"><img class="scrollimg" data-scroll-img="/images/footer-blog4.jpg"" src="/images/footer-blog4.jpg" /></div>
+						<div class="col-xs-12 np footer-img-text">							
+							<span>How an Interactive Calculator Generated 11,592 Qualified Leads</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 np footer-social hide">
+			<ul>
+				<!-- <li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+				<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li>-->
+				<li class=""><a href="/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+				<li><a href="/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+				<!-- <li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact Us</a></li> -->
+				<li><a href="https://angel.co/venturepact/jobs/?utm_source=footer">Careers</a></li>
+			</ul>
+			<ul>
+				<li class="social-icons"><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer" target="_blank"><i class="zmdi zmdi-facebook-box"></i></a></li>
+				<li class="social-icons"><a href="https://www.linkedin.com/company/7966190/?utm_source=footer" target="_blank"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+				<li class="social-icons"><a href="https://twitter.com/outgrowco/?utm_source=footer" target="_blank"><i class="zmdi zmdi-twitter-box"></i></a></li>
+			</ul>
+			<div class="company-address">
+				401 park ave, 10th floor, New York 10016
+			</div>
+
+			<div class="footer-copyright">
+				<i class="material-icons">copyright</i>
+				<span>Copyright 2018</span>
+				<img class="scrollimg" data-scroll-img="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" src="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" />
+				<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 np footer-social">
+		<div class="container">
+			<div class="footer-bottom-left">
+				<ul>
+					<!-- <li><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer">Facebook</a></li>
+					<li><a href="https://www.linkedin.com/company/outgrow.co/?utm_source=footer">Linkedin</a></li>
+					<li><a href="https://twitter.com/outgrowco/?utm_source=footer">Twitter</a></li> -->
+					<li class=""><a href="/privacy-policy/?utm_source=footer" onclick="callGA(\'PRIVACYF\')" class="params">Privacy Policy</a></li>
+					<li><a href="/tos/?utm_source=footer" onclick="callGA(\'TERMSF\')" class="params">Terms of Services</a></li>
+					<li><a href="javascript:void(0)" target="_top" class="intercom_trigger">Contact us</a></li>
+					<li class=""><a href="https://angel.co/outgrow-5/jobs/?utm_source=footer" target=_blank>Careers</a></li>
+					<li class="social-icons"><a href="https://www.facebook.com/OutgrowCo/?utm_source=footer" target="_blank"><i class="zmdi zmdi-facebook-box"></i></a></li>
+					<li class="social-icons"><a href="https://www.linkedin.com/company/7966190/?utm_source=footer" target="_blank"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+					<li class="social-icons"><a href="https://twitter.com/outgrowco/?utm_source=footer" target="_blank"><i class="zmdi zmdi-twitter-box"></i></a></li>
+				</ul>
+				<div class="footer-bottom-copyAddress">
+					<div class="company-address">
+						401 park ave, 10th floor, New York 10016
+					</div>
+					<div class="footer-copyright">
+						<div class="border-left">
+							<i class="material-icons">copyright</i>
+							<span>Copyright 2018</span>
+							<img class="scrollimg" data-scroll-img="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" src="https://dzvexx2x036l1.cloudfront.net/outgrow_logo_grey.svg" alt="Footer logo" />
+							<a style="display:none;" href="https://trustlogo.com/install/index5.html?certificatename=Comodo-SSL-Wildcard" target="_blank"><img class="scrollimg footer-img-2 rs-hide-mb" data-scroll-img="//dzvexx2x036l1.cloudfront.net/comodo_secure.png" src="" alt="comodo_secure image" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-badge">
+				<img src="/images/footer-badge-ps.jpg" alt="Privacy Shield Framework">
+				<img src="/images/footer-badge-gdpr.jpg" alt="General Data Protection Regulation">
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="section sec-cookies hide">
 	<div class="container">
@@ -1622,6 +2113,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		"sitemin": "/js/site.min.js",
 		"index": "/js/pageScripts/index.js",
 		"resizer": "/js/loader/resizer.js",
+		"navbar": "/js/pageScripts/navbar.js"
 	}
 ;
 
