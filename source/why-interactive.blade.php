@@ -1215,7 +1215,7 @@
 			<i class="material-icons">email</i>
 			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
-				<a href="//app.outgrow.co/signup/?email=" class="lead-email-1 btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
+				<a href="//app.outgrow.co/?email=" class="lead-email-1 btn-buildcal" onclick="callGA('CANNOT WAIT CTA'); ">
 					Get Started
 				</a>
 				<!-- <span class="live-demo">OR <a href="https://sample.outgrow.co/builder-demo/sample-calculator" class="">TAKE A LIVE DEMO</a></span> -->
@@ -1223,15 +1223,15 @@
 			</span>
 			<div id="bfrVid"></div>
 			<script>
-				document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
-					let email = e.target.value;
-					let href = "//app.outgrow.co/signup/?email=";
-					document.getElementsByClassName('lead-email-1')[0].href = href + email;
-				}
+				// document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
+				// 	let email = e.target.value;
+				// 	let href = "//app.outgrow.co/signup/?email=";
+				// 	document.getElementsByClassName('lead-email-1')[0].href = href + email;
+				// }
 
 				document.getElementsByClassName('lead-form-email-1')[0].onkeypress = function (e) {
 					let email = e.target.value;
-					let href = "//app.outgrow.co/signup/?email=";
+					let href = "//app.outgrow.co/?email=";
 					if (e.keyCode == 13) {
 						window.location.href = href+email;
 					}

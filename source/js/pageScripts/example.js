@@ -257,7 +257,6 @@ function postRequest(url, data, options = {}) {
     }, options))
         .then(response => response.json())
 };
-
 window.ready1 = function () {
     let http = new XMLHttpRequest();
     let url = 'https://outgrow.co/blog/api/get_posts/';
