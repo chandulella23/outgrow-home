@@ -275,12 +275,10 @@ ready1();
 
 function renderBlogs(response) {
     let posts = response.posts;
-
-    console.log('Post -> ', posts[0]);
     if (posts.length > 0) {
         let post = '';
         for (let i = 0; i < posts.length; i++) {
-            if (i % 2 == 0) {
+            if (i % 3 == 0) {
                 post += ` <div class="swiper-slide">
                         <div class="recentNews-inner-row">
                             <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
@@ -290,6 +288,14 @@ function renderBlogs(response) {
                             </div>
                         </div>`;
 
+            } else if(i % 3 == 1) {
+                post += `<div class="recentNews-inner-row">
+                        <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                        <div class="recentNews-text"> 
+                        <h5>${posts[i].title} </h5>
+                        <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+                        </div>
+                    </div>`;
             } else {
                 post += `<div class="recentNews-inner-row">
                         <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
@@ -307,7 +313,6 @@ function renderBlogs(response) {
             </div>
             <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
                 <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                <span class="swiper-pagination-bullet"></span>
                 <span class="swiper-pagination-bullet"></span>
                 <span class="swiper-pagination-bullet"></span>
                 <span class="swiper-pagination-bullet"></span>
