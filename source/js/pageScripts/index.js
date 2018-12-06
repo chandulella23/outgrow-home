@@ -94,8 +94,6 @@ jQuery.noConflict();
 jQuery.material.init();
 
 jQuery(document).ready(function () {
-    console.log('alphonse')
-
     // jQuery('.noToggle').click(function(e) {
     //     e.preventDefault();
     //     setTimeout(() => {
@@ -121,6 +119,8 @@ jQuery(document).ready(function () {
     });
 
     jQuery('.overlay').click(function (e) {
+        console.log('outside');
+        jQuery('.safari_browser').css('height', '');
         jQuery('#sidebar-wrapper').removeClass('active');
         jQuery('.overlay').fadeOut("slow");
         jQuery("html,body").css({ "overflow": "auto" });
