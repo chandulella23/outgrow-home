@@ -222,4 +222,5 @@ jQuery(document).ready(function () {
             window.shuffleCalcs(event, false)
         }
     });
+    jQuery('.selectize-wrapper .selectize-input input').prop('disabled', true);
 });
