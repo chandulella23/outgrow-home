@@ -6996,7 +6996,7 @@ button.close {
 
 .popover.right>.arrow:after {
     left: 1px;
-    border-right-color: #fff;
+    border-right-color: #000;
     border-left-width: 0
 }
 
@@ -83719,6 +83719,8 @@ span.profile-detail {
     line-height: normal;
     margin-bottom: 25px;
     /* text-transform: capitalize; */
+    max-width: 1140px;
+    margin: 0 auto 25px;
 }
 .section-second ul {
     margin: 0;
@@ -86487,15 +86489,27 @@ body.icaq.footer-cookies {
     left: 0;
     right: 0px;
     bottom: 0;
-    background-color: #fff;
+    /* background-color: #fff; */
     z-index: 9;
     text-align: center;
-    margin-bottom: 120px;
-    margin-top: 60px;
+    margin-top: 120px;
+    margin-bottom: 80px;
 }
 #premade-loader-new.preloader .white-wrapper {
     display: inline-block;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
+}
+#premade-loader-new.preloader .white-wrapper .status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/logoAnim.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    background-size: 40%;
 }
 @media (max-width: 363px) and (min-width: 0px) {
     #premade-loader-new.preloader {margin-top: 100px;}
@@ -86513,7 +86527,7 @@ body.icaq.footer-cookies {
     color: #888888;
     float: left;
     position: relative;
-    padding: 0;
+    padding: 0 !important;
     top: 2px;
     margin-right: 3px;
 }
