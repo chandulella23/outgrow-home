@@ -688,8 +688,8 @@
 			  <img src="{{ $page->baseUrl }}/images/example-breather-img.png" class="uni1">
 			</div>
 			<div class="case-breathers-rightSide">
-				<h1 class="heading">Generate interactive content ideas for your company using our idea worksheet</h1>
-				<a href="https://docs.google.com/spreadsheets/d/1nIktXeookbo_V9dmHPBR4Zmk9ToYX7PODIoQbOV7RFM/edit#gid=1175659431" target="_blank" class="btn btn-download btn-hover">Download Excel Idea Generator Sheet <i class="material-icons">arrow_forward</i></a>
+				<h1 class="heading">Generate interactive content ideas for your company using our Idea Generator</h1>
+				<a href="http://outgrow.co/idea-generation" target="_blank" class="btn btn-download btn-hover">Try out our Idea Generator <i class="material-icons">arrow_forward</i></a>
 			</div>
 		</div>
 	</div>
