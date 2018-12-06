@@ -111,6 +111,7 @@ jQuery(document).ready(function () {
     });
     jQuery("#menu-toggle").click(function (e) {
         e.preventDefault();
+        console.log('opening menu');
         jQuery("#sidebar-wrapper").addClass("active");
         jQuery('.overlay').fadeIn("slow");
         jQuery("html,body").css({ "overflow": "hidden" });
