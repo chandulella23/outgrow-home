@@ -495,9 +495,10 @@ function renderPremadeCalcs(responseText) {
             create: true,
             sortField: 'text',
             onChange: function (event) {
-                window.shuffleCalcs(event,false)
-              }
+                window.shuffleCalcs(event, false)
+            }
         });
+        jQuery('.selectize-wrapper .selectize-input input').prop('disabled', true);
         jQuery(document).on('click', '.eventday', (event) => {
             self.selectedEvent = [];
             let selectedDate = event.target.getAttribute('content').trim();
