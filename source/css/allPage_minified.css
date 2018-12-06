@@ -6996,7 +6996,7 @@ button.close {
 
 .popover.right>.arrow:after {
     left: 1px;
-    border-right-color: #fff;
+    border-right-color: #000;
     border-left-width: 0
 }
 
