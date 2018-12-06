@@ -6804,7 +6804,6 @@ span.icon-webcam {
 	}
 	.recentNews-inner{ min-height: 300px !important;}
 	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:3px!important; }
-	.safari_browser{ height:100vh !important;}
 	.calendar-wrapper.fixed-width .inner-box { float: left; width: 100%;  max-height: 260px;}
 }
 
