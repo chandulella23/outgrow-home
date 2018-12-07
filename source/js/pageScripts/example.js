@@ -279,38 +279,41 @@ function renderBlogs(response) {
         let post = '';
         for (let i = 0; i < posts.length; i++) {
             if (i % 3 == 0) {
-                post += ` <div class="swiper-slide">
+            post += `<div class="swiper-slide">
                         <div class="recentNews-inner-row">
-                            <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
-                            <div class="recentNews-text">
-                                <h5>${posts[i].title} </h5>
-                                <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-                            </div>
+                            <a href="${posts[i].url}" target="_blank">
+                                <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                                <div class="recentNews-text">
+                                    <h5>${posts[i].title} </h5>
+                                </div>
+                            </a>
                         </div>`;
 
             } else if(i % 3 == 1) {
                 post += `<div class="recentNews-inner-row">
-                        <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
-                        <div class="recentNews-text"> 
-                        <h5>${posts[i].title} </h5>
-                        <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-                        </div>
-                    </div>`;
+                            <a href="${posts[i].url}" target="_blank">
+                                <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                                <div class="recentNews-text"> 
+                                    <h5>${posts[i].title} </h5>
+                                </div>
+                            </a>
+                        </div>`;
             } else {
                 post += `<div class="recentNews-inner-row">
-                        <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
-                        <div class="recentNews-text"> 
-                        <h5>${posts[i].title} </h5>
-                        <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+                            <a href="${posts[i].url}" target="_blank">
+                                <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                                <div class="recentNews-text"> 
+                                    <h5>${posts[i].title} </h5>
+                                </div>
+                            </a>
                         </div>
-                    </div>
                 </div>`
             }
         }
         let postt = document.getElementById("postt");
         let a = `<div class="swiper-wrapper">
             ${post}
-            </div>
+            </div></div>
             <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
                 <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
                 <span class="swiper-pagination-bullet"></span>
