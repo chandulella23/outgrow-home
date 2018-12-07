@@ -66,6 +66,7 @@
 		.section-recentNews {padding: 40px 0;}
 		.recentNews-inner {
 			/* min-height: auto; */
+			margin-bottom: 15px;
 		}
 		.recentNews-outer.calendar-wrapper .recentNews-inner {
 			height: 300px;
