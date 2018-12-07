@@ -6801,13 +6801,13 @@ span.icon-webcam {
 	.recentNews-outer {
 		max-width: initial !important;
 		width: 100%;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 	.recentNews-outer:last-child {
 		margin-bottom: 0;
 	}
 	.recentNews-inner{ min-height: 300px !important;}
-	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:3px!important; }
+	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:10px!important; }
 	.calendar-wrapper.fixed-width .inner-box { float: left; width: 100%;  max-height: initial;}
 	.recentNews-inner.calender-outer{ height: initial; max-height: initial;}
 	.calendar-wrapper.fixed-width .inner-box {max-height: initial !important;overflow: initial;}
@@ -9611,8 +9611,8 @@ span.feature-subtitle {
 	background: #fff;
 	padding: 22px 20px;
 	transition: all .5s ease 0s;
-	min-height: 410px;
-	max-height: 410px; position: relative;
+	min-height: 438px;
+	max-height: 438px; position: relative;
 }
 
 .recentNews-inner:hover {
@@ -9621,8 +9621,8 @@ span.feature-subtitle {
 
 .img-section {
     float: left;
-    width: 80px;
-    height: 80px;
+    width: 88px;
+    height: 88px;
     border-radius: 50px;
     position: relative;
 	overflow: hidden;
@@ -9654,11 +9654,11 @@ span.feature-subtitle {
 }
 
 .recentNews-text h5 {
-	font-size: 14px;
+	font-size: 15px;
 	color: #62696d;
 	font-family: montserratregular;
 	margin-top: 0px;
-	line-height: normal;
+	line-height: 24px;
 	display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -9677,10 +9677,10 @@ span.feature-subtitle {
 .recentNews-text p {
 	float: left;
 	width: 100%;
-	font-size: 13px;
+	font-size: 14px;
 	color: #62696d;
 	font-family: montserratlight;
-	line-height: 18px;
+	line-height: 20px;
 	overflow: hidden;	
 	display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -10983,7 +10983,10 @@ img#imgLoad {
     border-top-color: #5192c8;
     border-bottom-width: 0;
 }
-.swiper-container-blog .swiper-wrapper {
+/* .swiper-container-blog .swiper-wrapper {
     min-height: 370px;
 }
-.swiper-container-blog .swiper-pagination {bottom: 0px;}
+.swiper-container-blog .swiper-pagination {bottom: 0px;} */
+.swiper-container-blog .recentNews-text h5 {
+    margin-top: 20px;
+}
