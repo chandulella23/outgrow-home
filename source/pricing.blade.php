@@ -250,15 +250,15 @@
                             </td>
                             <td>
                                 <span class="quater"></span>5
-                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                                <span class="detail">Number of calculators, quizzes, recommendations you can build.</span>
                             </td>
                             <td class="active-bg">
                                 <span class="full"></span>Unlimited
-                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                                <span class="detail">Number of calculators, quizzes, recommendations, chatbots you can build.</span>
                             </td>
                             <td>
                                 <span class="full"></span>Unlimited
-                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                                <span class="detail">Number of calculators, quizzes, recommendations, chatbots you can build.</span>
                             </td>
                         </tr>
                         <tr class="not-info">
@@ -875,7 +875,7 @@
                                <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>5</span>
-                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
+                                    <span class="detail">Number of calculators, quizzes, recommendations you can build. </span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Team Members</span>
@@ -1078,7 +1078,7 @@
                                 <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
-                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
+                                    <span class="detail">Number of calculators, quizzes, recommendations, chatbots you can build. </span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Team Members</span>
@@ -1285,7 +1285,7 @@
                                 <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
-                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                                    <span class="detail">Number of calculators, quizzes, recommendations, chatbots you can build.</span>
                                 </li>
                                 <li>
                                     <span class="feature-title">Team Members</span>
