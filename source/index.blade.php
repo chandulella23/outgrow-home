@@ -65,6 +65,10 @@
 								<img src="//dzvexx2x036l1.cloudfront.net/img-home-polls.png" class="polls" alt="Polls">
 								<img class="rs-hide" src="//dzvexx2x036l1.cloudfront.net/img-home-polls1.png" class="polls" alt="Polls">
 								Polls</li>
+							<li>
+								<img src="{{ $page->baseUrl }}/images/img-home-chatbot.png" class="polls" alt="Polls">
+								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-chatbot_big.png" class="chatbot" alt="Chatbot">
+								Chatbot</li>
 						</ul>
 					</div>
 
