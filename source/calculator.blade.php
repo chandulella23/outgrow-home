@@ -129,7 +129,7 @@
 					</div>
 					<div class="premade-template-left">
 
-						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats"  data-simplebar data-simplebar-auto-hide="false">
+						<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats" data-simplebar data-simplebar-auto-hide="false">
 							<li class="active">
 								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 							</li>
