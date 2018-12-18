@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
 @endsection
 
 @section('pageClass', '')
@@ -128,8 +129,8 @@
 					</div>
 					<div class="premade-template-left">
 
-						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
-							{{-- <li class="active">
+						<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats"  data-simplebar data-simplebar-auto-hide="false">
+							<li class="active">
 								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 							</li>
 							<li>
@@ -206,7 +207,7 @@
 						</div>
 					</div>
 					<div class="pre-temp-cont pre-temp-cont-new"> 
-						<ul class="pre-temp-list scrollbar" id="gallery-content-center">
+						<ul class="pre-temp-list" id="gallery-content-center">
 
 							<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
 								<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
@@ -1551,6 +1552,7 @@
 		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
-		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js"
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
+		"simplebar": "https://unpkg.com/simplebar@latest/dist/simplebar.js",
 	}
 @endsection

@@ -86546,3 +86546,17 @@ body.icaq.footer-cookies {
 .section-embeds .section-2-heading {
     margin-top: 0;
 }
+/* css of simplebar */
+	.pre-temp-cat-new .simplebar-scrollbar {
+		width: 1px;
+	}
+	.pre-temp-cat-new .simplebar-scrollbar:before {
+		opacity: 0.2 !important;
+		width: 3px;
+	}
+	.pre-temp-cat-new  .simplebar-track {
+		background: #e2e2e2;
+		opacity: 0.2;
+		width: 3px !important;
+	}
+/* end: css of simplebar */
