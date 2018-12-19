@@ -86564,3 +86564,18 @@ body.icaq.footer-cookies {
         visibility: visible !important;
     }
 /* end: css of simplebar */
+ul.pre-temp-list li{float: left; width: 100%; position: relative; margin-bottom: 15px; list-style: none;}
+ul.pre-temp-list li a::before{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:-2px; font-size: 14px;}
+ul.pre-temp-list li a{    
+	font-size: 12px;
+	line-height: 20px;
+	float: left;
+	transition: 0.5s;
+	color: #888;
+	font-family: montserratlight;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	position: relative;
+	width: 100%;
+}
+ul.pre-temp-list li.active > a, ul.pre-temp-list li a:hover{color: #4894ca; transition: 0.5s;}
