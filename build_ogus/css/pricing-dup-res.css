@@ -45,7 +45,7 @@
 	#pricing .enterprise_pos{
 		margin-top: 10px;
 	}
-	#pricing .need-custom-plan a{
+	#pricing .need-custom-plan span{
 		font-size: 12px;
 	}
 	#pricing .need-custom-plan i.material-icons {
@@ -128,9 +128,12 @@
 		margin-left: 0;
 	}
 	.create-exp .container h5 {
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 	}
-
+	.create-exp span.create-exp-start, .create-exp .container span.create-exp-price, .create-exp .container .text-opacity {display: block;} 
+	.create-exp span.create-exp-start {
+		top: -5px;
+	}
 }
 
 @media (min-width:320px) and (max-width:330px){
@@ -548,7 +551,7 @@
 	#pricing .pricing-headingtop {margin-bottom: 80px; margin-top: 160px;}
 	.enterprise_pos {margin-top: 80px;}
 	#pricing .section-faq .section-2-heading {font-size: 104px; line-height: 114px;}
-	#pricing .need-custom-plan a {font-size: 44px;}
+	#pricing .need-custom-plan span {font-size: 44px;}
 	#pricing .need-custom-plan i.material-icons {
 		font-size: 98px;
 		top: 35px;

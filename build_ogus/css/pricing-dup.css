@@ -798,7 +798,7 @@ label {
     margin-bottom: 30px
 }
 
-#pricing .need-custom-plan a {
+#pricing .need-custom-plan span {
     color: #62696d;
     font-size: 18px;
     font-family: montserratregular;
@@ -1958,6 +1958,7 @@ i.zmdi.zmdi-twitter-box {
     font-family: montserratregular;
     margin-top: 0;
     margin-bottom: 3px;
+    text-transform: uppercase;
 }
 
 .create-exp .container h5 img {
