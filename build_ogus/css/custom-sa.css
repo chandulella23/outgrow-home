@@ -10990,3 +10990,65 @@ img#imgLoad {
 .swiper-container-blog .recentNews-text h5 {
     margin-top: 20px;
 }
+/* css of simplebar */
+	.simplebar-scrollbar {
+		width: 1px !important;
+	}
+	.simplebar-scrollbar:before {
+		opacity: 0.2 !important;
+		width: 3px;
+	}
+	.simplebar-track {
+		background: #e2e2e2;
+		opacity: 0.2;
+		width: 3px !important;
+	}
+	.simplebar-track.simplebar-vertical {
+        visibility: visible !important;
+	}
+	.simplebar-track.simplebar-horizontal {
+        display: none;
+    }
+
+/* end: css of simplebar */
+ul.pre-temp-list li a small {
+    font-size: 8px;
+    color: #666666;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    padding: 4px 10px;
+    float: left;
+    width: auto;
+    background: #f5f5f5;
+    border-radius: 20px;
+    line-height: normal;
+}
+ul.pre-temp-list li a span {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
+ul.pre-temp-list {
+	float: left;
+	width: 200px;
+	padding: 0 50px 0 0;
+	margin: 0;
+	max-width: 100%;
+	height: 600px;
+	margin-right: 37px;
+}
+ul.pre-temp-list li{float: left; width: 100%; position: relative; margin-bottom: 15px; list-style: none;}
+ul.pre-temp-list li a::before{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:-2px; font-size: 14px;}
+ul.pre-temp-list li a{    
+	font-size: 12px;
+	line-height: 20px;
+	float: left;
+	transition: 0.5s;
+	color: #888;
+	font-family: montserratlight;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	position: relative;
+	width: 100%;
+}
+ul.pre-temp-list li.active > a, ul.pre-temp-list li a:hover{color: #4894ca; transition: 0.5s;}
