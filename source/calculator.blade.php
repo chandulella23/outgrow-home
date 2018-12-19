@@ -129,8 +129,8 @@
 					</div>
 					<div class="premade-template-left">
 
-						<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats" data-simplebar data-simplebar-auto-hide="false">
-							<li class="active">
+						<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats">
+							{{-- <li class="active">
 								<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 							</li>
 							<li>
