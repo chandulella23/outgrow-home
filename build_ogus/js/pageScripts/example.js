@@ -63,6 +63,7 @@ window.setPremade = function () {
         }
     }
     premadeTemplateList.html(innerHTML)
+    new SimpleBar(jQuery('#gallery-content-center')[0], { autoHide: false });
 }
 
 // window.markAsActive = function (calcId) {
