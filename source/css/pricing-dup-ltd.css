@@ -542,7 +542,7 @@ label {
 		margin-top: 30px;
 		margin-bottom: 30px
 	}
-	#pricing .need-custom-plan a {
+	#pricing .need-custom-plan span {
 		color: #62696d;
 		font-size: 18px;
 		font-family: montserratregular;
