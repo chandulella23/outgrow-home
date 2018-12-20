@@ -664,6 +664,7 @@
 		display: inline-block!important;
 		width: 200px;
 		word-wrap: break-word;
+		min-width: 100%;
 	}
 }
 @media(min-width:320px) and (max-width:1023px) {
