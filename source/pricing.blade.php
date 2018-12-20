@@ -402,15 +402,15 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="half"></span>Standard Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
@@ -740,7 +740,7 @@
                                         Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                    <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -941,7 +941,7 @@
                                         Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                    <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1144,7 +1144,7 @@
                                         Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                    <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
