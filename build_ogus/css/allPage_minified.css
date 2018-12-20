@@ -86555,12 +86555,12 @@ body.icaq.footer-cookies {
         visibility: visible !important;
 	}
 	.simplebar-scrollbar:before {
-        opacity: 0.09 !important;
+        opacity: 0.05 !important;
         width: 3px;
         background: #4894ca !important;
 	}
     .simplebar-track {
-        background: #e6f1f9;
+        background: #e6f1f99c;
         /* opacity: 0.09; */
         width: 3px !important;
     }
