@@ -10511,7 +10511,7 @@ label.control-label {
     margin-bottom: 30px
 }
 
-#pricing .need-custom-plan a {
+#pricing .need-custom-plan span {
     color: #62696d;
     font-size: 18px;
     font-family: montserratregular;
@@ -86552,6 +86552,7 @@ body.icaq.footer-cookies {
 	.simplebar-scrollbar {
         width: 3px !important;
         right: 0px !important;
+        visibility: visible !important;
 	}
 	.simplebar-scrollbar:before {
         opacity: 0.09 !important;
@@ -86569,6 +86570,10 @@ body.icaq.footer-cookies {
     .simplebar-track.simplebar-horizontal {
         display: none;
     }
+    .simplebar-content {
+        overflow: scroll !important;
+    }
+    .simplebar-offset {right: -17px !important;}
 /* end: css of simplebar */
 ul.pre-temp-list li{float: left; width: 100%; position: relative; margin-bottom: 15px; list-style: none;}
 ul.pre-temp-list li a::before{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:-2px; font-size: 14px;}
