@@ -146,6 +146,9 @@ var Calendar = function(model, options, date){
             if(!classes.includes('eventday'))
               number.className += " eventday";
             number.setAttribute("content", calendar.Model[n].Date);
+            if (calendar.Model[n].color) {
+              number.setAttribute("style", "background-color: " + calendar.Model[n].color + ' !important');
+            }
             if(calendar.Model[n].EventName) {
               eventname.add(calendar.Model[n].EventName);
               //number.setAttribute('data-content', eventname);
