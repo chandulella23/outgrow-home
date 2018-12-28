@@ -195,6 +195,54 @@
                     </tfoot>-->
 
                     <tbody>
+                        <tr class="expand">
+                            <th>
+                                <!-- <i class="material-icons vis-hide">add</i>  -->
+                                Type of content <i class="material-icons">help</i>
+                            </th>
+                            <td>
+                                <span class="quater"></span>Quiz only
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small>
+                                    <!-- <span class="detail"> </span>  -->
+                                </span>
+                            </td>
+                            <td>
+                                <span class="half"></span>Quiz, Calc, Ecom
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Calculator or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations</small>
+                                    <!-- <span class="detail"> </span>  -->
+                                </span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="full"></span>All
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Calculator</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot</small>
+                                    <!-- <span class="detail"> </span>  -->
+                                </span>
+                            </td>
+                            <td>
+                                <span class="full"></span>All                                
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Calculator</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot</small>
+                                </span>
+                            </td>
+                        </tr>
                         <tr class="expand yearlyLeads">
                             <th>
                                 <!-- <i class="material-icons vis-hide">add</i>  -->
@@ -246,27 +294,42 @@
                             </th>
                             <td>
                                 <span class="quater"></span>3
-                                <span class="detail">Number of outcome quizzes and graded quizzes you can build.</span>
+                                <!-- <span class="detail">Number of outcome quizzes and graded quizzes you can build.</span> -->
+                                <span class="detail">You can build up to 3 outcome quizzes or graded quizzes. </span>
                             </td>
                             <td>
                                 <span class="quater"></span>5
-                                <span class="detail">Number of calculators, quizzes, ecom recommendations & polls you can build.</span>
+                                <!-- <span class="detail">Number of calculators, quizzes, ecom recommendations & polls you can build.</span> -->
+                                <span class="detail">You can build up to 5 quizzes, calculators, polls or recommendations. </span>
                             </td>
                             <td class="active-bg">
                                 <span class="full"></span>Unlimited
-                                <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span>
-                            </td>
+                                <!-- <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span> -->
+                                <span class="detail">You can build an unlimited number of content with this plan. </td>
                             <td>
                                 <span class="full"></span>Unlimited
-                                <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span>
+                                <!-- <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span> -->
+                                <span class="detail">You can build an unlimited number of content with this plan. </td>
                             </td>
                         </tr>
-                        <tr class="not-info">
+                        <tr class="expand">
                             <th><!-- <i class="material-icons vis-hide">add</i> --> Team Members</th>
-                            <td><span class="quater"></span>1</td>
-                            <td><span class="quater"></span>1</td>
-                            <td class="active-bg"><span class="half"></span>3</td>
-                            <td><span class="full"></span>10</td>
+                            <td>
+                                <span class="quater"></span>1
+                                <span class="detail">1 user or admin</span>
+                            </td>
+                            <td>
+                                <span class="quater"></span>1
+                                <span class="detail">1 user or admin</span>
+                            </td>
+                            <td class="active-bg">
+                                <span class="half"></span>3
+                                <span class="detail">3 users or admins total</span>
+                            </td>
+                            <td>
+                                <span class="full"></span>10
+                                <span class="detail">10 users or admins total</span>
+                            </td>
                         </tr>
                         <tr class="expand">
                             <th>
@@ -275,20 +338,20 @@
                                 Templates & Layouts <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
-                                <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the Classic Chicago, Madrid and Greek layout and templates. </span>
+                                <span class="quater"></span>3 Templates & Layout
+                                <span class="detail">Chicago, Madrid and Greek layout and premade templates. </span>
                             </td>
                             <td class="expand-child">
-                                <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the Classic Chicago, Londoner, Madrid and Greek layout and templates.</span>
+                                <span class="quater"></span>4 Templates & Layout
+                                <span class="detail">Chicago, Londoner, Madrid and Greek layout and premade templates. </span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>All Templates & Layouts
-                                <span class="detail">All layouts and templates are unlocked.</span>
+                                <span class="detail">All layouts and premade templates are unlocked.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>All Templates & Layouts
-                                <span class="detail">All layouts and templates are unlocked.</span>
+                                <span class="detail">All layouts and premade templates are unlocked.</span>
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -318,19 +381,31 @@
                             </th>  
                             <td class="expand-child">
                                 <span class="full"></span>Embed Anywhere
-                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    - Content hosted on Outgrow domain [yourcompany.outgrow.co] <br/>
+                                    - Can be embedded on any webpage.
+                                </span>
                             </td>   
                             <td class="expand-child">
                                 <span class="full"></span>Embed Anywhere
-                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    - Content hosted on Outgrow domain [yourcompany.outgrow.co] <br/>
+                                    - Can be embedded on any webpage.
+                                </span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>Embed Anywhere
-                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    - Content hosted on Outgrow domain [yourcompany.outgrow.co] <br/>
+                                    - Can be embedded on any webpage.
+                                </span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Embed & Custom Domain
-                                <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    - Content hosted on your company domain via CNAME [yourcompany.com] <br/>
+                                    - Can be embedded on any webpage.
+                                </span>
                             </td>                    
                         </tr>
                         <!-- <tr class="expand">
@@ -372,7 +447,7 @@
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
-                                <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
+                                <span class="detail">Add bar graphs, polar/radar graphs, pie charts, line graphs and tables to your content. </span>
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -402,19 +477,37 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                </span>
                             </td>
                             <td class="expand-child">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                </span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="half"></span>Standard Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small Outgrow logo will appear.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your font </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                </span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. You can also remove the Outgrow Logo.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your font </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                </span>
                             </td>
                         </tr>
                         <tr class="expand">
@@ -425,19 +518,35 @@
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Integrations
-                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small><br>
+                                </span>
                             </td>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Integrations
-                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small>
+                                </span>
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Standard Integrations
-                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small><br>                                    
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add each segment to a specific email campaign or list </small>
+                                </span>
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Advanced Integrations
-                                <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add each segment to a specific email campaign or list </small>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate user responses and results</small>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Webhooks </small>
+                                </span>
                             </td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -554,19 +663,38 @@
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">No access to logic jump, but can use outcome mapping in quiz.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                </span>                        
                             </td>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                </span>  
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="full"></span>Full Access
-                                <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                </span>  
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Full Access
-                                <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                </span>  
                             </td>
                         </tr>
                         <tr class="expand">
@@ -577,19 +705,42 @@
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Access
-                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                </span>  
                             </td>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Access
-                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                </span>  
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Standard Access
-                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                </span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Advanced Access
-                                <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>User & Question Funnels </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Customize FB and Google Pixel </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Custom Tracking Script </small>
+                                </span>  
                             </td>
                         </tr>
                         <tr class="expand">
@@ -600,19 +751,35 @@
                             </th>
                             <td class="expand-child">
                                 <span class="none"></span>No Access
-                                <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No access </small>
+                                </span> 
                             </td>   
                             <td class="expand-child">
                                 <span class="none"></span>No Access
-                                <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No access </small>
+                                </span>  
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">Access to conditional messaging.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional messaging </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Launch in Email (Allows you to ask the first question directly in an email) </small>
+                                </span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Advanced Access
-                                <span class="detail">Access to conditional messaging, email embeds, email validation, custom HTML/CSS/JS and custom notifications.</span>
+                                <span class="detail">
+                                <small><i class="material-icons"> keyboard_arrow_right</i>Conditional messaging </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Launch in Email (Allows you to ask the first question directly in an email) </small>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Custom email notification to team </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Email validation </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Html editor </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>CSS Editor </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Custom html </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Custom javascript </small><br/>
+                                </span> 
                             </td>        
                         </tr>
                         <tr class="expand">
@@ -623,19 +790,19 @@
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Support Docs
-                                <span class="detail">You will have access to support docs.</span>                             
+                                <span class="detail">You will have access to support docs and live chat as well as email support. We will try to answer all questions within 3 days.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Support Docs
-                                <span class="detail">You will have access to support docs.</span>                             
+                                <span class="detail">You will have access to support docs and live chat as well as email support. We will try to answer all questions within 3 days.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Basic
-                                <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
+                                <span class="detail">You will have access to support docs, live chat as well as email support. We will try to answer all questions within 48 hours.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Priority
-                                <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
+                                <span class="detail">You will have access to support docs, live chat as well as email and phone support. We will try to answer all questions within 24 hours.</span>                             
                             </td>
                         </tr>
                     </tbody>
@@ -1463,12 +1630,46 @@
 
                 <!-- end: for responsive -->
             </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 np enterprise-startup">            
+                <div class="container">
+                    <div class="col-md-7 col-sm-12 col-xs-12 np">
+                        <div class="enterprise-box-v2 text-center enterprise-agency-box ">
+                            <img src="{{ $page->baseUrl }}/images/icon-enterprise.png"/>
+                            <h2 class="title">Enterprise & Agency Plans</h2>
+                            <!-- <span class="border-center"></span> -->
+                            <span class="subtitle">Need Enterprise grade features?</span>
+                            <p>
+                                Made for larger midmarket, enterprise businesses and agencies, these plans
+                                give you advanced access with a dedicated account manager. API access,
+                                custom templates, consulting and team training.
+                            </p>
+                            <button class="ic-launcher btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">Contact us</button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12 col-xs-12 np">
+                        <div class="enterprise-box-v2 text-center startup-box">
+                            <img src="{{ $page->baseUrl }}/images/icon-startup.png"/>
+                            <!-- <h2 class="title">Enterprise & Agency Plans</h2> -->
+                            <!-- <span class="border-center"></span> -->
+                            <span class="subtitle">Are you a Startup or small business?</span>
+                            <p>
+                                See if you qualify for our small business
+                                incentive package and a
+                                custom plan!
+                            </p>
+                            <button class="ic-launcher btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-md-12 col-sm-12 col-xs-12 np create-exp" id="target">
                 <div class="container">
                     <h4>Don't have time? Let's build one for you!</h4>
                     <div class="col-md-3 col-sm-3 col-xs-12 np">
-                        <h5><img src="{{ $page->baseUrl }}/images/icon-create-custom.png">We'll Create </h5>
-                        <span class="calc">Calculator/Quiz/Outcome/Poll/eCommerce</span>
+                        <h5><img src="{{ $page->baseUrl }}/images/icon-create-custom1.png">We'll Create </h5>
+                        <span class="calc">Calculator/Quiz/Chatbot/Poll/Ecom Rec.</span>
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-12 np text-center create-exp-center">
                         <span class="create-exp-start">Starting From </span>
@@ -1481,7 +1682,7 @@
                     <!-- <button class="closeDiv"><i class="material-icons">cancel</i></button> -->
                 </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
+            <!-- <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
                 <div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
                     <span class="">
                         <i class="material-icons">headset_mic</i>need enterprise grade features? Contact us.
@@ -1499,7 +1700,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
