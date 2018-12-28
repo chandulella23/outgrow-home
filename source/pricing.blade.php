@@ -382,29 +382,29 @@
                             <td class="expand-child">
                                 <span class="full"></span>Embed Anywhere
                                 <span class="detail">
-                                    - Content hosted on Outgrow domain [yourcompany.outgrow.co] <br/>
-                                    - Can be embedded on any webpage.
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
                                 </span>
                             </td>   
                             <td class="expand-child">
                                 <span class="full"></span>Embed Anywhere
                                 <span class="detail">
-                                    - Content hosted on Outgrow domain [yourcompany.outgrow.co] <br/>
-                                    - Can be embedded on any webpage.
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
                                 </span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>Embed Anywhere
                                 <span class="detail">
-                                    - Content hosted on Outgrow domain [yourcompany.outgrow.co] <br/>
-                                    - Can be embedded on any webpage.
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
                                 </span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Embed & Custom Domain
                                 <span class="detail">
-                                    - Content hosted on your company domain via CNAME [yourcompany.com] <br/>
-                                    - Can be embedded on any webpage.
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on your company domain via CNAME [yourcompany.com]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
                                 </span>
                             </td>                    
                         </tr>
