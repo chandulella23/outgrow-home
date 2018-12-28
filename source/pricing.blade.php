@@ -305,11 +305,11 @@
                             <td class="active-bg">
                                 <span class="full"></span>Unlimited
                                 <!-- <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span> -->
-                                <span class="detail">You can build an unlimited number of content with this plan. </td>
+                                <span class="detail">You can build an unlimited amount of content with this plan. </td>
                             <td>
                                 <span class="full"></span>Unlimited
                                 <!-- <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span> -->
-                                <span class="detail">You can build an unlimited number of content with this plan. </td>
+                                <span class="detail">You can build an unlimited amount of content with this plan. </td>
                             </td>
                         </tr>
                         <tr class="expand">
