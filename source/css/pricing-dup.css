@@ -897,7 +897,7 @@ label {
 /* FAQ & accordion css */
 
 #pricing .section-faq {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0;
     background: #fff;
     padding-top: 70px;
