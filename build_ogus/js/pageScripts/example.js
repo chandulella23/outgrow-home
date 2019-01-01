@@ -408,7 +408,6 @@ function renderPremadeCalcs(responseText) {
             calc['type'] = getCalcType(calc['type']);
         });
 
-
         window.specialEvents.forEach(sevent => {
             if (sevent.launch_date !== null) {
                 let launch_date = new Date(sevent.launch_date);
@@ -422,7 +421,8 @@ function renderPremadeCalcs(responseText) {
                     Link: '',
                     Image: sevent.media ? sevent.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
                     Description: sevent.description,
-                    EventName: sevent.event_name
+                    EventName: sevent.event_name,
+                    color: sevent.color
                 };
                 window.events.push(ev);
             }
