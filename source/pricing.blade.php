@@ -198,7 +198,7 @@
                         <tr class="expand">
                             <th>
                                 <!-- <i class="material-icons vis-hide">add</i>  -->
-                                Type of content <i class="material-icons">help</i>
+                                Type of Content <i class="material-icons">help</i>
                             </th>
                             <td>
                                 <span class="quater"></span>Quiz only
@@ -833,7 +833,7 @@
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
-                                    <span class="feature-title">Type of content <i class="material-icons">help</i></span>
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>Quiz only</span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
@@ -1063,7 +1063,7 @@
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
-                                    <span class="feature-title">Type of content <i class="material-icons">help</i></span>
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>Quiz, Calc, Ecom </span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
@@ -1298,7 +1298,7 @@
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
-                                    <span class="feature-title">Type of content <i class="material-icons">help</i></span>
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>All </span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
@@ -1543,7 +1543,7 @@
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
-                                    <span class="feature-title">Type of content <i class="material-icons">help</i></span>
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>All </span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
