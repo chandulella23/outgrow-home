@@ -87053,3 +87053,13 @@ ul.pre-temp-list li.active > a, ul.pre-temp-list li a:hover{color: #4894ca; tran
         color: #84898d;
     }
 /* end custom selectize */
+.example-calc-outer {
+    float: left;
+    width: 100%;
+}
+.example-calc-outer .sec-outgrowMagic-title {
+    margin-bottom: 0px;
+}
+section.section.example-calc {
+    margin-bottom: 0px;
+}
