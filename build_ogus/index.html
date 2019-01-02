@@ -29,6 +29,7 @@
 
 		<link rel="stylesheet" href="/css/allPage_minified.css">
 	<link rel="stylesheet" href="/css/navbar.css">
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
 
 	<!-- Page hiding snippet (recommended)  -->
 <style>.async-hide { opacity: 0 !important} </style>
@@ -1053,6 +1054,187 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		</div>
 	</section>
 	<!-- Homepage section 6 end-->
+	<div class="example-calc-outer">
+		<section class="section section-5 sec-outgrowMagic-title">
+			<div class="container mobile-container">
+				<div class="section-2-heading mk-animate-element scale-up fnt-chnge uppercase">
+					Interactive Content Examples in Your Industry! 
+				</div>
+				<h5 class="section-2-subheading mk-animate-element scale-up">
+					Customise these templates to boost your marketing and engage your customers!
+				</h5>
+			</div>
+		</section>
+
+		<!-- start: example calc -->
+		<section class="section example-calc">
+			<div id="premade-loader-new" class="preloader">
+				<div class="status">&nbsp;</div>
+			</div>
+			<div id="premade-content-new" class="tab-section hide">
+				<div class="container-fluid">
+					<!-- Tab panes -->
+					<div class="tab-content usecase">
+						<div role="tabpanel" class="tab-pane active" id="numeric-calc">
+							<div class="col-md-12 col-sm-12 col-xs-12 new-cards-section pre-card">
+								<!-- <div class="preloader">
+									<div class="status">&nbsp;</div>
+								</div> -->
+								<div class="premade-template-new">
+									<div class="search-input">
+										<!-- <h4>Select Your Industry</h4> -->
+										<div class="input-group">
+											<i class="material-icons">search</i>
+											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
+										</div>
+										<div class="no-search hide">
+											<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
+										</div>
+									</div>
+									<div class="premade-template-left">
+
+										<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats" data-simplebar data-simplebar-auto-hide="false">
+											<li class="active">
+												<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="MarketingAdvertising"
+												onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="HealthFitness"
+												onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Legal"
+												onclick="shuffleCalcs('Legal')">Legal</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Quintessential"
+												onclick="shuffleCalcs('Quintessential')">Quintessential</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="RealEstateConstruction"
+												onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
+													Construction</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Funnels" onclick="shuffleCalcs('Funnels')">
+												Funnels
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">
+												Trending
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Technology"
+												onclick="shuffleCalcs('Technology')">Technology</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Travel"
+												onclick="shuffleCalcs('Travel')">Travel</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="Publishing"
+												onclick="shuffleCalcs('Publishing')">Publishing</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)" id="TVandEntertainment"
+												onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
+											</li>
+										</ul>
+										<div class="form-group col-xs-12 np">
+											<div class="selectize selectize-wrapper">
+												<select id="select-list" placeholder="Select List">
+													<option value="Auto">Auto</option>
+													<option value="Education">Education</option>
+													<option value="Education">Education</option>
+													<option value="HealthFitness">Health & Fitness</option>
+													<option value="Quintessential">Quintessential</option>
+													<option value="RealEstateConstruction">Real Estate & Construction</option>
+													<option value="MarketingAdvertising">Technology</option>
+													<option value="Publishing">Publishing</option>
+													<option value="Travel">Travel</option>
+													<option value="TVandEntertainment">TV and Entertainment</option>
+													<option value="Trending">Trending</option>
+
+												</select>
+											</div>
+										</div>
+									</div>
+										<div class="pre-temp-cont pre-temp-cont-new"> 
+										<ul class="pre-temp-list" id="gallery-content-center">
+
+											<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
+											</li>
+											<li class="All Financia filter-all filter-auto" id="calc-early-payment">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-early-payment')">Early Payment Calculator</a>
+											</li>
+											<li class="All Math filter-all filter-auto" id="calc-downpayment">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-downpayment')">How much should I put down?</a>
+											</li>
+											<li class="All Others filter-all filter-education" id="calc-student-budget"> 
+												<a href="javascript:void(0)" onclick="markAsActive('calc-student-budget')">Student Budget Calculator</a>
+											</li>
+											<li class="All Math filter-all filter-education" id="calc-harward-score">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-harward-score')">What is a good enough score to get into Harvard with your background?</a>
+											</li>
+											<li class="All Math filter-all filter-finance" id="calc-home-budget">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-home-budget')">Home Budget Calculator</a>
+											</li>
+											<li class="All Others filter-all filter-health" id="calc-weight-loss">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-weight-loss')">Weight Loss Calculator</a>
+											</li>
+											<li class="All Financial filter-all filter-publishing" id="calc-trump-plan">
+												<a href="javascript:void(0)" onclick="markAsActive('calc-trump-plan')">How will Trump's tax plan affect you?</a>
+											</li> -->
+										</ul>
+										<div class="pre-temp-view">
+											<!-- <div class="tag-exp"><i class="material-icons">star_rate</i><span class="tag-exp-text"> Customisable for the Auto Industry</span></div> -->
+											<div class="temp-preview">
+												<span class="image-bg1">
+													<span class="image-scroll1">
+														<img id="premade-gif" src="https://dzvexx2x036l1.cloudfront.net/calc_images/auto+loan+calculator.gif" />
+													</span>
+												</span>
+												<div class="content temp-info">
+													<h3>
+														<p id="premade-calc-name">
+															<i class="material-icons">&#xE80E;</i>
+															AUTO LOAN CALCULATOR
+														</p>
+														<span id="premade-calc-layout">
+															<strong>Layout:</strong> 
+															The Londoner 
+														</span>
+													</h3>
+													<a id="premade-preview-link" class="btn btn-red btn-hover" target="_blank" href="https://premade.outgrow.us/Auto-Loan-Calc">Preview</a>
+													<a class="btn btn-red btn-hover" href="//app.outgrow.co/signup">Build your own</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- <div class="no-match-found hide">
+										<div class="no-match-found-inner"><i class="material-icons">warning</i>No Matches found!</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end: example calc -->
+	</div>
 
 	<!-- Homepage The Outgrow Magic -->
 	<div class="section-main">
@@ -1911,6 +2093,108 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 		var head = document.querySelector('head');
 		head.appendChild(gridJS);
+		function getTemplateName(template) {
+			let templates = [{
+				id: 'template-eight',
+				text: 'The Venice'
+			},
+			{
+				id: 'template-seven',
+				text: 'The Seattle'
+			}, {
+				id: 'one-page-card-new',
+				text: 'The Chicago'
+			},
+			{
+				id: 'sound-cloud-v3',
+				text: 'The Londoner'
+			}, {
+				id: 'inline-temp-new',
+				text: 'The Greek'
+			},
+			{
+				id: 'experian',
+				text: 'The Tokyo'
+			}, {
+				id: 'template-five',
+				text: 'The Madrid'
+			},
+			{
+				id: 'template-six',
+				text: 'The Stockholm'
+			}
+			];
+			return templates.find(t => t.id.includes(template));
+		}
+		function getCalcType(type) {
+			if (type === 'Calculator') {
+				return 'CALC';
+			} else if (type === 'Poll') {
+				return 'POLL';
+			} else if (type.toLowerCase().includes('graded')) {
+				return 'TEST';
+			} else if (type.toLowerCase().includes('outcome')) {
+				return 'QUIZ';
+			} else if (type.toLowerCase().includes('com')) {
+				return 'ECOM'
+			}
+		}
+		window.onload = function () {
+				let http = new XMLHttpRequest();
+				let url1 = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+				http.open("POST", url1, true);
+
+				http.onreadystatechange = function () {
+					if (http.readyState === 4 && http.status === 200) {
+						console.log("@@@@@@@@@@@@@@!!!!!!!!!!1")
+						let res = JSON.parse(http.responseText);
+						window.calcs = res.data.calculators;
+						window.industries = res.data.industries;
+						window.specialEvents = res.data.events;
+						let trendingC = [];
+						window.events = [];
+						var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+						window.calcs.forEach(calc => {
+							if (calc.industry === "Trending") {
+								if (trendingC.length !== 6)
+									trendingC.push(calc);
+							}
+
+							calc['GIF'] = calc.media;
+							calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+							calc['Name'] = calc.title;
+							calc['id'] = 'id' + calc._id;
+							calc['Description'] = calc.description;
+							let layout = getTemplateName(calc.template);
+							calc['Layout'] = layout ? layout.text : 'Stockholm';
+							calc['Published Link'] = calc.liveApp.url;
+							calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+							if (calc.launch_date !== null) {
+								let launch_date = new Date(calc.launch_date);
+								let day = launch_date.getUTCDate();
+								let month = launch_date.getUTCMonth();
+								let year = launch_date.getUTCFullYear();
+								let ev = {
+									Date: new Date(year, month, day),
+									id: calc._id,
+									Title: calc.title,
+									Link: '',
+									Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+									Description: calc.Description,
+									EventName: calc.event_name
+								};
+								// window.events.push(ev);
+							}
+							calc['type'] = getCalcType(calc['type']);
+						});
+						jQuery('.preloader').addClass('hide');
+						jQuery('#premade-content-new').removeClass('hide')
+						setPremade();
+						shuffleCalcs('Auto');
+					}
+				};
+				http.send();
+            }
 	</script>
 
 	<!--section testimonial -->
@@ -2095,6 +2379,33 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			</div>
 		</div>
 	</div> -->
+	<script>
+	function debounced(delay, fn) {
+			let timerId;
+			return function (...args) {
+				if (timerId) {
+					clearTimeout(timerId);
+				}
+				timerId = setTimeout(() => {
+					fn(...args);
+					timerId = null;
+				}, delay);
+			}
+		}
+
+		window.filterList = function () {
+			let list = jQuery('#calc-cats').children();
+			list.each(function (index) {
+				jQuery(this).removeClass('active');
+			});
+			debounced(500, searchCalc)();
+		}
+		window.searchList = function (event) {
+			if (event.keyCode === 13) {
+				filterList();
+			}
+		}
+	</script>
 
 			<section class="section section-14 hide" id="footer">
 	<div class="container">
@@ -2427,6 +2738,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		"index": "/js/pageScripts/index.js",
 		"navbar": "/js/pageScripts/navbar.js",
 		"resizer": "/js/loader/resizer.js",
+		"simplebar": "https://unpkg.com/simplebar@latest/dist/simplebar.js",
 	}
 ;
 
