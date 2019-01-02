@@ -1767,6 +1767,108 @@
 
 		var head = document.querySelector('head');
 		head.appendChild(gridJS);
+		function getTemplateName(template) {
+			let templates = [{
+				id: 'template-eight',
+				text: 'The Venice'
+			},
+			{
+				id: 'template-seven',
+				text: 'The Seattle'
+			}, {
+				id: 'one-page-card-new',
+				text: 'The Chicago'
+			},
+			{
+				id: 'sound-cloud-v3',
+				text: 'The Londoner'
+			}, {
+				id: 'inline-temp-new',
+				text: 'The Greek'
+			},
+			{
+				id: 'experian',
+				text: 'The Tokyo'
+			}, {
+				id: 'template-five',
+				text: 'The Madrid'
+			},
+			{
+				id: 'template-six',
+				text: 'The Stockholm'
+			}
+			];
+			return templates.find(t => t.id.includes(template));
+		}
+		function getCalcType(type) {
+			if (type === 'Calculator') {
+				return 'CALC';
+			} else if (type === 'Poll') {
+				return 'POLL';
+			} else if (type.toLowerCase().includes('graded')) {
+				return 'TEST';
+			} else if (type.toLowerCase().includes('outcome')) {
+				return 'QUIZ';
+			} else if (type.toLowerCase().includes('com')) {
+				return 'ECOM'
+			}
+		}
+		window.onload = function () {
+				let http = new XMLHttpRequest();
+				let url1 = 'https://api.outgrow.co/api/v1/admin/getCalculators';
+				http.open("POST", url1, true);
+
+				http.onreadystatechange = function () {
+					if (http.readyState === 4 && http.status === 200) {
+						console.log("@@@@@@@@@@@@@@!!!!!!!!!!1")
+						let res = JSON.parse(http.responseText);
+						window.calcs = res.data.calculators;
+						window.industries = res.data.industries;
+						window.specialEvents = res.data.events;
+						let trendingC = [];
+						window.events = [];
+						var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+						window.calcs.forEach(calc => {
+							if (calc.industry === "Trending") {
+								if (trendingC.length !== 6)
+									trendingC.push(calc);
+							}
+
+							calc['GIF'] = calc.media;
+							calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+							calc['Name'] = calc.title;
+							calc['id'] = 'id' + calc._id;
+							calc['Description'] = calc.description;
+							let layout = getTemplateName(calc.template);
+							calc['Layout'] = layout ? layout.text : 'Stockholm';
+							calc['Published Link'] = calc.liveApp.url;
+							calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+							if (calc.launch_date !== null) {
+								let launch_date = new Date(calc.launch_date);
+								let day = launch_date.getUTCDate();
+								let month = launch_date.getUTCMonth();
+								let year = launch_date.getUTCFullYear();
+								let ev = {
+									Date: new Date(year, month, day),
+									id: calc._id,
+									Title: calc.title,
+									Link: '',
+									Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+									Description: calc.Description,
+									EventName: calc.event_name
+								};
+								// window.events.push(ev);
+							}
+							calc['type'] = getCalcType(calc['type']);
+						});
+						jQuery('.preloader').addClass('hide');
+						jQuery('#premade-content-new').removeClass('hide')
+						setPremade();
+						shuffleCalcs('Auto');
+					}
+				};
+				http.send();
+            }
 	</script>
 
 	<!--section testimonial -->
@@ -1951,6 +2053,33 @@
 			</div>
 		</div>
 	</div> -->
+	<script>
+	function debounced(delay, fn) {
+			let timerId;
+			return function (...args) {
+				if (timerId) {
+					clearTimeout(timerId);
+				}
+				timerId = setTimeout(() => {
+					fn(...args);
+					timerId = null;
+				}, delay);
+			}
+		}
+
+		window.filterList = function () {
+			let list = jQuery('#calc-cats').children();
+			list.each(function (index) {
+				jQuery(this).removeClass('active');
+			});
+			debounced(500, searchCalc)();
+		}
+		window.searchList = function (event) {
+			if (event.keyCode === 13) {
+				filterList();
+			}
+		}
+	</script>
 @endsection
 
 @section('inlinescripts')
