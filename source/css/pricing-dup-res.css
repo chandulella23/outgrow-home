@@ -440,7 +440,8 @@
 	.create-exp-center {
 		margin: 0px 0 25px; width: 100%;
 	}
-	.create-exp .container, .create-exp .container .col-md-2 {width: 100%;     text-align: center;}
+	.create-exp .container, .create-exp .container .col-md-2 {width: 100%; text-align: center;}
+	ul li span small {display: inline-block;}
 
 
 }
