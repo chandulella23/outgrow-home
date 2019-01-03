@@ -665,7 +665,7 @@
                                 <span class="quater"></span>Limited Access
                                 <span class="detail">
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
-                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
                                 </span>                        
                             </td>
@@ -673,7 +673,7 @@
                                 <span class="quater"></span>Limited Access
                                 <span class="detail">
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
-                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br/>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
                                 </span>  
@@ -790,11 +790,11 @@
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Support Docs
-                                <span class="detail">You will have access to support docs and live chat as well as email support. We will try to answer all questions within 3 days.</span>                             
+                                <span class="detail">You will have access to support docs and live chat.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Support Docs
-                                <span class="detail">You will have access to support docs and live chat as well as email support. We will try to answer all questions within 3 days.</span>                             
+                                <span class="detail">You will have access to support docs and live chat.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Basic
@@ -997,7 +997,7 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
-                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes </small><br>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
                                     </span>
                                 </li>
@@ -1031,7 +1031,7 @@
                                         Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
-                                    <span class="detail">You will have access to support docs and live chat as well as email support. We will try to answer all questions within 3 days.</span>
+                                    <span class="detail">You will have access to support docs and live chat.</span>
                                 </li>
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
@@ -1229,7 +1229,7 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
-                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes</small><br>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
                                     </span>
@@ -1264,7 +1264,7 @@
                                         Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
-                                    <span class="detail">You will have access to support docs and live chat as well as email support. We will try to answer all questions within 3 days.</span>
+                                    <span class="detail">You will have access to support docs and live chat.</span>
                                 </li>
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
