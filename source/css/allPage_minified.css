@@ -87075,3 +87075,8 @@ ul.pre-temp-list li a small {
     border-radius: 20px;
     line-height: normal;
 }
+ul.pre-temp-list li a span {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
