@@ -86511,7 +86511,7 @@ body.icaq.footer-cookies {
     z-index: 9;
     text-align: center;
     margin-top: 120px;
-    margin-bottom: 80px;
+    margin-bottom: 220px;
 }
 #premade-loader-new.preloader .white-wrapper {
     display: inline-block;
@@ -87067,4 +87067,21 @@ ul.pre-temp-list li.active > a, ul.pre-temp-list li a:hover{color: #4894ca; tran
 }
 section.section.example-calc {
     margin-bottom: 0px;
+}
+ul.pre-temp-list li a small {
+    font-size: 8px;
+    color: #666666;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    padding: 4px 10px;
+    float: left;
+    width: auto;
+    background: #f5f5f5;
+    border-radius: 20px;
+    line-height: normal;
+}
+ul.pre-temp-list li a span {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
 }
