@@ -1806,7 +1806,7 @@
                                 incentive package and a
                                 custom plan!
                             </p>
-                            <button class="ic-launcher btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">Apply Now</button>
+                            <button class="ic-launcher btn btn-white-red-outline btn-hover" onclick="sendMessageToIntercom('I am on your pricing page and am interested to see if I qualify for your small business incentive program as I would like a special deal. Do I satisfy your business program criteria ?')" id="intercom_trigger">Apply Now</button>
                         </div>
                     </div>
                 </div>
