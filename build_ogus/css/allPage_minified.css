@@ -81219,7 +81219,7 @@ span.live-demo a {
 
 .case-breathers {
     background: #f3f8fb;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-top: 30px;
 }
 
@@ -81585,8 +81585,8 @@ span.bottom-figure-content {
 
 .arrow_box {
     position: relative;
-    background: #fff;
-    min-width: 145px;
+    background: transparent;
+    min-width: 142px;
     float: left;
     border-radius: 5px;
     margin: 0 15px 0 15px;
@@ -82371,7 +82371,7 @@ span.recom {
 
 .over1 {
     position: absolute;
-    left: 2px;
+    left: 1px;
     top: 1px;
     display: none;
 }
@@ -82382,7 +82382,7 @@ span.recom {
 
 .over2 {
     position: absolute;
-    left: 2px;
+    left: 1px;
     top: 1px;
     display: none;
 }
@@ -82393,7 +82393,7 @@ span.recom {
 
 .over3 {
     position: absolute;
-    left: 2px;
+    left: 1px;
     top: 1px;
     display: none;
 }
@@ -82404,7 +82404,7 @@ span.recom {
 
 .over4 {
     position: absolute;
-    left: 2px;
+    left: 1px;
     top: 1px;
     display: none;
 }
@@ -82474,7 +82474,7 @@ span.recom {
 
 .free-trail {
     margin: 0!important;
-    margin-top: 30px !important;
+    margin-top: 0px !important;
 }
 
 .start-trial-cta .btn-buildcal1 {
@@ -84980,6 +84980,11 @@ blockquote span.quote-right1 {
 .section-reviews {
     margin-top: 30px;
     /* margin-bottom: 70px; */
+    background: #f3f8fb;
+    margin-top: 20px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
 }
 .section-2-heading span {
     font-family: montserratsemibold;
@@ -85334,7 +85339,7 @@ i.zmdi.zmdi-twitter-box {
 
 .arrow_box:hover img,
 .testactive img.over {
-    outline: 1px solid white;
+    outline: 1px solid transparent;
 }
 
 
