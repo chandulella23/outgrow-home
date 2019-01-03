@@ -930,7 +930,7 @@
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<div class="section-2-heading">
-					Outgrow In Practice
+					Outgrow embeds in Practice
 				</div>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
 					Presenting our highly optimized design layouts
