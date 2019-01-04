@@ -1,5 +1,5 @@
 .event-calendar {
-    margin: 150px 100px 120px;
+    margin: 150px 42px 120px;
 }
 .event-calendar h3 {
     font-size: 24px;
@@ -80,4 +80,25 @@
 }
 li.cld-day.currMonth.today {
     background: #fb5f66;
+}
+
+.event_box {
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    max-width: 125px;
+    text-align: left;
+    padding: 4px 7px;
+    font-family: montserratlight;
+    line-height: initial;
+}
+.event_blue {
+    background: #00afe1;
+}
+.event_purple {
+    background: #e16bdd;
+}
+.event_gold {
+    background: #ffb311;
 }

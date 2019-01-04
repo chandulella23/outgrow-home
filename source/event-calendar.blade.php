@@ -50,6 +50,7 @@
 	<div class="container mobile-container">
     	<div id="calendar" class="event-calendar"> 
 			<h3>Social Media #Hack Calendar</h3>
+			<div class="event_box event-blue">Event 1: Lorem ipsum dolor </div>
 		</div>
 	</div>
 </div>
