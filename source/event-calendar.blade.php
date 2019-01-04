@@ -34,6 +34,7 @@
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/event-calendar.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/selectize.default.css">	
 	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
 
@@ -46,7 +47,11 @@
 
 @section('content')
 <div class="section-main sec-example">
-    <div id="calendar" style="margin-top: 150px;"> </div>
+	<div class="container mobile-container">
+    	<div id="calendar" class="event-calendar"> 
+			<h3>Social Media #Hack Calendar</h3>
+		</div>
+	</div>
 </div>
 @endsection
 
