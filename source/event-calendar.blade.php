@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@section('title', 'Event Calendar | Outgrow')
+@section('title', 'Examples | Outgrow')
 
 @section('metaDescription')
 	<meta name="description" content="Services, SAAS, Education, Healthcare, Construction, Travel & Hospitality, Finance, Manufacturing, Publishing. There is a Calculator for that!"/>
@@ -21,6 +21,81 @@
 
 @section('inlinescripts')
 	<script type="text/javascript" src="{{ $page->baseUrl }}/js/ideagen/selectize.min.js"></script>
+	<script src='https://momentjs.com/downloads/moment.min.js'></script>
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js'></script>
+	<script>
+		$(document).ready(function() {
+
+$('#calendar').fullCalendar({
+  header: {
+	left: 'prev,next today',
+	center: 'title',
+	right: 'month,basicWeek,basicDay'
+  },
+  defaultDate: '2018-03-12',
+  navLinks: true, // can click day/week names to navigate views
+  editable: true,
+  eventLimit: true, // allow "more" link when too many events
+  events: [
+	{
+	  title: 'All Day Event',
+	  start: '2018-03-01'
+	},
+	{
+	  title: 'Long Event',
+	  start: '2018-03-07',
+	  end: '2018-03-10'
+	},
+	{
+	  id: 999,
+	  title: 'Repeating Event',
+	  start: '2018-03-09T16:00:00'
+	},
+	{
+	  id: 999,
+	  title: 'Repeating Event',
+	  start: '2018-03-16T16:00:00'
+	},
+	{
+	  title: 'Conference',
+	  start: '2018-03-11',
+	  end: '2018-03-13'
+	},
+	{
+	  title: 'Meeting',
+	  start: '2018-03-12T10:30:00',
+	  end: '2018-03-12T12:30:00'
+	},
+	{
+	  title: 'Lunch',
+	  start: '2018-03-12T12:00:00'
+	},
+	{
+	  title: 'Meeting',
+	  start: '2018-03-12T14:30:00'
+	},
+	{
+	  title: 'Happy Hour',
+	  start: '2018-03-12T17:30:00'
+	},
+	{
+	  title: 'Dinner',
+	  start: '2018-03-12T20:00:00'
+	},
+	{
+	  title: 'Birthday Party',
+	  start: '2018-03-13T07:00:00'
+	},
+	{
+	  title: 'Click for Google',
+	  url: 'http://google.com/',
+	  start: '2018-03-28'
+	}
+  ]
+});
+});
+	</script>
 @endsection
 
 @section('css')
@@ -32,11 +107,15 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/home-responsive.css">
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/stylesheet.min.css" type="text/css" media='all'  />
 	<link rel='stylesheet' href="{{ $page->baseUrl }}/css/js_composer.mina752.css?ver=4.11.2.1" type='text/css' media='all' />
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase.css">
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/animated-masonry-gallery.css" type="text/css" />
+	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/useCase-responsive.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
-	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/event-calendar.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/selectize.default.css">	
 	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' rel='stylesheet' />
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css' rel='stylesheet' media='print' />	
 
 
 @endsection
@@ -46,12 +125,9 @@
 @section('pageId', '')
 
 @section('content')
-<div class="section-main sec-example">
+<div class="section-main sec-example" style="margin-top: 100px">
 	<div class="container mobile-container">
-    	<div id="calendar" class="event-calendar"> 
-			<h3>Social Media #Hack Calendar</h3>
-			<div class="event_box event-blue">Event 1: Lorem ipsum dolor </div>
-		</div>
+		<div id='calendar' class="event-calendar"></div>
 	</div>
 </div>
 @endsection
@@ -59,9 +135,8 @@
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"calendar": "{{ $page->baseUrl }}/js/pageScripts/calendar.js",
+		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
 		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
-		"examples": "{{ $page->baseUrl }}/js/pageScripts/example.js",
 		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
 		"simplebar": "https://unpkg.com/simplebar@latest/dist/simplebar.js",
 	}
