@@ -1,5 +1,5 @@
 .event-calendar {
-    margin: 150px 42px 120px;
+    margin: 150px 40px 120px;
 }
 .event-calendar h3 {
     font-size: 24px;
@@ -72,6 +72,7 @@
 }
 .fc-scroller.fc-day-grid-container {
     background: url(../images/event-calendar-bg.png) no-repeat 82px 72px;
+    height: 100% !important;
 }
 .cld-day.today .cld-number {
     margin: 4px auto 8px;
@@ -148,10 +149,12 @@ padding: 0 15px;
     border-bottom-left-radius: 2px;
 }
 .fc-month-button{
+    color: rgb( 251, 95, 102 );
+}
+button.fc-state-active {
     color: rgb( 251, 95, 102 )!important;
 }
-.fc-prev-button,.fc-next-button{
-
+.fc-prev-button,.fc-next-button {
     padding: 0 10px !important;
     display: flex;
     align-items: center;
@@ -182,6 +185,7 @@ padding: 0 15px;
     padding-left: 10px !important;
     padding-top: 10px !important;
     float:left!important;
+    text-decoration: none !important;
 }
 .fc-toolbar.fc-header-toolbar {
     margin-bottom: 20px;
@@ -208,7 +212,7 @@ color:white;
 .fc-day-grid-event .fc-time {
     font-weight: normal!important;
 }
-@media (min-width:320px) and (max-width:480px){
+@media (min-width: 320px) and (max-width: 480px){
    .fc-today-button,.fc-month-button,.fc-basicWeek-button,.fc-basicDay-button {
       
         display: none;
@@ -224,7 +228,7 @@ color:white;
     }
   
 }
-@media (min-width:320px) and (max-width:760px){
+@media (min-width: 320px) and (max-width: 768px) {
     .fc-day-number {
         font-size: 11px;
         padding-left: 6px !important;
@@ -232,15 +236,13 @@ color:white;
     }
     .fc-day-header {
         font-size: 11px;
-        padding-left: 6px !important;
-        
+        padding-left: 6px !important;        
     }
     .fc-center h2 {
-        font-size: 11px;
-        
+        font-size: 11px;        
     }
     .fc-icon-left-single-arrow::before,.fc-icon-right-single-arrow::before {
-        font-size: 12px;
+        font-size: 14px;
     }
     .fc-event {
         font-size: 10px;
@@ -248,15 +250,52 @@ color:white;
         line-height: 18px!important;
         padding: 0 4px;
     }
+    .event-calendar {
+        margin: 40px 0px 100px;
+    }
+    div.fc-basic-view .fc-body .fc-row {
+        height: auto !important;
+    }
+    .fc-scroller.fc-day-grid-container {
+        background-size: 80%;
+        background-position: 50% 25%;
+    }
+
 }
-@media (min-width:481px) and (max-width:760px){
+@media (min-width: 481px) and (max-width: 768px){
     .fc-button.fc-state-default {
         font-size: 11px;
         height: 28px;
         padding: 0 12px;
-}
-}
+    }
 
+}
+@media (min-width: 769px) and (max-width: 1023px){
+    .event-calendar {
+        margin: 100px 20px 100px;
+    }   
+    div.fc-basic-view .fc-body .fc-row {
+        height: auto !important;
+    } 
+    .fc-scroller.fc-day-grid-container {
+        background-size: 80%;
+        background-position: 50% 25%;
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1279px){
+    .fc-scroller.fc-day-grid-container {
+        background-size: 80%;
+        background-position: 50% 25%;
+    }
+
+}
+.fc-basic-view .fc-body .fc-row {
+    height: 100px !important;
+}
+.fc-day-header a {
+    color: #999;
+}
 
 
   
