@@ -26,69 +26,59 @@
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js'></script>
 	<script>
 		$(document).ready(function() {
+			function postRequest(url, data, options = {}) {
+				return fetch(url, Object.assign({
+					method: "POST", // *GET, POST, PUT, DELETE, etc.
+					mode: "cors", // no-cors, cors, *same-origin
+					cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+					credentials: "same-origin", // include, *same-origin, omit
+					headers: {
+						"Content-Type": "application/json; charset=utf-8"
+					},
+					redirect: "follow", // manual, *follow, error
+					referrer: "no-referrer", // no-referrer, *client
+					body: JSON.stringify(data), // body data type must match "Content-Type" header
+				}, options)).then(response => response.json())
+			};
 
-			$('#calendar').fullCalendar({
-				header: {
-					left: 'prev,next today',
-					center: 'title',
-					right: 'month,basicWeek,basicDay'
-				},
-				defaultDate: new Date(),
-				navLinks: true, // can click day/week names to navigate views
-				editable: true,
-				eventLimit: true, // allow "more" link when too many events
-				events: [
-					{
-						title: 'All Day Event',
-						start: '2019-01-01'
-					},
-					{
-						title: 'Long Event',
-						start: '2019-01-07',
-						end: '2019-01-10'
-					},
-					{
-						id: 999,
-						title: 'Repeating Event',
-						start: '2019-01-09T16:00:00'
-					},
-					{
-						id: 999,
-						title: 'Repeating Event',
-						start: '2019-01-16T16:00:00'
-					},
-					{
-						title: 'Conference',
-						start: '2019-01-11',
-						end: '2019-01-13'
-					},
-					{
-						title: 'Meeting',
-						start: '2019-01-12T10:30:00',
-						end: '2019-01-12T12:30:00'
-					},
-					{
-						title: 'Lunch',
-						start: '2019-01-12T12:00:00'
-					},
-					{
-						title: 'Meeting',
-						start: '2019-01-12T14:30:00'
-					},
-					{
-						title: 'Happy Hour',
-						start: '2019-01-12T17:30:00'
-					},
-					{
-						title: 'Dinner',
-						start: '2019-01-12T20:00:00'
-					},
-					{
-						title: 'Birthday Party',
-						start: '2019-01-13T07:00:00'
-					}
-				]
+			let host = window.location.hostname;
+			let url = 'https://api.outgrow.co/api/v1/admin/getEventsByDate';
+			if (host === 'rely.co' || host === 'localhost') {
+				url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getEventsByDate';
+			}
+			let response = postRequest(url, {
+				'date': new Date().toISOString(),
+				'operator': '$gte'
 			});
+			response.then((data) => {
+				let events = [];
+				if(data.data.count) {
+					data.data.events.forEach((ev) => {
+						let e = {
+							title: ev.event_name,
+							start: ev.launch_date.split('T')[0],
+							color: ev.color
+						}
+						events.push(e);
+					});
+				}
+				printCalendar(events);
+			});
+
+			function printCalendar(events) {
+				$('#calendar').fullCalendar({
+					header: {
+						left: 'prev,next today',
+						center: 'title',
+						right: 'month,basicWeek,basicDay'
+					},
+					defaultDate: new Date(),
+					navLinks: true, // can click day/week names to navigate views
+					editable: true,
+					eventLimit: true, // allow "more" link when too many events
+					events: events
+				});
+			}
 		});
 	</script>
 @endsection
@@ -110,7 +100,7 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/selectize.default.css">	
 	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
 	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' rel='stylesheet' />
-	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css' rel='stylesheet' media='print' />	
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.min.css' rel='stylesheet' media='print' />	
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/event-calendar.css">
 
 

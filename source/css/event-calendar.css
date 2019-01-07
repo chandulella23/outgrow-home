@@ -192,7 +192,7 @@ padding: 0 15px;
 .fc-unthemed td.fc-today .fc-day-number{
 color:white;
 }
-.fc-event, .fc-event-dot {
+.fc-event-dot {
     background-color: #e16bdd!important;
     border: 1px solid #e16bdd!important;
 }
