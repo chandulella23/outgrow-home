@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/allPage_minified.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 
  @section('pageClass', '')
@@ -930,7 +931,7 @@
 		<section class="section section-5 sec-outgrowMagic-title">
 			<div class="container mobile-container">
 				<div class="section-2-heading">
-					Outgrow embeds in Practice
+					Outgrow Embeds in Practice
 				</div>
 				<h5 class="section-2-subheading mk-animate-element scale-up">
 					Presenting our highly optimized design layouts
