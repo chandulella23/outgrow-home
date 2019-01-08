@@ -297,6 +297,6 @@ color:white;
     color: #999;
 }
 
-
-  
-
+.fc-day-grid-event .fc-content {
+    white-space: initial !important;
+}
