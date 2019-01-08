@@ -283,7 +283,7 @@ function renderBlogs(response) {
             post += `<div class="swiper-slide">
                         <div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
                                 <div class="recentNews-text">
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -293,7 +293,7 @@ function renderBlogs(response) {
             } else if(i % 3 == 1) {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -302,7 +302,7 @@ function renderBlogs(response) {
             } else {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>

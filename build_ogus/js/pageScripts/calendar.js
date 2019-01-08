@@ -61,7 +61,7 @@ var Calendar = function(model, options, date){
           rwd.className += " cld-rwd cld-nav";
           rwd.href = 'javascript:void(0)';
           rwd.addEventListener('click', function(){createCalendar(calendar, element, -1);} );
-          rwd.innerHTML = '<i class="material-icons">keyboard_arrow_left</i>';
+          rwd.innerHTML = '<i class="fa fa-angle-double-right fa-rotate-180" aria-hidden="true"></i>';
           datetime.appendChild(rwd);
         }
         var today = document.createElement('div');
@@ -73,7 +73,7 @@ var Calendar = function(model, options, date){
           fwd.className += " cld-fwd cld-nav";
           fwd.href = 'javascript:void(0)';
           fwd.addEventListener('click', function(){createCalendar(calendar, element, 1);} );
-          fwd.innerHTML = '<i class="material-icons">keyboard_arrow_right</i>';
+          fwd.innerHTML = '<i class="fa fa-angle-double-right" aria-hidden="true"></i>';
           datetime.appendChild(fwd);
         }
         if(calendar.Options.DatetimeLocation){
