@@ -1,0 +1,302 @@
+.event-calendar {
+    margin: 150px 40px 120px;
+}
+.event-calendar h3 {
+    font-size: 24px;
+    color: #61696c;
+}
+.cld-datetime .today {
+    font-size: 13px;
+    text-transform: none;
+    color: #fb5f66 !important;
+    position: absolute;
+}
+.cld-datetime {
+    border: none !important;
+    margin-bottom: 20px;
+}
+.cld-main a:nth-child(1) {
+    background: #fff;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #d7d7d7;
+    margin: 0;
+    border-radius: 2px 0px 0px 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.cld-main i {
+    font-size: 16px;
+    padding: 8px 13px !important;
+    color: #999999;
+}
+.cld-fwd.cld-nav {
+    background: #fff;
+    height: 35px;
+    width: 35px;
+    z-index: 99;
+    border: 1px solid #d7d7d7;
+    margin: 0;
+    position: absolute;
+    border-left: none;
+    border-radius: 0px 2px 2px 0px;
+    top: 0;
+    left: 35px;
+}
+.cld-rwd.cld-nav .fa-rotate-180 {
+    padding: 10px 12px !important;
+}
+.cld-labels li.cld-label {
+    padding: 6px 10px !important;
+    background: #eaeaea;
+    font-size: 12px;
+    color: #999999;
+    font-family: montserratlight;
+    text-align: left;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+}
+.cld-labels {
+    border-left: 1px solid #d7d7d7;
+    /* border-right: 1px solid #d7d7d7; */
+}
+.cld-number {
+    font-size: 13px;
+    padding: 11px !important;
+    color: #999999;
+}
+.cld-day {
+    padding: 0px 110px 60px 0px!important;
+}
+.fc-scroller.fc-day-grid-container {
+    background: url(../images/event-calendar-bg.png) no-repeat 82px 72px;
+    height: 100% !important;
+}
+.cld-day.today .cld-number {
+    margin: 4px auto 8px;
+    background: none !important;
+    font-size: 13px;
+}
+li.cld-day.currMonth.today {
+    background: #fb5f66;
+}
+
+.event_box {
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    max-width: 125px;
+    text-align: left;
+    padding: 4px 7px;
+    font-family: montserratlight;
+    line-height: initial;
+}
+.event_blue {
+    background: #00afe1;
+}
+.event_purple {
+    background: #e16bdd;
+}
+.event_gold {
+    background: #ffb311;
+}
+.fc-center h2{
+    font-size: 13px;
+    font-family: montserratlight;
+    color: rgb( 251, 95, 102 );
+  margin-top: 10px;
+  }
+  .fc-left .fc-today-button {
+    background: none;
+    border:none!important;
+   margin: 0!important;
+}
+.fc-icon-right-single-arrow::after,.fc-icon-left-single-arrow::after {
+display: none;
+}
+.fc-icon-left-single-arrow::before {
+    content: '\f100';
+    font-size: 16px;
+    font-family: "FontAwesome";
+    color: rgb( 153, 153, 153 );
+}
+.fc-icon-right-single-arrow::before{
+    content: '\f101';
+    font-size: 16px;
+    font-family: "FontAwesome";
+    color: rgb( 153, 153, 153 );
+}
+.fc-button.fc-state-default {
+    background: none;
+    border: 1px solid rgb( 215, 215, 215 );
+    box-shadow: none;
+    font-size: 13px;
+    font-family: montserratlight;
+    color: rgb( 153, 153, 153 );
+    text-transform: capitalize;
+    height: 32px;
+padding: 0 15px;
+}
+.fc-state-default.fc-corner-right{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.fc-state-default.fc-corner-left{
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.fc-month-button{
+    color: rgb( 251, 95, 102 );
+}
+button.fc-state-active {
+    color: rgb( 251, 95, 102 )!important;
+}
+.fc-prev-button,.fc-next-button {
+    padding: 0 10px !important;
+    display: flex;
+    align-items: center;
+}
+.fc-day-header {
+    background: #eaeaea;
+    font-size: 12px;
+    height: 30px;
+    text-align: left !important;
+    padding-left: 10px !important;
+    font-family: montserratlight;
+    font-weight: normal;
+    padding-top: 31px;
+    vertical-align: middle !important;
+
+}
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+
+    border-color: #d7d7d7!important;
+}
+.fc-day-number {
+    color: grey;
+}
+.fc-day-number {
+    font-size: 13px;
+    font-family: montserratlight;
+    color: rgb( 153, 153, 153 );
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    float:left!important;
+    text-decoration: none !important;
+}
+.fc-toolbar.fc-header-toolbar {
+    margin-bottom: 20px;
+}
+.fc-unthemed td.fc-today {
+    background: #fb5f66!important;
+}
+.fc-unthemed td.fc-today .fc-day-number{
+color:white;
+}
+.fc-event-dot {
+    background-color: #e16bdd!important;
+    border: 1px solid #e16bdd!important;
+}
+.fc-event-meeting, .fc-event-meeting-dot{
+    background-color: #00afe1!important;
+}
+.fc-event {
+    font-size: 12px;
+    min-height: 24px;
+    line-height: 24px!important;
+    padding: 0 8px;
+}
+.fc-day-grid-event .fc-time {
+    font-weight: normal!important;
+}
+@media (min-width: 320px) and (max-width: 480px){
+   .fc-today-button,.fc-month-button,.fc-basicWeek-button,.fc-basicDay-button {
+      
+        display: none;
+    }
+     .fc-header-toolbar{
+           position: relative;
+    }
+    button.fc-next-button{
+        right: 0;
+    }
+    .fc-button.fc-state-default{
+        position: absolute;
+    }
+  
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .fc-day-number {
+        font-size: 11px;
+        padding-left: 6px !important;
+        padding-top: 6px !important;
+    }
+    .fc-day-header {
+        font-size: 11px;
+        padding-left: 6px !important;        
+    }
+    .fc-center h2 {
+        font-size: 11px;        
+    }
+    .fc-icon-left-single-arrow::before,.fc-icon-right-single-arrow::before {
+        font-size: 14px;
+    }
+    .fc-event {
+        font-size: 10px;
+        min-height: 18px;
+        line-height: 18px!important;
+        padding: 0 4px;
+    }
+    .event-calendar {
+        margin: 40px 0px 100px;
+    }
+    div.fc-basic-view .fc-body .fc-row {
+        height: auto !important;
+    }
+    .fc-scroller.fc-day-grid-container {
+        background-size: 80%;
+        background-position: 50% 25%;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .fc-button.fc-state-default {
+        font-size: 11px;
+        height: 28px;
+        padding: 0 12px;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1023px){
+    .event-calendar {
+        margin: 100px 20px 100px;
+    }   
+    div.fc-basic-view .fc-body .fc-row {
+        height: auto !important;
+    } 
+    .fc-scroller.fc-day-grid-container {
+        background-size: 80%;
+        background-position: 50% 25%;
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1279px){
+    .fc-scroller.fc-day-grid-container {
+        background-size: 80%;
+        background-position: 50% 25%;
+    }
+
+}
+.fc-basic-view .fc-body .fc-row {
+    height: 100px !important;
+}
+.fc-day-header a {
+    color: #999;
+}
+
+
+  
+
