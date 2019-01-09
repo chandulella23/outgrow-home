@@ -94,6 +94,11 @@ function sendLeadResponse() {
         isLead: true,
         personalized_idea: 'yes'
     }
+    setTimeout(() => {
+        jQuery('button:contains("TALK")').on('click', function () {
+            Intercom('show');
+        });
+    }, 1000)
     // requestBuild(data);
     $.ajax({
         type: 'POST',
@@ -101,10 +106,6 @@ function sendLeadResponse() {
         data: JSON.stringify(data),
         success: function (response) {
             console.log(response);
-
-            jQuery('button:contains("TALK")').on('click', function () {
-                Intercom('show');
-            });
         },
         error: function () {
 
