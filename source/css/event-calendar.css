@@ -73,9 +73,8 @@
     padding: 0px 110px 60px 0px!important;
 }
 .calendar-left-sec-full .fc-scroller.fc-day-grid-container {
-    background: url(../images/event-calendar-bg.png) no-repeat 80px 70px !important;
+    background: url(../images/event-calendar-bg.png) no-repeat 80px 70px;
     height: 100% !important;
-    background-size: contain;
 }
 .calendar-left-sec .fc-scroller.fc-day-grid-container {
     background: url(../images/event-calendar-bg.png) no-repeat 0px 70px;
