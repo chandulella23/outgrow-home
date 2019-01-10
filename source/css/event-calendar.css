@@ -72,12 +72,12 @@
 .cld-day {
     padding: 0px 110px 60px 0px!important;
 }
-.calender-left-sec-full .fc-scroller.fc-day-grid-container {
+.calendar-left-sec-full .fc-scroller.fc-day-grid-container {
     background: url(../images/event-calendar-bg.png) no-repeat 80px 70px !important;
     height: 100% !important;
     background-size: contain;
 }
-.calender-left-sec .fc-scroller.fc-day-grid-container {
+.calendar-left-sec .fc-scroller.fc-day-grid-container {
     background: url(../images/event-calendar-bg.png) no-repeat 0px 70px;
     height: 100% !important;
     background-size: contain;
@@ -326,21 +326,21 @@ a.fc-more {
 .fc-more-popover .fc-event-container a.fc-day-grid-event {
     margin: 1px 3px 0px;
 }
-.calender-left-sec-full {
+.calendar-left-sec-full {
     float: left;
     width: 100%;
 }
-.calender-left-sec {
+.calendar-left-sec {
     width: 70%;
     float: left;
 }
-.calender-right-sec {
+.calendar-right-sec {
     float: left;
     width: 30%;
     padding-left: 20px;
     padding-top: 50px;
 }
-.calender-list-item {
+.calendar-list-item {
     width: 100%;
     float: left;
     margin: 0;
@@ -363,14 +363,14 @@ span.date-event {
     border-left: 1px solid #ececec;
     padding: 0 0 0 16px;
 }
-ul.calender-outer-list {
+ul.calendar-outer-list {
     margin: 0;
     padding: 0;
     float: left;
     list-style-type: none;
     width: 100%;
 }
-li.calender-each-list {
+li.calendar-each-list {
     width: 100%;
     float: left;
     cursor: pointer;
@@ -443,10 +443,10 @@ span.day {
     font-family: montserratlight;
 }
 @media (max-width: 1023px) and (min-width: 0px) {
-    .calender-left-sec {
+    .calendar-left-sec {
         width: 100%!important;
     }
-    .calender-right-sec {
+    .calendar-right-sec {
         width: 100%!important;    
         padding-left: 0px !important;
         padding-top: 30px;
@@ -461,10 +461,10 @@ span.day {
     }
 }
 @media (max-width: 1280px) and (min-width: 1024px) {
-    .calender-left-sec {
+    .calendar-left-sec {
         width: 60%!important;
     }
-    .calender-right-sec {
+    .calendar-right-sec {
         width: 40%!important;
     }
 }

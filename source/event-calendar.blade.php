@@ -114,20 +114,20 @@
 <div class="section-main">
 	<div class="container mobile-container">
 		<div class="event-calendar">
-			<div class="calender-left-sec-full calender-left-sec">		
+			<div class="calendar-left-sec-full calendar-left-sec">		
 				<div id='calendar' class=""></div>
 			</div>
-			<div class="calender-right-sec">
-				<div class="calender-list-item">
+			<div class="calendar-right-sec">
+				<div class="calendar-list-item">
 					<div class="li-left-outer-section">
 						<span class="date-event">Date</span>
 					</div>
 					<div class="li-right-outer-section">
 						<span class="date-event">Events</span>
 					</div>
-					<ul class="calender-outer-list">
+					<ul class="calendar-outer-list">
 						<!---->
-						<!----><li class="calender-each-list">
+						<!----><li class="calendar-each-list">
 							<div class="li-left-sec">
 								<span class="date-tag">02</span>
 								<span class="day">Jan, 2019</span>
@@ -138,7 +138,7 @@
 									Babson College EARLY DECISION 2 DEADLINE
 								</span>
 							</div>
-						</li><li class="calender-each-list">
+						</li><li class="calendar-each-list">
 							<div class="li-left-sec">
 								<span class="date-tag">02</span>
 								<span class="day">Jan, 2019</span>
