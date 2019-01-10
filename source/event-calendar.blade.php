@@ -113,7 +113,47 @@
 @section('content')
 <div class="section-main">
 	<div class="container mobile-container">
-		<div id='calendar' class="event-calendar"></div>
+		<div class="event-calendar">
+			<div class="calender-left-sec-full calender-left-sec">		
+				<div id='calendar' class=""></div>
+			</div>
+			<div class="calender-right-sec">
+				<div class="calender-list-item">
+					<div class="li-left-outer-section">
+						<span class="date-event">Date</span>
+					</div>
+					<div class="li-right-outer-section">
+						<span class="date-event">Events</span>
+					</div>
+					<ul class="calender-outer-list">
+						<!---->
+						<!----><li class="calender-each-list">
+							<div class="li-left-sec">
+								<span class="date-tag">02</span>
+								<span class="day">Jan, 2019</span>
+								
+							</div>
+							<div class="li-right-sec">
+								<span class="event-tag">
+									Babson College EARLY DECISION 2 DEADLINE
+								</span>
+							</div>
+						</li><li class="calender-each-list">
+							<div class="li-left-sec">
+								<span class="date-tag">02</span>
+								<span class="day">Jan, 2019</span>
+								
+							</div>
+							<div class="li-right-sec">
+								<span class="event-tag">
+									Babson College REGULAR DECISION DEADLINE
+								</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 @endsection
