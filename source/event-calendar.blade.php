@@ -57,6 +57,7 @@
 						let e = {
 							title: ev.event_name,
 							start: ev.launch_date.split('T')[0],
+							description: ev.description,
 							color: ev.color
 						}
 						events.push(e);
@@ -88,6 +89,7 @@
 						});
 						let events = '';
 						clickedEvents.forEach((cev) => {
+							console.log('qqqqqqqqqqqq : ', cev);
 							events += `<li class="calendar-each-list">
 											<div class="li-left-sec">
 												<span class="date-tag">` + moment(selectedDate).format('DD') + `</span>
@@ -114,6 +116,7 @@
 						});
 						let events = '';
 						clickedEvents.forEach((cev) => {
+							console.log('qqqqqqqqqqqq : ', cev);
 							events += `<li class="calendar-each-list">
 											<div class="li-left-sec">
 												<span class="date-tag">` + moment(selectedDate).format('DD') + `</span>
@@ -121,6 +124,7 @@
 											</div>
 											<div class="li-right-sec">
 												<span class="event-tag">` + cev.title + `</span>
+												<span class="event-tag-desc">` + cev.description + `</span>
 											</div>
 										</li>`;
 						});
@@ -189,15 +193,7 @@
 							</div>
 							<div class="li-right-sec">
 								<span class="event-tag">Babson College EARLY DECISION 2 DEADLINE</span>
-							</div>
-						</li>
-						<li class="calendar-each-list">
-							<div class="li-left-sec">
-								<span class="date-tag">02</span>
-								<span class="day">Jan, 2019</span>	
-							</div>
-							<div class="li-right-sec">
-								<span class="event-tag">Babson College REGULAR DECISION DEADLINE</span>
+								<span class="event-tag-desc">Hello world this is a test post!@</span>
 							</div>
 						</li>
 					</ul>
