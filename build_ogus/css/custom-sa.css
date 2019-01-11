@@ -6770,13 +6770,16 @@ span.icon-webcam {
 /* end: new css changes by Arti */
 
 #selEvents .event-wrapper{ float: left; width: 100%; }
-#selEvents .event-wrapper .img-outer{ float: left; width: 80px; height: 80px; margin-right: 10px; margin-top: 12px; }
+#selEvents .event-wrapper .img-outer{ float: left; width: 80px; height: 40px; margin-right: 10px; margin-top: 12px; }
 #selEvents .event-wrapper .event-content{ float: left; width: calc(100% - 90px);}
 #selEvents .event-wrapper .event-content h5{font-size: 14px;color: #62696d;font-family: montserratregular; line-height: normal; margin-bottom:5px; }
 #selEvents .event-wrapper .event-content span{float: left; width: 100%;  font-size: 12px; color: #62696d; font-family: montserratlight; line-height: 18px; overflow: hidden;}
-.calendar-wrapper.fixed-width .inner-box{float: left;  width: 100%;  max-height: 366px;}
+.calendar-wrapper.fixed-width .inner-box{float: left;  width: 100%;  max-height: 380px; min-height: 390px;}
 
-
+#selEvents .event-wrapper .img-outer img {    
+	height: 100%;
+	width: 100%;
+}
 
 
 @media(min-width:500px) and (max-width:768px) {
@@ -11052,3 +11055,7 @@ ul.pre-temp-list li a{
 	width: 100%;
 }
 ul.pre-temp-list li.active > a, ul.pre-temp-list li a:hover{color: #4894ca; transition: 0.5s;}
+.recentNews-inner.calender-outer .cld-main i {
+    font-size: 14px;
+    padding: 3px 6px !important;
+}
