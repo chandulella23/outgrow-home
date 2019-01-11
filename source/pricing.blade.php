@@ -1299,7 +1299,7 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="quater"></span>All </span>
+                                    <span class="feature-subtitle"><span class="full"></span>All </span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small><br>
@@ -1544,7 +1544,7 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="quater"></span>All </span>
+                                    <span class="feature-subtitle"><span class="full"></span>All </span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small><br>
