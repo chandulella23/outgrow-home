@@ -275,6 +275,7 @@ ready1();
 
 
 function renderBlogs(response) {
+    let default_attachment = 'https://cdn.filestackcontent.com/Yv2bXu6UQ6Kn6Vg4t3gB';
     let posts = response.posts;
     if (posts.length > 0) {
         let post = '';
@@ -283,7 +284,7 @@ function renderBlogs(response) {
             post += `<div class="swiper-slide">
                         <div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
                                 <div class="recentNews-text">
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -293,7 +294,7 @@ function renderBlogs(response) {
             } else if(i % 3 == 1) {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -302,7 +303,7 @@ function renderBlogs(response) {
             } else {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>
