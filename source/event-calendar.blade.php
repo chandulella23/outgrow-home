@@ -97,6 +97,7 @@
 											</div>
 											<div class="li-right-sec">
 												<span class="event-tag">` + cev.title + `</span>
+												<span class="event-tag-desc">` + cev.description + `</span>
 											</div>
 										</li>`;
 						});
