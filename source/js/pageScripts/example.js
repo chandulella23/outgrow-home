@@ -537,9 +537,9 @@ function renderPremadeCalcs(responseText) {
                         </div>
                     `;
                 });
-
                 let selEvents = document.getElementById("selEvents");
                 selEvents.innerHTML = evBanner;
+                window.open('//' + window.location.host + '/event-calendar', '_blank');
             }
 
             // self.getEventName(self.selectedEvent);
