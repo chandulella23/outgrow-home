@@ -73,11 +73,12 @@
     padding: 0px 110px 60px 0px!important;
 }
 .calendar-left-sec-full .fc-scroller.fc-day-grid-container {
-    background: url(../images/event-calendar-bg.png) no-repeat 80px 70px;
+    background: url(../images/event-calendar-bg.png) no-repeat 70px 100px;
     height: 100% !important;
+    /* background-size: 100%; */
 }
 .calendar-left-sec .fc-scroller.fc-day-grid-container {
-    background: url(../images/event-calendar-bg.png) no-repeat 0px 70px;
+    background: url(../images/event-calendar-bg.png) no-repeat 0px 100px;
     height: 100% !important;
     background-size: contain;
 }
@@ -268,11 +269,22 @@ a.fc-more {
     div.fc-basic-view .fc-body .fc-row {
         height: auto !important;
     }
-    .fc-scroller.fc-day-grid-container {
-        background-size: 80%;
-        background-position: 50% 25%;
-    }
 
+}
+@media (min-width: 0px) and (max-width: 767px){
+    .fc-scroller.fc-day-grid-container {
+        background-size: 80% !important;
+        background-position: 50% 25% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .fc-scroller.fc-day-grid-container {
+        background-size: 100% !important;
+        background-position: 0px 70px !important;
+    }
+    .calendar-left-sec-full.calendar-left-sec .fc-scroller.fc-day-grid-container {
+        background-size: 100% !important;
+    }
 }
 @media (min-width: 481px) and (max-width: 768px){
     .fc-button.fc-state-default {
@@ -290,15 +302,15 @@ a.fc-more {
         height: auto !important;
     } 
     .fc-scroller.fc-day-grid-container {
-        background-size: 80%;
-        background-position: 50% 25%;
+        /* background-size: 80%; */
+        /* background-position: 50% 25%; */
     }
 
 }
 @media (min-width: 1024px) and (max-width: 1279px){
     .fc-scroller.fc-day-grid-container {
-        background-size: 80%;
-        background-position: 50% 25%;
+        /* background-size: 80% !important; */
+        /* background-position: 50% 25%; */
     }
 
 }

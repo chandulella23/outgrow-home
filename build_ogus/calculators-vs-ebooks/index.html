@@ -107,8 +107,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			"ratingCount": "48"
 		}
 	});
+
+	var schemaNew = document.createElement('script');
+	schemaNew.type = 'application/ld+json';
+	schemaNew.text = JSON.stringify({
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": "Outgrow",
+		"url": "https://outgrow.co/",
+		"sameAs": ["https://www.facebook.com/OutgrowCo/","https://www.instagram.com/outgrow.co/?hl=en",
+                   "https://www.linkedin.com/company/outgrow.co/","https://plus.google.com/104060900998969972413"]
+	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+	document.querySelector('head').appendChild(schemaNew);
 
 	let host = window.location.href.toLowerCase();
 	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";

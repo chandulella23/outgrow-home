@@ -84980,8 +84980,8 @@ blockquote span.quote-right1 {
 .section-reviews {
     margin-top: 30px;
     /* margin-bottom: 70px; */
-    background: #f3f8fb;
-    margin-top: 20px;
+    background: #fff;
+    margin-top: 0px;
     padding-top: 0;
     padding-bottom: 50px;
     margin-bottom: 0px;
@@ -87084,4 +87084,21 @@ ul.pre-temp-list li a span {
     float: left;
     width: 100%;
     padding-top: 5px;
+}
+.case-chatbot .heading {
+    line-height: 56px;
+}
+.case-chatbot .btn-readmore-link {
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #fb5f66;
+    padding: 9px 27px;
+    font-size: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.case-chatbot .btn-readmore-link i.material-icons {
+    font-size: 15px;
+    vertical-align: bottom;
+    margin-left: 5px;
 }
