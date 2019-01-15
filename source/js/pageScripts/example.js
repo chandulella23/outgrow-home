@@ -368,6 +368,7 @@ function throttled(delay, fn) {
 }
 
 function renderPremadeCalcs(responseText) {
+    let selectedEvent = [];
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
         window.industries = responseText.data.industries;
@@ -426,9 +427,32 @@ function renderPremadeCalcs(responseText) {
                     color: sevent.color
                 };
                 window.events.push(ev);
+                var todDate = new Date();
+                todDate.setHours(0,0,0,0);
+                var evDate = new Date(ev.Date);
+                if (todDate.getTime() === evDate.getTime()) {
+                    selectedEvent.push(ev);
+                }
             }
         });
 
+        if (selectedEvent.length > 0) {
+            let eventNames = selectedEvent.map(e => e.EventName).join(' / ');
+            let evBanner = ``;
+            selectedEvent.forEach((se) => {
+                evBanner += `
+                    <div class="event-wrapper">
+                        <div class="img-outer"><img src="${se.Image}" /></div>
+                        <div class="event-content">
+                            <h5>${se.Title}</h5>
+                            <span>${se.Description} </span>
+                        </div>
+                    </div>
+                `;
+            });
+            let selEvents = document.getElementById("selEvents");
+            selEvents.innerHTML = evBanner;
+        }
 
         var settings = {};
         var element = document.getElementById('calendar');
