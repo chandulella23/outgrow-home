@@ -131,3 +131,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
 	.wrapper-mobile .h_iframe iframe{ min-height:444px;}
 </style>
+<span itemscope itemtype="https://schema.org/Organization">
+ <link itemprop="url" href="https://outgrow.co/">
+ <a itemprop="sameAs" href="https://www.facebook.com/OutgrowCo/">FB</a>
+ <a itemprop="sameAs" href="https://twitter.com/outgrowco?lang=en">Twitter</a>
+</span>
