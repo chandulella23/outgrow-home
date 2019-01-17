@@ -88,8 +88,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	schemaNew.type = 'application/ld+json';
 	schemaNew.text = JSON.stringify({
 		"@context": "http://schema.org",
-		"@type": "Person",
-		"name": "Outgrow",
+		"@type": "Organization",
+		"name": "Outgrow.co",
 		"url": "https://outgrow.co/",
 		"sameAs": ["https://www.facebook.com/OutgrowCo/","https://www.instagram.com/outgrow.co/?hl=en",
                    "https://www.linkedin.com/company/outgrow.co/","https://plus.google.com/104060900998969972413"]
