@@ -275,6 +275,7 @@ ready1();
 
 
 function renderBlogs(response) {
+    let default_attachment = 'https://cdn.filestackcontent.com/Yv2bXu6UQ6Kn6Vg4t3gB';
     let posts = response.posts;
     if (posts.length > 0) {
         let post = '';
@@ -283,7 +284,7 @@ function renderBlogs(response) {
             post += `<div class="swiper-slide">
                         <div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
                                 <div class="recentNews-text">
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -293,7 +294,7 @@ function renderBlogs(response) {
             } else if(i % 3 == 1) {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -302,7 +303,7 @@ function renderBlogs(response) {
             } else {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:''}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -351,6 +352,8 @@ function getCalcType(type) {
         return 'QUIZ';
     } else if (type.toLowerCase().includes('com')) {
         return 'ECOM'
+    } else if (type.toLowerCase().includes('bot')) {
+        return 'CHATBOT'
     }
 }
 
@@ -367,6 +370,7 @@ function throttled(delay, fn) {
 }
 
 function renderPremadeCalcs(responseText) {
+    let selectedEvent = [];
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
         window.industries = responseText.data.industries;
@@ -425,9 +429,32 @@ function renderPremadeCalcs(responseText) {
                     color: sevent.color
                 };
                 window.events.push(ev);
+                var todDate = new Date();
+                todDate.setHours(0,0,0,0);
+                var evDate = new Date(ev.Date);
+                if (todDate.getTime() === evDate.getTime()) {
+                    selectedEvent.push(ev);
+                }
             }
         });
 
+        if (selectedEvent.length > 0) {
+            let eventNames = selectedEvent.map(e => e.EventName).join(' / ');
+            let evBanner = ``;
+            selectedEvent.forEach((se) => {
+                evBanner += `
+                    <div class="event-wrapper">
+                        <div class="img-outer"><img src="${se.Image}" /></div>
+                        <div class="event-content">
+                            <h5>${se.Title}</h5>
+                            <span>${se.Description} </span>
+                        </div>
+                    </div>
+                `;
+            });
+            let selEvents = document.getElementById("selEvents");
+            selEvents.innerHTML = evBanner;
+        }
 
         var settings = {};
         var element = document.getElementById('calendar');
@@ -536,9 +563,9 @@ function renderPremadeCalcs(responseText) {
                         </div>
                     `;
                 });
-
                 let selEvents = document.getElementById("selEvents");
                 selEvents.innerHTML = evBanner;
+                window.open('//' + window.location.host + '/event-calendar', '_blank');
             }
 
             // self.getEventName(self.selectedEvent);

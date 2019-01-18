@@ -1004,6 +1004,21 @@
 		</section>
 	</div>
 
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-chatbot">
+		<div class="container  custom-container  mobile-container">
+			<div class="product-hunt-left">
+				<img alt="It's your turn now!" src="images/chatbot_divider.png">
+			</div>
+			<div class="case-breathers-rightSide product-outer">
+				<div class="heading fnt-chnge product-hunt hunt1">Interactive Content Strategy Whitepaper For Your Industry </div>
+				<!-- <h5 class="subheading">
+					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
+				</h5> -->
+				<a href="https://get.outgrow.co/interactive-content-whitepaper-for-all-industries/" target="_blank" class="btn btn-readmore-link btn-hover">Check it Out <i class="material-icons">arrow_forward</i></a>
+			</div>
+		</div>
+	</div>
+
 	<section class="section section-reviews">
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
 			<div class="container mobile-container">
@@ -1814,7 +1829,9 @@
 				return 'QUIZ';
 			} else if (type.toLowerCase().includes('com')) {
 				return 'ECOM'
-			}
+			} else if (type.toLowerCase().includes('bot')) {
+					return 'CHATBOT'
+				}
 		}
 		window.onload = function () {
 				let http = new XMLHttpRequest();

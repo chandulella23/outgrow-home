@@ -116,8 +116,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			"ratingCount": "48"
 		}
 	});
+
+	var schemaNew = document.createElement('script');
+	schemaNew.type = 'application/ld+json';
+	schemaNew.text = JSON.stringify({
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": "Outgrow.co",
+		"url": "https://outgrow.co/",
+		"sameAs": ["https://www.facebook.com/OutgrowCo/","https://www.instagram.com/outgrow.co/?hl=en",
+                   "https://www.linkedin.com/company/outgrow.co/","https://plus.google.com/104060900998969972413"]
+	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+	document.querySelector('head').appendChild(schemaNew);
 
 	let host = window.location.href.toLowerCase();
 	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";
@@ -152,6 +164,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
 	.wrapper-mobile .h_iframe iframe{ min-height:444px;}
 </style>
+<span itemscope itemtype="https://schema.org/Organization" style="position: absolute; right: 0; opacity: 0;">
+ <link itemprop="url" href="https://outgrow.co/">
+ <a itemprop="sameAs" href="https://www.facebook.com/OutgrowCo/">FB</a>
+ <a itemprop="sameAs" href="https://twitter.com/outgrowco?lang=en">Twitter</a>
+</span>
+
 	</head>
 
 <body class=" footer-cookies" id="">
@@ -1330,6 +1348,21 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		</section>
 	</div>
 
+	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers case-chatbot">
+		<div class="container  custom-container  mobile-container">
+			<div class="product-hunt-left">
+				<img alt="It's your turn now!" src="images/chatbot_divider.png">
+			</div>
+			<div class="case-breathers-rightSide product-outer">
+				<div class="heading fnt-chnge product-hunt hunt1">Interactive Content Strategy Whitepaper For Your Industry </div>
+				<!-- <h5 class="subheading">
+					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
+				</h5> -->
+				<a href="https://get.outgrow.co/interactive-content-whitepaper-for-all-industries/" target="_blank" class="btn btn-readmore-link btn-hover">Check it Out <i class="material-icons">arrow_forward</i></a>
+			</div>
+		</div>
+	</div>
+
 	<section class="section section-reviews">
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
 			<div class="container mobile-container">
@@ -2140,7 +2173,9 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 				return 'QUIZ';
 			} else if (type.toLowerCase().includes('com')) {
 				return 'ECOM'
-			}
+			} else if (type.toLowerCase().includes('bot')) {
+					return 'CHATBOT'
+				}
 		}
 		window.onload = function () {
 				let http = new XMLHttpRequest();

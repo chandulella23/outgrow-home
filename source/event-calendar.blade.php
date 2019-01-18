@@ -57,6 +57,7 @@
 						let e = {
 							title: ev.event_name,
 							start: ev.launch_date.split('T')[0],
+							description: ev.description,
 							color: ev.color
 						}
 						events.push(e);
@@ -66,17 +67,77 @@
 			});
 
 			function printCalendar(events) {
+				let clickedEvents = null;
+				let selectedDate = null;
 				$('#calendar').fullCalendar({
 					header: {
 						left: 'prev,next today',
 						center: 'title',
 						right: 'month,basicWeek,basicDay'
 					},
+					displayEventTime: false,
 					defaultDate: new Date(),
+					nowIndicator: true,
+					selectable: true,
 					navLinks: true, // can click day/week names to navigate views
-					editable: true,
 					eventLimit: true, // allow "more" link when too many events
-					events: events
+					events: events,
+					eventClick: (event, element) => {
+						selectedDate=moment(event.start._i).format("YYYY-MM-DD")
+						clickedEvents = $('#calendar').fullCalendar('clientEvents', function (ev) {
+							return moment(ev.start._i).format("YYYY-MM-DD") == moment(event.start._i).format("YYYY-MM-DD")
+						});
+						let events = '';
+						clickedEvents.forEach((cev) => {
+							console.log('qqqqqqqqqqqq : ', cev);
+							events += `<li class="calendar-each-list">
+											<div class="li-left-sec">
+												<span class="date-tag">` + moment(selectedDate).format('DD') + `</span>
+												<span class="day">` + moment(selectedDate).format('MMM, YYYY') + `</span>			
+											</div>
+											<div class="li-right-sec">
+												<span class="event-tag">` + cev.title + `</span>
+												<span class="event-tag-desc">` + cev.description + `</span>
+											</div>
+										</li>`;
+						});
+						if(events !== '') {
+							$('.calendar-outer-list').html(events);
+							$('.calendar-left-sec-full').addClass('calendar-left-sec');
+							$('.calendar-right-sec').removeClass('hide');
+						} else {
+							$('.calendar-left-sec-full').removeClass('calendar-left-sec');
+							$('.calendar-right-sec').addClass('hide');
+						}
+					},
+					dayClick: (date, jsEvent, view) => {
+						selectedDate = date.format();
+						clickedEvents = $('#calendar').fullCalendar('clientEvents', function (ev) {
+							return moment(ev.start._i).format("YYYY-MM-DD") == date.format()
+						});
+						let events = '';
+						clickedEvents.forEach((cev) => {
+							console.log('qqqqqqqqqqqq : ', cev);
+							events += `<li class="calendar-each-list">
+											<div class="li-left-sec">
+												<span class="date-tag">` + moment(selectedDate).format('DD') + `</span>
+												<span class="day">` + moment(selectedDate).format('MMM, YYYY') + `</span>			
+											</div>
+											<div class="li-right-sec">
+												<span class="event-tag">` + cev.title + `</span>
+												<span class="event-tag-desc">` + cev.description + `</span>
+											</div>
+										</li>`;
+						});
+						if(events !== '') {
+							$('.calendar-outer-list').html(events);
+							$('.calendar-left-sec-full').addClass('calendar-left-sec');
+							$('.calendar-right-sec').removeClass('hide');
+						} else {
+							$('.calendar-left-sec-full').removeClass('calendar-left-sec');
+							$('.calendar-right-sec').addClass('hide');
+						}
+					}
 				});
 			}
 		});
@@ -113,7 +174,33 @@
 @section('content')
 <div class="section-main">
 	<div class="container mobile-container">
-		<div id='calendar' class="event-calendar"></div>
+		<div class="event-calendar">
+			<div class="calendar-left-sec-full">		
+				<div id='calendar' class=""></div>
+			</div>
+			<div class="calendar-right-sec hide">
+				<div class="calendar-list-item">
+					<div class="li-left-outer-section">
+						<span class="date-event">Date</span>
+					</div>
+					<div class="li-right-outer-section">
+						<span class="date-event">Events</span>
+					</div>
+					<ul class="calendar-outer-list">
+						<li class="calendar-each-list">
+							<div class="li-left-sec">
+								<span class="date-tag">02</span>
+								<span class="day">Jan, 2019</span>			
+							</div>
+							<div class="li-right-sec">
+								<span class="event-tag">Babson College EARLY DECISION 2 DEADLINE</span>
+								<span class="event-tag-desc">Hello world this is a test post!@</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 @endsection

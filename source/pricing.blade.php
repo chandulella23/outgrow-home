@@ -339,7 +339,7 @@
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>3 Templates & Layout
-                                <span class="detail">Chicago, Madrid and Greek layout and premade templates. </span>
+                                <span class="detail">Chicago, Madrid and Greek layout and Outcome quiz premade templates.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="quater"></span>4 Templates & Layout
@@ -864,7 +864,7 @@
                                         Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>3 Templates & Layout</span>
-                                    <span class="detail">Chicago, Madrid and Greek layout and premade templates. </span>
+                                    <span class="detail">Chicago, Madrid and Greek layout and Outcome quiz premade templates.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1299,7 +1299,7 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="quater"></span>All </span>
+                                    <span class="feature-subtitle"><span class="full"></span>All </span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small><br>
@@ -1544,7 +1544,7 @@
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
                                     <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
-                                    <span class="feature-subtitle"><span class="quater"></span>All </span>
+                                    <span class="feature-subtitle"><span class="full"></span>All </span>
                                     <span class="detail">
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
                                         <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small><br>
@@ -1816,7 +1816,7 @@
                 <div class="container">
                     <h4>Don't have time? Let's build one for you!</h4>
                     <div class="col-md-3 col-sm-3 col-xs-12 np">
-                        <h5><img src="{{ $page->baseUrl }}/images/icon-create-custom1.png">We'll Create </h5>
+                        <h5><img src="{{ $page->baseUrl }}/images/icon-create-custom.png">We'll Create </h5>
                         <span class="calc">Calculator/Quiz/Chatbot/Poll/Ecom Rec.</span>
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-12 np text-center create-exp-center">

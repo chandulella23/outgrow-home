@@ -132,8 +132,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			"ratingCount": "48"
 		}
 	});
+
+	var schemaNew = document.createElement('script');
+	schemaNew.type = 'application/ld+json';
+	schemaNew.text = JSON.stringify({
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": "Outgrow.co",
+		"url": "https://outgrow.co/",
+		"sameAs": ["https://www.facebook.com/OutgrowCo/","https://www.instagram.com/outgrow.co/?hl=en",
+                   "https://www.linkedin.com/company/outgrow.co/","https://plus.google.com/104060900998969972413"]
+	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+	document.querySelector('head').appendChild(schemaNew);
 
 	let host = window.location.href.toLowerCase();
 	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";
@@ -168,6 +180,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
 	.wrapper-mobile .h_iframe iframe{ min-height:444px;}
 </style>
+<span itemscope itemtype="https://schema.org/Organization" style="position: absolute; right: 0; opacity: 0;">
+ <link itemprop="url" href="https://outgrow.co/">
+ <a itemprop="sameAs" href="https://www.facebook.com/OutgrowCo/">FB</a>
+ <a itemprop="sameAs" href="https://twitter.com/outgrowco?lang=en">Twitter</a>
+</span>
+
 		<script type="text/javascript" src="/js/ideagen/selectize.min.js"></script>
 	<script src='https://momentjs.com/downloads/moment.min.js'></script>
 	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
@@ -205,6 +223,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						let e = {
 							title: ev.event_name,
 							start: ev.launch_date.split('T')[0],
+							description: ev.description,
 							color: ev.color
 						}
 						events.push(e);
@@ -214,17 +233,77 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			});
 
 			function printCalendar(events) {
+				let clickedEvents = null;
+				let selectedDate = null;
 				$('#calendar').fullCalendar({
 					header: {
 						left: 'prev,next today',
 						center: 'title',
 						right: 'month,basicWeek,basicDay'
 					},
+					displayEventTime: false,
 					defaultDate: new Date(),
+					nowIndicator: true,
+					selectable: true,
 					navLinks: true, // can click day/week names to navigate views
-					editable: true,
 					eventLimit: true, // allow "more" link when too many events
-					events: events
+					events: events,
+					eventClick: (event, element) => {
+						selectedDate=moment(event.start._i).format("YYYY-MM-DD")
+						clickedEvents = $('#calendar').fullCalendar('clientEvents', function (ev) {
+							return moment(ev.start._i).format("YYYY-MM-DD") == moment(event.start._i).format("YYYY-MM-DD")
+						});
+						let events = '';
+						clickedEvents.forEach((cev) => {
+							console.log('qqqqqqqqqqqq : ', cev);
+							events += `<li class="calendar-each-list">
+											<div class="li-left-sec">
+												<span class="date-tag">` + moment(selectedDate).format('DD') + `</span>
+												<span class="day">` + moment(selectedDate).format('MMM, YYYY') + `</span>			
+											</div>
+											<div class="li-right-sec">
+												<span class="event-tag">` + cev.title + `</span>
+												<span class="event-tag-desc">` + cev.description + `</span>
+											</div>
+										</li>`;
+						});
+						if(events !== '') {
+							$('.calendar-outer-list').html(events);
+							$('.calendar-left-sec-full').addClass('calendar-left-sec');
+							$('.calendar-right-sec').removeClass('hide');
+						} else {
+							$('.calendar-left-sec-full').removeClass('calendar-left-sec');
+							$('.calendar-right-sec').addClass('hide');
+						}
+					},
+					dayClick: (date, jsEvent, view) => {
+						selectedDate = date.format();
+						clickedEvents = $('#calendar').fullCalendar('clientEvents', function (ev) {
+							return moment(ev.start._i).format("YYYY-MM-DD") == date.format()
+						});
+						let events = '';
+						clickedEvents.forEach((cev) => {
+							console.log('qqqqqqqqqqqq : ', cev);
+							events += `<li class="calendar-each-list">
+											<div class="li-left-sec">
+												<span class="date-tag">` + moment(selectedDate).format('DD') + `</span>
+												<span class="day">` + moment(selectedDate).format('MMM, YYYY') + `</span>			
+											</div>
+											<div class="li-right-sec">
+												<span class="event-tag">` + cev.title + `</span>
+												<span class="event-tag-desc">` + cev.description + `</span>
+											</div>
+										</li>`;
+						});
+						if(events !== '') {
+							$('.calendar-outer-list').html(events);
+							$('.calendar-left-sec-full').addClass('calendar-left-sec');
+							$('.calendar-right-sec').removeClass('hide');
+						} else {
+							$('.calendar-left-sec-full').removeClass('calendar-left-sec');
+							$('.calendar-right-sec').addClass('hide');
+						}
+					}
 				});
 			}
 		});
@@ -436,7 +515,33 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
 			<div class="section-main">
 	<div class="container mobile-container">
-		<div id='calendar' class="event-calendar"></div>
+		<div class="event-calendar">
+			<div class="calendar-left-sec-full">		
+				<div id='calendar' class=""></div>
+			</div>
+			<div class="calendar-right-sec hide">
+				<div class="calendar-list-item">
+					<div class="li-left-outer-section">
+						<span class="date-event">Date</span>
+					</div>
+					<div class="li-right-outer-section">
+						<span class="date-event">Events</span>
+					</div>
+					<ul class="calendar-outer-list">
+						<li class="calendar-each-list">
+							<div class="li-left-sec">
+								<span class="date-tag">02</span>
+								<span class="day">Jan, 2019</span>			
+							</div>
+							<div class="li-right-sec">
+								<span class="event-tag">Babson College EARLY DECISION 2 DEADLINE</span>
+								<span class="event-tag-desc">Hello world this is a test post!@</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 

@@ -130,7 +130,7 @@
 		margin-left: 0;
 	}
 	.create-exp .container h5 {
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 		display: inline-block;
 	}
 	.create-exp span.create-exp-start, .create-exp .container span.create-exp-price, .create-exp .container .text-opacity {display: block;} 
@@ -226,8 +226,7 @@
 	.col-sm-2.footer-link .footer-img-text {min-height: 73px;}
 	#pricing .pricing-headingtop .plans-heading {font-size: 30px;}	
 	.create-exp .container h5 {
-		margin-bottom: 30px;
-		line-height: 38px;
+		margin-bottom: 10px;
 	}
 	.create-exp .container h5 + span {
 		margin-left: 0;
@@ -439,7 +438,7 @@
 	.create-exp .container .col-sm-6 {width: 100%; text-align: center;}
 	.create-exp .container .btn-white-red-outline {float: none;}
 	.create-exp-center {
-		margin: 0px 0 25px; width: 100%;
+		margin: 15px 0 25px; width: 100%;
 	}
 	.create-exp .container, .create-exp .container .col-md-2 {width: 100%; text-align: center;}
 	ul li span small {display: inline-block;}
