@@ -112,7 +112,7 @@
 
 .simplebar-scrollbar {
     position: absolute;
-    right: 2px;
+    right: 1px;
     width: 7px;
     min-height: 10px;
 }

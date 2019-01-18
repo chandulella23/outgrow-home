@@ -441,7 +441,7 @@
 					most shared articles on <span class="font-semibold"> Buzzfeed</span> are
 				    <span class="font-semibold">quizzes!</span>
 				</h5>
-				<a href="https://resources.outgrow.co/blog/how-to-make-buzzfeed-style-quizzes" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+				<a href="https://outgrow.co/blog/buzzfeed-style-howto-quizzes" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 			</div>
 		</div>
 	</div>
