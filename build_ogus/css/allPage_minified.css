@@ -83164,6 +83164,7 @@ h4.mk-animate-element.right-to-left.publish {
     .case-breathers-rightSide .heading {
         font-size: 30px!important;
         padding-top: 30px;
+        line-height: normal !important;
     }
     .case-breathers-rightSide h5.subheading {
         font-size: 15px!important;
@@ -83282,7 +83283,13 @@ img.uni1 {
         right: -10px !important;
     }
 }
-
+@media(min-width:1024px) and (max-width:1280px) {
+    .case-chatbot .heading {
+        line-height: normal !important;
+        font-size: 30px!important;
+        padding-top: 30px;
+    }
+}
 @media (min-width:1280px) and (max-width:1280px) {
     .dropdown .dropdown-content {
         left: -70px !important;
