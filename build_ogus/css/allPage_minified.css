@@ -86574,8 +86574,8 @@ body.icaq.footer-cookies {
     }
     .simplebar-track {
         background: #e2e2e2;
-        opacity: 0.2;
-        width: 3px !important;
+        /* opacity: 0.2; */
+        width: 4px !important;
     }
     .simplebar-track.simplebar-vertical {
         visibility: visible !important;

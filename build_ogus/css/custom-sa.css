@@ -10996,16 +10996,17 @@ img#imgLoad {
 }
 /* css of simplebar */
 	.simplebar-scrollbar {
-		width: 1px !important;
+		width: 4px !important;
+		right:1px!important;
 	}
 	.simplebar-scrollbar:before {
 		opacity: 0.2 !important;
-		width: 3px;
+		width: 4px;
 	}
 	.simplebar-track {
 		background: #e2e2e2;
-		opacity: 0.2;
-		width: 3px !important;
+		/* opacity: 0.2; */
+		width: 5px !important;
 	}
 	.simplebar-track.simplebar-vertical {
         visibility: visible !important;
