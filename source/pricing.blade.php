@@ -1816,7 +1816,7 @@
                 <div class="container">
                     <h4>Don't have time? Let's build one for you!</h4>
                     <div class="col-md-3 col-sm-3 col-xs-12 np">
-                        <h5><img src="{{ $page->baseUrl }}/images/icon-create-custom1.png">We'll Create </h5>
+                        <h5><img src="{{ $page->baseUrl }}/images/icon-create-custom.png">We'll Create </h5>
                         <span class="calc">Calculator/Quiz/Chatbot/Poll/Ecom Rec.</span>
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-12 np text-center create-exp-center">
