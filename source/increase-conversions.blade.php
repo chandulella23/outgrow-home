@@ -931,6 +931,8 @@
 					return 'QUIZ';
 				} else if (type.toLowerCase().includes('com')) {
 					return 'ECOM'
+				} else if (type.toLowerCase().includes('bot')) {
+					return 'CHATBOT'
 				}
 			}
 			function triggerLiveStaticReviews () {
