@@ -1811,7 +1811,9 @@
 				return 'QUIZ';
 			} else if (type.toLowerCase().includes('com')) {
 				return 'ECOM'
-			}
+			} else if (type.toLowerCase().includes('bot')) {
+					return 'CHATBOT'
+				}
 		}
 		window.onload = function () {
 				let http = new XMLHttpRequest();
