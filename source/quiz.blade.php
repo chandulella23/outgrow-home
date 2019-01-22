@@ -916,6 +916,10 @@
 				{
 					id: 'template-six',
 					text: 'The Stockholm'
+				},
+				{
+					id: 'template-nine',
+					text: 'The New York'
 				}
 				];
 				return templates.find(t => t.id.includes(template));
