@@ -23,7 +23,7 @@
 	<meta name="twitter:title" content="Examples | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 
-	<link rel="canonical" href="http://outgrow.co/" />
+	<!-- <link rel="canonical" href="http://outgrow.co/" /> -->
 	<link rel="apple-touch-icon" href="//dzvexx2x036l1.cloudfront.net/og-apple.png">
 	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
 
@@ -40,7 +40,10 @@
 	<link rel="stylesheet" href="/css/useCase-responsive.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/navbar.css">
-	<link rel="stylesheet" href="/css/selectize.default.css">
+	<link rel="stylesheet" href="/css/selectize.default.css">	
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+
+
 
 	<!-- Page hiding snippet (recommended)  -->
 <style>.async-hide { opacity: 0 !important} </style>
@@ -126,8 +129,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			"ratingCount": "48"
 		}
 	});
+
+	var schemaNew = document.createElement('script');
+	schemaNew.type = 'application/ld+json';
+	schemaNew.text = JSON.stringify({
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": "Outgrow.co",
+		"url": "https://outgrow.co/",
+		"sameAs": ["https://www.facebook.com/OutgrowCo/","https://www.instagram.com/outgrow.co/?hl=en",
+                   "https://www.linkedin.com/company/outgrow.co/","https://plus.google.com/104060900998969972413"]
+	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+	document.querySelector('head').appendChild(schemaNew);
 
 	let host = window.location.href.toLowerCase();
 	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";
@@ -162,6 +177,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
 	.wrapper-mobile .h_iframe iframe{ min-height:444px;}
 </style>
+<span itemscope itemtype="https://schema.org/Organization" style="position: absolute; right: 0; opacity: 0;">
+ <link itemprop="url" href="https://outgrow.co/">
+ <a itemprop="sameAs" href="https://www.facebook.com/OutgrowCo/">FB</a>
+ <a itemprop="sameAs" href="https://twitter.com/outgrowco?lang=en">Twitter</a>
+</span>
+
 		<script type="text/javascript" src="/js/ideagen/selectize.min.js"></script>
 </head>
 
@@ -340,6 +361,18 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			document.getElementsByClassName('lead-email')[0].href = href + email;
 	}
 	document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
+				document.getElementsByClassName('lead-form-email')[1].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/?email=";
+			document.getElementsByClassName('lead-email')[1].href = href + email;
+	}
+	document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/?email=";
 					if (e.keyCode == 13) {
@@ -576,12 +609,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
 										</div>
 										<div class="no-search hide">
-											<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
+											<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" onclick="sendMessageToIntercom('I would like some more ideas / examples')">here</a> for more specific examples or any other questions. 
 										</div>
 									</div>
 									<div class="premade-template-left">
 
-										<ul class="pre-temp-cat pre-temp-cat-new scrollbar" id="calc-cats">
+										<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats" data-simplebar data-simplebar-auto-hide="false">
 											<li class="active">
 												<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 											</li>
@@ -659,7 +692,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 										</div>
 									</div>
 									 <div class="pre-temp-cont pre-temp-cont-new"> 
-										<ul class="pre-temp-list scrollbar" id="gallery-content-center">
+										<ul class="pre-temp-list" id="gallery-content-center">
 
 											<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
 												<a href="javascript:void(0)" onclick="markAsActive('calc-auto-loan')">Auto Loan Calculator</a>
@@ -899,9 +932,9 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer calendar-wrapper fixed-width">
 						<h4>Upcoming Marketing Events</h4>
 						<div class="recentNews-inner calender-outer">
-							<div class=" scrollbar inner-box">
-							<div id="calendar"> </div>							
-							<div id="selEvents">
+							<div class="inner-box" data-simplebar data-simplebar-auto-hide="false">
+								<div id="calendar"> </div>							
+								<div id="selEvents">
 								</div>
 								
 							</div>
@@ -2378,6 +2411,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 		"resizer": "/js/loader/resizer.js",
 		"examples": "/js/pageScripts/example.js",
 		"navbar": "/js/pageScripts/navbar.js",
+		"simplebar": "https://unpkg.com/simplebar@latest/dist/simplebar.js",
 
 	}
 ;

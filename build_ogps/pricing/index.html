@@ -23,7 +23,7 @@
 	<meta name="twitter:title" content="Pricing | Outgrow" />
 	<meta name="twitter:creator" content="@outgrowco" />
 
-	<link rel="canonical" href="http://outgrow.co/" />
+	<!-- <link rel="canonical" href="http://outgrow.co/" /> -->
 	<link rel="apple-touch-icon" href="//dzvexx2x036l1.cloudfront.net/og-apple.png">
 	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
 
@@ -121,8 +121,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			"ratingCount": "48"
 		}
 	});
+
+	var schemaNew = document.createElement('script');
+	schemaNew.type = 'application/ld+json';
+	schemaNew.text = JSON.stringify({
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": "Outgrow.co",
+		"url": "https://outgrow.co/",
+		"sameAs": ["https://www.facebook.com/OutgrowCo/","https://www.instagram.com/outgrow.co/?hl=en",
+                   "https://www.linkedin.com/company/outgrow.co/","https://plus.google.com/104060900998969972413"]
+	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+	document.querySelector('head').appendChild(schemaNew);
 
 	let host = window.location.href.toLowerCase();
 	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";
@@ -157,6 +169,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
 	.wrapper-mobile .h_iframe iframe{ min-height:444px;}
 </style>
+<span itemscope itemtype="https://schema.org/Organization" style="position: absolute; right: 0; opacity: 0;">
+ <link itemprop="url" href="https://outgrow.co/">
+ <a itemprop="sameAs" href="https://www.facebook.com/OutgrowCo/">FB</a>
+ <a itemprop="sameAs" href="https://twitter.com/outgrowco?lang=en">Twitter</a>
+</span>
+
 	</head>
 
 <body class="loaded footer-cookies" id="pricing">
@@ -340,6 +358,18 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						window.location.href = href+email;
 					}
 				}
+				document.getElementsByClassName('lead-form-email')[1].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/?email=";
+			document.getElementsByClassName('lead-email')[1].href = href + email;
+	}
+	document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
 </script>
 
 
@@ -506,6 +536,54 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                     </tfoot>-->
 
                     <tbody>
+                        <tr class="expand">
+                            <th>
+                                <!-- <i class="material-icons vis-hide">add</i>  -->
+                                Type of Content <i class="material-icons">help</i>
+                            </th>
+                            <td>
+                                <span class="quater"></span>Quiz only
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small>
+                                    <!-- <span class="detail"> </span>  -->
+                                </span>
+                            </td>
+                            <td>
+                                <span class="half"></span>Quiz, Calc, Ecom
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Calculator or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations</small>
+                                    <!-- <span class="detail"> </span>  -->
+                                </span>
+                            </td>
+                            <td class="expand-child active-bg">
+                                <span class="full"></span>All
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Calculator</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot</small>
+                                    <!-- <span class="detail"> </span>  -->
+                                </span>
+                            </td>
+                            <td>
+                                <span class="full"></span>All                                
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Calculator</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot</small>
+                                </span>
+                            </td>
+                        </tr>
                         <tr class="expand yearlyLeads">
                             <th>
                                 <!-- <i class="material-icons vis-hide">add</i>  -->
@@ -557,27 +635,42 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>
                             <td>
                                 <span class="quater"></span>3
-                                <span class="detail">Number of outcome quizzes and graded quizzes you can build.</span>
+                                <!-- <span class="detail">Number of outcome quizzes and graded quizzes you can build.</span> -->
+                                <span class="detail">You can build up to 3 outcome quizzes or graded quizzes. </span>
                             </td>
                             <td>
                                 <span class="quater"></span>5
-                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                                <!-- <span class="detail">Number of calculators, quizzes, ecom recommendations & polls you can build.</span> -->
+                                <span class="detail">You can build up to 5 quizzes, calculators, polls or recommendations. </span>
                             </td>
                             <td class="active-bg">
                                 <span class="full"></span>Unlimited
-                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
-                            </td>
+                                <!-- <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span> -->
+                                <span class="detail">You can build an unlimited amount of content with this plan. </td>
                             <td>
                                 <span class="full"></span>Unlimited
-                                <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                                <!-- <span class="detail">Number of calculators, quizzes, chatbots, ecom recommendations & polls you can build.</span> -->
+                                <span class="detail">You can build an unlimited amount of content with this plan. </td>
                             </td>
                         </tr>
-                        <tr class="not-info">
+                        <tr class="expand">
                             <th><!-- <i class="material-icons vis-hide">add</i> --> Team Members</th>
-                            <td><span class="quater"></span>1</td>
-                            <td><span class="quater"></span>1</td>
-                            <td class="active-bg"><span class="half"></span>3</td>
-                            <td><span class="full"></span>10</td>
+                            <td>
+                                <span class="quater"></span>1
+                                <span class="detail">1 user or admin</span>
+                            </td>
+                            <td>
+                                <span class="quater"></span>1
+                                <span class="detail">1 user or admin</span>
+                            </td>
+                            <td class="active-bg">
+                                <span class="half"></span>3
+                                <span class="detail">3 users or admins total</span>
+                            </td>
+                            <td>
+                                <span class="full"></span>10
+                                <span class="detail">10 users or admins total</span>
+                            </td>
                         </tr>
                         <tr class="expand">
                             <th>
@@ -586,20 +679,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                 Templates & Layouts <i class="material-icons">help</i></th>
                             </th>
                             <td class="expand-child">
-                                <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the Classic Chicago, Madrid and Greek layout and templates. </span>
+                                <span class="quater"></span>3 Templates & Layout
+                                <span class="detail">Chicago, Madrid and Greek layout and Outcome quiz premade templates.</span>
                             </td>
                             <td class="expand-child">
-                                <span class="quater"></span>Basic Templates & Layout
-                                <span class="detail">Only the Classic Chicago, Londoner, Madrid and Greek layout and templates.</span>
+                                <span class="quater"></span>4 Templates & Layout
+                                <span class="detail">Chicago, Londoner, Madrid and Greek layout and premade templates. </span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>All Templates & Layouts
-                                <span class="detail">All layouts and templates are unlocked.</span>
+                                <span class="detail">All layouts and premade templates are unlocked.</span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>All Templates & Layouts
-                                <span class="detail">All layouts and templates are unlocked.</span>
+                                <span class="detail">All layouts and premade templates are unlocked.</span>
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -629,19 +722,31 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>  
                             <td class="expand-child">
                                 <span class="full"></span>Embed Anywhere
-                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                </span>
                             </td>   
                             <td class="expand-child">
                                 <span class="full"></span>Embed Anywhere
-                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                </span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="full"></span>Embed Anywhere
-                                <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                </span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Embed & Custom Domain
-                                <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on your company domain via CNAME [yourcompany.com]</small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                </span>
                             </td>                    
                         </tr>
                         <!-- <tr class="expand">
@@ -683,7 +788,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
-                                <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
+                                <span class="detail">Add bar graphs, polar/radar graphs, pie charts, line graphs and tables to your content. </span>
                             </td>
                         </tr>
                         <!-- <tr class="expand">
@@ -713,19 +818,37 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>
                             <td class="expand-child">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                </span>
                             </td>
                             <td class="expand-child">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                </span>
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="half"></span>Standard Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your font </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                </span>
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Full Access
-                                <span class="detail">You can add your own logo and use your brand’s colors. You can also remove the Outgrow Logo.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add your font </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Can remove Outgrow Branding </small>
+                                </span>
                             </td>
                         </tr>
                         <tr class="expand">
@@ -736,19 +859,35 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Integrations
-                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small><br>
+                                </span>
                             </td>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Integrations
-                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small>
+                                </span>
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Standard Integrations
-                                <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo and Eloqua </small><br>                                    
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add each segment to a specific email campaign or list </small>
+                                </span>
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Advanced Integrations
-                                <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add each segment to a specific email campaign or list </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Integrate user responses and results</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Webhooks </small>
+                                </span>
                             </td>
                         </tr>
                         <!-- <tr class="not-info">
@@ -865,19 +1004,38 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">No access to logic jump, but can use outcome mapping in quiz.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                </span>                        
                             </td>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                </span>  
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="full"></span>Full Access
-                                <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Logic jump </small>
+                                </span>  
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Full Access
-                                <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Logic jump </small>
+                                </span>  
                             </td>
                         </tr>
                         <tr class="expand">
@@ -888,19 +1046,42 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Access
-                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                </span>  
                             </td>
                             <td class="expand-child">                                
                                 <span class="half"></span>Standard Access
-                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                </span>  
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Standard Access
-                                <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                </span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Advanced Access
-                                <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>                             
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses & Results, Traffic Info </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>User & Question Funnels </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Customize FB and Google Pixel </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Add Custom Tracking Script </small>
+                                </span>  
                             </td>
                         </tr>
                         <tr class="expand">
@@ -911,19 +1092,35 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>
                             <td class="expand-child">
                                 <span class="none"></span>No Access
-                                <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No access </small>
+                                </span> 
                             </td>   
                             <td class="expand-child">
                                 <span class="none"></span>No Access
-                                <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>No access </small>
+                                </span>  
                             </td>
                             <td class="expand-child active-bg">
                                 <span class="quater"></span>Limited Access
-                                <span class="detail">Access to conditional messaging.</span>
+                                <span class="detail">
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Conditional messaging </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Launch in Email (Allows you to ask the first question directly in an email) </small>
+                                </span> 
                             </td>
                             <td class="expand-child">
                                 <span class="full"></span>Advanced Access
-                                <span class="detail">Access to conditional messaging, email embeds, email validation, custom HTML/CSS/JS and custom notifications.</span>
+                                <span class="detail">
+                                <small><i class="material-icons"> keyboard_arrow_right</i>Conditional messaging </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Launch in Email (Allows you to ask the first question directly in an email) </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Custom email notification to team </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Email validation </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Html editor </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>CSS Editor </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Custom html </small><br/>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>Custom javascript </small>
+                                </span> 
                             </td>        
                         </tr>
                         <tr class="expand">
@@ -934,19 +1131,19 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                             </th>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Support Docs
-                                <span class="detail">You will have access to support docs.</span>                             
+                                <span class="detail">You will have access to support docs and live chat.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="quater"></span>Support Docs
-                                <span class="detail">You will have access to support docs.</span>                             
+                                <span class="detail">You will have access to support docs and live chat.</span>                             
                             </td>
                             <td class="expand-child active-bg">                                
                                 <span class="half"></span>Basic
-                                <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>                             
+                                <span class="detail">You will have access to support docs, live chat as well as email support. We will try to answer all questions within 48 hours.</span>                             
                             </td>
                             <td class="expand-child">                                
                                 <span class="full"></span>Priority
-                                <span class="detail">You will have access to support docs, email support as well as live chat.</span>                             
+                                <span class="detail">You will have access to support docs, live chat as well as email and phone support. We will try to answer all questions within 24 hours.</span>                             
                             </td>
                         </tr>
                     </tbody>
@@ -977,6 +1174,15 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Quiz only</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small>
+                                        <!-- <span class="detail"> </span>  -->
+                                    </span>
+                                </li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle yearlyLeads"><span class="quater"></span>12,000 per year</span>
                                     <span class="feature-subtitle monthlyLeads hide"><span class="quater"></span>1,000 per month</span>
@@ -985,11 +1191,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                 <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>3</span>
-                                    <span class="detail">Number of outcome quizzes and graded quizzes you can build. </span>
+                                    <span class="detail">You can build up to 3 outcome quizzes or graded quizzes. </span>
                                 </li>
-                                <li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Team Members</span>
                                     <span class="feature-subtitle"><span class="quater"></span>1</span>
+                                    <span class="detail">1 user or admin</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -997,8 +1204,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         <i class="material-icons minus">remove</i>  -->
                                         Templates & Layouts <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the Classic Chicago, Madrid and Greek layout and templates. </span>
+                                    <span class="feature-subtitle"><span class="half"></span>3 Templates & Layout</span>
+                                    <span class="detail">Chicago, Madrid and Greek layout and Outcome quiz premade templates.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1016,7 +1223,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
-                                    <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                    </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1051,7 +1261,11 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                    <span class="detail">                                
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1060,7 +1274,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Integrations <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
-                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small><br>
+                                    </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1119,7 +1336,11 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">No access to logic jump, but can use outcome mapping in quiz. </span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1128,7 +1349,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses &amp; Results, Traffic Info </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1137,7 +1363,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Advanced Features <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                    <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                    <span class="detail"><small><i class="material-icons"> keyboard_arrow_right</i>No access </small></span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1146,7 +1372,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
-                                    <span class="detail">You will have access to support docs.</span>
+                                    <span class="detail">You will have access to support docs and live chat.</span>
                                 </li>
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
@@ -1178,6 +1404,17 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle"><span class="quater"></span>Quiz, Calc, Ecom </span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Calculator or </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations </small>
+                                    </span>
+                                </li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle yearlyLeads"><span class="quater"></span>12,000 per year</span>
                                     <span class="feature-subtitle monthlyLeads hide"><span class="quater"></span>1,000 per month</span>
@@ -1186,11 +1423,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="quater"></span>5</span>
-                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
+                                    <span class="detail">You can build up to 5 quizzes, calculators, polls or recommendations. </span>
                                 </li>
-                                <li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Team Members</span>
                                     <span class="feature-subtitle"><span class="quater"></span>1</span>
+                                    <span class="detail">1 user or admin</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1198,8 +1436,8 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         <i class="material-icons minus">remove</i>  -->
                                         Templates & Layouts <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="half"></span>Basic Templates & Layout </span>
-                                    <span class="detail">Only the Classic Chicago, Londoner, Madrid and Greek layout and templates. </span>
+                                    <span class="feature-subtitle"><span class="half"></span>4 Templates & Layout</span>
+                                    <span class="detail">Chicago, Londoner, Madrid and Greek layout and premade templates. </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1217,7 +1455,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
-                                    <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                    </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1252,7 +1493,11 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                    <span class="detail">                                
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1261,7 +1506,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Integrations <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
-                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo, Pardot and Eloqua </small><br>
+                                    </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1320,7 +1568,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                    <span class="detail">You can use basic mathematical operators like +,-, x and /. Logic jump is not included.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, images, text and personalized Outcome page for outcome quizzes</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>No logic jump </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1329,7 +1582,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses &amp; Results, Traffic Info </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1338,7 +1596,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Advanced Features <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="none"></span>No Access</span>
-                                     <span class="detail">You do not have access to conditional messaging or advanced design customizations.</span> 
+                                    <span class="detail"><small><i class="material-icons"> keyboard_arrow_right</i>No access </small></span>  
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1347,7 +1605,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Support Docs</span>
-                                    <span class="detail">You will have access to support docs.</span>
+                                    <span class="detail">You will have access to support docs and live chat.</span>
                                 </li>
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
@@ -1381,6 +1639,18 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle"><span class="full"></span>All </span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Calculator  </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot </small>
+                                    </span>
+                                </li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle yearlyLeads"><span class="half"></span>90,000 per year</span>
                                     <span class="feature-subtitle monthlyLeads hide"><span class="half"></span>7,500 per month</span>
@@ -1389,11 +1659,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                 <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
-                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build. </span>
+                                    <span class="detail">You can build an unlimited amount of content with this plan. </span>
                                 </li>
-                                <li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Team Members</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
+                                    <span class="detail">3 users or admins total</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1402,7 +1673,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates are unlocked.</span>
+                                    <span class="detail">All layouts and premade templates are unlocked.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1420,7 +1691,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed Anywhere </span>
-                                    <span class="detail">Experience hosted on Outgrow domain [yourcompany.outgrow.co] and can be embedded on any webpage.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on Outgrow domain [yourcompany.outgrow.co]</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                    </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1455,7 +1729,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Custom Branding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
+                                    <span class="detail">                                
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add your font </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Cannot remove Outgrow Branding </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1464,7 +1743,11 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Integrations <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Integrations</span>
-                                    <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations except Marketo and Eloqua </small><br>                                    
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add each segment to a specific email campaign or list </small>
+                                    </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1526,7 +1809,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Logic jump </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1535,7 +1823,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses &amp; Results, Traffic Info </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1544,7 +1837,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Advanced Features <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
-                                     <span class="detail">Access to conditional messaging.</span> 
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional messaging </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Launch in Email (Allows you to ask the first question directly in an email) </small>
+                                    </span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1553,7 +1849,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Basic</span>
-                                    <span class="detail">You will have access to support docs as well as email support. We will try to answer all queries within 24-48 hours.</span>
+                                    <span class="detail">You will have access to support docs, live chat as well as email support. We will try to answer all questions within 48 hours. </span>
                                 </li>
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
@@ -1588,6 +1884,18 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                         <div class="pricing-bottom">
                             <ul class="features rs-hide">
                                 <li class="expand-rs">
+                                    <span class="feature-title">Type of Content <i class="material-icons">help</i></span>
+                                    <span class="feature-subtitle"><span class="full"></span>All </span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome Quiz</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Calculator  </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot </small>
+                                    </span>
+                                </li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Leads <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle yearlyLeads"><span class="full"></span>600,000 per year</span>
                                     <span class="feature-subtitle monthlyLeads hide"><span class="full"></span>50,000 per month</span>
@@ -1596,11 +1904,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                 <li class="expand-rs">
                                     <span class="feature-title">No. of Content Pieces <i class="material-icons">help</i></span>
                                     <span class="feature-subtitle"><span class="full"></span>Unlimited</span>
-                                    <span class="detail">Number of calculators, quizzes, recommendations etc you can build.</span>
+                                    <span class="detail">You can build an unlimited amount of content with this plan. </span>
                                 </li>
-                                <li>
+                                <li class="expand-rs">
                                     <span class="feature-title">Team Members</span>
                                     <span class="feature-subtitle"><span class="full"></span>10</span>
+                                    <span class="detail">10 users or admins total</span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1609,7 +1918,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Templates & Layouts <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>All Templates & Layouts </span>
-                                    <span class="detail">All layouts and templates are unlocked.</span>
+                                    <span class="detail">All layouts and premade templates are unlocked.</span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1627,7 +1936,10 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Hosting & Embedding <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Embed & Custom Domain </span>
-                                    <span class="detail">Experience hosted on your company domain [yourcompany.com] and can be embedded on any webpage.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Content hosted on your company domain via CNAME [yourcompany.com] </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Can be embedded on any webpage.</small>
+                                    </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1645,7 +1957,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Charts & Graphs <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">Increase interactivity by adding charts, graphs and tables to your experiences.</span>
+                                    <span class="detail">Add bar graphs, polar/radar graphs, pie charts, line graphs and tables to your content. </span>
                                 </li>
                                 <!-- <li class="expand-rs">
                                     <span class="feature-title">
@@ -1662,8 +1974,13 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         <i class="material-icons minus">remove</i>  -->
                                         Custom Branding <i class="material-icons">help</i>
                                     </span>
-                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">You can add your own logo and use your brand’s colors. You can also remove the Outgrow Logo.</span>
+                                    <span class="feature-subtitle"><span class="full"></span>Full Access</span>                                    
+                                    <span class="detail">                                
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add your logo </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Change theme colors </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add your font </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Can remove Outgrow Branding </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1672,7 +1989,13 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Integrations <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Integrations</span>
-                                    <span class="detail">Send all lead data using direct integrations, Zapier as well as Webhooks and our highly versatile API. </span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Integrate data from the lead gen form </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Access to all Outgrow native integrations and zapier integrations </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add each segment to a specific email campaign or list </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Integrate user responses and results</small><br/>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Webhooks </small>
+                                    </span>
                                 </li>
                                 <!-- <li>
                                     <span class="feature-title">Templates</span>
@@ -1734,7 +2057,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Formula & Logic Jump <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
-                                    <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Outcome mapping </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional CTA, image, text and personalized Outcome page </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Math Formulas: basic and advanced math operators including log, power functions, if-else, nested if statements </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Logic jump </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1743,7 +2071,15 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Analytics & Tracking <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                    <span class="detail">Traffic Details, Lead Data, User Responses & Funnel Visualization. Can add all tracking codes.</span>
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Lead Data, User Responses &amp; Results, Traffic Info </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Export Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Segment Data </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add Facebook and Google Analytics tracking codes </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>User &amp; Question Funnels </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Customize FB and Google Pixel </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Add Custom Tracking Script </small>
+                                    </span>
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1752,7 +2088,16 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Advanced Features <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Advanced Access</span>
-                                     <span class="detail">Access to conditional messaging, email embeds, email validation, custom HTML/CSS/JS and custom notifications.</span> 
+                                    <span class="detail">
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Conditional messaging </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Launch in Email (Allows you to ask the first question directly in an email) </small><br/>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Custom email notification to team </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Email validation </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Html editor </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>CSS Editor </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Custom html </small><br>
+                                        <small><i class="material-icons"> keyboard_arrow_right</i>Custom javascript </small>
+                                    </span> 
                                 </li>
                                 <li class="expand-rs">
                                     <span class="feature-title">
@@ -1761,7 +2106,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                                         Support <i class="material-icons">help</i>
                                     </span>
                                     <span class="feature-subtitle"><span class="full"></span>Priority</span>
-                                    <span class="detail">You will have access to support docs, email support as well as live chat.</span>
+                                    <span class="detail">You will have access to support docs, live chat as well as email and phone support. We will try to answer all questions within 24 hours. </span>
                                 </li>
                             </ul>
                             <a href="javascript:void(0);" class="toggle-more">
@@ -1774,12 +2119,46 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 
                 <!-- end: for responsive -->
             </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12 np enterprise-startup">            
+                <div class="container">
+                    <div class="col-md-7 col-sm-12 col-xs-12 np">
+                        <div class="enterprise-box-v2 text-center enterprise-agency-box ">
+                            <img src="/images/icon-enterprise.png"/>
+                            <h2 class="title">Enterprise & Agency Plans</h2>
+                            <!-- <span class="border-center"></span> -->
+                            <span class="subtitle">Need Enterprise grade features?</span>
+                            <p>
+                                Made for larger midmarket, enterprise businesses and agencies, these plans
+                                give you advanced access with a dedicated account manager. API access,
+                                custom templates, consulting and team training.
+                            </p>
+                            <button onclick="sendMessageToIntercom('Interested in Enterprise / Agency plans')" href="javascript:void(0)" class="ic-launcher btn btn-white-red-outline btn-hover">Contact us</button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12 col-xs-12 np">
+                        <div class="enterprise-box-v2 text-center startup-box">
+                            <img src="/images/icon-startup.png"/>
+                            <!-- <h2 class="title">Enterprise & Agency Plans</h2> -->
+                            <!-- <span class="border-center"></span> -->
+                            <span class="subtitle">Are you a Startup or small business?</span>
+                            <p>
+                                See if you qualify for our small business
+                                incentive package and a
+                                custom plan!
+                            </p>
+                            <button class="ic-launcher btn btn-white-red-outline btn-hover" onclick="sendMessageToIntercom('I am on your pricing page and am interested to see if I qualify for your small business incentive program as I would like a special deal. Do I satisfy your business program criteria ?')" id="intercom_trigger">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-md-12 col-sm-12 col-xs-12 np create-exp" id="target">
                 <div class="container">
                     <h4>Don't have time? Let's build one for you!</h4>
                     <div class="col-md-3 col-sm-3 col-xs-12 np">
                         <h5><img src="/images/icon-create-custom.png">We'll Create </h5>
-                        <span class="calc">Calculator/Quiz/Outcome/Poll/eCommerce</span>
+                        <span class="calc">Calculator/Quiz/Chatbot/Poll/Ecom Rec.</span>
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-12 np text-center create-exp-center">
                         <span class="create-exp-start">Starting From </span>
@@ -1787,16 +2166,16 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                         <span class="text-opacity">/content piece</span>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12 np">
-                        <button class="btn btn-white-red-outline btn-hover intercom_trigger" id="intercom_trigger">Learn more</button>
+                        <button onclick="sendMessageToIntercom('I am interested in your custom build option')" href="javascript:void(0)" class="btn btn-white-red-outline btn-hover">Learn more</button>
                     </div>
                     <!-- <button class="closeDiv"><i class="material-icons">cancel</i></button> -->
                 </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
+            <!-- <div class="col-md-12 col-sm-12 col-xs-12 np enterprise_pos">
                 <div class="col-md-12 col-sm-12 col-xs-12 np text-center need-custom-plan">
-                    <a class="" href="javascrpt:void(0);">
+                    <span class="">
                         <i class="material-icons">headset_mic</i>need enterprise grade features? Contact us.
-                    </a>
+                    </span>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 np">
                     <div class="container-enterprise">
@@ -1810,7 +2189,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 

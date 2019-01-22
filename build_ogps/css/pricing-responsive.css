@@ -92,7 +92,7 @@
 	#pricing .enterprise_pos{
 		margin-top: 10px;
 	}
-	#pricing .need-custom-plan a{
+	#pricing .need-custom-plan span {
 		font-size: 12px;
 	}
 	#pricing .need-custom-plan i.material-icons {

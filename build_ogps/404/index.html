@@ -10,7 +10,7 @@
 
 		<meta property="og:title" content="Page not found | Outgrow" />
 
-	<link rel="canonical" href="http://outgrow.co/" />
+	<!-- <link rel="canonical" href="http://outgrow.co/" /> -->
 	<link rel="apple-touch-icon" href="//dzvexx2x036l1.cloudfront.net/og-apple.png">
 	<link href='https://www.filepicker.io/api/file/Ay8X8PhXTdaClFdhsLeR' rel='shortcut icon'>
 
@@ -107,8 +107,20 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			"ratingCount": "48"
 		}
 	});
+
+	var schemaNew = document.createElement('script');
+	schemaNew.type = 'application/ld+json';
+	schemaNew.text = JSON.stringify({
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": "Outgrow.co",
+		"url": "https://outgrow.co/",
+		"sameAs": ["https://www.facebook.com/OutgrowCo/","https://www.instagram.com/outgrow.co/?hl=en",
+                   "https://www.linkedin.com/company/outgrow.co/","https://plus.google.com/104060900998969972413"]
+	});
 	document.querySelector('head').appendChild(schemaA);
 	document.querySelector('head').appendChild(schemaB);
+	document.querySelector('head').appendChild(schemaNew);
 
 	let host = window.location.href.toLowerCase();
 	var gap = (host.indexOf("outgrow.co") < 0 || host.indexOf("outgrow.co.in") >=0 ) ? "UA-82638968-1" : "UA-85018378-1";
@@ -143,6 +155,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 	.wrapper-mobile{  width: 89%; min-height: 444px; box-shadow: none;}
 	.wrapper-mobile .h_iframe iframe{ min-height:444px;}
 </style>
+<span itemscope itemtype="https://schema.org/Organization" style="position: absolute; right: 0; opacity: 0;">
+ <link itemprop="url" href="https://outgrow.co/">
+ <a itemprop="sameAs" href="https://www.facebook.com/OutgrowCo/">FB</a>
+ <a itemprop="sameAs" href="https://twitter.com/outgrowco?lang=en">Twitter</a>
+</span>
+
 	</head>
 
 <body class=" footer-cookies" id="404">
@@ -320,6 +338,18 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			document.getElementsByClassName('lead-email')[0].href = href + email;
 	}
 	document.getElementsByClassName('lead-form-email')[0].onkeypress = function (e) {
+					let email = e.target.value;
+					let href = "//app.outgrow.co/?email=";
+					if (e.keyCode == 13) {
+						window.location.href = href+email;
+					}
+				}
+				document.getElementsByClassName('lead-form-email')[1].onchange = function (e) {
+			let email = e.target.value;
+			let href = "//app.outgrow.co/?email=";
+			document.getElementsByClassName('lead-email')[1].href = href + email;
+	}
+	document.getElementsByClassName('lead-form-email')[1].onkeypress = function (e) {
 					let email = e.target.value;
 					let href = "//app.outgrow.co/?email=";
 					if (e.keyCode == 13) {
