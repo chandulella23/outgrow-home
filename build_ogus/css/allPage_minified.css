@@ -83166,6 +83166,7 @@ h4.mk-animate-element.right-to-left.publish {
         padding-top: 30px;
         line-height: normal !important;
     }
+    .case-chatbot .case-breathers-rightSide .heading {text-transform: inherit;}
     .case-breathers-rightSide h5.subheading {
         font-size: 15px!important;
     }
