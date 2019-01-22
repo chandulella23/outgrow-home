@@ -2004,7 +2004,7 @@ label {
 	margin-bottom: 30px
 }
 
-#pricing .need-custom-plan a {
+#pricing .need-custom-plan span {
 	color: #62696d;
 	font-size: 18px;
 	font-family: montserratregular;
@@ -6770,13 +6770,16 @@ span.icon-webcam {
 /* end: new css changes by Arti */
 
 #selEvents .event-wrapper{ float: left; width: 100%; }
-#selEvents .event-wrapper .img-outer{ float: left; width: 80px; height: 80px; margin-right: 10px; margin-top: 12px; }
+#selEvents .event-wrapper .img-outer{ float: left; width: 80px; height: 40px; margin-right: 10px; margin-top: 12px; }
 #selEvents .event-wrapper .event-content{ float: left; width: calc(100% - 90px);}
 #selEvents .event-wrapper .event-content h5{font-size: 14px;color: #62696d;font-family: montserratregular; line-height: normal; margin-bottom:5px; }
 #selEvents .event-wrapper .event-content span{float: left; width: 100%;  font-size: 12px; color: #62696d; font-family: montserratlight; line-height: 18px; overflow: hidden;}
-.calendar-wrapper.fixed-width .inner-box{float: left;  width: 100%;  max-height: 366px;}
+.calendar-wrapper.fixed-width .inner-box{float: left;  width: 100%;  max-height: 300px; min-height: 335px;}
 
-
+#selEvents .event-wrapper .img-outer img {    
+	height: 100%;
+	width: 100%;
+}
 
 
 @media(min-width:500px) and (max-width:768px) {
@@ -6801,13 +6804,13 @@ span.icon-webcam {
 	.recentNews-outer {
 		max-width: initial !important;
 		width: 100%;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 	.recentNews-outer:last-child {
 		margin-bottom: 0;
 	}
 	.recentNews-inner{ min-height: 300px !important;}
-	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:3px!important; }
+	.recentNews-outer.fixed-width .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{ bottom:10px!important; }
 	.calendar-wrapper.fixed-width .inner-box { float: left; width: 100%;  max-height: initial;}
 	.recentNews-inner.calender-outer{ height: initial; max-height: initial;}
 	.calendar-wrapper.fixed-width .inner-box {max-height: initial !important;overflow: initial;}
@@ -9134,7 +9137,10 @@ blockquote span.quote-right1 {
 }
 
 .section-smart-builder {
-	margin-top: 50px;
+	margin-top: 30px;
+}
+.section-smart-builder .display-table {
+    margin-bottom: 30px;
 }
 
 .section-smart-builder .img-outer {
@@ -9143,7 +9149,7 @@ blockquote span.quote-right1 {
 
 .section-smart-builder .img-inner1 {
 	position: absolute;
-	top: 20px;
+	top: 0px;
 	border: 1px solid #e9e9e9;
 	z-index: 1;
 }
@@ -9151,6 +9157,7 @@ blockquote span.quote-right1 {
 .section-smart-builder .img-inner2 {
 	left: 10%;
 	position: relative;
+	top: -20px;
 }
 
 .display-table {
@@ -9607,8 +9614,8 @@ span.feature-subtitle {
 	background: #fff;
 	padding: 22px 20px;
 	transition: all .5s ease 0s;
-	min-height: 410px;
-	max-height: 410px; position: relative;
+	min-height: 375px;
+	max-height: 375px; position: relative;
 }
 
 .recentNews-inner:hover {
@@ -9617,8 +9624,8 @@ span.feature-subtitle {
 
 .img-section {
     float: left;
-    width: 88px;
-    height: 88px;
+    width: 68px;
+    height: 68px;
     border-radius: 50px;
     position: relative;
 	overflow: hidden;
@@ -9632,9 +9639,9 @@ span.feature-subtitle {
 
 .recentNews-inner-row {
 	float: left;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	border-bottom: 1px solid #eee;
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 }
 
 .recentNews-inner-row:last-child {
@@ -9650,33 +9657,34 @@ span.feature-subtitle {
 }
 
 .recentNews-text h5 {
-	font-size: 14px;
+	font-size: 15px;
 	color: #62696d;
 	font-family: montserratregular;
 	margin-top: 0px;
-	line-height: normal;
+	line-height: 20px;
 	display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: hidden;
+	overflow: hidden;
+	margin-bottom: 5px;
 }
 
 .recentNews-text span {
 	display: block;
-	font-size: 12px;
+	font-size: 11px;
 	color: #62696d;
 	font-family: montserratlight;
 	opacity: 0.5;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .recentNews-text p {
 	float: left;
 	width: 100%;
-	font-size: 13px;
+	font-size: 12px;
 	color: #62696d;
 	font-family: montserratlight;
-	line-height: 18px;
+	line-height: normal;
 	overflow: hidden;	
 	display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -9756,7 +9764,7 @@ span.feature-subtitle {
 	left: 0;
 	width: 100%;
 	/* margin-top: 20px; */
-	bottom: 20px;
+	bottom: 10px;
 }
 
 .sec-outgrowMagic .section-2-heading {
@@ -9913,15 +9921,15 @@ span.feature-subtitle {
 	.cld-day.today .cld-number {
 		background: #6fcb94 !important;
 		border-color: #6fcb94;
-		min-height: 28px;
+		min-height: 30px;
 		color: #fff !important;
 		border-radius: 50%;
-		height: 28px;
-		width: 28px;
+		height: 30px;
+		width: 30px;
 		padding: 7px 4px !important;
 		/* margin: 4px 12%; */
 		font-weight: normal !important;
-		font-size: 10px;
+		font-size: 11px;
 		margin: 4px auto 4px;
 	}
 
@@ -9954,7 +9962,7 @@ span.feature-subtitle {
 	.cld-number.eventday {
 		background: #e9f2f9 !important;
 		min-height: 28px;
-		color: #999 !important;
+		color: #fff !important;
 		border-radius: 50%;
 		height: 28px;
 		width: 28px;
@@ -9972,7 +9980,7 @@ span.feature-subtitle {
 
 	.cld-day.currMonth.today .cld-number.eventday:hover {
 		background: #fff !important;
-		color: #333 !important;
+		color: #fff !important;
 		cursor: default;
 	}
 
@@ -9986,9 +9994,9 @@ span.feature-subtitle {
 	}
 
 	.cld-labels li.cld-label {
-		padding: 8px !important;
+		padding: 9px !important;
 		background: #fff;
-		font-size: 10px;
+		font-size: 11px;
 	}
 
 	.cld-day {
@@ -10058,8 +10066,8 @@ span.feature-subtitle {
 	}
 
 	.cld-number {
-		font-size: 10px;
-		padding: 11px !important;
+		font-size: 11px;
+		padding: 12px !important;
 	}
 
 	.calendar-outer {
@@ -10978,4 +10986,79 @@ img#imgLoad {
     content: " ";
     border-top-color: #5192c8;
     border-bottom-width: 0;
+}
+/* .swiper-container-blog .swiper-wrapper {
+    min-height: 370px;
+}
+.swiper-container-blog .swiper-pagination {bottom: 0px;} */
+.swiper-container-blog .recentNews-text h5 {
+    margin-top: 20px;
+}
+/* css of simplebar */
+	.simplebar-scrollbar {
+		width: 4px !important;
+		right:1px!important;
+	}
+	.simplebar-scrollbar:before {
+		opacity: 0.2 !important;
+		width: 4px;
+	}
+	.simplebar-track {
+		background: #e2e2e2;
+		/* opacity: 0.2; */
+		width: 5px !important;
+	}
+	.simplebar-track.simplebar-vertical {
+        visibility: visible !important;
+	}
+	.simplebar-track.simplebar-horizontal {
+        display: none;
+	}
+	.simplebar-content {overflow: hidden hidden !important;}
+
+/* end: css of simplebar */
+ul.pre-temp-list li a small {
+    font-size: 8px;
+    color: #666666;
+    text-transform: uppercase;
+    font-family: montserratlight;
+    padding: 4px 10px;
+    float: left;
+    width: auto;
+    background: #f5f5f5;
+    border-radius: 20px;
+    line-height: normal;
+}
+ul.pre-temp-list li a span {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
+ul.pre-temp-list {
+	float: left;
+	width: 200px;
+	padding: 0 50px 0 0;
+	margin: 0;
+	max-width: 100%;
+	height: 600px;
+	margin-right: 37px;
+}
+ul.pre-temp-list li{float: left; width: 100%; position: relative; margin-bottom: 15px; list-style: none;}
+ul.pre-temp-list li a::before{content: "\f105"; font-family: FontAwesome; position: absolute; left: 0; top:-2px; font-size: 14px;}
+ul.pre-temp-list li a{    
+	font-size: 12px;
+	line-height: 20px;
+	float: left;
+	transition: 0.5s;
+	color: #888;
+	font-family: montserratlight;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	position: relative;
+	width: 100%;
+}
+ul.pre-temp-list li.active > a, ul.pre-temp-list li a:hover{color: #4894ca; transition: 0.5s;}
+.recentNews-inner.calender-outer .cld-main i {
+    font-size: 14px;
+    padding: 3px 6px !important;
 }

@@ -63,6 +63,7 @@ window.setPremade = function () {
         }
     }
     premadeTemplateList.html(innerHTML)
+    new SimpleBar(jQuery('#gallery-content-center')[0], { autoHide: false });
 }
 
 // window.markAsActive = function (calcId) {
@@ -274,40 +275,49 @@ ready1();
 
 
 function renderBlogs(response) {
+    let default_attachment = 'https://cdn.filestackcontent.com/Yv2bXu6UQ6Kn6Vg4t3gB';
     let posts = response.posts;
-
-    console.log('Post -> ', posts[0]);
     if (posts.length > 0) {
         let post = '';
         for (let i = 0; i < posts.length; i++) {
-            if (i % 2 == 0) {
-                post += ` <div class="swiper-slide">
+            if (i % 3 == 0) {
+            post += `<div class="swiper-slide">
                         <div class="recentNews-inner-row">
-                            <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
-                            <div class="recentNews-text">
-                                <h5>${posts[i].title} </h5>
-                                <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-                            </div>
+                            <a href="${posts[i].url}" target="_blank">
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
+                                <div class="recentNews-text">
+                                    <h5>${posts[i].title} </h5>
+                                </div>
+                            </a>
                         </div>`;
 
+            } else if(i % 3 == 1) {
+                post += `<div class="recentNews-inner-row">
+                            <a href="${posts[i].url}" target="_blank">
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
+                                <div class="recentNews-text"> 
+                                    <h5>${posts[i].title} </h5>
+                                </div>
+                            </a>
+                        </div>`;
             } else {
                 post += `<div class="recentNews-inner-row">
-                        <div class="img-section"><img src="${posts[i].attachments[0].url}" /></div>
-                        <div class="recentNews-text"> 
-                        <h5>${posts[i].title} </h5>
-                        <a href="${posts[i].url}" target="_blank" class="readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+                            <a href="${posts[i].url}" target="_blank">
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
+                                <div class="recentNews-text"> 
+                                    <h5>${posts[i].title} </h5>
+                                </div>
+                            </a>
                         </div>
-                    </div>
                 </div>`
             }
         }
         let postt = document.getElementById("postt");
         let a = `<div class="swiper-wrapper">
             ${post}
-            </div>
+            </div></div>
             <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
                 <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                <span class="swiper-pagination-bullet"></span>
                 <span class="swiper-pagination-bullet"></span>
                 <span class="swiper-pagination-bullet"></span>
                 <span class="swiper-pagination-bullet"></span>
@@ -342,6 +352,8 @@ function getCalcType(type) {
         return 'QUIZ';
     } else if (type.toLowerCase().includes('com')) {
         return 'ECOM'
+    } else if (type.toLowerCase().includes('bot')) {
+        return 'CHATBOT'
     }
 }
 
@@ -358,6 +370,7 @@ function throttled(delay, fn) {
 }
 
 function renderPremadeCalcs(responseText) {
+    let selectedEvent = [];
     if (responseText.success) {
         window.calcs = responseText.data.calculators;
         window.industries = responseText.data.industries;
@@ -399,7 +412,6 @@ function renderPremadeCalcs(responseText) {
             calc['type'] = getCalcType(calc['type']);
         });
 
-
         window.specialEvents.forEach(sevent => {
             if (sevent.launch_date !== null) {
                 let launch_date = new Date(sevent.launch_date);
@@ -413,12 +425,36 @@ function renderPremadeCalcs(responseText) {
                     Link: '',
                     Image: sevent.media ? sevent.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
                     Description: sevent.description,
-                    EventName: sevent.event_name
+                    EventName: sevent.event_name,
+                    color: sevent.color
                 };
                 window.events.push(ev);
+                var todDate = new Date();
+                todDate.setHours(0,0,0,0);
+                var evDate = new Date(ev.Date);
+                if (todDate.getTime() === evDate.getTime()) {
+                    selectedEvent.push(ev);
+                }
             }
         });
 
+        if (selectedEvent.length > 0) {
+            let eventNames = selectedEvent.map(e => e.EventName).join(' / ');
+            let evBanner = ``;
+            selectedEvent.forEach((se) => {
+                evBanner += `
+                    <div class="event-wrapper">
+                        <div class="img-outer"><img src="${se.Image}" /></div>
+                        <div class="event-content">
+                            <h5>${se.Title}</h5>
+                            <span>${se.Description} </span>
+                        </div>
+                    </div>
+                `;
+            });
+            let selEvents = document.getElementById("selEvents");
+            selEvents.innerHTML = evBanner;
+        }
 
         var settings = {};
         var element = document.getElementById('calendar');
@@ -495,9 +531,10 @@ function renderPremadeCalcs(responseText) {
             create: true,
             sortField: 'text',
             onChange: function (event) {
-                window.shuffleCalcs(event,false)
-              }
+                window.shuffleCalcs(event, false)
+            }
         });
+        jQuery('.selectize-wrapper .selectize-input input').prop('disabled', true);
         jQuery(document).on('click', '.eventday', (event) => {
             self.selectedEvent = [];
             let selectedDate = event.target.getAttribute('content').trim();
@@ -526,9 +563,9 @@ function renderPremadeCalcs(responseText) {
                         </div>
                     `;
                 });
-
                 let selEvents = document.getElementById("selEvents");
                 selEvents.innerHTML = evBanner;
+                window.open('//' + window.location.host + '/event-calendar', '_blank');
             }
 
             // self.getEventName(self.selectedEvent);

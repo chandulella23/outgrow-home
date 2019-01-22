@@ -45,7 +45,7 @@
 	#pricing .enterprise_pos{
 		margin-top: 10px;
 	}
-	#pricing .need-custom-plan a{
+	#pricing .need-custom-plan span{
 		font-size: 12px;
 	}
 	#pricing .need-custom-plan i.material-icons {
@@ -463,7 +463,7 @@
 	#pricing .pricing-headingtop {margin-bottom: 80px;}
 	.enterprise_pos {margin-top: 80px;}
 	#pricing .section-faq .section-2-heading {font-size: 104px;}
-	#pricing .need-custom-plan a {font-size: 44px;}
+	#pricing .need-custom-plan span {font-size: 44px;}
 	#pricing .need-custom-plan i.material-icons {
 		font-size: 98px;
 		top: 35px;
