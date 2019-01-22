@@ -1010,7 +1010,7 @@
 				<img alt="It's your turn now!" src="images/chatbot_divider.png">
 			</div>
 			<div class="case-breathers-rightSide product-outer">
-				<div class="heading fnt-chnge product-hunt hunt1">Interactive Content Strategy Whitepaper For Your Industry </div>
+				<div class="heading fnt-chnge product-hunt hunt1">Interactive Content Strategy for Your Industry </div>
 				<!-- <h5 class="subheading">
 					Calculators are amongst the highest rated products on <span class="font-semibold">Product Hunt.</span>
 				</h5> -->
