@@ -11015,6 +11015,7 @@ img#imgLoad {
         display: none;
 	}
 	.simplebar-content {overflow: hidden hidden !important;}
+	.simplebar-offset {width: 100%;}
 
 /* end: css of simplebar */
 ul.pre-temp-list li a small {
