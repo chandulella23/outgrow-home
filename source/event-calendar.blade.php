@@ -66,6 +66,13 @@
 				printCalendar(events);
 			});
 
+			function convert(text) {
+				var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+				var text1 = text.replace(exp, "<a href='$1'>$1</a>");
+				var exp2 =/(^|[^\/])(www\.[\S]+(\b|$))/gim;
+				return text1.replace(exp2, '$1<a target="_blank" href="http://$2">$2</a>');
+			}
+
 			function printCalendar(events) {
 				let clickedEvents = null;
 				let selectedDate = null;
@@ -89,7 +96,6 @@
 						});
 						let events = '';
 						clickedEvents.forEach((cev) => {
-							console.log('qqqqqqqqqqqq : ', cev);
 							events += `<li class="calendar-each-list">
 											<div class="li-left-sec">
 												<span class="date-tag">` + moment(selectedDate).format('DD') + `</span>
@@ -97,7 +103,7 @@
 											</div>
 											<div class="li-right-sec">
 												<span class="event-tag">` + cev.title + `</span>
-												<span class="event-tag-desc">` + cev.description + `</span>
+												<span class="event-tag-desc">` + convert(cev.description) + `</span>
 											</div>
 										</li>`;
 						});
