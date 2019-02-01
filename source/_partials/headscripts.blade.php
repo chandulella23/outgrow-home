@@ -117,7 +117,12 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     var parser = document.createElement('a');
     parser.href = window.location.href;
-    ga('create', gap, 'auto', 'markettingteam');    
+	ga('create', gap, 'auto', 'markettingteam');
+	
+	(function(h,e,a,t,m,p) {
+      m=e.createElement(a);m.async=!0;m.src=t;
+      p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+    })(window,document,'script','https://u.heatmap.it/log.js');
 
 	
 </script>
