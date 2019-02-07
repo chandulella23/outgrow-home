@@ -946,7 +946,7 @@
 					<div class="tab-outer-frame col-xs-12 col-md-10 col-sm-12 text-center">
 						<!--<span class="icon-webcam"></span>-->
 						<div class="hrefTarget tab-inner-frame col-xs-12 col-md-12 col-sm-12">
-							<iframe id="og-iframe" src="https://website.outgrow.us/website-64?vHeight=1"></iframe>
+							<iframe id="og-iframe" src="https://website.outgrow.us/website-64"></iframe>
 						</div>
 					</div>
 				</div>
