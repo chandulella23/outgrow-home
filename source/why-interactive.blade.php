@@ -86,11 +86,11 @@
 						<ul>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">They build trust by answering your customer's most pressing questions early on in the buying cycle. </span>
+								<span class="list"><b> builds trust by answering your customer's most pressing questions early on in the buying cycle. </span>
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">Buyers who don’t convert the first time will use interactive content. They form the optimal step in the buyer journey between the first visit and the eventual buy. </span>
+								<span class="list">Buyers who don’t convert the first time will use interactive content. It forms the optimal step in the buyer journey between the first visit and the eventual buy.</span>
 							</li>
 						</ul>
 					</div>
@@ -107,11 +107,11 @@
 						<ul>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">They are inherently viral. Due to the personalized nature of the responses, one is more attuned to sharing results. </span>
+								<span class="list">It is inherently viral. Due to the personalized nature of the responses, one is more attuned to sharing results.</span>
 							</li>
 							<li>
 								<span class="bullets"></span>
-								<span class="list">More people are searching for “How much does X cost” or “What is my risk of getting a X disease”. Interactive content like quizzes and calculators provide the best answers to these questions so rise to the top of search results. </span>
+								<span class="list">More people are searching for “How much does X cost” or “What is my risk of getting a X disease”. Interactive content like quizzes and calculators provides the best answers to these questions so rise to the top of search results.</span>
 							</li>
 						</ul>
 					</div>
