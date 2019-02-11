@@ -86,7 +86,7 @@
 						<ul>
 							<li>
 								<span class="bullets"></span>
-								<span class="list"><b> builds trust by answering your customer's most pressing questions early on in the buying cycle. </span>
+								<span class="list">It builds trust by answering your customer's most pressing questions early on in the buying cycle.</span>
 							</li>
 							<li>
 								<span class="bullets"></span>
