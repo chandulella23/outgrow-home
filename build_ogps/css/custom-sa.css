@@ -221,7 +221,7 @@ label {
 }
 
 .rs-show {
-	display: none;
+	display: none!important;
 }
 
 .section,

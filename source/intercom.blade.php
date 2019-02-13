@@ -1218,3 +1218,16 @@
 </div>
 </section>
 
+<<<<<<< HEAD
+=======
+@section('pageScripts')
+	const libs = {
+		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
+		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
+		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
+		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
+		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
+		"simplebar": "https://unpkg.com/simplebar@latest/dist/simplebar.js",
+	}
+@endsection
+>>>>>>> 4e5ed95355428ffafaeb7941c0ed65b83994fe2b
