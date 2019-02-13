@@ -43,7 +43,7 @@
 		  <div class="chatbots-image-section">
            <div class="bots-inner">
 		   <img src="/images/chatbot-11.png" alt="">
-		   <img src="" alt="">
+		   <!-- <img src="/images/outgrow_robo_f.gif" alt=""> -->
 		   </div>
  
 
@@ -460,9 +460,9 @@
 		</div>
 	</section>
 	<section class="section sec-chatbot section-reviews">
-		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 intercom-chat" id="liveReviews">
 			<div class="container mobile-container">
-				<div class="section-2-heading" style="color: rgb(34, 34, 34);">
+				<div class="section-2-heading chatbot-red" style="color: rgb(34, 34, 34);">
 					Average Rating 4.9/5 <br/> 500+ Reviews
 				</div>
 				<div class="social-media-section">
@@ -506,7 +506,7 @@
 		</div>
 
 		<!-- start static HTML of fb, capterra and g2 crowd -->
-		<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds intercom-chat" id="staticReviews">
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds intercom-chat hide" id="staticReviews">
 			<div class="container mobile-container">
 				<div class="section-2-heading  chatbot-red" style="color: rgb(34, 34, 34);">
 					Average Rating 4.9/5 <br/> 500+ Reviews
@@ -1218,15 +1218,3 @@
 </div>
 </section>
 
-
-
-@section('pageScripts')
-	const libs = {
-		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-		"sitemin": "{{ $page->baseUrl }}/js/site.min.js",
-		"index": "{{ $page->baseUrl }}/js/pageScripts/index.js",
-		"resizer": "{{ $page->baseUrl }}/js/loader/resizer.js",
-		"navbar": "{{ $page->baseUrl }}/js/pageScripts/navbar.js",
-		"simplebar": "https://unpkg.com/simplebar@latest/dist/simplebar.js",
-	}
-@endsection
