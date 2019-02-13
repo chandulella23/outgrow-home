@@ -1218,6 +1218,8 @@
 </div>
 </section>
 
+@endsection
+
 @section('pageScripts')
 	const libs = {
 		"jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
