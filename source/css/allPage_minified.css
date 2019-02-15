@@ -16037,12 +16037,18 @@ iframe[name=google_conversion_frame] {
         padding-bottom: 50px !important;
     
     }
-    .interbot-content i.material-icons{
+ .interbot-content i.material-icons{
         top: 16px !important;
         left: 24px !important;
     }
     .inter1 {
-        margin-bottom: 50px;
+        margin-bottom: 50px!important;
+    }
+    .startTrial-outer.inter-bot .interbot-content i.material-icons{
+        left: 24px !important;
+    }
+    .sec-chatbot.sec-clients-logos .rs-hide-int-mob {
+        display: block!important;
     }
 }
 
@@ -87290,7 +87296,7 @@ background:#fff!important;
 .sec-chatbot.intercom:last-child{
     padding-bottom:130px!important;
 }
-.inter3{
+ .sec-chatbot.intercom.inter3{
     padding-bottom:130px!important;
 }
 .chatbots-image-section {
