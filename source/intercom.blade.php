@@ -238,7 +238,7 @@
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
 						<h3 class="section-subheading bot-heading">Make communicating <b>Fun</b> and <b>Seamless </b> </h3>
-						<p class="intercom-para">With chatbots, we available 24/7 to your users and visitors. Now, your sales and customer service teams can focus on more complex tasks while the chat guides people down the funnel.</p>
+						<div class="intercom-para-content"><p class="intercom-para">With chatbots, we available 24/7 to your users and visitors. Now, your sales and customer service teams can focus on more complex tasks while the chat guides people down the funnel.</p></div>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
@@ -248,7 +248,7 @@
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
 						<h3 class="section-subheading bot-heading">Generate and qualify Leads Easily so you can <b>Sell Better</b> </h3>
-						<p class="intercom-para">Capture your visitors lead info and task them followup questions like "How many people work at your company?" to help your sales team get more info about the prospect.</p>
+						<div class="intercom-para-content"><p class="intercom-para">Capture your visitors lead info and task them followup questions like "How many people work at your company?" to help your sales team get more info about the prospect.</p></div>
 					</div>
 
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
@@ -263,7 +263,7 @@
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
 						<h3 class="section-subheading bot-heading">Segment and Analyze your <b>Chatbot Data </b> to <b>Gain Visitors Insights</b> </h3>
-				<p class="intercom-para"> Build your visitors persona and find key patterns by analyzing and segmenting chatbot data by demographics, user responses etc.</p>
+						<div class="intercom-para-content"><p class="intercom-para"> Build your visitors persona and find key patterns by analyzing and segmenting chatbot data by demographics, user responses etc.</p></div>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
@@ -273,7 +273,7 @@
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
 						<h3 class="section-subheading bot-heading">Plug the Chatbot into your Business Workflow with <b>1000+ integration</b> </h3>
-					<p class="intercom-para">Take your business to the next level by integrating the chatbot with your sales, marketing and service tools.</p>
+						<div class="intercom-para-content"><p class="intercom-para">Take your business to the next level by integrating the chatbot with your sales, marketing and service tools.</p></div>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
 						<img src="{{ $page->baseUrl }}/images/chatbot-4.png" alt="Audience Segmentation and Targeted Sales">
