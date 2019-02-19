@@ -16543,7 +16543,7 @@ iframe.outgrow-video {
 			/* centers the loading animation horizontally on the screen */
 			top: 50%;
 			/* centers the loading animation vertically on the screen */
-			background-image: url("../images/logoAnim.gif");
+			background-image: url("../images/");
 			/* path to your loading animation */
 			background-repeat: no-repeat;
 			background-position: center;

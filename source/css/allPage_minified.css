@@ -15994,7 +15994,7 @@ iframe[name=google_conversion_frame] {
         top: 38px !important;
         /* left: 43px !important; */
     }
-       /* intercom page responsive by shelly */
+       /* intercom page responsive  */
 
     .inter1 .chatbot-heading{
         font-size: 22px!important;
@@ -16058,6 +16058,20 @@ iframe[name=google_conversion_frame] {
     .intercom-para-content {
         max-width: 470px!important;
         margin: 0 auto;
+    }
+    .whyMerticsAwesome-inner-right .bot-heading,.whyMerticsAwesome-inner-right .intercom-para {
+    
+        padding-left:0px!important;
+    }
+    .chatbot-readingsec-row:first-child {
+        margin-bottom:0px!important;
+    }
+    .sec-chatbot .intercom-chat {
+        padding-top:0px!important;
+        margin-top:0!important;
+    }
+    .sec-chatbot.sec-clients-logos {
+        margin: 0!important;
     }
 }
 
@@ -82433,6 +82447,9 @@ span.recom {
         font-size: 22px !important;
         line-height: normal !important;
     }
+    .sec-chatbot.sec-clients-logos .img-wrapper {
+       padding: 0!important;
+    }
 }
 
 .over1 {
@@ -87198,7 +87215,7 @@ ul.pre-temp-list li a span {
     margin-top: 80px;
   }
   .inter1{
-    margin-bottom: 70px;
+    margin-bottom: 36px;
   }
 .intercom-chatbot{
     font-family: montserratsemibold;
@@ -87290,10 +87307,14 @@ opacity: 0.7;
     color: #fb5f66!important;
     font-family: montserratultra_light;
     font-size:42px;
+    
   }
   .sec-chatbot{
       margin-bottom:0!important;
       margin-top:0!important;
+  }
+  .sec-chatbot.sec-clients-logos{
+    margin: 30px 0!important;
   }
    .sec-chatbot.section-premade-temp{
        background: #fff!important;
