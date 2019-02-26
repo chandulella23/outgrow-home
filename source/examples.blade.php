@@ -274,7 +274,7 @@
 									<div class="premade-template-left">
 
 										<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats" data-simplebar data-simplebar-auto-hide="false">
-											<li class="active">
+											<!-- <li class="active">
 												<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
 											</li>
 											<li>
@@ -330,12 +330,12 @@
 												<a href="javascript:void(0)" id="TVandEntertainment"
 												onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
 											</li>
+														
 										</ul>
 										<div class="form-group col-xs-12 np">
 											<div class="selectize selectize-wrapper">
 												<select id="select-list" placeholder="Select List">
 													<option value="Auto">Auto</option>
-													<option value="Education">Education</option>
 													<option value="Education">Education</option>
 													<option value="HealthFitness">Health & Fitness</option>
 													<option value="Quintessential">Quintessential</option>
