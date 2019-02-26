@@ -285,20 +285,20 @@ function renderBlogs(response) {
         let post = '';
         for (let i = 0; i < posts.length; i++) {
             if (i % 3 == 0) {
-            post += `<div class="swiper-slide">
+                post += `<div class="swiper-slide">
                         <div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url : default_attachment}" /></div>
                                 <div class="recentNews-text">
                                     <h5>${posts[i].title} </h5>
                                 </div>
                             </a>
                         </div>`;
 
-            } else if(i % 3 == 1) {
+            } else if (i % 3 == 1) {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url : default_attachment}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -307,7 +307,7 @@ function renderBlogs(response) {
             } else {
                 post += `<div class="recentNews-inner-row">
                             <a href="${posts[i].url}" target="_blank">
-                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url:default_attachment}" /></div>
+                                <div class="img-section"><img src="${posts[i].attachments[0] ? posts[i].attachments[0].url : default_attachment}" /></div>
                                 <div class="recentNews-text"> 
                                     <h5>${posts[i].title} </h5>
                                 </div>
@@ -379,6 +379,7 @@ function renderPremadeCalcs(responseText) {
         window.calcs = responseText.data.calculators;
         window.industries = responseText.data.industries;
         window.specialEvents = responseText.data.events;
+        window.getExistingIndustries();
         let trendingC = [];
         window.events = [];
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -434,7 +435,7 @@ function renderPremadeCalcs(responseText) {
                 };
                 window.events.push(ev);
                 var todDate = new Date();
-                todDate.setHours(0,0,0,0);
+                todDate.setHours(0, 0, 0, 0);
                 var evDate = new Date(ev.Date);
                 if (todDate.getTime() === evDate.getTime()) {
                     selectedEvent.push(ev);
@@ -605,6 +606,7 @@ function renderPremadeCalcs(responseText) {
         jQuery('#search-experience').val('');
     }
 }
+
 window.shuffleCalcs2 = function (filterName) {
 
     //changeActiveCalcCategory(filterName);
