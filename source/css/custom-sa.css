@@ -10995,18 +10995,18 @@ img#imgLoad {
     margin-top: 20px;
 }
 /* css of simplebar */
-	.simplebar-scrollbar {
-		width: 4px !important;
+
+	 .simplebar-scrollbar {
+		width: 3px !important;
 		right:1px!important;
 	}
 	.simplebar-scrollbar:before {
 		opacity: 0.2 !important;
-		width: 4px;
+		width: 3px;
 	}
 	.simplebar-track {
 		background: #e2e2e2;
-		/* opacity: 0.2; */
-		width: 5px !important;
+		width: 3px !important;
 	}
 	.simplebar-track.simplebar-vertical {
         visibility: visible !important;
@@ -11014,8 +11014,8 @@ img#imgLoad {
 	.simplebar-track.simplebar-horizontal {
         display: none;
 	}
-	.simplebar-content {overflow: hidden hidden !important;}
-	.simplebar-offset {width: 100%;}
+	/* .simplebar-content {overflow: hidden auto !important;}
+	.simplebar-offset {width: 100%;}  */
 
 /* end: css of simplebar */
 ul.pre-temp-list li a small {
