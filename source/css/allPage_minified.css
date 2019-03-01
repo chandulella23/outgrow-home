@@ -15994,7 +15994,7 @@ iframe[name=google_conversion_frame] {
         top: 38px !important;
         /* left: 43px !important; */
     }
-       /* intercom page responsive by shelly */
+       /* intercom page responsive  */
 
     .inter1 .chatbot-heading{
         font-size: 22px!important;
@@ -16017,6 +16017,7 @@ iframe[name=google_conversion_frame] {
         display: inline-block;
         float:left;
         width:100%;
+        text-align: center;
     }
     .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-right.rs-show{
        display: block!important;
@@ -16025,6 +16026,7 @@ iframe[name=google_conversion_frame] {
         font-size: 16px;
         text-align: left;
         line-height: normal;
+        text-align: center;
     }
     .sec-chatbot  .whyMerticsAwesome-inner-row {
         margin-bottom: 30px;
@@ -16049,6 +16051,27 @@ iframe[name=google_conversion_frame] {
     }
     .sec-chatbot.sec-clients-logos .rs-hide-int-mob {
         display: block!important;
+    }
+    .intercom-para {
+        text-align: center;
+    }
+    .intercom-para-content {
+        max-width: 470px!important;
+        margin: 0 auto;
+    }
+    .whyMerticsAwesome-inner-right .bot-heading,.whyMerticsAwesome-inner-right .intercom-para {
+    
+        padding-left:0px!important;
+    }
+    .chatbot-readingsec-row:first-child {
+        margin-bottom:0px!important;
+    }
+    .sec-chatbot .intercom-chat {
+        padding-top:0px!important;
+        margin-top:0!important;
+    }
+    .sec-chatbot.sec-clients-logos {
+        margin: 0!important;
     }
 }
 
@@ -82424,6 +82447,9 @@ span.recom {
         font-size: 22px !important;
         line-height: normal !important;
     }
+    .sec-chatbot.sec-clients-logos .img-wrapper {
+       padding: 0!important;
+    }
 }
 
 .over1 {
@@ -84516,7 +84542,7 @@ blockquote span.quote-right1 {
     
     ul.pre-temp-list {
         float: left;
-        width: 100%;
+        width: 100%!important;
         padding: 0
     }
     
@@ -87189,7 +87215,7 @@ ul.pre-temp-list li a span {
     margin-top: 80px;
   }
   .inter1{
-    margin-bottom: 70px;
+    margin-bottom: 36px;
   }
 .intercom-chatbot{
     font-family: montserratsemibold;
@@ -87209,8 +87235,7 @@ ul.pre-temp-list li a span {
  }
  .intercom-para{
     margin: 0;
-    padding-left: 5px;
-    max-width: 530px;
+    padding-left:5px;
     font-size: 14px;
 color: #626a6d;
 font-family: montserratlight;
@@ -87218,11 +87243,32 @@ line-height: 22px;
 margin-bottom: 25px;
 list-style: none;
 float: left;
+width:100%;
 opacity: 0.7;
  }
+ .intercom-para-content{
+     
+    max-width: 530px;
+}
  .bot-heading{
      float:left;
+     width:100%;
+   
  }
+ .whyMerticsAwesome-inner-right  .bot-heading{
+    padding-left: 30px;
+ }
+ .whyMerticsAwesome-inner-right  .intercom-para{
+    padding-left:34px;
+ }
+ .whyMerticsAwesome-inner-left 
+ .intercom-para{
+    padding-right:24px;
+ }
+ .whyMerticsAwesome-inner-left  .bot-heading{
+    padding-right:30px;
+ }
+
      .inter-bot{
         margin: 0 auto;
         width: 100%;
@@ -87261,10 +87307,14 @@ opacity: 0.7;
     color: #fb5f66!important;
     font-family: montserratultra_light;
     font-size:42px;
+    
   }
   .sec-chatbot{
       margin-bottom:0!important;
       margin-top:0!important;
+  }
+  .sec-chatbot.sec-clients-logos{
+    margin: 30px 0!important;
   }
    .sec-chatbot.section-premade-temp{
        background: #fff!important;
@@ -87303,9 +87353,56 @@ background:#fff!important;
     float: left;
     width: 100%;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 100px; min-height:350px; 
 }
+
+.chatbots-image-section img.first { top:30%; left:28%; position:absolute; width:55%;}
+.chatbots-image-section img.second { width:66%; left:18%; position:absolute; }
+
 .bot-head{
     font-family: montserratbold!important;  
 }
   
+.animated-img-outer{position: absolute;
+    float: left;
+    width: 100%;
+    left: -189px;
+    top: 138px;
+    padding-top: 0px;
+}
+.shadow {
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    margin-top: -92px;
+    background: #000;
+    opacity: .25;
+    display: block;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    transform: translateY(60px);
+    -webkit-filter: blur(17px);
+    filter: blur(17px);
+    -webkit-animation: shadow .5s infinite alternate;
+    animation: shadow .5s infinite alternate; 
+    margin:0 auto;  margin-top:270px;
+  }
+
+  @-webkit-keyframes shadow {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 150px;
+    }
+  }
+  @keyframes shadow {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 150px;
+    }
+  }
