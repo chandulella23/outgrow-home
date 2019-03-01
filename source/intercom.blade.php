@@ -42,8 +42,12 @@
 
 		  <div class="chatbots-image-section">
            <div class="bots-inner">
-		   <img src="/images/chatbot-11.png" alt="">
-		   <!-- <img src="/images/png_robo.gif" alt=""> -->
+		   <img src="/images/chatbot-11.png" class="first" alt="">
+		   <div class="animated-img-outer">
+		   <img src="/images/robo_small.gif" class="second" alt="">
+		   <div class="shadow"></div>
+		</div>
+		   
 		   </div>
  
 

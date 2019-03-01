@@ -87353,9 +87353,56 @@ background:#fff!important;
     float: left;
     width: 100%;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 100px; min-height:350px; 
 }
+
+.chatbots-image-section img.first { top:30%; left:28%; position:absolute; width:55%;}
+.chatbots-image-section img.second { width:66%; left:18%; position:absolute; }
+
 .bot-head{
     font-family: montserratbold!important;  
 }
   
+.animated-img-outer{position: absolute;
+    float: left;
+    width: 100%;
+    left: -189px;
+    top: 138px;
+    padding-top: 0px;
+}
+.shadow {
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    margin-top: -92px;
+    background: #000;
+    opacity: .25;
+    display: block;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    transform: translateY(60px);
+    -webkit-filter: blur(17px);
+    filter: blur(17px);
+    -webkit-animation: shadow .5s infinite alternate;
+    animation: shadow .5s infinite alternate; 
+    margin:0 auto;  margin-top:270px;
+  }
+
+  @-webkit-keyframes shadow {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 150px;
+    }
+  }
+  @keyframes shadow {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 150px;
+    }
+  }
