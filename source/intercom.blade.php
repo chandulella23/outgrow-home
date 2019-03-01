@@ -1363,6 +1363,10 @@ function getTemplateName(template) {
 		
 
 		</script>
+	@endsection
+		
+@section('inlinescripts')
+@endsection
 
 @section('pageScripts')
 	const libs = {
