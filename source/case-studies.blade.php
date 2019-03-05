@@ -464,7 +464,7 @@
 									<span class="quote-left1">“</span>Our goal was to generate more leads, and improve the level of customer interaction but our inbound strategies were giving lukewarm results at best. We had to reinvent marketing and needed something that could provide instant gratification. <span class="quote-right1">“</span> 
 								<!-- <span class="quote-right"></span> -->
 							</blockquote>
-							<!-- <span>Luise Spieweck Fialho <br/>Founder at TAG Livros </span> -->
+							<span>Nathan Windsor <br/>Founder at Macroscape </span>
 						</div>
 					</div>
 				</section>
@@ -603,7 +603,7 @@
 								<span class="quote-left1">“</span>Our goal was to generate more leads, and improve the level of customer interaction but our inbound strategies were giving lukewarm results at best. We had to reinvent marketing and needed something that could provide instant gratification. <span class="quote-right1">“</span>
 								<!-- <span class="quote-right"></span> -->
 							</blockquote>
-							<!-- <span>Luise Spieweck Fialho <br/>Founder at TAG Livros </span> -->
+							<span>Nathan Windsor <br/>Founder at Macroscape </span>
 						</div>
 					</div>
 				</section>
