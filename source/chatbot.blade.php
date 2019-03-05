@@ -1253,18 +1253,18 @@ function triggerLiveStaticReviews () {
 
 			var head = document.querySelector('head');
 			head.appendChild(gridJS);
-window.filterList = function () {
-			let list = jQuery('#calc-cats').children();
-			list.each(function (index) {
-				jQuery(this).removeClass('active');
-			});
-			debounced(500, searchCalc)();
-		}
-		window.searchList = function (event) {
-			if (event.keyCode === 13) {
-				filterList();
+			window.filterList = function () {
+						let list = jQuery('#calc-cats').children();
+						list.each(function (index) {
+							jQuery(this).removeClass('active');
+						});
+						debounced(500, searchCalc)();
+					}
+			window.searchList = function (event) {
+				if (event.keyCode === 13) {
+					filterList();
+				}
 			}
-		}
 
 function getTemplateName(template) {
 				let templates = [{
@@ -1372,7 +1372,7 @@ function getTemplateName(template) {
 						jQuery('.preloader').addClass('hide');
 						jQuery('.premade-template-new').removeClass('hide')
 						setPremade();
-						shuffleCalcs('Auto');
+						shuffleCalcs('Quintessential');
 					}
 				};
 				http.send();
