@@ -42,13 +42,14 @@
 
 		  <div class="chatbots-image-section">
            <div class="bots-inner">
-		   <img src="/images/chatbot-11.png" class="first" alt="">
+		   <img src="/images/chatbot-11.png" class="first" alt=""> </div>
 		   <div class="animated-img-outer">
-		   <img src="/images/robo_small.gif" class="second" alt="">
+		   <img src="/images/less_w_robo.gif" class="second" alt="">
 		   <div class="shadow"></div>
 		</div>
-		   
-		   </div>
+		
+				  
+				  
  
 
 		  </div>
@@ -319,11 +320,13 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 			  <div class="chatbot-readingsec-row">
 				 <div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				 <a href="https://outgrow.co/blog/how-to-sell-better/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
+					 <a href="https://outgrow.co/blog/how-to-sell-better/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
 					 <div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-5.png" alt="5 Signs You’re Being Too ‘Salesy"> 
 					</div>
 					 </a>
+
+				
 					<div class="col-md-12 np reading-content">
 						<h4>Vital Chatbot Statics </h4>
 						<p>The growing need for quick, easy and effective result has resulted in you guessed it the rise of chatbots. Here are 21 Vital Chatbot Statistics that will  give </p>
@@ -369,11 +372,9 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-9.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
-					</a>
 					<div class="col-md-12 np reading-content">
 						<h4>How to Create Feedback Chatbots on Outgrow </h4>
 						<p>In order to stay on trend with the latest marketing developments as well as create a survey that is fun and easy to </p>
@@ -1379,10 +1380,6 @@ function getTemplateName(template) {
 		
 
 		</script>
-	@endsection
-		
-@section('inlinescripts')
-@endsection
 
 @section('pageScripts')
 	const libs = {
