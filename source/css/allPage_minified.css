@@ -202,7 +202,7 @@ select {
 
     }
     ul.pre-temp-cat {display: none;}
-    .interbot-content{ max-width:400px;}
+    .interbot-content{ max-width:300px !important;}
     
 }
 @media (min-width: 990px) and (max-width: 1023px) {
