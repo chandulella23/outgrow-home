@@ -40,7 +40,7 @@
 
 		  </div>
 
-		  <div class="chatbots-image-section">
+		  <!-- <div class="chatbots-image-section">
            <div class="bots-inner">
 		   <img src="/images/chatbot-11.png" class="first" alt="">
 		   <div class="animated-img-outer">
@@ -48,6 +48,15 @@
 		   <div class="shadow"></div>
 		</div>
 		   
+		   </div> -->
+
+		   <div class="sec-w-img">
+		   <img src="/images/chatbot-11.png" class="first" alt="">
+		   <div class="img-outer">
+		   <img src="/images/robo_small.gif" class="second" alt="">
+		   <div class="shadow"></div>
+			</div>
+
 		   </div>
  
 
