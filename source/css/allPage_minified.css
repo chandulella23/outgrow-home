@@ -16110,6 +16110,10 @@ iframe[name=google_conversion_frame] {
         position:absolute;
     
     }
+    .mdl-log {
+        margin: 16px!important;
+    
+    }
 
 }
 
@@ -87532,10 +87536,7 @@ background:#fff!important;
     padding:0!important;
     margin-bottom: -9px;
 }
-.mdl-log {
-    margin: 16px!important;
 
-}
 .close.close-position{
     opacity:1!important;
 }

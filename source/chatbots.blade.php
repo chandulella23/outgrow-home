@@ -328,7 +328,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 			  <div class="chatbot-readingsec-row">
 				 <div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				 <a href="https://outgrow.co/blog/how-to-sell-better/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
+				 <a href="https://outgrow.co/blog/how-to-sell-better/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
 					 <div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-5.png" alt="5 Signs You’re Being Too ‘Salesy"> 
 					</div>
@@ -340,7 +340,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/value-based-selling/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
+				<a href="https://outgrow.co/blog/value-based-selling/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-6.png" alt="Value Based Selling"> 
 					</div>
@@ -352,7 +352,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
+				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-7.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
@@ -379,7 +379,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
+				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-9.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
@@ -391,7 +391,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
+				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-10.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
