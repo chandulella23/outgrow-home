@@ -202,7 +202,7 @@ select {
 
     }
     ul.pre-temp-cat {display: none;}
-    .interbot-content{ max-width:400px;}
+    .interbot-content{ max-width:300px !important;}
     
 }
 @media (min-width: 990px) and (max-width: 1023px) {
@@ -16099,6 +16099,22 @@ iframe[name=google_conversion_frame] {
     .sec-chatbot.sec-clients-logos {
         margin: 0!important;
     }
+    .modal-ng iframe{
+        max-height: 350px!important;
+    }
+
+    .close.close-position i {
+        right: -16px !important;
+        font-size: 18px !important;
+        top: -12px !important;
+        position:absolute;
+    
+    }
+    .mdl-log {
+        margin: 16px!important;
+    
+    }
+
 }
 
  
@@ -87516,5 +87532,19 @@ background:#fff!important;
         margin: auto;
         margin-top:-98px; margin-left:23%;}
   }
+.modal-ng{
+    padding:0!important;
+    margin-bottom: -9px;
+}
 
-  
+.close.close-position{
+    opacity:1!important;
+}
+.close.close-position i {
+    position: absolute;
+    right: -30px;
+    font-size:30px;
+    top: -20px;
+    color: #fff9;
+}
+ 
