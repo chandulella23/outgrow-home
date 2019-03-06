@@ -366,7 +366,8 @@
 				</div>
 				<div class="chatbot-readingsec-row">
 			 	    <div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-					<div class="img-scaler chatbot-img"  data-toggle="modal" data-target="#myModal">
+					<div class="img-scaler chatbot-img open-chatbot"  data-toggle="modal" data-target="#myModal">
+
 						<img src="/images/chatbot-8.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
 				
@@ -1245,15 +1246,13 @@
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog  modal-lg mdl-log">
-    <button class="close close-position" data-dismiss="modal" type="button"><i class="material-icons">
-close
-</i></button>
+    <button class="close close-position" data-dismiss="modal" type="button"><i class="material-icons">close</i></button>
       <!-- Modal content-->
       <div class="modal-content">
      
         <div class="modal-body modal-ng">
-				<iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"
-				 src="https://www.youtube.com/embed/R9RPhj2aue8?controls=0&amp;rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fneta.co.in&amp;widgetid=1" width="100%" height="450" frameborder="0"></iframe>
+				<iframe id="player" class="youtube-video" allowfullscreen="1" allowtransparency="true" title="YouTube video player"
+				 src="https://www.youtube.com/embed/R9RPhj2aue8?enablejsapi&rel=0&playerapiid=ytplayer" width="100%" height="450" frameborder="0"></iframe>
 				
 				
         </div>
