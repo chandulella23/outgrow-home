@@ -366,11 +366,11 @@
 				</div>
 				<div class="chatbot-readingsec-row">
 			 	    <div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-					 <a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page">
-					<div class="img-scaler chatbot-img">
+					<div class="img-scaler chatbot-img"  data-toggle="modal" data-target="#myModal">
 						<img src="/images/chatbot-8.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
-					</a>
+				
+
 					<div class="col-md-12 np reading-content">
 						<h4>How to Create A Survey Chatbot on Outgrow</h4>
 						<p>80% of cutomers have abandoned a survey halfway through. How do we get around this mess? Four words:Create a</p>
@@ -1242,7 +1242,26 @@
 		</div>
 </div>
 </section>
-
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog  modal-lg mdl-log">
+    <button class="close close-position" data-dismiss="modal" type="button"><i class="material-icons">
+close
+</i></button>
+      <!-- Modal content-->
+      <div class="modal-content">
+     
+        <div class="modal-body modal-ng">
+				<iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"
+				 src="https://www.youtube.com/embed/R9RPhj2aue8?controls=0&amp;rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fneta.co.in&amp;widgetid=1" width="100%" height="450" frameborder="0"></iframe>
+				
+				
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
 
 <script>
 function triggerLiveStaticReviews () {
