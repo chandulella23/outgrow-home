@@ -285,7 +285,7 @@
 					
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
-						<h3 class="section-subheading bot-heading">Plug the Chatbot into your Business Workflow with <b>1000+ integrations.</b> </h3>
+						<h3 class="section-subheading bot-heading">Plug the Chatbot into your Business Workflow with <b>1000+ integrations</b> </h3>
 						<div class="intercom-para-content"><p class="intercom-para">Take your business to the next level by integrating the chatbot with your sales, marketing and service tools.</p></div>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
