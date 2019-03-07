@@ -328,39 +328,39 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np">
 			  <div class="chatbot-readingsec-row">
 				 <div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				 <a href="https://outgrow.co/blog/how-to-sell-better/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
+				 <a href="https://outgrow.co/blog/vital-chatbot-statistics" target="_blank">
 					 <div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-5.png" alt="5 Signs You’re Being Too ‘Salesy"> 
 					</div>
 					 </a>
 					<div class="col-md-12 np reading-content">
-						<h4>Vital Chatbot Statics </h4>
+						<h4>21 Vital Chatbot Statics </h4>
 						<p>The growing need for quick, easy and effective result has resulted in you guessed it the rise of chatbots. Here are 21 Vital Chatbot Statistics that will  give </p>
-						<a href="https://outgrow.co/blog/how-to-sell-better/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<a href="https://outgrow.co/blog/vital-chatbot-statistics" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/value-based-selling/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
+				<a href="https://outgrow.co/blog/best-website-chatbot-examples" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-6.png" alt="Value Based Selling"> 
 					</div>
 					</a>
 					<div class="col-md-12 np reading-content">
-						<h4>Best practices for Chatbots</h4>
+						<h4>6 Best practices for Chatbots</h4>
 						<p>Looking to optimize your chatbots for best results? What better place to start than to read up on all the best practices for chatbots!. </p>
-						<a href="https://outgrow.co/blog/value-based-selling/?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<a href="https://outgrow.co/blog/best-website-chatbot-examples" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
+				<a href="https://outgrow.co/blog/best-website-chatbot-examples" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-7.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
 					</a>
 					<div class="col-md-12 np reading-content">
-						<h4>Best Website Chatbot Examples </h4>
+						<h4>6 Best Website Chatbot Examples </h4>
 						<p>Chatbots are the present and future of digital marketing. If you still haven't made a chatbot or looking to improve one here's some inspiration. </p>
-						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<a href="https://outgrow.co/blog/best-website-chatbot-examples" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				</div>
@@ -382,7 +382,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
+				<a href=" https://outgrow.co/blog/create-feedback-chatbots" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-9.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
@@ -390,11 +390,11 @@
 					<div class="col-md-12 np reading-content">
 						<h4>How to Create Feedback Chatbots on Outgrow </h4>
 						<p>In order to stay on trend with the latest marketing developments as well as create a survey that is fun and easy to </p>
-						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<a href=" https://outgrow.co/blog/create-feedback-chatbots" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank">
+				<a href="https://outgrow.co/blog/create-service-chatbots" target="_blank">
 					<div class="img-scaler chatbot-img">
 						<img src="/images/chatbot-10.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
 					</div>
@@ -402,7 +402,7 @@
 					<div class="col-md-12 np reading-content">
 						<h4>How to Create Service Chatbots on Outgrow </h4>
 						<p>A service Chatbot can resolve your leads queries instantly in comparison to human client support. result:Higher </p>
-						<a href="https://outgrow.co/blog/macroscape-interactive-marketing-success-story?utm_source=website&utm_medium=link&utm_campaign=outgrow_sales_page" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
+						<a href="https://outgrow.co/blog/create-service-chatbots" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
 				</div>
