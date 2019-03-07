@@ -67,7 +67,7 @@
 			<i class="material-icons">email</i>
 			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
-				<a href="//app.outgrow.co/?email=" class="lead-email-1 btn-buildcal">
+				<a href="https://app.outgrow.co/signup" class="lead-email-1 btn-buildcal">
 				Try Chatbots for free
 				</a>
 			
@@ -309,7 +309,7 @@
 			<i class="material-icons">email</i>
 			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
-				<a href="//app.outgrow.co/?email=" class="lead-email-1 btn-buildcal">
+				<a href="https://app.outgrow.co/signup" class="lead-email-1 btn-buildcal">
 					Try Chatbots for free
 				</a>
 			
@@ -1235,7 +1235,7 @@
 			<i class="material-icons">email</i>
 			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
-				<a href="//app.outgrow.co/?email=" class="lead-email-1 btn-buildcal">
+				<a href="https://app.outgrow.co/signup" class="lead-email-1 btn-buildcal">
 				Try Chatbots for free
 				</a>
 			
@@ -1249,14 +1249,57 @@
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog  modal-lg mdl-log">
-    <button class="close close-position" data-dismiss="modal" type="button"><i class="material-icons">close</i></button>
-      <!-- Modal content-->
+    <button class="close close-position" onclick="stopVideo()" data-dismiss="modal" type="button"><i class="material-icons">close</i></button>
+			<!-- Modal content-->
+	
       <div class="modal-content">
      
-        <div class="modal-body modal-ng">
-				<iframe id="player" class="youtube-video" allowfullscreen="1" allowtransparency="true" title="YouTube video player"
-				 src="https://www.youtube.com/embed/R9RPhj2aue8?enablejsapi&rel=0&playerapiid=ytplayer" width="100%" height="450" frameborder="0"></iframe>
-				
+        <div class="modal-body modal-ng" >
+				<div id="player"></div>
+
+    <script>
+      // This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      // This function creates an <iframe> (and YouTube player) after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '450',
+          width: '100%',
+					videoId: 'R9RPhj2aue8',
+					playerVars: { 'controls': 1, rel: 0 , 'start':0},
+          events: {
+            'onClick': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+					}
+					
+        });
+      }
+      // The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        player.playVideo();
+      }
+
+      // The API calls this function when the player's state changes.
+      // The function indicates that when playing a video (state=1),
+      // the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          // setTimeout(stopVideo, 0);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+				<!-- <iframe id="yt-player" class="youtube-video" allowfullscreen="1" allowtransparency="true" title="YouTube video player"
+				 src="https://www.youtube.com/embed/R9RPhj2aue8?enablejsapi=1&rel=0&playerapiid=ytplayer" width="100%" height="450" frameborder="0"></iframe>
+				 -->
 				
         </div>
        
