@@ -1503,6 +1503,9 @@ function getTemplateName(template) {
 						jQuery('.preloader').addClass('hide');
 						jQuery('.premade-template-new').removeClass('hide')
 						setPremade();
+						let $select = jQuery("#select-list").selectize();
+						let selectize = $select[0].selectize;
+						selectize.setValue('Quintessential');
 						shuffleCalcs('Quintessential');
 					}
 				};
