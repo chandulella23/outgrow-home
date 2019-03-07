@@ -1249,15 +1249,13 @@
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog  modal-lg mdl-log">
-    <button class="close close-position" data-dismiss="modal" type="button"><i class="material-icons">
-close
-</i></button>
+    <button class="close close-position" data-dismiss="modal" type="button"><i class="material-icons">close</i></button>
       <!-- Modal content-->
       <div class="modal-content">
      
         <div class="modal-body modal-ng">
-				<iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"
-				 src="https://www.youtube.com/embed/R9RPhj2aue8?controls=0&amp;rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fneta.co.in&amp;widgetid=1" width="100%" height="450" frameborder="0"></iframe>
+				<iframe id="player" class="youtube-video" allowfullscreen="1" allowtransparency="true" title="YouTube video player"
+				 src="https://www.youtube.com/embed/R9RPhj2aue8?enablejsapi&rel=0&playerapiid=ytplayer" width="100%" height="450" frameborder="0"></iframe>
 				
 				
         </div>
