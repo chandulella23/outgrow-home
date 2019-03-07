@@ -87586,3 +87586,9 @@ background:#fff!important;
     border: none;
     background: none;
 }
+.section-premade-temp .premade-template-new .search-input input[type="text"]{
+background: #fff;
+}
+.sec-chatbot.section-premade-temp .premade-template-new .search-input input[type="text"]{
+    background: #f6f6f6;
+    }
