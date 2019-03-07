@@ -8046,7 +8046,7 @@ i.zmdi.zmdi-twitter-box {
 
 .arrow_box {
 	position: relative;
-	background: #fff;
+	/* background: #fff; */
 	min-width: 145px;
 	float: left;
 	border-radius: 5px;

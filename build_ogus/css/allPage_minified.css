@@ -16053,7 +16053,9 @@ iframe[name=google_conversion_frame] {
         text-align: left;
         line-height: normal;
         text-align: center;
+        
     }
+
     .sec-chatbot  .whyMerticsAwesome-inner-row {
         margin-bottom: 30px;
     
@@ -16215,6 +16217,9 @@ iframe[name=google_conversion_frame] {
     .animated-img-outer {
         left: -36px!important;
         top: 20px!important;
+    }
+    .img-wrapper img:nth-child(1),.img-wrapper img:nth-child(2) {
+        float:none!important;
     }
 }
 
@@ -17644,6 +17649,9 @@ iframe[name=google_conversion_frame] {
     .section-quotes {
         padding-top: 40px !important;
         margin-top: 0px;
+    }
+    .section.intercom{
+        margin-top:0!important;
     }
 }
 
@@ -81778,7 +81786,11 @@ span.recom {
     margin: 0;
     padding: 0;
 }
-
+@media (min-width:1024px) and (max-width:1480px) {
+    .section.intercom {
+        margin-top: 65px !important;
+    }
+}
 @media (min-width:1024px) and (max-width:1200px) {
     .site-image {
         width: 180px!important;
@@ -84914,9 +84926,7 @@ blockquote span.quote-right1 {
     }
 }
 @media (min-width:330px) and (max-width:375px) {
-    .reading-block {
-        width: 100%;
-    }
+  
     .animated-img-outer {
         left: -42px!important;
         top: 20px!important;
@@ -86015,6 +86025,9 @@ body.footer-cookies {
         .footer-social ul li {
             padding-bottom: 5px !important;
         }
+        .reading-block {
+            width: 100%;
+        }
     }
 /* new footer changes */
 
@@ -86628,7 +86641,10 @@ body.icaq.footer-cookies {
 	.pre-temp-cat-new {margin-bottom: 0px;}
 	ul.pre-temp-cat-new li {float: left !important; width: 100% !important; text-align: left;}
 	/* .premade-template-new .search-input input[type=text] {font-size: 12px;} */
-	.pre-temp-view {width: 65%;}
+    .pre-temp-view {width: 65%;}
+    .section.intercom{
+        margin-top:50px!important;
+    }
 }
 @media(min-width:769px) and (max-width:1366px) {	
 	.no-match-found {
@@ -87346,7 +87362,7 @@ opacity: 0.7;
     padding-right:24px;
  }
  .whyMerticsAwesome-inner-left  .bot-heading{
-    padding-right:30px;
+    padding-right:60px;
  }
 
      .inter-bot{
@@ -87370,6 +87386,7 @@ opacity: 0.7;
     .chatbot-img img{
         height:100%;
         float:left;
+        width:100%;
     }
     .chatbot-readingsec-row .reading-content p{
         min-height:0!important;
@@ -87547,4 +87564,25 @@ background:#fff!important;
     top: -20px;
     color: #fff9;
 }
- 
+.arrow_box:hover img, .testactive img.over {
+    outline: 1px solid transparent!important;
+}
+.section-subheading.bot-heading{
+   line-height:32px!important;
+    
+}
+.ytp-large-play-button.ytp-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 68px;
+    height: 48px;
+    margin-left: -34px;
+    margin-top: -24px;
+    -moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+    z-index: 63;
+    border: none;
+    background: none;
+}
