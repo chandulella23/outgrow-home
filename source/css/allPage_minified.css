@@ -16218,6 +16218,9 @@ iframe[name=google_conversion_frame] {
         left: -36px!important;
         top: 20px!important;
     }
+    .img-wrapper img:nth-child(1),.img-wrapper img:nth-child(2) {
+        float:none!important;
+    }
 }
 
 @media (min-width:375px) and (max-width:375px) {
@@ -84923,9 +84926,7 @@ blockquote span.quote-right1 {
     }
 }
 @media (min-width:330px) and (max-width:375px) {
-    .reading-block {
-        width: 100%;
-    }
+  
     .animated-img-outer {
         left: -42px!important;
         top: 20px!important;
@@ -86023,6 +86024,9 @@ body.footer-cookies {
         }
         .footer-social ul li {
             padding-bottom: 5px !important;
+        }
+        .reading-block {
+            width: 100%;
         }
     }
 /* new footer changes */
