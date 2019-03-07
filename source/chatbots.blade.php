@@ -67,10 +67,26 @@
 			<i class="material-icons">email</i>
 			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
-				<a href="https://app.outgrow.co/signup" class="lead-email-1 btn-buildcal">
+				<a href="//app.outgrow.co/signup/?email=" class="lead-email-1 btn-buildcal">
 				Try Chatbots for free
 				</a>
-			
+
+					<script src="{{ $page->baseUrl }}/js/pageScripts/index.js"></script>
+					<script src="{{ $page->baseUrl }}/js/pageScripts/lead-form.js"></script>
+				<script>
+				document.getElementsByClassName('lead-form-email-1')[0].onchange = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							document.getElementsByClassName('lead-email-1')[0].href = href + email;
+						}
+			document.getElementsByClassName('lead-form-email-1')[0].onkeypress = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							if (e.keyCode == 13) {
+								window.location.href = href+email;
+							}
+						}
+					</script>
 			</span>
 		
 		
@@ -307,12 +323,27 @@
 		  <div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer inter-bot">
 		  <div class="interbot-content">
 			<i class="material-icons">email</i>
-			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
+			<input class="lead-form-email-2" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
-				<a href="https://app.outgrow.co/signup" class="lead-email-1 btn-buildcal">
+				<a href="//app.outgrow.co/signup/?email=" class="lead-email-2 btn-buildcal">
 					Try Chatbots for free
 				</a>
-			
+				<script src="{{ $page->baseUrl }}/js/pageScripts/index.js"></script>
+					<script src="{{ $page->baseUrl }}/js/pageScripts/lead-form.js"></script>
+				<script>
+				document.getElementsByClassName('lead-form-email-2')[0].onchange = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							document.getElementsByClassName('lead-email-2')[0].href = href + email;
+						}
+			document.getElementsByClassName('lead-form-email-2')[0].onkeypress = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							if (e.keyCode == 13) {
+								window.location.href = href+email;
+							}
+						}
+					</script>
 			</span>
 		
 		
@@ -1233,12 +1264,27 @@
 		  <div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer inter-bot">
 		  <div class="interbot-content">
 			<i class="material-icons">email</i>
-			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
+			<input class="lead-form-email-3" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
-				<a href="https://app.outgrow.co/signup" class="lead-email-1 btn-buildcal">
+				<a href="//app.outgrow.co/signup/?email=" class="lead-email-3 btn-buildcal">
 				Try Chatbots for free
 				</a>
-			
+				<script src="{{ $page->baseUrl }}/js/pageScripts/index.js"></script>
+					<script src="{{ $page->baseUrl }}/js/pageScripts/lead-form.js"></script>
+				<script>
+				document.getElementsByClassName('lead-form-email-3')[0].onchange = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							document.getElementsByClassName('lead-email-3')[0].href = href + email;
+						}
+			document.getElementsByClassName('lead-form-email-3')[0].onkeypress = function (e) {
+							let email = e.target.value;
+							let href = "//app.outgrow.co/?email=";
+							if (e.keyCode == 13) {
+								window.location.href = href+email;
+							}
+						}
+					</script>
 			</span>
 		
 		
@@ -1477,10 +1523,7 @@ function getTemplateName(template) {
 				}, delay);
 			}
 		}
-
-		
-
-		</script>
+			</script>
 	@endsection
 		
 @section('inlinescripts')
