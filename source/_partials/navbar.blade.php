@@ -25,10 +25,10 @@
 								<a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a>
 								<a href="{{ $page->baseUrl }}/quiz" class="nav-use-cases-list">Quizzes </a>
 								<a href="{{ $page->baseUrl }}/survey" class="nav-use-cases-list">Surveys</a>
+								<a href="{{ $page->baseUrl }}/chatbots" class="nav-use-cases-list">Chatbots</a>
 								<a href="{{ $page->baseUrl }}/increase-conversions" class="nav-use-cases-list">Increase Conversions</a>
 								<a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a>
 								<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
-								<a href="{{ $page->baseUrl }}/chatbots" class="nav-use-cases-list">Chatbots</a>
 							</div>
 						</div>
 						<div class="drop-sub-menu drop-sub-menu-stories">
@@ -113,10 +113,10 @@
 							<li><a href="{{ $page->baseUrl }}/calculator" class="nav-use-cases-list">Calculators</a></li>
 							<li><a href="{{ $page->baseUrl }}/quiz" class="nav-use-cases-list">Quizzes </a></li>
 							<li><a href="{{ $page->baseUrl }}/survey" class="nav-use-cases-list">Surveys</a></li>
+							<li><a href="{{ $page->baseUrl }}/chatbots" class="nav-use-cases-list">Chatbots</a></li>
 							<li><a href="{{ $page->baseUrl }}/increase-conversions" class="nav-use-cases-list">Increase Conversions</a></li>
 							<li><a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a></li>
 							<li><a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a></li>
-							<li><a href="{{ $page->baseUrl }}/chatbots" class="nav-use-cases-list">Chatbots</a></li>
 						</div>
 					</div>
 					<div class="drop-sub-menu">
