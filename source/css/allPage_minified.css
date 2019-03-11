@@ -16026,7 +16026,7 @@ iframe[name=google_conversion_frame] {
         font-size: 22px!important;
         line-height: 32px!important;
         margin-top: 0px!important;
-        padding: 0px 10px!important;
+        padding: 0px 10px!important; font-weight:600;
     }
     .inter1 {
         margin-bottom: 34px;
@@ -16072,7 +16072,7 @@ iframe[name=google_conversion_frame] {
         left: 24px !important;
     }
     .inter1 {
-        margin-bottom: 50px!important;
+        margin-bottom: 20px!important;
     }
     .startTrial-outer.inter-bot .interbot-content i.material-icons{
         left: 24px !important;
@@ -16426,6 +16426,7 @@ iframe[name=google_conversion_frame] {
         font-size: 15px;
         font-family: montserratlight!important;
     }
+    .pre-temp-view{ width:72% !important;}
 }
 
 @media (min-width:568px) and (max-width:568px) {
@@ -83362,7 +83363,8 @@ h4.mk-animate-element.right-to-left.publish {
         margin-bottom: 0px;
     }
     .case-breathers1 {
-        margin-top: 0;
+        margin-top: 0 !important;
+        padding-top:30px !important;
     }
     /* .interactive-outer-section .each-row{padding-bottom: 0px !important;} */
     /* .site-bottom-section {padding-top: 20px!important;} */
@@ -83433,6 +83435,7 @@ img.uni1 {
     .sec-cookies i.material-icons {
         right: -10px !important;
     }
+    .pre-temp-view{ width:68% !important; }
 }
 @media(min-width:1024px) and (max-width:1280px) {
     .case-chatbot .heading {
