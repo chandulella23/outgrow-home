@@ -378,7 +378,7 @@
 					</a>
 					<div class="col-md-12 np reading-content">
 						<h4>6 Best practices for Chatbots</h4>
-						<p>Looking to optimize your chatbots for best results? What better place to start than to read up on all the best practices for chatbots!. </p>
+						<p>Looking to optimize your chatbots for best results? What better place to start than to read up on all the best practices for chatbots! </p>
 						<a href="https://outgrow.co/blog/best-practices-for-chatbots" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
 					</div>
 				</div>
