@@ -16581,7 +16581,7 @@ iframe[name=google_conversion_frame] {
         width: 65%!important;
     }
     ul.pre-temp-list {
-        width: 200px!important;
+        width: 100%!important;
     }
     .pre-temp-view {
         width: 100% !important;
@@ -16752,10 +16752,10 @@ iframe[name=google_conversion_frame] {
         margin-bottom: 20px !important;
 	}
 	
-	ul.pre-temp-list {
+	/* ul.pre-temp-list {
 		width: 154px !important;
 		padding: 0 20px 0 0 !important;
-	}
+	} */
 }
 
 @media(min-width:320px) and (max-width:767px) {
@@ -84941,6 +84941,9 @@ blockquote span.quote-right1 {
     }
     .bots-inner{
         position:relative!important;
+    }
+    .pre-temp-view{
+        margin:25px 0;
     }
 }
 @media (min-width:580px) and (max-width:990px) {
