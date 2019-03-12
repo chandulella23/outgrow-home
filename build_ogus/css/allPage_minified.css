@@ -16035,9 +16035,10 @@ iframe[name=google_conversion_frame] {
         margin-bottom: 45px;
     }
     .sec-chatbot.section-whyMerticsAwesome .bot-head{
-        font-size: 30px !important;
+        font-size: 26px !important;
         margin-top: 40px !important;
         margin-bottom: 0!important;
+        
     }
    .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-left,  .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-right {
         display: inline-block;
@@ -16116,7 +16117,12 @@ iframe[name=google_conversion_frame] {
         margin: 16px!important;
     
     }
-
+    .sec-chatbot.section-whyMerticsAwesome .bot-head , .intercom-chat .chatbot-red {
+      
+        font-weight:600;
+        font-size: 26px !important;
+    }
+  
 }
 
  
@@ -16578,7 +16584,7 @@ iframe[name=google_conversion_frame] {
         width: 200px!important;
     }
     .pre-temp-view {
-        width: calc(100% - 240px) !important;
+        width: 100% !important;
     }
   
 }
@@ -83520,7 +83526,9 @@ img.uni1 {
         padding: 0
     }
     .pre-temp-view {
-      
+        float: left;
+        width: 100%;
+        max-width: 100%;
         margin: 25px 0px;
     }
 }
@@ -84626,7 +84634,7 @@ blockquote span.quote-right1 {
         float: left;
         width: 100%;
         max-width: 100%;
-        /* margin: 25px 0px; */
+        margin: 25px 0px;
     }
     
  
@@ -85112,6 +85120,11 @@ blockquote span.quote-right1 {
     }
     .section-second.section-second-sales .col-md-12.np {
         padding: 0 15px;
+    }
+   .sec-chatbot.intercom .chatbot-heading,.sec-chatbot .section-2-heading.bot-head{
+        font-size: 32px!important;
+        padding: 0;
+        line-height: 38px!important;
     }
 }
 @media (min-width:770px) and (max-width:991px) {
@@ -86681,7 +86694,7 @@ body.icaq.footer-cookies {
     /* ul.pre-temp-list > li > a span {width: 61%;} */
 }
 @media (max-width:767px){
-	.pre-temp-view{float: left; width: 100%; max-width: 100%;}
+	.pre-temp-view{float: left; width: 100%; max-width: 100%; margin: 25px 0px;}
 	ul.pre-temp-list{float: left; width: 100%; padding: 0; height: auto; margin-top: 0px; max-height: 100px; padding-right: 10px;}
 	.heading-content h3{font-size: 16px; line-height: 22px}
 	.heading-content p{font-size: 13px; line-height: 22px;}
