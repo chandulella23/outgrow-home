@@ -16026,7 +16026,8 @@ iframe[name=google_conversion_frame] {
         font-size: 22px!important;
         line-height: 32px!important;
         margin-top: 0px!important;
-        padding: 0px 10px!important; font-weight:600;
+        padding: 0px 10px!important;
+         /* font-weight:600; */
     }
     .inter1 {
         margin-bottom: 34px;
@@ -16119,7 +16120,7 @@ iframe[name=google_conversion_frame] {
     }
     .sec-chatbot.section-whyMerticsAwesome .bot-head , .intercom-chat .chatbot-red {
       
-        font-weight:600;
+        /* font-weight:600; */
         font-size: 26px !important;
     }
   
@@ -81737,7 +81738,7 @@ span.bottom-figure-content {
 .social-media-section {
     width: 100%;
     float: left;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .arrow_box {
@@ -83341,7 +83342,7 @@ h4.mk-animate-element.right-to-left.publish {
         line-height: 24px;
     }
     section .section-2-heading {
-        font-size: 30px!important;
+        font-size: 26px!important;
     }
     .site-image1 {
         width: 154px!important;
@@ -83377,7 +83378,7 @@ h4.mk-animate-element.right-to-left.publish {
     }
     .case-breathers1 {
         margin-top: 0 !important;
-        padding-top:30px !important;
+        /* padding-top:30px !important; */
     }
     /* .interactive-outer-section .each-row{padding-bottom: 0px !important;} */
     /* .site-bottom-section {padding-top: 20px!important;} */
@@ -83804,7 +83805,7 @@ img.scrollimg1.wo {
     display: block;
     font-size: 38px;
     color: #fb5f66 !important;
-    font-family: montserratregular;
+    font-family: montserratbold;
     padding: 30px 80px 0px;
     line-height: 48px;
 }
@@ -84190,7 +84191,7 @@ ul.nav.nav-tabs.template-tab li.active>a>span {
 .section-embeds .social-media-section {
     width: 100%;
     float: left;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .section-bg-btn {
     width: 100%;
@@ -84789,7 +84790,7 @@ blockquote span.quote-right1 {
         line-height: 26px;
         text-align: center;
         width: 100% !important;
-        font-weight: 600;
+        /* font-weight: 600; */
     }
     
     .section-second ul,
