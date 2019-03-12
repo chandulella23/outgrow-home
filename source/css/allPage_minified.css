@@ -16426,7 +16426,7 @@ iframe[name=google_conversion_frame] {
         font-size: 15px;
         font-family: montserratlight!important;
     }
-    .pre-temp-view{ width:72% !important;}
+    
 }
 
 @media (min-width:568px) and (max-width:568px) {
@@ -16574,6 +16574,13 @@ iframe[name=google_conversion_frame] {
     .bots-inner {
         width: 65%!important;
     }
+    ul.pre-temp-list {
+        width: 200px!important;
+    }
+    .pre-temp-view {
+        width: calc(100% - 240px) !important;
+    }
+  
 }
 
 @media (min-width:690px) and (max-width:768px) {
@@ -83507,6 +83514,15 @@ img.uni1 {
     .bots-inner {
         width: 75%!important;
     }
+    ul.pre-temp-list {
+        float: left;
+        width: 100%!important;
+        padding: 0
+    }
+    .pre-temp-view {
+      
+        margin: 25px 0px;
+    }
 }
 @media (min-width:1024px) and (max-width:1024px) {
     button.btn-readmore.mg {
@@ -84610,14 +84626,10 @@ blockquote span.quote-right1 {
         float: left;
         width: 100%;
         max-width: 100%;
-        margin: 25px 0px;
+        /* margin: 25px 0px; */
     }
     
-    ul.pre-temp-list {
-        float: left;
-        width: 100%!important;
-        padding: 0
-    }
+ 
     
     .heading-content h3 {
         font-size: 16px;
@@ -86644,7 +86656,7 @@ body.icaq.footer-cookies {
 	.pre-temp-cat-new {margin-bottom: 0px;}
 	ul.pre-temp-cat-new li {float: left !important; width: 100% !important; text-align: left;}
 	/* .premade-template-new .search-input input[type=text] {font-size: 12px;} */
-    .pre-temp-view {width: 65%;}
+    .pre-temp-view {width: 65%!important;}
     .section.intercom{
         margin-top:50px!important;
     }
@@ -86669,7 +86681,7 @@ body.icaq.footer-cookies {
     /* ul.pre-temp-list > li > a span {width: 61%;} */
 }
 @media (max-width:767px){
-	.pre-temp-view{float: left; width: 100%; max-width: 100%; margin: 25px 0px;}
+	.pre-temp-view{float: left; width: 100%; max-width: 100%;}
 	ul.pre-temp-list{float: left; width: 100%; padding: 0; height: auto; margin-top: 0px; max-height: 100px; padding-right: 10px;}
 	.heading-content h3{font-size: 16px; line-height: 22px}
 	.heading-content p{font-size: 13px; line-height: 22px;}
