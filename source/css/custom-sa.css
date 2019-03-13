@@ -6815,6 +6815,10 @@ span.icon-webcam {
 	.recentNews-inner.calender-outer{ height: initial; max-height: initial;}
 	.calendar-wrapper.fixed-width .inner-box {max-height: initial !important;overflow: initial;}
 	.recentNews-outer.calendar-wrapper .recentNews-inner.calender-outer{ height: initial;}
+	.social-media-section,.custom-embeds .nav-tabs {
+		
+		padding-top: 20px!important;
+	}
 }
 
 @media (min-width:320px) and (max-width:380px) {
