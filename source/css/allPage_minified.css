@@ -210,7 +210,7 @@ select {
 }
 /* ecommerce css */
 .ecomm .section-1-left h1.section1-firstheadnoab {
-    font-family: montserratregular;
+    font-family: montserratbold;
     padding: 0px 175px;
 }
 .ecomm .pre-temp-view {width: 100%; border: 7px solid #fff; border-radius: 5px; margin-bottom: 50px;}
@@ -303,7 +303,7 @@ span.no-card {
 @media (max-width: 767px) {
     .ecomm .pre-temp-view {margin-bottom: 30px; margin-top: 0px;}
     .ecomm .ecomm-growth .col-sm-6:nth-child(3) .pre-temp-view, .ecomm .ecomm-growth .col-sm-6:nth-child(4) .pre-temp-view {margin-bottom: 30px;}
-    .ecomm .section-2-heading {font-size: 22px!important; padding: 0px !important; line-height: normal !important; margin-top: 10px!important;}
+    .ecomm .section-2-heading {font-size: 26px!important; padding: 0px !important; line-height: normal !important; margin-top: 10px!important;}
     .ecomm-outer {width: 100% !important;}
     .ecomm-growth .section-2-heading , .case-breathers1 .section-2-heading {margin-top: 40px !important;}
     .sec-recom-quiz {margin-bottom: 30px !important;}
@@ -314,7 +314,7 @@ span.no-card {
 
 }
 @media (max-width: 768px) {
-    .ecomm .section-2-heading {font-weight: 600;}
+    /* .ecomm .section-2-heading {font-weight: 600;} */
 }
 @media (max-width: 480px) and (min-width: 350px) {
     .ecomm .section-1-left h1.section1-firstheadnoab {padding: 0 40px !important;}
@@ -15392,7 +15392,7 @@ iframe[name=google_conversion_frame] {
     }
     .section-1-left h3,
     .section-1-left h1.section1-firstheadnoab {
-        font-size: 22px;
+        font-size: 26px;
         line-height: 32px;
     }
     .section-1-left h4 {
@@ -16023,7 +16023,7 @@ iframe[name=google_conversion_frame] {
        /* intercom page responsive  */
 
     .inter1 .chatbot-heading{
-        font-size: 22px!important;
+        font-size: 26px!important;
         line-height: 32px!important;
         margin-top: 0px!important;
         padding: 0px 10px!important;
@@ -16064,7 +16064,7 @@ iframe[name=google_conversion_frame] {
     }
     .section.intercom {
 
-        padding-top: 30px;
+        padding-top: 40px;
         margin-top: 0 !important;
         padding-bottom: 50px !important;
     
@@ -16074,7 +16074,7 @@ iframe[name=google_conversion_frame] {
         left: 24px !important;
     }
     .inter1 {
-        margin-bottom: 20px!important;
+        margin-bottom: 30px!important;
     }
     .startTrial-outer.inter-bot .interbot-content i.material-icons{
         left: 24px !important;
@@ -16123,7 +16123,18 @@ iframe[name=google_conversion_frame] {
         /* font-weight:600; */
         font-size: 26px !important;
     }
-  
+    .custom-embeds {
+        margin-top: 0px!important;
+    }
+    .custom-embeds .nav-tabs{
+        padding-top:20px!important;
+    }
+    .section-subheading.bot-heading {
+        line-height: 24px!important;
+    }
+   .sec-chatbot.section-whyMerticsAwesome .section-subheading{
+       margin-bottom:5px!important;
+   }
 }
 
  
@@ -84739,7 +84750,7 @@ blockquote span.quote-right1 {
     
     .section-banner h1.main-heading {
         margin-top: 40px;
-        font-size: 22px;
+        font-size: 26px;
         padding: 0;
         line-height: 26px;
     }
@@ -84785,7 +84796,7 @@ blockquote span.quote-right1 {
     }
     
     .section-heading {
-        font-size: 22px;
+        font-size: 26px;
         padding: 0;
         line-height: 26px;
         text-align: center;
@@ -85030,7 +85041,7 @@ blockquote span.quote-right1 {
     .section-second,
     .section-six,
     .section-reading {
-        padding-top: 50px;
+        padding-top: 40px;
         margin-top: 0px;
     }
     .premade-template {
@@ -87443,7 +87454,7 @@ opacity: 0.7;
       margin-top:0!important;
   }
   .sec-chatbot.sec-clients-logos{
-    margin: 30px 0!important;
+    margin: 40px 0!important;
   }
    .sec-chatbot.section-premade-temp{
        background: #fff!important;
@@ -87600,7 +87611,7 @@ background:#fff!important;
     outline: 1px solid transparent!important;
 }
 .section-subheading.bot-heading{
-   line-height:32px!important;
+   line-height:32px;
     
 }
 .ytp-large-play-button.ytp-button {
