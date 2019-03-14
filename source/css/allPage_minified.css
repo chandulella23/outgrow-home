@@ -14811,6 +14811,7 @@ iframe[name=google_conversion_frame] {
 }
 
 @media (min-width:320px) and (max-width:768px) { 
+    .sec-lang-test.section-whyMerticsAwesome .bot-head{font-size: 26px!important;margin-top: 40px!important;}
     #why .section-top-why {
         margin-bottom: 0px !important;
     }
@@ -16039,13 +16040,13 @@ iframe[name=google_conversion_frame] {
         margin-top: 40px !important;
         margin-bottom: 0!important;
     }
-   .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-left,  .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-right {
+   .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-left,  .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-right, .sec-lang-test.section-whyMerticsAwesome .whyMerticsAwesome-inner-left, .sec-lang-test.section-whyMerticsAwesome .whyMerticsAwesome-inner-right{
         display: inline-block;
         float:left;
         width:100%;
         text-align: center;
     }
-    .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-right.rs-show{
+    .sec-chatbot.section-whyMerticsAwesome  .whyMerticsAwesome-inner-right.rs-show,.sec-lang-test.section-whyMerticsAwesome  .whyMerticsAwesome-inner-right.rs-show{
        display: block!important;
     }
     .section-subheading.bot-heading{
@@ -16056,7 +16057,7 @@ iframe[name=google_conversion_frame] {
         
     }
 
-    .sec-chatbot  .whyMerticsAwesome-inner-row {
+    .sec-chatbot  .whyMerticsAwesome-inner-row,.sec-lang-test .whyMerticsAwesome-inner-row {
         margin-bottom: 30px;
     
     }
@@ -87426,7 +87427,7 @@ opacity: 0.7;
            padding-bottom: 0px!important;
     margin-top: 60px!important;
    }
-   .sec-chatbot .whyMerticsAwesome-inner-row:last-child {
+   .sec-chatbot .whyMerticsAwesome-inner-row:last-child,.sec-lang-test .whyMerticsAwesome-inner-row:last-child {
     margin-bottom: 70px;
 }
 .sec-chatbot.ns{
@@ -87446,9 +87447,7 @@ background:#fff!important;
 .sec-chatbot.intercom:last-child{
     padding-bottom:130px!important;
 }
- .sec-chatbot.intercom.inter3{
-    padding-bottom:130px!important;
-}
+ .sec-chatbot.intercom.inter3,.test-inter1{padding-bottom:130px!important;}
 .chatbots-image-section {
     float: left;
     width: 100%;
@@ -87539,6 +87538,10 @@ background:#fff!important;
   }
 
   @media (min-width: 320px) and (max-width: 420px) {
+    .test-main-img span.test-start-btn{top:53%;left:10px;}
+    .test-main-img span.test-start-btn a{font-size:11px;padding:1px 10px;line-height:16px;}
+    section.test-engage-1 .social-media-section{padding-top: 20px;}
+    section.test-engage-1 .test-main-img{margin-top: 20px;width:320px;}
     .sec-w-img{
         width:320px;
         min-height:300px;
@@ -87595,3 +87598,29 @@ background: #fff;
 .sec-chatbot.section-premade-temp .premade-template-new .search-input input[type="text"]{
     background: #f6f6f6;
     }
+   
+    /* Test Page */
+   .section.outgrow-test-block1{float: left;width: 100%;background: #fff;padding-top: 60px;margin-top: 0;margin-bottom: 0;}
+   .test-main-img{margin: 0 auto;width: 750px;position: relative;border:3px solid #fff;margin-top: 30px;box-shadow: 12.5px 21.651px 40px 0px rgba(53, 137, 192, 0.2);border-radius:4px;}
+   .test-main-img img{width:100%;height:100%;}
+   .language-templte-img-outr{float:left;width:100%;background:#fff;box-shadow: 12.586px 15.543px 40px 0px rgba(0, 0, 0, 0.12);border-radius:3px;}
+   .language-templte-img{float:left;width:100%;}
+   .language-templte-img img{width:100%;height:100%;}
+   .language-templte-img-outr span{float: left;width: 100%;text-align: left;font-size: 16px;line-height:20px;padding: 18px 20px;font-family: montserratlight;color: rgb( 98, 105, 109 );}
+   .make-lang-headng{margin:60px 0 30px 0;}
+   .sec-lang-test.test-back-white{background:#fff;}
+   .sec-lang-test{margin-top: 0!important;margin-bottom: 0!important;}
+   .sec-lang-test.test-btm-paddng{padding-bottom: 80px;}
+   .sec-lang-test.test-back-skyblue{background:#f3f8fb;}
+   .sec-lang-test.sec-clients-logos{padding:28px 0!important}
+   .section-reviews .case-breathers1{margin-top: 60px;}
+   .section-reviews .social-media-section{padding-top: 25px;padding-bottom: 25px;}
+   .sec-lang-test.section-reviews{padding-bottom: 42px;}
+   .test-lang-hedng{float:left;width:100%;font-size:42px;line-height:46px;color:#fb5f66 !important;}
+   .section.test-engage-1{padding-bottom: 80px;}
+   .sec-lang-test .bot-head{padding: 0;margin: 0!important;margin-top: 60px!important;}
+   span.test-start-btn{float:left;position: absolute;top:53.4%;left:24px;}
+   
+   span.test-start-btn a{float: left;background: #f9001c;color: #fff;font-size: 16px;text-transform: uppercase;padding: 8px 25px;border-radius: 25px;line-height: 20px;font-family: montserratbold;
+    box-shadow: 6px 10.392px 40px 0px rgb( 0, 0, 0,0.29 );
+}

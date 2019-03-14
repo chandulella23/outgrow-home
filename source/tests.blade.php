@@ -33,42 +33,19 @@
 
 @section('content')
 
-<section class="section intercom ">
+<section class="section intercom test-engage-1">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center inter1">
-			   <h1 class="chatbot-heading bot-head"> Turn Every Website Visitor Into A Lead With Chatbots</h1>
+			   <h1 class="chatbot-heading bot-head">Make Learning Fun with Highly Engaging Tests</h1>
 
 		  </div>
-
-		  <!-- <div class="chatbots-image-section">
-           <div class="bots-inner">
-		   <img src="/images/chatbot-11.png" class="first" alt="">
-		   <div class="animated-img-outer">
-		   <img src="/images/robo_small.gif" class="second" alt="">
-		   <div class="shadow"></div>
-		</div>
-		   
-		   </div> -->
-
-		   <div class="sec-w-img">
-		   <img src="/images/chatbot-11.png" class="first" alt="">
-		   <div class="img-outer">
-		   <img src="/images/robo_small.gif" class="second" alt="">
-		   <div class="shadow"></div>
-			</div>
-
-		   </div>
- 
-
-		  </div>
-		 
-		  <div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer inter-bot">
+			<div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer inter-bot">
 		  <div class="interbot-content">
 			<i class="material-icons">email</i>
 			<input class="lead-form-email-1" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
 				<a href="//app.outgrow.co/signup/?email=" class="lead-email-1 btn-buildcal">
-				Try Chatbots for free
+				Try Outgrow Tests for free
 				</a>
 
 					<script src="{{ $page->baseUrl }}/js/pageScripts/index.js"></script>
@@ -91,13 +68,66 @@
 		
 		
 		</div>
+		<div class="social-media-section">
+					<div class="each-arrow-section">
+						<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
+							<img alt="Facebook image" src="//dzvexx2x036l1.cloudfront.net/facebookim.png"/>
+							<!-- <img alt="Facebook image" src="//dzvexx2x036l1.cloudfront.net/facebookh.png" class="over over1"/> -->
+						</div>
+
+						<div id="capterra-img" class="arrow_box" onclick="openTestimonial('capterra')">
+							<img alt="Capterra image" src="//dzvexx2x036l1.cloudfront.net/capterraimg.png"/>
+							<!-- <img alt="Capterra image" src="//dzvexx2x036l1.cloudfront.net/capterah.png" class="over over2"/> -->
+						</div>
+
+						<div id="g2-img" class="arrow_box" onclick="openTestimonial('g2')">
+							<img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowd.png"/>
+							<!-- <img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowdh.png" class="over over3"/> -->
+						</div>
+
+						<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
+							<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_logo.png"/>
+							<!-- <img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_hover.png" class="over over4"/> -->
+						</div>
+
+					</div>
+				</div>
+
+ 
+		
+			</div>
+			<div class="col-md-12 col-xs-12 col-sm-12">
+			<div class="test-main-img">
+		<img src="/images/test-main-img.png">
+		<span class="img-overlay"></span>
+		<span class="test-start-btn">
+			<a href="">Start</a>
+		</span>
 		</div>
+					</div>
+		</div>
+
+		
+		<!-- <iframe src="https://premade.outgrow.us/premade-english-language-test"></iframe> -->
+		
+		  <!-- <div class="chatbots-image-section">
+           <div class="bots-inner">
+		   <img src="/images/chatbot-11.png" class="first" alt="">
+		   <div class="animated-img-outer">
+		   <img src="/images/robo_small.gif" class="second" alt="">
+		   <div class="shadow"></div>
+		</div>
+		   
+		   </div> -->
+		
+		
+
 </div>
 </section>
-<section class="section sec-chatbot section-premade-temp">
+<section class="section outgrow-test-block1">
 		<div class="container-fluid">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="section-heading text-center">Examples Of <span class="intercom-chatbot">Chatbots</span> You Can Make With Outgrow </div>
+				<div class="section-heading text-center">Boost Your Curriculm with These Easy to Customise Multiple Choice Templates</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 section-premade-temp-inner">
 				<div id="premade-loader-new" class="preloader">
@@ -256,56 +286,56 @@
 		</div>
 </section>
 
-<section class="section sec-chatbot section-whyMerticsAwesome">
+<section class="section sec-lang-test section-whyMerticsAwesome test-back-skyblue">
 		<div class="container">
-			<div class="section-2-heading bot-head">Why Chatbots? </div>	
+			<div class="section-2-heading bot-head">Why Outgrow Tests?</div>	
 			<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner">
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/chatbot-1.png" alt="Unlike Ads, Calculators Add Real Value">
+						<img src="{{ $page->baseUrl }}/images/why-test-1.png" alt="Unlike Ads, Calculators Add Real Value">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
-						<h3 class="section-subheading bot-heading">Make communicating <b>Fun</b> and <b>Seamless </b> </h3>
-						<div class="intercom-para-content"><p class="intercom-para">With chatbots, be available 24/7 to your users and visitors. Now, your sales and customer service teams can focus on more complex tasks while the chatbot guides people down the funnel.</p></div>
+						<h3 class="section-subheading bot-heading"><b>Interactive</b> and Personalized</h3>
+						<div class="intercom-para-content"><p class="intercom-para">Choose from over 10 different question types (including multiple select, single select, text input, drop down, numerical slider, opinion scale, rating, date/time picker, and file upload). Create multiple result screens based on what score the examinee gets.</p></div>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/chatbot-2.png" alt="Calculators Bring New Traffic">
+						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
-						<h3 class="section-subheading bot-heading">Generate and qualify Leads Easily so you can <b>Sell Better</b> </h3>
-						<div class="intercom-para-content"><p class="intercom-para">Capture your visitors’ lead info and ask them followup questions like "How many people work at your company?" to help your sales team get more info about the prospect.</p></div>
+						<h3 class="section-subheading bot-heading"><b>Professional</b> Design</h3>
+						<div class="intercom-para-content"><p class="intercom-para">Choose from multiple design templates that have a rich and trendy finish.</p></div>
 					</div>
 
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/chatbot-2.png" alt="Calculators Bring New Traffic">
+						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic">
 						
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/chatbot-3.png" alt="Calculators Increase Engagement & Conversion">
+						<img src="{{ $page->baseUrl }}/images/why-test-3.png" alt="Calculators Increase Engagement & Conversion">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
-						<h3 class="section-subheading bot-heading">Segment and Analyze your <b>Chatbot Data </b> to <b>Gain Visitors Insights</b> </h3>
-						<div class="intercom-para-content"><p class="intercom-para"> Build your visitors’ persona and find key patterns by analyzing and segmenting chatbot data by demographics, user responses etc.</p></div>
+						<h3 class="section-subheading bot-heading"><b>Easy</b> to Create</h3>
+						<div class="intercom-para-content"><p class="intercom-para">Copy and Paste your questions, Easily add pictures, videos, gifs, recordings, captions, and even countdown timers.</p></div>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/chatbot-4.png" alt="Audience Segmentation and Targeted Sales">
+						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales">
 					
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
-						<h3 class="section-subheading bot-heading">Plug the Chatbot into your Business Workflow with <b>1000+ integrations</b> </h3>
-						<div class="intercom-para-content"><p class="intercom-para">Take your business to the next level by integrating the chatbot with your sales, marketing and service tools.</p></div>
+						<h3 class="section-subheading bot-heading"><b>Awesome</b> Analytics</h3>
+						<div class="intercom-para-content"><p class="intercom-para">Toggle the option to reveal results or hide them. Use Outgrow Analytics to examine all answers and send results data to any of our 1000+ integration partners . Or print all answers in an excel or a Google Doc.</p></div>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/chatbot-4.png" alt="Audience Segmentation and Targeted Sales">
+						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales">
 						
 					</div>
 				</div>
@@ -313,15 +343,33 @@
 		</div>
 	</section>
 
-<section class="section sec-chatbot intercom ns">
+<section class="section sec-lang-test test-btm-paddng test-back-white">
 		<div class="container">
-			<div class="col-md-12 col-sm-12 col-xs-12 text-center inter1">
-			   <h1 class="chatbot-heading">Turn Every Website Visitor Into A Lead With Chatbots</h1>
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+			   <div class="section-heading text-center make-lang-headng">Tutorial: How Can You Make a Language
+<br>Test on Outgrow?
+</div>
 
 		  </div>
 		 
 		  <div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer inter-bot">
-		  <div class="interbot-content">
+			<div class="col-md-6 col-xs-12 col-sm-6">
+			<div class="language-templte-img-outr">
+			<div class="language-templte-img">
+			<img src="{{ $page->baseUrl }}/images/make-lang-img1.png">
+			</div>
+			<span>Read Our Blog</span>
+			</div>
+			</div>
+			<div class="col-md-6 col-xs-12 col-sm-6">
+			<div class="language-templte-img-outr">
+			<div class="language-templte-img">
+			<img src="{{ $page->baseUrl }}/images/make-lang-img2.png">
+			</div>
+			<span>Watch A video</span>
+			</div>
+			</div>
+		  <!-- <div class="interbot-content">
 			<i class="material-icons">email</i>
 			<input class="lead-form-email-2" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
@@ -347,100 +395,11 @@
 			</span>
 		
 		
-		</div>
+		</div> -->
 		</div>
    </div>
 </section>
-<section class="section sec-chatbot section-reading">
-		<div class="container">
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-				<div class="section-heading text-center">Learn More About Chatbots </div>
-			</div>
-			<div class="col-md-12 col-sm-12 col-xs-12 np">
-			  <div class="chatbot-readingsec-row">
-				 <div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				 <a href="https://outgrow.co/blog/vital-chatbot-statistics" target="_blank">
-					 <div class="img-scaler chatbot-img">
-						<img src="/images/chatbot-5.png" alt="5 Signs You’re Being Too ‘Salesy"> 
-					</div>
-					 </a>
-					<div class="col-md-12 np reading-content">
-						<h4>21 Vital Chatbot Statics </h4>
-						<p>The growing need for quick, easy and effective result has resulted in you guessed it the rise of chatbots. Here are 21 Vital Chatbot Statistics that will  give </p>
-						<a href="https://outgrow.co/blog/vital-chatbot-statistics" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/create-a-survey-chatbot" target="_blank">
-					<div class="img-scaler chatbot-img">
-						<img src="/images/chatbot-6.png" alt="Value Based Selling"> 
-					</div>
-					</a>
-					<div class="col-md-12 np reading-content">
-						<h4>6 Best practices for Chatbots</h4>
-						<p>Looking to optimize your chatbots for best results? What better place to start than to read up on all the best practices for chatbots!. </p>
-						<a href="https://outgrow.co/blog/create-a-survey-chatbot" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/best-website-chatbot-examples" target="_blank">
-					<div class="img-scaler chatbot-img">
-						<img src="/images/chatbot-7.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
-					</div>
-					</a>
-					<div class="col-md-12 np reading-content">
-						<h4>6 Best Website Chatbot Examples </h4>
-						<p>Chatbots are the present and future of digital marketing. If you still haven't made a chatbot or looking to improve one here's some inspiration. </p>
-						<a href="https://outgrow.co/blog/best-website-chatbot-examples" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-					</div>
-				</div>
-				</div>
-				<div class="chatbot-readingsec-row">
-			 	    <div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-					<div class="img-scaler chatbot-img"  data-toggle="modal" data-target="#myModal">
-						<img src="https://i.ytimg.com/vi/R9RPhj2aue8/hqdefault.jpg" alt=""> 
-						<button class="ytp-large-play-button ytp-button" aria-label="Play"><svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#fb5f66" 
-						 
-						></path><path d="M 45,24 27,14 27,34" fill="#fff"></path></svg></button>
-						<!-- fill-opacity="0.8" -->
-					</div>
-			
-
-					<div class="col-md-12 np reading-content">
-						<h4>Video Tutorial: How to Make a Chatbot on Outgrow</h4>
-						<p>In this video we take a look at how you can make (and embed) a chatbot for the pricing page of your website.</p>
-						<a href="https://www.youtube.com/watch?v=R9RPhj2aue8" target="_blank" class="btn btn-readmore-link">Watch video <i class="material-icons">keyboard_arrow_right</i></a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href=" https://outgrow.co/blog/create-feedback-chatbots" target="_blank">
-					<div class="img-scaler chatbot-img">
-						<img src="/images/chatbot-9.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
-					</div>
-					</a>
-					<div class="col-md-12 np reading-content">
-						<h4>How to Create Feedback Chatbots on Outgrow </h4>
-						<p>In order to stay on trend with the latest marketing developments as well as create a survey that is fun and easy to </p>
-						<a href=" https://outgrow.co/blog/create-feedback-chatbots" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 np reading-block">
-				<a href="https://outgrow.co/blog/create-service-chatbots" target="_blank">
-					<div class="img-scaler chatbot-img">
-						<img src="/images/chatbot-10.png" alt="How Macroscape Helped Its Client get a 36% Conversion Rate"> 
-					</div>
-					</a>
-					<div class="col-md-12 np reading-content">
-						<h4>How to Create Service Chatbots on Outgrow </h4>
-						<p>A service Chatbot can resolve your leads queries instantly in comparison to human client support. result:Higher </p>
-						<a href="https://outgrow.co/blog/create-service-chatbots" target="_blank" class="btn btn-readmore-link">Read more <i class="material-icons">keyboard_arrow_right</i></a>
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section sec-chatbot sec-clients-logos">
+	<section class="section sec-lang-test test-back-skyblue sec-clients-logos">
 		<div class="container mobile-container">
 			<div class="col-xs-12 col-sm-12 col-md-12 np rs-hide text-center">
 				<div class="img-wrapper">
@@ -519,11 +478,11 @@
 			</div>
 		</div>
 	</section>
-	<section class="section sec-chatbot section-reviews">
+	<section class="section sec-lang-test test-back-white section-reviews">
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 intercom-chat" id="liveReviews">
 			<div class="container mobile-container">
 				<div class="section-2-heading chatbot-red" style="color: rgb(34, 34, 34);">
-					Average Rating 4.9/5 <br/> 500+ Reviews
+					Average Rating 4.9/5. 500+ Reviews
 				</div>
 				<div class="social-media-section">
 					<div class="each-arrow-section">
@@ -551,7 +510,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 				<div class="container mobile-container protfolio-section">
 
 					<div id="fb" class="protfolio-inner-section" data-repuso-grid="4406" data-website-id="0"></div>
@@ -1254,10 +1213,10 @@
 		</div>
 		<!-- end static HTML of fb, capterra and g2 crowd -->
 	</section>
-	<section class="section sec-chatbot intercom ns inter3">
+	<section class="section sec-lang-test test-back-skyblue test-inter1">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center inter1">
-			   <h1 class="chatbot-heading">Try Outgrow Chatbots To Turn Your Website Into a Lead Generating And Feedback Collecting Machine</h1>
+			   <h1 class="test-lang-hedng">Become a Part of the New Era of Online Tests <br>with Outgrow</h1>
 
 		  </div>
 		 
@@ -1267,7 +1226,7 @@
 			<input class="lead-form-email-3" name="emailId" type="email" placeholder="Please enter your email address">
 			<span class="lead-form-btn">
 				<a href="//app.outgrow.co/signup/?email=" class="lead-email-3 btn-buildcal">
-				Try Chatbots for free
+				Start for free
 				</a>
 				<script src="{{ $page->baseUrl }}/js/pageScripts/index.js"></script>
 					<script src="{{ $page->baseUrl }}/js/pageScripts/lead-form.js"></script>
