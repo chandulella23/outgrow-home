@@ -16027,8 +16027,7 @@ iframe[name=google_conversion_frame] {
         font-size: 26px!important;
         line-height: 32px!important;
         margin-top: 0px!important;
-        padding: 0px 10px!important;
-         /* font-weight:600; */
+        padding: 0px 10px!important; 
     }
     .inter1 {
         margin-bottom: 34px;
@@ -86691,7 +86690,7 @@ body.icaq.footer-cookies {
 	.pre-temp-cat-new {margin-bottom: 0px;}
 	ul.pre-temp-cat-new li {float: left !important; width: 100% !important; text-align: left;}
 	/* .premade-template-new .search-input input[type=text] {font-size: 12px;} */
-    .pre-temp-view {width: 65%!important;}
+    .pre-temp-view {width: 65% !important;}
     .section.intercom{
         margin-top:50px!important;
     }
@@ -87580,7 +87579,18 @@ background:#fff!important;
         height: 30px; max-width:80px;
         margin: auto;
         margin-top:-98px; margin-left:30%;}
+
+       
   
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+  ul.pre-temp-list {
+    width: 154px !important;
+    padding: 0 20px 0 0 !important; max-height:initial !important;
+    }
+    .pre-temp-view{ width:70% !important; margin:0 !important; }
+
   }
 
   @media (min-width: 320px) and (max-width: 420px) {
