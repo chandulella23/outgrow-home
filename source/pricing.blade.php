@@ -215,7 +215,7 @@
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Calculator or</small><br>
-                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations</small>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>eCommerce Recommendation</small>
                                     <!-- <span class="detail"> </span>  -->
                                 </span>
                             </td>
@@ -226,7 +226,7 @@
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Calculator</small><br>
-                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>eCommerce Recommendation </small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot</small>
                                     <!-- <span class="detail"> </span>  -->
                                 </span>
@@ -238,7 +238,7 @@
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Graded Quiz</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Poll</small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Calculator</small><br>
-                                    <small><i class="material-icons"> keyboard_arrow_right</i>Ecommerce Recommendations or</small><br>
+                                    <small><i class="material-icons"> keyboard_arrow_right</i>eCommerce Recommendation </small><br>
                                     <small><i class="material-icons"> keyboard_arrow_right</i>Chatbot</small>
                                 </span>
                             </td>

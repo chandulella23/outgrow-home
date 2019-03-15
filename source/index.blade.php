@@ -70,7 +70,7 @@
 							<li>
 								<img src="{{ $page->baseUrl }}/images/img-home-chatbot.png" class="polls" alt="Polls">
 								<img class="rs-hide" src="{{ $page->baseUrl }}/images/img-home-chatbot_big.png" class="chatbot" alt="Chatbot">
-								Chatbot</li>
+								Chatbots</li>
 						</ul>
 					</div>
 

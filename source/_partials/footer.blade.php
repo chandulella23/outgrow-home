@@ -161,7 +161,8 @@
 				<ul>
 					<li><a href="{{ $page->baseUrl }}/calculator/?utm_source=footer" class="">Calculators</a></li>
 					<li><a href="{{ $page->baseUrl }}/quiz/?utm_source=footer" class="">Quizzes </a></li>
-					<li><a href="{{ $page->baseUrl }}/survey/?utm_source=footer" class="">Survey</a></li>
+					<li><a href="{{ $page->baseUrl }}/survey/?utm_source=footer" class="">Surveys</a></li>
+					<li><a href="{{ $page->baseUrl }}/chatbots/?utm_source=footer" class="">Chatbots</a></li>
 					<li><a href="{{ $page->baseUrl }}/increase-conversions/?utm_source=footer" class="">Increase Conversions</a></li>
 					<li><a href="{{ $page->baseUrl }}/increase-roi/?utm_source=footer" class="">Increase ROI</a></li>
 					<li><a href="{{ $page->baseUrl }}/increase-sales/?utm_source=footer" class="">Increase Sales</a></li>
