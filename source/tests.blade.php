@@ -70,22 +70,22 @@
 		</div>
 		<div class="social-media-section">
 					<div class="each-arrow-section">
-						<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
+						<div id="fb-img" class="arrow_box testactive test-cursr-none" onclick="openTestimonial('fb')">
 							<img alt="Facebook image" src="//dzvexx2x036l1.cloudfront.net/facebookim.png"/>
 							<!-- <img alt="Facebook image" src="//dzvexx2x036l1.cloudfront.net/facebookh.png" class="over over1"/> -->
 						</div>
 
-						<div id="capterra-img" class="arrow_box" onclick="openTestimonial('capterra')">
+						<div id="capterra-img" class="arrow_box test-cursr-none" onclick="openTestimonial('capterra')">
 							<img alt="Capterra image" src="//dzvexx2x036l1.cloudfront.net/capterraimg.png"/>
 							<!-- <img alt="Capterra image" src="//dzvexx2x036l1.cloudfront.net/capterah.png" class="over over2"/> -->
 						</div>
 
-						<div id="g2-img" class="arrow_box" onclick="openTestimonial('g2')">
+						<div id="g2-img" class="arrow_box test-cursr-none" onclick="openTestimonial('g2')">
 							<img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowd.png"/>
 							<!-- <img alt="G2 Crowd image" src="//dzvexx2x036l1.cloudfront.net/crowdh.png" class="over over3"/> -->
 						</div>
 
-						<div id="google-img" class="arrow_box" onclick="openTestimonial('google')">
+						<div id="google-img" class="arrow_box test-cursr-none" onclick="openTestimonial('google')">
 							<img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_logo.png"/>
 							<!-- <img alt="Google image" src="https://dzvexx2x036l1.cloudfront.net/google_hover.png" class="over over4"/> -->
 						</div>
