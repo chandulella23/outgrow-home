@@ -96,13 +96,14 @@
  
 		
 			</div>
-			<div class="col-md-12 col-xs-12 col-sm-12">
+			<div class="col-md-12 col-xs-12 col-sm-12 np">
 			<div class="test-main-img">
-		<img src="/images/test-main-img.png">
-		<span class="img-overlay"></span>
+			<iframe src="https://premade.outgrow.us/premade-english-language-test" frameborder="0"></iframe>
+		<!-- <img src="/images/test-main-img.png"> -->
+		<!-- <span class="img-overlay"></span>
 		<span class="test-start-btn">
 			<a href="">Start</a>
-		</span>
+		</span> -->
 		</div>
 					</div>
 		</div>
@@ -355,18 +356,23 @@
 		  <div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer inter-bot">
 			<div class="col-md-6 col-xs-12 col-sm-6">
 			<div class="language-templte-img-outr">
+				<a href="">
 			<div class="language-templte-img">
 			<img src="{{ $page->baseUrl }}/images/make-lang-img1.png">
 			</div>
-			<span>Read Our Blog</span>
+			<span class="lang-info">Read Our Blog</span>
+										</a>
 			</div>
 			</div>
 			<div class="col-md-6 col-xs-12 col-sm-6">
 			<div class="language-templte-img-outr">
+				<a href="">
 			<div class="language-templte-img">
-			<img src="{{ $page->baseUrl }}/images/make-lang-img2.png">
+			<img src="{{ $page->baseUrl }}/images/make-lang-img3.png">
+			<span class="test-play-icn"><i class="material-icons">play_arrow</i></span>
 			</div>
-			<span>Watch A video</span>
+			<span class="lang-info">Watch A video</span>
+										</a>
 			</div>
 			</div>
 		  <!-- <div class="interbot-content">
@@ -510,7 +516,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
 				<div class="container mobile-container protfolio-section">
 
 					<div id="fb" class="protfolio-inner-section" data-repuso-grid="4406" data-website-id="0"></div>
