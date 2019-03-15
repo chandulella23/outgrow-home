@@ -356,7 +356,7 @@
 		  <div class="col-md-12 col-xs-12 col-sm-12 np text-center startTrial-outer inter-bot">
 			<div class="col-md-6 col-xs-12 col-sm-6">
 			<div class="language-templte-img-outr">
-				<a href="">
+				<a href="https://outgrow.co/blog/create-language-test" target="_blank">
 			<div class="language-templte-img">
 			<img src="{{ $page->baseUrl }}/images/make-lang-img1.png">
 			</div>
@@ -366,8 +366,8 @@
 			</div>
 			<div class="col-md-6 col-xs-12 col-sm-6">
 			<div class="language-templte-img-outr">
-				<a href="">
-			<div class="language-templte-img">
+				<a href="javascript:void(0)">
+			<div class="language-templte-img"data-toggle="modal" data-target="#tests-modal">
 			<img src="{{ $page->baseUrl }}/images/make-lang-img3.png">
 			<span class="test-play-icn"><i class="material-icons">play_arrow</i></span>
 			</div>
@@ -1258,7 +1258,7 @@
 </div>
 </section>
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="tests-modal" role="dialog">
     <div class="modal-dialog  modal-lg mdl-log">
     <button class="close close-position" onclick="stopVideo()" data-dismiss="modal" type="button"><i class="material-icons">close</i></button>
 			<!-- Modal content-->
@@ -1267,7 +1267,7 @@
      
         <div class="modal-body modal-ng" >
 				<div id="player"></div>
-
+				<!-- https://www.youtube.com/watch?v=RsFjlr_AynI&t=1s  -->
     <script>
       // This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
@@ -1280,7 +1280,7 @@
         player = new YT.Player('player', {
           height: '450',
           width: '100%',
-					videoId: 'R9RPhj2aue8',
+					videoId: 'RsFjlr_AynI',
 					playerVars: { 'controls': 1, rel: 0 , 'start':0},
           events: {
             'onClick': onPlayerReady,
