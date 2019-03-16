@@ -293,7 +293,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner">
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/why-test-1.png" alt="Unlike Ads, Calculators Add Real Value" class="whymetricimg-hyt">
+						<img src="{{ $page->baseUrl }}/images/why-test-1.png" alt="Interactive And Personalized Calculator" class="whymetricimg-hyt">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
@@ -303,7 +303,7 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic" class="whymetricimg-hyt">
+						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Used Professional Design" class="whymetricimg-hyt">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
@@ -312,13 +312,13 @@
 					</div>
 
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic" class="whymetricimg-hyt">
+						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Used Professional Design" class="whymetricimg-hyt">
 						
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/why-test-3.png" alt="Calculators Increase Engagement & Conversion" class="whymetricimg-hyt">
+						<img src="{{ $page->baseUrl }}/images/why-test-3.png" alt="Easily Created Calculator" class="whymetricimg-hyt">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
@@ -328,7 +328,7 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales" class="whymetricimg-hyt">
+						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Awesome Analytics" class="whymetricimg-hyt">
 					
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
@@ -336,7 +336,7 @@
 						<div class="intercom-para-content"><p class="intercom-para">Toggle the option to reveal results or hide them. Use Outgrow Analytics to examine all answers and send results data to any of our 1000+ integration partners . Or print all answers in an excel or a Google Doc.</p></div>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales" class="whymetricimg-hyt">
+						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Awesome Analytics" class="whymetricimg-hyt">
 						
 					</div>
 				</div>
@@ -489,7 +489,7 @@
                 <div class="section-2-heading chatbot-red" style="color: rgb(34, 34, 34);">
                     Average Rating 4.9/5. 500+ Reviews
                 </div>
-                <div class="social-media-section">
+                <div class="social-media-section test-socl-paddng">
                     <div class="each-arrow-section">
                         <div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
                             <img alt="Facebook image" src="//dzvexx2x036l1.cloudfront.net/facebookim.png"/>
@@ -515,7 +515,7 @@
                 </div>
             </div>
 
-            <div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 test-case-breath">
                 <div class="container mobile-container protfolio-section">
 
                     <div id="fb" class="protfolio-inner-section" data-repuso-grid="4406" data-website-id="0"></div>
@@ -1223,7 +1223,7 @@
 	<section class="section sec-lang-test test-back-skyblue test-inter1">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center inter1">
-			   <h1 class="test-lang-hedng">Become a Part of the New Era of Online Tests <br>with Outgrow</h1>
+			   <h1 class="test-lang-hedng">Become a Part of the New Era of Online Tests with Outgrow</h1>
 
 		  </div>
 		 
@@ -1320,7 +1320,7 @@
     </div>
   </div>
 
-<script>
+	<script>
 function triggerLiveStaticReviews () {
 				var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
 				var live = document.querySelector('#liveReviews');
