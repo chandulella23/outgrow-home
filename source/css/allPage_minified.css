@@ -14811,6 +14811,7 @@ iframe[name=google_conversion_frame] {
 }
 
 @media (min-width:320px) and (max-width:768px) { 
+    .test-lang-hedng{padding:0!important;}
     .whyMerticsAwesome-inner-left .bot-heading,.whyMerticsAwesome-inner-left .intercom-para{padding-right:0!important;}
     .sec-lang-test.section-whyMerticsAwesome .bot-head,.sec-lang-test .test-lang-hedng{font-size: 26px!important;margin-top: 40px!important;line-height: 32px!important;}
     #why .section-top-why {
@@ -87684,7 +87685,7 @@ background: #fff;
    .section-reviews .case-breathers1{margin-top: 60px;}
    .sec-lang-test .section-reviews .social-media-section{padding-top: 25px;padding-bottom: 25px;}
    .sec-lang-test.section-reviews{padding-bottom: 42px;}
-   .test-lang-hedng{float:left;width:100%;font-size:42px;line-height:46px;color:#fb5f66 !important;}
+   .test-lang-hedng{float:left;width:100%;font-size:42px;line-height:46px;color:#fb5f66 !important;padding:0 45px;}
    .section.test-engage-1{padding-bottom: 80px;}
    .sec-lang-test .bot-head{padding: 0;margin: 0!important;margin-top: 60px!important;}
    span.test-start-btn{float:left;position: absolute;top:53.4%;left:24px;}

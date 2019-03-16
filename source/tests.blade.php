@@ -1221,7 +1221,7 @@
 	<section class="section sec-lang-test test-back-skyblue test-inter1">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center inter1">
-			   <h1 class="test-lang-hedng">Become a Part of the New Era of Online Tests <br>with Outgrow</h1>
+			   <h1 class="test-lang-hedng">Become a Part of the New Era of Online Tests with Outgrow</h1>
 
 		  </div>
 		 
@@ -1318,7 +1318,7 @@
     </div>
   </div>
 
-<script>
+	<script>
 function triggerLiveStaticReviews () {
 				var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
 				var live = document.querySelector('#liveReviews');
