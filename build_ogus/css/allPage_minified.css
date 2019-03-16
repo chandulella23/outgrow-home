@@ -14811,6 +14811,7 @@ iframe[name=google_conversion_frame] {
 }
 
 @media (min-width:320px) and (max-width:768px) { 
+    .whyMerticsAwesome-inner-left .bot-heading,.whyMerticsAwesome-inner-left .intercom-para{padding-right:0!important;}
     .sec-lang-test.section-whyMerticsAwesome .bot-head,.sec-lang-test .test-lang-hedng{font-size: 26px!important;margin-top: 40px!important;line-height: 32px!important;}
     #why .section-top-why {
         margin-bottom: 0px !important;
@@ -84740,7 +84741,7 @@ blockquote span.quote-right1 {
     .language-templte-img-outr .language-templte-img .test-play-icn i{left:9px!important;top:9px !important;font-size:28px!important;}
     .sec-lang-test .language-templte-img-outr span.lang-info{font-size: 12px;line-height: 16px;padding: 12px 15px;}
     .inter-bot .language-templte-img-outr{margin-bottom: 20px;}
-    .sec-lang-test .make-lang-headng {margin:45px 0 30px 0!important;}
+    .sec-lang-test .make-lang-headng {margin:45px 0 30px 0!important;padding:0!important;}
     .section.outgrow-test-block1{padding-top:50px!important;}
     .header-logo img {
         position: absolute;
@@ -87674,7 +87675,7 @@ background: #fff;
    .language-templte-img{float:left;width:100%;position: relative;}
    .language-templte-img img{width:100%;height:100%;}
    .language-templte-img-outr span.lang-info{float: left;width: 100%;text-align: left;font-size: 16px;line-height:20px;padding: 18px 20px;font-family: montserratlight;color: rgb( 98, 105, 109 );}
-   .sec-lang-test .make-lang-headng{margin:60px 0 30px 0;}
+   .sec-lang-test .make-lang-headng{margin:60px 0 30px 0;padding:0 104px;}
    .sec-lang-test.test-back-white{background:#fff;}
    .sec-lang-test{margin-top: 0!important;margin-bottom: 0!important;}
    .sec-lang-test.test-btm-paddng{padding-bottom: 80px;}
@@ -87691,3 +87692,5 @@ background: #fff;
    span.test-start-btn a{float: left;background: #f9001c;color: #fff;font-size: 16px;text-transform: uppercase;padding: 8px 25px;border-radius: 25px;line-height: 20px;font-family: montserratbold;
     box-shadow: 6px 10.392px 40px 0px rgb( 0, 0, 0,0.29 );
 }
+/* .sec-lang-test .whyMerticsAwesome-inner-row{margin-bottom: 80px;} */
+.whymetricimg-hyt{height:260px;}
