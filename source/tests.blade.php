@@ -293,7 +293,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner">
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/why-test-1.png" alt="Unlike Ads, Calculators Add Real Value">
+						<img src="{{ $page->baseUrl }}/images/why-test-1.png" alt="Unlike Ads, Calculators Add Real Value" class="whymetricimg-hyt">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
@@ -303,7 +303,7 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic">
+						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic" class="whymetricimg-hyt">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
@@ -312,13 +312,13 @@
 					</div>
 
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic">
+						<img src="{{ $page->baseUrl }}/images/why-test-2.png" alt="Calculators Bring New Traffic" class="whymetricimg-hyt">
 						
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-left">
-						<img src="{{ $page->baseUrl }}/images/why-test-3.png" alt="Calculators Increase Engagement & Conversion">
+						<img src="{{ $page->baseUrl }}/images/why-test-3.png" alt="Calculators Increase Engagement & Conversion" class="whymetricimg-hyt">
 						
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-right">
@@ -328,7 +328,7 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 np whyMerticsAwesome-inner-row">
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-show">
-						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales">
+						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales" class="whymetricimg-hyt">
 					
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 np whyMerticsAwesome-inner-left ">
@@ -336,7 +336,7 @@
 						<div class="intercom-para-content"><p class="intercom-para">Toggle the option to reveal results or hide them. Use Outgrow Analytics to examine all answers and send results data to any of our 1000+ integration partners . Or print all answers in an excel or a Google Doc.</p></div>
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 np whyMerticsAwesome-inner-right rs-hide">
-						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales">
+						<img src="{{ $page->baseUrl }}/images/why-test-4.png" alt="Audience Segmentation and Targeted Sales" class="whymetricimg-hyt">
 						
 					</div>
 				</div>
@@ -347,8 +347,7 @@
 <section class="section sec-lang-test test-btm-paddng test-back-white">
 		<div class="container">
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
-			   <div class="section-heading text-center make-lang-headng">Tutorial: How Can You Make a Language
-<br>Test on Outgrow?
+			   <div class="section-heading text-center make-lang-headng">Tutorial: How Can You Make a Language Test on Outgrow?
 </div>
 
 		  </div>
