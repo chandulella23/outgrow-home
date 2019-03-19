@@ -195,7 +195,7 @@ window.changeTab = function (tabName) {
     if (first) {
         setCalcCategory(first)
     } else {
-        setCalcCategory('Art');
+        setCalcCategory('Auto');
     }
 }
 
@@ -598,9 +598,9 @@ function renderPremadeCalcs(responseText) {
 
         //   jQuery('#premade-loader').addClass('hide');
         setPremade();
-        setCalcCategory('Art');
+        setCalcCategory('Auto');
         //changeTab('Calculator');
-        shuffleCalcs('Art');
+        shuffleCalcs('Auto');
 
         jQuery('#search-experience').val('');
     }
