@@ -1,6 +1,6 @@
 @extends('_layouts.lp')
 
-@section('title', 'Increase Online Sales | Outgrow')
+@section('title', 'Outgrow Chatbots | Outgrow')
 
 @section('metaDescription')
 	<meta name="description" content="Increase your online sales with interactive quizzes, calculators and assessments. Build your first interactive experience. Start your free trial."/>
