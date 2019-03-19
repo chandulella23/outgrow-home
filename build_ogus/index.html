@@ -1093,6 +1093,34 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 			</div>
 			<div id="premade-content-new" class="tab-section hide">
 				<div class="container-fluid">
+						<!-- Nav tabs -->
+					<!-- <ul class="nav nav-tabs premade-calc" role="tablist">
+						<li role="presentation" class="tab-title active">
+							<a id="Calculator" href="#numeric-calc" aria-controls="numeric-calc" class="res-tab" role="tab" data-toggle="tab"
+							onclick="callGA('TYPE');setTimeout(()=>(changeTab('Calculator')))">
+								Numerical Calculator
+							</a>
+						</li>
+						<li role="presentation" class="tab-title">
+							<a id="OutcomeQuiz" href="#outcome-quiz" aria-controls="outcome-quiz" role="tab" data-toggle="tab"
+							onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('OutcomeQuiz')))">
+								Outcome Quiz
+							</a>
+						</li>
+						<li role="presentation" class="tab-title">
+							<a id="GradedQuiz" href="#graded-quiz" aria-controls="graded-quiz" role="tab" data-toggle="tab"
+							onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('GradedQuiz')))">
+								Graded Quiz
+							</a>
+						</li>
+						<li role="presentation" class="tab-title">
+							<a id="Poll" href="#outcome-quiz" aria-controls="poll" role="tab" data-toggle="tab"
+							onclick="callGA('INDUSTRY');setTimeout(()=>(changeTab('Poll')))">
+								Poll
+							</a>
+						</li>
+					</ul> -->
+
 					<!-- Tab panes -->
 					<div class="tab-content usecase">
 						<div role="tabpanel" class="tab-pane active" id="numeric-calc">
@@ -1108,74 +1136,17 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 											<input type="text" name="search" id="search-experience" oninput="filterList()" onkeyup = "searchList(event)" placeholder="Search Experiences by Keyword">
 										</div>
 										<div class="no-search hide">
-											<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" id="intercom_trigger" class="intercom_trigger">here</a> for more specific examples or any other questions. 
+											<i class="material-icons">error</i> You can see some generic examples below and you can reach out to us <a href="javascript:void(0);" onclick="sendMessageToIntercom('I would like some more ideas / examples')">here</a> for more specific examples or any other questions. 
 										</div>
 									</div>
 									<div class="premade-template-left">
 
-										<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats" data-simplebar data-simplebar-auto-hide="false">
-											<li class="active">
-												<a href="javascript:void(0)" id="Auto" onclick="shuffleCalcs('Auto')">Auto</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Education" onclick="shuffleCalcs('Education')">Education</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Finance" onclick="shuffleCalcs('Finance')">Finance</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="MarketingAdvertising"
-												onclick="shuffleCalcs('MarketingAdvertising')">Marketing & Advertising</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="HealthFitness"
-												onclick="shuffleCalcs('HealthFitness')">Health & Fitness</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Legal"
-												onclick="shuffleCalcs('Legal')">Legal</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Quintessential"
-												onclick="shuffleCalcs('Quintessential')">Quintessential</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="RealEstateConstruction"
-												onclick="shuffleCalcs('RealEstateConstruction')">Real Estate &
-													Construction</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Funnels" onclick="shuffleCalcs('Funnels')">
-												Funnels
-												</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Trending" onclick="shuffleCalcs('Trending')">
-												Trending
-												</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Technology"
-												onclick="shuffleCalcs('Technology')">Technology</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Travel"
-												onclick="shuffleCalcs('Travel')">Travel</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="Publishing"
-												onclick="shuffleCalcs('Publishing')">Publishing</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)" id="TVandEntertainment"
-												onclick="shuffleCalcs('TVandEntertainment')">TV and Entertainment</a>
-											</li>
+										<ul class="pre-temp-cat pre-temp-cat-new" id="calc-cats" data-simplebar data-simplebar-auto-hide="false">				
 										</ul>
 										<div class="form-group col-xs-12 np">
 											<div class="selectize selectize-wrapper">
 												<select id="select-list" placeholder="Select List">
 													<option value="Auto">Auto</option>
-													<option value="Education">Education</option>
 													<option value="Education">Education</option>
 													<option value="HealthFitness">Health & Fitness</option>
 													<option value="Quintessential">Quintessential</option>
@@ -1190,7 +1161,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 											</div>
 										</div>
 									</div>
-										<div class="pre-temp-cont pre-temp-cont-new"> 
+									 <div class="pre-temp-cont pre-temp-cont-new"> 
 										<ul class="pre-temp-list" id="gallery-content-center">
 
 											<!-- <li class="active filter-all filter-auto" id="calc-auto-loan">
@@ -2193,6 +2164,7 @@ v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
 						let res = JSON.parse(http.responseText);
 						window.calcs = res.data.calculators;
 						window.industries = res.data.industries;
+						getExistingIndustries();
 						window.specialEvents = res.data.events;
 						let trendingC = [];
 						window.events = [];
