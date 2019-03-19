@@ -29,7 +29,7 @@
 								<a href="{{ $page->baseUrl }}/increase-conversions" class="nav-use-cases-list">Increase Conversions</a>
 								<a href="{{ $page->baseUrl }}/increase-roi" class="nav-use-cases-list">Increase ROI</a>
 								<a href="{{ $page->baseUrl }}/increase-sales" class="nav-use-cases-list">Increase Sales</a>
-								<a href="{{ $page->baseUrl }}/ecommerce-recommendations" class="nav-use-cases-list">eComm Recommendations</a>
+								<a href="{{ $page->baseUrl }}/ecommerce-recommendations " class="nav-use-cases-list less-space">eCommerce Recommendations</a>
 							</div>
 						</div>
 						<div class="drop-sub-menu drop-sub-menu-stories">
