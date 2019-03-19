@@ -16134,7 +16134,7 @@ iframe[name=google_conversion_frame] {
     .section-subheading.bot-heading {
         line-height: 24px!important;
     }
-   .sec-chatbot.section-whyMerticsAwesome .section-subheading{
+   .sec-chatbot.section-whyMerticsAwesome .section-subheading,.sec-lang-test.section-whyMerticsAwesome .section-subheading{
        margin-bottom:5px!important;
    }
 }
