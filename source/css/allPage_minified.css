@@ -369,6 +369,7 @@ span.no-card {
 
 }
 @media (max-width: 1023px) and (min-width: 768px) {
+    .sec-recom-quiz.adjust-ecom .startTrial-outer1,.sec-last.adjust-ecom .startTrial-outer1{margin-top:0!important;}
     .ecomm-outer {width: 100% !important;}
     .sec-ecomm {padding-top: 0 !important;}
     .sec-ecomm {margin-bottom: 0px !important;}
@@ -14811,6 +14812,7 @@ iframe[name=google_conversion_frame] {
 }
 
 @media (min-width:320px) and (max-width:768px) { 
+    .adjust-ecom.sec-recom-quiz{padding-top: 35px;padding-bottom: 50px!important;margin-bottom: 0!important;}
     .test-lang-hedng{padding:0!important;}
     .whyMerticsAwesome-inner-left .bot-heading,.whyMerticsAwesome-inner-left .intercom-para{padding-right:0!important;}
     .sec-lang-test.section-whyMerticsAwesome .bot-head,.sec-lang-test .test-lang-hedng{font-size: 26px!important;margin-top: 40px!important;line-height: 32px!important;}
@@ -85891,6 +85893,7 @@ i.zmdi.zmdi-twitter-box {
         width: 100%;
         text-align: center;
     }
+    .adjust-ecom .content a.temp-iframe-preview{display:block!important;width:96px;}
     .content a.temp-iframe-preview {
         margin-right: 10px;
         display: none !important;
@@ -85912,6 +85915,10 @@ i.zmdi.zmdi-twitter-box {
     .btn-hover.rs-hide {
         display: block !important;
     }
+    /* .adjust-ecom .btn-hover.rs-show {
+        display: block !important; 
+    }
+    .adjust-ecom .ecom-btn-hide{display:none!important;} */
     .btn-hover.rs-show {
         display: none !important; 
     }
@@ -87592,7 +87599,7 @@ background:#fff!important;
     padding: 0 20px 0 0 !important; max-height:initial !important;
     }
     .pre-temp-view{ width:70% !important; margin:0 !important; }
-
+    .adjust-ecom .pre-temp-view{width:100%!important;margin:25px 0!important;}
   }
 
   @media (min-width: 320px) and (max-width: 420px) {
@@ -87701,3 +87708,7 @@ background: #fff;
 
 
 .less-space{padding:10px 6px !important; line-height:20px !important;}
+.sec-recom-quiz.adjust-ecom .section-2-heading{margin-top:55px;}
+.adjust-ecom.sec-recom-quiz{padding-bottom: 35px;}
+.adjust-ecom.sec-ecomm {margin-bottom: 0}
+.adjust-ecom .temp-demo{float:left;width:100%;}

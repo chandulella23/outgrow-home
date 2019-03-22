@@ -349,7 +349,7 @@
 		</div>
 	</section>
 
-	<section class="section ecomm-growth">
+	<section class="section ecomm-growth adjust-ecom">
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center np">
 			<div class="container custom-container mobile-container">
 				<div class="section-2-heading" style="color: rgb(34, 34, 34);">
@@ -455,7 +455,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section col-md-12 col-sm-12 col-xs-12 text-center np sec-ecomm">
+	<section class="section col-md-12 col-sm-12 col-xs-12 text-center np sec-ecomm adjust-ecom">
 		<div class="container custom-container mobile-container">
 			<div class="section-2-heading" style="color: rgb(34, 34, 34);">
 				Beautiful High-Converting Ecommerce Quizzes, <br/>Built with Outgrow
@@ -664,7 +664,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-								<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+								<button class="btn btn-red btn-hover hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 									<!----> Use Layout</button>
 								<h2>Which sports watch is best suited to your needs? </h2>
 								<span class="hide">
@@ -675,9 +675,9 @@
 									<span class="dot"></span>c </span>
 								</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/which-sports-watch-is-best-suited-to-your-needs">
+							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/which-sports-watch-is-best-suited-to-your-needs">
 							Preview</a>
 						</div>
 					</div>
@@ -693,7 +693,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<button class="btn btn-red btn-hover hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 								<!----> Use Layout</button>
 							<h2>Which sunglasses suit your face the best? </h2>
 							<span class="hide">
@@ -704,9 +704,9 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premadeWhich-Sunglasses-Suit-Your-Face-the-Best">
+							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premadeWhich-Sunglasses-Suit-Your-Face-the-Best">
 							Preview</a>
 						</div>
 					</div>
@@ -722,7 +722,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<button class="btn btn-red btn-hover hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 								<!----> Use Layout</button>
 							<h2>Which makeup set suits your face the best? </h2>
 							<span class="hide">
@@ -733,9 +733,9 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/Which-makeup-set-suits-your-face-the-best">
+							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/Which-makeup-set-suits-your-face-the-best">
 							Preview</a>
 						</div>
 					</div>
@@ -751,7 +751,7 @@
 						</a>
 						<div class="content">
 							<span class="content-sec col-sm-8 col-xs-8 np">
-							<button class="btn btn-red btn-hover rs-show" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<button class="btn btn-red btn-hover hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 								<!----> Use Layout</button>
 							<h2>What is the best smartphone that you can afford? </h2>
 							<span class="hide">
@@ -762,9 +762,9 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
-							<button class="btn btn-red btn-hover rs-hide" type="button" onclick="location.href = '//app.outgrow.co/signup'">
+							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
-							<a class="btn btn-red btn-hover rs-hide temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/what-is-the-best-smartphone-that-you-can-afford">
+							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/what-is-the-best-smartphone-that-you-can-afford">
 							Preview</a>
 						</div>
 					</div>
@@ -773,7 +773,7 @@
 		</div>
 	</section>
 
-	<section class="section sec-recom-quiz">
+	<section class="section sec-recom-quiz adjust-ecom">
 		<div class="container custom-container mobile-container">
 			<div class="section-2-heading">
 			Get Started Building Interactive Product <br/>Recommendation Quizzes
@@ -1516,7 +1516,7 @@
 		head.appendChild(gridJS);
 	</script>
 
-	<section class="section sec-last">
+	<section class="section sec-last adjust-ecom">
 		<div class="container custom-container mobile-container">
 			<div class="section-2-heading">
 			Interactive Product Recommendations & Product <br/>Finders for Increased Engagement and Sales
