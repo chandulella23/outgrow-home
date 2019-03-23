@@ -180,7 +180,7 @@ jQuery(document).ready(function () {
     }, 1000);
 
     const interval = setInterval(() => {
-        console.log('testing')
+        // console.log('testing')
         const iframe = document.querySelector('.intercom-launcher-discovery-frame');
         const cookieSection = document.querySelector('.section.sec-cookies');
 
