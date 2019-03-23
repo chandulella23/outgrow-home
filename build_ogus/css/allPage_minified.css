@@ -83466,6 +83466,7 @@ img.uni1 {
         right: -10px !important;
     }
     .pre-temp-view{ width:68% !important; }
+    .adjust-ecom .pre-temp-view{width:100%!important;}
 }
 @media(min-width:1024px) and (max-width:1280px) {
     .case-chatbot .heading {
@@ -86701,6 +86702,7 @@ body.icaq.footer-cookies {
 	ul.pre-temp-cat-new li {float: left !important; width: 100% !important; text-align: left;}
 	/* .premade-template-new .search-input input[type=text] {font-size: 12px;} */
     .pre-temp-view {width: 65% !important;}
+    .adjust-ecom .pre-temp-view{width:100%!important}
     .section.intercom{
         margin-top:50px!important;
     }
