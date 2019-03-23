@@ -16617,6 +16617,7 @@ iframe[name=google_conversion_frame] {
 }
 
 @media (min-width:768px) and (max-width:768px) {
+    .adjust-ecom.sec-recom-quiz{padding-top: 0!important;}
     .sahil-material .claim-cta .form-group .form-control {
         height: 45px;
     }
