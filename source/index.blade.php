@@ -590,7 +590,7 @@
 	<section class="section section-6">
 		<div class="container img-container">
 			<div class="col-xs-12 col-sm-12 col-md-9 np mk-animate-element fade-in section-6-right rs-show">
-				<img alt="Boost Growth" class="scrollimg1 mk-animate-element right-to-left sec6-2-1" src="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-tab.png" />
+				<img alt="Boost Growth" class="scrollimg1 mk-animate-element right-to-left sec6-2-1" src="https://dlvkyia8i4zmz.cloudfront.net/VQHRoA0TQ5utAeTTq05g_img_boostgrowth_tab1.png" />
 				<img alt="Boost Growth" class="scrollimg1 sec6-2-2 mk-animate-element left-to-right" src="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-mobile.png" />
 			</div>
 			<div class="col-xs-12 col-md-3 col-sm-12 section-6-left mobile-container">
@@ -607,7 +607,7 @@
 				</span>
 			</div>
 			<div class="col-xs-12 col-sm-9 np mk-animate-element fade-in section-6-right rs-hide">
-				<img alt="Boost Growth" class="scrollimg1 mk-animate-element right-to-left"  src="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-tab.png" />
+				<img alt="Boost Growth" class="scrollimg1 mk-animate-element right-to-left"  src="https://dlvkyia8i4zmz.cloudfront.net/VQHRoA0TQ5utAeTTq05g_img_boostgrowth_tab1.png" />
 				<img alt="Boost Growth" class="scrollimg1 sec4-2 mk-animate-element left-to-right" src="//dzvexx2x036l1.cloudfront.net/img-boostgrowth-mobile.png" />
 			</div>
 		</div>
