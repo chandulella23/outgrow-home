@@ -1358,12 +1358,13 @@
 
 <script>
 // hiding intercom
-var intercomVal=setInterval(() => {
-	if(document.getElementById('intercom-container')){
-	document.getElementById('intercom-container').classList.add("hide");
-	clearInterval(intercomVal);
-	}
-}, 0);
+
+// var intercomVal=setInterval(() => {
+// 	if(document.getElementById('intercom-container')){
+// 	document.getElementById('intercom-container').classList.add("hide");
+// 	clearInterval(intercomVal);
+// 	}
+// }, 0);
 
 var interval1=setInterval(() => {
 	if(document.getElementById('bot-circle')){
