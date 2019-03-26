@@ -1815,7 +1815,7 @@
 
 				http.onreadystatechange = function () {
 					if (http.readyState === 4 && http.status === 200) {
-						console.log("@@@@@@@@@@@@@@!!!!!!!!!!1")
+						// console.log("@@@@@@@@@@@@@@!!!!!!!!!!1")
 						let res = JSON.parse(http.responseText);
 						window.calcs = res.data.calculators;
 						window.industries = res.data.industries;
