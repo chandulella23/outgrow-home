@@ -1360,13 +1360,10 @@
 // hiding intercom
 var intercomVal=setInterval(() => {
 	if(document.getElementById('intercom-container')){
-	document.getElementById('intercom-container').classList.add("hide");
-	}
-}, 10);
-
-setTimeout(() => {
+		console.log("00000000000000000000");
 	document.getElementById('intercom-container').classList.add("hide");
 	clearInterval(intercomVal);
+	}
 }, 0);
 // intercom hiding ends
 function triggerLiveStaticReviews () {
