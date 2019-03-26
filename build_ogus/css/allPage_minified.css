@@ -87731,7 +87731,7 @@ background: #fff;
 
 .bot-circle.with-bar {z-index:999 !important; height:60px; width:60px;}
 /* .og-chat-box-outer.with-bar {z-index:99 !important} */
-.og-chat-box-outer.with-bar-new {z-index:99 !important; }
+.og-chat-box-outer.with-bar-new {z-index:0 !important; }
 .og-chat-box-outer.with-bar-active {z-index:999 !important; }
 
 }
