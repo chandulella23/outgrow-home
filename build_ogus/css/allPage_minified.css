@@ -87715,3 +87715,6 @@ background: #fff;
 .adjust-ecom.sec-recom-quiz{padding-bottom: 35px;}
 .adjust-ecom.sec-ecomm {margin-bottom: 0}
 .adjust-ecom .temp-demo{float:left;width:100%;}
+
+.bot-circle.with-bar {top:calc(100% - 160px) !important;}
+.og-chat-box-outer.with-bar-new .og-chat-box{bottom:174px !important;}
