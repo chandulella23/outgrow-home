@@ -85700,7 +85700,7 @@ i.zmdi.zmdi-twitter-box {
     position: fixed;
     bottom: 0;
     margin: 0;
-    z-index: 999;
+    z-index: 9999;
     padding: 22px;
     left: 0px;
 }
@@ -87724,5 +87724,14 @@ background: #fff;
 .adjust-ecom.sec-ecomm {margin-bottom: 0}
 .adjust-ecom .temp-demo{float:left;width:100%;}
 
-.bot-circle.with-bar {top:calc(100% - 160px) !important;}
-.og-chat-box-outer.with-bar-new .og-chat-box{bottom:174px !important;}
+
+
+
+@media (max-width: 768px){
+
+.bot-circle.with-bar {z-index:999 !important; height:60px; width:60px;}
+/* .og-chat-box-outer.with-bar {z-index:99 !important} */
+.og-chat-box-outer.with-bar-new {z-index:99 !important; }
+.og-chat-box-outer.with-bar-active {z-index:999 !important; }
+
+}

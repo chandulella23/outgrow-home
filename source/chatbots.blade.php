@@ -1365,20 +1365,35 @@ var intercomVal=setInterval(() => {
 	clearInterval(intercomVal);
 	}
 }, 0);
+
 setInterval(() => {
-	var cookieSection = document.querySelector('.section.sec-cookies');
-	if (!cookieSection.classList.contains('hide')) {
 	if(document.getElementById('bot-circle')){
 		document.getElementById('bot-circle').classList.add("with-bar");	
 		document.querySelector('.og-chat-box-outer').classList.add("with-bar-new");
+<<<<<<< HEAD
+=======
 	}
 	}else{
 		if(document.getElementById('bot-circle')){
 		document.getElementById('bot-circle').classList.remove("with-bar");	
 		document.querySelector('.og-chat-box-outer').classList.remove("with-bar-new");
 	}
+>>>>>>> e600892f0ca81d40b06dadddff86d1e13068bf4a
 	}
 }, 0);
+jQuery( "#bot-circle" ).click(function() {
+	console.log("--------clicked 1---------");
+ if(document.querySelector('.og-chat-box-outer').classList.contains('with-bar-new')){
+	console.log("--------clicked 2---------");
+	document.querySelector('.og-chat-box-outer').classList.remove("with-bar-new");
+	document.querySelector('.og-chat-box-outer').classList.add("with-bar-active");
+ }
+
+});
+// function ogAnimationInit(){
+// 	document.querySelector('.og-chat-box-outer').classList.remove("with-bar-new");
+// 	document.querySelector('.og-chat-box-outer').classList.add("with-bar-active");
+// }
 
 // intercom hiding ends
 function triggerLiveStaticReviews () {
