@@ -87725,8 +87725,7 @@ background: #fff;
 .adjust-ecom .temp-demo{float:left;width:100%;}
 
 
-
-
+.bot-circle.with-bar {z-index:999 !important;}
 @media (max-width: 768px){
 
 .bot-circle.with-bar {z-index:999 !important; height:60px; width:60px;}
