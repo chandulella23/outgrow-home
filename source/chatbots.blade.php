@@ -25,6 +25,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ $page->baseUrl }}/css/navbar.css">
 	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+
+	<link href="https://dyv6f9ner1ir9.cloudfront.net/assets/css/shared/chat.css" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><a href="javascript:void(0);" style="background-color: #Fb5f66" class="bot-circle right" id="bot-circle" onclick="ogAnimationInit()"><div class="bot-circle-icon-open"><i style="color: #ffffff" class="material-icons">chat</i></div><div class="bot-circle-icon-close"><i style="color: #ffffff" class="material-icons">close</i></div><div class="og-chat-tooltip"><p>Talk to an Outgrow Chatbot</p></div></a><div class="og-chat-box-outer"><div class="og-chat-box no-animation" id="og-chat-box"><div class="og-chat-box-top" style="background-color: #Fb5f66"><a href="javascript:void(0);" class="bot-circle-mobile" id="bot-circle-mobile" onclick="ogAnimationClose()"><div class="bot-circle-icon-close"><i style="color: #ffffff" class="material-icons">close</i></div></a></div><iframe src="https://influencers.outgrow.us/5c91ffff550bfd5005e995d0" width="100%" height="100%"></iframe></div></div><script src="https://dyv6f9ner1ir9.cloudfront.net/assets/js/chat.js"></script>
 @endsection
 
 @section('pageClass', '')
@@ -1355,6 +1357,18 @@
   </div>
 
 <script>
+// hiding intercom
+var intercomVal=setInterval(() => {
+	if(document.getElementById('intercom-container')){
+	document.getElementById('intercom-container').classList.add("hide");
+	}
+}, 10);
+
+setTimeout(() => {
+	document.getElementById('intercom-container').classList.add("hide");
+	clearInterval(intercomVal);
+}, 0);
+// intercom hiding ends
 function triggerLiveStaticReviews () {
 				var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
 				var live = document.querySelector('#liveReviews');
