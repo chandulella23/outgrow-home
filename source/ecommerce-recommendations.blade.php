@@ -675,10 +675,12 @@
 									<span class="dot"></span>c </span>
 								</span>
 							</span>
+							<div class="ecom-layout-btn">
 							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/which-sports-watch-is-best-suited-to-your-needs">
 							Preview</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -704,10 +706,11 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
+							<div class="ecom-layout-btn">
 							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/premadeWhich-Sunglasses-Suit-Your-Face-the-Best">
-							Preview</a>
+							Preview</a></div>
 						</div>
 					</div>
 				</div>
@@ -733,10 +736,12 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
+							<div class="ecom-layout-btn">
 							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/Which-makeup-set-suits-your-face-the-best">
 							Preview</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -762,10 +767,12 @@
 								<span class="dot"></span>c </span>
 							</span>
 							</span>
+							<div class="ecom-layout-btn">
 							<button class="btn btn-red btn-hover" type="button" onclick="location.href = '//app.outgrow.co/signup'">
 							<!----> Use Layout</button>
 							<a class="btn btn-red btn-hover temp-iframe-preview" target="_blank" href="https://premade.outgrow.us/what-is-the-best-smartphone-that-you-can-afford">
 							Preview</a>
+							</div>
 						</div>
 					</div>
 				</div>

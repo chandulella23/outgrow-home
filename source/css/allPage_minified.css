@@ -85887,10 +85887,18 @@ i.zmdi.zmdi-twitter-box {
     }
 }
 @media (max-width: 480px) {
+    .ecom-layout-btn{float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;}
+    /* .ecom-layout-btn{margin-right:35px!important;} */
     .temp-demo .content .btn-red {
         float: none!important;
         margin: 0 auto 15px;
     }
+    .adjust-ecom .temp-demo .content .btn-red{float:right!important;margin: 0;margin-bottom:15px;}
+    .adjust-ecom .content a.temp-iframe-preview{margin-right: 10px!important;}
     .temp-demo .content .content-sec {
         width: 100%;
         text-align: center;
