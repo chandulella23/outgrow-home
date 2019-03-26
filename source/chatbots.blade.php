@@ -1370,6 +1370,15 @@ setInterval(() => {
 	if(document.getElementById('bot-circle')){
 		document.getElementById('bot-circle').classList.add("with-bar");	
 		document.querySelector('.og-chat-box-outer').classList.add("with-bar-new");
+<<<<<<< HEAD
+=======
+	}
+	}else{
+		if(document.getElementById('bot-circle')){
+		document.getElementById('bot-circle').classList.remove("with-bar");	
+		document.querySelector('.og-chat-box-outer').classList.remove("with-bar-new");
+	}
+>>>>>>> e600892f0ca81d40b06dadddff86d1e13068bf4a
 	}
 }, 0);
 jQuery( "#bot-circle" ).click(function() {
