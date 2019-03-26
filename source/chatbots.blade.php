@@ -1360,40 +1360,33 @@
 // hiding intercom
 var intercomVal=setInterval(() => {
 	if(document.getElementById('intercom-container')){
-		console.log("00000000000000000000");
 	document.getElementById('intercom-container').classList.add("hide");
 	clearInterval(intercomVal);
 	}
 }, 0);
 
-setInterval(() => {
+var interval1=setInterval(() => {
 	if(document.getElementById('bot-circle')){
+		if(	document.querySelector(".og-chat-box-outer").classList.contains("with-bar-active")){
+			document.querySelector(".og-chat-box-outer").classList.remove("with-bar-active");
+		}
 		document.getElementById('bot-circle').classList.add("with-bar");	
 		document.querySelector('.og-chat-box-outer').classList.add("with-bar-new");
-<<<<<<< HEAD
-=======
 	}
-	}else{
-		if(document.getElementById('bot-circle')){
-		document.getElementById('bot-circle').classList.remove("with-bar");	
-		document.querySelector('.og-chat-box-outer').classList.remove("with-bar-new");
-	}
->>>>>>> e600892f0ca81d40b06dadddff86d1e13068bf4a
-	}
+	clearInterval(interval1);
 }, 0);
-jQuery( "#bot-circle" ).click(function() {
-	console.log("--------clicked 1---------");
- if(document.querySelector('.og-chat-box-outer').classList.contains('with-bar-new')){
-	console.log("--------clicked 2---------");
-	document.querySelector('.og-chat-box-outer').classList.remove("with-bar-new");
-	document.querySelector('.og-chat-box-outer').classList.add("with-bar-active");
- }
 
+document.getElementById("bot-circle").addEventListener("click",()=>{
+	document.querySelector(".og-chat-box-outer").classList.remove("with-bar-new");
+	document.querySelector(".og-chat-box-outer").classList.add("with-bar-active");
+ 
 });
-// function ogAnimationInit(){
-// 	document.querySelector('.og-chat-box-outer').classList.remove("with-bar-new");
-// 	document.querySelector('.og-chat-box-outer').classList.add("with-bar-active");
-// }
+
+document.getElementById("bot-circle-mobile").addEventListener("click",()=>{
+	document.querySelector(".og-chat-box-outer").classList.remove("with-bar-active");
+	document.querySelector(".og-chat-box-outer").classList.add("with-bar-new");
+ 
+});
 
 // intercom hiding ends
 function triggerLiveStaticReviews () {
