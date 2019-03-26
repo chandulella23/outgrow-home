@@ -18119,9 +18119,9 @@ iframe[name=google_conversion_frame] {
     #video-modal button.close.btn-close {
         right: -28% !important;
     }
-    .startTrial-outer i.material-icons {
+    /* .startTrial-outer i.material-icons {
         left: 46px!important;
-    }
+    } */
     .startTrial-outer {
         margin-top: 40px;
         padding-left: 30px;
