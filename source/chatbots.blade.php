@@ -1365,6 +1365,21 @@ var intercomVal=setInterval(() => {
 	clearInterval(intercomVal);
 	}
 }, 0);
+setInterval(() => {
+	var cookieSection = document.querySelector('.section.sec-cookies');
+	if (!cookieSection.classList.contains('hide')) {
+	if(document.getElementById('bot-circle')){
+		document.getElementById('bot-circle').classList.add("with-bar");	
+		document.querySelector('.og-chat-box-outer').classList.add("with-bar");
+	}
+	}else{
+		if(document.getElementById('bot-circle')){
+		document.getElementById('bot-circle').classList.remove("with-bar");	
+		document.querySelector('.og-chat-box-outer').classList.remove("with-bar");
+	}
+	}
+}, 0);
+
 // intercom hiding ends
 function triggerLiveStaticReviews () {
 				var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
