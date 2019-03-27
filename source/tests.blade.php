@@ -1427,7 +1427,7 @@ function getTemplateName(template) {
 						// window.calcs.forEach(element => {
 						// 	console.log("--",element.type);
                         // });
-                        window.allCalcs = window.calcs.filter(calc=>calc.type !== 'Graded Quiz')
+                        // window.allCalcs = window.calcs.filter(calc=>calc.type !== 'Graded Quiz')
                         window.calcs = window.calcs.filter(calc=>calc.type === 'Graded Quiz')
 						window.industries = res.data.industries;
 						getExistingIndustries(true);
@@ -1467,34 +1467,34 @@ function getTemplateName(template) {
 							}
 							calc['type'] = getCalcType(calc['type']);
                         });
-                        window.allCalcs.forEach(calc => {
-							calc['GIF'] = calc.media;
-							calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
-							calc['Name'] = calc.title;
-							calc['id'] = 'id' + calc._id;
-							calc['Description'] = calc.description;
-							let layout = getTemplateName(calc.template);
-							calc['Layout'] = layout ? layout.text : 'Stockholm';
-							calc['Published Link'] = calc.liveApp.url;
-							calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
-							if (calc.launch_date !== null) {
-								let launch_date = new Date(calc.launch_date);
-								let day = launch_date.getUTCDate();
-								let month = launch_date.getUTCMonth();
-								let year = launch_date.getUTCFullYear();
-								let ev = {
-									Date: new Date(year, month, day),
-									id: calc._id,
-									Title: calc.title,
-									Link: '',
-									Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
-									Description: calc.Description,
-									EventName: calc.event_name
-								};
-								window.events.push(ev);
-							}
-							calc['type'] = getCalcType(calc['type']);
-						});
+                        // window.allCalcs.forEach(calc => {
+						// 	calc['GIF'] = calc.media;
+						// 	calc['Industry'] = calc.industry.replace(/(\s|&)/g, '');
+						// 	calc['Name'] = calc.title;
+						// 	calc['id'] = 'id' + calc._id;
+						// 	calc['Description'] = calc.description;
+						// 	let layout = getTemplateName(calc.template);
+						// 	calc['Layout'] = layout ? layout.text : 'Stockholm';
+						// 	calc['Published Link'] = calc.liveApp.url;
+						// 	calc['filters'] = ['filter-auto', calc.Industry, calc.type.replace(/\s/g, '')];
+						// 	if (calc.launch_date !== null) {
+						// 		let launch_date = new Date(calc.launch_date);
+						// 		let day = launch_date.getUTCDate();
+						// 		let month = launch_date.getUTCMonth();
+						// 		let year = launch_date.getUTCFullYear();
+						// 		let ev = {
+						// 			Date: new Date(year, month, day),
+						// 			id: calc._id,
+						// 			Title: calc.title,
+						// 			Link: '',
+						// 			Image: calc.media ? calc.media : 'https://dzvexx2x036l1.cloudfront.net/default_premade.jpg',
+						// 			Description: calc.Description,
+						// 			EventName: calc.event_name
+						// 		};
+						// 		window.events.push(ev);
+						// 	}
+						// 	calc['type'] = getCalcType(calc['type']);
+						// });
 						jQuery('.preloader').addClass('hide');
 						jQuery('.premade-template-new').removeClass('hide')
 						setPremade();
