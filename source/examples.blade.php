@@ -514,8 +514,94 @@
 								</div>
 								<div class="swiper-pagination"></div> -->
 							</div>
+							<script type="text/javascript">
+								let CLIENT_ID = '370027192517-p99ot4299pu718rf5o7cl29unpefu48t.apps.googleusercontent.com';
+								let API_KEY = 'AIzaSyCU2M3qcF0uBORatBRSMkBOY5wlHxEvx_Q';
+								let DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
+								let SCOPES = "https://www.googleapis.com/auth/calendar";
 
-							<script>
+								function handleClientLoad() {
+									gapi.load('client:auth2', initClient);
+								}
+
+								function initClient() {
+									gapi.client.init({
+										apiKey: API_KEY,
+										clientId: CLIENT_ID,
+										discoveryDocs: DISCOVERY_DOCS,
+										scope: SCOPES
+									}).then(function () {
+										gapi.auth2.getAuthInstance().signIn();
+										gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+										updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+									}, function (error) {
+										console.log(JSON.stringify(error, null, 2));
+									});
+								}
+
+								function updateSigninStatus(isSignedIn) {
+									if (isSignedIn) {
+										addUpcomingEvent();
+									} else {
+									}
+								}
+
+								function addUpcomingEvent() {
+									for(let i=0; i<window.selectedEventForCalender.length;i++) {
+										gapi.client.calendar.events.list({
+											'calendarId': 'primary',
+											'timeMin': (new Date()).toISOString(),
+											'summary': window.selectedEventForCalender[i].EventName,
+											'showDeleted': false,
+											'singleEvents': true,
+											'orderBy': 'startTime'
+										}).
+										then(function(response) {
+											let events = response.result.items;
+											if (events.length > 0) {
+											} else {
+												let date = window.selectedEventForCalender[i].Date;
+												let month = ("0" + (date.getMonth()+1)).slice(-2);
+												let day  = ("0" + date.getDate()).slice(-2);
+												let startTime = [ date.getFullYear(), month, day ].join("-") + 'T00:00:00-00:00'
+												let endTime = [ date.getFullYear(), month, day ].join("-") + 'T23:59:00-00:00'
+												var event = {
+													'summary': window.selectedEventForCalender[i].EventName,
+													'location': 'New York City, New York, United States, 10005',
+													'description': window.selectedEventForCalender[i].Description,
+													'start': {
+													'dateTime': startTime,
+													'timeZone': 'America/New_York'
+												},
+												'end': {
+													'dateTime': endTime,
+													'timeZone': 'America/New_York'
+												},
+												'attendees': [
+													{ 'email': 'questions@outgrow.co' },
+												],
+												'reminders': {
+													'useDefault': false,
+													'overrides': [
+														{ 'method': 'email', 'minutes': 24 * 60 },
+														{ 'method': 'popup', 'minutes': 10 }
+													]
+												}
+												};
+												gapi.client.calendar.events.insert({
+													'calendarId': 'primary',
+													'resource': event
+												}).then(function (response) {
+													// console.log("@@@@@@@@@@@",response)
+												});
+											}
+										});
+									}
+								}
+								
+
+							</script>
+							<script async defer src="https://apis.google.com/js/api.js">
 								// var swiper = new Swiper('.swiper-container-blog', {
 								// 	pagination: '.swiper-pagination',
 								// 	paginationClickable: true,
@@ -532,7 +618,14 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer calendar-wrapper fixed-width">
-						<h4>Upcoming Marketing Events</h4>
+						<h4 ><div class="popover-base">Upcoming Marketing Events</div> 
+						<div class="base">
+						<i class="material-icons ">info_outline</i>
+						<span class="popover-block-new">
+						Right Click on Any Event to Add It to Your Google Calendar
+						</span>
+								</div>
+					</h4>
 						<div class="recentNews-inner calender-outer">
 							<div class="inner-box" data-simplebar data-simplebar-auto-hide="false">
 								<div id="calendar"> </div>							

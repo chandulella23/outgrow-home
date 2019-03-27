@@ -18119,9 +18119,9 @@ iframe[name=google_conversion_frame] {
     #video-modal button.close.btn-close {
         right: -28% !important;
     }
-    .startTrial-outer i.material-icons {
+    /* .startTrial-outer i.material-icons {
         left: 46px!important;
-    }
+    } */
     .startTrial-outer {
         margin-top: 40px;
         padding-left: 30px;
@@ -85700,7 +85700,7 @@ i.zmdi.zmdi-twitter-box {
     position: fixed;
     bottom: 0;
     margin: 0;
-    z-index: 999;
+    z-index: 9999;
     padding: 22px;
     left: 0px;
 }
@@ -85887,10 +85887,18 @@ i.zmdi.zmdi-twitter-box {
     }
 }
 @media (max-width: 480px) {
+    .ecom-layout-btn{float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;}
+    /* .ecom-layout-btn{margin-right:35px!important;} */
     .temp-demo .content .btn-red {
         float: none!important;
         margin: 0 auto 15px;
     }
+    .adjust-ecom .temp-demo .content .btn-red{float:right!important;margin: 0;margin-bottom:15px;}
+    .adjust-ecom .content a.temp-iframe-preview{margin-right: 10px!important;}
     .temp-demo .content .content-sec {
         width: 100%;
         text-align: center;
@@ -87715,3 +87723,14 @@ background: #fff;
 .adjust-ecom.sec-recom-quiz{padding-bottom: 35px;}
 .adjust-ecom.sec-ecomm {margin-bottom: 0}
 .adjust-ecom .temp-demo{float:left;width:100%;}
+
+
+.bot-circle.with-bar {z-index:999 !important;}
+@media (max-width: 768px){
+
+.bot-circle.with-bar {z-index:999 !important; height:60px; width:60px;}
+/* .og-chat-box-outer.with-bar {z-index:99 !important} */
+.og-chat-box-outer.with-bar-new {z-index:0 !important; }
+.og-chat-box-outer.with-bar-active {z-index:999 !important; }
+
+}

@@ -1358,27 +1358,36 @@
 
 <script>
 // hiding intercom
-var intercomVal=setInterval(() => {
-	if(document.getElementById('intercom-container')){
-		console.log("00000000000000000000");
-	document.getElementById('intercom-container').classList.add("hide");
-	clearInterval(intercomVal);
-	}
-}, 0);
-setInterval(() => {
-	var cookieSection = document.querySelector('.section.sec-cookies');
-	if (!cookieSection.classList.contains('hide')) {
+
+// var intercomVal=setInterval(() => {
+// 	if(document.getElementById('intercom-container')){
+// 	document.getElementById('intercom-container').classList.add("hide");
+// 	clearInterval(intercomVal);
+// 	}
+// }, 0);
+
+var interval1=setInterval(() => {
 	if(document.getElementById('bot-circle')){
+		if(	document.querySelector(".og-chat-box-outer").classList.contains("with-bar-active")){
+			document.querySelector(".og-chat-box-outer").classList.remove("with-bar-active");
+		}
 		document.getElementById('bot-circle').classList.add("with-bar");	
-		document.querySelector('.og-chat-box-outer').classList.add("with-bar");
+		document.querySelector('.og-chat-box-outer').classList.add("with-bar-new");
 	}
-	}else{
-		if(document.getElementById('bot-circle')){
-		document.getElementById('bot-circle').classList.remove("with-bar");	
-		document.querySelector('.og-chat-box-outer').classList.remove("with-bar");
-	}
-	}
+	clearInterval(interval1);
 }, 0);
+
+document.getElementById("bot-circle").addEventListener("click",()=>{
+	document.querySelector(".og-chat-box-outer").classList.remove("with-bar-new");
+	document.querySelector(".og-chat-box-outer").classList.add("with-bar-active");
+ 
+});
+
+document.getElementById("bot-circle-mobile").addEventListener("click",()=>{
+	document.querySelector(".og-chat-box-outer").classList.remove("with-bar-active");
+	document.querySelector(".og-chat-box-outer").classList.add("with-bar-new");
+ 
+});
 
 // intercom hiding ends
 function triggerLiveStaticReviews () {

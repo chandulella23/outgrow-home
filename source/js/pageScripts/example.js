@@ -204,10 +204,10 @@ window.ready = function () {
     let host = window.location.hostname;
     let url = 'https://api.outgrow.co/api/v1/admin/getCalculators';
     let url1 = 'https://api.outgrow.co/api/v1/admin/getEventsByDate';
-    if (host === 'rely.co' || host === 'localhost') {
-        // url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getCalculators';
-        url1 = 'https://outgrow-api.herokuapp.com/api/v1/admin/getEventsByDate';
-    }
+    // if (host === 'rely.co' || host === 'localhost') {
+    //     // url = 'https://outgrow-api.herokuapp.com/api/v1/admin/getCalculators';
+    //     url1 = 'https://outgrow-api.herokuapp.com/api/v1/admin/getEventsByDate';
+    // }
     // let http1 = new XMLHttpRequest();
 
     let res = {
@@ -464,7 +464,17 @@ function renderPremadeCalcs(responseText) {
         var settings = {};
         var element = document.getElementById('calendar');
         caleandar(element, window.events, settings);
-
+        jQuery('.eventday').contextmenu(function(e) {
+            window.selectedEventForCalender = [];
+            let selectedDate = e.target.getAttribute('content').trim();
+            window.selectedEventForCalender = window.events.filter((event) => {
+                if (event.Date == selectedDate) {
+                    return event;
+                }
+            });
+            handleClientLoad(window.selectedEventForCalender);
+            e.preventDefault(); 
+          });
         jQuery('.eventday').popover({
             placement: 'top',
             trigger: 'hover',
@@ -586,6 +596,17 @@ function renderPremadeCalcs(responseText) {
                 container: 'body',
                 html: true
             });
+            jQuery('.eventday').contextmenu(function(e) {
+                self.selectedEventForCalender = [];
+                let selectedDate = e.target.getAttribute('content').trim();
+                let selectedEventForCalender = window.events.filter((event) => {
+                    if (event.Date == selectedDate) {
+                        return event;
+                    }
+                });
+                handleClientLoad(selectedEventForCalender);
+                e.preventDefault(); 
+              });
         });
 
 
