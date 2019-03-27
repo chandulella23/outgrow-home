@@ -618,7 +618,14 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 np recentNews-outer calendar-wrapper fixed-width">
-						<h4>Upcoming Marketing Events</h4>
+						<h4 ><div class="popover-base">Upcoming Marketing Events</div> 
+						<div class="base">
+						<i class="material-icons ">info_outline</i>
+						<span class="popover-block-new">
+						Right Click on Any Event to Add It to Your Google Calendar
+						</span>
+								</div>
+					</h4>
 						<div class="recentNews-inner calender-outer">
 							<div class="inner-box" data-simplebar data-simplebar-auto-hide="false">
 								<div id="calendar"> </div>							
