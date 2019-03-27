@@ -221,7 +221,7 @@
 									<option value="Travel">Travel</option>
 									<option value="TVandEntertainment">TV and Entertainment</option>
 									<option value="Trending">Trending</option>
-
+                                    <option value="All">All</option>
 								</select>
 							</div>
 						</div>
@@ -1500,8 +1500,8 @@ function getTemplateName(template) {
 						setPremade();
 						let $select = jQuery("#select-list").selectize();
 						let selectize = $select[0].selectize;
-						selectize.setValue('Education');
-						shuffleCalcs('Education');
+						selectize.setValue('All');
+						shuffleCalcs('All');
 					}
 				};
 				http.send();
