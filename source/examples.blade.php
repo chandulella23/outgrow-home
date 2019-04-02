@@ -622,7 +622,7 @@
 						<div class="base">
 						<i class="material-icons ">info_outline</i>
 						<span class="popover-block-new">
-						Right Click on Any Event to Add It to Your Google Calendar
+						Right click on any event to add it to your Google Calendar
 						</span>
 								</div>
 					</h4>
