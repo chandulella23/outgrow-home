@@ -472,7 +472,7 @@ function renderPremadeCalcs(responseText) {
                     return event;
                 }
             });
-            handleClientLoad(window.selectedEventForCalender);
+            handleClientLoad();
             e.preventDefault(); 
           });
         jQuery('.eventday').popover({
@@ -597,14 +597,14 @@ function renderPremadeCalcs(responseText) {
                 html: true
             });
             jQuery('.eventday').contextmenu(function(e) {
-                self.selectedEventForCalender = [];
+                window.selectedEventForCalender = [];
                 let selectedDate = e.target.getAttribute('content').trim();
-                let selectedEventForCalender = window.events.filter((event) => {
+                window.selectedEventForCalender = window.events.filter((event) => {
                     if (event.Date == selectedDate) {
                         return event;
                     }
                 });
-                handleClientLoad(selectedEventForCalender);
+                handleClientLoad();
                 e.preventDefault(); 
               });
         });
